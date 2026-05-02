@@ -82,11 +82,15 @@ function renderChapterHTML(ch) {
       <ul>${ch.parse_warnings.map(w => `<li>${escapeHTML(w)}</li>`).join("")}</ul>
     </div>` : "";
 
-  const segments = ch.segments.map(s => `
+  const segments = ch.segments.map(s => {
+    const r = renderSegmentText(s);
+    return `
     <div class="segment" id="${s.id}">
       <div class="seg-id"><a href="#/chapter/${ch.book}/${ch.juan}#${s.id}" title="複製鏈接">${escapeHTML(s.id.split('.').slice(-1)[0])}</a></div>
-      <div class="seg-text">${renderSegmentText(s)}</div>
-    </div>`).join("");
+      <div class="seg-text">${r.textHTML}</div>
+      ${r.notesHTML}
+    </div>`;
+  }).join("");
 
   return `
     <div class="chapter-header">
@@ -115,26 +119,36 @@ function renderChapterNav(ch) {
 }
 
 /**
- * Walk the segment text and intercalate annotation HTML at the right offsets.
- * Returns the rendered HTML for the segment body.
+ * Render the segment as separated 正文 + 注解 block.
+ * - 正文: clean text. Temporal surfaces are kept highlighted in-flow (they are
+ *   short and contextual). 裴注 are NOT inlined — only a small numbered marker
+ *   `[N]` appears at the anchor position.
+ * - 注解块 (notes): a footnote-style list rendered below 正文, listing every
+ *   annotation for the segment.
  *
- * Annotations carry `at` (offset into seg.text) and `length` (0 for point insertions
- * like 裴注; >0 for ranges like temporal surface highlights).
+ * Annotations carry `at` (offset into seg.text) and `length` (0 for point
+ * insertions like 裴注; >0 for ranges like temporal surface highlights).
+ *
+ * Returns { textHTML, notesHTML }.
  */
 function renderSegmentText(seg) {
   const text = seg.text;
+  // Collect pei + temporal in document order to assign stable display numbers.
+  const peis = seg.annotations.filter(a => a.type !== "temporal");
+  const temporals = seg.annotations.filter(a => a.type === "temporal");
+  const peiNum = new Map();
+  peis.forEach((a, i) => peiNum.set(a.id, i + 1));
+  const tempNum = new Map();
+  temporals.forEach((a, i) => tempNum.set(a.id, i + 1));
+
   const events = []; // { pos, prio, kind, ann }
-  for (const a of seg.annotations) {
-    if (a.type === "temporal") {
-      events.push({ pos: a.at, prio: 0, kind: "temp_open", ann: a });
-      events.push({ pos: a.at + a.length, prio: 1, kind: "temp_close", ann: a });
-    } else if (a.type === "pei" || a.type === "chen" || a.type === "editor" || a.type === "crossref") {
-      // Point insertions render INSIDE any wrapping temporal span at the same position.
-      events.push({ pos: a.at, prio: 2, kind: "pei_point", ann: a });
-    }
+  for (const a of temporals) {
+    events.push({ pos: a.at, prio: 0, kind: "temp_open", ann: a });
+    events.push({ pos: a.at + a.length, prio: 1, kind: "temp_close", ann: a });
   }
-  // Sort: position ascending; close-temp (prio 1) before open-temp at same pos? No —
-  // open before close so adjacent ranges render correctly. We sort prio asc within same pos.
+  for (const a of peis) {
+    events.push({ pos: a.at, prio: 2, kind: "pei_marker", ann: a });
+  }
   events.sort((a, b) => a.pos - b.pos || a.prio - b.prio);
 
   let out = "";
@@ -148,13 +162,30 @@ function renderSegmentText(seg) {
       out += `<span class="temporal" title="${escapeAttr(temporalTitle(ev.ann))}">`;
     } else if (ev.kind === "temp_close") {
       out += `</span><span class="temporal-ad" title="${escapeAttr(temporalTitle(ev.ann))}">${formatAD(ev.ann)}</span>`;
-    } else if (ev.kind === "pei_point") {
-      const marker = peiMarker(ev.ann);
-      out += `<span class="pei" data-marker="${escapeAttr(marker)}" title="${escapeAttr(ev.ann.text)}"><span class="pei-text">${escapeHTML(ev.ann.text)}</span></span>`;
+    } else if (ev.kind === "pei_marker") {
+      const n = peiNum.get(ev.ann.id);
+      out += `<sup class="pei-ref" data-ann="${escapeAttr(ev.ann.id)}"><a href="#${ev.ann.id}-note">[${n}]</a></sup>`;
     }
   }
   if (pos < text.length) out += escapeHTML(text.slice(pos));
-  return out;
+
+  // 注解块: pei 列表 + temporal 列表（如有）
+  let notesHTML = "";
+  if (peis.length || temporals.length) {
+    const peiItems = peis.map((a, i) => `
+      <li class="note-item note-pei" id="${a.id}-note">
+        <span class="note-marker">[${i + 1}]</span>
+        <span class="note-text">${escapeHTML(a.text)}</span>
+      </li>`).join("");
+    const tempItems = temporals.map((a, i) => `
+      <li class="note-item note-temporal">
+        <span class="note-marker">時${i + 1}</span>
+        <span class="note-text">${escapeHTML(a.text)} = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}</span>
+      </li>`).join("");
+    notesHTML = `<ul class="notes">${peiItems}${tempItems}</ul>`;
+  }
+
+  return { textHTML: out, notesHTML };
 }
 
 function temporalTitle(a) {
@@ -165,13 +196,6 @@ function temporalTitle(a) {
 function formatAD(a) {
   const m = a.month_ordinal ? `/${a.month_ordinal}月` : "";
   return `AD${a.year_ad}${m}`;
-}
-
-function peiMarker(a) {
-  // Last segment of the id, e.g. "wei.1.p3.a5" → "注5"
-  const m = a.id.match(/\.([at])(\d+)$/);
-  if (!m) return "注";
-  return m[1] === "a" ? `注${m[2]}` : `t${m[2]}`;
 }
 
 /* ---------- ROUTING ---------- */
@@ -188,6 +212,7 @@ async function route() {
   const r = parseHash();
   if (r.route === "chapter") {
     await renderChapter(r.book, r.juan);
+    bindNoteJumps();
     if (r.seg) {
       const el = document.getElementById(r.seg);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -198,6 +223,22 @@ async function route() {
     await renderIndex();
     window.scrollTo(0, 0);
   }
+}
+
+// Wire up clicks on [N] markers to scroll-and-flash the matching note item.
+// We handle them in JS so the URL hash stays the chapter route.
+function bindNoteJumps() {
+  $("#content").addEventListener("click", e => {
+    const a = e.target.closest(".pei-ref a");
+    if (!a) return;
+    e.preventDefault();
+    const id = a.getAttribute("href").replace(/^#/, "");
+    const note = document.getElementById(id);
+    if (!note) return;
+    note.scrollIntoView({ behavior: "smooth", block: "center" });
+    note.classList.add("note-flash");
+    setTimeout(() => note.classList.remove("note-flash"), 1200);
+  }, { once: true });  // re-bound on each route() call
 }
 
 /* ---------- TOGGLES ---------- */

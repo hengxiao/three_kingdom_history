@@ -178,42 +178,65 @@ footer {
   font-family: ui-monospace, "SF Mono", Menlo, monospace;
 }
 
-/* pei注: inline expansion in {curly} or popover */
-.pei {
-  display: inline;
-  background: var(--pei-bg);
-  color: var(--pei);
-  font-size: 0.85em;
-  padding: 0 4px;
-  border-radius: 2px;
-  margin: 0 1px;
-}
-.pei::before { content: "〈"; opacity: 0.5; }
-.pei::after  { content: "〉"; opacity: 0.5; }
-
-/* When pei toggle is OFF: collapse into a small marker */
-body.hide-pei .pei {
-  display: inline-block;
-  background: var(--pei);
-  color: var(--bg);
-  font-size: 0.6em;
-  padding: 0 4px;
-  border-radius: 8px;
+/* 裴注 inline marker in 正文 — small superscript jumping to the notes block. */
+.pei-ref {
+  font-size: 0.7em;
   vertical-align: super;
-  cursor: help;
-  font-family: ui-monospace, monospace;
-  line-height: 1.4;
+  line-height: 1;
+  padding: 0 1px;
 }
-body.hide-pei .pei::before { content: ""; }
-body.hide-pei .pei::after  { content: ""; }
-body.hide-pei .pei .pei-text { display: none; }
-body.hide-pei .pei::before {
-  content: attr(data-marker);  /* the [注N] label */
-  opacity: 1;
+.pei-ref a {
+  color: var(--pei);
+  text-decoration: none;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
 }
+.pei-ref a:hover {
+  background: var(--pei-bg);
+  text-decoration: none;
+}
+
+/* 注解块 below 正文 — footnote style, separated from the canonical text. */
+.notes {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 8px 12px 8px 16px;
+  border-left: 2px solid var(--pei-bg);
+  background: rgba(245, 239, 222, 0.35);
+  font-size: 0.88em;
+  line-height: 1.7;
+  color: var(--pei);
+}
+.note-item {
+  display: flex; gap: 8px;
+  padding: 1px 0;
+}
+.note-marker {
+  flex-shrink: 0;
+  width: 36px;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em;
+  color: var(--pei);
+  user-select: none;
+}
+.note-temporal .note-marker { color: var(--temporal); }
+.note-temporal .note-text { color: var(--temporal); }
+.note-item:target,
+.note-item.note-flash {
+  background: var(--pei-bg);
+  border-radius: 2px;
+}
+
+body.hide-pei .pei-ref,
+body.hide-pei .note-pei { display: none; }
 
 body.hide-temporal .temporal { background: transparent; color: inherit; }
-body.hide-temporal .temporal-ad { display: none; }
+body.hide-temporal .temporal-ad,
+body.hide-temporal .note-temporal { display: none; }
+
+/* Hide the notes container when nothing is left to show. */
+body.hide-pei.hide-temporal .notes { display: none; }
+body.hide-pei .notes:has(.note-pei):not(:has(.note-temporal)) { display: none; }
+body.hide-temporal .notes:has(.note-temporal):not(:has(.note-pei)) { display: none; }
 
 .error {
   border: 1px solid var(--warn);
