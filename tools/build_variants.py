@@ -85,13 +85,22 @@ def _ensure_ctext_html(
     *,
     repo_root: Path,
     fetcher: Callable[[str], bytes],
-    no_fetch: bool,
+    mode: str = "auto",
 ) -> tuple[bytes, str] | None:
-    """Return (raw_bytes, sha256) or None if not single-page on ctext."""
+    """Return (raw_bytes, sha256) or None if the chapter is not single-page on ctext.
+
+    `mode`:
+      - "auto"      → use cached snapshot if present, otherwise fetch (idempotent retries)
+      - "no-fetch"  → never hit the network; missing snapshot returns None
+      - "refetch"   → always fetch, overwriting any cached snapshot
+    """
     src = ctext_source_path(entry, repo_root=repo_root)
-    if no_fetch:
-        if not src.exists():
+    cached = src.exists()
+    if mode == "no-fetch":
+        if not cached:
             return None
+        raw = src.read_bytes()
+    elif mode == "auto" and cached:
         raw = src.read_bytes()
     else:
         url = f"https://ctext.org/sanguozhi/{int(entry['ctext_juan'])}"
@@ -220,9 +229,9 @@ def process_one(
     repo_root: Path,
     retrieved: str,
     fetcher: Callable[[str], bytes] = ctext_fetch_default,
-    no_fetch: bool = False,
+    mode: str = "auto",
 ) -> VariantResult | VariantSkip:
-    fetched = _ensure_ctext_html(entry, repo_root=repo_root, fetcher=fetcher, no_fetch=no_fetch)
+    fetched = _ensure_ctext_html(entry, repo_root=repo_root, fetcher=fetcher, mode=mode)
     if fetched is None:
         return VariantSkip(entry=entry, reason=SKIP_REASON_TOC)
     raw, source_sha = fetched
@@ -264,20 +273,26 @@ def run(
     sleeper: Callable[[float], None] = time.sleep,
     sleep_seconds: float = 3.0,
     only: set[int] | None = None,
-    no_fetch: bool = False,
+    mode: str = "auto",
 ) -> Iterator[VariantResult | VariantSkip | VariantError]:
+    """`mode` is one of 'auto' | 'no-fetch' | 'refetch' (see _ensure_ctext_html)."""
     retrieved = retrieved or date.today().isoformat()
     first_network = True
     for entry in config:
         if only is not None and entry["ctext_juan"] not in only:
             continue
-        if not no_fetch and not first_network:
+        # Throttle only when we'll actually hit the network.
+        will_hit_network = mode == "refetch" or (
+            mode == "auto" and not ctext_source_path(entry, repo_root=repo_root).exists()
+        )
+        if will_hit_network and not first_network:
             sleeper(sleep_seconds)
-        first_network = False
+        if will_hit_network:
+            first_network = False
         try:
             yield process_one(
                 entry, repo_root=repo_root, retrieved=retrieved,
-                fetcher=fetcher, no_fetch=no_fetch,
+                fetcher=fetcher, mode=mode,
             )
         except Exception as e:  # noqa: BLE001
             yield VariantError(entry=entry, message=f"{type(e).__name__}: {e}")
@@ -290,15 +305,21 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--only", default=None)
     p.add_argument("--no-fetch", action="store_true",
                    help="reuse existing sources/ctext/ snapshots, don't hit the network")
+    p.add_argument("--refetch", action="store_true",
+                   help="always fetch, overwriting cached snapshots")
     p.add_argument("--retrieved", default=None)
     args = p.parse_args(argv)
+
+    if args.no_fetch and args.refetch:
+        p.error("--no-fetch and --refetch are mutually exclusive")
+    mode = "no-fetch" if args.no_fetch else ("refetch" if args.refetch else "auto")
 
     config = load_config(args.config)
     only = {int(x) for x in args.only.split(",")} if args.only else None
 
     n_ok = n_skip = n_err = 0
     for r in run(config, retrieved=args.retrieved, sleep_seconds=args.sleep,
-                 only=only, no_fetch=args.no_fetch):
+                 only=only, mode=mode):
         if isinstance(r, VariantError):
             n_err += 1
             print(f"FAIL ctext={r.entry['ctext_juan']} ({r.entry['book']}/{r.entry['juan']}): {r.message}",

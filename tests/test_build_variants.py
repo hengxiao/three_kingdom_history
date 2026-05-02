@@ -104,7 +104,7 @@ def test_process_one_writes_variants_yaml(tmp_path):
     result = process_one(
         entry, repo_root=tmp_path, retrieved="2026-05-01",
         fetcher=lambda url: (_ for _ in ()).throw(AssertionError("no network")),
-        no_fetch=True,
+        mode="no-fetch",
     )
     assert isinstance(result, VariantResult)
     assert result.variants_path == tmp_path / "variants" / "sanguozhi" / "wei" / "01.yaml"
@@ -116,7 +116,7 @@ def test_process_one_writes_variants_yaml(tmp_path):
 def test_variants_yaml_shape(tmp_path):
     entry = _setup_chapter(tmp_path)
     process_one(entry, repo_root=tmp_path, retrieved="2026-05-01",
-                fetcher=lambda u: b"", no_fetch=True)
+                fetcher=lambda u: b"", mode="no-fetch")
     doc = yaml.safe_load((tmp_path / "variants/sanguozhi/wei/01.yaml").read_text(encoding="utf-8"))
     assert doc["chapter"] == "wei.1"
     assert doc["canonical"] == "wikisource"
@@ -137,7 +137,7 @@ def test_skips_when_no_ctext_html(tmp_path):
     (ws_dir / "05.html").write_bytes(ws_html)
 
     result = process_one(entry, repo_root=tmp_path, retrieved="2026-05-01",
-                         fetcher=lambda u: b"", no_fetch=True)
+                         fetcher=lambda u: b"", mode="no-fetch")
     assert isinstance(result, VariantSkip)
     assert "TOC" in result.reason or "no <td" in result.reason
 
@@ -149,9 +149,59 @@ def test_skips_when_ctext_is_a_toc(tmp_path):
     toc_path = tmp_path / "sources/ctext/sanguozhi/wei/01.html"
     toc_path.write_bytes(b"<html><body>navigation only</body></html>")
     result = process_one(entry, repo_root=tmp_path, retrieved="2026-05-01",
-                         fetcher=lambda u: b"", no_fetch=True)
+                         fetcher=lambda u: b"", mode="no-fetch")
     assert isinstance(result, VariantSkip)
     assert result.reason == SKIP_REASON_TOC
+
+
+def test_auto_mode_uses_cache_without_hitting_network(tmp_path):
+    """Default 'auto' mode should reuse cached ctext snapshot if present."""
+    entry = _setup_chapter(tmp_path)
+
+    def angry_fetcher(_url):
+        raise AssertionError("auto mode must not hit the network when snapshot exists")
+
+    result = process_one(
+        entry, repo_root=tmp_path, retrieved="2026-05-01",
+        fetcher=angry_fetcher, mode="auto",
+    )
+    assert isinstance(result, VariantResult)
+
+
+def test_auto_mode_fetches_when_cache_missing(tmp_path):
+    """If snapshot missing under 'auto', fetch the URL once."""
+    entry = _setup_chapter(tmp_path)
+    # Remove the cached ctext snapshot so auto mode is forced to fetch.
+    (tmp_path / "sources/ctext/sanguozhi/wei/01.html").unlink()
+
+    calls = []
+    def fake_fetcher(url):
+        calls.append(url)
+        return CTEXT_FIXTURE.read_bytes()
+
+    result = process_one(
+        entry, repo_root=tmp_path, retrieved="2026-05-01",
+        fetcher=fake_fetcher, mode="auto",
+    )
+    assert isinstance(result, VariantResult)
+    assert calls == ["https://ctext.org/sanguozhi/1"]
+    # And the fetch is now cached for future runs.
+    assert (tmp_path / "sources/ctext/sanguozhi/wei/01.html").exists()
+
+
+def test_refetch_mode_overwrites_cache(tmp_path):
+    """'refetch' mode forces a network call even when snapshot exists."""
+    entry = _setup_chapter(tmp_path)
+    cache_before = (tmp_path / "sources/ctext/sanguozhi/wei/01.html").read_bytes()
+
+    calls = []
+    def fake_fetcher(url):
+        calls.append(url)
+        return cache_before  # same bytes, just to verify the call happened
+
+    process_one(entry, repo_root=tmp_path, retrieved="2026-05-01",
+                fetcher=fake_fetcher, mode="refetch")
+    assert len(calls) == 1
 
 
 def test_diff_records_only_for_segments_that_actually_differ(tmp_path):
@@ -172,7 +222,7 @@ def test_diff_records_only_for_segments_that_actually_differ(tmp_path):
     (tmp_path / "sources/ctext/sanguozhi/wei/01.html").write_text(fake_ctext, encoding="utf-8")
 
     process_one(entry, repo_root=tmp_path, retrieved="2026-05-01",
-                fetcher=lambda u: b"", no_fetch=True)
+                fetcher=lambda u: b"", mode="no-fetch")
     doc = yaml.safe_load((tmp_path / "variants/sanguozhi/wei/01.yaml").read_text(encoding="utf-8"))
     assert doc["segments"] == {}
     assert doc["alignment"]["n_aligned"] == 3
