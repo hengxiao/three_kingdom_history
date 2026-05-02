@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三國志知識庫</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <h1><a href="#/" id="home-link">三國志</a></h1>
+    <nav id="breadcrumbs" aria-label="导航"></nav>
+  </div>
+  <div class="header-row">
+    <div id="legend" class="legend">
+      <span class="legend-item"><span class="legend-swatch swatch-temporal"></span>時間</span>
+      <span class="legend-item"><span class="legend-swatch swatch-pei"></span>裴注</span>
+    </div>
+    <div class="controls">
+      <label class="toggle">
+        <input type="checkbox" id="show-pei" checked>
+        <span>顯示裴注</span>
+      </label>
+      <label class="toggle">
+        <input type="checkbox" id="show-temporal" checked>
+        <span>顯示時間</span>
+      </label>
+    </div>
+  </div>
+</header>
+<main id="content">載入中…</main>
+<footer>
+  <p>數據來源：<a href="https://zh.wikisource.org/wiki/三國志" target="_blank" rel="noopener">維基文庫·三國志</a>。
+     源代碼與資料：<a href="https://github.com/hengxiao/three_kingdom_history" target="_blank" rel="noopener">GitHub</a>。
+     原文（公有領域）+ 整理 MIT License。</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

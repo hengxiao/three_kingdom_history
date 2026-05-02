@@ -1,0 +1,231 @@
+/* 三國志知識庫 — minimal but readable. Serif CJK font stack. */
+
+:root {
+  --bg: #fdfaf3;
+  --fg: #1c1c1c;
+  --muted: #6b6b6b;
+  --accent: #8a3324;       /* 朱砂红 for the title */
+  --temporal: #2c5fa6;     /* 蓝 for AD year markers */
+  --temporal-bg: #e8efff;
+  --pei: #5a4a2c;          /* 茶褐 for 裴注 */
+  --pei-bg: #f5efde;
+  --rule: #d8cfae;
+  --link: #8a3324;
+  --link-hover: #b04020;
+  --warn: #b04020;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0; padding: 0;
+  font-family: "Source Han Serif TC", "Noto Serif CJK TC", "Songti TC",
+               "PingFang TC", "Songti SC", "Source Han Serif SC",
+               "Noto Serif CJK SC", "Microsoft YaHei", serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.85;
+  font-size: 17px;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+header {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+  padding: 12px 24px 8px;
+}
+.header-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+}
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+}
+header h1 a { color: var(--accent); }
+header nav#breadcrumbs {
+  font-size: 14px; color: var(--muted);
+  flex: 1;
+}
+header nav#breadcrumbs a { color: var(--muted); }
+header nav#breadcrumbs .sep { margin: 0 6px; opacity: 0.6; }
+
+.legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); }
+.legend-item { display: inline-flex; align-items: center; gap: 5px; }
+.legend-swatch {
+  display: inline-block; width: 12px; height: 12px;
+  border-radius: 2px;
+}
+.swatch-temporal { background: var(--temporal-bg); border: 1px solid var(--temporal); }
+.swatch-pei { background: var(--pei-bg); border: 1px solid var(--pei); }
+
+.controls { display: flex; gap: 14px; font-size: 14px; }
+.toggle { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+.toggle input { cursor: pointer; }
+
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 24px 60px;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding: 18px 24px;
+  font-size: 13px; color: var(--muted);
+  text-align: center;
+}
+
+/* ---------- index page ---------- */
+.book-section {
+  margin-bottom: 44px;
+}
+.book-section h2 {
+  margin: 0 0 12px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+  color: var(--accent);
+  font-size: 20px;
+}
+.chapter-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px 16px;
+  list-style: none; padding: 0; margin: 0;
+}
+.chapter-list li {
+  border-left: 3px solid var(--rule);
+  padding: 4px 10px;
+  background: rgba(255,255,255,0.4);
+}
+.chapter-list li a { display: block; }
+.chapter-list .chapter-title { font-weight: 500; }
+.chapter-list .chapter-meta {
+  display: block; font-size: 12px; color: var(--muted);
+}
+
+/* ---------- chapter page ---------- */
+.chapter-header {
+  margin-bottom: 20px;
+}
+.chapter-header h2 {
+  margin: 0 0 4px;
+  font-size: 26px;
+  letter-spacing: 0.05em;
+}
+.chapter-header .chapter-sub {
+  font-size: 14px; color: var(--muted);
+}
+.chapter-nav {
+  display: flex; justify-content: space-between;
+  font-size: 14px;
+  margin: 14px 0 24px;
+}
+
+.parse-warnings {
+  background: #fff4e8;
+  border-left: 3px solid var(--warn);
+  padding: 8px 12px;
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: var(--warn);
+}
+.parse-warnings ul { margin: 4px 0 0 18px; padding: 0; }
+
+.segment {
+  margin: 0 0 18px;
+  position: relative;
+  padding-left: 56px;
+}
+.segment .seg-id {
+  position: absolute; left: 0; top: 0;
+  width: 48px;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 11px;
+  color: var(--muted);
+  user-select: none;
+  text-align: right;
+  padding-right: 8px;
+}
+.segment .seg-id a { color: var(--muted); }
+.segment .seg-text {
+  word-spacing: -0.05em;
+}
+
+/* temporal: highlight surface text + show AD inline */
+.temporal {
+  background: var(--temporal-bg);
+  color: var(--temporal);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+.temporal-ad {
+  display: inline-block;
+  font-size: 0.7em;
+  vertical-align: super;
+  color: var(--temporal);
+  background: var(--temporal-bg);
+  border: 1px solid var(--temporal);
+  border-radius: 8px;
+  padding: 0 6px;
+  margin-left: 2px;
+  line-height: 1.4;
+  white-space: nowrap;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* pei注: inline expansion in {curly} or popover */
+.pei {
+  display: inline;
+  background: var(--pei-bg);
+  color: var(--pei);
+  font-size: 0.85em;
+  padding: 0 4px;
+  border-radius: 2px;
+  margin: 0 1px;
+}
+.pei::before { content: "〈"; opacity: 0.5; }
+.pei::after  { content: "〉"; opacity: 0.5; }
+
+/* When pei toggle is OFF: collapse into a small marker */
+body.hide-pei .pei {
+  display: inline-block;
+  background: var(--pei);
+  color: var(--bg);
+  font-size: 0.6em;
+  padding: 0 4px;
+  border-radius: 8px;
+  vertical-align: super;
+  cursor: help;
+  font-family: ui-monospace, monospace;
+  line-height: 1.4;
+}
+body.hide-pei .pei::before { content: ""; }
+body.hide-pei .pei::after  { content: ""; }
+body.hide-pei .pei .pei-text { display: none; }
+body.hide-pei .pei::before {
+  content: attr(data-marker);  /* the [注N] label */
+  opacity: 1;
+}
+
+body.hide-temporal .temporal { background: transparent; color: inherit; }
+body.hide-temporal .temporal-ad { display: none; }
+
+.error {
+  border: 1px solid var(--warn);
+  background: #fff4e8;
+  padding: 14px 18px;
+  color: var(--warn);
+}
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .segment { padding-left: 0; }
+  .segment .seg-id { position: static; display: block; text-align: left; padding: 0 0 4px; }
+  .header-row { gap: 8px; }
+  .controls { width: 100%; }
+}
