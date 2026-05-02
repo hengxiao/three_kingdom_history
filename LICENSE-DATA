@@ -1,0 +1,46 @@
+Public Domain Dedication for Text Content
+=========================================
+
+The historical Chinese text content in this repository — under
+`texts/`, `annotations/`, `variants/`, and the body of source HTML
+snapshots in `sources/` — is in the public domain.
+
+Specifically:
+
+  - 《三國志》(Sanguozhi) was written by 陳壽 (Chen Shou, 233–297 CE).
+  - 裴松之 (Pei Songzhi, 372–451 CE) compiled the supplementary 注
+    (annotations) cited under 〈...〉 brackets and stored under
+    `annotations/`.
+
+Both works have been in the public domain worldwide for well over a
+thousand years, far exceeding any copyright term that has ever existed.
+
+Compilation / structural rights
+-------------------------------
+
+To the extent that any database, sui generis, or arrangement-of-facts
+rights might attach to the structured form of this corpus (segment IDs,
+chapter ordering, the choice of which paragraph boundaries to record),
+the contributors waive those rights as well, under the Creative Commons
+CC0 1.0 Universal Public Domain Dedication:
+
+    https://creativecommons.org/publicdomain/zero/1.0/
+
+You may copy, modify, distribute, and use the data, even for commercial
+purposes, all without asking permission.
+
+Source attribution (informational)
+----------------------------------
+
+While not legally required given the public-domain status of the text,
+you are encouraged to credit upstream sources when redistributing:
+
+  - Canonical text: zh.wikisource.org (per-page URLs recorded in
+    each text file's `source.url` frontmatter field).
+  - Variant comparison: ctext.org (per-page URLs recorded in
+    `variants/.../sources/ctext.url`).
+
+The HTML snapshots under `sources/wikisource/` and `sources/ctext/`
+were retrieved as-is from those sites and are kept here for
+reproducibility (every parse step can be re-run offline against them).
+The textual content within the snapshots is, as above, public domain.
