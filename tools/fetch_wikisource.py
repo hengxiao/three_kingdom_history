@@ -148,7 +148,27 @@ def _split_main_and_annotations(text: str) -> tuple[str, list[WSAnnotation]]:
     return "".join(main), annotations
 
 
-def _process_paragraphs_strict(p_texts: list[str]) -> list[tuple[str, list[WSAnnotation]]]:
+def _orphan_bracket_positions(text: str) -> tuple[set[int], set[int]]:
+    """Find positions of unmatched 〈 (no later 〉 to close them) and unmatched 〉.
+
+    Used to skip Wikisource markup defects: if a chapter has one stray bracket,
+    we treat just that one position as literal text and still extract annotations
+    from all the balanced pairs around it.
+    """
+    stack: list[int] = []
+    orphan_close: set[int] = set()
+    for i, c in enumerate(text):
+        if c == "〈":
+            stack.append(i)
+        elif c == "〉":
+            if stack:
+                stack.pop()
+            else:
+                orphan_close.add(i)
+    return set(stack), orphan_close
+
+
+def _process_paragraphs_strict(p_texts: list[str]) -> tuple[list[tuple[str, list[WSAnnotation]]], list[str]]:
     """Cross-paragraph state machine. 裴注 may span multiple <p> tags.
 
     Joins paragraphs with a sentinel char; outside an annotation the sentinel ends
@@ -156,8 +176,21 @@ def _process_paragraphs_strict(p_texts: list[str]) -> list[tuple[str, list[WSAnn
     keeps growing into the next paragraph). Annotations that span paragraphs cause
     the affected <p> tags to merge into a single output paragraph (the 〈 anchor is
     in the first one).
+
+    If the source has unbalanced brackets, those exact orphan positions are treated
+    as literal text (not bracket markers) so the rest of the chapter parses cleanly.
+    Returns (paragraphs, warnings).
     """
     joined = _PARA_SENTINEL.join(p_texts)
+    orphan_open, orphan_close = _orphan_bracket_positions(joined)
+
+    warnings: list[str] = []
+    if orphan_open or orphan_close:
+        warnings.append(
+            f"source has unbalanced brackets: {len(orphan_open)} stray '〈', "
+            f"{len(orphan_close)} stray '〉' — treating them as literal text"
+        )
+
     paragraphs: list[tuple[str, list[WSAnnotation]]] = []
     main: list[str] = []
     anns: list[WSAnnotation] = []
@@ -165,25 +198,25 @@ def _process_paragraphs_strict(p_texts: list[str]) -> list[tuple[str, list[WSAnn
     depth = 0
     main_len = 0
     for i, c in enumerate(joined):
+        is_orphan = (c == "〈" and i in orphan_open) or (c == "〉" and i in orphan_close)
         if c == _PARA_SENTINEL:
             if depth == 0:
                 paragraphs.append(("".join(main), anns))
                 main, anns, main_len = [], [], 0
-            # else: skip — paragraph break inside an annotation just continues it
-        elif c == "〈":
+            # else: paragraph break inside an annotation just continues it
+        elif c == "〈" and not is_orphan:
             if depth > 0:
                 ann_buf.append(c)
             depth += 1
-        elif c == "〉":
+        elif c == "〉" and not is_orphan:
             depth -= 1
-            if depth < 0:
-                raise ValueError(f"unbalanced '〉' at position {i} in body stream")
             if depth == 0:
                 anns.append(WSAnnotation(at=main_len, text="".join(ann_buf)))
                 ann_buf = []
             else:
                 ann_buf.append(c)
         else:
+            # Plain char (or an orphan bracket treated as literal)
             if depth == 0:
                 main.append(c)
                 main_len += 1
@@ -191,8 +224,8 @@ def _process_paragraphs_strict(p_texts: list[str]) -> list[tuple[str, list[WSAnn
                 ann_buf.append(c)
     paragraphs.append(("".join(main), anns))
     if depth != 0:
-        raise ValueError(f"unbalanced '〈' at end of body (depth {depth})")
-    return paragraphs
+        raise ValueError(f"internal error: depth {depth} after orphan-aware pass")
+    return paragraphs, warnings
 
 
 def _process_paragraphs_lenient(p_texts: list[str]) -> list[tuple[str, list[WSAnnotation]]]:
@@ -258,11 +291,10 @@ def parse_wikisource_html(html: str) -> WSChapter:
     if not p_texts:
         raise ValueError("no body paragraphs found — Wikisource layout may have changed")
 
-    parse_warnings: list[str] = []
     try:
-        processed = _process_paragraphs_strict(p_texts)
+        processed, parse_warnings = _process_paragraphs_strict(p_texts)
     except ValueError as e:
-        parse_warnings.append(f"strict bracket parse failed ({e}); falling back to lenient")
+        parse_warnings = [f"strict bracket parse failed ({e}); falling back to lenient"]
         processed = _process_paragraphs_lenient(p_texts)
 
     paragraphs: list[WSParagraph] = []

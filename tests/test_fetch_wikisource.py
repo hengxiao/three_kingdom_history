@@ -100,27 +100,45 @@ def test_nested_brackets_are_handled_as_part_of_outer_annotation():
     assert p.annotations[0].at == len("後主即位。")
 
 
-def test_unbalanced_brackets_fall_back_to_lenient():
-    """If brackets don't balance across the whole body, parse with lenient regex strip
-    and record a warning. The orphan 〈 stays in the canonical text rather than blocking
-    ingestion of the chapter."""
+def test_orphan_bracket_kept_as_literal_balanced_annotations_still_extracted():
+    """Stray '〈' in the source becomes literal text; annotations from balanced
+    pairs around it are still extracted (much better than dropping the whole chapter)."""
     bad = (
         '<table class="ws-header"><tr><td align="center">'
         '<b><a>三國志</a></b><br />魏書·武帝紀</td></tr></table>'
         '<div class="mw-parser-output">'
         '<p>第一段〈被剝離的注一〉真正文。</p>'
-        '<p>第二段有不匹配的〈開括號但沒有閉合，數據缺失。</p>'
+        '<p>第二段有不匹配的〈開括號但沒有閉合，數據缺失再多幾字湊夠最少漢字。</p>'
         '</div>'
     )
     chapter = parse_wikisource_html(bad)
     assert len(chapter.parse_warnings) == 1
-    assert "lenient" in chapter.parse_warnings[0]
-    # Para 1: balanced, lenient stripping is fine.
+    assert "stray '〈'" in chapter.parse_warnings[0]
+    # Para 1: balanced annotation extracted normally.
     assert chapter.paragraphs[0].main_text == "第一段真正文。"
-    # Para 2: orphan 〈 stays in the canonical (flagged for manual review).
+    assert len(chapter.paragraphs[0].annotations) == 1
+    assert chapter.paragraphs[0].annotations[0].text == "被剝離的注一"
+    # Para 2: orphan 〈 stays in the canonical text; no annotation, no exception.
     assert "〈" in chapter.paragraphs[1].main_text
-    # Lenient mode does not extract annotations.
-    assert all(p.annotations == [] for p in chapter.paragraphs)
+    assert chapter.paragraphs[1].annotations == []
+
+
+def test_orphan_close_bracket_kept_as_literal():
+    """A stray '〉' is treated as literal too."""
+    bad = (
+        '<table class="ws-header"><tr><td align="center">'
+        '<b><a>三國志</a></b><br />魏書·武帝紀</td></tr></table>'
+        '<div class="mw-parser-output">'
+        '<p>第一段〈正常注〉常文。</p>'
+        '<p>第二段有多餘的〉閉括號，數據缺失再多幾字湊夠最少漢字。</p>'
+        '</div>'
+    )
+    chapter = parse_wikisource_html(bad)
+    assert any("stray '〉'" in w for w in chapter.parse_warnings)
+    # First annotation still extracts.
+    assert chapter.paragraphs[0].annotations[0].text == "正常注"
+    # Stray 〉 stays in canonical of the second paragraph.
+    assert "〉" in chapter.paragraphs[1].main_text
 
 
 def test_strict_unbalanced_close_raises():
