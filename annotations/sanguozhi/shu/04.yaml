@@ -5,6 +5,15 @@ source:
   retrieved: '2026-05-01'
   sha256: 4e6eca492ebc49eebb7ce502f353843ebf1d7ba64da388f3a1ca3fd5d78e9ea9
 annotations:
+- id: shu.4.p1.t1
+  anchor: shu.4.p1
+  at: 94
+  length: 4
+  type: temporal
+  text: 章武二年
+  era: 章武
+  era_year: 2
+  year_ad: 222
 - id: shu.4.p2.a1
   anchor: shu.4.p2
   at: 271
@@ -23,18 +32,174 @@ annotations:
   length: 0
   type: pei
   text: 習鑿齒曰：夫婚姻，人倫之始，王化之本，匹夫猶不可以無禮，而況人君乎？晉文廢禮行權，以濟其業，故子犯曰，有求於人，必先從之，將奪其國，何有於妻，非無故而違禮教者也。今先主無權事之偪，而引前失以為譬，非導其君以堯、舜之道者。先主從之，過矣。
+- id: shu.4.p3.t1
+  anchor: shu.4.p3
+  at: 133
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
+- id: shu.4.p3.t2
+  anchor: shu.4.p3
+  at: 147
+  length: 7
+  type: temporal
+  text: 章武元年夏五月
+  era: 章武
+  era_year: 1
+  year_ad: 221
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: shu.4.p3.t3
+  anchor: shu.4.p3
+  at: 206
+  length: 6
+  type: temporal
+  text: 建興元年五月
+  era: 建興
+  era_year: 1
+  year_ad: 223
+  month_chinese: 五月
+  month_ordinal: 5
+- id: shu.4.p3.t4
+  anchor: shu.4.p3
+  at: 242
+  length: 4
+  type: temporal
+  text: 延熙八年
+  era: 延熙
+  era_year: 8
+  year_ad: 245
 - id: shu.4.p3.a3
   anchor: shu.4.p3
   at: 255
   length: 0
   type: pei
   text: 孫盛《蜀世譜》曰：壹孫喬，沒李雄中三十年，不為雄屈也。
+- id: shu.4.p4.t1
+  anchor: shu.4.p4
+  at: 17
+  length: 4
+  type: temporal
+  text: 章武元年
+  era: 章武
+  era_year: 1
+  year_ad: 221
+- id: shu.4.p4.t2
+  anchor: shu.4.p4
+  at: 28
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
+- id: shu.4.p5.t1
+  anchor: shu.4.p5
+  at: 14
+  length: 5
+  type: temporal
+  text: 建興十五年
+  era: 建興
+  era_year: 15
+  year_ad: 237
+- id: shu.4.p5.t2
+  anchor: shu.4.p5
+  at: 25
+  length: 7
+  type: temporal
+  text: 延熙元年春正月
+  era: 延熙
+  era_year: 1
+  year_ad: 238
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: shu.4.p5.a1
   anchor: shu.4.p5
   at: 109
   length: 0
   type: pei
   text: 《漢晉春秋》曰：魏以蜀宮人賜諸將之無妻者，李昭儀曰：「我不能二三屈辱。」乃自殺。
+- id: shu.4.p6.t1
+  anchor: shu.4.p6
+  at: 16
+  length: 6
+  type: temporal
+  text: 章武元年六月
+  era: 章武
+  era_year: 1
+  year_ad: 221
+  month_chinese: 六月
+  month_ordinal: 6
+- id: shu.4.p6.t2
+  anchor: shu.4.p6
+  at: 137
+  length: 4
+  type: temporal
+  text: 建興八年
+  era: 建興
+  era_year: 8
+  year_ad: 230
+- id: shu.4.p7.t1
+  anchor: shu.4.p7
+  at: 18
+  length: 6
+  type: temporal
+  text: 章武元年六月
+  era: 章武
+  era_year: 1
+  year_ad: 221
+  month_chinese: 六月
+  month_ordinal: 6
+- id: shu.4.p7.t2
+  anchor: shu.4.p7
+  at: 111
+  length: 4
+  type: temporal
+  text: 建興八年
+  era: 建興
+  era_year: 8
+  year_ad: 230
+- id: shu.4.p7.t3
+  anchor: shu.4.p7
+  at: 124
+  length: 4
+  type: temporal
+  text: 延熙七年
+  era: 延熙
+  era_year: 7
+  year_ad: 244
+- id: shu.4.p7.t4
+  anchor: shu.4.p7
+  at: 157
+  length: 4
+  type: temporal
+  text: 景耀四年
+  era: 景耀
+  era_year: 4
+  year_ad: 261
+- id: shu.4.p8.t1
+  anchor: shu.4.p8
+  at: 25
+  length: 6
+  type: temporal
+  text: 延熙元年正月
+  era: 延熙
+  era_year: 1
+  year_ad: 238
+  month_chinese: 正月
+  month_ordinal: 1
+- id: shu.4.p8.t2
+  anchor: shu.4.p8
+  at: 132
+  length: 4
+  type: temporal
+  text: 景耀六年
+  era: 景耀
+  era_year: 6
+  year_ad: 263
 - id: shu.4.p8.a1
   anchor: shu.4.p8
   at: 163

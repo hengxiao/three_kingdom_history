@@ -23,6 +23,15 @@ annotations:
   length: 0
   type: pei
   text: 《會稽典錄》曰：策功曹魏騰，以迕意見譴，將殺之，士大夫憂恐，計無所出。夫人乃倚大井而謂策曰：「汝新造江南，其事未集，方當優賢禮士，舍過錄功。魏功曹在公盡規，汝今日殺之，則明日人皆叛汝。吾不忍見禍之及，當先投此井中耳。」策大驚，遽釋騰。夫人智略權譎，類皆如此。
+- id: wu.5.p4.t1
+  anchor: wu.5.p4
+  at: 19
+  length: 4
+  type: temporal
+  text: 建安七年
+  era: 建安
+  era_year: 7
+  year_ad: 202
 - id: wu.5.p4.a2
   anchor: wu.5.p4
   at: 43
@@ -65,12 +74,30 @@ annotations:
   length: 0
   type: pei
   text: 《吳曆》曰：纂先尚權中女，早卒，故又以小虎為繼室。
+- id: wu.5.p11.t1
+  anchor: wu.5.p11
+  at: 1
+  length: 4
+  type: temporal
+  text: 赤烏元年
+  era: 赤烏
+  era_year: 1
+  year_ad: 238
 - id: wu.5.p12.a1
   anchor: wu.5.p12
   at: 12
   length: 0
   type: pei
   text: 《吳書》曰：夫人父名盧九。
+- id: wu.5.p14.t1
+  anchor: wu.5.p14
+  at: 70
+  length: 5
+  type: temporal
+  text: 赤烏十三年
+  era: 赤烏
+  era_year: 13
+  year_ad: 250
 - id: wu.5.p14.a1
   anchor: wu.5.p14
   at: 125
@@ -89,6 +116,26 @@ annotations:
   length: 0
   type: pei
   text: 臣松之以為休妻其甥，事同漢惠。荀悅譏之已當，故不復廣言。
+- id: wu.5.p16.t1
+  anchor: wu.5.p16
+  at: 230
+  length: 4
+  type: temporal
+  text: 永安五年
+  era: 永安
+  era_year: 5
+  year_ad: 262
+- id: wu.5.p16.t2
+  anchor: wu.5.p16
+  at: 273
+  length: 6
+  type: temporal
+  text: 甘露元年七月
+  era: 甘露
+  era_year: 1
+  year_ad: 265
+  month_chinese: 七月
+  month_ordinal: 7
 - id: wu.5.p16.a2
   anchor: wu.5.p16
   at: 289
@@ -113,3 +160,12 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：皓又使黃門備行州郡，科取將吏家女。其二千石大臣子女，皆當歲歲言名，年十五六一簡閱，簡閱不中，乃得出嫁。后宮千數，而採擇無已。
+- id: wu.5.p18.t1
+  anchor: wu.5.p18
+  at: 212
+  length: 4
+  type: temporal
+  text: 天紀四年
+  era: 天紀
+  era_year: 4
+  year_ad: 280

@@ -5,6 +5,15 @@ source:
   retrieved: '2026-05-01'
   sha256: ab4b23d669cee59670df503ea997e7bfc475d59d05e0faadbec6fb01ab882497
 annotations:
+- id: shu.10.p2.t1
+  anchor: shu.10.p2
+  at: 52
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
 - id: shu.10.p2.a1
   anchor: shu.10.p2
   at: 270
@@ -47,18 +56,54 @@ annotations:
   length: 0
   type: pei
   text: 廖音理救反。
+- id: shu.10.p14.t1
+  anchor: shu.10.p14
+  at: 93
+  length: 5
+  type: temporal
+  text: 建安二十年
+  era: 建安
+  era_year: 20
+  year_ad: 215
 - id: shu.10.p17.a1
   anchor: shu.10.p17
   at: 141
   length: 0
   type: pei
   text: 亮集有亮表曰：「立奉先帝無忠孝之心，守長沙則開門就敵，領巴郡則有闇昧闟茸其事，隨大將軍則誹謗譏訶，侍梓宮則挾刃斷人頭於梓宮之側。陛下即位之後，普增職號，立隨比為將軍，面語臣曰：『我何宜在諸將軍中！不表我為卿，上當在五校！』臣答：『將軍者，隨大比耳。至於卿者，正方亦未為卿也。且宜處五校。』自是之後，怏怏懷恨。」詔曰：「三苗亂政，有虞流宥，廖立狂惑，朕不忍刑，亟徙不毛之地。」
+- id: shu.10.p18.t1
+  anchor: shu.10.p18
+  at: 63
+  length: 5
+  type: temporal
+  text: 建安十八年
+  era: 建安
+  era_year: 18
+  year_ad: 213
 - id: shu.10.p18.a1
   anchor: shu.10.p18
   at: 131
   length: 0
   type: pei
   text: 音淒。
+- id: shu.10.p19.t1
+  anchor: shu.10.p19
+  at: 0
+  length: 4
+  type: temporal
+  text: 章武二年
+  era: 章武
+  era_year: 2
+  year_ad: 222
+- id: shu.10.p19.t2
+  anchor: shu.10.p19
+  at: 58
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
 - id: shu.10.p19.a1
   anchor: shu.10.p19
   at: 179
@@ -89,6 +134,24 @@ annotations:
   length: 0
   type: pei
   text: 蘇林《漢書音義》曰：硃音銖；提音如北方人名匕曰提也。
+- id: shu.10.p22.t1
+  anchor: shu.10.p22
+  at: 150
+  length: 4
+  type: temporal
+  text: 建興十年
+  era: 建興
+  era_year: 10
+  year_ad: 232
+- id: shu.10.p24.t1
+  anchor: shu.10.p24
+  at: 181
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
 - id: shu.10.p25.a1
   anchor: shu.10.p25
   at: 50
@@ -101,6 +164,15 @@ annotations:
   length: 0
   type: pei
   text: 魏略曰：「諸葛亮病，謂延等云：『我之死後，但謹自守，慎勿復來也。』令延攝行己事，密持喪去。延遂匿之，行至褒口，乃發喪。亮長史楊儀宿與延不和，見延攝行軍事，懼爲所害，乃張言延欲舉眾北附，遂率其眾攻延。延本無此心，不戰軍走，追而殺之。」臣松之以爲此蓋敵國傳聞之言，不得與本傳爭審。
+- id: shu.10.p27.t1
+  anchor: shu.10.p27
+  at: 122
+  length: 4
+  type: temporal
+  text: 建興三年
+  era: 建興
+  era_year: 3
+  year_ad: 225
 - id: shu.10.p28.a1
   anchor: shu.10.p28
   at: 198

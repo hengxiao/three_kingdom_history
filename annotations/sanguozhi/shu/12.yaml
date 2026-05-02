@@ -5,6 +5,15 @@ source:
   retrieved: '2026-05-01'
   sha256: 0a039953075f3059a4fdb4ffc4ffda7708061e4e1f71a88a68b69b03f35b91bb
 annotations:
+- id: shu.12.p2.t1
+  anchor: shu.12.p2
+  at: 0
+  length: 4
+  type: temporal
+  text: 建興二年
+  era: 建興
+  era_year: 2
+  year_ad: 224
 - id: shu.12.p7.a1
   anchor: shu.12.p7
   at: 182
@@ -17,6 +26,24 @@ annotations:
   length: 0
   type: pei
   text: 裕字南和。
+- id: shu.12.p12.t1
+  anchor: shu.12.p12
+  at: 6
+  length: 5
+  type: temporal
+  text: 延熙十三年
+  era: 延熙
+  era_year: 13
+  year_ad: 250
+- id: shu.12.p14.t1
+  anchor: shu.12.p14
+  at: 10
+  length: 4
+  type: temporal
+  text: 景耀五年
+  era: 景耀
+  era_year: 5
+  year_ad: 262
 - id: shu.12.p15.a1
   anchor: shu.12.p15
   at: 216
@@ -41,6 +68,15 @@ annotations:
   length: 0
   type: pei
   text: 譊音奴交反。讙音休袁反。咋音徂格反。
+- id: shu.12.p17.t1
+  anchor: shu.12.p17
+  at: 0
+  length: 4
+  type: temporal
+  text: 延熙九年
+  era: 延熙
+  era_year: 9
+  year_ad: 246
 - id: shu.12.p17.a1
   anchor: shu.12.p17
   at: 212
@@ -71,12 +107,30 @@ annotations:
   length: 0
   type: pei
   text: 宋仲子後在魏。《魏略》曰：其子與魏諷謀反，伏誅。魏太子答王朗書曰：「昔石厚與州吁遊，父碏知其與亂；韓子暱田蘇，穆子知其好仁：故君子遊必有方，居必就士，誠有以也。嗟乎！宋忠無石子先識之明，老罹此禍。今雖欲原行滅親之誅，立純臣之節，尚可得邪！」
+- id: shu.12.p21.t1
+  anchor: shu.12.p21
+  at: 102
+  length: 4
+  type: temporal
+  text: 延熙元年
+  era: 延熙
+  era_year: 1
+  year_ad: 238
 - id: shu.12.p24.a1
   anchor: shu.12.p24
   at: 20
   length: 0
   type: pei
   text: 《蜀記》曰：周初見亮，左右皆笑。既出，有司請推笑者，亮曰：「孤尚不能忍，況左右乎！」
+- id: shu.12.p30.t1
+  anchor: shu.12.p30
+  at: 0
+  length: 4
+  type: temporal
+  text: 景耀六年
+  era: 景耀
+  era_year: 6
+  year_ad: 263
 - id: shu.12.p35.a1
   anchor: shu.12.p35
   at: 22
@@ -167,6 +221,15 @@ annotations:
   length: 0
   type: pei
   text: 《淮南子》曰：盧敖遊乎北海，經乎太陰，入乎玄闕，至於蒙轂之上，見一士焉，深目而玄準，戾頸而鳶肩，豐上而殺下，軒軒然方迎風而舞，顧見盧敖慢然下其臂，遯逃乎碑下。盧敖俯而視之，方卷龜殼而食合梨。盧敖乃與之語曰：「惟敖為背羣離黨，窮觀於六合之外者，非敖而已乎！敖幼而好遊，長不喻解，周行四極，惟北陰之不闚，今卒睹夫子於是，子殆可與敖為交乎！」若士者蠤然而笑曰：「嘻乎！子中州民，寧肯而遠至此？此猶光乎日月而戴列星，陰陽之所行，四時之所生，此其比夫不名之地，猶突奧也。若我南游乎罔{罒良}之野，北息於沈墨之鄉，西窮冥冥之黨，東貫鴻濛之光，此其下無地而上無天，聽焉無聞，視焉則眴，此其外猶有沈沈之汜，其餘一舉而千萬里，吾猶未能之在。今子遊始至於此，乃語窮觀，豈不亦遠哉！然子處矣，吾與汗漫期於九垓之上，吾不可以久。」若士舉臂而竦身，遂入雲中。盧敖仰而視之，弗見乃止，曰：「吾比夫子也，猶黃鵠之與壤蟲，終日行不離咫尺，自以為遠，不亦悲哉！」
+- id: shu.12.p44.t1
+  anchor: shu.12.p44
+  at: 0
+  length: 4
+  type: temporal
+  text: 景耀六年
+  era: 景耀
+  era_year: 6
+  year_ad: 263
 - id: shu.12.p45.a1
   anchor: shu.12.p45
   at: 140

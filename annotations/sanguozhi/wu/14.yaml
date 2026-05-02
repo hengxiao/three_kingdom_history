@@ -5,6 +5,15 @@ source:
   retrieved: '2026-05-01'
   sha256: 8c89c86c6ecad64faf6a2b8d385ed5968dfc2dd41b0d0fdc0ab4fd03ad415d34
 annotations:
+- id: wu.14.p2.t1
+  anchor: wu.14.p2
+  at: 223
+  length: 4
+  type: temporal
+  text: 黃龍元年
+  era: 黃龍
+  era_year: 1
+  year_ad: 229
 - id: wu.14.p2.a1
   anchor: wu.14.p2
   at: 284
@@ -17,30 +26,84 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：慎字孝敬，廣陵人，竭忠知己之君，纏綿三益之友，時人榮之。著論二十篇，名曰《矯非》。後爲侍中，出補武昌左部督，治軍整頓。孫皓移都，甚憚之，詔曰：「慎勳德俱茂，朕所敬憑，宜登上公，以副衆望。」以爲太尉。慎自恨久爲將，遂託老耄。軍士戀之，舉營爲之隕涕。鳳凰三年卒，子耀嗣。玄，丹楊人。衜，南陽人。《吳書》曰：衜初爲中庶子，年二十。時廷尉監隱蕃交結豪傑，自衞將軍全琮等皆傾心敬待，惟衜及宣詔郎豫章楊迪拒絕不與通，時人咸怪之。而蕃後叛逆，衆乃服之。《江表傳》曰：登使侍中胡綜作賔友目曰：「英才卓越，超踰倫匹，則諸葛恪。精識時機，達幽究微，則顧譚。凝辨宏達，言能釋結，則謝景。究學甄微，游夏同科，則范慎。」衜乃私駁綜曰：「元遜才而疏，子嘿精而狠，叔發辯而浮，孝敬深而狹。」所言皆有指趣。而衜卒以此言見咎，不爲恪等所親。後四人皆敗，吳人謂衜之言有徵。位至桂陽太守，卒。
+- id: wu.14.p3.t1
+  anchor: wu.14.p3
+  at: 307
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
 - id: wu.14.p4.a1
   anchor: wu.14.p4
   at: 114
   length: 0
   type: pei
   text: 《吳書》曰：弟和有寵於權，登親敬，待之如兄，常有欲讓之心。
+- id: wu.14.p5.t1
+  anchor: wu.14.p5
+  at: 751
+  length: 4
+  type: temporal
+  text: 赤烏四年
+  era: 赤烏
+  era_year: 4
+  year_ad: 241
 - id: wu.14.p5.a1
   anchor: wu.14.p5
   at: 821
   length: 0
   type: pei
   text: 《吳書》曰：初葬句容，置園邑，奉守如法，後三年改葬蔣陵。
+- id: wu.14.p6.t1
+  anchor: wu.14.p6
+  at: 17
+  length: 4
+  type: temporal
+  text: 五鳳元年
+  era: 五鳳
+  era_year: 1
+  year_ad: 254
 - id: wu.14.p6.a1
   anchor: wu.14.p6
   at: 44
   length: 0
   type: pei
   text: 《吳歷》曰：孫和以無罪見殺，衆庶皆懷憤歎，前司馬桓慮因此招合將吏，欲共殺峻立英，事覺，皆見殺，英實不知。
+- id: wu.14.p8.t1
+  anchor: wu.14.p8
+  at: 22
+  length: 4
+  type: temporal
+  text: 黃武七年
+  era: 黃武
+  era_year: 7
+  year_ad: 228
 - id: wu.14.p8.a1
   anchor: wu.14.p8
   at: 242
   length: 0
   type: pei
   text: 《吳書》載權詔曰：「期運擾亂，凶邪肆虐，威罰有序，干戈不戢。以慮氣志休懿，武略夙昭，必能爲國佐定大業，故授以上將之位，至以殊特之榮，寵以兵馬之勢，委以偏方之任。外欲威振敵虜，厭難萬里，內欲鎮撫遠近，慰卹將士，誠慮建功立事竭命之秋也。慮其內脩文德，外經武訓，持盈若沖，則滿而不溢。敬慎乃心，無忝所受。」
+- id: wu.14.p8.t2
+  anchor: wu.14.p8
+  at: 287
+  length: 4
+  type: temporal
+  text: 嘉禾元年
+  era: 嘉禾
+  era_year: 1
+  year_ad: 232
+- id: wu.14.p9.t1
+  anchor: wu.14.p9
+  at: 49
+  length: 4
+  type: temporal
+  text: 赤烏五年
+  era: 赤烏
+  era_year: 5
+  year_ad: 242
 - id: wu.14.p9.a1
   anchor: wu.14.p9
   at: 95
@@ -65,12 +128,34 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：權寢疾，意頗感寤，欲徵和還立之，全公主及孫峻、孫弘等固爭之，乃止。
+- id: wu.14.p12.t1
+  anchor: wu.14.p12
+  at: 0
+  length: 6
+  type: temporal
+  text: 太元二年正月
+  era: 太元
+  era_year: 2
+  year_ad: 252
+  month_chinese: 正月
+  month_ordinal: 1
 - id: wu.14.p12.a1
   anchor: wu.14.p12
   at: 19
   length: 0
   type: pei
   text: 《吳書》曰：和之長沙，行過蕪湖，有鵲巢于帆檣，故官寮聞之皆憂慘，以爲檣末傾危，非乆安之象。或言鵲巢之詩有「積行累功以致爵位」之言，今王至德茂行，復受國土，儻神靈以此告寤人意乎？
+- id: wu.14.p13.t1
+  anchor: wu.14.p13
+  at: 99
+  length: 6
+  type: temporal
+  text: 寶鼎二年七月
+  era: 寶鼎
+  era_year: 2
+  year_ad: 267
+  month_chinese: 七月
+  month_ordinal: 7
 - id: wu.14.p13.a1
   anchor: wu.14.p13
   at: 173
@@ -83,18 +168,54 @@ annotations:
   length: 0
   type: pei
   text: 《吳歷》曰：和四子：皓、德、謙、俊。孫休即位，封德錢唐侯，謙永安侯，俊拜騎都尉。皓在武昌，吳興施但因民之不堪命，聚萬餘人，劫謙，將至秣陵，欲立之。未至三十里住，擇吉日，但遣使以謙命詔丁固、諸葛靚。靚即斬其使。但遂前到九里，固、靚出擊，大破之。但兵裸身無鎧甲，臨陣皆披散。謙獨坐車中，遂生獲之。固不敢殺，以狀告皓，皓酖之，母子皆死。俊，張承外孫，聦明辨惠，爲遠近所稱，皓又殺之。
+- id: wu.14.p16.t1
+  anchor: wu.14.p16
+  at: 30
+  length: 4
+  type: temporal
+  text: 太平二年
+  era: 太平
+  era_year: 2
+  year_ad: 257
+- id: wu.14.p17.t1
+  anchor: wu.14.p17
+  at: 15
+  length: 4
+  type: temporal
+  text: 太元二年
+  era: 太元
+  era_year: 2
+  year_ad: 252
 - id: wu.14.p18.a1
   anchor: wu.14.p18
   at: 50
   length: 0
   type: pei
   text: 慈字孝宗，彭城人，見《禮論》，撰《喪服圖及變除》行於世。
+- id: wu.14.p18.t1
+  anchor: wu.14.p18
+  at: 61
+  length: 4
+  type: temporal
+  text: 太平三年
+  era: 太平
+  era_year: 3
+  year_ad: 258
 - id: wu.14.p18.a2
   anchor: wu.14.p18
   at: 72
   length: 0
   type: pei
   text: 《江表傳》載亮詔曰：「齊王奮前坐殺吏，廢爲庶人，連有赦令，獨不見原，縱未宜復王，何以不侯？又諸孫兄弟作將，列在江渚，孤有兄獨爾云何？」有司奏可，就拜爲侯。
+- id: wu.14.p19.t1
+  anchor: wu.14.p19
+  at: 0
+  length: 4
+  type: temporal
+  text: 建衡二年
+  era: 建衡
+  era_year: 2
+  year_ad: 270
 - id: wu.14.p19.a1
   anchor: wu.14.p19
   at: 99

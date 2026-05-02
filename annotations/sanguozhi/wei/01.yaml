@@ -89,6 +89,26 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：陳留孝廉衞茲以家財資太祖，使起兵，衆有五千人。
+- id: wei.1.p5.t1
+  anchor: wei.1.p5
+  at: 206
+  length: 4
+  type: temporal
+  text: 中平六年
+  era: 中平
+  era_year: 6
+  year_ad: 189
+- id: wei.1.p6.t1
+  anchor: wei.1.p6
+  at: 0
+  length: 7
+  type: temporal
+  text: 初平元年春正月
+  era: 初平
+  era_year: 1
+  year_ad: 190
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wei.1.p6.a1
   anchor: wei.1.p6
   at: 20
@@ -179,6 +199,15 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：太祖將步騎千餘人，行視戰地，卒抵賊營，戰不利，死者數百人，引還。賊尋前進。黃巾爲賊久，數乘勝，兵皆精悍。太祖舊兵少，新兵不習練，舉軍皆懼。太祖被甲嬰冑，親巡將士，明勸賞罰，衆乃復奮，承間討擊，賊稍折退。賊乃移書太祖曰：「昔在濟南，毀壞神壇，其道乃與中黃太一同，似若知道，今更迷惑。漢行已盡，黃家當立。天之大運，非君才力所能存也。」太祖見檄書，呵之罪，數開示降路；遂設奇伏，晝夜會戰，戰輙禽獲，賊乃退走。
+- id: wei.1.p23.t1
+  anchor: wei.1.p23
+  at: 0
+  length: 4
+  type: temporal
+  text: 興平元年
+  era: 興平
+  era_year: 1
+  year_ad: 194
 - id: wei.1.p23.a1
   anchor: wei.1.p23
   at: 51
@@ -203,6 +232,17 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：於是兵皆出取麥，在者不能千人，屯營不固。太祖乃令婦人守陴，悉兵拒之。屯西有大隄，其南樹木幽深。布疑有伏，乃相謂曰：「曹操多譎，勿入伏中。」引軍屯南十餘里。明日復來，太祖隱兵隄裏，出半兵隄外。布益進，乃令輕兵挑戰，旣合，伏兵乃悉乘隄，步騎並進，大破之，獲其龍車，追至其營而還。
+- id: wei.1.p29.t1
+  anchor: wei.1.p29
+  at: 0
+  length: 7
+  type: temporal
+  text: 建安元年春正月
+  era: 建安
+  era_year: 1
+  year_ad: 196
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wei.1.p31.a1
   anchor: wei.1.p31
   at: 100

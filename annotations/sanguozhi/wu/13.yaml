@@ -17,12 +17,32 @@ annotations:
   length: 0
   type: pei
   text: 陆氏祠堂像赞曰：海昌，今盐官县也。
+- id: wu.13.p6.t1
+  anchor: wu.13.p6
+  at: 119
+  length: 9
+  type: temporal
+  text: 建安二十四年十一月
+  era: 建安
+  era_year: 24
+  year_ad: 219
+  month_chinese: 十一月
+  month_ordinal: 11
 - id: wu.13.p7.a1
   anchor: wu.13.p7
   at: 153
   length: 0
   type: pei
   text: 吴书曰：权嘉逊功德，欲殊显之，虽为上将军列侯，犹欲令历本州举命，乃使扬州牧吕范就辟别驾从事，举茂才。
+- id: wu.13.p8.t1
+  anchor: wu.13.p8
+  at: 0
+  length: 4
+  type: temporal
+  text: 黃武元年
+  era: 黃武
+  era_year: 1
+  year_ad: 222
 - id: wu.13.p8.a1
   anchor: wu.13.p8
   at: 156
@@ -41,6 +61,24 @@ annotations:
   length: 0
   type: pei
   text: 陆机为逊铭曰：魏大司马曹休侵我北鄙，乃假公黄钺，统御六师及中军禁卫而摄行王事，主上执鞭，百司屈膝。吴录曰：假逊黄钺，吴王亲执鞭以见之。
+- id: wu.13.p16.t1
+  anchor: wu.13.p16
+  at: 0
+  length: 4
+  type: temporal
+  text: 黃龍元年
+  era: 黃龍
+  era_year: 1
+  year_ad: 229
+- id: wu.13.p22.t1
+  anchor: wu.13.p22
+  at: 0
+  length: 4
+  type: temporal
+  text: 嘉禾五年
+  era: 嘉禾
+  era_year: 5
+  year_ad: 236
 - id: wu.13.p22.a1
   anchor: wu.13.p22
   at: 339
@@ -71,12 +109,84 @@ annotations:
   length: 0
   type: pei
   text: 会稽典录曰：谢渊字休德，少修德操，躬秉耒耜，既无慼容，又不易虑，由是知名。举孝廉，稍迁至建武将军，虽在戎旅，犹垂意人物。骆统子名秀，被门庭之谤，众论狐疑，莫能证明。渊闻之叹息曰：「公绪早夭，同盟所哀。闻其子志行明辩，而被闇昧之谤，望诸夫子烈然高断，而各怀迟疑，非所望也。」秀卒见明，无复瑕玷，终为显士，渊之力也。吴历称云，谢厷才辩有计术。
+- id: wu.13.p27.t1
+  anchor: wu.13.p27
+  at: 0
+  length: 4
+  type: temporal
+  text: 赤烏七年
+  era: 赤烏
+  era_year: 7
+  year_ad: 244
+- id: wu.13.p31.t1
+  anchor: wu.13.p31
+  at: 82
+  length: 4
+  type: temporal
+  text: 赤烏九年
+  era: 赤烏
+  era_year: 9
+  year_ad: 246
+- id: wu.13.p31.t2
+  anchor: wu.13.p31
+  at: 155
+  length: 4
+  type: temporal
+  text: 太元元年
+  era: 太元
+  era_year: 1
+  year_ad: 251
+- id: wu.13.p31.t3
+  anchor: wu.13.p31
+  at: 217
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 252
+- id: wu.13.p31.t4
+  anchor: wu.13.p31
+  at: 228
+  length: 4
+  type: temporal
+  text: 太平二年
+  era: 太平
+  era_year: 2
+  year_ad: 257
+- id: wu.13.p31.t5
+  anchor: wu.13.p31
+  at: 269
+  length: 4
+  type: temporal
+  text: 永安二年
+  era: 永安
+  era_year: 2
+  year_ad: 259
+- id: wu.13.p31.t6
+  anchor: wu.13.p31
+  at: 315
+  length: 4
+  type: temporal
+  text: 建衡二年
+  era: 建衡
+  era_year: 2
+  year_ad: 270
 - id: wu.13.p38.a1
   anchor: wu.13.p38
   at: 297
   length: 0
   type: pei
   text: 《晉陽秋》曰：抗與羊祜推僑、札之好。抗嘗遺祜酒，祜飲之不疑。抗有疾，祜饋之藥，抗亦推心服之。於時以為華元、子反復見於今。《漢晉春秋》曰：羊祜既歸，增脩德信，以懷吳人。陸抗每告其邊戍曰：「彼專為德，我專為暴，是不戰而自服也。各保分界，無求細益而已。」於是吳、晉之間，餘糧棲畝而不犯，牛馬逸而入境，可宣告而取也。沔上獵，吳獲晉人先傷者，皆送而相還。抗嘗疾，求藥於祜，祜以成合與之，曰：「此上藥也，近始自作，未及服，以君疾急，故相致。」抗得而服之，諸將或諫，抗不答。孫皓聞二境交和，以詰於抗，抗曰：「夫一邑一鄉，不可以無信義之人，而況大國乎？臣不如是，正足以彰其德耳，於祜無傷也。」或以祜、抗為失臣節，兩譏之。○習鑿齒曰：夫理勝者天下之所保，信順者萬人之所宗，雖大猷既喪，義聲久淪，狙詐馳於當塗，權略週乎急務，負力從橫之人，臧獲牧豎之智，未有不憑此以創功，舍茲而獨立者也。是故晉文退舍，而原城請命；穆子圍鼓，訓之以力；冶夫獻策，而費人斯歸；樂毅緩攻，而風烈長流。觀其所以服物製勝者，豈徒威力相詐而已哉！自今三家鼎足四十有餘年矣，吳人不能越淮、沔而進取中國，中國不能陵長江以爭利者，力均而智侔，道不足以相傾也。夫殘彼而利我，未若利我而無殘；振武以懼物，未若德廣而民懷。匹夫猶不可以力服，而況一國乎？力服猶不如以德來，而況不制乎？是以羊祜恢大同之略，思五兵之則，齊其民人，均其施澤，振義網以羅強吳，明兼愛以革暴俗，易生民之視聽，馳不戰乎江表。故能德音悅暢，而襁負雲集，殊鄰異域，義讓交弘，自吳之遇敵，未有若此者也。抗見國小主暴，而晉德彌昌，人積兼己之善，而己無固本之規，百姓懷嚴敵之德，闔境有棄主之慮，思所以鎮定民心，緝寧外內，奮其危弱，抗權上國者，莫若親行斯道，以侔其勝。使彼德靡加吾，而此善流聞，歸重邦國，弘明遠風，折衝於枕席之上，校勝於帷幄之內，傾敵而不以甲兵之力，保國而不浚溝池之固，信義感於寇仇，丹懷體於先日。豈設狙詐以危賢，徇己身之私名，貪外物之重我，闇服之而不備者哉！由是論之，苟守局而保疆，一卒之所能；協數以相危，小人之近事；積詐以防物，臧獲之餘慮；威勝以求安，明哲之所賤。賢人君子所以拯世垂範，捨此而取彼者，其道良弘故也。
+- id: wu.13.p46.t1
+  anchor: wu.13.p46
+  at: 34
+  length: 4
+  type: temporal
+  text: 天紀四年
+  era: 天紀
+  era_year: 4
+  year_ad: 280
 - id: wu.13.p46.a1
   anchor: wu.13.p46
   at: 110

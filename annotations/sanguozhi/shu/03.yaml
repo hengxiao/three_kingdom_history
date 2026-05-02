@@ -5,6 +5,26 @@ source:
   retrieved: '2026-05-01'
   sha256: 3cefba358f41377e18d1bcc2943f7afa490f5d680372a8fa14c54630238cdaed
 annotations:
+- id: shu.3.p1.t1
+  anchor: shu.3.p1
+  at: 14
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
+- id: shu.3.p1.t2
+  anchor: shu.3.p1
+  at: 44
+  length: 6
+  type: temporal
+  text: 章武元年五月
+  era: 章武
+  era_year: 1
+  year_ad: 221
+  month_chinese: 五月
+  month_ordinal: 5
 - id: shu.3.p1.a1
   anchor: shu.3.p1
   at: 144
@@ -17,6 +37,15 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：初備在小沛，不意曹公卒至，遑遽棄家屬，後奔荊州。禪時年數歲，竄匿，隨人西入漢中，為人所賣。及建安十六年，關中破亂，扶風人劉括避亂入漢中，買得禪，問知其良家子，遂養為子，與娶婦，生一子。初禪與備相失時，識其父字玄德。比舍人有姓簡者，及備得益州而簡為將軍，備遣簡到漢中，舍都邸。禪乃詣簡，簡相檢訊，事皆符驗。簡喜，以語張魯，魯（乃）洗沐送詣益州，備乃立以為太子。初備以諸葛亮為太子太傅，及禪立，以亮為丞相，委以諸事，謂亮曰：「政由葛氏，祭則寡人。」亮亦以禪未閒於政，遂總內外。臣松之案：〈二主妃子傳〉曰“後主生於荊州”，〈後主傳〉云「初即帝位，年十七」，則建安十二年生也。十三年敗於長阪，備棄妻子走，〈趙雲傳〉曰「雲身抱弱子以免」，即後主也。如此，備與禪未嘗相失也。又諸葛亮以禪立之明年領益州牧，其年與主簿杜微書曰「朝廷今年十八」，與禪傳相應，理當非虛。而魚豢云備敗於小沛，禪時年始生，及奔荊州，能識其父字玄德，計當五六歲。備敗於小沛時，建安五年也，至禪初立，首尾二十四年，禪應過二十矣。以事相驗，理不得然。此則《魏略》之妄說，乃至二百餘言，異也！又案諸書記及《諸葛亮集》，亮亦不為太子太傅。
+- id: shu.3.p2.t1
+  anchor: shu.3.p2
+  at: 0
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
 - id: shu.3.p2.a1
   anchor: shu.3.p2
   at: 16
@@ -53,12 +82,32 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：湔，縣名也，屬蜀郡，音翦。
+- id: shu.3.p17.t1
+  anchor: shu.3.p17
+  at: 0
+  length: 7
+  type: temporal
+  text: 延熙元年春正月
+  era: 延熙
+  era_year: 1
+  year_ad: 238
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: shu.3.p24.a1
   anchor: shu.3.p24
   at: 29
   length: 0
   type: pei
   text: 《魏略》曰：琬卒，禪乃自攝國事。
+- id: shu.3.p36.t1
+  anchor: shu.3.p36
+  at: 0
+  length: 4
+  type: temporal
+  text: 景耀元年
+  era: 景耀
+  era_year: 1
+  year_ad: 258
 - id: shu.3.p43.a1
   anchor: shu.3.p43
   at: 22

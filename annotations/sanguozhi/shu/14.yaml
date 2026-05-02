@@ -5,6 +5,24 @@ source:
   retrieved: '2026-05-01'
   sha256: 2288ef7812a7a8c7c7304ca8b00e45481970cf1925140356d4c8109f486874a4
 annotations:
+- id: shu.14.p2.t1
+  anchor: shu.14.p2
+  at: 0
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
+- id: shu.14.p3.t1
+  anchor: shu.14.p3
+  at: 92
+  length: 4
+  type: temporal
+  text: 延熙元年
+  era: 延熙
+  era_year: 1
+  year_ad: 238
 - id: shu.14.p10.a1
   anchor: shu.14.p10
   at: 12
@@ -23,12 +41,30 @@ annotations:
   length: 0
   type: pei
   text: 禕别傳曰：权乃以手中常所执宝刀赠之，禕答曰：“臣以不才，何以堪明命？然刀所以讨不庭、禁暴乱者也，但原大王勉建功业，同奖汉室，臣虽闇弱，终不负东顾。”
+- id: shu.14.p12.t1
+  anchor: shu.14.p12
+  at: 0
+  length: 4
+  type: temporal
+  text: 建興八年
+  era: 建興
+  era_year: 8
+  year_ad: 230
 - id: shu.14.p12.a1
   anchor: shu.14.p12
   at: 104
   length: 0
   type: pei
   text: 禕别傳曰：于时军国多事，公务烦猥，禕识悟过人，每省读书记，举目暂视，已究其意旨，其速数倍於人，终亦不忘。常以朝晡听事，其间接纳宾客，饮食嬉戏，加之博弈，每尽人之欢，事亦不废。董允代禕为尚书令，欲斅禕之所行，旬日之中，事多愆滞。允乃叹曰：“人才力相县若此甚远，此非吾之所及也。听事终日，犹有不暇尔。”
+- id: shu.14.p13.t1
+  anchor: shu.14.p13
+  at: 0
+  length: 4
+  type: temporal
+  text: 延熙七年
+  era: 延熙
+  era_year: 7
+  year_ad: 244
 - id: shu.14.p13.a1
   anchor: shu.14.p13
   at: 104
@@ -41,6 +77,15 @@ annotations:
   length: 0
   type: pei
   text: 禕别傳曰：禕雅性谦素，家不积财。兒子皆令布衣素食，出入不从车骑，无异凡人。
+- id: shu.14.p14.t1
+  anchor: shu.14.p14
+  at: 0
+  length: 5
+  type: temporal
+  text: 延熙十五年
+  era: 延熙
+  era_year: 15
+  year_ad: 252
 - id: shu.14.p14.a1
   anchor: shu.14.p14
   at: 63
@@ -53,6 +98,15 @@ annotations:
   length: 0
   type: pei
   text: 《傅子》曰：维为人好立功名，阴养死士，不脩布衣之业。
+- id: shu.14.p15.t1
+  anchor: shu.14.p15
+  at: 75
+  length: 4
+  type: temporal
+  text: 建興六年
+  era: 建興
+  era_year: 6
+  year_ad: 228
 - id: shu.14.p15.a2
   anchor: shu.14.p15
   at: 222
@@ -65,12 +119,30 @@ annotations:
   length: 0
   type: pei
   text: 孙盛杂记曰：初，姜维诣亮，与母相失，复得母书，令求当归。维曰：“良田百顷，不在一亩，但有远志，不在当归也。”
+- id: shu.14.p16.t1
+  anchor: shu.14.p16
+  at: 32
+  length: 4
+  type: temporal
+  text: 延熙元年
+  era: 延熙
+  era_year: 1
+  year_ad: 238
 - id: shu.14.p16.a1
   anchor: shu.14.p16
   at: 244
   length: 0
   type: pei
   text: 《汉晋春秋》曰：费禕谓维曰：“吾等不如丞相亦已远矣；丞相犹不能定中夏，况吾等乎！且不如保国治民，敬守社稷，如其功业，以俟能者，无以为希冀徼倖而决成败於一举。若不如志，悔之无及。”
+- id: shu.14.p19.t1
+  anchor: shu.14.p19
+  at: 124
+  length: 4
+  type: temporal
+  text: 景耀元年
+  era: 景耀
+  era_year: 1
+  year_ad: 258
 - id: shu.14.p21.a1
   anchor: shu.14.p21
   at: 87

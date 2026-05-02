@@ -29,6 +29,26 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：權寢疾，議所付託。時朝臣咸皆注意於恪，而孫峻表恪器任輔政，可付大事。權嫌恪剛很自用，峻以當今朝臣皆莫及，遂固保之，乃徵恪。後引恪等見臥內，受詔床下，權詔曰：「吾疾困矣，恐不復相見，諸事一以相委。」恪歔欷流涕曰：「臣等皆受厚恩，當以死奉詔，原陛下安精神，損思慮，無以外事為念。」權詔有司諸事一統於恪，惟殺生大事然後以聞。為治第館，設陪衛。群官百司拜揖之儀，各有品敘。諸法令有不便者，條列以聞，權輒聽之。中外翕然，人懷歡欣。
+- id: wu.19.p14.t1
+  anchor: wu.19.p14
+  at: 3
+  length: 4
+  type: temporal
+  text: 黃龍元年
+  era: 黃龍
+  era_year: 1
+  year_ad: 229
+- id: wu.19.p14.t2
+  anchor: wu.19.p14
+  at: 42
+  length: 6
+  type: temporal
+  text: 建興元年十月
+  era: 建興
+  era_year: 1
+  year_ad: 252
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wu.19.p15.a1
   anchor: wu.19.p15
   at: 24
@@ -83,6 +103,15 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：胤上表陳及時宜，及民間優劣，多所匡弼。權以胤故，增重公主之賜，屢加存問。胤每聽辭訟，斷罪法，察言觀色，務盡情理。人有窮冤悲苦之言，對之流涕。
+- id: wu.19.p28.t1
+  anchor: wu.19.p28
+  at: 147
+  length: 4
+  type: temporal
+  text: 太元元年
+  era: 太元
+  era_year: 1
+  year_ad: 251
 - id: wu.19.p29.a1
   anchor: wu.19.p29
   at: 252
@@ -95,6 +124,15 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：群臣上奏，共推峻為太尉，議胤為司徒。時有媚峻者，以為大統宜在公族，若滕胤為亞公，聲名素重，眾心所附，不可貳也。乃表以峻為丞相，又不置御史大夫，士人皆失望矣。
+- id: wu.19.p30.t1
+  anchor: wu.19.p30
+  at: 202
+  length: 4
+  type: temporal
+  text: 五鳳元年
+  era: 五鳳
+  era_year: 1
+  year_ad: 254
 - id: wu.19.p31.a1
   anchor: wu.19.p31
   at: 48
@@ -131,9 +169,29 @@ annotations:
   length: 0
   type: pei
   text: 《吳曆》曰：綝求中書兩郎，典知荊州諸軍事，主者奏中書不應外出，休特聽之，其所請求，一皆給與。
+- id: wu.19.p41.t1
+  anchor: wu.19.p41
+  at: 0
+  length: 7
+  type: temporal
+  text: 永安元年十二月
+  era: 永安
+  era_year: 1
+  year_ad: 258
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wu.19.p43.a1
   anchor: wu.19.p43
   at: 29
   length: 0
   type: pei
   text: 逸事見《陸瑁傳》。
+- id: wu.19.p44.t1
+  anchor: wu.19.p44
+  at: 0
+  length: 4
+  type: temporal
+  text: 永安三年
+  era: 永安
+  era_year: 3
+  year_ad: 260

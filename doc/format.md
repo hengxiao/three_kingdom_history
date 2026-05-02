@@ -189,23 +189,50 @@ source:                            # 必填，注解抽取所基于的源
   sha256: <抓取 HTML 的 sha256>
 parse_warnings: []                 # 可选，对应 texts/ 中的解析警告（如 stray 〈〉）
 annotations:
-  - id: wei.1.p1.a1                # 必填，<segment-id>.aN，N 从 1 开始
+  - id: wei.1.p1.a1                # 必填，<segment-id>.<tag><N>，<tag> ∈ {a, t, …}
     anchor: wei.1.p1               # 必填，被注解的段 ID
     at: 12                         # 必填，正文段内字符索引（0-based，去空白后）
-    length: 0                      # 必填，0 = 点插入；>0 = 跨度（暂不用，预留）
+    length: 0                      # 必填，0 = 点插入；>0 = 跨度（temporal 用，覆盖原文表面）
     type: pei                      # 必填，见 5.2
     text: |
       《魏書》曰：……
+  # temporal 类型的额外字段
+  - id: wei.1.p6.t1
+    anchor: wei.1.p6
+    at: 0
+    length: 7
+    type: temporal
+    text: 初平元年春正月
+    era: 初平
+    era_year: 1
+    year_ad: 190
+    month_chinese: 春正月            # 可选，仅当原文带月份时
+    month_ordinal: 1                # 可选，1–12（农历月号）
 ```
 
 ### 5.2 type 枚举
 
-| type | 含义 | 来源 |
-|---|---|---|
-| `pei` | 裴松之注 | 从 Wikisource `〈...〉` 抽出 |
-| `chen` | 陈寿自注 | 暂无；如确认有差别再分 |
-| `editor` | 本仓编辑注 | 手工添加，用于说明版本/异文/录入决定 |
-| `crossref` | 段间交叉引用 | 工具自动生成（未来） |
+| type | 含义 | 来源 | ID tag |
+|---|---|---|---|
+| `pei` | 裴松之注 | 从 Wikisource `〈...〉` 抽出 | `a` |
+| `chen` | 陈寿自注 | 暂无；如确认有差别再分 | `a` |
+| `editor` | 本仓编辑注 | 手工添加，用于说明版本/异文/录入决定 | `a` |
+| `crossref` | 段间交叉引用 | 工具自动生成（未来） | `a` |
+| `temporal` | 时间锚点（年号转公元） | 自动从正文识别 | `t` |
+
+不同 tag 的 ID 序列独立计数：同一段内 `aN` 与 `tN` 互不冲突，`tN` 的渲染顺序按文本中出现位置而定。
+
+### 5.2.1 temporal 字段
+
+| 字段 | 类型 | 必填 | 说明 |
+|---|---|---|---|
+| `era` | str | ✓ | 年号原文（繁体），如 `建安`、`黃初` |
+| `era_year` | int | ✓ | 年号内第几年（元年=1） |
+| `year_ad` | int | ✓ | 公元 AD 年（计算结果） |
+| `month_chinese` | str | ✗ | 月份原文，如 `春正月`、`夏五月`、`二月` |
+| `month_ordinal` | int | ✗ | 农历月号 1–12；不做农历→公历转换（农历月对应的公历月有跨度，不能简单换算） |
+
+绝对时间（带年号）由 `tools/extract_dates.py` 抽出；相对时间（如 `是歲`、`明年`、裸 `<year>年`、裸 `<month>月`）后续以绝对时间为锚点解析（待实现）。
 
 ### 5.3 ID 稳定性
 

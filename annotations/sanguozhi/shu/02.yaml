@@ -53,6 +53,15 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝春秋》曰：陳登等遣使詣袁紹曰：「天降災沴，禍臻鄙州，州將殂殞，生民無主，恐懼姦雄一旦承隙，以貽盟主日昃之憂，輒共奉故平原相劉備府君以為宗主，永使百姓知有依歸。方今寇難縱橫，不遑釋甲，謹遣下吏奔告于執事。」紹答曰：「劉玄德弘雅有信義，今徐州樂戴之，誠副所望也。」
+- id: shu.2.p4.t1
+  anchor: shu.2.p4
+  at: 399
+  length: 4
+  type: temporal
+  text: 建安元年
+  era: 建安
+  era_year: 1
+  year_ad: 196
 - id: shu.2.p4.a2
   anchor: shu.2.p4
   at: 448
@@ -245,6 +254,17 @@ annotations:
   length: 0
   type: pei
   text: 《蜀本紀》曰：武都有丈夫化為女子，顏色美好，蓋山精也。蜀王娶以為妻，不習水土，疾病欲歸國，蜀王留之，無幾物故。蜀王發卒之武都擔土，於成都郭中葬，蓋地數畝，高十丈，號曰武擔也。臣松之案：武擔，山名，在成都西北，蓋以乾位在西北，故就之以即阼。
+- id: shu.2.p32.t1
+  anchor: shu.2.p32
+  at: 0
+  length: 7
+  type: temporal
+  text: 章武元年夏四月
+  era: 章武
+  era_year: 1
+  year_ad: 221
+  month_chinese: 夏四月
+  month_ordinal: 4
 - id: shu.2.p32.a1
   anchor: shu.2.p32
   at: 44

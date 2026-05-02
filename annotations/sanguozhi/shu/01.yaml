@@ -59,6 +59,15 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》曰：範從長安亡之馬騰營，從焉求兵。焉使校尉孫肇將兵往助之，敗於長安。
+- id: shu.1.p6.t1
+  anchor: shu.1.p6
+  at: 34
+  length: 4
+  type: temporal
+  text: 興平元年
+  era: 興平
+  era_year: 1
+  year_ad: 194
 - id: shu.1.p6.a1
   anchor: shu.1.p6
   at: 96
@@ -101,6 +110,15 @@ annotations:
   length: 0
   type: pei
   text: 音浮。
+- id: shu.1.p8.t1
+  anchor: shu.1.p8
+  at: 333
+  length: 5
+  type: temporal
+  text: 建安十六年
+  era: 建安
+  era_year: 16
+  year_ad: 211
 - id: shu.1.p8.a5
   anchor: shu.1.p8
   at: 398

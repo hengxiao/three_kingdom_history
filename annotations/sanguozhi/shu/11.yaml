@@ -5,12 +5,30 @@ source:
   retrieved: '2026-05-01'
   sha256: 8007184151ac38657c6066182db943da84e5d57494cab1c8de545019dc0b5404
 annotations:
+- id: shu.11.p2.t1
+  anchor: shu.11.p2
+  at: 192
+  length: 4
+  type: temporal
+  text: 景耀六年
+  era: 景耀
+  era_year: 6
+  year_ad: 263
 - id: shu.11.p2.a1
   anchor: shu.11.p2
   at: 244
   length: 0
   type: pei
   text: 《汉晋春秋》曰：霍弋闻魏军来，弋欲赴成都，后主以备敌既定，不听。及成都不守，弋素服号哭，大临三日。诸将咸劝宜速降，弋曰：“今道路隔塞，未详主之安危，大故去就，不可苟也。若主上与魏和，见遇以礼，则保境而降，不晚也。若万一危辱，吾将以死拒之，何论迟速邪！”得后主东迁之问，始率六郡将守上表曰：“臣闻人生於三，事之如一，惟难所在，则致其命。今臣国败主附，守死无所，是以委质，不敢有贰。”晋文王善之，又拜南中都督，委以本任。后遣将兵救援吕兴，平交阯、日南、九真三郡，功封列侯，进号崇赏焉。弋孙彪，晋越巂太守。
+- id: shu.11.p3.t1
+  anchor: shu.11.p3
+  at: 144
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
 - id: shu.11.p4.a1
   anchor: shu.11.p4
   at: 13
@@ -23,6 +41,15 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：朗坐马谡免长史，则建興六年中也。朗至延熙十年卒，整二十年耳，此云“三十”，字之误也。
+- id: shu.11.p4.t1
+  anchor: shu.11.p4
+  at: 294
+  length: 4
+  type: temporal
+  text: 延熙十年
+  era: 延熙
+  era_year: 10
+  year_ad: 247
 - id: shu.11.p4.a3
   anchor: shu.11.p4
   at: 300
@@ -35,6 +62,24 @@ annotations:
   length: 0
   type: pei
   text: 《襄阳记》曰：条字文豹，亦博学多识，入晋为江阳太守、南中军司马。
+- id: shu.11.p5.t1
+  anchor: shu.11.p5
+  at: 23
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
+- id: shu.11.p5.t2
+  anchor: shu.11.p5
+  at: 126
+  length: 4
+  type: temporal
+  text: 延熙三年
+  era: 延熙
+  era_year: 3
+  year_ad: 240
 - id: shu.11.p5.a1
   anchor: shu.11.p5
   at: 153
@@ -47,12 +92,30 @@ annotations:
   length: 0
   type: pei
   text: 臣松之以为谈啁贵於机捷，书疏可容留意。今因书疏之巧，以著谈啁之速，非其理也。
+- id: shu.11.p8.t1
+  anchor: shu.11.p8
+  at: 251
+  length: 4
+  type: temporal
+  text: 建興八年
+  era: 建興
+  era_year: 8
+  year_ad: 230
 - id: shu.11.p8.a2
   anchor: shu.11.p8
   at: 261
   length: 0
   type: pei
   text: 毣音忙角反，见《字林》，曰“毣，思貌也”。
+- id: shu.11.p10.t1
+  anchor: shu.11.p10
+  at: 193
+  length: 4
+  type: temporal
+  text: 建興元年
+  era: 建興
+  era_year: 1
+  year_ad: 223
 - id: shu.11.p13.a1
   anchor: shu.11.p13
   at: 53
@@ -65,6 +128,15 @@ annotations:
   length: 0
   type: pei
   text: 习凿齿曰：夫创本之君，须大定而后正己，纂统之主，俟速建以系众心，是故惠公朝虏而子圉夕立，更始尚存而光武举号，夫岂忘主徼利，社稷之故也。今先主纠合义兵，将以讨贼。贼强祸大，主没国丧，二祖之庙，绝而不祀，苟非亲贤，孰能绍此？嗣祖配天，非咸阳之譬，杖正讨逆，何推让之有？於此时也，不知速尊有德以奉大统，使民欣反正，世睹旧物，杖顺者齐心，附逆者同惧，可谓闇惑矣。其黜降也宜哉！臣松之以为凿齿论议，惟此论最善。
+- id: shu.11.p16.t1
+  anchor: shu.11.p16
+  at: 0
+  length: 4
+  type: temporal
+  text: 建興三年
+  era: 建興
+  era_year: 3
+  year_ad: 225
 - id: shu.11.p17.a1
   anchor: shu.11.p17
   at: 40

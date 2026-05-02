@@ -256,6 +256,44 @@ def test_run_validates_both_texts_and_annotations(tmp_path, capsys):
     assert "01.yaml" in out
 
 
+def test_valid_temporal_annotation_passes(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"].append({
+        "id": "wei.1.p1.t1", "anchor": "wei.1.p1", "at": 0, "length": 4,
+        "type": "temporal", "text": "建安五年",
+        "era": "建安", "era_year": 5, "year_ad": 200,
+    })
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    assert validate_annotation_file(ann_path, repo_root=repo) == []
+
+
+def test_temporal_missing_required_field_reported(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"].append({
+        "id": "wei.1.p1.t1", "anchor": "wei.1.p1", "at": 0, "length": 4,
+        "type": "temporal", "text": "建安五年",
+        "era": "建安", "era_year": 5,  # missing year_ad
+    })
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("year_ad" in e for e in errs)
+
+
+def test_temporal_month_ordinal_out_of_range_reported(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"].append({
+        "id": "wei.1.p1.t1", "anchor": "wei.1.p1", "at": 0, "length": 4,
+        "type": "temporal", "text": "建安五年",
+        "era": "建安", "era_year": 5, "year_ad": 200, "month_ordinal": 13,
+    })
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("month_ordinal" in e for e in errs)
+
+
 def test_existing_repo_annotation_sample_passes():
     """The repo's actual annotations/wei/01.yaml must validate (regression guard)."""
     repo_root = Path(__file__).resolve().parents[1]

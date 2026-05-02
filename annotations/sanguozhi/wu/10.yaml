@@ -47,6 +47,15 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：當勤苦有功，以軍旅陪隷，分於英豪，故爵位不加。終於堅世，爲別部司馬。
+- id: wu.10.p10.t1
+  anchor: wu.10.p10
+  at: 208
+  length: 4
+  type: temporal
+  text: 黃武二年
+  era: 黃武
+  era_year: 2
+  year_ad: 223
 - id: wu.10.p11.a1
   anchor: wu.10.p11
   at: 38
@@ -65,18 +74,63 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：權把其臂，因流涕交連，字之曰：「幼平，卿爲孤兄弟戰如熊虎，不惜軀命，被創數十，膚如刻畫，孤亦何心不待卿以骨肉之恩，委卿以兵馬之重乎！卿吳之功臣，孤當與卿同榮辱，等休戚。幼平意快爲之，勿以寒門自退也。」即勑以己常所用御幘青縑蓋賜之。坐罷，住駕，使泰以兵馬導從出，鳴鼓角作鼓吹。
+- id: wu.10.p19.t1
+  anchor: wu.10.p19
+  at: 32
+  length: 4
+  type: temporal
+  text: 黃龍二年
+  era: 黃龍
+  era_year: 2
+  year_ad: 230
+- id: wu.10.p20.t1
+  anchor: wu.10.p20
+  at: 125
+  length: 5
+  type: temporal
+  text: 建安二十年
+  era: 建安
+  era_year: 20
+  year_ad: 215
 - id: wu.10.p20.a1
   anchor: wu.10.p20
   at: 150
   length: 0
   type: pei
   text: 《江表傳》曰：權命以其愛妾殉葬，復客二百家。孫盛曰：昔三良從秦穆師以之不征；魏妾旣出，杜回以之僵仆。禍福之報，如此之效也。權仗計任術，以生從死，世祚之促，不亦宜乎！
+- id: wu.10.p21.t1
+  anchor: wu.10.p21
+  at: 79
+  length: 4
+  type: temporal
+  text: 黃龍元年
+  era: 黃龍
+  era_year: 1
+  year_ad: 229
+- id: wu.10.p22.t1
+  anchor: wu.10.p22
+  at: 364
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
 - id: wu.10.p23.a1
   anchor: wu.10.p23
   at: 21
   length: 0
   type: pei
   text: 謝承《後漢書》稱襲志節慷慨，武毅猛烈。
+- id: wu.10.p26.t1
+  anchor: wu.10.p26
+  at: 0
+  length: 5
+  type: temporal
+  text: 建安十三年
+  era: 建安
+  era_year: 13
+  year_ad: 208
 - id: wu.10.p28.a1
   anchor: wu.10.p28
   at: 13
@@ -107,6 +161,15 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：「曹公出濡須，號步騎四十萬，臨江飲馬。權率衆七萬應之，使寧領三千人爲前部督。權密勑寧，使夜入魏軍。寧乃選手下健兒百餘人，徑詣曹公營下，使拔鹿角，踰壘入營，斬得數十級。北軍驚駭鼓譟，舉火如星，寧已還入營，作鼓吹，稱萬歲。因夜見權，權喜曰：「足以驚駭老子否？聊以觀卿膽耳。」即賜絹千匹，刀百口。權曰：「孟德有張遼，孤有興霸，足相敵也。」停住月餘，北軍便退。
+- id: wu.10.p33.t1
+  anchor: wu.10.p33
+  at: 33
+  length: 5
+  type: temporal
+  text: 建安二十年
+  era: 建安
+  era_year: 20
+  year_ad: 215
 - id: wu.10.p33.a1
   anchor: wu.10.p33
   at: 130
@@ -131,3 +194,48 @@ annotations:
   length: 0
   type: pei
   text: 干寶《晉紀》所云「疑城」，已注〈孫權傳〉。《魏氏春秋》云：文帝歎曰：「魏雖有武騎千羣，無所用也。」
+- id: wu.10.p53.t1
+  anchor: wu.10.p53
+  at: 101
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
+- id: wu.10.p57.t1
+  anchor: wu.10.p57
+  at: 0
+  length: 4
+  type: temporal
+  text: 太平二年
+  era: 太平
+  era_year: 2
+  year_ad: 257
+- id: wu.10.p58.t1
+  anchor: wu.10.p58
+  at: 134
+  length: 4
+  type: temporal
+  text: 永安二年
+  era: 永安
+  era_year: 2
+  year_ad: 259
+- id: wu.10.p59.t1
+  anchor: wu.10.p59
+  at: 32
+  length: 4
+  type: temporal
+  text: 寶鼎三年
+  era: 寶鼎
+  era_year: 3
+  year_ad: 268
+- id: wu.10.p59.t2
+  anchor: wu.10.p59
+  at: 67
+  length: 4
+  type: temporal
+  text: 建衡元年
+  era: 建衡
+  era_year: 1
+  year_ad: 269

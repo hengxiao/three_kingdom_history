@@ -7,6 +7,24 @@ source:
 parse_warnings:
 - 'source has unbalanced brackets: 1 stray ''〈'', 0 stray ''〉'' — treating them as literal text'
 annotations:
+- id: wei.15.p4.t1
+  anchor: wei.15.p4
+  at: 0
+  length: 5
+  type: temporal
+  text: 建安十三年
+  era: 建安
+  era_year: 13
+  year_ad: 208
+- id: wei.15.p5.t1
+  anchor: wei.15.p5
+  at: 571
+  length: 4
+  type: temporal
+  text: 嘉平六年
+  era: 嘉平
+  era_year: 6
+  year_ad: 254
 - id: wei.15.p6.a1
   anchor: wei.15.p6
   at: 13
@@ -25,6 +43,15 @@ annotations:
   length: 0
   type: pei
   text: 魏書曰：文帝善朗论，命秘書录其文。孫盛曰：繇既失之，朗亦未爲得也。昔「汤舉伊尹，而不仁者远矣」。易稱「颜氏之子，其殆庶幾乎！有不善未尝不知，知之未尝復行」。由此而言，圣人之與大賢，行藏道一，舒卷斯同，御世垂風，理無降異；升泰之美，豈俟积世哉？「善人爲邦百年，亦可以胜残去杀」。又曰「不践迹，亦不入于室」。數世之论，其在斯乎！方之大賢，固有間矣。
+- id: wei.15.p10.t1
+  anchor: wei.15.p10
+  at: 0
+  length: 6
+  type: temporal
+  text: 建安二十二年
+  era: 建安
+  era_year: 22
+  year_ad: 217
 - id: wei.15.p10.a1
   anchor: wei.15.p10
   at: 64
@@ -43,12 +70,30 @@ annotations:
   length: 0
   type: pei
   text: 咨字君初。子酆字子，晉骠骑將軍，封東平陵公。並見百官名（志）。
+- id: wei.15.p13.t1
+  anchor: wei.15.p13
+  at: 36
+  length: 5
+  type: temporal
+  text: 建安十八年
+  era: 建安
+  era_year: 18
+  year_ad: 213
 - id: wei.15.p13.a1
   anchor: wei.15.p13
   at: 130
   length: 0
   type: pei
   text: 魏略曰：鲜卑大人育延，常爲州所畏，而一旦將其部落五千餘骑詣習，求互市。習念不听則恐其怨，若听到州下，又恐爲所略，於是乃许之往與會空城中交市。遂敕郡縣，自將治中以下軍往就之。市易未毕，市吏收缚一胡。延骑皆惊，上馬弯弓圍習數重，吏民惶怖不知所施。習乃徐呼市吏，問缚胡意，而胡實侵犯人。習乃使译呼延，延到，習责延曰：「汝胡自犯法，吏不侵汝，汝何爲使諸骑惊駭邪？」遂斩之，餘胡破胆不敢動。是後無寇虏。至二十二年，太祖拔漢中，諸軍還到長安，因留骑督太原乌丸王鲁昔，使屯池陽，以備卢水。昔有愛妻，住在晉陽。昔既思之，又恐遂不得歸，乃以其部五百骑叛還并州，留其餘骑置山谷間，而单骑独入晉陽，盗取其妻。已出城，州郡乃觉；吏民又畏昔善射，不敢追。習乃令從事張景，募鲜卑使逐昔。昔馬負其妻，重骑行迟，未及與其眾合，而爲鲜卑所射死。始太祖聞昔叛，恐其爲亂於北邊；會聞已杀之，大喜，以習前後有策略，封爲關内侯。
+- id: wei.15.p13.t2
+  anchor: wei.15.p13
+  at: 164
+  length: 4
+  type: temporal
+  text: 太和二年
+  era: 太和
+  era_year: 2
+  year_ad: 228
 - id: wei.15.p14.a1
   anchor: wei.15.p14
   at: 101
@@ -91,12 +136,30 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：初，旣為郡小吏，功曹徐英嘗自鞭旣三十。英字伯濟，馮翊著姓，建安初為蒲阪令。英性剛爽，自見族氏勝旣，於鄉里名行在前，加以前辱旣，雖知旣貴顯，終不肯求於旣。旣雖得志，亦不顧計本原，猶欲與英和。嘗因醉欲親狎英，英故抗意不納。英由此遂不復進用。故時人善旣不挾舊怨，而壯英之不撓。
+- id: wei.15.p21.t1
+  anchor: wei.15.p21
+  at: 53
+  length: 4
+  type: temporal
+  text: 黃初四年
+  era: 黃初
+  era_year: 4
+  year_ad: 223
 - id: wei.15.p22.a1
   anchor: wei.15.p22
   at: 62
   length: 0
   type: pei
   text: 《魏略》曰：緝字敬仲，太和中為溫令，名有治能。會諸葛亮出，緝上便宜，詔以問中書令孫資，資以為有籌略，遂召拜騎都尉，遣參征蜀軍。軍罷，入為尚書郎，以稱職為明帝所識。帝以為緝之材能，多所堪任，試呼相工相之。相者云：「不過二千石。」帝曰：「何材如是而位止二千石乎？」及在東莞，領兵數千人。緝性吝於財而矜於勢，一旦以女徵去郡，還坐里舍，悒悒躁擾。數為國家陳擊吳、蜀形勢，又嘗對司馬大將軍料諸葛恪雖得勝於邊土，見誅不乆。大將軍問其故，緝云：「威震其主，功蓋一國，欲不死可得乎？」及恪從合肥還，吳果殺之。大將軍聞恪死，謂衆人曰：「諸葛恪多輩耳！近張敬仲縣論恪，以為必見殺，今果然如此。敬仲之智為勝恪也。」緝與李豐通家，又居相側近。豐時取急出，子藐往見之，有所咨道。豐被收，事與緝連，遂收送廷尉，賜死獄中，其諸子皆並誅。緝孫殷，晉永興中為梁州刺史，見《晉書》。
+- id: wei.15.p24.t1
+  anchor: wei.15.p24
+  at: 0
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
 - id: wei.15.p26.a1
   anchor: wei.15.p26
   at: 25
@@ -145,6 +208,15 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：逵爲豫州。逵進曰：「臣守天門，出入六年，天門始開，而臣在外。唯殿下爲兆民计，無违天人之望。」
+- id: wei.15.p31.t1
+  anchor: wei.15.p31
+  at: 11
+  length: 4
+  type: temporal
+  text: 太和二年
+  era: 太和
+  era_year: 2
+  year_ad: 228
 - id: wei.15.p31.a1
   anchor: wei.15.p31
   at: 348

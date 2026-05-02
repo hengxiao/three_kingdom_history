@@ -28,8 +28,10 @@ KNOWN_SOURCE_IDS = {"wikisource", "ctext", "zhonghua1959", "bona", "wuying"}
 
 REQUIRED_ANNOTATIONS_FILE_FIELDS = ("chapter", "source", "annotations")
 REQUIRED_ANNOTATION_FIELDS = ("id", "anchor", "at", "length", "type", "text")
-ALLOWED_ANNOTATION_TYPES = {"pei", "chen", "editor", "crossref"}
-_ANN_ID_RE = re.compile(r"^([a-z]+)\.(\d+)\.p\d+[a-z]*\.a\d+$")
+ALLOWED_ANNOTATION_TYPES = {"pei", "chen", "editor", "crossref", "temporal"}
+REQUIRED_TEMPORAL_FIELDS = ("era", "era_year", "year_ad")
+# Annotation IDs use a single-letter tag prefix per type series (a for pei/chen/editor/crossref, t for temporal).
+_ANN_ID_RE = re.compile(r"^([a-z]+)\.(\d+)\.p\d+[a-z]*\.[a-z]\d+$")
 _CHAPTER_ID_RE = re.compile(r"^([a-z]+)\.(\d+)$")
 
 
@@ -197,6 +199,21 @@ def validate_annotation_file(path: Path, *, repo_root: Path) -> list[str]:
         text = a.get("text")
         if text is not None and not isinstance(text, str):
             errs.append(f"annotation {ann_id!r} text must be a string")
+        if a.get("type") == "temporal":
+            for k in REQUIRED_TEMPORAL_FIELDS:
+                if k not in a:
+                    errs.append(f"temporal annotation {ann_id!r} missing field: {k!r}")
+            era_year = a.get("era_year")
+            year_ad = a.get("year_ad")
+            if era_year is not None and (not isinstance(era_year, int) or era_year < 1):
+                errs.append(f"temporal annotation {ann_id!r} era_year must be a positive integer")
+            if year_ad is not None and (not isinstance(year_ad, int) or year_ad < 1):
+                errs.append(f"temporal annotation {ann_id!r} year_ad must be a positive integer")
+            month_ordinal = a.get("month_ordinal")
+            if month_ordinal is not None and (
+                not isinstance(month_ordinal, int) or not (1 <= month_ordinal <= 12)
+            ):
+                errs.append(f"temporal annotation {ann_id!r} month_ordinal out of range [1,12]")
     return errs
 
 

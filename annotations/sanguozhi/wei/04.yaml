@@ -11,12 +11,54 @@ annotations:
   length: 0
   type: pei
   text: 《魏氏春秋》曰：或云任城王楷子。
+- id: wei.4.p1.t1
+  anchor: wei.4.p1
+  at: 35
+  length: 4
+  type: temporal
+  text: 青龍三年
+  era: 青龍
+  era_year: 3
+  year_ad: 235
+- id: wei.4.p1.t2
+  anchor: wei.4.p1
+  at: 45
+  length: 6
+  type: temporal
+  text: 景初三年正月
+  era: 景初
+  era_year: 3
+  year_ad: 239
+  month_chinese: 正月
+  month_ordinal: 1
 - id: wei.4.p1.a2
   anchor: wei.4.p1
   at: 233
   length: 0
   type: pei
   text: 《異物志》曰：斯調國有火州，在南海中。其上有野火，春夏自生，秋冬自死。有木生於其中而不消也，枝皮更活，秋冬火死則皆枯瘁。其俗常冬采其皮以為布，色小青黑；若塵垢洿之，便投火中，則更鮮明也。傅子曰：漢桓帝時，大將軍梁兾以火浣布為單衣，常大會賔客，兾陽爭酒，失杯而汙之，偽怒，解衣曰：「燒之。」布得火，煒燁赫然，如燒凡布，垢盡火滅，粲然潔白，若用灰水焉。《搜神記》曰：崑崙之墟有炎火之山，山上有鳥獸草木，皆生於炎火之中，故有火浣布，非此山草木之皮枲，則其鳥獸之毛也。漢世西域舊獻此布，中間乆絕；至魏初，時人疑其無有。文帝以為火性酷烈，無含生之氣，著之《典論》，明其不然之事，絕智者之聽。及明帝立，詔三公曰：「先帝昔著典論，不朽之格言，其刊石于廟門之外及太學，與石經並，以永示來世。」至是西域使至而獻火浣布焉，於是刊滅此論，而天下笑之。臣松之昔從征西至洛陽，歷觀舊物，見典論石在太學者尚存，而廟門外無之，問諸長老，云晉初受禪，即用魏廟，移此石於太學，非兩處立也。竊謂此言為不然。又東方朔《神異經》曰：南荒之外有火山，長三十里，廣五十里，其中皆生不燼之木，晝夜火燒，得暴風不猛，猛雨不滅。火中有鼠，重百斤，毛長二尺餘，細如絲，可以作布。常居火中，色洞赤，時時出外而色白，以水逐而沃之即死，續其毛，織以為布。
+- id: wei.4.p3.t1
+  anchor: wei.4.p3
+  at: 73
+  length: 6
+  type: temporal
+  text: 正始元年正月
+  era: 正始
+  era_year: 1
+  year_ad: 240
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.4.p4.t1
+  anchor: wei.4.p4
+  at: 0
+  length: 7
+  type: temporal
+  text: 正始元年春二月
+  era: 正始
+  era_year: 1
+  year_ad: 240
+  month_chinese: 春二月
+  month_ordinal: 2
 - id: wei.4.p7.a1
   anchor: wei.4.p7
   at: 27
@@ -41,6 +83,17 @@ annotations:
   length: 0
   type: pei
   text: 習鑿齒《漢晉春秋》曰：是年，吳將朱然入柤中，斬獲數千；柤中民吏萬餘家渡沔。司馬宣王謂曹爽曰：「若便令還，必復致寇，宜權留之。」爽曰：「今不脩守沔南，留民沔北，非長策也。」宣王曰：「不然。凡物置之安地則安，危地則危，故兵書曰，成敗形也，安危勢也，形勢御衆之要，不可不審。設令賊二萬人斷沔水，三萬人與沔南諸軍相持，萬人陸鈔柤中，君將何以救之？」爽不聽，卒令還。然後襲殺之。袁淮言於爽曰：「吳楚之民脆弱寡能，英才大賢不出其土，比技量力，不足與中國相抗，然自上世以來常為中國患者，蓋以江漢為池，舟楫為用，利則陸鈔，不利則入水，攻之道遠，中國之長技無所用之也。孫權自十數年以來，大畋江北，繕治甲兵，精其守禦，數出盜竊，敢遠其水，陸次平土，此中國所願聞也。夫用兵者，貴以飽待飢，以逸擊勞，師不欲乆，行不欲遠，守少則固，力專則彊。當今宜捐淮、漢已南，退却避之。若賊能入居中央，來侵邊境，則隨其所短，中國之長技得用矣。若不敢來，則邊境得安，無鈔盜之憂矣。使我國富兵彊，政脩民一，陵其國不足為遠矣。今襄陽孤在漢南，賊循漢而上，則斷而不通，一戰而勝，則不攻而自服，故置之無益於國，亡之不足為辱。自江夏已東，淮南諸郡，三后已來，其所亡幾何，以近賊疆界易鈔掠之故哉！若徙之淮北，遠絕其間，則民人安樂，何鳴吠之驚乎？」遂不徙。
+- id: wei.4.p17.t1
+  anchor: wei.4.p17
+  at: 0
+  length: 7
+  type: temporal
+  text: 嘉平元年春正月
+  era: 嘉平
+  era_year: 1
+  year_ad: 249
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wei.4.p17.a1
   anchor: wei.4.p17
   at: 17
@@ -107,18 +160,49 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：景王復與羣臣共奏永寧宮曰：「臣等聞人道親親故尊祖，尊祖故敬宗。禮，大宗無嗣，則擇支子之賢者；為人後者，為之子也。東海定王子高貴鄉公，文皇帝之孫，宜承正統，以嗣烈祖明皇帝後。率土有賴，萬邦幸甚，臣請徵公詣洛陽宮。」奏可。使中護軍望、兼太常河南尹肅持節，與少府袤、尚書亮、侍中表等奉法駕，迎公于元城。《魏世譜》曰：晉受禪，封齊王為邵陵縣公。年四十三，泰始十年薨，謚曰厲公。
+- id: wei.4.p28.t1
+  anchor: wei.4.p28
+  at: 23
+  length: 4
+  type: temporal
+  text: 正始五年
+  era: 正始
+  era_year: 5
+  year_ad: 244
 - id: wei.4.p28.a1
   anchor: wei.4.p28
   at: 218
   length: 0
   type: pei
   text: 《魏氏春秋》曰：公神明爽儁，德音宣朗。罷朝，景王私曰：「上何如主也？」鍾會對曰：「才同陳思，武類太祖。」景王曰：「若如卿言，社稷之福也。」
+- id: wei.4.p29.t1
+  anchor: wei.4.p29
+  at: 0
+  length: 7
+  type: temporal
+  text: 正元元年冬十月
+  era: 正元
+  era_year: 1
+  year_ad: 254
+  month_chinese: 冬十月
+  month_ordinal: 10
 - id: wei.4.p30.a1
   anchor: wei.4.p30
   at: 83
   length: 0
   type: pei
   text: 《世語》曰：大將軍奉天子征儉，至項；儉旣破，天子先還。臣松之檢諸書都無此事，至諸葛誕反，司馬文王始挾太后及帝與俱行耳。故發詔引漢二祖及明帝親征以為前比，知明帝已後始有此行也。案張璠、虞溥、郭頒皆晉之令史，璠、頒出為官長，溥，鄱陽內史。璠撰《後漢紀》，雖似未成，辭藻可觀。溥著《江表傳》，亦粗有條貫。惟頒撰魏晉《世語》，蹇乏全無宮商，最為鄙劣，以時有異事，故頗行於世。干寶、孫盛等多采其言以為《晉書》，其中虛錯如此者，往往而有之。
+- id: wei.4.p34.t1
+  anchor: wei.4.p34
+  at: 0
+  length: 7
+  type: temporal
+  text: 甘露元年春正月
+  era: 甘露
+  era_year: 1
+  year_ad: 256
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wei.4.p34.a1
   anchor: wei.4.p34
   at: 26
@@ -185,6 +269,37 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：初，青龍中，石苞鬻鐵於長安，得見司馬宣王，宣王知焉。後擢為尚書郎，歷青州刺史、鎮東將軍。甘露中入朝，當還，辭高貴鄉公，留中盡日。文王遣人要令過。文王問苞：「何淹留也？」苞曰：「非常人也。」明日發至滎陽，數日而難作。
+- id: wei.4.p64.t1
+  anchor: wei.4.p64
+  at: 20
+  length: 4
+  type: temporal
+  text: 甘露三年
+  era: 甘露
+  era_year: 3
+  year_ad: 258
+- id: wei.4.p65.t1
+  anchor: wei.4.p65
+  at: 0
+  length: 7
+  type: temporal
+  text: 景元元年夏六月
+  era: 景元
+  era_year: 1
+  year_ad: 260
+  month_chinese: 夏六月
+  month_ordinal: 6
+- id: wei.4.p74.t1
+  anchor: wei.4.p74
+  at: 0
+  length: 7
+  type: temporal
+  text: 咸熙元年春正月
+  era: 咸熙
+  era_year: 1
+  year_ad: 264
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wei.4.p74.a1
   anchor: wei.4.p74
   at: 133

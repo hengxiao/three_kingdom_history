@@ -11,6 +11,15 @@ annotations:
   length: 0
   type: pei
   text: 虞预《晋书》曰：贺氏本姓庆氏。齐伯父纯，儒学有重名，汉安帝时为侍中、江夏太守，去官，与江夏黄琼、〔广汉〕杨厚俱公车徵。避安帝父孝德皇（帝）讳，改为贺氏。齐父辅，永宁长。
+- id: wu.15.p2.t1
+  anchor: wu.15.p2
+  at: 137
+  length: 4
+  type: temporal
+  text: 建安元年
+  era: 建安
+  era_year: 1
+  year_ad: 196
 - id: wu.15.p3.a1
   anchor: wu.15.p3
   at: 112
@@ -47,6 +56,24 @@ annotations:
   length: 0
   type: pei
   text: 徐众评曰：礼，子事父无私财，又不敢私施，所以避尊上也。弃命专财而以邀名，未尽父子之礼。臣松之以为子路问“闻斯行诸？”子曰“有父兄在”。琮辄散父财，诚非子道，然士类县命，忧在朝夕，权其轻重，以先人急，斯亦冯暖市义、汲黯振救之类，全谓邀名，或负其心。
+- id: wu.15.p13.t1
+  anchor: wu.15.p13
+  at: 0
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
+- id: wu.15.p14.t1
+  anchor: wu.15.p14
+  at: 0
+  length: 4
+  type: temporal
+  text: 黃武元年
+  era: 黃武
+  era_year: 1
+  year_ad: 222
 - id: wu.15.p14.a1
   anchor: wu.15.p14
   at: 158
@@ -59,12 +86,39 @@ annotations:
   length: 0
   type: pei
   text: 江表传曰：琮还，经过钱唐，脩祭坟墓，麾幢节盖，曜於旧里，请会邑人平生知旧、宗族六亲，施散惠与，千有馀万，本土以为荣。
+- id: wu.15.p14.t2
+  anchor: wu.15.p14
+  at: 190
+  length: 4
+  type: temporal
+  text: 黃龍元年
+  era: 黃龍
+  era_year: 1
+  year_ad: 229
 - id: wu.15.p14.a3
   anchor: wu.15.p14
   at: 208
   length: 0
   type: pei
   text: 吴书曰：初，琮为将甚勇决，当敌临难，奋不顾身。及作督帅，养威持重，每御军，常任计策，不营小利。江表传曰：权使子登出征，已出军，次于安乐，群臣莫敢谏。琮密表曰：“古来太子未尝偏征也，故从曰抚军，守曰监国。今太子东出，非古制也，臣窃忧疑。”权即从之，命登旋军，议者咸以为琮有大臣之节也。
+- id: wu.15.p15.t1
+  anchor: wu.15.p15
+  at: 0
+  length: 4
+  type: temporal
+  text: 嘉禾二年
+  era: 嘉禾
+  era_year: 2
+  year_ad: 233
+- id: wu.15.p16.t1
+  anchor: wu.15.p16
+  at: 0
+  length: 4
+  type: temporal
+  text: 赤烏九年
+  era: 赤烏
+  era_year: 9
+  year_ad: 246
 - id: wu.15.p17.a1
   anchor: wu.15.p17
   at: 92
@@ -77,12 +131,57 @@ annotations:
   length: 0
   type: pei
   text: 吴书曰：建安十六年，岱督郎将尹异等，以兵二千人西诱汉中贼帅张鲁到汉兴寋城，鲁嫌疑断道，事计不立，权遂召岱还。
+- id: wu.15.p19.t1
+  anchor: wu.15.p19
+  at: 0
+  length: 5
+  type: temporal
+  text: 建安二十年
+  era: 建安
+  era_year: 20
+  year_ad: 215
+- id: wu.15.p20.t1
+  anchor: wu.15.p20
+  at: 0
+  length: 4
+  type: temporal
+  text: 延康元年
+  era: 延康
+  era_year: 1
+  year_ad: 220
+- id: wu.15.p22.t1
+  anchor: wu.15.p22
+  at: 0
+  length: 4
+  type: temporal
+  text: 黃龍三年
+  era: 黃龍
+  era_year: 3
+  year_ad: 231
 - id: wu.15.p22.a1
   anchor: wu.15.p22
   at: 20
   length: 0
   type: pei
   text: 王隐《交广记》曰：吴后复置广州，以南阳滕脩为刺史。或语脩虾须长一丈，脩不信，其人后故至东海，取虾须长四丈四尺，封以示脩，脩乃服之。
+- id: wu.15.p22.t2
+  anchor: wu.15.p22
+  at: 39
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
+- id: wu.15.p29.t1
+  anchor: wu.15.p29
+  at: 0
+  length: 4
+  type: temporal
+  text: 太平元年
+  era: 太平
+  era_year: 1
+  year_ad: 256
 - id: wu.15.p41.a1
   anchor: wu.15.p41
   at: 96
@@ -119,12 +218,30 @@ annotations:
   length: 0
   type: pei
   text: 徐众评曰：牧蹈长者之规。问者曰：“如牧所行，犯而不校，又从而救之，直而不有，又还而不受，可不谓之仁让乎哉？”答曰：“异乎吾所闻。原宪之问於孔子曰：‘克伐怨欲不行焉，可以为仁乎？’孔子曰：‘可以为难矣，仁则吾不知也。’‘恶不仁者，其为仁矣。’今小民不展四体，而认人之稻，不仁甚矣，而牧推而与之，又救其罪，斯为让非其义，所救非人，非所谓恶不仁者。苟不恶不仁，安得为仁哉！苍梧浇娶妻而美，让於其兄；尾生笃信，水至不去而死；直躬好直，证父攘羊；申鸣奉法，尽忠於君而执其父。忠信直让，此四行者，圣贤之所贵也。然不贵苍梧之让，非让道也；不取尾生之信，非信所也；不许直躬之直，非直体也；不嘉申鸣之忠，非忠意也。今牧犯而不校，还而不取，可以为难矣，未得为仁让也。夫圣人以德报德，以直报怨，而牧欲以德报怨，非也。必不得已，二者何从？吾从孔子也。”
+- id: wu.15.p44.t1
+  anchor: wu.15.p44
+  at: 0
+  length: 4
+  type: temporal
+  text: 赤烏五年
+  era: 赤烏
+  era_year: 5
+  year_ad: 242
 - id: wu.15.p44.a1
   anchor: wu.15.p44
   at: 22
   length: 0
   type: pei
   text: 会稽典录曰：高凉贼率仍弩等破略百姓，残害吏民，牧越界扑讨，旬日降服。又揭阳县贼率曾夏等众数千人，历十馀年，以侯爵杂缯千匹，下书购募，绝不可得。牧遣使慰譬，登皆首服，自改为良民。始兴太守羊衜与太常滕胤书曰：“锺离子幹吾昔知之不熟，定见其在南海，威恩部伍，智勇分明，加操行清纯，有古人之风。”其见贵如此。在郡四年，以疾去职。
+- id: wu.15.p45.t1
+  anchor: wu.15.p45
+  at: 0
+  length: 4
+  type: temporal
+  text: 永安六年
+  era: 永安
+  era_year: 6
+  year_ad: 263
 - id: wu.15.p45.a1
   anchor: wu.15.p45
   at: 386

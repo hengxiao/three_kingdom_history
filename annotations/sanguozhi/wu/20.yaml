@@ -5,6 +5,15 @@ source:
   retrieved: '2026-05-01'
   sha256: 6617d7056e4f96694220c44ed2b311f0ba93f357542b76da547811e1e16a9dc2
 annotations:
+- id: wu.20.p4.t1
+  anchor: wu.20.p4
+  at: 0
+  length: 4
+  type: temporal
+  text: 甘露二年
+  era: 甘露
+  era_year: 2
+  year_ad: 266
 - id: wu.20.p4.a1
   anchor: wu.20.p4
   at: 86
@@ -23,6 +32,15 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：邵，賀齊之孫，景之子。
+- id: wu.20.p16.t1
+  anchor: wu.20.p16
+  at: 106
+  length: 4
+  type: temporal
+  text: 天冊元年
+  era: 天冊
+  era_year: 1
+  year_ad: 275
 - id: wu.20.p16.a1
   anchor: wu.20.p16
   at: 118
@@ -35,3 +53,30 @@ annotations:
   length: 0
   type: pei
   text: 裴松之曰：曜本名昭，史爲晉諱，改之。
+- id: wu.20.p23.t1
+  anchor: wu.20.p23
+  at: 334
+  length: 4
+  type: temporal
+  text: 鳳凰二年
+  era: 鳳凰
+  era_year: 2
+  year_ad: 273
+- id: wu.20.p32.t1
+  anchor: wu.20.p32
+  at: 11
+  length: 4
+  type: temporal
+  text: 寶鼎二年
+  era: 寶鼎
+  era_year: 2
+  year_ad: 267
+- id: wu.20.p43.t1
+  anchor: wu.20.p43
+  at: 34
+  length: 4
+  type: temporal
+  text: 天冊元年
+  era: 天冊
+  era_year: 1
+  year_ad: 275

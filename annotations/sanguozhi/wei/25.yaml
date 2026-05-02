@@ -17,6 +17,15 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：諸葛亮圍祁山，不克，引退。張郃追之，爲流矢所中死。帝惜郃，臨朝而歎曰：「蜀未平而郃死，將若之何！」司空陳羣曰：「郃誠良將，國所依也。」毗心以爲郃雖可惜，然已死，不當內弱主意，而示外以不大也。乃持羣曰：「陳公，是何言歟！當建安之末，天下不可一日無武皇帝也，及委國祚，而文皇帝受命，黃初之世，亦謂不可無文皇帝也，及委棄天下，而陛下龍興。今國內所少，豈張郃乎？」陳羣曰：「亦誠如辛毗言。」帝笑曰：「陳公可謂善變矣。」臣松之以爲擬人必於其倫，取譬宜引其類，故君子於其言，無所苟而已矣。毗欲弘廣主意，當舉若張遼之疇，安有於一將之死而可以祖宗爲譬哉？非所宜言，莫過於茲，進違其類，退似諂佞，佐治剛正之體，不宜有此。《魏略》旣已難信，習氏又從而載之，竊謂斯人受誣不少。
+- id: wei.25.p9.t1
+  anchor: wei.25.p9
+  at: 0
+  length: 4
+  type: temporal
+  text: 青龍二年
+  era: 青龍
+  era_year: 2
+  year_ad: 234
 - id: wei.25.p9.a1
   anchor: wei.25.p9
   at: 72
@@ -47,12 +56,41 @@ annotations:
   length: 0
   type: pei
   text: 臣松之以爲忠至之道，以亡己爲理。是以匡救其惡，不爲身計。而阜表云「使國亡而臣可以獨存，臣又不言也」，此則發憤爲己，豈爲國哉？斯言也，豈不傷讜烈之義，爲一表之病乎！
+- id: wei.25.p24.t1
+  anchor: wei.25.p24
+  at: 0
+  length: 5
+  type: temporal
+  text: 建安十八年
+  era: 建安
+  era_year: 18
+  year_ad: 213
 - id: wei.25.p24.a1
   anchor: wei.25.p24
   at: 211
   length: 0
   type: pei
   text: 《魏略》曰：太史上漢歷不及天時，因更推步弦望朔晦，爲太和歷。帝以隆學問優深，於天文又精，乃詔使隆與尚書郎楊偉、太史待詔駱祿參共推校。偉、祿是太史，隆故據舊歷更相劾奏，紛紜數歲，偉稱祿得日蝕而月晦不盡，隆不得日蝕而月晦盡，詔從太史。隆所爭雖不得，而遠近猶知其精微也。
+- id: wei.25.p33.t1
+  anchor: wei.25.p33
+  at: 340
+  length: 7
+  type: temporal
+  text: 青龍五年春三月
+  era: 青龍
+  era_year: 5
+  year_ad: 237
+  month_chinese: 春三月
+  month_ordinal: 3
+- id: wei.25.p33.t2
+  anchor: wei.25.p33
+  at: 348
+  length: 4
+  type: temporal
+  text: 景初元年
+  era: 景初
+  era_year: 1
+  year_ad: 237
 - id: wei.25.p40.a1
   anchor: wei.25.p40
   at: 207

@@ -25,12 +25,66 @@ annotations:
   length: 0
   type: pei
   text: 《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。《獻帝春秋》曰：袁術遣吳景攻昕，未拔，景乃募百姓敢從周昕者死不赦。昕曰：「我則不德，百姓何罪？」遂散兵，還本郡。
+- id: wu.6.p3.t1
+  anchor: wu.6.p3
+  at: 37
+  length: 4
+  type: temporal
+  text: 建安九年
+  era: 建安
+  era_year: 9
+  year_ad: 204
+- id: wu.6.p3.t2
+  anchor: wu.6.p3
+  at: 238
+  length: 5
+  type: temporal
+  text: 建安二十年
+  era: 建安
+  era_year: 20
+  year_ad: 215
+- id: wu.6.p7.t1
+  anchor: wu.6.p7
+  at: 148
+  length: 6
+  type: temporal
+  text: 建安二十四年
+  era: 建安
+  era_year: 24
+  year_ad: 219
+- id: wu.6.p8.t1
+  anchor: wu.6.p8
+  at: 78
+  length: 4
+  type: temporal
+  text: 黃武五年
+  era: 黃武
+  era_year: 5
+  year_ad: 226
 - id: wu.6.p8.a1
   anchor: wu.6.p8
   at: 213
   length: 0
   type: pei
   text: 《江表傳》曰：初權在武昌，欲還都建業，而慮水道溯流二千里，一旦有警，不相赴及，以此懷疑。及至夏口，於塢中大會百官議之，詔曰：「諸將吏勿拘位任，其有計者，為國言之。」諸將或陳宜立柵柵夏口，或言宜重設鐵鎖者，權皆以為非計。時梁為小將，未有知名，乃越席而進曰：「臣聞香餌引泉魚，重幣購勇士，今宜明樹賞罰之信，遣將入沔，與敵爭利，形勢既成，彼不敢干也。使武昌有精兵萬人，付智略者任將，常使嚴整。一旦有警，應聲相赴。作甘水城，輕艦數千，諸所宜用，皆使備具。如此開門延敵，敵自不來矣。」權以梁計為最得，即超增梁位。後稍以功進至沔中督。
+- id: wu.6.p9.t1
+  anchor: wu.6.p9
+  at: 30
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
+- id: wu.6.p9.t2
+  anchor: wu.6.p9
+  at: 53
+  length: 4
+  type: temporal
+  text: 赤烏六年
+  era: 赤烏
+  era_year: 6
+  year_ad: 243
 - id: wu.6.p10.a1
   anchor: wu.6.p10
   at: 254
@@ -43,6 +97,15 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：時丹楊僮芝自署廬陵太守，策留賁弟輔領兵住南昌，策謂賁曰：「兄今據豫章，是扼僮芝咽喉而守其門戶矣。但當伺其形便，因令國儀杖兵而進，使公瑾為作勢援，一舉可定也。」後賁聞芝病，即如策計。周瑜到巴兵，輔遂得進據廬陵。
+- id: wu.6.p10.t1
+  anchor: wu.6.p10
+  at: 309
+  length: 5
+  type: temporal
+  text: 建安十三年
+  era: 建安
+  era_year: 13
+  year_ad: 208
 - id: wu.6.p11.a1
   anchor: wu.6.p11
   at: 16
@@ -55,6 +118,15 @@ annotations:
   length: 0
   type: pei
   text: 《博物志》曰：仲膺名邵。初，伯膺親友為人所殺，仲膺為報怨。事覺，兄弟爭死，皆得免。袁術時，邵為阜陵長。亦見《江表傳》。
+- id: wu.6.p11.t1
+  anchor: wu.6.p11
+  at: 193
+  length: 5
+  type: temporal
+  text: 赤烏十二年
+  era: 赤烏
+  era_year: 12
+  year_ad: 249
 - id: wu.6.p11.a3
   anchor: wu.6.p11
   at: 221
@@ -79,6 +151,15 @@ annotations:
   length: 0
   type: pei
   text: 《典略》曰：翊名俨，性似策。策临卒，张昭等谓策当以兵属俨，而策呼权，佩以印绶。
+- id: wu.6.p13.t1
+  anchor: wu.6.p13
+  at: 32
+  length: 4
+  type: temporal
+  text: 建安八年
+  era: 建安
+  era_year: 8
+  year_ad: 203
 - id: wu.6.p13.a2
   anchor: wu.6.p13
   at: 67
@@ -91,12 +172,39 @@ annotations:
   length: 0
   type: pei
   text: 《吴录》曰：松善与人交，轻财好施。镇巴丘，数咨陆逊以得失。尝有小过，逊面责松，松意色不平，逊观其少释，谓曰：“君过听不以某鄙，数见访及，是以承来意进尽言，便变色，何也？”松笑曰：“属亦自忿行事有此，岂有望邪！”
+- id: wu.6.p13.t2
+  anchor: wu.6.p13
+  at: 79
+  length: 4
+  type: temporal
+  text: 黃龍三年
+  era: 黃龍
+  era_year: 3
+  year_ad: 231
 - id: wu.6.p14.a1
   anchor: wu.6.p14
   at: 28
   length: 0
   type: pei
   text: 《江表传》曰：曹休出洞口，吕范率军御之。时匡为定武中郎将，（遣）范令放火，烧损茅芒，以乏军用，范即启送匡还吴。权别其族为丁氏，禁固终身。臣松之案本传曰：“匡未试用卒，时年二十餘。”而《江表传》云吕范在洞口，匡为定武中郎将。既为定武，非为未试用。且孙坚以初平二年卒，洞口之役在黃初三年，坚卒至此合三十一年，匡时若尚在，本传不得云卒时年二十餘也。此盖权别生弟朗，《江表传》误以为匡也。朗之名位见《三朝录》及虞喜《志林》也。
+- id: wu.6.p14.t1
+  anchor: wu.6.p14
+  at: 43
+  length: 4
+  type: temporal
+  text: 嘉禾三年
+  era: 嘉禾
+  era_year: 3
+  year_ad: 234
+- id: wu.6.p14.t2
+  anchor: wu.6.p14
+  at: 88
+  length: 4
+  type: temporal
+  text: 建衡二年
+  era: 建衡
+  era_year: 2
+  year_ad: 270
 - id: wu.6.p14.a2
   anchor: wu.6.p14
   at: 158
@@ -121,6 +229,24 @@ annotations:
   length: 0
   type: pei
   text: 《吴历》曰：妫览、戴员亲近边洪等，数为翊所困，常欲叛逆，因吴主出征，遂其奸计。时诸县令长并会见翊，翊以妻徐氏颇晓卜，翊入语徐：“吾明日欲为长吏作主人，卿试卜之。”徐言：“卦不能佳，可须异日。”翊以长吏来久，宜速遣，乃大请宾客。翊出入常持刀，尔时有酒色，空手送客，洪从后斫翊，郡中扰乱，无救翊者，遂为洪所杀，迸走入山。徐氏购募追捕，中宿乃得，览、员归罪杀洪。诸将皆知览、员所为，而力不能讨。览入居军府中，悉取翊嫔妾及左右侍御，欲复取徐。恐逆之见害，乃绐之曰：“乞须晦日设祭除服。”时月垂竟，览听须祭毕。徐潜使所亲信语翊亲近旧将孙高、傅婴等，说：“览已虏略婢妾，今又欲见偪，所以外许之者，欲安其意以免祸耳。欲立微计，原二君哀救。”高、婴涕泣答言：“受府君恩遇，所以不即死难者，以死无益，欲思惟事计，事计未立，未敢启夫人耳。今日之事，实夙夜所怀也。”乃密呼翊时侍养者二十餘人，以徐意语之，共盟誓，合谋。到晦日，设祭，徐氏哭泣尽哀毕，乃除服，薰香沐浴，更於他室，安施帏帐，言笑欢悦，示无戚容。大小凄怆，怪其如此。览密觇视，无复疑意。徐呼高、婴与诸婢罗住户内，使人报览，说已除凶即吉，惟府君敕命。览盛意入，徐出户拜。览適得一拜，徐便大呼：“二君可起！”高、婴俱出，共得杀览，餘人即就外杀员。夫人乃还缞绖，奉览、员首以祭翊墓。举军震骇，以为神异。吴主续至，悉族诛览、员餘党，擢高、婴为牙门，其餘皆加赐金帛，殊其门户。
+- id: wu.6.p18.t1
+  anchor: wu.6.p18
+  at: 349
+  length: 4
+  type: temporal
+  text: 赤烏四年
+  era: 赤烏
+  era_year: 4
+  year_ad: 241
+- id: wu.6.p18.t2
+  anchor: wu.6.p18
+  at: 404
+  length: 4
+  type: temporal
+  text: 天璽元年
+  era: 天璽
+  era_year: 1
+  year_ad: 276
 - id: wu.6.p18.a1
   anchor: wu.6.p18
   at: 488
