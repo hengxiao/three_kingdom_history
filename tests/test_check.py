@@ -159,3 +159,107 @@ def test_existing_repo_sample_passes():
     if not sample.exists():
         pytest.skip("sample not present")
     assert validate_text_file(sample) == []
+
+
+# ---------- annotation validation ----------
+
+import yaml  # noqa: E402
+
+from tools.check import validate_annotation_file  # noqa: E402
+
+
+def _make_repo_with_text_and_anno(tmp_path: Path) -> tuple[Path, Path]:
+    """Build a tmp repo containing one valid text + one valid annotations YAML.
+    Returns (repo_root, annotations_path)."""
+    text_dir = tmp_path / "texts" / "sanguozhi" / "wei"
+    text_dir.mkdir(parents=True)
+    text = _make_valid_md()
+    (text_dir / "01.md").write_text(text, encoding="utf-8")
+
+    ann_dir = tmp_path / "annotations" / "sanguozhi" / "wei"
+    ann_dir.mkdir(parents=True)
+    ann_path = ann_dir / "01.yaml"
+    ann_doc = {
+        "chapter": "wei.1",
+        "source": {
+            "id": "wikisource",
+            "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+            "retrieved": "2026-05-01",
+            "sha256": "a" * 64,
+        },
+        "annotations": [
+            {"id": "wei.1.p1.a1", "anchor": "wei.1.p1", "at": 2, "length": 0,
+             "type": "pei", "text": "《魏書》曰：注一"},
+        ],
+    }
+    ann_path.write_text(yaml.safe_dump(ann_doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    return tmp_path, ann_path
+
+
+def test_valid_annotation_file_has_no_errors(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    assert validate_annotation_file(ann_path, repo_root=repo) == []
+
+
+def test_annotation_unknown_type_is_reported(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"][0]["type"] = "bogus"
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("type=" in e and "bogus" in e for e in errs)
+
+
+def test_annotation_anchor_must_exist_in_texts(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"][0]["anchor"] = "wei.1.p99"  # nonexistent
+    doc["annotations"][0]["id"] = "wei.1.p99.a1"   # keep id pattern legal
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("anchor 'wei.1.p99'" in e for e in errs)
+
+
+def test_annotation_at_out_of_range_is_reported(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"][0]["at"] = 9999  # text is only 4 chars
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("out of range" in e for e in errs)
+
+
+def test_annotation_id_must_match_pattern(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"][0]["id"] = "not-an-id"
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("does not match" in e for e in errs)
+
+
+def test_duplicate_annotation_ids_reported(tmp_path):
+    repo, ann_path = _make_repo_with_text_and_anno(tmp_path)
+    doc = yaml.safe_load(ann_path.read_text(encoding="utf-8"))
+    doc["annotations"].append(dict(doc["annotations"][0]))  # exact duplicate
+    ann_path.write_text(yaml.safe_dump(doc, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    errs = validate_annotation_file(ann_path, repo_root=repo)
+    assert any("duplicate annotation id" in e for e in errs)
+
+
+def test_run_validates_both_texts_and_annotations(tmp_path, capsys):
+    repo, _ann_path = _make_repo_with_text_and_anno(tmp_path)
+    n, failed = run([repo / "texts", repo / "annotations"], repo_root=repo)
+    assert n == 2 and failed == 0
+    out = capsys.readouterr().out
+    assert "01.md" in out
+    assert "01.yaml" in out
+
+
+def test_existing_repo_annotation_sample_passes():
+    """The repo's actual annotations/wei/01.yaml must validate (regression guard)."""
+    repo_root = Path(__file__).resolve().parents[1]
+    sample = repo_root / "annotations" / "sanguozhi" / "wei" / "01.yaml"
+    if not sample.exists():
+        pytest.skip("annotation not present yet")
+    assert validate_annotation_file(sample, repo_root=repo_root) == []

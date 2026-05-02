@@ -180,20 +180,52 @@ extra_segments:               # 可选，源中存在但 canonical 没有的段
 
 ## 5. 注解文件（annotations/）
 
-留作下一阶段细化。占位结构：
+每章一个 YAML，路径 `annotations/<work>/<book>/<NN>.yaml`，与 texts/ 镜像。当前自动抽出裴松之注（来自 Wikisource 的 `〈...〉` 块）；后续可手工添加 `editor` / `crossref` 类。
+
+### 5.1 Schema
 
 ```yaml
-chapter: wei.1
+chapter: wei.1                     # 必填，<book>.<juan> 形式
+source:                            # 必填，注解抽取所基于的源
+  id: wikisource
+  url: https://zh.wikisource.org/wiki/三國志/卷01
+  retrieved: 2026-05-01
+  sha256: <抓取 HTML 的 sha256>
+parse_warnings: []                 # 可选，对应 texts/ 中的解析警告（如 stray 〈〉）
 annotations:
-  - id: wei.1.p1.a1
-    anchor: wei.1.p1
-    span: { at: 0, length: 5 }       # 可选，标注段内具体位置
-    type: pei                         # pei（裴松之注）| editor（本仓注）| crossref
-    source: 三國志·魏書·武帝紀·裴注
+  - id: wei.1.p1.a1                # 必填，<segment-id>.aN，N 从 1 开始
+    anchor: wei.1.p1               # 必填，被注解的段 ID
+    at: 12                         # 必填，正文段内字符索引（0-based，去空白后）
+    length: 0                      # 必填，0 = 点插入；>0 = 跨度（暂不用，预留）
+    type: pei                      # 必填，见 5.2
     text: |
-      ……
-    refs: []                          # 引用其他段 ID
+      《魏書》曰：……
 ```
+
+### 5.2 type 枚举
+
+| type | 含义 | 来源 |
+|---|---|---|
+| `pei` | 裴松之注 | 从 Wikisource `〈...〉` 抽出 |
+| `chen` | 陈寿自注 | 暂无；如确认有差别再分 |
+| `editor` | 本仓编辑注 | 手工添加，用于说明版本/异文/录入决定 |
+| `crossref` | 段间交叉引用 | 工具自动生成（未来） |
+
+### 5.3 ID 稳定性
+
+- 注解 ID 与段 ID 同等稳定，不应在已发布后随意变更。
+- Wikisource 更新导致重抽：新注解用更大的 `aN`；如某条不再存在，整段重新生成可以接受（注解 ID 未来可被外部引用前的早期阶段允许变更）。
+- 同一段内 `aN` 按文档顺序、`at` 升序编号。
+
+### 5.4 工具
+
+- `tools/extract_annotations.py` 从 `sources/wikisource/<work>/<book>/<NN>.html` 重抽，写 `annotations/<work>/<book>/<NN>.yaml`。幂等。
+- `tools/check.py` 同时校验 annotations：
+  - 必填字段齐全；
+  - `anchor` 指向 texts/ 中存在的段 ID；
+  - `at` 在该段 canonical 文本长度范围内；
+  - `id` 格式合法且文件内不重复；
+  - `type` 在枚举内。
 
 ## 6. 哈希与归一化规则
 
