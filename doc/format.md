@@ -13,16 +13,16 @@
 ## 1. 目录结构
 
 ```
-texts/<work>/<book>/<NN-title>.md            # 正文（canonical 版本）
-variants/<work>/<book>/<NN-title>.yaml       # 异文记录
-annotations/<work>/<book>/<NN-title>.yaml    # 注解（裴注 + 自注），后续阶段
+texts/<work>/<book>/<NN>.md                  # 正文（canonical 版本）
+variants/<work>/<book>/<NN>.yaml             # 异文记录
+annotations/<work>/<book>/<NN>.yaml          # 注解（裴注 + 自注），后续阶段
 sources/<source-id>/<work>/<book>/<NN>.<ext> # 各版本原始快照（带 sha256）
 schema/                                       # JSON Schema（可选，用于校验）
 tools/                                        # Python 工具脚本
 doc/                                          # 文档
 ```
 
-`<work>` 取值如 `sanguozhi`、`houhanshu`、`zizhi-tongjian`。`<book>` 取值如 `wei`、`shu`、`wu`。文件名形如 `01-wudi-ji.md`，序号两位补零。
+`<work>` 取值如 `sanguozhi`、`houhanshu`、`zizhi-tongjian`。`<book>` 取值如 `wei`、`shu`、`wu`。文件名形如 `01.md`，`<NN>` 是该 book 内的本地卷号，两位补零。卷的中文标题保存在 frontmatter 的 `title` 字段，不重复进文件名。
 
 ## 2. ID 体系
 

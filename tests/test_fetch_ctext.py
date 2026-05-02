@@ -70,6 +70,57 @@ def test_rejects_wrong_ctext_juan(html):
         parse_ctext_html(html, ctext_juan=99)
 
 
+def test_title_is_auto_extracted_from_opt_cells(html):
+    chapter = parse_ctext_html(html, ctext_juan=1)
+    assert chapter.title == "武帝紀"
+
+
+def test_combined_biography_joins_section_titles():
+    """Combined biographies have multiple opt-cell labels (e.g. 孫堅傳/孫策傳); we join them."""
+    html = (
+        '<tr><td><a href="sanguozhi/46#n1">1</a></td>'
+        '<td class="ctext opt">孫堅傳:</td>'
+        '<td class="ctext"><div id="comm1"></div>正文一。</td></tr>'
+        '<tr><td><a href="sanguozhi/46#n2">2</a></td>'
+        '<td class="ctext opt">孫策傳:</td>'
+        '<td class="ctext"><div id="comm2"></div>正文二。</td></tr>'
+    )
+    chapter = parse_ctext_html(html, ctext_juan=46)
+    assert chapter.section_titles == ["孫堅傳", "孫策傳"]
+    assert chapter.title == "孫堅傳、孫策傳"
+
+
+def test_para_no_is_document_order_not_ctext_display_no():
+    """When ctext restarts numbering at sub-sections, our para_no stays monotonic."""
+    # Two sub-sections, each starting visibly at 1 (mirrors real wu/01 layout).
+    html = (
+        '<tr><td><a href="sanguozhi/46#n9001">1</a></td>'
+        '<td class="ctext opt">孫堅傳:</td>'
+        '<td class="ctext"><div id="comm9001"></div>甲。</td></tr>'
+        '<tr><td><a href="sanguozhi/46#n9002">2</a></td>'
+        '<td class="ctext opt">孫堅傳:</td>'
+        '<td class="ctext"><div id="comm9002"></div>乙。</td></tr>'
+        '<tr><td><a href="sanguozhi/46#n9003">1</a></td>'
+        '<td class="ctext opt">孫策傳:</td>'
+        '<td class="ctext"><div id="comm9003"></div>丙。</td></tr>'
+    )
+    chapter = parse_ctext_html(html, ctext_juan=46)
+    assert [p.para_no for p in chapter.paragraphs] == [1, 2, 3]
+    assert [p.ctext_display_no for p in chapter.paragraphs] == [1, 2, 1]
+    assert [p.section for p in chapter.paragraphs] == ["孫堅傳", "孫堅傳", "孫策傳"]
+
+
+def test_title_empty_when_no_opt_cells():
+    """If a page has no opt cells (unlikely but possible), title is empty string."""
+    minimal = (
+        '<tr><td><a href="sanguozhi/1#n1">1</a></td>'
+        '<td class="ctext"><div id="comm1"></div>正文。</td></tr>'
+    )
+    chapter = parse_ctext_html(minimal, ctext_juan=1)
+    assert chapter.title == ""
+    assert chapter.section_titles == []
+
+
 def test_raises_when_no_paragraphs():
     bad = "<html><body><p>nothing here</p></body></html>"
     with pytest.raises(ValueError, match="no paragraph numbers"):

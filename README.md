@@ -2,7 +2,9 @@
 
 中國三國時期史料的結構化倉庫，目標是建成一個開放的數據集，最終提供網站與 MCP server 兩種訪問方式。
 
-當前階段：錄入《三國志》原文（取自 [ctext.org](https://ctext.org)），並用工具腳本對照其他版本記錄異文。注解、其他史書、網站、MCP 留作後續階段。
+當前階段：65 卷《三國志》原文已從 [zh.wikisource.org](https://zh.wikisource.org) 入庫，並用工具腳本可對照其他版本（如 ctext.org）記錄異文。注解、其他史書、網站、MCP 留作後續階段。
+
+> Wikisource 作 canonical 是因為它把每卷完整放在一頁，且裴注用 `〈...〉` 顯式包裹。ctext 因為大卷拆子頁加 captcha 阻擋，不適合批量，未來作為異文校對源使用。
 
 ## 倉庫結構
 
@@ -35,27 +37,30 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | .venv/bin/python
 
 ```bash
 # 校驗一卷正文的 segments_sha256
-.venv/bin/python -m tools.segment texts/sanguozhi/wei/01-wudi-ji.md
+.venv/bin/python -m tools.segment texts/sanguozhi/wei/01.md
 
 # 重新計算並寫回 frontmatter
-.venv/bin/python -m tools.segment texts/sanguozhi/wei/01-wudi-ji.md --update
+.venv/bin/python -m tools.segment texts/sanguozhi/wei/01.md --update
 
 # 列出每段的 hash（JSON）
-.venv/bin/python -m tools.segment texts/sanguozhi/wei/01-wudi-ji.md --json
+.venv/bin/python -m tools.segment texts/sanguozhi/wei/01.md --json
 ```
 
-### fetch_ctext.py — 從 ctext.org 抓取一卷
+### fetch_wikisource.py / batch_fetch.py — 從 Wikisource 抓取
 
-每抓一卷會：保存原始 HTML 到 `sources/ctext/...`，剝離裴注（`<span class="inlinecomment">`），按段號（ctext 顯示的 1, 2, 3...）生成段 ID，寫入 `texts/...`，並回填 `source.sha256` 與 `segments_sha256`。
+`fetch_wikisource.py` 抓單卷：保存原始 HTML 到 `sources/wikisource/...`，按 `〈...〉` 剝離裴注（state machine 處理嵌套；少數卷因 Wikisource 標記不平衡會回退到 lenient 正則），按 document order 編號，寫入 `texts/...`。
+
+`batch_fetch.py` 按 [tools/sanguozhi_chapters.yaml](tools/sanguozhi_chapters.yaml) 把 65 卷一次抓完。`--sleep` 限速，`--no-fetch` 復用已存快照，`--resume` 跳過已寫入卷。
 
 ```bash
-.venv/bin/python -m tools.fetch_ctext \
-  --ctext-juan 1 \
-  --work-prefix wei --book wei --book-title 魏書 \
-  --juan 1 --title 武帝紀 --author 陳壽 \
-  --out-text texts/sanguozhi/wei/01-wudi-ji.md \
-  --out-source sources/ctext/sanguozhi/wei/01.html
+# 全量抓取（首次）
+.venv/bin/python -m tools.batch_fetch --sleep 2
+
+# 只重新解析（不發網絡請求，從 sources/wikisource/ 重生 texts/）
+.venv/bin/python -m tools.batch_fetch --no-fetch
 ```
+
+`fetch_ctext.py` 還在 repo 裡（兼容 ctext 子頁拆分前的數據），目前未在 batch 中使用，將來作異文對照源。
 
 ### check.py — 倉庫級校驗（CI 用）
 

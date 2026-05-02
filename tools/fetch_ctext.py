@@ -28,11 +28,14 @@ from tools.segment import file_segments_sha256, parse_text, render_with_frontmat
 
 USER_AGENT = "three_kingdom_history-bot/0.1 (research; +https://github.com/)"
 
-_PARA_NUM_RE = re.compile(r'<a href="sanguozhi/(\d+)#n(\d+)"[^>]*>(\d+)</a>')
+_PARA_NUM_RE = re.compile(r'<a href="sanguozhi/(\d+)#n\d+"[^>]*>(\d+)</a>')
 _PARA_TD_RE = re.compile(r'<td class="ctext">(.*?)</td>', re.DOTALL)
 _NODE_RE = re.compile(r'<div id="comm(\d+)"></div>')
 _INLINECOMMENT_RE = re.compile(r'<span class="inlinecomment">(.*?)</span>', re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
+# Each paragraph row has a label cell like <td ... class="ctext opt">武帝紀:</td>
+_TITLE_RE = re.compile(r'<td[^>]*class="ctext opt"[^>]*>([^<:]+):</td>')
+_TR_RE = re.compile(r"<tr[^>]*>(.*?)</tr>", re.DOTALL)
 
 
 @dataclass
@@ -43,8 +46,10 @@ class CtextAnnotation:
 
 @dataclass
 class CtextParagraph:
-    para_no: int
+    para_no: int  # document-order index, 1-based, monotonic across sub-sections
     node_id: str  # ctext internal node id, for back-reference
+    section: str  # sub-section label (e.g. "孫堅傳"); equals chapter title for solo bios
+    ctext_display_no: int  # the number ctext shows; restarts at sub-section boundaries
     main_text: str  # canonical 正文 (with whitespace stripped per format §6.1)
     annotations: list[CtextAnnotation] = field(default_factory=list)
 
@@ -52,6 +57,19 @@ class CtextParagraph:
 @dataclass
 class ParsedChapter:
     paragraphs: list[CtextParagraph]
+    section_titles: list[str] = field(default_factory=list)
+    """All distinct labels from <td class="ctext opt">XXX:</td>, in first-occurrence order.
+
+    For solo biographies this contains a single item (e.g. ['武帝紀']). For combined
+    biographies ctext labels each sub-section separately (e.g. ['孫堅傳', '孫策傳']);
+    the canonical Sanguozhi chapter title (孫破虜討逆傳) does not appear on the page
+    and must be supplied via batch_fetch config when wanted.
+    """
+
+    @property
+    def title(self) -> str:
+        """Best-effort chapter title. Single label, or sub-labels joined by '、'."""
+        return "、".join(self.section_titles)
 
 
 def fetch(url: str, *, timeout: float = 30.0) -> bytes:
@@ -67,31 +85,47 @@ def _plain(html_fragment: str) -> str:
 
 
 def parse_ctext_html(html: str, ctext_juan: int) -> ParsedChapter:
-    """Extract canonical paragraphs (annotations stripped) from a ctext sanguozhi page."""
-    expected_juan = str(ctext_juan)
-    node_to_para: dict[str, int] = {}
-    for m in _PARA_NUM_RE.finditer(html):
-        if m.group(1) != expected_juan:
-            raise ValueError(
-                f"href references juan {m.group(1)} but expected {expected_juan}; "
-                "is the ctext_juan argument correct?"
-            )
-        node_to_para[m.group(2)] = int(m.group(3))
-    if not node_to_para:
-        raise ValueError("no paragraph numbers found — page layout may have changed")
+    """Extract canonical paragraphs (annotations stripped) from a ctext sanguozhi page.
 
+    Paragraph IDs use document-order numbering (1, 2, ...) which is monotonic across
+    sub-sections. ctext's own visible numbers restart at each sub-section in combined
+    biographies, so we can't use them as primary keys; we keep them in `ctext_display_no`
+    for back-reference.
+    """
+    expected_juan = str(ctext_juan)
     paragraphs: list[CtextParagraph] = []
-    for tdm in _PARA_TD_RE.finditer(html):
+    section_titles: list[str] = []
+    seen_sections: set[str] = set()
+    current_section = ""
+
+    for trm in _TR_RE.finditer(html):
+        tr = trm.group(1)
+        # Section label (if this row carries one)
+        sm = _TITLE_RE.search(tr)
+        if sm:
+            current_section = sm.group(1)
+            if current_section not in seen_sections:
+                seen_sections.add(current_section)
+                section_titles.append(current_section)
+        # Paragraph cell
+        tdm = _PARA_TD_RE.search(tr)
+        if not tdm:
+            continue
         body = tdm.group(1)
         nm = _NODE_RE.search(body)
         if not nm:
             continue
         node_id = nm.group(1)
-        if node_id not in node_to_para:
-            continue
-        para_no = node_to_para[node_id]
-        body = _NODE_RE.sub("", body)
+        # ctext-displayed paragraph number (restarts per sub-section)
+        nm2 = _PARA_NUM_RE.search(tr)
+        if nm2 and nm2.group(1) != expected_juan:
+            raise ValueError(
+                f"href references juan {nm2.group(1)} but expected {expected_juan}; "
+                "is the ctext_juan argument correct?"
+            )
+        ctext_display_no = int(nm2.group(2)) if nm2 else 0
 
+        body = _NODE_RE.sub("", body)
         main_parts: list[str] = []
         annotations: list[CtextAnnotation] = []
         cursor = 0
@@ -106,17 +140,17 @@ def parse_ctext_html(html: str, ctext_juan: int) -> ParsedChapter:
         main_text = "".join(main_parts)
 
         paragraphs.append(CtextParagraph(
-            para_no=para_no, node_id=node_id, main_text=main_text, annotations=annotations,
+            para_no=len(paragraphs) + 1,
+            node_id=node_id,
+            section=current_section,
+            ctext_display_no=ctext_display_no,
+            main_text=main_text,
+            annotations=annotations,
         ))
 
-    paragraphs.sort(key=lambda p: p.para_no)
-    expected_count = len(node_to_para)
-    if len(paragraphs) != expected_count:
-        missing = set(node_to_para.values()) - {p.para_no for p in paragraphs}
-        raise ValueError(
-            f"parsed {len(paragraphs)} paragraphs but expected {expected_count}; missing: {sorted(missing)}"
-        )
-    return ParsedChapter(paragraphs=paragraphs)
+    if not paragraphs:
+        raise ValueError("no paragraph numbers found — page layout may have changed")
+    return ParsedChapter(paragraphs=paragraphs, section_titles=section_titles)
 
 
 def render_markdown(
@@ -176,7 +210,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--book", required=True, help="frontmatter book id, e.g. 'wei'")
     p.add_argument("--book-title", required=True, help="frontmatter book_title, e.g. '魏書'")
     p.add_argument("--juan", type=int, required=True, help="local juan number within the book")
-    p.add_argument("--title", required=True, help="chapter title, e.g. '武帝紀'")
+    p.add_argument("--title", default=None, help="override chapter title (defaults to auto-extracted from page)")
     p.add_argument("--author", default="陳壽")
     p.add_argument("--out-text", type=Path, required=True)
     p.add_argument("--out-source", type=Path, required=True)
@@ -195,6 +229,11 @@ def main(argv: list[str] | None = None) -> int:
 
     chapter = parse_ctext_html(raw.decode("utf-8", errors="replace"), args.ctext_juan)
 
+    title = args.title or chapter.title
+    if not title:
+        print(f"ERROR: could not auto-extract chapter title from {url}; pass --title", file=sys.stderr)
+        return 1
+
     md = render_markdown(
         chapter,
         work="sanguozhi",
@@ -203,7 +242,7 @@ def main(argv: list[str] | None = None) -> int:
         book_title=args.book_title,
         work_prefix=args.work_prefix,
         juan=args.juan,
-        title=args.title,
+        title=title,
         author=args.author,
         source_url=url,
         source_sha256=sha,

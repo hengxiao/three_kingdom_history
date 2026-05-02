@@ -22,7 +22,7 @@ REQUIRED_TOP_FIELDS = (
 )
 REQUIRED_SOURCE_FIELDS = ("id", "url", "retrieved", "sha256")
 ALLOWED_SCRIPTS = {"traditional", "simplified"}
-KNOWN_SOURCE_IDS = {"ctext", "zhonghua1959", "bona", "wuying"}
+KNOWN_SOURCE_IDS = {"wikisource", "ctext", "zhonghua1959", "bona", "wuying"}
 
 
 def walk_texts(root: Path) -> Iterator[Path]:

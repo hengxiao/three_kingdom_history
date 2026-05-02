@@ -155,7 +155,7 @@ def test_run_accepts_single_file(tmp_path):
 def test_existing_repo_sample_passes():
     """The sample texts/ file in the repo must validate (regression guard)."""
     repo_root = Path(__file__).resolve().parents[1]
-    sample = repo_root / "texts" / "sanguozhi" / "wei" / "01-wudi-ji.md"
+    sample = repo_root / "texts" / "sanguozhi" / "wei" / "01.md"
     if not sample.exists():
         pytest.skip("sample not present")
     assert validate_text_file(sample) == []

@@ -1,0 +1,71 @@
+# Maps each ctext.org sanguozhi juan (1-65) to its location in our repo.
+# Chapter title is auto-extracted from the page; we don't duplicate it here.
+# work_prefix matches book per current convention (segment IDs use book as prefix).
+
+- { ctext_juan: 1,  book: wei, juan: 1 }
+- { ctext_juan: 2,  book: wei, juan: 2 }
+- { ctext_juan: 3,  book: wei, juan: 3 }
+- { ctext_juan: 4,  book: wei, juan: 4 }
+- { ctext_juan: 5,  book: wei, juan: 5 }
+- { ctext_juan: 6,  book: wei, juan: 6 }
+- { ctext_juan: 7,  book: wei, juan: 7 }
+- { ctext_juan: 8,  book: wei, juan: 8 }
+- { ctext_juan: 9,  book: wei, juan: 9 }
+- { ctext_juan: 10, book: wei, juan: 10 }
+- { ctext_juan: 11, book: wei, juan: 11 }
+- { ctext_juan: 12, book: wei, juan: 12 }
+- { ctext_juan: 13, book: wei, juan: 13 }
+- { ctext_juan: 14, book: wei, juan: 14 }
+- { ctext_juan: 15, book: wei, juan: 15 }
+- { ctext_juan: 16, book: wei, juan: 16 }
+- { ctext_juan: 17, book: wei, juan: 17 }
+- { ctext_juan: 18, book: wei, juan: 18 }
+- { ctext_juan: 19, book: wei, juan: 19 }
+- { ctext_juan: 20, book: wei, juan: 20 }
+- { ctext_juan: 21, book: wei, juan: 21 }
+- { ctext_juan: 22, book: wei, juan: 22 }
+- { ctext_juan: 23, book: wei, juan: 23 }
+- { ctext_juan: 24, book: wei, juan: 24 }
+- { ctext_juan: 25, book: wei, juan: 25 }
+- { ctext_juan: 26, book: wei, juan: 26 }
+- { ctext_juan: 27, book: wei, juan: 27 }
+- { ctext_juan: 28, book: wei, juan: 28 }
+- { ctext_juan: 29, book: wei, juan: 29 }
+- { ctext_juan: 30, book: wei, juan: 30 }
+
+- { ctext_juan: 31, book: shu, juan: 1 }
+- { ctext_juan: 32, book: shu, juan: 2 }
+- { ctext_juan: 33, book: shu, juan: 3 }
+- { ctext_juan: 34, book: shu, juan: 4 }
+- { ctext_juan: 35, book: shu, juan: 5 }
+- { ctext_juan: 36, book: shu, juan: 6 }
+- { ctext_juan: 37, book: shu, juan: 7 }
+- { ctext_juan: 38, book: shu, juan: 8 }
+- { ctext_juan: 39, book: shu, juan: 9 }
+- { ctext_juan: 40, book: shu, juan: 10 }
+- { ctext_juan: 41, book: shu, juan: 11 }
+- { ctext_juan: 42, book: shu, juan: 12 }
+- { ctext_juan: 43, book: shu, juan: 13 }
+- { ctext_juan: 44, book: shu, juan: 14 }
+- { ctext_juan: 45, book: shu, juan: 15 }
+
+- { ctext_juan: 46, book: wu, juan: 1 }
+- { ctext_juan: 47, book: wu, juan: 2 }
+- { ctext_juan: 48, book: wu, juan: 3 }
+- { ctext_juan: 49, book: wu, juan: 4 }
+- { ctext_juan: 50, book: wu, juan: 5 }
+- { ctext_juan: 51, book: wu, juan: 6 }
+- { ctext_juan: 52, book: wu, juan: 7 }
+- { ctext_juan: 53, book: wu, juan: 8 }
+- { ctext_juan: 54, book: wu, juan: 9 }
+- { ctext_juan: 55, book: wu, juan: 10 }
+- { ctext_juan: 56, book: wu, juan: 11 }
+- { ctext_juan: 57, book: wu, juan: 12 }
+- { ctext_juan: 58, book: wu, juan: 13 }
+- { ctext_juan: 59, book: wu, juan: 14 }
+- { ctext_juan: 60, book: wu, juan: 15 }
+- { ctext_juan: 61, book: wu, juan: 16 }
+- { ctext_juan: 62, book: wu, juan: 17 }
+- { ctext_juan: 63, book: wu, juan: 18 }
+- { ctext_juan: 64, book: wu, juan: 19 }
+- { ctext_juan: 65, book: wu, juan: 20 }
