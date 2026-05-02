@@ -1,0 +1,976 @@
+chapter: wei.6
+canonical: wikisource
+sources:
+  ctext:
+    url: https://ctext.org/sanguozhi/6
+    retrieved: '2026-05-02'
+    file_sha256: 3d54b739c1cf978911cd3003ecd17af208ec08c3aa1e95c28dd374d7899dc7c5
+    n_paragraphs: 39
+alignment:
+  method: normalized_hash_diff
+  n_canonical_segments: 37
+  n_aligned: 32
+  unaligned_canonical:
+  - wei.6.p1
+  - wei.6.p14
+  - wei.6.p30
+  - wei.6.p36
+  - wei.6.p37
+  unaligned_source:
+    ctext:
+    - 1
+    - 2
+    - 15
+    - 16
+    - 32
+    - 33
+    - 39
+segments:
+  wei.6.p2:
+    canonical_hash: 7c91a74f8f31dc84f3bd32d04111289f7f029d5d1dff53e56501f3ab307620ce
+    canonical_normalized_hash: c0d7f0d8ee2ff2f63000f7e79d3c90a247621b4f515fe08c8492b1f7db66d668
+    diffs:
+    - source: ctext
+      source_para_no: 3
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 147
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p3:
+    canonical_hash: f21acd2e279f04ae29d023f605ed82a60d72a9320f76ef5d868accb2e265a736
+    canonical_normalized_hash: bfa125f478eb9524cd249c287b2b9392601c674c85a6b50dd91a0e9bbc62e785
+    diffs:
+    - source: ctext
+      source_para_no: 4
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 41
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p4:
+    canonical_hash: d3d193d107a67edf5b5c52561c1b7db940c674883c71d56ddd49825db957b8fa
+    canonical_normalized_hash: d09c13cbc1b0d1deae347a3ba04651d270c7dc854624f511d8c9a47a4f654d60
+    diffs:
+    - source: ctext
+      source_para_no: 5
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 3
+        length: 1
+        from: 久
+        to: 乆
+      - op: replace
+        at: 32
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 56
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 83
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 238
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p5:
+    canonical_hash: df579e242288e777ad83c63775d3dedb33ecec8286b1425b7f64bbc69c39a1a6
+    canonical_normalized_hash: 8a8402f4bff9a1bd2f1ef76cd1bb8cda16f201fc518f7b1b6a981ac5d5bae0f3
+    diffs:
+    - source: ctext
+      source_para_no: 6
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 61
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p6:
+    canonical_hash: eeb5ee8dd6a26c479b340ca2759fea7b3ff3cc8897161ef0ecef2bd7776e176d
+    canonical_normalized_hash: bcc8a7f8ffd2b0a8b60b5388e51fdeea13f0a8d57f5c2517dc6ec65f6e7ea11c
+    diffs:
+    - source: ctext
+      source_para_no: 7
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 109
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 141
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 153
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 184
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 215
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 342
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 429
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p8:
+    canonical_hash: c7908fcd7aa542d29601ff3075c619dae5d025ee7a84dce489d299bd1df91b33
+    canonical_normalized_hash: f1ed8d45f0c8d7b29ee17062568b8342b895757edec7345a9ce489b2bdbf0b55
+    diffs:
+    - source: ctext
+      source_para_no: 9
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 89
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p9:
+    canonical_hash: 5428c71c9edd9f0bccd45d6eff7adc7ea490fe9db92a0d10b45be43f4d70a150
+    canonical_normalized_hash: ffe1e80c6c0927b2b06925802fab2d5396865e7bbe15479dac632c3d4618feed
+    diffs:
+    - source: ctext
+      source_para_no: 10
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 41
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 160
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 180
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 190
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 209
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p10:
+    canonical_hash: b500c26776ded77e4b38b579302bfdf49a39a92decac91088c9b9676df47079b
+    canonical_normalized_hash: 0d6325f05cd9a6f24c324345c21551a4ccddfa666528a8a7e73f744431f1d705
+    diffs:
+    - source: ctext
+      source_para_no: 11
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 19
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 68
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p12:
+    canonical_hash: ad35ea05f1a64209c0e405e3e04bced391a1f4582bcbcc5117066055a9f0fd7a
+    canonical_normalized_hash: 3c4a4b1f7d7bdb6ad30b60914e019a0bab70a1ab060761a622410a7d97834613
+    diffs:
+    - source: ctext
+      source_para_no: 13
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 237
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 242
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 395
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p13:
+    canonical_hash: eb8f6c33c40f514df44ffa8997a162e65740d8d37070bab43f2fec29da96aa0e
+    canonical_normalized_hash: eb623417d911f95ece74daf655259fec94fd4e4dba33d1dc879c7cb016de9762
+    diffs:
+    - source: ctext
+      source_para_no: 14
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 28
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 69
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 91
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 112
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 137
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 179
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p16:
+    canonical_hash: f6839363207e8a87b04f0c8e42a8e4606d72b20797014108557eccc9bbb0565c
+    canonical_normalized_hash: 9a802e76df15c8f0d7b8c7f8de9bb853cfa790c4dc859ef0efc5a180bb336476
+    diffs:
+    - source: ctext
+      source_para_no: 18
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 21
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 76
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 108
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 154
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 223
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p17:
+    canonical_hash: e684b31a8812830337ea3364f92959957d92205f264482b2d694e42205b21dce
+    canonical_normalized_hash: 650fd7036ce106e66dc363929df8aa5e50ff0e31ad1721d38a26292eb577303e
+    diffs:
+    - source: ctext
+      source_para_no: 19
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 30
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 41
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 62
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 74
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 80
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 158
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 169
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 203
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 209
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 255
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 263
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 273
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 290
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 351
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 469
+        length: 1
+        from: 冀
+        to: 兾
+  wei.6.p18:
+    canonical_hash: 5d47a20870d5a11e1ea19b515c57822878f96f93d74f8246088a7273c7efee16
+    canonical_normalized_hash: d85c699346292effb2088a9a8e34aa746e629db97dc799b12d269adca0330ea1
+    diffs:
+    - source: ctext
+      source_para_no: 20
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 63
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 216
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 287
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p19:
+    canonical_hash: aefb1b65f25498e07bce78e4fbfe30be183a11d5bcb742b5c9cc89bafabd7ddc
+    canonical_normalized_hash: 9b512a7dd74e392af8b6e8633e53a5dbb296efcab1aea75f1bdecbb773b91800
+    diffs:
+    - source: ctext
+      source_para_no: 21
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 84
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 89
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 122
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 133
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 161
+        length: 2
+        from: 熙爲
+        to: 熈為
+      - op: replace
+        at: 169
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 196
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 205
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p21:
+    canonical_hash: b4cc547f0973b7c874388e2c1e26c4f183a47120425da60c51787d3997e2e253
+    canonical_normalized_hash: 33c5933652aaa36e24e93c199bb3a9af814c81d2c90fd29bf7f4f8cfb1c52350
+    diffs:
+    - source: ctext
+      source_para_no: 23
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 145
+        length: 1
+        from: 久
+        to: 乆
+      - op: replace
+        at: 179
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 204
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 225
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 240
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 273
+        length: 1
+        from: 久
+        to: 乆
+      - op: replace
+        at: 318
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 438
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p22:
+    canonical_hash: 9f46f8a52697c1679c9845bc1c61154cf34ca613574e61dd5b18a69c6f827db3
+    canonical_normalized_hash: ab61eed0be42c77452b5beb3dd2083f03c7c415e04f0ef5a7513b3e439a19209
+    diffs:
+    - source: ctext
+      source_para_no: 24
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 37
+        length: 1
+        from: 久
+        to: 乆
+      - op: replace
+        at: 73
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 171
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 236
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p23:
+    canonical_hash: f3c121f895b69d6683e1cb20b043be47004b18fc56e9a4c25dd73e32c39ac762
+    canonical_normalized_hash: 38d49b54e6debc96781099fc287f3f87c16e5beb922ef168aa404702fd4cc017
+    diffs:
+    - source: ctext
+      source_para_no: 25
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 0
+        length: 1
+        from: 冀
+        to: 兾
+  wei.6.p24:
+    canonical_hash: fe183cd066d0b1a3ef443a4371ada0b15376ea3ace00849460d568e9b90dfebb
+    canonical_normalized_hash: 65ab74e77a8dbda8940bbbb49d01595199000b041c682c678786e0ee757b6f52
+    diffs:
+    - source: ctext
+      source_para_no: 26
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 11
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 62
+        length: 1
+        from: 爲
+        to: 為
+      - op: insert
+        at: 334
+        text: 太祖知譚詐，與結婚以安之，乃引軍還。尚使審配、蘇由守鄴，復攻譚平原。太祖進軍將攻鄴，到洹水，去鄴五十里，由欲為內應，謀泄，與配戰城中，敗，出奔太祖。太祖遂進攻之，為地道，配亦於內作塹以當之。配將馮禮開突門，內太祖兵三百餘人，配覺之，從城上以大石擊突中柵門，柵門閉，入者皆沒。太祖遂圍之，為塹，周四十里，初令淺，示若可越。配望而笑之，不出爭利。太祖一夜掘之，廣深二丈，決漳水以灌之，自五月至八月，城中餓死者過半。尚聞鄴急，將兵萬餘人還救之，依西山來，東至陽平亭，去鄴十七里，臨滏水，舉火以示城中，城中亦舉火相應。配出兵城北，欲與尚對決圍。太祖逆擊之，敗還，尚亦破走，依曲漳為營，太祖遂圍之。未合，尚懼，遣陰夔、陳琳乞降，不聽。尚還走濫口，進復圍之急，其將馬延等臨陣降，衆大潰，尚奔中山。盡收其輜重，得尚印綬、節鉞及衣物，以示其家，城中崩沮。配兄子榮守東門，夜開門內太祖兵，與配戰城中，生禽配。配聲氣壯烈，終無撓辭，見者莫不歎息。遂斬之。高幹以并州降，復以幹為刺史。
+  wei.6.p25:
+    canonical_hash: 2c736c8fb056f50bfd1b3de6c1755601a9de60ad1e5f341f3e8fb7e8228a49ae
+    canonical_normalized_hash: 3c5a650b48f7999aa3ac9c5a034e4432e6f09e923dac8d6afd50dd86fbb8a5d3
+    diffs:
+    - source: ctext
+      source_para_no: 27
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 2
+        length: 1
+        from: 知
+        to: 之圍鄴也，
+      - op: replace
+        at: 4
+        length: 1
+        from: 詐
+        to: 略取甘陵、安平、勃海、河間
+      - op: replace
+        at: 6
+        length: 11
+        from: 與結婚以安之，乃引軍還
+        to: 攻尚於中山
+      - op: replace
+        at: 19
+        length: 8
+        from: 使審配、蘇由守鄴
+        to: 走故安從熈
+      - op: delete
+        at: 28
+        length: 2
+        text: 復攻
+      - op: replace
+        at: 31
+        length: 2
+        from: 平原
+        to: 悉收其衆
+      - op: insert
+        at: 36
+        text: 將討之，譚乃拔平原，并南皮，自屯龍湊。十二月，太祖軍其門，譚不出，夜遁奔南皮，臨清河而屯。十年正月，攻拔之，斬譚及圖等。熈、尚為其將焦觸、張南所攻，奔遼西烏丸。觸自號幽州刺史，驅率諸郡太守令長，背袁向曹，陳兵數萬，殺白馬盟，令曰：「違命者斬！」衆莫敢語，各以次歃。至別駕韓珩，曰：「吾受袁公父子厚恩，今其破亡，智不能救，勇不能死，於義闕矣；若乃北靣於曹氏，所弗能為也。」一坐為珩失色。觸曰：「夫興大事，當立大義，事之濟否，不待一人，可卒珩志，以勵事君。」高幹叛，執上黨太守，舉兵守壺口關。遣樂
+      - op: insert
+        at: 37
+        text: 、李典擊之，未拔。十一年，太祖征幹。幹乃留其將夏昭、鄧升守城，自詣匈奴單于求救，不得，獨與數騎亡，欲南奔荊州，上洛都尉捕斬之。十二年，太祖至遼西擊烏丸。尚、熈與烏丸逆
+      - op: delete
+        at: 38
+        length: 25
+        text: 將攻鄴，到洹水，去鄴五十里，由欲爲內應，謀泄，與配
+      - op: delete
+        at: 64
+        length: 2
+        text: 城中
+      - op: insert
+        at: 68
+        text: 走奔遼東
+      - op: replace
+        at: 69
+        length: 4
+        from: 出奔太祖
+        to: 公孫康誘斬之，送其首
+      - op: replace
+        at: 76
+        length: 4
+        from: 遂進攻之
+        to: 高韓珩節
+      - op: replace
+        at: 81
+        length: 3
+        from: 爲地道
+        to: 屢辟不至
+      - op: replace
+        at: 85
+        length: 2
+        from: 配亦
+        to: 卒
+      - op: replace
+        at: 88
+        length: 6
+        from: 內作塹以當之
+        to: 家
+      - op: delete
+        at: 95
+        length: 336
+        text: 配將馮禮開突門，內太祖兵三百餘人，配覺之，從城上以大石擊突中柵門，柵門閉，入者皆沒。太祖遂圍之，爲塹，周四十里，初令淺，示若可越。配望而笑之，不出爭利。太祖一夜掘之，廣深二丈，決漳水以灌之，自五月至八月，城中餓死者過半。尚聞鄴急，將兵萬餘人還救之，依西山來，東至陽平亭，去鄴十七里，臨滏水，舉火以示城中，城中亦舉火相應。配出兵城北，欲與尚對決圍。太祖逆擊之，敗還，尚亦破走，依曲漳爲營，太祖遂圍之。未合，尚懼，遣陰夔、陳琳乞降，不聽。尚還走濫口，進復圍之急，其將馬延等臨陣降，衆大潰，尚奔中山。盡收其輜重，得尚印綬、節鉞及衣物，以示其家，城中崩沮。配兄子榮守東門，夜開門內太祖兵，與配戰城中，生禽配。配聲氣壯烈，終無撓辭，見者莫不歎息。遂斬之。高幹以并州降，復以幹爲刺史。
+  wei.6.p26:
+    canonical_hash: 63fedf2f3e9d5579271f8b9b76b8424bb284d00a33ceb161eed49353a705b2a7
+    canonical_normalized_hash: 3a4d10db231225c19fb0912852d729d86624f6fcae21d90bf2a3cbe8eeb60436
+    diffs:
+    - source: ctext
+      source_para_no: 28
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 0
+        length: 2
+        from: 太祖
+        to: 袁術字公路，司空逢子，紹
+      - op: replace
+        at: 3
+        length: 2
+        from: 圍鄴
+        to: 從弟
+      - op: insert
+        at: 6
+        text: 。以俠氣聞。舉孝廉
+      - op: replace
+        at: 7
+        length: 5
+        from: 譚略取甘陵
+        to: 除郎中，歷職內外，後為折衝校尉
+      - op: replace
+        at: 13
+        length: 8
+        from: 安平、勃海、河間
+        to: 虎賁中郎將。董卓之將廢帝
+      - op: replace
+        at: 22
+        length: 12
+        from: 攻尚於中山。尚走故安從熙
+        to: 以術為後將軍；術亦畏卓之禍
+      - op: delete
+        at: 35
+        length: 39
+        text: 譚悉收其衆。太祖將討之，譚乃拔平原，并南皮，自屯龍湊。十二月，太祖軍其門，譚不
+      - op: delete
+        at: 75
+        length: 3
+        text: ，夜遁
+      - op: replace
+        at: 80
+        length: 7
+        from: 皮，臨清河而屯
+        to: 陽
+      - op: replace
+        at: 88
+        length: 47
+        from: 十年正月，攻拔之，斬譚及圖等。熙、尚爲其將焦觸、張南所攻，奔遼西烏丸。觸自號幽州刺史，驅率諸郡
+        to: 會長沙
+      - op: replace
+        at: 137
+        length: 2
+        from: 令長
+        to: 孫堅殺南陽太守張咨
+      - op: replace
+        at: 140
+        length: 7
+        from: 背袁向曹，陳兵
+        to: 術得據其郡。南陽戶口
+      - op: insert
+        at: 148
+        text: 百
+      - op: replace
+        at: 150
+        length: 4
+        from: 殺白馬盟
+        to: 而術奢淫肆欲
+      - op: replace
+        at: 155
+        length: 14
+        from: 令曰：「違命者斬！」衆莫敢語
+        to: 徵斂無度
+      - op: replace
+        at: 170
+        length: 181
+        from: 各以次歃。至別駕韓珩，曰：「吾受袁公父子厚恩，今其破亡，智不能救，勇不能死，於義闕矣；若乃北靣於曹氏，所弗能爲也。」一坐爲珩失色。觸曰：「夫興大事，當立大義，事之濟否，不待一人，可卒珩志，以勵事君。」高幹叛，執上黨太守，舉兵守壺口關。遣樂進、李典擊之，未拔。十一年，太祖征幹。幹乃留其將夏昭、鄧升守城，自詣匈奴單于求救，不得，獨與數騎亡，欲南奔荊州，上洛都尉捕斬
+        to: 百姓苦
+      - op: replace
+        at: 353
+        length: 3
+        from: 十二年
+        to: 旣與紹有隙
+      - op: replace
+        at: 357
+        length: 12
+        from: 太祖至遼西擊烏丸。尚、熙
+        to: 又
+      - op: replace
+        at: 370
+        length: 12
+        from: 烏丸逆軍戰，敗走奔遼東，
+        to: 劉表不平而北連
+      - op: replace
+        at: 384
+        length: 4
+        from: 康誘斬之
+        to: 瓚；紹與瓚不和而南連劉表。其兄弟攜貳
+      - op: replace
+        at: 389
+        length: 3
+        from: 送其首
+        to: 舍近交遠如此
+      - op: delete
+        at: 393
+        length: 16
+        text: 太祖高韓珩節，屢辟不至，卒於家。
+  wei.6.p27:
+    canonical_hash: 889a2fb4b35e606536d0e542a90b52c21ee62e1b97801b30167aab334fb33938
+    canonical_normalized_hash: ecdbef038400ba580079782b5a089c1225bb2e25af01c2cf4515fdf8e95749be
+    diffs:
+    - source: ctext
+      source_para_no: 29
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: delete
+        at: 0
+        length: 163
+        text: 袁術字公路，司空逢子，紹之從弟也。以俠氣聞。舉孝廉，除郎中，歷職內外，後爲折衝校尉、虎賁中郎將。董卓之將廢帝，以術爲後將軍；術亦畏卓之禍，出奔南陽。會長沙太守孫堅殺南陽太守張咨，術得據其郡。南陽戶口數百萬，而術奢淫肆欲，徵斂無度，百姓苦之。旣與紹有隙，又與劉表不平而北連公孫瓚；紹與瓚不和而南連劉表。其兄弟攜貳，舍近交遠如此。
+      - op: replace
+        at: 208
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 222
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 227
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p28:
+    canonical_hash: b2c0d743f3b41e74cd7aefb8e3c2013a8dfabdab665869875a54a2daa46374bf
+    canonical_normalized_hash: cb24d8d0c49953edf7e430785794c4eb151803e62d6860f0c4bc03c831410a60
+    diffs:
+    - source: ctext
+      source_para_no: 30
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 78
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 103
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 210
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p29:
+    canonical_hash: e58101c7194917d208f469cec3e94e3e76ee7b6318b688f981dfd68dd8d344a4
+    canonical_normalized_hash: 992442d6b67d4eb241f0a19aaa5aa692f2b458c36972326f5929937342b21500
+    diffs:
+    - source: ctext
+      source_para_no: 31
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 152
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 203
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 210
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 230
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p31:
+    canonical_hash: 708e1b39ca25b4375d502cf1686036a08e9c5c742480e4af4a7e3f02f0eca31a
+    canonical_normalized_hash: 51d8270f0b0c2118c1287a70ec8f5822543199752db1d0bb742ca136463120de
+    diffs:
+    - source: ctext
+      source_para_no: 34
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 26
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 55
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 61
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 134
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p32:
+    canonical_hash: c438dd87a0fec50bb17e58ba1a171a92242d6eb494b8c78ddeb5bc3de1da55c4
+    canonical_normalized_hash: 397365b7437f5e478c1dc0474c87a49aa4893ac95aa1365f97c84ea13b6712a6
+    diffs:
+    - source: ctext
+      source_para_no: 35
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 82
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 187
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 273
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p34:
+    canonical_hash: b19e7de6b0e07c9dbfe50f8f5e9d1913a13924fd82276ca1615891ba6142f1ca
+    canonical_normalized_hash: 72bba22735fcfdda3803f9024e4de026fb6e264bd2190e3328adadfaa15e24ba
+    diffs:
+    - source: ctext
+      source_para_no: 37
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 12
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 21
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 31
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 41
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 48
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 94
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 238
+        length: 1
+        from: 爲
+        to: 為
+  wei.6.p35:
+    canonical_hash: b14909e9608592e7717d86192e6312cbb178b94701e3e549be7fba476990b62b
+    canonical_normalized_hash: 7fae86d97acd07ae559699655786942cca94dd8c83e4a4d99a4a5b50ca6d931d
+    diffs:
+    - source: ctext
+      source_para_no: 38
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 4
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 24
+        length: 1
+        from: 爲
+        to: 為

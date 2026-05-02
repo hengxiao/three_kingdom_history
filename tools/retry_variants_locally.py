@@ -30,6 +30,7 @@ class Outcome:
     n_new_yaml: int
     committed: bool
     tests_passed: bool
+    pushed: bool
     note: str
 
 
@@ -79,7 +80,7 @@ def run_once(
     # Step 2: did anything change?
     paths = ["variants/", "sources/ctext/"]
     if not has_changes(repo_root, paths, runner=runner):
-        return Outcome(n_new_yaml=0, committed=False, tests_passed=True,
+        return Outcome(n_new_yaml=0, committed=False, tests_passed=True, pushed=False,
                        note="no new ctext variants; ctext probably still rate-limiting")
 
     # Step 3: run tests before committing.
@@ -88,7 +89,7 @@ def run_once(
         cwd=repo_root, check=False,
     )
     if test_proc.returncode != 0:
-        return Outcome(n_new_yaml=0, committed=False, tests_passed=False,
+        return Outcome(n_new_yaml=0, committed=False, tests_passed=False, pushed=False,
                        note="pytest failed; refusing to commit. Inspect manually.")
 
     # Step 4: stage and commit.
@@ -99,8 +100,20 @@ def run_once(
         "Auto-commit by tools/retry_variants_locally.py — ctext rate limit lifted."
     )
     runner(["git", "commit", "-m", msg], cwd=repo_root, check=True)
-    return Outcome(n_new_yaml=n_new, committed=True, tests_passed=True,
-                   note=f"committed {n_new} new variant file(s)")
+
+    # Step 5: push to origin/main. Don't fail the whole orchestrator if push errors
+    # (e.g. transient network) — the commit is already on disk; next retry's push
+    # will catch up.
+    pushed = False
+    push_proc = runner(["git", "push", "origin", "main"], cwd=repo_root, check=False)
+    if push_proc.returncode == 0:
+        pushed = True
+        note = f"committed and pushed {n_new} new variant file(s)"
+    else:
+        note = (f"committed {n_new} new variant file(s) locally; push failed "
+                f"(rc={push_proc.returncode}) — next retry will try again")
+    return Outcome(n_new_yaml=n_new, committed=True, tests_passed=True, pushed=pushed,
+                   note=note)
 
 
 def main(argv: list[str] | None = None) -> int:

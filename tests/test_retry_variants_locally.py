@@ -68,13 +68,13 @@ def test_run_once_reports_no_change_when_porcelain_empty(tmp_path):
         _completed(stdout=""),                 # has_changes git status → empty
     ])
     outcome = run_once(tmp_path, runner=runner)
-    assert outcome == Outcome(n_new_yaml=0, committed=False, tests_passed=True,
+    assert outcome == Outcome(n_new_yaml=0, committed=False, tests_passed=True, pushed=False,
                               note="no new ctext variants; ctext probably still rate-limiting")
     # No further commands beyond build + status.
     assert len(runner.calls) == 2
 
 
-def test_run_once_runs_pytest_then_commits_when_changes_present(tmp_path):
+def test_run_once_runs_pytest_commits_then_pushes(tmp_path):
     porcelain = "?? variants/sanguozhi/wei/05.yaml\n?? variants/sanguozhi/wei/06.yaml\n"
     runner = _ScriptedRunner([
         _completed(),                       # build_variants
@@ -83,20 +83,38 @@ def test_run_once_runs_pytest_then_commits_when_changes_present(tmp_path):
         _completed(stdout=porcelain),       # count_new_variant_yamls
         _completed(),                       # git add
         _completed(),                       # git commit
+        _completed(returncode=0),           # git push
     ])
     outcome = run_once(tmp_path, runner=runner)
     assert outcome.committed is True
     assert outcome.tests_passed is True
+    assert outcome.pushed is True
     assert outcome.n_new_yaml == 2
-    # Verify the calls were as expected (build → status → pytest → status → add → commit).
     cmd_heads = [c[0] for c in runner.calls]
-    assert cmd_heads.count("git") == 4
-    # Last two are git add + git commit.
-    assert runner.calls[-2][:2] == ["git", "add"]
-    assert runner.calls[-1][:2] == ["git", "commit"]
+    assert cmd_heads.count("git") == 5  # status + status + add + commit + push
+    assert runner.calls[-1][:4] == ["git", "push", "origin", "main"]
     # Commit message names the count.
-    commit_msg = runner.calls[-1][runner.calls[-1].index("-m") + 1]
+    commit_call = runner.calls[-2]
+    commit_msg = commit_call[commit_call.index("-m") + 1]
     assert "2 new ctext variant" in commit_msg
+
+
+def test_run_once_commits_but_reports_push_failure_without_raising(tmp_path):
+    """Push failure (network blip, auth issue) shouldn't undo the local commit."""
+    porcelain = "?? variants/x.yaml\n"
+    runner = _ScriptedRunner([
+        _completed(),                          # build_variants
+        _completed(stdout=porcelain),          # has_changes
+        _completed(returncode=0),              # pytest
+        _completed(stdout=porcelain),          # count_new_variant_yamls
+        _completed(),                          # git add
+        _completed(),                          # git commit
+        _completed(returncode=1, stderr="!! [rejected] (non-fast-forward)"),  # git push fails
+    ])
+    outcome = run_once(tmp_path, runner=runner)
+    assert outcome.committed is True
+    assert outcome.pushed is False
+    assert "push failed" in outcome.note
 
 
 def test_run_once_skips_commit_when_pytest_fails(tmp_path):
@@ -108,7 +126,8 @@ def test_run_once_skips_commit_when_pytest_fails(tmp_path):
     outcome = run_once(tmp_path, runner=runner)
     assert outcome.committed is False
     assert outcome.tests_passed is False
+    assert outcome.pushed is False
     assert "refusing to commit" in outcome.note
-    # Should NOT have called git add or git commit.
+    # Should NOT have called git add / commit / push.
     cmd_heads = [c[0] for c in runner.calls]
     assert cmd_heads.count("git") == 1  # only the initial git status check

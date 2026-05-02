@@ -1,0 +1,103 @@
+chapter: wei.10
+canonical: wikisource
+sources:
+  ctext:
+    url: https://ctext.org/sanguozhi/10
+    retrieved: '2026-05-02'
+    file_sha256: fbab014d48e474933dbb6e0b9a9a7ffcf2842a47042c4c9d29d5df49a0565913
+    n_paragraphs: 29
+alignment:
+  method: normalized_hash_diff
+  n_canonical_segments: 42
+  n_aligned: 4
+  unaligned_canonical:
+  - wei.10.p2
+  - wei.10.p3
+  - wei.10.p4
+  - wei.10.p5
+  - wei.10.p6
+  - wei.10.p7
+  - wei.10.p8
+  - wei.10.p9
+  - wei.10.p10
+  - wei.10.p11
+  - wei.10.p12
+  - wei.10.p13
+  - wei.10.p14
+  - wei.10.p15
+  - wei.10.p17
+  - wei.10.p18
+  - wei.10.p19
+  - wei.10.p20
+  - wei.10.p21
+  - wei.10.p24
+  - wei.10.p25
+  - wei.10.p26
+  - wei.10.p27
+  - wei.10.p28
+  - wei.10.p29
+  - wei.10.p30
+  - wei.10.p31
+  - wei.10.p32
+  - wei.10.p33
+  - wei.10.p34
+  - wei.10.p35
+  - wei.10.p36
+  - wei.10.p37
+  - wei.10.p38
+  - wei.10.p39
+  - wei.10.p40
+  - wei.10.p41
+  - wei.10.p42
+  unaligned_source:
+    ctext:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 9
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+segments:
+  wei.10.p23:
+    canonical_hash: 25986c29b34d299b42a2ad50200959095ffd410092024683bfbedaeb9ad45c7d
+    canonical_normalized_hash: d8593baba715f89379a66baaa87aff20394a27365dc757eca8fd4491aaa94bea
+    diffs:
+    - source: ctext
+      source_para_no: 12
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 33
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 135
+        length: 1
+        from: 諡
+        to: 謚
+      - op: replace
+        at: 146
+        length: 1
+        from: 爲
+        to: 為
