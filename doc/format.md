@@ -100,41 +100,37 @@ YAML，UTF-8。每卷一个文件，路径与正文文件镜像。
 ### 4.2 Schema
 
 ```yaml
-chapter: wei.1                # 必填，等同正文的 work-prefix.juan
-canonical: ctext              # 必填，canonical 源 ID（与正文 source.id 一致）
+chapter: wei.1                # 必填，等同正文的 <book>.<juan>
+canonical: wikisource         # 必填，canonical 源 ID（与正文 source.id 一致）
 
-sources:                      # 必填，列出所有参与对照的版本
+sources:                      # 必填，列出所有参与对照的版本（不含 canonical 自身）
   ctext:
-    edition: ctext.org 數位版
-    url: https://ctext.org/text.pl?node=...
+    url: https://ctext.org/sanguozhi/1
     retrieved: 2026-05-01
     file_sha256: <sources/ 下原始文件的 sha256>
+    n_paragraphs: 124         # 该源内可识别段数（用於對齊统计）
   zhonghua1959:
-    edition: 中華書局點校本（1959 年第 1 版）
-    retrieved: 2026-05-01
-    file_sha256: ...
-  bona:
-    edition: 百衲本二十四史（商務印書館影印）
+    edition: 中華書局點校本（1959 年第 1 版）  # 非網絡源時用 edition 標識
     retrieved: 2026-05-01
     file_sha256: ...
 
-segments:                     # 必填，按段 ID 列出
+alignment:                    # 必填，记录对齐方法和未对齐的段
+  method: normalized_hash_diff   # difflib SequenceMatcher on per-segment normalized hashes
+  unaligned_canonical: []        # canonical 段 ID 列表，未在某源中找到对应
+  unaligned_source: {}           # {source_id: [对应源中孤立段的 index]}
+
+segments:                     # 必填，按段 ID 列出（仅记录有 diff 的段；完全相等的段省略）
   wei.1.p1:
     canonical_hash: <段正文 sha256>
     canonical_normalized_hash: <去标点+简繁归一后 sha256>
-    diffs:                    # 与 canonical 不一致的源；完全相等则省略本段
-      - source: zhonghua1959
+    diffs:
+      - source: ctext
+        source_para_no: 1     # 源中可见段号（便于回查源页面）
         kind: variant_char    # 见 4.3
-        equal_normalized: true   # 归一化后相等 → 仅是写法差异
-        ops:                  # difflib SequenceMatcher 输出
+        equal_normalized: true
+        ops:                  # 见 4.4；从 canonical 变换到 source 的字符级 diff
           - { op: replace, at: 12, length: 1, from: "國", to: "国" }
         note: 簡繁差異
-      - source: bona
-        kind: textual
-        equal_normalized: false
-        ops:
-          - { op: insert, at: 30, text: "也" }
-        note: 百衲本多一「也」字
 ```
 
 ### 4.3 `kind` 枚举

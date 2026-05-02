@@ -1,0 +1,110 @@
+chapter: wei.4
+canonical: wikisource
+sources:
+  ctext:
+    url: https://ctext.org/sanguozhi/4
+    retrieved: '2026-05-01'
+    file_sha256: bbe9f695fa6f650475bc010a146ba6990592bda0c6cc2bb025773926d928ef09
+    n_paragraphs: 88
+alignment:
+  method: normalized_hash_diff
+  n_canonical_segments: 84
+  n_aligned: 80
+  unaligned_canonical:
+  - wei.4.p1
+  - wei.4.p28
+  - wei.4.p73
+  - wei.4.p74
+  unaligned_source:
+    ctext:
+    - 1
+    - 2
+    - 29
+    - 30
+    - 75
+    - 76
+    - 77
+    - 78
+segments:
+  wei.4.p6:
+    canonical_hash: feef3773f49359167a82c5088f5508e017eed1cd10200c5e8473fc427a254169
+    canonical_normalized_hash: 77b5aee6f7eff447ba30e39e4c3d0e2ec0252b93417b54f098a9f163e70aa20d
+    diffs:
+    - source: ctext
+      source_para_no: 7
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: delete
+        at: 9
+        length: 1
+        text: 《
+      - op: delete
+        at: 12
+        length: 1
+        text: 》
+  wei.4.p7:
+    canonical_hash: c52a25aaaedda3f794eaf9f70f460f0e4277306571a0d301367fac4781790acb
+    canonical_normalized_hash: 59d9cfc6191c739d977adbb5fbf6169807f16d6fa1e16d95f99a5b0f74093ca3
+    diffs:
+    - source: ctext
+      source_para_no: 8
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 43
+        length: 1
+        from: 凌
+        to: 陵
+  wei.4.p13:
+    canonical_hash: c0244e29fa8ac0526bd72e4af66b5f1ed10c6c0c160dc4fdd443ac296feaa4b6
+    canonical_normalized_hash: b7574cf80d44d39ff2bb56155b9544b7770ec0eee4b712c77d96d75b1b8101b5
+    diffs:
+    - source: ctext
+      source_para_no: 14
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: delete
+        at: 115
+        length: 1
+        text: 《
+      - op: delete
+        at: 118
+        length: 1
+        text: 》
+  wei.4.p17:
+    canonical_hash: 864bfe83bbe460a397ec797a268881698dda7564ee5d22a326b024d9a77562f0
+    canonical_normalized_hash: 635784e60f8c8b245f191cd5f30e5d038bc8de4741882f5bb9634ab31dd12506
+    diffs:
+    - source: ctext
+      source_para_no: 18
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: delete
+        at: 126
+        length: 1
+        text: 《
+      - op: delete
+        at: 129
+        length: 1
+        text: 》
+  wei.4.p38:
+    canonical_hash: 5760b9fb012e61db03482c1cc0507ee87933cad16789be5dc306646ae1cac818
+    canonical_normalized_hash: 2a38614f661cae60efe96946f1ea141a75923f2200ea8472add300fc2544dff3
+    diffs:
+    - source: ctext
+      source_para_no: 40
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: delete
+        at: 5
+        length: 1
+        text: 《
+      - op: delete
+        at: 8
+        length: 1
+        text: 》

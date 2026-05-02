@@ -9,9 +9,10 @@
 ## 倉庫結構
 
 ```
-texts/<work>/<book>/<NN-title>.md       正文（canonical 版本，繁體）
-variants/<work>/<book>/<NN-title>.yaml  異文記錄（按段 ID 鎖定）
-sources/<source-id>/...                 各版本原始快照
+texts/<work>/<book>/<NN>.md             正文（canonical = wikisource，繁體）
+annotations/<work>/<book>/<NN>.yaml     裴注（自動從 wikisource 〈...〉 抽出）
+variants/<work>/<book>/<NN>.yaml        異文（canonical 與其他源的差異）
+sources/<source-id>/...                 各版本原始快照（wikisource、ctext）
 tools/                                  Python 工具腳本
 tests/                                  pytest 測試
 doc/format.md                           數據格式規範（必讀）
@@ -62,16 +63,41 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | .venv/bin/python
 
 `fetch_ctext.py` 還在 repo 裡（兼容 ctext 子頁拆分前的數據），目前未在 batch 中使用，將來作異文對照源。
 
+### extract_annotations.py — 抽出裴注
+
+從 `sources/wikisource/...` 重新解析，將 `〈...〉` 標注按段錨寫入 `annotations/<work>/<book>/<NN>.yaml`。冪等：同源 HTML 產出 byte-identical YAML。
+
+```bash
+.venv/bin/python -m tools.extract_annotations
+```
+
+### build_variants.py — 對照 ctext / wikisource
+
+每章嘗試從 ctext.org 抓取單頁版本，與 wikisource canonical 比對：
+- 用 normalized hash + `difflib.SequenceMatcher` 對齊段
+- 對每對段運行 `tools.diff_sources.classify`，得到字符級 diff ops
+- 寫 `variants/<work>/<book>/<NN>.yaml`
+
+ctext 對 35 卷拆了子頁（captcha 阻擋），這些卷會被 `SKIP`。其餘約 30 卷理論上可成功生成 variants，但 ctext 對連續抓取會 IP 限流（HTTP 403），需要分批拉、加大 `--sleep` 或等限流恢復後重試。當前 repo 已有 3 卷示例（wei/02, 03, 04）。
+
+```bash
+.venv/bin/python -m tools.build_variants --sleep 2          # 全量
+.venv/bin/python -m tools.build_variants --no-fetch         # 復用 sources/ctext/ 快照
+.venv/bin/python -m tools.build_variants --only 1,3,7       # 只跑指定 ctext_juan
+```
+
 ### check.py — 倉庫級校驗（CI 用）
 
 ```bash
-.venv/bin/python -m tools.check                   # 校驗 texts/ 下所有文件
+.venv/bin/python -m tools.check                   # 校驗 texts/ 與 annotations/
 .venv/bin/python -m tools.check texts/sanguozhi   # 限定子目錄
 ```
 
-校驗項目：frontmatter 必填字段、`script`/`source.id` 取值合法、`source.sha256` 與 `segments_sha256` 為 64 位小寫 hex、段 ID 與 `book`/`juan` 一致、`segments_sha256` 與重算結果相等。
+校驗項目：
+- texts/：frontmatter 必填字段、`script`/`source.id` 合法、sha256 格式、段 ID 與 `book`/`juan` 一致、`segments_sha256` 與重算結果相等
+- annotations/：必填字段齊全、`anchor` 指向已存在段、`at` 在段長度內、`id` 唯一且匹配 `<segment-id>.aN`、`type` 在枚舉內
 
-異文比對 API（`tools/diff_sources.py`）暫時只暴露為庫，待多源錄入後再加 CLI。
+異文比對 API（`tools/diff_sources.py`）也可作為庫使用。
 
 ## 跑測試
 
@@ -83,7 +109,7 @@ curl -sS https://bootstrap.pypa.io/get-pip.py | .venv/bin/python
 
 ## 設計原則
 
-- **繁體為正**：canonical 文本保留 ctext 的繁體原貌；簡繁轉換只在歸一化 hash 與展示層發生。
+- **繁體為正**：canonical 文本保留 wikisource 的繁體原貌；簡繁轉換只在歸一化 hash 與展示層發生。
 - **段級可寻址**：每段有穩定 ID（如 `wei.1.p3`），所有衍生數據（異文、注解）都通過 ID 鎖定。
 - **零 LLM 依賴**：異文對照全部由 Python（hash + difflib + opencc）完成，可重現、可離線運行。
 - **數據與展現解耦**：本倉庫只管數據，網站和 MCP 是下游消費者。

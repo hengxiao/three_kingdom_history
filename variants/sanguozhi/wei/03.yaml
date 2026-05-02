@@ -1,0 +1,569 @@
+chapter: wei.3
+canonical: wikisource
+sources:
+  ctext:
+    url: https://ctext.org/sanguozhi/3
+    retrieved: '2026-05-01'
+    file_sha256: a687087cd996933fced9af8ed1bcf4b66fb921d1d2ef0dd0f9a3ac22e9078ce1
+    n_paragraphs: 45
+alignment:
+  method: normalized_hash_diff
+  n_canonical_segments: 43
+  n_aligned: 42
+  unaligned_canonical:
+  - wei.3.p1
+  unaligned_source:
+    ctext:
+    - 1
+    - 2
+    - 45
+segments:
+  wei.3.p3:
+    canonical_hash: e3e6f81a1283dc0201f311ca040ccf33865f97b672bd3f1b6d16de3916208e38
+    canonical_normalized_hash: 1b81117a8be169c1fbeb17be411fa317bd598970efc876d476322f2060e0ced9
+    diffs:
+    - source: ctext
+      source_para_no: 4
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 7
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 84
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 95
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 107
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 116
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 124
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 135
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 148
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p4:
+    canonical_hash: 17dc62b44fa6052a1be06083b77ac0ac1facdc20f80c7d9f9e1b215a8a2509ec
+    canonical_normalized_hash: a40b2da47835c2729b6bbd26f765703c7c65fd8db3a54722a73e7a1a740a7d09
+    diffs:
+    - source: ctext
+      source_para_no: 5
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 194
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p5:
+    canonical_hash: e1bfd7a1ee867200bd92a806f2f7b2c11f41d95ffd9c236a8df2ea3c916398b3
+    canonical_normalized_hash: 9a83b6ae481a653fb75344e495098657f33644ce90ccad229deeb467092be4e0
+    diffs:
+    - source: ctext
+      source_para_no: 6
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 32
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 39
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p6:
+    canonical_hash: 910e2a7178777823a0a5de689a9dd5812d85c3024190622fd5b4d0d2c5493a97
+    canonical_normalized_hash: a5cd833f12ea34871f6f3b7727b400be97c9f77c09a0e7927013f94b1adc0dad
+    diffs:
+    - source: ctext
+      source_para_no: 7
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 172
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 208
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p8:
+    canonical_hash: 5eab9e37f7b72f6c26077fb9da8aadde06235e7f75746bf2f89b8239a32e9895
+    canonical_normalized_hash: 736e47ef3747847cecfb374f324b4b587ec43dc3761525b59baefdd4cd3f4765
+    diffs:
+    - source: ctext
+      source_para_no: 9
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 186
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 205
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 212
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 233
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 238
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p11:
+    canonical_hash: 0f31ff699c47a353aba8ceb39ccfd0fc504a3f5ad6ad43586b21bd08ecfbebe3
+    canonical_normalized_hash: 0bc8ca027116f774ebe4c2d431a2911a80f33dc960017b21c2337ab5f31a98e2
+    diffs:
+    - source: ctext
+      source_para_no: 12
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 16
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p12:
+    canonical_hash: bcceae8ef7b8adcbc3053089f9f1d499f9a4301422061d7e4be59815d310559d
+    canonical_normalized_hash: 76f8fe71e60e88012211589cf97325b8bdfaecc797b97390acb31514e18a1104
+    diffs:
+    - source: ctext
+      source_para_no: 13
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: delete
+        at: 112
+        length: 1
+        text: 《
+      - op: delete
+        at: 115
+        length: 1
+        text: 》
+      - op: replace
+        at: 135
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 148
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 160
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p15:
+    canonical_hash: a9d637534f34e64ea175e953338a8428282713a84a1ca1962b009160e17daf34
+    canonical_normalized_hash: 6000b15282de3d6245e50ca480ee5da6966563cac787993366e5725a102f1c62
+    diffs:
+    - source: ctext
+      source_para_no: 16
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 85
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 100
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 185
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p16:
+    canonical_hash: c71a178ae7a2b1792a39e964f5dede737ee8400454019a538afa4340fe1780f7
+    canonical_normalized_hash: 21aba776f9369693dbf786b7d0294a76175eb5f7b2a7cf2230ca40caf53114b6
+    diffs:
+    - source: ctext
+      source_para_no: 17
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 39
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 148
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p17:
+    canonical_hash: d3178674795a9d78c20d65f132dfc877eb014e92c2d51d38535ae4da7ae2788f
+    canonical_normalized_hash: b25a12f4ce3f429d39dd31095665d6f41a8cb9f1aca84bc7df7b181e5737152a
+    diffs:
+    - source: ctext
+      source_para_no: 18
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 54
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 76
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p20:
+    canonical_hash: 674c9de68460bdf2b42771e4372add367702e6c4cb60ceb999d7473641415764
+    canonical_normalized_hash: 8417cbd9dd200daa6b2a0b12a282d5c2f29ee80e145eed0c9f6e8a1db8914611
+    diffs:
+    - source: ctext
+      source_para_no: 21
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 23
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p21:
+    canonical_hash: 01ebb0ae0754f825299320bfacbe50c1bce9dc1546293eaf11f22c1ca3dc1f4c
+    canonical_normalized_hash: 8db26a2a359e64961d67c30fe219cee1783fd3ae93547d8b0a46ad1f36cea086
+    diffs:
+    - source: ctext
+      source_para_no: 22
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 116
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p23:
+    canonical_hash: c6d0685337fe4e5b1a0188e208ff50353b94d77fad9b8a6be3eb6042e0332817
+    canonical_normalized_hash: e1123be6fe21dedab86d0a84c9ca5f4064bc4041d71d69a8cd30813d1fbc68b6
+    diffs:
+    - source: ctext
+      source_para_no: 24
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 209
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p26:
+    canonical_hash: d4731b4e4923e0b535503c6af12c5f775a137652215ca4ff75f15659318377cb
+    canonical_normalized_hash: 2bc27c03bc2c46f2eca4aab4c077cd9853357433ce951348e6a8c0ef47fcf8e0
+    diffs:
+    - source: ctext
+      source_para_no: 27
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 16
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p28:
+    canonical_hash: 5ec81475293d64c588f68a1d2c66b7c3ba6d0ad8162969f6ae899c514b8a7524
+    canonical_normalized_hash: 36c24d6360eac4774e0c532cc6d2fb3ca0fb4dc59ddc07435c229550da0042f9
+    diffs:
+    - source: ctext
+      source_para_no: 29
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 20
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 25
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p30:
+    canonical_hash: 27751cc3edad0bcd16e4b2843ed2e0b0b70aa1053d51adfc4573e6120ec22596
+    canonical_normalized_hash: 950d90956b9eda6ef35c49bd9b77c0e895b787e3bd9555959698bbba67c8b11a
+    diffs:
+    - source: ctext
+      source_para_no: 31
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 130
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p32:
+    canonical_hash: 3faa98172924b822bbd68f802da4b3c5d468121749fcc9463f81c35638ff8b0b
+    canonical_normalized_hash: 1ce3a1247963609d4f2f161ad6a18a3429db8fe0b8e65f9bf24f8ead2f9018cf
+    diffs:
+    - source: ctext
+      source_para_no: 33
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 25
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 37
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 47
+        length: 1
+        from: 爲
+        to: 為
+      - op: insert
+        at: 86
+        text: 大和歷
+      - op: insert
+        at: 87
+        text: 景初歷
+      - op: replace
+        at: 150
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p33:
+    canonical_hash: 7d4dc05fb2e23539346062d4241bf9efb66495a2a97480ba3b4b4c094192fc94
+    canonical_normalized_hash: b1f1d0a5c69dd8e8dd9ec1a5bafe3349c316b5906af0748920a5145d0033051b
+    diffs:
+    - source: ctext
+      source_para_no: 34
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 36
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 47
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 69
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p34:
+    canonical_hash: 1f591274498257070ea2fa677922d13e52fe896d519be013fc1d78db498ef804
+    canonical_normalized_hash: f5afbbbc0cf5752937683bfacdd5bdad67e63c63575b50f74e37735283db56ac
+    diffs:
+    - source: ctext
+      source_para_no: 35
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 12
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 32
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 40
+        length: 1
+        from: 熙
+        to: 熈
+      - op: replace
+        at: 50
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p35:
+    canonical_hash: ce2b3a878cf0044e505c68ac4059054380ae2c85d35be1d4d21fe9c7a68429f8
+    canonical_normalized_hash: f9ecfad3cbc885f98afd0245943d89ae2a2a7786b7fb4c8b18f5d6cc3ff7184b
+    diffs:
+    - source: ctext
+      source_para_no: 36
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 160
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 191
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p36:
+    canonical_hash: 7a565016d56ea46cc836bb02c801031ef0e5e8ba18351430f78c836382749097
+    canonical_normalized_hash: bfa1a91cf4b22ad7f7ff9a07f666023a65b5de2347cd55f36785483e01644083
+    diffs:
+    - source: ctext
+      source_para_no: 37
+      kind: textual
+      equal_normalized: false
+      ops:
+      - op: replace
+        at: 7
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 18
+        length: 1
+        from: 冀
+        to: 兾
+      - op: replace
+        at: 96
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p38:
+    canonical_hash: 2458a40005fe8c04fe6d8cb1b9c1998e62d916474eefb1be7f9efed3d74e8d08
+    canonical_normalized_hash: 2af94ffddadc5ae4d8e6ed16036b8ddb6d9ca1e57aefca8a6505f4be8fe3a9d5
+    diffs:
+    - source: ctext
+      source_para_no: 39
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 12
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 76
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 113
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p40:
+    canonical_hash: 9639796b8ba2ec6e5a2de74d78ee636bd891299a131d4e1b1d9959d7a6ad522b
+    canonical_normalized_hash: 336dd3b100a75e2461e8b7c8251c70699374be988870add970d4efe317d65dd5
+    diffs:
+    - source: ctext
+      source_para_no: 41
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 76
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 140
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p41:
+    canonical_hash: 0d8291215a53edab46e2dcca1bbfef2823186daeae504de27aea42cb6c279f26
+    canonical_normalized_hash: 9ec5ee14ddaaf619a9d0716d232d8735236c997465beebcfcf71881fd7426905
+    diffs:
+    - source: ctext
+      source_para_no: 42
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 8
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 18
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 72
+        length: 1
+        from: 爲
+        to: 為
+  wei.3.p42:
+    canonical_hash: 991fbed1f17eb60bef762c66edc30150984563da991e64b3f8a6b7e5079b70f6
+    canonical_normalized_hash: b8688a276d86d667a5c1d5e944004e9c3a171c2a63e498a562ee7d74d964585e
+    diffs:
+    - source: ctext
+      source_para_no: 43
+      kind: variant_char
+      equal_normalized: true
+      ops:
+      - op: replace
+        at: 15
+        length: 1
+        from: 爲
+        to: 為
+      - op: replace
+        at: 22
+        length: 1
+        from: 爲
+        to: 為
