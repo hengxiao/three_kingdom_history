@@ -34,6 +34,9 @@ jobs:
       - name: Build site data (texts/+annotations/ → site/data/*.json)
         run: python -m tools.build_site_data
 
+      - name: Build timeline (annotations/ → site/data/timeline.json)
+        run: python -m tools.build_timeline
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

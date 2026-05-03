@@ -230,13 +230,120 @@ function formatAD(a) {
   return `AD${a.year_ad}${m}`;
 }
 
+/* ---------- TIMELINE PAGE ---------- */
+
+let TIMELINE_CACHE = null;
+async function loadTimeline() {
+  if (!TIMELINE_CACHE) TIMELINE_CACHE = await loadJSON(`${DATA_BASE}/timeline.json`);
+  return TIMELINE_CACHE;
+}
+
+async function renderTimelineIndex() {
+  setBreadcrumbs([{ label: "目錄", href: "#/" }, { label: "時間軸", href: "#/timeline" }]);
+  const main = $("#content");
+  main.innerHTML = "載入時間軸中…";
+  try {
+    const tl = await loadTimeline();
+    const html = `
+      <div class="chapter-header">
+        <h2>時間軸</h2>
+        <div class="chapter-sub">${tl.years.length} 個年份 ·
+          ${tl.years.reduce((s,y) => s + y.n_events, 0)} 個時間錨點，跨三國志與後漢書</div>
+      </div>
+      <div class="timeline-years">${
+        tl.years.map(y => `
+          <a class="timeline-year-card" href="#/timeline/${y.year_ad}">
+            <div class="year-ad">公元 ${y.year_ad} 年</div>
+            <div class="year-labels">${
+              y.labels.length
+                ? y.labels.map(l => escapeHTML(l.label)).join("、")
+                : '<span class="muted">（無年號標籤）</span>'
+            }</div>
+            <div class="year-count">${y.n_events} 條</div>
+          </a>`).join("")
+      }</div>`;
+    main.innerHTML = html;
+  } catch (err) {
+    main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
+  }
+}
+
+async function renderTimelineYear(year) {
+  setBreadcrumbs([
+    { label: "目錄", href: "#/" },
+    { label: "時間軸", href: "#/timeline" },
+    { label: `公元 ${year} 年`, href: `#/timeline/${year}` },
+  ]);
+  const main = $("#content");
+  main.innerHTML = "載入年份中…";
+  try {
+    const tl = await loadTimeline();
+    const y = tl.years.find(x => Number(x.year_ad) === Number(year));
+    if (!y) {
+      main.innerHTML = `<div class="error">公元 ${year} 年沒有時間錨點。</div>`;
+      return;
+    }
+    // Group events by chapter for cleaner reading.
+    const byChapter = new Map();
+    for (const e of y.events) {
+      if (!byChapter.has(e.chapter_id)) byChapter.set(e.chapter_id, { meta: e, events: [] });
+      byChapter.get(e.chapter_id).events.push(e);
+    }
+    const labelStr = y.labels.length
+      ? y.labels.map(l => escapeHTML(l.label)).join("、")
+      : "（無年號標籤）";
+    const groupsHTML = [...byChapter.values()].map(g => `
+      <section class="timeline-chapter">
+        <h3>${escapeHTML(g.meta.book_title)} · ${escapeHTML(g.meta.chapter_title)}
+          <span class="muted">(${escapeHTML(g.meta.chapter_id)})</span></h3>
+        <ul class="timeline-event-list">${
+          g.events.map(e => `
+            <li class="timeline-event ${e.kind === "relative" ? "relative" : "absolute"}">
+              <a href="#/chapter/${chapterIdToRoute(e.chapter_id)}#${e.anchor}">
+                <span class="event-surface">${escapeHTML(e.surface)}</span>
+                <span class="event-snippet">${escapeHTML(e.snippet)}</span>
+              </a>
+            </li>`).join("")
+        }</ul>
+      </section>`).join("");
+    main.innerHTML = `
+      <div class="chapter-header">
+        <h2>公元 ${year} 年 <span class="muted">${labelStr}</span></h2>
+        <div class="chapter-sub">${y.n_events} 條 · 涉及 ${byChapter.size} 個章節</div>
+      </div>
+      ${renderYearNav(tl, year)}
+      ${groupsHTML}
+      ${renderYearNav(tl, year)}`;
+  } catch (err) {
+    main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
+  }
+}
+
+function renderYearNav(tl, year) {
+  const idx = tl.years.findIndex(x => Number(x.year_ad) === Number(year));
+  const prev = idx > 0 ? tl.years[idx - 1] : null;
+  const next = idx >= 0 && idx < tl.years.length - 1 ? tl.years[idx + 1] : null;
+  return `<div class="chapter-nav">
+    ${prev ? `<a href="#/timeline/${prev.year_ad}">◄ 公元 ${prev.year_ad} 年</a>` : "<span></span>"}
+    <a href="#/timeline">▲ 時間軸總覽</a>
+    ${next ? `<a href="#/timeline/${next.year_ad}">公元 ${next.year_ad} 年 ►</a>` : "<span></span>"}
+  </div>`;
+}
+
+function chapterIdToRoute(chapter_id) {
+  // "wei.1" → "wei/1"; "hhs.8" → "hhs/8"
+  return chapter_id.replace(".", "/");
+}
+
 /* ---------- ROUTING ---------- */
 
 function parseHash() {
   const h = location.hash || "#/";
-  // forms: "#/", "#/chapter/<book>/<juan>", optionally "#<segId>" within
-  const m = h.match(/^#\/chapter\/([a-z]+)\/(\d+)(?:#(.+))?$/);
+  let m = h.match(/^#\/chapter\/([a-z]+)\/(\d+)(?:#(.+))?$/);
   if (m) return { route: "chapter", book: m[1], juan: parseInt(m[2], 10), seg: m[3] || null };
+  m = h.match(/^#\/timeline\/(\d+)$/);
+  if (m) return { route: "timeline_year", year: parseInt(m[1], 10) };
+  if (h === "#/timeline" || h.startsWith("#/timeline/")) return { route: "timeline_index" };
   return { route: "index" };
 }
 
@@ -250,6 +357,12 @@ async function route() {
     } else {
       window.scrollTo(0, 0);
     }
+  } else if (r.route === "timeline_year") {
+    await renderTimelineYear(r.year);
+    window.scrollTo(0, 0);
+  } else if (r.route === "timeline_index") {
+    await renderTimelineIndex();
+    window.scrollTo(0, 0);
   } else {
     await renderIndex();
     window.scrollTo(0, 0);

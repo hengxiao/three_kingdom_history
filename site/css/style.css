@@ -67,6 +67,15 @@ header nav#breadcrumbs .sep { margin: 0 6px; opacity: 0.6; }
 .toggle { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
 .toggle input { cursor: pointer; }
 
+.topnav { display: flex; gap: 14px; font-size: 14px; }
+.topnav a {
+  color: var(--muted);
+  border: 1px solid transparent;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.topnav a:hover { background: var(--pei-bg); border-color: var(--rule); text-decoration: none; }
+
 main {
   max-width: 880px;
   margin: 0 auto;
@@ -261,6 +270,81 @@ body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { disp
   padding: 14px 18px;
   color: var(--warn);
 }
+
+/* ---------- timeline ---------- */
+.timeline-years {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.timeline-year-card {
+  display: block;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--temporal);
+  background: rgba(255,255,255,0.5);
+  padding: 8px 12px;
+  border-radius: 3px;
+  color: var(--fg);
+}
+.timeline-year-card:hover {
+  background: var(--temporal-bg);
+  text-decoration: none;
+}
+.timeline-year-card .year-ad {
+  font-weight: 600;
+  color: var(--temporal);
+  font-size: 1.05em;
+}
+.timeline-year-card .year-labels {
+  font-size: 0.9em;
+  color: var(--muted);
+  line-height: 1.4;
+  margin: 2px 0;
+}
+.timeline-year-card .year-count {
+  font-size: 0.8em;
+  color: var(--muted);
+  font-family: ui-monospace, monospace;
+}
+.muted { color: var(--muted); font-weight: normal; font-size: 0.85em; }
+
+.timeline-chapter {
+  margin: 16px 0 22px;
+  padding-left: 8px;
+  border-left: 3px solid var(--rule);
+}
+.timeline-chapter h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: var(--accent);
+}
+.timeline-event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.timeline-event {
+  margin: 4px 0;
+}
+.timeline-event a {
+  display: block;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.5);
+  border-left: 3px solid var(--temporal);
+  border-radius: 2px;
+  color: var(--fg);
+}
+.timeline-event a:hover { background: var(--temporal-bg); text-decoration: none; }
+.timeline-event.relative a { border-left-style: dashed; }
+.event-surface {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--temporal);
+  margin-right: 8px;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+.event-snippet { color: var(--muted); }
 
 /* ---------- responsive layout ---------- */
 
