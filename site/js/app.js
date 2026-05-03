@@ -212,7 +212,6 @@ async function route() {
   const r = parseHash();
   if (r.route === "chapter") {
     await renderChapter(r.book, r.juan);
-    bindNoteJumps();
     if (r.seg) {
       const el = document.getElementById(r.seg);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -225,20 +224,38 @@ async function route() {
   }
 }
 
-// Wire up clicks on [N] markers to scroll-and-flash the matching note item.
-// We handle them in JS so the URL hash stays the chapter route.
-function bindNoteJumps() {
+// Single delegated click handler bound once for the page lifetime. Same DOM
+// across all responsive layouts; CSS decides whether the notes block is
+// side-by-side, stacked below, or hidden-until-revealed (narrow).
+const NARROW_MQ = window.matchMedia("(max-width: 600px)");
+function bindClicks() {
   $("#content").addEventListener("click", e => {
-    const a = e.target.closest(".pei-ref a");
-    if (!a) return;
-    e.preventDefault();
-    const id = a.getAttribute("href").replace(/^#/, "");
-    const note = document.getElementById(id);
-    if (!note) return;
-    note.scrollIntoView({ behavior: "smooth", block: "center" });
-    note.classList.add("note-flash");
-    setTimeout(() => note.classList.remove("note-flash"), 1200);
-  }, { once: true });  // re-bound on each route() call
+    // (1) tap on a 裴注 marker [N] — scroll and flash the matching note.
+    const ref = e.target.closest(".pei-ref a");
+    if (ref) {
+      e.preventDefault();
+      const seg = ref.closest(".segment");
+      // On narrow, the notes block is collapsed by default — reveal it first
+      // so scrollIntoView has a visible target.
+      if (seg) seg.classList.add("notes-revealed");
+      const id = ref.getAttribute("href").replace(/^#/, "");
+      const note = document.getElementById(id);
+      if (note) {
+        note.scrollIntoView({ behavior: "smooth", block: "center" });
+        note.classList.add("note-flash");
+        setTimeout(() => note.classList.remove("note-flash"), 1200);
+      }
+      return;
+    }
+    // (2) tap on the 正文 (narrow only) — toggle the segment's notes.
+    if (NARROW_MQ.matches) {
+      const segText = e.target.closest(".seg-text");
+      if (segText) {
+        const seg = segText.closest(".segment");
+        if (seg) seg.classList.toggle("notes-revealed");
+      }
+    }
+  });
 }
 
 /* ---------- TOGGLES ---------- */
@@ -253,5 +270,6 @@ document.addEventListener("DOMContentLoaded", () => {
   $("#show-pei").addEventListener("change", applyTogglesFromUI);
   $("#show-temporal").addEventListener("change", applyTogglesFromUI);
   applyTogglesFromUI();
+  bindClicks();
   route();
 });
