@@ -29,15 +29,28 @@ annotations:
   length: 4
   type: temporal
   text: 建安七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 202
   era: 建安
   era_year: 7
-  year_ad: 202
 - id: wu.5.p4.a2
   anchor: wu.5.p4
   at: 43
   length: 0
   type: pei
   text: 《志林》曰：按會稽貢舉簿，建安十二年到十三年闕，無舉者，云府君遭憂，此則吳后以十二年薨也。八年九年皆有貢舉，斯甚分明。
+- id: wu.5.p5.t1
+  anchor: wu.5.p5
+  at: 0
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 203
+  era: 建安
+  era_year: 8
 - id: wu.5.p5.a1
   anchor: wu.5.p5
   at: 21
@@ -80,9 +93,11 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 赤烏
   era_year: 1
-  year_ad: 238
 - id: wu.5.p12.a1
   anchor: wu.5.p12
   at: 12
@@ -95,9 +110,22 @@ annotations:
   length: 5
   type: temporal
   text: 赤烏十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 250
   era: 赤烏
   era_year: 13
-  year_ad: 250
+- id: wu.5.p14.t2
+  anchor: wu.5.p14
+  at: 95
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 251
+  era: 赤烏
+  era_year: 14
 - id: wu.5.p14.a1
   anchor: wu.5.p14
   at: 125
@@ -122,18 +150,22 @@ annotations:
   length: 4
   type: temporal
   text: 永安五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 262
   era: 永安
   era_year: 5
-  year_ad: 262
 - id: wu.5.p16.t2
   anchor: wu.5.p16
   at: 273
   length: 6
   type: temporal
   text: 甘露元年七月
+  kind: absolute
+  resolution: absolute
+  year_ad: 265
   era: 甘露
   era_year: 1
-  year_ad: 265
   month_chinese: 七月
   month_ordinal: 7
 - id: wu.5.p16.a2
@@ -166,6 +198,8 @@ annotations:
   length: 4
   type: temporal
   text: 天紀四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 280
   era: 天紀
   era_year: 4
-  year_ad: 280

@@ -65,9 +65,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 230
   era: 太和
   era_year: 4
-  year_ad: 230
 - id: wei.13.p5.a1
   anchor: wei.13.p5
   at: 19
@@ -86,9 +88,11 @@ annotations:
   length: 4
   type: temporal
   text: 景元四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 263
   era: 景元
   era_year: 4
-  year_ad: 263
 - id: wei.13.p8.a1
   anchor: wei.13.p8
   at: 55
@@ -149,9 +153,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 231
   era: 太和
   era_year: 5
-  year_ad: 231
 - id: wei.13.p13.a1
   anchor: wei.13.p13
   at: 13
@@ -230,9 +236,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
 - id: wei.13.p22.a1
   anchor: wei.13.p22
   at: 22
@@ -245,51 +253,114 @@ annotations:
   length: 4
   type: temporal
   text: 太和三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 太和
   era_year: 3
+- id: wei.13.p22.t2
+  anchor: wei.13.p22
+  at: 45
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 太和
+  era_year: 4
+- id: wei.13.p23.t1
+  anchor: wei.13.p23
+  at: 30
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
   year_ad: 229
+  era: 太和
+  era_year: 3
 - id: wei.13.p23.a1
   anchor: wei.13.p23
   at: 230
   length: 0
   type: pei
   text: 孫盛曰：化合神者曰皇，德合天者曰帝。是故三皇創號，五帝次之。然則皇之爲稱，妙於帝矣。肅謂爲輕，不亦謬乎！臣松之以爲上古謂皇皇后帝，次言三、五，先皇後帝，誠如盛言。然漢氏諸帝，雖尊父爲皇，其實則貴而無位，高而無民，比之於帝，得不謂之輕乎！魏因漢禮，名號無改。孝獻之崩，豈得遠考古義？肅之所云，蓋就漢制而爲言耳。謂之爲謬，乃是譏漢，非難肅也。
+- id: wei.13.p24.t1
+  anchor: wei.13.p24
+  at: 334
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 太和
+  era_year: 3
 - id: wei.13.p26.t1
   anchor: wei.13.p26
   at: 0
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
-  year_ad: 240
 - id: wei.13.p27.t1
   anchor: wei.13.p27
   at: 0
   length: 4
   type: temporal
   text: 嘉平六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 嘉平
   era_year: 6
-  year_ad: 254
 - id: wei.13.p27.t2
+  anchor: wei.13.p27
+  at: 24
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
+- id: wei.13.p27.t3
+  anchor: wei.13.p27
+  at: 89
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 255
+- id: wei.13.p27.t4
   anchor: wei.13.p27
   at: 269
   length: 4
   type: temporal
   text: 甘露元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 256
   era: 甘露
   era_year: 1
-  year_ad: 256
-- id: wei.13.p27.t3
+- id: wei.13.p27.t5
   anchor: wei.13.p27
   at: 308
   length: 4
   type: temporal
   text: 景元四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 263
   era: 景元
   era_year: 4
-  year_ad: 263
 - id: wei.13.p27.a1
   anchor: wei.13.p27
   at: 345

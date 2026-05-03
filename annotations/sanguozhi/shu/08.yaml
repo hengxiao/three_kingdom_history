@@ -41,24 +41,39 @@ annotations:
   length: 5
   type: temporal
   text: 建安十六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 211
   era: 建安
   era_year: 16
-  year_ad: 211
 - id: shu.8.p7.a2
   anchor: shu.8.p7
   at: 78
   length: 0
   type: pei
   text: 山陽公載記曰：建安十七年，漢立皇子熙為濟陰王，懿為山陽王，敦為東海王。靖聞之曰：「『將欲歙之，必固張之；將欲取之，必固與之』。其孟德之謂乎！」
+- id: shu.8.p7.t2
+  anchor: shu.8.p7
+  at: 78
+  length: 3
+  type: temporal
+  text: 十九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
 - id: shu.8.p8.t1
   anchor: shu.8.p8
   at: 32
   length: 4
   type: temporal
   text: 章武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 章武
   era_year: 2
-  year_ad: 222
 - id: shu.8.p8.a1
   anchor: shu.8.p8
   at: 122
@@ -77,9 +92,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 196
   era: 建安
   era_year: 1
-  year_ad: 196
 - id: shu.8.p9.a2
   anchor: shu.8.p9
   at: 138
@@ -152,9 +169,22 @@ annotations:
   length: 4
   type: temporal
   text: 建興二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 224
   era: 建興
   era_year: 2
-  year_ad: 224
+- id: shu.8.p24.t2
+  anchor: shu.8.p24
+  at: 427
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 226
+  era: 建興
+  era_year: 4
 - id: shu.8.p25.a1
   anchor: shu.8.p25
   at: 48

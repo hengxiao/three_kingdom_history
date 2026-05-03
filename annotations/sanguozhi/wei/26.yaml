@@ -17,66 +17,201 @@ annotations:
   length: 5
   type: temporal
   text: 建安十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 208
   era: 建安
   era_year: 13
-  year_ad: 208
 - id: wei.26.p5.t2
   anchor: wei.26.p5
   at: 376
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
+- id: wei.26.p5.t3
+  anchor: wei.26.p5
+  at: 386
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
 - id: wei.26.p6.t1
   anchor: wei.26.p6
   at: 11
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
+- id: wei.26.p6.t2
+  anchor: wei.26.p6
+  at: 22
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 太和
+  era_year: 3
+- id: wei.26.p6.t3
+  anchor: wei.26.p6
+  at: 194
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 229
+  era: 太和
+  era_year: 3
+- id: wei.26.p6.t4
+  anchor: wei.26.p6
+  at: 265
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 太和
+  era_year: 4
+- id: wei.26.p6.t5
+  anchor: wei.26.p6
+  at: 371
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 231
+  era: 太和
+  era_year: 5
 - id: wei.26.p6.a1
   anchor: wei.26.p6
   at: 600
   length: 0
   type: pei
   text: 《世語》曰：王淩表寵年過耽酒，不可居方任。帝將召寵，給事中郭謀曰：「寵爲汝南太守、豫州刺史二十餘年，有勳方岳。及鎮淮南，吳人憚之。若不如所表，將爲所闚。可令還朝，問以方事以察之。」帝從之。寵旣至，進見，飲酒至一石不亂。帝慰勞之，遣還。
+- id: wei.26.p6.t6
+  anchor: wei.26.p6
+  at: 654
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 232
+  era: 太和
+  era_year: 6
 - id: wei.26.p7.t1
   anchor: wei.26.p7
   at: 0
   length: 4
   type: temporal
   text: 青龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 233
   era: 青龍
   era_year: 1
+- id: wei.26.p7.t2
+  anchor: wei.26.p7
+  at: 284
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
   year_ad: 233
+  era: 青龍
+  era_year: 1
+- id: wei.26.p7.t3
+  anchor: wei.26.p7
+  at: 406
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 234
+  era: 青龍
+  era_year: 2
+- id: wei.26.p7.t4
+  anchor: wei.26.p7
+  at: 469
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 235
+  era: 青龍
+  era_year: 3
+- id: wei.26.p7.t5
+  anchor: wei.26.p7
+  at: 485
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 235
+  era: 青龍
+  era_year: 3
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.26.p8.t1
   anchor: wei.26.p8
   at: 0
   length: 4
   type: temporal
   text: 景初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 景初
   era_year: 2
-  year_ad: 238
 - id: wei.26.p8.t2
   anchor: wei.26.p8
   at: 99
   length: 4
   type: temporal
   text: 正始三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 242
   era: 正始
   era_year: 3
-  year_ad: 242
 - id: wei.26.p8.a1
   anchor: wei.26.p8
   at: 126
   length: 0
   type: pei
   text: 《世語》曰：偉字公衡。偉子長武，有寵風，年二十四，爲大將軍掾。高貴鄉公之難，以掾守閶闔掖門，司馬文王弟安陽亭侯幹欲入。幹妃，偉妹也。長武謂幹曰：「此門近，公且來，無有入者，可從東掖門。」幹遂從之。文王問幹入何遲，幹言其故。參軍王羨亦不得入，恨之。旣而羨因王左右啟王，滿掾斷門不內人，宜推劾。壽春之役，偉從文王至許，以疾不進。子從，求還省疾，事定乃從歸，由此內見恨。收長武考死杖下，偉免爲庶人。時人冤之。偉弟子奮，晉元康中至尚書令、司隷校尉。寵、偉、長武、奮，皆長八尺。荀綽《冀州記》曰：奮性清平，有識檢。《晉諸公贊》曰：奮體量通雅，有寵風也。
+- id: wei.26.p13.t1
+  anchor: wei.26.p13
+  at: 447
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 248
+  era: 正始
+  era_year: 9
 - id: wei.26.p14.a1
   anchor: wei.26.p14
   at: 31
@@ -101,9 +236,11 @@ annotations:
   length: 4
   type: temporal
   text: 嘉平六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 嘉平
   era_year: 6
-  year_ad: 254
 - id: wei.26.p17.a2
   anchor: wei.26.p17
   at: 62
@@ -116,18 +253,22 @@ annotations:
   length: 4
   type: temporal
   text: 建安九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 204
   era: 建安
   era_year: 9
-  year_ad: 204
 - id: wei.26.p24.t1
   anchor: wei.26.p24
   at: 11
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
 - id: wei.26.p25.a1
   anchor: wei.26.p25
   at: 51
@@ -146,60 +287,149 @@ annotations:
   length: 4
   type: temporal
   text: 黃初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 220
   era: 黃初
   era_year: 1
-  year_ad: 220
+- id: wei.26.p27.t2
+  anchor: wei.26.p27
+  at: 139
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
 - id: wei.26.p28.t1
   anchor: wei.26.p28
   at: 0
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
 - id: wei.26.p28.t2
+  anchor: wei.26.p28
+  at: 62
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 太和
+  era_year: 5
+- id: wei.26.p28.t3
   anchor: wei.26.p28
   at: 116
   length: 4
   type: temporal
   text: 青龍二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 青龍
   era_year: 2
-  year_ad: 234
 - id: wei.26.p29.t1
   anchor: wei.26.p29
   at: 0
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
-  year_ad: 240
+- id: wei.26.p30.t1
+  anchor: wei.26.p30
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 正始
+  era_year: 5
+- id: wei.26.p30.t2
+  anchor: wei.26.p30
+  at: 38
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 247
+  era: 正始
+  era_year: 8
+- id: wei.26.p30.t3
+  anchor: wei.26.p30
+  at: 189
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 248
+  era: 正始
+  era_year: 9
 - id: wei.26.p31.t1
   anchor: wei.26.p31
   at: 0
   length: 4
   type: temporal
   text: 嘉平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 249
   era: 嘉平
   era_year: 1
+- id: wei.26.p31.t2
+  anchor: wei.26.p31
+  at: 20
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 249
+  era: 嘉平
+  era_year: 1
+- id: wei.26.p31.t3
+  anchor: wei.26.p31
+  at: 45
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 250
+  era: 嘉平
+  era_year: 2
 - id: wei.26.p31.a1
   anchor: wei.26.p31
   at: 167
   length: 0
   type: pei
   text: 《世語》曰：淮妻，王淩之妹。淩誅，妹當從坐，御史往收。督將及羌、胡渠帥數千人叩頭請淮表留妻，淮不從。妻上道，莫不流涕，人人扼腕，欲劫留之。淮五子叩頭流血請淮，淮不忍視，乃命左右追妻。於是追者數千騎，數日而還。淮以書白司馬宣王曰：「五子哀母，不惜其身；若無其母，是無五子；無五子，亦無淮也。今輒追還，若於法未通，當受罪於主者，覲展在近。」書至，宣王亦宥之。
-- id: wei.26.p31.t2
+- id: wei.26.p31.t4
   anchor: wei.26.p31
   at: 167
   length: 4
   type: temporal
   text: 正元二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 255
   era: 正元
   era_year: 2
-  year_ad: 255
 - id: wei.26.p31.a2
   anchor: wei.26.p31
   at: 224

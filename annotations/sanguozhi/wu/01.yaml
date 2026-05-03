@@ -23,9 +23,11 @@ annotations:
   length: 4
   type: temporal
   text: 熹平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 172
   era: 熹平
   era_year: 1
-  year_ad: 172
 - id: wu.1.p2.a2
   anchor: wu.1.p2
   at: 241
@@ -38,9 +40,24 @@ annotations:
   length: 4
   type: temporal
   text: 中平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 184
   era: 中平
   era_year: 1
+- id: wu.1.p3.t2
+  anchor: wu.1.p3
+  at: 45
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
   year_ad: 184
+  era: 中平
+  era_year: 1
+  month_chinese: 三月
+  month_ordinal: 3
 - id: wu.1.p3.a1
   anchor: wu.1.p3
   at: 76
@@ -65,9 +82,11 @@ annotations:
   length: 4
   type: temporal
   text: 中平三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 186
   era: 中平
   era_year: 3
-  year_ad: 186
 - id: wu.1.p4.a1
   anchor: wu.1.p4
   at: 422
@@ -146,9 +165,11 @@ annotations:
   length: 4
   type: temporal
   text: 初平三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 192
   era: 初平
   era_year: 3
-  year_ad: 192
 - id: wu.1.p8.a1
   anchor: wu.1.p8
   at: 56
@@ -179,9 +200,11 @@ annotations:
   length: 4
   type: temporal
   text: 興平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 194
   era: 興平
   era_year: 1
-  year_ad: 194
 - id: wu.1.p11.a1
   anchor: wu.1.p11
   at: 69
@@ -248,9 +271,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 200
   era: 建安
   era_year: 5
-  year_ad: 200
 - id: wu.1.p17.a1
   anchor: wu.1.p17
   at: 26

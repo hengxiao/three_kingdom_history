@@ -31,36 +31,77 @@ annotations:
   length: 4
   type: temporal
   text: 建安九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 204
   era: 建安
   era_year: 9
-  year_ad: 204
 - id: wu.6.p3.t2
+  anchor: wu.6.p3
+  at: 64
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 206
+  era: 建安
+  era_year: 11
+- id: wu.6.p3.t3
   anchor: wu.6.p3
   at: 238
   length: 5
   type: temporal
   text: 建安二十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 215
   era: 建安
   era_year: 20
-  year_ad: 215
+- id: wu.6.p6.t1
+  anchor: wu.6.p6
+  at: 10
+  length: 2
+  type: temporal
+  text: 十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 205
+  era: 建安
+  era_year: 10
 - id: wu.6.p7.t1
   anchor: wu.6.p7
   at: 148
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
 - id: wu.6.p8.t1
+  anchor: wu.6.p8
+  at: 30
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 196
+  era: 建安
+  era_year: 1
+- id: wu.6.p8.t2
   anchor: wu.6.p8
   at: 78
   length: 4
   type: temporal
   text: 黃武五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 226
   era: 黃武
   era_year: 5
-  year_ad: 226
 - id: wu.6.p8.a1
   anchor: wu.6.p8
   at: 213
@@ -73,18 +114,33 @@ annotations:
   length: 4
   type: temporal
   text: 嘉禾三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 嘉禾
   era_year: 3
-  year_ad: 234
 - id: wu.6.p9.t2
   anchor: wu.6.p9
   at: 53
   length: 4
   type: temporal
   text: 赤烏六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 243
   era: 赤烏
   era_year: 6
-  year_ad: 243
+- id: wu.6.p9.t3
+  anchor: wu.6.p9
+  at: 235
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 240
+  era: 赤烏
+  era_year: 3
 - id: wu.6.p10.a1
   anchor: wu.6.p10
   at: 254
@@ -103,30 +159,56 @@ annotations:
   length: 5
   type: temporal
   text: 建安十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 208
   era: 建安
   era_year: 13
-  year_ad: 208
+- id: wu.6.p10.t2
+  anchor: wu.6.p10
+  at: 336
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 206
+  era: 建安
+  era_year: 11
 - id: wu.6.p11.a1
   anchor: wu.6.p11
   at: 16
   length: 0
   type: pei
   text: 《吳書》曰：鄰字公達，雅性精敏，幼有令譽。
+- id: wu.6.p11.t1
+  anchor: wu.6.p11
+  at: 19
+  length: 3
+  type: temporal
+  text: 二十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 215
+  era: 建安
+  era_year: 20
 - id: wu.6.p11.a2
   anchor: wu.6.p11
   at: 174
   length: 0
   type: pei
   text: 《博物志》曰：仲膺名邵。初，伯膺親友為人所殺，仲膺為報怨。事覺，兄弟爭死，皆得免。袁術時，邵為阜陵長。亦見《江表傳》。
-- id: wu.6.p11.t1
+- id: wu.6.p11.t2
   anchor: wu.6.p11
   at: 193
   length: 5
   type: temporal
   text: 赤烏十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 249
   era: 赤烏
   era_year: 12
-  year_ad: 249
 - id: wu.6.p11.a3
   anchor: wu.6.p11
   at: 221
@@ -157,9 +239,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安八年
+  kind: absolute
+  resolution: absolute
+  year_ad: 203
   era: 建安
   era_year: 8
-  year_ad: 203
 - id: wu.6.p13.a2
   anchor: wu.6.p13
   at: 67
@@ -178,9 +262,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 231
   era: 黃龍
   era_year: 3
-  year_ad: 231
 - id: wu.6.p14.a1
   anchor: wu.6.p14
   at: 28
@@ -193,18 +279,22 @@ annotations:
   length: 4
   type: temporal
   text: 嘉禾三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 嘉禾
   era_year: 3
-  year_ad: 234
 - id: wu.6.p14.t2
   anchor: wu.6.p14
   at: 88
   length: 4
   type: temporal
   text: 建衡二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 270
   era: 建衡
   era_year: 2
-  year_ad: 270
 - id: wu.6.p14.a2
   anchor: wu.6.p14
   at: 158
@@ -235,18 +325,22 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 241
   era: 赤烏
   era_year: 4
-  year_ad: 241
 - id: wu.6.p18.t2
   anchor: wu.6.p18
   at: 404
   length: 4
   type: temporal
   text: 天璽元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 276
   era: 天璽
   era_year: 1
-  year_ad: 276
 - id: wu.6.p18.a1
   anchor: wu.6.p18
   at: 488

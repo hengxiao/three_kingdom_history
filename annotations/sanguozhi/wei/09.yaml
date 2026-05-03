@@ -23,9 +23,33 @@ annotations:
   length: 5
   type: temporal
   text: 建安十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 207
   era: 建安
   era_year: 12
-  year_ad: 207
+- id: wei.9.p2.t2
+  anchor: wei.9.p2
+  at: 153
+  length: 4
+  type: temporal
+  text: 二十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 216
+  era: 建安
+  era_year: 21
+- id: wei.9.p2.t3
+  anchor: wei.9.p2
+  at: 208
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
 - id: wei.9.p2.a2
   anchor: wei.9.p2
   at: 249
@@ -62,6 +86,74 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：淵爲將，赴急疾，常出敵之不意，故軍中爲之語曰：「典軍校尉夏侯淵，三日五百，六日一千。」
+- id: wei.9.p5.t1
+  anchor: wei.9.p5
+  at: 207
+  length: 3
+  type: temporal
+  text: 十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 209
+  era: 建安
+  era_year: 14
+- id: wei.9.p6.t1
+  anchor: wei.9.p6
+  at: 0
+  length: 3
+  type: temporal
+  text: 十七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 212
+  era: 建安
+  era_year: 17
+- id: wei.9.p6.t2
+  anchor: wei.9.p6
+  at: 111
+  length: 3
+  type: temporal
+  text: 十九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
+- id: wei.9.p7.t1
+  anchor: wei.9.p7
+  at: 128
+  length: 4
+  type: temporal
+  text: 二十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 216
+  era: 建安
+  era_year: 21
+- id: wei.9.p7.t2
+  anchor: wei.9.p7
+  at: 248
+  length: 4
+  type: temporal
+  text: 二十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 218
+  era: 建安
+  era_year: 23
+- id: wei.9.p7.t3
+  anchor: wei.9.p7
+  at: 272
+  length: 6
+  type: temporal
+  text: 二十四年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
+  month_chinese: 正月
+  month_ordinal: 1
 - id: wei.9.p9.a1
   anchor: wei.9.p9
   at: 114
@@ -98,9 +190,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
 - id: wei.9.p15.a1
   anchor: wei.9.p15
   at: 223
@@ -119,9 +213,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 210
   era: 建安
   era_year: 15
-  year_ad: 210
 - id: wei.9.p16.a2
   anchor: wei.9.p16
   at: 194
@@ -146,9 +242,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 太和
   era_year: 6
-  year_ad: 232
 - id: wei.9.p19.a1
   anchor: wei.9.p19
   at: 52
@@ -167,9 +265,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
 - id: wei.9.p19.a3
   anchor: wei.9.p19
   at: 610
@@ -194,15 +294,48 @@ annotations:
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
+- id: wei.9.p21.t2
+  anchor: wei.9.p21
+  at: 310
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 226
+  era: 黃初
+  era_year: 7
 - id: wei.9.p21.a2
   anchor: wei.9.p21
   at: 345
   length: 0
   type: pei
   text: 臣松之案：真父名邵。封邵陵侯，若非書误，則事不可論。
+- id: wei.9.p22.t1
+  anchor: wei.9.p22
+  at: 125
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 227
+- id: wei.9.p22.t2
+  anchor: wei.9.p22
+  at: 221
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 227
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.9.p25.a1
   anchor: wei.9.p25
   at: 0
@@ -215,9 +348,11 @@ annotations:
   length: 4
   type: temporal
   text: 正始五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 244
   era: 正始
   era_year: 5
-  year_ad: 244
 - id: wei.9.p25.a2
   anchor: wei.9.p25
   at: 223
@@ -236,12 +371,36 @@ annotations:
   length: 0
   type: pei
   text: 初，宣王以爽魏之肺腑，每推先之，爽以宣王名重，亦引身卑下，當時稱焉。丁謐、畢軌等旣進用，數言於爽曰：「宣王有大志而甚得民心，不可以推誠委之。」由是爽恒猜防焉。禮貌雖存，而諸所興造，皆不復由宣王。宣王力不能爭，且懼其禍，故避之。
+- id: wei.9.p26.t1
+  anchor: wei.9.p26
+  at: 387
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 248
+  era: 正始
+  era_year: 9
 - id: wei.9.p26.a2
   anchor: wei.9.p26
   at: 427
   length: 0
   type: pei
   text: 《魏末傳》曰：爽等令勝辭宣王，并伺察焉。宣王見勝，勝自陳無他功勞，橫蒙時恩，當爲本州，詣閤拜辭，不悟加恩，得蒙引見。宣王令兩婢侍邊，持衣，衣落；復上指口，言渴求飲，婢進粥，宣王持杯飲粥，粥皆流出沾胷。勝愍然，爲之涕泣，謂宣王曰：「今主上尚幼，天下恃賴明公。然衆情謂明公方舊風疾發，何意尊體乃爾！」宣王徐更寬言，才令氣息相屬，說：「年老沈疾，死在旦夕。君當屈并州，并州近胡，好善爲之，恐不復相見，如何！」勝曰：「當還忝本州，非并州也。」宣王乃復陽爲昏謬，曰：「君方到并州，努力自愛！」錯亂其辭，狀如荒語。勝復曰：「當忝荊州，非并州也。」宣王乃若微悟者，謂勝曰：「懿年老，意荒忽，不解君言。今還爲本州刺史，盛德壯烈，好建功勳。今當與君別，自顧氣力轉微，後必不更會，因欲自力，設薄主人，生死共別。令師、昭兄弟結君爲友，不可相舍去，副懿區區之心。」因流涕哽咽。勝亦長歎，荅曰：「輒當承教，須待勑命。」勝辭出，與爽等相見，說：「太傅語言錯誤，口不攝杯，指南爲北。又云吾當作并州，吾荅言當還爲荊州，非并州也。徐徐與語，有識人時，乃知當還爲荊州耳。又欲設主人祖送。不可舍去，宜須待之。」更向爽等垂淚云：「太傅患不可復濟，令人愴然。」
+- id: wei.9.p27.t1
+  anchor: wei.9.p27
+  at: 0
+  length: 4
+  type: temporal
+  text: 十年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 249
+  era: 正始
+  era_year: 10
+  month_chinese: 正月
+  month_ordinal: 1
 - id: wei.9.p27.a1
   anchor: wei.9.p27
   at: 18
@@ -272,6 +431,19 @@ annotations:
   length: 0
   type: pei
   text: 《魏末傳》曰：爽兄弟歸家，勑洛陽縣發民八百人，使尉部圍爽第四角，角作高樓，令人在上望視爽兄弟舉動。爽計窮愁悶，持彈到後園中，樓上人便唱言「故大將軍東南行！」爽還廳事上，與兄弟共議，未知宣王意深淺，作書與宣王曰：「賤子爽哀惶恐怖，無狀招禍，分受屠滅，前遣家人迎糧，於今未反，數日乏匱，當煩見餉，以繼旦夕。」宣王得書大驚，即荅書曰：「初不知乏糧，甚懷踧踖。令致米一百斛，并肉脯、鹽豉、大豆。」尋送。爽兄弟不達變數，即便喜歡，自謂不死。
+- id: wei.9.p29.t1
+  anchor: wei.9.p29
+  at: 44
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 249
+  era: 正始
+  era_year: 10
+  month_chinese: 三月
+  month_ordinal: 3
 - id: wei.9.p29.a1
   anchor: wei.9.p29
   at: 180
@@ -302,9 +474,33 @@ annotations:
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
+- id: wei.9.p31.t2
+  anchor: wei.9.p31
+  at: 426
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
+- id: wei.9.p32.t1
+  anchor: wei.9.p32
+  at: 85
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 黃初
+  era_year: 6
 - id: wei.9.p32.a1
   anchor: wei.9.p32
   at: 114
@@ -329,9 +525,11 @@ annotations:
   length: 6
   type: temporal
   text: 嘉平六年二月
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 嘉平
   era_year: 6
-  year_ad: 254
   month_chinese: 二月
   month_ordinal: 2
 - id: wei.9.p39.a2

@@ -59,9 +59,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 211
   era: 建安
   era_year: 16
-  year_ad: 211
 - id: shu.5.p5.a1
   anchor: shu.5.p5
   at: 366
@@ -74,9 +76,11 @@ annotations:
   length: 4
   type: temporal
   text: 章武三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 章武
   era_year: 3
-  year_ad: 223
 - id: shu.5.p6.a1
   anchor: shu.5.p6
   at: 117
@@ -89,15 +93,28 @@ annotations:
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 建興
   era_year: 1
-  year_ad: 223
 - id: shu.5.p7.a1
   anchor: shu.5.p7
   at: 75
   length: 0
   type: pei
   text: 亮集曰：是歲，魏司徒華歆、司空王朗、尚書令陳群、太史令許芝、謁者僕射諸葛璋各有書與亮，陳天命人事，欲使舉國稱籓。亮遂不報書，作正議曰：「昔在項羽，起不由德，雖處華夏，秉帝者之勢，卒就湯鑊，為後永戒。魏不審鑒，今次之矣；免身為幸，戒在子孫。而二三子各以耆艾之齒，承偽指而進書，有若崇、竦稱莽之功，亦將偪於元禍苟免者邪！昔世祖之創跡舊基，奮羸卒數千，摧莽彊旅四十餘萬於昆陽之郊。夫據道討淫，不在眾寡。及至孟德，以其譎勝之力，舉數十萬之師，救張郃於陽平，勢窮慮悔，僅能自脫，辱其鋒銳之眾，遂喪漢中之地，深知神器不可妄獲，旋還未至，感毒而死。子桓淫逸，繼之以篡。縱使二三子多逞蘇、張詭靡之說，奉進驩兜滔天之辭，欲以誣毀唐帝，諷解禹、稷，所謂徒喪文藻煩勞翰墨者矣。夫大人君子之所不為也。又軍誡曰：『萬人必死，橫行天下。』昔軒轅氏整卒數萬，制四方，定海內，況以數十萬之眾，據正道而臨有罪，可得干擬者哉！」
+- id: shu.5.p8.t1
+  anchor: shu.5.p8
+  at: 0
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 建興
+  era_year: 3
 - id: shu.5.p8.a1
   anchor: shu.5.p8
   at: 10
@@ -110,12 +127,47 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：亮至南中，所在戰捷。聞孟獲者，為夷、漢所服，募生致之。既得，使觀於營陳之間，問曰：「此軍何如？」獲對曰：「向者不知虛實，故敗。今蒙賜觀看營陳，若祇如此，即定易勝耳。」亮笑，縱使更戰，七縱七禽，而亮猶遣獲。獲止不去，曰：「公，天威也，南人不復反矣。」遂至滇池。南中平，皆即其渠率而用之。或以諫亮，亮曰：「若留外人，則當留兵，兵留則無所食，一不易也；加夷新傷破，父兄死喪，留外人而無兵者，必成禍患，二不易也；又夷累有廢殺之罪，自嫌釁重，若留外人，終不相信，三不易也；今吾欲使不留兵，不運糧，而綱紀粗定，夷、漢粗安故耳。」
+- id: shu.5.p8.t2
+  anchor: shu.5.p8
+  at: 36
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 建興
+  era_year: 5
+- id: shu.5.p10.t1
+  anchor: shu.5.p10
+  at: 96
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 建興
+  era_year: 1
 - id: shu.5.p10.a1
   anchor: shu.5.p10
   at: 100
   length: 0
   type: pei
   text: 臣松之案：劉備以建安十三年敗，遣亮使吳，亮以建興五年抗表北伐，自傾覆至此整二十年。然則備始與亮相遇，在敗軍之前一年時也。
+- id: shu.5.p10.t2
+  anchor: shu.5.p10
+  at: 141
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 建興
+  era_year: 1
+  month_chinese: 五月
+  month_ordinal: 5
 - id: shu.5.p10.a2
   anchor: shu.5.p10
   at: 151
@@ -128,6 +180,17 @@ annotations:
   length: 0
   type: pei
   text: 郭沖《三事》曰：亮屯于陽平，遣魏延諸軍並兵東下，亮惟留萬人守城。晉宣帝率二十萬眾拒亮，而與延軍錯道，徑至前，當亮六十里所，偵候白宣帝說亮在城中兵少力弱。亮亦知宣帝垂至，已與相偪，欲前赴延軍，相去又遠，回跡反追，勢不相及，將士失色，莫知其計。亮意氣自若，敕軍中皆臥旗息鼓，不得妄出菴幔，又令大開四城門，埽地卻洒。宣帝常謂亮持重，而猥見勢弱，疑其有伏兵，於是引軍北趣山。明日食時，亮謂參佐拊手大笑曰：「司馬懿必謂吾怯，將有彊伏，循山走矣。」候邏還白，如亮所言。宣帝後知，深以為恨。◇難曰：案陽平在漢中。亮初屯陽平，宣帝尚為荊州都督，鎮宛城，至曹真死後，始與亮於關中相抗禦耳。魏嘗遣宣帝自宛由西城伐蜀，值霖雨，不果。此之前後，無復有於陽平交兵事。就如沖言，宣帝既舉二十萬眾，已知亮兵少力弱，若疑其有伏兵，正可設防持重，何至便走乎？案《魏延傳》云：「延每隨亮出，輒欲請精兵萬人，與亮異道會于潼關，亮制而不許；延常謂亮為怯，歎己才用之不盡也。」亮尚不以延為萬人別統，豈得如沖言，頓使將重兵在前，而以輕弱自守乎？且沖與扶風王言，顯彰宣帝之短，對子毀父，理所不容，而云「扶風王慨然善沖之言」，故知此書舉引皆虛。
+- id: shu.5.p13.t1
+  anchor: shu.5.p13
+  at: 0
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 228
+  era: 建興
+  era_year: 6
 - id: shu.5.p13.a1
   anchor: shu.5.p13
   at: 80
@@ -146,12 +209,45 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：或勸亮更發兵者，亮曰：「大軍在祁山、箕谷，皆多於賊，而不能破賊、為賊所破者，則此病不在兵少也，在一人耳。今欲減兵省將，明罰思過，校變通之道於將來；若不能然者，雖兵多何益！自今已後，諸有忠慮於國，但勤攻吾之闕，則事可定，賊可死，功可蹻足而待矣。」於是考微勞，甄烈壯，引咎責躬，布所失於天下，厲兵講武，以為後圖，戎士簡練，民忘其敗矣。亮聞孫權破曹休，魏兵東下，關中虛弱。十一月，上言曰：先帝慮漢、賊不兩立，王業不偏安，故託臣以討賊也。以先帝之明，量臣之才，故知臣伐賊才弱敵強也；然不伐賊，王業亦亡，惟坐待亡，孰與伐之？是故託臣而弗疑也。臣受命之日，寢不安席，食不甘味，思惟北征，宜先入南，故五月渡瀘，深入不毛，並日而食。臣非不自惜也，顧王業不得偏全於蜀都，故冒危難以奉先帝之遺意也，而議者謂為非計。今賊適疲於西，又務於東，兵法乘勞，此進趨之時也。謹陳其事如左：高帝明並日月，謀臣淵深，然涉險被創，危然後安。今陛下未及高帝，謀臣不如良、平，而欲以長計取勝，坐定天下，此臣之未解一也。劉繇、王朗各據州郡，論安言計，動引聖人，群疑滿腹，眾難塞胸，今歲不戰，明年不徵，使孫策坐大，遂並江東，此臣之未解二也。曹操智計殊絕於人，其用兵也，彷彿孫、吳，然困於南陽，險於烏巢，危於祁連，偪於黎陽，幾敗北山，殆死潼關，然後偽定一時耳，況臣才弱，而欲以不危而定之，此臣之未解三也。曹操五攻昌霸不下，四越巢湖不成，任用李服而李服圖之，委夏侯而夏侯敗亡，先帝每稱操為能，猶有此失，況臣駑下，何能必勝？此臣之未解四也。自臣到漢中，中間期年耳，然喪趙雲、陽群、馬玉、閻芝、丁立、白壽、劉郃、鄧銅等及曲長屯將七十餘人，突將無前。賨、叟、青羌散騎、武騎一千餘人，此皆數十年之內所糾合四方之精銳，非一州之所有，若復數年，則損三分之二也，當何以圖敵？此臣之未解五也。今民窮兵疲，而事不可息，事不可息，則住與行勞費正等，而不及今圖之，欲以一州之地與賊持久，此臣之未解六也。夫難平者，事也。昔先帝敗軍於楚，當此時，曹操拊手，謂天下以定。然後先帝東連吳、越，西取巴、蜀，舉兵北征，夏侯授首，此操之失計而漢事將成也。然後吳更違盟，關羽毀敗，秭歸蹉跌，曹丕稱帝。凡事如是，難可逆見。臣鞠躬儘力，死而後已，至於成敗利鈍，非臣之明所能逆睹也。於是有散關之役。此表，亮集所無，出張儼《默記》。
+- id: shu.5.p14.t1
+  anchor: shu.5.p14
+  at: 43
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 建興
+  era_year: 7
+- id: shu.5.p14.t2
+  anchor: shu.5.p14
+  at: 122
+  length: 2
+  type: temporal
+  text: 前年
+  kind: relative
+  resolution: prev_year
+  year_ad: 228
+  era: 建興
+  era_year: 6
 - id: shu.5.p14.a1
   anchor: shu.5.p14
   at: 212
   length: 0
   type: pei
   text: 《漢晉春秋》曰：是歲，孫權稱尊號，其群臣以並尊二帝來告。議者咸以為交之無益，而名體弗順，宜顯明正義，絕其盟好。亮曰：「權有僭逆之心久矣，國家所以略其釁情者，求掎角之援也。今若加顯絕，讎我必深，便當移兵東（戍），與之角力，須並其土，乃議中原。彼賢才尚多，將相緝穆，未可一朝定也。頓兵相持，坐而須老，使北賊得計，非算之上者。昔孝文卑辭匈奴，先帝優與吳盟，皆應權通變，弘思遠益，非匹夫之為（分）者也。今議者咸以權利在鼎足，不能並力，且志望以滿，無上岸之情，推此，皆似是而非也。何者？其智力不侔，故限江自保；權之不能越江，猶魏賊之不能渡漢，非力有餘而利不取也。若大軍致討，彼高當分裂其地以為後規，下當略民廣境，示武於內，非端坐者也。若就其不動而睦於我，我之北伐，無東顧之憂，河南之眾不得盡西，此之為利，亦已深矣。權僭之罪，未宜明也。」乃遣衛尉陳震慶權正號。
+- id: shu.5.p15.t1
+  anchor: shu.5.p15
+  at: 0
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
 - id: shu.5.p15.a1
   anchor: shu.5.p15
   at: 14
@@ -164,12 +260,34 @@ annotations:
   length: 0
   type: pei
   text: 郭沖《五事》曰：魏明帝自徵蜀，幸長安，遣宣王督張郃諸軍，雍、涼勁卒三十餘萬，潛軍密進，規向劍閣。亮時在祁山，旌旗利器，守在險要，十二更下，在者八萬。時魏軍始陳，幡兵適交，參佐咸以賊眾強盛，非力不制，宜權停下兵一月，以並聲勢。亮曰：「吾統武行師，以大信為本，得原失信，古人所惜；去者束裝以待期，妻子鶴望而計日，雖臨徵難，義所不廢。」皆催遣令去。於是去者感悅，原留一戰，住者憤踴，思致死命。相謂曰：「諸葛公之恩，死猶不報也。」臨戰之日，莫不拔刃爭先，以一當十，殺張郃，卻宣王，一戰大剋，此信之由也。◇難曰：臣松之案：亮前出祁山，魏明帝身至長安耳，此年不復自來。且亮大軍在關、隴，魏人何由得越亮徑向劍閣？亮既在戰場，本無久住之規，而方休兵還蜀，皆非經通之言。孫盛、習鑿齒搜求異同，罔有所遺，而並不載沖言，知其乖剌多矣。
+- id: shu.5.p16.t1
+  anchor: shu.5.p16
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
 - id: shu.5.p16.a1
   anchor: shu.5.p16
   at: 84
   length: 0
   type: pei
   text: 《漢晉春秋》曰：亮自至，數挑戰。宣王亦表固請戰。使衛尉辛毗持節以制之。姜維謂亮曰：「辛佐治仗節而到，賊不復出矣。」亮曰：「彼本無戰情，所以固請戰者，以示武於其眾耳。將在軍，君命有所不受，苟能制吾，豈千里而請戰邪！」《魏氏春秋》曰：亮使至，問其寢食及其事之煩簡，不問戎事。使對曰：「諸葛公夙興夜寐，罰二十以上，皆親攬焉；所啖食不至數升。」宣王曰：「亮將死矣。」
+- id: shu.5.p16.t2
+  anchor: shu.5.p16
+  at: 90
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
 - id: shu.5.p16.a2
   anchor: shu.5.p16
   at: 109
@@ -194,9 +312,11 @@ annotations:
   length: 4
   type: temporal
   text: 景耀六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 263
   era: 景耀
   era_year: 6
-  year_ad: 263
 - id: shu.5.p21.a1
   anchor: shu.5.p21
   at: 15
@@ -209,6 +329,17 @@ annotations:
   length: 0
   type: pei
   text: 《襄陽記》曰：黃承彥者，高爽開列，為沔南名士，謂諸葛孔明曰：「聞君擇婦；身有醜女，黃頭黑色，而才堪相配。」孔明許，即載送之。時人以為笑樂，鄉里為之諺曰：「莫作孔明擇婦，正得阿承醜女。」
+- id: shu.5.p35.t1
+  anchor: shu.5.p35
+  at: 2
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 259
+  era: 景耀
+  era_year: 2
 - id: shu.5.p37.a1
   anchor: shu.5.p37
   at: 93
@@ -221,24 +352,61 @@ annotations:
   length: 5
   type: temporal
   text: 建興十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 建興
   era_year: 12
-  year_ad: 234
 - id: shu.5.p38.t2
+  anchor: shu.5.p38
+  at: 60
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 235
+  era: 建興
+  era_year: 13
+- id: shu.5.p38.t3
   anchor: shu.5.p38
   at: 157
   length: 4
   type: temporal
   text: 景耀四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 261
   era: 景耀
   era_year: 4
-  year_ad: 261
+- id: shu.5.p38.t4
+  anchor: shu.5.p38
+  at: 187
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 263
+  era: 景耀
+  era_year: 6
 - id: shu.5.p38.a1
   anchor: shu.5.p38
   at: 296
   length: 0
   type: pei
   text: 干寶曰：瞻雖智不足以扶危，勇不足以拒敵，而能外不負國，內不改父之志，忠孝存焉。《華陽國志》曰：尚嘆曰：「父子荷國重恩，不早斬黃皓，以致傾敗，用生何為！」乃馳赴魏軍而死。
+- id: shu.5.p38.t5
+  anchor: shu.5.p38
+  at: 307
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 258
+  era: 景耀
+  era_year: 1
 - id: shu.5.p38.a2
   anchor: shu.5.p38
   at: 314
@@ -257,6 +425,17 @@ annotations:
   length: 0
   type: pei
   text: 孫盛《異同記》曰：瞻、厥等以維好戰無功，國內疲弊，宜表後主，召還為益州刺史，奪其兵權；蜀長老猶有瞻表以閻宇代維故事。晉永和三年，蜀史常璩說蜀長老云：「陳壽嘗為瞻吏，為瞻所辱，故因此事歸惡黃皓，而云瞻不能匡矯也。」
+- id: shu.5.p39.t1
+  anchor: shu.5.p39
+  at: 201
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 259
+  era: 景耀
+  era_year: 2
 - id: shu.5.p39.a3
   anchor: shu.5.p39
   at: 235

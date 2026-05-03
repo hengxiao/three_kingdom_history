@@ -11,18 +11,33 @@ annotations:
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
-  year_ad: 240
 - id: wei.27.p4.t2
   anchor: wei.27.p4
   at: 77
   length: 4
   type: temporal
   text: 嘉平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 249
   era: 嘉平
   era_year: 1
-  year_ad: 249
+- id: wei.27.p4.t3
+  anchor: wei.27.p4
+  at: 108
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
 - id: wei.27.p5.a1
   anchor: wei.27.p5
   at: 42
@@ -53,9 +68,22 @@ annotations:
   length: 4
   type: temporal
   text: 嘉平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 250
   era: 嘉平
   era_year: 2
-  year_ad: 250
+- id: wei.27.p10.t2
+  anchor: wei.27.p10
+  at: 64
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
 - id: wei.27.p10.a1
   anchor: wei.27.p10
   at: 83
@@ -122,45 +150,97 @@ annotations:
   length: 4
   type: temporal
   text: 青龍四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 236
   era: 青龍
   era_year: 4
-  year_ad: 236
 - id: wei.27.p18.t1
+  anchor: wei.27.p18
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 青龍
+  era_year: 2
+- id: wei.27.p18.t2
   anchor: wei.27.p18
   at: 392
   length: 4
   type: temporal
   text: 甘露四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 259
   era: 甘露
   era_year: 4
-  year_ad: 259
 - id: wei.27.p19.a1
   anchor: wei.27.p19
   at: 13
   length: 0
   type: pei
   text: 案《晉書》：渾自越騎入晉，累居方任，平吳有功，封一子江陵侯，位至司徒。渾子濟，字武子，有儁才令望，爲河南尹、太僕。早卒，追贈驃騎將軍。渾弟深，兾州刺史。深弟湛，字處冲，汝南太守。湛子承，字安期，東海內史。承子述，字懷祖，尚書令、衞將軍。述子坦之，字文度，北中郎將，徐、兖二州刺史。昶諸子中，湛最有悳譽，而承亦自爲名士，述及坦之並顯重於世，爲時盛門云。自湛已下事，見《晉陽秋》也。
+- id: wei.27.p23.t1
+  anchor: wei.27.p23
+  at: 0
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 259
+  era: 甘露
+  era_year: 4
 - id: wei.27.p27.t1
+  anchor: wei.27.p27
+  at: 0
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 259
+  era: 甘露
+  era_year: 4
+- id: wei.27.p27.t2
   anchor: wei.27.p27
   at: 31
   length: 4
   type: temporal
   text: 甘露四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 259
   era: 甘露
   era_year: 4
-  year_ad: 259
 - id: wei.27.p28.t1
   anchor: wei.27.p28
   at: 0
   length: 4
   type: temporal
   text: 景元二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 261
   era: 景元
   era_year: 2
-  year_ad: 261
 - id: wei.27.p28.a1
   anchor: wei.27.p28
   at: 134
   length: 0
   type: pei
   text: 司馬彪《戰略》載基此事，詳於本傳。曰：「景元二年春三月，襄陽太守胡烈表上『吳賊鄧由、李光等，同謀十八屯，欲來歸化，遣將張吳、鄧生，并送質任。克期欲令郡軍臨江迎拔』。大將軍司馬文王啟聞。詔征南將軍王基部分諸軍，使烈督萬人徑造沮水，荊州、義陽南屯宜城，承書夙發。若由等如期到者，便當因此震蕩江表。基疑賊詐降，誘致官兵，馳驛止文王，說由等可疑之狀。『且當清澄，未宜便舉重兵深入應之』。又曰：『夷陵東道，當由車御，至赤岸乃得渡坦，西道當出箭谿口，乃趣平土，皆山險狹，竹木叢蔚，卒有要害，弩馬不陳。今者筋角弩弱，水潦方降，廢盛農之務，徼難必之利，此事之危者也。昔子午之役，兵行數百里而值霖雨，橋閣破壞，後糧腐敗，前軍縣乏。姜維深入，不待輜重，士衆飢餓，覆軍上邽。文欽、唐咨，舉吳重兵，昧利壽春，身歿不反。此皆近事之鑒戒也。嘉平以來，累有內難。當今之宜，當鎮安社稷，撫寧上下，力農務本，懷柔百姓，未宜動衆以求外利也。得之未足爲多，失之傷損威重。』文王累得基書，意疑。尋勑諸軍已上道者，且權停住所在，須後節度。基又言於文王曰：『昔漢祖納酈生之說，欲封六國，寤張良之謀，而趣銷印。基謀慮淺短，誠不及留侯，亦懼襄陽有食其之謬。』文王於是遂罷軍嚴，後由等果不降。」
+- id: wei.27.p29.t1
+  anchor: wei.27.p29
+  at: 0
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 261
+  era: 景元
+  era_year: 2

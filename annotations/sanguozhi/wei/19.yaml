@@ -11,9 +11,22 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 216
   era: 建安
   era_year: 21
-  year_ad: 216
+- id: wei.19.p3.t1
+  anchor: wei.19.p3
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 218
+  era: 建安
+  era_year: 23
 - id: wei.19.p3.a1
   anchor: wei.19.p3
   at: 159
@@ -44,42 +57,83 @@ annotations:
   length: 4
   type: temporal
   text: 黃初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 黃初
   era_year: 2
-  year_ad: 221
+- id: wei.19.p4.t2
+  anchor: wei.19.p4
+  at: 124
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+- id: wei.19.p4.t3
+  anchor: wei.19.p4
+  at: 133
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 黃初
+  era_year: 4
 - id: wei.19.p4.a3
   anchor: wei.19.p4
   at: 149
   length: 0
   type: pei
   text: 《魏氏春秋》曰：初，彰問璽綬，將有異志，故來朝不即得見。彰忿怒暴薨。
-- id: wei.19.p4.t2
+- id: wei.19.p4.t4
+  anchor: wei.19.p4
+  at: 181
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
+- id: wei.19.p4.t5
   anchor: wei.19.p4
   at: 190
   length: 4
   type: temporal
   text: 太和六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 太和
   era_year: 6
-  year_ad: 232
-- id: wei.19.p4.t3
+- id: wei.19.p4.t6
   anchor: wei.19.p4
   at: 211
   length: 4
   type: temporal
   text: 青龍三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 235
   era: 青龍
   era_year: 3
-  year_ad: 235
-- id: wei.19.p4.t4
+- id: wei.19.p4.t7
   anchor: wei.19.p4
   at: 236
   length: 4
   type: temporal
   text: 正始七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 246
   era: 正始
   era_year: 7
-  year_ad: 246
 - id: wei.19.p4.a4
   anchor: wei.19.p4
   at: 268
@@ -98,9 +152,66 @@ annotations:
   length: 5
   type: temporal
   text: 建安十六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 211
   era: 建安
   era_year: 16
-  year_ad: 211
+- id: wei.19.p6.t2
+  anchor: wei.19.p6
+  at: 11
+  length: 3
+  type: temporal
+  text: 十九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
+- id: wei.19.p7.t1
+  anchor: wei.19.p7
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 217
+  era: 建安
+  era_year: 22
+- id: wei.19.p8.t1
+  anchor: wei.19.p8
+  at: 28
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
+- id: wei.19.p10.t1
+  anchor: wei.19.p10
+  at: 35
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
+- id: wei.19.p11.t1
+  anchor: wei.19.p11
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
 - id: wei.19.p11.a1
   anchor: wei.19.p11
   at: 54
@@ -119,30 +230,100 @@ annotations:
   length: 4
   type: temporal
   text: 黃初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 黃初
   era_year: 2
-  year_ad: 221
 - id: wei.19.p13.a1
   anchor: wei.19.p13
   at: 46
   length: 0
   type: pei
   text: 《魏書》載詔曰：『植，朕之同母弟。朕於天下無所不容，而況植乎？骨肉之親，舍而不誅，其改封植。』
+- id: wei.19.p13.t2
+  anchor: wei.19.p13
+  at: 46
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 221
+  era: 黃初
+  era_year: 2
+- id: wei.19.p13.t3
+  anchor: wei.19.p13
+  at: 54
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+- id: wei.19.p14.t1
+  anchor: wei.19.p14
+  at: 0
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 黃初
+  era_year: 4
+- id: wei.19.p14.t2
+  anchor: wei.19.p14
+  at: 9
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 223
+  era: 黃初
+  era_year: 4
 - id: wei.19.p15.a1
   anchor: wei.19.p15
   at: 12
   length: 0
   type: pei
   text: 《魏略》曰：初植未到關，自念有過，宜當謝帝。乃留其從官著關東，單將兩三人微行，入見清河長公主，欲因主謝。而關吏以聞，帝使人逆之，不得見。太後以為自殺也，對帝泣。會植科頭負鈇鑕，徒跣詣闕下，帝及太後乃喜。及見之，帝猶嚴顏色，不與語，又不使冠履。植伏地泣涕，太後為不樂。詔乃聽復王服。《魏氏春秋》曰：是時待遇諸國法峻。任城王暴薨。諸王既懷友於之痛。植及白馬王彪還國，欲同路東歸，以敘隔闊之思，而監國使者不聽。植髮憤告離而作詩曰：『謁帝承明廬，逝將歸舊疆。清晨發皇邑，日夕過首陽。伊洛曠且深，欲濟川無梁。汎舟越洪濤，怨彼東路長。回顧戀城闕，引領情內傷。大谷何寥廓，山樹鬱蒼蒼。霖雨泥我塗，流潦浩從橫。中逵絕無軌，改轍登高岡。修阪造雲日，我馬玄以黃。玄黃猶能進，我思鬱以紆。鬱紆將何念？親愛在離居。本圖相與偕，中更不克俱。鴟梟鳴衡軛，豺狼當路衢；蒼蠅間白黑，讒巧反親疏。欲還絕無蹊，攬轡止踟躕。踟躕亦何留，相思無終極。秋風發微涼，寒蟬鳴我側。原野何蕭條，白日忽西匿。孤獸走索群，銜草不遑食。歸鳥赴高林，翩翩厲羽翼。感物傷我懷，撫心長嘆息。嘆息亦何為，天命與我違。奈何念同生，一往形不歸！孤魂翔故域，靈柩寄京師。存者勿復過，亡沒身自衰。人生處一世，忽若朝露晞。年在桑榆間，影響不能追。自顧非金石，咄吒令心悲。心悲動我神，棄置莫復陳。丈夫志四海，萬里猶比鄰。恩愛苟不虧，在遠分日親。何必同衾幬，然後展殷勤。倉卒骨肉情，能不懷苦辛？苦辛何慮思，天命信可疑。虛無求列仙，松子久吾欺。變故在斯須，百年誰能持？離別永無會，執手將何時？王其愛玉體，俱享黃髮期。收涕即長塗，援筆從此辭。』
+- id: wei.19.p16.t1
+  anchor: wei.19.p16
+  at: 0
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 黃初
+  era_year: 6
 - id: wei.19.p17.t1
   anchor: wei.19.p17
   at: 0
   length: 4
   type: temporal
   text: 太和元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 227
   era: 太和
   era_year: 1
-  year_ad: 227
+- id: wei.19.p17.t2
+  anchor: wei.19.p17
+  at: 10
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 228
+  era: 太和
+  era_year: 2
 - id: wei.19.p18.a1
   anchor: wei.19.p18
   at: 516
@@ -167,12 +348,71 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：楚莊掩絕纓之罪，事亦顯，故不書。秦穆公有赦盜馬事，趙則未聞。蓋以秦亦趙姓，故互文以避上『秦』字也。
+- id: wei.19.p19.t1
+  anchor: wei.19.p19
+  at: 0
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 太和
+  era_year: 3
+- id: wei.19.p19.t2
+  anchor: wei.19.p19
+  at: 8
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 太和
+  era_year: 5
 - id: wei.19.p23.a1
   anchor: wei.19.p23
   at: 7
   length: 0
   type: pei
   text: 《魏略》曰：是後大發士息，及取諸國士。植以近前諸國士息已見發，孤稚弱，在者無幾，而復被取，乃上書曰：『臣聞古者聖君，與日月齊其明，四時等其信，是以戮凶無重，賞善無輕，怒若驚霆，喜若時雨，恩不中絕，教無二可，以此臨朝，則臣下知所死矣。受任在萬里之外，審主之所授官，必己之所以投命，雖有構會之徒，泊然不以為懼者，蓋君臣相信之明效也。昔章子為齊將，人有告之反者，威王曰：「不然。」左右曰：「王何以明之？」王曰：「聞章子改葬死母；彼尚不欺死父，顧當叛生君乎？」此君之信臣也。昔管仲親射桓公，後幽囚從魯檻車載，使少年輓而送齊。管仲知桓公之必用己，懼魯之悔，謂少年曰：「吾為汝唱，汝為和，聲和聲，宜走。」於是管仲唱之，少年走而和之，日行數百裡，宿昔而至。至則相齊，此臣之信君也。臣初受封，策書曰：「植受茲青社，封於東土，以屏翰皇家，為魏藩輔。」而所得兵百五十人，皆年在耳順，或不逾矩，虎賁官騎及親事凡二百餘人。正復不老，皆使年壯，備有不虞，檢校乘城，顧不足以自救，況皆復耄耋罷曳乎？而名為魏東藩，使屏翰王室，臣竊自羞矣。就之諸國，國有士子，合不過五百人。伏以為三軍益損，不復賴此。方外不定，必當須辦者，臣願將部曲倍道奔赴，夫妻負襁，子弟懷糧，蹈鋒履刃，以徇國難，何但習業小兒哉？愚誠以揮涕增河，鼷鼠飲海，於朝萬無損益，於臣家計甚有廢損。又臣士息前後三送，兼人已竭。惟尚有小兒，七八歲已上，十六七已還，三十餘人。今部曲皆年耆，卧在床席，非糜不食，眼不能視，氣息裁屬者，凡三十七人；疲瘵風靡，疣盲聾聵者，二十三人。惟正須此小兒，大者可備宿衛，雖不足以禦寇，粗可以警小盜；小者未堪大使，為可使耘鉏穢草，驅護鳥雀。休侯人則一事廢，一日獵則眾業散，不親自經營則功不攝；常自躬親，不委下吏而已。陛下聖仁，恩詔三至，士子給國，長不複發。明詔之下，有若皦日，保金石之恩，必明神之信，畫然自固，如天如地。定習業者並復見送，晻若晝晦，悵然失圖。伏以為陛下既爵臣百寮之右，居藩國之任，為置卿士，屋名為宮，冢名為陵，不使其危居獨立，無異於凡庶。若柏成欣於野耕，子仲樂於灌園；蓬戶茅牖，原憲之宅也；陋巷簞瓢，顏子之居也：臣才不見效用，常慨然執斯志焉。若陛下聽臣悉還部曲，罷官屬，省監官，使解璽釋紱，追柏成、子仲之業，營顏淵、原憲之事，居子臧之廬，宅延陵之室。如此，雖進無成功，退有可守，身死之日，猶松、喬也。然伏度國朝終未肯聽臣之若是，固當羈絆於世繩，維繫於祿位，懷屑屑之小憂，執無已之百念，安得蕩然肆志，逍遙於宇宙之外哉？此願未從，陛下必欲崇親親，篤骨肉，潤白骨而榮枯木者，惟遂仁德以副前恩詔。』皆遂還之。
+- id: wei.19.p24.t1
+  anchor: wei.19.p24
+  at: 0
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 231
+  era: 太和
+  era_year: 5
+- id: wei.19.p24.t2
+  anchor: wei.19.p24
+  at: 8
+  length: 4
+  type: temporal
+  text: 六年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 232
+  era: 太和
+  era_year: 6
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.19.p25.t1
+  anchor: wei.19.p25
+  at: 1
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 232
+  era: 太和
+  era_year: 6
+  month_chinese: 二月
+  month_ordinal: 2
 - id: wei.19.p25.a1
   anchor: wei.19.p25
   at: 126
@@ -191,27 +431,33 @@ annotations:
   length: 4
   type: temporal
   text: 黃初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 黃初
   era_year: 2
-  year_ad: 221
 - id: wei.19.p27.t2
   anchor: wei.19.p27
   at: 19
   length: 4
   type: temporal
   text: 太和三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 太和
   era_year: 3
-  year_ad: 229
 - id: wei.19.p27.t3
   anchor: wei.19.p27
   at: 31
   length: 4
   type: temporal
   text: 青龍二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 青龍
   era_year: 2
-  year_ad: 234
 - id: wei.19.p28.a1
   anchor: wei.19.p28
   at: 67

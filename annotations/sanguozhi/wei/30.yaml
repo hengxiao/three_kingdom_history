@@ -29,18 +29,22 @@ annotations:
   length: 5
   type: temporal
   text: 建安十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 206
   era: 建安
   era_year: 11
-  year_ad: 206
 - id: wei.30.p4.t2
   anchor: wei.30.p4
   at: 303
   length: 4
   type: temporal
   text: 景初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 景初
   era_year: 1
-  year_ad: 237
 - id: wei.30.p5.a1
   anchor: wei.30.p5
   at: 2
@@ -53,93 +57,255 @@ annotations:
   length: 4
   type: temporal
   text: 黃初五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 224
   era: 黃初
   era_year: 5
-  year_ad: 224
 - id: wei.30.p6.t2
   anchor: wei.30.p6
   at: 222
   length: 4
   type: temporal
   text: 青龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 233
   era: 青龍
   era_year: 1
-  year_ad: 233
 - id: wei.30.p7.t1
   anchor: wei.30.p7
   at: 198
   length: 4
   type: temporal
   text: 黃初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 黃初
   era_year: 2
-  year_ad: 221
+- id: wei.30.p7.t2
+  anchor: wei.30.p7
+  at: 223
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+- id: wei.30.p7.t3
+  anchor: wei.30.p7
+  at: 303
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
 - id: wei.30.p8.t1
   anchor: wei.30.p8
   at: 0
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
 - id: wei.30.p8.t2
   anchor: wei.30.p8
   at: 128
   length: 4
   type: temporal
   text: 青龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 233
   era: 青龍
   era_year: 1
-  year_ad: 233
+- id: wei.30.p8.t3
+  anchor: wei.30.p8
+  at: 204
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 235
+  era: 青龍
+  era_year: 3
 - id: wei.30.p9.t1
   anchor: wei.30.p9
   at: 116
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
+- id: wei.30.p11.t1
+  anchor: wei.30.p11
+  at: 196
+  length: 2
+  type: temporal
+  text: 正月
+  kind: relative
+  resolution: bare_month
   year_ad: 228
+  era: 太和
+  era_year: 2
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.30.p11.t2
+  anchor: wei.30.p11
+  at: 529
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 228
+  era: 太和
+  era_year: 2
+  month_chinese: 五月
+  month_ordinal: 5
 - id: wei.30.p12.a1
   anchor: wei.30.p12
   at: 309
   length: 0
   type: pei
   text: 《魏略》曰：其國殷富，自先世以來，未嘗破壞。
+- id: wei.30.p13.t1
+  anchor: wei.30.p13
+  at: 555
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 228
+  era: 太和
+  era_year: 2
+  month_chinese: 十月
+  month_ordinal: 10
+- id: wei.30.p13.t2
+  anchor: wei.30.p13
+  at: 621
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 228
+  era: 太和
+  era_year: 2
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wei.30.p16.t1
   anchor: wei.30.p16
   at: 51
   length: 4
   type: temporal
   text: 建寧二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 169
   era: 建寧
   era_year: 2
-  year_ad: 169
 - id: wei.30.p18.t1
   anchor: wei.30.p18
   at: 116
   length: 4
   type: temporal
   text: 景初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 景初
   era_year: 2
-  year_ad: 238
 - id: wei.30.p18.t2
   anchor: wei.30.p18
   at: 147
   length: 4
   type: temporal
   text: 正始三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 242
   era: 正始
   era_year: 3
-  year_ad: 242
+- id: wei.30.p18.t3
+  anchor: wei.30.p18
+  at: 159
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 正始
+  era_year: 5
 - id: wei.30.p18.a1
   anchor: wei.30.p18
   at: 175
   length: 0
   type: pei
   text: 儉傳
+- id: wei.30.p19.t1
+  anchor: wei.30.p19
+  at: 106
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 241
+  era: 正始
+  era_year: 2
+- id: wei.30.p19.t2
+  anchor: wei.30.p19
+  at: 213
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 245
+  era: 正始
+  era_year: 6
+- id: wei.30.p21.t1
+  anchor: wei.30.p21
+  at: 181
+  length: 2
+  type: temporal
+  text: 七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 245
+  era: 正始
+  era_year: 6
+  month_chinese: 七月
+  month_ordinal: 7
+- id: wei.30.p23.t1
+  anchor: wei.30.p23
+  at: 373
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 245
+  era: 正始
+  era_year: 6
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wei.30.p23.a1
   anchor: wei.30.p23
   at: 481
@@ -152,15 +318,76 @@ annotations:
   length: 4
   type: temporal
   text: 正始六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 245
   era: 正始
   era_year: 6
-  year_ad: 245
+- id: wei.30.p24.t2
+  anchor: wei.30.p24
+  at: 40
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 247
+  era: 正始
+  era_year: 8
 - id: wei.30.p26.a1
   anchor: wei.30.p26
   at: 363
   length: 0
   type: pei
   text: 《魏略》曰：其子及親留在國者，因冒姓韓氏。准王海中，不與朝鮮相往來。
+- id: wei.30.p26.t1
+  anchor: wei.30.p26
+  at: 541
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 242
+  era: 正始
+  era_year: 3
+- id: wei.30.p26.t2
+  anchor: wei.30.p26
+  at: 725
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 243
+  era: 正始
+  era_year: 4
+- id: wei.30.p28.t1
+  anchor: wei.30.p28
+  at: 201
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 243
+  era: 正始
+  era_year: 4
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wei.30.p28.t2
+  anchor: wei.30.p28
+  at: 251
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 243
+  era: 正始
+  era_year: 4
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wei.30.p30.a1
   anchor: wei.30.p30
   at: 113
@@ -179,23 +406,156 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：明其爲流移之人，故爲馬韓所制。
+- id: wei.30.p32.t1
+  anchor: wei.30.p32
+  at: 425
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 243
+  era: 正始
+  era_year: 4
+  month_chinese: 一月
+  month_ordinal: 1
+- id: wei.30.p34.t1
+  anchor: wei.30.p34
+  at: 451
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 240
+  era: 正始
+  era_year: 1
 - id: wei.30.p35.t1
   anchor: wei.30.p35
   at: 0
   length: 6
   type: temporal
   text: 景初二年六月
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 景初
   era_year: 2
-  year_ad: 238
   month_chinese: 六月
   month_ordinal: 6
 - id: wei.30.p35.t2
+  anchor: wei.30.p35
+  at: 39
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 238
+  era: 景初
+  era_year: 2
+- id: wei.30.p35.t3
   anchor: wei.30.p35
   at: 352
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
+- id: wei.30.p35.t4
+  anchor: wei.30.p35
+  at: 411
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 243
+  era: 正始
+  era_year: 4
+- id: wei.30.p35.t5
+  anchor: wei.30.p35
+  at: 474
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 245
+  era: 正始
+  era_year: 6
+- id: wei.30.p35.t6
+  anchor: wei.30.p35
+  at: 492
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 247
+  era: 正始
+  era_year: 8
+- id: wei.30.p36.t1
+  anchor: wei.30.p36
+  at: 665
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 247
+  era: 正始
+  era_year: 8
+  month_chinese: 六月
+  month_ordinal: 6
+- id: wei.30.p37.t1
+  anchor: wei.30.p37
+  at: 182
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
   year_ad: 240
+  era: 正始
+  era_year: 1
+- id: wei.30.p38.t1
+  anchor: wei.30.p38
+  at: 273
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 240
+  era: 正始
+  era_year: 1
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wei.30.p39.t1
+  anchor: wei.30.p39
+  at: 497
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 242
+  era: 正始
+  era_year: 3
+- id: wei.30.p40.t1
+  anchor: wei.30.p40
+  at: 126
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 242
+  era: 正始
+  era_year: 3
+  month_chinese: 一月
+  month_ordinal: 1

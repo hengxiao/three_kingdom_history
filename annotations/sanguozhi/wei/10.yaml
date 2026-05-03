@@ -17,27 +17,55 @@ annotations:
   length: 4
   type: temporal
   text: 永漢元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 189
   era: 永漢
   era_year: 1
-  year_ad: 189
 - id: wei.10.p2.t2
   anchor: wei.10.p2
   at: 182
   length: 4
   type: temporal
   text: 初平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 191
   era: 初平
   era_year: 2
-  year_ad: 191
 - id: wei.10.p2.t3
+  anchor: wei.10.p2
+  at: 288
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 192
+  era: 初平
+  era_year: 3
+- id: wei.10.p2.t4
   anchor: wei.10.p2
   at: 312
   length: 4
   type: temporal
   text: 興平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 194
   era: 興平
   era_year: 1
-  year_ad: 194
+- id: wei.10.p2.t5
+  anchor: wei.10.p2
+  at: 624
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 195
+  era: 興平
+  era_year: 2
 - id: wei.10.p3.a1
   anchor: wei.10.p3
   at: 354
@@ -56,9 +84,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 196
   era: 建安
   era_year: 1
-  year_ad: 196
 - id: wei.10.p4.a1
   anchor: wei.10.p4
   at: 314
@@ -77,24 +107,112 @@ annotations:
   length: 0
   type: pei
   text: 《三輔決録》曰：象字文則，京兆人。少聦博，有膽智。以督軍御史中丞詣揚州討袁術，會術病卒，因以爲揚州刺史。建安五年，爲孫策廬江太守李術所殺，時年三十八。象同郡趙岐作三輔決録，恐時人不盡其意，故隱其書，唯以示象。康字元將，亦京兆人。孔融與康父端書曰：「前日元將來，淵才亮茂，雅度弘毅，偉世之器也。昨日仲將又來，懿性貞實，文愍篤誠，保家之主也。不意雙珠，近出老蚌，甚珍貴之。」端從涼州牧徴爲太僕，康代爲涼州刺史，時人榮之。後爲馬超所圍，堅守歴時，救軍不至，遂爲超所殺。仲將名誕，見劉邵傳。
+- id: wei.10.p14.t1
+  anchor: wei.10.p14
+  at: 0
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
+- id: wei.10.p16.t1
+  anchor: wei.10.p16
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
+- id: wei.10.p17.t1
+  anchor: wei.10.p17
+  at: 0
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 201
+  era: 建安
+  era_year: 6
+- id: wei.10.p18.t1
+  anchor: wei.10.p18
+  at: 0
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 203
+  era: 建安
+  era_year: 8
 - id: wei.10.p18.a1
   anchor: wei.10.p18
   at: 20
   length: 0
   type: pei
   text: 《彧別傳》載太祖表曰：「臣聞慮爲功首，謀爲賞本，野績不越廟堂，戰多不踰國勳。是故典阜之錫，不後營丘，蕭何之土，先於平陽。珍策重計，古今所尚。侍中守尚書令彧，積德累行，少長無悔，遭世紛擾，懷忠念治。臣自始舉義兵，周游征伐，與彧勠力同心，左右王略，發言授策，無施不效。彧之功業，臣由以濟，用披浮雲，顯光日月。陛下幸許，彧左右機近，忠恪祗順，如履薄冰，研精極鋭，以撫庶事。天下之定，彧之功也。宜享髙爵，以彰元勳。」彧固辭無野戰之勞，不通太祖表。太祖與彧書曰：「與君共事已來，立朝廷，君之相爲匡弼，君之相爲舉人，君之相爲建計，君之相爲密謀，亦以多矣。夫功未必皆野戰也，願君勿讓。」彧乃受。
+- id: wei.10.p19.t1
+  anchor: wei.10.p19
+  at: 0
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 204
+  era: 建安
+  era_year: 9
 - id: wei.10.p20.a1
   anchor: wei.10.p20
   at: 57
   length: 0
   type: pei
   text: 《荀氏家傳》曰：衍字休若，彧第三兄。彧第四兄諶，字友若，事見袁紹傳。陳羣與孔融論汝、潁人物，羣曰：「荀文若、公達、休若、友若、仲豫，當今並無對。」衍子紹，位至太僕。紹子融，字伯雅，與王弼、鍾會倶知名，爲洛陽令，參大將軍軍事，與弼、會論易、老義，傳於世。諶子閎，字仲茂，爲太子文學掾。時有甲乙疑論，閎與鍾繇、王朗、袁渙議各不同。文帝與繇書曰：「袁、王國士，更爲脣齒，荀閎勁悍，往來鋭師，眞君侯之勍敵，左右之深憂也。」終黃門侍郎。閎從孫惲字景文，太子中庶子，亦知名。與賈充共定音律，又作易集解。仲豫名恱，朗陵長儉之少子，彧從父兄也。張璠《漢紀》稱恱淸虚沈靜，善於著述。建安初爲祕書監侍中，被詔刪《漢書》作《漢紀》三十篇，因事以明臧否，致有典要；其書大行於世。
+- id: wei.10.p21.t1
+  anchor: wei.10.p21
+  at: 44
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 207
+  era: 建安
+  era_year: 12
 - id: wei.10.p21.a1
   anchor: wei.10.p21
   at: 60
   length: 0
   type: pei
   text: 《彧別傳》曰：太祖又表曰：「昔袁紹侵入郊甸，戰於官渡。時兵少糧盡，圖欲還許，書與彧議，彧不聽臣。建宜住之便，恢進討之規，更起臣心，易其愚慮，遂摧大逆，覆取其衆。此彧覩勝敗之機，略不世出也。及紹破敗，臣糧亦盡，以爲河北未易圖也，欲南討劉表。彧復止臣，陳其得失，臣用反斾，遂呑凶族，克平四州。向使臣退於官渡，紹必鼓行而前，有傾覆之形，無克捷之勢。後若南征，委棄兖、豫，利旣難要，將失本據。彧之二策，以亡爲存，以禍致福，謀殊功異，臣所不及也。是以先帝貴指蹤之功，薄搏獲之賞；古人尚帷幄之規，下攻拔之捷。前所賞録，未副彧巍巍之勳，乞重平議，疇其戸邑。」彧深辭讓，太祖報之曰：「君之策謀，非但所表二事。前後謙沖，欲慕魯連先生乎？此聖人達節者所不貴也。昔介子推有言『竊人之財，猶謂之盜』。況君密謀安衆，光顯於孤者以百數乎！以二事相還而復辭之，何取謙亮之多邪！」太祖欲表彧爲三公，彧使荀攸深讓，至于十數，太祖乃止。
+- id: wei.10.p23.t1
+  anchor: wei.10.p23
+  at: 0
+  length: 3
+  type: temporal
+  text: 十七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 212
+  era: 建安
+  era_year: 17
+- id: wei.10.p23.t2
+  anchor: wei.10.p23
+  at: 140
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 213
+  era: 建安
+  era_year: 18
 - id: wei.10.p23.a1
   anchor: wei.10.p23
   at: 151
@@ -161,9 +279,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 198
   era: 建安
   era_year: 3
-  year_ad: 198
 - id: wei.10.p30.a1
   anchor: wei.10.p30
   at: 11
@@ -176,6 +296,39 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案諸書，韓𦳣或作韓猛，或云韓若，未詳孰是。
+- id: wei.10.p32.t1
+  anchor: wei.10.p32
+  at: 0
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 202
+  era: 建安
+  era_year: 7
+- id: wei.10.p32.t2
+  anchor: wei.10.p32
+  at: 13
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 203
+  era: 建安
+  era_year: 8
+- id: wei.10.p32.t3
+  anchor: wei.10.p32
+  at: 268
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 207
+  era: 建安
+  era_year: 12
 - id: wei.10.p32.a1
   anchor: wei.10.p32
   at: 318
@@ -254,9 +407,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 208
   era: 建安
   era_year: 13
-  year_ad: 208
 - id: wei.10.p38.a1
   anchor: wei.10.p38
   at: 106

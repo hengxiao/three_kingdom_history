@@ -23,9 +23,11 @@ annotations:
   length: 9
   type: temporal
   text: 建安二十四年十一月
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
   month_chinese: 十一月
   month_ordinal: 11
 - id: wu.13.p7.a1
@@ -40,9 +42,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
 - id: wu.13.p8.a1
   anchor: wu.13.p8
   at: 156
@@ -55,6 +59,17 @@ annotations:
   length: 0
   type: pei
   text: 吴录曰：刘备闻魏军大出，书与逊云：「贼今已在江陵，吾将复东，将军谓其能然不？」逊答曰：「但恐军新破，创痍未复，始求通亲，且当自补，未暇穷兵耳。若不惟算，欲复以倾覆之餘，远送以来者，无所逃命。」
+- id: wu.13.p15.t1
+  anchor: wu.13.p15
+  at: 0
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 228
+  era: 黃武
+  era_year: 7
 - id: wu.13.p15.a1
   anchor: wu.13.p15
   at: 41
@@ -67,18 +82,33 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
+- id: wu.13.p16.t2
+  anchor: wu.13.p16
+  at: 15
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 229
+  era: 黃龍
+  era_year: 1
 - id: wu.13.p22.t1
   anchor: wu.13.p22
   at: 0
   length: 4
   type: temporal
   text: 嘉禾五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 236
   era: 嘉禾
   era_year: 5
-  year_ad: 236
 - id: wu.13.p22.a1
   anchor: wu.13.p22
   at: 339
@@ -103,6 +133,17 @@ annotations:
   length: 0
   type: pei
   text: 臣松以为边将为害，盖其常事，使逯式得罪，代者亦复如之，自非狡焉思肆，将成大患，何足亏损雅虑，尚为小诈哉？以斯为美，又所不取。
+- id: wu.13.p24.t1
+  anchor: wu.13.p24
+  at: 0
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 237
+  era: 嘉禾
+  era_year: 6
 - id: wu.13.p25.a1
   anchor: wu.13.p25
   at: 18
@@ -115,84 +156,157 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 244
   era: 赤烏
   era_year: 7
-  year_ad: 244
 - id: wu.13.p31.t1
   anchor: wu.13.p31
   at: 82
   length: 4
   type: temporal
   text: 赤烏九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 246
   era: 赤烏
   era_year: 9
-  year_ad: 246
 - id: wu.13.p31.t2
   anchor: wu.13.p31
   at: 155
   length: 4
   type: temporal
   text: 太元元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 251
   era: 太元
   era_year: 1
-  year_ad: 251
 - id: wu.13.p31.t3
   anchor: wu.13.p31
   at: 217
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 建興
   era_year: 1
-  year_ad: 252
 - id: wu.13.p31.t4
   anchor: wu.13.p31
   at: 228
   length: 4
   type: temporal
   text: 太平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 257
   era: 太平
   era_year: 2
-  year_ad: 257
 - id: wu.13.p31.t5
   anchor: wu.13.p31
   at: 269
   length: 4
   type: temporal
   text: 永安二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 259
   era: 永安
   era_year: 2
-  year_ad: 259
 - id: wu.13.p31.t6
+  anchor: wu.13.p31
+  at: 292
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 260
+  era: 永安
+  era_year: 3
+- id: wu.13.p31.t7
   anchor: wu.13.p31
   at: 315
   length: 4
   type: temporal
   text: 建衡二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 270
   era: 建衡
   era_year: 2
-  year_ad: 270
+- id: wu.13.p37.t1
+  anchor: wu.13.p37
+  at: 2
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 269
+  era: 建衡
+  era_year: 1
 - id: wu.13.p38.a1
   anchor: wu.13.p38
   at: 297
   length: 0
   type: pei
   text: 《晉陽秋》曰：抗與羊祜推僑、札之好。抗嘗遺祜酒，祜飲之不疑。抗有疾，祜饋之藥，抗亦推心服之。於時以為華元、子反復見於今。《漢晉春秋》曰：羊祜既歸，增脩德信，以懷吳人。陸抗每告其邊戍曰：「彼專為德，我專為暴，是不戰而自服也。各保分界，無求細益而已。」於是吳、晉之間，餘糧棲畝而不犯，牛馬逸而入境，可宣告而取也。沔上獵，吳獲晉人先傷者，皆送而相還。抗嘗疾，求藥於祜，祜以成合與之，曰：「此上藥也，近始自作，未及服，以君疾急，故相致。」抗得而服之，諸將或諫，抗不答。孫皓聞二境交和，以詰於抗，抗曰：「夫一邑一鄉，不可以無信義之人，而況大國乎？臣不如是，正足以彰其德耳，於祜無傷也。」或以祜、抗為失臣節，兩譏之。○習鑿齒曰：夫理勝者天下之所保，信順者萬人之所宗，雖大猷既喪，義聲久淪，狙詐馳於當塗，權略週乎急務，負力從橫之人，臧獲牧豎之智，未有不憑此以創功，舍茲而獨立者也。是故晉文退舍，而原城請命；穆子圍鼓，訓之以力；冶夫獻策，而費人斯歸；樂毅緩攻，而風烈長流。觀其所以服物製勝者，豈徒威力相詐而已哉！自今三家鼎足四十有餘年矣，吳人不能越淮、沔而進取中國，中國不能陵長江以爭利者，力均而智侔，道不足以相傾也。夫殘彼而利我，未若利我而無殘；振武以懼物，未若德廣而民懷。匹夫猶不可以力服，而況一國乎？力服猶不如以德來，而況不制乎？是以羊祜恢大同之略，思五兵之則，齊其民人，均其施澤，振義網以羅強吳，明兼愛以革暴俗，易生民之視聽，馳不戰乎江表。故能德音悅暢，而襁負雲集，殊鄰異域，義讓交弘，自吳之遇敵，未有若此者也。抗見國小主暴，而晉德彌昌，人積兼己之善，而己無固本之規，百姓懷嚴敵之德，闔境有棄主之慮，思所以鎮定民心，緝寧外內，奮其危弱，抗權上國者，莫若親行斯道，以侔其勝。使彼德靡加吾，而此善流聞，歸重邦國，弘明遠風，折衝於枕席之上，校勝於帷幄之內，傾敵而不以甲兵之力，保國而不浚溝池之固，信義感於寇仇，丹懷體於先日。豈設狙詐以危賢，徇己身之私名，貪外物之重我，闇服之而不備者哉！由是論之，苟守局而保疆，一卒之所能；協數以相危，小人之近事；積詐以防物，臧獲之餘慮；威勝以求安，明哲之所賤。賢人君子所以拯世垂範，捨此而取彼者，其道良弘故也。
+- id: wu.13.p43.t1
+  anchor: wu.13.p43
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 270
+  era: 建衡
+  era_year: 2
+- id: wu.13.p44.t1
+  anchor: wu.13.p44
+  at: 0
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 271
+  era: 建衡
+  era_year: 3
 - id: wu.13.p46.t1
   anchor: wu.13.p46
   at: 34
   length: 4
   type: temporal
   text: 天紀四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 280
   era: 天紀
   era_year: 4
-  year_ad: 280
 - id: wu.13.p46.a1
   anchor: wu.13.p46
   at: 110
   length: 0
   type: pei
   text: 《文士传》曰：陆景母张承女，诸葛恪外生。恪诛，景母坐见黜。景少为祖母所育养，及祖母亡，景为之心丧三年。
+- id: wu.13.p46.t2
+  anchor: wu.13.p46
+  at: 110
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 280
+  era: 天紀
+  era_year: 4
+  month_chinese: 二月
+  month_ordinal: 2
 - id: wu.13.p46.a2
   anchor: wu.13.p46
   at: 155

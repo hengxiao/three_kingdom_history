@@ -59,9 +59,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
 - id: shu.9.p5.a1
   anchor: shu.9.p5
   at: 67
@@ -74,9 +76,11 @@ annotations:
   length: 4
   type: temporal
   text: 章武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 章武
   era_year: 2
-  year_ad: 222
 - id: shu.9.p5.a2
   anchor: shu.9.p5
   at: 139
@@ -101,9 +105,11 @@ annotations:
   length: 4
   type: temporal
   text: 建興六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 建興
   era_year: 6
-  year_ad: 228
 - id: shu.9.p8.a2
   anchor: shu.9.p8
   at: 275
@@ -116,9 +122,44 @@ annotations:
   length: 4
   type: temporal
   text: 建興三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 225
   era: 建興
   era_year: 3
-  year_ad: 225
+- id: shu.9.p9.t2
+  anchor: shu.9.p9
+  at: 81
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 建興
+  era_year: 7
+- id: shu.9.p12.t1
+  anchor: shu.9.p12
+  at: 0
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
+- id: shu.9.p12.t2
+  anchor: shu.9.p12
+  at: 90
+  length: 3
+  type: temporal
+  text: 十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 235
+  era: 建興
+  era_year: 13
 - id: shu.9.p13.a1
   anchor: shu.9.p13
   at: 215
@@ -137,9 +178,33 @@ annotations:
   length: 4
   type: temporal
   text: 延熙六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 243
   era: 延熙
   era_year: 6
-  year_ad: 243
+- id: shu.9.p14.t2
+  anchor: shu.9.p14
+  at: 135
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 延熙
+  era_year: 7
+- id: shu.9.p14.t3
+  anchor: shu.9.p14
+  at: 155
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 246
+  era: 延熙
+  era_year: 9
 - id: shu.9.p14.a2
   anchor: shu.9.p14
   at: 160
@@ -152,9 +217,11 @@ annotations:
   length: 4
   type: temporal
   text: 景耀元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 258
   era: 景耀
   era_year: 1
-  year_ad: 258
 - id: shu.9.p17.a1
   anchor: shu.9.p17
   at: 10
@@ -167,6 +234,8 @@ annotations:
   length: 5
   type: temporal
   text: 延熙十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 251
   era: 延熙
   era_year: 14
-  year_ad: 251

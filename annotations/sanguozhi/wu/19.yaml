@@ -35,26 +35,91 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
 - id: wu.19.p14.t2
+  anchor: wu.19.p14
+  at: 12
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 黃龍
+  era_year: 2
+- id: wu.19.p14.t3
   anchor: wu.19.p14
   at: 42
   length: 6
   type: temporal
   text: 建興元年十月
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 建興
   era_year: 1
-  year_ad: 252
   month_chinese: 十月
   month_ordinal: 10
+- id: wu.19.p15.t1
+  anchor: wu.19.p15
+  at: 9
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 252
+  era: 建興
+  era_year: 1
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wu.19.p15.t2
+  anchor: wu.19.p15
+  at: 15
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 253
+  era: 建興
+  era_year: 2
 - id: wu.19.p15.a1
   anchor: wu.19.p15
   at: 24
   length: 0
   type: pei
   text: 《漢晉春秋》曰：恪使司馬李衡往蜀說姜維，令同舉，曰：「古人有言，聖人不能為時，時至亦不可失也。今敵政在私門，外內猜隔，兵挫於外，而民怨於內，自曹操以來，彼之亡形未有如今者也。若大舉伐之，使吳攻其東，漢入其西，彼救西則東虛，重東則西輕，以練實之軍，乘虛輕之敵，破之必矣。」維從之。
+- id: wu.19.p19.t1
+  anchor: wu.19.p19
+  at: 256
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 253
+  era: 建興
+  era_year: 2
+  month_chinese: 一月
+  month_ordinal: 1
+- id: wu.19.p20.t1
+  anchor: wu.19.p20
+  at: 0
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 253
+  era: 建興
+  era_year: 2
+  month_chinese: 秋八月
+  month_ordinal: 8
 - id: wu.19.p22.a1
   anchor: wu.19.p22
   at: 325
@@ -109,9 +174,11 @@ annotations:
   length: 4
   type: temporal
   text: 太元元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 251
   era: 太元
   era_year: 1
-  year_ad: 251
 - id: wu.19.p29.a1
   anchor: wu.19.p29
   at: 252
@@ -130,15 +197,50 @@ annotations:
   length: 4
   type: temporal
   text: 五鳳元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 五鳳
   era_year: 1
-  year_ad: 254
+- id: wu.19.p31.t1
+  anchor: wu.19.p31
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 255
+  era: 五鳳
+  era_year: 2
 - id: wu.19.p31.a1
   anchor: wu.19.p31
   at: 48
   length: 0
   type: pei
   text: 《吳書》曰：留贊字正明，會稽長山人。少為郡吏，與黃巾賊帥吳桓戰，手斬得桓。贊一足被創，遂屈不伸。然性烈，好讀兵書及三史，每覽古良將戰攻之勢，輒對書獨嘆，因呼諸近親謂曰：「今天下擾亂，英豪並起，歷觀前世，富貴非有常人，而我屈躄在閭巷之間，存亡無以異。今欲割引吾足，幸不死而足申，幾復見用，死則已矣。」親戚皆難之。有間，贊乃以刀自割其筋，血流滂沱，氣絕良久。家人驚怖，亦以既爾，遂引申其足。足申創愈，以得蹉步。凌統聞之，請與相見，甚奇之，乃表薦贊，遂被試用。累有戰功，稍遷屯騎校尉。時事得失，每常規諫，好直言不阿旨，權以此憚之。諸葛恪征東興，讚為前部，合戰先陷陳，大敗魏師，遷左將軍。孫峻徵淮南，授贊節，拜左護軍。未至壽春，道路病發，峻令贊將車重先還。魏將蔣班以步騎四千追贊。贊病困，不能整陳，知必敗，乃解曲蓋印綬付弟子以歸，曰：「吾自為將，破敵搴旗，未嘗負敗。今病困兵羸，眾寡不敵，汝速去矣，俱死無益於國，適所以快敵耳。」弟子不肯受，拔刀欲斫之，乃去。初，讚為將，臨敵必先被發叫天，因抗音而歌，左右應之，畢乃進戰，戰無不克。及敗，歎曰：「吾戰有常術，今病困若此，固命也！」遂被害，時年七十三，眾庶痛惜焉。二子略、平，並為大將。
+- id: wu.19.p31.t2
+  anchor: wu.19.p31
+  at: 48
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 255
+  era: 五鳳
+  era_year: 2
+- id: wu.19.p32.t1
+  anchor: wu.19.p32
+  at: 37
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 256
+  era: 五鳳
+  era_year: 3
 - id: wu.19.p33.a1
   anchor: wu.19.p33
   at: 256
@@ -175,9 +277,11 @@ annotations:
   length: 7
   type: temporal
   text: 永安元年十二月
+  kind: absolute
+  resolution: absolute
+  year_ad: 258
   era: 永安
   era_year: 1
-  year_ad: 258
   month_chinese: 十二月
   month_ordinal: 12
 - id: wu.19.p43.a1
@@ -192,6 +296,34 @@ annotations:
   length: 4
   type: temporal
   text: 永安三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 260
   era: 永安
   era_year: 3
-  year_ad: 260
+- id: wu.19.p44.t2
+  anchor: wu.19.p44
+  at: 103
+  length: 4
+  type: temporal
+  text: 七年七月
+  kind: relative
+  resolution: bare_year
+  year_ad: 264
+  era: 永安
+  era_year: 7
+  month_chinese: 七月
+  month_ordinal: 7
+- id: wu.19.p44.t3
+  anchor: wu.19.p44
+  at: 171
+  length: 3
+  type: temporal
+  text: 十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 264
+  era: 永安
+  era_year: 7
+  month_chinese: 十一月
+  month_ordinal: 11

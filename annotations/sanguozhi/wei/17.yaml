@@ -23,9 +23,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 216
   era: 建安
   era_year: 21
-  year_ad: 216
 - id: wei.17.p5.a1
   anchor: wei.17.p5
   at: 74
@@ -38,27 +40,44 @@ annotations:
   length: 4
   type: temporal
   text: 黃初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 黃初
   era_year: 2
-  year_ad: 221
+- id: wei.17.p5.t2
+  anchor: wei.17.p5
+  at: 403
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 黃初
+  era_year: 6
 - id: wei.17.p6.t1
   anchor: wei.17.p6
   at: 221
   length: 5
   type: temporal
   text: 建安十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 206
   era: 建安
   era_year: 11
-  year_ad: 206
 - id: wei.17.p7.t1
   anchor: wei.17.p7
   at: 205
   length: 6
   type: temporal
   text: 建安二十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 218
   era: 建安
   era_year: 23
-  year_ad: 218
 - id: wei.17.p9.a1
   anchor: wei.17.p9
   at: 355
@@ -71,9 +90,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
 - id: wei.17.p10.a1
   anchor: wei.17.p10
   at: 185
@@ -110,6 +131,17 @@ annotations:
   length: 0
   type: pei
   text: 卷，音墟權反。
+- id: wei.17.p17.t1
+  anchor: wei.17.p17
+  at: 313
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 210
+  era: 建安
+  era_year: 15
 - id: wei.17.p17.a2
   anchor: wei.17.p17
   at: 409
@@ -122,9 +154,11 @@ annotations:
   length: 4
   type: temporal
   text: 太和元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 227
   era: 太和
   era_year: 1
-  year_ad: 227
 - id: wei.17.p21.a1
   anchor: wei.17.p21
   at: 115

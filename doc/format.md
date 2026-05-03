@@ -203,6 +203,8 @@ annotations:
     length: 7
     type: temporal
     text: 初平元年春正月
+    kind: absolute                  # absolute | relative
+    resolution: absolute            # 见 5.2.2
     era: 初平
     era_year: 1
     year_ad: 190
@@ -226,13 +228,26 @@ annotations:
 
 | 字段 | 类型 | 必填 | 说明 |
 |---|---|---|---|
-| `era` | str | ✓ | 年号原文（繁体），如 `建安`、`黃初` |
-| `era_year` | int | ✓ | 年号内第几年（元年=1） |
+| `kind` | str | ✓ | `absolute` 或 `relative` |
+| `resolution` | str | ✓ | 解析方式，见 5.2.2 |
 | `year_ad` | int | ✓ | 公元 AD 年（计算结果） |
+| `era` | str | △ | 年号原文（繁体）。`kind=absolute` 必填；relative 大多数情况下也带（除 `next_year`/`prev_year` 跨年号边界时为 `null`） |
+| `era_year` | int | △ | 年号内第几年（元年=1）。同上 |
 | `month_chinese` | str | ✗ | 月份原文，如 `春正月`、`夏五月`、`二月` |
 | `month_ordinal` | int | ✗ | 农历月号 1–12；不做农历→公历转换（农历月对应的公历月有跨度，不能简单换算） |
 
-绝对时间（带年号）由 `tools/extract_dates.py` 抽出；相对时间（如 `是歲`、`明年`、裸 `<year>年`、裸 `<month>月`）后续以绝对时间为锚点解析（待实现）。
+### 5.2.2 resolution 枚举
+
+| resolution | 例子 | 说明 |
+|---|---|---|
+| `absolute` | `建安五年春正月` | 完整年号 + 年（+ 月） |
+| `bare_year` | `九年`（建安语境下） | 裸年，由前文绝对时间推得年号 |
+| `bare_month` | `二月`（已有年份语境） | 裸月，年从状态继承 |
+| `this_year` | `是歲`、`是年`、`其年` | 当前年（state 不变） |
+| `next_year` | `明年` | 当前年 +1（推进 state） |
+| `prev_year` | `去年`、`前年` | 当前年 −1（不推进 state，仅引用） |
+
+绝对时间（`absolute`）由原文中带年号的形式抽出；相对时间（其余 5 类）借助 `tools/extract_dates.py` 维护的 `TimelineState` 在按段顺序遍历时解析。无法解析的（如开篇 `三年春正月` 之前没有任何绝对锚点，或裸年超出当前年号长度）会被静默丢弃，不会强行猜。
 
 ### 5.3 ID 稳定性
 

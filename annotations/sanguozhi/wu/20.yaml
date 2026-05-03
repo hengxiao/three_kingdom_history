@@ -11,9 +11,11 @@ annotations:
   length: 4
   type: temporal
   text: 甘露二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 266
   era: 甘露
   era_year: 2
-  year_ad: 266
 - id: wu.20.p4.a1
   anchor: wu.20.p4
   at: 86
@@ -32,15 +34,39 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：邵，賀齊之孫，景之子。
+- id: wu.20.p14.t1
+  anchor: wu.20.p14
+  at: 310
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 265
+  era: 甘露
+  era_year: 1
 - id: wu.20.p16.t1
+  anchor: wu.20.p16
+  at: 104
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 265
+  era: 甘露
+  era_year: 1
+- id: wu.20.p16.t2
   anchor: wu.20.p16
   at: 106
   length: 4
   type: temporal
   text: 天冊元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 275
   era: 天冊
   era_year: 1
-  year_ad: 275
 - id: wu.20.p16.a1
   anchor: wu.20.p16
   at: 118
@@ -55,28 +81,69 @@ annotations:
   text: 裴松之曰：曜本名昭，史爲晉諱，改之。
 - id: wu.20.p23.t1
   anchor: wu.20.p23
+  at: 332
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 275
+  era: 天冊
+  era_year: 1
+- id: wu.20.p23.t2
+  anchor: wu.20.p23
   at: 334
   length: 4
   type: temporal
   text: 鳳凰二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 273
   era: 鳳凰
   era_year: 2
-  year_ad: 273
 - id: wu.20.p32.t1
   anchor: wu.20.p32
   at: 11
   length: 4
   type: temporal
   text: 寶鼎二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 267
   era: 寶鼎
   era_year: 2
+- id: wu.20.p35.t1
+  anchor: wu.20.p35
+  at: 340
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
   year_ad: 267
+  era: 寶鼎
+  era_year: 2
+  month_chinese: 六月
+  month_ordinal: 6
+- id: wu.20.p37.t1
+  anchor: wu.20.p37
+  at: 7
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 268
+  era: 寶鼎
+  era_year: 3
 - id: wu.20.p43.t1
   anchor: wu.20.p43
   at: 34
   length: 4
   type: temporal
   text: 天冊元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 275
   era: 天冊
   era_year: 1
-  year_ad: 275

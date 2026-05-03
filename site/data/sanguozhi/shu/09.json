@@ -194,6 +194,16 @@
           "era": "建興",
           "era_year": 3,
           "year_ad": 225
+        },
+        {
+          "id": "shu.9.p9.t2",
+          "type": "temporal",
+          "at": 81,
+          "length": 2,
+          "text": "七年",
+          "era": "建興",
+          "era_year": 7,
+          "year_ad": 229
         }
       ]
     },
@@ -210,7 +220,28 @@
     {
       "id": "shu.9.p12",
       "text": "九年，都護李平坐誣罔廢；諸葛亮與長史蔣琬、侍中董允書曰：「孝起前臨至吳，為吾說正方腹中有鱗甲，鄉黨以為不可近。吾以為鱗甲者但不當犯之耳，不圖復有蘇、張之事出於不意。可使孝起知之。」十三年，震卒。子濟嗣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.9.p12.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "九年",
+          "era": "建興",
+          "era_year": 9,
+          "year_ad": 231
+        },
+        {
+          "id": "shu.9.p12.t2",
+          "type": "temporal",
+          "at": 90,
+          "length": 3,
+          "text": "十三年",
+          "era": "建興",
+          "era_year": 13,
+          "year_ad": 235
+        }
+      ]
     },
     {
       "id": "shu.9.p13",
@@ -245,6 +276,26 @@
           "era": "延熙",
           "era_year": 6,
           "year_ad": 243
+        },
+        {
+          "id": "shu.9.p14.t2",
+          "type": "temporal",
+          "at": 135,
+          "length": 2,
+          "text": "七年",
+          "era": "延熙",
+          "era_year": 7,
+          "year_ad": 244
+        },
+        {
+          "id": "shu.9.p14.t3",
+          "type": "temporal",
+          "at": 155,
+          "length": 2,
+          "text": "九年",
+          "era": "延熙",
+          "era_year": 9,
+          "year_ad": 246
         },
         {
           "id": "shu.9.p14.a2",

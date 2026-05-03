@@ -65,9 +65,11 @@ annotations:
   length: 4
   type: temporal
   text: 興平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 194
   era: 興平
   era_year: 1
-  year_ad: 194
 - id: shu.1.p6.a1
   anchor: shu.1.p6
   at: 96
@@ -112,19 +114,76 @@ annotations:
   text: 音浮。
 - id: shu.1.p8.t1
   anchor: shu.1.p8
+  at: 331
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 194
+  era: 興平
+  era_year: 1
+- id: shu.1.p8.t2
+  anchor: shu.1.p8
   at: 333
   length: 5
   type: temporal
   text: 建安十六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 211
   era: 建安
   era_year: 16
-  year_ad: 211
 - id: shu.1.p8.a5
   anchor: shu.1.p8
   at: 398
   length: 0
   type: pei
   text: 《吳書》曰：璋以米二十萬斛，騎千匹，車千乘，繒絮錦帛，以資送劉備。
+- id: shu.1.p9.t1
+  anchor: shu.1.p9
+  at: 0
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 212
+  era: 建安
+  era_year: 17
+- id: shu.1.p9.t2
+  anchor: shu.1.p9
+  at: 19
+  length: 3
+  type: temporal
+  text: 十九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
+- id: shu.1.p9.t3
+  anchor: shu.1.p9
+  at: 44
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 196
+  era: 建安
+  era_year: 1
+- id: shu.1.p9.t4
+  anchor: shu.1.p9
+  at: 79
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: shu.1.p10.a1
   anchor: shu.1.p10
   at: 56

@@ -53,9 +53,11 @@ annotations:
   length: 4
   type: temporal
   text: 嘉禾五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 236
   era: 嘉禾
   era_year: 5
-  year_ad: 236
 - id: wu.7.p8.a1
   anchor: wu.7.p8
   at: 66
@@ -74,9 +76,11 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 244
   era: 赤烏
   era_year: 7
-  year_ad: 244
 - id: wu.7.p10.a2
   anchor: wu.7.p10
   at: 236
@@ -113,9 +117,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 225
   era: 黃武
   era_year: 4
-  year_ad: 225
 - id: wu.7.p13.a1
   anchor: wu.7.p13
   at: 304
@@ -134,18 +140,22 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 243
   era: 赤烏
   era_year: 6
-  year_ad: 243
 - id: wu.7.p14.t2
   anchor: wu.7.p14
   at: 105
   length: 4
   type: temporal
   text: 永安元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 258
   era: 永安
   era_year: 1
-  year_ad: 258
 - id: wu.7.p14.a1
   anchor: wu.7.p14
   at: 160
@@ -164,6 +174,17 @@ annotations:
   length: 0
   type: pei
   text: 礼子基作通语曰：礼字德嗣，弱不好弄，潜识过人。少为郡吏，年十九，守吴县丞。孙权为王，召除郎中。后与张温俱使蜀，诸葛亮甚称叹之。稍迁至零陵太守，卒官。文士传曰：礼子基，无难督，以才学知名，著通语数十篇。有三子。巨字元大，有才器，初为吴偏将军，统家部曲，城夏口，吴平后，为苍梧太守。少子祐，字庆元，吴郡太守。
+- id: wu.7.p15.t1
+  anchor: wu.7.p15
+  at: 319
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 262
+  era: 永安
+  era_year: 5
 - id: wu.7.p16.a1
   anchor: wu.7.p16
   at: 28
@@ -182,6 +203,17 @@ annotations:
   length: 0
   type: pei
   text: 吴录曰：全琮父子屡言芍陂之役为典军陈恂诈增张休、顾承之功，而休、承与恂通情。休坐系狱，权为谭故，沉吟不决，欲令谭谢而释之。及大会，以问谭，谭不谢，而曰：「陛下，谗言其兴乎！」江表传曰：有司奏谭诬罔大不敬，罪应大辟。权以雍故，不致法，皆徙之。
+- id: wu.7.p19.t1
+  anchor: wu.7.p19
+  at: 212
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 259
+  era: 永安
+  era_year: 2
 - id: wu.7.p21.a1
   anchor: wu.7.p21
   at: 14
@@ -194,9 +226,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安二十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 215
   era: 建安
   era_year: 20
-  year_ad: 215
 - id: wu.7.p23.a1
   anchor: wu.7.p23
   at: 181
@@ -215,9 +249,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
 - id: wu.7.p23.a3
   anchor: wu.7.p23
   at: 249
@@ -248,9 +284,11 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 241
   era: 赤烏
   era_year: 4
-  year_ad: 241
 - id: wu.7.p27.a1
   anchor: wu.7.p27
   at: 19
@@ -305,27 +343,55 @@ annotations:
   length: 5
   type: temporal
   text: 建安十五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 210
   era: 建安
   era_year: 15
-  year_ad: 210
+- id: wu.7.p30.t2
+  anchor: wu.7.p30
+  at: 69
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 211
+  era: 建安
+  era_year: 16
 - id: wu.7.p31.t1
   anchor: wu.7.p31
   at: 0
   length: 4
   type: temporal
   text: 延康元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 220
   era: 延康
   era_year: 1
-  year_ad: 220
 - id: wu.7.p31.t2
   anchor: wu.7.p31
   at: 76
   length: 4
   type: temporal
   text: 黃武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃武
   era_year: 2
-  year_ad: 223
+- id: wu.7.p31.t3
+  anchor: wu.7.p31
+  at: 96
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 226
+  era: 黃武
+  era_year: 5
 - id: wu.7.p32.a1
   anchor: wu.7.p32
   at: 211
@@ -338,9 +404,11 @@ annotations:
   length: 6
   type: temporal
   text: 嘉禾六年五月
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 嘉禾
   era_year: 6
-  year_ad: 237
   month_chinese: 五月
   month_ordinal: 5
 - id: wu.7.p36.t2
@@ -349,9 +417,11 @@ annotations:
   length: 6
   type: temporal
   text: 赤烏二年正月
+  kind: absolute
+  resolution: absolute
+  year_ad: 239
   era: 赤烏
   era_year: 2
-  year_ad: 239
   month_chinese: 正月
   month_ordinal: 1
 - id: wu.7.p39.a1
@@ -366,6 +436,19 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 246
   era: 赤烏
   era_year: 9
-  year_ad: 246
+- id: wu.7.p41.t1
+  anchor: wu.7.p41
+  at: 54
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 238
+  era: 赤烏
+  era_year: 1

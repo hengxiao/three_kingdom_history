@@ -40,7 +40,7 @@ from tools.batch_fetch import (
     derive_paths,
     load_config,
 )
-from tools.dates_resolver import find_dates
+from tools.dates_resolver import TimelineState, resolve_segment
 from tools.extract_annotations import annotations_path
 from tools.segment import parse_file
 
@@ -59,11 +59,19 @@ class DatesError:
 
 
 def build_temporal_annotations(text_path: Path, *, book: str) -> list[dict]:
-    """Return temporal-annotation dicts for every absolute date found in the chapter."""
+    """Return temporal-annotation dicts for every date reference in the chapter.
+
+    Walks segments in document order, carrying a TimelineState so relative refs
+    (bare year/month, 是歲, 明年, 去年) can be resolved using the most recent
+    absolute anchor. Both absolute and relative refs are emitted; the `kind`
+    and `resolution` fields distinguish them.
+    """
     parsed = parse_file(text_path)
     out: list[dict] = []
+    state = TimelineState()
     for seg in parsed.segments:
-        for i, d in enumerate(find_dates(seg.text, book=book), start=1):
+        matches, state = resolve_segment(seg.text, book=book, state=state)
+        for i, d in enumerate(matches, start=1):
             entry: dict = {
                 "id": f"{seg.id}.t{i}",
                 "anchor": seg.id,
@@ -71,10 +79,13 @@ def build_temporal_annotations(text_path: Path, *, book: str) -> list[dict]:
                 "length": d.length,
                 "type": "temporal",
                 "text": d.surface,
-                "era": d.era.name,
-                "era_year": d.era_year,
+                "kind": d.kind,
+                "resolution": d.resolution,
                 "year_ad": d.year_ad,
             }
+            if d.era is not None:
+                entry["era"] = d.era.name
+                entry["era_year"] = d.era_year
             if d.month_chinese is not None:
                 entry["month_chinese"] = d.month_chinese
                 entry["month_ordinal"] = d.month_ordinal

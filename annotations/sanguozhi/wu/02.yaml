@@ -17,9 +17,22 @@ annotations:
   length: 4
   type: temporal
   text: 建安四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 199
   era: 建安
   era_year: 4
-  year_ad: 199
+- id: wu.2.p2.t2
+  anchor: wu.2.p2
+  at: 26
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
 - id: wu.2.p2.a1
   anchor: wu.2.p2
   at: 84
@@ -32,12 +45,78 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：初策表用李術爲廬江太守，策亡之後，術不肯事權，而多納其亡叛。權移書求索，術報曰：「有德見歸，無德見叛，不應復還。」權大怒，乃以狀白曹公曰：「嚴刺史昔爲公所用，又是州舉將，而李術兇惡，輕犯漢制，殘害州司，肆其無道，宜速誅滅，以懲醜類。今欲討之，進爲國朝掃除鯨鯢，退爲舉將報塞怨仇，此天下達義，夙夜所甘心。術必懼誅，復詭説求救。明公所居，阿衡之任，海內所瞻，原敕執事，勿復聽受。」是歳舉兵攻術於皖城。術閉門自守，求救於曹公。曹公不救。糧食乏盡，婦女或丸泥而吞之。遂屠其城，梟術首，徙其部曲三萬餘人。
+- id: wu.2.p3.t1
+  anchor: wu.2.p3
+  at: 0
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 202
+  era: 建安
+  era_year: 7
+- id: wu.2.p4.t1
+  anchor: wu.2.p4
+  at: 0
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 203
+  era: 建安
+  era_year: 8
+- id: wu.2.p5.t1
+  anchor: wu.2.p5
+  at: 0
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 204
+  era: 建安
+  era_year: 9
 - id: wu.2.p5.a1
   anchor: wu.2.p5
   at: 23
   length: 0
   type: pei
   text: 吳錄曰：是時權大會官寮，沈友有所是非，令人扶出，謂曰：「人言卿欲反。」友知不得脫，乃曰：「主上在許，有無君之心者，可謂非反乎？」遂殺之。友字子正，吳郡人。年十一，華歆行風俗，見而異之，因呼曰：「沈郎，可登車語乎？」友逡巡卻曰：「君子講好，會宴以禮，今仁義陵遲，聖道漸壞，先生銜命，將以裨補先王之教，整齊風俗，而輕脫威儀，猶負薪救火，無乃更崇其熾乎！」歆慚曰：「自桓、靈以來，雖多英彥，未有幼童若此者。」弱冠博學，多所貫綜，善屬文辭。兼好武事，注孫子兵法。又辯於口，每所至，眾人皆默然，莫與爲對，咸言其筆之妙，舌之妙，刀之妙，三者皆過絶於人。權以禮聘，旣至，論王霸之略，當時之務，權斂容敬焉。陳荆州宜幷之計，納之。正色立朝，清議峻厲，爲庸臣所譖，誣以謀反。權亦以終不爲己用，故害之，時年二十九。
+- id: wu.2.p6.t1
+  anchor: wu.2.p6
+  at: 0
+  length: 2
+  type: temporal
+  text: 十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 205
+  era: 建安
+  era_year: 10
+- id: wu.2.p7.t1
+  anchor: wu.2.p7
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 207
+  era: 建安
+  era_year: 12
+- id: wu.2.p8.t1
+  anchor: wu.2.p8
+  at: 0
+  length: 3
+  type: temporal
+  text: 十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 208
+  era: 建安
+  era_year: 13
 - id: wu.2.p8.a1
   anchor: wu.2.p8
   at: 79
@@ -62,12 +141,82 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》載曹公與權書曰：「近者奉辭伐罪，旄麾南指，劉琮束手。今治水軍八十萬眾，方與將軍會獵於吳。」權得書以示群臣，莫不鄉震失色。
+- id: wu.2.p9.t1
+  anchor: wu.2.p9
+  at: 0
+  length: 3
+  type: temporal
+  text: 十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 209
+  era: 建安
+  era_year: 14
+- id: wu.2.p10.t1
+  anchor: wu.2.p10
+  at: 0
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 210
+  era: 建安
+  era_year: 15
+- id: wu.2.p11.t1
+  anchor: wu.2.p11
+  at: 0
+  length: 3
+  type: temporal
+  text: 十六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 211
+  era: 建安
+  era_year: 16
+- id: wu.2.p11.t2
+  anchor: wu.2.p11
+  at: 10
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 212
+  era: 建安
+  era_year: 17
+- id: wu.2.p12.t1
+  anchor: wu.2.p12
+  at: 0
+  length: 5
+  type: temporal
+  text: 十八年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 213
+  era: 建安
+  era_year: 18
+  month_chinese: 正月
+  month_ordinal: 1
 - id: wu.2.p12.a1
   anchor: wu.2.p12
   at: 33
   length: 0
   type: pei
   text: 《吳歷》曰：曹公出濡須，作油船，夜渡洲上。權以水軍圍取，得三千餘人，其沒溺者亦數千人。權數挑戰，公堅守不出。權乃自來，乘輕船，從灞須口入公軍。諸將皆以爲是挑戰者，欲擊之。公曰：「此必孫權欲身見吾軍部伍也。」敕軍中皆精嚴，弓弩不得妄發。權行五六里，回還作鼓吹。公見舟船器仗軍伍整肅，喟然嘆曰：「生子當如孫仲謀，劉景升兒子若豚犬耳！」權爲箋與曹公，説：「春水方生，公宜速去。」別紙言：「足下不死，孤不得安。」曹公語諸將曰：「孫權不欺孤。」乃徹軍還。魏略曰：權乘大船來觀軍，公使弓弩亂發，箭著其船，船偏重將覆，權因回船，復以一面受箭，箭均船平，乃還。
+- id: wu.2.p13.t1
+  anchor: wu.2.p13
+  at: 0
+  length: 5
+  type: temporal
+  text: 十九年五月
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
+  month_chinese: 五月
+  month_ordinal: 5
 - id: wu.2.p13.a1
   anchor: wu.2.p13
   at: 165
@@ -80,30 +229,154 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝春秋》曰：張遼問吳降人：「向有紫髥將軍，長上短下，便馬善射，是誰？」降人答曰：「是孫會稽。」遼及樂進相遇，言不早知之，急追自得，舉軍嘆恨。《江表傳》曰：權乘駿馬上津橋，橋南已見徹，丈餘無版。谷利在馬後，使權持鞍緩控，利於後著鞭，以助馬勢，遂得超度。權旣得免，即拜利都亭侯。谷利者，本左右給使也，以謹直爲親近監，性忠果亮烈，言不苟且，權愛信之。
+- id: wu.2.p14.t1
+  anchor: wu.2.p14
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 216
+  era: 建安
+  era_year: 21
+- id: wu.2.p15.t1
+  anchor: wu.2.p15
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 217
+  era: 建安
+  era_year: 22
+- id: wu.2.p16.t1
+  anchor: wu.2.p16
+  at: 0
+  length: 6
+  type: temporal
+  text: 二十三年十月
+  kind: relative
+  resolution: bare_year
+  year_ad: 218
+  era: 建安
+  era_year: 23
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wu.2.p16.a1
   anchor: wu.2.p16
   at: 21
   length: 0
   type: pei
   text: 庱音攄陵反。
+- id: wu.2.p17.t1
+  anchor: wu.2.p17
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
+- id: wu.2.p17.t2
+  anchor: wu.2.p17
+  at: 250
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 219
+  era: 建安
+  era_year: 24
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wu.2.p17.a1
   anchor: wu.2.p17
   at: 340
   length: 0
   type: pei
   text: 《魏略》曰：梁寓字孔儒，吳人也。權遣寓觀望曹公，曹公因以爲掾，尋遣還南。
+- id: wu.2.p18.t1
+  anchor: wu.2.p18
+  at: 0
+  length: 7
+  type: temporal
+  text: 二十五年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 220
+  era: 建安
+  era_year: 25
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wu.2.p18.a1
   anchor: wu.2.p18
   at: 50
   length: 0
   type: pei
   text: 築音逐。
+- id: wu.2.p19.t1
+  anchor: wu.2.p19
+  at: 0
+  length: 4
+  type: temporal
+  text: 二年四月
+  kind: relative
+  resolution: bare_year
+  year_ad: 197
+  era: 建安
+  era_year: 2
+  month_chinese: 四月
+  month_ordinal: 4
 - id: wu.2.p19.a1
   anchor: wu.2.p19
   at: 12
   length: 0
   type: pei
   text: 《魏略》曰：權聞魏文帝受禪而劉備稱帝，乃呼問知星者，己分野中星氣何如，遂有僭意。而以位次尚少，無以威眾，又欲先卑而後踞之，爲卑則可以假寵，後踞則必致討，致討然後可以怒眾，眾怒然後可以自大，故深絶蜀而專事魏。
+- id: wu.2.p19.t2
+  anchor: wu.2.p19
+  at: 49
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 197
+  era: 建安
+  era_year: 2
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wu.2.p19.t3
+  anchor: wu.2.p19
+  at: 59
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 197
+  era: 建安
+  era_year: 2
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wu.2.p19.t4
+  anchor: wu.2.p19
+  at: 223
+  length: 3
+  type: temporal
+  text: 十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 197
+  era: 建安
+  era_year: 2
+  month_chinese: 十一月
+  month_ordinal: 11
 - id: wu.2.p19.a2
   anchor: wu.2.p19
   at: 396
@@ -140,10 +413,38 @@ annotations:
   length: 7
   type: temporal
   text: 黃武元年春正月
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
   month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p21.t2
+  anchor: wu.2.p21
+  at: 29
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p21.t3
+  anchor: wu.2.p21
+  at: 63
+  length: 2
+  type: temporal
+  text: 正月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 正月
   month_ordinal: 1
 - id: wu.2.p21.a1
   anchor: wu.2.p21
@@ -151,6 +452,19 @@ annotations:
   length: 0
   type: pei
   text: 《吳歷》曰：權以使聘魏，具上破備獲印綬及首級、所得土地，幷表將吏功勤宜加爵賞之意。文帝報使，致鼲子裘、明光鎧、騑馬，又以素書所作《典論》及詩賦與權。《魏書》載詔答曰：「老虜邊窟，越險深入，曠日持久，內迫罷弊，外困智力，故見身於雞頭，分兵擬西陵，其計不過謂可轉足前迹以搖動江東。根未著地，摧折其支，雖未刳備五臟，使身首分離，其所降誅，亦足使虜部眾兇懼。昔吳漢先燒荆門，後發夷陵，而子陽無所逃其死；來歙始襲略陽，文叔喜之，而知隗囂無所施其巧。今討此虜，正似其事，將軍勉建方略，務全獨克。」
+- id: wu.2.p22.t1
+  anchor: wu.2.p22
+  at: 41
+  length: 3
+  type: temporal
+  text: 秋九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 秋九月
+  month_ordinal: 9
 - id: wu.2.p23.a1
   anchor: wu.2.p23
   at: 64
@@ -169,18 +483,83 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：浩周字孔異，上黨人。建安中仕爲蕭令，至徐州刺史。後領護於禁軍，軍沒，爲關羽所得。權襲羽，幷得周，甚禮之。及文帝即王位，權乃遣周，爲箋魏王曰：「昔討關羽，獲於將軍，即白先王，當發遣之。此乃奉款之心，不言而發。先王未深留意，而謂權中間復有異圖，愚情慺慺，用未果決。遂値先王委離國祚，殿下承統，下情始通。公私契闊，未獲備舉，是令本誓未即昭顯。梁寓傳命，委曲周至，深知殿下以爲意望。權之赤心，不敢有他，原垂明恕，保權所執。謹遣浩周、東裏衮，至情至實，皆周等所具。」又曰：「權本性空薄，文武不昭，昔承父兄成軍之緒，得爲先王所見奬飾，遂因國恩，撫綏東土。而中間寡慮，庶事不明，畏威忘德，以取重戾。先王恩仁，不忍遐棄，旣釋其宿罪，且開明信。雖致命虜廷，梟獲關羽，功效淺薄，未報萬一。事業未究，先王即世。殿下踐阼，威仁流邁，私懼情原未蒙昭察。梁寓來到，具知殿下不遂疏遠，必欲撫錄，追本先緒。權之得此，欣然踊躍，心開目明，不勝其慶。權世受寵遇，分義深篤，今日之事，永執一心，惟察慺慺，重垂含覆。」又曰：「先王以權推誠已驗，軍當引還，故除合肥之守，著南北之信，令權長驅不復後顧。近得守將周泰、全琮等白事，過月六日，有馬步七百，徑到橫江，又督將馬和復將四百人進到居巢，琮等聞有兵馬渡江，視之，爲兵馬所擊，臨時交鋒，大相殺傷。卒得此問，情用恐懼。權實在遠，不豫聞知，約敕無素，敢謝其罪。又聞張征東、朱橫海今復還合肥，先王盟要，由來未久，且權自度未獲罪衅，不審今者何以發起，牽軍遠次？事業未訖，甫當爲國討除賊備，重聞斯問，深使失圖。凡遠人所恃，在於明信，原殿下克卒前分，開示坦然，使權誓命，得卒本規。凡所原言，周等所當傳也。」初東裏衮爲于禁軍司馬，前與周俱沒，又俱還到，有詔皆見之。帝問周等，周以爲權必臣服，而東裏衮謂其不可必服。帝悅周言，以爲有以知之。是歳冬，魏王受漢禪，遣使以權爲吳王，詔使周與使者俱往。周旣致詔命，時與權私宴，謂權曰：「陛下未信王遣子入侍也，周以闔門百口明之。」權因字謂周曰：「浩孔異，卿乃以舉家百口保我，我當何言邪？」遂流涕沾襟。及與周別，又指天爲誓。周還之後，權不遣子而設辭，帝乃久留其使。到八月，權上書謝，又與周書曰：「自道路開通，不忘脩意。旣新奉國命，加知起居，假歸河北，故使情問不獲果至。望想之勞，曷雲其已。孤以空闇，分信不昭，中間招罪，以取棄絶，幸蒙國恩，復見赦宥，喜乎與君克卒本圖。傳不云乎，雖不能始，善終可也。」又曰：「昔君之來，欲令遣子入侍，於時傾心歡以承命，徒以登年幼，欲假年歳之間耳。而赤情未蒙昭信，遂見討責，常用慚怖。自頃國恩，復加開導，忘其前愆，取其後效，喜得因此尋竟本誓。前已有表具説遣子之意，想君假還，已知之也。」又曰：「今子當入侍，而未有妃耦，昔君念之，以爲可上連綴宗室若夏侯氏，雖中間自棄，常奉戢在心。當垂宿念，爲之先後，使獲攀龍附驥，永自固定。其爲分惠，豈有量哉！如是欲遣孫長緒與小兒俱入，奉行禮聘，成之在君。」又曰：「小兒年弱，加教訓不足，念當與別，爲之緬然，父子恩情，豈有已邪！又欲遣張子布追輔護之。孤性無餘，凡所欲爲，今盡宣露。惟恐赤心不先暢達，是以具爲君説之，宜明所以。」於是詔曰：「權前對浩周，自陳不敢自遠，樂委質長爲外臣，又前後辭旨，頭尾擊地，此鼠子自知不能保爾許地也。又今與周書，請以十二月遣子，復欲遣孫長緒、張子布隨子俱來，彼二人皆權股肱心腹也。又欲爲子於京師求婦，此權無異心之明效也。」帝旣信權甘言，且謂周爲得其眞，而權但華僞，竟無遣子意。自是之後，帝旣彰權罪，周亦見疏遠，終身不用。
+- id: wu.2.p24.t1
+  anchor: wu.2.p24
+  at: 10
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 冬十一月
+  month_ordinal: 11
+- id: wu.2.p24.t2
+  anchor: wu.2.p24
+  at: 84
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wu.2.p24.a1
   anchor: wu.2.p24
   at: 108
   length: 0
   type: pei
   text: 《江表傳》曰：權云：「近得玄德書，已深引咎，求復舊好。前所以名西爲蜀者，以漢帝尚存故耳，今漢已廢，自可名爲漢中王也。」吳書曰：鄭泉字文淵，陳郡人。博學有奇志，而性嗜酒，其間居每曰：「原得美酒滿五百斛船，以四時甘脆置兩頭，反覆沒飲之，憊即住而啖肴膳。酒有斗升減，隨即益之，不亦快乎！」權以爲郎中。嘗與之言：「卿好於眾中面諫，或失禮敬，寧畏龍鱗乎？」對曰：「臣聞君明臣直，今値朝廷上下無諱，實恃洪恩，不畏龍鱗。」後侍宴，權乃怖之，使提出付有司促治罪。泉臨出屢顧，權呼還，笑曰：「卿言不畏龍鱗，何以臨出而顧乎？」對曰：「實侍恩覆，知無死憂，至當出閤，感惟威靈，不能不顧耳。」使蜀，劉備問曰：「吳王何以不答吾書，得無以吾正名不宜乎？」泉曰：「曹操父子陵轢漢室，終奪其位。殿下旣爲宗室，有維城之責，不荷戈執殳爲海內率先，而於是自名，未合天下之議，是以寡君未復書耳。」備甚慚恧。泉臨卒，謂同類曰：「必葬我陶家之側，庶百歳之後化而成土，幸見取爲酒壺，實獲我心矣。」
+- id: wu.2.p25.t1
+  anchor: wu.2.p25
+  at: 0
+  length: 5
+  type: temporal
+  text: 二年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wu.2.p25.a1
   anchor: wu.2.p25
   at: 35
   length: 0
   type: pei
   text: 《江表傳》曰：權推五德之運，以爲土行用未祖辰臘。志林曰：土行以辰臘，得其數矣。土盛於戌，而以未祖，其義非也。土生於未，故未爲坤初。是以月令：建未之月，祀黃精於郊，祖用其盛。今祖用其始，豈應運乎？
+- id: wu.2.p25.t2
+  anchor: wu.2.p25
+  at: 35
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p25.t3
+  anchor: wu.2.p25
+  at: 98
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 夏四月
+  month_ordinal: 4
 - id: wu.2.p25.a2
   anchor: wu.2.p25
   at: 114
@@ -193,48 +572,252 @@ annotations:
   length: 0
   type: pei
   text: 吳書曰：權遣立信都尉馮熙聘於蜀，弔備喪也。熙字子柔，潁川人，馮異之後也。權之爲車騎，熙歷東曹掾，使蜀還，爲中大夫。後使於魏，文帝問曰：「吳王若欲脩宿好，宜當厲兵江關，縣旍巴蜀，而聞復遣脩好，必有變故。」熙曰：「臣聞西使直報問，且以觀衅，非有謀也。」又曰：「聞吳國比年災旱，人物彫損，以大夫之明，觀之何如？」熙對曰：「吳王體量聰明，善於任使，賦政施役，每事必咨，教養賓旅，親賢愛士，賞不擇怨仇，而罰必加有罪，臣下皆感恩懷德，惟忠與義。帶甲百萬，穀帛如山，稻田沃野，民無饑歳，所謂金城湯池，強富之國也。以臣觀之，輕重之分，未可量也。」帝不悅，以陳群與熙同郡，使群誘之，啗以重利。熙不爲回。送至摩陂，欲困苦之。後又召還，未至，熙懼見迫不從，必危身辱命，乃引刀自刺。御者覺之，不得死。權聞之，垂涕曰：「此與蘇武何異？」竟死於魏。
+- id: wu.2.p25.t4
+  anchor: wu.2.p25
+  at: 121
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wu.2.p25.t5
+  anchor: wu.2.p25
+  at: 163
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 六月
+  month_ordinal: 6
+- id: wu.2.p25.t6
+  anchor: wu.2.p25
+  at: 189
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃武
+  era_year: 2
+  month_chinese: 冬十一月
+  month_ordinal: 11
 - id: wu.2.p25.a4
   anchor: wu.2.p25
   at: 204
   length: 0
   type: pei
   text: 《吳歷》曰：蜀致馬二百匹，錦千端，及方物。自是之後，聘使往來以爲常。吳亦致方土所出，以答其厚意焉。
+- id: wu.2.p26.t1
+  anchor: wu.2.p26
+  at: 0
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃武
+  era_year: 3
+- id: wu.2.p26.t2
+  anchor: wu.2.p26
+  at: 16
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 224
+  era: 黃武
+  era_year: 3
+  month_chinese: 秋八月
+  month_ordinal: 8
+- id: wu.2.p26.t3
+  anchor: wu.2.p26
+  at: 24
+  length: 2
+  type: temporal
+  text: 九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 224
+  era: 黃武
+  era_year: 3
+  month_chinese: 九月
+  month_ordinal: 9
 - id: wu.2.p26.a1
   anchor: wu.2.p26
   at: 54
   length: 0
   type: pei
   text: 干寶《晉紀》曰：魏文帝之在廣陵，吳人大駭，乃臨江爲疑城，自石頭至於江乘，車以木楨，衣以葦席，加采飾焉，一夕而成。魏人自江西望，甚憚之，遂退軍。權令趙達算之，曰：「曹丕走矣，雖然，吳衰庚子歳。」權曰：「幾何？」達屈指而計之，曰：「五十八年。」權曰：「今日之憂，不暇及遠，此子孫事也。」吳錄曰：是歳蜀主又遣鄧芝來聘，重結盟好。權謂芝曰：「山民作亂，江邊守兵多徹，慮曹丕乘空弄態，而反求和。議者以爲內有不暇，幸來求和，於我有利，宜當與通，以自辨定。恐西州不能明孤赤心，用致嫌疑。孤土地邊外，間隙萬端，而長江巨海，皆當防守。丕觀衅而動，惟不見便，寧得忘此，復有他圖。」
+- id: wu.2.p27.t1
+  anchor: wu.2.p27
+  at: 0
+  length: 5
+  type: temporal
+  text: 四年夏五月
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 黃武
+  era_year: 4
+  month_chinese: 夏五月
+  month_ordinal: 5
 - id: wu.2.p27.a1
   anchor: wu.2.p27
   at: 12
   length: 0
   type: pei
   text: 吳錄曰：邵字長緒，北海人，長八尺。爲孔融功曹，融稱曰「廊廟才也」。從劉繇於江東。及權統事，數陳便宜，以爲應納貢聘，權即從之。拜廬江太守，遷車騎長史。黃武初爲丞相，威遠將軍，封陽羨侯。張温、暨艷奏其事，邵辭位請罪，權釋令復職，年六十三卒。志林曰：吳之創基，邵爲首相，史無其傳，竊常怪之。嘗問劉聲叔。聲叔，博物君子也，云：「推其名位，自應立傳。項竣、（吳孚）〔丁孚〕時已有注記，此云與張惠恕不能。後韋氏作史，蓋惠恕之黨，故不見書。」
+- id: wu.2.p27.t2
+  anchor: wu.2.p27
+  at: 12
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 225
+  era: 黃武
+  era_year: 4
+  month_chinese: 六月
+  month_ordinal: 6
 - id: wu.2.p27.a2
   anchor: wu.2.p27
   at: 24
   length: 0
   type: pei
   text: 吳書曰：以尚書令陳化爲太常。化字元耀，汝南人，博覽眾書，氣幹剛毅，長七尺九寸，雅有威容。爲郎中令使魏，魏文帝因酒酣，嘲問曰：「吳、魏峙立，誰將平一海內者乎？」化對曰：「易稱帝出乎震，加聞先哲知命，舊説紫蓋黃旗，運在東南。」帝曰：「昔文王以西伯王天下，豈復在東乎？」化曰：「周之初基，太伯在東，是以文王能興於西。」帝笑，無以難，心奇其辭。使畢當還，禮送甚厚。權以化奉命光國，拜犍爲太守，置官屬。頃之，遷太常，兼尚書令。正色立朝，敕子弟廢田業，絶治産，仰官廩祿，不與百姓爭利。妻早亡，化以古事爲鑑，乃不復娶。權聞而貴之，以其年壯，敕宗正妻以宗室女，化固辭以疾，權不違其志。年出七十，乃上疏乞骸骨，遂爰居章安，卒於家。長子熾，字公熙，少有志操，能計算。衞將軍全琮表稱熾任大將軍，赴召，道卒。
+- id: wu.2.p27.t3
+  anchor: wu.2.p27
+  at: 31
+  length: 4
+  type: temporal
+  text: 冬十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 225
+  era: 黃武
+  era_year: 4
+  month_chinese: 冬十二月
+  month_ordinal: 12
 - id: wu.2.p27.a3
   anchor: wu.2.p27
   at: 62
   length: 0
   type: pei
   text: 吳錄曰；是冬魏文帝至廣陵，臨江觀兵，兵有十餘萬，旌旗彌數百里，有渡江之志。權嚴設固守。時大寒冰，舟不得入江。帝見波濤洶涌，嘆曰：「嗟乎！固天所以隔南北也！」遂歸。孫韶又遣將髙壽等率敢死之士五百人於徑路夜要之，帝大驚，壽等獲副車羽蓋以還。
+- id: wu.2.p28.t1
+  anchor: wu.2.p28
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 226
+  era: 黃武
+  era_year: 5
+- id: wu.2.p28.t2
+  anchor: wu.2.p28
+  at: 118
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 226
+  era: 黃武
+  era_year: 5
+  month_chinese: 秋七月
+  month_ordinal: 7
 - id: wu.2.p28.a1
   anchor: wu.2.p28
   at: 161
   length: 0
   type: pei
   text: 吳錄曰：郡治富春也。
+- id: wu.2.p28.t3
+  anchor: wu.2.p28
+  at: 173
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 226
+  era: 黃武
+  era_year: 5
+  month_chinese: 冬十月
+  month_ordinal: 10
 - id: wu.2.p30.a1
   anchor: wu.2.p30
   at: 48
   length: 0
   type: pei
   text: 《江表傳》曰：權於武昌新裝大船，名爲長安，試泛之釣臺圻。時風大盛，谷利令柂工取樊口。權曰：「當張頭取羅州。」利拔刀向柂工曰：「不取樊口者斬。」工即轉柂入樊口，風遂猛不可行，乃還。權曰：「阿利畏水何怯也？」利跪曰：「大王萬乘之主，輕於不測之淵，戲於猛浪之中，船樓裝髙，邂逅顛危，奈社稷何？是以利輒敢以死爭。」權於是貴重之，自此後不復名之，常呼曰谷。
+- id: wu.2.p31.t1
+  anchor: wu.2.p31
+  at: 0
+  length: 5
+  type: temporal
+  text: 六年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 黃武
+  era_year: 6
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p32.t1
+  anchor: wu.2.p32
+  at: 0
+  length: 4
+  type: temporal
+  text: 七年三月
+  kind: relative
+  resolution: bare_year
+  year_ad: 228
+  era: 黃武
+  era_year: 7
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p32.t2
+  anchor: wu.2.p32
+  at: 18
+  length: 3
+  type: temporal
+  text: 夏五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 228
+  era: 黃武
+  era_year: 7
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: wu.2.p32.t3
+  anchor: wu.2.p32
+  at: 37
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 228
+  era: 黃武
+  era_year: 7
+  month_chinese: 秋八月
+  month_ordinal: 8
 - id: wu.2.p32.a1
   anchor: wu.2.p32
   at: 79
@@ -247,9 +830,24 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
+- id: wu.2.p33.t2
+  anchor: wu.2.p33
+  at: 17
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
   year_ad: 229
+  era: 黃龍
+  era_year: 1
+  month_chinese: 夏四月
+  month_ordinal: 4
 - id: wu.2.p33.a1
   anchor: wu.2.p33
   at: 45
@@ -262,23 +860,192 @@ annotations:
   length: 0
   type: pei
   text: 昌門，吳西郭門，夫差所作。
+- id: wu.2.p34.t1
+  anchor: wu.2.p34
+  at: 30
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 229
+  era: 黃龍
+  era_year: 1
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wu.2.p34.t2
+  anchor: wu.2.p34
+  at: 45
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 229
+  era: 黃龍
+  era_year: 1
+  month_chinese: 六月
+  month_ordinal: 6
+- id: wu.2.p36.t1
+  anchor: wu.2.p36
+  at: 0
+  length: 3
+  type: temporal
+  text: 秋九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 229
+  era: 黃龍
+  era_year: 1
+  month_chinese: 秋九月
+  month_ordinal: 9
+- id: wu.2.p37.t1
+  anchor: wu.2.p37
+  at: 0
+  length: 5
+  type: temporal
+  text: 二年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 黃龍
+  era_year: 2
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p38.t1
+  anchor: wu.2.p38
+  at: 0
+  length: 5
+  type: temporal
+  text: 三年春二月
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 黃龍
+  era_year: 3
+  month_chinese: 春二月
+  month_ordinal: 2
+- id: wu.2.p38.t2
+  anchor: wu.2.p38
+  at: 83
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 231
+  era: 黃龍
+  era_year: 3
+  month_chinese: 冬十月
+  month_ordinal: 10
+- id: wu.2.p38.t3
+  anchor: wu.2.p38
+  at: 114
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 231
+  era: 黃龍
+  era_year: 3
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wu.2.p38.t4
+  anchor: wu.2.p38
+  at: 125
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 黃龍
+  era_year: 1
 - id: wu.2.p39.t1
   anchor: wu.2.p39
   at: 0
   length: 7
   type: temporal
   text: 嘉禾元年春正月
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 嘉禾
   era_year: 1
-  year_ad: 232
   month_chinese: 春正月
   month_ordinal: 1
+- id: wu.2.p39.t2
+  anchor: wu.2.p39
+  at: 14
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 232
+  era: 嘉禾
+  era_year: 1
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p39.t3
+  anchor: wu.2.p39
+  at: 33
+  length: 3
+  type: temporal
+  text: 秋九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 232
+  era: 嘉禾
+  era_year: 1
+  month_chinese: 秋九月
+  month_ordinal: 9
+- id: wu.2.p39.t4
+  anchor: wu.2.p39
+  at: 50
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 232
+  era: 嘉禾
+  era_year: 1
+  month_chinese: 冬十月
+  month_ordinal: 10
 - id: wu.2.p39.a1
   anchor: wu.2.p39
   at: 92
   length: 0
   type: pei
   text: 《江表傳》曰：是冬，群臣以權未郊祀，奏議曰：「頃者嘉瑞屢臻，遠國慕義，天意人事，前後備集，宜脩郊祀，以承天意。」權曰：「郊祀當於土中，今非其所，於何施此？」重奏曰：「普天之下，莫非王土；王者以天下爲家。昔周文、武郊於酆、鎬，非必土中。」權曰：「武王伐紂，即阼於鎬京，而郊其所也。文王未爲天子，立郊於酆，見何經典？」復書曰：「伏見漢書郊祀志，匡衡奏徙甘泉河東，郊於長安，言文王郊於酆。」權曰：「文王性謙讓，處諸侯之位，明未郊也。經傳無明文，匡衡俗儒意説，非典籍正義，不可用也。」志林曰：吳王糾駮郊祀之奏，追貶匡衡，謂之俗儒。凡在見者，莫不慨然以爲統盡物理，達於事宜。至於稽之典籍，乃更不通。毛氏之説云：「堯見天因邰而生後稷，故國之於邰，命使事天。」故詩曰：「后稷肇祀，庶無罪悔，以迄於今。」言自后稷以來皆得祭天，猶魯人郊祀也。是以棫樸之作，有積燎之薪。文王郊酆，經有明文，匡衡豈俗，而枉之哉？文王雖未爲天子，然三分天下而有其二，伐崇戡黎，祖伊奔告。天旣棄殷，乃眷西顧，太伯三讓，以有天下。文王爲王，於義何疑？然則匡衡之奏，有所未盡。按世宗立甘泉、汾陰之祠，皆出方士之言，非據經典者也。方士以甘泉、汾陰黃帝祭天地之處，故孝武因之，遂立二畤。漢治長安，而甘泉在北，謂就乾位，而衡云「武帝居甘泉，祭於南宮」，此旣誤矣。祭汾陰在水之脽，呼爲澤中，而衡云「東之少陽」，失其本意。此自吳事，於傳無非，恨無辨正之辭，故矯之云。脽，音誰，見漢書音義。
+- id: wu.2.p40.t1
+  anchor: wu.2.p40
+  at: 0
+  length: 5
+  type: temporal
+  text: 二年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 233
+  era: 嘉禾
+  era_year: 2
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p40.t2
+  anchor: wu.2.p40
+  at: 251
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 233
+  era: 嘉禾
+  era_year: 2
+  month_chinese: 三月
+  month_ordinal: 3
 - id: wu.2.p40.a1
   anchor: wu.2.p40
   at: 297
@@ -303,21 +1070,260 @@ annotations:
   length: 0
   type: pei
   text: 吳書曰：初，張彌、許晏等俱到襄平，官屬從者四百許人。淵欲圖彌、晏，先分其人眾，置遼東諸縣，以中使秦旦、張群、杜德、黃疆等及吏兵六十人，置玄菟郡。玄菟郡在遼東北，相去二百里，太守王贊領戸二百，兼重可三四百人。旦等皆舍於民家，仰其飲食。積四十許日，旦與疆等議曰：「吾人遠辱國命，自棄於此，與死亡何異？今觀此郡，形勢甚弱。若一旦同心，焚燒城郭，殺其長吏，爲國報恥，然後伏死，足以無恨。孰與偷生苟活長爲囚虜乎？」疆等然之。於是陰相約結，當用八月十九日夜發。其日中時，爲部中張松所告，贊便會士眾閉城門。旦、群、德、疆等皆逾城得走。時群病疽創著膝，不及輩旅，德常扶接與俱，崎嶇山谷。行六七百里，創益困，不復能前，臥草中，相守悲泣。群曰：「吾不幸創甚，死亡無日，卿諸人宜速進道，冀有所達。空相守，俱死於窮谷之中，何益也？」德曰：「萬里流離，死生共之，不忍相委。」於是推旦、疆使前，德獨留守群，捕菜果食之。旦、疆別數日，得達句驪（王宮），因宣詔於句驪王宮及其主簿，詔言有賜爲遼東所攻奪。宮等大喜，即受詔，命使人隨旦還迎群、德。其年，宮遣皁衣二十五人送旦等還，奉表稱臣，貢貂皮千枚，鶡雞皮十具。旦等見權，悲喜不能自勝。權義之，皆拜校尉。間一年，遣使者謝宏、中書陳恂拜宮爲單於，加賜衣物珍寶。恂等到安平口，先遣校尉陳奉前見宮，而宮受魏幽州刺史諷旨，令以吳使自效。奉聞之，倒還。宮遣主簿笮咨、帶固等出安平，與宏相見。宏即縛得三十餘人質之，宮於是謝罪，上馬數百匹。宏乃遣咨、固奉詔書賜物與宮。是時宏船小，載馬八十匹而還。
+- id: wu.2.p41.t1
+  anchor: wu.2.p41
+  at: 0
+  length: 5
+  type: temporal
+  text: 三年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p41.t2
+  anchor: wu.2.p41
+  at: 36
+  length: 3
+  type: temporal
+  text: 夏五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: wu.2.p41.t3
+  anchor: wu.2.p41
+  at: 133
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 秋八月
+  month_ordinal: 8
+- id: wu.2.p41.t4
+  anchor: wu.2.p41
+  at: 151
+  length: 2
+  type: temporal
+  text: 九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 九月
+  month_ordinal: 9
+- id: wu.2.p41.t5
+  anchor: wu.2.p41
+  at: 160
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 冬十一月
+  month_ordinal: 11
+- id: wu.2.p42.t1
+  anchor: wu.2.p42
+  at: 0
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 235
+  era: 嘉禾
+  era_year: 4
+- id: wu.2.p42.t2
+  anchor: wu.2.p42
+  at: 11
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 235
+  era: 嘉禾
+  era_year: 4
+  month_chinese: 秋七月
+  month_ordinal: 7
+- id: wu.2.p43.t1
+  anchor: wu.2.p43
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+- id: wu.2.p43.t2
+  anchor: wu.2.p43
+  at: 31
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wu.2.p43.t3
+  anchor: wu.2.p43
+  at: 72
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+  month_chinese: 十月
+  month_ordinal: 10
+- id: wu.2.p43.t4
+  anchor: wu.2.p43
+  at: 81
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+  month_chinese: 冬十月
+  month_ordinal: 10
+- id: wu.2.p44.t1
+  anchor: wu.2.p44
+  at: 0
+  length: 5
+  type: temporal
+  text: 六年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 237
+  era: 嘉禾
+  era_year: 6
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p45.t1
+  anchor: wu.2.p45
+  at: 1
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+- id: wu.2.p45.t2
+  anchor: wu.2.p45
+  at: 53
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+- id: wu.2.p47.t1
+  anchor: wu.2.p47
+  at: 53
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wu.2.p47.t2
+  anchor: wu.2.p47
+  at: 63
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+- id: wu.2.p47.t3
+  anchor: wu.2.p47
+  at: 70
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 嘉禾
+  era_year: 3
+  month_chinese: 冬十月
+  month_ordinal: 10
 - id: wu.2.p48.t1
   anchor: wu.2.p48
   at: 0
   length: 4
   type: temporal
   text: 赤烏元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 赤烏
   era_year: 1
+- id: wu.2.p48.t2
+  anchor: wu.2.p48
+  at: 27
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
   year_ad: 238
+  era: 赤烏
+  era_year: 1
+  month_chinese: 秋八月
+  month_ordinal: 8
 - id: wu.2.p49.a1
   anchor: wu.2.p49
   at: 281
   length: 0
   type: pei
   text: 《江表傳》曰：權又云：「天下無粹白之狐，而有粹白之裘，眾之所積也。夫能以駮致純，不惟積乎？故能用眾力，則無敵於天下矣；能用眾智，則無畏於聖人矣。」
+- id: wu.2.p50.t1
+  anchor: wu.2.p50
+  at: 0
+  length: 5
+  type: temporal
+  text: 二年春三月
+  kind: relative
+  resolution: bare_year
+  year_ad: 239
+  era: 赤烏
+  era_year: 2
+  month_chinese: 春三月
+  month_ordinal: 3
 - id: wu.2.p50.a1
   anchor: wu.2.p50
   at: 3
@@ -330,60 +1336,619 @@ annotations:
   length: 0
   type: pei
   text: 文士傳曰：胄字敬先，沛國人。父札，才學博達，權爲驃騎將軍，以札爲從事中郎，與張昭、孫邵共定朝儀。胄其少子，有文武姿局，少知名，舉賢良，稍遷建安太守。呂壹賓客於郡犯法，胄收付獄，考竟。壹懷恨，後密譖胄。權大怒，召胄還，潘濬、陳表幷爲請，得釋。後拜宣信校尉，往救公孫淵，已爲魏所破，還遷執金吾。子豐，字曼季，有文學操行，與陸雲善，與雲詩相往反。司空張華辟，未就，卒。臣松之聞孫怡者，東州人，非權之宗也。
+- id: wu.2.p50.t2
+  anchor: wu.2.p50
+  at: 46
+  length: 3
+  type: temporal
+  text: 夏五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 239
+  era: 赤烏
+  era_year: 2
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: wu.2.p50.t3
+  anchor: wu.2.p50
+  at: 54
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 239
+  era: 赤烏
+  era_year: 2
+  month_chinese: 冬十月
+  month_ordinal: 10
+- id: wu.2.p51.t1
+  anchor: wu.2.p51
+  at: 0
+  length: 5
+  type: temporal
+  text: 三年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 240
+  era: 赤烏
+  era_year: 3
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p51.t2
+  anchor: wu.2.p51
+  at: 93
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 240
+  era: 赤烏
+  era_year: 3
+  month_chinese: 夏四月
+  month_ordinal: 4
+- id: wu.2.p51.t3
+  anchor: wu.2.p51
+  at: 122
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 240
+  era: 赤烏
+  era_year: 3
+  month_chinese: 冬十一月
+  month_ordinal: 11
+- id: wu.2.p52.t1
+  anchor: wu.2.p52
+  at: 0
+  length: 5
+  type: temporal
+  text: 四年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 241
+  era: 赤烏
+  era_year: 4
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p52.t2
+  anchor: wu.2.p52
+  at: 21
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 241
+  era: 赤烏
+  era_year: 4
+  month_chinese: 夏四月
+  month_ordinal: 4
 - id: wu.2.p52.a1
   anchor: wu.2.p52
   at: 103
   length: 0
   type: pei
   text: 《漢晉春秋》曰：零陵太守殷禮言於權曰：「今天棄曹氏，喪誅累見，虎爭之際而幼童莅事。陛下身自御戎，取亂侮亡，宜滌荆、揚之地，舉強羸之數，使強者執戟，羸者轉運，西命益州軍於隴右，授諸葛瑾、朱然大眾，指事襄陽、陸遜、朱桓別征壽春，大駕入淮陽，歷靑、徐。襄陽、壽春困於受敵，長安以西務對蜀軍，許、洛之眾勢必分離；掎角瓦解，民必內應，將帥對嚮，或失便宜；一軍敗績，則三軍離心，便當秣馬脂車，陵蹈城邑，乘勝逐北，以定華夏。若不悉軍動眾，循前輕舉，則不足大用，易於屢退。民疲威消，時往力竭，非出兵之策也。」權弗能用之。
+- id: wu.2.p52.t3
+  anchor: wu.2.p52
+  at: 103
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 241
+  era: 赤烏
+  era_year: 4
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wu.2.p52.t4
+  anchor: wu.2.p52
+  at: 124
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 241
+  era: 赤烏
+  era_year: 4
+  month_chinese: 六月
+  month_ordinal: 6
+- id: wu.2.p52.t5
+  anchor: wu.2.p52
+  at: 139
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 241
+  era: 赤烏
+  era_year: 4
+  month_chinese: 秋八月
+  month_ordinal: 8
+- id: wu.2.p53.t1
+  anchor: wu.2.p53
+  at: 0
+  length: 5
+  type: temporal
+  text: 五年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 242
+  era: 赤烏
+  era_year: 5
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p53.t2
+  anchor: wu.2.p53
+  at: 91
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 242
+  era: 赤烏
+  era_year: 5
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p53.t3
+  anchor: wu.2.p53
+  at: 102
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 242
+  era: 赤烏
+  era_year: 5
+  month_chinese: 夏四月
+  month_ordinal: 4
+- id: wu.2.p53.t4
+  anchor: wu.2.p53
+  at: 116
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 242
+  era: 赤烏
+  era_year: 5
+  month_chinese: 秋七月
+  month_ordinal: 7
+- id: wu.2.p53.t5
+  anchor: wu.2.p53
+  at: 157
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 242
+  era: 赤烏
+  era_year: 5
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wu.2.p54.t1
+  anchor: wu.2.p54
+  at: 0
+  length: 5
+  type: temporal
+  text: 六年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 243
+  era: 赤烏
+  era_year: 6
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p54.t2
+  anchor: wu.2.p54
+  at: 32
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 243
+  era: 赤烏
+  era_year: 6
+  month_chinese: 冬十一月
+  month_ordinal: 11
+- id: wu.2.p54.t3
+  anchor: wu.2.p54
+  at: 43
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 243
+  era: 赤烏
+  era_year: 6
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wu.2.p55.t1
+  anchor: wu.2.p55
+  at: 0
+  length: 5
+  type: temporal
+  text: 七年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 赤烏
+  era_year: 7
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wu.2.p55.a1
   anchor: wu.2.p55
   at: 267
   length: 0
   type: pei
   text: 《江表傳》載權詔曰：「督將亡叛而殺其妻子，是使妻去夫，子棄父，甚傷義教，自今勿殺也。」
+- id: wu.2.p56.t1
+  anchor: wu.2.p56
+  at: 0
+  length: 5
+  type: temporal
+  text: 八年春二月
+  kind: relative
+  resolution: bare_year
+  year_ad: 245
+  era: 赤烏
+  era_year: 8
+  month_chinese: 春二月
+  month_ordinal: 2
+- id: wu.2.p56.t2
+  anchor: wu.2.p56
+  at: 46
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 245
+  era: 赤烏
+  era_year: 8
+  month_chinese: 秋七月
+  month_ordinal: 7
+- id: wu.2.p56.t3
+  anchor: wu.2.p56
+  at: 62
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 245
+  era: 赤烏
+  era_year: 8
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wu.2.p56.a1
   anchor: wu.2.p56
   at: 105
   length: 0
   type: pei
   text: 《吳歷》曰：茂本淮南鍾離長，而爲王凌所失，叛歸吳，吳以爲征西將軍、九江太守、外部督，封侯，領千兵。權數出苑中，與公卿諸將射。茂與兼符節令朱貞、無難督虞欽、牙門將朱志等合計，伺權在苑中，公卿諸將在門未入，令貞持節稱詔，悉收縛之；茂引兵入苑擊權，分據宮中及石頭塢，遣人報魏。事覺，皆族之。
+- id: wu.2.p57.t1
+  anchor: wu.2.p57
+  at: 0
+  length: 5
+  type: temporal
+  text: 九年春二月
+  kind: relative
+  resolution: bare_year
+  year_ad: 246
+  era: 赤烏
+  era_year: 9
+  month_chinese: 春二月
+  month_ordinal: 2
+- id: wu.2.p57.t2
+  anchor: wu.2.p57
+  at: 22
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 246
+  era: 赤烏
+  era_year: 9
+  month_chinese: 夏四月
+  month_ordinal: 4
+- id: wu.2.p57.t3
+  anchor: wu.2.p57
+  at: 33
+  length: 3
+  type: temporal
+  text: 秋九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 246
+  era: 赤烏
+  era_year: 9
+  month_chinese: 秋九月
+  month_ordinal: 9
 - id: wu.2.p57.a1
   anchor: wu.2.p57
   at: 89
   length: 0
   type: pei
   text: 《江表傳》曰：是歳，權詔曰：「謝宏往日陳鑄大錢，云以廣貨，故聽之。今聞民意不以爲便，其省息之，鑄爲器物，官勿復出也。私家有者，敕以輸藏，計畀其直，勿有所枉也。」
+- id: wu.2.p58.t1
+  anchor: wu.2.p58
+  at: 0
+  length: 5
+  type: temporal
+  text: 十年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 247
+  era: 赤烏
+  era_year: 10
+  month_chinese: 春正月
+  month_ordinal: 1
 - id: wu.2.p58.a1
   anchor: wu.2.p58
   at: 14
   length: 0
   type: pei
   text: 《江表傳》曰：是歳權遣諸葛壹僞叛以誘諸葛誕，誕以步騎一萬迎壹於髙山。權出塗中，遂至髙山，潛軍以待之。誕覺而退。
+- id: wu.2.p58.t2
+  anchor: wu.2.p58
+  at: 14
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 247
+  era: 赤烏
+  era_year: 10
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wu.2.p58.t3
+  anchor: wu.2.p58
+  at: 22
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 247
+  era: 赤烏
+  era_year: 10
+  month_chinese: 三月
+  month_ordinal: 3
 - id: wu.2.p58.a2
   anchor: wu.2.p58
   at: 40
   length: 0
   type: pei
   text: 《江表傳》載權詔曰：「建業宮乃朕從京來所作將軍府寺耳，材柱率細，皆以腐朽，常恐損壞。今未復西，可徙武昌宮材瓦，更繕治之。」有司奏言曰：「武昌宮已二十八歳，恐不堪用，宜下所在通更伐致。」權曰：「大禹以卑宮爲美，今軍事未已，所在多賦，若更通伐，妨損農桑。徙武昌材瓦，自可用也。」
+- id: wu.2.p58.t4
+  anchor: wu.2.p58
+  at: 40
+  length: 3
+  type: temporal
+  text: 夏五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 247
+  era: 赤烏
+  era_year: 10
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: wu.2.p58.t5
+  anchor: wu.2.p58
+  at: 50
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 247
+  era: 赤烏
+  era_year: 10
+  month_chinese: 冬十月
+  month_ordinal: 10
+- id: wu.2.p59.t1
+  anchor: wu.2.p59
+  at: 0
+  length: 6
+  type: temporal
+  text: 十一年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 248
+  era: 赤烏
+  era_year: 11
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p59.t2
+  anchor: wu.2.p59
+  at: 13
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 248
+  era: 赤烏
+  era_year: 11
+  month_chinese: 二月
+  month_ordinal: 2
 - id: wu.2.p59.a1
   anchor: wu.2.p59
   at: 20
   length: 0
   type: pei
   text: 《江表傳》載權詔曰：「朕以寡德，過奉先祀，莅事不聰，獲譴靈祇，夙夜祗戒，若不終日。群僚其各厲精，思朕過失，勿有所諱。」
+- id: wu.2.p59.t3
+  anchor: wu.2.p59
+  at: 20
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 248
+  era: 赤烏
+  era_year: 11
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wu.2.p59.t4
+  anchor: wu.2.p59
+  at: 26
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 248
+  era: 赤烏
+  era_year: 11
+  month_chinese: 夏四月
+  month_ordinal: 4
+- id: wu.2.p59.t5
+  anchor: wu.2.p59
+  at: 40
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 248
+  era: 赤烏
+  era_year: 11
+  month_chinese: 五月
+  month_ordinal: 5
 - id: wu.2.p59.a2
   anchor: wu.2.p59
   at: 50
   length: 0
   type: pei
   text: 瑞應圖曰：白虎仁者，王者不暴虐，則仁虎不害也。
+- id: wu.2.p60.t1
+  anchor: wu.2.p60
+  at: 0
+  length: 6
+  type: temporal
+  text: 十二年春三月
+  kind: relative
+  resolution: bare_year
+  year_ad: 249
+  era: 赤烏
+  era_year: 12
+  month_chinese: 春三月
+  month_ordinal: 3
+- id: wu.2.p60.t2
+  anchor: wu.2.p60
+  at: 15
+  length: 2
+  type: temporal
+  text: 四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 249
+  era: 赤烏
+  era_year: 12
+  month_chinese: 四月
+  month_ordinal: 4
 - id: wu.2.p60.a1
   anchor: wu.2.p60
   at: 45
   length: 0
   type: pei
   text: 吳錄曰：六月戊戌，寶鼎出臨平湖。八月癸丑，白鳩見於章安。
+- id: wu.2.p61.t1
+  anchor: wu.2.p61
+  at: 0
+  length: 6
+  type: temporal
+  text: 十三年夏五月
+  kind: relative
+  resolution: bare_year
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 夏五月
+  month_ordinal: 5
+- id: wu.2.p61.t2
+  anchor: wu.2.p61
+  at: 16
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 秋七月
+  month_ordinal: 7
+- id: wu.2.p61.t3
+  anchor: wu.2.p61
+  at: 28
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wu.2.p61.t4
+  anchor: wu.2.p61
+  at: 75
+  length: 3
+  type: temporal
+  text: 冬十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 冬十月
+  month_ordinal: 10
+- id: wu.2.p61.t5
+  anchor: wu.2.p61
+  at: 110
+  length: 3
+  type: temporal
+  text: 十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 十一月
+  month_ordinal: 11
+- id: wu.2.p61.t6
+  anchor: wu.2.p61
+  at: 136
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wu.2.p61.a1
   anchor: wu.2.p61
   at: 176
@@ -396,9 +1961,11 @@ annotations:
   length: 7
   type: temporal
   text: 太元元年夏五月
+  kind: absolute
+  resolution: absolute
+  year_ad: 251
   era: 太元
   era_year: 1
-  year_ad: 251
   month_chinese: 夏五月
   month_ordinal: 5
 - id: wu.2.p62.a1
@@ -407,18 +1974,122 @@ annotations:
   length: 0
   type: pei
   text: 吳錄曰：羅陽今安固縣。
+- id: wu.2.p62.t2
+  anchor: wu.2.p62
+  at: 124
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 251
+  era: 太元
+  era_year: 1
+  month_chinese: 秋七月
+  month_ordinal: 7
 - id: wu.2.p62.a2
   anchor: wu.2.p62
   at: 165
   length: 0
   type: pei
   text: 孫盛曰：盛聞國將興，聽於民；國將亡，聽於神。權年老志衰，讒臣在側，廢適立庶，以妾爲妻，可謂多凉德矣。而僞設符命，求福妖邪，將亡之兆，不亦顯乎！
+- id: wu.2.p62.t3
+  anchor: wu.2.p62
+  at: 165
+  length: 3
+  type: temporal
+  text: 秋八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 251
+  era: 太元
+  era_year: 1
+  month_chinese: 秋八月
+  month_ordinal: 8
+- id: wu.2.p62.t4
+  anchor: wu.2.p62
+  at: 199
+  length: 4
+  type: temporal
+  text: 冬十一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 251
+  era: 太元
+  era_year: 1
+  month_chinese: 冬十一月
+  month_ordinal: 11
 - id: wu.2.p62.a3
   anchor: wu.2.p62
   at: 216
   length: 0
   type: pei
   text: 吳錄曰：權得風疾。
+- id: wu.2.p62.t5
+  anchor: wu.2.p62
+  at: 216
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 251
+  era: 太元
+  era_year: 1
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wu.2.p63.t1
+  anchor: wu.2.p63
+  at: 0
+  length: 5
+  type: temporal
+  text: 二年春正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  month_chinese: 春正月
+  month_ordinal: 1
+- id: wu.2.p63.t2
+  anchor: wu.2.p63
+  at: 41
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wu.2.p63.t3
+  anchor: wu.2.p63
+  at: 73
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  month_chinese: 夏四月
+  month_ordinal: 4
+- id: wu.2.p63.t4
+  anchor: wu.2.p63
+  at: 92
+  length: 3
+  type: temporal
+  text: 秋七月
+  kind: relative
+  resolution: bare_month
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  month_chinese: 秋七月
+  month_ordinal: 7
 - id: wu.2.p63.a1
   anchor: wu.2.p63
   at: 100

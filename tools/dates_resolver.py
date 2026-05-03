@@ -165,22 +165,32 @@ _MONTH_RE = re.compile(r"(?P<season>春|夏|秋|冬)?(?P<month>正|[一二三四
 
 @dataclass
 class DateMatch:
-    at: int                 # character offset in the input string
-    length: int             # length of the matched surface (era + year [+ month])
-    surface: str            # the matched substring
-    era: Era                # resolved Era record
-    era_year: int           # parsed Chinese era-year, e.g. 五 → 5
-    year_ad: int            # Gregorian AD year
+    """A resolved temporal reference. Used for both absolute and relative forms."""
+    at: int
+    length: int
+    surface: str
+    kind: str                       # "absolute" | "relative"
+    resolution: str                 # absolute | bare_year | bare_month | this_year | next_year | prev_year
+    year_ad: Optional[int]          # always set after successful resolution
+    era: Optional[Era] = None       # carry the resolved Era record (or None for cross-boundary 明年)
+    era_year: Optional[int] = None
     month_chinese: Optional[str] = None
-    month_ordinal: Optional[int] = None  # 1–12 if month captured
+    month_ordinal: Optional[int] = None
+
+
+@dataclass
+class TimelineState:
+    """Carries the most recent resolved reign-era position across segments."""
+    era: Optional[Era] = None
+    era_year: Optional[int] = None
+    year_ad: Optional[int] = None
+
+    def copy(self) -> "TimelineState":
+        return TimelineState(self.era, self.era_year, self.year_ad)
 
 
 def find_dates(text: str, *, book: str) -> list[DateMatch]:
-    """Scan `text` for absolute date references and return resolved DateMatch records.
-
-    Skips matches whose era is unknown or whose year is out of range — those are
-    likely false positives or eras outside our table (early Han, etc.).
-    """
+    """Scan `text` for absolute date references and return resolved DateMatch records."""
     results: list[DateMatch] = []
     for m in _DATE_RE.finditer(text):
         era_name = m.group(2)
@@ -191,7 +201,6 @@ def find_dates(text: str, *, book: str) -> list[DateMatch]:
         era = resolve_era(era_name, year_int, book=book)
         if era is None:
             continue
-        # Optional immediately-following month (e.g. "建安五年春正月")
         tail = text[m.end():]
         mm = _MONTH_RE.match(tail)
         if mm:
@@ -203,13 +212,201 @@ def find_dates(text: str, *, book: str) -> list[DateMatch]:
             month_ord = None
             surface = m.group(0)
         results.append(DateMatch(
-            at=m.start(),
-            length=len(surface),
-            surface=surface,
-            era=era,
-            era_year=year_int,
+            at=m.start(), length=len(surface), surface=surface,
+            kind="absolute", resolution="absolute",
             year_ad=to_ad(era, year_int),
-            month_chinese=month_chinese,
-            month_ordinal=month_ord,
+            era=era, era_year=year_int,
+            month_chinese=month_chinese, month_ordinal=month_ord,
         ))
     return results
+
+
+_BARE_YEAR_RE = re.compile(rf"({_YEAR_CHAR_CLASS}+)年")
+_THIS_YEAR_RE = re.compile(r"是歲|是年|其年")
+_NEXT_YEAR_RE = re.compile(r"明年")
+_PREV_YEAR_RE = re.compile(r"去年|前年")
+_BARE_MONTH_AT_RE = re.compile(r"(?:春|夏|秋|冬)?(?:正|[一二三四五六七八九十]+)月")
+
+
+def _try_attach_month(text: str, after_pos: int) -> tuple[Optional[str], Optional[int], int]:
+    """If a month token starts exactly at `after_pos`, return (surface, ordinal, length); else (None, None, 0)."""
+    mm = _BARE_MONTH_AT_RE.match(text, after_pos)
+    if not mm or mm.start() != after_pos:
+        return None, None, 0
+    inner = mm.group(0)
+    # extract the digit portion (after optional season prefix)
+    inner_match = re.match(r"(?:(?P<season>春|夏|秋|冬))?(?P<digits>正|[一二三四五六七八九十]+)月", inner)
+    digits = inner_match.group("digits") if inner_match else None
+    return inner, chinese_to_month(digits) if digits else None, len(inner)
+
+
+def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = None) -> tuple[list[DateMatch], TimelineState]:
+    """Find all temporal refs in segment text — absolute and relative — in document order.
+
+    `state` carries timeline context from previous segments; on return it reflects
+    the state after walking THIS segment so the caller can pass it to the next one.
+    Refs that cannot be resolved (e.g. bare year before any absolute anchor, or
+    bare year that doesn't fit the current era) are silently dropped.
+    """
+    state = state.copy() if state else TimelineState()
+
+    abs_matches = find_dates(text, book=book)
+    abs_ranges = [(m.at, m.at + m.length) for m in abs_matches]
+    def in_abs(pos: int) -> bool:
+        return any(s <= pos < e for s, e in abs_ranges)
+
+    candidates: list[tuple[int, int, str, dict]] = []  # (at, prio, kind_label, info)
+
+    for d in abs_matches:
+        candidates.append((d.at, 0, "absolute", {"match": d}))
+
+    # bare year (digits + 年), optional trailing month
+    for m in _BARE_YEAR_RE.finditer(text):
+        if in_abs(m.start()):
+            continue
+        year_int = chinese_to_int(m.group(1))
+        if year_int is None or year_int < 1:
+            continue
+        m_chinese, m_ord, m_len = _try_attach_month(text, m.end())
+        candidates.append((m.start(), 1, "bare_year", {
+            "year_int": year_int, "raw_surface": m.group(0) + (m_chinese or ""),
+            "length": len(m.group(0)) + m_len,
+            "month_chinese": m_chinese, "month_ordinal": m_ord,
+        }))
+
+    for m in _THIS_YEAR_RE.finditer(text):
+        if in_abs(m.start()):
+            continue
+        candidates.append((m.start(), 2, "this_year", {
+            "raw_surface": m.group(0), "length": len(m.group(0)),
+        }))
+
+    for m in _NEXT_YEAR_RE.finditer(text):
+        if in_abs(m.start()):
+            continue
+        m_chinese, m_ord, m_len = _try_attach_month(text, m.end())
+        candidates.append((m.start(), 3, "next_year", {
+            "raw_surface": m.group(0) + (m_chinese or ""),
+            "length": len(m.group(0)) + m_len,
+            "month_chinese": m_chinese, "month_ordinal": m_ord,
+        }))
+
+    for m in _PREV_YEAR_RE.finditer(text):
+        if in_abs(m.start()):
+            continue
+        candidates.append((m.start(), 4, "prev_year", {
+            "raw_surface": m.group(0), "length": len(m.group(0)),
+        }))
+
+    # Pre-collect positions that bare years already consume (absolute + bare_year ranges) so a later
+    # bare_month doesn't double-count a month already attached to the year.
+    consumed_by_year = set()
+    for at, _, kind, info in candidates:
+        if kind in ("absolute", "bare_year", "next_year"):
+            length = info["match"].length if kind == "absolute" else info["length"]
+            for i in range(at, at + length):
+                consumed_by_year.add(i)
+
+    for m in _BARE_MONTH_AT_RE.finditer(text):
+        if in_abs(m.start()):
+            continue
+        if m.start() in consumed_by_year:
+            continue
+        # If this month immediately follows a "年" character that we already captured as bare_year,
+        # the month is part of that bare year's surface — already handled.
+        if m.start() > 0 and text[m.start() - 1] == "年":
+            continue
+        digits_match = re.match(r"(?:(?P<season>春|夏|秋|冬))?(?P<digits>正|[一二三四五六七八九十]+)月", m.group(0))
+        digits = digits_match.group("digits") if digits_match else None
+        month_ord = chinese_to_month(digits) if digits else None
+        if month_ord is None:
+            continue
+        candidates.append((m.start(), 5, "bare_month", {
+            "raw_surface": m.group(0), "length": len(m.group(0)),
+            "month_chinese": m.group(0), "month_ordinal": month_ord,
+        }))
+
+    candidates.sort(key=lambda c: (c[0], c[1]))
+
+    out: list[DateMatch] = []
+    for at, _, kind, info in candidates:
+        if kind == "absolute":
+            d = info["match"]
+            out.append(d)
+            state = TimelineState(era=d.era, era_year=d.era_year, year_ad=d.year_ad)
+            continue
+
+        if kind == "bare_year":
+            if state.era is None:
+                continue
+            year_int = info["year_int"]
+            era_length = state.era.end_ad - state.era.start_ad + 1
+            if year_int > era_length:
+                continue
+            year_ad = state.era.start_ad + year_int - 1
+            out.append(DateMatch(
+                at=at, length=info["length"], surface=info["raw_surface"],
+                kind="relative", resolution="bare_year",
+                year_ad=year_ad, era=state.era, era_year=year_int,
+                month_chinese=info.get("month_chinese"),
+                month_ordinal=info.get("month_ordinal"),
+            ))
+            state = TimelineState(era=state.era, era_year=year_int, year_ad=year_ad)
+
+        elif kind == "this_year":
+            if state.year_ad is None:
+                continue
+            out.append(DateMatch(
+                at=at, length=info["length"], surface=info["raw_surface"],
+                kind="relative", resolution="this_year",
+                year_ad=state.year_ad, era=state.era, era_year=state.era_year,
+            ))
+
+        elif kind == "next_year":
+            if state.year_ad is None:
+                continue
+            new_year_ad = state.year_ad + 1
+            new_era = state.era
+            new_era_year = None
+            if new_era and new_era.start_ad <= new_year_ad <= new_era.end_ad:
+                new_era_year = new_year_ad - new_era.start_ad + 1
+            else:
+                new_era = None
+            out.append(DateMatch(
+                at=at, length=info["length"], surface=info["raw_surface"],
+                kind="relative", resolution="next_year",
+                year_ad=new_year_ad, era=new_era, era_year=new_era_year,
+                month_chinese=info.get("month_chinese"),
+                month_ordinal=info.get("month_ordinal"),
+            ))
+            state = TimelineState(era=new_era, era_year=new_era_year, year_ad=new_year_ad)
+
+        elif kind == "prev_year":
+            if state.year_ad is None:
+                continue
+            new_year_ad = state.year_ad - 1
+            new_era = state.era
+            new_era_year = None
+            if new_era and new_era.start_ad <= new_year_ad <= new_era.end_ad:
+                new_era_year = new_year_ad - new_era.start_ad + 1
+            else:
+                new_era = None
+            out.append(DateMatch(
+                at=at, length=info["length"], surface=info["raw_surface"],
+                kind="relative", resolution="prev_year",
+                year_ad=new_year_ad, era=new_era, era_year=new_era_year,
+            ))
+            # don't update state; 去年 is a backward reference, not a forward move
+
+        elif kind == "bare_month":
+            if state.year_ad is None:
+                continue
+            out.append(DateMatch(
+                at=at, length=info["length"], surface=info["raw_surface"],
+                kind="relative", resolution="bare_month",
+                year_ad=state.year_ad, era=state.era, era_year=state.era_year,
+                month_chinese=info["month_chinese"],
+                month_ordinal=info["month_ordinal"],
+            ))
+
+    return out, state

@@ -23,9 +23,22 @@ annotations:
   length: 4
   type: temporal
   text: 青龍二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 青龍
   era_year: 2
+- id: wei.25.p9.t2
+  anchor: wei.25.p9
+  at: 36
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 234
+  era: 青龍
+  era_year: 2
 - id: wei.25.p9.a1
   anchor: wei.25.p9
   at: 72
@@ -44,6 +57,32 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：阜少與同郡尹奉次曾、趙昂偉章俱發名，偉章、次曾與阜俱爲涼州從事。
+- id: wei.25.p11.t1
+  anchor: wei.25.p11
+  at: 201
+  length: 2
+  type: temporal
+  text: 正月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 青龍
+  era_year: 2
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.25.p11.t2
+  anchor: wei.25.p11
+  at: 204
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 234
+  era: 青龍
+  era_year: 2
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.25.p13.a1
   anchor: wei.25.p13
   at: 160
@@ -62,24 +101,50 @@ annotations:
   length: 5
   type: temporal
   text: 建安十八年
+  kind: absolute
+  resolution: absolute
+  year_ad: 213
   era: 建安
   era_year: 18
-  year_ad: 213
 - id: wei.25.p24.a1
   anchor: wei.25.p24
   at: 211
   length: 0
   type: pei
   text: 《魏略》曰：太史上漢歷不及天時，因更推步弦望朔晦，爲太和歷。帝以隆學問優深，於天文又精，乃詔使隆與尚書郎楊偉、太史待詔駱祿參共推校。偉、祿是太史，隆故據舊歷更相劾奏，紛紜數歲，偉稱祿得日蝕而月晦不盡，隆不得日蝕而月晦盡，詔從太史。隆所爭雖不得，而遠近猶知其精微也。
+- id: wei.25.p27.t1
+  anchor: wei.25.p27
+  at: 143
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
+- id: wei.25.p32.t1
+  anchor: wei.25.p32
+  at: 0
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.25.p33.t1
   anchor: wei.25.p33
   at: 340
   length: 7
   type: temporal
   text: 青龍五年春三月
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 青龍
   era_year: 5
-  year_ad: 237
   month_chinese: 春三月
   month_ordinal: 3
 - id: wei.25.p33.t2
@@ -88,9 +153,24 @@ annotations:
   length: 4
   type: temporal
   text: 景初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 景初
   era_year: 1
+- id: wei.25.p33.t3
+  anchor: wei.25.p33
+  at: 353
+  length: 3
+  type: temporal
+  text: 夏四月
+  kind: relative
+  resolution: bare_month
   year_ad: 237
+  era: 景初
+  era_year: 1
+  month_chinese: 夏四月
+  month_ordinal: 4
 - id: wei.25.p40.a1
   anchor: wei.25.p40
   at: 207

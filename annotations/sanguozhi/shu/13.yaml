@@ -29,15 +29,28 @@ annotations:
   length: 5
   type: temporal
   text: 蜀延熙二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 239
   era: 延熙
   era_year: 2
-  year_ad: 239
 - id: shu.13.p3.a1
   anchor: shu.13.p3
   at: 110
   length: 0
   type: pei
   text: 《蜀記》曰：魏明帝問權：「天下鼎立，當以何地為正？」權對曰：「當以天文為正。往者熒惑守心而文皇帝崩，吳、蜀二主平安，此其徵也。」
+- id: shu.13.p3.t2
+  anchor: shu.13.p3
+  at: 110
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 240
+  era: 延熙
+  era_year: 3
 - id: shu.13.p4.a1
   anchor: shu.13.p4
   at: 55
@@ -50,9 +63,11 @@ annotations:
   length: 4
   type: temporal
   text: 章武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 章武
   era_year: 1
-  year_ad: 221
 - id: shu.13.p4.a2
   anchor: shu.13.p4
   at: 325
@@ -65,9 +80,22 @@ annotations:
   length: 4
   type: temporal
   text: 建興七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 建興
   era_year: 7
-  year_ad: 229
+- id: shu.13.p6.t2
+  anchor: shu.13.p6
+  at: 116
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
 - id: shu.13.p7.a1
   anchor: shu.13.p7
   at: 13
@@ -86,18 +114,88 @@ annotations:
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 建興
   era_year: 1
-  year_ad: 223
 - id: shu.13.p11.t2
+  anchor: shu.13.p11
+  at: 139
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 建興
+  era_year: 3
+- id: shu.13.p11.t3
+  anchor: shu.13.p11
+  at: 175
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 建興
+  era_year: 8
+- id: shu.13.p11.t4
+  anchor: shu.13.p11
+  at: 203
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
+- id: shu.13.p11.t5
+  anchor: shu.13.p11
+  at: 237
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 233
+  era: 建興
+  era_year: 11
+- id: shu.13.p11.t6
   anchor: shu.13.p11
   at: 374
   length: 4
   type: temporal
   text: 延熙五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 242
   era: 延熙
   era_year: 5
-  year_ad: 242
+- id: shu.13.p11.t7
+  anchor: shu.13.p11
+  at: 406
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 延熙
+  era_year: 7
+- id: shu.13.p11.t8
+  anchor: shu.13.p11
+  at: 438
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 249
+  era: 延熙
+  era_year: 12
 - id: shu.13.p11.a1
   anchor: shu.13.p11
   at: 447
@@ -116,18 +214,88 @@ annotations:
   length: 4
   type: temporal
   text: 建興六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 建興
   era_year: 6
-  year_ad: 228
+- id: shu.13.p12.t2
+  anchor: shu.13.p12
+  at: 203
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
 - id: shu.13.p13.t1
+  anchor: shu.13.p13
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
+- id: shu.13.p13.t2
+  anchor: shu.13.p13
+  at: 58
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 237
+  era: 建興
+  era_year: 15
+- id: shu.13.p13.t3
   anchor: shu.13.p13
   at: 74
   length: 4
   type: temporal
   text: 延熙元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 延熙
   era_year: 1
-  year_ad: 238
+- id: shu.13.p13.t4
+  anchor: shu.13.p13
+  at: 100
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 243
+  era: 延熙
+  era_year: 6
+- id: shu.13.p14.t1
+  anchor: shu.13.p14
+  at: 0
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 244
+  era: 延熙
+  era_year: 7
+- id: shu.13.p15.t1
+  anchor: shu.13.p15
+  at: 106
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 248
+  era: 延熙
+  era_year: 11
 - id: shu.13.p16.a1
   anchor: shu.13.p16
   at: 8
@@ -152,30 +320,78 @@ annotations:
   length: 4
   type: temporal
   text: 建興五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 227
   era: 建興
   era_year: 5
-  year_ad: 227
 - id: shu.13.p17.a2
   anchor: shu.13.p17
   at: 286
   length: 0
   type: pei
   text: 《益部耆舊傳》曰：嶷受兵馬三百人，隨馬忠討叛羌。嶷別督數營在先，至他裡。邑所在高峻，嶷隨山立上四五里。羌於要厄作石門，於門上施床，積石於其上，過者下石槌擊之，無不糜爛。嶷度不可得攻，乃使譯告曉之曰：「汝汶山諸種反叛，傷害良善，天子命將討滅惡類。汝等若稽顙過軍，資給糧費，福祿永隆，其報百倍。若終不從，大兵致誅，雷擊電下，雖追悔之，亦無益也。」耆帥得命，即出詣嶷，給糧過軍。軍前討餘種，餘種聞他裡已下，悉恐怖失所，或迎軍出降，或奔竄山谷，放兵攻擊，軍以克捷。後南夷劉冑又反，以馬忠為督庲降討冑，嶷复屬焉，戰鬥常冠軍首，遂斬冑。平南事訖，牂牁興古獠種復反，忠令嶷領諸營往討，嶷內招降得二千人，悉傳詣漢中。
+- id: shu.13.p18.t1
+  anchor: shu.13.p18
+  at: 0
+  length: 3
+  type: temporal
+  text: 十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 236
+  era: 建興
+  era_year: 14
+- id: shu.13.p19.t1
+  anchor: shu.13.p19
+  at: 145
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 建興
+  era_year: 3
+- id: shu.13.p26.t1
+  anchor: shu.13.p26
+  at: 2
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 237
+  era: 建興
+  era_year: 15
 - id: shu.13.p26.a1
   anchor: shu.13.p26
   at: 99
   length: 0
   type: pei
   text: 《益部耆舊傳》曰：時車騎將軍夏侯霸謂嶷曰：「雖與足下疏闊，然託心如舊，宜明此意。」嶷答曰：「僕未知子，子未知我，大道在彼，何云託心乎！原三年之後徐陳斯言。」有識之士以為美談。
-- id: shu.13.p26.t1
+- id: shu.13.p26.t2
+  anchor: shu.13.p26
+  at: 99
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 237
+  era: 建興
+  era_year: 15
+- id: shu.13.p26.t3
   anchor: shu.13.p26
   at: 101
   length: 5
   type: temporal
   text: 延熙十七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 延熙
   era_year: 17
-  year_ad: 254
 - id: shu.13.p26.a2
   anchor: shu.13.p26
   at: 136

@@ -77,9 +77,11 @@ annotations:
   length: 6
   type: temporal
   text: 初平元年二月
+  kind: absolute
+  resolution: absolute
+  year_ad: 190
   era: 初平
   era_year: 1
-  year_ad: 190
   month_chinese: 二月
   month_ordinal: 2
 - id: wei.6.p6.a1
@@ -130,6 +132,19 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：卓使司隷校尉劉嚻籍吏民有爲子不孝，爲臣不忠，爲吏不清，爲弟不順，有應此者皆身誅，財物沒官。於是愛憎互起，民多冤死。
+- id: wei.6.p7.t1
+  anchor: wei.6.p7
+  at: 0
+  length: 4
+  type: temporal
+  text: 三年四月
+  kind: relative
+  resolution: bare_year
+  year_ad: 192
+  era: 初平
+  era_year: 3
+  month_chinese: 四月
+  month_ordinal: 4
 - id: wei.6.p7.a1
   anchor: wei.6.p7
   at: 129
@@ -166,6 +181,28 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》曰：傕，北地人。汜，張掖人，一名多。
+- id: wei.6.p10.t1
+  anchor: wei.6.p10
+  at: 0
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 192
+  era: 初平
+  era_year: 3
+- id: wei.6.p10.t2
+  anchor: wei.6.p10
+  at: 144
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 191
+  era: 初平
+  era_year: 2
 - id: wei.6.p10.a1
   anchor: wei.6.p10
   at: 153
@@ -238,15 +275,28 @@ annotations:
   length: 4
   type: temporal
   text: 建安二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 197
   era: 建安
   era_year: 2
-  year_ad: 197
 - id: wei.6.p13.a2
   anchor: wei.6.p13
   at: 68
   length: 0
   type: pei
   text: 《典略》曰：傕頭至，有詔高縣。
+- id: wei.6.p13.t2
+  anchor: wei.6.p13
+  at: 148
+  length: 3
+  type: temporal
+  text: 十六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 211
+  era: 建安
+  era_year: 16
 - id: wei.6.p14.a1
   anchor: wei.6.p14
   at: 41
@@ -283,6 +333,17 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》曰：逢紀說紹曰：「將軍舉大事而仰人資給，不據一州，無以自全。」紹荅云：「冀州兵彊，吾士饑乏，設不能辦，無所容立。」紀曰：「可與公孫瓚相聞，導使來南，擊取冀州。公孫必至而馥懼矣，因使說利害，爲陳禍福，馥必遜讓。於此之際，可據其位。」紹從其言而瓚果來。
+- id: wei.6.p17.t1
+  anchor: wei.6.p17
+  at: 363
+  length: 2
+  type: temporal
+  text: 十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 205
+  era: 建安
+  era_year: 10
 - id: wei.6.p17.a2
   anchor: wei.6.p17
   at: 466
@@ -355,9 +416,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 200
   era: 建安
   era_year: 5
-  year_ad: 200
 - id: wei.6.p20.a1
   anchor: wei.6.p20
   at: 121
@@ -394,12 +457,34 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝傳》云：授大呼曰：「授不降也，爲軍所執耳！」太祖與之有舊，逆謂授曰：「分野殊異，遂用圮絕，不圖今日乃相禽也！」授對曰：「冀州失策，以取奔北。授智力俱困，宜其見禽耳。」太祖曰：「本初無謀，不用君計，今喪亂過紀，國家未定，當相與圖之。」授曰：「叔父、母、弟，縣命袁氏，若蒙公靈，速死爲福。」太祖歎曰：「孤早相得，天下不足慮。」
+- id: wei.6.p22.t1
+  anchor: wei.6.p22
+  at: 124
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 197
+  era: 建安
+  era_year: 2
 - id: wei.6.p22.a1
   anchor: wei.6.p22
   at: 245
   length: 0
   type: pei
   text: 《先賢行狀》曰：豐字元皓，鉅鹿人，或云勃海人。豐天姿瓌傑，權略多奇，少喪親，居喪盡哀，日月雖過，笑不至矧。博覽多識，名重州黨。初辟太尉府，舉茂才，遷侍御史。閹宦擅朝，英賢被害，豐乃棄官歸家。袁紹起義，卑辭厚幣以招致豐，豐以王室多難，志存匡救，乃應紹命，以爲別駕。勸紹迎天子，紹不納。紹後用豐謀，以平公孫瓚。逢紀憚豐亮直，數讒之於紹，紹遂忌豐。紹軍之敗也，土崩奔北，師徒略盡，軍皆拊膺而泣曰：「向令田豐在此，不至於是也。」紹謂逢紀曰：「冀州人聞吾軍敗，皆當念吾，唯田別駕前諫止吾，與衆不同，吾亦慙見之。」紀復曰：「豐聞將軍之退，拊手大笑，喜其言之中也。」紹於是有害豐之意。初，太祖聞豐不從戎，喜曰：「紹必敗矣。」及紹奔遁，復曰：「向使紹用田別駕計，尚未可知也。」孫盛曰：觀田豐、沮授之謀，雖良、平何以過之？故君貴審才，臣尚量主；君用忠良，則霸王之業隆，臣奉闇后，則覆亡之禍至：存亡榮辱，常必由茲。豐知紹將敗，敗則己必死，甘冒虎口以盡忠規，烈士之於所事，慮不存己。夫諸侯之臣，義有去就，況豐與紹非純臣乎！詩云「逝將去汝，適彼樂土」，言去亂邦，就有道可也。
+- id: wei.6.p23.t1
+  anchor: wei.6.p23
+  at: 20
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 202
+  era: 建安
+  era_year: 7
 - id: wei.6.p24.a1
   anchor: wei.6.p24
   at: 17
@@ -412,24 +497,137 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》曰：紀字元圖。初，紹去董卓出奔，與許攸及紀俱詣冀州，紹以紀聦達有計策，甚親信之，與共舉事。後審配任用，與紀不睦。或有讒配於紹，紹問紀，紀稱「配天性烈直，古人之節，不宜疑之」。紹曰：「君不惡之邪？」紀荅曰：「先日所爭者私情，今所陳者國事。」紹善之，卒不廢配。配由是更與紀爲親善。
+- id: wei.6.p24.t1
+  anchor: wei.6.p24
+  at: 194
+  length: 2
+  type: temporal
+  text: 二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 二月
+  month_ordinal: 2
+- id: wei.6.p24.t2
+  anchor: wei.6.p24
+  at: 197
+  length: 2
+  type: temporal
+  text: 九月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 九月
+  month_ordinal: 9
+- id: wei.6.p24.t3
+  anchor: wei.6.p24
+  at: 291
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wei.6.p24.a3
   anchor: wei.6.p24
   at: 297
   length: 0
   type: pei
   text: 《魏氏春秋》載劉表遺譚書曰：「天篤降害，禍難殷流，尊公殂殞，四海悼心。賢胤承統，遐邇屬望，咸欲展布旅力，以投盟主，雖亡之日，猶存之願也。何寤青蠅飛於干旍，無極游於二壘，使股肱分爲二體，背膂絕爲異身！昔三王五伯，下及戰國，父子相殘，蓋有之矣；然或欲以成王業，或欲以定伯功，或欲以顯宗主，或欲以固冢嗣，未有棄親即異，抏其本根，而能崇業濟功，垂祚後世者也。若齊襄復九世之讎，士匄卒荀偃之事，是故春秋美其義，君子稱其信。夫伯游之恨於齊，未若太公之忿曹；宣子之承業，未若仁君之繼統也。且君子之違難不適讎國，豈可忘先君之怨，棄至親之好，爲萬世之戒，遺同盟之恥哉！冀州不弟之慠，旣已然矣；仁君當降志辱身，以匡國爲務；雖見憎於夫人，未若鄭莊之於姜氏，兄弟之嫌，未若重華之於象傲也。然莊公有大隧之樂，象受有鼻之封。願棄捐前忿，遠思舊義，復爲母子昆弟如初。」又遺尚書曰：「知變起辛、郭，禍結同生，追閼伯、實沈之蹤，忘常棣死喪之義，親尋干戈，僵尸流血，聞之哽咽，雖存若亡。昔軒轅有涿鹿之戰，周武有商、奄之師，皆所以翦除穢害而定王業，非彊弱之事爭，喜怒之忿也。故雖滅親不爲尤，誅兄不傷義。今二君初承洪業，纂繼前軌，進有國家傾危之慮，退有先公遺恨之負，當唯義是務，唯國是康。何者？金木水火以剛柔相濟，然後克得其和，能爲民用。今青州天性峭急，迷於曲直。仁君度數弘廣，綽然有餘，當以大包小，以優容劣，先除曹操以卒先公之恨，事定之後，乃議曲直之計，不亦善乎！若留神遠圖，克己復禮，當振斾長驅，共獎王室，若迷而不反，違而無改，則胡夷將有誚讓之言，況我同盟，復能戮力爲君之役哉？此韓盧、東郭自困於前而遺田父之獲者也。憤踊鶴望，冀聞和同之聲。若其泰也，則袁族其與漢升降乎！如其否也，則同盟永無望矣。」譚、尚盡不從。《漢晉春秋》載審配獻書於譚曰：「春秋之義，國君死社稷，忠臣死王命。苟有圖危宗廟，敗亂國家，王綱典律，親踈一也。是以周公垂泣而蔽管、蔡之獄，季友歔欷而行鍼叔之鴆。何則？義重人輕，事不得已也。昔衞靈公廢蒯聵而立輙，蒯聵爲不道，入戚以篡，衞師伐之。春秋傳曰：『以石曼姑之義，爲可以拒之。』是以蒯聵終獲叛逆之罪，而曼姑永享忠臣之名。父子猶然，豈況兄弟乎！昔先公廢絀將軍以續賢兄，立我將軍以爲適嗣，上告祖靈，下書譜牒，先公謂將軍爲兄子，將軍謂先公爲叔父，海內遠近，誰不備聞？且先公即世之日，我將軍斬衰居廬，而將軍齋于堊室，出入之分，於斯益明。是時凶臣逢紀，妄畫蛇足，曲辭諂媚，交亂懿親，將軍奮赫然之怒，誅不旋時，我將軍亦奉命承旨，加以淫刑。自是之後，癰疽破潰，骨肉無絲髮之嫌，自疑之臣，皆保生全之福。故悉遣彊胡，簡命名將，料整器械，選擇戰士，殫府庫之財，竭食土之實，其所以供奉將軍，何求而不備？君臣相率，共衞旌麾，戰爲鴈行，賦爲幣主，雖傾倉覆庫，翦剥民物，上下欣戴，莫敢告勞。何則？推戀戀忠赤之情，盡家家肝腦之計，脣齒輔車，不相爲賜。謂爲將軍心合意同，混齊一體，必當并威偶勢，禦寇寧家。何圖凶險讒慝之人，造飾無端，誘導姦利，至令將軍翻然改圖，忘孝友之仁，聽豺狼之謀，誣先公廢立之言，違近者在喪之位，悖紀綱之理，不顧逆順之節，橫易冀州之主，欲當先公之繼。遂放兵鈔撥，屠城殺吏，交尸盈原，裸民滿野，或有髠𩮜髮膚，割截支體，冤魂痛於幽冥，創痍號於草棘。又乃圖獲鄴城，許賜秦、胡財物婦女，豫有分界。或聞告令吏士云：『孤雖有老母，輙使身體完具而已。』聞此言者，莫不驚愕失氣，悼心揮涕，使太夫人憂哀憤懣於堂室，我州君臣士友假寐悲歎，無所措其手足；念欲靜師拱默以聽執事之圖，則懼違春秋死命之節，貽太夫人不測之患，隕先公高世之業。且三軍憤慨，人懷私怒，我將軍辭不獲已，以及館陶之役。是時外爲禦難，內實乞罪，旣不見赦，而屠各二三其心，臨陣叛戾。我將軍進退無功，首尾受敵，引軍奔避，不敢告辭。亦謂將軍當少垂親親之仁，貺以緩追之惠，而乃尋蹤躡軌，無所逃命。困獸必鬬，以干嚴行，而將軍師旅土崩瓦解，此非人力，乃天意也。是後又望將軍改往修來，克己復禮，追還孔懷如初之愛；而縱情肆怒，趣破家門，企踵鶴立，連結外讎，散鋒於火，播增毒螫，烽煙相望，涉血千里，遺城厄民，引領悲怨，雖欲勿救，惡得已哉！故遂引軍東轅，保正疆埸，雖近郊壘，未侵境域，然望旌麾，能不永歎？配等備先公家臣，奉廢立之命。而圖等干國亂家，禮有常刑。故奮弊州之賦，以除將軍之疾，若乃天啟于心，早行其誅，則我將軍匍匐悲號於將軍股掌之上，配等亦袒躬布體以待斧鉞之刑。若必不悛，有以國斃，圖頭不縣，軍不旋踵。願將軍詳度事宜，錫以環玦。」《典略》曰：譚得書悵然，登城而泣。旣劫於郭圖，亦以兵鋒累交，遂戰不解。
+- id: wei.6.p25.t1
+  anchor: wei.6.p25
+  at: 191
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wei.6.p25.t2
+  anchor: wei.6.p25
+  at: 194
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.6.p25.a1
   anchor: wei.6.p25
   at: 417
   length: 0
   type: pei
   text: 《先賢行狀》曰：配字正南，魏郡人，少忠烈慷慨，有不可犯之節。袁紹領冀州，委以腹心之任，以爲治中別駕，并總幕府。初，譚之去，皆呼辛毗、郭圖家得出，而辛評家獨被收。及配兄子開城門內兵，時配在城東南角樓上，望見太祖兵入，忿辛、郭壞敗冀州，乃遣人馳詣鄴獄，指殺仲治家。是時，辛毗在軍，聞門開，馳走詣獄，欲解其兄家，兄家已死。是日生縛配，將詣帳下，辛毗等逆以馬鞭擊其頭，罵之曰：「奴，汝今日真死矣！」配顧曰：「狗輩，正由汝曹破我冀州，恨不得殺汝也！且汝今日能殺生我邪？」有頃，公引見，謂配：「知誰開卿城門？」配曰：「不知也。」曰：「自卿子榮耳。」配曰：「小兒不足用乃至此！」公復謂曰：「曩日孤之行圍，何弩之多也？」配曰：「恨其少耳！」公曰：「卿忠於袁氏父子，亦自不得不爾也。」有意欲活之。配旣無撓辭，而辛毗等號哭不已，乃殺之。初，冀州人張子謙先降，素與配不善，笑謂配曰：「正南，卿竟何如我？」配厲聲曰：「汝爲降虜，審配爲忠臣，雖死，豈若汝生邪！」臨行刑，叱持兵者令北向，曰：「我君在北。」樂資《山陽公載記》及袁暐《獻帝春秋》並云太祖兵入城，審配戰於門中，旣敗，逃于井中，於井獲之。臣松之以爲配一代之烈士，袁氏之死臣，豈當數窮之日，方逃身於井，此之難信，誠爲易了。不知資、暐之徒竟爲何人，未能識別然否，而輕弄翰墨，妄生異端，以行其書。如此之類，正足以誣罔視聽，疑誤後生矣。寔史籍之罪人，達學之所不取者也。
+- id: wei.6.p26.t1
+  anchor: wei.6.p26
+  at: 62
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 202
+  era: 建安
+  era_year: 7
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wei.6.p26.t2
+  anchor: wei.6.p26
+  at: 88
+  length: 4
+  type: temporal
+  text: 十年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 205
+  era: 建安
+  era_year: 10
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.6.p26.t3
+  anchor: wei.6.p26
+  at: 299
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 206
+  era: 建安
+  era_year: 11
 - id: wei.6.p26.a1
   anchor: wei.6.p26
   at: 353
   length: 0
   type: pei
   text: 《典略》曰：上洛都尉王琰獲高幹，以功封侯；其妻哭於室，以爲琰富貴將更娶妾媵而奪己愛故也。
+- id: wei.6.p26.t4
+  anchor: wei.6.p26
+  at: 353
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 207
+  era: 建安
+  era_year: 12
 - id: wei.6.p26.a2
   anchor: wei.6.p26
   at: 393
@@ -466,9 +664,11 @@ annotations:
   length: 4
   type: temporal
   text: 興平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 195
   era: 興平
   era_year: 2
-  year_ad: 195
 - id: wei.6.p29.a1
   anchor: wei.6.p29
   at: 147
@@ -535,9 +735,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 208
   era: 建安
   era_year: 13
-  year_ad: 208
 - id: wei.6.p34.a1
   anchor: wei.6.p34
   at: 52

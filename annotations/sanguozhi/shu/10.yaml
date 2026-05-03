@@ -11,9 +11,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
 - id: shu.10.p2.a1
   anchor: shu.10.p2
   at: 270
@@ -62,9 +64,22 @@ annotations:
   length: 5
   type: temporal
   text: 建安二十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 215
   era: 建安
   era_year: 20
-  year_ad: 215
+- id: shu.10.p14.t2
+  anchor: shu.10.p14
+  at: 138
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
 - id: shu.10.p17.a1
   anchor: shu.10.p17
   at: 141
@@ -77,9 +92,22 @@ annotations:
   length: 5
   type: temporal
   text: 建安十八年
+  kind: absolute
+  resolution: absolute
+  year_ad: 213
   era: 建安
   era_year: 18
-  year_ad: 213
+- id: shu.10.p18.t2
+  anchor: shu.10.p18
+  at: 113
+  length: 4
+  type: temporal
+  text: 二十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 218
+  era: 建安
+  era_year: 23
 - id: shu.10.p18.a1
   anchor: shu.10.p18
   at: 131
@@ -92,24 +120,94 @@ annotations:
   length: 4
   type: temporal
   text: 章武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 章武
   era_year: 2
-  year_ad: 222
 - id: shu.10.p19.t2
+  anchor: shu.10.p19
+  at: 19
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 章武
+  era_year: 3
+- id: shu.10.p19.t3
   anchor: shu.10.p19
   at: 58
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 建興
   era_year: 1
-  year_ad: 223
+- id: shu.10.p19.t4
+  anchor: shu.10.p19
+  at: 76
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 226
+  era: 建興
+  era_year: 4
 - id: shu.10.p19.a1
   anchor: shu.10.p19
   at: 179
   length: 0
   type: pei
   text: 諸葛亮集有嚴與亮書，勸亮宜受九錫，進爵稱王。亮答書曰：「吾與足下相知久矣，可不復相解！足下方誨以光國，戒之以勿拘之道，是以未得默已。吾本東方下士，誤用於先帝，位極人臣，祿賜百億，今討賊未效，知己未答，而方寵齊、晉，坐自貴大，非其義也。若滅魏斬叡，帝還故居，與諸子併升，雖十命可受，況於九邪！」
+- id: shu.10.p19.t5
+  anchor: shu.10.p19
+  at: 179
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 建興
+  era_year: 8
+- id: shu.10.p19.t6
+  anchor: shu.10.p19
+  at: 229
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
+- id: shu.10.p20.t1
+  anchor: shu.10.p20
+  at: 0
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 231
+  era: 建興
+  era_year: 9
+- id: shu.10.p20.t2
+  anchor: shu.10.p20
+  at: 216
+  length: 2
+  type: temporal
+  text: 去年
+  kind: relative
+  resolution: prev_year
+  year_ad: 230
+  era: 建興
+  era_year: 8
 - id: shu.10.p20.a1
   anchor: shu.10.p20
   at: 368
@@ -122,6 +220,17 @@ annotations:
   length: 0
   type: pei
   text: 諸葛亮又與平子豐教曰：「吾與君父子戮力以獎漢室，此神明所聞，非但人知之也。表都護典漢中，委君於東關者，不與人議也。謂至心感動，終始可保，何圖中乖乎！昔楚卿屢絀，亦乃克復，思道則福，應自然之數也。原寬慰都護，勤追前闕。今雖解任，形業失故，奴婢賓客百數十人，君以中郎參軍居府，方之氣類，猶為上家。若都護思負一意，君與公琰推心從事者，否可複通，逝可複還也。詳思斯戒，明吾用心，臨書長嘆，涕泣而已。」
+- id: shu.10.p21.t1
+  anchor: shu.10.p21
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
 - id: shu.10.p21.a1
   anchor: shu.10.p21
   at: 34
@@ -140,24 +249,74 @@ annotations:
   length: 4
   type: temporal
   text: 建興十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 建興
   era_year: 10
-  year_ad: 232
+- id: shu.10.p23.t1
+  anchor: shu.10.p23
+  at: 6
+  length: 5
+  type: temporal
+  text: 十二年正月
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
+  month_chinese: 正月
+  month_ordinal: 1
 - id: shu.10.p24.t1
   anchor: shu.10.p24
   at: 181
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 建興
   era_year: 1
-  year_ad: 223
+- id: shu.10.p24.t2
+  anchor: shu.10.p24
+  at: 191
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 建興
+  era_year: 5
+- id: shu.10.p24.t3
+  anchor: shu.10.p24
+  at: 220
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 建興
+  era_year: 8
 - id: shu.10.p25.a1
   anchor: shu.10.p25
   at: 50
   length: 0
   type: pei
   text: 魏略曰：「夏侯楙爲安西將軍，鎮長安，亮於南鄭與群下計議，延曰：『聞夏侯楙少，主婿也，怯而無謀。今假延精兵五千，負糧五千，直從褒中出，循秦嶺而東，當子午而北，不過十日可到長安。楙聞延奄至，必乘船逃走。長安中惟有御史、京兆太守耳，橫門邸閣與散民之穀足週食也。比東方相合聚，尚二十許日，而公從斜谷來，必足以達。如此，則一舉而咸陽以西可定矣。』亮以爲此縣危，不如安從坦道，可以平取隴右，十全必克而無虞，故不用延計。」
+- id: shu.10.p25.t1
+  anchor: shu.10.p25
+  at: 93
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
 - id: shu.10.p26.a1
   anchor: shu.10.p26
   at: 518
@@ -170,9 +329,55 @@ annotations:
   length: 4
   type: temporal
   text: 建興三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 225
   era: 建興
   era_year: 3
-  year_ad: 225
+- id: shu.10.p27.t2
+  anchor: shu.10.p27
+  at: 143
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 建興
+  era_year: 5
+- id: shu.10.p27.t3
+  anchor: shu.10.p27
+  at: 151
+  length: 2
+  type: temporal
+  text: 八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 建興
+  era_year: 8
+- id: shu.10.p27.t4
+  anchor: shu.10.p27
+  at: 232
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
+- id: shu.10.p28.t1
+  anchor: shu.10.p28
+  at: 152
+  length: 3
+  type: temporal
+  text: 十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 235
+  era: 建興
+  era_year: 13
 - id: shu.10.p28.a1
   anchor: shu.10.p28
   at: 198

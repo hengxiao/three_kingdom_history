@@ -47,9 +47,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 212
   era: 建安
   era_year: 17
-  year_ad: 212
 - id: wei.11.p9.a1
   anchor: wei.11.p9
   at: 75
@@ -80,6 +82,17 @@ annotations:
   length: 0
   type: pei
   text: 王沈《魏書》曰：淵篤學好古，在遼東，常講學於山巖，士人多推慕之，由此知名。
+- id: wei.11.p10.t1
+  anchor: wei.11.p10
+  at: 98
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
 - id: wei.11.p11.a1
   anchor: wei.11.p11
   at: 202
@@ -92,9 +105,11 @@ annotations:
   length: 4
   type: temporal
   text: 初平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 190
   era: 初平
   era_year: 1
-  year_ad: 190
 - id: wei.11.p13.a1
   anchor: wei.11.p13
   at: 0
@@ -107,9 +122,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 207
   era: 建安
   era_year: 12
-  year_ad: 207
 - id: wei.11.p15.a1
   anchor: wei.11.p15
   at: 502
@@ -170,6 +187,17 @@ annotations:
   length: 0
   type: pei
   text: 《魏氏春秋》曰：政投原曰：「窮鳥入懷。」原曰：「安知此懷之可入邪？」
+- id: wei.11.p22.t1
+  anchor: wei.11.p22
+  at: 131
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 196
+  era: 建安
+  era_year: 1
 - id: wei.11.p23.a1
   anchor: wei.11.p23
   at: 107
@@ -212,9 +240,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
 - id: wei.11.p28.a1
   anchor: wei.11.p28
   at: 103
@@ -239,6 +269,58 @@ annotations:
   length: 0
   type: pei
   text: 《尚書·君奭》曰：「耇造德不降，我則鳴鳥不聞，矧曰其有能格。」鄭玄曰：「耇，老也。造，成也。詩云：『小子有造。』老成德之人，不降志與我並在位，則鳴鳥之聲不得聞，況乃曰有能德格於天者乎！言必無也。鳴鳥謂鳳也。」
+- id: wei.11.p28.t2
+  anchor: wei.11.p28
+  at: 613
+  length: 5
+  type: temporal
+  text: 元年十一月
+  kind: relative
+  resolution: bare_year
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 十一月
+  month_ordinal: 11
+- id: wei.11.p28.t3
+  anchor: wei.11.p28
+  at: 629
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wei.11.p28.t4
+  anchor: wei.11.p28
+  at: 737
+  length: 5
+  type: temporal
+  text: 三年十二月
+  kind: relative
+  resolution: bare_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wei.11.p29.t1
+  anchor: wei.11.p29
+  at: 15
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.11.p29.a1
   anchor: wei.11.p29
   at: 247
@@ -251,18 +333,22 @@ annotations:
   length: 4
   type: temporal
   text: 正始二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 241
   era: 正始
   era_year: 2
-  year_ad: 241
 - id: wei.11.p32.t1
   anchor: wei.11.p32
   at: 0
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
 - id: wei.11.p33.a1
   anchor: wei.11.p33
   at: 170
@@ -281,9 +367,11 @@ annotations:
   length: 4
   type: temporal
   text: 青龍四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 236
   era: 青龍
   era_year: 4
-  year_ad: 236
 - id: wei.11.p35.a1
   anchor: wei.11.p35
   at: 296
@@ -296,9 +384,22 @@ annotations:
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
+- id: wei.11.p35.t3
+  anchor: wei.11.p35
+  at: 437
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 240
+  era: 正始
+  era_year: 1
 - id: wei.11.p36.a1
   anchor: wei.11.p36
   at: 112
@@ -311,9 +412,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 218
   era: 建安
   era_year: 23
-  year_ad: 218
 - id: wei.11.p36.a2
   anchor: wei.11.p36
   at: 263
@@ -344,9 +447,11 @@ annotations:
   length: 4
   type: temporal
   text: 嘉平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 250
   era: 嘉平
   era_year: 2
-  year_ad: 250
 - id: wei.11.p37.a1
   anchor: wei.11.p37
   at: 35

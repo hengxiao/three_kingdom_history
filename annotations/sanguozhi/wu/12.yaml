@@ -125,9 +125,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 黃武
   era_year: 7
-  year_ad: 228
 - id: wu.12.p29.a1
   anchor: wu.12.p29
   at: 51
@@ -140,18 +142,22 @@ annotations:
   length: 4
   type: temporal
   text: 嘉禾元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 嘉禾
   era_year: 1
-  year_ad: 232
 - id: wu.12.p35.t1
   anchor: wu.12.p35
   at: 31
   length: 4
   type: temporal
   text: 赤烏二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 239
   era: 赤烏
   era_year: 2
-  year_ad: 239
 - id: wu.12.p35.a1
   anchor: wu.12.p35
   at: 59
@@ -170,27 +176,33 @@ annotations:
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
 - id: wu.12.p40.t1
   anchor: wu.12.p40
   at: 46
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
 - id: wu.12.p41.t1
   anchor: wu.12.p41
   at: 0
   length: 4
   type: temporal
   text: 赤烏九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 246
   era: 赤烏
   era_year: 9
-  year_ad: 246
 - id: wu.12.p41.a1
   anchor: wu.12.p41
   at: 38

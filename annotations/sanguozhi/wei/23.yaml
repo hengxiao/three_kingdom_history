@@ -65,9 +65,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
 - id: wei.23.p14.a1
   anchor: wei.23.p14
   at: 187
@@ -92,9 +94,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 197
   era: 建安
   era_year: 2
-  year_ad: 197
 - id: wei.23.p21.a1
   anchor: wei.23.p21
   at: 9
@@ -113,18 +117,22 @@ annotations:
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
 - id: wei.23.p24.t2
   anchor: wei.23.p24
   at: 203
   length: 4
   type: temporal
   text: 正始四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 243
   era: 正始
   era_year: 4
-  year_ad: 243
 - id: wei.23.p24.a1
   anchor: wei.23.p24
   at: 220
@@ -137,15 +145,28 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：潛世爲著姓。父茂，仕靈帝時，歷縣令、郡守、尚書。建安初，以奉使率導關中諸將討李傕有功，封列侯。潛少不脩細行，由此爲父所不禮。
+- id: wei.23.p26.t1
+  anchor: wei.23.p26
+  at: 205
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 242
+  era: 正始
+  era_year: 3
 - id: wei.23.p27.t1
   anchor: wei.23.p27
   at: 164
   length: 4
   type: temporal
   text: 正始五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 244
   era: 正始
   era_year: 5
-  year_ad: 244
 - id: wei.23.p27.a1
   anchor: wei.23.p27
   at: 180

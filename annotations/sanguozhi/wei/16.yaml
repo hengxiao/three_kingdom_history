@@ -17,9 +17,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 204
   era: 建安
   era_year: 9
-  year_ad: 204
 - id: wei.16.p5.a1
   anchor: wei.16.p5
   at: 48
@@ -50,9 +52,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
 - id: wei.16.p9.a1
   anchor: wei.16.p9
   at: 228
@@ -65,6 +69,17 @@ annotations:
   length: 0
   type: pei
   text: 《傅子》曰：畿，汉御史大夫杜延年之后。延年父周，自南阳徙茂陵，延年徙杜陵，子孙世居焉。
+- id: wei.16.p10.t1
+  anchor: wei.16.p10
+  at: 69
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 223
+  era: 黃初
+  era_year: 4
 - id: wei.16.p10.a2
   anchor: wei.16.p10
   at: 113
@@ -83,6 +98,19 @@ annotations:
   length: 0
   type: pei
   text: 《傅子》曰：彧称畿勇足以当大难，智能应变，其可试之。
+- id: wei.16.p11.t1
+  anchor: wei.16.p11
+  at: 325
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 223
+  era: 黃初
+  era_year: 4
+  month_chinese: 一月
+  month_ordinal: 1
 - id: wei.16.p11.a2
   anchor: wei.16.p11
   at: 345
@@ -173,9 +201,11 @@ annotations:
   length: 4
   type: temporal
   text: 嘉平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 249
   era: 嘉平
   era_year: 1
-  year_ad: 249
 - id: wei.16.p31.a1
   anchor: wei.16.p31
   at: 187
@@ -188,15 +218,28 @@ annotations:
   length: 0
   type: pei
   text: 杜氏新书曰：以为人伦之大纲，莫重於君臣；立身之基本，莫大於言行；安上理民，莫精於政法；胜残去杀，莫善於用兵。夫礼也者，万物之体也，万物皆得其体，无有不善，故谓之体论。
+- id: wei.16.p32.t1
+  anchor: wei.16.p32
+  at: 125
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 252
+  era: 嘉平
+  era_year: 4
 - id: wei.16.p33.t1
   anchor: wei.16.p33
   at: 0
   length: 4
   type: temporal
   text: 甘露二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 257
   era: 甘露
   era_year: 2
-  year_ad: 257
 - id: wei.16.p33.a1
   anchor: wei.16.p33
   at: 42

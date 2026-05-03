@@ -65,7 +65,18 @@
     {
       "id": "wu.11.p4",
       "text": "二年，拜安國將軍，金印紫綬，徙封故鄣。權歷位上將，及為吳王，治每進見，權常親迎。執版交拜，饗宴贈賜，恩敬特隆，至從行吏，皆得奉贄私覿，其見異如此。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.11.p4.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "二年",
+          "era": "黃武",
+          "era_year": 2,
+          "year_ad": 223
+        }
+      ]
     },
     {
       "id": "wu.11.p5",
@@ -150,7 +161,20 @@
     {
       "id": "wu.11.p10",
       "text": "魏遣曹真、夏侯尚、張郃等攻江陵，魏文帝自住宛，為其勢援，連屯圍城。權遣將軍孫盛督萬人備州上，立圍塢，為然外救。郃渡兵攻盛，盛不能拒，即時欲退，郃據州上圍守，然中外斷絕。權遣潘璋、楊粲等解而圍不解。時然城中兵多腫病，堪戰者裁五千人。真等起土山，鑿地道，立樓櫓臨城，弓矢雨注，將士皆失色，然晏如而無恐意，方厲吏士，伺間隙攻破兩屯。魏攻圍然凡六月日，未退。江陵令姚泰領兵備城北門，見外兵盛，城中人少，谷食慾盡。因與敵交通，謀為內應。垂發，事覺，然治戮泰。尚等不能克，乃徹攻退還。由是然名震於敵國，改封當陽侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.11.p10.t1",
+          "type": "temporal",
+          "at": 168,
+          "length": 2,
+          "text": "六月",
+          "era": "黃武",
+          "era_year": 1,
+          "year_ad": 222,
+          "month_chinese": "六月",
+          "month_ordinal": 6
+        }
+      ]
     },
     {
       "id": "wu.11.p11",
@@ -158,6 +182,16 @@
       "annotations": [
         {
           "id": "wu.11.p11.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "六年",
+          "era": "黃武",
+          "era_year": 6,
+          "year_ad": 227
+        },
+        {
+          "id": "wu.11.p11.t2",
           "type": "temporal",
           "at": 56,
           "length": 4,
@@ -167,7 +201,7 @@
           "year_ad": 229
         },
         {
-          "id": "wu.11.p11.t2",
+          "id": "wu.11.p11.t3",
           "type": "temporal",
           "at": 90,
           "length": 4,
@@ -205,6 +239,16 @@
           "at": 79,
           "length": 0,
           "text": "孫氏異同評曰：〔魏書〕及《江表傳》云，然以景初元年、正始二年再出為寇，所破胡質、蒲忠在景初元年。魏志承魏書，依違不說質等為然所破，而直云然退耳。吳志說赤烏五年，於魏為正始三年，魏將蒲忠與朱然戰，忠不利，質等皆退。按魏少帝紀及孫權傳，是歲並無事，當是陳壽誤以吳嘉禾六年為赤烏五年耳。"
+        },
+        {
+          "id": "wu.11.p12.t2",
+          "type": "temporal",
+          "at": 79,
+          "length": 2,
+          "text": "九年",
+          "era": "赤烏",
+          "era_year": 9,
+          "year_ad": 246
         }
       ]
     },
@@ -214,6 +258,16 @@
       "annotations": [
         {
           "id": "wu.11.p13.t1",
+          "type": "temporal",
+          "at": 139,
+          "length": 2,
+          "text": "二年",
+          "era": "赤烏",
+          "era_year": 2,
+          "year_ad": 239
+        },
+        {
+          "id": "wu.11.p13.t2",
           "type": "temporal",
           "at": 234,
           "length": 5,
@@ -236,6 +290,16 @@
         {
           "id": "wu.11.p15.t1",
           "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "明年",
+          "era": "赤烏",
+          "era_year": 13,
+          "year_ad": 250
+        },
+        {
+          "id": "wu.11.p15.t2",
+          "type": "temporal",
           "at": 178,
           "length": 4,
           "text": "建興元年",
@@ -252,6 +316,16 @@
         {
           "id": "wu.11.p16.t1",
           "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "二年",
+          "era": "建興",
+          "era_year": 2,
+          "year_ad": 253
+        },
+        {
+          "id": "wu.11.p16.t2",
+          "type": "temporal",
           "at": 43,
           "length": 4,
           "text": "太平二年",
@@ -260,7 +334,7 @@
           "year_ad": 257
         },
         {
-          "id": "wu.11.p16.t2",
+          "id": "wu.11.p16.t3",
           "type": "temporal",
           "at": 136,
           "length": 4,
@@ -270,7 +344,7 @@
           "year_ad": 264
         },
         {
-          "id": "wu.11.p16.t3",
+          "id": "wu.11.p16.t4",
           "type": "temporal",
           "at": 177,
           "length": 4,
@@ -365,6 +439,16 @@
         {
           "id": "wu.11.p22.t2",
           "type": "temporal",
+          "at": 179,
+          "length": 2,
+          "text": "明年",
+          "era": "太元",
+          "era_year": 2,
+          "year_ad": 252
+        },
+        {
+          "id": "wu.11.p22.t3",
+          "type": "temporal",
           "at": 202,
           "length": 4,
           "text": "五鳳二年",
@@ -373,7 +457,7 @@
           "year_ad": 255
         },
         {
-          "id": "wu.11.p22.t3",
+          "id": "wu.11.p22.t4",
           "type": "temporal",
           "at": 230,
           "length": 4,
@@ -507,9 +591,29 @@
         {
           "id": "wu.11.p29.t2",
           "type": "temporal",
+          "at": 148,
+          "length": 3,
+          "text": "十三年",
+          "era": "赤烏",
+          "era_year": 13,
+          "year_ad": 250
+        },
+        {
+          "id": "wu.11.p29.t3",
+          "type": "temporal",
           "at": 254,
           "length": 4,
           "text": "建興元年",
+          "era": "建興",
+          "era_year": 1,
+          "year_ad": 252
+        },
+        {
+          "id": "wu.11.p29.t4",
+          "type": "temporal",
+          "at": 265,
+          "length": 2,
+          "text": "是歲",
           "era": "建興",
           "era_year": 1,
           "year_ad": 252
@@ -522,7 +626,7 @@
           "text": "《吳書》曰：異又隨諸葛恪圍新城，城既不拔，異等皆言宜速還豫章，襲石頭城，不過數日可拔。恪以書曉異，異投書於地曰：「不用我計，而用傒子言！」恪大怒，立奪其兵，遂廢還建業。"
         },
         {
-          "id": "wu.11.p29.t3",
+          "id": "wu.11.p29.t5",
           "type": "temporal",
           "at": 296,
           "length": 4,

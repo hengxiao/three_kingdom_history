@@ -13,27 +13,44 @@ annotations:
   length: 4
   type: temporal
   text: 中平五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 188
   era: 中平
   era_year: 5
-  year_ad: 188
 - id: wu.11.p3.t1
   anchor: wu.11.p3
   at: 0
   length: 4
   type: temporal
   text: 建安七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 202
   era: 建安
   era_year: 7
-  year_ad: 202
 - id: wu.11.p3.t2
   anchor: wu.11.p3
   at: 64
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
+- id: wu.11.p4.t1
+  anchor: wu.11.p4
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 黃武
+  era_year: 2
 - id: wu.11.p5.a1
   anchor: wu.11.p5
   at: 77
@@ -46,9 +63,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 224
   era: 黃武
   era_year: 3
-  year_ad: 224
 - id: wu.11.p6.a1
   anchor: wu.11.p6
   at: 20
@@ -67,45 +86,79 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
-  year_ad: 219
 - id: wu.11.p9.t1
   anchor: wu.11.p9
   at: 56
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
+- id: wu.11.p10.t1
+  anchor: wu.11.p10
+  at: 168
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
   year_ad: 222
+  era: 黃武
+  era_year: 1
+  month_chinese: 六月
+  month_ordinal: 6
 - id: wu.11.p11.t1
+  anchor: wu.11.p11
+  at: 0
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 黃武
+  era_year: 6
+- id: wu.11.p11.t2
   anchor: wu.11.p11
   at: 56
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
-- id: wu.11.p11.t2
+- id: wu.11.p11.t3
   anchor: wu.11.p11
   at: 90
   length: 4
   type: temporal
   text: 嘉禾三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 嘉禾
   era_year: 3
-  year_ad: 234
 - id: wu.11.p12.t1
   anchor: wu.11.p12
   at: 0
   length: 4
   type: temporal
   text: 赤烏五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 242
   era: 赤烏
   era_year: 5
-  year_ad: 242
 - id: wu.11.p12.a1
   anchor: wu.11.p12
   at: 9
@@ -118,51 +171,105 @@ annotations:
   length: 0
   type: pei
   text: 孫氏異同評曰：〔魏書〕及《江表傳》云，然以景初元年、正始二年再出為寇，所破胡質、蒲忠在景初元年。魏志承魏書，依違不說質等為然所破，而直云然退耳。吳志說赤烏五年，於魏為正始三年，魏將蒲忠與朱然戰，忠不利，質等皆退。按魏少帝紀及孫權傳，是歲並無事，當是陳壽誤以吳嘉禾六年為赤烏五年耳。
+- id: wu.11.p12.t2
+  anchor: wu.11.p12
+  at: 79
+  length: 2
+  type: temporal
+  text: 九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 246
+  era: 赤烏
+  era_year: 9
 - id: wu.11.p13.t1
+  anchor: wu.11.p13
+  at: 139
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 239
+  era: 赤烏
+  era_year: 2
+- id: wu.11.p13.t2
   anchor: wu.11.p13
   at: 234
   length: 5
   type: temporal
   text: 赤烏十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 249
   era: 赤烏
   era_year: 12
-  year_ad: 249
 - id: wu.11.p15.t1
+  anchor: wu.11.p15
+  at: 0
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+- id: wu.11.p15.t2
   anchor: wu.11.p15
   at: 178
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 建興
   era_year: 1
-  year_ad: 252
 - id: wu.11.p16.t1
+  anchor: wu.11.p16
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 253
+  era: 建興
+  era_year: 2
+- id: wu.11.p16.t2
   anchor: wu.11.p16
   at: 43
   length: 4
   type: temporal
   text: 太平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 257
   era: 太平
   era_year: 2
-  year_ad: 257
-- id: wu.11.p16.t2
+- id: wu.11.p16.t3
   anchor: wu.11.p16
   at: 136
   length: 4
   type: temporal
   text: 元興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 264
   era: 元興
   era_year: 1
-  year_ad: 264
-- id: wu.11.p16.t3
+- id: wu.11.p16.t4
   anchor: wu.11.p16
   at: 177
   length: 4
   type: temporal
   text: 建衡二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 270
   era: 建衡
   era_year: 2
-  year_ad: 270
 - id: wu.11.p17.a1
   anchor: wu.11.p17
   at: 263
@@ -187,9 +294,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃武七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 黃武
   era_year: 7
-  year_ad: 228
 - id: wu.11.p21.a1
   anchor: wu.11.p21
   at: 61
@@ -202,63 +311,88 @@ annotations:
   length: 4
   type: temporal
   text: 太元元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 251
   era: 太元
   era_year: 1
-  year_ad: 251
 - id: wu.11.p22.t2
+  anchor: wu.11.p22
+  at: 179
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 252
+  era: 太元
+  era_year: 2
+- id: wu.11.p22.t3
   anchor: wu.11.p22
   at: 202
   length: 4
   type: temporal
   text: 五鳳二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 255
   era: 五鳳
   era_year: 2
-  year_ad: 255
-- id: wu.11.p22.t3
+- id: wu.11.p22.t4
   anchor: wu.11.p22
   at: 230
   length: 4
   type: temporal
   text: 太平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 256
   era: 太平
   era_year: 1
-  year_ad: 256
 - id: wu.11.p24.t1
   anchor: wu.11.p24
   at: 0
   length: 4
   type: temporal
   text: 黃武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃武
   era_year: 1
-  year_ad: 222
 - id: wu.11.p25.t1
   anchor: wu.11.p25
   at: 0
   length: 4
   type: temporal
   text: 黃武七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 黃武
   era_year: 7
-  year_ad: 228
 - id: wu.11.p26.t1
   anchor: wu.11.p26
   at: 0
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
 - id: wu.11.p26.t2
   anchor: wu.11.p26
   at: 19
   length: 4
   type: temporal
   text: 嘉禾六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 嘉禾
   era_year: 6
-  year_ad: 237
 - id: wu.11.p27.a1
   anchor: wu.11.p27
   at: 50
@@ -277,9 +411,11 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 赤烏
   era_year: 1
-  year_ad: 238
 - id: wu.11.p29.a1
   anchor: wu.11.p29
   at: 11
@@ -292,33 +428,61 @@ annotations:
   length: 4
   type: temporal
   text: 赤烏四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 241
   era: 赤烏
   era_year: 4
-  year_ad: 241
 - id: wu.11.p29.t2
+  anchor: wu.11.p29
+  at: 148
+  length: 3
+  type: temporal
+  text: 十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 250
+  era: 赤烏
+  era_year: 13
+- id: wu.11.p29.t3
   anchor: wu.11.p29
   at: 254
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 建興
   era_year: 1
+- id: wu.11.p29.t4
+  anchor: wu.11.p29
+  at: 265
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 252
+  era: 建興
+  era_year: 1
 - id: wu.11.p29.a2
   anchor: wu.11.p29
   at: 296
   length: 0
   type: pei
   text: 《吳書》曰：異又隨諸葛恪圍新城，城既不拔，異等皆言宜速還豫章，襲石頭城，不過數日可拔。恪以書曉異，異投書於地曰：「不用我計，而用傒子言！」恪大怒，立奪其兵，遂廢還建業。
-- id: wu.11.p29.t3
+- id: wu.11.p29.t5
   anchor: wu.11.p29
   at: 296
   length: 4
   type: temporal
   text: 太平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 257
   era: 太平
   era_year: 2
-  year_ad: 257
 - id: wu.11.p29.a3
   anchor: wu.11.p29
   at: 327

@@ -11,9 +11,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
 - id: wu.14.p2.a1
   anchor: wu.14.p2
   at: 284
@@ -32,9 +34,11 @@ annotations:
   length: 4
   type: temporal
   text: 嘉禾三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 234
   era: 嘉禾
   era_year: 3
-  year_ad: 234
 - id: wu.14.p4.a1
   anchor: wu.14.p4
   at: 114
@@ -43,13 +47,37 @@ annotations:
   text: 《吳書》曰：弟和有寵於權，登親敬，待之如兄，常有欲讓之心。
 - id: wu.14.p5.t1
   anchor: wu.14.p5
+  at: 628
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+- id: wu.14.p5.t2
+  anchor: wu.14.p5
+  at: 748
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 236
+  era: 嘉禾
+  era_year: 5
+- id: wu.14.p5.t3
+  anchor: wu.14.p5
   at: 751
   length: 4
   type: temporal
   text: 赤烏四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 241
   era: 赤烏
   era_year: 4
-  year_ad: 241
 - id: wu.14.p5.a1
   anchor: wu.14.p5
   at: 821
@@ -62,9 +90,11 @@ annotations:
   length: 4
   type: temporal
   text: 五鳳元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 254
   era: 五鳳
   era_year: 1
-  year_ad: 254
 - id: wu.14.p6.a1
   anchor: wu.14.p6
   at: 44
@@ -77,33 +107,50 @@ annotations:
   length: 4
   type: temporal
   text: 黃武七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 黃武
   era_year: 7
-  year_ad: 228
+- id: wu.14.p8.t2
+  anchor: wu.14.p8
+  at: 33
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 223
+  era: 黃武
+  era_year: 2
 - id: wu.14.p8.a1
   anchor: wu.14.p8
   at: 242
   length: 0
   type: pei
   text: 《吳書》載權詔曰：「期運擾亂，凶邪肆虐，威罰有序，干戈不戢。以慮氣志休懿，武略夙昭，必能爲國佐定大業，故授以上將之位，至以殊特之榮，寵以兵馬之勢，委以偏方之任。外欲威振敵虜，厭難萬里，內欲鎮撫遠近，慰卹將士，誠慮建功立事竭命之秋也。慮其內脩文德，外經武訓，持盈若沖，則滿而不溢。敬慎乃心，無忝所受。」
-- id: wu.14.p8.t2
+- id: wu.14.p8.t3
   anchor: wu.14.p8
   at: 287
   length: 4
   type: temporal
   text: 嘉禾元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 嘉禾
   era_year: 1
-  year_ad: 232
 - id: wu.14.p9.t1
   anchor: wu.14.p9
   at: 49
   length: 4
   type: temporal
   text: 赤烏五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 242
   era: 赤烏
   era_year: 5
-  year_ad: 242
 - id: wu.14.p9.a1
   anchor: wu.14.p9
   at: 95
@@ -134,9 +181,11 @@ annotations:
   length: 6
   type: temporal
   text: 太元二年正月
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 太元
   era_year: 2
-  year_ad: 252
   month_chinese: 正月
   month_ordinal: 1
 - id: wu.14.p12.a1
@@ -145,17 +194,56 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：和之長沙，行過蕪湖，有鵲巢于帆檣，故官寮聞之皆憂慘，以爲檣末傾危，非乆安之象。或言鵲巢之詩有「積行累功以致爵位」之言，今王至德茂行，復受國土，儻神靈以此告寤人意乎？
+- id: wu.14.p12.t2
+  anchor: wu.14.p12
+  at: 19
+  length: 2
+  type: temporal
+  text: 四月
+  kind: relative
+  resolution: bare_month
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  month_chinese: 四月
+  month_ordinal: 4
 - id: wu.14.p13.t1
+  anchor: wu.14.p13
+  at: 27
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 252
+  era: 太元
+  era_year: 2
+- id: wu.14.p13.t2
   anchor: wu.14.p13
   at: 99
   length: 6
   type: temporal
   text: 寶鼎二年七月
+  kind: absolute
+  resolution: absolute
+  year_ad: 267
   era: 寶鼎
   era_year: 2
-  year_ad: 267
   month_chinese: 七月
   month_ordinal: 7
+- id: wu.14.p13.t3
+  anchor: wu.14.p13
+  at: 122
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 267
+  era: 寶鼎
+  era_year: 2
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wu.14.p13.a1
   anchor: wu.14.p13
   at: 173
@@ -168,24 +256,39 @@ annotations:
   length: 0
   type: pei
   text: 《吳歷》曰：和四子：皓、德、謙、俊。孫休即位，封德錢唐侯，謙永安侯，俊拜騎都尉。皓在武昌，吳興施但因民之不堪命，聚萬餘人，劫謙，將至秣陵，欲立之。未至三十里住，擇吉日，但遣使以謙命詔丁固、諸葛靚。靚即斬其使。但遂前到九里，固、靚出擊，大破之。但兵裸身無鎧甲，臨陣皆披散。謙獨坐車中，遂生獲之。固不敢殺，以狀告皓，皓酖之，母子皆死。俊，張承外孫，聦明辨惠，爲遠近所稱，皓又殺之。
+- id: wu.14.p14.t1
+  anchor: wu.14.p14
+  at: 166
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 268
+  era: 寶鼎
+  era_year: 3
 - id: wu.14.p16.t1
   anchor: wu.14.p16
   at: 30
   length: 4
   type: temporal
   text: 太平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 257
   era: 太平
   era_year: 2
-  year_ad: 257
 - id: wu.14.p17.t1
   anchor: wu.14.p17
   at: 15
   length: 4
   type: temporal
   text: 太元二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 252
   era: 太元
   era_year: 2
-  year_ad: 252
 - id: wu.14.p18.a1
   anchor: wu.14.p18
   at: 50
@@ -198,9 +301,11 @@ annotations:
   length: 4
   type: temporal
   text: 太平三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 258
   era: 太平
   era_year: 3
-  year_ad: 258
 - id: wu.14.p18.a2
   anchor: wu.14.p18
   at: 72
@@ -213,9 +318,11 @@ annotations:
   length: 4
   type: temporal
   text: 建衡二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 270
   era: 建衡
   era_year: 2
-  year_ad: 270
 - id: wu.14.p19.a1
   anchor: wu.14.p19
   at: 99

@@ -101,9 +101,22 @@ annotations:
   length: 4
   type: temporal
   text: 建安二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 197
   era: 建安
   era_year: 2
-  year_ad: 197
+- id: wei.12.p21.t2
+  anchor: wei.12.p21
+  at: 23
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.12.p21.a1
   anchor: wei.12.p21
   at: 196
@@ -116,6 +129,17 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：自劉備叛后，東南多變。太祖以陳羣爲酂令，夔爲城父令，諸縣皆用名士以镇撫之，其后吏民稍定。
+- id: wei.12.p24.t1
+  anchor: wei.12.p24
+  at: 159
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.12.p28.a1
   anchor: wei.12.p28
   at: 16
@@ -128,15 +152,28 @@ annotations:
   length: 0
   type: pei
   text: 干寶《晉紀》曰：曾字颖考。正元中爲司隸校尉。時毌丘儉孫女適劉氏，以孕系廷尉。女母荀，爲武卫將軍荀顗所表活，既免，辭诣廷尉，乞爲官婢以赎女命。曾使主簿程咸爲議，議曰：『大魏承奏、漢之弊，未及革制。所以追戮已出之女，誠欲殄丑類之族也。若已产育，則成他家之母。於防則不足惩姦亂之源，於情則傷孝子之思，男不御罪於他族，而女獨婴戮於二門，非所以哀矜女弱，均法制之大分也。臣以爲在室之女，可從父母之刑，既醮之妇，使從夫家之戮。』朝廷從之，乃定律令。《晉諸公贊》曰：曾以高雅稱，加性纯孝，位至太宰，封朗陵縣公。年八十餘薨，諡曰元公。子邵嗣。邵字敬祖，才識深博，有經國体儀。位亦至太宰，諡康公。子蕤嗣。邵庶兄遵，字思祖，有幹能。少經清職，終於太僕。遵子绥，字伯蔚，亦以幹事稱。永嘉中爲尚書，爲司馬越所殺。《傅子》稱曾及荀顗曰：『以文王之道事其親者，其潁昌何侯乎！其荀侯乎！古稱曾、闵，今曰荀、何。内尽其心以事其親，外崇禮讓以接天下。孝子，百世之宗；仁人，天下之令也。有能行仁孝之道者，君子之儀表矣。』
+- id: wei.12.p30.t1
+  anchor: wei.12.p30
+  at: 39
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
 - id: wei.12.p32.t1
   anchor: wei.12.p32
   at: 30
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
 - id: wei.12.p32.a1
   anchor: wei.12.p32
   at: 40
@@ -155,9 +192,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安十七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 212
   era: 建安
   era_year: 17
-  year_ad: 212
 - id: wei.12.p33.a2
   anchor: wei.12.p33
   at: 115
@@ -172,22 +211,48 @@ annotations:
   text: 魏書曰：勛清白有高節，知名於世。
 - id: wei.12.p34.t1
   anchor: wei.12.p34
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 217
+  era: 建安
+  era_year: 22
+- id: wei.12.p34.t2
+  anchor: wei.12.p34
   at: 137
   length: 4
   type: temporal
   text: 延康元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 220
   era: 延康
   era_year: 1
-  year_ad: 220
 - id: wei.12.p36.t1
   anchor: wei.12.p36
   at: 0
   length: 4
   type: temporal
   text: 黃初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 黃初
   era_year: 4
-  year_ad: 223
+- id: wei.12.p36.t2
+  anchor: wei.12.p36
+  at: 51
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 225
+  era: 黃初
+  era_year: 6
 - id: wei.12.p39.a1
   anchor: wei.12.p39
   at: 299
@@ -200,6 +265,43 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：無涧，山名，在洛陽東北。
+- id: wei.12.p46.t1
+  anchor: wei.12.p46
+  at: 20
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+- id: wei.12.p46.t2
+  anchor: wei.12.p46
+  at: 215
+  length: 2
+  type: temporal
+  text: 正月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.12.p46.t3
+  anchor: wei.12.p46
+  at: 235
+  length: 2
+  type: temporal
+  text: 十月
+  kind: relative
+  resolution: bare_month
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+  month_chinese: 十月
+  month_ordinal: 10
 - id: wei.12.p48.a1
   anchor: wei.12.p48
   at: 251

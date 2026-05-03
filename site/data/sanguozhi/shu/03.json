@@ -47,6 +47,40 @@
           "text": "《禮記》曰：行一物而三善者，惟世子而已，其齒於學之謂也。鄭玄日：物猶事也。"
         },
         {
+          "id": "shu.3.p1.t3",
+          "type": "temporal",
+          "at": 144,
+          "length": 5,
+          "text": "三年夏四月",
+          "era": "章武",
+          "era_year": 3,
+          "year_ad": 223,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        },
+        {
+          "id": "shu.3.p1.t4",
+          "type": "temporal",
+          "at": 158,
+          "length": 2,
+          "text": "五月",
+          "era": "章武",
+          "era_year": 3,
+          "year_ad": 223,
+          "month_chinese": "五月",
+          "month_ordinal": 5
+        },
+        {
+          "id": "shu.3.p1.t5",
+          "type": "temporal",
+          "at": 188,
+          "length": 2,
+          "text": "是歲",
+          "era": "章武",
+          "era_year": 3,
+          "year_ad": 223
+        },
+        {
           "id": "shu.3.p1.a2",
           "type": "pei",
           "at": 197,
@@ -75,23 +109,89 @@
           "at": 16,
           "length": 0,
           "text": "《魏氏春秋》曰：初，益州從事常房行部，聞褒將有異志，收其主簿案問，殺之。褒怒，攻殺房，誣以謀反。諸葛亮誅房諸子，徙其四弟於越雋，欲以安之。褒猶不悛改，遂以郡叛應雍闓。臣松之案：以為房為褒所誣，執政所宜澄察，安有妄殺不辜以悅姦慝？斯殆妄矣！"
+        },
+        {
+          "id": "shu.3.p2.t2",
+          "type": "temporal",
+          "at": 52,
+          "length": 2,
+          "text": "是歲",
+          "era": "建興",
+          "era_year": 1,
+          "year_ad": 223
+        },
+        {
+          "id": "shu.3.p2.t3",
+          "type": "temporal",
+          "at": 85,
+          "length": 2,
+          "text": "是歲",
+          "era": "建興",
+          "era_year": 1,
+          "year_ad": 223
         }
       ]
     },
     {
       "id": "shu.3.p3",
       "text": "二年春，務農殖穀，閉關息民。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p3.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "二年",
+          "era": "建興",
+          "era_year": 2,
+          "year_ad": 224
+        }
+      ]
     },
     {
       "id": "shu.3.p4",
       "text": "三年春三月，丞相亮南征四郡，四郡皆平。改益州郡為建寧郡，分建寧、永昌郡為雲南郡，又分建寧、臧柯為興古郡。十二月，亮還成都。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p4.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "三年春三月",
+          "era": "建興",
+          "era_year": 3,
+          "year_ad": 225,
+          "month_chinese": "春三月",
+          "month_ordinal": 3
+        },
+        {
+          "id": "shu.3.p4.t2",
+          "type": "temporal",
+          "at": 52,
+          "length": 3,
+          "text": "十二月",
+          "era": "建興",
+          "era_year": 3,
+          "year_ad": 225,
+          "month_chinese": "十二月",
+          "month_ordinal": 12
+        }
+      ]
     },
     {
       "id": "shu.3.p5",
       "text": "四年春，都護李嚴自永安還住江州，築大城。",
       "annotations": [
+        {
+          "id": "shu.3.p5.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "四年",
+          "era": "建興",
+          "era_year": 4,
+          "year_ad": 226
+        },
         {
           "id": "shu.3.p5.a1",
           "type": "pei",
@@ -106,6 +206,16 @@
       "text": "五年春，丞相亮出屯漢中，營沔北陽平石馬。",
       "annotations": [
         {
+          "id": "shu.3.p6.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "五年",
+          "era": "建興",
+          "era_year": 5,
+          "year_ad": 227
+        },
+        {
           "id": "shu.3.p6.a1",
           "type": "pei",
           "at": 20,
@@ -117,23 +227,75 @@
     {
       "id": "shu.3.p7",
       "text": "六年春，亮出攻祁山，不克。冬，復出散關，圍陳倉，糧盡退。魏將王雙率軍追亮，亮與戰，破之，斬雙，還漢中。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p7.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "六年",
+          "era": "建興",
+          "era_year": 6,
+          "year_ad": 228
+        }
+      ]
     },
     {
       "id": "shu.3.p8",
       "text": "七年春，亮遣陳式攻武都、陰平，遂克定二郡。冬，亮徙從府營於南山下原上，築漢、樂二城。是歲，孫權稱帝，與蜀約盟，共交分天下。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p8.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "七年",
+          "era": "建興",
+          "era_year": 7,
+          "year_ad": 229
+        },
+        {
+          "id": "shu.3.p8.t2",
+          "type": "temporal",
+          "at": 42,
+          "length": 2,
+          "text": "是歲",
+          "era": "建興",
+          "era_year": 7,
+          "year_ad": 229
+        }
+      ]
     },
     {
       "id": "shu.3.p9",
       "text": "八年秋，魏使司馬懿由西城，張郃由子午，曹真由斜谷，欲攻漢中。丞相亮待之於城固、赤坂，大雨道絕，真等皆還。是歲，魏延破魏雍州剌史郭淮於陽溪。徙魯王永為甘陵王，梁王理為安平王，皆以魯、梁在吳分界故也。",
       "annotations": [
         {
+          "id": "shu.3.p9.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "八年",
+          "era": "建興",
+          "era_year": 8,
+          "year_ad": 230
+        },
+        {
           "id": "shu.3.p9.a1",
           "type": "pei",
           "at": 25,
           "length": 0,
           "text": "斜，余奢反。"
+        },
+        {
+          "id": "shu.3.p9.t2",
+          "type": "temporal",
+          "at": 52,
+          "length": 2,
+          "text": "是歲",
+          "era": "建興",
+          "era_year": 8,
+          "year_ad": 230
         }
       ]
     },
@@ -141,6 +303,42 @@
       "id": "shu.3.p10",
       "text": "九年春二月，亮復出軍圍祁山，始以木牛運。魏司馬懿、張郃救祁山。夏六月，亮糧盡退軍，郃追至青封，與亮交戰，被箭死。秋八月，都護李嚴廢徙梓潼郡。",
       "annotations": [
+        {
+          "id": "shu.3.p10.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "九年春二月",
+          "era": "建興",
+          "era_year": 9,
+          "year_ad": 231,
+          "month_chinese": "春二月",
+          "month_ordinal": 2
+        },
+        {
+          "id": "shu.3.p10.t2",
+          "type": "temporal",
+          "at": 31,
+          "length": 3,
+          "text": "夏六月",
+          "era": "建興",
+          "era_year": 9,
+          "year_ad": 231,
+          "month_chinese": "夏六月",
+          "month_ordinal": 6
+        },
+        {
+          "id": "shu.3.p10.t3",
+          "type": "temporal",
+          "at": 56,
+          "length": 3,
+          "text": "秋八月",
+          "era": "建興",
+          "era_year": 9,
+          "year_ad": 231,
+          "month_chinese": "秋八月",
+          "month_ordinal": 8
+        },
         {
           "id": "shu.3.p10.a1",
           "type": "pei",
@@ -153,27 +351,121 @@
     {
       "id": "shu.3.p11",
       "text": "十年，亮休士勸農於黃沙，作流馬木牛畢，教兵講武。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p11.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "十年",
+          "era": "建興",
+          "era_year": 10,
+          "year_ad": 232
+        }
+      ]
     },
     {
       "id": "shu.3.p12",
       "text": "十一年冬，亮使諸軍運米，集於斜谷口，治斜谷邸閣。是歲，南夷劉冑反，將軍馬忠破平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p12.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十一年",
+          "era": "建興",
+          "era_year": 11,
+          "year_ad": 233
+        },
+        {
+          "id": "shu.3.p12.t2",
+          "type": "temporal",
+          "at": 24,
+          "length": 2,
+          "text": "是歲",
+          "era": "建興",
+          "era_year": 11,
+          "year_ad": 233
+        }
+      ]
     },
     {
       "id": "shu.3.p13",
       "text": "十二年春二月，亮由斜谷出，始以流馬運。秋八月，亮卒渭濱。征西大將軍魏延與丞相長史楊儀爭權不和，舉兵相攻，延敗走。斬延首，儀率諸軍還成都。大赦。以左將軍吳壹為車騎將軍，假節督漢中。以丞相留府長史蔣琬為尚書令，總統國事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p13.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十二年春二月",
+          "era": "建興",
+          "era_year": 12,
+          "year_ad": 234,
+          "month_chinese": "春二月",
+          "month_ordinal": 2
+        },
+        {
+          "id": "shu.3.p13.t2",
+          "type": "temporal",
+          "at": 19,
+          "length": 3,
+          "text": "秋八月",
+          "era": "建興",
+          "era_year": 12,
+          "year_ad": 234,
+          "month_chinese": "秋八月",
+          "month_ordinal": 8
+        }
+      ]
     },
     {
       "id": "shu.3.p14",
       "text": "十三年春正月，中軍師楊儀廢徙漢嘉郡。夏四月，進蔣琬位為大將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p14.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十三年春正月",
+          "era": "建興",
+          "era_year": 13,
+          "year_ad": 235,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p14.t2",
+          "type": "temporal",
+          "at": 18,
+          "length": 3,
+          "text": "夏四月",
+          "era": "建興",
+          "era_year": 13,
+          "year_ad": 235,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        }
+      ]
     },
     {
       "id": "shu.3.p15",
       "text": "十四年夏四月，後主至湔，登觀坂，看汶水之流，旬日還成都。徙武都氐王苻健及氐民四百餘戶於成都。",
       "annotations": [
+        {
+          "id": "shu.3.p15.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十四年夏四月",
+          "era": "建興",
+          "era_year": 14,
+          "year_ad": 236,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        },
         {
           "id": "shu.3.p15.a1",
           "type": "pei",
@@ -186,7 +478,20 @@
     {
       "id": "shu.3.p16",
       "text": "十五年夏六月，皇后張氏薨。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p16.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十五年夏六月",
+          "era": "建興",
+          "era_year": 15,
+          "year_ad": 237,
+          "month_chinese": "夏六月",
+          "month_ordinal": 6
+        }
+      ]
     },
     {
       "id": "shu.3.p17",
@@ -203,43 +508,213 @@
           "year_ad": 238,
           "month_chinese": "春正月",
           "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p17.t2",
+          "type": "temporal",
+          "at": 34,
+          "length": 4,
+          "text": "冬十一月",
+          "era": "延熙",
+          "era_year": 1,
+          "year_ad": 238,
+          "month_chinese": "冬十一月",
+          "month_ordinal": 11
         }
       ]
     },
     {
       "id": "shu.3.p18",
       "text": "二年春三月，進蔣琬位為大司馬。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p18.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "二年春三月",
+          "era": "延熙",
+          "era_year": 2,
+          "year_ad": 239,
+          "month_chinese": "春三月",
+          "month_ordinal": 3
+        }
+      ]
     },
     {
       "id": "shu.3.p19",
       "text": "三年春，使越巂太守張嶷平定越巂郡。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p19.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "三年",
+          "era": "延熙",
+          "era_year": 3,
+          "year_ad": 240
+        }
+      ]
     },
     {
       "id": "shu.3.p20",
       "text": "四年冬十月，尚書令費禕至漢中，與蔣琬咨論事計，歲盡還。五年春正月，監軍姜維督偏軍，自漢中還屯涪縣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p20.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "四年冬十月",
+          "era": "延熙",
+          "era_year": 4,
+          "year_ad": 241,
+          "month_chinese": "冬十月",
+          "month_ordinal": 10
+        },
+        {
+          "id": "shu.3.p20.t2",
+          "type": "temporal",
+          "at": 27,
+          "length": 5,
+          "text": "五年春正月",
+          "era": "延熙",
+          "era_year": 5,
+          "year_ad": 242,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        }
+      ]
     },
     {
       "id": "shu.3.p21",
       "text": "六年冬十月，大司馬蔣琬自還漢中，住涪。十一月，大赦。以尚書令費禕為大將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p21.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "六年冬十月",
+          "era": "延熙",
+          "era_year": 6,
+          "year_ad": 243,
+          "month_chinese": "冬十月",
+          "month_ordinal": 10
+        },
+        {
+          "id": "shu.3.p21.t2",
+          "type": "temporal",
+          "at": 19,
+          "length": 3,
+          "text": "十一月",
+          "era": "延熙",
+          "era_year": 6,
+          "year_ad": 243,
+          "month_chinese": "十一月",
+          "month_ordinal": 11
+        }
+      ]
     },
     {
       "id": "shu.3.p22",
       "text": "七年閏月，魏大將軍曹爽、夏侯玄等向漢中，鎮北大將軍王平拒興勢圍，大將軍費禕督諸軍往赴救，魏軍退。夏四月，安平王理卒。秋九月，禕還成都。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p22.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "七年",
+          "era": "延熙",
+          "era_year": 7,
+          "year_ad": 244
+        },
+        {
+          "id": "shu.3.p22.t2",
+          "type": "temporal",
+          "at": 48,
+          "length": 3,
+          "text": "夏四月",
+          "era": "延熙",
+          "era_year": 7,
+          "year_ad": 244,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        },
+        {
+          "id": "shu.3.p22.t3",
+          "type": "temporal",
+          "at": 58,
+          "length": 3,
+          "text": "秋九月",
+          "era": "延熙",
+          "era_year": 7,
+          "year_ad": 244,
+          "month_chinese": "秋九月",
+          "month_ordinal": 9
+        }
+      ]
     },
     {
       "id": "shu.3.p23",
       "text": "八年秋八月，皇太后薨。十二月，大將軍費禕至漢中，行圍守。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p23.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "八年秋八月",
+          "era": "延熙",
+          "era_year": 8,
+          "year_ad": 245,
+          "month_chinese": "秋八月",
+          "month_ordinal": 8
+        },
+        {
+          "id": "shu.3.p23.t2",
+          "type": "temporal",
+          "at": 11,
+          "length": 3,
+          "text": "十二月",
+          "era": "延熙",
+          "era_year": 8,
+          "year_ad": 245,
+          "month_chinese": "十二月",
+          "month_ordinal": 12
+        }
+      ]
     },
     {
       "id": "shu.3.p24",
       "text": "九年夏六月，費禕還成都。秋，大赦。冬十一月，大司馬蔣琬卒。",
       "annotations": [
+        {
+          "id": "shu.3.p24.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "九年夏六月",
+          "era": "延熙",
+          "era_year": 9,
+          "year_ad": 246,
+          "month_chinese": "夏六月",
+          "month_ordinal": 6
+        },
+        {
+          "id": "shu.3.p24.t2",
+          "type": "temporal",
+          "at": 17,
+          "length": 4,
+          "text": "冬十一月",
+          "era": "延熙",
+          "era_year": 9,
+          "year_ad": 246,
+          "month_chinese": "冬十一月",
+          "month_ordinal": 11
+        },
         {
           "id": "shu.3.p24.a1",
           "type": "pei",
@@ -252,57 +727,264 @@
     {
       "id": "shu.3.p25",
       "text": "十年，涼州胡王白虎文、治無戴等率眾降，衛將軍姜維迎逆安撫，居之於繁縣。是歲，汶山平康夷反，維往討，破平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p25.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "十年",
+          "era": "延熙",
+          "era_year": 10,
+          "year_ad": 247
+        },
+        {
+          "id": "shu.3.p25.t2",
+          "type": "temporal",
+          "at": 35,
+          "length": 2,
+          "text": "是歲",
+          "era": "延熙",
+          "era_year": 10,
+          "year_ad": 247
+        }
+      ]
     },
     {
       "id": "shu.3.p26",
       "text": "十一年夏五月，大將軍費禕出屯漢中。秋，涪陵屬國民夷反，車騎將軍鄧芝往討，皆破平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p26.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十一年夏五月",
+          "era": "延熙",
+          "era_year": 11,
+          "year_ad": 248,
+          "month_chinese": "夏五月",
+          "month_ordinal": 5
+        }
+      ]
     },
     {
       "id": "shu.3.p27",
       "text": "十二年春正月，魏誅大將軍曹爽等，右將軍夏侯霸來降。夏四月，大赦。秋，衛將軍姜維出攻雍州，不克而還。將軍句安、李韶降魏。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p27.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十二年春正月",
+          "era": "延熙",
+          "era_year": 12,
+          "year_ad": 249,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p27.t2",
+          "type": "temporal",
+          "at": 25,
+          "length": 3,
+          "text": "夏四月",
+          "era": "延熙",
+          "era_year": 12,
+          "year_ad": 249,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        }
+      ]
     },
     {
       "id": "shu.3.p28",
       "text": "十三年，姜維復出西平，不克而還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p28.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十三年",
+          "era": "延熙",
+          "era_year": 13,
+          "year_ad": 250
+        }
+      ]
     },
     {
       "id": "shu.3.p29",
       "text": "十四年夏，大將軍費禕還成都。冬，復北駐漢壽。大赦。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p29.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十四年",
+          "era": "延熙",
+          "era_year": 14,
+          "year_ad": 251
+        }
+      ]
     },
     {
       "id": "shu.3.p30",
       "text": "十五年，吳王孫權薨。立子琮為西河王。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p30.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十五年",
+          "era": "延熙",
+          "era_year": 15,
+          "year_ad": 252
+        }
+      ]
     },
     {
       "id": "shu.3.p31",
       "text": "十六年春正月，大將軍費禕為魏降人郭循所殺於漢壽。夏四月，衛將軍姜維復率眾圍南安，不克而還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p31.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十六年春正月",
+          "era": "延熙",
+          "era_year": 16,
+          "year_ad": 253,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p31.t2",
+          "type": "temporal",
+          "at": 24,
+          "length": 3,
+          "text": "夏四月",
+          "era": "延熙",
+          "era_year": 16,
+          "year_ad": 253,
+          "month_chinese": "夏四月",
+          "month_ordinal": 4
+        }
+      ]
     },
     {
       "id": "shu.3.p32",
       "text": "十七年春正月，姜維還成都。大赦。夏六月，維復率眾出隴西。冬，拔狄道、（河間）[河關]、臨洮三縣民，居於綿竹、繁縣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p32.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 6,
+          "text": "十七年春正月",
+          "era": "延熙",
+          "era_year": 17,
+          "year_ad": 254,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p32.t2",
+          "type": "temporal",
+          "at": 16,
+          "length": 3,
+          "text": "夏六月",
+          "era": "延熙",
+          "era_year": 17,
+          "year_ad": 254,
+          "month_chinese": "夏六月",
+          "month_ordinal": 6
+        }
+      ]
     },
     {
       "id": "shu.3.p33",
       "text": "十八年春，姜維還成都。夏，復率諸軍出狄道，與魏雍州剌史王經戰於洮西，大破之。經退保狄道城，維卻住鍾題。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p33.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十八年",
+          "era": "延熙",
+          "era_year": 18,
+          "year_ad": 255
+        }
+      ]
     },
     {
       "id": "shu.3.p34",
       "text": "十九年春，進姜維位為大將軍，督戎馬，與鎮西將軍胡濟期會上邽，濟失誓不至。秋八月，維為魏大將軍鄧艾所破於上邽。維退軍還成都。是歲，立子瓚為新平王。大赦。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p34.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十九年",
+          "era": "延熙",
+          "era_year": 19,
+          "year_ad": 256
+        },
+        {
+          "id": "shu.3.p34.t2",
+          "type": "temporal",
+          "at": 36,
+          "length": 3,
+          "text": "秋八月",
+          "era": "延熙",
+          "era_year": 19,
+          "year_ad": 256,
+          "month_chinese": "秋八月",
+          "month_ordinal": 8
+        },
+        {
+          "id": "shu.3.p34.t3",
+          "type": "temporal",
+          "at": 61,
+          "length": 2,
+          "text": "是歲",
+          "era": "延熙",
+          "era_year": 19,
+          "year_ad": 256
+        }
+      ]
     },
     {
       "id": "shu.3.p35",
       "text": "二十年，聞魏大將軍諸葛誕據壽春以叛，姜維復率眾出駱谷，至芒水。是歲大赦。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p35.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "二十年",
+          "era": "延熙",
+          "era_year": 20,
+          "year_ad": 257
+        },
+        {
+          "id": "shu.3.p35.t2",
+          "type": "temporal",
+          "at": 31,
+          "length": 2,
+          "text": "是歲",
+          "era": "延熙",
+          "era_year": 20,
+          "year_ad": 257
+        }
+      ]
     },
     {
       "id": "shu.3.p36",
@@ -323,27 +1005,112 @@
     {
       "id": "shu.3.p37",
       "text": "二年夏六月，立子諶為北地王，恂為新興王，虔為上黨王。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p37.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "二年夏六月",
+          "era": "景耀",
+          "era_year": 2,
+          "year_ad": 259,
+          "month_chinese": "夏六月",
+          "month_ordinal": 6
+        }
+      ]
     },
     {
       "id": "shu.3.p38",
       "text": "三年秋九月，追諡故將軍關羽、張飛、馬超、龐統、黃忠。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p38.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "三年秋九月",
+          "era": "景耀",
+          "era_year": 3,
+          "year_ad": 260,
+          "month_chinese": "秋九月",
+          "month_ordinal": 9
+        }
+      ]
     },
     {
       "id": "shu.3.p39",
       "text": "四年春三月，追諡故將軍趙雲。冬十月，大赦。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p39.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "四年春三月",
+          "era": "景耀",
+          "era_year": 4,
+          "year_ad": 261,
+          "month_chinese": "春三月",
+          "month_ordinal": 3
+        },
+        {
+          "id": "shu.3.p39.t2",
+          "type": "temporal",
+          "at": 14,
+          "length": 3,
+          "text": "冬十月",
+          "era": "景耀",
+          "era_year": 4,
+          "year_ad": 261,
+          "month_chinese": "冬十月",
+          "month_ordinal": 10
+        }
+      ]
     },
     {
       "id": "shu.3.p40",
       "text": "五年春正月，西河王琮卒。是歲，姜維復率眾出侯和，為鄧艾所破，還住沓中。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p40.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 5,
+          "text": "五年春正月",
+          "era": "景耀",
+          "era_year": 5,
+          "year_ad": 262,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
+        },
+        {
+          "id": "shu.3.p40.t2",
+          "type": "temporal",
+          "at": 12,
+          "length": 2,
+          "text": "是歲",
+          "era": "景耀",
+          "era_year": 5,
+          "year_ad": 262
+        }
+      ]
     },
     {
       "id": "shu.3.p41",
       "text": "六年夏，魏大興徒從眾，命征西將軍鄧艾、鎮西將軍鍾會、雍州剌史諸葛緒數道並攻。於是遣左右車騎將軍張翼、廖化、輔國大將軍董厥等拒之。大赦。改元為炎興。冬，鄧艾破衛將軍諸葛瞻於綿竹。用光祿大夫譙周策，降於艾，奉書曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.3.p41.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "六年",
+          "era": "景耀",
+          "era_year": 6,
+          "year_ad": 263
+        }
+      ]
     },
     {
       "id": "shu.3.p42",
@@ -374,6 +1141,18 @@
           "at": 78,
           "length": 0,
           "text": "《晉諸公贊》曰：劉禪乘騾車詣艾，不具亡國之禮。"
+        },
+        {
+          "id": "shu.3.p43.t1",
+          "type": "temporal",
+          "at": 123,
+          "length": 5,
+          "text": "明年春正月",
+          "era": null,
+          "era_year": null,
+          "year_ad": 264,
+          "month_chinese": "春正月",
+          "month_ordinal": 1
         }
       ]
     },

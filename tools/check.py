@@ -29,7 +29,10 @@ KNOWN_SOURCE_IDS = {"wikisource", "ctext", "zhonghua1959", "bona", "wuying"}
 REQUIRED_ANNOTATIONS_FILE_FIELDS = ("chapter", "source", "annotations")
 REQUIRED_ANNOTATION_FIELDS = ("id", "anchor", "at", "length", "type", "text")
 ALLOWED_ANNOTATION_TYPES = {"pei", "chen", "editor", "crossref", "temporal"}
-REQUIRED_TEMPORAL_FIELDS = ("era", "era_year", "year_ad")
+REQUIRED_TEMPORAL_FIELDS = ("year_ad",)
+ALLOWED_TEMPORAL_RESOLUTIONS = {
+    "absolute", "bare_year", "bare_month", "this_year", "next_year", "prev_year",
+}
 # Annotation IDs use a single-letter tag prefix per type series (a for pei/chen/editor/crossref, t for temporal).
 _ANN_ID_RE = re.compile(r"^([a-z]+)\.(\d+)\.p\d+[a-z]*\.[a-z]\d+$")
 _CHAPTER_ID_RE = re.compile(r"^([a-z]+)\.(\d+)$")
@@ -214,6 +217,17 @@ def validate_annotation_file(path: Path, *, repo_root: Path) -> list[str]:
                 not isinstance(month_ordinal, int) or not (1 <= month_ordinal <= 12)
             ):
                 errs.append(f"temporal annotation {ann_id!r} month_ordinal out of range [1,12]")
+            kind = a.get("kind")
+            if kind is not None and kind not in {"absolute", "relative"}:
+                errs.append(f"temporal annotation {ann_id!r} kind={kind!r} must be 'absolute' or 'relative'")
+            resolution = a.get("resolution")
+            if resolution is not None and resolution not in ALLOWED_TEMPORAL_RESOLUTIONS:
+                errs.append(
+                    f"temporal annotation {ann_id!r} resolution={resolution!r} "
+                    f"must be one of {sorted(ALLOWED_TEMPORAL_RESOLUTIONS)}"
+                )
+            if kind == "absolute" and "era" not in a:
+                errs.append(f"absolute temporal annotation {ann_id!r} missing field: 'era'")
     return errs
 
 

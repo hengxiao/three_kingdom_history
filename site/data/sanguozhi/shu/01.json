@@ -183,6 +183,16 @@
         {
           "id": "shu.1.p8.t1",
           "type": "temporal",
+          "at": 331,
+          "length": 2,
+          "text": "是歲",
+          "era": "興平",
+          "era_year": 1,
+          "year_ad": 194
+        },
+        {
+          "id": "shu.1.p8.t2",
+          "type": "temporal",
           "at": 333,
           "length": 5,
           "text": "建安十六年",
@@ -202,7 +212,48 @@
     {
       "id": "shu.1.p9",
       "text": "明年，先主至葭萌，還兵南向，所在皆克。十九年，進圍成都數十日，城中尚有精兵三萬人，谷帛支一年，吏民咸欲死戰。璋言：「父子在州二十馀年，無恩德以加百姓。百姓攻戰三年，肌膏草野者，以璋故也，何心能安！」遂開城出降，群下莫不流涕。先主遷璋於南郡公安，盡歸其財物及故佩振威將軍印綬。孫權殺關羽，取荊州，以璋為益州牧，駐秭歸。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.1.p9.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "明年",
+          "era": "建安",
+          "era_year": 17,
+          "year_ad": 212
+        },
+        {
+          "id": "shu.1.p9.t2",
+          "type": "temporal",
+          "at": 19,
+          "length": 3,
+          "text": "十九年",
+          "era": "建安",
+          "era_year": 19,
+          "year_ad": 214
+        },
+        {
+          "id": "shu.1.p9.t3",
+          "type": "temporal",
+          "at": 44,
+          "length": 2,
+          "text": "一年",
+          "era": "建安",
+          "era_year": 1,
+          "year_ad": 196
+        },
+        {
+          "id": "shu.1.p9.t4",
+          "type": "temporal",
+          "at": 79,
+          "length": 2,
+          "text": "三年",
+          "era": "建安",
+          "era_year": 3,
+          "year_ad": 198
+        }
+      ]
     },
     {
       "id": "shu.1.p10",

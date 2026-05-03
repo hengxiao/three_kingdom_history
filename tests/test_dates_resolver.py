@@ -4,10 +4,12 @@ from __future__ import annotations
 import pytest
 
 from tools.dates_resolver import (
+    TimelineState,
     chinese_to_int,
     chinese_to_month,
     find_dates,
     resolve_era,
+    resolve_segment,
     to_ad,
 )
 
@@ -196,3 +198,119 @@ def test_jianxing_in_wu_book_picks_wu_era():
     assert len(dates) == 1
     assert dates[0].era.dynasty == "wu"
     assert dates[0].year_ad == 252
+
+
+# ---------- resolve_segment: state-aware (phase 2) ----------
+
+def test_resolve_segment_handles_absolute_only():
+    dates, state = resolve_segment("建安五年春正月，太祖戰。", book="wei")
+    assert len(dates) == 1
+    assert dates[0].kind == "absolute"
+    assert dates[0].year_ad == 200
+    assert state.era.name == "建安"
+    assert state.era_year == 5
+    assert state.year_ad == 200
+
+
+def test_resolve_segment_resolves_bare_year_using_state():
+    state = TimelineState()
+    dates, state = resolve_segment("建安五年，太祖戰。", book="wei", state=state)
+    # Now state = (建安, 5, 200). Next segment uses bare-year ref:
+    dates2, state2 = resolve_segment("九年春正月，攻鄴。", book="wei", state=state)
+    assert len(dates2) == 1
+    d = dates2[0]
+    assert d.kind == "relative"
+    assert d.resolution == "bare_year"
+    assert d.year_ad == 204
+    assert d.era.name == "建安"
+    assert d.era_year == 9
+    assert d.month_ordinal == 1
+    assert state2.year_ad == 204
+
+
+def test_resolve_segment_resolves_bare_month():
+    _, state = resolve_segment("建安五年春正月，太祖戰。", book="wei")
+    dates, _ = resolve_segment("二月，紹潰。", book="wei", state=state)
+    assert len(dates) == 1
+    d = dates[0]
+    assert d.resolution == "bare_month"
+    assert d.year_ad == 200
+    assert d.month_ordinal == 2
+
+
+def test_resolve_segment_handles_shi_sui():
+    _, state = resolve_segment("建安五年，太祖戰。", book="wei")
+    dates, _ = resolve_segment("是歲，孫策卒。", book="wei", state=state)
+    assert len(dates) == 1
+    assert dates[0].resolution == "this_year"
+    assert dates[0].year_ad == 200
+
+
+def test_resolve_segment_handles_ming_nian_advances_state():
+    _, state = resolve_segment("中平六年，靈帝崩。", book="wei")
+    dates, state2 = resolve_segment("明年春正月，諸將起兵。", book="wei", state=state)
+    assert len(dates) == 1
+    d = dates[0]
+    assert d.resolution == "next_year"
+    assert d.year_ad == 190  # 中平 ended in 189; AD+1 crosses to next era
+    assert d.era is None     # crossed boundary, era unknown
+    assert state2.year_ad == 190
+
+
+def test_resolve_segment_handles_qu_nian_does_not_move_state():
+    _, state = resolve_segment("建安五年，太祖戰。", book="wei")
+    dates, state2 = resolve_segment("去年事尚未息。", book="wei", state=state)
+    assert len(dates) == 1
+    assert dates[0].resolution == "prev_year"
+    assert dates[0].year_ad == 199
+    # state not advanced — subsequent refs still resolve from year 200
+    assert state2.year_ad == 200
+
+
+def test_resolve_segment_drops_bare_year_before_any_anchor():
+    """Without a prior absolute anchor we cannot resolve `三年春正月`."""
+    dates, state = resolve_segment("三年春正月，事起。", book="wei")
+    assert dates == []
+    assert state.year_ad is None
+
+
+def test_resolve_segment_drops_bare_year_outside_era_range():
+    _, state = resolve_segment("興平元年，事起。", book="wei")  # 興平 has 2 years
+    dates, _ = resolve_segment("十年春正月，又有事。", book="wei", state=state)
+    # 興平 doesn't have a year 10 — drop the ref
+    assert all(d.resolution != "bare_year" for d in dates)
+
+
+def test_resolve_segment_does_not_double_count_year_with_attached_month():
+    """`建安五年春正月` should be ONE absolute match, not absolute + bare_year + bare_month."""
+    dates, _ = resolve_segment("建安五年春正月，太祖戰。", book="wei")
+    assert len(dates) == 1
+    assert dates[0].kind == "absolute"
+
+
+def test_resolve_segment_bare_year_with_attached_month():
+    _, state = resolve_segment("建安五年，事起。", book="wei")
+    dates, state2 = resolve_segment("九年春正月，事興。", book="wei", state=state)
+    assert len(dates) == 1
+    d = dates[0]
+    assert d.surface == "九年春正月"
+    assert d.year_ad == 204
+    assert d.month_ordinal == 1
+
+
+def test_resolve_segment_state_carries_across_many_segments():
+    """Walk a sequence of segments, verify the state machine accumulates correctly."""
+    state = TimelineState()
+    dates, state = resolve_segment("建安五年春正月，討袁紹。", book="wei", state=state)
+    assert dates[0].year_ad == 200
+    dates, state = resolve_segment("二月，紹敗。", book="wei", state=state)
+    assert dates[0].year_ad == 200
+    assert dates[0].month_ordinal == 2
+    dates, state = resolve_segment("六年，紹卒。", book="wei", state=state)  # 建安六年
+    assert dates[0].year_ad == 201
+    dates, state = resolve_segment("是歲，蜀大水。", book="wei", state=state)
+    assert dates[0].year_ad == 201
+    dates, state = resolve_segment("明年，太祖征荊州。", book="wei", state=state)
+    assert dates[0].year_ad == 202
+    assert dates[0].era.name == "建安"  # still inside 建安 era
+    assert dates[0].era_year == 7

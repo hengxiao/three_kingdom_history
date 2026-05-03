@@ -136,6 +136,16 @@
           "era": "建興",
           "era_year": 1,
           "year_ad": 223
+        },
+        {
+          "id": "shu.4.p4.t3",
+          "type": "temporal",
+          "at": 38,
+          "length": 3,
+          "text": "十五年",
+          "era": "建興",
+          "era_year": 15,
+          "year_ad": 237
         }
       ]
     },
@@ -164,6 +174,16 @@
           "year_ad": 238,
           "month_chinese": "春正月",
           "month_ordinal": 1
+        },
+        {
+          "id": "shu.4.p5.t3",
+          "type": "temporal",
+          "at": 98,
+          "length": 2,
+          "text": "元年",
+          "era": "延熙",
+          "era_year": 1,
+          "year_ad": 238
         },
         {
           "id": "shu.4.p5.a1",
@@ -199,6 +219,16 @@
           "era": "建興",
           "era_year": 8,
           "year_ad": 230
+        },
+        {
+          "id": "shu.4.p6.t3",
+          "type": "temporal",
+          "at": 191,
+          "length": 2,
+          "text": "元年",
+          "era": "建興",
+          "era_year": 1,
+          "year_ad": 223
         }
       ]
     },
@@ -241,12 +271,42 @@
         {
           "id": "shu.4.p7.t4",
           "type": "temporal",
+          "at": 141,
+          "length": 3,
+          "text": "十九年",
+          "era": "延熙",
+          "era_year": 19,
+          "year_ad": 256
+        },
+        {
+          "id": "shu.4.p7.t5",
+          "type": "temporal",
+          "at": 152,
+          "length": 3,
+          "text": "二十年",
+          "era": "延熙",
+          "era_year": 20,
+          "year_ad": 257
+        },
+        {
+          "id": "shu.4.p7.t6",
+          "type": "temporal",
           "at": 157,
           "length": 4,
           "text": "景耀四年",
           "era": "景耀",
           "era_year": 4,
           "year_ad": 261
+        },
+        {
+          "id": "shu.4.p7.t7",
+          "type": "temporal",
+          "at": 208,
+          "length": 2,
+          "text": "元年",
+          "era": "景耀",
+          "era_year": 1,
+          "year_ad": 258
         }
       ]
     },
@@ -275,6 +335,18 @@
           "era": "景耀",
           "era_year": 6,
           "year_ad": 263
+        },
+        {
+          "id": "shu.4.p8.t3",
+          "type": "temporal",
+          "at": 143,
+          "length": 4,
+          "text": "元年正月",
+          "era": "景耀",
+          "era_year": 1,
+          "year_ad": 258,
+          "month_chinese": "正月",
+          "month_ordinal": 1
         },
         {
           "id": "shu.4.p8.a1",

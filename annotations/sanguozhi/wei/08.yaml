@@ -91,9 +91,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 199
   era: 建安
   era_year: 4
-  year_ad: 199
 - id: wei.8.p9.a1
   anchor: wei.8.p9
   at: 172
@@ -160,9 +162,11 @@ annotations:
   length: 4
   type: temporal
   text: 初平四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 193
   era: 初平
   era_year: 4
-  year_ad: 193
 - id: wei.8.p13.a1
   anchor: wei.8.p13
   at: 53
@@ -175,9 +179,22 @@ annotations:
   length: 4
   type: temporal
   text: 興平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 194
   era: 興平
   era_year: 1
+- id: wei.8.p14.t2
+  anchor: wei.8.p14
+  at: 42
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 194
+  era: 興平
+  era_year: 1
 - id: wei.8.p14.a1
   anchor: wei.8.p14
   at: 49
@@ -196,9 +213,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 196
   era: 建安
   era_year: 1
-  year_ad: 196
 - id: wei.8.p16.a1
   anchor: wei.8.p16
   at: 124
@@ -217,9 +236,11 @@ annotations:
   length: 4
   type: temporal
   text: 初平元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 190
   era: 初平
   era_year: 1
-  year_ad: 190
 - id: wei.8.p18.a1
   anchor: wei.8.p18
   at: 39
@@ -234,13 +255,37 @@ annotations:
   text: 《晉陽秋》曰：敏子追求敏，出塞，越二十餘年不娶。州里徐邈責之曰：「不孝莫大於無後，何可終身不娶乎！」乃娶妻，生子胤而遣妻，常如居喪之禮，不勝憂，數年而卒。胤生不識父母，及有識，蔬食哀戚亦如三年之喪。以祖父不知存亡，設主奉之。由是知名，仕至司徒。臣松之案：本傳云敏將家入海，而復與子相失，未詳其故。
 - id: wei.8.p18.t2
   anchor: wei.8.p18
+  at: 301
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 190
+  era: 初平
+  era_year: 1
+- id: wei.8.p18.t3
+  anchor: wei.8.p18
   at: 303
   length: 4
   type: temporal
   text: 建安九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 204
   era: 建安
   era_year: 9
-  year_ad: 204
+- id: wei.8.p19.t1
+  anchor: wei.8.p19
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 207
+  era: 建安
+  era_year: 12
 - id: wei.8.p19.a1
   anchor: wei.8.p19
   at: 31
@@ -253,9 +298,22 @@ annotations:
   length: 4
   type: temporal
   text: 太和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 228
   era: 太和
   era_year: 2
-  year_ad: 228
+- id: wei.8.p28.t1
+  anchor: wei.8.p28
+  at: 83
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 太和
+  era_year: 1
 - id: wei.8.p29.a1
   anchor: wei.8.p29
   at: 23
@@ -274,24 +332,89 @@ annotations:
   length: 4
   type: temporal
   text: 景初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 237
   era: 景初
   era_year: 1
+- id: wei.8.p33.t1
+  anchor: wei.8.p33
+  at: 44
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
   year_ad: 237
+  era: 景初
+  era_year: 1
+- id: wei.8.p33.t2
+  anchor: wei.8.p33
+  at: 57
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 237
+  era: 景初
+  era_year: 1
+  month_chinese: 三月
+  month_ordinal: 3
+- id: wei.8.p35.t1
+  anchor: wei.8.p35
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 238
+  era: 景初
+  era_year: 2
+- id: wei.8.p35.t2
+  anchor: wei.8.p35
+  at: 14
+  length: 2
+  type: temporal
+  text: 六月
+  kind: relative
+  resolution: bare_month
+  year_ad: 238
+  era: 景初
+  era_year: 2
+  month_chinese: 六月
+  month_ordinal: 6
 - id: wei.8.p35.a1
   anchor: wei.8.p35
   at: 22
   length: 0
   type: pei
   text: 《漢晉春秋》曰：公孫淵自立，稱紹漢元年。聞魏人將討，復稱臣於吳，乞兵北伐以自救。吳人欲戮其使，羊衜曰：「不可，是肆匹夫之怒而捐霸王之計也。不如因而厚之，遣奇兵潛往以要其成。若魏伐淵不克，而我軍遠赴，是恩結遐夷，義蓋萬里，若兵連不解，首尾離隔，則我虜其傍郡，驅略而歸，亦足以致天之罰，報雪曩事矣。」權曰：「善」。乃勒兵大出。謂淵使曰：「請俟後問，當從簡書，必與弟同休戚，共存亡，雖隕於中原，吾所甘心也。」又曰：「司馬懿所向無前，深為弟憂也。」
+- id: wei.8.p35.t3
+  anchor: wei.8.p35
+  at: 204
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 238
+  era: 景初
+  era_year: 2
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.8.p36.t1
   anchor: wei.8.p36
   at: 74
   length: 4
   type: temporal
   text: 中平六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 189
   era: 中平
   era_year: 6
-  year_ad: 189
 - id: wei.8.p36.a1
   anchor: wei.8.p36
   at: 94
@@ -346,9 +469,11 @@ annotations:
   length: 5
   type: temporal
   text: 建安二十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 215
   era: 建安
   era_year: 20
-  year_ad: 215
 - id: wei.8.p42.a1
   anchor: wei.8.p42
   at: 56

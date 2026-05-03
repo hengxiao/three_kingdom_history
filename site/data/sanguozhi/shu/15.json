@@ -46,11 +46,31 @@
           "year_ad": 243
         },
         {
+          "id": "shu.15.p3.t2",
+          "type": "temporal",
+          "at": 17,
+          "length": 3,
+          "text": "十一年",
+          "era": "延熙",
+          "era_year": 11,
+          "year_ad": 248
+        },
+        {
           "id": "shu.15.p3.a1",
           "type": "pei",
           "at": 48,
           "length": 0,
           "text": "《華陽國志》曰：芝徵涪陵，見玄猿緣山。芝性好弩，手自射猿，中之。猿拔其箭，卷木葉塞其創。芝曰：「嘻，吾違物之性，其將死矣！」一曰：芝見猿抱子在樹上，引弩射之，中猿母，其子為拔箭，以木葉塞創。芝乃嘆息，投弩水中，自知當死。"
+        },
+        {
+          "id": "shu.15.p3.t3",
+          "type": "temporal",
+          "at": 48,
+          "length": 3,
+          "text": "十四年",
+          "era": "延熙",
+          "era_year": 14,
+          "year_ad": 251
         }
       ]
     },
@@ -105,12 +125,44 @@
         {
           "id": "shu.15.p7.t1",
           "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十八年",
+          "era": "延熙",
+          "era_year": 18,
+          "year_ad": 255
+        },
+        {
+          "id": "shu.15.p7.t2",
+          "type": "temporal",
           "at": 157,
           "length": 4,
           "text": "景耀二年",
           "era": "景耀",
           "era_year": 2,
           "year_ad": 259
+        },
+        {
+          "id": "shu.15.p7.t3",
+          "type": "temporal",
+          "at": 175,
+          "length": 2,
+          "text": "六年",
+          "era": "景耀",
+          "era_year": 6,
+          "year_ad": 263
+        },
+        {
+          "id": "shu.15.p7.t4",
+          "type": "temporal",
+          "at": 193,
+          "length": 4,
+          "text": "明年正月",
+          "era": null,
+          "era_year": null,
+          "year_ad": 264,
+          "month_chinese": "正月",
+          "month_ordinal": 1
         },
         {
           "id": "shu.15.p7.a1",
@@ -182,7 +234,18 @@
     {
       "id": "shu.15.p11",
       "text": "咸熙元年春，化、預俱內徙洛陽，道病卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.15.p11.t1",
+          "type": "temporal",
+          "at": 2,
+          "length": 2,
+          "text": "元年",
+          "era": "景耀",
+          "era_year": 1,
+          "year_ad": 258
+        }
+      ]
     },
     {
       "id": "shu.15.p12",
@@ -332,6 +395,26 @@
           "era": "建興",
           "era_year": 8,
           "year_ad": 230
+        },
+        {
+          "id": "shu.15.p21.t3",
+          "type": "temporal",
+          "at": 105,
+          "length": 3,
+          "text": "十二年",
+          "era": "建興",
+          "era_year": 12,
+          "year_ad": 234
+        },
+        {
+          "id": "shu.15.p21.t4",
+          "type": "temporal",
+          "at": 140,
+          "length": 3,
+          "text": "十五年",
+          "era": "建興",
+          "era_year": 15,
+          "year_ad": 237
         }
       ]
     },
@@ -373,6 +456,16 @@
           "at": 101,
           "length": 4,
           "text": "建興元年",
+          "era": "建興",
+          "era_year": 1,
+          "year_ad": 223
+        },
+        {
+          "id": "shu.15.p26.t2",
+          "type": "temporal",
+          "at": 127,
+          "length": 2,
+          "text": "是歲",
           "era": "建興",
           "era_year": 1,
           "year_ad": 223

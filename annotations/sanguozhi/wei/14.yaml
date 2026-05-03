@@ -113,24 +113,105 @@ annotations:
   length: 4
   type: temporal
   text: 建安元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 196
   era: 建安
   era_year: 1
-  year_ad: 196
+- id: wei.14.p28.t1
+  anchor: wei.14.p28
+  at: 359
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.14.p35.a1
   anchor: wei.14.p35
   at: 0
   length: 0
   type: pei
   text: 《獻帝春秋》曰：昭與列侯諸將議，以丞相宜進爵國公，九錫備物，以彰殊勳；書與荀彧曰：「昔周旦、呂望，當姬氏之盛，因二聖之業，輔翼成王之幼，功勳若彼，猶受上爵，錫土開宇。末世田單，驅強齊之眾，報弱燕之怨，收城七十，迎复襄王；襄王加賞於單，使東有掖邑之封，西有菑上之虞。前世錄功，濃厚如此。今曹公遭海內傾覆，宗廟焚滅，躬擐甲胄，周旋征伐，櫛風沐雨，且三十年，芟夷羣凶，為百姓除害，使漢室復存，劉氏奉祀。方之曩者數公，若太山之與丘垤，豈同日而論乎？今徒與列將功臣，並侯一縣，此豈天下所望哉！」
+- id: wei.14.p37.t1
+  anchor: wei.14.p37
+  at: 28
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 197
+  era: 建安
+  era_year: 2
+- id: wei.14.p37.t2
+  anchor: wei.14.p37
+  at: 51
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
+- id: wei.14.p40.t1
+  anchor: wei.14.p40
+  at: 80
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
+- id: wei.14.p40.t2
+  anchor: wei.14.p40
+  at: 94
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
+- id: wei.14.p40.t3
+  anchor: wei.14.p40
+  at: 113
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 202
+  era: 建安
+  era_year: 7
 - id: wei.14.p41.t1
   anchor: wei.14.p41
   at: 0
   length: 4
   type: temporal
   text: 太和四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 230
   era: 太和
   era_year: 4
-  year_ad: 230
+- id: wei.14.p41.t2
+  anchor: wei.14.p41
+  at: 10
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 232
+  era: 太和
+  era_year: 6
 - id: wei.14.p44.a1
   anchor: wei.14.p44
   at: 12
@@ -155,9 +236,11 @@ annotations:
   length: 4
   type: temporal
   text: 延康元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 220
   era: 延康
   era_year: 1
-  year_ad: 220
 - id: wei.14.p51.a2
   anchor: wei.14.p51
   at: 125
@@ -170,9 +253,11 @@ annotations:
   length: 4
   type: temporal
   text: 黃初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 220
   era: 黃初
   era_year: 1
-  year_ad: 220
 - id: wei.14.p52.a1
   anchor: wei.14.p52
   at: 299
@@ -185,15 +270,39 @@ annotations:
   length: 0
   type: pei
   text: 又不從。遂即拜權為吳王。權將陸議大敗劉備，殺其兵八萬餘人，備僅以身免。權外禮愈卑，而內行不順，果如曄言。
+- id: wei.14.p55.t1
+  anchor: wei.14.p55
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
 - id: wei.14.p61.t1
   anchor: wei.14.p61
   at: 63
   length: 4
   type: temporal
   text: 太和六年
+  kind: absolute
+  resolution: absolute
+  year_ad: 232
   era: 太和
   era_year: 6
-  year_ad: 232
+- id: wei.14.p61.t2
+  anchor: wei.14.p61
+  at: 86
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 228
+  era: 太和
+  era_year: 2
 - id: wei.14.p61.a1
   anchor: wei.14.p61
   at: 109
@@ -212,18 +321,33 @@ annotations:
   length: 5
   type: temporal
   text: 建安十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 208
   era: 建安
   era_year: 13
-  year_ad: 208
+- id: wei.14.p63.t2
+  anchor: wei.14.p63
+  at: 137
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 209
+  era: 建安
+  era_year: 14
 - id: wei.14.p66.t1
   anchor: wei.14.p66
   at: 0
   length: 4
   type: temporal
   text: 黃初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 222
   era: 黃初
   era_year: 3
-  year_ad: 222
 - id: wei.14.p70.a1
   anchor: wei.14.p70
   at: 64
@@ -254,6 +378,17 @@ annotations:
   length: 0
   type: pei
   text: 孫盛曰：蔣濟之辭邑，可謂不負心矣。語曰「不為利回，不為義疚」，蔣濟其有焉。
+- id: wei.14.p78.t1
+  anchor: wei.14.p78
+  at: 159
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 222
+  era: 黃初
+  era_year: 3
 - id: wei.14.p78.a2
   anchor: wei.14.p78
   at: 168
@@ -266,9 +401,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安十年
+  kind: absolute
+  resolution: absolute
+  year_ad: 205
   era: 建安
   era_year: 10
-  year_ad: 205
 - id: wei.14.p81.a1
   anchor: wei.14.p81
   at: 127
@@ -281,6 +418,17 @@ annotations:
   length: 0
   type: pei
   text: 資別傳曰：資字彥龍。幼而岐嶷，三歲喪二親，長於兄嫂。講業太學，博覽傳記，同郡王允一見而奇之。太祖為司空，又辟資。會兄為鄉人所害，資手刃報讎，乃將家屬避地河東，故遂不應命。尋復為本郡所命，以疾辭。友人河東賈逵謂資曰：「足下抱逸羣之才，值舊邦傾覆，主將殷勤，千里延頸，宜崇古賢桑梓之義。而久盤桓，拒違君命，斯猶曜和璧於秦王之庭，而塞以連城之價耳。竊為足下不取也！」資感其言，遂往應之。到署功曹，舉計吏。尚書令荀彧見資，歎曰：「北州承喪亂已久，謂其賢智零落，今日乃復見孫計君乎！」表留以為尚書郎。辭以家難，得還河東。
+- id: wei.14.p83.t1
+  anchor: wei.14.p83
+  at: 66
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.14.p83.a1
   anchor: wei.14.p83
   at: 112
@@ -293,21 +441,45 @@ annotations:
   length: 0
   type: pei
   text: 《魏氏春秋》曰：烏丸校尉田豫帥西部鮮卑洩歸尼等出塞，討軻比能、智鬱築鞬，破之，還至馬邑故城，比能帥三萬騎圍豫。帝聞之，計未有所出，如中書省以問監、令。令孫資對曰：「上谷太守閻志，柔弟也，為比能素所歸信。令馳詔使說比能，可不勞師而自解矣。」帝從之，比能果釋豫而還。
+- id: wei.14.p85.t1
+  anchor: wei.14.p85
+  at: 160
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 198
+  era: 建安
+  era_year: 3
 - id: wei.14.p85.a2
   anchor: wei.14.p85
   at: 173
   length: 0
   type: pei
   text: 資別傳曰：是時，孫權、諸葛亮號稱劇賊，無歲不有軍征。而帝總攝羣下，內圖禦寇之計，外規廟勝之畫，資皆管之。然自以受腹心，常讓事於帝曰：「動大眾，舉大事，宜與羣下共之；既以示明，且於探求為廣。」既朝臣會議，資奏當其是非，擇其善者推成之，終不顯己之德也。若眾人有譴過及愛憎之說，輒復為請解，以塞譖潤之端。如征東將軍滿寵、涼州刺史徐邈，並有譖毀之者，資皆盛陳其素行，使卒無纖介。寵、邈得保其功名者，資之力也。初，資在邦邑，名出同類之右。鄉人司空掾田豫、梁相宗艷皆妒害之，而楊豐黨附豫等，專為資構造謗端，怨隙甚重。資既不以為言，而終無恨意。豫等慚服，求釋宿憾，結為婚姻。資謂之曰：「吾無憾心，不知所釋。此為卿自薄之，卿自厚之耳！」乃為長子宏取其女。及當顯位，而田豫老疾在家。資遇之甚厚，又致其子於本郡，以為孝廉。而楊豐子後為尚方吏，帝以職事譴怒，欲致之法，資請活之。其不念舊惡如此。
-- id: wei.14.p85.t1
+- id: wei.14.p85.t2
   anchor: wei.14.p85
   at: 173
   length: 4
   type: temporal
   text: 景初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 238
   era: 景初
   era_year: 2
+- id: wei.14.p86.t1
+  anchor: wei.14.p86
+  at: 0
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
   year_ad: 238
+  era: 景初
+  era_year: 2
 - id: wei.14.p86.a1
   anchor: wei.14.p86
   at: 249
@@ -320,30 +492,67 @@ annotations:
   length: 4
   type: temporal
   text: 正始元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 240
   era: 正始
   era_year: 1
-  year_ad: 240
+- id: wei.14.p87.t2
+  anchor: wei.14.p87
+  at: 81
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 245
+  era: 正始
+  era_year: 6
+- id: wei.14.p87.t3
+  anchor: wei.14.p87
+  at: 101
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 246
+  era: 正始
+  era_year: 7
 - id: wei.14.p87.a1
   anchor: wei.14.p87
   at: 129
   length: 0
   type: pei
   text: 資別傳曰：大將軍爽專事，多變易舊章。資歎曰：「吾累世蒙寵，加以豫聞屬託，今縱不能匡弼時事，可以坐受素餐之祿邪？」遂固稱疾。九年二月，乃賜詔曰：「君掌機密三十餘年，經營庶事，勳著前朝。暨朕統位，動賴良謀。是以曩者增崇寵章，同之三事，外帥羣官，內望讜言。屬以年耆疾篤，上還印綬，前後鄭重，辭旨懇切。天地以大順成德，君子以善恕成仁，重以職事，違奪君志；今聽所執，賜錢百萬，使兼光祿勳少府親策詔君養疾於第。君其勉進醫藥，頤神和氣，以永無疆之祚。置舍人官騎，加以日秩餚酒之膳焉。」
-- id: wei.14.p87.t2
+- id: wei.14.p87.t4
   anchor: wei.14.p87
   at: 146
   length: 4
   type: temporal
   text: 嘉平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 250
   era: 嘉平
   era_year: 2
-  year_ad: 250
 - id: wei.14.p87.a2
   anchor: wei.14.p87
   at: 163
   length: 0
   type: pei
   text: 臣松之案〈頭責子羽〉曰：士卿劉許字文生，正之弟也。與張華六人，並稱文辭可觀，意思詳序。晉惠帝世，許為越騎校尉。
+- id: wei.14.p87.t5
+  anchor: wei.14.p87
+  at: 186
+  length: 2
+  type: temporal
+  text: 三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 251
+  era: 嘉平
+  era_year: 3
 - id: wei.14.p88.a1
   anchor: wei.14.p88
   at: 104

@@ -17,9 +17,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 198
   era: 建安
   era_year: 3
-  year_ad: 198
 - id: wu.9.p3.a1
   anchor: wu.9.p3
   at: 25
@@ -38,12 +40,56 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：孫策於時始得豫章、廬陵，尚未能得定江夏。瑜之所鎮，應在今巴丘縣也，與後所（平）巴丘處不同。
+- id: wu.9.p4.t1
+  anchor: wu.9.p4
+  at: 0
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 200
+  era: 建安
+  era_year: 5
 - id: wu.9.p4.a1
   anchor: wu.9.p4
   at: 34
   length: 0
   type: pei
   text: 《江表傳》曰：曹公新破袁紹，兵威日盛，建安七年，下書責權質任子。權召群臣會議，張昭、秦松等猶豫不能決，權意不欲遣質，乃獨將瑜詣母前定議，瑜曰：「昔楚國初封於荊山之側，不滿百里之地，繼嗣賢能，廣土開境，立基於郢，遂據荊楊，至於南海，傳業延祚，九百餘年。今將軍承父兄餘資，兼六郡之眾，兵精糧多，將士用命，鑄山為銅，煮海為鹽，境內富饒，人不思亂，汎舟舉帆，朝發夕到，士風勁勇，所向無敵，有何偪迫，而欲送質？質一入，不得不與曹氏相首尾，與相首尾，則命召不得不往，便見制於人也。極不過一侯印，僕從十餘人，車數乘，馬數匹，豈與南面稱孤同哉？不如勿遣，徐觀其變。若曹氏能率義以正天下，將軍事之未晚。若圖為暴亂，兵猶火也，不戢將自焚。將軍韜勇抗威，以待天命，何送質之有！」權母曰：「公瑾議是也。公瑾與伯符同年，小一月耳，我視之如子也，汝其兄事之。遂不送質。
+- id: wu.9.p5.t1
+  anchor: wu.9.p5
+  at: 0
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 206
+  era: 建安
+  era_year: 11
+- id: wu.9.p5.t2
+  anchor: wu.9.p5
+  at: 63
+  length: 3
+  type: temporal
+  text: 十三年
+  kind: relative
+  resolution: bare_year
+  year_ad: 208
+  era: 建安
+  era_year: 13
+- id: wu.9.p5.t3
+  anchor: wu.9.p5
+  at: 80
+  length: 2
+  type: temporal
+  text: 其年
+  kind: relative
+  resolution: this_year
+  year_ad: 208
+  era: 建安
+  era_year: 13
 - id: wu.9.p7.a1
   anchor: wu.9.p7
   at: 68
@@ -86,18 +132,22 @@ annotations:
   length: 4
   type: temporal
   text: 黃龍元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 229
   era: 黃龍
   era_year: 1
-  year_ad: 229
 - id: wu.9.p13.t2
   anchor: wu.9.p13
   at: 73
   length: 4
   type: temporal
   text: 赤烏二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 239
   era: 赤烏
   era_year: 2
-  year_ad: 239
 - id: wu.9.p17.a1
   anchor: wu.9.p17
   at: 188
@@ -140,9 +190,11 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 217
   era: 建安
   era_year: 22
-  year_ad: 217
 - id: wu.9.p25.a1
   anchor: wu.9.p25
   at: 32
@@ -155,9 +207,22 @@ annotations:
   length: 4
   type: temporal
   text: 鳳凰三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 274
   era: 鳳凰
   era_year: 3
+- id: wu.9.p27.t1
+  anchor: wu.9.p27
+  at: 0
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 274
+  era: 鳳凰
+  era_year: 3
 - id: wu.9.p28.a1
   anchor: wu.9.p28
   at: 176

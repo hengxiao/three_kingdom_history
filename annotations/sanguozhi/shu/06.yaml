@@ -23,9 +23,11 @@ annotations:
   length: 4
   type: temporal
   text: 建安五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 200
   era: 建安
   era_year: 5
-  year_ad: 200
 - id: shu.6.p2.a1
   anchor: shu.6.p2
   at: 218
@@ -44,6 +46,28 @@ annotations:
   length: 0
   type: pei
   text: 蜀記曰：初，劉備在許，與曹公共獵。獵中，眾散，羽勸備殺公，備不從。及在夏口，飄颻江渚，羽怒曰：「往日獵中，若從羽言，可無今日之困。」備曰：「是時亦為國家惜之耳；若天道輔正，安知此不為福邪！」臣松之以為備後與董承等結謀，但事泄不克諧耳，若為國家惜曹公，其如此言何！羽若果有此勸而備不肯從者，將以曹公腹心親戚，實繁有徒，事不宿構，非造次所行；曹雖可殺，身必不免，故以計而止，何惜之有乎！既往之事，故讬為雅言耳。
+- id: shu.6.p5.t1
+  anchor: shu.6.p5
+  at: 0
+  length: 4
+  type: temporal
+  text: 二十四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
+- id: shu.6.p5.t2
+  anchor: shu.6.p5
+  at: 23
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 219
+  era: 建安
+  era_year: 24
 - id: shu.6.p5.a1
   anchor: shu.6.p5
   at: 186
@@ -86,18 +110,22 @@ annotations:
   length: 4
   type: temporal
   text: 章武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 章武
   era_year: 1
-  year_ad: 221
 - id: shu.6.p10.t1
   anchor: shu.6.p10
   at: 34
   length: 4
   type: temporal
   text: 初平三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 192
   era: 初平
   era_year: 3
-  year_ad: 192
 - id: shu.6.p10.a1
   anchor: shu.6.p10
   at: 170
@@ -134,9 +162,22 @@ annotations:
   length: 4
   type: temporal
   text: 章武元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 221
   era: 章武
   era_year: 1
-  year_ad: 221
+- id: shu.6.p14.t1
+  anchor: shu.6.p14
+  at: 0
+  length: 2
+  type: temporal
+  text: 二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 222
+  era: 章武
+  era_year: 2
 - id: shu.6.p14.a1
   anchor: shu.6.p14
   at: 92
@@ -149,9 +190,33 @@ annotations:
   length: 6
   type: temporal
   text: 建安二十四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 219
   era: 建安
   era_year: 24
+- id: shu.6.p15.t2
+  anchor: shu.6.p15
+  at: 173
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 219
+  era: 建安
+  era_year: 24
+- id: shu.6.p15.t3
+  anchor: shu.6.p15
+  at: 279
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 220
+  era: 建安
+  era_year: 25
 - id: shu.6.p16.a1
   anchor: shu.6.p16
   at: 41
@@ -176,15 +241,50 @@ annotations:
   length: 4
   type: temporal
   text: 建興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 223
   era: 建興
   era_year: 1
-  year_ad: 223
+- id: shu.6.p17.t2
+  anchor: shu.6.p17
+  at: 94
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 227
+  era: 建興
+  era_year: 5
+- id: shu.6.p17.t3
+  anchor: shu.6.p17
+  at: 105
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 228
+  era: 建興
+  era_year: 6
 - id: shu.6.p17.a2
   anchor: shu.6.p17
   at: 177
   length: 0
   type: pei
   text: 雲別傳曰：亮曰：「街亭軍退，兵將不復相錄，箕穀軍退，兵將初不相失，何故？」芝答曰：「雲身自斷後，軍資什物，略無所棄，兵將無緣相失。」雲有軍資餘絹，亮使分賜將士，雲曰：「軍事無利，何為有賜？其物請悉入赤岸府庫，須十月為冬賜。」亮大善之。
+- id: shu.6.p17.t4
+  anchor: shu.6.p17
+  at: 177
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 229
+  era: 建興
+  era_year: 7
 - id: shu.6.p17.a3
   anchor: shu.6.p17
   at: 276

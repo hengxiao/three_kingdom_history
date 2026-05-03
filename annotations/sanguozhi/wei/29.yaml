@@ -41,18 +41,83 @@ annotations:
   length: 4
   type: temporal
   text: 中平五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 188
   era: 中平
   era_year: 5
-  year_ad: 188
+- id: wei.29.p25.t1
+  anchor: wei.29.p25
+  at: 154
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 184
+  era: 中平
+  era_year: 1
 - id: wei.29.p27.t1
   anchor: wei.29.p27
   at: 2
   length: 4
   type: temporal
   text: 黃初七年
+  kind: absolute
+  resolution: absolute
+  year_ad: 226
   era: 黃初
   era_year: 7
+- id: wei.29.p27.t2
+  anchor: wei.29.p27
+  at: 58
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
   year_ad: 226
+  era: 黃初
+  era_year: 7
+  month_chinese: 十二月
+  month_ordinal: 12
+- id: wei.29.p27.t3
+  anchor: wei.29.p27
+  at: 210
+  length: 2
+  type: temporal
+  text: 一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+- id: wei.29.p29.t1
+  anchor: wei.29.p29
+  at: 24
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wei.29.p29.t2
+  anchor: wei.29.p29
+  at: 72
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.29.p33.a1
   anchor: wei.29.p33
   at: 43
@@ -65,6 +130,32 @@ annotations:
   length: 0
   type: pei
   text: 輅別傳曰：利漕民郭恩，字義博，有才學，善周易、春秋，又能仰觀。輅就義博讀易，數十日中，意便開發，言難逾師。於此分蓍下卦，用思精妙，佔黌上諸生疾病死亡貧富喪衰，初無差錯，莫不驚怪，謂之神人也。又從義博學仰觀，三十日中通夜不臥，語義博：「君但相語墟落處所耳，至於推運會，論災異，自當出吾天分。」學未一年，義博反從輅問易及天文事要。義博每聽輅語，未嘗不推幾慷慨。自言「登聞君至論之時，忘我篤疾，明闇之不相逮，何其遠也」！義博設主人，獨請輅，具告辛苦，自說：「兄弟三人俱得躄疾，不知何故？試相為作卦，知其所由。若有咎殃者，天道赦人，當為吾祈福於神明，勿有所愛。兄弟俱行，此為更生。」輅便作卦，思之未詳。會日夕，因留宿，至中夜，語義博曰：「吾以此得之。」既言其事，義博悲涕沾衣，曰：「皇漢之末，實有斯事。君不名主，諱也。我不得言，禮也。兄弟躄來三十餘載，腳如棘子，不可復治，但原不及子孫耳。」輅言火形不絕，水形無餘，不及後也。
+- id: wei.29.p35.t1
+  anchor: wei.29.p35
+  at: 15
+  length: 2
+  type: temporal
+  text: 正月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 正月
+  month_ordinal: 1
+- id: wei.29.p35.t2
+  anchor: wei.29.p35
+  at: 28
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 八月
+  month_ordinal: 8
 - id: wei.29.p35.a1
   anchor: wei.29.p35
   at: 60
@@ -101,6 +192,32 @@ annotations:
   length: 0
   type: pei
   text: 輅別傳曰：勃海劉長仁有辯才，初雖聞輅能曉鳥鳴，後每見難輅曰：「夫生民之音曰言，鳥獸之聲曰鳴，故言者則有知之貴靈，鳴者則無知之賤名，何由以鳥鳴為語，亂神明之所異也？孔子曰『吾不與鳥獸同群』，明其賤也。」輅答曰：「夫天雖有大象而不能言，故運星精於上，流神明於下，驗風雲以表異，役鳥獸以通靈。表異者必有浮沈之候，通靈者必有宮商之應，是以宋襄失德，六鶂並退，伯姬將焚，鳥唱其災，四國未火，融風已發，赤鳥夾日，殃在荊楚。此乃上天之所使，自然之明符。考之律呂則音聲有本，求之人事則吉凶不失。昔在秦祖，以功受封，葛盧聽音，著在春秋，斯皆典謨之實，非聖賢之虛名也。商之將興，由一燕卵也。文王受命，丹鳥銜書，此乃聖人之靈祥，周室之休祚，何賤之有乎？夫鳥鳴之聽，精在鶉火，妙在八神，自非斯倫，猶子路之於死生也。」長仁言：「君辭雖茂，華而不實，未敢之信。」須臾有鳴鵲之驗，長仁乃服。
+- id: wei.29.p41.t1
+  anchor: wei.29.p41
+  at: 190
+  length: 2
+  type: temporal
+  text: 五月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 五月
+  month_ordinal: 5
+- id: wei.29.p41.t2
+  anchor: wei.29.p41
+  at: 197
+  length: 2
+  type: temporal
+  text: 三月
+  kind: relative
+  resolution: bare_month
+  year_ad: 220
+  era: 黃初
+  era_year: 1
+  month_chinese: 三月
+  month_ordinal: 3
 - id: wei.29.p41.a1
   anchor: wei.29.p41
   at: 212
@@ -125,15 +242,30 @@ annotations:
   length: 4
   type: temporal
   text: 正始九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 248
   era: 正始
   era_year: 9
-  year_ad: 248
 - id: wei.29.p45.a1
   anchor: wei.29.p45
   at: 72
   length: 0
   type: pei
   text: 輅別傳曰：輅為華清河所召，為北黌文學，一時士友無不嘆慕。安平趙孔曜，明敏有思識，與輅有管、鮑之分，故從發干來，就郡黌上與輅相見，言：「卿腹中汪汪，故時死人半，今生人無雙，當去俗騰飛，翱翔昊蒼，云何在此？聞卿消息，使吾食不甘味也。冀州裴使君才理清明，能釋玄虛，每論易及老、莊之道，未嘗不注精於嚴、瞿之徒也。又眷吾意重，能相明信者。今當故往，為卿陳感虎開石之誠。」輅言：「吾非四淵之龍，安能使白日晝陰？卿若能動東風、興朝雲，吾志所不讓也。」於是遂至冀州見裴使君。使君言：「君顏色何以消減故邪？」孔曜言：「體中無藥石之疾，然見清河郡內有一騏驥，拘縶後厩歷年，去王良、伯樂百八十里，不得騁天骨，起風塵，以此憔悴耳。」使君言：「騏驥今何在也？」孔曜言：「平原管輅字公明，年三十六，雅性寬大，與世無忌，可謂士雄。仰觀天文則能同妙甘公、石申，俯覽周易則能思齊季主，遊步道術，開神無窮，可謂士英。抱荊山之璞，懷夜光之寶，而為清河郡所錄北黌文學，可為痛心疾首也。使君方欲流精九皋，垂神幽藪，欲令明主不獨治，逸才不久滯，高風遐被，莫不草靡，宜使輅特蒙陰和之應，得及羽儀之時，必能翼宣隆化，揚聲九圍也。」裴使君聞言，則慷慨曰：「何乃爾邪！雖在大州，未見異才可用釋人鬱悶者，思還京師，得共論道耳，況草間自有清妙之才乎？如此便相為取之，莫使騏驥更為凡馬，荊山反成凡石。」即檄召輅為文學從事。一相見，清論終日，不覺罷倦。天時大熱，移床在庭前樹下，乃至雞向晨，然後出。再相見，便轉為鉅鹿從事。三見，轉治中。四見，轉為別駕。至十月，舉為秀才。輅辭裴使君，使君言：「（丁）、鄧二尚書，有經國才略，於物理不精也。何尚書神明精微，言皆巧妙，巧妙之志，殆破秋毫，君當慎之！自言不解易九事，必當以相問。比至洛，宜善精其理也。」輅言：「何若巧妙，以攻難之才，遊形之表，未入於神。夫入神者，當步天元，推陰陽，探玄虛，極幽明，然後覽道無窮，未暇細言。若欲差次老、莊而參爻、象，愛微辯而興浮藻，可謂射侯之巧，非能破秋毫之妙也。若九事皆至義者，不足勞思也。若陰陽者，精之以久。輅去之後，歲朝當有時刑大風，風必摧破樹木。若發於乾者，必有天威，不足共清譚者。」
+- id: wei.29.p46.t1
+  anchor: wei.29.p46
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二月
+  kind: relative
+  resolution: bare_month
+  year_ad: 248
+  era: 正始
+  era_year: 9
+  month_chinese: 十二月
+  month_ordinal: 12
 - id: wei.29.p46.a1
   anchor: wei.29.p46
   at: 218
@@ -182,9 +314,48 @@ annotations:
   length: 4
   type: temporal
   text: 正元二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 255
   era: 正元
   era_year: 2
+- id: wei.29.p51.t2
+  anchor: wei.29.p51
+  at: 206
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
   year_ad: 255
+  era: 正元
+  era_year: 2
+- id: wei.29.p51.t3
+  anchor: wei.29.p51
+  at: 208
+  length: 2
+  type: temporal
+  text: 八月
+  kind: relative
+  resolution: bare_month
+  year_ad: 255
+  era: 正元
+  era_year: 2
+  month_chinese: 八月
+  month_ordinal: 8
+- id: wei.29.p51.t4
+  anchor: wei.29.p51
+  at: 216
+  length: 4
+  type: temporal
+  text: 明年二月
+  kind: relative
+  resolution: next_year
+  year_ad: 256
+  era: 正元
+  era_year: 3
+  month_chinese: 二月
+  month_ordinal: 2
 - id: wei.29.p51.a1
   anchor: wei.29.p51
   at: 227

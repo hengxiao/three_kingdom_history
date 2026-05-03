@@ -74,6 +74,28 @@
           "era": "太和",
           "era_year": 4,
           "year_ad": 230
+        },
+        {
+          "id": "wei.5.p6.t2",
+          "type": "temporal",
+          "at": 164,
+          "length": 2,
+          "text": "其年",
+          "era": "太和",
+          "era_year": 4,
+          "year_ad": 230
+        },
+        {
+          "id": "wei.5.p6.t3",
+          "type": "temporal",
+          "at": 172,
+          "length": 2,
+          "text": "七月",
+          "era": "太和",
+          "era_year": 4,
+          "year_ad": 230,
+          "month_chinese": "七月",
+          "month_ordinal": 7
         }
       ]
     },
@@ -166,6 +188,18 @@
         {
           "id": "wei.5.p10.t2",
           "type": "temporal",
+          "at": 13,
+          "length": 2,
+          "text": "六月",
+          "era": "延康",
+          "era_year": 1,
+          "year_ad": 220,
+          "month_chinese": "六月",
+          "month_ordinal": 6
+        },
+        {
+          "id": "wei.5.p10.t3",
+          "type": "temporal",
           "at": 23,
           "length": 6,
           "text": "黃初元年十月",
@@ -174,6 +208,18 @@
           "year_ad": 220,
           "month_chinese": "十月",
           "month_ordinal": 10
+        },
+        {
+          "id": "wei.5.p10.t4",
+          "type": "temporal",
+          "at": 75,
+          "length": 4,
+          "text": "二年六月",
+          "era": "黃初",
+          "era_year": 2,
+          "year_ad": 221,
+          "month_chinese": "六月",
+          "month_ordinal": 6
         },
         {
           "id": "wei.5.p10.a1",
@@ -216,12 +262,68 @@
         {
           "id": "wei.5.p12.t2",
           "type": "temporal",
+          "at": 34,
+          "length": 2,
+          "text": "四月",
+          "era": "太和",
+          "era_year": 1,
+          "year_ad": 227,
+          "month_chinese": "四月",
+          "month_ordinal": 4
+        },
+        {
+          "id": "wei.5.p12.t3",
+          "type": "temporal",
+          "at": 136,
+          "length": 5,
+          "text": "四年十一月",
+          "era": "太和",
+          "era_year": 4,
+          "year_ad": 230,
+          "month_chinese": "十一月",
+          "month_ordinal": 11
+        },
+        {
+          "id": "wei.5.p12.t4",
+          "type": "temporal",
+          "at": 165,
+          "length": 3,
+          "text": "十二月",
+          "era": "太和",
+          "era_year": 4,
+          "year_ad": 230,
+          "month_chinese": "十二月",
+          "month_ordinal": 12
+        },
+        {
+          "id": "wei.5.p12.t5",
+          "type": "temporal",
           "at": 184,
           "length": 4,
           "text": "青龍二年",
           "era": "青龍",
           "era_year": 2,
           "year_ad": 234
+        },
+        {
+          "id": "wei.5.p12.t6",
+          "type": "temporal",
+          "at": 235,
+          "length": 2,
+          "text": "三年",
+          "era": "青龍",
+          "era_year": 3,
+          "year_ad": 235
+        },
+        {
+          "id": "wei.5.p12.t7",
+          "type": "temporal",
+          "at": 274,
+          "length": 2,
+          "text": "四年",
+          "era": "青龍",
+          "era_year": 4,
+          "year_ad": 236
         }
       ]
     },
@@ -322,7 +424,28 @@
     {
       "id": "wei.5.p17",
       "text": "五年，帝東征，后留許昌永始台。時霖雨百餘日，城樓多壞，有司奏請移止。后曰：「昔楚昭王出遊，貞姜留漸台，江水至，使者迎而無符，不去，卒沒。今帝在遠，吾幸未有是患，而便移止，奈何？」群臣莫敢復言。六年，帝東征吳，至廣陵，后留譙宮。時表留宿衛，欲遏水取魚。后曰：「水噹通運漕，又少材木，奴客不在目前，當複私取官竹木作梁遏。今奉車所不足者，豈魚乎？」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.5.p17.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "五年",
+          "era": "黃初",
+          "era_year": 5,
+          "year_ad": 224
+        },
+        {
+          "id": "wei.5.p17.t2",
+          "type": "temporal",
+          "at": 96,
+          "length": 2,
+          "text": "六年",
+          "era": "黃初",
+          "era_year": 6,
+          "year_ad": 225
+        }
+      ]
     },
     {
       "id": "wei.5.p18",
@@ -341,6 +464,16 @@
         {
           "id": "wei.5.p18.t2",
           "type": "temporal",
+          "at": 59,
+          "length": 2,
+          "text": "其年",
+          "era": "太和",
+          "era_year": 4,
+          "year_ad": 230
+        },
+        {
+          "id": "wei.5.p18.t3",
+          "type": "temporal",
           "at": 157,
           "length": 4,
           "text": "青龍三年",
@@ -349,11 +482,33 @@
           "year_ad": 235
         },
         {
+          "id": "wei.5.p18.t4",
+          "type": "temporal",
+          "at": 175,
+          "length": 2,
+          "text": "三月",
+          "era": "青龍",
+          "era_year": 3,
+          "year_ad": 235,
+          "month_chinese": "三月",
+          "month_ordinal": 3
+        },
+        {
           "id": "wei.5.p18.a1",
           "type": "pei",
           "at": 186,
           "length": 0,
           "text": "《魏略》曰：明帝既嗣立，追痛甄后之薨，故太后以憂暴崩。甄后臨沒，以帝屬李夫人。及太后崩，夫人乃說甄后見譖之禍，不獲大斂，被髮覆面，帝哀恨流涕，命殯葬太后，皆如甄后故事。漢晉春秋曰：初，甄后之誅，由郭后之寵，及殯，令被髮覆面，以糠塞口，遂立郭后，使養明帝。帝知之，心常懷忿，數泣問甄后死狀。郭后曰：「先帝自殺，何以責問我？且汝為人子，可追讎死父，為前母枉殺後母邪？」明帝怒，遂逼殺之，敕殯者使如甄后故事。《魏書》載哀策曰：「維青龍三年三月壬申，皇太后梓宮啟殯，將葬於首陽之西陵。哀子皇帝叡親奉冊祖載，遂親遣奠，叩心擗踴，號咷仰訴，痛靈魂之遷幸，悲容車之向路，背三光以潛翳，就黃壚而安厝。嗚呼哀哉！昔二女妃虞，帝道以彰，三母嬪週，聖善彌光，既多受祉，享國延長。哀哀慈妣，興化閏房，龍飛紫極，作合聖皇，不虞中年，暴罹災殃。愍予小子，煢煢摧傷，魂雖永逝，定省曷望？嗚呼哀哉！」"
+        },
+        {
+          "id": "wei.5.p18.t5",
+          "type": "temporal",
+          "at": 213,
+          "length": 2,
+          "text": "四年",
+          "era": "青龍",
+          "era_year": 4,
+          "year_ad": 236
         }
       ]
     },
@@ -393,6 +548,16 @@
           "era": "青龍",
           "era_year": 3,
           "year_ad": 235
+        },
+        {
+          "id": "wei.5.p20.t2",
+          "type": "temporal",
+          "at": 249,
+          "length": 2,
+          "text": "四年",
+          "era": "青龍",
+          "era_year": 4,
+          "year_ad": 236
         }
       ]
     },
@@ -432,6 +597,18 @@
           "era": "景元",
           "era_year": 4,
           "year_ad": 263
+        },
+        {
+          "id": "wei.5.p22.t2",
+          "type": "temporal",
+          "at": 232,
+          "length": 4,
+          "text": "五年二月",
+          "era": "景元",
+          "era_year": 5,
+          "year_ad": 264,
+          "month_chinese": "二月",
+          "month_ordinal": 2
         },
         {
           "id": "wei.5.p22.a2",
