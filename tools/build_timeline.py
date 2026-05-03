@@ -162,11 +162,15 @@ def build_timeline_dict(refs: list[TemporalRef]) -> dict:
             })
         labels.sort(key=lambda lab: (lab["era"], lab["era_year"]))
 
-        # Sort events: absolute before relative (more reliable signal first), then
-        # by chapter, then by anchor position.
+        # Sort events with 资治通鉴 first within each year (it's编年 chronicle
+        # text by 司马光 — the natural chronological "spine" for the timeline),
+        # then 三国志, then 后汉书. Within each work, absolute refs come before
+        # relative ones, then by (book, juan, anchor position).
+        work_priority = {"zztj": 0, "sanguozhi": 1, "houhanshu": 2}
         events.sort(key=lambda e: (
+            work_priority.get(e.work, 99),
             0 if e.kind == "absolute" else 1,
-            e.work, e.book, e.juan, e.anchor, e.at,
+            e.book, e.juan, e.anchor, e.at,
         ))
         years.append({
             "year_ad": y,
