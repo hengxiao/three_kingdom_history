@@ -145,6 +145,10 @@ def _strip_annotation_for_site(a: dict) -> dict:
     elif a["type"] == "person":
         out["person_id"] = a["person_id"]
         out["via"] = a.get("via", "primary")
+        # LLM-resolved person spans carry the agent's reasoning — surface it on
+        # the chapter page tooltip so readers see WHY 太子 → 劉辯 etc.
+        if a.get("reasoning"):
+            out["reasoning"] = a["reasoning"]
     return out
 
 

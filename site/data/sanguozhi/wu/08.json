@@ -439,7 +439,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子登遊處」— 文中明點「登」，即孫登。"
         }
       ]
     },
@@ -481,7 +482,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "程秉拜太子太傅，黃武初太子為孫登。"
         },
         {
           "id": "wu.8.p8.t1",
@@ -512,7 +514,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「權為太子登娉周瑜女」— 文中明點「登」。"
         },
         {
           "id": "wu.8.p8.h5",
@@ -539,7 +542,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「願太子尊禮教於閨房」— 對孫登進說，太子即孫登。"
         }
       ]
     },
@@ -598,7 +602,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「赤烏五年，拜太子太傅」— 即孫和為太子。"
         },
         {
           "id": "wu.8.p10.h3",
@@ -960,7 +965,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "sunquan",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "薛綜諫征遼東疏（嘉禾元年/二年），對孫權「惟陛下抑雷霆之威」。"
         }
       ]
     },
@@ -1049,7 +1055,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「赤烏五年，為太子少傅」— 即孫和為太子，薛綜為少傅。"
         },
         {
           "id": "wu.8.p20.a1",
@@ -1115,7 +1122,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunjin",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "孫皓建衡元年立太子瑾，「立太子」即孫瑾；roster 無孫瑾，置 null。"
         },
         {
           "id": "wu.8.p22.t1",

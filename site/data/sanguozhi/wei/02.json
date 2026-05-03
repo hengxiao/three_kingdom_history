@@ -56,7 +56,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "本紀首句「文皇帝諱丕……武帝太子也」太子即曹丕本人。"
         },
         {
           "id": "wei.2.p1.t1",
@@ -111,7 +112,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「二十二年，立為魏太子」即立曹丕為魏太子。"
         },
         {
           "id": "wei.2.p1.a2",
@@ -143,7 +145,8 @@
           "length": 2,
           "text": "王后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「尊王后曰王太后」王后即曹操魏王后卞氏，roster未列卞太后。"
         },
         {
           "id": "wei.2.p1.h8",
@@ -152,7 +155,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "同句「曰王太后」續指卞氏，roster未列。"
         },
         {
           "id": "wei.2.p1.t4",
@@ -593,7 +597,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "黃初元年受禪「尊王太后曰皇太后」即卞氏由王太后進為皇太后，roster未列。"
         },
         {
           "id": "wei.2.p15.h3",
@@ -602,7 +607,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "同句「曰皇太后」續指卞氏。"
         },
         {
           "id": "wei.2.p15.t2",
@@ -1171,7 +1177,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "黃初三年詔「群臣不得奏事太后」泛指後世太后（戒后族干政）；當代太后即卞太后，roster未列。"
         },
         {
           "id": "wei.2.p26.a1",
@@ -1187,7 +1194,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后郭氏」即文德郭皇后，roster未列。"
         }
       ]
     },
@@ -1274,7 +1282,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "終制「其皇后及貴人以下」泛指文帝後宮諸后妃，主要指郭皇后等，roster未列。"
         }
       ]
     },

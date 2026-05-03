@@ -71,7 +71,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caofang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "景初三年明帝病篤立齊王芳為皇太子，太子即指曹芳本人。"
         },
         {
           "id": "wei.4.p1.h2",
@@ -1279,7 +1280,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caofang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "孔晏乂諫疏對齊王曹芳所稱「陛下」。"
         }
       ]
     },
@@ -1800,7 +1802,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "houzhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后張氏」— 嘉平四年齊王曹芳立張皇后；roster 無，置 null。"
         },
         {
           "id": "wei.4.p21.t3",
@@ -2079,7 +2082,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "houzhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「皇后父光祿大夫張緝」— 即廢張皇后之父；roster 無張皇后，置 null。"
         },
         {
           "id": "wei.4.p26.h1",
@@ -2112,7 +2116,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "houzhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「廢皇后張氏」— 即廢張皇后；roster 無，置 null。"
         },
         {
           "id": "wei.4.p26.t2",
@@ -2416,7 +2421,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后卞氏」— 正元二年高貴鄉公立卞皇后；roster 無。"
         },
         {
           "id": "wei.4.p31.t2",
@@ -3559,7 +3565,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caohuan",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "有司奏議對魏元帝曹奐稱「陛下」（追尊燕王宇本生事）。"
         }
       ]
     },
@@ -3854,7 +3861,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后卞氏」— 景元三年陳留王曹奐立卞皇后；roster 無。"
         },
         {
           "id": "wei.4.p72.t3",

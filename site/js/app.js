@@ -39,6 +39,37 @@ async function getNameIndex() {
   return NAME_INDEX_CACHE;
 }
 
+// id → {primary_name, courtesy_name, brief, birth_ad, death_ad} — used for
+// inline tooltips on person-link spans. Lazy-loaded once per session.
+let PERSON_BY_ID_CACHE = null;
+async function getPersonByIdMap() {
+  if (PERSON_BY_ID_CACHE !== null) return PERSON_BY_ID_CACHE;
+  try {
+    const idx = await loadJSON(`${DATA_BASE}/people.json`);
+    const map = new Map();
+    for (const p of idx.people || []) {
+      map.set(p.id, p);
+    }
+    PERSON_BY_ID_CACHE = map;
+  } catch {
+    PERSON_BY_ID_CACHE = new Map();
+  }
+  return PERSON_BY_ID_CACHE;
+}
+
+function personTooltip(personById, person_id, llmReasoning) {
+  const p = personById.get(person_id);
+  if (!p) return "";
+  const parts = [p.primary_name];
+  if (p.courtesy_name) parts.push(`字${p.courtesy_name}`);
+  if (p.birth_ad != null || p.death_ad != null) {
+    parts.push(`${p.birth_ad ?? "?"}-${p.death_ad ?? "?"}`);
+  }
+  if (p.brief) parts.push(p.brief);
+  if (llmReasoning) parts.push(`推理：${llmReasoning}`);
+  return parts.join(" · ");
+}
+
 // Find non-overlapping person-name spans in `text`. `excludeRanges` is a list of
 // [start, end) pairs (e.g. temporal surface positions) that the matcher must
 // not enter.
@@ -96,7 +127,7 @@ async function loadIndex() {
 }
 
 async function renderIndex() {
-  setBreadcrumbs([{ label: "目錄", href: "#/" }]);
+  setBreadcrumbs([{ label: "首頁", href: "#/" }, { label: "目錄", href: "#/chapters" }]);
   const main = $("#content");
   main.innerHTML = "載入目錄中…";
   try {
@@ -151,8 +182,8 @@ async function renderChapter(book, juan) {
   const main = $("#content");
   main.innerHTML = "載入章節中…";
   try {
-    const ch = await loadJSON(dataUrl);
-    main.innerHTML = renderChapterHTML(ch);
+    const [ch, personById] = await Promise.all([loadJSON(dataUrl), getPersonByIdMap()]);
+    main.innerHTML = renderChapterHTML(ch, personById);
   } catch (err) {
     main.innerHTML = `<div class="error">載入章節失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -162,7 +193,25 @@ function bookTitleFromId(id) {
   return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書", zztj: "資治通鑑" }[id] || id;
 }
 
-function renderChapterHTML(ch) {
+function renderChapterTOC(ch) {
+  // Sidebar listing every segment so the reader can jump within a long chapter.
+  // Each segment ID is `<book>.<juan>.p<N>[<suffix>]` — show just the trailing
+  // p-tag fragment as a compact label (1, 2, 3a, ...).
+  const items = ch.segments.map((s, i) => {
+    const tail = s.id.split(".").slice(-1)[0]; // "p17", "p17a", ...
+    const label = tail.replace(/^p/, "");
+    return `<li><a href="#${s.id}">${escapeHTML(label)}</a></li>`;
+  }).join("");
+  return `
+    <aside id="chapter-toc" aria-label="章節目錄">
+      <div class="toc-head">
+        <h3>段落 (${ch.segments.length})</h3>
+      </div>
+      <ol class="toc-list">${items}</ol>
+    </aside>`;
+}
+
+function renderChapterHTML(ch, personById) {
   const warns = (ch.parse_warnings && ch.parse_warnings.length) ? `
     <div class="parse-warnings">
       <strong>解析警告</strong>（多半因 Wikisource 標記不平衡，已盡力恢復）：
@@ -170,7 +219,7 @@ function renderChapterHTML(ch) {
     </div>` : "";
 
   const segments = ch.segments.map(s => {
-    const r = renderSegmentText(s);
+    const r = renderSegmentText(s, personById);
     return `
     <div class="segment" id="${s.id}">
       <div class="seg-id"><a href="#/chapter/${ch.book}/${ch.juan}#${s.id}" title="複製鏈接">${escapeHTML(s.id.split('.').slice(-1)[0])}</a></div>
@@ -180,19 +229,25 @@ function renderChapterHTML(ch) {
   }).join("");
 
   return `
-    <div class="chapter-header">
-      <h2>${escapeHTML(ch.title)}</h2>
-      <div class="chapter-sub">
-        ${escapeHTML(ch.book_title)}卷${ch.juan} ·
-        ${escapeHTML(ch.author || "")} 撰 ·
-        <a href="${escapeAttr(ch.source.url)}" target="_blank" rel="noopener">原始 ${escapeHTML(ch.source.id)} 頁</a>
-        · ${ch.n_segments} 段
+    <button class="toc-toggle" type="button" aria-label="開合段落目錄" aria-controls="chapter-toc" aria-expanded="false">☰ 段落</button>
+    <div class="chapter-layout">
+      ${renderChapterTOC(ch)}
+      <div class="chapter-main">
+        <div class="chapter-header">
+          <h2>${escapeHTML(ch.title)}</h2>
+          <div class="chapter-sub">
+            ${escapeHTML(ch.book_title)}卷${ch.juan} ·
+            ${escapeHTML(ch.author || "")} 撰 ·
+            <a href="${escapeAttr(ch.source.url)}" target="_blank" rel="noopener">原始 ${escapeHTML(ch.source.id)} 頁</a>
+            · ${ch.n_segments} 段
+          </div>
+        </div>
+        ${warns}
+        ${renderChapterNav(ch)}
+        <article>${segments}</article>
+        ${renderChapterNav(ch)}
       </div>
     </div>
-    ${warns}
-    ${renderChapterNav(ch)}
-    <article>${segments}</article>
-    ${renderChapterNav(ch)}
   `;
 }
 
@@ -201,7 +256,7 @@ function renderChapterNav(ch) {
   // We don't know the upper bound per book here; just show prev if any.
   // Next link rendered unconditionally — if it's invalid, the user lands on a load-fail page they can navigate back from.
   const next = `<a href="#/chapter/${ch.book}/${ch.juan + 1}">卷${ch.juan + 1} ►</a>`;
-  const home = `<a href="#/">▲ 目錄</a>`;
+  const home = `<a href="#/chapters">▲ 目錄</a>`;
   return `<div class="chapter-nav">${prev}${home}${next}</div>`;
 }
 
@@ -218,7 +273,7 @@ function renderChapterNav(ch) {
  *
  * Returns { textHTML, notesHTML }.
  */
-function renderSegmentText(seg) {
+function renderSegmentText(seg, personById) {
   const text = seg.text;
   const peis = seg.annotations.filter(a => a.type !== "temporal" && a.type !== "person");
   const temporals = seg.annotations.filter(a => a.type === "temporal");
@@ -233,7 +288,10 @@ function renderSegmentText(seg) {
   // with an <a> tag, and nesting <a>s produces invalid HTML.
   const tempRanges = temporals.map(a => [a.at, a.at + a.length]);
   const personSpans = personAnns
-    .map(a => ({ at: a.at, end: a.at + a.length, id: a.person_id, name: a.text }))
+    .map(a => ({
+      at: a.at, end: a.at + a.length, id: a.person_id, name: a.text,
+      reasoning: a.reasoning || "",
+    }))
     .filter(sp => !tempRanges.some(([s, e]) => sp.at < e && sp.end > s));
 
   const events = [];
@@ -268,7 +326,9 @@ function renderSegmentText(seg) {
       const adCls = isRel ? "temporal-ad temporal-ad--relative" : "temporal-ad";
       out += `</span><span class="${adCls}">${formatAD(ev.ann)}</span></a>`;
     } else if (ev.kind === "person_open") {
-      out += `<a class="person-link" href="#/people/${escapeAttr(ev.span.id)}">`;
+      const tip = personById ? personTooltip(personById, ev.span.id, ev.span.reasoning) : "";
+      const titleAttr = tip ? ` title="${escapeAttr(tip)}"` : "";
+      out += `<a class="person-link" href="#/people/${escapeAttr(ev.span.id)}"${titleAttr}>`;
     } else if (ev.kind === "person_close") {
       out += `</a>`;
     } else if (ev.kind === "pei_marker") {
@@ -281,19 +341,25 @@ function renderSegmentText(seg) {
   }
   if (pos < text.length) out += escapeHTML(text.slice(pos));
 
-  // 注解块: 注 列表 (pei + lixian) + temporal 列表（如有）
+  // 注解块:
+  //   - 裴注 / 李賢注 (commentary on the text, full content)
+  //   - 相對時間注解 ONLY — explains how a 是歲/明年/二月 etc. resolves to AD.
+  //     Absolute-time annotations show their AD year inline (after the surface),
+  //     so the duplicate note is suppressed.
+  //   - 人名注解 hover-only (tooltip) — not in the notes block.
+  const relativeTemporals = temporals.filter(a => a.kind === "relative");
   let notesHTML = "";
-  if (peis.length || temporals.length) {
+  if (peis.length || relativeTemporals.length) {
     const peiItems = peis.map((a, i) => `
       <li class="note-item note-commentary note-${a.type}" id="${a.id}-note">
         <span class="note-marker">[${i + 1}]</span>
         <span class="note-text">${escapeHTML(a.text)}</span>
       </li>`).join("");
-    const tempItems = temporals.map((a, i) => `
+    const tempItems = relativeTemporals.map((a, i) => `
       <li class="note-item note-temporal">
         <span class="note-marker">時${i + 1}</span>
         <span class="note-text">
-          ${escapeHTML(a.text)} = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}
+          「${escapeHTML(a.text)}」 = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}
           ${a.reasoning ? `<span class="note-reasoning">推理：${escapeHTML(a.reasoning)}</span>` : ""}
         </span>
       </li>`).join("");
@@ -560,6 +626,69 @@ async function renderPersonPage(id) {
   }
 }
 
+/* ---------- HOME PAGE ---------- */
+
+async function renderHome() {
+  setBreadcrumbs([{ label: "首頁", href: "#/" }]);
+  const main = $("#content");
+  // Try to surface a few stats so the home page feels alive (count of chapters,
+  // years on timeline, persons in roster). Failures fall back gracefully.
+  let stats = { chapters: 0, years: 0, persons: 0, mentions: 0 };
+  try {
+    const [idx, tl, pp] = await Promise.all([
+      loadJSON(`${DATA_BASE}/index.json`).catch(() => null),
+      loadJSON(`${DATA_BASE}/timeline.json`).catch(() => null),
+      loadJSON(`${DATA_BASE}/people.json`).catch(() => null),
+    ]);
+    if (idx) stats.chapters = idx.books.reduce((n, b) => n + b.chapters.length, 0);
+    if (tl) {
+      stats.years = tl.years.length;
+      stats.mentions = tl.years.reduce((n, y) => n + y.n_events, 0);
+    }
+    if (pp) stats.persons = pp.people.length;
+  } catch (_) { /* ignore */ }
+
+  main.innerHTML = `
+    <section class="home-hero">
+      <h2>三國志知識庫</h2>
+      <p class="home-tagline">原文、注解、時間、人物 — 一個跨史書的可閱讀資料庫</p>
+      <p class="home-blurb">
+        資料以 <strong>三國志</strong>、<strong>後漢書</strong>（漢靈帝以後）、
+        <strong>資治通鑑</strong>（卷 56–83）為基底，原文取自 Wikisource 公有領域版本，
+        並依照 <code>doc/format.md</code> 規範整理。每段落自動標記公元紀年（絕對與相對皆可追溯推理過程）；
+        每個人名連結至對應人物頁，旁注顯示字、生卒、簡介。
+      </p>
+    </section>
+    <section class="home-tiles">
+      <a class="home-tile" href="#/chapters">
+        <div class="tile-icon">📖</div>
+        <h3>原文目錄</h3>
+        <p>${stats.chapters} 卷三家史書，按書分組。原文 + 裴注 / 李賢注。</p>
+      </a>
+      <a class="home-tile" href="#/timeline">
+        <div class="tile-icon">🕒</div>
+        <h3>時間軸</h3>
+        <p>${stats.years} 個年份，${stats.mentions.toLocaleString()} 條時間錨點。資治通鑑首列，三國志、後漢書交錯對應。</p>
+      </a>
+      <a class="home-tile" href="#/people">
+        <div class="tile-icon">👤</div>
+        <h3>人物志</h3>
+        <p>${stats.persons} 位人物，依出現次數排序。本傳 + 跨史書提及。</p>
+      </a>
+    </section>
+    <section class="home-features">
+      <h3>功能特點</h3>
+      <ul>
+        <li>原文 + 注解分開顯示，行動裝置上點段落展開注解。</li>
+        <li>時間注解：絕對紀年顯示於正文後；相對時間 (是歲、明年、二月) 在注解區說明所依據的絕對紀年與推理過程。</li>
+        <li>人名連結：滑鼠 hover 顯示字、生卒、簡介；點擊進入人物頁。</li>
+        <li>段落目錄 (左側) 一鍵跳轉長卷內任意段落，行動裝置上以 ☰ 收合。</li>
+      </ul>
+    </section>
+  `;
+}
+
+
 /* ---------- ROUTING ---------- */
 
 function parseHash() {
@@ -572,7 +701,9 @@ function parseHash() {
   m = h.match(/^#\/people\/([a-z0-9_-]+)$/i);
   if (m) return { route: "person", id: m[1] };
   if (h === "#/people" || h.startsWith("#/people/")) return { route: "people_index" };
-  return { route: "index" };
+  if (h === "#/chapters" || h.startsWith("#/chapters/")) return { route: "chapter_index" };
+  if (h === "#/" || h === "" || h === "#") return { route: "home" };
+  return { route: "home" };
 }
 
 async function route() {
@@ -594,11 +725,17 @@ async function route() {
   } else if (r.route === "person") {
     await renderPersonPage(r.id);
     window.scrollTo(0, 0);
+  } else if (r.route === "home") {
+    await renderHome();
+    window.scrollTo(0, 0);
+  } else if (r.route === "chapter_index") {
+    await renderIndex();
+    window.scrollTo(0, 0);
   } else if (r.route === "people_index") {
     await renderPeopleIndex();
     window.scrollTo(0, 0);
   } else {
-    await renderIndex();
+    await renderHome();
     window.scrollTo(0, 0);
   }
 }
@@ -647,6 +784,24 @@ async function toggleSnippet(btn) {
 
 function bindClicks() {
   $("#content").addEventListener("click", e => {
+    // (0) hamburger toggle for the chapter sidebar TOC (visible on narrow screens).
+    const tocBtn = e.target.closest(".toc-toggle");
+    if (tocBtn) {
+      e.preventDefault();
+      const aside = document.getElementById("chapter-toc");
+      const opened = aside && aside.classList.toggle("toc-open");
+      tocBtn.setAttribute("aria-expanded", opened ? "true" : "false");
+      return;
+    }
+    // Tapping a TOC link on narrow auto-closes the panel after navigation.
+    const tocLink = e.target.closest("#chapter-toc a");
+    if (tocLink && NARROW_MQ.matches) {
+      const aside = document.getElementById("chapter-toc");
+      if (aside) aside.classList.remove("toc-open");
+      const btn = $(".toc-toggle");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+      // fall through — we still want default <a> navigation
+    }
     // (1) timeline snippet click — expand inline (no navigation).
     // Important: snippet detection runs BEFORE the person-link check below,
     // because a tap on a person link inside an expanded snippet should navigate.

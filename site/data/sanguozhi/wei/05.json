@@ -70,7 +70,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「武宣卞皇后」— 即卞皇后本傳之首；roster 無此人，置 null。"
         },
         {
           "id": "wei.5.p4.h1",
@@ -192,7 +193,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文帝爲太子」— 即曹丕被立為魏太子。"
         },
         {
           "id": "wei.5.p4.h16",
@@ -201,7 +203,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「將軍拜太子」承前句，仍指曹丕。"
         },
         {
           "id": "wei.5.p4.h12",
@@ -243,7 +246,8 @@
           "length": 2,
           "text": "王后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「拜爲王后」— 建安二十四年拜卞氏為魏王后；roster 無。"
         },
         {
           "id": "wei.5.p5.h9",
@@ -252,7 +256,8 @@
           "length": 2,
           "text": "王后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「進位王后」承前句，指卞氏；roster 無。"
         },
         {
           "id": "wei.5.p5.h1",
@@ -279,7 +284,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「尊后曰王太后」— 卞氏進尊為王太后；roster 無。"
         },
         {
           "id": "wei.5.p5.h5",
@@ -288,7 +294,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「尊后曰皇太后」— 卞氏進尊為皇太后；roster 無。"
         },
         {
           "id": "wei.5.p5.a1",
@@ -313,7 +320,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「明帝即位，尊太后曰太皇太后」— 卞太后；roster 無。"
         },
         {
           "id": "wei.5.p5.h7",
@@ -322,7 +330,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太皇太后」承前句卞氏進尊；roster 無。"
         }
       ]
     },
@@ -346,7 +355,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文帝欲追封太后父母」— 卞太后；roster 無。"
         },
         {
           "id": "wei.5.p6.h2",
@@ -364,7 +374,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "陳羣奏疏對曹丕稱「陛下以聖德應運受命」。"
         },
         {
           "id": "wei.5.p6.t1",
@@ -395,7 +406,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「追謚太后祖父廣曰開陽恭侯」— 卞太后；roster 無。"
         },
         {
           "id": "wei.5.p6.t2",
@@ -438,7 +450,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太后弟秉」— 卞太后弟卞秉；roster 無卞太后。"
         },
         {
           "id": "wei.5.p7.t1",
@@ -481,7 +494,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「蘭子隆女爲高貴鄉公皇后」— 即卞皇后（曹髦皇后）；roster 無。"
         },
         {
           "id": "wei.5.p7.h3",
@@ -490,7 +504,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「琳女又爲陳留王皇后」— 即陳留王卞皇后；roster 無。"
         }
       ]
     },
@@ -505,7 +520,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "zhenhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文昭甄皇后」— 即甄氏本傳之首；roster 無。"
         },
         {
           "id": "wei.5.p8.h1",
@@ -808,7 +824,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「武宣皇后」— 卞氏；roster 無。"
         },
         {
           "id": "wei.5.p13.h2",
@@ -817,7 +834,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文德皇后」— 郭氏；roster 無。"
         },
         {
           "id": "wei.5.p13.h3",
@@ -826,7 +844,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "zhenhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文昭皇后」— 甄氏；roster 無。"
         }
       ]
     },
@@ -900,7 +919,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文德郭皇后」— 即郭氏本傳；roster 無。"
         },
         {
           "id": "wei.5.p15.a1",
@@ -934,7 +954,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子即王位」— 文帝曹丕即魏王位；太子即指曹丕。"
         },
         {
           "id": "wei.5.p15.t1",
@@ -974,7 +995,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「文帝不從，遂立為皇后」— 立郭氏為皇后；roster 無。"
         },
         {
           "id": "wei.5.p15.a2",
@@ -1050,7 +1072,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「明帝即位，尊后為皇太后」— 郭氏（文德郭皇后）；roster 無。"
         },
         {
           "id": "wei.5.p18.t1",
@@ -1139,7 +1162,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "maohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「明悼毛皇后」— 毛氏本傳；roster 無。"
         },
         {
           "id": "wei.5.p19.h1",
@@ -1170,7 +1194,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "maohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立為皇后」— 太和元年立毛皇后；roster 無。"
         }
       ]
     },
@@ -1194,7 +1219,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太皇后卞太后」— 此「皇后」係「太皇后」之分詞，指卞氏；roster 無。"
         },
         {
           "id": "wei.5.p20.h3",
@@ -1203,7 +1229,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "bianhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太皇后卞太后」— 卞太后慰勉虞氏；roster 無。"
         },
         {
           "id": "wei.5.p20.h2",
@@ -1273,7 +1300,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "maohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「宜延皇后」— 郭元后請延見毛皇后；roster 無。"
         }
       ]
     },
@@ -1297,7 +1325,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "guohuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立為皇后」— 明帝病困立郭氏為皇后；roster 無。"
         },
         {
           "id": "wei.5.p22.h2",

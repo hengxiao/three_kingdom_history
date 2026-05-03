@@ -1813,7 +1813,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子丕代爲丞相魏王」— 文中明點「丕」，即曹丕（建安二十五年代曹操為丞相魏王）。"
         },
         {
           "id": "wu.2.p18.h1",
@@ -2084,7 +2085,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "趙咨對魏帝對奏「屈身於陛下」中陛下即魏文帝曹丕（黃初二年）。"
         },
         {
           "id": "wu.2.p20.a1",
@@ -2125,7 +2127,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立登爲王太子」— 黃武元年立孫登為吳王太子。"
         },
         {
           "id": "wu.2.p20.a3",
@@ -3249,7 +3252,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「吳王太子登爲皇太子」— 黃龍元年孫權稱帝，立孫登為皇太子。"
         },
         {
           "id": "wu.2.p33.h7",
@@ -3258,7 +3262,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「皇太子」承前句指孫登。"
         }
       ]
     },
@@ -3418,7 +3423,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「徵上大將軍陸遜輔太子登」— 文中明點「登」。"
         }
       ]
     },
@@ -4209,7 +4215,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "bulianshi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「步夫人卒，追贈皇后」— 即步皇后（步練師）；roster 無，置 null。"
         },
         {
           "id": "wu.2.p48.h2",
@@ -4227,7 +4234,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子登數諫」— 赤烏元年呂壹事；文中明點「登」。"
         },
         {
           "id": "wu.2.p48.h3",
@@ -4522,7 +4530,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sundeng",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子登卒」— 赤烏四年五月孫登卒；文中明點「登」。"
         },
         {
           "id": "wu.2.p52.t4",
@@ -4591,7 +4600,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立子和爲太子」— 赤烏五年立孫和為太子。"
         },
         {
           "id": "wu.2.p53.t2",
@@ -5355,7 +5365,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「廢太子和」— 赤烏十三年廢孫和。"
         },
         {
           "id": "wu.2.p61.t4",
@@ -5403,7 +5414,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立子亮爲太子」— 赤烏十三年十一月立孫亮為太子。"
         },
         {
           "id": "wu.2.p61.t6",
@@ -5482,7 +5494,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "panhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后潘氏」— 太元元年立潘皇后（孫亮母）；roster 無，置 null。"
         },
         {
           "id": "wu.2.p62.a1",
@@ -5590,7 +5603,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「拜爲太子太傅」— 太元元年十二月諸葛恪拜太子太傅，太子即孫亮。"
         }
       ]
     },
@@ -5620,7 +5634,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立故太子和爲南陽王」— 即廢太子孫和，封南陽王。"
         },
         {
           "id": "wu.2.p63.t2",
@@ -5644,7 +5659,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "panhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「皇后潘氏薨」— 即潘皇后；roster 無，置 null。"
         },
         {
           "id": "wu.2.p63.t3",

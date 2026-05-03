@@ -69,7 +69,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunhe",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「姊全公主嘗譖太子和子母」— 文中明點「和」，太子即孫和。"
         },
         {
           "id": "wu.3.p2.t1",
@@ -91,7 +92,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立亮爲太子」— 赤烏十三年立孫亮為太子。"
         }
       ]
     },
@@ -119,7 +121,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "panhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「亮母潘氏立爲皇后」— 即潘皇后；roster 無，置 null。"
         },
         {
           "id": "wu.3.p3.h1",
@@ -137,7 +140,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「諸葛恪爲太子太傅」— 太元元年諸葛恪領太子太傅，太子即孫亮。"
         },
         {
           "id": "wu.3.p3.h2",
@@ -155,7 +159,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「並受詔輔太子」承前句仍指孫亮。"
         },
         {
           "id": "wu.3.p3.t2",
@@ -179,7 +184,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunliang",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「太子即尊號」— 神鳳元年孫權崩後孫亮即位。"
         },
         {
           "id": "wu.3.p3.t3",
@@ -308,7 +314,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "quanhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后全氏」— 建興二年立全皇后（孫亮全皇后）；roster 無。"
         },
         {
           "id": "wu.3.p5.h1",
@@ -1086,7 +1093,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "sunxiu",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "永安元年老公叩頭「願陛下速行」中陛下即將即位的孫休。"
         },
         {
           "id": "wu.3.p12.t4",
@@ -1386,7 +1394,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "zhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后朱氏」— 即孫休朱皇后；roster 無，置 null。"
         },
         {
           "id": "wu.3.p19.h3",
@@ -1395,7 +1404,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunwan",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立子𩅦爲太子」— 永安五年孫休立子孫𩅦為太子；roster 無孫𩅦，置 null。"
         },
         {
           "id": "wu.3.p19.a1",
@@ -1662,7 +1672,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "zhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「休妃太后朱」— 即孫休妃朱皇后進尊為太后（皓初）；roster 無。"
         },
         {
           "id": "wu.3.p22.t1",
@@ -1714,7 +1725,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "zhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「貶太后爲景皇后」— 即朱太后被貶；roster 無。"
         },
         {
           "id": "wu.3.p23.h5",
@@ -1723,7 +1735,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "zhuhuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「貶太后爲景皇后」— 即朱氏貶降後之景皇后封號；roster 無。"
         },
         {
           "id": "wu.3.p23.t2",
@@ -1747,7 +1760,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunwan",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「封休太子𩅦爲豫章王」— 即孫休太子孫𩅦；roster 無，置 null。"
         },
         {
           "id": "wu.3.p23.h6",
@@ -1756,7 +1770,8 @@
           "length": 2,
           "text": "皇后",
           "person_id": "tenghuanghou",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立皇后滕氏」— 即孫皓滕皇后；roster 無。"
         },
         {
           "id": "wu.3.p23.a1",
@@ -2217,7 +2232,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunjin",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「立子瑾爲太子」— 建衡元年立孫皓子孫瑾為太子；roster 無孫瑾，置 null。"
         },
         {
           "id": "wu.3.p28.t2",
@@ -2830,7 +2846,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "sunjin",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "「皓太子瑾」— 即孫瑾；roster 無，置 null。"
         },
         {
           "id": "wu.3.p45.a2",

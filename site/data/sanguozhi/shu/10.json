@@ -221,7 +221,8 @@
           "length": 2,
           "text": "太子",
           "person_id": "liushan",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "孟達致劉封書「自立阿斗為太子已來」即立劉禪為太子，對應 liushan。"
         },
         {
           "id": "shu.10.p3.a1",
@@ -237,7 +238,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "孟達招降劉封書「加陛下新受禪命，虛心側席」即魏文帝曹丕受漢禪（黃初元年），對應 caopi。"
         },
         {
           "id": "shu.10.p3.h3",
@@ -246,7 +248,8 @@
           "length": 2,
           "text": "陛下",
           "person_id": "caopi",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "同信「陛下大軍，金鼓以震」即魏王曹丕大軍，對應 caopi。"
         }
       ]
     },
@@ -1572,7 +1575,8 @@
           "length": 2,
           "text": "太后",
           "person_id": "muhuanghou_shu",
-          "via": "llm"
+          "via": "llm",
+          "reasoning": "建興十二年「琰妻胡氏入賀太后」即蜀漢穆皇后吳氏（時為太后），未列 roster。"
         },
         {
           "id": "shu.10.p23.h1",
