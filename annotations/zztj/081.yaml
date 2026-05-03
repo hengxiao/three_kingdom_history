@@ -73,6 +73,30 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 太康元年 (AD 280)，月份「四月」
+- id: zztj.81.p18.h1
+  anchor: zztj.81.p18
+  at: 10
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: zztj.81.p20.h1
+  anchor: zztj.81.p20
+  at: 54
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: zztj.81.p23.h1
+  anchor: zztj.81.p23
+  at: 7
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.81.p23.t1
   anchor: zztj.81.p23
   at: 17
@@ -87,6 +111,32 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 太康元年 (AD 280)，月份「五月」
+- id: zztj.81.p25.h1
+  anchor: zztj.81.p25
+  at: 10
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- anchor: zztj.81.p25
+  at: 101
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.78
+  reasoning: 太康元年(280)前後吳陛下指孫皓
+  id: zztj.81.p25.h2
+- id: zztj.81.p26.h1
+  anchor: zztj.81.p26
+  at: 27
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.81.p27.t1
   anchor: zztj.81.p27
   at: 80
@@ -101,6 +151,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太康元年 (AD 280)，月份「二月」
+- id: zztj.81.p31.h1
+  anchor: zztj.81.p31
+  at: 152
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: zztj.81.p35.t1
   anchor: zztj.81.p35
   at: 0
@@ -183,6 +241,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 太康2年 (AD 281)，月份「三月」
+- id: zztj.81.p43.h1
+  anchor: zztj.81.p43
+  at: 7
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.81.p44.t1
   anchor: zztj.81.p44
   at: 65
@@ -279,6 +345,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太康3年 (AD 282)，月份「十二月」
+- id: zztj.81.p57.h1
+  anchor: zztj.81.p57
+  at: 50
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.81.p58.t1
   anchor: zztj.81.p58
   at: 6
@@ -361,6 +435,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 太康4年 (AD 283)，月份「十一月」
+- id: zztj.81.p72.h1
+  anchor: zztj.81.p72
+  at: 3
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.81.p74.t1
   anchor: zztj.81.p74
   at: 6
@@ -387,6 +469,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 太康5年 (AD 284)，月份「正月」
+- id: zztj.81.p76.h1
+  anchor: zztj.81.p76
+  at: 2
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳群
+  via: primary
 - id: zztj.81.p77.t1
   anchor: zztj.81.p77
   at: 2

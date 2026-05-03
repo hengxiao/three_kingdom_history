@@ -1,0 +1,61 @@
+{
+  "id": "mengguang",
+  "primary_name": "孟光",
+  "courtesy_name": "孝裕",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.12",
+      "title": "蜀書·二杜周許孟來尹李譙郤傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p8",
+        "at": 36,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "孟光",
+        "snippet": "…妹也。立王貴人子璿為皇太子，瑤為安定王。大司農河南孟光問太子讀書及情性好尚於秘書郎郤正，正曰：「奉親虔恭，夙夜匪解，有古世子之風；接待群僚，舉動出於仁恕。」光曰：「如君所道，皆家戶…"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p8",
+        "at": 9,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "孟光",
+        "snippet": "漢大赦，大司農河南孟光於眾中責費禕曰：「夫赦者，偏枯之物，非明世所宜有也。衰敝窮極，必不得已，然後乃可權而行之耳。今主上仁賢，百僚稱職，何有旦夕之急…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p29",
+        "at": 424,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "孟光",
+        "snippet": "…纂二祖，紹嗣昭穆，天下幸甚。臣等謹與博士許慈、議郎孟光，建立禮儀，擇令辰，上尊號。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

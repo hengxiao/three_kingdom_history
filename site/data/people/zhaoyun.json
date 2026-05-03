@@ -2,6 +2,7 @@
   "id": "zhaoyun",
   "primary_name": "趙雲",
   "courtesy_name": "子龍",
+  "given_name": "雲",
   "aliases": [],
   "other_names": [],
   "birth_ad": null,
@@ -78,6 +79,17 @@
         "chapter_title": "漢紀五十九",
         "book_title": "資治通鑑",
         "work": "zztj",
+        "anchor": "zztj.67.p10",
+        "at": 50,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "雲",
+        "snippet": "…，故備舉而用之。備之自新野奔江南也，荊楚群士從之如雲，而劉巴獨北詣魏公操。操闢為掾，遣招納長沙、零陵，桂陽。會備略有三郡，巴事不成，欲由交州道還京師。時諸葛亮在臨蒸，以書招之，巴不…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
         "anchor": "zztj.67.p11",
         "at": 115,
         "data_url": "data/zztj/zztj/67.json",
@@ -123,10 +135,10 @@
         "book_title": "資治通鑑",
         "work": "zztj",
         "anchor": "zztj.69.p42",
-        "at": 19,
+        "at": 17,
         "data_url": "data/zztj/zztj/69.json",
         "matched": "趙雲",
-        "snippet": "11漢主恥關羽之没，將擊孫權。翊軍將軍趙雲曰：「國賊，曹操，非孫權也。若先滅魏，則權自服。今操身雖斃，子丕篡盜，當因眾心，早圖關中，居河、渭上流以討凶逆，關東義士必裹糧…"
+        "snippet": "漢主恥關羽之没，將擊孫權。翊軍將軍趙雲曰：「國賊，曹操，非孫權也。若先滅魏，則權自服。今操身雖斃，子丕篡盜，當因眾心，早圖關中，居河、渭上流以討凶逆，關東義士必裹糧…"
       },
       {
         "chapter_id": "zztj.71",
@@ -145,10 +157,21 @@
         "book_title": "資治通鑑",
         "work": "zztj",
         "anchor": "zztj.71.p26",
-        "at": 508,
+        "at": 506,
         "data_url": "data/zztj/zztj/71.json",
         "matched": "趙雲",
         "snippet": "…必勝！此臣之未解四也。自臣到漢中，中間期年耳，然喪趙雲、陽群、馬玉、閻芝、丁立、白壽、劉郃、鄧銅等及曲長、屯將七十餘人，突將、無前、賨叟、青羌、散騎、武騎一千餘人，皆數十年之內，糾…"
+      },
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p27",
+        "at": 198,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "雲",
+        "snippet": "…，而昭兵才千餘人，又度東救未能便到，乃進兵攻昭，起雲梯衝車以臨城。昭於是以火箭逆射其梯，梯燃，梯上人皆燒死；昭又以繩連石磨壓其衝車，衝車折。亮乃更為井闌百尺以射城中，以土丸填塹，欲…"
       },
       {
         "chapter_id": "zztj.71",
@@ -243,5 +266,5 @@
     ],
     "houhanshu": []
   },
-  "n_mentions": 20
+  "n_mentions": 22
 }

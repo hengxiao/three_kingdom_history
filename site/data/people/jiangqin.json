@@ -1,0 +1,72 @@
+{
+  "id": "jiangqin",
+  "primary_name": "蔣欽",
+  "courtesy_name": "公弈",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.10",
+      "title": "吳書·十二虎臣傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p38",
+        "at": 85,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "蔣欽",
+        "snippet": "…勢難久，密言於權曰：「今令征虜守南郡，潘璋住白帝，蔣欽將遊兵萬人循江上下，應敵所在，蒙為國家前據襄陽，如此，何憂於操，何賴於羽！且羽君臣矜其詐力，所在反覆，不可以腹心待也。今羽所以…"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p5",
+        "at": 31,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "蔣欽",
+        "snippet": "…王操軍居巢，孫權保濡須，二月，操進攻之。初，右護軍蔣欽屯宣城，蕪湖令徐盛收欽屯吏，表斬之。及權在濡須，欽與呂蒙持諸軍節度，欽每稱徐盛之善。權問之，欽曰：「盛忠而勤強，有膽略器用，好…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.15",
+        "chapter_title": "吳書·贺全吕周钟离传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.15.p18",
+        "at": 114,
+        "data_url": "data/sanguozhi/wu/15.json",
+        "matched": "蔣欽",
+        "snippet": "…冶五縣賊呂合、秦狼等為亂，權以岱為督軍校尉，與將軍蔣欽等將兵討之，遂擒合、狼，五縣平定，拜昭信中郎將。"
+      },
+      {
+        "chapter_id": "wu.9",
+        "chapter_title": "吳書·周瑜、魯肅、吕蒙傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.9.p35",
+        "at": 125,
+        "data_url": "data/sanguozhi/wu/09.json",
+        "matched": "蔣欽",
+        "snippet": "…也。蒙乃密陳計策曰：「今令徵虜守南郡，潘璋住白帝，蔣欽將遊兵萬人循江上下，應敵所在，蒙為國家前據襄陽，如此，何憂於操，何賴於羽？且羽君臣，矜其詐力，所在反覆，不可以腹心待也。今羽所…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

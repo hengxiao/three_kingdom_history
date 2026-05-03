@@ -5,24 +5,72 @@ source:
   retrieved: '2026-05-03'
   sha256: 675e57e2fb7b4cacfb864b5e0e76c3c1f12245d10d20481413306624c49e0626
 annotations:
+- id: hhs.72.p1.h1
+  anchor: hhs.72.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.72.p1.a1
   anchor: hhs.72.p1
   at: 6
   length: 0
   type: lixian
   text: 《卓別傳》曰：「卓父君雅為穎川輪氏尉，生卓及弟旻，故卓字仲穎，旻字叔穎。」
+- id: hhs.72.p2.h1
+  anchor: hhs.72.p2
+  at: 15
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p2.a1
   anchor: hhs.72.p2
   at: 65
   length: 0
   type: lixian
   text: 《說文》曰：「徼，巡也。」《前書》曰：「中尉巡徼京師。」《音義》曰：「所謂游徼，備盜賊。」
+- id: hhs.72.p2.h2
+  anchor: hhs.72.p2
+  at: 65
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p2.a2
   anchor: hhs.72.p2
   at: 81
   length: 0
   type: lixian
   text: 《方言》曰：「所以藏箭謂之服，藏弓謂之鞬。」《左氏傳》云：「右屬櫜鞬。」
+- id: hhs.72.p3.h1
+  anchor: hhs.72.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.72.p3.h2
+  anchor: hhs.72.p3
+  at: 19
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.72.p3.h3
+  anchor: hhs.72.p3
+  at: 46
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p3.a1
   anchor: hhs.72.p3
   at: 61
@@ -41,6 +89,14 @@ annotations:
   era: 中平
   era_year: 1
   reasoning: 原文「中平元年」直接出现年号；解析為 AD 184
+- id: hhs.72.p4.h1
+  anchor: hhs.72.p4
+  at: 15
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
 - id: hhs.72.p4.a1
   anchor: hhs.72.p4
   at: 91
@@ -59,18 +115,58 @@ annotations:
   era: 中平
   era_year: 2
   reasoning: 「明年」 = 当前年 中平元年 (AD 184) 之次年 = AD 185
+- id: hhs.72.p4.h2
+  anchor: hhs.72.p4
+  at: 138
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p4.h3
+  anchor: hhs.72.p4
+  at: 150
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.72.p4.h4
+  anchor: hhs.72.p4
+  at: 179
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: hhs.72.p4.a2
   anchor: hhs.72.p4
   at: 198
   length: 0
   type: lixian
   text: 袁宏《漢紀》曰：「滂字公熙。純素寡慾，終不言人短。當權寵之盛，或以同異致禍，滂獨中立於朝，故愛憎不及焉。」
+- id: hhs.72.p4.h5
+  anchor: hhs.72.p4
+  at: 199
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p4.a3
   anchor: hhs.72.p4
   at: 232
   length: 0
   type: lixian
   text: 美陽故城在今雍州武功縣北。
+- id: hhs.72.p4.h6
+  anchor: hhs.72.p4
+  at: 248
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p4.t3
   anchor: hhs.72.p4
   at: 256
@@ -85,18 +181,58 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 中平2年 (AD 185)，月份「十一月」
+- id: hhs.72.p4.h7
+  anchor: hhs.72.p4
+  at: 296
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p4.a4
   anchor: hhs.72.p4
   at: 335
   length: 0
   type: lixian
   text: 榆中，縣，屬金城郡，故城在今蘭州金城縣中。
+- id: hhs.72.p4.h8
+  anchor: hhs.72.p4
+  at: 352
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
 - id: hhs.72.p4.a5
   anchor: hhs.72.p4
   at: 354
   length: 0
   type: lixian
   text: 堅字文台，吳郡富春人，即孫權之父也。見《吳志》。
+- id: hhs.72.p4.h9
+  anchor: hhs.72.p4
+  at: 371
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p4.h10
+  anchor: hhs.72.p4
+  at: 458
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p4.h11
+  anchor: hhs.72.p4
+  at: 468
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p4.a6
   anchor: hhs.72.p4
   at: 473
@@ -109,6 +245,14 @@ annotations:
   length: 0
   type: lixian
   text: 《續漢書》「鄢」字作「堰」，其字義則同，但異體耳。
+- id: hhs.72.p4.h12
+  anchor: hhs.72.p4
+  at: 533
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p4.a8
   anchor: hhs.72.p4
   at: 553
@@ -127,6 +271,14 @@ annotations:
   era: 中平
   era_year: 3
   reasoning: 承前文年號「中平」推得，「三年」 = 中平3年 = AD 186
+- id: hhs.72.p5.h1
+  anchor: hhs.72.p5
+  at: 13
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: hhs.72.p5.a1
   anchor: hhs.72.p5
   at: 92
@@ -145,6 +297,22 @@ annotations:
   era: 中平
   era_year: 5
   reasoning: 承前文年號「中平」推得，「五年」 = 中平5年 = AD 188
+- id: hhs.72.p6.h1
+  anchor: hhs.72.p6
+  at: 9
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p6.h2
+  anchor: hhs.72.p6
+  at: 18
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: hhs.72.p6.a1
   anchor: hhs.72.p6
   at: 45
@@ -163,6 +331,14 @@ annotations:
   era: 中平
   era_year: 6
   reasoning: 承前文年號「中平」推得，「六年」 = 中平6年 = AD 189
+- id: hhs.72.p7.h1
+  anchor: hhs.72.p7
+  at: 4
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p7.a1
   anchor: hhs.72.p7
   at: 44
@@ -181,6 +357,90 @@ annotations:
   length: 0
   type: lixian
   text: 如其更增異志，當復聞上。
+- id: hhs.72.p7.h2
+  anchor: hhs.72.p7
+  at: 97
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.72.p7.h3
+  anchor: hhs.72.p7
+  at: 105
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p7.h4
+  anchor: hhs.72.p7
+  at: 115
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.72.p7.h5
+  anchor: hhs.72.p7
+  at: 119
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p8.h1
+  anchor: hhs.72.p8
+  at: 7
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.72.p8.h2
+  anchor: hhs.72.p8
+  at: 14
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- anchor: hhs.72.p8
+  at: 22
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 靈帝崩何進謀誅宦官「而太后不許」即何太后不許，對應 hetaihou。
+  id: hhs.72.p8.h9
+- id: hhs.72.p8.h3
+  anchor: hhs.72.p8
+  at: 30
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- anchor: hhs.72.p8
+  at: 38
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「以脅太后」即召董卓以脅何太后，對應 hetaihou。
+  id: hhs.72.p8.h10
+- id: hhs.72.p8.h4
+  anchor: hhs.72.p8
+  at: 41
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p8.a1
   anchor: hhs.72.p8
   at: 53
@@ -205,30 +465,194 @@ annotations:
   length: 0
   type: lixian
   text: 鳴鍾鼓者，聲其罪也。論語曰：「小子鳴鼓而攻之。」《典略》載卓表曰：「張讓等慆慢天常，擅操王命，父子兄弟並據州郡，一書出門，高獲千金，下數百萬膏腴美田，皆屬讓等。使變氣上蒸，妖賊蜂起。」
+- id: hhs.72.p8.h5
+  anchor: hhs.72.p8
+  at: 132
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p8.h6
+  anchor: hhs.72.p8
+  at: 136
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.72.p8.h7
+  anchor: hhs.72.p8
+  at: 145
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
 - id: hhs.72.p8.a5
   anchor: hhs.72.p8
   at: 164
   length: 0
   type: lixian
   text: 《山陽公載記》「段」字作「殷」。
+- id: hhs.72.p8.h8
+  anchor: hhs.72.p8
+  at: 165
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.72.p9.h1
+  anchor: hhs.72.p9
+  at: 0
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p9.h2
+  anchor: hhs.72.p9
+  at: 18
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.72.p9.h3
+  anchor: hhs.72.p9
+  at: 31
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p9.a1
   anchor: hhs.72.p9
   at: 42
   length: 0
   type: lixian
   text: 《典略》曰：「帝望見卓涕泣，羣公謂卓有詔却兵。卓曰：『公諸人為國大臣，不能匡正王室，至使國家播蕩，何却兵之有？』遂俱入城。」
+- id: hhs.72.p9.h4
+  anchor: hhs.72.p9
+  at: 42
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p9.h5
+  anchor: hhs.72.p9
+  at: 64
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- anchor: hhs.72.p9
+  at: 73
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「為董太后所養」即陳留王協為董太后（永樂太后）所養，對應 dongtaihou。
+  id: hhs.72.p9.h7
+- id: hhs.72.p9.h6
+  anchor: hhs.72.p9
+  at: 78
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- anchor: hhs.72.p9
+  at: 82
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「卓自以與太后同族」董卓自稱與董太后同族，對應 dongtaihou。
+  id: hhs.72.p9.h8
+- id: hhs.72.p10.h1
+  anchor: hhs.72.p10
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p10.h2
+  anchor: hhs.72.p10
+  at: 64
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.72.p10.h3
+  anchor: hhs.72.p10
+  at: 77
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p10.h4
+  anchor: hhs.72.p10
+  at: 79
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p10.h5
+  anchor: hhs.72.p10
+  at: 82
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
 - id: hhs.72.p10.a1
   anchor: hhs.72.p10
   at: 95
   length: 0
   type: lixian
   text: 《英雄記》曰：「原字建陽。為人麤略有勇，善射，受使不辭，有警急，追寇虜輒在前。」
+- id: hhs.72.p10.h6
+  anchor: hhs.72.p10
+  at: 95
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p10.a2
   anchor: hhs.72.p10
   at: 116
   length: 0
   type: lixian
   text: 《魏志》曰：「以乆不雨策免。」《漢官儀》曰：「弘字子高，安衆人。」
+- id: hhs.72.p10.h7
+  anchor: hhs.72.p10
+  at: 127
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p10.h8
+  anchor: hhs.72.p10
+  at: 197
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p10.a3
   anchor: hhs.72.p10
   at: 201
@@ -241,6 +665,14 @@ annotations:
   length: 0
   type: lixian
   text: 前書，昭帝崩，霍光迎立昌邑王賀，即位二十七日，行淫亂，光召丞相已下會議，莫敢發言。田延年前，離席桉劔曰：「羣臣有後應者請斬之。」
+- id: hhs.72.p10.h9
+  anchor: hhs.72.p10
+  at: 236
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
 - id: hhs.72.p10.a5
   anchor: hhs.72.p10
   at: 250
@@ -253,12 +685,74 @@ annotations:
   length: 0
   type: lixian
   text: 昌邑王凡所徵發一千一百二十七事。
+- id: hhs.72.p10.h10
+  anchor: hhs.72.p10
+  at: 284
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- anchor: hhs.72.p10
+  at: 305
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「遂脅太后，策廢少帝」即董卓脅何太后廢劉辯，對應 hetaihou。
+  id: hhs.72.p10.h14
+- id: hhs.72.p10.h11
+  anchor: hhs.72.p10
+  at: 310
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.72.p10.h12
+  anchor: hhs.72.p10
+  at: 337
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- id: hhs.72.p10.h13
+  anchor: hhs.72.p10
+  at: 350
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- anchor: hhs.72.p10
+  at: 355
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「議太后蹙迫永樂太后」即議何太后逼董太后事，主語太后即何太后，對應 hetaihou。
+  id: hhs.72.p10.h15
 - id: hhs.72.p10.a7
   anchor: hhs.72.p10
   at: 357
   length: 0
   type: lixian
   text: 靈帝何皇后。
+- anchor: hhs.72.p10
+  at: 361
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「永樂太后」即孝仁董皇后董氏，對應 dongtaihou。
+  id: hhs.72.p10.h16
 - id: hhs.72.p10.a8
   anchor: hhs.72.p10
   at: 364
@@ -271,12 +765,52 @@ annotations:
   length: 0
   type: lixian
   text: 《左傳》曰：「婦，養姑者也。虧姑以成婦，逆莫大焉。」
+- id: hhs.72.p11.h1
+  anchor: hhs.72.p11
+  at: 0
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p11.a1
   anchor: hhs.72.p11
   at: 24
   length: 0
   type: lixian
   text: 傳音陟戀反。郿，今岐州縣。
+- id: hhs.72.p11.h2
+  anchor: hhs.72.p11
+  at: 24
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p11.h3
+  anchor: hhs.72.p11
+  at: 48
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.72.p12.h1
+  anchor: hhs.72.p12
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p13.h1
+  anchor: hhs.72.p13
+  at: 21
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p13.a1
   anchor: hhs.72.p13
   at: 49
@@ -289,6 +823,22 @@ annotations:
   length: 0
   type: lixian
   text: 靈帝陵。
+- id: hhs.72.p13.h2
+  anchor: hhs.72.p13
+  at: 68
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p13.h3
+  anchor: hhs.72.p13
+  at: 106
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p13.a3
   anchor: hhs.72.p13
   at: 185
@@ -307,6 +857,22 @@ annotations:
   length: 0
   type: lixian
   text: 《三輔舊事》曰：「秦王立二十六年，初定天下，稱皇帝。大人見臨洮，身長五丈，跡長六尺，作銅人以厭之，立在阿房殿前。漢徙長樂宮中大夏殿前。」史記曰：「始皇鑄天下兵器為十二金人。」
+- id: hhs.72.p13.h4
+  anchor: hhs.72.p13
+  at: 228
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p14.h1
+  anchor: hhs.72.p14
+  at: 0
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p14.a1
   anchor: hhs.72.p14
   at: 54
@@ -319,6 +885,14 @@ annotations:
   length: 0
   type: lixian
   text: 公業名泰。餘人皆書名，范曄父名泰，避其諱耳。
+- id: hhs.72.p14.h2
+  anchor: hhs.72.p14
+  at: 83
+  length: 2
+  type: person
+  person_id: hanrong
+  text: 韓融
+  via: primary
 - id: hhs.72.p14.a3
   anchor: hhs.72.p14
   at: 114
@@ -331,6 +905,14 @@ annotations:
   length: 0
   type: lixian
   text: 《吳志》曰：「劉岱字公山，東萊牟平人。」
+- id: hhs.72.p14.h3
+  anchor: hhs.72.p14
+  at: 126
+  length: 2
+  type: person
+  person_id: kongzhou
+  text: 孔伷
+  via: primary
 - id: hhs.72.p14.a5
   anchor: hhs.72.p14
   at: 134
@@ -343,6 +925,14 @@ annotations:
   length: 0
   type: lixian
   text: 《獻帝春秋》「咨」作「資」。後為孫堅所殺。
+- id: hhs.72.p14.h4
+  anchor: hhs.72.p14
+  at: 144
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p14.t1
   anchor: hhs.72.p14
   at: 161
@@ -355,24 +945,216 @@ annotations:
   era: 初平
   era_year: 1
   reasoning: 原文「初平元年」直接出现年号；解析為 AD 190
+- id: hhs.72.p14.h5
+  anchor: hhs.72.p14
+  at: 172
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.72.p14.h6
+  anchor: hhs.72.p14
+  at: 188
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h1
+  anchor: hhs.72.p15
+  at: 2
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.72.p15.h2
+  anchor: hhs.72.p15
+  at: 10
+  length: 2
+  type: person
+  person_id: guotai
+  text: 郭太
+  via: primary
+- id: hhs.72.p15.h3
+  anchor: hhs.72.p15
+  at: 51
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h4
+  anchor: hhs.72.p15
+  at: 77
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- id: hhs.72.p15.h5
+  anchor: hhs.72.p15
+  at: 118
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h6
+  anchor: hhs.72.p15
+  at: 125
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h7
+  anchor: hhs.72.p15
+  at: 156
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h8
+  anchor: hhs.72.p15
+  at: 158
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h9
+  anchor: hhs.72.p15
+  at: 179
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p15.h10
+  anchor: hhs.72.p15
+  at: 204
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p16.a1
   anchor: hhs.72.p16
   at: 37
   length: 0
   type: lixian
   text: 便時謂時日吉便。
+- id: hhs.72.p16.h1
+  anchor: hhs.72.p16
+  at: 78
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p16.h2
+  anchor: hhs.72.p16
+  at: 107
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p17.h1
+  anchor: hhs.72.p17
+  at: 5
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: hhs.72.p17.h2
+  anchor: hhs.72.p17
+  at: 15
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p17.h3
+  anchor: hhs.72.p17
+  at: 17
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p17.h4
+  anchor: hhs.72.p17
+  at: 33
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: hhs.72.p17.a1
   anchor: hhs.72.p17
   at: 37
   length: 0
   type: lixian
   text: 故城在今汝州梁縣西南。
+- id: hhs.72.p17.h5
+  anchor: hhs.72.p17
+  at: 41
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p17.h6
+  anchor: hhs.72.p17
+  at: 55
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p17.h7
+  anchor: hhs.72.p17
+  at: 65
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: hhs.72.p18.h1
+  anchor: hhs.72.p18
+  at: 5
+  length: 2
+  type: person
+  person_id: wangkuang
+  text: 王匡
+  via: primary
 - id: hhs.72.p18.a1
   anchor: hhs.72.p18
   at: 7
   length: 0
   type: lixian
   text: 《英雄記》曰：「匡字公節，泰山人。輕財好施，以任俠聞。」
+- id: hhs.72.p18.h2
+  anchor: hhs.72.p18
+  at: 16
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h3
+  anchor: hhs.72.p18
+  at: 18
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p18.t1
   anchor: hhs.72.p18
   at: 46
@@ -385,30 +1167,182 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 「明年」 = 当前年 初平元年 (AD 190) 之次年 = AD 191
+- id: hhs.72.p18.h4
+  anchor: hhs.72.p18
+  at: 49
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
 - id: hhs.72.p18.a2
   anchor: hhs.72.p18
   at: 64
   length: 0
   type: lixian
   text: 梁縣屬河南郡，今汝州縣也。陽人，聚，故城在梁縣西。
+- id: hhs.72.p18.h5
+  anchor: hhs.72.p18
+  at: 64
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h6
+  anchor: hhs.72.p18
+  at: 70
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p18.h7
+  anchor: hhs.72.p18
+  at: 75
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.72.p18.a3
   anchor: hhs.72.p18
   at: 93
   length: 0
   type: lixian
   text: 《九州春秋》曰：「卓以東郡太守胡軫為大督，呂布為騎督。軫性急，豫宣言『今此行也，要當斬一青綬，乃整齊耳』。布等惡之，宣言相警云『賊至』，軍衆大亂奔走。」
+- id: hhs.72.p18.h8
+  anchor: hhs.72.p18
+  at: 93
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p18.h9
+  anchor: hhs.72.p18
+  at: 100
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p18.h10
+  anchor: hhs.72.p18
+  at: 104
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h11
+  anchor: hhs.72.p18
+  at: 110
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p18.h12
+  anchor: hhs.72.p18
+  at: 114
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: hhs.72.p18.a4
   anchor: hhs.72.p18
   at: 131
   length: 0
   type: lixian
   text: 大谷口在故嵩陽西北三十五里，北出對洛陽故城。張衡《東京賦》云「盟津達其後，大谷通其前」是也。距，至也。
+- id: hhs.72.p18.h13
+  anchor: hhs.72.p18
+  at: 131
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h14
+  anchor: hhs.72.p18
+  at: 135
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p18.h15
+  anchor: hhs.72.p18
+  at: 143
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h16
+  anchor: hhs.72.p18
+  at: 157
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: hhs.72.p18.a5
   anchor: hhs.72.p18
   at: 166
   length: 0
   type: lixian
   text: 《洛陽記》洛陽城南面有四門，從東第三門。
+- id: hhs.72.p18.h17
+  anchor: hhs.72.p18
+  at: 168
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p18.h18
+  anchor: hhs.72.p18
+  at: 171
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p18.h19
+  anchor: hhs.72.p18
+  at: 176
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p18.h20
+  anchor: hhs.72.p18
+  at: 205
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h21
+  anchor: hhs.72.p18
+  at: 208
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p18.h22
+  anchor: hhs.72.p18
+  at: 231
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
 - id: hhs.72.p18.a6
   anchor: hhs.72.p18
   at: 236
@@ -421,12 +1355,44 @@ annotations:
   length: 0
   type: lixian
   text: 《典略》曰：「煨在華陰，特修農事。天子東遷，煨迎，貢饋周急。」《魏志》曰：「武威人也。」煨音壹回反。
+- id: hhs.72.p18.h23
+  anchor: hhs.72.p18
+  at: 282
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p19.h1
+  anchor: hhs.72.p19
+  at: 0
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p19.a1
   anchor: hhs.72.p19
   at: 10
   length: 0
   type: lixian
   text: 璠音煩，又音甫袁反。
+- id: hhs.72.p19.h2
+  anchor: hhs.72.p19
+  at: 13
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p19.h3
+  anchor: hhs.72.p19
+  at: 38
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p19.a2
   anchor: hhs.72.p19
   at: 74
@@ -445,6 +1411,94 @@ annotations:
   length: 0
   type: lixian
   text: 橫音光。
+- id: hhs.72.p20.h1
+  anchor: hhs.72.p20
+  at: 93
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p20.h2
+  anchor: hhs.72.p20
+  at: 159
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p21.h1
+  anchor: hhs.72.p21
+  at: 15
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p21.h2
+  anchor: hhs.72.p21
+  at: 22
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: hhs.72.p21.h3
+  anchor: hhs.72.p21
+  at: 25
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: hhs.72.p21.h4
+  anchor: hhs.72.p21
+  at: 52
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p21.h5
+  anchor: hhs.72.p21
+  at: 78
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: hhs.72.p21.h6
+  anchor: hhs.72.p21
+  at: 96
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p21.h7
+  anchor: hhs.72.p21
+  at: 108
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.72.p21.h8
+  anchor: hhs.72.p21
+  at: 127
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p21.h9
+  anchor: hhs.72.p21
+  at: 133
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: hhs.72.p21.a1
   anchor: hhs.72.p21
   at: 164
@@ -457,18 +1511,74 @@ annotations:
   length: 0
   type: lixian
   text: 魏絳，晉大夫。楊干，晉公弟。會諸侯於曲梁，楊干亂行，魏絳戮其僕。事在《左傳》。
+- id: hhs.72.p21.h10
+  anchor: hhs.72.p21
+  at: 192
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p22.a1
   anchor: hhs.72.p22
   at: 5
   length: 0
   type: lixian
   text: 《漢官儀》曰：「溫，穰人。」
+- id: hhs.72.p22.h1
+  anchor: hhs.72.p22
+  at: 20
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p22.h2
+  anchor: hhs.72.p22
+  at: 25
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p22.a2
   anchor: hhs.72.p22
   at: 43
   length: 0
   type: lixian
   text: 謝承書曰：「孚字德瑜，汝南吳房人。質性剛毅，勇壯好義，力能兼人。」
+- id: hhs.72.p22.h3
+  anchor: hhs.72.p22
+  at: 44
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p22.h4
+  anchor: hhs.72.p22
+  at: 61
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p22.h5
+  anchor: hhs.72.p22
+  at: 69
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p22.h6
+  anchor: hhs.72.p22
+  at: 91
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p22.a3
   anchor: hhs.72.p22
   at: 108
@@ -481,12 +1591,76 @@ annotations:
   length: 0
   type: lixian
   text: 磔，車裂之也，音丁格反。獻帝春秋「磔」作「車」。
+- id: hhs.72.p23.h1
+  anchor: hhs.72.p23
+  at: 1
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p23.h2
+  anchor: hhs.72.p23
+  at: 4
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p23.h3
+  anchor: hhs.72.p23
+  at: 9
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
+- id: hhs.72.p23.h4
+  anchor: hhs.72.p23
+  at: 14
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p23.a1
   anchor: hhs.72.p23
   at: 16
   length: 0
   type: lixian
   text: 《三輔決錄》曰：「瑞字君榮，扶風人，博達無不通。天子都許，追論瑞功，封子萌津亭侯。萌字文始，有才學，與王粲善，粲作詩贈萌。」
+- id: hhs.72.p23.h5
+  anchor: hhs.72.p23
+  at: 24
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p23.h6
+  anchor: hhs.72.p23
+  at: 37
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p23.h7
+  anchor: hhs.72.p23
+  at: 43
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p23.h8
+  anchor: hhs.72.p23
+  at: 46
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p23.a2
   anchor: hhs.72.p23
   at: 50
@@ -507,12 +1681,140 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 承前文年號「初平」推得，「三年四月」 = 初平3年 = AD 192
+- id: hhs.72.p24.h1
+  anchor: hhs.72.p24
+  at: 16
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h2
+  anchor: hhs.72.p24
+  at: 40
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h3
+  anchor: hhs.72.p24
+  at: 69
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p24.h4
+  anchor: hhs.72.p24
+  at: 77
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p24.h5
+  anchor: hhs.72.p24
+  at: 81
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
+- id: hhs.72.p24.h6
+  anchor: hhs.72.p24
+  at: 96
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.72.p24.a1
   anchor: hhs.72.p24
   at: 104
   length: 0
   type: lixian
   text: 《獻帝紀》曰：「肅，呂布同郡人也。」
+- id: hhs.72.p24.h7
+  anchor: hhs.72.p24
+  at: 105
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p24.h8
+  anchor: hhs.72.p24
+  at: 126
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h9
+  anchor: hhs.72.p24
+  at: 128
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h10
+  anchor: hhs.72.p24
+  at: 142
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p24.h11
+  anchor: hhs.72.p24
+  at: 158
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h12
+  anchor: hhs.72.p24
+  at: 175
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p24.h13
+  anchor: hhs.72.p24
+  at: 181
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p24.h14
+  anchor: hhs.72.p24
+  at: 192
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h15
+  anchor: hhs.72.p24
+  at: 206
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p24.h16
+  anchor: hhs.72.p24
+  at: 212
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p24.a2
   anchor: hhs.72.p24
   at: 219
@@ -525,48 +1827,216 @@ annotations:
   length: 0
   type: lixian
   text: 《九州春秋》「儀」字作「景」。
+- id: hhs.72.p24.h17
+  anchor: hhs.72.p24
+  at: 224
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h18
+  anchor: hhs.72.p24
+  at: 232
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.72.p24.h19
+  anchor: hhs.72.p24
+  at: 287
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.72.p24.h20
+  anchor: hhs.72.p24
+  at: 291
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p24.a4
   anchor: hhs.72.p24
   at: 310
   length: 0
   type: lixian
   text: 《英雄記》曰：「卓母年九十，走至塢門，曰：『乞脫我死。』即時斬首。」
+- id: hhs.72.p24.h21
+  anchor: hhs.72.p24
+  at: 312
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h22
+  anchor: hhs.72.p24
+  at: 321
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p24.h23
+  anchor: hhs.72.p24
+  at: 337
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.72.p25.h1
+  anchor: hhs.72.p25
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p25.a1
   anchor: hhs.72.p25
   at: 40
   length: 0
   type: lixian
   text: 《英雄記》：「傕，北地人。」劉艾《獻帝紀》曰：「傕字稚然。汜，張掖人。」
+- id: hhs.72.p25.h2
+  anchor: hhs.72.p25
+  at: 73
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p25.h3
+  anchor: hhs.72.p25
+  at: 101
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.72.p25.a2
   anchor: hhs.72.p25
   at: 142
   length: 0
   type: lixian
   text: 《獻帝紀》曰：「輔帳下支胡赤兒等，素待之過急，盡以家寶與之，自帶二十餘餅金、大白珠瓔。胡謂輔曰：『城北已有馬，可去也。』以繩繫輔腰，踰城懸下之，未及地丈許放之，輔傷腰不能行，諸胡共取其金并珠，斬首詣長安。」
+- id: hhs.72.p26.h1
+  anchor: hhs.72.p26
+  at: 5
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p26.h2
+  anchor: hhs.72.p26
+  at: 8
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p26.h3
+  anchor: hhs.72.p26
+  at: 11
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.72.p26.h4
+  anchor: hhs.72.p26
+  at: 71
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p26.h5
+  anchor: hhs.72.p26
+  at: 101
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: hhs.72.p26.a1
   anchor: hhs.72.p26
   at: 110
   length: 0
   type: lixian
   text: 《魏志》曰：「卓之入洛陽，詡以太尉掾為平津尉，遷討虜校尉。」牛輔屯陝，詡在輔軍。輔旣死，故詡在傕軍。
+- id: hhs.72.p26.h6
+  anchor: hhs.72.p26
+  at: 262
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p26.h7
+  anchor: hhs.72.p26
+  at: 269
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: hhs.72.p26.a2
   anchor: hhs.72.p26
   at: 283
   length: 0
   type: lixian
   text: 《九州春秋》曰：「胡文才、楊整脩皆涼州人，王允素所不善也。及李傕之叛，乃召文才、整脩，使東曉喻之。不假借以溫顏，謂曰：『關東鼠子欲何為乎？卿往曉之。』於是二人往，實召兵而還。」
+- id: hhs.72.p26.h8
+  anchor: hhs.72.p26
+  at: 309
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: hhs.72.p26.a3
   anchor: hhs.72.p26
   at: 321
   length: 0
   type: lixian
   text: 袁宏《紀》曰：「蒙後為傕所殺。」
+- id: hhs.72.p26.h9
+  anchor: hhs.72.p26
+  at: 336
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
 - id: hhs.72.p26.a4
   anchor: hhs.72.p26
   at: 345
   length: 0
   type: lixian
   text: 叟兵即蜀兵也。漢代謂蜀為叟。
+- id: hhs.72.p26.h10
+  anchor: hhs.72.p26
+  at: 372
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.72.p26.h11
+  anchor: hhs.72.p26
+  at: 379
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
 - id: hhs.72.p26.a5
   anchor: hhs.72.p26
   at: 392
@@ -579,12 +2049,44 @@ annotations:
   length: 0
   type: lixian
   text: 袁山松書曰「允謂傕等曰：『臣無作威作福，將軍乃放縱，欲何為乎？』傕等不應。自拜署傕為揚武將軍，汜為揚烈將軍，樊稠等皆為中郎將」也。
+- id: hhs.72.p26.h12
+  anchor: hhs.72.p26
+  at: 423
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.72.p26.h13
+  anchor: hhs.72.p26
+  at: 450
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.72.p26.h14
+  anchor: hhs.72.p26
+  at: 482
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: hhs.72.p26.a7
   anchor: hhs.72.p26
   at: 495
   length: 0
   type: lixian
   text: 《獻帝起居注》曰：「冢戶開，大風暴雨，水土流入，抒出之。棺向入，輒復風雨，水溢郭戶，如此者三四。冢中水半所，稠等共下棺，天風雨益暴甚，遂閉戶。戶閉，大風復破其冢。」
+- id: hhs.72.p27.h1
+  anchor: hhs.72.p27
+  at: 60
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: hhs.72.p28.t1
   anchor: hhs.72.p28
   at: 0
@@ -597,12 +2099,28 @@ annotations:
   era: 初平
   era_year: 4
   reasoning: 「明年」 = 当前年 初平3年 (AD 192) 之次年 = AD 193
+- id: hhs.72.p29.h1
+  anchor: hhs.72.p29
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p29.a1
   anchor: hhs.72.p29
   at: 18
   length: 0
   type: lixian
   text: 《獻帝傳》曰：「騰父平，扶風人。為天水蘭干尉，失官，遂留隴西，與羌雜居。家貧無妻，遂取羌女，生騰。」
+- id: hhs.72.p29.h2
+  anchor: hhs.72.p29
+  at: 30
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p29.t1
   anchor: hhs.72.p29
   at: 34
@@ -687,18 +2205,46 @@ annotations:
   length: 0
   type: lixian
   text: 袁宏《紀》曰「李傕數設酒請汜，或留汜止宿。汜妻懼與傕婢妾私而奪己愛，思有以離閒之。會傕送饋，汜妻乃以豉為藥。汜將食，妻曰：『食從外來，儻或有故？』遂摘藥示之，曰：『一栖不兩雄，我固疑將軍之信李公也。』他日傕請汜，大醉，汜疑傕藥之，絞糞汁飲之乃解，於是遂相猜疑」也。
+- id: hhs.72.p31.h1
+  anchor: hhs.72.p31
+  at: 42
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.72.p31.a3
   anchor: hhs.72.p31
   at: 75
   length: 0
   type: lixian
   text: 音纖。
+- anchor: hhs.72.p31
+  at: 90
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 李傕劫獻帝事，「以車三乘迎天子、皇后」即伏皇后伏壽，對應 fuhuanghou。
+  id: hhs.72.p31.h2
 - id: hhs.72.p31.a4
   anchor: hhs.72.p31
   at: 304
   length: 0
   type: lixian
   text: 《獻帝紀》曰：「汜與傕將張苞、張龍謀誅傕，汜將兵夜攻傕門。候開門內汜兵，苞等燒屋，火不然。汜兵弓弩並發，矢及天子樓帷簾中。」
+- anchor: hhs.72.p32
+  at: 13
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「唯皇后、宋貴人俱」即伏皇后與宋貴人從帝，伏皇后對應 fuhuanghou。
+  id: hhs.72.p32.h1
 - id: hhs.72.p32.a1
   anchor: hhs.72.p32
   at: 33
@@ -777,6 +2323,16 @@ annotations:
   length: 0
   type: lixian
   text: 縋音直類反。
+- anchor: hhs.72.p34
+  at: 439
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「同濟唯皇后、宋貴人」即伏皇后與宋貴人共渡河，對應 fuhuanghou。
+  id: hhs.72.p34.h4
 - id: hhs.72.p34.a5
   anchor: hhs.72.p34
   at: 446
@@ -789,6 +2345,14 @@ annotations:
   length: 0
   type: lixian
   text: 大陽，縣，屬河東郡。前書音義曰「在大河之陽」也。即今陝州河北縣是也。《十三州記》曰：「傅巖在其界，今住穴尚存。」
+- id: hhs.72.p34.h1
+  anchor: hhs.72.p34
+  at: 508
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p34.a7
   anchor: hhs.72.p34
   at: 510
@@ -801,12 +2365,28 @@ annotations:
   length: 0
   type: lixian
   text: 邑字文都，北地涇陽人，鎮北將軍。見同歲名。
+- id: hhs.72.p34.h2
+  anchor: hhs.72.p34
+  at: 562
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p34.a9
   anchor: hhs.72.p34
   at: 610
   length: 0
   type: lixian
   text: 《魏志》曰「乘輿時居棘籬中，門戶無關閉，天子與羣臣會，兵士伏籬上觀，互相鎮壓以為笑。諸將或遣婢詣省問，或齎酒送天子，侍中不通，喧呼罵詈」也。
+- id: hhs.72.p34.h3
+  anchor: hhs.72.p34
+  at: 614
+  length: 2
+  type: person
+  person_id: hanrong
+  text: 韓融
+  via: primary
 - id: hhs.72.p35.t1
   anchor: hhs.72.p35
   at: 58
@@ -819,6 +2399,14 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
+- id: hhs.72.p35.h1
+  anchor: hhs.72.p35
+  at: 78
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p35.t2
   anchor: hhs.72.p35
   at: 91
@@ -833,30 +2421,94 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 建安元年 (AD 196)，月份「七月」
+- id: hhs.72.p35.h2
+  anchor: hhs.72.p35
+  at: 105
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p35.a1
   anchor: hhs.72.p35
   at: 121
   length: 0
   type: lixian
   text: 《獻帝起居注》曰：「舊時宮殿悉壞，倉卒之際，拾摭故瓦材木，工匠無法度之制，所作並無足觀也。」
+- id: hhs.72.p36.h1
+  anchor: hhs.72.p36
+  at: 2
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p37.a1
   anchor: hhs.72.p37
   at: 6
   length: 0
   type: lixian
   text: 恣睢，自任用之貌。睢音火季反。
+- id: hhs.72.p37.h1
+  anchor: hhs.72.p37
+  at: 21
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.72.p37.h2
+  anchor: hhs.72.p37
+  at: 24
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.72.p37.h3
+  anchor: hhs.72.p37
+  at: 42
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p37.a2
   anchor: hhs.72.p37
   at: 107
   length: 0
   type: lixian
   text: 袁宏紀曰：「誅議郎侯祈、尚書馮碩、侍中臺崇，討有罪也。封衞將軍董承、輔國將軍伏完、侍中丁沖、种輯、尚書僕射鍾繇、尚書郭溥、御史中丞董芬、彭城相劉艾、馮翊韓斌、東郡太守楊衆、議郎羅邵、伏德、趙蕤為列侯，賞有功也。贈射聲校尉沮儁為弘農太守，旌死節也。」
+- id: hhs.72.p37.h4
+  anchor: hhs.72.p37
+  at: 107
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.72.p37.h5
+  anchor: hhs.72.p37
+  at: 135
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.72.p37.a3
   anchor: hhs.72.p37
   at: 140
   length: 0
   type: lixian
   text: 《獻帝春秋》曰：「車駕出洛陽，自轘轅而東，楊奉、韓暹引軍追之。輕騎旣至，操設伏兵要於陽城山峽中，大敗之。」
+- id: hhs.72.p37.h6
+  anchor: hhs.72.p37
+  at: 144
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
 - id: hhs.72.p37.t1
   anchor: hhs.72.p37
   at: 155
@@ -869,6 +2521,14 @@ annotations:
   era: 建安
   era_year: 2
   reasoning: 「明年」 = 当前年 建安元年 (AD 196) 之次年 = AD 197
+- id: hhs.72.p37.h7
+  anchor: hhs.72.p37
+  at: 161
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
 - id: hhs.72.p37.a4
   anchor: hhs.72.p37
   at: 182
@@ -911,12 +2571,60 @@ annotations:
   era: 建安
   era_year: 4
   reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
+- id: hhs.72.p39.h1
+  anchor: hhs.72.p39
+  at: 3
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
 - id: hhs.72.p39.a1
   anchor: hhs.72.p39
   at: 13
   length: 0
   type: lixian
   text: 《魏志》曰：「楊素與呂布善。曹公之圍布，楊欲救之不能，乃出兵東巿，遙為之埶。其將楊醜殺楊以應曹公。」
+- id: hhs.72.p40.h1
+  anchor: hhs.72.p40
+  at: 25
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name_carry
+- id: hhs.72.p40.h2
+  anchor: hhs.72.p40
+  at: 48
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: hhs.72.p40.h3
+  anchor: hhs.72.p40
+  at: 57
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: hhs.72.p40.h4
+  anchor: hhs.72.p40
+  at: 96
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name_carry
+- id: hhs.72.p41.h1
+  anchor: hhs.72.p41
+  at: 22
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name_carry
 - id: hhs.72.p42.t1
   anchor: hhs.72.p42
   at: 0
@@ -929,6 +2637,22 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211
+- id: hhs.72.p42.h1
+  anchor: hhs.72.p42
+  at: 12
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.72.p42.h2
+  anchor: hhs.72.p42
+  at: 15
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.72.p42.a1
   anchor: hhs.72.p42
   at: 42
@@ -947,12 +2671,28 @@ annotations:
   era: 建安
   era_year: 19
   reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
+- id: hhs.72.p43.h1
+  anchor: hhs.72.p43
+  at: 7
+  length: 2
+  type: person
+  person_id: yangfu
+  text: 楊阜
+  via: primary
 - id: hhs.72.p43.a1
   anchor: hhs.72.p43
   at: 12
   length: 0
   type: lixian
   text: 《魏志》曰：「阜字義山，天水兾人也。韋康以為別駕。馬超率萬餘人攻兾城，阜率國士大夫及宗族子弟勝兵者千餘人，使弟岳於城上作偃月營，與超接戰。自正月至八月拒守，而救兵不至。超入，拘岳於兾，殺刺史太守。阜內有報超之志，而未得其便。外兄姜敘屯歷城，阜少長詣敘家，見敘母，說前在兾中時事，歔欷悲甚。敘曰：『何為爾？』阜曰：『守城不能完，君亡不能死，亦何面目以視息天下？』時敘母慨然勑從阜計。超聞阜等兵起，自將出襲歷城，得敘母。敘母罵之曰：『若背父之逆子，殺君之桀賊，天地豈乆容，敢以面目視人乎？』超怒，殺之。阜與戰，身被五創，宗族昆季死者七人，超遂南奔張魯。」
+- id: hhs.72.p43.h2
+  anchor: hhs.72.p43
+  at: 18
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
 - id: hhs.72.p43.a2
   anchor: hhs.72.p43
   at: 21
@@ -965,12 +2705,36 @@ annotations:
   length: 0
   type: lixian
   text: 建以居河上流，故稱「河首」也。
+- id: hhs.72.p44.h1
+  anchor: hhs.72.p44
+  at: 45
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.72.p44.h2
+  anchor: hhs.72.p44
+  at: 49
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
 - id: hhs.72.p44.a2
   anchor: hhs.72.p44
   at: 63
   length: 0
   type: lixian
   text: 《魏志》曰：「泉字妙才，沛國人也，為征西護軍，魏太祖使帥諸將討建，拔之。」
+- id: hhs.72.p45.h1
+  anchor: hhs.72.p45
+  at: 3
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.72.p45.a1
   anchor: hhs.72.p45
   at: 12
@@ -1049,6 +2813,14 @@ annotations:
   length: 0
   type: lixian
   text: 《易》曰大過：「棟撓，本末弱也。」剝：「不利有攸往，小人長也。」
+- id: hhs.72.p46.h1
+  anchor: hhs.72.p46
+  at: 14
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.72.p46.a3
   anchor: hhs.72.p46
   at: 24

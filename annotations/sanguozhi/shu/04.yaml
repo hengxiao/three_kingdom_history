@@ -2,9 +2,83 @@ chapter: shu.4
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷34
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 4e6eca492ebc49eebb7ce502f353843ebf1d7ba64da388f3a1ca3fd5d78e9ea9
 annotations:
+- id: shu.4.p1.h1
+  anchor: shu.4.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.4.p1
+  at: 3
+  length: 2
+  type: person
+  person_id: ganhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「先主甘皇后」傳首即立傳本人甘皇后（後主生母、追諡昭烈皇后），roster未列。
+  id: shu.4.p1.h10
+- id: shu.4.p1.h2
+  anchor: shu.4.p1
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p1.h3
+  anchor: shu.4.p1
+  at: 25
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p1.h4
+  anchor: shu.4.p1
+  at: 38
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p1.h5
+  anchor: shu.4.p1
+  at: 45
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.4.p1.h6
+  anchor: shu.4.p1
+  at: 56
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p1.h7
+  anchor: shu.4.p1
+  at: 72
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.4.p1.h8
+  anchor: shu.4.p1
+  at: 76
+  length: 2
+  type: person
+  person_id: zhaoyun
+  text: 趙雲
+  via: primary
 - id: shu.4.p1.t1
   anchor: shu.4.p1
   at: 94
@@ -17,18 +91,124 @@ annotations:
   era: 章武
   era_year: 2
   reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
+- id: shu.4.p1.h9
+  anchor: shu.4.p1
+  at: 114
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.4.p2
+  at: 198
+  length: 2
+  type: person
+  person_id: gonghuailianggui
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 同議文引「恭懷皇后」（漢和帝母梁貴人追尊），歷史人物。
+  id: shu.4.p2.h1
+- anchor: shu.4.p2
+  at: 219
+  length: 2
+  type: person
+  person_id: wangrong
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 同議文引「靈懷皇后」（漢愍帝母王夫人追尊），歷史人物。
+  id: shu.4.p2.h2
+- anchor: shu.4.p2
+  at: 251
+  length: 2
+  type: person
+  person_id: ganhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「宜曰昭烈皇后」議定甘氏諡號，昭烈皇后即甘皇后，roster未列。
+  id: shu.4.p2.h3
 - id: shu.4.p2.a1
   anchor: shu.4.p2
   at: 271
   length: 0
   type: pei
   text: 《禮》云：上古無合葬，中古後因時方有。
+- anchor: shu.4.p2
+  at: 274
+  length: 2
+  type: person
+  person_id: ganhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「故昭烈皇后宜與大行皇帝合葬」續指甘皇后，roster未列。
+  id: shu.4.p2.h4
+- id: shu.4.p3.h1
+  anchor: shu.4.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.4.p3
+  at: 3
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「先主穆皇后」傳目即吳氏穆皇后，roster未列。
+  id: shu.4.p3.h8
+- id: shu.4.p3.h2
+  anchor: shu.4.p3
+  at: 22
+  length: 2
+  type: person
+  person_id: liuyan_shu
+  text: 劉焉
+  via: primary
+- id: shu.4.p3.h3
+  anchor: shu.4.p3
+  at: 73
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.4.p3.a1
   anchor: shu.4.p3
   at: 87
   length: 0
   type: pei
   text: 《漢晉春秋》云：先主入益州，吳遣迎孫夫人。夫人欲將太子歸吳，諸葛亮使趙雲勒兵斷江留太子，乃得止。
+- id: shu.4.p3.h4
+  anchor: shu.4.p3
+  at: 90
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p3.h5
+  anchor: shu.4.p3
+  at: 95
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p3.h6
+  anchor: shu.4.p3
+  at: 103
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
 - id: shu.4.p3.a2
   anchor: shu.4.p3
   at: 133
@@ -47,6 +227,16 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）
+- anchor: shu.4.p3
+  at: 144
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 王后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立為漢中王后」即穆皇后吳氏為漢中王后，roster未列。
+  id: shu.4.p3.h9
 - id: shu.4.p3.t2
   anchor: shu.4.p3
   at: 147
@@ -61,6 +251,26 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 原文「章武元年夏五月」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
+- anchor: shu.4.p3
+  at: 176
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「今以后為皇后」策立穆皇后吳氏為皇后，roster未列。
+  id: shu.4.p3.h10
+- anchor: shu.4.p3
+  at: 198
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 策文末「皇后其敬之哉」續指穆皇后吳氏。
+  id: shu.4.p3.h11
 - id: shu.4.p3.t3
   anchor: shu.4.p3
   at: 206
@@ -75,6 +285,24 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 原文「建興元年五月」直接出现年号；解析為 AD 223
+- id: shu.4.p3.h7
+  anchor: shu.4.p3
+  at: 213
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- anchor: shu.4.p3
+  at: 222
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「尊后為皇太后」即穆皇后吳氏（後主嫡母），roster未列。
+  id: shu.4.p3.h12
 - id: shu.4.p3.t4
   anchor: shu.4.p3
   at: 242
@@ -93,6 +321,32 @@ annotations:
   length: 0
   type: pei
   text: 孫盛《蜀世譜》曰：壹孫喬，沒李雄中三十年，不為雄屈也。
+- id: shu.4.p4.h1
+  anchor: shu.4.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- anchor: shu.4.p4
+  at: 4
+  length: 2
+  type: person
+  person_id: jingaihuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「後主敬哀皇后」傳目即張飛長女敬哀皇后，roster未列。
+  id: shu.4.p4.h4
+- id: shu.4.p4.h2
+  anchor: shu.4.p4
+  at: 11
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
 - id: shu.4.p4.t1
   anchor: shu.4.p4
   at: 17
@@ -105,6 +359,16 @@ annotations:
   era: 章武
   era_year: 1
   reasoning: 原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
+- anchor: shu.4.p4
+  at: 24
+  length: 2
+  type: person
+  person_id: liushan
+  text: 太子
+  via: llm
+  confidence: 0.92
+  reasoning: 章武元年「納為太子妃」之太子即時為皇太子之劉禪。
+  id: shu.4.p4.h3
 - id: shu.4.p4.t2
   anchor: shu.4.p4
   at: 28
@@ -117,6 +381,16 @@ annotations:
   era: 建興
   era_year: 1
   reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
+- anchor: shu.4.p4
+  at: 35
+  length: 2
+  type: person
+  person_id: jingaihuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 建興元年「立為皇后」即敬哀皇后張氏，roster未列。
+  id: shu.4.p4.h5
 - id: shu.4.p4.t3
   anchor: shu.4.p4
   at: 38
@@ -129,6 +403,24 @@ annotations:
   era: 延熙
   era_year: 15
   reasoning: 承前文年號「延熙」推得，「十五年」 = 延熙15年 = AD 252
+- id: shu.4.p5.h1
+  anchor: shu.4.p5
+  at: 0
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- anchor: shu.4.p5
+  at: 3
+  length: 2
+  type: person
+  person_id: houzhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「後主張皇后」傳目即繼后張氏（敬哀之妹），roster未列。
+  id: shu.4.p5.h4
 - id: shu.4.p5.t1
   anchor: shu.4.p5
   at: 14
@@ -155,12 +447,44 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 原文「延熙元年春正月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
+- id: shu.4.p5.h2
+  anchor: shu.4.p5
+  at: 70
+  length: 2
+  type: person
+  person_id: xianglang
+  text: 向朗
+  via: primary
+- id: shu.4.p5.h3
+  anchor: shu.4.p5
+  at: 102
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
 - id: shu.4.p5.a1
   anchor: shu.4.p5
   at: 109
   length: 0
   type: pei
   text: 《漢晉春秋》曰：魏以蜀宮人賜諸將之無妻者，李昭儀曰：「我不能二三屈辱。」乃自殺。
+- id: shu.4.p6.h1
+  anchor: shu.4.p6
+  at: 6
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.4.p6.h2
+  anchor: shu.4.p6
+  at: 10
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
 - id: shu.4.p6.t1
   anchor: shu.4.p6
   at: 16
@@ -187,6 +511,30 @@ annotations:
   era: 建興
   era_year: 8
   reasoning: 原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）
+- id: shu.4.p6.h3
+  anchor: shu.4.p6
+  at: 169
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.4.p6.h4
+  anchor: shu.4.p6
+  at: 172
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.4.p7.h1
+  anchor: shu.4.p7
+  at: 7
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
 - id: shu.4.p7.t1
   anchor: shu.4.p7
   at: 18
@@ -237,6 +585,24 @@ annotations:
   era: 景耀
   era_year: 4
   reasoning: 原文「景耀四年」直接出现年号；解析為 AD 261
+- id: shu.4.p8.h1
+  anchor: shu.4.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- anchor: shu.4.p8
+  at: 2
+  length: 2
+  type: person
+  person_id: liuxuan
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 「後主太子璿」傳目即後主太子劉璿，roster未列劉璿。
+  id: shu.4.p8.h3
 - id: shu.4.p8.t1
   anchor: shu.4.p8
   at: 25
@@ -251,6 +617,16 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「延熙元年正月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
+- anchor: shu.4.p8
+  at: 60
+  length: 2
+  type: person
+  person_id: liuxuan
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 策文「今以璿為皇太子」立劉璿為太子，roster未列劉璿。
+  id: shu.4.p8.h4
 - id: shu.4.p8.t2
   anchor: shu.4.p8
   at: 132
@@ -263,6 +639,14 @@ annotations:
   era: 景耀
   era_year: 6
   reasoning: 原文「景耀六年」直接出现年号；解析為 AD 263
+- id: shu.4.p8.h2
+  anchor: shu.4.p8
+  at: 148
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: shu.4.p8.a1
   anchor: shu.4.p8
   at: 163

@@ -149,6 +149,15 @@
           "at": 20,
           "length": 0,
           "text": "《禮記》曰：「下之事上也，不從其所令，從其所行。上好是物，下必有甚者矣。」矯，正也。正枉必過其直，見《孟子》。"
+        },
+        {
+          "id": "hhs.67.p4.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
         }
       ]
     },
@@ -156,6 +165,15 @@
       "id": "hhs.67.p5",
       "text": "初，桓帝爲蠡吾侯，受學於甘陵周福，及即帝位，擢福爲尚書。時同郡河南尹房植有名當朝，鄉人爲之謠曰：「天下規矩房伯武，因師獲印周仲進。」二家賓客，互相譏揣，遂各樹朋徒，漸成尤隙，由是甘陵有南北部，黨人之議，自此始矣。",
       "annotations": [
+        {
+          "id": "hhs.67.p5.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
         {
           "id": "hhs.67.p5.a1",
           "type": "lixian",
@@ -169,6 +187,15 @@
       "id": "hhs.67.p6",
       "text": "後汝南太守宗資任功曹范滂，南陽太守成瑨亦委功曹岑晊，二郡又爲謠曰：",
       "annotations": [
+        {
+          "id": "hhs.67.p6.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "岑晊",
+          "person_id": "cenzhi",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p6.a1",
           "type": "lixian",
@@ -197,6 +224,24 @@
           "text": "冠猶首也。"
         },
         {
+          "id": "hhs.67.p7.h1",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p7.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p7.a3",
           "type": "lixian",
           "at": 114,
@@ -215,7 +260,17 @@
     {
       "id": "hhs.67.p8",
       "text": "時河內張成善説風角，推占當赦，遂教子殺人。李膺爲河南尹，督促收捕，既而逢宥獲免，膺愈懷憤疾，竟案殺之。初，成以方伎交通宦官，帝亦頗誶其占。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p8.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p9",
@@ -227,6 +282,15 @@
           "at": 45,
           "length": 0,
           "text": "説文曰：「誹，謗也。」蒼頡篇曰：「訕，非也。」"
+        },
+        {
+          "id": "hhs.67.p9.h1",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
         }
       ]
     },
@@ -240,6 +304,60 @@
           "at": 24,
           "length": 0,
           "text": "希，望也，摽搒猶相稱揚也。「搒」與「牓」同，古字通。"
+        },
+        {
+          "id": "hhs.67.p10.h1",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "劉淑",
+          "person_id": "liushu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p10.h2",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p10.h3",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p10.h4",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p10.h5",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "劉祐",
+          "person_id": "liuyou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p10.h6",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "魏朗",
+          "person_id": "weilang",
+          "via": "primary"
         }
       ]
     },
@@ -248,11 +366,182 @@
       "text": "俊者，言人之英也。郭林宗、宗慈、巴肅、夏馥、范滂、尹勳、蔡衍、羊陟爲「八顧」。顧者，言能以德行引人者也。張儉、岑晊、劉表、陳翔、孔昱、苑康、檀敷、翟超爲「八及」。及者，言其能導人追宗者也。度尚、張邈、王考、劉儒、胡母班、秦周、蕃向、王章爲「八廚」。廚者，言能以財救人者也。",
       "annotations": [
         {
+          "id": "hhs.67.p11.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "宗慈",
+          "person_id": "zongci",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "巴肅",
+          "person_id": "basu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "夏馥",
+          "person_id": "xiafu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h4",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "尹勳",
+          "person_id": "yinxun_2",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h5",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "蔡衍",
+          "person_id": "caiyan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h6",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "羊陟",
+          "person_id": "yangzhi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h7",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h8",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "岑晊",
+          "person_id": "cenzhi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h9",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h10",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "陳翔",
+          "person_id": "chenxiang",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h11",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "孔昱",
+          "person_id": "kongyu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h12",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "苑康",
+          "person_id": "yuankang",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h13",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "檀敷",
+          "person_id": "tanfu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p11.a1",
           "type": "lixian",
           "at": 93,
           "length": 0,
           "text": "導，引也。宗謂所宗仰者。"
+        },
+        {
+          "id": "hhs.67.p11.h14",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h15",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "王考",
+          "person_id": "wangkao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h16",
+          "type": "person",
+          "at": 103,
+          "length": 2,
+          "text": "劉儒",
+          "person_id": "liuru",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h17",
+          "type": "person",
+          "at": 106,
+          "length": 3,
+          "text": "胡母班",
+          "person_id": "humuban",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h18",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "秦周",
+          "person_id": "qinzhou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p11.h19",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "蕃向",
+          "person_id": "fanxiang",
+          "via": "primary"
         },
         {
           "id": "hhs.67.p11.a2",
@@ -268,6 +557,24 @@
       "text": "又張儉鄉人朱並，承望中常侍侯覽意旨，上書告儉與同鄉二十四人別相署號，共爲部黨，圖危社稷。以儉及檀彬、褚鳳、張肅、薛蘭、馮禧、魏玄、徐乾爲「八俊」，田林、張隱、劉表、薛郁、王訪、劉祗、宣靖、公緒恭爲「八顧」，朱楷、田盤、疎耽、薛敦、宋布、唐龍、嬴咨、宣褒爲「八及」，刻石立墠，共爲部黨，而儉爲之魁。靈帝詔刊章捕儉等。大長秋曹節因此諷有司奏捕前黨故司空虞放、太僕杜密、長樂少府李膺、司隸校尉朱㝢、穎川太守巴肅、沛相荀翌、河內太守魏朗、山陽太守翟超、任城相劉儒、太尉掾范滂等百餘人，皆死獄中。余或先歿不及，或亡命獲免。自此諸爲怨隙者，因相陷害，睚眦之忿，濫入黨中。又州郡承旨，或有未嘗交關，亦離禍毒。其死徙廢禁者，六七百人。",
       "annotations": [
         {
+          "id": "hhs.67.p12.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p12.h2",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p12.a1",
           "type": "lixian",
           "at": 102,
@@ -282,11 +589,65 @@
           "text": "墠，除地於中爲壇。墠音禪。魁，大帥也。"
         },
         {
+          "id": "hhs.67.p12.h3",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.67.p12.a3",
           "type": "lixian",
           "at": 156,
           "length": 0,
           "text": "刊，削。不欲宣露並名，故削除之，而直捕儉等。"
+        },
+        {
+          "id": "hhs.67.p12.h4",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p12.h5",
+          "type": "person",
+          "at": 186,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p12.h6",
+          "type": "person",
+          "at": 200,
+          "length": 2,
+          "text": "巴肅",
+          "person_id": "basu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p12.h7",
+          "type": "person",
+          "at": 212,
+          "length": 2,
+          "text": "魏朗",
+          "person_id": "weilang",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p12.h8",
+          "type": "person",
+          "at": 225,
+          "length": 2,
+          "text": "劉儒",
+          "person_id": "liuru",
+          "via": "primary"
         },
         {
           "id": "hhs.67.p12.a4",
@@ -387,11 +748,137 @@
       "text": "凡黨事始自甘陵、汝南，成於李膺、張儉，海內塗炭，二十餘年，諸所蔓衍，皆天下善士。三君、八俊等三十五人，其名多存者，並載乎篇。陳蕃、竇武、王暢、劉表、度尚、郭林宗別有傳。荀翌附祖淑傳。張邈附呂布傳。胡母班附袁紹傳。王考字文祖，東平壽張人，冀州刺史；秦周字平王，陳留平丘人，北海相；蕃向字嘉景，魯國人，郎中；王璋字伯儀，東萊曲城人，少府卿：位行並不顯。翟超，山陽太守，事見陳蕃傳，字及郡縣未詳。朱㝢，沛人，與杜密等俱死獄中。唯趙典名見而已。",
       "annotations": [
         {
+          "id": "hhs.67.p16.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h3",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h4",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h5",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h6",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h7",
+          "type": "person",
+          "at": 98,
+          "length": 3,
+          "text": "胡母班",
+          "person_id": "humuban",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h8",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h9",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "王考",
+          "person_id": "wangkao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h10",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "秦周",
+          "person_id": "qinzhou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h11",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "蕃向",
+          "person_id": "fanxiang",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h12",
+          "type": "person",
+          "at": 152,
+          "length": 2,
+          "text": "王璋",
+          "person_id": "wangzhang",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p16.a1",
           "type": "lixian",
           "at": 167,
           "length": 0,
           "text": "曲城，縣，故城在今萊州掖縣東北也。"
+        },
+        {
+          "id": "hhs.67.p16.h13",
+          "type": "person",
+          "at": 184,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p16.h14",
+          "type": "person",
+          "at": 202,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
         }
       ]
     },
@@ -399,6 +886,15 @@
       "id": "hhs.67.p17",
       "text": "劉淑字仲承，河閒樂成人也。祖父稱，司隸校尉。淑少學明五經，遂隱居，立精舍講授，諸生常數百人。州郡禮請，五府連辟，並不就。永興二年，司徒種暠舉淑賢良方正，辭以疾。桓帝聞淑高名，切責州郡，使輿病詣京師。淑不得已而赴洛陽，對策爲天下第一，拜議郎。又陳時政得失，災異之占，事皆效驗。",
       "annotations": [
+        {
+          "id": "hhs.67.p17.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉淑",
+          "person_id": "liushu",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p17.t1",
           "type": "temporal",
@@ -411,18 +907,46 @@
           "era": "永興",
           "era_year": 2,
           "reasoning": "原文「永興二年」直接出现年号；解析為 AD 154（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.67.p17.h2",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.67.p18",
       "text": "再遷尚書，納忠建議，多所補益。又再遷侍中、虎賁中郎將。上疏以爲宜罷宦官，辭甚切直，帝雖不能用，亦不罪焉。以淑宗室之賢，特加敬異，每有疑事，常密諮問之。靈帝既位，宦官譖淑與竇武等通謀，下獄自殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p18.h1",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.67.p19",
       "text": "李膺字符禮，穎川襄城人也。祖父脩，安帝時爲太尉。父益，趙國相。膺性簡亢，無所交接，[二]唯以同郡荀淑、陳寔爲師友。",
       "annotations": [
+        {
+          "id": "hhs.67.p19.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p19.a1",
           "type": "lixian",
@@ -431,11 +955,38 @@
           "text": "《漢官儀》曰：「脩，字伯游。」"
         },
         {
+          "id": "hhs.67.p19.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.67.p19.a2",
           "type": "lixian",
           "at": 35,
           "length": 0,
           "text": "亢，高也"
+        },
+        {
+          "id": "hhs.67.p19.h3",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "荀淑",
+          "person_id": "xunshu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p19.h4",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
         }
       ]
     },
@@ -489,6 +1040,15 @@
           "era": "永壽",
           "era_year": 2,
           "reasoning": "原文「永壽二年」直接出现年号；解析為 AD 156（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.67.p21.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
@@ -515,13 +1075,32 @@
           "at": 37,
           "length": 0,
           "text": "溷軒，廁屋。"
+        },
+        {
+          "id": "hhs.67.p22.h1",
+          "type": "person",
+          "at": 45,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "hhs.67.p23",
       "text": "初，膺與廷尉馮緄、大司農劉祐等共同心志，糾罰奸幸，緄、祐時亦得罪輸作。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p23.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "劉祐",
+          "person_id": "liuyou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p24",
@@ -542,6 +1121,24 @@
           "text": "瑋猶美也。史記曰，魏惠王問齊威王曰：「王亦有寶乎？」威王曰：「無有。」魏王曰：「寡人之國雖小，尚有徑寸珠照車前後十二乘者十枚，柰何以萬乘之國而無寶乎！」威王曰：「寡人所以爲寶者與王異。吾臣有檀子者，使守南城，楚人不敢爲寇。吾臣有盼子者，使守高堂，則趙人不敢東漁於河。吾臣有黔夫者，使守徐州，於是燕人祭北門，趙人祭西門，從者七千餘家。吾臣有種首者，使備盜賊，則道不拾遺。以此爲寶，將以照千里，豈直十二乘哉？」魏王籩，不懌而去。"
         },
         {
+          "id": "hhs.67.p24.h1",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "劉祐",
+          "person_id": "liuyou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p24.h2",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p24.a3",
           "type": "lixian",
           "at": 100,
@@ -554,6 +1151,15 @@
           "at": 129,
           "length": 0,
           "text": "紀太子僕殺紀公，以其寶玉來奔，納諸宣公，公命與之邑，季文子使司寇出之境。公問其故，對曰：「孝敬忠信爲吉德，盜賊藏姦爲凶德。夫莒僕，則其孝敬，*[則]*弒君父矣，則其忠信，則竊寶玉矣，其人則盜賊也，是以去之。舜舉十六相，去四凶，有大功二十而爲天子。今行父雖未獲一吉人，去一凶矣，於舜之功，二十之一也。」見《左傳》。"
+        },
+        {
+          "id": "hhs.67.p24.h3",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "huanhan",
+          "via": "llm"
         }
       ]
     },
@@ -637,6 +1243,15 @@
           "text": "以魚爲喻也。龍門，河水所下之口，在今絳州龍門縣。辛氏三秦記曰「河津一名龍門，水險不通，魚□之屬莫能上，江海大魚薄集龍門下數千，不得上，上則爲龍」也。"
         },
         {
+          "id": "hhs.67.p27.h1",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p27.a3",
           "type": "lixian",
           "at": 91,
@@ -670,6 +1285,15 @@
       "id": "hhs.67.p28",
       "text": "及陳蕃免太尉，朝野屬意於膺，荀爽恐其名高致禍，欲令屈節以全亂世，爲書貽曰：「久廢過庭，不聞善誘，陟岵瞻望，惟日爲歲。知以直道不容於時，悅山樂水，家於陽城。道近路夷，當即聘問，無狀嬰疾，闕於所仰。頃聞上帝震怒，貶黜鼎臣，人鬼同謀，以爲天子當貞觀二五，利見大人，不謂夷之初旦，明而未融，虹蜺揚煇，棄和取同。方今天地氣閉，大人休否，智者見險，投以遠害。雖匱人望，內合私願。想甚欣然，不爲恨也。願怡神無事，偃息衡門，任其飛沉，與時抑揚。」頃之，帝崩。陳蕃爲太傅，與大將軍竇武共秉朝政，連謀誅諸宦官，故引用天下名士，乃以膺爲長樂少府。及陳、竇之敗，膺等復廢。",
       "annotations": [
+        {
+          "id": "hhs.67.p28.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p28.a1",
           "type": "lixian",
@@ -739,13 +1363,32 @@
           "at": 203,
           "length": 0,
           "text": "毛萇詩注曰：「衡門，橫木爲門。」"
+        },
+        {
+          "id": "hhs.67.p28.h2",
+          "type": "person",
+          "at": 221,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.67.p29",
       "text": "後張儉事起，收捕鉤黨，鄉人謂膺曰：「可去矣。」對曰：「事不辭難，罪不逃刑，臣之節也。[一]吾年已六十，死生有命，去將安之？」乃詣詔獄。考死，妻子徙邊，門生、故吏及其父兄，並被禁錮。注[一]左傳曰，晉侯之弟楊干亂行於曲梁，魏絳戮其僕。晉侯怒，謂羊舌赤曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p29.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p30",
@@ -767,13 +1410,41 @@
           "at": 3,
           "length": 0,
           "text": "謝承書「瓚」作「珪」。"
+        },
+        {
+          "id": "hhs.67.p32.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p32.h2",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.67.p33",
       "text": "杜密字周甫，穎川陽城人也。爲人沉質，少有厲俗志。爲司徒胡廣所辟，稍遷代郡太守。征，三遷太山太守、北海相。其宦官子弟爲令長有奸惡者，輒捕案之。行春到高密縣，見鄭玄爲鄉佐，知其異器，即召署郡職，遂遣就學。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p33.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p34",
@@ -807,11 +1478,38 @@
       "text": "後桓帝征拜尚書令，遷河南尹，轉太僕。黨事既起，免歸本郡，與李膺俱坐，而名行相次，故時人亦稱「李杜」焉。後太傅陳蕃輔政，復爲太僕。明年，坐黨事被徵，自殺。",
       "annotations": [
         {
+          "id": "hhs.67.p35.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.67.p35.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p35.a1",
           "type": "lixian",
           "at": 50,
           "length": 0,
           "text": "前有李固、杜喬，故言「亦」也。"
+        },
+        {
+          "id": "hhs.67.p35.h3",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         },
         {
           "id": "hhs.67.p35.t1",
@@ -832,6 +1530,15 @@
       "id": "hhs.67.p36",
       "text": "劉祐字伯祖，中山安國人也。安國後別屬博陵。祐初察孝廉，補尚書侍郎，閒練故事，文札強辨，每有奏議，應對無滯，爲僚類所歸。",
       "annotations": [
+        {
+          "id": "hhs.67.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉祐",
+          "person_id": "liuyou",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p36.a1",
           "type": "lixian",
@@ -883,6 +1590,15 @@
           "at": 48,
           "length": 0,
           "text": "累氣，屏息也。"
+        },
+        {
+          "id": "hhs.67.p39.h1",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
@@ -895,6 +1611,15 @@
       "id": "hhs.67.p41",
       "text": "每三公缺，朝廷皆屬意於祐，以譖毀不用。延篤貽之書曰：「昔太伯三讓，人無德而稱焉。延陵高揖，華夏仰風。吾子懷蘧氏之可卷，體寧子之如愚，微妙玄通，沖而不盈，蔑三光之明，未暇以天下爲事，何其劭與！」",
       "annotations": [
+        {
+          "id": "hhs.67.p41.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "延篤",
+          "person_id": "yandu",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p41.a1",
           "type": "lixian",
@@ -937,6 +1662,15 @@
       "text": "魏朗字少英，會稽上虞人也。少爲縣吏。兄爲鄉人所殺，朗白日操刃報讎於縣中，遂亡命到陳國。從博士卻仲信學春秋圖緯，又詣太學受五經，京師長者李膺之徒爭從之。",
       "annotations": [
         {
+          "id": "hhs.67.p42.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "魏朗",
+          "person_id": "weilang",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p42.a1",
           "type": "lixian",
           "at": 13,
@@ -949,6 +1683,15 @@
           "at": 55,
           "length": 0,
           "text": "孔子作《春秋緯》十二篇。"
+        },
+        {
+          "id": "hhs.67.p42.h2",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
         }
       ]
     },
@@ -962,6 +1705,24 @@
           "at": 41,
           "length": 0,
           "text": "中，猶中傷"
+        },
+        {
+          "id": "hhs.67.p43.h1",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.67.p43.h2",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         }
       ]
     },
@@ -983,18 +1744,46 @@
       "text": "夏馥字子治，陳留圉人也。少爲書生，言行質直。同縣高氏﹑蔡氏並皆富殖，郡人畏而事之，唯馥比門不與交通，由是爲豪姓所仇。桓帝初，舉直言，不就。",
       "annotations": [
         {
+          "id": "hhs.67.p45.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "夏馥",
+          "person_id": "xiafu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p45.a1",
           "type": "lixian",
           "at": 49,
           "length": 0,
           "text": "比門，猶並門也。"
+        },
+        {
+          "id": "hhs.67.p45.h2",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.67.p46",
       "text": "馥雖不交時宦，然以聲名爲中官所憚，遂與范滂﹑張儉等俱被誣陷，詔下州郡，捕爲黨魁。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p46.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p47",
@@ -1026,6 +1815,15 @@
       "text": "宗慈字孝初，南陽安觿人也。舉孝廉，九辟公府，有道征，不就。後爲修武令。時太守出自權豪，多取貨賂，慈遂□官去。征拜議郎，未到，道疾卒。南陽腢士皆重其義行。",
       "annotations": [
         {
+          "id": "hhs.67.p49.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "宗慈",
+          "person_id": "zongci",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p49.a1",
           "type": "lixian",
           "at": 13,
@@ -1039,6 +1837,15 @@
       "text": "巴肅字恭祖，勃海高城人也。初察孝廉，歷慎令﹑貝丘長，皆以郡守非其人，辭病去。辟公府，稍遷拜議郎。與竇武﹑陳蕃等謀誅閹官，武等遇害，肅亦坐黨禁錮。中常侍曹節後聞其謀，收之。肅自載詣縣，縣令見肅，入合解印綬與俱去。肅曰：「爲人臣者，有謀不敢隱，有罪不逃刑。既不隱其謀矣，又敢逃其刑乎？」遂被害。刺史賈琮刊石立銘以記之。",
       "annotations": [
         {
+          "id": "hhs.67.p50.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "巴肅",
+          "person_id": "basu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p50.a1",
           "type": "lixian",
           "at": 13,
@@ -1051,6 +1858,15 @@
           "at": 26,
           "length": 0,
           "text": "慎，縣，屬汝南郡。貝丘，縣，屬清河郡。"
+        },
+        {
+          "id": "hhs.67.p50.h2",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         }
       ]
     },
@@ -1079,6 +1895,15 @@
           "text": "漢官儀曰：「光祿舉敦厚﹑質樸﹑遜讓﹑節儉。」此爲四行也。"
         },
         {
+          "id": "hhs.67.p52.h1",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p52.a2",
           "type": "lixian",
           "at": 108,
@@ -1098,6 +1923,15 @@
       "id": "hhs.67.p53",
       "text": "復爲太尉黃瓊所辟。後詔三府掾屬舉謠言，滂奏刺史﹑二千石權豪之黨二十餘人。尚書責滂所劾猥多，疑有私故。滂對曰：「臣之所舉，自非叨穢奸暴，深爲民害，豈以污簡札哉！閒以會日迫促，故先舉所急，其未審者，方更參實。",
       "annotations": [
+        {
+          "id": "hhs.67.p53.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p53.a1",
           "type": "lixian",
@@ -1162,6 +1996,15 @@
       "id": "hhs.67.p58",
       "text": "觿人由此亦止。獄吏將加掠考，滂以同囚多嬰病，乃請先就格，遂與同郡袁忠爭受楚毒。桓帝使中常侍王甫以次辨詰，滂等皆三木囊頭，暴於階下。餘人在前，或對或否，滂﹑忠於後越次而進。王甫詰曰：「君爲人臣，不惟忠國，而共造部黨，自相褒舉，評論朝廷，虛構無端，諸所謀結，並欲何爲？皆以情對，不得隱飾。」滂對曰：「臣聞仲尼之言，『見善如不及，見惡如探湯』。欲使善善同其清，惡惡同其污，謂王政之所願聞，不悟更以爲黨。」甫曰：「卿更相拔舉，迭爲唇齒，有不合者，見則排斥，其意如何？」滂乃慷慨仰天曰：「古之循善，自求多福；今之循善，身陷大戮。身死之日，願埋滂於首陽山側，上不負皇天，下不愧夷﹑齊。」甫愍然爲之改容。乃得並解桎梏。",
       "annotations": [
+        {
+          "id": "hhs.67.p58.h1",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
         {
           "id": "hhs.67.p58.a1",
           "type": "lixian",
@@ -1281,6 +2124,15 @@
       "text": "論曰：李膺振拔污險之中，蘊義生風，以鼓動流俗，激素行以恥威權，立廉尚以振貴埶，使天下之士奮迅感槩，波蕩而從之，幽深牢破室族而不顧，至於子伏其死而母歡其義。壯矣哉！子曰：「道之將廢也與？命也！」",
       "annotations": [
         {
+          "id": "hhs.67.p64.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p64.a1",
           "type": "lixian",
           "at": 12,
@@ -1306,12 +2158,40 @@
     {
       "id": "hhs.67.p65",
       "text": "尹勳字伯元，河南鞏人也。家世衣冠。伯父睦爲司徒，兄頌爲太尉，宗族多居貴位者，而勳獨持清操，不以地埶尚人。州郡連辟，察孝廉，三遷邯鄲令，政有異多。後舉高第，五遷尚書令。及桓帝誅大將軍梁冀，勳參建大謀，封都鄉侯。遷汝南太守。上書解釋范滂﹑袁忠等黨議禁錮。尋征拜將作大匠，轉大司農。坐竇武等事，下獄自殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p65.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "尹勳",
+          "person_id": "yinxun_2",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p65.h2",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.67.p66",
       "text": "蔡衍字孟喜，汝南項人也。少明經講授，以禮讓化鄉里。鄉里有爭訟者，輒詣衍決之，其所平處，皆曰無怨。",
       "annotations": [
+        {
+          "id": "hhs.67.p66.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "蔡衍",
+          "person_id": "caiyan",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p66.a1",
           "type": "lixian",
@@ -1324,18 +2204,46 @@
     {
       "id": "hhs.67.p67",
       "text": "舉孝廉，稍遷冀州刺史。中常侍具瑗托其弟恭舉茂才，衍不受，乃收繼書者案之。又劾奏河閒相曹鼎臧罪千萬。鼎者，中常侍騰之弟也。騰使大將軍梁冀爲書請之，衍不荅，鼎竟坐輸作左校。乃征衍拜議郎﹑符節令。梁冀聞衍賢，請欲相見，衍辭疾不往，冀恨之。時南陽太守成瑨等以收糾宦官考廷尉，衍與議郎劉瑜表救之，言甚切厲，坐免官還家，杜門不出。靈帝即位，復拜議郎，會病卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p67.h1",
+          "type": "person",
+          "at": 159,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.67.p68",
       "text": "羊陟字嗣祖，太山梁父人也。家世冠族。陟少清直有學行，舉孝廉，辟太尉李固府，舉高第，拜侍御史。會固被誅，陟以故吏禁錮歷年。復舉高第，再遷冀州刺史。奏案貪濁，所在肅然。又再遷虎賁中郎將﹑城門校尉，三遷尚書令。時太尉張顥﹑司徒樊陵﹑大鴻臚郭防﹑太僕曹陵﹑大司農馮方並與宦豎相姻私，公行貨賂，並奏罷黜之，不納。以前太尉劉寵﹑司隸校尉許冰﹑幽州刺史楊熙﹑涼州刺史劉恭﹑益州刺史龐艾清亮在公，薦舉升進。帝嘉之，拜陟河南尹。計日受奉，常食干飯茹菜，禁制豪右，京師憚之。會黨事起，免官禁錮，卒於家。",
       "annotations": [
         {
+          "id": "hhs.67.p68.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "羊陟",
+          "person_id": "yangzhi",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p68.a1",
           "type": "lixian",
           "at": 13,
           "length": 0,
           "text": "梁父故城在今兗州泗水縣北。"
+        },
+        {
+          "id": "hhs.67.p68.h2",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
         }
       ]
     },
@@ -1343,6 +2251,15 @@
       "id": "hhs.67.p69",
       "text": "張儉字符節，山陽高平人，趙王張耳之後也。父成，江夏太守。儉初舉茂才，以刺史非其人，謝病不起。",
       "annotations": [
+        {
+          "id": "hhs.67.p69.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p69.a1",
           "type": "lixian",
@@ -1388,6 +2305,15 @@
       "text": "後流轉東萊，止李篤家。外黃令毛欽操兵到門，篤引欽謂曰：「張儉知名天下，而亡非其罪。縱儉可得，寧忍執之乎？」欽因起撫篤曰：「蘧伯玉恥獨爲君子，足下如何自專仁義？」篤曰：「篤雖好義，明廷今日載其半矣。」欽歎息而去。篤因緣送儉出塞，以故得免。其所經歷，伏重誅者以十數，宗親並皆殄滅，郡縣爲之殘破。",
       "annotations": [
         {
+          "id": "hhs.67.p72.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p72.a1",
           "type": "lixian",
           "at": 99,
@@ -1412,6 +2338,15 @@
           "era": "中平",
           "era_year": 1,
           "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.67.p73.h1",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
         }
       ]
     },
@@ -1444,6 +2379,15 @@
           "text": "季布，楚人。爲項羽將，數窘漢王。羽敗，漢購求布千金，敢舍匿，罪三族。布匿濮陽周氏，髡鉗布，之魯朱家所賣之。朱家心知是季布也。買置田舍。乃往洛陽，見汝陰侯灌嬰，説之曰：「季布何罪？臣各爲主用，職耳。」汝陰侯言於高帝，帝乃赦之。拜郎中，後爲河東守也。"
         },
         {
+          "id": "hhs.67.p76.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p76.a3",
           "type": "lixian",
           "at": 95,
@@ -1464,6 +2408,15 @@
       "text": "岑晊字公孝，南陽棘陽人也。父豫，爲南郡太守，以貪叨誅死。晊年少未知名，往候同郡宗慈，慈方以有道見征，賓客滿門，以晊非良家子，不肯見。晊留門下數日，晚乃引入。慈與語，大奇之，遂將俱至洛陽，因詣太學受業。",
       "annotations": [
         {
+          "id": "hhs.67.p77.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "岑晊",
+          "person_id": "cenzhi",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p77.a1",
           "type": "lixian",
           "at": 12,
@@ -1476,6 +2429,15 @@
           "at": 28,
           "length": 0,
           "text": "《方言》曰：「叨，殘也。」"
+        },
+        {
+          "id": "hhs.67.p77.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "宗慈",
+          "person_id": "zongci",
+          "via": "primary"
         }
       ]
     },
@@ -1484,23 +2446,60 @@
       "text": "晊有高才，郭林宗、朱公叔等皆爲友，李膺、王暢稱其有干國器，雖在閭裡，慨然有董正天下之志。太守弘農成瑨下車，欲振威嚴，聞晊高名，請爲功曹，又以張牧爲中賊曹吏。瑨委心晊、牧，褒善糾違，肅清朝府。宛有富賈張泛者，桓帝美人之外親，善巧雕鏤玩好之物，頗以賂遺中官，以此並得顯位，恃其伎巧，用埶縱橫。晊與牧勸瑨收捕汎等，既而遇赦，晊竟誅之，並收其宗族賓客，殺二百餘人，後乃奏聞。於是中常侍侯覽使泛妻上書訟其冤。帝大震怒，徵瑨，下獄死。晊與牧亡匿齊魯之閒。會赦出。後州郡察舉，三府交辟，並不就。及李、杜之誅，因復逃竄，終於江夏山中云。",
       "annotations": [
         {
+          "id": "hhs.67.p78.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p78.a1",
           "type": "lixian",
           "at": 44,
           "length": 0,
           "text": "《爾雅》曰：「董，督正也。」"
+        },
+        {
+          "id": "hhs.67.p78.h2",
+          "type": "person",
+          "at": 103,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.67.p79",
       "text": "陳翔字子麟，汝南邵陵人也。祖父珍，司隸校尉。翔少知名，善交結。察孝廉，太尉周景辟舉高第，拜侍御史。時正旦朝賀，大將軍梁冀威儀不整，翔奏冀恃貴不敬，請收案罪，時人奇之。遷定襄太守，征拜議郎，遷揚州刺史。舉奏豫章太守王永奏事中官，吳郡太守徐參在職貪穢，並征詣廷尉。參，中常侍璜之弟也。由此威名大振。又征拜議郎，補御史中丞。坐黨事考黃門北寺獄，以無驗見原，卒於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p79.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陳翔",
+          "person_id": "chenxiang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p80",
       "text": "孔昱字符世，魯國魯人也。七世祖霸，成帝時歷九卿，封褒成侯。自霸至昱，爵位相系，其卿相牧守五十三人，列侯七人。昱少習家學，大將軍梁冀辟，不應。太尉舉方正，對策不合，乃辭病去。後遭黨事禁錮。靈帝即位，公車征拜議郎，補洛陽令，以師喪□官，卒於家。",
       "annotations": [
+        {
+          "id": "hhs.67.p80.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孔昱",
+          "person_id": "kongyu",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p80.a1",
           "type": "lixian",
@@ -1514,6 +2513,15 @@
           "at": 60,
           "length": 0,
           "text": "家學《尚書》。"
+        },
+        {
+          "id": "hhs.67.p80.h2",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
@@ -1521,6 +2529,15 @@
       "id": "hhs.67.p81",
       "text": "苑康字仲真，勃海重合人也。少受業太學，與郭林宗親善。舉孝廉，再遷穎陰令，有能多。",
       "annotations": [
+        {
+          "id": "hhs.67.p81.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "苑康",
+          "person_id": "yuankang",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p81.a1",
           "type": "lixian",
@@ -1538,18 +2555,73 @@
     {
       "id": "hhs.67.p83",
       "text": "是時山陽張儉殺常侍侯覽母，案其宗黨賓客，或有迸匿太山界者，康既常疾閹官，因此皆窮相收掩，無得遺脫。覽大怨之，誣康與兗州刺史第五種及都尉壺嘉詐上賊降，征康詣廷尉獄，減死罪一等，徙日南。穎陰人及太山羊陟等詣闕爲訟，乃原還本郡，卒於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p83.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p83.h2",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "羊陟",
+          "person_id": "yangzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p84",
       "text": "檀敷字文有，山陽瑕丘人也。少爲諸生，家貧而志清，不受鄉里施惠。舉孝廉，連辟公府，皆不就。立精舍教授，遠方至者常數百人。桓帝時，博士征，不就。靈帝即位，太尉黃瓊舉方正，對策合時宜，再遷議郎，補蒙令。以郡守非其人，□官去。家無產業，子孫同衣而出。年八十，卒於家。",
       "annotations": [
         {
+          "id": "hhs.67.p84.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "檀敷",
+          "person_id": "tanfu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p84.a1",
           "type": "lixian",
           "at": 13,
           "length": 0,
           "text": "瑕丘，今兗州縣。"
+        },
+        {
+          "id": "hhs.67.p84.h2",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.67.p84.h3",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.67.p84.h4",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
         },
         {
           "id": "hhs.67.p84.a2",
@@ -1572,6 +2644,15 @@
       "text": "劉儒字叔林，東郡陽平人也。郭林宗常謂儒口訥心辯，有珪璋之質。察孝廉，舉高第，三遷侍中。桓帝時，數有災異，下策博求直言，儒上封事十條，極言得失，辭甚忠切。帝不能納，出爲任城相。頃之，征拜議郎。會竇武事，下獄自殺。",
       "annotations": [
         {
+          "id": "hhs.67.p85.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉儒",
+          "person_id": "liuru",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p85.a1",
           "type": "lixian",
           "at": 13,
@@ -1584,6 +2665,15 @@
           "at": 30,
           "length": 0,
           "text": "珪璋，玉也。半珪曰璋。謝承書曰：「林宗歎儒有珪璋之質，終必爲令德之士。」《詩》曰：「如珪如璋，令聞令望。」"
+        },
+        {
+          "id": "hhs.67.p85.h2",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
@@ -1633,18 +2723,55 @@
           "era": "延熹",
           "era_year": 9,
           "reasoning": "原文「延熹九年」直接出现年号；解析為 AD 166（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.67.p89.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.67.p90",
       "text": "「吾不西行，大禍不解。」乃入洛陽，説城門校尉竇武、尚書霍諝，武等訟之，桓帝以此大赦黨人。李膺出，曰：「吾得免此，賈生之謀也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p90.h1",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.67.p90.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p91",
       "text": "先是岑晊以黨事逃亡，親友多匿焉，彪獨閉門不納，時人望之。彪曰：「傳言『相時而動，無累後人』。公孝以要君致釁，自遺其咎，吾以不能奮戈相待，反可容隱之乎？」於是咸服其裁正。",
       "annotations": [
+        {
+          "id": "hhs.67.p91.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "岑晊",
+          "person_id": "cenzhi",
+          "via": "primary"
+        },
         {
           "id": "hhs.67.p91.a1",
           "type": "lixian",
@@ -1689,30 +2816,132 @@
     {
       "id": "hhs.67.p94",
       "text": "及陳蕃、李膺之敗，顒以與蕃、膺善，遂爲宦官所陷，乃變姓名，亡匿汝南閒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p94.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p94.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p95",
       "text": "所至皆親其豪桀，有聲荊豫之域。袁紹慕之，私與往來，結爲奔走之友。是時黨事起，天下多離其難，顒常私入洛陽，從紹計議。其窮困閉戹者，爲求援救，以濟其患。有被掩捕者，則廣設權計，使得逃隱，全免者甚觿。",
       "annotations": [
         {
+          "id": "hhs.67.p95.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
           "id": "hhs.67.p95.a1",
           "type": "lixian",
           "at": 32,
           "length": 0,
           "text": "《詩·大雅》曰：「予曰有胥附，予曰有先後，予曰有奔走，予曰有禦侮。」毛萇注曰：「諭德宣譽曰奔走。」"
+        },
+        {
+          "id": "hhs.67.p95.h2",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
         }
       ]
     },
     {
       "id": "hhs.67.p96",
       "text": "及黨錮解，顒辟司空府。每三府會議，莫不推顒之長。累遷。及董卓秉政，逼顒以爲長史，托疾不就，乃與司空荀爽、司徒王允等共謀卓。會爽薨，顒以它事爲卓所繫，憂憤而卒。初，顒見曹操，歎曰：「漢家將亡，安天下者必此人也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p96.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p96.h2",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p96.h3",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.67.p96.h4",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.67.p96.h5",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p97",
       "text": "操以是嘉之。嘗稱「穎川荀彧，王佐之器」。及彧爲尚書令，遣人西迎叔父爽，並致顒屍，而葬之爽之頤傍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p97.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.67.p97.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p98",
@@ -1764,7 +2993,17 @@
     {
       "id": "hhs.67.p103",
       "text": "二一八四頁一六行懷經協術集解引惠棟説，謂「協」當作「挾」，古字通，黃瓊傳「黃門協邪」是也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p103.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p104",
@@ -1789,7 +3028,17 @@
     {
       "id": "hhs.67.p108",
       "text": "二一八七頁二行李膺爲河南尹集解引惠棟説，謂考異云「河南尹」當作「司隸」。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p108.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p109",
@@ -1820,6 +3069,33 @@
           "era": "中平",
           "era_year": 2,
           "reasoning": "「是年」 = 当前年 中平2年 (AD 185)"
+        },
+        {
+          "id": "hhs.67.p109.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p109.h2",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p109.h3",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
         }
       ]
     },
@@ -1841,12 +3117,68 @@
     {
       "id": "hhs.67.p113",
       "text": "二一八七頁一三行孔昱按：皇甫規傳「昱」作「翊」。集解引惠棟説，謂黨錮傳有孔昱，昱字符世，韓敕碑有御史孔翊元世，則翊即昱也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p113.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "孔昱",
+          "person_id": "kongyu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p113.h2",
+          "type": "person",
+          "at": 12,
+          "length": 3,
+          "text": "皇甫規",
+          "person_id": "huangfugui",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p113.h3",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "孔昱",
+          "person_id": "kongyu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p114",
       "text": "二一八七頁一三行苑康汲本、殿本「苑」作「范」。下同。按：荀淑、竇武傳並作「苑康」，作「范」誤。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p114.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "苑康",
+          "person_id": "yuankang",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p114.h2",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "荀淑",
+          "person_id": "xunshu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p114.h3",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "苑康",
+          "person_id": "yuankang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p115",
@@ -1871,7 +3203,17 @@
     {
       "id": "hhs.67.p119",
       "text": "二一九０頁二行王璋字伯儀集解引惠棟説，謂「璋」當作「章」，「儀」當作「義」。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p119.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "王璋",
+          "person_id": "wangzhang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p120",
@@ -1986,7 +3328,17 @@
     {
       "id": "hhs.67.p142",
       "text": "二二０九頁八行司徒樊陵按：集解引錢大昕説，謂靈帝紀陵爲太尉，非司徒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p142.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.67.p143",
@@ -2006,7 +3358,26 @@
     {
       "id": "hhs.67.p146",
       "text": "「覽等」二字如連上讀，當以「由是結仇覽等」句絶，然上文祗言侯覽與張儉結仇，不當有「等」字也。如連下讀，則朱並成爲侯覽之鄉人，通鑒即以「覽等」二字連下讀，而省去一「等」字，作「覽鄉人朱並」，然朱並爲張儉之鄉人，非侯覽之鄉人也。紹興本無此二字，乃知此二字爲衍文。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.67.p146.h1",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.67.p146.h2",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.67.p147",

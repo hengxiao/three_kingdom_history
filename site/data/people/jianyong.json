@@ -1,0 +1,61 @@
+{
+  "id": "jianyong",
+  "primary_name": "簡雍",
+  "courtesy_name": "憲和",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.8",
+      "title": "蜀書·許糜孫簡伊秦傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/08.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p8",
+        "at": 196,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "簡雍",
+        "snippet": "…引軍屯城北，城中震怖。備圍城數十日，使從事中郎涿郡簡雍入說劉璋。時城中尚有精兵三萬人，穀帛支一年，吏民咸欲死戰。璋言：「父子在州二十餘年，無恩德以加百姓。百姓攻戰三年，肌膏草野者，…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p9",
+        "at": 127,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "簡雍",
+        "snippet": "…裨將軍南陽黃忠為討虜將軍，從事中郎麋竺為安漢將軍，簡雍為昭德將軍，北海孫乾為秉忠將軍，廣漢長黃權為偏將軍，汝南許靖為左將軍長史，龐羲為司馬，李嚴為犍為太守，費觀為巴郡太守，山陽伊籍…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p16",
+        "at": 92,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "簡雍",
+        "snippet": "…，法正為謀主，關羽、張飛、馬超為爪牙，許靖、麋竺、簡雍為賓友。及董和、黃權、李嚴等本璋之所授用也，吳壹、費觀等又璋之婚親也，彭羕又璋之所排擯也，劉巴者宿昔之所忌恨也，皆處之顯任，盡…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

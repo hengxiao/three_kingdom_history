@@ -2,21 +2,109 @@ chapter: wei.24
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷24
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: fd0098769b778b6aad2d1cd11be3b9021e20e4137a863335369ee0921ac148f0
 annotations:
+- id: wei.24.p1.h1
+  anchor: wei.24.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: hanji
+  text: 韓曁
+  via: primary
+- id: wei.24.p1.h2
+  anchor: wei.24.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: cuilin
+  text: 崔林
+  via: primary
+- id: wei.24.p1.h3
+  anchor: wei.24.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
+- id: wei.24.p1.h4
+  anchor: wei.24.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
+- id: wei.24.p1.h5
+  anchor: wei.24.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: wangguan
+  text: 王觀
+  via: primary
+- id: wei.24.p2.h1
+  anchor: wei.24.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: hanji
+  text: 韓曁
+  via: primary
 - id: wei.24.p2.a1
   anchor: wei.24.p2
   at: 13
   length: 0
   type: pei
   text: 《楚國先賢傳》曰：曁，韓王信之後。祖術，河東太守。父純，南郡太守。
+- id: wei.24.p2.h2
+  anchor: wei.24.p2
+  at: 131
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.24.p2.h3
+  anchor: wei.24.p2
+  at: 146
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.24.p2.h4
+  anchor: wei.24.p2
+  at: 168
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.24.p3.h1
+  anchor: wei.24.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.24.p3.a1
   anchor: wei.24.p3
   at: 35
   length: 0
   type: pei
   text: 蒲拜反。為排以吹炭。
+- id: wei.24.p3.h2
+  anchor: wei.24.p3
+  at: 100
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.24.p3.t1
   anchor: wei.24.p3
   at: 111
@@ -47,6 +135,14 @@ annotations:
   era: 景初
   era_year: 2
   reasoning: 原文「景初二年」直接出现年号；解析為 AD 238
+- id: wei.24.p4.h1
+  anchor: wei.24.p4
+  at: 86
+  length: 2
+  type: person
+  person_id: hanji
+  text: 韓曁
+  via: primary
 - id: wei.24.p4.t2
   anchor: wei.24.p4
   at: 129
@@ -73,6 +169,38 @@ annotations:
   length: 0
   type: pei
   text: 《楚國先賢傳》曰：邦字長林。少有才學。晉武帝時為野王令，有稱績。為新城太守，坐舉野王故吏為新城計吏，武帝大怒，遂殺邦。曁次子繇，高陽太守。繇子洪，侍御史。洪子壽，字德貞。《晉諸公贊》曰：自曁已下，世治素業，壽能敦尚家風，性尤忠厚。早歷清職，惠帝踐阼，為散騎常侍，遷守河南尹。病卒，贈驃騎將軍。壽妻賈充女。充無後，以壽子謐為嗣，弱冠為祕書監侍中，性驕佚而才出壽。少子蔚，亦有器望，並為趙王倫所誅。韓氏遂滅。
+- id: wei.24.p5.h1
+  anchor: wei.24.p5
+  at: 0
+  length: 2
+  type: person
+  person_id: cuilin
+  text: 崔林
+  via: primary
+- id: wei.24.p5.h2
+  anchor: wei.24.p5
+  at: 31
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p5.h3
+  anchor: wei.24.p5
+  at: 52
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p6.h1
+  anchor: wei.24.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.24.p6.a1
   anchor: wei.24.p6
   at: 172
@@ -85,6 +213,30 @@ annotations:
   length: 0
   type: pei
   text: 《魏名臣奏》載侍中辛毗奏曰：「昔桓階為尚書令，以崔林非尚書才，遷以為河間太守。」與此傳不同。
+- id: wei.24.p7.h1
+  anchor: wei.24.p7
+  at: 130
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.24.p8.h1
+  anchor: wei.24.p8
+  at: 4
+  length: 2
+  type: person
+  person_id: liushao
+  text: 劉劭
+  via: primary
+- id: wei.24.p8.h2
+  anchor: wei.24.p8
+  at: 168
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.24.p9.t1
   anchor: wei.24.p9
   at: 0
@@ -97,6 +249,22 @@ annotations:
   era: 景初
   era_year: 1
   reasoning: 原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）
+- id: wei.24.p9.h1
+  anchor: wei.24.p9
+  at: 56
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.24.p9.h2
+  anchor: wei.24.p9
+  at: 65
+  length: 2
+  type: person
+  person_id: cuilin
+  text: 崔林
+  via: primary
 - id: wei.24.p9.a1
   anchor: wei.24.p9
   at: 176
@@ -109,6 +277,14 @@ annotations:
   length: 0
   type: pei
   text: 臣松之以為孟軻稱宰我之辭曰：「予以觀夫子，賢於堯舜遠矣。」又曰：「生民以來，未有盛於孔子者也。」斯非通賢之格言，商較之定準乎！雖妙極則同，萬聖猶一，然淳薄異時，質文殊用，或當時則榮，沒則已焉，是以遺風所被，寔有深淺。若乃經緯天人，立言垂制，百王莫之能違，彝倫資之以立，誠一人而已耳。周監二代，斯文為盛。然於六經之道，未能及其精致。加以聖賢不興，曠年五百，道化陵夷，憲章殆滅，若使時無孔門，則周典幾乎息矣。夫能光明先王之道，以成萬世之功，齊天地之無窮，等日月之久照，豈不有踰於羣聖哉？林曾無史遷洞想之誠，梅真慷慨之志，而守其蓬心以塞明義，可謂多見其不知量也。
+- id: wei.24.p11.h1
+  anchor: wei.24.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.24.p11.t1
   anchor: wei.24.p11
   at: 13
@@ -127,24 +303,152 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：述弟隨，晉尚書僕射。為人亮濟。趙王倫篡位，隨與其事。倫敗，隨亦廢錮而卒。林孫瑋，性率而踈，至太子右衞率也。初，林識拔同郡王經於民伍之中，卒為名士，世以此稱之。
+- id: wei.24.p12.h1
+  anchor: wei.24.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
 - id: wei.24.p12.a1
   anchor: wei.24.p12
   at: 21
   length: 0
   type: pei
   text: 《陳留耆舊傳》曰：靖高祖父固，不仕王莽世，為淮陽太守所害，以烈節垂名。固子慎，字孝甫。敦厚少華，有沈深之量。撫育孤兄子五人，恩義甚篤。琅邪相何英嘉其行履，以女妻焉。英即車騎將軍熈之父也。慎歷二縣令、東萊太守。老病歸家，草屋蓬戶，甕缶無儲。其妻謂之曰：「君累經宰守，積有年歲，何能不少為儲畜以遺子孫乎？」慎曰：「我以勤身清名為之基，以二千石遺之，不亦可乎！」子式，至孝，常盡力供養。永初中，螟蝗為害，獨不食式麥，圉令周彊以表州郡。太守楊舜舉式孝子，讓不行。後以孝廉為郎。次子昌，昌弟賜，並為刺史、郡守。式子弘，孝廉。弘生靖。
+- id: wei.24.p13.h1
+  anchor: wei.24.p13
+  at: 79
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: wei.24.p13.h2
+  anchor: wei.24.p13
+  at: 82
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p13.h3
+  anchor: wei.24.p13
+  at: 101
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: wei.24.p13.a1
   anchor: wei.24.p13
   at: 106
   length: 0
   type: pei
   text: 謝承《後漢書》曰：幹字元才。才志弘邈，文武秀出。父躬，蜀郡太守。祖賜，司隷校尉。案《陳留耆舊傳》及謝承《書》，幹應為柔從父，非從兄也。未知何者為誤。
+- id: wei.24.p14.h1
+  anchor: wei.24.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p14.h2
+  anchor: wei.24.p14
+  at: 94
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p14.h3
+  anchor: wei.24.p14
+  at: 97
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.24.p14.a1
   anchor: wei.24.p14
   at: 130
   length: 0
   type: pei
   text: 《魏氏春秋》曰：柔旣處法平允，又夙夜匪懈，至擁膝抱文書而寢。太祖嘗夜微出，觀察諸吏，見柔，哀之，徐解裘覆柔而去。自是辟焉。
+- id: wei.24.p14.h4
+  anchor: wei.24.p14
+  at: 130
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p14.h5
+  anchor: wei.24.p14
+  at: 134
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
+- id: wei.24.p14.h6
+  anchor: wei.24.p14
+  at: 157
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: wei.24.p14.h7
+  anchor: wei.24.p14
+  at: 199
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: wei.24.p15.h1
+  anchor: wei.24.p15
+  at: 110
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p15.h2
+  anchor: wei.24.p15
+  at: 259
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p16.h1
+  anchor: wei.24.p16
+  at: 77
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p16.h2
+  anchor: wei.24.p16
+  at: 136
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p17.h1
+  anchor: wei.24.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.24.p17.t1
   anchor: wei.24.p17
   at: 250
@@ -157,18 +461,96 @@ annotations:
   era: 正始
   era_year: 4
   reasoning: 承前文年號「正始」推得，「四年」 = 正始4年 = AD 243
+- id: wei.24.p19.h1
+  anchor: wei.24.p19
+  at: 13
+  length: 2
+  type: person
+  person_id: baoxun
+  text: 鮑勛
+  via: primary
+- id: wei.24.p20.h1
+  anchor: wei.24.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.24.p20.h2
+  anchor: wei.24.p20
+  at: 81
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p20.h3
+  anchor: wei.24.p20
+  at: 108
+  length: 2
+  type: person
+  person_id: caopi
+  text: 高祖
+  via: chapter_alias
+- anchor: wei.24.p20
+  at: 149
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 明帝即位後高柔上疏勸崇博士「陛下臨政，允迪叡哲」陛下即明帝曹叡。
+  id: wei.24.p20.h5
+- id: wei.24.p20.h4
+  anchor: wei.24.p20
+  at: 156
+  length: 1
+  type: person
+  person_id: caorui
+  text: 叡
+  via: given_name
+- anchor: wei.24.p21
+  at: 228
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 高柔諫廣後宮、皇子夭事「陛下聰達，窮理盡性」上明帝，陛下即曹叡。
+  id: wei.24.p21.h1
 - id: wei.24.p24.a1
   anchor: wei.24.p24
   at: 228
   length: 0
   type: pei
   text: 孫盛曰：聞五帝無誥誓之文，三王無盟祝之事，然則盟誓之文，始自三季，質任之作，起於周微。夫貞夫之一，則天地可動，機心內萌，則鷗鳥不下。況信不足焉而祈物之必附，猜生於我而望彼之必懷，何異挾冰求溫，抱炭希涼者哉？且夫要功之倫，陵肆之類，莫不背情任計，昧利忘親，縱懷慈孝之愛，或慮傾身之禍。是以周、鄭交惡，漢高請羹，隗嚻捐子，馬超背父，其為酷忍如此之極也，安在其因質委誠，取任永固哉？世主若能遠覽先王閑邪之至道，近鑒狡肆徇利之凶心，勝之以解網之仁，致之以來蘇之惠，燿之以雷霆之威，潤之以時雨之施，則不恭可歛衽於一朝，炰哮可屈膝於象魏矣。何必拘厥親以來其情，逼所愛以制其命乎？苟不能然，而仗夫計術，籠之以權數，檢之以一切，雖覽一室而庶徵於四海，法生鄙局，兾或半之暫益，自不得不有不忍之刑，以遂孥戮之罰，亦猶瀆盟由乎一人，而云俾墜其師，無克遺育之言耳。豈得復引四罪不及之典，司馬牛獲宥之義乎？假令任者皆不保其父兄，輒有二三之言，曲哀其意而悉活之，則長人子危親自存之悖。子弟雖質，必無刑戮之憂，父兄雖逆，終無勦絕之慮。柔不究明此術非盛王之道，宜開張遠義，蠲此近制，而陳法內之刑以申一人之命，可謂心存小善，非王者之體。古者殺人之中，又有仁焉。刑之於獄，未為失也。臣松之以為辨章事理，貴得當時之宜，無為虛唱大言而終歸無用。浮誕之論，不切於實，猶若畫魑魅之象，而躓於犬馬之形也。質任之興，非防近世，況三方鼎峙，遼東偏遠，羈其親屬以防未然，不為非矣。柔謂晃有先言之善，宜蒙原心之宥。而盛責柔不能開張遠理，蠲此近制。不達此言竟為何謂？若云猜防為非，質任宜廢，是謂應大明先王之道，不預任者生死也。晃之為任，歷年已久，豈得於殺活之際，方論至理之本。是何異叢棘旣繁，事須判決，空論刑措之美，無聞當不之實哉？其為迂闊，亦已甚矣，漢高事窮理迫，權以濟親，而總之酷忍之科，旣已大有所誣。且自古已來，未有子弟妄告父兄以圖全身者，自存之悖，未之或聞。晃以兄告弟，而其事果驗。謂晃應殺，將以遏防。若言之亦死，不言亦死，豈不杜歸善之心，失正刑之中哉？若趙括之母，以先請獲免，鍾會之兄，以密言全子，古今此比，蓋為不少。晃之前言，事同斯例，而獨遇否閉，良可哀哉！
+- anchor: wei.24.p25
+  at: 224
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 高柔諫禁鹿事「惟陛下覽先聖之所念」上明帝，陛下即曹叡。
+  id: wei.24.p25.h1
 - id: wei.24.p25.a1
   anchor: wei.24.p25
   at: 268
   length: 0
   type: pei
   text: 《魏名臣奏》載柔上疏曰：「臣深思陛下所以不早取此鹿者，誠欲使極蕃息，然後大取以為軍國之用。然臣竊以為今鹿但有日耗，終無從得多也。何以知之？今禁地廣輪且千餘里，臣下計無慮其中有虎大小六百頭，狼有五百頭，狐萬頭。使大虎一頭三日食一鹿，一虎一歲百二十鹿，是為六百頭虎一歲食七萬二千頭鹿也。使十狼日共食一鹿，是為五百頭狼一歲共食萬八千頭鹿。鹿子始生，未能善走，使十狐一日共食一子，比至健走一月之間，是為萬狐一月共食鹿子三萬頭也。大凡一歲所食十二萬頭。其鵰鶚所害，臣置不計。以此推之，終無從得多，不如早取之為便也。」
+- id: wei.24.p27.h1
+  anchor: wei.24.p27
+  at: 31
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.24.p27.t1
   anchor: wei.24.p27
   at: 116
@@ -187,6 +569,54 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：柔長子儁，大將軍掾，次誕，歷三州刺史、太僕。誕放率不倫，而決烈過人。次光，字宣茂，少習家業，明練法理。晉武帝世，為黃沙御史，與中丞同，遷守廷尉，後即真。兄誕與光異操，謂光小節，常輕侮之，而光事誕愈謹。終於尚書令。追贈司空。
+- id: wei.24.p28.h1
+  anchor: wei.24.p28
+  at: 0
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
+- id: wei.24.p28.h2
+  anchor: wei.24.p28
+  at: 13
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p28.h3
+  anchor: wei.24.p28
+  at: 91
+  length: 2
+  type: person
+  person_id: wenhui
+  text: 溫恢
+  via: primary
+- id: wei.24.p28.h4
+  anchor: wei.24.p28
+  at: 100
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p29.h1
+  anchor: wei.24.p29
+  at: 89
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wei.24.p30.h1
+  anchor: wei.24.p30
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.24.p30.t1
   anchor: wei.24.p30
   at: 49
@@ -201,6 +631,54 @@ annotations:
   month_chinese: 一月
   month_ordinal: 1
   reasoning: 年承前文 景元4年 (AD 263)，月份「一月」
+- id: wei.24.p31.h1
+  anchor: wei.24.p31
+  at: 31
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.24.p31.h2
+  anchor: wei.24.p31
+  at: 39
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.24.p31.h3
+  anchor: wei.24.p31
+  at: 105
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wei.24.p32.h1
+  anchor: wei.24.p32
+  at: 133
+  length: 2
+  type: person
+  person_id: caorui
+  text: 烈祖
+  via: chapter_alias
+- id: wei.24.p32.h2
+  anchor: wei.24.p32
+  at: 220
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.24.p33.h1
+  anchor: wei.24.p33
+  at: 137
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.24.p33.t1
   anchor: wei.24.p33
   at: 258
@@ -213,3 +691,107 @@ annotations:
   era: 嘉平
   era_year: 2
   reasoning: 原文「嘉平二年」直接出现年号；解析為 AD 250（回溯前事，不推進章節時間軸）
+- id: wei.24.p34.h1
+  anchor: wei.24.p34
+  at: 0
+  length: 2
+  type: person
+  person_id: wangguan
+  text: 王觀
+  via: primary
+- id: wei.24.p34.h2
+  anchor: wei.24.p34
+  at: 19
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.24.p34.h3
+  anchor: wei.24.p34
+  at: 47
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.24.p34.h4
+  anchor: wei.24.p34
+  at: 162
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.24.p35.h1
+  anchor: wei.24.p35
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.24.p35.h2
+  anchor: wei.24.p35
+  at: 68
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.24.p36.h1
+  anchor: wei.24.p36
+  at: 3
+  length: 2
+  type: person
+  person_id: hanji
+  text: 韓曁
+  via: primary
+- id: wei.24.p36.h2
+  anchor: wei.24.p36
+  at: 19
+  length: 2
+  type: person
+  person_id: cuilin
+  text: 崔林
+  via: primary
+- id: wei.24.p36.h3
+  anchor: wei.24.p36
+  at: 26
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
+- id: wei.24.p36.h4
+  anchor: wei.24.p36
+  at: 33
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
+- id: wei.24.p36.h5
+  anchor: wei.24.p36
+  at: 40
+  length: 2
+  type: person
+  person_id: wangguan
+  text: 王觀
+  via: primary
+- id: wei.24.p36.h6
+  anchor: wei.24.p36
+  at: 79
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
+- id: wei.24.p36.h7
+  anchor: wei.24.p36
+  at: 82
+  length: 2
+  type: person
+  person_id: changlin
+  text: 常林
+  via: primary

@@ -73,6 +73,16 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 泰始元年 (AD 265)，月份「七月」
+- anchor: zztj.79.p8
+  at: 10
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p8.h1
 - id: zztj.79.p9.t1
   anchor: zztj.79.p9
   at: 0
@@ -141,6 +151,26 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始2年 (AD 266)，月份「正月」
+- anchor: zztj.79.p21
+  at: 12
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p21.h1
+- anchor: zztj.79.p22
+  at: 4
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p22.h1
 - id: zztj.79.p24.t1
   anchor: zztj.79.p24
   at: 0
@@ -169,6 +199,22 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 泰始2年 (AD 266)，月份「三月」
+- id: zztj.79.p25.h1
+  anchor: zztj.79.p25
+  at: 7
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- id: zztj.79.p26.h1
+  anchor: zztj.79.p26
+  at: 36
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: zztj.79.p27.t1
   anchor: zztj.79.p27
   at: 2
@@ -211,6 +257,52 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 泰始2年 (AD 266)，月份「八月」
+- anchor: zztj.79.p30
+  at: 37
+  length: 2
+  type: person
+  person_id: simayan
+  text: 主上
+  via: llm
+  confidence: 0.85
+  reasoning: 西晉武帝不在花名冊
+  id: zztj.79.p30.h1
+- anchor: zztj.79.p30
+  at: 105
+  length: 2
+  type: person
+  person_id: simayan
+  text: 主上
+  via: llm
+  confidence: 0.85
+  reasoning: 西晉武帝不在花名冊
+  id: zztj.79.p30.h2
+- anchor: zztj.79.p30
+  at: 120
+  length: 2
+  type: person
+  person_id: simayan
+  text: 主上
+  via: llm
+  confidence: 0.85
+  reasoning: 西晉武帝不在花名冊
+  id: zztj.79.p30.h3
+- id: zztj.79.p34.h1
+  anchor: zztj.79.p34
+  at: 3
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
+- id: zztj.79.p34.h2
+  anchor: zztj.79.p34
+  at: 34
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: zztj.79.p35.t1
   anchor: zztj.79.p35
   at: 0
@@ -267,6 +359,16 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 泰始2年 (AD 266)，月份「十二月」
+- anchor: zztj.79.p41
+  at: 121
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p41.h1
 - id: zztj.79.p42.t1
   anchor: zztj.79.p42
   at: 8
@@ -307,6 +409,22 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 泰始3年 (AD 267)，月份「六月」
+- id: zztj.79.p48.h1
+  anchor: zztj.79.p48
+  at: 52
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
+- id: zztj.79.p48.h2
+  anchor: zztj.79.p48
+  at: 62
+  length: 2
+  type: person
+  person_id: huahe
+  text: 華覈
+  via: primary
 - id: zztj.79.p49.t1
   anchor: zztj.79.p49
   at: 2
@@ -403,6 +521,16 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 泰始4年 (AD 268)，月份「四月」
+- anchor: zztj.79.p60
+  at: 6
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p60.h1
 - id: zztj.79.p61.t1
   anchor: zztj.79.p61
   at: 2
@@ -459,6 +587,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 泰始4年 (AD 268)，月份「十一月」
+- id: zztj.79.p67.h1
+  anchor: zztj.79.p67
+  at: 5
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: zztj.79.p69.t1
   anchor: zztj.79.p69
   at: 8
@@ -499,6 +635,22 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 泰始5年 (AD 269)，月份「二月」
+- id: zztj.79.p71.h1
+  anchor: zztj.79.p71
+  at: 24
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: zztj.79.p75.h1
+  anchor: zztj.79.p75
+  at: 57
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: zztj.79.p77.t1
   anchor: zztj.79.p77
   at: 2
@@ -527,6 +679,30 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 泰始5年 (AD 269)，月份「十月」
+- id: zztj.79.p80.h1
+  anchor: zztj.79.p80
+  at: 67
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
+- id: zztj.79.p80.h2
+  anchor: zztj.79.p80
+  at: 204
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: zztj.79.p80.h3
+  anchor: zztj.79.p80
+  at: 207
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
 - id: zztj.79.p82.t1
   anchor: zztj.79.p82
   at: 0
@@ -567,6 +743,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始6年 (AD 270)，月份「正月」
+- id: zztj.79.p84.h1
+  anchor: zztj.79.p84
+  at: 6
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: zztj.79.p86.t1
   anchor: zztj.79.p86
   at: 2
@@ -663,6 +847,16 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始7年 (AD 271)，月份「正月」
+- anchor: zztj.79.p98
+  at: 54
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 晉吳皇后皆不在花名冊
+  id: zztj.79.p98.h1
 - id: zztj.79.p99.t1
   anchor: zztj.79.p99
   at: 0
@@ -719,6 +913,14 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 泰始7年 (AD 271)，月份「七月」
+- id: zztj.79.p106.h1
+  anchor: zztj.79.p106
+  at: 94
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: zztj.79.p107.t1
   anchor: zztj.79.p107
   at: 0
@@ -789,6 +991,22 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 泰始7年 (AD 271)，月份「十二月」
+- id: zztj.79.p114.h1
+  anchor: zztj.79.p114
+  at: 7
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
+- id: zztj.79.p115.h1
+  anchor: zztj.79.p115
+  at: 19
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: zztj.79.p116.t1
   anchor: zztj.79.p116
   at: 2
@@ -841,6 +1059,22 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 泰始8年 (AD 272)，月份「二月」
+- id: zztj.79.p122.h1
+  anchor: zztj.79.p122
+  at: 212
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- id: zztj.79.p125.h1
+  anchor: zztj.79.p125
+  at: 59
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
 - id: zztj.79.p126.t1
   anchor: zztj.79.p126
   at: 2
@@ -897,6 +1131,30 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 泰始8年 (AD 272)，月份「十月」
+- id: zztj.79.p130.h1
+  anchor: zztj.79.p130
+  at: 169
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: zztj.79.p130.h2
+  anchor: zztj.79.p130
+  at: 195
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: zztj.79.p130.h3
+  anchor: zztj.79.p130
+  at: 231
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: zztj.79.p132.t1
   anchor: zztj.79.p132
   at: 0
@@ -925,3 +1183,43 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 泰始8年 (AD 272)，月份「十二月」
+- id: zztj.79.p135.h1
+  anchor: zztj.79.p135
+  at: 18
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
+- id: zztj.79.p136.h1
+  anchor: zztj.79.p136
+  at: 20
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: zztj.79.p136.h2
+  anchor: zztj.79.p136
+  at: 62
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
+- id: zztj.79.p137.h1
+  anchor: zztj.79.p137
+  at: 6
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: zztj.79.p137.h2
+  anchor: zztj.79.p137
+  at: 9
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary

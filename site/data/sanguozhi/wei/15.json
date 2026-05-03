@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷15",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [
     "source has unbalanced brackets: 1 stray '〈', 0 stray '〉' — treating them as literal text"
@@ -21,12 +21,113 @@
     {
       "id": "wei.15.p1",
       "text": "劉馥司馬朗梁習張既溫恢賈逵",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉馥",
+          "person_id": "liufu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "司馬朗",
+          "person_id": "simalang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p1.h3",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "梁習",
+          "person_id": "liangxi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p1.h4",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "溫恢",
+          "person_id": "wenhui",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p2",
       "text": "劉馥字元穎，沛國相人也。避亂揚州，建安初，說袁術將戚寄、秦翊，使率衆與俱詣太祖。太祖恱之，司徒辟為掾。後孫策所置廬江太守李述攻殺揚州刺史嚴象，廬江梅乾、雷緒、陳蘭等聚衆數萬在江、淮間，郡縣殘破。太祖方有袁紹之難，謂馥可任以東南之事，遂表為揚州刺史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉馥",
+          "person_id": "liufu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p2.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p2.h3",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p2.h4",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p2.h5",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p2.h6",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p2.h7",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p3",
@@ -49,6 +150,15 @@
           "era": "建安",
           "era_year": 13,
           "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208"
+        },
+        {
+          "id": "wei.15.p4.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         }
       ]
     },
@@ -56,6 +166,15 @@
       "id": "wei.15.p5",
       "text": "馥子靖，黃初中從黃門侍郎遷廬江太守，詔曰：「卿父昔為彼州，今卿復據此郡，可謂克負荷者也。」轉在河內，遷尚書，賜爵關內侯，出為河南尹。散騎常侍應璩書與靖曰：「入作納言，出臨京任。富民之術，日引月長。藩落高峻，絕穿窬之心。五種別出，遠水火之災。農器必具，無失時之闕。蠶麥有苫備之用，無雨濕之虞。封符指期，無流連之吏。鰥寡孤獨，蒙廩振之實。加之以明擿幽微，重之以秉憲不撓；有司供承王命，百里垂拱仰辨。雖昔趙、張、三王之治，未足以方也。」靖為政類如此。初雖如碎密，終於百姓便之，有馥遺風。母喪去官，後為大司農衞尉，進封廣陸亭侯，邑三百戶。上疏陳儒訓之本曰：「夫學者，治亂之軌儀，聖人之大教也。自黃初以來，崇立太學二十餘年，而寡有成者，蓋由愽士選輕，諸生避役，高門子弟，恥非其倫，故無學者。雖有其名而無其人，雖設其教而無其功。宜高選博士，取行為人表，經任人師者，掌教國子。依遵古法，使二千石以上子孫，年從十五，皆入太學。明制黜陟榮辱之路；其經明行脩者，則進之以崇德；荒教廢業者，則退之以懲惡；舉善而教不能則勸，浮華交游，不禁自息矣。闡弘大化，以綏未賔；六合承風，遠人來格。此聖人之教，致治之本也。」後遷鎮北將軍，假節都督河北諸軍事。靖以為「經常之大法，莫善於守防，使民夷有別」。遂開拓邊守，屯據險要。又脩廣戾陵渠大堨，水溉灌薊南北；三更種稻，邊民利之。嘉平六年薨，追贈征北將軍，進封建成鄉侯，謚曰景侯。子熙嗣。",
       "annotations": [
+        {
+          "id": "wei.15.p5.h1",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.15.p5.t1",
           "type": "temporal",
@@ -76,6 +195,15 @@
       "text": "司馬朗字伯達，河内溫人也。九歲，人有道其父字者，朗曰：「慢人親者，不敬其親者也。」客謝之。十二，試經爲童子郎，監試者以其身體壮大，疑朗匿年，劾問。朗曰：「朗之内外，累世長大，朗雖穉弱，無仰高之風，損年以求早成，非志所爲也。」監試者異之。後關東兵起，故冀州刺史李邵家居野王，近山險，欲徙居溫。朗謂邵曰：「脣齒之喻，豈唯虞、虢，溫與野王即是也；今去彼而居此，是爲避朝亡之期耳。且君，國人之望也，今寇未至而先徙，帶山之縣必駭，是摇動民之心而開姦宄之原也，竊爲郡内憂之。」邵不從。邊山之民果亂，内徙，或爲寇鈔。",
       "annotations": [
         {
+          "id": "wei.15.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "司馬朗",
+          "person_id": "simalang",
+          "via": "primary"
+        },
+        {
           "id": "wei.15.p6.a1",
           "type": "pei",
           "at": 13,
@@ -89,6 +217,51 @@
       "text": "是時董卓遷天子都長安，卓因留洛陽。朗父防爲治書御史，當徙西，以四方雲擾，乃遣朗將家屬還本縣。或有告朗欲逃亡者，執以詣卓，卓謂朗曰：「卿與吾亡兒同歲，幾大相負！」朗因曰：「明公以高世之德，遭陽九之會，清除羣穢，廣舉賢士，此誠虚心垂慮，將興至治也。威德以隆，功業以著，而兵難日起，州郡鼎沸，郊境之内，民不安業，捐棄居產，流亡藏竄，雖四關設禁，重加刑戮，猶不絕息，此朗之所以於邑也。願明公監觀往事，少加三思，即榮名並於日月，伊、周不足侔也。」卓曰：「吾亦悟之，卿言有意！」",
       "annotations": [
         {
+          "id": "wei.15.p7.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p7.h2",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.15.p7.h3",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.15.p7.h4",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.15.p7.h5",
+          "type": "person",
+          "at": 218,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
           "id": "wei.15.p7.a1",
           "type": "pei",
           "at": 233,
@@ -100,12 +273,85 @@
     {
       "id": "wei.15.p8",
       "text": "朗知卓必亡，恐見留，即散財物以賂遺卓用事者，求歸鄉里。到謂父老曰；「董卓悖逆，爲天下所讎，此忠臣義士奮發之時也。郡與京都境壤相接，洛東有成皋，北界大河，天下興義兵者若未得進，其勢必停於此。此乃四分五裂戰爭之地，難以自安，不如及道路尚通，舉宗東到黎陽。黎陽有營兵，趙威孫鄉里舊婚，爲監營謁者，統兵馬，足以爲主。若後有變，徐復觀望未晚也。」父老戀舊，莫有從者，惟同縣趙咨，將家屬俱與朗往焉。後數月，關東諸州郡起兵，眾數十萬，皆集滎陽及河内。諸將不能相一，縱兵鈔略，民人死者且半。久之，關東兵散，太祖與呂布相持於濮陽，朗乃將家還溫。時歲大饑，人相食，朗收恤宗族，教訓諸弟，不爲衰世解業。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p8.h1",
+          "type": "person",
+          "at": 2,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.15.p8.h2",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.15.p8.h3",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p8.h4",
+          "type": "person",
+          "at": 245,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p8.h5",
+          "type": "person",
+          "at": 248,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p9",
       "text": "年二十二，太祖辟爲司空掾屬，除成皋令，以病去，復爲堂陽長。其治務寬惠，不行鞭杖，而民不犯禁。先時，民有徙充都内者，後縣調當作船，徙民恐其不辦，乃相率私還助之，其見愛如此。遷元城令，入爲丞相主簿。朗以爲天下土崩之勢，由秦滅五等之制，而郡國無蒐狩習戰之備故也。今雖五等未可復行，可令州郡並置兵，外備四夷，内威不軌，於策爲長。又以爲宜復井田。往者以民各有累世之業，難中奪之，是以至今。今承大亂之後，民人分散，土業無主，皆爲公田，宜及此時復之。議雖未施行，然州郡领兵，朗本意也。遷兗州刺史，政化大行，百姓稱之。雖在軍旅，常粗衣恶食，俭以率下。雅好人伦典籍，鄉人李觌等盛得名誉，朗常显贬下之；後觌等敗，時人服焉。锺繇、王粲著论云：「非圣人不能致太平。」朗以爲「伊、颜之徒雖非圣人，使得數世相承，太平可致」。",
       "annotations": [
+        {
+          "id": "wei.15.p9.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p9.h2",
+          "type": "person",
+          "at": 156,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p9.h3",
+          "type": "person",
+          "at": 304,
+          "length": 2,
+          "text": "王粲",
+          "person_id": "wangcan",
+          "via": "primary"
+        },
         {
           "id": "wei.15.p9.a1",
           "type": "pei",
@@ -133,11 +379,38 @@
           "reasoning": "原文「建安二十二年」直接出现年号；解析為 AD 217（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.15.p10.h1",
+          "type": "person",
+          "at": 8,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p10.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "臧霸",
+          "person_id": "zangba",
+          "via": "primary"
+        },
+        {
           "id": "wei.15.p10.a1",
           "type": "pei",
           "at": 64,
           "length": 0,
           "text": "魏書曰：朗临卒，謂將士曰；「刺史蒙國厚恩，督司萬里，微功未效，而遭此疫疠，既不能自救，辜負國恩。身没之後，其布衣幅巾，敛以時服，勿违吾志也。」"
+        },
+        {
+          "id": "wei.15.p10.h3",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.15.p10.a2",
@@ -164,12 +437,58 @@
     {
       "id": "wei.15.p12",
       "text": "梁習字子虞，陳郡柘人也，爲郡纲纪。太祖爲司空，辟召爲漳長，累轉乘氏、海西、下邳令，所在有治名。還爲西曹令史，遷爲屬。并土新附，習以别部司馬领并州刺史。時承高幹荒亂之餘，胡狄在界，張雄跋扈，吏民亡叛，入其部落；兵家拥眾，作爲寇害，更相扇動，往往釭跱。習到官，诱谕招纳，皆礼召其豪右，稍稍荐舉，使詣幕府；豪右已尽，乃次发諸丁强以爲義從；又因大軍出征，分请以爲勇力。吏兵已去之後，稍移其家，前後送鄴，凡數萬口；其不從命者，興兵致讨，斩首千數，降附者萬计。单于恭顺，名王稽颡，部曲服事供职，同於编户。邊境肅清，百姓布野，勤勸农桑，令行禁止。贡達名士，咸显於世，语在《常林傳》。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "梁習",
+          "person_id": "liangxi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p12.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p12.h3",
+          "type": "person",
+          "at": 253,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p12.h4",
+          "type": "person",
+          "at": 279,
+          "length": 2,
+          "text": "常林",
+          "person_id": "changlin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p13",
       "text": "太祖嘉之，赐爵關内侯，更拜爲真。長老稱咏，以爲自所聞识，刺史未有及習者。建安十八年，州並屬冀州，更拜議郎、西部都督從事，統屬冀州，總故部曲。又使於上黨取大材供鄴宫室。習表置屯田都尉二人，领客六百夫，於道次耕种菽粟，以给人牛之费。後单于入侍，西北無虞，習之绩也。文帝践阼，復置并州，復爲刺史，進封申門亭侯，邑百户；政治常爲天下最。太和二年，徵拜大司农。習在州二十餘年，而居處贫窮，無方面珍物，明帝異之，礼赐甚厚。四年，薨，子施嗣。",
       "annotations": [
+        {
+          "id": "wei.15.p13.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.15.p13.t1",
           "type": "temporal",
@@ -191,6 +510,15 @@
           "text": "魏略曰：鲜卑大人育延，常爲州所畏，而一旦將其部落五千餘骑詣習，求互市。習念不听則恐其怨，若听到州下，又恐爲所略，於是乃许之往與會空城中交市。遂敕郡縣，自將治中以下軍往就之。市易未毕，市吏收缚一胡。延骑皆惊，上馬弯弓圍習數重，吏民惶怖不知所施。習乃徐呼市吏，問缚胡意，而胡實侵犯人。習乃使译呼延，延到，習责延曰：「汝胡自犯法，吏不侵汝，汝何爲使諸骑惊駭邪？」遂斩之，餘胡破胆不敢動。是後無寇虏。至二十二年，太祖拔漢中，諸軍還到長安，因留骑督太原乌丸王鲁昔，使屯池陽，以備卢水。昔有愛妻，住在晉陽。昔既思之，又恐遂不得歸，乃以其部五百骑叛還并州，留其餘骑置山谷間，而单骑独入晉陽，盗取其妻。已出城，州郡乃觉；吏民又畏昔善射，不敢追。習乃令從事張景，募鲜卑使逐昔。昔馬負其妻，重骑行迟，未及與其眾合，而爲鲜卑所射死。始太祖聞昔叛，恐其爲亂於北邊；會聞已杀之，大喜，以習前後有策略，封爲關内侯。"
         },
         {
+          "id": "wei.15.p13.h2",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.15.p13.t2",
           "type": "temporal",
           "at": 164,
@@ -202,6 +530,15 @@
           "era": "太和",
           "era_year": 2,
           "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.15.p13.h3",
+          "type": "person",
+          "at": 195,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.15.p13.t3",
@@ -223,6 +560,33 @@
       "text": "初，济阴王思與習俱爲西曹令史。思因直日白事，失太祖指。太祖大怒，教召主者，將加重辟。時思近出，習代往對，已被收執矣，思乃驰還，自陳己罪，罪应受死。太祖叹習之不言，思之识分，曰：「何意吾軍中有二義士乎？」後同時擢爲刺史，思领豫州。思亦能吏，然苛碎無大體，官至九卿，封列侯。",
       "annotations": [
         {
+          "id": "wei.15.p14.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p14.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p14.h3",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.15.p14.a1",
           "type": "pei",
           "at": 101,
@@ -241,7 +605,17 @@
     {
       "id": "wei.15.p15",
       "text": "張旣字德容，馮翊高陵人也。年十六，為郡小吏。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p15.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "張旣",
+          "person_id": "zhangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p16",
@@ -253,18 +627,163 @@
           "at": 0,
           "length": 0,
           "text": "《魏略》曰：旣世單家富，為人有容儀。少小工書疏，為郡門下小吏，而家富。自惟門寒，念無以自達，乃常畜好刀筆及版奏，伺諸大吏有乏者輒給與，以是見識焉。"
+        },
+        {
+          "id": "wei.15.p16.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p16.h2",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p16.h3",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p16.h4",
+          "type": "person",
+          "at": 186,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.15.p17",
       "text": "太祖將征荊州，而騰等分據關中。太祖復遣旣喻騰等，令釋部曲求還。騰已許之而更猶豫，旣恐為變，乃移諸縣促儲偫，二千石郊迎。騰不得已，發東。太祖表騰為衞尉，子超為將軍，統其衆。後超反，旣從太祖破超於華陰，西定關右。以旣為京兆尹，招懷流民，興復縣邑，百姓懷之。魏國旣建，為尚書，出為雍州刺史。太祖謂旣曰：「還君本州，可謂衣繡晝行矣。」從征張魯，別從散關入討叛氐，收其麥以給軍食。魯降，旣說太祖拔漢中民數萬戶以實長安及三輔。其後與曹洪破吳蘭於下辯，又與夏侯淵討宋建，別攻臨洮、狄道，平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p17.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h3",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h4",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h5",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h6",
+          "type": "person",
+          "at": 190,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p17.h7",
+          "type": "person",
+          "at": 210,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p17.h8",
+          "type": "person",
+          "at": 221,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.15.p18",
       "text": "是時，太祖徙民以充河北，隴西、天水、南安民相恐動，擾擾不安，旣假三郡人為將吏者休課，使治屋宅，作水碓，民心遂安。太祖將拔漢中守，恐劉備北取武都氐以逼關中，問旣。旣曰：「可勸使北出就穀以避賊，前至者厚其寵賞，則先者知利，後必慕之。」太祖從其策，乃自到漢中引出諸軍，令旣之武都，徙氐五萬餘落出居扶風、天水界。",
       "annotations": [
+        {
+          "id": "wei.15.p18.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p18.h2",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p18.h3",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p18.h4",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.15.p18.a1",
           "type": "pei",
@@ -279,6 +798,42 @@
       "text": "是時，武威顏雋、張掖和鸞、酒泉黃華、西平麴演等並舉郡反，自號將軍，更相攻擊。雋遣使送母及子詣太祖為質，求助。太祖問旣，旣曰：「雋等外假國威，內生傲悖，計定勢足，後即反耳。今方事定蜀，且宜兩存而鬬之，猶卞莊子之刺虎，坐收其斃也。」太祖曰：「善。」歲餘，鸞遂殺雋，武威王祕又殺鸞。是時不置涼州，自三輔拒西域，皆屬雍州。文帝即王位，初置涼州，以安定太守鄒岐為刺史。張掖張進執郡守舉兵拒岐，黃華、麴演各逐故太守，舉兵以應之。旣進兵為護羌校尉蘇則聲勢，故則得以有功。旣進爵都鄉侯。涼州盧水胡伊健妓妾、治元多等反，河西大擾。帝憂之，曰：「非旣莫能安涼州。」乃召鄒岐，以旣代之。詔曰：「昔賈復請擊郾賊，光武笑曰：『執金吾擊郾，吾復何憂？』卿謀略過人，今則其時。以便宜從事，勿復先請。」遣護軍夏侯儒、將軍費曜等繼其後。旣至金城，欲渡河，諸將守以為「兵少道險，未可深入」。旣曰：「道雖險，非井陘之隘，夷狄烏合，無左車之計，今武威危急，赴之宜速。」遂渡河。賊七千餘騎逆拒軍於鸇陰口，旣揚聲軍從鸇陰，乃潛由且次出至武威。胡以為神，引還顯美。旣已據武威，曜乃至，儒等猶未達。旣勞賜將士，欲進軍擊胡。諸將皆曰：「士卒疲倦，虜衆氣銳，難與爭鋒。」旣曰：「今軍無見糧，當因敵為資。若虜見兵合，退依深山，追之則道險窮餓，兵還則出候寇鈔。如此，兵不得解，所謂『一日縱敵，患在數世』也。」遂前軍顯美。胡騎數千，因大風欲放火燒營，將士皆恐。旣夜藏精卒三千人為伏，使參軍成公英督千餘騎挑戰，勑使陽退。胡果爭奔之，因發伏截其後，首尾進擊，大破之，斬首獲生以萬數。帝甚恱，詔曰：「卿踰河歷險，以勞擊逸，以寡勝衆，功過南仲，勤踰吉甫。此勳非但破胡，乃永寧河右，使吾長無西顧之念矣。」徙封西鄉侯，增邑二百，並前四百戶。",
       "annotations": [
         {
+          "id": "wei.15.p19.h1",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p19.h2",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p19.h3",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p19.h4",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.15.p19.a1",
           "type": "pei",
           "at": 660,
@@ -292,6 +847,15 @@
       "text": "酒泉蘇衡反，與羌豪鄰戴及丁令胡萬餘騎攻邊縣。旣與夏侯儒擊破之，衡及鄰戴等皆降。遂上疏請與儒治左城，築鄣塞，置烽候、邸閣以備胡。西羌恐，率衆二萬餘落降。其後西平麴光等殺其郡守，諸將欲擊之，旣曰：「唯光等造反，郡人未必悉同。若便以軍臨之，吏民羌胡必謂國家不別是非，更使皆相持著，此為虎傅翼也。光等欲以羌胡為援，今先使羌胡鈔擊，重其賞募，所虜獲者皆以畀之。外沮其勢，內離其交，必不戰而定。」乃檄告諭諸羌，為光等所詿誤者原之；能斬賊帥送首者當加封賞。於是光部黨斬送光首，其餘咸安堵如故。",
       "annotations": [
         {
+          "id": "wei.15.p20.h1",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.15.p20.a1",
           "type": "pei",
           "at": 63,
@@ -304,6 +868,24 @@
       "id": "wei.15.p21",
       "text": "旣臨二州十餘年，政惠著聞，其所禮辟扶風龐延、天水楊阜、安定胡遵、酒泉龐淯、燉煌張恭、周生烈等，終皆有名位。黃初四年薨。詔曰：「昔荀桓子立勳翟土，晉侯賞以千室之邑；馮異輸力漢朝，光武封其二子。故涼州刺史張旣，能容民畜衆，使羣羌歸土，可謂國之良臣。不幸薨隕，朕甚愍之，其賜小子翁歸爵關內侯。」明帝即位，追謚曰肅侯。子緝嗣。",
       "annotations": [
+        {
+          "id": "wei.15.p21.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "楊阜",
+          "person_id": "yangfu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p21.h2",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "龐淯",
+          "person_id": "pangyu",
+          "via": "primary"
+        },
         {
           "id": "wei.15.p21.a1",
           "type": "pei",
@@ -323,6 +905,24 @@
           "era": "黃初",
           "era_year": 4,
           "reasoning": "原文「黃初四年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.15.p21.h3",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "張旣",
+          "person_id": "zhangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p21.h4",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -330,6 +930,24 @@
       "id": "wei.15.p22",
       "text": "緝以中書郎稍遷東莞太守。嘉平中，女為皇后，徵拜光祿大夫，位特進，封妻向為安城鄉君。緝與中書令李豐同謀，誅。語在《夏侯玄傳》。",
       "annotations": [
+        {
+          "id": "wei.15.p22.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "houzhuhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.15.p22.h1",
+          "type": "person",
+          "at": 56,
+          "length": 3,
+          "text": "夏侯玄",
+          "person_id": "xiahouxuan",
+          "via": "primary"
+        },
         {
           "id": "wei.15.p22.a1",
           "type": "pei",
@@ -342,7 +960,26 @@
     {
       "id": "wei.15.p23",
       "text": "溫恢字曼基，太原祁人也。父恕，爲涿郡太守，卒。恢年十五，送丧還歸鄉里，内足於財。恢曰：「世方亂，安以富爲？」一朝尽散，振施宗族。州里高之，比之郇越。舉孝廉，爲廪丘長，鄢陵、廣川令，彭城、鲁相，所在見稱。入爲丞相主簿，出爲扬州刺史。太祖曰：「甚欲使卿在親近，顾以爲不如此州事大。故書云：『股肱良哉！庶事康哉！』得無當得蒋济爲治中邪？」時济見爲丹杨太守，乃遣济還州。又语張辽、乐進等曰：「扬州刺史晓達軍事，動静與共咨議。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p23.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "溫恢",
+          "person_id": "wenhui",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p23.h2",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.15.p24",
@@ -360,13 +997,41 @@
           "era": "建安",
           "era_year": 24,
           "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.15.p24.h1",
+          "type": "person",
+          "at": 62,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p24.h2",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.15.p25",
       "text": "文帝践阼，以恢爲侍中，出爲魏郡太守。數年，遷凉州刺史，持节领护羌校尉。道病卒，時年四十五。詔曰：「恢有柱石之質，服事先帝，功勤明著。及爲朕執事，忠於王室，故授之以萬里之任，任之以一方之事。如何不遂，吾甚愍之！」赐恢子生爵關内侯。生早卒，爵絕。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p25.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.15.p26",
@@ -413,6 +1078,33 @@
       "text": "後舉茂才，除渑池令。高幹之反，張琰將舉兵以应之。逵不知其谋，往見琰。聞變起，欲還，恐見執，乃爲琰画计，如與同谋者，琰信之。時縣寄治蠡城，城堑不固，逵從琰求兵脩城。諸欲爲亂者皆不隐其谋，故逵得尽诛之。遂脩城拒琰。琰敗，逵以丧祖父去官，司徒辟爲掾，以議郎参司隶軍事。太祖征馬超，至弘农，曰「此西道之要」，以逵领弘农太守。召見计事，大悦之，謂左右曰：「使天下二千石悉如贾逵，吾何憂？」其後发兵，逵疑屯田都尉藏亡民。都尉自以不屬郡，言语不顺。逵怒，收之，數以罪，挝折脚，坐免。然太祖心善逵，以爲丞相主簿。太祖征刘備，先遣逵至斜谷觀形勢。道逢水衡，载囚人數十车，逵以軍事急，辄竟重者一人，皆放其餘。太祖善之，拜谏議大夫，與夏侯尚並掌軍计。太祖崩洛陽，逵典丧事。時鄢陵侯彰行越骑將軍，從長安来赴，問逵先王玺绶所在。逵正色曰：「太子在鄴，國有储副。先王玺绶，非君侯所宜問也。」遂奉梓宫還鄴。",
       "annotations": [
         {
+          "id": "wei.15.p28.h1",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p28.h2",
+          "type": "person",
+          "at": 134,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p28.h3",
+          "type": "person",
+          "at": 235,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.15.p28.a1",
           "type": "pei",
           "at": 248,
@@ -420,11 +1112,65 @@
           "text": "《魏略》曰：太祖欲征吳而大霖雨，三軍多不原行。太祖知其然，恐外有谏者，教曰：「今孤戒严，未知所之，有谏者死。」逵受教，謂其同寮三主簿曰：「今實不可出，而教如此，不可不谏也。」乃建谏草以示三人，三人不获已，皆署名，入白事。太祖怒，收逵等。當送狱，取造意者，逵即言「我造意」，遂走詣狱。狱吏以逵主簿也，不即著械。謂狱吏曰：「促械我。尊者且疑我在近职，求缓於卿，今將遣人来察我。」逵著械適讫，而太祖果遣家中人就狱视逵。既而教曰：「逵無恶意，原復其职。」始，逵爲諸生，略览大義，取其可用。最好春秋左傳，及爲牧守，常自课读之，月常一遍。逵前在弘农，與典农校尉爭公事，不得理，乃发愤生瘿，後所病稍大，自启原欲令医割之。太祖惜逵忠，恐其不活，教「謝主簿，吾聞『十人割瘿九人死』」。逵猶行其意，而瘿愈大。逵本名衢，後改爲逵。"
         },
         {
+          "id": "wei.15.p28.h4",
+          "type": "person",
+          "at": 248,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p28.h5",
+          "type": "person",
+          "at": 252,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p28.h6",
+          "type": "person",
+          "at": 294,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.15.p28.h7",
+          "type": "person",
+          "at": 306,
+          "length": 3,
+          "text": "夏侯尚",
+          "person_id": "xiahoushang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p28.h8",
+          "type": "person",
+          "at": 314,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.15.p28.a2",
           "type": "pei",
           "at": 325,
           "length": 0,
           "text": "《魏略》曰：時太子在鄴，鄢陵侯未到，士民颇苦劳役，又有疾疠，於是軍中骚動。羣寮恐天下有變，欲不发丧。逵建議爲不可秘，乃发哀，令内外皆入临，临讫，各安叙不得動。而青州軍擅击鼓相引去。眾人以爲宜禁止之，不從者讨之。逵以爲「方大丧在殡，嗣王未立，宜因而抚之」。乃爲作長檄，告所在给其廪食。"
+        },
+        {
+          "id": "wei.15.p28.h9",
+          "type": "person",
+          "at": 357,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
         }
       ]
     },
@@ -432,6 +1178,15 @@
       "id": "wei.15.p29",
       "text": "文帝即王位，以鄴縣户數萬在都下，多不法，乃以逵爲鄴令。月餘，遷魏郡太守。大軍出征，復爲丞相主簿祭酒。逵尝坐人爲罪，王曰：「叔向猶十世宥之，况逵功德親在其身乎？」從至黎陽，津渡者亂行，逵斩之，乃整。至谯，以逵爲豫州刺史。是時天下初復，州郡多不摄。逵曰：「州本以御史出監諸郡，以六条詔書察長吏二千石已下，故其狀皆言严能鹰扬有督察之才，不言安静寬仁有恺悌之德也。今長吏慢法，盗贼公行，州知而不纠，天下復何取正乎？」兵曹從事受前刺史假，逵到官數月，乃還；考竟其二千石以下阿縱不如法者，皆舉奏免之。帝曰：「逵真刺史矣。」布告天下，當以豫州爲法。赐爵關内侯。",
       "annotations": [
+        {
+          "id": "wei.15.p29.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.15.p29.a1",
           "type": "pei",
@@ -451,7 +1206,26 @@
     {
       "id": "wei.15.p30",
       "text": "州南與吳接，逵明斥候，缮甲兵，爲守戰之備，贼不敢犯。外修軍旅，内治民事，遏鄢、汝，造新陂，又断山溜長谿水，造小弋陽陂，又通运渠二百餘里，所謂贾侯渠者也。黄初中，與諸將並征吳，破呂范於洞浦，進封陽里亭侯，加建威將軍。明帝即位，增邑二百户，並前四百户。時孫权在東關，當豫州南，去江四百餘里。每出兵爲寇，辄西從江夏，東從庐江。國家征伐，亦由淮、沔。是時州軍在项，汝南、弋陽諸郡，守境而已。权無北方之虞，東西有急，並軍相救，故常少敗。逵以爲宜開直道临江，若权自守，則二方無救；若二方無救，則東關可取。乃移屯潦口，陳攻取之计，帝善之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p30.h1",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p30.h2",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.15.p31",
@@ -469,6 +1243,42 @@
           "era": "太和",
           "era_year": 2,
           "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.15.p31.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p31.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.15.p31.h3",
+          "type": "person",
+          "at": 98,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.15.p31.h4",
+          "type": "person",
+          "at": 301,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.15.p31.a1",
@@ -507,7 +1317,17 @@
     {
       "id": "wei.15.p34",
       "text": "评曰：自漢季以来，刺史總統諸郡，賦政于外，非若曩時司察之而已。太祖創基，迄終魏業，此皆其流稱誉有名實者也。咸精達事機，威恩兼著，故能肅齊萬里，見述於後也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.15.p34.h1",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     }
   ]
 }

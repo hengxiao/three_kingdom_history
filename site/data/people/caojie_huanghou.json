@@ -1,0 +1,50 @@
+{
+  "id": "caojie_huanghou",
+  "primary_name": "曹節",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 260,
+  "brief": "漢獻帝皇后，曹操之女，伏皇后被廢後立",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.10",
+      "title": "皇后紀（下）",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p97",
+        "at": 14,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "皇后",
+        "snippet": "二十年春正月，天子立公中女爲皇后。省雲中、定襄、五原、朔方郡，郡置一縣領其民，合以爲新興郡。"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.9",
+        "chapter_title": "孝獻帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.9.p29",
+        "at": 15,
+        "data_url": "data/houhanshu/hhs/09.json",
+        "matched": "皇后",
+        "snippet": "二十年春正月甲子，立貴人曹氏爲皇后。賜天下男子爵，人一級，孝悌、力田二級。賜諸王侯公卿以下穀各有差。秋七月，曹操破漢中，張魯降。"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

@@ -2,21 +2,149 @@ chapter: shu.8
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷38
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: a86c0f307e0aea69b78b3edeb9696893335194e47b1050a86f365007fa5e40d0
 annotations:
+- id: shu.8.p1.h1
+  anchor: shu.8.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.8.p1.h2
+  anchor: shu.8.p1
+  at: 85
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: shu.8.p1.h3
+  anchor: shu.8.p1
+  at: 89
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: shu.8.p1.h4
+  anchor: shu.8.p1
+  at: 135
+  length: 2
+  type: person
+  person_id: hanrong
+  text: 韓融
+  via: primary
+- id: shu.8.p1.h5
+  anchor: shu.8.p1
+  at: 181
+  length: 2
+  type: person
+  person_id: kongzhou
+  text: 孔伷
+  via: primary
+- id: shu.8.p1.h6
+  anchor: shu.8.p1
+  at: 191
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: shu.8.p1.h7
+  anchor: shu.8.p1
+  at: 232
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: shu.8.p1.h8
+  anchor: shu.8.p1
+  at: 234
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: shu.8.p1.h9
+  anchor: shu.8.p1
+  at: 249
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: shu.8.p1.h10
+  anchor: shu.8.p1
+  at: 280
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: shu.8.p1.a1
   anchor: shu.8.p1
   at: 317
   length: 0
   type: pei
   text: 蜀記云：靖後自表曰：「黨賊求生，情所不忍；守官自危，死不成義。竊念古人當難詭常，權以濟其道。」
+- id: shu.8.p1.h11
+  anchor: shu.8.p1
+  at: 342
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
+- id: shu.8.p2.h1
+  anchor: shu.8.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: shu.8.p2.h2
+  anchor: shu.8.p2
+  at: 54
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: shu.8.p2.h3
+  anchor: shu.8.p2
+  at: 76
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
 - id: shu.8.p2.a1
   anchor: shu.8.p2
   at: 161
   length: 0
   type: pei
   text: 《萬機論》云：翔字元鳯。
+- id: shu.8.p3.h1
+  anchor: shu.8.p3
+  at: 52
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: shu.8.p3.h2
+  anchor: shu.8.p3
+  at: 85
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
 - id: shu.8.p3.a1
   anchor: shu.8.p3
   at: 352
@@ -29,6 +157,14 @@ annotations:
   length: 0
   type: pei
   text: 子雲名津，南陽人，為交州刺史。見《吳志》。《漢書霍光傳》曰：「光出都肄郎羽林，道上稱警蹕。」未詳虎賁所出也。
+- id: shu.8.p7.h1
+  anchor: shu.8.p7
+  at: 1
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
 - id: shu.8.p7.a1
   anchor: shu.8.p7
   at: 67
@@ -65,6 +201,38 @@ annotations:
   era: 建安
   era_year: 19
   reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
+- id: shu.8.p7.h2
+  anchor: shu.8.p7
+  at: 82
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p7.h3
+  anchor: shu.8.p7
+  at: 96
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p7.h4
+  anchor: shu.8.p7
+  at: 113
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: shu.8.p8.h1
+  anchor: shu.8.p8
+  at: 24
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: shu.8.p8.t1
   anchor: shu.8.p8
   at: 32
@@ -77,18 +245,82 @@ annotations:
   era: 章武
   era_year: 2
   reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
+- id: shu.8.p8.h2
+  anchor: shu.8.p8
+  at: 69
+  length: 2
+  type: person
+  person_id: yuanhuan
+  text: 袁渙
+  via: primary
+- id: shu.8.p8.h3
+  anchor: shu.8.p8
+  at: 74
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
+- id: shu.8.p8.h4
+  anchor: shu.8.p8
+  at: 79
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: shu.8.p8.a1
   anchor: shu.8.p8
   at: 122
   length: 0
   type: pei
   text: 《魏略》：王朗與文休書曰：「文休足下：消息平安，甚善甚善。豈意脫別三十餘年而無相見之緣乎！詩人比一日之別於歲月，豈況悠悠歷累紀之年者哉！自與子別，若沒而復浮，若絕而復連者數矣。而今而後，居昇平之京師，攀附於飛龍之聖主；儕輩略盡，幸得老與足下併為遺種之叟，而相去數千里，加有邅蹇之隔，時聞消息於風聲，託舊情於思想，眇眇異處，與異世無以異也。往者隨軍到荊州，見鄧子孝、桓元將，粗聞足下動靜，云夫子既在益州，執職領郡，德素規矩，老而不墮。是時侍宿武皇帝於江陵劉景升聽事之上，共道足下於通夜，拳拳饑渴，誠無已也。自天子在東宮，及即位之後，每會群賢，論天下髦雋之見在者，豈獨人盡易為英，士鮮易取最，故乃猥以原壤之朽質，感夫子之情聽；每敘足下，以為謀首，豈其注意，乃復過於前世，書曰『人惟求舊』，易稱『同聲相應，同氣相求』，劉將軍之與大魏，兼而兩之，總此二義。前世邂逅，以同為睽，非武皇帝之旨；頃者蹉跌，其泰而否，亦非足下之意也。深思書、易之義，利結分於宿好，故遣降者送吳所獻致名馬、貂、罽，得因無嫌。道初開通，展敘舊情，以達聲問。久闊情慉，非夫筆墨所能寫陳，亦想足下同其志念。今者，親生男女凡有幾人？年並幾何？僕連失一男一女，今有二男：大兒名肅，年二十九，生於會稽；小兒裁歲餘。臨書愴悢，有懷緬然。」又曰：「過聞『受終於文祖』之言於尚書。又聞『曆數在躬，允執其中』之文於論語。豈自意得於老耄之齒，正值天命受於聖主之會，親見三讓之弘辭，觀眾瑞之總集，睹升堂穆穆之盛禮，瞻燔燎焜曜之青煙；於時忽自以為處唐、虞之運，際於紫微之天庭也。徒慨不得攜子之手，共列於（世）有二子之數，以聽有唐『欽哉』之命也。子雖在裔土，想亦極目而回望，側耳而遐聽，延頸而鶴立也。昔汝南陳公初拜，不依故常，讓上卿於李元禮。以此推之，吾宜退身以避子位也。苟得避子以竊讓名，然後（綬）帶委質，游談於平、勃之間，與子共陳往時避地之艱辛，樂酒酣宴，高談大噱，亦足遺憂而忘老。捉筆陳情，隨以喜笑。」又曰：「前夏有書而未達，今重有書，而並致前問。皇帝既深悼劉將軍之早世，又愍其孤之不易，又惜使足下孔明等士人氣類之徒，遂沈溺於羌夷異種之間，永與華夏乖絕，而無朝聘中國之期緣，瞻睎故土桑梓之望也，故復運慈念而勞仁心，重下明詔以發德音，申敕朗等，使重為書與足下等。以足下聰明，揆殷勤之聖意，亦足悟海岱之所常在，知百川之所宜注矣。昔伊尹去夏而就殷，陳平違楚而歸漢，猶曜德於阿衡，著功於宰相。若足下能弼人之遺孤，定人之猶豫，去非常之偽號，事受命之大魏，客主兼不世之榮名，上下蒙不朽之常耀，功與事並，聲與勛著，考績效，足以超越伊、呂矣。既承詔（直），且服舊之情，情不能已。若不言足下之所能，陳足下之所見，則無以宣明詔命，弘光大之恩，敘宿昔夢想之思。若天啟眾心，子導蜀意，誠此意有攜手之期。若險路未夷，子謀不從，則懼聲問或否，復面何由！前後二書，言每及斯，希不切然有動於懷。足下周游江湖，以暨南海，歷觀夷俗，可謂遍矣；想子之心，結思華夏，可謂深矣。為身擇居，猶原中土；為主擇（居）安，豈可以不系意於京師，而持疑於荒裔乎？詳思愚言，速示還報也。」
+- id: shu.8.p9.h1
+  anchor: shu.8.p9
+  at: 0
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
 - id: shu.8.p9.a1
   anchor: shu.8.p9
   at: 27
   length: 0
   type: pei
   text: 《搜神記》曰：竺嘗從洛歸，未達家數十里，路傍見一婦人，從竺求寄載。行可數里，婦謝去，謂竺曰：「我天使也，當往燒東海麋竺家，感君見載，故以相語。」竺因私請之，婦曰：「不可得不燒。如此，君可馳去，我當緩行，日中火當發。」竺乃還家，遽出財物，日中而火大發。
+- id: shu.8.p9.h2
+  anchor: shu.8.p9
+  at: 31
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: shu.8.p9.h3
+  anchor: shu.8.p9
+  at: 40
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.8.p9.h4
+  anchor: shu.8.p9
+  at: 45
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.8.p9.h5
+  anchor: shu.8.p9
+  at: 50
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.8.p9.t1
   anchor: shu.8.p9
   at: 56
@@ -101,36 +333,548 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196（回溯前事，不推進章節時間軸）
+- id: shu.8.p9.h6
+  anchor: shu.8.p9
+  at: 61
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: shu.8.p9.h7
+  anchor: shu.8.p9
+  at: 64
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h8
+  anchor: shu.8.p9
+  at: 69
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: shu.8.p9.h9
+  anchor: shu.8.p9
+  at: 77
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h10
+  anchor: shu.8.p9
+  at: 82
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h11
+  anchor: shu.8.p9
+  at: 97
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h12
+  anchor: shu.8.p9
+  at: 130
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
 - id: shu.8.p9.a2
   anchor: shu.8.p9
   at: 138
   length: 0
   type: pei
   text: 曹公集載公表曰：「泰山郡界廣遠，舊多輕悍，權時之宜，可分五縣為嬴郡，揀選清廉以為守將。偏將軍麋竺，素履忠貞，文武昭烈，請以竺領嬴郡太守，撫慰吏民。」
+- id: shu.8.p9.h13
+  anchor: shu.8.p9
+  at: 151
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h14
+  anchor: shu.8.p9
+  at: 156
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p9.h15
+  anchor: shu.8.p9
+  at: 167
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.8.p10.h1
+  anchor: shu.8.p10
+  at: 8
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.8.p10.h2
+  anchor: shu.8.p10
+  at: 21
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.8.p10.h3
+  anchor: shu.8.p10
+  at: 24
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: shu.8.p10.h4
+  anchor: shu.8.p10
+  at: 35
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p11.h1
+  anchor: shu.8.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.8.p11.h2
+  anchor: shu.8.p11
+  at: 11
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.8.p11.a1
   anchor: shu.8.p11
   at: 22
   length: 0
   type: pei
   text: 鄭玄傳云：玄薦乾於州。乾被辟命，玄所舉也。
+- id: shu.8.p11.h3
+  anchor: shu.8.p11
+  at: 28
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p11.h4
+  anchor: shu.8.p11
+  at: 39
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.8.p11.h5
+  anchor: shu.8.p11
+  at: 50
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.8.p11.h6
+  anchor: shu.8.p11
+  at: 54
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.8.p11.h7
+  anchor: shu.8.p11
+  at: 63
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.8.p11.h8
+  anchor: shu.8.p11
+  at: 117
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p11.h9
+  anchor: shu.8.p11
+  at: 138
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.8.p11.h10
+  anchor: shu.8.p11
+  at: 142
+  length: 2
+  type: person
+  person_id: jianyong
+  text: 簡雍
+  via: primary
+- id: shu.8.p12.h1
+  anchor: shu.8.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: jianyong
+  text: 簡雍
+  via: primary
+- id: shu.8.p12.h2
+  anchor: shu.8.p12
+  at: 13
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h3
+  anchor: shu.8.p12
+  at: 23
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h4
+  anchor: shu.8.p12
+  at: 31
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.8.p12.h5
+  anchor: shu.8.p12
+  at: 34
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.8.p12.h6
+  anchor: shu.8.p12
+  at: 53
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h7
+  anchor: shu.8.p12
+  at: 59
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.8.p12.h8
+  anchor: shu.8.p12
+  at: 69
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h9
+  anchor: shu.8.p12
+  at: 95
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h10
+  anchor: shu.8.p12
+  at: 117
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h11
+  anchor: shu.8.p12
+  at: 137
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.8.p12.h12
+  anchor: shu.8.p12
+  at: 191
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h13
+  anchor: shu.8.p12
+  at: 204
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h14
+  anchor: shu.8.p12
+  at: 221
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p12.h15
+  anchor: shu.8.p12
+  at: 250
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.8.p12.a1
   anchor: shu.8.p12
   at: 271
   length: 0
   type: pei
   text: 或曰：雍本姓耿，幽州人語謂耿爲簡，遂隨音變之。
+- id: shu.8.p13.h1
+  anchor: shu.8.p13
+  at: 18
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.8.p13.h2
+  anchor: shu.8.p13
+  at: 21
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p13.h3
+  anchor: shu.8.p13
+  at: 35
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.8.p13.h4
+  anchor: shu.8.p13
+  at: 40
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.8.p13.h5
+  anchor: shu.8.p13
+  at: 71
+  length: 2
+  type: person
+  person_id: jianyong
+  text: 簡雍
+  via: primary
+- id: shu.8.p13.h6
+  anchor: shu.8.p13
+  at: 74
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.8.p13.h7
+  anchor: shu.8.p13
+  at: 84
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.8.p13.h8
+  anchor: shu.8.p13
+  at: 102
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.8.p13.h9
+  anchor: shu.8.p13
+  at: 142
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.8.p13.h10
+  anchor: shu.8.p13
+  at: 155
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.8.p13.h11
+  anchor: shu.8.p13
+  at: 159
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.8.p13.h12
+  anchor: shu.8.p13
+  at: 162
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
+- id: shu.8.p13.h13
+  anchor: shu.8.p13
+  at: 165
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.8.p14.h1
+  anchor: shu.8.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: qinmi
+  text: 秦宓
+  via: primary
+- id: shu.8.p14.h2
+  anchor: shu.8.p14
+  at: 33
+  length: 2
+  type: person
+  person_id: liuyan_shu
+  text: 劉焉
+  via: primary
+- id: shu.8.p15.h1
+  anchor: shu.8.p15
+  at: 11
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: shu.8.p15.h2
+  anchor: shu.8.p15
+  at: 191
+  length: 2
+  type: person
+  person_id: renan
+  text: 任安
+  via: primary
 - id: shu.8.p15.a1
   anchor: shu.8.p15
   at: 327
   length: 0
   type: pei
   text: 益部耆舊傳曰：安，廣漢人。少事聘士楊厚，究極圖籍，遊覽京師，還家講授，與董扶俱以學行齊聲。郡請功曹，州辟治中別駕，終不久居。舉孝廉茂才，太尉載辟，除博士，公車徵，皆稱疾不就。州牧劉焉表薦安味精道度，厲節高邈，揆其器量，國之元寶，宜處弼疑之輔，以消非常之咎。玄纁之禮，所宜招命。王塗隔塞，遂無聘命。年七十九，建安七年卒，門人慕仰，為立碑銘。後丞相亮問秦宓以安所長，宓曰：「記人之善，忘人之過。」
+- id: shu.8.p16.h1
+  anchor: shu.8.p16
+  at: 0
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.8.p17.h1
+  anchor: shu.8.p17
+  at: 71
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: shu.8.p17.h2
+  anchor: shu.8.p17
+  at: 465
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: shu.8.p18.h1
+  anchor: shu.8.p18
+  at: 4
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.8.p18.h2
+  anchor: shu.8.p18
+  at: 11
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: shu.8.p18.h3
+  anchor: shu.8.p18
+  at: 29
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.8.p19.h1
+  anchor: shu.8.p19
+  at: 53
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
 - id: shu.8.p19.a1
   anchor: shu.8.p19
   at: 151
   length: 0
   type: pei
   text: 臣松之案：書傳魯定公無善可稱。宓謂之賢者，淺學所未達也。
+- id: shu.8.p19.h2
+  anchor: shu.8.p19
+  at: 217
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: shu.8.p20.a1
   anchor: shu.8.p20
   at: 78
@@ -143,6 +887,14 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：今論語作棘子成。子成曰：「君子質而已矣，何以文為！」屈於子貢之言，故謂之誤也。
+- id: shu.8.p21.h1
+  anchor: shu.8.p21
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.8.p21.a1
   anchor: shu.8.p21
   at: 212
@@ -167,6 +919,14 @@ annotations:
   length: 0
   type: pei
   text: 蜀記曰：三皇乘祗車出谷口。未詳宓所由知為斜谷也。
+- id: shu.8.p24.h1
+  anchor: shu.8.p24
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.8.p24.t1
   anchor: shu.8.p24
   at: 42
@@ -179,9 +939,65 @@ annotations:
   era: 建興
   era_year: 2
   reasoning: 原文「建興二年」直接出现年号；解析為 AD 224
+- id: shu.8.p24.h2
+  anchor: shu.8.p24
+  at: 77
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: shu.8.p25.h1
+  anchor: shu.8.p25
+  at: 3
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.8.p25.h2
+  anchor: shu.8.p25
+  at: 35
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: shu.8.p25.a1
   anchor: shu.8.p25
   at: 48
   length: 0
   type: pei
   text: 《萬機論》論許子將曰：許文休者，大較廊廟器也，而子將貶之。若實不貴之，是不明也；誠令知之，蓋善人也。
+- id: shu.8.p25.h3
+  anchor: shu.8.p25
+  at: 48
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.8.p25.h4
+  anchor: shu.8.p25
+  at: 51
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.8.p25.h5
+  anchor: shu.8.p25
+  at: 54
+  length: 2
+  type: person
+  person_id: jianyong
+  text: 簡雍
+  via: primary
+- id: shu.8.p25.h6
+  anchor: shu.8.p25
+  at: 71
+  length: 2
+  type: person
+  person_id: qinmi
+  text: 秦宓
+  via: primary

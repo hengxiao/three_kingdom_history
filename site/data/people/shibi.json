@@ -1,0 +1,38 @@
+{
+  "id": "shibi",
+  "primary_name": "史弼",
+  "courtesy_name": "公謙",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.64",
+      "title": "吳延史盧趙列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/64.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p7",
+        "at": 27,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "史弼",
+        "snippet": "…詔書下舉鉤黨，郡國所奏相連及者，多至百數，唯平原相史弼獨無所上。詔書前後迫切州郡，髡笞掾史，從事坐傳捨責曰：「詔書疾惡黨人，旨意懇惻。青州六郡，其五有黨，平原何治而得獨無？」弼曰：…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": "gaixun",
+  "primary_name": "蓋勳",
+  "courtesy_name": "元固",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.58",
+      "title": "虞傅蓋臧列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/58.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.58",
+        "chapter_title": "漢紀五十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.58.p63",
+        "at": 53,
+        "data_url": "data/zztj/zztj/58.json",
+        "matched": "蓋勳",
+        "snippet": "…罪。刺史梁鵠懼，欲殺正和以免其負，訪於漢陽長史敦煌蓋勳。勳素與正和有仇，或勸勳因此報之，勳曰：「謀事殺良，非忠也；乘人之危，非仁也。」乃諫鵠曰：「夫紲食鷹隼，欲其鷙也。鷙而亨之，將…"
+      },
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p20",
+        "at": 142,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "蓋勳",
+        "snippet": "…「無上將軍」，行陳三匝而還，以兵授進。帝問討虜校尉蓋勳曰：「吾講武如是，何如？」對曰：「臣聞先王□翟德不觀兵。今寇在遠而設近陳，不足以昭果毅，只黷武耳！」帝曰：「善！恨見君晚，群臣…"
+      },
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p72",
+        "at": 5,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "蓋勳",
+        "snippet": "卓征京兆尹蓋勳為議郎，時左將軍皇甫嵩將兵三萬屯扶風。勳密與嵩謀討卓。會卓亦征嵩為城門校尉，嵩長史梁衍說嵩曰：「董卓寇掠京邑，廢立從意，今征將…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p200",
+        "at": 34,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "蓋勳",
+        "snippet": "…為佐軍校尉集解引洪頤粻說，謂何進傳作「中軍校尉」，蓋勳傳、五行志俱作「佐軍校尉」。按：沉家本謂注引山陽公載記作「中軍」，獻紀注引亦同，魏志亦作「中軍」，案時有上軍、下軍，則作「中軍…"
+      }
+    ]
+  },
+  "n_mentions": 4
+}

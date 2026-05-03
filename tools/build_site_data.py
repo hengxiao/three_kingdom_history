@@ -142,6 +142,9 @@ def _strip_annotation_for_site(a: dict) -> dict:
             out["month_ordinal"] = a["month_ordinal"]
         if a.get("reasoning"):
             out["reasoning"] = a["reasoning"]
+    elif a["type"] == "person":
+        out["person_id"] = a["person_id"]
+        out["via"] = a.get("via", "primary")
     return out
 
 
@@ -214,6 +217,8 @@ def build_all(*, repo_root: Path = REPO_ROOT_DEFAULT,
                         if a["type"] in ("pei", "lixian"))
             n_temporal = sum(1 for s in ch["segments"] for a in s["annotations"]
                              if a["type"] == "temporal")
+            n_persons = sum(1 for s in ch["segments"] for a in s["annotations"]
+                            if a["type"] == "person")
             results.append(BuildResult(
                 chapter_id=ch["id"], out_path=out,
                 n_segments=ch["n_segments"], n_pei=n_pei, n_temporal=n_temporal,
@@ -236,6 +241,7 @@ def build_all(*, repo_root: Path = REPO_ROOT_DEFAULT,
                 "n_segments": ch["n_segments"],
                 "n_pei": n_pei,
                 "n_temporal": n_temporal,
+                "n_persons": n_persons,
             })
 
     # Stable ordering: combine each work's book_order list.

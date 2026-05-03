@@ -1,0 +1,105 @@
+{
+  "id": "zhuzhi",
+  "primary_name": "朱治",
+  "courtesy_name": "君理",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.11",
+      "title": "吳書·三朱吕範傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/11.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p69",
+        "at": 4,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "朱治",
+        "snippet": "初，丹陽朱治嘗為孫堅校尉，見袁術政德不立，勸孫策歸取江東。時吳景攻樊能、張英等，歲餘不克，策說術曰：「家有舊恩在東，願助舅討橫江。橫江拔，…"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p77",
+        "at": 4,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "朱治",
+        "snippet": "丹陽都尉朱治逐吳郡太守許貢而據其郡，貢南依山賊嚴白虎。"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p7",
+        "at": 51,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "朱治",
+        "snippet": "…曰：「朱然膽守有餘，愚以為可任。」朱然者，九真太守朱治姊子也；本姓施氏，治養以為子，時為昭武將軍。蒙卒，吳王假然節，鎮江陵。及曹真等圍江陵，破孫盛，吳王遣諸葛瑾等將兵往解圍，夏侯尚…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.1",
+        "chapter_title": "吳書·孫破虜討逆傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.1.p13",
+        "at": 183,
+        "data_url": "data/sanguozhi/wu/01.json",
+        "matched": "朱治",
+        "snippet": "…豫章太守，分豫章爲廬陵郡，以賁弟輔爲廬陵太守，丹揚朱治爲呉郡太守。彭城張昭、廣陵張紘、秦松、陳端等，爲謀主。"
+      },
+      {
+        "chapter_id": "wu.12",
+        "chapter_title": "吳書·虞陆张骆陆吾朱传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.12.p21",
+        "at": 386,
+        "data_url": "data/sanguozhi/wu/12.json",
+        "matched": "朱治",
+        "snippet": "…國家之於暨艷，不內之忌族，猶等之平民，是故先見用於朱治，次見舉於眾人，中見任於明朝，亦見交於溫也。君臣之義，義之最重，朋友之交，交之最輕者也。國家不嫌於艷為最重之義，是以溫亦不嫌與…"
+      },
+      {
+        "chapter_id": "wu.6",
+        "chapter_title": "吳書·宗室傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.6.p13",
+        "at": 22,
+        "data_url": "data/sanguozhi/wu/06.json",
+        "matched": "朱治",
+        "snippet": "孫翊字叔弼，權弟也，驍悍果烈，有兄策風。太守朱治舉孝廉，司空辟。建安八年，以偏將軍領丹楊太守，時年二十。後卒為左右邊鴻所殺，鴻亦即誅。子松為射聲校尉、都鄉侯。黃龍三年卒。蜀丞…"
+      },
+      {
+        "chapter_id": "wu.7",
+        "chapter_title": "吳書·張顧諸葛歩傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.7.p22",
+        "at": 59,
+        "data_url": "data/sanguozhi/wu/07.json",
+        "matched": "朱治",
+        "snippet": "…復托事造端，以物類相求，於是權意往往而釋。呉郡太守朱治，權舉將也，權曾有以望之，而素加敬，難自詰讓，忿忿不解。瑾揣知其故，而不敢顯陳，乃乞以意私自問，遂於權前爲書，泛論物理，因以己…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 7
+}

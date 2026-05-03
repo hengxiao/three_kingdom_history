@@ -29,7 +29,17 @@
     {
       "id": "hhs.80.p3",
       "text": "臣聞知而復知，是爲重知。臣所欲言，陛下已知，故略其梗槪，不敢具陳。昔般庚去奢，行儉於亳；成周之隆，乃即中洛。遭時制都，不常厥邑。賢聖之慮，蓋有優劣；霸王之姿，明知相絶。守國之勢，同歸異術；或棄去阻厄，務處平易；或據山帶河，幷呑六國；或富貴思歸，不顧見襲；或掩空撃虚，自蜀漢出，即日車駕，策由一卒；或知而不從，久都墝埆。臣不敢有所據。竊見司馬相如、楊子雲作辭賦以諷主上，臣誠慕之，伏作書一篇，名曰《論都》，謹幷封奏如左。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p3.h1",
+          "type": "person",
+          "at": 181,
+          "length": 2,
+          "text": "主上",
+          "person_id": "liuxiu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.80.p4",
@@ -123,7 +133,17 @@
     {
       "id": "hhs.80.p10",
       "text": "今天下新定，矢石之勤始瘳，而主上方以邊垂爲憂，忿葭萌之不柔，未遑於論都而遺思雍州也。方躬勞聖思，以率海内，厲撫名將，略地疆外，信威於徴伐，展武乎荒裔。若夫文身鼻飲緩耳之主，椎結左衽F045鍝之君，東南殊俗不羈之國，西北絶域難制之鄰，靡不重譯納貢，請爲籓臣。上猶謙讓，而不伐勤。意以爲獲無用之虜，不如安有益之民；略荒裔之地，不如保殖五谷之淵；遠救於已亡，不若近而存存也。今國家躬修道德，吐惠含仁，湛恩沾洽，時風顯宣。徒垂意於持平守實，務在愛育元元，苟有便於王政者，聖主納焉。何則？物罔挹而不損，道無隆而不移，陽盛則運，陰滿則虧，故存不忘亡，安不諱危，雖有仁義，猶設城池也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p10.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "主上",
+          "person_id": "liuxiu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.80.p11",
@@ -315,6 +335,15 @@
           "reasoning": "原文「永元四年」直接出现年号；解析為 AD 92"
         },
         {
+          "id": "hhs.80.p37.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.80.p37.t2",
           "type": "temporal",
           "at": 21,
@@ -388,13 +417,86 @@
           "era": "元初",
           "era_year": 1,
           "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114"
+        },
+        {
+          "id": "hhs.80.p41.h1",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "劉珍",
+          "person_id": "liuzhen",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p41.h2",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "馬融",
+          "person_id": "marong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p41.h3",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.80.p42",
       "text": "李尤字伯仁，廣漢雒人也。少以文章顯。和帝時，侍中賈逵薦尤有相如、楊雄之風，召詣東觀，受詔作賦，拜蘭臺令史。稍遷，安帝時爲諫議大夫，受詔與謁者僕射劉珍等倶撰《漢記》。後帝廢太子爲濟陰王，尤上書諫爭。順帝立，遷樂安相。年八十三卒。所著詩、賦、銘、誄、頌、《七嘆》、《哀典》，凡二十八篇。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p42.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.80.p42.h2",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.80.p42.h3",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "劉珍",
+          "person_id": "liuzhen",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p42.h5",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.80.p42.h4",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p43",
@@ -415,6 +517,24 @@
       "id": "hhs.80.p46",
       "text": "劉珍字秋孫，一名寶，南陽蔡陽人也。少好學。永初中，爲謁者僕射。鄧太後詔，使與校書劉騊駼、馬融及《五經》博士，校定東觀《五觀》、諸子傳記、百家藝術，整齊脱誤，是正文字。永寧元年，太後又詔珍與騊駼作建武已來名臣傳，遷侍中、越騎校尉。延光四年，拜宗正。明年，轉衞尉，卒官。著誄、頌、連珠凡七篇。又撰《釋名》三十篇，以辯萬物之稱號雲。",
       "annotations": [
+        {
+          "id": "hhs.80.p46.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉珍",
+          "person_id": "liuzhen",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p46.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "馬融",
+          "person_id": "marong",
+          "via": "primary"
+        },
         {
           "id": "hhs.80.p46.t1",
           "type": "temporal",
@@ -457,17 +577,56 @@
     {
       "id": "hhs.80.p47",
       "text": "葛龔字元甫，梁國寧陵人也。和帝時，以善文記知名。性慷慨壯烈，勇力過人。安帝永初中，舉孝廉，爲太官丞，上便宜四事，拜蕩陰令。辟太尉府，病不就。州舉茂才，爲臨汾令。居二縣，皆有稱績。著文、賊、碑、誄、書記，凡十二篇。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p47.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.80.p47.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p48",
       "text": "王逸字叔師，南郡宜城人也。元初中，舉上計吏，爲校書郎。順帝時，爲侍中。著《楚辭章句》行於世。其賦、誄、書、論及雜文，凡二十一篇。又作《漢詩》百二十三篇。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p48.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p49",
       "text": "子延壽，字文考，有俊才。少遊魯國，作《靈光殿賦》。後蔡邕亦造此賦，未成，及見延壽所爲，甚奇之，遂輟翰而已。曾有異夢，意惡之，乃作《夢賦》以自厲。後溺水死，時年二十餘。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p49.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p50",
@@ -522,7 +681,17 @@
     {
       "id": "hhs.80.p60",
       "text": "桓帝時，爲臨潁侯相，徴拜太中大夫，著作東觀。再遷北地太守，入拜尙書令。後爲陳相，卒官。著詩、頌、碑、銘、書、策，凡十五篇。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p60.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p61",
@@ -600,13 +769,32 @@
           "era": "光和",
           "era_year": 1,
           "reasoning": "原文「光和元年」直接出现年号；解析為 AD 178"
+        },
+        {
+          "id": "hhs.80.p73.h1",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "羊陟",
+          "person_id": "yangzhi",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.80.p74",
       "text": "及西還，道經弘農，過侯太守皇甫規，門者不即通，壹遂遁去。門吏懼，以白之，規聞壹名大驚，乃追書謝曰：「蹉跌不面，企德懷風，虛心委質，爲日久矣。側聞仁者愍其區區，冀承清誨，以釋遙悚。今旦，外白有一尉兩計吏，不道屈尊門下，更啓乃知已去。如印綬可投，夜豈待旦。惟君明睿，平其夙心。寧當慢慠，加於所天。事在悖惑，不足具責。倘可原察，追修前好，則何福如之！謹遣主簿奉書。下筆氣結，汗流竟趾。」壹報曰：「君學成師範，縉紳歸慕，仰高希驥，歷年滋多。旋轅兼道，渴於言侍，沐浴晨興，昧旦守門，實望仁君，昭其懸遲。以貴下賤，握發垂接。高可敷玩墳典，起發聖意；下則抗論當世，消弭時災。豈悟君子，自生怠倦，失恂恂善誘之德，同亡國驕惰之志！蓋見機而作，不俟終日，是以夙退自引，畏使君勞。昔人或歷説而不遇，或思士而無從，皆歸之於天，不尤於物。今壹自譴而已，豈敢有猜！仁君忽一匹夫，於德何損？而遠辱手筆，追路相尋，誠足愧也。壹之區區，曷云量己？其嗟可去，謝也可食，誠則頑薄，實識其趣。但關節疢動，膝炙壞潰，請俟他日，乃奉其情。輒誦來貺，永以自慰。」遂去不顧。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p74.h1",
+          "type": "person",
+          "at": 13,
+          "length": 3,
+          "text": "皇甫規",
+          "person_id": "huangfugui",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p75",
@@ -661,7 +849,17 @@
     {
       "id": "hhs.80.p85",
       "text": "桓帝時，舉孝廉，除北新城長。告縣人曰：「昔文翁在蜀，道著巴漢；庚桑瑣隸，風移碨磥。吾雖小宰，猶有社稷，苟赴期會，理文墨，豈本志乎！」乃更大作講舍，延聚生徙數百人，朝夕自往勸誡，身執經卷，試策殿最，儒化大行。此邑至後猶稱其教焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p85.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p86",
@@ -676,7 +874,17 @@
     {
       "id": "hhs.80.p88",
       "text": "邊讓字文禮，除留浚儀人也。少辯博，能屬文。作《章華賦》，雖多淫麗之辭，而終之以正，亦如相如之諷也。其辭曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p88.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "邊讓",
+          "person_id": "bianrang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p89",
@@ -701,17 +909,74 @@
     {
       "id": "hhs.80.p93",
       "text": "大將軍何進聞讓才名，欲辟命之。恐不至，詭以軍事徵召。旣到，署令史，進以禮見之。讓善占射，能辭對。時，賓客滿堂，莫不羨其風。府掾孔融、王朗幷修刺候焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p93.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p93.h2",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p93.h3",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p94",
       "text": "議郎蔡邕深敬之，以爲讓宜處高任，乃薦於何進曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p94.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p94.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p95",
       "text": "伏惟幕府初開，博選清英，華髮舊德，幷爲元鬼。雖振鷺之集西雍，濟濟之在周庭，無以或加。竊見令史陳留邊讓，天授逸才，聰明賢智。髫齓夙孤，不盡家訓。及就學廬，便受大典。初涉諸經，見本知義。授者不能對其問，章句不能逮其意。心通性達，口辯辭長。非禮不動，非法不言。若處狐疑之論，定嫌審之分，經典交至，撿括參合，眾夫寂焉，莫之能奪也。使讓生在唐、虞，則元、凱之次，運値仲尼，則顔、冉之亞，豈徒俗之凡偶近器而已者哉！階級名位，亦宜超然。若復隨輩而進，非所以章瑰偉之高價，昭知人之絶明也。傳曰：「函牛之鼎以亨雞，多汁則淡而不可食，少計則熬而不可熟。」此言大器之於小用，固有所不宜也。邕竊悁邑，怪此寶鼎未受犧牛大羹之和，久在煎熬臠割之間。願明將軍回謀垂慮，裁加少納，貢之機密，展之力用。若以年齒爲嫌，則顔回不得貫德行之首，子奇終無理阿之功。苟堪其事，古今一也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p95.h1",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "邊讓",
+          "person_id": "bianrang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p96",
@@ -721,12 +986,50 @@
     {
       "id": "hhs.80.p97",
       "text": "初平中，王室大亂，讓去官還家。恃才氣，不屈曹操，多輕侮之言。建安中，其鄉人有構讓於操，操告郡就殺之。文多遺失。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p97.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p97.h2",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p97.h3",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "hhs.80.p98",
       "text": "酈炎字文勝，范陽人，酈食其之後也。炎有文才，解音律，言論給捷，多服其能理。靈帝時，州郡辟命，皆不就，有志氣。作詩二篇曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p98.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p99",
@@ -741,7 +1044,17 @@
     {
       "id": "hhs.80.p101",
       "text": "炎後風病慌忽。性至孝，遭母憂，病甚發動。妻始産而驚死，妻家訟之，收繫獄。炎病不能理對，嘉平六年，遂死獄中，時年二十八。尙書盧植爲之誄贊，以昭其懿德。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p101.h1",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "盧植",
+          "person_id": "luzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p102",
@@ -751,12 +1064,32 @@
     {
       "id": "hhs.80.p103",
       "text": "高彪字義方，吳郡無錫人也。家本單寒，至彪爲諸生，遊太學。有雅才而訥於言。嘗從馬融欲訪大義，融疾，不獲見，乃復剌遺融書曰：「承服風問，從來有年，故不待介者而謁大君子之門，冀一見龍光，以敍腹心之願。不圖遭疾，幽閉莫啓。昔周公旦父文兄武，九命作伯，以尹華夏，猶揮沐吐餐，垂接白屋，故周道以隆，天下歸德。公今養疴傲士，故其宜也。」融省書慚，追謝還之，彪逝而不顧。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p103.h1",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "馬融",
+          "person_id": "marong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p104",
       "text": "後郡舉孝廉，試經第一。除郎中，校書東觀。數奏賦、頌、奇文，因事諷諫，靈帝異之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p104.h1",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p105",
@@ -776,12 +1109,50 @@
     {
       "id": "hhs.80.p108",
       "text": "張超字子幷，河間鄚人也，留侯良之後也。有文才。靈帝時，從車騎將軍朱雋徵黃巾，爲別部司馬。著賦、頌、碑文、薦、檄、箋、書、謁文、嘲，凡十九篇。超又善於草書，妙絶時人，世共傳之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p108.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.80.p109",
       "text": "禰衡字正平，平原般人也。少有才辯，而尙氣剛傲，好矯時慢物。興平中，避難荆州。建安初，來遊許下。始達潁川，乃陰懷一剌，旣而無所之適，至於刺字漫滅。是時，許都新建，賢士大夫，四方來集。或問衡曰：「盍從陳長文、司馬伯達乎？」對曰：「吾焉能從屠沽兒耶！」又問：「荀文若、趙稚長云何？」衡曰：「文若可借面弔喪，稚長可使監廚請客。」唯善魯國孔融及弘農楊脩。常稱曰：「大兒孔文舉，小兒楊德祖。餘子碌碌，莫足數也。」融亦深愛其才。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p109.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "禰衡",
+          "person_id": "miheng",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p109.h2",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p109.h3",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "楊脩",
+          "person_id": "yangxiu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p110",
@@ -791,32 +1162,236 @@
     {
       "id": "hhs.80.p111",
       "text": "臣聞洪水橫流，帝思俾乂，旁求四方，以招賢俊。昔孝武繼統，將弘祖業，疇咨熙載，群士響臻。陛下睿聖，纂承基緒，遭遇厄運，勞謙日昃。惟岳降神，異人幷出。竊見處士平原禰衡，年二十四，字正平，淑質貞亮，英才卓礫。初涉藝文，昇堂睹奧。目所一見，輒誦於口；耳所瞥聞，不忘於心。性與道合，思若有神。弘羊潛計，安世默識，以衡準之，誠不足怪。忠果正直，志懷霜雪。見善若驚，疾惡若仇。任座抗行，史魚厲節，殆無以過也。鷙鳥累伯，不如一鶚。使衡立朝，必有可觀。飛辯騁辭，溢氣坌涌，解疑釋結，臨敵有餘。昔賈誼求試屬國，詭繫單於；終軍欲以長纓，牽致勁越。弱冠慷慨，前世美之。近日路粹、嚴象，亦用異才，擢拜臺郎，衡宜與爲比。如得龍躍天衢，振翼雲漢，揚聲紫微，垂光虹蜺，足以昭近署之多士，增四門之穆穆。鈞天廣樂，必有奇麗之觀；帝室皇居，必蓄非常之寶。若衡等輩，不可多得。《激楚》、《楊阿》，至妙之容，臺牧者之所貪；飛兔、騕褭，絶足奔放，良、樂之所急。臣等區區，敢不以聞。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p111.h2",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "xianhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.80.p111.h1",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "禰衡",
+          "person_id": "miheng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p112",
       "text": "融旣愛衡才，數稱述於曹操。操欲見之，而衡素相輕疾，自稱狂病，不肯往，而數有恣言。操懷忿，而以其才名，不欲殺之。聞衡善擊鼓，乃召爲鼓史，因大會賓客，閲試音節。諸史過者，皆令脫其故衣，更著岑牟、單絞之服。次至衡，衡方爲《漁陽》參撾，蹀𨄌而前，容態有異，聲節悲壯，聽者莫不慷慨。衡進至操前而止，吏呵之曰：「鼓史何不改裝，而輕敢進乎？」衡曰：「諾。」於是先解衵衣，次釋餘服，裸身而立，徐取岑牟、單絞而著之，畢，復參撾而去，顔色不怍。操笑曰：「本欲辱衡，衡反辱孤。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p112.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p112.h2",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p112.h3",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p112.h4",
+          "type": "person",
+          "at": 139,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p112.h5",
+          "type": "person",
+          "at": 212,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "hhs.80.p113",
       "text": "孔融退而數之曰：「正平大雅，固當爾邪？」因宣操區區之意。衡許往。融復見操，説衡狂疾，今求得自謝。操喜，敕門者有客便通，待之極晏。衡乃著布單衣、疏巾，手持三尺梲杖，坐大營門，以杖捶地大駡。吏曰：「外有狂生，坐於營門，言語悖逆，請收案罪。」操怒，謂融曰：「禰衡竪子，孤殺之猶雀鼠耳。顧此人素有虛名，遠近將謂孤不能容之，今送與劉表，視當何如。」於是遣人騎送之。臨發，眾人爲之祖道，先供設於城南，乃更相戒曰：「禰衡勃虐無禮，今因其後到，咸當以不起折之也。」及衡至，眾人莫肯興，衡坐而大號。眾問其故，衡曰：「坐者爲冢，臥者爲屍。屍冢之間，能不悲乎！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p113.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p113.h2",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.80.p113.h3",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.80.p113.h4",
+          "type": "person",
+          "at": 48,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.80.p113.h5",
+          "type": "person",
+          "at": 118,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.80.p113.h6",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "禰衡",
+          "person_id": "miheng",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p113.h7",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p113.h8",
+          "type": "person",
+          "at": 201,
+          "length": 2,
+          "text": "禰衡",
+          "person_id": "miheng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p114",
       "text": "劉表及荆州士大夫，先服其才名，甚賓禮之，文章言議，非衡不定。表嘗與諸文人共草章奏，幷極其才思。時衡出，還見之，開省未周，因毁以抵地。表憮然爲駭。衡乃從求筆札，須臾立成，辭義可觀。表大悅，益重之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p114.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.80.p114.h2",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p114.h3",
+          "type": "person",
+          "at": 66,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.80.p114.h4",
+          "type": "person",
+          "at": 89,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "hhs.80.p115",
       "text": "後復侮慢於表，表恥，不能容，以江夏太守黃祖性急，故送衡與之，祖亦善待焉。衡爲作書記，輕重疏密，各得體宜。祖持其手曰：「處士，此正得祖意，如祖腹中之所欲言也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p115.h1",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.80.p115.h2",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "hhs.80.p116",
       "text": "祖長子射，爲章陵太守，尤善於衡。嘗與衡俱遊，共讀蔡邕所作碑文，射愛其辭，還恨不繕寫。衡曰：「吾雖一覽，猶能識之，唯其中石缺二字，爲不明耳。」因書出之，躬馳使寫碑，還校，如衡所書，莫不嘆伏。射時大會賓客，人有獻鸚鵡者，射舉巵於衡曰：「願先生賦之，以娛嘉賓。」衡攬筆而作，文無加點，辭采甚麗。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p116.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.80.p117",

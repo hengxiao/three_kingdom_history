@@ -1,0 +1,49 @@
+{
+  "id": "louwang",
+  "primary_name": "樓望",
+  "courtesy_name": "次子",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.79",
+      "title": "儒林列传",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/79.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p77",
+        "at": 115,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "樓望",
+        "snippet": "…，行刑訖，以狀上。堅承檄，即勒兵襲睿。睿聞兵至，登樓望之，遣問：「欲何為？」堅前部答曰：「兵久戰勞苦，欲詣使君求資直耳。」睿見堅驚曰：「兵自求賞，孫府君何以在其中？」堅曰：「被使者…"
+      },
+      {
+        "chapter_id": "zztj.82",
+        "chapter_title": "晉紀四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.82.p11",
+        "at": 26,
+        "data_url": "data/zztj/zztj/82.json",
+        "matched": "樓望",
+        "snippet": "…，帝以才人謝玖賜太子，生皇孫遹。宮中嘗夜失火，帝登樓望之，遹年五歲，牽帝裾入暗中曰：「暮夜倉猝，宜備非常，不可令照見人主。」帝由是奇之。嘗對群臣稱遹似宣帝，故天下咸歸仰之。帝知太子…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

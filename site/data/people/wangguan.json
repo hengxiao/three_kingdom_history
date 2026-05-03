@@ -1,0 +1,83 @@
+{
+  "id": "wangguan",
+  "primary_name": "王觀",
+  "courtesy_name": "偉臺",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.24",
+      "title": "魏書·韓崔高孫王傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/24.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p37",
+        "at": 87,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "王觀",
+        "snippet": "…屯洛水浮橋，召司徒高柔假節行大將軍事，據爽營，太僕王觀行中領軍事，據羲營。因奏爽罪惡於帝曰；「臣昔從遼東還，先帝詔陛下、秦王及臣升御床，把臣臂，深以後事為念。臣言『太祖、高祖亦屬臣…"
+      },
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p17",
+        "at": 32,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "王觀",
+        "snippet": "…徒，左僕射盧毓為司空。毓固讓驃騎將軍王昶、光祿大夫王觀、司隸校尉琅邪王祥，詔不許。祥性至孝，繼母朱氏遇之無道，祥愈恭謹。朱氏子覽，年數歲，每見祥被楚撻，輒涕泣抱持母；母以非理使祥，…"
+      },
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p70",
+        "at": 9,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "王觀",
+        "snippet": "癸亥，以尚書左僕射王觀為司空。"
+      },
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p72",
+        "at": 66,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "王觀",
+        "snippet": "…，遣之國；亮自殺，衛送者皆伏罪。冬，十月，陽鄉肅侯王觀卒。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p65",
+        "at": 136,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "王觀",
+        "snippet": "…后。及葬，車服制度皆如漢氏故事。癸亥，以尚書右僕射王觀為司空，冬十月，觀薨。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 5
+}

@@ -11,41 +11,333 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷55",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 61,
+  "n_segments": 60,
   "segments": [
     {
       "id": "wu.10.p1",
       "text": "程普黃蓋韓當蔣欽周泰陳武董襲甘寧凌統徐盛潘璋丁奉",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "黃蓋",
+          "person_id": "huanggai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h3",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "韓當",
+          "person_id": "handang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h4",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h5",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "周泰",
+          "person_id": "zhoutai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h6",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "陳武",
+          "person_id": "chenwu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h7",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "董襲",
+          "person_id": "dongxi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h8",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h9",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h10",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h11",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p1.h12",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p2",
       "text": "程普字德謀，右北平土垠人也。初爲州郡吏，有容貌計略，善於應對。從孫堅征伐，討黃巾於宛、鄧，破董卓於陽人，攻城野戰，身被創夷。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p2.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "孫堅",
+          "person_id": "sunjian",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p2.h3",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p3",
       "text": "堅薨，復隨孫策在淮南，從攻廬江，拔之，還俱東渡。策到橫江、當利，破張英、于麋等，轉下秣陵、湖熟、句容、曲阿，普皆有功，增兵二千，騎五十匹。進破烏程、石木、波門、陵傳、餘杭，普功爲多。策入會稽，以普爲吳郡都尉，治錢唐。後徙丹楊都尉，居石城。復討宣城、涇、安吳、陵陽、春穀諸賊，皆破之。策甞攻祖郎，大爲所圍，普與一騎共蔽扞策，驅馬疾呼，以矛突賊，賊披，策因隨出。後拜盪寇中郎將，領零陵太守，從討劉勳於尋陽，進攻黃祖於沙羨，還鎮石城。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p3.h2",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p3.h3",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p3.h4",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p3.h5",
+          "type": "person",
+          "at": 141,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p3.h6",
+          "type": "person",
+          "at": 159,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p3.h7",
+          "type": "person",
+          "at": 174,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.10.p4",
       "text": "策薨，與張昭等共輔孫權，遂周旋三郡，平討不服。又從征江夏，還過豫章，別討樂安。樂安平定，代太史慈備海昏，與周瑜爲左右督，破曹公於烏林，又進攻南郡，走曹仁。拜裨將軍，領江夏太守，治沙羨，食四縣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p4.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p4.h3",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p4.h4",
+          "type": "person",
+          "at": 45,
+          "length": 3,
+          "text": "太史慈",
+          "person_id": "taishici",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p4.h5",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p4.h6",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p5",
       "text": "先出諸將，普最年長，時人皆呼程公。性好施與，喜士大夫。周瑜卒，代領南郡太守。權分荊州與劉備，普復還領江夏，遷盪寇將軍，卒。權稱尊號，追論普功，封子咨爲亭侯。",
       "annotations": [
         {
+          "id": "wu.10.p5.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p5.h2",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p5.h3",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p5.a1",
           "type": "pei",
           "at": 61,
           "length": 0,
           "text": "《吳書》曰：普殺叛者數百人，皆使投火，即日病癘，百餘日卒。"
+        },
+        {
+          "id": "wu.10.p5.h4",
+          "type": "person",
+          "at": 61,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -54,11 +346,74 @@
       "text": "黃蓋字公覆，零陵泉陵人也。初爲郡吏，察孝廉，辟公府。孫堅舉義兵，蓋從之。堅南破山賊，北走董卓，拜蓋別部司馬。堅薨，蓋隨策及權，擐甲周旋，蹈刃屠城。",
       "annotations": [
         {
+          "id": "wu.10.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "黃蓋",
+          "person_id": "huanggai",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p6.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "《吳書》曰：故南陽太守黃子廉之後也，枝葉分離，自祖遷于零陵，遂家焉。蓋少孤，嬰丁凶難，辛苦備甞，然有壯志，雖處貧賤，不自同於凡庸，常以負薪餘閑，學書疏，講兵事。"
+        },
+        {
+          "id": "wu.10.p6.h2",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "孫堅",
+          "person_id": "sunjian",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p6.h3",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p6.h4",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p6.h5",
+          "type": "person",
+          "at": 54,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p6.h6",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p6.h7",
+          "type": "person",
+          "at": 61,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -71,6 +426,24 @@
       "id": "wu.10.p8",
       "text": "蓋姿貌嚴毅，善於養衆，每所征討，士卒皆爭爲先。建安中，隨周瑜拒曹公於赤壁，建策火攻，語在。拜武鋒中郎將。武陵蠻夷反亂，攻守城邑，乃以蓋領太守。時郡兵才五百人，自以不敵，因開城門，賊半入，乃擊之，斬首數百，餘皆奔走，盡歸邑落。誅討魁帥，附從者赦之。自春訖夏，寇亂盡平，諸幽邃巴、醴、由、誕邑侯君長，皆改操易節，奉禮請見，郡境遂清。後長沙益陽縣爲山賊所攻，蓋又平討。加偏將軍，病卒于官。",
       "annotations": [
+        {
+          "id": "wu.10.p8.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p8.h2",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p8.a1",
           "type": "pei",
@@ -97,6 +470,15 @@
           "at": 16,
           "length": 0,
           "text": "《吳書》曰：又圖畫蓋形，四時祠祭。"
+        },
+        {
+          "id": "wu.10.p9.h1",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -105,6 +487,15 @@
       "text": "韓當字義公，遼西令支人也。以便弓馬，有膂力，幸於孫堅，從征伐周旋，數犯危難，陷敵擒虜，爲別部司馬。及孫策東渡，從討三郡，遷先登校尉，授兵二千，騎五十匹。從征劉勳，破黃祖，還討鄱陽，領樂安長，山越畏服。後以中郎將與周瑜等拒破曹公，又與呂蒙襲取南郡，遷偏將軍，領永昌太守。宜都之役，與陸遜、朱然等共攻蜀軍於涿鄉，大破之，徙威烈將軍，封都亭侯。曹真攻南郡，當保東南。在外爲帥，厲將士同心固守，又敬望督司，奉遵法令，權善之。黃武二年，封石城侯，遷昭武將軍，領冠軍太守，後又加都督之號。將敢死及解煩兵萬人，討丹楊賊，破之。會病卒，子綜襲侯領兵。",
       "annotations": [
         {
+          "id": "wu.10.p10.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "韓當",
+          "person_id": "handang",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p10.a1",
           "type": "pei",
           "at": 13,
@@ -112,11 +503,83 @@
           "text": "令音郎定反。支音巨兒反。"
         },
         {
+          "id": "wu.10.p10.h2",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "孫堅",
+          "person_id": "sunjian",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p10.a2",
           "type": "pei",
           "at": 49,
           "length": 0,
           "text": "《吳書》曰：當勤苦有功，以軍旅陪隷，分於英豪，故爵位不加。終於堅世，爲別部司馬。"
+        },
+        {
+          "id": "wu.10.p10.h3",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h4",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h5",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h6",
+          "type": "person",
+          "at": 140,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h7",
+          "type": "person",
+          "at": 143,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h8",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p10.h9",
+          "type": "person",
+          "at": 204,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.10.p10.t1",
@@ -151,28 +614,183 @@
           "reasoning": "「其年」 = 当前年 黃武2年 (AD 223)"
         },
         {
+          "id": "wu.10.p11.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p11.h2",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.10.p11.a1",
           "type": "pei",
           "at": 38,
           "length": 0,
           "text": "《吳書》曰：綜欲叛，恐左右不從，因諷使劫略，示欲饒之，轉相放效，爲行旅大患。後因詐言被詔，以部曲爲寇盜見詰讓，云「將吏以下，當並收治」，又言恐罪自及。左右因曰：「惟當去耳。」遂共圖計，以當葬父，盡呼親戚姑姊，悉以嫁將吏，所幸婢妾，皆賜與親近，殺牛飲酒歃血，與共盟誓。"
+        },
+        {
+          "id": "wu.10.p11.h3",
+          "type": "person",
+          "at": 77,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p11.h4",
+          "type": "person",
+          "at": 97,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p11.h5",
+          "type": "person",
+          "at": 107,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wu.10.p12",
       "text": "蔣欽字公弈，九江壽春人也。孫策之襲袁術，欽隨從給事。及策東渡，拜別部司馬，授兵。與策周旋，平定三郡，又從定豫章。調授葛陽尉，歷三縣長，討平盜賊，遷西部都尉。會稽冶賊呂合、秦狼等爲亂，欽將兵討擊，遂禽合、狼，五縣平定，徙討越中郎將，以涇拘、昭陽爲奉邑。賀齊討黝賊，欽督萬兵，與齊并力，黝賊平定。從征合肥，魏將張遼襲權於津北，欽力戰有功，遷盪寇將軍，領濡須督。後召還都，拜津右護軍，典領辭訟。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p12.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p12.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p12.h4",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p12.h5",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p12.h6",
+          "type": "person",
+          "at": 153,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p12.h7",
+          "type": "person",
+          "at": 156,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p13",
       "text": "權甞入其堂內，母踈帳縹被，妻妾布裙。權歎其在貴守約，即勑御府爲母作錦被，改易帷帳，妻妾衣服悉皆錦繡。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p13.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p13.h2",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p14",
       "text": "初，欽屯宣城，甞討豫章賊。蕪湖令徐盛收欽屯吏，表斬之，權以欽在遠不許，盛由是自嫌於欽。曹公出濡須，欽與呂蒙持諸軍節度。盛常畏欽因事害己，而欽每稱其善。盛旣服德，論者美焉。",
       "annotations": [
+        {
+          "id": "wu.10.p14.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p14.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p14.h3",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
         {
           "id": "wu.10.p14.a1",
           "type": "pei",
@@ -185,17 +803,226 @@
     {
       "id": "wu.10.p15",
       "text": "權討關羽，欽督水軍入沔，還，道病卒。權素服舉哀，以蕪湖民二百戶、田二百頃，給欽妻子。子壹封宣城侯，領兵拒劉備有功，還赴南郡，與魏交戰，臨陣卒。壹無子，弟休領兵，後有罪失業。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p15.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p15.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p15.h3",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p15.h4",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p16",
       "text": "周泰字幼平，九江下蔡人也。與蔣欽隨孫策爲左右，服事恭敬，數戰有功。策入會稽，署別部司馬，授兵。權愛其爲人，請以自給。策討六縣山賊，權住宣城，使士自衞，不能千人，意尚忽略，不治圍落，而山賊數千人卒至。權始得上馬，而賊鋒刃已交於左右，或斫中馬鞌，衆莫能自定。惟泰奮激，投身衞權，膽氣倍人，左右由泰並能就戰。賊旣解散，身被十二創，良乆乃蘇。是日無泰，權幾危殆。策深德之，補春穀長。後從攻皖，及討江夏，還過豫章，復補宜春長，所在皆食其征賦。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p16.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "周泰",
+          "person_id": "zhoutai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p16.h2",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p16.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p16.h4",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p16.h5",
+          "type": "person",
+          "at": 47,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p16.h6",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p16.h7",
+          "type": "person",
+          "at": 65,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p16.h8",
+          "type": "person",
+          "at": 99,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p16.h9",
+          "type": "person",
+          "at": 135,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p16.h10",
+          "type": "person",
+          "at": 172,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p16.h11",
+          "type": "person",
+          "at": 177,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.10.p17",
       "text": "從討黃祖有功。後與周瑜、程普拒曹公於赤壁，攻曹仁於南郡。荊州平定，將兵屯岑。曹公出濡須，泰復赴擊，曹公退，留督濡須，拜平虜將軍。時朱然、徐盛等皆在所部，並不伏也，權特爲案行至濡須鄔，因會諸將，大爲酣樂。權自行酒到泰前，命泰解衣，權手自指其創痕，問以所起。泰輒記昔戰鬬處以對，畢，使復服，歡讌極夜。其明日，遣使者授以御蓋。於是盛等乃伏。",
       "annotations": [
+        {
+          "id": "wu.10.p17.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p17.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p17.h3",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p17.h4",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p17.h5",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p17.h6",
+          "type": "person",
+          "at": 81,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p17.h7",
+          "type": "person",
+          "at": 101,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p17.h8",
+          "type": "person",
+          "at": 114,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p17.a1",
           "type": "pei",
@@ -208,12 +1035,49 @@
     {
       "id": "wu.10.p18",
       "text": "後權破關羽，欲進圖蜀，拜泰漢中太守、奮威將軍，封陵陽侯。黃武中卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p18.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p18.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p19",
       "text": "子邵以騎都尉領兵。曹仁出濡須，戰有功，又從攻破曹休，進位裨將軍，黃龍二年卒。弟承領兵襲侯。",
       "annotations": [
+        {
+          "id": "wu.10.p19.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p19.h2",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
         {
           "id": "wu.10.p19.t1",
           "type": "temporal",
@@ -234,6 +1098,51 @@
       "text": "陳武字子烈，廬江松滋人。孫策在壽春，武往脩謁，時年十八，長七尺七寸，因從渡江，征討有功，拜別部司馬。策破劉勳，多得廬江人，料其精銳，乃以武爲督，所向無前。及權統事，轉督五校。仁厚好施，鄉里遠方客多依託之。尤爲權所親愛，數至其家。累有功勞，進位偏將軍。建安二十年，從擊合肥，奮命戰死。權哀之，自臨其葬。",
       "annotations": [
         {
+          "id": "wu.10.p20.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陳武",
+          "person_id": "chenwu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p20.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p20.h3",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p20.h4",
+          "type": "person",
+          "at": 78,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p20.h5",
+          "type": "person",
+          "at": 104,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.10.p20.t1",
           "type": "temporal",
           "at": 125,
@@ -245,6 +1154,15 @@
           "era": "建安",
           "era_year": 20,
           "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.10.p20.h6",
+          "type": "person",
+          "at": 141,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.10.p20.a1",
@@ -259,6 +1177,24 @@
       "id": "wu.10.p21",
       "text": "子脩有武風，年十九，權召見獎厲，拜別部司馬，授兵五百人。時諸新兵多有逃叛，而脩撫循得意，不失一人。權奇之，拜爲校尉。建安末，追錄功臣後，封脩都亭侯，爲解煩督。黃龍元年卒。",
       "annotations": [
+        {
+          "id": "wu.10.p21.h1",
+          "type": "person",
+          "at": 10,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p21.h2",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p21.t1",
           "type": "temporal",
@@ -279,6 +1215,51 @@
       "text": "弟表，字文奧，武庶子也，少知名，與諸葛恪、顧譚、張休等並侍東宮，皆共親友。尚書曁豔亦與表善，後豔遇罪，時人咸自營護，信厚言薄，表獨不然，士以此重之。徙太子中庶子，拜翼正都尉。兄脩亡後，表母不肯事脩母，表謂其母曰：「兄不幸早亡，表統家事，當奉嫡母。母若能爲表屈情，承順嫡母者，是至願也；若母不能，直當出別居耳。」表於大義公正如此。由是二母感寤雍穆。表以父死敵場，求用爲將，領兵五百人。表欲得戰士之力，傾意接待，士皆愛附，樂爲用命。時有盜官物者，疑無難士施明。明素壯悍，收考極毒，惟死無辭，廷尉以聞。權以表能得健兒之心，詔以明付表，使自以意求其情實。表便破械沐浴，易其衣服，厚設酒食，歡以誘之。明乃首服，具列支黨。表以狀聞。權奇之，欲全其名，特爲赦明，誅戮其黨。遷表爲無難右部督，封都亭侯，以繼舊爵。表皆陳讓，乞以傳脩子延，權不許。嘉禾三年，諸葛恪領丹楊太守，討平山越，以表領新安都尉，與恪參勢。初，表所受賜復人得二百家，在會稽新安縣。表簡視其人，皆堪好兵，乃上疏陳讓，乞以還官，充足精銳。詔曰：「先將軍有功於國，國家以此報之，卿何得辭焉？」表乃稱曰：「今除國賊，報父之仇，以人爲本。空枉此勁銳以爲僮僕，非表志也。」皆輒料取以充部伍。所在以聞，權甚嘉之。下郡縣，料正戶羸民以補其處。表在官三年，廣開降納，得兵萬餘人。事捷當出，會鄱陽民吳遽等爲亂，攻沒城郭，屬縣搖動，表便越界赴討，遽以破敗，遂降。陸遜拜表偏將軍，進封都鄉侯，北屯章阬。年三十四卒。家財盡於養士，死之日，妻子露立，太子登爲起屋宅。子敖年十七，拜別部司馬，授兵四百人。敖卒，脩子延復爲司馬代敖。延弟永，將軍，封侯。始施明感表，自變行爲善，遂成健將，致位將軍。",
       "annotations": [
         {
+          "id": "wu.10.p22.h1",
+          "type": "person",
+          "at": 17,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p22.h8",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
+        },
+        {
+          "id": "wu.10.p22.h2",
+          "type": "person",
+          "at": 248,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p22.h3",
+          "type": "person",
+          "at": 310,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p22.h4",
+          "type": "person",
+          "at": 360,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.10.p22.t1",
           "type": "temporal",
           "at": 364,
@@ -290,6 +1271,42 @@
           "era": "嘉禾",
           "era_year": 3,
           "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234"
+        },
+        {
+          "id": "wu.10.p22.h5",
+          "type": "person",
+          "at": 369,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p22.h6",
+          "type": "person",
+          "at": 520,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p22.h7",
+          "type": "person",
+          "at": 596,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p22.h9",
+          "type": "person",
+          "at": 637,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
         }
       ]
     },
@@ -298,23 +1315,124 @@
       "text": "董襲字元代，會稽餘姚人，長八尺，武力過人。孫策入郡，襲迎於高遷亭，策見而偉之，到署門下賊曹。時山陰宿賊黃龍羅、周勃聚黨數千人，策自出討，襲身斬羅、勃首，還拜別部司馬，授兵數千，遷揚武都尉。從策攻皖，又討劉勳於尋陽，伐黃祖於江夏。",
       "annotations": [
         {
+          "id": "wu.10.p23.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "董襲",
+          "person_id": "dongxi",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p23.a1",
           "type": "pei",
           "at": 21,
           "length": 0,
           "text": "謝承《後漢書》稱襲志節慷慨，武毅猛烈。"
+        },
+        {
+          "id": "wu.10.p23.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p23.h3",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p23.h4",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p23.h5",
+          "type": "person",
+          "at": 95,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
         }
       ]
     },
     {
       "id": "wu.10.p24",
       "text": "策薨，權年少，初統事，太妃憂之，引見張昭及襲等，問江東可保安不，襲對曰：「江東地勢有山川之固，而討逆明府恩德在民。討虜承基，大小用命，張昭秉衆事，襲等爲爪牙，此地利人和之時也，萬無所憂。」衆皆壯其言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p24.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p24.h2",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p24.h3",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p24.h4",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p25",
       "text": "鄱陽賊彭虎等衆數萬人，襲與凌統、步隲、蔣欽各別分討。襲所向輒破，虎等望見旌旗，便散走，旬日盡平，拜威越校尉，遷偏將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p25.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p25.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p26",
@@ -332,18 +1450,73 @@
           "era": "建安",
           "era_year": 13,
           "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.10.p26.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p26.h2",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p26.h3",
+          "type": "person",
+          "at": 118,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wu.10.p27",
       "text": "曹公出濡須，襲從權赴之，使襲督五樓船住濡須口。夜卒暴風，五樓船傾覆，左右散走舸，乞使襲出。襲怒曰：「受將軍任，在此備賊，何等委去也，敢復言此者斬！」於是莫敢干。其夜船敗，襲死。權改服臨殯，供給甚厚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p27.h1",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p27.h2",
+          "type": "person",
+          "at": 88,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p28",
       "text": "甘寧字興霸，巴郡臨江人也。少有氣力，好游俠，招合輕薄少年，爲之渠帥；羣聚相隨，挾持弓弩，負毦帶鈴，民聞鈴聲，即知是寧。人與相逢，及屬城長吏，接待隆厚者乃與交歡；不爾，即放所將奪其資貨，於長吏界中有所賊害，作其發負，至二十餘年。止不攻劫，頗讀諸子，乃往依劉表，因居南陽，不見進用，後轉託黃祖，祖又以凡人畜之。",
       "annotations": [
+        {
+          "id": "wu.10.p28.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
         {
           "id": "wu.10.p28.a1",
           "type": "pei",
@@ -359,6 +1532,15 @@
           "text": "《吳書》曰：寧輕俠殺人，藏舍亡命，聞於郡中。其出入，步則陳車騎，水則連輕舟，侍從被文繡，所如光道路，住止常以繒錦維舟，去或割棄，以示奢也。"
         },
         {
+          "id": "wu.10.p28.h2",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
           "id": "wu.10.p28.a3",
           "type": "pei",
           "at": 153,
@@ -372,6 +1554,96 @@
       "text": "於是歸吳。周瑜、呂蒙皆共薦達，孫權加異，同於舊臣。寧陳計曰：「今漢祚日微，曹操彌憍，終爲篡盜。南荊之地。山陵形便，江川流通，誠是國之西勢也。寧已觀劉表，慮旣不遠，兒子又劣，非能承業傳基者也。至尊當早規之，不可後操圖之。圖之之計，宜先取黃祖。祖今年老，昏耄已甚，財穀並乏，左右欺弄，務於貨利，侵求吏士，吏士心怨，舟船戰具頓廢不脩，怠於耕農，軍無法伍。至尊今往，其破可必。一破祖軍，鼓行而西，西據楚關，大勢彌廣，即可漸規巴蜀。」權深納之。張昭時在坐，難曰：「吳下業業，若軍果行，恐必致亂。」寧謂昭曰：「國家以蕭何之任付君，君居守而憂亂，奚以希慕古人乎？」權舉酒屬寧曰：「興霸，今年行討，如此酒矣，決以付卿。卿但當勉建方略，令必克祖，則卿之功，何嫌張長史之言乎。」權遂西，果禽祖，盡獲其士衆。遂授寧兵，屯當口",
       "annotations": [
         {
+          "id": "wu.10.p29.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h3",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h4",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h5",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h6",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p29.h7",
+          "type": "person",
+          "at": 212,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p29.h8",
+          "type": "person",
+          "at": 217,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p29.h9",
+          "type": "person",
+          "at": 275,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p29.h10",
+          "type": "person",
+          "at": 329,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
           "id": "wu.10.p29.a1",
           "type": "pei",
           "at": 351,
@@ -383,17 +1655,190 @@
     {
       "id": "wu.10.p30",
       "text": "後隨周瑜拒破曹公於烏林。攻曹仁於南郡，未拔，寧建計先徑進取夷陵，往即得其城，因入守之。時手下有數百兵，并所新得，僅滿千人。曹仁乃令五六千人圍寧。寧受攻累日，敵設高樓，雨射城中，士衆皆懼，惟寧談笑自若。遣使報瑜，瑜用呂蒙計，帥諸將解圍。後隨魯肅鎮益陽，拒關羽。羽號有三萬人，自擇選銳士五千人，投縣上流十餘里淺瀨，云欲夜涉渡。肅與諸將議。寧時有三百兵，乃曰：「可復以五百人益吾，吾往對之，保羽聞吾欬唾，不敢涉水，涉水即是吾禽。」肅便選千兵益寧，寧乃夜往。羽聞之，住不渡，而結柴營，今遂名此處爲關羽瀨。權嘉寧功，拜西陵太守，領陽新、下雉兩縣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p30.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h3",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h4",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h5",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h6",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h7",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h8",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h9",
+          "type": "person",
+          "at": 129,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h10",
+          "type": "person",
+          "at": 161,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h11",
+          "type": "person",
+          "at": 193,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h12",
+          "type": "person",
+          "at": 212,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h13",
+          "type": "person",
+          "at": 225,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p30.h14",
+          "type": "person",
+          "at": 244,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p30.h15",
+          "type": "person",
+          "at": 248,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p31",
       "text": "後從攻皖，爲升城督。寧手持練，身緣城，爲吏士先，卒破獲朱光。計功，呂蒙爲最。寧次之，拜折衝將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p31.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p32",
       "text": "後曹公出濡須，寧爲前部督，受勑出斫敵前營。權特賜米酒衆殽，寧乃料賜手下百餘人食。食畢，寧先以銀盌酌酒，自飲兩盌，乃酌與其都督。都督伏，不肯時持。寧引白削置膝上，呵謂之曰：「卿見知於至尊，孰與甘寧？甘寧尚不惜死，卿何以獨惜死乎？」都督見寧色厲，即起拜待酒次，通酌兵各一銀盌。至二更時，銜枚出斫敵。敵驚動，遂退。寧益貴重，增兵二千人。",
       "annotations": [
+        {
+          "id": "wu.10.p32.h1",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p32.h2",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p32.h3",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
         {
           "id": "wu.10.p32.a1",
           "type": "pei",
@@ -421,6 +1866,60 @@
           "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wu.10.p33.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p33.h2",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p33.h3",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p33.h4",
+          "type": "person",
+          "at": 77,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p33.h5",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p33.h6",
+          "type": "person",
+          "at": 125,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.10.p33.a1",
           "type": "pei",
           "at": 130,
@@ -432,32 +1931,361 @@
     {
       "id": "wu.10.p34",
       "text": "寧厨下兒曾有過，走投呂蒙。蒙恐寧殺之，故不即還。後寧齎禮禮蒙母，臨當與升堂，乃出厨下兒還寧。寧許蒙不殺。斯須還船，縛置桑樹，自挽弓射殺之。畢，勑船人更增舸纜，解衣卧船中。蒙大怒，擊鼓會兵，欲就船攻寧。寧聞之，故卧不起。蒙母徒跣出諫蒙曰：「至尊待汝如骨肉，屬汝以大事，何有以私怒而欲攻殺甘寧？寧死之日，縱至尊不問，汝是爲臣下非法。」蒙素至孝，聞母言，即豁然意釋，自至寧舩，笑呼之曰：「興霸，老母待卿食，急上！」寧涕泣歔欷曰：「負卿。」與蒙俱還見母，歡宴竟日。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p34.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p34.h2",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h3",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h4",
+          "type": "person",
+          "at": 48,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h5",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h6",
+          "type": "person",
+          "at": 109,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h7",
+          "type": "person",
+          "at": 115,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h8",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p34.h9",
+          "type": "person",
+          "at": 165,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p34.h10",
+          "type": "person",
+          "at": 217,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.10.p35",
       "text": "寧卒，權痛惜之。子瓌，以罪徙會稽，無幾死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p35.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p36",
       "text": "凌統字公績，吳郡餘杭人也。父操，輕俠有膽氣，孫策初興，每從征伐，常冠軍履鋒。守永平長，平治山越，姦猾斂手，遷破賊校尉。及權統軍，從討江夏。入夏口，先登，破其前鋒，輕舟獨進，中流矢死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p36.h2",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p36.h3",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p36.h4",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p37",
       "text": "統年十五，左右多稱述者，權亦以操死國事，拜統別部司馬，行破賊都尉，使攝父兵。後從擊山賊，權破保屯先還，餘麻屯萬人，統與督張異等留攻圍之，克日當攻。先期，統與督陳勤會飲酒，勤剛勇任氣，因督祭酒，陵轢一坐，舉罰不以其道。統疾其侮慢，面折不爲用。勤怒詈統，及其父操，統流涕不荅，衆因罷出。勤乘酒凶悖，又於道路辱統。統不忍，引刀斫勤，數日乃死。及當攻屯，統曰：「非死無以謝罪。」乃率厲士卒，身當矢石，所次一面，應時披壞，諸將乘勝，遂大破之。還，自拘於軍正。權壯其果毅，使得以功贖罪。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p37.h1",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p37.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p37.h3",
+          "type": "person",
+          "at": 44,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p37.h4",
+          "type": "person",
+          "at": 128,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p37.h5",
+          "type": "person",
+          "at": 224,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p38",
       "text": "後權復征江夏，統爲前鋒，與所厚健兒數十人共乘一船，常去大兵數十里。行入右江，斬黃祖將張碩，盡獲船人。還以白權，引軍兼道，水陸並集。時呂蒙敗其水軍，而統先搏其城，於是大獲。權以統爲承烈都尉，與周瑜等拒破曹公於烏林，遂攻曹仁，遷爲校尉。雖在軍旅，親賢接士，輕財重義，有國士之風。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p38.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p38.h2",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p38.h3",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p38.h4",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p38.h5",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p38.h6",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p39",
       "text": "又從破皖，拜盪寇中郎將，領沛相。與呂蒙等西取三郡，反自益陽，從往合肥，爲右部督。時權徹軍，前部已發，魏將張遼等奄至津北。權使追還前兵，兵去已遠，勢不相及，統率親近三百人陷圍，扶扞權出。敵已毀橋，橋之屬者兩版，權策馬驅馳，統復還戰，左右盡死，身亦被創，所殺數十人，度權已免，乃還。橋敗路絕，統被甲潛行。權旣御船，見之驚喜。統痛親近無反者，悲不自勝。權引袂拭之，謂曰：「公績，亡者已矣，苟使卿在，何患無人？」拜偏將軍，倍給本兵。",
       "annotations": [
+        {
+          "id": "wu.10.p39.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p39.h2",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h3",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p39.h4",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h5",
+          "type": "person",
+          "at": 89,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h6",
+          "type": "person",
+          "at": 104,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h7",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h8",
+          "type": "person",
+          "at": 132,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h9",
+          "type": "person",
+          "at": 150,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p39.h10",
+          "type": "person",
+          "at": 173,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p39.a1",
           "type": "pei",
@@ -470,17 +2298,64 @@
     {
       "id": "wu.10.p40",
       "text": "時有薦同郡盛暹於權者，以爲梗槩大節有過於統，權曰：「且令如統足矣。」後召暹夜至，時統已卧，聞之，攝衣出門，執其手以入。其愛善不害如此。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p40.h1",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p40.h2",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p41",
       "text": "統以山中人尚多壯悍，可以威恩誘也，權令東占且討之，命勑屬城，凡統所求，皆先給後聞。統素愛士，士亦慕焉。得精兵萬餘人，過本縣，步入寺門，見長吏懷三版，恭敬盡禮，親舊故人，恩意益隆。事畢當出，會病卒，時年四十九。權聞之，拊牀起坐，哀不能自止，數日減膳，言及流涕，使張承爲作銘誄。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p41.h1",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p41.h2",
+          "type": "person",
+          "at": 104,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p42",
       "text": "二子烈、封，年各數歲，權內養於宮，愛待與諸子同，賔客進見，呼示之曰：「此吾虎子也。」及八九歲，令葛光教之讀書，十日一令乘馬，追錄統功，封烈亭侯，還其故兵。後烈有罪免，封復襲爵領兵。",
       "annotations": [
+        {
+          "id": "wu.10.p42.h1",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p42.a1",
           "type": "pei",
@@ -493,22 +2368,152 @@
     {
       "id": "wu.10.p43",
       "text": "徐盛字文嚮，琅邪莒人也。遭亂，客居吳，以勇氣聞。孫權統事，以爲別部司馬，授兵五百人，守柴桑長，拒黃祖。祖子射，甞率數千人下攻盛。盛時吏士不滿二百，與相拒擊，傷射吏士千餘人。已乃開門出戰，大破之。射遂絕迹不復爲寇。權以爲校尉、蕪湖令。復討臨城南阿山賊有功，徙中郎將，督校兵。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p43.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p43.h2",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p43.h3",
+          "type": "person",
+          "at": 106,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.10.p44",
       "text": "曹公出濡須，從權禦之。魏甞大出橫江，盛與諸將俱赴討。時乘蒙衝，遇迅風，船落敵岸下，諸將恐懼，未有出者，盛獨將兵，上突斫敵，敵披退走，有所傷殺，風止便還，權大壯之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p44.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p44.h2",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p44.h3",
+          "type": "person",
+          "at": 76,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p45",
       "text": "及權爲魏稱藩，魏使邢貞拜權爲吳王。權出都亭候貞，貞有驕色，張昭旣怒，而盛忿憤，顧謂同列曰：「盛等不能奮身出命，爲國家并許洛，吞巴蜀，而令吾君與貞盟，不亦辱乎！」因涕泣橫流。貞聞之，謂其旅曰：「江東將相如此，非乆下人者也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p45.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p45.h2",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p45.h3",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p45.h4",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p46",
       "text": "後遷建武將軍，封都亭侯，領廬江太守，賜臨城縣爲奉邑。劉備次西陵，盛攻取諸屯，所向有功。曹休出洞口，盛與呂範、全琮渡江拒守。遭大風，船人多喪，盛收餘兵，與休夾江。休使兵將就船攻盛，盛以少禦多，敵不能克，各引軍退。遷安東將軍，封蕪湖侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p46.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p46.h2",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p46.h3",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p46.h4",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p47",
@@ -531,27 +2536,265 @@
     {
       "id": "wu.10.p49",
       "text": "潘璋字文珪，東郡發干人也。孫權爲陽羨長，始往隨權。性博蕩嗜酒，居貧，好賒酤，債家至門，輒言後豪富相還。權奇愛之，因使召募，得百餘人，遂以爲將。討山賊有功，署別部司馬。後爲吳大巿刺姧，盜賊斷絕，由是知名，遷豫章西安長。劉表在荊州，民數被寇，自璋在事，寇不入境。比縣建昌起爲賊亂，轉領建昌，加武猛校尉，討治惡民，旬月盡平，召合遺散，得八百人，將還建業。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p49.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p49.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p49.h3",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p49.h4",
+          "type": "person",
+          "at": 51,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p49.h5",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p50",
       "text": "合肥之役，張遼奄至，諸將不備，陳武鬬死，宋謙、徐盛皆披走，璋身次在後，便馳進，橫馬斬謙、盛兵走者二人，兵皆還戰。權甚壯之，拜偏將軍，遂領百校，屯半州。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p50.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p50.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "陳武",
+          "person_id": "chenwu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p50.h3",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p50.h4",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p51",
       "text": "權征關羽，璋與朱然斷羽走道，到臨沮，住夾石。璋部下司馬馬忠禽羽，并羽子平、都督趙累等。權即分宜都巫、秭歸二縣爲固陵郡，拜璋爲太守、振威將軍，封溧陽侯。甘寧卒，又并其軍。劉備出夷陵，璋與陸遜并力拒之，璋部下斬備護軍馮習等，所殺傷甚衆，拜平北將軍、襄陽太守。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p51.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p51.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h3",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h4",
+          "type": "person",
+          "at": 10,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p51.h5",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "馬忠",
+          "person_id": "mazhong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h6",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p51.h7",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.10.p51.h8",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p51.h9",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h10",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h11",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p51.h12",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.10.p52",
       "text": "魏將夏侯尚等圍南郡，分前部三萬人作浮橋，渡百里洲上，諸葛瑾、楊粲並會兵赴救，未知所出，而魏兵日渡不絕。璋曰：「魏勢始盛，江水又淺，未可與戰。」便將所領，到魏上流五十里，伐葦數百萬束，縛作大筏，欲順流放火，燒敗浮橋。作筏適畢，伺水長當下，尚便引退。璋下備陸口。權稱尊號，拜右將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p52.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "夏侯尚",
+          "person_id": "xiahoushang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p52.h2",
+          "type": "person",
+          "at": 26,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p52.h3",
+          "type": "person",
+          "at": 125,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.10.p52.h4",
+          "type": "person",
+          "at": 129,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.10.p53",
       "text": "璋爲人麤猛，禁令肅然，好立功業，所領兵馬不過數千，而其所在常如萬人。征伐止頓，便立軍巿，他軍所無，皆仰取足。然性奢泰，末年彌甚，服物僭擬。吏兵富者，或殺取其財物，數不奉法。監司舉奏，權惜其功而輒原不問。嘉禾三年卒。子平，以無行徙會稽。璋妻居建業，賜田宅，復客五十家。",
       "annotations": [
+        {
+          "id": "wu.10.p53.h1",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.10.p53.t1",
           "type": "temporal",
@@ -570,17 +2813,92 @@
     {
       "id": "wu.10.p54",
       "text": "丁奉字承淵，廬江安豐人也。少以驍勇爲小將，屬甘寧、陸遜、潘璋等。數隨征伐，戰鬬常冠軍。每斬將搴旗，身被創夷。稍遷偏將軍。孫亮即位，爲冠軍將軍，封都亭侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p54.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p54.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p54.h3",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p54.h4",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p54.h5",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p55",
       "text": "魏遣諸葛誕、胡遵等攻東興，諸葛恪率軍拒之。諸將皆曰：「敵聞太傅自來，上岸必遁走。」奉獨曰：「不然。彼動其境內，悉許、洛兵大舉而來，必有成規，豈虛還哉？無恃敵之不至，恃吾有以勝之。」及恪上岸，奉與將軍唐咨、呂據、留贊等，俱從山西上。奉曰：「今諸軍行遲，若敵據便地，則難與爭鋒矣。」乃辟諸軍使下道，帥麾下三千人徑進。時北風，奉舉帆二日至，遂據徐塘。天寒雪，敵諸將置酒高會，奉見其前部兵少，相謂曰：「取封侯爵賞，正在今日！」乃使兵解鎧著冑，持短兵。敵人從而笑焉，不爲設備。奉縱兵斫之，大破敵前屯。會據等至，魏軍遂潰。遷滅寇將軍，進封都鄉侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p55.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p55.h2",
+          "type": "person",
+          "at": 13,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p56",
       "text": "魏將文欽來降，以奉爲虎威將軍，從孫峻至壽春迎之，與敵追軍戰於高亭。奉跨馬持矛，突入其陣中，斬首數百，獲其軍器。進封安豐侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p56.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.10.p57",
@@ -598,6 +2916,15 @@
           "era": "太平",
           "era_year": 2,
           "reasoning": "原文「太平二年」直接出现年号；解析為 AD 257"
+        },
+        {
+          "id": "wu.10.p57.h1",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
         }
       ]
     },
@@ -605,6 +2932,42 @@
       "id": "wu.10.p58",
       "text": "孫休即位，與張布謀，欲誅孫綝，布曰：「丁奉雖不能吏書，而計略過人，能斷大事。」休召奉告曰：「綝秉國威，將行不軌，欲與將軍誅之。」奉曰：「丞相兄弟友黨甚盛，恐人心不同，不可卒制，可因臘會，有陛下兵以誅之也。」休納其計，因會請綝，奉與張布目左右斬之。遷大將軍，加左右都護。永安二年，假節領徐州牧。六年，魏伐蜀，奉率諸軍向壽春，爲救蜀之勢。蜀亡，軍還。",
       "annotations": [
+        {
+          "id": "wu.10.p58.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p58.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p58.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p58.h4",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunxiu",
+          "via": "llm"
+        },
         {
           "id": "wu.10.p58.t1",
           "type": "temporal",
@@ -637,6 +3000,24 @@
       "id": "wu.10.p59",
       "text": "休薨，奉與丞相濮陽興等從萬彧之言，共迎立孫皓，遷右大司馬左軍師。寶鼎三年，皓命奉與諸葛靚攻合肥。奉與晉大將石苞書，搆而間之，苞以徵還。建衡元年，奉復帥衆治徐塘，因攻晉穀陽。穀陽民知之，引去，奉無所獲。皓怒，斬奉導軍。三年，卒。奉貴而有功，漸以驕矜，或有毀之者，皓追以前出軍事，徙奉家於臨川。奉弟封，官至後將軍，先奉死。",
       "annotations": [
+        {
+          "id": "wu.10.p59.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "濮陽興",
+          "person_id": "puyangxing",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p59.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        },
         {
           "id": "wu.10.p59.t1",
           "type": "temporal",
@@ -681,12 +3062,26 @@
     {
       "id": "wu.10.p60",
       "text": "評曰：凡此諸將，皆江表之虎臣，孫氏之所厚待也。以潘璋之不脩，權能忘過記功，其保據東南，宜哉！陳表將家支庶，而與胄子名人比翼齊衡，拔萃出類，不亦美乎！",
-      "annotations": []
-    },
-    {
-      "id": "wu.10.p61",
-      "text": "此西晉作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.10.p60.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.10.p60.h2",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     }
   ]
 }

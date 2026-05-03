@@ -2,11 +2,99 @@ chapter: wu.6
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷51
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: a85b8168988856ca4f66498206d562737c337148a2a35c407f571ca8388d8f3b
 parse_warnings:
 - 'source has unbalanced brackets: 0 stray ''〈'', 3 stray ''〉'' — treating them as literal text'
 annotations:
+- id: wu.6.p1.h1
+  anchor: wu.6.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: sunjing
+  text: 孫靜
+  via: primary
+- id: wu.6.p1.h2
+  anchor: wu.6.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: sunjiao
+  text: 孫皎
+  via: primary
+- id: wu.6.p1.h3
+  anchor: wu.6.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: sunhuan
+  text: 孫奐
+  via: primary
+- id: wu.6.p1.h4
+  anchor: wu.6.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: sunbi
+  text: 孫賁
+  via: primary
+- id: wu.6.p1.h5
+  anchor: wu.6.p1
+  at: 10
+  length: 2
+  type: person
+  person_id: sunfu
+  text: 孫輔
+  via: primary
+- id: wu.6.p1.h6
+  anchor: wu.6.p1
+  at: 12
+  length: 2
+  type: person
+  person_id: sunyi
+  text: 孫翊
+  via: primary
+- id: wu.6.p1.h7
+  anchor: wu.6.p1
+  at: 14
+  length: 2
+  type: person
+  person_id: sunkuang
+  text: 孫匡
+  via: primary
+- id: wu.6.p1.h8
+  anchor: wu.6.p1
+  at: 16
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
+- id: wu.6.p1.h9
+  anchor: wu.6.p1
+  at: 18
+  length: 2
+  type: person
+  person_id: sunhuan_2
+  text: 孫桓
+  via: primary
+- id: wu.6.p2.h1
+  anchor: wu.6.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: sunjing
+  text: 孫靜
+  via: primary
+- id: wu.6.p2.h2
+  anchor: wu.6.p2
+  at: 72
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: wu.6.p2.a1
   anchor: wu.6.p2
   at: 116
@@ -25,6 +113,22 @@ annotations:
   length: 0
   type: pei
   text: 《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。《獻帝春秋》曰：袁術遣吳景攻昕，未拔，景乃募百姓敢從周昕者死不赦。昕曰：「我則不德，百姓何罪？」遂散兵，還本郡。
+- id: wu.6.p3.h1
+  anchor: wu.6.p3
+  at: 0
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p3.h2
+  anchor: wu.6.p3
+  at: 26
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
 - id: wu.6.p3.t1
   anchor: wu.6.p3
   at: 37
@@ -49,6 +153,46 @@ annotations:
   era: 建安
   era_year: 11
   reasoning: 承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206
+- id: wu.6.p3.h3
+  anchor: wu.6.p3
+  at: 69
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: wu.6.p3.h4
+  anchor: wu.6.p3
+  at: 97
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p3.h5
+  anchor: wu.6.p3
+  at: 131
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p3.h6
+  anchor: wu.6.p3
+  at: 176
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p3.h7
+  anchor: wu.6.p3
+  at: 217
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
 - id: wu.6.p3.t3
   anchor: wu.6.p3
   at: 238
@@ -61,6 +205,158 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 原文「建安二十年」直接出现年号；解析為 AD 215
+- id: wu.6.p3.h8
+  anchor: wu.6.p3
+  at: 245
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p4.h1
+  anchor: wu.6.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: sunjiao
+  text: 孫皎
+  via: primary
+- id: wu.6.p4.h2
+  anchor: wu.6.p4
+  at: 48
+  length: 2
+  type: person
+  person_id: chengpu
+  text: 程普
+  via: primary
+- id: wu.6.p4.h3
+  anchor: wu.6.p4
+  at: 54
+  length: 2
+  type: person
+  person_id: huanggai
+  text: 黃蓋
+  via: primary
+- id: wu.6.p4.h4
+  anchor: wu.6.p4
+  at: 58
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name_carry
+- id: wu.6.p4.h5
+  anchor: wu.6.p4
+  at: 99
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: wu.6.p5.h1
+  anchor: wu.6.p5
+  at: 5
+  length: 2
+  type: person
+  person_id: ganning
+  text: 甘寧
+  via: primary
+- id: wu.6.p6.h1
+  anchor: wu.6.p6
+  at: 114
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: wu.6.p6.h2
+  anchor: wu.6.p6
+  at: 279
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name_carry
+- id: wu.6.p7.h1
+  anchor: wu.6.p7
+  at: 16
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: wu.6.p7.h2
+  anchor: wu.6.p7
+  at: 28
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.6.p7.h3
+  anchor: wu.6.p7
+  at: 36
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.6.p7.h4
+  anchor: wu.6.p7
+  at: 55
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.6.p7.h5
+  anchor: wu.6.p7
+  at: 60
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.6.p7.h6
+  anchor: wu.6.p7
+  at: 63
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: wu.6.p7.h7
+  anchor: wu.6.p7
+  at: 66
+  length: 2
+  type: person
+  person_id: chengpu
+  text: 程普
+  via: primary
+- id: wu.6.p7.h8
+  anchor: wu.6.p7
+  at: 83
+  length: 1
+  type: person
+  person_id: zhouyu
+  text: 瑜
+  via: given_name
+- id: wu.6.p7.h9
+  anchor: wu.6.p7
+  at: 118
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.6.p7.h10
+  anchor: wu.6.p7
+  at: 136
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
 - id: wu.6.p7.t1
   anchor: wu.6.p7
   at: 148
@@ -73,6 +369,30 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
+- id: wu.6.p7.h11
+  anchor: wu.6.p7
+  at: 217
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- id: wu.6.p7.h12
+  anchor: wu.6.p7
+  at: 224
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.6.p8.h1
+  anchor: wu.6.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhuan
+  text: 孫奐
+  via: primary
 - id: wu.6.p8.t1
   anchor: wu.6.p8
   at: 78
@@ -115,6 +435,110 @@ annotations:
   era: 赤烏
   era_year: 6
   reasoning: 原文「赤烏六年」直接出现年号；解析為 AD 243
+- id: wu.6.p9.h1
+  anchor: wu.6.p9
+  at: 76
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.6.p9.h2
+  anchor: wu.6.p9
+  at: 80
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.6.p9.h3
+  anchor: wu.6.p9
+  at: 119
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
+- id: wu.6.p9.h4
+  anchor: wu.6.p9
+  at: 122
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- id: wu.6.p10.h1
+  anchor: wu.6.p10
+  at: 0
+  length: 2
+  type: person
+  person_id: sunbi
+  text: 孫賁
+  via: primary
+- id: wu.6.p10.h2
+  anchor: wu.6.p10
+  at: 78
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wu.6.p10.h3
+  anchor: wu.6.p10
+  at: 89
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h4
+  anchor: wu.6.p10
+  at: 106
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h5
+  anchor: wu.6.p10
+  at: 110
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h6
+  anchor: wu.6.p10
+  at: 120
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h7
+  anchor: wu.6.p10
+  at: 169
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h8
+  anchor: wu.6.p10
+  at: 224
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.6.p10.h9
+  anchor: wu.6.p10
+  at: 227
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
 - id: wu.6.p10.a1
   anchor: wu.6.p10
   at: 254
@@ -169,18 +593,98 @@ annotations:
   length: 0
   type: pei
   text: 《吳歷》曰：鄰又有子曰述，為武昌督，平荊州事。震，無難督。諧，城門校尉。歆，樂鄉督。震後御晉軍，與張悌俱死。賁曾孫惠，字德施。《惠別傳》曰：惠好學有才智，晉永寧元年，赴齊王冏義，以功封晉興侯，辟大司馬賊曹屬。冏驕矜僭侈，天下失望。惠獻言於冏，諷以五難、四不可，勸令委讓萬機，歸籓青岱，辭甚深切。冏不能納，頃之果敗。成都王穎召為大將軍參軍。是時穎將有事於長沙，以陸機為前鋒都督。惠與機鄉里親厚，憂其致禍，謂之曰：「子盍讓都督於王粹乎？」機曰：「將謂吾避賊首鼠，更速其害。」機尋被戮，二弟雲、耽亦見殺，惠甚傷恨之。永興元年，乘輿幸鄴，司空東海王越治兵下邳，惠以書干越，詭其姓名，自稱南嶽逸民秦祕之，勉以勤王匡世之略，辭義甚美。越省其書，榜題道衢，招求其人。惠乃出見，越即以為記室參軍，專掌文疏，豫參謀議。每造書檄，越或驛馬催之，應命立成，皆有辭旨。累遷顯職，後為廣武將軍、安豐內史。年四十七卒。惠文翰凡數十首。
+- id: wu.6.p12.h1
+  anchor: wu.6.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: sunfu
+  text: 孫輔
+  via: primary
+- id: wu.6.p12.h2
+  anchor: wu.6.p12
+  at: 16
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.6.p12.h3
+  anchor: wu.6.p12
+  at: 22
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.6.p12.h4
+  anchor: wu.6.p12
+  at: 37
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wu.6.p12.h5
+  anchor: wu.6.p12
+  at: 53
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.6.p12.a1
   anchor: wu.6.p12
   at: 64
   length: 0
   type: pei
   text: 《江表传》曰：策既平定江东，逐袁胤。袁术深怨策，乃阴遣间使赍印绶与丹杨宗帅陵阳祖郎等，使激动山越，大合众，图共攻策。策自率将士讨郎，生获之。策谓郎曰：“尔昔袭击孤，斫孤马鞍，今创军立事，除弃宿恨，惟取能用，与天下通耳。非但汝，汝莫恐怖。”郎叩头谢罪。即破械，赐衣服，署门下贼曹。及军还，郎与太史慈俱在前导军，人以为荣。
+- id: wu.6.p12.h6
+  anchor: wu.6.p12
+  at: 64
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.6.p12.h7
+  anchor: wu.6.p12
+  at: 86
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.6.p12.a2
   anchor: wu.6.p12
   at: 135
   length: 0
   type: pei
   text: 《典略》曰：辅恐权不能保守江东，因权出行东冶，乃遣人赍书呼曹公。行人以告，权乃还，伪若不知，与张昭共见辅，权谓辅曰：“兄厌乐邪，何为呼他人？”辅云无是。权因投书与昭，昭示辅，辅惭无辞。乃悉斩辅亲近，分其部曲，徒辅置东。
+- id: wu.6.p13.h1
+  anchor: wu.6.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: sunyi
+  text: 孫翊
+  via: primary
+- id: wu.6.p13.h2
+  anchor: wu.6.p13
+  at: 17
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.6.p13.h3
+  anchor: wu.6.p13
+  at: 22
+  length: 2
+  type: person
+  person_id: zhuzhi
+  text: 朱治
+  via: primary
 - id: wu.6.p13.a1
   anchor: wu.6.p13
   at: 32
@@ -223,6 +727,38 @@ annotations:
   era: 黃龍
   era_year: 3
   reasoning: 原文「黃龍三年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）
+- id: wu.6.p13.h4
+  anchor: wu.6.p13
+  at: 88
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wu.6.p13.h5
+  anchor: wu.6.p13
+  at: 126
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wu.6.p13.h6
+  anchor: wu.6.p13
+  at: 143
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wu.6.p14.h1
+  anchor: wu.6.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: sunkuang
+  text: 孫匡
+  via: primary
 - id: wu.6.p14.a1
   anchor: wu.6.p14
   at: 28
@@ -259,24 +795,136 @@ annotations:
   length: 0
   type: pei
   text: 《江表传》曰：皓大怒，追改秀姓曰厉。干宝《晋纪》曰：秀在晋朝，初闻皓降，群臣毕贺，秀称疾不与，南向流涕曰：“昔讨逆弱冠以一校尉创业，今后主举江南而弃之，宗庙山陵，於此为墟。悠悠苍天，此何人哉！”朝廷美之。《晋诸公赞》曰：吴平，降为伏波将军，开府如故。永宁中卒，追赠骠骑、开府。子俭，字仲节，给事中。
+- id: wu.6.p15.h1
+  anchor: wu.6.p15
+  at: 0
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
+- id: wu.6.p15.h2
+  anchor: wu.6.p15
+  at: 24
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
 - id: wu.6.p15.a1
   anchor: wu.6.p15
   at: 39
   length: 0
   type: pei
   text: 《吴书》曰：河，坚族子也，出后姑俞氏，后复姓为孙。河质性忠直，讷言敏行，有气幹，能服勤。少从坚征讨，常为前驱，后领左右兵，典知内事，待以腹心之任。又从策平定吴、会，从权讨李术，术破，拜威寇中郎将，领庐江太守。
+- id: wu.6.p16.h1
+  anchor: wu.6.p16
+  at: 2
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wu.6.p16.a1
   anchor: wu.6.p16
   at: 12
   length: 0
   type: pei
   text: 《会稽典录》曰：宪字孝章，器量雅伟，举孝廉，补尚书郎，稍迁吴郡太守，以疾去官。孙策平定吴、会，诛其英豪，宪素有高名，策深忌之。初，宪与少府孔融善，融忧其不免祸，乃与曹公书曰：“岁月不居，时节如流，五十之年，忽焉已至。公为始满，融又过二，海内知识，零落殆尽，惟会稽盛孝章尚存。其人困於孙氏，妻孥湮没，单孑独立，孤危愁苦，若使忧能伤人，此子不得复永年矣。春秋传曰：‘诸侯有相灭亡者，桓公不能救，则桓公耻之。’今孝章实丈夫之雄也，天下谭士依以扬声，而身不免於幽执，命不期於旦夕，是吾祖不当复论损益之友，而硃穆所以绝交也。公诚能驰一介之使，加咫尺之书，则孝章可致，友道可弘也。今之少年，喜谤前辈，或能讥平皮柄反。孝章；孝章要为有天下大名，九牧之民所共称叹。燕君市骏马之骨，非欲以骋道里，乃当以招绝足也。惟公匡复汉室，宗社将绝，又能正之，正之之术，实须得贤。珠玉无胫而自至者，以人好之也，况贤者之有足乎？昭王筑台以尊郭隗，隗虽小才，而逢大遇，竟能发明主之至心，故乐毅自魏往，剧辛自赵往，邹衍自齐往。乡使郭隗倒县而王不解，临溺而王不拯，则士亦将高翔远引，莫有北首燕路者矣。凡所称引，自公所知，而有云者，欲公崇笃斯义也，因表不悉。”由是徵为骑都尉。制命未至，果为权所害。子匡奔魏，位至征东司马。
+- id: wu.6.p16.h2
+  anchor: wu.6.p16
+  at: 26
+  length: 2
+  type: person
+  person_id: sunyi
+  text: 孫翊
+  via: primary
+- id: wu.6.p17.h1
+  anchor: wu.6.p17
+  at: 21
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p17.h2
+  anchor: wu.6.p17
+  at: 74
+  length: 2
+  type: person
+  person_id: liufu
+  text: 劉馥
+  via: primary
 - id: wu.6.p17.a1
   anchor: wu.6.p17
   at: 106
   length: 0
   type: pei
   text: 《吴历》曰：妫览、戴员亲近边洪等，数为翊所困，常欲叛逆，因吴主出征，遂其奸计。时诸县令长并会见翊，翊以妻徐氏颇晓卜，翊入语徐：“吾明日欲为长吏作主人，卿试卜之。”徐言：“卦不能佳，可须异日。”翊以长吏来久，宜速遣，乃大请宾客。翊出入常持刀，尔时有酒色，空手送客，洪从后斫翊，郡中扰乱，无救翊者，遂为洪所杀，迸走入山。徐氏购募追捕，中宿乃得，览、员归罪杀洪。诸将皆知览、员所为，而力不能讨。览入居军府中，悉取翊嫔妾及左右侍御，欲复取徐。恐逆之见害，乃绐之曰：“乞须晦日设祭除服。”时月垂竟，览听须祭毕。徐潜使所亲信语翊亲近旧将孙高、傅婴等，说：“览已虏略婢妾，今又欲见偪，所以外许之者，欲安其意以免祸耳。欲立微计，原二君哀救。”高、婴涕泣答言：“受府君恩遇，所以不即死难者，以死无益，欲思惟事计，事计未立，未敢启夫人耳。今日之事，实夙夜所怀也。”乃密呼翊时侍养者二十餘人，以徐意语之，共盟誓，合谋。到晦日，设祭，徐氏哭泣尽哀毕，乃除服，薰香沐浴，更於他室，安施帏帐，言笑欢悦，示无戚容。大小凄怆，怪其如此。览密觇视，无复疑意。徐呼高、婴与诸婢罗住户内，使人报览，说已除凶即吉，惟府君敕命。览盛意入，徐出户拜。览適得一拜，徐便大呼：“二君可起！”高、婴俱出，共得杀览，餘人即就外杀员。夫人乃还缞绖，奉览、员首以祭翊墓。举军震骇，以为神异。吴主续至，悉族诛览、员餘党，擢高、婴为牙门，其餘皆加赐金帛，殊其门户。
+- id: wu.6.p18.h1
+  anchor: wu.6.p18
+  at: 26
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h2
+  anchor: wu.6.p18
+  at: 76
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h3
+  anchor: wu.6.p18
+  at: 134
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h4
+  anchor: wu.6.p18
+  at: 150
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h5
+  anchor: wu.6.p18
+  at: 248
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h6
+  anchor: wu.6.p18
+  at: 266
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h7
+  anchor: wu.6.p18
+  at: 276
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.6.p18.h8
+  anchor: wu.6.p18
+  at: 319
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.6.p18.t1
   anchor: wu.6.p18
   at: 349
@@ -307,12 +955,68 @@ annotations:
   length: 0
   type: pei
   text: 《晋诸公赞》曰：吴平，降为渡辽将军，永安元年卒。《吴录》曰：楷处事严整不如孙秀，而人间知名，过也。
+- id: wu.6.p19.h1
+  anchor: wu.6.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhuan_2
+  text: 孫桓
+  via: primary
 - id: wu.6.p19.a1
   anchor: wu.6.p19
   at: 11
   length: 0
   type: pei
   text: 《吴书》曰：河有四子。长助，曲阿长。次谊，海盐长。并早卒。次桓，仪容端正，器怀聪朗，博学强记，能论议应对，权常称为宗室颜渊，擢为武卫都尉。从讨关羽於华容，诱羽餘党，得五千人，牛马器械甚众。
+- id: wu.6.p19.h2
+  anchor: wu.6.p19
+  at: 24
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.6.p19.h3
+  anchor: wu.6.p19
+  at: 28
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.6.p19.h4
+  anchor: wu.6.p19
+  at: 31
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.6.p19.h5
+  anchor: wu.6.p19
+  at: 49
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: wu.6.p19.h6
+  anchor: wu.6.p19
+  at: 53
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.6.p19.h7
+  anchor: wu.6.p19
+  at: 74
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
 - id: wu.6.p19.a2
   anchor: wu.6.p19
   at: 140

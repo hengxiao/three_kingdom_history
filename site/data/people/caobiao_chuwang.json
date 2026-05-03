@@ -1,0 +1,96 @@
+{
+  "id": "caobiao_chuwang",
+  "primary_name": "曹彪",
+  "courtesy_name": "朱虎",
+  "given_name": null,
+  "aliases": [
+    "楚王彪"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "魏楚王，曹操子，被誣謀反賜死",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.20",
+      "title": "魏書·武文世王公傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/20.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p57",
+        "at": 476,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "楚王彪",
+        "snippet": "…兵，專淮南之任。凌與愚陰謀，以帝闇弱，制於強臣，聞楚王彪有智勇，欲共立之，迎都許昌。九月，愚遣其將張式至白馬，與楚王相聞。凌又遣舍人勞精詣洛陽，語其子廣。廣曰：「凡舉大事，應本人情…"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p83",
+        "at": 4,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "楚王彪",
+        "snippet": "六月，賜楚王彪死。盡錄諸王公置鄴，使有司察之，不得與人交關。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.28",
+        "chapter_title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.28.p4",
+        "at": 75,
+        "data_url": "data/sanguozhi/wei/28.json",
+        "matched": "楚王彪",
+        "snippet": "…進凌為太尉，假節鉞。凌、愚密協計，謂齊王不任天位，楚王彪長而才，欲迎立彪都許昌。嘉平元年九月，愚遣將張式至白馬，與彪相問往來。凌又遣舍人勞精詣洛陽，語子廣。廣言：「廢立大事，勿為禍…"
+      },
+      {
+        "chapter_id": "wei.29",
+        "chapter_title": "魏書·方技傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.29.p25",
+        "at": 173,
+        "data_url": "data/sanguozhi/wei/29.json",
+        "matched": "曹彪",
+        "snippet": "…當有厄，先此一年，當獨見一白狗，而旁人不見也。」謂曹彪曰：「君據藩國，至五十七當厄於兵，宜善防之。」"
+      },
+      {
+        "chapter_id": "wei.29",
+        "chapter_title": "魏書·方技傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.29.p27",
+        "at": 218,
+        "data_url": "data/sanguozhi/wei/29.json",
+        "matched": "曹彪",
+        "snippet": "…聚會，並急遊觀田裡，飲宴自娛，過期一年，六十三卒。曹彪封楚王，年五十七，坐與王淩通謀，賜死。凡說此輩，無不如言，不能具詳，故粗記數事。惟相司空王昶、征北將軍程喜、中領軍王肅有蹉跌云…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p20",
+        "at": 98,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "楚王彪",
+        "snippet": "…征南大將軍。壬辰，大赦。丙午，聞太尉王淩謀廢帝，立楚王彪，太傅司馬宣王東征淩。五月甲寅，淩自殺。六月，彪賜死。秋七月壬戌，皇后甄氏崩。辛未，以司空司馬孚為太尉。戊寅，太傅司馬宣王薨…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 6
+}

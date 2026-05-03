@@ -5,6 +5,32 @@ source:
   retrieved: '2026-05-03'
   sha256: 76277171c88f35e2d5e831eb07d557ee883e0e828afa94f981c4ecd48e6f9ff5
 annotations:
+- id: hhs.77.p2.h1
+  anchor: hhs.77.p2
+  at: 46
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- anchor: hhs.77.p17
+  at: 78
+  length: 2
+  type: person
+  person_id: zhangdedouhh
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「皇后弟黃門郎竇篤」即漢章帝章德竇皇后之弟竇篤，章德竇后未列 roster。
+  id: hhs.77.p17.h1
+- id: hhs.77.p18.h1
+  anchor: hhs.77.p18
+  at: 7
+  length: 2
+  type: person
+  person_id: hehan
+  text: 和帝
+  via: alias
 - id: hhs.77.p19.t1
   anchor: hhs.77.p19
   at: 0
@@ -77,6 +103,14 @@ annotations:
   era: 漢安
   era_year: 1
   reasoning: 原文「漢安元年」直接出现年号；解析為 AD 142
+- id: hhs.77.p28.h1
+  anchor: hhs.77.p28
+  at: 153
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.77.p30.t1
   anchor: hhs.77.p30
   at: 46
@@ -89,6 +123,14 @@ annotations:
   era: 光和
   era_year: 2
   reasoning: 原文「光和二年」直接出现年号；解析為 AD 179
+- id: hhs.77.p32.h1
+  anchor: hhs.77.p32
+  at: 2
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.77.p32.t1
   anchor: hhs.77.p32
   at: 208

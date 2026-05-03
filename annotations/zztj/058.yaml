@@ -19,7 +19,7 @@ annotations:
   reasoning: 原文「光和四年」直接出现年号；解析為 AD 181
 - id: zztj.58.p5.t1
   anchor: zztj.58.p5
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -33,7 +33,7 @@ annotations:
   reasoning: 年承前文 光和4年 (AD 181)，月份「正月」
 - id: zztj.58.p6.t1
   anchor: zztj.58.p6
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 四月
@@ -47,7 +47,7 @@ annotations:
   reasoning: 年承前文 光和4年 (AD 181)，月份「四月」
 - id: zztj.58.p8.t1
   anchor: zztj.58.p8
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 六月
@@ -61,7 +61,7 @@ annotations:
   reasoning: 年承前文 光和4年 (AD 181)，月份「六月」
 - id: zztj.58.p9.t1
   anchor: zztj.58.p9
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 九月
@@ -75,7 +75,7 @@ annotations:
   reasoning: 年承前文 光和4年 (AD 181)，月份「九月」
 - id: zztj.58.p12.t1
   anchor: zztj.58.p12
-  at: 9
+  at: 8
   length: 2
   type: temporal
   text: 十月
@@ -89,7 +89,7 @@ annotations:
   reasoning: 年承前文 光和4年 (AD 181)，月份「十月」
 - id: zztj.58.p14.t1
   anchor: zztj.58.p14
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 是歲
@@ -99,6 +99,26 @@ annotations:
   era: 光和
   era_year: 4
   reasoning: 「是歲」 = 当前年 光和4年 (AD 181)
+- anchor: zztj.58.p15
+  at: 57
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
+  id: zztj.58.p15.h1
+- anchor: zztj.58.p16
+  at: 1
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 光和年間皇后當指何皇后(靈帝何氏)，不在花名冊
+  id: zztj.58.p16.h1
 - id: zztj.58.p18.t1
   anchor: zztj.58.p18
   at: 0
@@ -113,7 +133,7 @@ annotations:
   reasoning: 原文「光和五年」直接出现年号；解析為 AD 182
 - id: zztj.58.p19.t1
   anchor: zztj.58.p19
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -127,7 +147,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「正月」
 - id: zztj.58.p21.t1
   anchor: zztj.58.p21
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 三月
@@ -141,7 +161,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「三月」
 - id: zztj.58.p23.t1
   anchor: zztj.58.p23
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 五月
@@ -155,7 +175,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「五月」
 - id: zztj.58.p24.t1
   anchor: zztj.58.p24
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 七月
@@ -169,7 +189,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「七月」
 - id: zztj.58.p25.t1
   anchor: zztj.58.p25
-  at: 107
+  at: 106
   length: 4
   type: temporal
   text: 建和二年
@@ -181,7 +201,7 @@ annotations:
   reasoning: 原文「建和二年」直接出现年号；解析為 AD 148（回溯前事，不推進章節時間軸）
 - id: zztj.58.p26.t1
   anchor: zztj.58.p26
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 八月
@@ -195,7 +215,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「八月」
 - id: zztj.58.p27.t1
   anchor: zztj.58.p27
-  at: 4
+  at: 2
   length: 2
   type: temporal
   text: 十月
@@ -209,7 +229,7 @@ annotations:
   reasoning: 年承前文 光和5年 (AD 182)，月份「十月」
 - id: zztj.58.p28.t1
   anchor: zztj.58.p28
-  at: 21
+  at: 19
   length: 3
   type: temporal
   text: 十二月
@@ -235,7 +255,7 @@ annotations:
   reasoning: 原文「光和六年」直接出现年号；解析為 AD 183
 - id: zztj.58.p31.t1
   anchor: zztj.58.p31
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 三月
@@ -247,6 +267,24 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 光和6年 (AD 183)，月份「三月」
+- anchor: zztj.58.p32
+  at: 2
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 光和年間皇后當指何皇后(靈帝何氏)，不在花名冊
+  id: zztj.58.p32.h1
+- id: zztj.58.p36.h1
+  anchor: zztj.58.p36
+  at: 102
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
 - id: zztj.58.p37.t1
   anchor: zztj.58.p37
   at: 123
@@ -275,7 +313,7 @@ annotations:
   reasoning: 原文「中平元年」直接出现年号；解析為 AD 184
 - id: zztj.58.p39.t1
   anchor: zztj.58.p39
-  at: 102
+  at: 101
   length: 2
   type: temporal
   text: 二月
@@ -301,9 +339,41 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 中平元年 (AD 184)，月份「三月」
+- id: zztj.58.p40.h1
+  anchor: zztj.58.p40
+  at: 10
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: zztj.58.p41.h1
+  anchor: zztj.58.p41
+  at: 11
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p41.h2
+  anchor: zztj.58.p41
+  at: 161
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
+- id: zztj.58.p41.h3
+  anchor: zztj.58.p41
+  at: 171
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: zztj.58.p46.t1
   anchor: zztj.58.p46
-  at: 24
+  at: 23
   length: 2
   type: temporal
   text: 四月
@@ -315,9 +385,49 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 中平元年 (AD 184)，月份「四月」
+- id: zztj.58.p46.h1
+  anchor: zztj.58.p46
+  at: 54
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
+- id: zztj.58.p47.h1
+  anchor: zztj.58.p47
+  at: 10
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p48.h1
+  anchor: zztj.58.p48
+  at: 0
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p50.h1
+  anchor: zztj.58.p50
+  at: 3
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p50.h2
+  anchor: zztj.58.p50
+  at: 87
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: zztj.58.p50.t1
   anchor: zztj.58.p50
-  at: 95
+  at: 94
   length: 2
   type: temporal
   text: 五月
@@ -329,9 +439,117 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 中平元年 (AD 184)，月份「五月」
+- id: zztj.58.p50.h3
+  anchor: zztj.58.p50
+  at: 99
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h1
+  anchor: zztj.58.p51
+  at: 0
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h2
+  anchor: zztj.58.p51
+  at: 30
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h3
+  anchor: zztj.58.p51
+  at: 72
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h4
+  anchor: zztj.58.p51
+  at: 105
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h5
+  anchor: zztj.58.p51
+  at: 129
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h6
+  anchor: zztj.58.p51
+  at: 215
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h7
+  anchor: zztj.58.p51
+  at: 219
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: zztj.58.p51.h8
+  anchor: zztj.58.p51
+  at: 245
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p51.h9
+  anchor: zztj.58.p51
+  at: 269
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: zztj.58.p52.h1
+  anchor: zztj.58.p52
+  at: 15
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
+- anchor: zztj.58.p52
+  at: 153
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
+  id: zztj.58.p52.h2
+- anchor: zztj.58.p52
+  at: 279
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
+  id: zztj.58.p52.h3
 - id: zztj.58.p53.t1
   anchor: zztj.58.p53
-  at: 11
+  at: 10
   length: 2
   type: temporal
   text: 六月
@@ -343,9 +561,33 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 中平元年 (AD 184)，月份「六月」
+- id: zztj.58.p55.h1
+  anchor: zztj.58.p55
+  at: 0
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p56.h1
+  anchor: zztj.58.p56
+  at: 4
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
+- id: zztj.58.p56.h2
+  anchor: zztj.58.p56
+  at: 113
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: zztj.58.p57.t1
   anchor: zztj.58.p57
-  at: 40
+  at: 38
   length: 2
   type: temporal
   text: 七月
@@ -359,7 +601,7 @@ annotations:
   reasoning: 年承前文 中平元年 (AD 184)，月份「七月」
 - id: zztj.58.p58.t1
   anchor: zztj.58.p58
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 八月
@@ -371,9 +613,25 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 中平元年 (AD 184)，月份「八月」
+- id: zztj.58.p58.h1
+  anchor: zztj.58.p58
+  at: 3
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p58.h2
+  anchor: zztj.58.p58
+  at: 20
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: zztj.58.p59.t1
   anchor: zztj.58.p59
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 九月
@@ -387,7 +645,7 @@ annotations:
   reasoning: 年承前文 中平元年 (AD 184)，月份「九月」
 - id: zztj.58.p61.t1
   anchor: zztj.58.p61
-  at: 4
+  at: 2
   length: 2
   type: temporal
   text: 十月
@@ -399,9 +657,17 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 中平元年 (AD 184)，月份「十月」
+- id: zztj.58.p61.h1
+  anchor: zztj.58.p61
+  at: 5
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: zztj.58.p61.t2
   anchor: zztj.58.p61
-  at: 106
+  at: 104
   length: 3
   type: temporal
   text: 十一月
@@ -413,9 +679,17 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 中平元年 (AD 184)，月份「十一月」
+- id: zztj.58.p63.h1
+  anchor: zztj.58.p63
+  at: 53
+  length: 2
+  type: person
+  person_id: gaixun
+  text: 蓋勳
+  via: primary
 - id: zztj.58.p66.t1
   anchor: zztj.58.p66
-  at: 43
+  at: 41
   length: 2
   type: temporal
   text: 六月
@@ -429,7 +703,7 @@ annotations:
   reasoning: 年承前文 中平元年 (AD 184)，月份「六月」
 - id: zztj.58.p66.t2
   anchor: zztj.58.p66
-  at: 46
+  at: 44
   length: 2
   type: temporal
   text: 八月
@@ -441,9 +715,25 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 中平元年 (AD 184)，月份「八月」
+- id: zztj.58.p66.h1
+  anchor: zztj.58.p66
+  at: 57
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p66.h2
+  anchor: zztj.58.p66
+  at: 451
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
 - id: zztj.58.p67.t1
   anchor: zztj.58.p67
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十二月
@@ -455,9 +745,17 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 中平元年 (AD 184)，月份「十二月」
+- id: zztj.58.p68.h1
+  anchor: zztj.58.p68
+  at: 6
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
 - id: zztj.58.p68.t1
   anchor: zztj.58.p68
-  at: 104
+  at: 102
   length: 2
   type: temporal
   text: 一月
@@ -483,7 +781,7 @@ annotations:
   reasoning: 原文「中平二年」直接出现年号；解析為 AD 185
 - id: zztj.58.p70.t1
   anchor: zztj.58.p70
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -497,7 +795,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「正月」
 - id: zztj.58.p71.t1
   anchor: zztj.58.p71
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 二月
@@ -511,7 +809,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「二月」
 - id: zztj.58.p76.t1
   anchor: zztj.58.p76
-  at: 7
+  at: 6
   length: 2
   type: temporal
   text: 三月
@@ -523,9 +821,33 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 中平2年 (AD 185)，月份「三月」
+- id: zztj.58.p77.h1
+  anchor: zztj.58.p77
+  at: 24
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p78.h1
+  anchor: zztj.58.p78
+  at: 15
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: zztj.58.p79.h1
+  anchor: zztj.58.p79
+  at: 37
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
 - id: zztj.58.p80.t1
   anchor: zztj.58.p80
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 四月
@@ -539,7 +861,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「四月」
 - id: zztj.58.p81.t1
   anchor: zztj.58.p81
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 五月
@@ -553,7 +875,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「五月」
 - id: zztj.58.p82.t1
   anchor: zztj.58.p82
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 六月
@@ -567,7 +889,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「六月」
 - id: zztj.58.p83.t1
   anchor: zztj.58.p83
-  at: 4
+  at: 2
   length: 2
   type: temporal
   text: 七月
@@ -579,9 +901,17 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 中平2年 (AD 185)，月份「七月」
+- id: zztj.58.p84.h1
+  anchor: zztj.58.p84
+  at: 0
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: zztj.58.p84.t1
   anchor: zztj.58.p84
-  at: 81
+  at: 79
   length: 2
   type: temporal
   text: 八月
@@ -593,9 +923,25 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 中平2年 (AD 185)，月份「八月」
+- id: zztj.58.p84.h2
+  anchor: zztj.58.p84
+  at: 85
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p84.h3
+  anchor: zztj.58.p84
+  at: 112
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: zztj.58.p85.t1
   anchor: zztj.58.p85
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 九月
@@ -609,7 +955,7 @@ annotations:
   reasoning: 年承前文 中平2年 (AD 185)，月份「九月」
 - id: zztj.58.p85.t2
   anchor: zztj.58.p85
-  at: 16
+  at: 14
   length: 2
   type: temporal
   text: 十月
@@ -621,9 +967,25 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 中平2年 (AD 185)，月份「十月」
+- id: zztj.58.p86.h1
+  anchor: zztj.58.p86
+  at: 4
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
+- id: zztj.58.p87.h1
+  anchor: zztj.58.p87
+  at: 0
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: zztj.58.p87.t1
   anchor: zztj.58.p87
-  at: 36
+  at: 34
   length: 3
   type: temporal
   text: 十一月
@@ -635,9 +997,177 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 中平2年 (AD 185)，月份「十一月」
+- id: zztj.58.p87.h2
+  anchor: zztj.58.p87
+  at: 38
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: zztj.58.p88.h1
+  anchor: zztj.58.p88
+  at: 14
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: zztj.58.p88.h2
+  anchor: zztj.58.p88
+  at: 33
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: zztj.58.p88.h3
+  anchor: zztj.58.p88
+  at: 117
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: zztj.58.p88.h4
+  anchor: zztj.58.p88
+  at: 132
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: zztj.58.p89.h1
+  anchor: zztj.58.p89
+  at: 0
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p89.h2
+  anchor: zztj.58.p89
+  at: 6
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h3
+  anchor: zztj.58.p89
+  at: 8
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h4
+  anchor: zztj.58.p89
+  at: 18
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h5
+  anchor: zztj.58.p89
+  at: 20
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h6
+  anchor: zztj.58.p89
+  at: 26
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: zztj.58.p89.h7
+  anchor: zztj.58.p89
+  at: 36
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h8
+  anchor: zztj.58.p89
+  at: 64
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h9
+  anchor: zztj.58.p89
+  at: 87
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: zztj.58.p89.h10
+  anchor: zztj.58.p89
+  at: 106
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h11
+  anchor: zztj.58.p89
+  at: 109
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h12
+  anchor: zztj.58.p89
+  at: 142
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h13
+  anchor: zztj.58.p89
+  at: 156
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h14
+  anchor: zztj.58.p89
+  at: 203
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h15
+  anchor: zztj.58.p89
+  at: 234
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: zztj.58.p89.h16
+  anchor: zztj.58.p89
+  at: 240
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: zztj.58.p90.t1
   anchor: zztj.58.p90
-  at: 2
+  at: 0
   length: 2
   type: temporal
   text: 是歲
@@ -661,7 +1191,7 @@ annotations:
   reasoning: 原文「中平三年」直接出现年号；解析為 AD 186
 - id: zztj.58.p92.t1
   anchor: zztj.58.p92
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 二月
@@ -673,9 +1203,33 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 中平3年 (AD 186)，月份「二月」
+- id: zztj.58.p94.h1
+  anchor: zztj.58.p94
+  at: 15
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p95.h1
+  anchor: zztj.58.p95
+  at: 86
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
+- id: zztj.58.p95.h2
+  anchor: zztj.58.p95
+  at: 128
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
 - id: zztj.58.p97.t1
   anchor: zztj.58.p97
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 五月
@@ -689,7 +1243,7 @@ annotations:
   reasoning: 年承前文 中平3年 (AD 186)，月份「五月」
 - id: zztj.58.p98.t1
   anchor: zztj.58.p98
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 六月
@@ -703,7 +1257,7 @@ annotations:
   reasoning: 年承前文 中平3年 (AD 186)，月份「六月」
 - id: zztj.58.p99.t1
   anchor: zztj.58.p99
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 十月
@@ -717,7 +1271,7 @@ annotations:
   reasoning: 年承前文 中平3年 (AD 186)，月份「十月」
 - id: zztj.58.p101.t1
   anchor: zztj.58.p101
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十二月
@@ -729,6 +1283,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 中平3年 (AD 186)，月份「十二月」
+- id: zztj.58.p102.h1
+  anchor: zztj.58.p102
+  at: 1
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: zztj.58.p103.t1
   anchor: zztj.58.p103
   at: 0
@@ -743,7 +1305,7 @@ annotations:
   reasoning: 原文「中平四年」直接出现年号；解析為 AD 187
 - id: zztj.58.p104.t1
   anchor: zztj.58.p104
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -757,7 +1319,7 @@ annotations:
   reasoning: 年承前文 中平4年 (AD 187)，月份「正月」
 - id: zztj.58.p105.t1
   anchor: zztj.58.p105
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 二月
@@ -771,7 +1333,7 @@ annotations:
   reasoning: 年承前文 中平4年 (AD 187)，月份「二月」
 - id: zztj.58.p105.t2
   anchor: zztj.58.p105
-  at: 12
+  at: 11
   length: 2
   type: temporal
   text: 三月
@@ -783,6 +1345,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 中平4年 (AD 187)，月份「三月」
+- id: zztj.58.p107.h1
+  anchor: zztj.58.p107
+  at: 34
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
 - id: zztj.58.p107.t1
   anchor: zztj.58.p107
   at: 158
@@ -797,9 +1367,17 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 中平4年 (AD 187)，月份「四月」
+- id: zztj.58.p110.h1
+  anchor: zztj.58.p110
+  at: 2
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: zztj.58.p110.t1
   anchor: zztj.58.p110
-  at: 22
+  at: 21
   length: 2
   type: temporal
   text: 五月
@@ -811,9 +1389,25 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 中平4年 (AD 187)，月份「五月」
+- id: zztj.58.p111.h1
+  anchor: zztj.58.p111
+  at: 2
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: zztj.58.p111.h2
+  anchor: zztj.58.p111
+  at: 40
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
 - id: zztj.58.p112.t1
   anchor: zztj.58.p112
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 十月
@@ -825,9 +1419,25 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 中平4年 (AD 187)，月份「十月」
+- id: zztj.58.p112.h1
+  anchor: zztj.58.p112
+  at: 24
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: zztj.58.p112.h2
+  anchor: zztj.58.p112
+  at: 38
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: zztj.58.p113.t1
   anchor: zztj.58.p113
-  at: 1
+  at: 0
   length: 3
   type: temporal
   text: 十一月
@@ -841,7 +1451,7 @@ annotations:
   reasoning: 年承前文 中平4年 (AD 187)，月份「十一月」
 - id: zztj.58.p114.t1
   anchor: zztj.58.p114
-  at: 1
+  at: 0
   length: 3
   type: temporal
   text: 十二月
@@ -855,7 +1465,7 @@ annotations:
   reasoning: 年承前文 中平4年 (AD 187)，月份「十二月」
 - id: zztj.58.p115.t1
   anchor: zztj.58.p115
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 是歲
@@ -865,3 +1475,11 @@ annotations:
   era: 中平
   era_year: 4
   reasoning: 「是歲」 = 当前年 中平4年 (AD 187)
+- id: zztj.58.p116.h1
+  anchor: zztj.58.p116
+  at: 4
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary

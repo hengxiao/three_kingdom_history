@@ -1,0 +1,61 @@
+{
+  "id": "simazhi",
+  "primary_name": "司馬芝",
+  "courtesy_name": "子華",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.12",
+      "title": "魏書·崔毛徐何邢鮑司馬傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p46",
+        "at": 289,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "司馬芝",
+        "snippet": "…城長。河東裴潛亦為表所禮重，潛私謂王暢之子粲及河內司馬芝曰：「劉牧非霸王之才，乃欲西伯自處，其敗無日矣！」遂南適長沙。於是操以暨為丞相士曹屬，潛參丞相軍事，洽、廙、粲皆為掾屬，芝為…"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p83",
+        "at": 47,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "司馬芝",
+        "snippet": "…，競濕穀以要利，薄絹以為市，雖處以嚴刑，不能禁也。司馬芝等舉朝大議，以為：「用錢非徒豐國，亦所以省刑，今不若更鑄五銖為便。」夏，四月，乙亥，復行五銖錢。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.23",
+        "chapter_title": "魏書·和常楊杜趙裴傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.23.p25",
+        "at": 33,
+        "data_url": "data/sanguozhi/wei/23.json",
+        "matched": "司馬芝",
+        "snippet": "…聞喜人也。避亂荊州，劉表待以賓禮。潛私謂所親王粲、司馬芝曰：「劉牧非霸王之才，乃欲西伯自處，其敗無日矣。」遂南適長沙。太祖定荊州，以潛參丞相軍事，出歷三縣令，入爲倉曹屬。太祖問潛曰…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

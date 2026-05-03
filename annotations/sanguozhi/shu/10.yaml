@@ -2,9 +2,81 @@ chapter: shu.10
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷40
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: ab4b23d669cee59670df503ea997e7bfc475d59d05e0faadbec6fb01ab882497
 annotations:
+- id: shu.10.p1.h1
+  anchor: shu.10.p1
+  at: 20
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p1.h2
+  anchor: shu.10.p1
+  at: 38
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p1.h3
+  anchor: shu.10.p1
+  at: 48
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.10.p1.h4
+  anchor: shu.10.p1
+  at: 71
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p1.h5
+  anchor: shu.10.p1
+  at: 75
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.10.p2.h1
+  anchor: shu.10.p2
+  at: 2
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.10.p2.h2
+  anchor: shu.10.p2
+  at: 10
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.10.p2.h3
+  anchor: shu.10.p2
+  at: 22
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p2.h4
+  anchor: shu.10.p2
+  at: 25
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p2.t1
   anchor: shu.10.p2
   at: 52
@@ -17,48 +89,486 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
+- id: shu.10.p2.h5
+  anchor: shu.10.p2
+  at: 88
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p2.h6
+  anchor: shu.10.p2
+  at: 137
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p2.h7
+  anchor: shu.10.p2
+  at: 181
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.10.p2.h8
+  anchor: shu.10.p2
+  at: 219
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: shu.10.p2.h9
+  anchor: shu.10.p2
+  at: 223
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: shu.10.p2.h10
+  anchor: shu.10.p2
+  at: 227
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p2.h11
+  anchor: shu.10.p2
+  at: 261
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p2.a1
   anchor: shu.10.p2
   at: 270
   length: 0
   type: pei
   text: 《魏略》載達辭先主表曰：「伏惟殿下將建伊、呂之業，追桓、文之功，大事草創，假勢吳、楚，是以有為之士深睹歸趣。臣委質已來，愆戾山積，臣猶自知，況於君乎！今王朝以興，英俊鱗集，臣內無輔佐之器，外無將領之才，列次功臣，誠自愧也。臣聞范蠡識微，浮於五湖；咎犯謝罪，逡巡於河上。夫際會之間，請命乞身。何則？欲絜去就之分也。況臣卑鄙，無元功巨勳，自系於時，竊慕前賢，早思遠恥。昔申生至孝見疑於親，子胥至忠見誅於君，蒙恬拓境而被大刑，樂毅破齊而遭讒佞，臣每讀其書，未嘗不慷慨流涕，而親當其事，益以傷絕。何者？荊州覆敗，大臣失節，百無一還。惟臣尋事，自致房陵、上庸，而復乞身，自放於外。伏想殿下聖恩感悟，愍臣之心，悼臣之舉。臣誠小人，不能始終，知而為之，敢謂非罪！臣每間交絕無惡聲，去臣無怨辭，臣過奉教於君子，原君王勉之也。」
+- id: shu.10.p2.h12
+  anchor: shu.10.p2
+  at: 330
+  length: 3
+  type: person
+  person_id: xiahoushang
+  text: 夏侯尚
+  via: primary
+- id: shu.10.p2.h13
+  anchor: shu.10.p2
+  at: 337
+  length: 2
+  type: person
+  person_id: xuhuang
+  text: 徐晃
+  via: primary
+- anchor: shu.10.p3
+  at: 234
+  length: 2
+  type: person
+  person_id: liushan
+  text: 太子
+  via: llm
+  confidence: 0.98
+  reasoning: 孟達致劉封書「自立阿斗為太子已來」即立劉禪為太子，對應 liushan。
+  id: shu.10.p3.h1
 - id: shu.10.p3.a1
   anchor: shu.10.p3
   at: 454
   length: 0
   type: pei
   text: 國語曰：智宣子將以瑤為後，智果曰：「不如霄也。」宣子曰：「霄也佷。」對曰：「霄也佷在面，瑤之賢於人者五，其不逮者一也。美須長大則賢，射禦足力則賢，技藝畢給則賢，巧文辯惠則賢，強毅果敢則賢，如是而甚不仁；以五者賢陵人，而不仁行之，其誰能待之！若果立瑤也。智宗必滅。」不聽。智果別族於太史氏為輔氏。及智氏亡，惟輔果在焉。
+- anchor: shu.10.p3
+  at: 564
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 孟達招降劉封書「加陛下新受禪命，虛心側席」即魏文帝曹丕受漢禪（黃初元年），對應 caopi。
+  id: shu.10.p3.h2
+- anchor: shu.10.p3
+  at: 622
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同信「陛下大軍，金鼓以震」即魏王曹丕大軍，對應 caopi。
+  id: shu.10.p3.h3
 - id: shu.10.p5.a1
   anchor: shu.10.p5
   at: 52
   length: 0
   type: pei
   text: 《魏略》曰：申儀兄名耽，字義舉。初在西平、上庸間聚眾數千家，後與張魯通，又遣使詣曹公，曹公加其號為將軍，因使領上庸都尉。至建安末，為蜀所攻，以其郡西屬。黃初中，儀復來還，詔即以兄故號加儀，因拜魏興太守，封列侯。太和中，儀與孟達不和，數上言達有貳心於蜀，及達反，儀絕蜀道，使救不到。達死後，儀詣宛見司馬宣王，宣王勸使來朝。儀至京師，詔轉拜儀樓船將軍，在禮請中。
+- id: shu.10.p5.h1
+  anchor: shu.10.p5
+  at: 56
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p5.h2
+  anchor: shu.10.p5
+  at: 68
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name_carry
+- id: shu.10.p5.h3
+  anchor: shu.10.p5
+  at: 70
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p5.h4
+  anchor: shu.10.p5
+  at: 88
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p5.h5
+  anchor: shu.10.p5
+  at: 120
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p6.h1
+  anchor: shu.10.p6
+  at: 7
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p6.a1
   anchor: shu.10.p6
   at: 16
   length: 0
   type: pei
   text: 封子林為牙門將，咸熙元年內移河東。達子興為議督軍，是歲徙還扶風。
+- id: shu.10.p7.h1
+  anchor: shu.10.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: pengyang
+  text: 彭羕
+  via: primary
+- id: shu.10.p7.h2
+  anchor: shu.10.p7
+  at: 43
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.10.p8.h1
+  anchor: shu.10.p8
+  at: 92
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.10.p8.h2
+  anchor: shu.10.p8
+  at: 101
+  length: 2
+  type: person
+  person_id: qinmi
+  text: 秦宓
+  via: primary
+- id: shu.10.p8.h3
+  anchor: shu.10.p8
+  at: 199
+  length: 1
+  type: person
+  person_id: zhangfei
+  text: 飛
+  via: given_name_carry
+- id: shu.10.p9.h1
+  anchor: shu.10.p9
+  at: 20
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.10.p9.h2
+  anchor: shu.10.p9
+  at: 32
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h3
+  anchor: shu.10.p9
+  at: 46
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h4
+  anchor: shu.10.p9
+  at: 52
+  length: 2
+  type: person
+  person_id: pangtong
+  text: 龐統
+  via: primary
+- id: shu.10.p9.h5
+  anchor: shu.10.p9
+  at: 128
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.10.p9.h6
+  anchor: shu.10.p9
+  at: 139
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h7
+  anchor: shu.10.p9
+  at: 142
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h8
+  anchor: shu.10.p9
+  at: 177
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h9
+  anchor: shu.10.p9
+  at: 217
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p9.h10
+  anchor: shu.10.p9
+  at: 235
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h11
+  anchor: shu.10.p9
+  at: 249
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p9.h12
+  anchor: shu.10.p9
+  at: 254
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p10.h1
+  anchor: shu.10.p10
+  at: 13
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: shu.10.p10.h2
+  anchor: shu.10.p10
+  at: 16
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
 - id: shu.10.p10.a1
   anchor: shu.10.p10
   at: 80
   length: 0
   type: pei
   text: 揚雄《方言》曰：悈、鰓、乾、都、耇、革，老也。郭璞注曰：皆老者皮毛枯瘁之形也。臣松之以為皮去毛曰革。古者以革為兵，故語稱兵革，革猶兵也。羕罵備為老革，猶言老兵也。
+- id: shu.10.p10.h3
+  anchor: shu.10.p10
+  at: 82
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: shu.10.p10.h4
+  anchor: shu.10.p10
+  at: 104
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: shu.10.p11.h1
+  anchor: shu.10.p11
+  at: 5
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p12.h1
+  anchor: shu.10.p12
+  at: 10
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.10.p12.h2
+  anchor: shu.10.p12
+  at: 15
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.10.p12.h3
+  anchor: shu.10.p12
+  at: 66
+  length: 2
+  type: person
+  person_id: pangtong
+  text: 龐統
+  via: primary
 - id: shu.10.p12.a1
   anchor: shu.10.p12
   at: 180
   length: 0
   type: pei
   text: 臣松之以為「分子之厚」者，羕言劉主分兒子厚恩，施之於己，故其書後語云「負我慈父，罪有百死」也。
+- id: shu.10.p12.h4
+  anchor: shu.10.p12
+  at: 357
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.10.p12.h5
+  anchor: shu.10.p12
+  at: 390
+  length: 2
+  type: person
+  person_id: pangtong
+  text: 龐統
+  via: primary
+- id: shu.10.p14.h1
+  anchor: shu.10.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: liaoli
+  text: 廖立
+  via: primary
 - id: shu.10.p14.a1
   anchor: shu.10.p14
   at: 2
   length: 0
   type: pei
   text: 廖音理救反。
+- id: shu.10.p14.h2
+  anchor: shu.10.p14
+  at: 12
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p14.h3
+  anchor: shu.10.p14
+  at: 36
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p14.h4
+  anchor: shu.10.p14
+  at: 41
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p14.h5
+  anchor: shu.10.p14
+  at: 48
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.10.p14.h6
+  anchor: shu.10.p14
+  at: 55
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p14.h7
+  anchor: shu.10.p14
+  at: 68
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p14.h8
+  anchor: shu.10.p14
+  at: 73
+  length: 2
+  type: person
+  person_id: pangtong
+  text: 龐統
+  via: primary
+- id: shu.10.p14.h9
+  anchor: shu.10.p14
+  at: 76
+  length: 2
+  type: person
+  person_id: liaoli
+  text: 廖立
+  via: primary
 - id: shu.10.p14.t1
   anchor: shu.10.p14
   at: 93
@@ -71,6 +581,38 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）
+- id: shu.10.p14.h10
+  anchor: shu.10.p14
+  at: 99
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.10.p14.h11
+  anchor: shu.10.p14
+  at: 101
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: shu.10.p14.h12
+  anchor: shu.10.p14
+  at: 116
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p14.h13
+  anchor: shu.10.p14
+  at: 119
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p14.t2
   anchor: shu.10.p14
   at: 138
@@ -83,12 +625,156 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 承前文年號「建安」推得，「二十四年」 = 建安24年 = AD 219
+- id: shu.10.p14.h14
+  anchor: shu.10.p14
+  at: 143
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p14.h15
+  anchor: shu.10.p14
+  at: 156
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.10.p15.h1
+  anchor: shu.10.p15
+  at: 10
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p15.h2
+  anchor: shu.10.p15
+  at: 21
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.10.p15.h3
+  anchor: shu.10.p15
+  at: 40
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.10.p16.h1
+  anchor: shu.10.p16
+  at: 57
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
+- id: shu.10.p16.h2
+  anchor: shu.10.p16
+  at: 61
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.10.p16.h3
+  anchor: shu.10.p16
+  at: 125
+  length: 2
+  type: person
+  person_id: xianglang
+  text: 向朗
+  via: primary
+- id: shu.10.p16.h4
+  anchor: shu.10.p16
+  at: 148
+  length: 2
+  type: person
+  person_id: maliang
+  text: 馬良
+  via: primary
+- id: shu.10.p16.h5
+  anchor: shu.10.p16
+  at: 207
+  length: 2
+  type: person
+  person_id: wanglian
+  text: 王連
+  via: primary
+- id: shu.10.p17.h1
+  anchor: shu.10.p17
+  at: 10
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p17.h2
+  anchor: shu.10.p17
+  at: 14
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p17.h3
+  anchor: shu.10.p17
+  at: 24
+  length: 2
+  type: person
+  person_id: liaoli
+  text: 廖立
+  via: primary
 - id: shu.10.p17.a1
   anchor: shu.10.p17
   at: 141
   length: 0
   type: pei
   text: 亮集有亮表曰：「立奉先帝無忠孝之心，守長沙則開門就敵，領巴郡則有闇昧闟茸其事，隨大將軍則誹謗譏訶，侍梓宮則挾刃斷人頭於梓宮之側。陛下即位之後，普增職號，立隨比為將軍，面語臣曰：『我何宜在諸將軍中！不表我為卿，上當在五校！』臣答：『將軍者，隨大比耳。至於卿者，正方亦未為卿也。且宜處五校。』自是之後，怏怏懷恨。」詔曰：「三苗亂政，有虞流宥，廖立狂惑，朕不忍刑，亟徙不毛之地。」
+- id: shu.10.p17.h4
+  anchor: shu.10.p17
+  at: 164
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p17.h5
+  anchor: shu.10.p17
+  at: 186
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: shu.10.p18.h1
+  anchor: shu.10.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.10.p18.h2
+  anchor: shu.10.p18
+  at: 25
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.10.p18.h3
+  anchor: shu.10.p18
+  at: 50
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
 - id: shu.10.p18.t1
   anchor: shu.10.p18
   at: 63
@@ -101,6 +787,30 @@ annotations:
   era: 建安
   era_year: 18
   reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）
+- id: shu.10.p18.h4
+  anchor: shu.10.p18
+  at: 76
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p18.h5
+  anchor: shu.10.p18
+  at: 86
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p18.h6
+  anchor: shu.10.p18
+  at: 89
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p18.t2
   anchor: shu.10.p18
   at: 113
@@ -119,6 +829,14 @@ annotations:
   length: 0
   type: pei
   text: 音淒。
+- id: shu.10.p18.h7
+  anchor: shu.10.p18
+  at: 145
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p19.t1
   anchor: shu.10.p19
   at: 0
@@ -131,6 +849,14 @@ annotations:
   era: 章武
   era_year: 2
   reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
+- id: shu.10.p19.h1
+  anchor: shu.10.p19
+  at: 5
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p19.t2
   anchor: shu.10.p19
   at: 19
@@ -143,6 +869,22 @@ annotations:
   era: 章武
   era_year: 3
   reasoning: 承前文年號「章武」推得，「三年」 = 章武3年 = AD 223
+- id: shu.10.p19.h2
+  anchor: shu.10.p19
+  at: 22
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p19.h3
+  anchor: shu.10.p19
+  at: 29
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: shu.10.p19.t3
   anchor: shu.10.p19
   at: 58
@@ -167,6 +909,22 @@ annotations:
   era: 建興
   era_year: 4
   reasoning: 承前文年號「建興」推得，「四年」 = 建興4年 = AD 226
+- id: shu.10.p19.h4
+  anchor: shu.10.p19
+  at: 86
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p19.h5
+  anchor: shu.10.p19
+  at: 148
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.10.p19.a1
   anchor: shu.10.p19
   at: 179
@@ -185,6 +943,46 @@ annotations:
   era: 建興
   era_year: 8
   reasoning: 承前文年號「建興」推得，「八年」 = 建興8年 = AD 230
+- id: shu.10.p19.h6
+  anchor: shu.10.p19
+  at: 189
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: shu.10.p19.h7
+  anchor: shu.10.p19
+  at: 198
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p19.h8
+  anchor: shu.10.p19
+  at: 209
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.10.p19.h9
+  anchor: shu.10.p19
+  at: 210
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.10.p19.h10
+  anchor: shu.10.p19
+  at: 227
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.10.p19.t6
   anchor: shu.10.p19
   at: 229
@@ -209,6 +1007,78 @@ annotations:
   era: 建興
   era_year: 9
   reasoning: 承前文年號「建興」推得，「九年」 = 建興9年 = AD 231
+- id: shu.10.p20.h1
+  anchor: shu.10.p20
+  at: 4
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h2
+  anchor: shu.10.p20
+  at: 45
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h3
+  anchor: shu.10.p20
+  at: 49
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h4
+  anchor: shu.10.p20
+  at: 88
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h5
+  anchor: shu.10.p20
+  at: 96
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.10.p20.h6
+  anchor: shu.10.p20
+  at: 97
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.10.p20.h7
+  anchor: shu.10.p20
+  at: 114
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h8
+  anchor: shu.10.p20
+  at: 146
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p20.h9
+  anchor: shu.10.p20
+  at: 147
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.10.p20.t2
   anchor: shu.10.p20
   at: 216
@@ -221,6 +1091,22 @@ annotations:
   era: 建興
   era_year: 8
   reasoning: 「去年」 = 当前年 建興9年 (AD 231) 之前一年 = AD 230（往回引述，章節時間軸不變）
+- id: shu.10.p20.h10
+  anchor: shu.10.p20
+  at: 233
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: shu.10.p20.h11
+  anchor: shu.10.p20
+  at: 261
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.10.p20.a1
   anchor: shu.10.p20
   at: 368
@@ -245,6 +1131,22 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
+- id: shu.10.p21.h1
+  anchor: shu.10.p21
+  at: 6
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p21.h2
+  anchor: shu.10.p21
+  at: 16
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p21.a1
   anchor: shu.10.p21
   at: 34
@@ -257,6 +1159,54 @@ annotations:
   length: 0
   type: pei
   text: 蘇林《漢書音義》曰：硃音銖；提音如北方人名匕曰提也。
+- id: shu.10.p22.h1
+  anchor: shu.10.p22
+  at: 0
+  length: 2
+  type: person
+  person_id: liuyan
+  text: 劉琰
+  via: primary
+- id: shu.10.p22.h2
+  anchor: shu.10.p22
+  at: 11
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p22.h3
+  anchor: shu.10.p22
+  at: 51
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p22.h4
+  anchor: shu.10.p22
+  at: 65
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.10.p22.h5
+  anchor: shu.10.p22
+  at: 78
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.10.p22.h6
+  anchor: shu.10.p22
+  at: 112
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p22.t1
   anchor: shu.10.p22
   at: 150
@@ -269,6 +1219,46 @@ annotations:
   era: 建興
   era_year: 10
   reasoning: 原文「建興十年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
+- id: shu.10.p22.h7
+  anchor: shu.10.p22
+  at: 159
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: shu.10.p22.h8
+  anchor: shu.10.p22
+  at: 169
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p22.h9
+  anchor: shu.10.p22
+  at: 176
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p22.h10
+  anchor: shu.10.p22
+  at: 217
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name_carry
+- id: shu.10.p22.h11
+  anchor: shu.10.p22
+  at: 310
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p23.t1
   anchor: shu.10.p23
   at: 6
@@ -283,6 +1273,104 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 承前文年號「建興」推得，「十二年正月」 = 建興12年 = AD 234
+- anchor: shu.10.p23
+  at: 18
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 建興十二年「琰妻胡氏入賀太后」即蜀漢穆皇后吳氏（時為太后），未列 roster。
+  id: shu.10.p23.h2
+- id: shu.10.p23.h1
+  anchor: shu.10.p23
+  at: 44
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.10.p24.h1
+  anchor: shu.10.p24
+  at: 0
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: shu.10.p24.h2
+  anchor: shu.10.p24
+  at: 15
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p24.h3
+  anchor: shu.10.p24
+  at: 31
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p24.h4
+  anchor: shu.10.p24
+  at: 58
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.10.p24.h5
+  anchor: shu.10.p24
+  at: 61
+  length: 1
+  type: person
+  person_id: zhangfei
+  text: 飛
+  via: given_name
+- id: shu.10.p24.h6
+  anchor: shu.10.p24
+  at: 68
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p24.h7
+  anchor: shu.10.p24
+  at: 93
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p24.h8
+  anchor: shu.10.p24
+  at: 126
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.10.p24.h9
+  anchor: shu.10.p24
+  at: 157
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p24.h10
+  anchor: shu.10.p24
+  at: 168
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.10.p24.t1
   anchor: shu.10.p24
   at: 181
@@ -307,12 +1395,68 @@ annotations:
   era: 建興
   era_year: 5
   reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
+- id: shu.10.p24.h11
+  anchor: shu.10.p24
+  at: 194
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.10.p24.h12
+  anchor: shu.10.p24
+  at: 241
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: shu.10.p25.h1
+  anchor: shu.10.p25
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p25.h2
+  anchor: shu.10.p25
+  at: 14
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p25.h3
+  anchor: shu.10.p25
+  at: 28
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p25.h4
+  anchor: shu.10.p25
+  at: 37
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p25.a1
   anchor: shu.10.p25
   at: 50
   length: 0
   type: pei
   text: 魏略曰：「夏侯楙爲安西將軍，鎮長安，亮於南鄭與群下計議，延曰：『聞夏侯楙少，主婿也，怯而無謀。今假延精兵五千，負糧五千，直從褒中出，循秦嶺而東，當子午而北，不過十日可到長安。楙聞延奄至，必乘船逃走。長安中惟有御史、京兆太守耳，橫門邸閣與散民之穀足週食也。比東方相合聚，尚二十許日，而公從斜谷來，必足以達。如此，則一舉而咸陽以西可定矣。』亮以爲此縣危，不如安從坦道，可以平取隴右，十全必克而無虞，故不用延計。」
+- id: shu.10.p25.h5
+  anchor: shu.10.p25
+  at: 75
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
 - id: shu.10.p25.t1
   anchor: shu.10.p25
   at: 93
@@ -325,12 +1469,212 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
+- id: shu.10.p25.h6
+  anchor: shu.10.p25
+  at: 97
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p25.h7
+  anchor: shu.10.p25
+  at: 109
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p26.h1
+  anchor: shu.10.p26
+  at: 2
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p26.h2
+  anchor: shu.10.p26
+  at: 10
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: shu.10.p26.h3
+  anchor: shu.10.p26
+  at: 15
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.10.p26.h4
+  anchor: shu.10.p26
+  at: 20
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: shu.10.p26.h5
+  anchor: shu.10.p26
+  at: 38
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: shu.10.p26.h6
+  anchor: shu.10.p26
+  at: 55
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p26.h7
+  anchor: shu.10.p26
+  at: 121
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: shu.10.p26.h8
+  anchor: shu.10.p26
+  at: 128
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: shu.10.p26.h9
+  anchor: shu.10.p26
+  at: 227
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p26.h10
+  anchor: shu.10.p26
+  at: 270
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.10.p26.h11
+  anchor: shu.10.p26
+  at: 284
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.10.p26.h12
+  anchor: shu.10.p26
+  at: 290
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: shu.10.p26.h13
+  anchor: shu.10.p26
+  at: 297
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.10.p26.h14
+  anchor: shu.10.p26
+  at: 447
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.10.p26.h15
+  anchor: shu.10.p26
+  at: 506
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p26.a1
   anchor: shu.10.p26
   at: 518
   length: 0
   type: pei
   text: 魏略曰：「諸葛亮病，謂延等云：『我之死後，但謹自守，慎勿復來也。』令延攝行己事，密持喪去。延遂匿之，行至褒口，乃發喪。亮長史楊儀宿與延不和，見延攝行軍事，懼爲所害，乃張言延欲舉眾北附，遂率其眾攻延。延本無此心，不戰軍走，追而殺之。」臣松之以爲此蓋敵國傳聞之言，不得與本傳爭審。
+- id: shu.10.p27.h1
+  anchor: shu.10.p27
+  at: 0
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: shu.10.p27.h2
+  anchor: shu.10.p27
+  at: 33
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.10.p27.h3
+  anchor: shu.10.p27
+  at: 36
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: shu.10.p27.h4
+  anchor: shu.10.p27
+  at: 47
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p27.h5
+  anchor: shu.10.p27
+  at: 50
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p27.h6
+  anchor: shu.10.p27
+  at: 80
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p27.h7
+  anchor: shu.10.p27
+  at: 93
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p27.h8
+  anchor: shu.10.p27
+  at: 108
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
 - id: shu.10.p27.t1
   anchor: shu.10.p27
   at: 122
@@ -343,6 +1687,14 @@ annotations:
   era: 建興
   era_year: 3
   reasoning: 原文「建興三年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）
+- id: shu.10.p27.h9
+  anchor: shu.10.p27
+  at: 129
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p27.t2
   anchor: shu.10.p27
   at: 143
@@ -355,6 +1707,14 @@ annotations:
   era: 建興
   era_year: 5
   reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
+- id: shu.10.p27.h10
+  anchor: shu.10.p27
+  at: 147
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.10.p27.t3
   anchor: shu.10.p27
   at: 151
@@ -367,6 +1727,30 @@ annotations:
   era: 建興
   era_year: 8
   reasoning: 承前文年號「建興」推得，「八年」 = 建興8年 = AD 230
+- id: shu.10.p27.h11
+  anchor: shu.10.p27
+  at: 164
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h12
+  anchor: shu.10.p27
+  at: 201
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h13
+  anchor: shu.10.p27
+  at: 210
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
 - id: shu.10.p27.t4
   anchor: shu.10.p27
   at: 232
@@ -379,6 +1763,70 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
+- id: shu.10.p27.h14
+  anchor: shu.10.p27
+  at: 237
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h15
+  anchor: shu.10.p27
+  at: 243
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h16
+  anchor: shu.10.p27
+  at: 271
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h17
+  anchor: shu.10.p27
+  at: 297
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.10.p27.h18
+  anchor: shu.10.p27
+  at: 311
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.10.p28.h1
+  anchor: shu.10.p28
+  at: 4
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.10.p28.h2
+  anchor: shu.10.p28
+  at: 84
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.10.p28.h3
+  anchor: shu.10.p28
+  at: 148
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.10.p28.t1
   anchor: shu.10.p28
   at: 152
@@ -397,3 +1845,51 @@ annotations:
   length: 0
   type: pei
   text: 楚國先賢傳云：儀兄慮，字威方。少有德行，為江南冠冕。州郡禮召，諸公闢請，皆不能屈。年十七，夭，鄉人號曰德行楊君。
+- id: shu.10.p29.h1
+  anchor: shu.10.p29
+  at: 20
+  length: 2
+  type: person
+  person_id: pengyang
+  text: 彭羕
+  via: primary
+- id: shu.10.p29.h2
+  anchor: shu.10.p29
+  at: 23
+  length: 2
+  type: person
+  person_id: liaoli
+  text: 廖立
+  via: primary
+- id: shu.10.p29.h3
+  anchor: shu.10.p29
+  at: 30
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.10.p29.h4
+  anchor: shu.10.p29
+  at: 37
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: shu.10.p29.h5
+  anchor: shu.10.p29
+  at: 44
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: shu.10.p29.h6
+  anchor: shu.10.p29
+  at: 51
+  length: 2
+  type: person
+  person_id: liuyan
+  text: 劉琰
+  via: primary

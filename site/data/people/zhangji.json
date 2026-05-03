@@ -1,0 +1,38 @@
+{
+  "id": "zhangji",
+  "primary_name": "張旣",
+  "courtesy_name": "德容",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.15",
+      "title": "魏書·劉司馬梁張溫賈傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/15.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.13",
+        "chapter_title": "魏書·鍾繇華歆王朗傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.13.p2",
+        "at": 323,
+        "data_url": "data/sanguozhi/wei/13.json",
+        "matched": "張旣",
+        "snippet": "…，必易吾軍，若渡汾爲營，及其未濟擊之，可大克也。」張旣說馬騰會擊援，騰遣子超將精兵逆之。援至，果輕渡汾，衆止之，不從。濟水未半，擊，大破之，斬援，降單于。語在《旣傳》。其後河東衞固…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

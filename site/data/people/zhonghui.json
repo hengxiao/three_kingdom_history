@@ -1,0 +1,193 @@
+{
+  "id": "zhonghui",
+  "primary_name": "鍾會",
+  "courtesy_name": "士季",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": 225,
+  "death_ad": 264,
+  "brief": "曹魏司徒，伐蜀主將，後謀反被誅",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.28",
+      "title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/28.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p31",
+        "at": 107,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "鍾會",
+        "snippet": "…士咸怒，拔刀斫石。於是諸郡縣圍守皆被漢主敕罷兵降。鍾會厚待姜維等，皆權還其印綬節蓋。吳人聞蜀已亡，乃罷丁奉等兵。吳中書丞吳郡華覈詣宮門上表曰：「伏聞成都不守，臣主播越，社稷傾覆，失…"
+      },
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p37",
+        "at": 16,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "鍾會",
+        "snippet": "乙卯，以鄧艾為太尉，增邑二萬戶；鍾會為司徒，增邑萬戶。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p7",
+        "at": 188,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "鍾會",
+        "snippet": "…左車騎將軍，領冀州刺史。六年，與維咸在劍閣，共詣降鍾會於涪。明年正月，隨會至成都，為亂兵所殺。"
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p41",
+        "at": 23,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "鍾會",
+        "snippet": "六年夏，魏大興徒從眾，命征西將軍鄧艾、鎮西將軍鍾會、雍州剌史諸葛緒數道並攻。於是遣左右車騎將軍張翼、廖化、輔國大將軍董厥等拒之。大赦。改元為炎興。冬，鄧艾破衛將軍諸葛瞻於綿竹。…"
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p43",
+        "at": 133,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "鍾會",
+        "snippet": "…止其故宮，身往造焉。資嚴未發，明年春正月，艾見收。鍾會自涪至成都作亂。會既死，蜀中軍眾鈔略，死喪狼籍，數日乃安集。"
+      },
+      {
+        "chapter_id": "shu.4",
+        "chapter_title": "蜀書·二主妃子傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.4.p8",
+        "at": 148,
+        "data_url": "data/sanguozhi/shu/04.json",
+        "matched": "鍾會",
+        "snippet": "…勗哉！」時年十五。景耀六年冬，蜀亡。咸熙元年正月，鍾會作亂於成都，璿為亂兵所害。"
+      },
+      {
+        "chapter_id": "wei.18",
+        "chapter_title": "魏書·二李臧文吕许典二庞阎传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.18.p21",
+        "at": 319,
+        "data_url": "data/sanguozhi/wei/18.json",
+        "matched": "鍾會",
+        "snippet": "…帝思褚忠孝，下詔褒贊，復賜褚子孫二人爵關內侯。儀為鍾會所殺。泰始初，子綜嗣。"
+      },
+      {
+        "chapter_id": "wei.21",
+        "chapter_title": "魏書·王衞二劉傅傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.21.p40",
+        "at": 8,
+        "data_url": "data/sanguozhi/wei/21.json",
+        "matched": "鍾會",
+        "snippet": "嘏常論才性同異，鍾會集而論之。嘉平末，賜爵關內侯。高貴鄕公即尊位，進封武鄕亭侯。正元二年春，毌丘儉、文欽作亂。或以司馬景王不宜自行，可遣太尉孚往，…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p48",
+        "at": 63,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "…書俱行，今宜如舊。」乃令散騎常侍裴秀、給事黃門侍郎鍾會咸與大將軍俱行。秋八月，詔曰：「昔燕刺王謀反，韓誼等諫而死，漢朝顯登其子。諸葛誕創造凶亂，主簿宣隆、部曲督秦絜秉節守義，臨事固…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p71",
+        "at": 179,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "…。若禽維，便當東西並進，掃滅巴蜀也。」又命鎮西將軍鍾會由駱谷伐蜀。"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p73",
+        "at": 4,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "自鄧艾、鍾會率衆伐蜀，所至輙克。是月，蜀主劉禪詣艾降，巴蜀皆平。十二月庚戌，以司徒鄭沖為太保。壬子，分益州為梁州。癸丑，特赦益州士民，復除…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p74",
+        "at": 40,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "…。甲子，行幸長安。壬申，使使者以璧幣祀華山。是月，鍾會反於蜀，為衆所討；鄧艾亦見殺。二月辛卯，特赦諸在益土者。庚申，葬明元郭后。三月丁丑，以司空王祥為太尉，征北將軍何曾為司徒，尚書…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p76",
+        "at": 10,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "癸巳，詔曰：「前逆臣鍾會構造反亂，聚集征行將士，劫以兵威，始吐姦謀，發言桀逆，逼脅衆人，皆使下議，倉卒之際，莫不驚懾。相國左司馬夏侯和、騎士曹屬朱撫時…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p81",
+        "at": 42,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "鍾會",
+        "snippet": "…歸之于相國府。庚戌，以虎賁張脩昔於成都馳馬至諸營言鍾會反逆，以至沒身，賜脩弟倚爵關內侯。夏四月，南深澤縣言甘露降。吳遣使紀陟、弘璆請和。"
+      },
+      {
+        "chapter_id": "wei.5",
+        "chapter_title": "魏書·后妃傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.5.p22",
+        "at": 207,
+        "data_url": "data/sanguozhi/wei/05.json",
+        "matched": "鍾會",
+        "snippet": "…輔統政，與奪大事，皆先諮啟於太后而後施行。毌丘儉、鍾會等作亂，咸假其命而以為辭焉。景元四年十二日崩，五年二月，葬高平陵西。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 15
+}

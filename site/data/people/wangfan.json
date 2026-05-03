@@ -1,0 +1,61 @@
+{
+  "id": "wangfan",
+  "primary_name": "王蕃",
+  "courtesy_name": "永元",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.20",
+      "title": "吳書·王樓賀韋華傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/20.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.79",
+        "chapter_title": "巻七十九 晉紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.79.p25",
+        "at": 7,
+        "data_url": "data/zztj/zztj/79.json",
+        "matched": "王蕃",
+        "snippet": "呉散騎常侍廬江王蕃，體氣髙亮，不能承顏順指，呉主不悅，散騎常侍萬彧、中書丞陳聲從而譖之。丁忠使還，呉主大會群臣，蕃沉醉頓伏。呉主疑其詐，輿蕃出外…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p40",
+        "at": 44,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "王蕃",
+        "snippet": "…所以倫敘，四門所以穆清也。故大司農樓玄、散騎中常侍王蕃、少府李勖，皆當世秀穎，一時顯器，既蒙初寵，從容列位，而並旋受誅殛，或圮族替祀，或投棄荒裔。蓋《周禮》有赦賢之辟，《春秋》有宥…"
+      },
+      {
+        "chapter_id": "wu.16",
+        "chapter_title": "吳書·潘浚陆凯传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.16.p21",
+        "at": 162,
+        "data_url": "data/sanguozhi/wu/16.json",
+        "matched": "王蕃",
+        "snippet": "…龍逢，殷獲伊摯。斯前世之明效，今日之師表也。中常侍王蕃黃中通理，處朝忠謇，斯社稷之重鎮，大吳之龍逢也，而陛下忿其苦辭，惡其直對，梟之殿堂，屍骸暴棄。邦內傷心，有識悲悼，咸以吳國夫差…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

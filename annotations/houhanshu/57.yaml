@@ -17,6 +17,232 @@ annotations:
   era: 永初
   era_year: 1
   reasoning: 原文「永初元年」直接出现年号；解析為 AD 107
+- id: hhs.57.p2.h1
+  anchor: hhs.57.p2
+  at: 40
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
+- anchor: hhs.57.p2
+  at: 112
+  length: 2
+  type: person
+  person_id: dengsui
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 延續同段即和熹鄧太后，未列 roster。
+  id: hhs.57.p2.h2
+- id: hhs.57.p4.h1
+  anchor: hhs.57.p4
+  at: 56
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- anchor: hhs.57.p4
+  at: 60
+  length: 2
+  type: person
+  person_id: dengsui
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「諫太后歸政」即諫和熹鄧太后歸政安帝，未列 roster。
+  id: hhs.57.p4.h3
+- id: hhs.57.p4.h2
+  anchor: hhs.57.p4
+  at: 145
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.57.p5.h1
+  anchor: hhs.57.p5
+  at: 0
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- anchor: hhs.57.p5
+  at: 32
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 延光中「共譖皇太子，廢為濟陰王」即廢劉保（後為順帝），對應 shunhan。
+  id: hhs.57.p5.h8
+- id: hhs.57.p5.h2
+  anchor: hhs.57.p5
+  at: 41
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- id: hhs.57.p5.h3
+  anchor: hhs.57.p5
+  at: 95
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.57.p5.h4
+  anchor: hhs.57.p5
+  at: 107
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- anchor: hhs.57.p5
+  at: 111
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「皓以翊世前訟太子之廢」承前段太子即劉保（順帝），對應 shunhan。
+  id: hhs.57.p5.h9
+- id: hhs.57.p5.h5
+  anchor: hhs.57.p5
+  at: 121
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- id: hhs.57.p5.h6
+  anchor: hhs.57.p5
+  at: 154
+  length: 2
+  type: person
+  person_id: yuxu
+  text: 虞詡
+  via: primary
+- id: hhs.57.p5.h7
+  anchor: hhs.57.p5
+  at: 183
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.57.p6.h1
+  anchor: hhs.57.p6
+  at: 23
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.57.p8.h1
+  anchor: hhs.57.p8
+  at: 4
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- id: hhs.57.p8.h2
+  anchor: hhs.57.p8
+  at: 23
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
+- id: hhs.57.p8.h3
+  anchor: hhs.57.p8
+  at: 26
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
+- anchor: hhs.57.p10
+  at: 27
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「梁太后臨朝」即順烈梁皇后梁妠臨朝，未列 roster。
+  id: hhs.57.p10.h1
+- id: hhs.57.p14.h1
+  anchor: hhs.57.p14
+  at: 5
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.57.p14.h2
+  anchor: hhs.57.p14
+  at: 18
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.57.p16.h1
+  anchor: hhs.57.p16
+  at: 0
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
+- id: hhs.57.p17.h1
+  anchor: hhs.57.p17
+  at: 10
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.57.p30.h1
+  anchor: hhs.57.p30
+  at: 11
+  length: 2
+  type: person
+  person_id: zhouxuan
+  text: 周宣
+  via: primary
+- id: hhs.57.p40.h1
+  anchor: hhs.57.p40
+  at: 64
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.57.p46.h1
+  anchor: hhs.57.p46
+  at: 23
+  length: 2
+  type: person
+  person_id: hexiu
+  text: 何休
+  via: primary
+- id: hhs.57.p52.h1
+  anchor: hhs.57.p52
+  at: 8
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.57.p52.t1
   anchor: hhs.57.p52
   at: 217
@@ -29,6 +255,14 @@ annotations:
   era: 永初
   era_year: 2
   reasoning: 「明年」 = 当前年 永初元年 (AD 107) 之次年 = AD 108
+- id: hhs.57.p56.h1
+  anchor: hhs.57.p56
+  at: 82
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: hhs.57.p60.t1
   anchor: hhs.57.p60
   at: 28
@@ -41,6 +275,30 @@ annotations:
   era: 光和
   era_year: 5
   reasoning: 原文「光和五年」直接出现年号；解析為 AD 182
+- id: hhs.57.p60.h1
+  anchor: hhs.57.p60
+  at: 123
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.57.p61.h1
+  anchor: hhs.57.p61
+  at: 0
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
+- id: hhs.57.p62.h1
+  anchor: hhs.57.p62
+  at: 0
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.57.p62.t1
   anchor: hhs.57.p62
   at: 2
@@ -53,12 +311,60 @@ annotations:
   era: 延熹
   era_year: 2
   reasoning: 原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）
+- id: hhs.57.p64.h1
+  anchor: hhs.57.p64
+  at: 3
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.57.p64.h2
+  anchor: hhs.57.p64
+  at: 12
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
+- id: hhs.57.p64.h3
+  anchor: hhs.57.p64
+  at: 182
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
+- id: hhs.57.p69.h1
+  anchor: hhs.57.p69
+  at: 7
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.57.p69.h2
+  anchor: hhs.57.p69
+  at: 11
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
 - id: hhs.57.p72.a1
   anchor: hhs.57.p72
   at: 9
   length: 0
   type: lixian
   text: 陳忠傳
+- id: hhs.57.p75.h1
+  anchor: hhs.57.p75
+  at: 75
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
 - id: hhs.57.p84.t1
   anchor: hhs.57.p84
   at: 0
@@ -71,6 +377,16 @@ annotations:
   era: 延熹
   era_year: 8
   reasoning: 原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）
+- anchor: hhs.57.p85
+  at: 125
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 劉瑜上書桓帝，「陛下」指桓帝，對應 huanhan。
+  id: hhs.57.p85.h1
 - id: hhs.57.p93.t1
   anchor: hhs.57.p93
   at: 33
@@ -85,12 +401,48 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 光和5年 (AD 182)，月份「五月」
+- anchor: hhs.57.p95
+  at: 1
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 延續劉瑜對桓帝奏，「陛下」即桓帝，對應 huanhan。
+  id: hhs.57.p95.h1
+- anchor: hhs.57.p95
+  at: 87
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「惟陛下設置七臣」即奏桓帝，對應 huanhan。
+  id: hhs.57.p95.h2
+- id: hhs.57.p101.h1
+  anchor: hhs.57.p101
+  at: 26
+  length: 2
+  type: person
+  person_id: yinxun_2
+  text: 尹勳
+  via: primary
 - id: hhs.57.p101.a1
   anchor: hhs.57.p101
   at: 51
   length: 0
   type: lixian
   text: 武傳
+- id: hhs.57.p102.h1
+  anchor: hhs.57.p102
+  at: 72
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.57.p106.t1
   anchor: hhs.57.p106
   at: 31
@@ -103,12 +455,104 @@ annotations:
   era: 建寧
   era_year: 2
   reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
+- anchor: hhs.57.p109
+  at: 108
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 謝弼建寧二年上書靈帝言災異，「陛下」指靈帝，對應 linghan。
+  id: hhs.57.p109.h1
+- anchor: hhs.57.p110
+  at: 62
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 謝弼奏靈帝事竇太后之孝，「陛下」即靈帝，對應 linghan。
+  id: hhs.57.p110.h2
+- id: hhs.57.p110.h1
+  anchor: hhs.57.p110
+  at: 129
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.57.p110
+  at: 184
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「願陛下仰慕有虞蒸蒸之化」即勸靈帝行孝，對應 linghan。
+  id: hhs.57.p110.h3
+- anchor: hhs.57.p113
+  at: 41
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 注引袁盎諫漢文帝語，「陛下」為漢文帝，非本傳當代帝。
+  id: hhs.57.p113.h1
+- id: hhs.57.p115.h1
+  anchor: hhs.57.p115
+  at: 24
+  length: 2
+  type: person
+  person_id: hehan
+  text: 和帝
+  via: alias
 - id: hhs.57.p115.a1
   anchor: hhs.57.p115
   at: 52
   length: 0
   type: lixian
   text: 皇后紀
+- id: hhs.57.p117.h1
+  anchor: hhs.57.p117
+  at: 61
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- anchor: hhs.57.p117
+  at: 66
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 謝弼奏為陳蕃伸冤，「陛下」即靈帝，對應 linghan。
+  id: hhs.57.p117.h3
+- id: hhs.57.p117.h2
+  anchor: hhs.57.p117
+  at: 206
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- anchor: hhs.57.p117
+  at: 257
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「伏惟陛下裁其誅罰」即奏靈帝，對應 linghan。
+  id: hhs.57.p117.h4
 - id: hhs.57.p122.t1
   anchor: hhs.57.p122
   at: 38
@@ -121,6 +565,14 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 原文「初平二年」直接出现年号；解析為 AD 191
+- id: hhs.57.p124.h1
+  anchor: hhs.57.p124
+  at: 45
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
 - id: hhs.57.p126.t1
   anchor: hhs.57.p126
   at: 33
@@ -135,6 +587,30 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 原文「永初二年十二月」直接出现年号；解析為 AD 108（回溯前事，不推進章節時間軸）
+- id: hhs.57.p139.h1
+  anchor: hhs.57.p139
+  at: 120
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
+- id: hhs.57.p139.h2
+  anchor: hhs.57.p139
+  at: 152
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
+- id: hhs.57.p148.h1
+  anchor: hhs.57.p148
+  at: 7
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
 - id: hhs.57.p156.t1
   anchor: hhs.57.p156
   at: 7
@@ -147,6 +623,14 @@ annotations:
   era: 建寧
   era_year: 2
   reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
+- id: hhs.57.p156.h1
+  anchor: hhs.57.p156
+  at: 38
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.57.p156.t2
   anchor: hhs.57.p156
   at: 41
@@ -161,6 +645,22 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 原文「建寧元年五月」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）
+- id: hhs.57.p156.h2
+  anchor: hhs.57.p156
+  at: 81
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.57.p158.h1
+  anchor: hhs.57.p158
+  at: 17
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.57.p158.t1
   anchor: hhs.57.p158
   at: 31

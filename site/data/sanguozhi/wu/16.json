@@ -11,12 +11,12 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷61",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [
     "source has unbalanced brackets: 1 stray '〈', 0 stray '〉' — treating them as literal text"
   ],
-  "n_segments": 34,
+  "n_segments": 33,
   "segments": [
     {
       "id": "wu.16.p1",
@@ -28,6 +28,33 @@
           "at": 22,
           "length": 0,
           "text": "吴书曰：濬为人聪察，对问有机理，山阳王粲见而贵异之。由是知名，为郡功曹。"
+        },
+        {
+          "id": "wu.16.p1.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p1.h2",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p1.h3",
+          "type": "person",
+          "at": 84,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
         }
       ]
     },
@@ -35,6 +62,24 @@
       "id": "wu.16.p2",
       "text": "孫權殺關羽，并荊土，拜濬輔軍中郎將，授以兵。遷奮威將軍，封常遷亭侯。權稱尊號，拜為少府。進封劉陽侯，遷太常。五谿蠻夷叛亂盤結，權假濬節，督諸軍討之。信賞必行，法不可干，斬首獲生，蓋以萬數，自是羣蠻衰弱，一方寧靜。",
       "annotations": [
+        {
+          "id": "wu.16.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p2.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
         {
           "id": "wu.16.p2.a1",
           "type": "pei",
@@ -50,11 +95,29 @@
           "text": "吴书曰：芮玄卒，濬并领玄兵，屯夏口。玄字文表，丹杨人。父祉，字宣嗣，从孙坚征伐有功，坚荐祉为九江太守，后转吴郡，所在有声。玄兄良，字文鸾，随孙策平定江东，策以为会稽东部都尉，卒，玄领良兵，拜奋武中郎将，以功封溧阳侯。权为子登拣择淑媛，群臣咸称玄父祉兄良并以德义文武显名三世，故遂娉玄女为妃焉。黄武五年卒，权甚愍惜之。"
         },
         {
+          "id": "wu.16.p2.h3",
+          "type": "person",
+          "at": 34,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
           "id": "wu.16.p2.a3",
           "type": "pei",
           "at": 50,
           "length": 0,
           "text": "江表传曰：权数射雉，濬谏权，权曰：「相与别后，时时蹔出耳，不复如往日之时也。」濬曰：「天下未定，万机务多，射雉非急，弦绝括破，皆能为害，乞特为臣故息置之。」濬出，见雉翳故在，乃手自撤坏之。权由是自绝，不复射雉。"
+        },
+        {
+          "id": "wu.16.p2.h4",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
         },
         {
           "id": "wu.16.p2.a4",
@@ -68,7 +131,53 @@
     {
       "id": "wu.16.p3",
       "text": "先是，濬與陸遜俱駐武昌，共掌留事，還復故。時校事呂壹操弄威柄，奏按丞相顧雍、左將軍朱據等，皆見禁止。黃門侍郎謝厷語次問壹：「顧公事何如?」壹答：「不能佳。」厷又問：「若此公免退，誰當代之?」壹未答厷，厷曰：「得無潘太常得之乎?」壹良久曰：「君語近之也。」厷謂曰：「潘太常常切齒於君，但道遠無因耳。今日代顧公，恐明日便擊君矣。」壹大懼，遂解散雍事。濬求朝，詣建業，欲盡辭極諫。至，聞太子登已數言之而不見從。濬乃大請百寮，欲因會手刃殺壹，以身當之，為國除患。壹密聞知，稱疾不行。濬每進見，無不陳壹之姦險也。由此壹寵漸衰，後遂誅戮。權引咎責躬，因誚讓大臣，語在《權傳》。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p3.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p3.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "顧雍",
+          "person_id": "guyong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p3.h5",
+          "type": "person",
+          "at": 190,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p3.h3",
+          "type": "person",
+          "at": 263,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.16.p3.h4",
+          "type": "person",
+          "at": 278,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.16.p4",
@@ -101,6 +210,24 @@
       "text": "陸凱字敬風，吳郡吳人，丞相遜族子也。黃武初為永興、諸暨長，所在有治跡，拜建武都尉，領兵。雖統軍眾，手不釋書。好《太玄》，論演其意，以筮輒驗。赤烏中，除儋耳太守，討朱崖，斬獲有功，遷為建武校尉。五鳳二年，討山賊陳毖於零陵。斬毖克捷，拜巴丘督、偏將軍，封都鄉侯，轉為武昌右部督。與諸將共赴壽春；還，累遷蕩魏、綏遠將軍。孫休即位，拜征北將軍，假節領豫州牧。孫皓立，遷鎮西大將軍，都督巴丘，領荊州牧，進封嘉興侯。孫皓與晉平，使者丁忠自北還，說皓弋陽可襲，凱諫止，語在《皓傳》。寶鼎元年，遷左丞相。",
       "annotations": [
         {
+          "id": "wu.16.p5.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p5.h2",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.16.p5.t1",
           "type": "temporal",
           "at": 96,
@@ -112,6 +239,33 @@
           "era": "五鳳",
           "era_year": 2,
           "reasoning": "原文「五鳳二年」直接出现年号；解析為 AD 255"
+        },
+        {
+          "id": "wu.16.p5.h3",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p5.h4",
+          "type": "person",
+          "at": 175,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p5.h5",
+          "type": "person",
+          "at": 202,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
         },
         {
           "id": "wu.16.p5.t2",
@@ -156,22 +310,89 @@
     {
       "id": "wu.16.p11",
       "text": "臣暗於大理，文不及義，智慧淺劣，無復冀望，竊為陛下惜天下耳。臣謹奏耳目所聞見，百姓所為煩苛，刑政所為錯亂，願陛下息大功，損百役，務寬蕩，忽苛政。又武昌土地，實危險而瘠確，非王都安國養民之處，船泊則沉漂，陵居則峻危，旦童謠曰：‘寧飲建業水，不食武昌魚，寧還建業死，不止武昌居。’臣聞翼星為變，熒惑作妖，童謠之言，生於天心，乃以安居而比死，足明天意，如民所若也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p11.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p11.h2",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p12",
       "text": "臣聞國無三年之儲，渭之非國，而今無一年之畜，此臣下責也。而諸公卿位處人上，祿延子孫，曾無致命之節，匡救之術，苟進小利於君，以求容媚，荼毒百姓，不為君計也。自從孫弘造義兵以來，耕種既廢，所在無復輸入，而分一家父子異役，廩食日張，畜積日耗。民有離散之怨，國有露根之漸，而莫之恤也。民力因窮，鬻賣兒子，調賦相仍，日以疲極，所在長吏，不加隱括，加有監官，既不愛民，務行威勢，所在騷擾，更為煩苛，民苦二端，財力再耗，此為無益而有損也。願陛下一息此輩。矜哀孤弱，以鎮撫百姓之心。此猶色鱉得免毒螫之淵，烏獸得離羅網之綱，四方之民襁負而至。如此，民可得保，先王之國存焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p12.h1",
+          "type": "person",
+          "at": 213,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p13",
       "text": "臣聞五音令人耳不聰，五色令人目不明，此無益於政，有損於事者也。自昔先帝時，後宮列女，及諸織絡，數不滿百，米有畜積，貨財有餘。先帝崩後，幼、景在位，更改奢侈，不蹈先跡。伏聞織絡及諸徒坐，乃有千數，計其所長，不足為國財。然坐食宮廩，歲歲相承，此為無益。願陛下料出賦嫁，給與無妻者。如此，上應天心，下合地意，天下幸甚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p13.h1",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p14",
       "text": "臣聞殷湯取士於商賈，齊桓取士於車轅，周武取士於負新，大漢取士於奴僕。明王聖主取士以賢，不拘卑賤。故其功德洋溢，名流竹素，非求顏色而取好服、捷口、容悅者也。臣伏見當今內寵之臣，位非其人，任非其量，不能輔國匡時，群黨相扶，害忠隱賢。願陛下簡文將之臣。各勤其官，州牧督將，藩鎮方外，公卿尚書，務修仁化，上助陛下，下拯黎民，各盡其忠，拾貴萬一。則康哉之歌作，刑錯之理清。願陛下留神思臣愚言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p14.h1",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p14.h2",
+          "type": "person",
+          "at": 150,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p14.h3",
+          "type": "person",
+          "at": 182,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p15",
@@ -194,13 +415,59 @@
           "era": "建衡",
           "era_year": 1,
           "reasoning": "原文「建衡元年」直接出现年号；解析為 AD 269"
+        },
+        {
+          "id": "wu.16.p16.h1",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "樓玄",
+          "person_id": "louxuan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p16.h2",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "wu.16.p17",
       "text": "子禕。初為黃門侍郎，出領部曲，拜偏將軍。凱亡後，入為太子中庶子。右國史華覈表薦禕曰：\"禕體質方剛，器干強固，董率之才，魯肅不過。及被召當下，逕還赴都，道由武昌，曾不回顧，器械軍資，一無所取，在戎果毅，臨財有節。夫夏口，賊之沖要，直選名將以鎮戍之，臣竊思惟，莫善於禕。\"",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p17.h3",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunjin",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p17.h1",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "華覈",
+          "person_id": "huahe",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p17.h2",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.16.p18",
@@ -220,6 +487,24 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "原文「寶鼎元年十二月」直接出现年号；解析為 AD 266（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.16.p18.h1",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p18.h2",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
         },
         {
           "id": "wu.16.p18.a1",
@@ -245,18 +530,181 @@
       "text": "臣竊見陛下執政以來，陰陽不調，五星失晷，職司不忠，奸黨相扶，是陛下不遵先帝之所致。夫王者之興，受之於天，修之由德，豈在宮乎？而陛下不咨之公輔，便盛意驅馳，六軍流離悲懼，逆犯天地，天地以災，童歌其謠。縱令陛下一身得安，百姓愁勞，何以用治？此不遵先帝一也；臣聞有國以賢為本，夏殺龍逢，殷獲伊摯。斯前世之明效，今日之師表也。中常侍王蕃黃中通理，處朝忠謇，斯社稷之重鎮，大吳之龍逢也，而陛下忿其苦辭，惡其直對，梟之殿堂，屍骸暴棄。邦內傷心，有識悲悼，咸以吳國夫差復存，先帝親賢，陛下反之，是陛下不遵先帝二也；臣聞宰相國之柱也，不可不強，是故漢有蕭、曹之佐，先帝有顧、步之相。而萬彧瑣才凡庸之質，昔從家隸，超步紫闥，於彧已豐，於器已溢，而陛下愛其細介，不訪大趣，榮以尊輔，越尚舊臣。賢良憤惋，智士赫吒，是不遵先帝三也；先帝愛民過於嬰孩，民無妻者以妾妻之，見單衣者以帛給之，枯骨不收而取埋之。而陛下反之，是不遵先帝四也；昔桀、紂滅由妖婦，幽、厲亂在嬖妾，先帝鑒之，以為身戒。故左右不置淫邪之色，後房無曠積之女。今中宮萬數，不備嬪嬙，外多鰥夫，女吟於中。風雨逆度，正由此起，是不遵先帝五也；先帝憂勞萬機，猶懼有失。陛下臨阼以來，遊戲後宮，眩惑婦女，乃令庶事多曠，下吏容奸，是不遵先帝六也；先帝篤尚樸素，服不純麗，宮無高台，物不雕飾，故國富民充，奸盜不作。而陛下徵調州郡，竭民財力，士被玄黃，宮有朱紫，是不遵先帝七也；先帝外仗顧、陸、朱、張，內近胡綜、薛綜是以庶績雍熙。邦內情肅。今者外非其任，內非其人，陳聲、曹輔，斗筲小吏，先帝之所棄，而陛下幸之，是不遵先帝八也。",
       "annotations": [
         {
+          "id": "wu.16.p21.h5",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h6",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
           "id": "wu.16.p21.a1",
           "type": "pei",
           "at": 41,
           "length": 0,
           "text": "《江表传》载凯此表曰：「臣拜受明诏，心与气结。陛下何心之难悟，意不聪之甚也！」"
+        },
+        {
+          "id": "wu.16.p21.h7",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h8",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h1",
+          "type": "person",
+          "at": 162,
+          "length": 2,
+          "text": "王蕃",
+          "person_id": "wangfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p21.h9",
+          "type": "person",
+          "at": 189,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h10",
+          "type": "person",
+          "at": 235,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h11",
+          "type": "person",
+          "at": 241,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h12",
+          "type": "person",
+          "at": 314,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h13",
+          "type": "person",
+          "at": 391,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h14",
+          "type": "person",
+          "at": 500,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h15",
+          "type": "person",
+          "at": 571,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p21.h2",
+          "type": "person",
+          "at": 615,
+          "length": 2,
+          "text": "胡綜",
+          "person_id": "huzong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p21.h3",
+          "type": "person",
+          "at": 618,
+          "length": 2,
+          "text": "薛綜",
+          "person_id": "xuezong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.16.p21.h4",
+          "type": "person",
+          "at": 630,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.16.p21.h16",
+          "type": "person",
+          "at": 662,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "wu.16.p22",
       "text": "先帝每宴見群臣，抑損醇（酉農），臣下終日無失慢之尤，百寮庶尹，並展所陳。而陛下拘以視瞻之敬，懼以不盡之酒。夫酒以成札，過則敗德，此無異商辛長夜之飲也，是不遵先帝九也；昔漢之桓、靈，親近宦豎。大失民心。今高通、詹廉、羊度，黃門小人，而陛下賞以重爵，權以戰兵。若江渚有難，烽燧互起，則度等之武不能禦侮明也，是不遵先帝十也；今宮女曠積，而黃門復走州郡，條牒民女，有錢則捨，無錢則取，怨呼道路，母子死訣，是不遵先帝十一也；先帝在時，亦養諸王太子，若取乳母，其夫復役，賜與錢財，給其資糧，時遣歸來，視其弱息。今則不然，夫婦生離，夫故作役，兒從後死，家為空戶，是不遵先帝十二也；先帝歎曰：‘國以民為本，民以食為天，衣其次也，三者，孤存之於心。’今則不然，農桑並廢，是不遵先帝十三也；",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p22.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p22.h2",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p23",
@@ -266,7 +714,17 @@
     {
       "id": "wu.16.p24",
       "text": "若臣言可錄，藏之盟府。如其虛妄，治臣之罪。願陛下留意。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p24.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p25",
@@ -276,7 +734,53 @@
     {
       "id": "wu.16.p26",
       "text": "臣闻恶不可积，过不可长；积恶长过，丧乱之源也。是以古人惧不闻非，故设进善之旌，立敢谏之鼓。武公九十，思闻警戒，诗美其德，士悦其行。臣察陛下无思警戒之义，而有积恶之渐，臣深忧之，此祸兆见矣。故略陈其要，写尽愚怀。陛下宜克己复礼，述脩前德，不可捐弃臣言，而放奢意。意奢情至，吏日欺民；民离则上不信下，下当疑上，骨肉相克，公子相奔。臣虽愚，闇於天命，以心审之，败不过二十稔也。臣常忿亡国之人夏桀、殷纣，亦不可使后人复忿陛下也。臣受国恩，奉朝三世，复以餘年，值遇陛下，不能循俗，与众沈浮。若比干、伍员，以忠见戮，以正见疑，自谓毕足，无所餘恨，灰身泉壤，无负先帝，原陛下九思，社稷存焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p26.h1",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p26.h2",
+          "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p26.h3",
+          "type": "person",
+          "at": 206,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p26.h4",
+          "type": "person",
+          "at": 227,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p26.h5",
+          "type": "person",
+          "at": 278,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p27",
@@ -286,12 +790,94 @@
     {
       "id": "wu.16.p28",
       "text": "臣闻宫功当起，夙夜反侧，是以频烦上事，往往留中，不见省报，於邑叹息，企想应罢。昨食时，被诏曰：『君所谏，诚是大趣，然未合鄙意，如何？此宫殿不利，宜当避之，乃可以妨劳役，长坐不利宫乎？父之不安，子亦何倚？』臣拜纸诏，伏读一周，不觉气结於胸，而涕泣雨集也。臣年已六十九，荣禄已重，於臣过望，复何所冀？所以勤勤数进苦言者，臣伏念大皇帝创基立业，劳苦勤至，白发生於鬓肤，黄耇被於甲胄。天下始静，晏驾早崩，自含息之类，能言之伦，无不歔欷，如丧考妣。幼主嗣统，柄在臣下，军有连征之费，民有彫残之损。贼臣干政，公家空竭。今强敌当涂，西州倾覆，孤罢之民，宜当畜养，广力肆业，以备有虞。且始徙都，属有军征，战士流离，州郡骚扰，而大功复起，徵召四方，斯非保国致治之渐也。臣闻为人主者，攘灾以德，除咎以义。故汤遭大旱，身祷桑林，荧惑守心，宋景退殿，是以旱魃销亡，妖星移舍。今宫室之不利，但当克己复礼，笃汤、宋之至道，愍黎庶之困苦，何忧宫之不安，灾之不销乎？陛下不务脩德，而务筑宫室，若德之不脩，行之不贵，虽殷辛之瑶台，秦皇之阿房，何止而不丧身覆国，宗庙作墟乎？夫兴土功，高台榭，既致水旱，民又多疾，其不疑也？为父长安，使子无倚，此乃子离於父，臣离於陛下之象也。臣子一离，虽念克骨，茅茨不翦，复何益焉？是以大皇帝居于南宫，自谓过於阿房。故先朝大臣，以为宫室宜厚，备卫非常，大皇帝曰：『逆虏游魂，当爱育百姓，何聊趣於不急？』然臣下恳恻，由不获已，故裁调近郡，苟副众心，比当就功，犹豫三年。当此之时，寇钞慑威，不犯我境，师徒奔北，且西阻岷、汉，南州无事，尚犹冲让，未肯筑宫，况陛下危恻之世，又乏大皇帝之德，可不虑哉？原陛下留意，臣不虚言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p28.h1",
+          "type": "person",
+          "at": 161,
+          "length": 3,
+          "text": "大皇帝",
+          "person_id": "sunquan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.16.p28.h5",
+          "type": "person",
+          "at": 417,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p28.h6",
+          "type": "person",
+          "at": 513,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p28.h2",
+          "type": "person",
+          "at": 541,
+          "length": 3,
+          "text": "大皇帝",
+          "person_id": "sunquan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.16.p28.h3",
+          "type": "person",
+          "at": 574,
+          "length": 3,
+          "text": "大皇帝",
+          "person_id": "sunquan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.16.p28.h7",
+          "type": "person",
+          "at": 674,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        },
+        {
+          "id": "wu.16.p28.h4",
+          "type": "person",
+          "at": 683,
+          "length": 3,
+          "text": "大皇帝",
+          "person_id": "sunquan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.16.p28.h8",
+          "type": "person",
+          "at": 695,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunhao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.16.p29",
       "text": "胤字敬宗，凱弟也。始為御史、尚書選曹郎，太子和聞其名，待以殊禮。會全寄、楊竺等阿附魯王霸，與和分爭，陰相譖構，胤坐收下獄，楚毒備至，終無他辭。後為衡陽督軍都尉。赤烏十一年，交阯九真夷賊攻沒城邑，交部騷動。以胤為交州刺史、安南校尉。胤入南界，喻以恩信，務祟招納，高涼渠帥黃吳等支黨三千餘家皆出降。引軍而南，重宣至誠，遺以財幣。賊帥百餘人，民五萬餘家，深幽不羈，莫不稽顙，交域清泰。就加安南將軍。復討蒼梧建陵賊，破之，前後出兵八千餘人，以充軍用。",
       "annotations": [
+        {
+          "id": "wu.16.p29.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
         {
           "id": "wu.16.p29.a1",
           "type": "pei",
@@ -330,6 +916,15 @@
           "era": "永安",
           "era_year": 1,
           "reasoning": "原文「永安元年」直接出现年号；解析為 AD 258（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.16.p30.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "華覈",
+          "person_id": "huahe",
+          "via": "primary"
         }
       ]
     },
@@ -360,12 +955,17 @@
     {
       "id": "wu.16.p33",
       "text": "評曰：潘浚公清害斷，陸凱忠壯質直，皆節概梗梗，有大丈夫格業。胤身潔事濟，著稱南土，可謂良牧矣。",
-      "annotations": []
-    },
-    {
-      "id": "wu.16.p34",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.16.p33.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

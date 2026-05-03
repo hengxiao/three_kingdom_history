@@ -1,0 +1,61 @@
+{
+  "id": "yangzhi",
+  "primary_name": "羊陟",
+  "courtesy_name": "嗣祖",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 133,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "羊陟",
+        "snippet": "…滂、尹勳、巴肅及南陽宗慈、陳留夏馥、汝南蔡衍、泰山羊陟為八顧，顧者，言能以德行引人者也；張儉、翟超、岑晊、苑康及山陽劉表、汝南陳翔、魯國孔昱、山陽檀敷為八及，及者，言其能導人追宗者…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.60",
+        "chapter_title": "馬融列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.60.p98",
+        "at": 63,
+        "data_url": "data/houhanshu/hhs/60.json",
+        "matched": "羊陟",
+        "snippet": "…又託河內郡吏李奇為州書佐，[120]及營護故河南尹羊陟、侍御史胡母班，合不為用致怨之狀。[121]臣征營怖悸，肝膽塗地，不知死命所在。竊自尋案，實屬宛、奇，不及陟、班。凡休假小吏，…"
+      },
+      {
+        "chapter_id": "hhs.80",
+        "chapter_title": "巻八十上·文苑列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.80.p73",
+        "at": 173,
+        "data_url": "data/houhanshu/hhs/80.json",
+        "matched": "羊陟",
+        "snippet": "…者，吾請爲諸君分坐。」坐者皆屬觀。旣出，往造河南尹羊陟，不得見。壹以公卿中非陟無足以託名者，乃日往到門，陟自強許通，尙臥未起。壹徑入上堂，遂前臨之，曰：「竊伏西州，承高風舊矣。乃今…"
+      }
+    ]
+  },
+  "n_mentions": 3
+}

@@ -1,0 +1,97 @@
+{
+  "id": "maohuanghou",
+  "primary_name": "明悼毛皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "毛皇后",
+    "毛氏"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 237,
+  "brief": "魏明帝毛皇后，被賜死",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.5",
+      "title": "魏書·后妃傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/05.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p86",
+        "at": 14,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "皇后",
+        "snippet": "冬，十二月，立貴嬪河內毛氏為皇后。初，帝為平原王，納河內虞氏為妃；及即位，虞氏不得立為後，太皇卞太后慰勉焉。虞氏曰：「曹氏自好立賤，未有能以義舉者也。然後職內…"
+      },
+      {
+        "chapter_id": "zztj.72",
+        "chapter_title": "魏紀四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.72.p27",
+        "at": 334,
+        "data_url": "data/zztj/zztj/72.json",
+        "matched": "皇后",
+        "snippet": "…行止動靜，豈可輕脫哉！」少府楊阜曰：「文皇帝、武宣皇后崩，陛下皆不送葬，所以重社稷，備不虞也；何至孩抱之赤子而送葬也哉！」帝皆不聽。三月，癸酉，行東巡。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.25",
+        "chapter_title": "魏書·辛毗楊阜高堂隆傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.25.p34",
+        "at": 115,
+        "data_url": "data/sanguozhi/wei/25.json",
+        "matched": "皇后",
+        "snippet": "…學生，莫不展力，帝乃躬自握土以率之。而遼東不朝。悼皇后崩。天作淫雨，冀州水出，漂沒民物。隆上疏切諫曰："
+      },
+      {
+        "chapter_id": "wei.3",
+        "chapter_title": "魏書·明帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.3.p36",
+        "at": 58,
+        "data_url": "data/sanguozhi/wei/03.json",
+        "matched": "皇后",
+        "snippet": "…御史循行沒溺死亡及失財產者，在所開倉振救之。庚辰，皇后毛氏卒。冬十月丁未，月犯熒惑。癸丑，葬悼毛后于愍陵。乙卯，營洛陽南委粟山爲圜丘。十二月壬子冬至，始祀。丁巳，分襄陽臨沮、宜城、…"
+      },
+      {
+        "chapter_id": "wei.3",
+        "chapter_title": "魏書·明帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.3.p4",
+        "at": 158,
+        "data_url": "data/sanguozhi/wei/03.json",
+        "matched": "皇后",
+        "snippet": "…冬十月丙寅，治兵于東郊。焉耆王遣子入侍。十一月，立皇后毛氏。賜天下男子爵人二級，鰥寡孤獨不能自存者賜穀。十二月，封后父毛嘉爲列侯。新城太守孟達反，詔驃騎將軍司馬宣王討之。"
+      },
+      {
+        "chapter_id": "wei.9",
+        "chapter_title": "魏書·諸夏侯曹傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.9.p33",
+        "at": 24,
+        "data_url": "data/sanguozhi/wei/09.json",
+        "matched": "皇后",
+        "snippet": "玄字太初。少知名，弱冠爲散騎黃門侍郎。嘗進見，與皇后弟毛曾並坐，玄恥之，不恱形之於色。明帝恨之，左遷爲羽林監。正始初，曹爽輔政。玄，爽之姑子也。累遷散騎常侍、中護軍。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 6
+}

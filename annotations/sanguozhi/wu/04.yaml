@@ -2,9 +2,25 @@ chapter: wu.4
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷49
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: d1a5a1bb25e2e777c7b9058947ad237772af482940d98a89c5e8139c64e972ce
 annotations:
+- id: wu.4.p1.h1
+  anchor: wu.4.p1
+  at: 9
+  length: 3
+  type: person
+  person_id: taishici
+  text: 太史慈
+  via: primary
+- id: wu.4.p1.h2
+  anchor: wu.4.p1
+  at: 12
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
 - id: wu.4.p2.a1
   anchor: wu.4.p2
   at: 39
@@ -17,6 +33,54 @@ annotations:
   length: 0
   type: pei
   text: 续汉书曰：繇父舆，一名方，山阳太守。岱、繇皆有隽才。《英雄记》称岱孝悌仁恕，以虚己受人。
+- id: wu.4.p3.h1
+  anchor: wu.4.p3
+  at: 181
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wu.4.p3.h2
+  anchor: wu.4.p3
+  at: 204
+  length: 2
+  type: person
+  person_id: sunbi
+  text: 孫賁
+  via: primary
+- id: wu.4.p3.h3
+  anchor: wu.4.p3
+  at: 211
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.4.p3.h4
+  anchor: wu.4.p3
+  at: 241
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.4.p3.h5
+  anchor: wu.4.p3
+  at: 254
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.4.p3.h6
+  anchor: wu.4.p3
+  at: 297
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
 - id: wu.4.p3.a1
   anchor: wu.4.p3
   at: 313
@@ -35,30 +99,366 @@ annotations:
   length: 0
   type: pei
   text: 《献帝春秋》曰：是岁，繇屯彭泽，又使融助皓讨刘表所用太守诸葛玄。许子将谓繇曰：“笮融出军，不顾（命）名义者也。硃文明善推诚以信人，宜使密防之。”融到，果诈杀皓，代领郡事。
+- id: wu.4.p4.h1
+  anchor: wu.4.p4
+  at: 19
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wu.4.p4.h2
+  anchor: wu.4.p4
+  at: 22
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: wu.4.p4.h3
+  anchor: wu.4.p4
+  at: 174
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wu.4.p4.h4
+  anchor: wu.4.p4
+  at: 219
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wu.4.p5.h1
+  anchor: wu.4.p5
+  at: 1
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p5.h2
+  anchor: wu.4.p5
+  at: 22
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
+- id: wu.4.p5.h3
+  anchor: wu.4.p5
+  at: 25
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.4.p6.a1
   anchor: wu.4.p6
   at: 29
   length: 0
   type: pei
   text: 吴书曰：基遭多难，婴丁困苦，潜处味道，不以为戚。与群弟居，常夜卧早起，妻妾希见其面。诸弟敬惮，事之犹父。不妄交游，门无杂宾。
+- id: wu.4.p6.h1
+  anchor: wu.4.p6
+  at: 34
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.4.p6.h2
+  anchor: wu.4.p6
+  at: 40
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h3
+  anchor: wu.4.p6
+  at: 64
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h4
+  anchor: wu.4.p6
+  at: 74
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h5
+  anchor: wu.4.p6
+  at: 82
+  length: 2
+  type: person
+  person_id: yufan
+  text: 虞翻
+  via: primary
+- id: wu.4.p6.h6
+  anchor: wu.4.p6
+  at: 89
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h7
+  anchor: wu.4.p6
+  at: 109
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h8
+  anchor: wu.4.p6
+  at: 129
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h9
+  anchor: wu.4.p6
+  at: 157
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p6.h10
+  anchor: wu.4.p6
+  at: 181
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p7.h1
+  anchor: wu.4.p7
+  at: 0
+  length: 3
+  type: person
+  person_id: taishici
+  text: 太史慈
+  via: primary
+- id: wu.4.p8.h1
+  anchor: wu.4.p8
+  at: 3
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: wu.4.p8.h2
+  anchor: wu.4.p8
+  at: 153
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.4.p8.h3
+  anchor: wu.4.p8
+  at: 450
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.4.p8.h4
+  anchor: wu.4.p8
+  at: 566
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.4.p8.h5
+  anchor: wu.4.p8
+  at: 580
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.4.p9.h1
+  anchor: wu.4.p9
+  at: 35
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.4.p9.h2
+  anchor: wu.4.p9
+  at: 85
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.4.p9.h3
+  anchor: wu.4.p9
+  at: 87
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.4.p9.h4
+  anchor: wu.4.p9
+  at: 94
+  length: 2
+  type: person
+  person_id: handang
+  text: 韓當
+  via: primary
+- id: wu.4.p9.h5
+  anchor: wu.4.p9
+  at: 98
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: wu.4.p9.h6
+  anchor: wu.4.p9
+  at: 100
+  length: 2
+  type: person
+  person_id: huanggai
+  text: 黃蓋
+  via: primary
+- id: wu.4.p9.h7
+  anchor: wu.4.p9
+  at: 112
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.4.p9.h8
+  anchor: wu.4.p9
+  at: 115
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.4.p9.h9
+  anchor: wu.4.p9
+  at: 132
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.4.p10.h1
+  anchor: wu.4.p10
+  at: 29
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p10.h2
+  anchor: wu.4.p10
+  at: 65
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p10.h3
+  anchor: wu.4.p10
+  at: 76
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p10.h4
+  anchor: wu.4.p10
+  at: 114
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.4.p10.a1
   anchor: wu.4.p10
   at: 132
   length: 0
   type: pei
   text: 《吴历》云：慈於神亭战败，为策所执。策素闻其名，即解缚请见，咨问进取之术。慈答曰：“破军之将，不足与论事。”策曰：“昔韩信定计於广武，今策决疑於仁者，君何辞焉？”慈曰：“州军新破，士卒离心，若傥分散，难复合聚；欲出宣恩安集，恐不合尊意。”策长跪答曰：“诚本心所望也。明日中，望君来还。”诸将皆疑，策曰：“太史子义，青州名士，以信义为先，终不欺策。”明日，大请诸将，豫设酒食，立竿视影。日中而慈至，策大悦，常与参论诸军事。臣松之案；吴历云慈於神亭战败，为策所得，与本传大异，疑为谬误。《江表传》曰：策问慈曰：“闻卿昔为太守劫州章，赴文举，请诣玄德，皆有烈义，天下智士也，但所讬未得其人。射钩斩袪，古人不嫌。孤是卿知己，勿忧不如意也。”出教曰：“龙欲腾翥，先阶尺木者也。”
+- id: wu.4.p10.h5
+  anchor: wu.4.p10
+  at: 168
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.4.p10.a2
   anchor: wu.4.p10
   at: 176
   length: 0
   type: pei
   text: 江表传曰：策谓慈曰：“刘牧往责吾为袁氏攻庐江，其意颇猥，理恕不足。何者？先君手下兵数千餘人，尽在公路许。孤志在立事，不得不屈意於公路，求索故兵，再往才得千餘人耳。仍令孤攻庐江，尔时事势，不得不为行。但其后不遵臣节，自弃作邪僭事，谏之不从。丈夫义交，苟有大故，不得不离，孤交求公路及绝之本末如此。今刘繇丧亡，恨不及其生时与共论辩。今兒子在豫章，不知华子鱼待遇何如，其故复曲复依随之否？卿则州人，昔又从事，宁能往视其兒子，并宣孤意於其部曲？部曲乐来者便与俱来，不乐来者且安慰之。并观察子鱼所以牧御方规何似，视庐陵、鄱阳人民亲附之否？卿手下兵，宜将多少，自由意。”慈对曰：“慈有不赦之罪，将军量同桓、文，待遇过望。古人报生以死，期於尽节，没而后已。今并息兵，兵不宜多，将数十人，自足以往还也。”
+- id: wu.4.p10.h6
+  anchor: wu.4.p10
+  at: 190
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.4.p10.a3
   anchor: wu.4.p10
   at: 239
   length: 0
   type: pei
   text: 江表传曰：策初遣慈，议者纷纭，谓慈未可信，或云与华子鱼州里，恐留彼为筹策，或疑慈西讬黄祖，假路还北，多言遣之非计。策曰：“诸君语皆非也，孤断之详矣。太史子义虽气勇有胆烈，然非纵横之人。其心有士谟，志经道义，贵重然诺，一以意许知己，死亡不相负，诸君勿复忧也。”慈从豫章还，议者乃始服。慈见策曰：“华子鱼良德也，然非筹略才，无他方规，自守而已。又丹杨僮芝自擅庐陵，诈言被诏书为太守。鄱阳民帅别立宗部，阻兵守界，不受子鱼所遣长吏，言‘我以别立郡，须汉遣真太守来，当迎之耳’。子鱼不但不能谐庐陵、鄱阳，近自海昬有上缭壁，有五六千家相结聚作宗伍，惟输租布於郡耳，发召一人遂不可得，子鱼亦睹视之而已。”策拊掌大笑，（仍）有兼并之志矣。顷之，遂定豫章。
+- id: wu.4.p11.h1
+  anchor: wu.4.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wu.4.p11.h2
+  anchor: wu.4.p11
+  at: 20
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p12.h1
+  anchor: wu.4.p12
+  at: 23
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.4.p12.h2
+  anchor: wu.4.p12
+  at: 98
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wu.4.p12.t1
   anchor: wu.4.p12
   at: 121
@@ -83,24 +483,104 @@ annotations:
   length: 0
   type: pei
   text: 吴书曰：享字元复，历尚书、吴郡太守。
+- id: wu.4.p13.h1
+  anchor: wu.4.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: wu.4.p13.h2
+  anchor: wu.4.p13
+  at: 40
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: wu.4.p14.h1
+  anchor: wu.4.p14
+  at: 76
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: wu.4.p14.a1
   anchor: wu.4.p14
   at: 87
   length: 0
   type: pei
   text: 吴书曰：琬与卓相害，而壹尽心於琬，甚有声称。卓恶之，乃署教曰：“司徒掾士壹，不得除用。”故历年不迁。会卓入关，壹乃亡归。
+- id: wu.4.p14.h2
+  anchor: wu.4.p14
+  at: 106
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wu.4.p14.a2
   anchor: wu.4.p14
   at: 126
   length: 0
   type: pei
   text: 䵋音于鄙反，见《字林》。
+- id: wu.4.p15.h1
+  anchor: wu.4.p15
+  at: 42
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
+- id: wu.4.p15.h2
+  anchor: wu.4.p15
+  at: 165
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: wu.4.p16.h1
+  anchor: wu.4.p16
+  at: 29
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wu.4.p16.a1
   anchor: wu.4.p16
   at: 86
   length: 0
   type: pei
   text: 葛洪《神仙传》曰：燮尝病死，已三日，仙人董奉以一丸药与服，以水含之，捧其头摇（捎）之，食顷，即开目动手，颜色渐复，半日能起坐，四日复能语，遂复常。奉字君异，侯官人也。
+- id: wu.4.p17.h1
+  anchor: wu.4.p17
+  at: 30
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wu.4.p17.h2
+  anchor: wu.4.p17
+  at: 50
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wu.4.p17.h3
+  anchor: wu.4.p17
+  at: 99
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: wu.4.p18.t1
   anchor: wu.4.p18
   at: 18
@@ -113,6 +593,62 @@ annotations:
   era: 建安
   era_year: 15
   reasoning: 原文「建安十五年」直接出现年号；解析為 AD 210
+- id: wu.4.p18.h1
+  anchor: wu.4.p18
+  at: 24
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.4.p18.h2
+  anchor: wu.4.p18
+  at: 27
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.4.p18.h3
+  anchor: wu.4.p18
+  at: 58
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p18.h4
+  anchor: wu.4.p18
+  at: 78
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p18.h5
+  anchor: wu.4.p18
+  at: 122
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p18.h6
+  anchor: wu.4.p18
+  at: 152
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.4.p18.h7
+  anchor: wu.4.p18
+  at: 214
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.4.p18.t2
   anchor: wu.4.p18
   at: 237
@@ -125,9 +661,57 @@ annotations:
   era: 黃武
   era_year: 5
   reasoning: 原文「黃武五年」直接出现年号；解析為 AD 226
+- id: wu.4.p19.h1
+  anchor: wu.4.p19
+  at: 0
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.4.p19.h2
+  anchor: wu.4.p19
+  at: 17
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.4.p19.h3
+  anchor: wu.4.p19
+  at: 150
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.4.p19.a1
   anchor: wu.4.p19
   at: 313
   length: 0
   type: pei
   text: 孙盛曰：夫柔远能迩，莫善於信；保大定功，莫善於义。故齐桓创基，德彰於柯会；晋文始伯，义显於伐原。故能九合一匡，世主夏盟，令问长世，贻范百王。吕岱师友士匡，使通信誓，徽兄弟肉袒，推心委命，岱因灭之，以要功利，君子是以知孙权之不能远略，而吕氏之祚不延者也。
+- id: wu.4.p19.h4
+  anchor: wu.4.p19
+  at: 321
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.4.p20.h1
+  anchor: wu.4.p20
+  at: 33
+  length: 3
+  type: person
+  person_id: taishici
+  text: 太史慈
+  via: primary
+- id: wu.4.p20.h2
+  anchor: wu.4.p20
+  at: 47
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary

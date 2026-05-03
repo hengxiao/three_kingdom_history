@@ -1,0 +1,72 @@
+{
+  "id": "duji",
+  "primary_name": "杜畿",
+  "courtesy_name": "伯侯",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.16",
+      "title": "魏書·任苏杜郑仓传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/16.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.64",
+        "chapter_title": "漢紀五十六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.64.p12",
+        "at": 902,
+        "data_url": "data/zztj/zztj/64.json",
+        "matched": "杜畿",
+        "snippet": "…要地也，君為我舉賢才以鎮之。」彧曰：「西平太守京兆杜畿，勇足以當難，智足以應變。」操乃以畿為河東太守。鐘繇促王邑交符，邑佩印綬，逕從河北詣許自歸。衛固等使兵數千人絕陝津，杜畿至，數…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p33",
+        "at": 107,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "杜畿",
+        "snippet": "…仰河東。及超等破，餘畜尚二十餘萬斛，操乃增河東太守杜畿秩中二千石。"
+      },
+      {
+        "chapter_id": "zztj.76",
+        "chapter_title": "魏紀八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.76.p34",
+        "at": 9,
+        "data_url": "data/zztj/zztj/76.json",
+        "matched": "杜畿",
+        "snippet": "初，李恢與尚書僕射杜畿及東安太守郭智善，智子沖，有內實而無外觀，州裡弗稱也。沖嘗與李豐俱見畿，既退，畿歎曰：「孝懿無子；非徒無子，殆將無家。君謀為不…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.2",
+        "chapter_title": "魏書·文帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.2.p25",
+        "at": 15,
+        "data_url": "data/sanguozhi/wei/02.json",
+        "matched": "杜畿",
+        "snippet": "秋七月，冀州大蝗，民饑，使尚書杜畿持節開倉廩以振之。八月，蜀大將黃權率衆降。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

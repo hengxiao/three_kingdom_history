@@ -1,0 +1,56 @@
+{
+  "id": "gonghuailianggui",
+  "primary_name": "恭懷梁皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "恭懷梁貴人",
+    "梁貴人"
+  ],
+  "other_names": [],
+  "birth_ad": 62,
+  "death_ad": 83,
+  "brief": "漢章帝貴人，和帝生母",
+  "bio_chapters": [],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.4",
+        "chapter_title": "蜀書·二主妃子傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.4.p2",
+        "at": 198,
+        "data_url": "data/sanguozhi/shu/04.json",
+        "matched": "皇后",
+        "snippet": "…夫人為昭靈皇后，孝和皇帝改葬其母梁貴人，尊號曰恭懷皇后，孝愍皇帝亦改葬其母王夫人，尊號曰靈懷皇后。今皇思夫人宜有尊號，以慰寒泉之思，輒與恭等案諡法，宜曰昭烈皇后。《詩》曰：『谷則異…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.10",
+        "chapter_title": "皇后紀（下）",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.10.p18",
+        "at": 185,
+        "data_url": "data/houhanshu/hhs/10.json",
+        "matched": "皇后",
+        "snippet": "…，斂以東園畫梓壽器、玉匣、飯含之具，禮儀制度比恭懷皇后。使司徒持節，大長秋奉弔祠，賻錢四千萬，布四萬匹，中謁者僕射典護喪事，侍御史護大駕鹵簿。詔安平王豹、河閒王建、勃海王悝，長社、…"
+      },
+      {
+        "chapter_id": "hhs.10",
+        "chapter_title": "皇后紀（下）",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.10.p9",
+        "at": 17,
+        "data_url": "data/houhanshu/hhs/10.json",
+        "matched": "皇后",
+        "snippet": "順烈梁皇后諱妠，大將軍商之女，恭懷皇后弟之孫也。后生，有光景之祥。少善女工，好史書，九歲能誦《論語》，治《韓詩》，大義略舉。常以列女圖畫置於左右，以自監戒。父商深異…"
+      }
+    ]
+  },
+  "n_mentions": 3
+}

@@ -2,15 +2,167 @@ chapter: wei.28
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷28
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: b1a02305b9c1871207b26f72ec32dbe69a28d19cca4e1fe06d27b8b0c3a36c8d
 annotations:
+- id: wei.28.p1.h1
+  anchor: wei.28.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p1.h2
+  anchor: wei.28.p1
+  at: 2
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.28.p1.h3
+  anchor: wei.28.p1
+  at: 5
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.28.p1.h4
+  anchor: wei.28.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p1.h5
+  anchor: wei.28.p1
+  at: 10
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p2.h1
+  anchor: wei.28.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p2.h2
+  anchor: wei.28.p2
+  at: 22
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.28.p2.h3
+  anchor: wei.28.p2
+  at: 25
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.28.p2.h4
+  anchor: wei.28.p2
+  at: 34
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.28.p2.a1
   anchor: wei.28.p2
   at: 81
   length: 0
   type: pei
   text: 《魏略》曰：凌為長，遇事，髡刑五歲，當道掃除。時太祖車過，問此何徒，左右以狀對。太祖曰：「此子師兄子也，所坐亦公耳。」於是主者選為驍騎主簿。
+- id: wei.28.p2.h5
+  anchor: wei.28.p2
+  at: 94
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.28.p3.h1
+  anchor: wei.28.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.28.p3.h2
+  anchor: wei.28.p3
+  at: 19
+  length: 2
+  type: person
+  person_id: zhangliao
+  text: 張遼
+  via: primary
+- id: wei.28.p3.h3
+  anchor: wei.28.p3
+  at: 26
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.28.p3.h4
+  anchor: wei.28.p3
+  at: 38
+  length: 2
+  type: person
+  person_id: lvfan
+  text: 呂範
+  via: primary
+- id: wei.28.p3.h5
+  anchor: wei.28.p3
+  at: 126
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wei.28.p3.h6
+  anchor: wei.28.p3
+  at: 203
+  length: 3
+  type: person
+  person_id: simalang
+  text: 司馬朗
+  via: primary
+- id: wei.28.p3.h7
+  anchor: wei.28.p3
+  at: 249
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wei.28.p4.h1
+  anchor: wei.28.p4
+  at: 47
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.28.p4.h2
+  anchor: wei.28.p4
+  at: 75
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
 - id: wei.28.p4.t1
   anchor: wei.28.p4
   at: 90
@@ -93,12 +245,28 @@ annotations:
   length: 0
   type: pei
   text: 《魏氏春秋》曰：廣字公淵。弟飛梟、金虎，並才武過人。太傅嘗從容問蔣濟，濟曰：「凌文武俱贍，當今無雙。廣等志力，有美於父耳。」退而悔之，告所親曰：「吾此言，滅人門宗矣。」《魏末傳》曰：凌少子字明山，最知名，善書，多技藝，人得其書，皆以為法。走向太原，追軍及之，時有飛鳥集桑樹，隨枝低卬，舉弓射之即倒，追人乃止不復進。明山投親家食，親家告吏，乃就執之。
+- id: wei.28.p7.h1
+  anchor: wei.28.p7
+  at: 0
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.28.p7.a1
   anchor: wei.28.p7
   at: 62
   length: 0
   type: pei
   text: 魏名臣奏載雍州刺史張既表曰：「河右遐遠，喪亂彌久，武威當諸郡路道喉轄之要，加民夷雜處，數有兵難。領太守毌丘興到官，內撫吏民，外懷羌、胡，卒使柔附，為官效用。黃華、張進初圖逆亂，扇動左右，興志氣忠烈，臨難不顧，為將校民夷陳說禍福，言則涕泣。於時男女萬口，咸懷感激，形毀髮亂，誓心致命。尋率精兵踧脅張掖，濟拔領太守杜通、西海太守張睦。張掖番和、驪靬二縣吏民及郡雜胡棄惡詣興，興皆安卹，使盡力田。興每所歷，盡竭心力，誠國之良吏。殿下即位，留心萬機，苟有毫毛之善，必有賞錄，臣伏緣聖旨，指陳其事。」
+- id: wei.28.p7.h2
+  anchor: wei.28.p7
+  at: 81
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.28.p8.t1
   anchor: wei.28.p8
   at: 143
@@ -141,6 +309,38 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：頎字孔碩，東萊人，晉永嘉中大賊王彌，頎之孫。
+- id: wei.28.p10.h1
+  anchor: wei.28.p10
+  at: 27
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.28.p10.h2
+  anchor: wei.28.p10
+  at: 69
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wei.28.p11.h1
+  anchor: wei.28.p11
+  at: 4
+  length: 3
+  type: person
+  person_id: xiahouxuan
+  text: 夏侯玄
+  via: primary
+- id: wei.28.p11.h2
+  anchor: wei.28.p11
+  at: 24
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.28.p11.t1
   anchor: wei.28.p11
   at: 83
@@ -161,6 +361,30 @@ annotations:
   length: 0
   type: pei
   text: 儉、欽等表曰：「故相國懿，匡輔魏室，歷事忠貞，故烈祖明皇帝授以寄託之任。懿戮力盡節，以寧華夏。又以齊王聰明，無有穢德，乃心勤盡忠以輔上，天下賴之。懿欲討滅二虜以安宇內，始分軍糧，克時同舉，未成而薨。齊王以懿有輔己大功，故遂使師承統懿業，委以大事。而師以盛年在職，無疾託病，坐擁強兵，無有臣禮，朝臣非之，義士譏之，天下所聞，其罪一也。懿造計取賊，多舂軍糧，剋期有日。師為大臣，當除國難，又為人子，當卒父業。哀聲未絕而便罷息，為臣不忠，為子不孝，其罪二也。賊退過東關，坐自起眾，三征同進，喪眾敗績，歷年軍實，一旦而盡，致使賊來，天下騷動，死傷流離，其罪三也。賊舉國悉眾，號五十萬，來向壽春，圖詣洛陽，會太尉孚與臣等建計，乃杜塞要險，不與爭鋒，還固新城。淮南將士，衝鋒履刃，晝夜相守，勤瘁百日，死者塗地，自魏有軍已來，為難苦甚，莫過於此。而師遂意自由，不論封賞，權勢自在，無所領錄，其罪四也。故中書令李豐等，以師無人臣節，欲議退之。師知而請豐，其夕拉殺，載屍埋棺。豐等為大臣，帝王腹心，擅加酷暴，死無罪名，師有無君之心，其罪五也。懿每嘆說齊王自堪人主，君臣之義定。奉事以來十有五載，始欲歸政，按行武庫，詔問禁兵不得妄出。師自知姦慝，人神所不祐，矯廢君主，加之以罪。孚，師之叔父，性甚仁孝，追送齊王，悲不自勝。群臣皆怒而師懷忍，不顧大義，其罪六也。又故光祿大夫張緝，無罪而誅，夷其妻子，並及母后，逼恐至尊，強催督遣，臨時哀愕，莫不傷痛；而師稱慶，反以歡喜，其罪七也。陛下踐阼，聰明神武，事經聖心，欲崇省約，天下聞之，莫不歡慶；而師不自改悔脩复臣禮，而方徵兵募士，毀壞宮內，列侯自衛。陛下即阼，初不朝覲。陛下欲臨幸師舍以省其疾，复拒不通，不奉法度，其罪八也。近者領軍許允當為鎮北，以廚錢給賜，而師舉奏加辟，雖云流徙，道路餓殺，天下聞之，莫不哀傷，其罪九也。三方之守，一朝闕廢，多選精兵，以自營衛，五營領兵，闕而不補，多載器杖，充聚本營，天下所聞，人懷憤怨，訛言盈路，以疑海內，其罪十也。多休守兵，以佔高第，以空虛四表，欲擅強勢，以逞姦心，募取屯田，加其復賞，阻兵安忍，壞亂舊法。合聚諸籓王公以著鄴，欲悉誅之，一旦舉事廢主。天不長惡，使目腫不成，其罪十一也。臣等先人皆隨從太祖武皇帝征討凶暴，獲成大功，與高祖文皇帝即受漢禪，開國承家，猶堯舜相傳也。臣與安豐護軍鄭翼、廬江護軍呂宣、太守張休、淮南太守丁尊、督合肥護軍王休等議，各以累世受恩，千載風塵，思盡軀命，以完全社稷安主為效。斯義苟立，雖焚妻子，吞炭漆身，死而不恨也。按師之罪，宜加大辟，以彰姦慝。春秋之義，一世為善，一世宥之。懿有大功，海內所書，依古典議，廢師以侯就弟。弟昭，忠肅寬明，樂善好士，有高世君子之度，忠誠為國，不與師同。臣等碎首所保，可以代師輔導聖躬。太尉孚，忠孝小心，所宜親寵，授以保傅。護軍散騎常侍望，忠公親事，當官稱能，遠迎乘輿，有宿衛之功，可為中領軍。春秋之義，大義滅親，故周公誅弟，石碏戮子，季友鴆兄，上為國計，下全宗族。殛鯀用禹，聖人明典，古今所稱。乞陛下下臣等所奏，朝堂博議。臣言當道，使師遜位避賢者，罷兵去備，如三皇舊法，則天下協同。若師負勢恃眾不自退者，臣等率將所領，晝夜兼行，惟命是授。臣等今日所奏，惟欲使大魏永存，使陛下得行君意，遠絕亡之禍，百姓安全，六合一體，使忠臣義士，不愧於三皇五帝耳。臣恐兵起，天下擾亂，臣輒上事，移三征及州郡國典農，各安慰所部吏民，不得妄動，謹具以狀聞。惟陛下愛養精神，明慮危害，以寧海內。師專權用勢，賞罰自由，聞臣等舉眾，必下詔禁絕關津，使驛書不通，擅复徵調，有所收捕。此乃師詔，非陛下詔書，在所皆不得復承用。臣等道遠，懼文書不得皆通，輒臨時賞罰，以便宜從事，須定表上也。」
+- id: wei.28.p12.h1
+  anchor: wei.28.p12
+  at: 12
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.28.p12.h2
+  anchor: wei.28.p12
+  at: 63
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.28.p12.h3
+  anchor: wei.28.p12
+  at: 152
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.28.p12.a1
   anchor: wei.28.p12
   at: 206
@@ -185,18 +409,90 @@ annotations:
   length: 0
   type: pei
   text: 欽〈降吳表〉曰：「禀命不幸，常隸魏國，兩絕於天。雖側伏隅都，自知無路。司馬師滔天作逆，廢害二主，辛、癸、高、莽，惡不足喻。欽累世受魏恩，烏鳥之情，竊懷憤踴，在三之義，期於弊僕。前與毌丘儉、郭淮等俱舉義兵，當共討師，掃除凶孽，誠臣慺慺愚管所執。智慮淺薄，微節不騁，進無所依，悲痛切心。退惟不能扶翼本朝，抱愧俯仰，靡所自厝。冒緣古義，固有所歸，庶假天威，得展萬一，僵仆之日，亦所不恨。輒相率將，歸命聖化，慚偷苟生，非辭所陳。謹上還所受魏使持節、前將軍、山桑侯印綬。臨表惶惑，伏須罪誅。」《魏書》曰：欽字仲若，譙郡人。父稷，建安中為騎將，有勇力。欽少以名將子，材武見稱。魏諷反，欽坐與諷辭語相連，及下獄，掠笞數百，當死，太祖以稷故赦之。太和中，為五營校督，出為牙門將。欽性剛暴無禮，所在倨傲陵上，不奉官法，輒見奏遣，明帝抑之。後復以為淮南牙門將，轉為廬江太守、鷹揚將軍。王凌奏欽貪殘，不宜撫邊，求免官治罪，由是徵欽還。曹爽以欽鄉里，厚養待之，不治欽事。復遣還廬江，加冠軍將軍，貴寵逾前。欽以故益驕，好自矜伐，以壯勇高人，頗得虛名於三軍。曹爽誅後，進欽為前將軍以安其心，後代諸葛誕為揚州刺史。自曹爽之誅，欽常內懼，與諸葛誕相惡，無所與謀。會誕去兵，毌丘儉往，乃陰共結謀。戰敗走，晝夜間行，追者不及，遂得入吳，孫峻厚待之。欽雖在他國，不能屈節下人，自呂據、朱異等諸大將皆憎疾之，惟峻常左右之。
+- id: wei.28.p15.h1
+  anchor: wei.28.p15
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.28.p15.a1
   anchor: wei.28.p15
   at: 29
   length: 0
   type: pei
   text: 《魏氏春秋》曰：誕為郎，與僕射杜畿試船陶河，遭風覆沒，誕亦俱溺。虎賁浮河救誕，誕曰：「先救杜侯。」誕飄於岸，絕而復蘇。
+- id: wei.28.p15.h2
+  anchor: wei.28.p15
+  at: 87
+  length: 3
+  type: person
+  person_id: xiahouxuan
+  text: 夏侯玄
+  via: primary
+- id: wei.28.p15.h3
+  anchor: wei.28.p15
+  at: 128
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.28.p15.a2
   anchor: wei.28.p15
   at: 137
   length: 0
   type: pei
   text: 《世語》曰：是時，當世俊士散騎常侍夏侯玄、尚書諸葛誕、鄧颺之徒，共相題表，以玄、疇四人為四聰，誕、備八人為八達，中書監劉放子熙、孫資子密、吏部尚書衛臻子烈三人，咸不及比，以父居勢位，容之為三豫，凡十五人。帝以構長浮華，皆免官廢錮。
+- id: wei.28.p16.h1
+  anchor: wei.28.p16
+  at: 0
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p16.h2
+  anchor: wei.28.p16
+  at: 42
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wei.28.p17.h1
+  anchor: wei.28.p17
+  at: 1
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.28.p17.h2
+  anchor: wei.28.p17
+  at: 142
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wei.28.p18.h1
+  anchor: wei.28.p18
+  at: 11
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p18.h2
+  anchor: wei.28.p18
+  at: 14
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.28.p18.a1
   anchor: wei.28.p18
   at: 54
@@ -241,6 +537,14 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：黃初末，吳人髮長沙王吳芮塚，以其塼於臨湘為孫堅立廟。芮容貌如生，衣服不朽。後豫發者見吳綱曰：「君何類長沙王吳芮，但微短耳。」綱瞿然曰；「是先祖也，君何由見之？」見者言所由，綱曰：「更葬否？」答曰：「即更葬矣。」自芮之卒年至塚發，四百餘年，綱，芮之十六世孫矣。
+- id: wei.28.p18.h3
+  anchor: wei.28.p18
+  at: 286
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
 - id: wei.28.p19.t1
   anchor: wei.28.p19
   at: 0
@@ -255,6 +559,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 甘露2年 (AD 257)，月份「六月」
+- id: wei.28.p19.h1
+  anchor: wei.28.p19
+  at: 133
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wei.28.p19.a1
   anchor: wei.28.p19
   at: 190
@@ -293,6 +605,14 @@ annotations:
   length: 0
   type: pei
   text: 干寶《晉紀》曰：初，壽春每歲雨潦，淮水溢，常淹城邑。故文王之築圍也，誕笑之曰：「是固不攻而自敗也。」及大軍之攻，亢旱逾年。城既陷，是日大雨，圍壘皆毀。誕子靚，字仲思，吳平還晉。靚子恢，字道明，位至尚書令，追贈左光祿大夫開府。
+- id: wei.28.p22.h1
+  anchor: wei.28.p22
+  at: 27
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.28.p22.a1
   anchor: wei.28.p22
   at: 79
@@ -305,6 +625,30 @@ annotations:
   length: 0
   type: pei
   text: 習鑿齒曰：自是天下畏威懷德矣。君子謂司馬大將軍於是役也，可謂能以德攻矣。夫建業者異矣，各有所尚，而不能兼併也。故窮武之雄斃於不仁，存義之國喪於懦退，今一征而禽三叛，大虜吳眾，席捲淮浦，俘馘十萬，可謂壯矣。而未及安坐，喪王基之功，種惠吳人，結異類之情，寵鴦葬欽，忘疇昔之隙，不咎誕眾，使揚士懷愧，功高而人樂其成，業廣而敵懷其德，武昭既敷，文算又洽，推此道也，天下其孰能當之哉？喪王基，語在《基傳》。◎鴦一名俶。《晉諸公贊》曰，俶後為將軍，破涼州虜，名聞天下。太康中為東夷校尉、假節。當之職，入辭武帝，帝見而惡之，託以他事免俶官。東安公繇，諸葛誕外孫，欲殺俶，因誅楊駿，誣俶謀逆，遂夷三族。
+- id: wei.28.p23.h1
+  anchor: wei.28.p23
+  at: 0
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p23.h2
+  anchor: wei.28.p23
+  at: 16
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.28.p23.h3
+  anchor: wei.28.p23
+  at: 47
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
 - id: wei.28.p23.a1
   anchor: wei.28.p23
   at: 185
@@ -335,6 +679,78 @@ annotations:
   era: 嘉平
   era_year: 1
   reasoning: 原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）
+- id: wei.28.p25.h1
+  anchor: wei.28.p25
+  at: 23
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: wei.28.p25.h2
+  anchor: wei.28.p25
+  at: 30
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p25.h3
+  anchor: wei.28.p25
+  at: 80
+  length: 2
+  type: person
+  person_id: liaohua
+  text: 廖化
+  via: primary
+- id: wei.28.p27.h1
+  anchor: wei.28.p27
+  at: 21
+  length: 2
+  type: person
+  person_id: zhouxuan
+  text: 周宣
+  via: primary
+- id: wei.28.p29.h1
+  anchor: wei.28.p29
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wei.28.p29.h2
+  anchor: wei.28.p29
+  at: 22
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.28.p30.h1
+  anchor: wei.28.p30
+  at: 15
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.28.p30.h2
+  anchor: wei.28.p30
+  at: 89
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wei.28.p30.h3
+  anchor: wei.28.p30
+  at: 105
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.28.p30.t1
   anchor: wei.28.p30
   at: 153
@@ -347,6 +763,14 @@ annotations:
   era: 甘露
   era_year: 3
   reasoning: 「其年」 = 当前年 甘露3年 (AD 258)
+- id: wei.28.p30.h4
+  anchor: wei.28.p30
+  at: 193
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p32.t1
   anchor: wei.28.p32
   at: 67
@@ -359,6 +783,22 @@ annotations:
   era: 甘露
   era_year: 1
   reasoning: 原文「甘露元年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）
+- id: wei.28.p32.h1
+  anchor: wei.28.p32
+  at: 77
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p32.h2
+  anchor: wei.28.p32
+  at: 169
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p33.t1
   anchor: wei.28.p33
   at: 0
@@ -383,6 +823,22 @@ annotations:
   era: 景元
   era_year: 4
   reasoning: 承前文年號「景元」推得，「四年」 = 景元4年 = AD 263
+- id: wei.28.p33.h1
+  anchor: wei.28.p33
+  at: 102
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p33.h2
+  anchor: wei.28.p33
+  at: 210
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p34.t1
   anchor: wei.28.p34
   at: 0
@@ -397,6 +853,56 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 景元4年 (AD 263)，月份「冬十月」
+- id: wei.28.p34.h1
+  anchor: wei.28.p34
+  at: 118
+  length: 3
+  type: person
+  person_id: simashi
+  text: 司馬師
+  via: primary
+- id: wei.28.p34.h2
+  anchor: wei.28.p34
+  at: 207
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
+- id: wei.28.p35.h1
+  anchor: wei.28.p35
+  at: 5
+  length: 1
+  type: person
+  person_id: liushan
+  text: 禪
+  via: given_name_carry
+- id: wei.28.p35.h2
+  anchor: wei.28.p35
+  at: 74
+  length: 1
+  type: person
+  person_id: liushan
+  text: 禪
+  via: given_name_carry
+- anchor: wei.28.p35
+  at: 81
+  length: 2
+  type: person
+  person_id: liuxuan
+  text: 太子
+  via: llm
+  confidence: 0.7
+  reasoning: 「太子奉車」即拜劉禪太子劉璿為奉車都尉，roster 無「劉璿」，置 null。
+  id: wei.28.p35.h4
+- id: wei.28.p35.h3
+  anchor: wei.28.p35
+  at: 208
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p36.t1
   anchor: wei.28.p36
   at: 0
@@ -417,12 +923,76 @@ annotations:
   length: 0
   type: pei
   text: 袁子曰：諸葛亮，重人也，而驟用蜀兵，此知小國弱民難以久存也。今國家一舉而滅蜀，自征伐之功，未有如此之速者也。方鄧艾以萬人入江由之危險，鍾會以二十萬眾留劍閣而不得進，三軍之士已飢，艾雖戰勝克將，使劉禪數日不降，則二將之軍難以反矣。故功業如此之難也。國家前有壽春之役，後有滅蜀之勞，百姓貧而倉禀虛，故小國之慮，在於時立功以自存，大國之慮，在於既勝而力竭，成功之後，戒懼之時也。
+- id: wei.28.p37.h1
+  anchor: wei.28.p37
+  at: 111
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
+- id: wei.28.p37.h2
+  anchor: wei.28.p37
+  at: 115
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wei.28.p37.h3
+  anchor: wei.28.p37
+  at: 129
+  length: 1
+  type: person
+  person_id: liushan
+  text: 禪
+  via: given_name
+- id: wei.28.p37.h4
+  anchor: wei.28.p37
+  at: 150
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.28.p37.h5
+  anchor: wei.28.p37
+  at: 189
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.28.p38.h1
+  anchor: wei.28.p38
+  at: 58
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.28.p38.h2
+  anchor: wei.28.p38
+  at: 174
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p38.a1
   anchor: wei.28.p38
   at: 203
   length: 0
   type: pei
   text: 《魏氏春秋》曰：艾仰天歎曰：「艾忠臣也，一至此乎！白起之酷，復見於今日矣。」
+- id: wei.28.p39.h1
+  anchor: wei.28.p39
+  at: 6
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p39.a1
   anchor: wei.28.p39
   at: 82
@@ -435,6 +1005,54 @@ annotations:
   length: 0
   type: pei
   text: 荀綽《冀州記》曰：邵起自幹吏，位至衛尉。長子翰，河東太守。中子敞，大司農。少子倩，字君幼，寬厚有器局，勤於當世，歷位冀州刺史、太子右衛率。翰子俞，字世都，清貞貴素，辯於論議，採公孫龍之辭以談微理。少有能名，辟太尉府，稍歷顯位，至侍中中書令，遷為監。臣松之按：蹇彖辭云「蹇利西南，往得中也」，不云「有功」；下云「利見大人，往有功也」。
+- id: wei.28.p41.h1
+  anchor: wei.28.p41
+  at: 17
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p41.h2
+  anchor: wei.28.p41
+  at: 37
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p42.h1
+  anchor: wei.28.p42
+  at: 70
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p42.h2
+  anchor: wei.28.p42
+  at: 222
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
+- id: wei.28.p42.h3
+  anchor: wei.28.p42
+  at: 279
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.28.p42.h4
+  anchor: wei.28.p42
+  at: 304
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p44.a1
   anchor: wei.28.p44
   at: 48
@@ -459,18 +1077,58 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：初，荊州刺史裴潛以泰為從事，司馬宣王鎮宛，潛數遣詣宣王，由此為宣王所知。及征孟達，泰又導軍，遂辟泰。泰頻喪考、妣、祖，九年居喪，宣王留缺待之，至三十六日，擢為新城太守。宣王為泰會，使尚書鍾繇調泰：「君釋褐登宰府，三十六日擁麾蓋，守兵馬郡；乞兒乘小車，一何駛乎？」泰曰：「誠有此。君，名公之子，少有文采，故守吏職；獼猴騎土牛，又何遲也！」眾賓咸悅。後歷兗、豫州刺史，所在有籌算績效。
+- id: wei.28.p46.h1
+  anchor: wei.28.p46
+  at: 0
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p46.a1
   anchor: wei.28.p46
   at: 25
   length: 0
   type: pei
   text: 會為其母傳曰：「夫人張氏，字昌蒲，太原茲氏人，太傅定陵成侯之命婦也。世長吏二千石。夫人少喪父母，充成侯家，修身正行，非禮不動，為上下所稱述。貴妾孫氏，攝嫡專家，心害其賢，數讒毀無所不至。孫氏辨博有智巧，言足以飾非成過，然竟不能傷也。及妊娠，愈更嫉妒，乃置藥食中，夫人中食，覺而吐之，瞑眩者數日。或曰：『何不向公言之？』答曰：『嫡庶相害，破家危國，古今以為鑑誡。假如公信我，眾誰能明其事？彼以心度我，謂我必言，固將先我；事由彼發，顧不快耶！』遂稱疾不見。孫氏果謂成侯曰：『妾欲其得男，故飲以得男之藥，反謂毒之！』成侯曰：『得男藥佳事，闇於食中與人，非人情也。』遂訊侍者俱服，孫氏由是得罪出。成侯問夫人何能不言，夫人言其故，成侯大驚，益以此賢之。黃初六年，生會，恩寵愈隆。成侯既出孫氏，更納正嫡賈氏。」臣松之按：鍾繇於時老矣，而方納正室。蓋禮所云「宗子雖七十，無無主婦」之義也。《魏氏春秋》曰：會母見寵於繇，繇為之出其夫人。卞太后以為言，文帝詔繇復之。繇恚憤，將引鴆，弗獲，餐椒致噤，帝乃止。
+- id: wei.28.p46.h2
+  anchor: wei.28.p46
+  at: 28
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: wei.28.p47.a1
   anchor: wei.28.p47
   at: 18
   length: 0
   type: pei
   text: 《世語》曰：司馬景王命中書令虞松作表，再呈輒不可意，命松更定。以經時，松思竭不能改，心苦之，形於顏色。會察其有憂，問松，松以實答。會取視，為定五字。松悅服，以呈景王，王曰：「不當爾邪，誰所定也？」松曰：「鍾會。向亦欲啟之，會公見問，不敢饕其能。」王曰：「如此，可大用，可令來。」會問松王所能，松曰：「博學明識，無所不貫。」會乃絕賓客，精思十日，平旦入見，至鼓二乃出。出後，王獨拊手嘆息曰：「此真王佐材也！」松字叔茂，陳留人，九江太守邊讓外孫。松弱冠有才，從司馬宣王征遼東，宣王命作檄，及破賊，作露布。松從還，宣王辟為掾，時年二十四，遷中書郎，遂至太守。松子濬，字顯弘，晉廷尉。臣松之以為鍾會名公之子，聲譽夙著，弱冠登朝，已歷顯位，景王為相，何容不悉，而方於定虞松表然後乃蒙接引乎？設使先不相識，但見五字而便知可大用，雖聖人其猶病諸，而況景王哉？
+- id: wei.28.p48.h1
+  anchor: wei.28.p48
+  at: 0
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.28.p48.h2
+  anchor: wei.28.p48
+  at: 63
+  length: 2
+  type: person
+  person_id: fugu
+  text: 傅嘏
+  via: primary
+- id: wei.28.p48.h3
+  anchor: wei.28.p48
+  at: 72
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.28.p49.t1
   anchor: wei.28.p49
   at: 0
@@ -483,12 +1141,60 @@ annotations:
   era: 甘露
   era_year: 2
   reasoning: 原文「甘露二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
+- id: wei.28.p49.h1
+  anchor: wei.28.p49
+  at: 6
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.28.p49.a1
   anchor: wei.28.p49
   at: 45
   length: 0
   type: pei
   text: 會時遭所生母喪。其母傳曰：「夫人性矜嚴，明於教訓，會雖童稚，勤見規誨。年四歲授《孝經》，七歲誦《論語》，八歲誦《詩》，十歲誦《尚書》，十一誦《易》，十二誦《春秋左氏傳》、《國語》，十三誦《周禮》、《禮記》，十四誦《成侯易記》，十五使入太學問四方奇文異訓。謂會曰：『學猥則倦，倦則意怠；吾懼汝之意怠，故以漸訓汝，今可以獨學矣。』雅好書籍，涉曆書，特好易、老子，每讀易孔子說鳴鶴在陰、勞謙君子、籍用白茅、不出戶庭之義，每使會反覆讀之，曰：『易三百餘爻，仲尼特說此者，以謙恭慎密，樞機之發，行己至要，榮身所由故也，順斯術已往，足為君子矣。』正始八年，會為尚書郎，夫人執會手而誨之曰：『汝弱冠見敘，人情不能不自足，則損在其中矣，勉思其戒！』是時大將軍曹爽專朝政，日縱酒沉醉，會兄侍中毓宴還，言其事。夫人曰：『樂則樂矣，然難久也。居不驕，制節謹度，然後乃無危溢之患。今奢僭若此，非長守富貴之道。』嘉平元年，車駕朝高平陵，會為中書郎，從行。相國宣文侯始舉兵，眾人恐懼，而夫人自若。中書令劉放、侍郎衛瓘、夏侯和等家皆怪問：『夫人一子在危難之中，何能無憂？』答曰：『大將軍奢僭無度，吾常疑其不安。太傅義不危國，必為大將軍舉耳。吾兒在帝側何憂？聞且出兵無他重器，其勢必不久戰。』果如其言，一時稱明。會歷機密十餘年，頗豫政謀。夫人謂曰：『昔范氏少子為趙簡子設伐邾之計，事從民悅，可謂功矣。然其母以為乘偽作詐，末業鄙事，必不能久。其識本深遠，非近人所言，吾常樂其為人。汝居心正，吾知免矣。但當脩所志以輔益時化，不忝先人耳。常言人誰能皆體自然，但力行不倦，抑亦其次。雖接鄙賤，必以言信。取與之間，分畫分明。』或：『此無乃小乎？』答曰：『君子之行，皆積小以致高大，若以小善為無益而弗為，此乃小人之事耳。希通慕大者，吾所不好。』會自幼少，衣不過青紺，親營家事，自知恭儉。然見得思義，臨財必讓。會前後賜錢帛數百萬計，悉送供公家之用，一無所取。年五十有九，甘露二年二月暴疾薨。比葬，天子有手詔，命大將軍高都侯厚加賵贈，喪事無鉅細，一皆供給。議者以為公侯有夫人，有世婦，有妻，有妾，所謂外命婦也。依春秋成風、定姒之義，宜崇典禮，不得總稱妾名，於是稱成侯命婦。殯葬之事，有取於古制，禮也。」
+- id: wei.28.p50.h1
+  anchor: wei.28.p50
+  at: 5
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wei.28.p50.h2
+  anchor: wei.28.p50
+  at: 8
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.28.p50.h3
+  anchor: wei.28.p50
+  at: 21
+  length: 2
+  type: person
+  person_id: sunjing
+  text: 孫靜
+  via: primary
+- id: wei.28.p50.h4
+  anchor: wei.28.p50
+  at: 210
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.28.p51.h1
+  anchor: wei.28.p51
+  at: 6
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p51.t1
   anchor: wei.28.p51
   at: 52
@@ -513,12 +1219,200 @@ annotations:
   era: 景元
   era_year: 4
   reasoning: 承前文年號「景元」推得，「四年」 = 景元4年 = AD 263
+- id: wei.28.p51.h2
+  anchor: wei.28.p51
+  at: 123
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p51.h3
+  anchor: wei.28.p51
+  at: 210
+  length: 2
+  type: person
+  person_id: xuchu
+  text: 許褚
+  via: primary
+- id: wei.28.p51.h4
+  anchor: wei.28.p51
+  at: 337
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wei.28.p51.h5
+  anchor: wei.28.p51
+  at: 363
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p51.h6
+  anchor: wei.28.p51
+  at: 400
+  length: 2
+  type: person
+  person_id: zhangyi_3
+  text: 張翼
+  via: primary
+- id: wei.28.p51.h7
+  anchor: wei.28.p51
+  at: 403
+  length: 2
+  type: person
+  person_id: liaohua
+  text: 廖化
+  via: primary
+- id: wei.28.p52.h1
+  anchor: wei.28.p52
+  at: 22
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.28.p52.h2
+  anchor: wei.28.p52
+  at: 24
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- id: wei.28.p52.h3
+  anchor: wei.28.p52
+  at: 47
+  length: 2
+  type: person
+  person_id: caopi
+  text: 高祖
+  via: chapter_alias
+- id: wei.28.p52.h4
+  anchor: wei.28.p52
+  at: 49
+  length: 3
+  type: person
+  person_id: caopi
+  text: 文皇帝
+  via: chapter_alias
+- id: wei.28.p52.h5
+  anchor: wei.28.p52
+  at: 62
+  length: 2
+  type: person
+  person_id: caorui
+  text: 烈祖
+  via: chapter_alias
+- id: wei.28.p52.h6
+  anchor: wei.28.p52
+  at: 64
+  length: 3
+  type: person
+  person_id: caorui
+  text: 明皇帝
+  via: chapter_alias
+- anchor: wei.28.p52
+  at: 109
+  length: 2
+  type: person
+  person_id: caohuan
+  text: 主上
+  via: llm
+  confidence: 0.8
+  reasoning: 鍾會檄文「今主上聖德欽明」，景元四年（263）伐蜀時主上即魏陳留王曹奐。
+  id: wei.28.p52.h7
+- id: wei.28.p53.h1
+  anchor: wei.28.p53
+  at: 31
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.28.p53.h2
+  anchor: wei.28.p53
+  at: 53
+  length: 4
+  type: person
+  person_id: zhugeliang
+  text: 諸葛孔明
+  via: alias
+- id: wei.28.p55.h1
+  anchor: wei.28.p55
+  at: 0
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p55.h2
+  anchor: wei.28.p55
+  at: 3
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p55.h3
+  anchor: wei.28.p55
+  at: 48
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p55.a1
   anchor: wei.28.p55
   at: 144
   length: 0
   type: pei
   text: 按《百官名》：緒入晉為太常崇禮衛尉。子衝，廷尉。荀綽《兗州記》曰：衝子詮，字德林，玫字仁林，並知名顯達。詮，兗州刺史。玫，侍中御史中丞。
+- id: wei.28.p55.h4
+  anchor: wei.28.p55
+  at: 218
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
+- id: wei.28.p56.h1
+  anchor: wei.28.p56
+  at: 1
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p56.h2
+  anchor: wei.28.p56
+  at: 4
+  length: 2
+  type: person
+  person_id: zhangyi_3
+  text: 張翼
+  via: primary
+- id: wei.28.p56.h3
+  anchor: wei.28.p56
+  at: 7
+  length: 2
+  type: person
+  person_id: liaohua
+  text: 廖化
+  via: primary
+- anchor: wei.28.p56
+  at: 295
+  length: 2
+  type: person
+  person_id: caohuan
+  text: 陛下
+  via: llm
+  confidence: 0.85
+  reasoning: 鍾會等表上表景元中對曹奐稱「陛下」。
+  id: wei.28.p56.h4
 - id: wei.28.p57.a1
   anchor: wei.28.p57
   at: 31
@@ -539,12 +1433,52 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 景元4年 (AD 263)，月份「十二月」
+- id: wei.28.p58.h1
+  anchor: wei.28.p58
+  at: 7
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.28.p58.a1
   anchor: wei.28.p58
   at: 21
   length: 0
   type: pei
   text: 《世語》曰：會善效人書，於劍閣要艾章表白事，皆易其言，令辭指悖傲，多自矜伐。又毀文王報書，手作以疑之也。
+- id: wei.28.p58.h2
+  anchor: wei.28.p58
+  at: 136
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p58.h3
+  anchor: wei.28.p58
+  at: 212
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p58.h4
+  anchor: wei.28.p58
+  at: 270
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p58.h5
+  anchor: wei.28.p58
+  at: 317
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
 - id: wei.28.p58.a2
   anchor: wei.28.p58
   at: 547
@@ -557,6 +1491,22 @@ annotations:
   length: 0
   type: pei
   text: 苦洽反。
+- id: wei.28.p59.h1
+  anchor: wei.28.p59
+  at: 44
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.28.p59.h2
+  anchor: wei.28.p59
+  at: 172
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.28.p59.a1
   anchor: wei.28.p59
   at: 211
@@ -575,6 +1525,54 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：文王嘉其忠亮，笑答毓曰：「若如卿言，必不以及宗矣。」
+- id: wei.28.p61.h1
+  anchor: wei.28.p61
+  at: 22
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p62.h1
+  anchor: wei.28.p62
+  at: 69
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p63.h1
+  anchor: wei.28.p63
+  at: 3
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p63.h2
+  anchor: wei.28.p63
+  at: 18
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p63.h3
+  anchor: wei.28.p63
+  at: 27
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p63.h4
+  anchor: wei.28.p63
+  at: 113
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.28.p63.a1
   anchor: wei.28.p63
   at: 172
@@ -587,6 +1585,54 @@ annotations:
   length: 0
   type: pei
   text: 弼字輔嗣。何劭為其傳曰：弼幼而察慧，年十餘，好老氏，通辯能言。父業，為尚書郎。時裴徽為吏部郎，弼未弱冠，往造焉。徽一見而異之，問弼曰：「夫無者誠萬物之所資也，然聖人莫肯致言，而老子申之無已者何？」弼曰：「聖人體無，無又不可以訓，故不說也。老子是有者也，故恆言無所不足。」尋亦為傅嘏所知。於時何晏為吏部尚書，甚奇弼，嘆之曰：「仲尼稱後生可畏，若斯人者，可與言天人之際乎！」正始中，黃門侍郎累缺。晏既用賈充、裴秀、朱整，又議用弼。時丁謐與晏爭衡，致高邑王黎於曹爽，爽用黎。於是以弼補臺郎。初除，覲爽，請間，爽為屏左右，而弼與論道，移時無所他及，爽以此嗤之。時爽專朝政，黨與共相進用，弼通俊不治名高。尋黎無幾時病亡，爽用王沈代黎，弼遂不得在門下，晏為之嘆恨。弼在臺既淺，事功亦雅非所長，益不留意焉。淮南人劉陶善論縱橫，為當時所推。每與弼語，常屈弼。弼天才卓出，當其所得，莫能奪也。性和理，樂遊宴，解音律，善投壺。其論道傅會文辭，不如何晏，自然有所拔得，多晏也，頗以所長笑人，故時為士君子所疾。弼與鍾會善，會論議以校練為家，然每服弼之高致。何晏以為聖人無喜怒哀樂，其論甚精，鍾會等述之。弼與不同，以為聖人茂於人者神明也，同於人者五情也，神明茂故能體沖和以通無，五情同故不能無哀樂以應物，然則聖人之情，應物而無累於物者也。今以其無累，便謂不復應物，失之多矣。弼注易，潁川人荀融難弼大衍義。弼答其意，白書以戲之曰：「夫明足以尋極幽微，而不能去自然之性。顏子之量，孔父之所預在，然遇之不能無樂，喪之不能無哀。又常狹斯人，以為未能以情從理者也，而今乃知自然之不可革。足下之量，雖已定乎胸懷之內，然而隔逾旬朔，何其相思之多乎？故知尼父之於顏子，可以無大過矣。」弼注《老子》，為之指略，致有理統。著道略論，注《易》，往往有高麗言。太原王濟好談，病老、莊，常云：「見弼《易》注，所悟者多。」然弼為人淺而不識物情，初與王黎、荀融善，黎奪其黃門郎，於是恨黎，與融亦不終。正始十年，曹爽廢，以公事免。其秋遇癘疾亡，時年二十四，無子絕嗣。弼之卒也，晉景王聞之，嗟嘆者累日，其為高識所惜如此。孫盛曰：易之為書，窮神知化，非天下之至精，其孰能與於此？世之註解，殆皆妄也。況弼以傅會之辨而欲籠統玄旨者乎？故其敘浮義則麗辭溢目，造陰陽則妙頤無聞，至於六爻變化，群象所效，日時歲月，五氣相推，弼皆擯落，多所不關。雖有可觀者焉，恐將泥夫大道。《博物記》曰：初，王粲與族兄凱俱避地荊州，劉表欲以女妻粲，而嫌其形陋而用率，以凱有風貌，乃以妻凱。凱生業，業即劉表外孫也。蔡邕有書近萬卷，末年載數車與粲，粲亡後，相國掾魏諷謀反，粲子與焉，既被誅，邕所與書悉入業。業字長緒，位至謁者僕射。子宏字正宗，司隸校尉。宏，弼之兄也。《魏氏春秋》曰：文帝既誅粲二子，以業嗣粲。
+- id: wei.28.p66.h1
+  anchor: wei.28.p66
+  at: 3
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.28.p66.h2
+  anchor: wei.28.p66
+  at: 10
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.28.p66.h3
+  anchor: wei.28.p66
+  at: 18
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.28.p66.h4
+  anchor: wei.28.p66
+  at: 26
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.28.p66.h5
+  anchor: wei.28.p66
+  at: 71
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.28.p66.h6
+  anchor: wei.28.p66
+  at: 98
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
 - id: wei.28.p66.a1
   anchor: wei.28.p66
   at: 119

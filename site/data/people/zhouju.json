@@ -1,0 +1,60 @@
+{
+  "id": "zhouju",
+  "primary_name": "周舉",
+  "courtesy_name": "宣光",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.61",
+      "title": "左周黃列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/61.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.57",
+        "chapter_title": "杜欒劉李劉謝列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.57.p8",
+        "at": 26,
+        "data_url": "data/houhanshu/hhs/57.json",
+        "matched": "周舉",
+        "snippet": "…州刺史李固薦巴治多，征拜議郎，守光祿大夫，與杜喬、周舉等八人徇行州郡。"
+      },
+      {
+        "chapter_id": "hhs.63",
+        "chapter_title": "李杜列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.63.p49",
+        "at": 7,
+        "data_url": "data/houhanshu/hhs/63.json",
+        "matched": "周舉",
+        "snippet": "[四]光祿大夫周舉，才謨高正，宜在常伯，訪以言議。侍中杜喬，學深行直，當世良臣，久托疾病，可□令起。」又薦陳留楊倫、[五]河南尹存、東平王惲、陳…"
+      },
+      {
+        "chapter_id": "hhs.63",
+        "chapter_title": "李杜列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.63.p55",
+        "at": 2,
+        "data_url": "data/houhanshu/hhs/63.json",
+        "matched": "周舉",
+        "snippet": "先是周舉等八使案察天下，多所劾奏，其中並是宦者親屬，輒為請乞，詔遂令勿考。又舊任三府選令史，光祿試尚書郎，時皆特拜，不復選試。固乃與廷…"
+      }
+    ]
+  },
+  "n_mentions": 3
+}

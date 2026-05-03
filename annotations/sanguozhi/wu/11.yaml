@@ -2,11 +2,51 @@ chapter: wu.11
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷56
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: da0a6e1c927c5960e3c11c66fda1e8982391fcaf8a6c177726ef3aed74c3179f
 parse_warnings:
 - 'source has unbalanced brackets: 1 stray ''〈'', 0 stray ''〉'' — treating them as literal text'
 annotations:
+- id: wu.11.p1.h1
+  anchor: wu.11.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: zhuzhi
+  text: 朱治
+  via: primary
+- id: wu.11.p1.h2
+  anchor: wu.11.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.11.p1.h3
+  anchor: wu.11.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: zhuhuan
+  text: 朱桓
+  via: primary
+- id: wu.11.p2.h1
+  anchor: wu.11.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: zhuzhi
+  text: 朱治
+  via: primary
+- id: wu.11.p2.h2
+  anchor: wu.11.p2
+  at: 29
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
 - id: wu.11.p2.t1
   anchor: wu.11.p2
   at: 34
@@ -19,6 +59,70 @@ annotations:
   era: 中平
   era_year: 5
   reasoning: 原文「中平五年」直接出现年号；解析為 AD 188
+- id: wu.11.p2.h3
+  anchor: wu.11.p2
+  at: 65
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: wu.11.p2.h4
+  anchor: wu.11.p2
+  at: 74
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wu.11.p2.h5
+  anchor: wu.11.p2
+  at: 102
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wu.11.p2.h6
+  anchor: wu.11.p2
+  at: 109
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: wu.11.p2.h7
+  anchor: wu.11.p2
+  at: 119
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wu.11.p2.h8
+  anchor: wu.11.p2
+  at: 124
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.11.p2.h9
+  anchor: wu.11.p2
+  at: 171
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.11.p2.h10
+  anchor: wu.11.p2
+  at: 305
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
 - id: wu.11.p3.t1
   anchor: wu.11.p3
   at: 0
@@ -79,6 +183,14 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：才字君業，為人精敏，善騎射，權愛異之，常侍從遊戲。少以父任為武衛校尉，領兵隨從征伐，屢有功捷。本郡議者以才少處榮貴，未留意於鄉黨，才乃嘆曰：「我初為將，謂跨馬蹈敵，當身履鋒，足以揚名，不知鄉黨復追跡其舉措乎！」於是更折節為恭，留意於賓客，輕財尚義，施不望報，又學兵法，名聲始聞於遠近。會疾卒。
+- id: wu.11.p7.h1
+  anchor: wu.11.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
 - id: wu.11.p8.a1
   anchor: wu.11.p8
   at: 63
@@ -97,6 +209,62 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）
+- id: wu.11.p8.h1
+  anchor: wu.11.p8
+  at: 113
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wu.11.p8.h2
+  anchor: wu.11.p8
+  at: 118
+  length: 2
+  type: person
+  person_id: panzhang
+  text: 潘璋
+  via: primary
+- id: wu.11.p8.h3
+  anchor: wu.11.p8
+  at: 124
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wu.11.p9.h1
+  anchor: wu.11.p9
+  at: 4
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: wu.11.p9.h2
+  anchor: wu.11.p9
+  at: 25
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
+- id: wu.11.p9.h3
+  anchor: wu.11.p9
+  at: 30
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.11.p9.h4
+  anchor: wu.11.p9
+  at: 44
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name
 - id: wu.11.p9.t1
   anchor: wu.11.p9
   at: 56
@@ -109,6 +277,86 @@ annotations:
   era: 黃武
   era_year: 1
   reasoning: 原文「黃武元年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
+- id: wu.11.p9.h5
+  anchor: wu.11.p9
+  at: 61
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.11.p9.h6
+  anchor: wu.11.p9
+  at: 75
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.11.p9.h7
+  anchor: wu.11.p9
+  at: 80
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.11.p9.h8
+  anchor: wu.11.p9
+  at: 86
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.11.p9.h9
+  anchor: wu.11.p9
+  at: 95
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.11.p10.h1
+  anchor: wu.11.p10
+  at: 2
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: wu.11.p10.h2
+  anchor: wu.11.p10
+  at: 5
+  length: 3
+  type: person
+  person_id: xiahoushang
+  text: 夏侯尚
+  via: primary
+- id: wu.11.p10.h3
+  anchor: wu.11.p10
+  at: 9
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: wu.11.p10.h4
+  anchor: wu.11.p10
+  at: 42
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: wu.11.p10.h5
+  anchor: wu.11.p10
+  at: 86
+  length: 2
+  type: person
+  person_id: panzhang
+  text: 潘璋
+  via: primary
 - id: wu.11.p10.t1
   anchor: wu.11.p10
   at: 168
@@ -123,6 +371,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 黃武3年 (AD 224)，月份「六月」
+- id: wu.11.p10.h6
+  anchor: wu.11.p10
+  at: 182
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wu.11.p11.t1
   anchor: wu.11.p11
   at: 0
@@ -135,6 +391,14 @@ annotations:
   era: 黃武
   era_year: 6
   reasoning: 承前文年號「黃武」推得，「六年」 = 黃武6年 = AD 227
+- id: wu.11.p11.h1
+  anchor: wu.11.p11
+  at: 16
+  length: 2
+  type: person
+  person_id: panzhang
+  text: 潘璋
+  via: primary
 - id: wu.11.p11.t2
   anchor: wu.11.p11
   at: 56
@@ -159,6 +423,22 @@ annotations:
   era: 嘉禾
   era_year: 3
   reasoning: 原文「嘉禾三年」直接出现年号；解析為 AD 234
+- id: wu.11.p11.h2
+  anchor: wu.11.p11
+  at: 111
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.11.p11.h3
+  anchor: wu.11.p11
+  at: 113
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wu.11.p12.t1
   anchor: wu.11.p12
   at: 0
@@ -177,12 +457,78 @@ annotations:
   length: 0
   type: pei
   text: 《襄陽記》曰：柤音如租稅之租。柤中在上黃界，去襄陽一百五十里。魏時夷王梅敷兄弟三人，部曲萬餘家屯此，分布在中廬宜城西山鄢、沔二谷中，土地平敞，宜桑麻，有水陸良田，沔南之膏腴沃壤，謂之柤中。
+- id: wu.11.p12.h1
+  anchor: wu.11.p12
+  at: 14
+  length: 2
+  type: person
+  person_id: huzhi
+  text: 胡質
+  via: primary
 - id: wu.11.p12.a2
   anchor: wu.11.p12
   at: 79
   length: 0
   type: pei
   text: 孫氏異同評曰：〔魏書〕及《江表傳》云，然以景初元年、正始二年再出為寇，所破胡質、蒲忠在景初元年。魏志承魏書，依違不說質等為然所破，而直云然退耳。吳志說赤烏五年，於魏為正始三年，魏將蒲忠與朱然戰，忠不利，質等皆退。按魏少帝紀及孫權傳，是歲並無事，當是陳壽誤以吳嘉禾六年為赤烏五年耳。
+- id: wu.11.p12.h2
+  anchor: wu.11.p12
+  at: 161
+  length: 1
+  type: person
+  person_id: lvmeng
+  text: 蒙
+  via: given_name_carry
+- anchor: wu.11.p12
+  at: 193
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 赤烏九年朱然臨行上疏對孫權稱「陛下」（吳大帝赤烏年間）。
+  id: wu.11.p12.h3
+- id: wu.11.p13.h1
+  anchor: wu.11.p13
+  at: 83
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: wu.11.p13.h2
+  anchor: wu.11.p13
+  at: 91
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: wu.11.p13.h3
+  anchor: wu.11.p13
+  at: 97
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.11.p13.h4
+  anchor: wu.11.p13
+  at: 118
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.11.p13.h5
+  anchor: wu.11.p13
+  at: 216
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
 - id: wu.11.p13.t1
   anchor: wu.11.p13
   at: 234
@@ -207,6 +553,14 @@ annotations:
   era: 赤烏
   era_year: 13
   reasoning: 「明年」 = 当前年 赤烏12年 (AD 249) 之次年 = AD 250
+- id: wu.11.p15.h1
+  anchor: wu.11.p15
+  at: 8
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wu.11.p15.t2
   anchor: wu.11.p15
   at: 178
@@ -243,6 +597,14 @@ annotations:
   era: 太平
   era_year: 2
   reasoning: 原文「太平二年」直接出现年号；解析為 AD 257
+- id: wu.11.p16.h1
+  anchor: wu.11.p16
+  at: 54
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wu.11.p16.t3
   anchor: wu.11.p16
   at: 177
@@ -255,24 +617,248 @@ annotations:
   era: 建衡
   era_year: 2
   reasoning: 原文「建衡二年」直接出现年号；解析為 AD 270
+- id: wu.11.p17.h1
+  anchor: wu.11.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: lvfan
+  text: 呂範
+  via: primary
+- id: wu.11.p17.h2
+  anchor: wu.11.p17
+  at: 75
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.11.p17.h3
+  anchor: wu.11.p17
+  at: 94
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.11.p17.h4
+  anchor: wu.11.p17
+  at: 103
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.11.p17.h5
+  anchor: wu.11.p17
+  at: 112
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wu.11.p17.h6
+  anchor: wu.11.p17
+  at: 146
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.11.p17.h7
+  anchor: wu.11.p17
+  at: 158
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.11.p17.h8
+  anchor: wu.11.p17
+  at: 178
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.11.p17.h9
+  anchor: wu.11.p17
+  at: 216
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.11.p17.a1
   anchor: wu.11.p17
   at: 263
   length: 0
   type: pei
   text: 《江表傳》曰：策從容獨與範釭，範曰：「今將軍事業日大，士眾日盛，範在遠，聞綱紀猶有不整者，範原蹔領都督，佐將軍部分之。」策曰：「子衡，卿既士大夫，加手下已有大眾，立功於外，豈宜復屈小職，知軍中細碎事乎！」範曰：「不然。今舍本土而託將軍者，非為妻子也，欲濟世務。猶同舟涉海，一事不牢，即俱受其敗。此亦範計，非但將軍也。」策笑，無以答。範出，更釋褠，著袴褶，執鞭，詣閤下啟事，自稱領都督，策乃授傳，委以眾事。由是軍中肅睦，威禁大行。
+- id: wu.11.p18.h1
+  anchor: wu.11.p18
+  at: 26
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.11.p18.a1
   anchor: wu.11.p18
   at: 51
   length: 0
   type: pei
   text: 《九州春秋》曰：初平三年，揚州刺史陳禕死，袁術使瑀領揚州牧。後術為曹公所敗於封丘，南人叛瑀，瑀拒之。術走陰陵，好辭以下瑀，瑀不知權，而又怯，不即攻術。術於淮北集兵向壽春。瑀懼，使其弟公琰請和於術。術執之而進，瑀走歸下邳。
+- id: wu.11.p18.h2
+  anchor: wu.11.p18
+  at: 60
+  length: 3
+  type: person
+  person_id: taishici
+  text: 太史慈
+  via: primary
+- id: wu.11.p18.h3
+  anchor: wu.11.p18
+  at: 88
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.11.p18.h4
+  anchor: wu.11.p18
+  at: 105
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
+- id: wu.11.p18.h5
+  anchor: wu.11.p18
+  at: 117
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: wu.11.p18.h6
+  anchor: wu.11.p18
+  at: 149
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.11.p18.h7
+  anchor: wu.11.p18
+  at: 160
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wu.11.p19.h1
+  anchor: wu.11.p19
+  at: 2
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wu.11.p19.h2
+  anchor: wu.11.p19
+  at: 40
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wu.11.p19.h3
+  anchor: wu.11.p19
+  at: 91
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wu.11.p19.h4
+  anchor: wu.11.p19
+  at: 94
+  length: 2
+  type: person
+  person_id: zhangliao
+  text: 張遼
+  via: primary
+- id: wu.11.p19.h5
+  anchor: wu.11.p19
+  at: 97
+  length: 2
+  type: person
+  person_id: zangba
+  text: 臧霸
+  via: primary
+- id: wu.11.p19.h6
+  anchor: wu.11.p19
+  at: 105
+  length: 2
+  type: person
+  person_id: xusheng
+  text: 徐盛
+  via: primary
+- id: wu.11.p19.h7
+  anchor: wu.11.p19
+  at: 108
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.11.p19.h8
+  anchor: wu.11.p19
+  at: 111
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
+- id: wu.11.p20.h1
+  anchor: wu.11.p20
+  at: 8
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.11.p20.h2
+  anchor: wu.11.p20
+  at: 11
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
 - id: wu.11.p20.a1
   anchor: wu.11.p20
   at: 57
   length: 0
   type: pei
   text: 《江表傳》曰：人有白範與賀齊奢麗夸綺，服飾僭擬王者，權曰：「昔管仲逾禮，桓公優而容之，無損於霸。今子衡、公苗，身無夷吾之失，但其器械精好，舟車嚴整耳，此適足作軍容，何損於治哉？」告者乃不敢復言。
+- id: wu.11.p20.h3
+  anchor: wu.11.p20
+  at: 58
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.11.p20.h4
+  anchor: wu.11.p20
+  at: 104
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.11.p21.t1
   anchor: wu.11.p21
   at: 0
@@ -291,6 +877,14 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：初，權移都建業，大會將相文武，時謂嚴畯曰：「孤昔嘆魯子敬比鄧禹，呂子衡方吳漢，間卿諸人未平此論，今定云何？」畯退席曰：「臣未解指趣，謂肅、範受饒，褒嘆過實。」權曰：「昔鄧仲華初見光武，光武時受更始使，撫河北，行大司馬事耳，未有帝王志也。禹勸之以復漢業，是禹開初議之端矣。子敬英爽有殊略，孤始與一語，便及大計，與禹相似，故比之。呂子衡忠篤亮直，性雖好奢，然以憂公為先，不足為損，避袁術自歸於兄，兄作大將，別領部曲，故憂兄事，乞為都督，辦護脩整，加之恪勤，與吳漢相類，故方之。皆有指趣，非孤私之也。」畯乃服。
+- id: wu.11.p22.h1
+  anchor: wu.11.p22
+  at: 66
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
 - id: wu.11.p22.t1
   anchor: wu.11.p22
   at: 100
@@ -303,6 +897,34 @@ annotations:
   era: 太元
   era_year: 1
   reasoning: 原文「太元元年」直接出现年号；解析為 AD 251（回溯前事，不推進章節時間軸）
+- id: wu.11.p22.h2
+  anchor: wu.11.p22
+  at: 132
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- anchor: wu.11.p22
+  at: 152
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「以據為太子右部督」— 太元元年（251）權寢疾，所立太子為孫亮。
+  id: wu.11.p22.h6
+- anchor: wu.11.p22
+  at: 158
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子即位」— 神鳳元年（252）孫亮即位，承前句仍指孫亮。
+  id: wu.11.p22.h7
 - id: wu.11.p22.t2
   anchor: wu.11.p22
   at: 179
@@ -315,6 +937,22 @@ annotations:
   era: 建衡
   era_year: 3
   reasoning: 「明年」 = 当前年 建衡2年 (AD 270) 之次年 = AD 271
+- id: wu.11.p22.h3
+  anchor: wu.11.p22
+  at: 182
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.11.p22.h4
+  anchor: wu.11.p22
+  at: 185
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
 - id: wu.11.p22.t3
   anchor: wu.11.p22
   at: 202
@@ -339,6 +977,38 @@ annotations:
   era: 太平
   era_year: 1
   reasoning: 原文「太平元年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）
+- id: wu.11.p22.h5
+  anchor: wu.11.p22
+  at: 245
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.11.p23.h1
+  anchor: wu.11.p23
+  at: 0
+  length: 2
+  type: person
+  person_id: zhuhuan
+  text: 朱桓
+  via: primary
+- id: wu.11.p23.h2
+  anchor: wu.11.p23
+  at: 12
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.11.p23.h3
+  anchor: wu.11.p23
+  at: 153
+  length: 2
+  type: person
+  person_id: zhoutai
+  text: 周泰
+  via: primary
 - id: wu.11.p24.t1
   anchor: wu.11.p24
   at: 0
@@ -351,6 +1021,38 @@ annotations:
   era: 黃武
   era_year: 1
   reasoning: 原文「黃武元年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
+- id: wu.11.p24.h1
+  anchor: wu.11.p24
+  at: 10
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: wu.11.p24.h2
+  anchor: wu.11.p24
+  at: 130
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: wu.11.p24.h3
+  anchor: wu.11.p24
+  at: 243
+  length: 2
+  type: person
+  person_id: caopi
+  text: 曹丕
+  via: primary
+- id: wu.11.p24.h4
+  anchor: wu.11.p24
+  at: 385
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.11.p25.t1
   anchor: wu.11.p25
   at: 0
@@ -363,6 +1065,62 @@ annotations:
   era: 黃武
   era_year: 7
   reasoning: 原文「黃武七年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- id: wu.11.p25.h1
+  anchor: wu.11.p25
+  at: 9
+  length: 2
+  type: person
+  person_id: zhoufang
+  text: 周魴
+  via: primary
+- id: wu.11.p25.h2
+  anchor: wu.11.p25
+  at: 17
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wu.11.p25.h3
+  anchor: wu.11.p25
+  at: 34
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.11.p25.h4
+  anchor: wu.11.p25
+  at: 40
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.11.p25.h5
+  anchor: wu.11.p25
+  at: 197
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.11.p25.h6
+  anchor: wu.11.p25
+  at: 200
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.11.p25.h7
+  anchor: wu.11.p25
+  at: 204
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
 - id: wu.11.p26.t1
   anchor: wu.11.p26
   at: 0
@@ -387,12 +1145,86 @@ annotations:
   era: 嘉禾
   era_year: 6
   reasoning: 原文「嘉禾六年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）
+- id: wu.11.p26.h1
+  anchor: wu.11.p26
+  at: 48
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.11.p26.h2
+  anchor: wu.11.p26
+  at: 112
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: wu.11.p26.h3
+  anchor: wu.11.p26
+  at: 152
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.11.p26.h4
+  anchor: wu.11.p26
+  at: 157
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.11.p26.h5
+  anchor: wu.11.p26
+  at: 163
+  length: 2
+  type: person
+  person_id: huzong
+  text: 胡綜
+  via: primary
+- id: wu.11.p26.h6
+  anchor: wu.11.p26
+  at: 235
+  length: 2
+  type: person
+  person_id: huzong
+  text: 胡綜
+  via: primary
+- id: wu.11.p27.h1
+  anchor: wu.11.p27
+  at: 40
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.11.p27.a1
   anchor: wu.11.p27
   at: 50
   length: 0
   type: pei
   text: 孙盛曰：书云臣无作威作福，作威作福，则凶于而家，害于而国。桓之贼忍，殆虎狼也，人君且犹不可，况将相乎？语曰，得一夫而失一国，纵罪亏刑，失孰大焉！
+- id: wu.11.p27.h2
+  anchor: wu.11.p27
+  at: 71
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.11.p27
+  at: 132
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 朱桓對權奏對「天授陛下聖姿」即吳大帝孫權。
+  id: wu.11.p27.h3
 - id: wu.11.p27.a2
   anchor: wu.11.p27
   at: 160
@@ -411,6 +1243,14 @@ annotations:
   era: 赤烏
   era_year: 1
   reasoning: 原文「赤烏元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
+- id: wu.11.p28.h1
+  anchor: wu.11.p28
+  at: 119
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.11.p29.a1
   anchor: wu.11.p29
   at: 11
@@ -429,6 +1269,38 @@ annotations:
   era: 赤烏
   era_year: 4
   reasoning: 原文「赤烏四年」直接出现年号；解析為 AD 241（回溯前事，不推進章節時間軸）
+- id: wu.11.p29.h1
+  anchor: wu.11.p29
+  at: 28
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.11.p29.h2
+  anchor: wu.11.p29
+  at: 109
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.11.p29.h3
+  anchor: wu.11.p29
+  at: 120
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.11.p29.h4
+  anchor: wu.11.p29
+  at: 183
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.11.p29.t2
   anchor: wu.11.p29
   at: 254
@@ -471,9 +1343,49 @@ annotations:
   era: 太平
   era_year: 2
   reasoning: 原文「太平二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
+- id: wu.11.p29.h5
+  anchor: wu.11.p29
+  at: 321
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wu.11.p29.a3
   anchor: wu.11.p29
   at: 327
   length: 0
   type: pei
   text: 《吳書》曰：綝要異相見，將往，恐陸抗止之，異曰：「子通，家人耳，當何所疑乎！」遂往。綝使力人於坐上取之。異曰：「我吳國忠臣，有何罪乎？」乃拉殺之。
+- id: wu.11.p30.h1
+  anchor: wu.11.p30
+  at: 3
+  length: 2
+  type: person
+  person_id: zhuzhi
+  text: 朱治
+  via: primary
+- id: wu.11.p30.h2
+  anchor: wu.11.p30
+  at: 6
+  length: 2
+  type: person
+  person_id: lvfan
+  text: 呂範
+  via: primary
+- id: wu.11.p30.h3
+  anchor: wu.11.p30
+  at: 14
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.11.p30.h4
+  anchor: wu.11.p30
+  at: 17
+  length: 2
+  type: person
+  person_id: zhuhuan
+  text: 朱桓
+  via: primary

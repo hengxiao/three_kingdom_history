@@ -1,0 +1,61 @@
+{
+  "id": "basu",
+  "primary_name": "巴肅",
+  "courtesy_name": "恭祖",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p14",
+        "at": 2697,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "巴肅",
+        "snippet": "…下嘗為蕃、武所舉者及門生故吏，皆免官禁錮。議郎勃海巴肅，始與武等同謀，曹節等不知，但坐禁錮，後乃知而收之。肅自載詣縣，縣令見肅，入閣，解印綬，欲與俱去。肅曰：「為人臣者，有謀不敢隱…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 113,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "巴肅",
+        "snippet": "…、朱㝢為八俊，俊者，言人之英也；郭泰、范滂、尹勳、巴肅及南陽宗慈、陳留夏馥、汝南蔡衍、泰山羊陟為八顧，顧者，言能以德行引人者也；張儉、翟超、岑晊、苑康及山陽劉表、汝南陳翔、魯國孔昱…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p25",
+        "at": 44,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "巴肅",
+        "snippet": "…放、太僕杜密、長樂少府李膺、司隷校尉朱瑀、潁川太守巴肅、沛相荀翌、河內太守魏朗、山陽太守翟超皆爲鉤黨，下獄，死者百餘人，妻子徙邊，諸附從者錮及五屬。制詔州郡大舉鉤黨，於是天下豪桀及…"
+      }
+    ]
+  },
+  "n_mentions": 3
+}

@@ -1,0 +1,50 @@
+{
+  "id": "lumao",
+  "primary_name": "陸瑁",
+  "courtesy_name": "子璋",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.12",
+      "title": "吳書·虞陆张骆陆吾朱传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.72",
+        "chapter_title": "魏紀四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.72.p56",
+        "at": 4,
+        "data_url": "data/zztj/zztj/72.json",
+        "matched": "陸瑁",
+        "snippet": "選曹尚書陸瑁上疏曰：「北寇與國，壤地連接，苟有間隙，應機而至。夫所以為越海求馬，曲意於淵者，為赴目前之急，除腹心之疾也。而更棄本追末，捐近…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.7",
+        "chapter_title": "吳書·張顧諸葛歩傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.7.p20",
+        "at": 10,
+        "data_url": "data/sanguozhi/wu/07.json",
+        "matched": "陸瑁",
+        "snippet": "承字子直，嘉禾中與舅陸瑁俱以禮征。權賜丞相雍書曰：「貴孫子直，令問休休，至與相見，過於所聞，爲君嘉之。」拜騎都尉，領羽林兵。後爲呉郡西部都尉，與諸葛恪…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

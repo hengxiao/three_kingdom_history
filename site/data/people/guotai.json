@@ -1,0 +1,38 @@
+{
+  "id": "guotai",
+  "primary_name": "郭太",
+  "courtesy_name": "林宗",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.68",
+      "title": "郭符許列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/68.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.72",
+        "chapter_title": "董卓列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.72.p15",
+        "at": 10,
+        "data_url": "data/houhanshu/hhs/72.json",
+        "matched": "郭太",
+        "snippet": "初，靈帝末，黃巾餘黨郭太等復起西河白波谷，轉寇太原，遂破河東，百姓流轉三輔，號為「白波賊」，眾十餘萬。卓遣中郎將牛輔擊之，不能却。及聞東方兵起，懼，乃…"
+      }
+    ]
+  },
+  "n_mentions": 1
+}

@@ -1,0 +1,61 @@
+{
+  "id": "liuyi",
+  "primary_name": "劉廙",
+  "courtesy_name": "恭嗣",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.21",
+      "title": "魏書·王衞二劉傅傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/21.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p41",
+        "at": 2,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "劉廙",
+        "snippet": "南陽劉廙嘗著《先刑後禮論》，同郡謝景稱之於遜，遜呵景曰：「禮之長於刑久矣；廙以細辯而詭先聖之教，君今侍東宮，宜遵仁義以彰德音，若彼之談…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.22",
+        "chapter_title": "魏書·桓二陈徐卫卢传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.22.p20",
+        "at": 6,
+        "data_url": "data/sanguozhi/wei/22.json",
+        "matched": "劉廙",
+        "snippet": "初，太祖時，劉廙坐弟與魏讽謀反，当诛。羣言之太祖，太祖曰：「廙，名臣也，吾亦欲赦之。」乃复位。廙深德羣，羣曰：「夫议刑爲國，非爲私也；且自明主…"
+      },
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p16",
+        "at": 137,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "劉廙",
+        "snippet": "…於公子中最親，戲兵不整，遜對之髡其職吏。南陽謝景善劉廙先刑後禮之論，遜呵景曰：「禮之長於刑久矣，廙以細辯而詭先聖之教，皆非也。君今侍東宮，宜遵仁義以彰德音，若彼之談，不須講也。」遜…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

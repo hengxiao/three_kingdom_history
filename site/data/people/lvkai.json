@@ -1,0 +1,38 @@
+{
+  "id": "lvkai",
+  "primary_name": "呂凱",
+  "courtesy_name": "季平",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.13",
+      "title": "蜀書·黃李呂馬王張傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/13.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p20",
+        "at": 49,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "呂凱",
+        "snippet": "…又執太守成都張裔以與吳，吳以闓為永昌太守。永昌功曹呂凱、府丞王伉率吏士閉境拒守，闓不能進，使郡人孟獲誘扇諸夷，諸夷皆從之。牂柯太守朱褒、越巂夷王高定皆叛應闓。諸葛亮以新遭大喪，皆撫…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

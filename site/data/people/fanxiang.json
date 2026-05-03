@@ -1,0 +1,38 @@
+{
+  "id": "fanxiang",
+  "primary_name": "蕃向",
+  "courtesy_name": "嘉景",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 229,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "蕃向",
+        "snippet": "…平張邈、王孝、東郡劉儒、泰山胡母班、陳留秦周、魯國蕃向、東萊王章為八廚，廚者，言能以財救人者也。及陳、竇用事，復舉拔膺等；陳、竇誅，膺等復廢。宦官疾惡膺等，每下詔書，輒申黨人之禁。…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

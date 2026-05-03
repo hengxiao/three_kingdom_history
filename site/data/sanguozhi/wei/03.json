@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷03",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 43,
@@ -20,6 +20,51 @@
       "id": "wei.3.p1",
       "text": "明皇帝諱叡，字元仲，文帝太子也。生而太祖愛之，常令在左右。年十五，封武德侯，黃初二年爲齊公，三年爲平原王。以其母誅，故未建爲嗣。七年夏五月，帝病篤，乃立爲皇太子。丁巳，即皇帝位，大赦。尊皇太后曰太皇太后，皇后曰皇太后。諸臣封爵各有差。癸未，追謚母甄夫人曰文昭皇后。壬辰，立皇弟蕤爲陽平王。",
       "annotations": [
+        {
+          "id": "wei.3.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p1.h2",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "叡",
+          "person_id": "caorui",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p1.h3",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p1.h5",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.3.p1.h4",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.3.p1.a1",
           "type": "pei",
@@ -63,11 +108,65 @@
           "reasoning": "承前文年號「黃初」推得，「七年夏五月」 = 黃初7年 = AD 226"
         },
         {
+          "id": "wei.3.p1.h6",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.3.p1.h7",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.3.p1.h8",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.3.p1.h10",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.3.p1.h9",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "太后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.3.p1.a3",
           "type": "pei",
           "at": 117,
           "length": 0,
           "text": "《世語》曰：帝與朝士素不接，即位之後，羣下想聞風采。居數日，獨見侍中劉曄，語盡日。衆人側聽，曄旣出，問「何如」？曄曰：「秦始皇、漢孝武之儔，才具微不及耳。」"
+        },
+        {
+          "id": "wei.3.p1.h11",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -89,6 +188,42 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 黃初7年 (AD 226)，月份「八月」"
+        },
+        {
+          "id": "wei.3.p2.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p2.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "文聘",
+          "person_id": "wenpin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p2.h3",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p2.h4",
+          "type": "person",
+          "at": 107,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
         }
       ]
     },
@@ -96,6 +231,24 @@
       "id": "wei.3.p3",
       "text": "辛巳，立皇子冏爲清河王。吳將諸葛瑾、張霸等寇襄陽，撫軍大將軍司馬宣王討破之，斬霸，征東大將軍曹休又破其別將於尋陽。論功行賞各有差。冬十月，清河王冏薨。十二月，以太尉鍾繇爲太傅，征東大將軍曹休爲大司馬，中軍大將軍曹真爲大將軍，司徒華歆爲太尉，司空王朗爲司徒，鎮軍大將軍陳羣爲司空，撫軍大將軍司馬宣王爲驃騎大將軍。",
       "annotations": [
+        {
+          "id": "wei.3.p3.h1",
+          "type": "person",
+          "at": 14,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h2",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
         {
           "id": "wei.3.p3.t1",
           "type": "temporal",
@@ -125,6 +278,60 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 黃初7年 (AD 226)，月份「十二月」"
+        },
+        {
+          "id": "wei.3.p3.h3",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h4",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h5",
+          "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h6",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h7",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p3.h8",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "陳羣",
+          "person_id": "chenqun",
+          "via": "alias"
         }
       ]
     },
@@ -148,6 +355,24 @@
           "reasoning": "原文「太和元年春正月」直接出现年号；解析為 AD 227"
         },
         {
+          "id": "wei.3.p4.h1",
+          "type": "person",
+          "at": 10,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p4.h2",
+          "type": "person",
+          "at": 19,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.3.p4.t2",
           "type": "temporal",
           "at": 71,
@@ -161,6 +386,15 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 太和元年 (AD 227)，月份「二月」"
+        },
+        {
+          "id": "wei.3.p4.h3",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.3.p4.t3",
@@ -223,6 +457,15 @@
           "reasoning": "年承前文 太和元年 (AD 227)，月份「十一月」"
         },
         {
+          "id": "wei.3.p4.h4",
+          "type": "person",
+          "at": 158,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.3.p4.t7",
           "type": "temporal",
           "at": 185,
@@ -279,11 +522,65 @@
       "text": "蜀大將諸葛亮寇邊，天水、南安、安定三郡吏民叛應亮。遣大將軍曹真都督關右，並進兵。右將軍張郃擊亮於街亭，大破之。亮敗走，三郡平。丁未，行幸長安。夏四月丁酉，還洛陽宮。赦繫囚非殊死以下。乙巳，論討亮功，封爵增邑各有差。五月，大旱。六月，詔曰：「尊儒貴學，王教之本也。自頃儒官或非其人，將何以宣明聖道？其高選博士，才任侍中常侍者。申勑郡國，貢士以經學爲先。」秋九月，曹休率諸軍至皖，與吳將陸議戰於石亭，敗績。乙酉，立皇子穆爲繁陽王。庚子，大司馬曹休薨。冬十月，詔公卿近臣舉良將各一人。十一月，司徒王朗薨。十二月，諸葛亮圍陳倉，曹真遣將軍費曜等拒之。遼東太守公孫恭兄子淵劫奪恭位，遂以淵領遼東太守。",
       "annotations": [
         {
+          "id": "wei.3.p6.h1",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p6.h2",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
           "id": "wei.3.p6.a1",
           "type": "pei",
           "at": 25,
           "length": 0,
           "text": "《魏書》曰：是時朝臣未知計所出，帝曰：「亮阻山爲固，今者自來，旣合兵書致人之術；且亮貪三郡，知進而不知退，今因此時，破亮必也。」乃部勒兵馬步騎五萬拒亮。"
+        },
+        {
+          "id": "wei.3.p6.h3",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p6.h4",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p6.h5",
+          "type": "person",
+          "at": 46,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p6.h6",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
         },
         {
           "id": "wei.3.p6.a2",
@@ -313,6 +610,15 @@
           "at": 82,
           "length": 0,
           "text": "《魏略》曰：是時譌言云帝已崩，從駕羣臣迎立雍丘王植。京師自卞太后羣公盡懼。及帝還，皆私察顏色。卞太后悲喜，欲推始言者，帝曰：「天下皆言，將何所推？」"
+        },
+        {
+          "id": "wei.3.p6.h7",
+          "type": "person",
+          "at": 96,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
         },
         {
           "id": "wei.3.p6.t2",
@@ -360,6 +666,24 @@
           "reasoning": "年承前文 太和2年 (AD 228)，月份「秋九月」"
         },
         {
+          "id": "wei.3.p6.h8",
+          "type": "person",
+          "at": 180,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p6.h9",
+          "type": "person",
+          "at": 219,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p6.t5",
           "type": "temporal",
           "at": 223,
@@ -390,6 +714,15 @@
           "reasoning": "年承前文 太和2年 (AD 228)，月份「十一月」"
         },
         {
+          "id": "wei.3.p6.h10",
+          "type": "person",
+          "at": 245,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p6.t7",
           "type": "temporal",
           "at": 249,
@@ -403,6 +736,24 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 太和2年 (AD 228)，月份「十二月」"
+        },
+        {
+          "id": "wei.3.p6.h11",
+          "type": "person",
+          "at": 253,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p6.h12",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
         },
         {
           "id": "wei.3.p6.a4",
@@ -446,6 +797,24 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 太和3年 (AD 229)，月份「六月」"
+        },
+        {
+          "id": "wei.3.p7.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p7.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
         }
       ]
     },
@@ -511,6 +880,33 @@
           "reasoning": "年承前文 太和3年 (AD 229)，月份「十一月」"
         },
         {
+          "id": "wei.3.p10.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "韓曁",
+          "person_id": "hanji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p10.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "武帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p10.h3",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.3.p10.t2",
           "type": "temporal",
           "at": 49,
@@ -559,6 +955,24 @@
           "reasoning": "承前文年號「太和」推得，「四年春二月」 = 太和4年 = AD 230"
         },
         {
+          "id": "wei.3.p12.h1",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p12.h2",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p12.t2",
           "type": "temporal",
           "at": 166,
@@ -572,6 +986,15 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「夏四月」"
+        },
+        {
+          "id": "wei.3.p12.h3",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
         },
         {
           "id": "wei.3.p12.t3",
@@ -589,6 +1012,15 @@
           "reasoning": "年承前文 太和4年 (AD 230)，月份「六月」"
         },
         {
+          "id": "wei.3.p12.h5",
+          "type": "person",
+          "at": 183,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.3.p12.t4",
           "type": "temporal",
           "at": 195,
@@ -602,6 +1034,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「秋七月」"
+        },
+        {
+          "id": "wei.3.p12.h4",
+          "type": "person",
+          "at": 213,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
         },
         {
           "id": "wei.3.p12.t5",
@@ -722,6 +1163,24 @@
           "reasoning": "年承前文 太和5年 (AD 231)，月份「三月」"
         },
         {
+          "id": "wei.3.p13.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p13.h2",
+          "type": "person",
+          "at": 22,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p13.t3",
           "type": "temporal",
           "at": 42,
@@ -765,6 +1224,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 太和5年 (AD 231)，月份「秋七月」"
+        },
+        {
+          "id": "wei.3.p13.h3",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
         },
         {
           "id": "wei.3.p13.a1",
@@ -823,6 +1291,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 太和5年 (AD 231)，月份「十二月」"
+        },
+        {
+          "id": "wei.3.p14.h1",
+          "type": "person",
+          "at": 163,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
         }
       ]
     },
@@ -906,6 +1383,15 @@
           "reasoning": "年承前文 太和6年 (AD 232)，月份「秋七月」"
         },
         {
+          "id": "wei.3.p15.h1",
+          "type": "person",
+          "at": 183,
+          "length": 2,
+          "text": "董昭",
+          "person_id": "dongzhao",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p15.t6",
           "type": "temporal",
           "at": 189,
@@ -934,6 +1420,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 太和6年 (AD 232)，月份「冬十月」"
+        },
+        {
+          "id": "wei.3.p15.h2",
+          "type": "person",
+          "at": 218,
+          "length": 2,
+          "text": "田豫",
+          "person_id": "tianyu",
+          "via": "primary"
         },
         {
           "id": "wei.3.p15.t8",
@@ -1030,6 +1525,42 @@
           "month_chinese": "夏五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 青龍元年 (AD 233)，月份「夏五月」"
+        },
+        {
+          "id": "wei.3.p16.h1",
+          "type": "person",
+          "at": 93,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p16.h2",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p16.h3",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p16.h4",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.3.p16.a1",
@@ -1129,6 +1660,15 @@
           "reasoning": "年承前文 青龍元年 (AD 233)，月份「十二月」"
         },
         {
+          "id": "wei.3.p20.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p20.a1",
           "type": "pei",
           "at": 31,
@@ -1187,6 +1727,15 @@
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「夏四月」"
         },
         {
+          "id": "wei.3.p21.h1",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.3.p21.a1",
           "type": "pei",
           "at": 128,
@@ -1199,6 +1748,15 @@
       "id": "wei.3.p22",
       "text": "是月，諸葛亮出斜谷，屯渭南，司馬宣王率諸軍拒之。詔宣王：「但堅壁拒守以挫其鋒，彼進不得志，退無與戰，乆停則糧盡，虜略無所獲，則必走矣。走而追之，以逸待勞，全勝之道也。」",
       "annotations": [
+        {
+          "id": "wei.3.p22.h1",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
         {
           "id": "wei.3.p22.a1",
           "type": "pei",
@@ -1228,6 +1786,24 @@
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「五月」"
         },
         {
+          "id": "wei.3.p23.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p23.h2",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "孫韶",
+          "person_id": "sunshao",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p23.t2",
           "type": "temporal",
           "at": 40,
@@ -1243,6 +1819,33 @@
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「六月」"
         },
         {
+          "id": "wei.3.p23.h3",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "滿寵",
+          "person_id": "manchong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p23.h4",
+          "type": "person",
+          "at": 126,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p23.h5",
+          "type": "person",
+          "at": 153,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
           "id": "wei.3.p23.t3",
           "type": "temporal",
           "at": 158,
@@ -1256,6 +1859,51 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「秋七月」"
+        },
+        {
+          "id": "wei.3.p23.h6",
+          "type": "person",
+          "at": 172,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p23.h7",
+          "type": "person",
+          "at": 195,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p23.h8",
+          "type": "person",
+          "at": 215,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p23.h9",
+          "type": "person",
+          "at": 235,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p23.h10",
+          "type": "person",
+          "at": 238,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
         },
         {
           "id": "wei.3.p23.t4",
@@ -1277,7 +1925,35 @@
     {
       "id": "wei.3.p24",
       "text": "司馬宣王與亮相持，連圍積日，亮數挑戰，宣王堅壘不應。會亮卒，其軍退還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.3.p24.h1",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.3.p24.h2",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.3.p24.h3",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wei.3.p25",
@@ -1377,6 +2053,15 @@
       "id": "wei.3.p27",
       "text": "是時，大治洛陽宮，起昭陽、太極殿，築緫章觀。百姓失農時，直臣楊阜、高堂隆等各數切諫，雖不能聽，常優容之。",
       "annotations": [
+        {
+          "id": "wei.3.p27.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "楊阜",
+          "person_id": "yangfu",
+          "via": "primary"
+        },
         {
           "id": "wei.3.p27.a1",
           "type": "pei",
@@ -1507,6 +2192,15 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 青龍4年 (AD 236)，月份「五月」"
+        },
+        {
+          "id": "wei.3.p29.h1",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "董昭",
+          "person_id": "dongzhao",
+          "via": "primary"
         }
       ]
     },
@@ -1549,6 +2243,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 青龍4年 (AD 236)，月份「秋七月」"
+        },
+        {
+          "id": "wei.3.p31.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         },
         {
           "id": "wei.3.p31.t2",
@@ -1594,6 +2297,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 青龍4年 (AD 236)，月份「十二月」"
+        },
+        {
+          "id": "wei.3.p31.h2",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "陳羣",
+          "person_id": "chenqun",
+          "via": "alias"
         }
       ]
     },
@@ -1724,6 +2436,51 @@
       "text": "有司奏：武皇帝撥亂反正，爲魏太祖，樂用武始之舞。文皇帝應天受命，爲魏高祖，樂用咸熙之舞。帝制作興治，爲魏烈祖，樂用章武之舞。三祖之廟萬世不毀，其餘四廟親盡迭毀，如周后稷、文、武廟祧之制。",
       "annotations": [
         {
+          "id": "wei.3.p34.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p34.h2",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p34.h3",
+          "type": "person",
+          "at": 24,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p34.h4",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.3.p34.h5",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "烈祖",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.3.p34.a1",
           "type": "pei",
           "at": 93,
@@ -1750,6 +2507,51 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 景初元年 (AD 237)，月份「秋七月」"
+        },
+        {
+          "id": "wei.3.p35.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p35.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p35.h3",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.3.p35.h4",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.3.p35.h5",
+          "type": "person",
+          "at": 64,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
         }
       ]
     },
@@ -1771,6 +2573,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 景初元年 (AD 237)，月份「九月」"
+        },
+        {
+          "id": "wei.3.p36.h1",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.3.p36.t2",
@@ -1815,6 +2626,15 @@
           "at": 127,
           "length": 0,
           "text": "邔音其己反"
+        },
+        {
+          "id": "wei.3.p36.h2",
+          "type": "person",
+          "at": 146,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.3.p36.a3",
@@ -1873,6 +2693,15 @@
           "reasoning": "年承前文 景初2年 (AD 238)，月份「二月」"
         },
         {
+          "id": "wei.3.p38.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "韓曁",
+          "person_id": "hanji",
+          "via": "primary"
+        },
+        {
           "id": "wei.3.p38.t2",
           "type": "temporal",
           "at": 33,
@@ -1886,6 +2715,15 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 景初2年 (AD 238)，月份「夏四月」"
+        },
+        {
+          "id": "wei.3.p38.h2",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "韓曁",
+          "person_id": "hanji",
+          "via": "primary"
         },
         {
           "id": "wei.3.p38.a1",
@@ -1979,6 +2817,15 @@
           "month_chinese": "冬十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 景初2年 (AD 238)，月份「冬十一月」"
+        },
+        {
+          "id": "wei.3.p40.h1",
+          "type": "person",
+          "at": 157,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
         }
       ]
     },
@@ -1986,6 +2833,15 @@
       "id": "wei.3.p41",
       "text": "壬午，以司空衞臻爲司徒，司隷校尉崔林爲司空。閏月，月犯心中央大星。十二月乙丑，帝寢疾不豫。辛巳，立皇后。賜天下男子爵人二級，鰥寡孤獨穀。以燕王宇爲大將軍，甲申免，以武衞將軍曹爽代之。",
       "annotations": [
+        {
+          "id": "wei.3.p41.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "崔林",
+          "person_id": "cuilin",
+          "via": "primary"
+        },
         {
           "id": "wei.3.p41.t1",
           "type": "temporal",
@@ -2000,6 +2856,24 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 景初2年 (AD 238)，月份「十二月」"
+        },
+        {
+          "id": "wei.3.p41.h2",
+          "type": "person",
+          "at": 69,
+          "length": 3,
+          "text": "燕王宇",
+          "person_id": "caoyu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.3.p41.h3",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
         },
         {
           "id": "wei.3.p41.a1",

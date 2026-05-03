@@ -1,0 +1,49 @@
+{
+  "id": "xiafu",
+  "primary_name": "夏馥",
+  "courtesy_name": "子治",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 123,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "夏馥",
+        "snippet": "…言人之英也；郭泰、范滂、尹勳、巴肅及南陽宗慈、陳留夏馥、汝南蔡衍、泰山羊陟為八顧，顧者，言能以德行引人者也；張儉、翟超、岑晊、苑康及山陽劉表、汝南陳翔、魯國孔昱、山陽檀敷為八及，及…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p32",
+        "at": 0,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "夏馥",
+        "snippet": "夏馥聞張儉亡命，歎曰：「孽自己作，空污良善，一人逃死，禍及萬家，何以生為！」乃自翦鬚變形，入林慮山中，隱姓名，為冶家傭，親突煙炭，…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

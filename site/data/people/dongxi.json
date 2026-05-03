@@ -1,0 +1,61 @@
+{
+  "id": "dongxi",
+  "primary_name": "董襲",
+  "courtesy_name": "元代",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.10",
+      "title": "吳書·十二虎臣傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p39",
+        "at": 127,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "董襲",
+        "snippet": "…昭共輔之。紘惟補察，知無不為。太夫人問揚武都尉會稽董襲曰：「江東可保不？」襲曰：「江東有山川之固，而討逆明府恩德在民，討虜承基，大小用命，張昭秉眾事，襲等為爪牙，此地利人和之時也，…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p32",
+        "at": 51,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "董襲",
+        "snippet": "…釘，上有千人，以弩交射，飛矢雨下，軍不得前。偏將軍董襲與別部司馬凌統俱為前部，各將敢死百人，人被兩鎧，乘大舸，突入蒙沖裡。襲身以刀斷兩紲，蒙沖乃橫流，大兵遂進。祖令都督陳就以水軍逆…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p8",
+        "at": 32,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "董襲",
+        "snippet": "…征黃祖，祖先遣舟兵拒軍，都尉呂蒙破其前鋒。而淩統、董襲等盡銳攻之，遂屠其城。祖挺身亡走，騎士馮則追梟其首，虜其男女數萬口。是歳，使賀齊討黟、歙，分歙爲始新、新定、犂陽、休陽縣，以六…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

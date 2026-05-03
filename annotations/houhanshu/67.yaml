@@ -101,12 +101,36 @@ annotations:
   length: 0
   type: lixian
   text: 《禮記》曰：「下之事上也，不從其所令，從其所行。上好是物，下必有甚者矣。」矯，正也。正枉必過其直，見《孟子》。
+- id: hhs.67.p4.h1
+  anchor: hhs.67.p4
+  at: 24
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p5.h1
+  anchor: hhs.67.p5
+  at: 2
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.67.p5.a1
   anchor: hhs.67.p5
   at: 75
   length: 0
   type: lixian
   text: 初委反
+- id: hhs.67.p6.h1
+  anchor: hhs.67.p6
+  at: 23
+  length: 2
+  type: person
+  person_id: cenzhi
+  text: 岑晊
+  via: primary
 - id: hhs.67.p6.a1
   anchor: hhs.67.p6
   at: 25
@@ -125,6 +149,22 @@ annotations:
   length: 0
   type: lixian
   text: 冠猶首也。
+- id: hhs.67.p7.h1
+  anchor: hhs.67.p7
+  at: 63
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p7.h2
+  anchor: hhs.67.p7
+  at: 66
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p7.a3
   anchor: hhs.67.p7
   at: 114
@@ -137,30 +177,262 @@ annotations:
   length: 0
   type: lixian
   text: 危言謂不畏危難而直言也。論語孔子曰：「邦有道，危言危行。」
+- id: hhs.67.p8.h1
+  anchor: hhs.67.p8
+  at: 21
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p9.a1
   anchor: hhs.67.p9
   at: 45
   length: 0
   type: lixian
   text: 説文曰：「誹，謗也。」蒼頡篇曰：「訕，非也。」
+- id: hhs.67.p9.h1
+  anchor: hhs.67.p9
+  at: 83
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
 - id: hhs.67.p10.a1
   anchor: hhs.67.p10
   at: 24
   length: 0
   type: lixian
   text: 希，望也，摽搒猶相稱揚也。「搒」與「牓」同，古字通。
+- id: hhs.67.p10.h1
+  anchor: hhs.67.p10
+  at: 88
+  length: 2
+  type: person
+  person_id: liushu
+  text: 劉淑
+  via: primary
+- id: hhs.67.p10.h2
+  anchor: hhs.67.p10
+  at: 91
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p10.h3
+  anchor: hhs.67.p10
+  at: 110
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p10.h4
+  anchor: hhs.67.p10
+  at: 116
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
+- id: hhs.67.p10.h5
+  anchor: hhs.67.p10
+  at: 122
+  length: 2
+  type: person
+  person_id: liuyou
+  text: 劉祐
+  via: primary
+- id: hhs.67.p10.h6
+  anchor: hhs.67.p10
+  at: 125
+  length: 2
+  type: person
+  person_id: weilang
+  text: 魏朗
+  via: primary
+- id: hhs.67.p11.h1
+  anchor: hhs.67.p11
+  at: 13
+  length: 2
+  type: person
+  person_id: zongci
+  text: 宗慈
+  via: primary
+- id: hhs.67.p11.h2
+  anchor: hhs.67.p11
+  at: 16
+  length: 2
+  type: person
+  person_id: basu
+  text: 巴肅
+  via: primary
+- id: hhs.67.p11.h3
+  anchor: hhs.67.p11
+  at: 19
+  length: 2
+  type: person
+  person_id: xiafu
+  text: 夏馥
+  via: primary
+- id: hhs.67.p11.h4
+  anchor: hhs.67.p11
+  at: 25
+  length: 2
+  type: person
+  person_id: yinxun_2
+  text: 尹勳
+  via: primary
+- id: hhs.67.p11.h5
+  anchor: hhs.67.p11
+  at: 28
+  length: 2
+  type: person
+  person_id: caiyan
+  text: 蔡衍
+  via: primary
+- id: hhs.67.p11.h6
+  anchor: hhs.67.p11
+  at: 31
+  length: 2
+  type: person
+  person_id: yangzhi
+  text: 羊陟
+  via: primary
+- id: hhs.67.p11.h7
+  anchor: hhs.67.p11
+  at: 52
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p11.h8
+  anchor: hhs.67.p11
+  at: 55
+  length: 2
+  type: person
+  person_id: cenzhi
+  text: 岑晊
+  via: primary
+- id: hhs.67.p11.h9
+  anchor: hhs.67.p11
+  at: 58
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: hhs.67.p11.h10
+  anchor: hhs.67.p11
+  at: 61
+  length: 2
+  type: person
+  person_id: chenxiang
+  text: 陳翔
+  via: primary
+- id: hhs.67.p11.h11
+  anchor: hhs.67.p11
+  at: 64
+  length: 2
+  type: person
+  person_id: kongyu
+  text: 孔昱
+  via: primary
+- id: hhs.67.p11.h12
+  anchor: hhs.67.p11
+  at: 67
+  length: 2
+  type: person
+  person_id: yuankang
+  text: 苑康
+  via: primary
+- id: hhs.67.p11.h13
+  anchor: hhs.67.p11
+  at: 70
+  length: 2
+  type: person
+  person_id: tanfu
+  text: 檀敷
+  via: primary
 - id: hhs.67.p11.a1
   anchor: hhs.67.p11
   at: 93
   length: 0
   type: lixian
   text: 導，引也。宗謂所宗仰者。
+- id: hhs.67.p11.h14
+  anchor: hhs.67.p11
+  at: 97
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: hhs.67.p11.h15
+  anchor: hhs.67.p11
+  at: 100
+  length: 2
+  type: person
+  person_id: wangkao
+  text: 王考
+  via: primary
+- id: hhs.67.p11.h16
+  anchor: hhs.67.p11
+  at: 103
+  length: 2
+  type: person
+  person_id: liuru
+  text: 劉儒
+  via: primary
+- id: hhs.67.p11.h17
+  anchor: hhs.67.p11
+  at: 106
+  length: 3
+  type: person
+  person_id: humuban
+  text: 胡母班
+  via: primary
+- id: hhs.67.p11.h18
+  anchor: hhs.67.p11
+  at: 110
+  length: 2
+  type: person
+  person_id: qinzhou
+  text: 秦周
+  via: primary
+- id: hhs.67.p11.h19
+  anchor: hhs.67.p11
+  at: 113
+  length: 2
+  type: person
+  person_id: fanxiang
+  text: 蕃向
+  via: primary
 - id: hhs.67.p11.a2
   anchor: hhs.67.p11
   at: 123
   length: 0
   type: lixian
   text: 蕃，姓也，音皮。
+- id: hhs.67.p12.h1
+  anchor: hhs.67.p12
+  at: 1
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p12.h2
+  anchor: hhs.67.p12
+  at: 79
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: hhs.67.p12.a1
   anchor: hhs.67.p12
   at: 102
@@ -173,12 +445,60 @@ annotations:
   length: 0
   type: lixian
   text: 墠，除地於中爲壇。墠音禪。魁，大帥也。
+- id: hhs.67.p12.h3
+  anchor: hhs.67.p12
+  at: 148
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.67.p12.a3
   anchor: hhs.67.p12
   at: 156
   length: 0
   type: lixian
   text: 刊，削。不欲宣露並名，故削除之，而直捕儉等。
+- id: hhs.67.p12.h4
+  anchor: hhs.67.p12
+  at: 179
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
+- id: hhs.67.p12.h5
+  anchor: hhs.67.p12
+  at: 186
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p12.h6
+  anchor: hhs.67.p12
+  at: 200
+  length: 2
+  type: person
+  person_id: basu
+  text: 巴肅
+  via: primary
+- id: hhs.67.p12.h7
+  anchor: hhs.67.p12
+  at: 212
+  length: 2
+  type: person
+  person_id: weilang
+  text: 魏朗
+  via: primary
+- id: hhs.67.p12.h8
+  anchor: hhs.67.p12
+  at: 225
+  length: 2
+  type: person
+  person_id: liuru
+  text: 劉儒
+  via: primary
 - id: hhs.67.p12.a4
   anchor: hhs.67.p12
   at: 279
@@ -245,12 +565,132 @@ annotations:
   length: 0
   type: lixian
   text: 《詩·大雅·蕩篇》序曰：「厲王無道，天下蕩蕩，無綱紀文章。」鄭玄注云：「蕩蕩，法度廢壞之魍也。」
+- id: hhs.67.p16.h1
+  anchor: hhs.67.p16
+  at: 13
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p16.h2
+  anchor: hhs.67.p16
+  at: 16
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p16.h3
+  anchor: hhs.67.p16
+  at: 62
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p16.h4
+  anchor: hhs.67.p16
+  at: 71
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: hhs.67.p16.h5
+  anchor: hhs.67.p16
+  at: 91
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: hhs.67.p16.h6
+  anchor: hhs.67.p16
+  at: 94
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.67.p16.h7
+  anchor: hhs.67.p16
+  at: 98
+  length: 3
+  type: person
+  person_id: humuban
+  text: 胡母班
+  via: primary
+- id: hhs.67.p16.h8
+  anchor: hhs.67.p16
+  at: 102
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.67.p16.h9
+  anchor: hhs.67.p16
+  at: 106
+  length: 2
+  type: person
+  person_id: wangkao
+  text: 王考
+  via: primary
+- id: hhs.67.p16.h10
+  anchor: hhs.67.p16
+  at: 123
+  length: 2
+  type: person
+  person_id: qinzhou
+  text: 秦周
+  via: primary
+- id: hhs.67.p16.h11
+  anchor: hhs.67.p16
+  at: 139
+  length: 2
+  type: person
+  person_id: fanxiang
+  text: 蕃向
+  via: primary
+- id: hhs.67.p16.h12
+  anchor: hhs.67.p16
+  at: 152
+  length: 2
+  type: person
+  person_id: wangzhang
+  text: 王璋
+  via: primary
 - id: hhs.67.p16.a1
   anchor: hhs.67.p16
   at: 167
   length: 0
   type: lixian
   text: 曲城，縣，故城在今萊州掖縣東北也。
+- id: hhs.67.p16.h13
+  anchor: hhs.67.p16
+  at: 184
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p16.h14
+  anchor: hhs.67.p16
+  at: 202
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
+- id: hhs.67.p17.h1
+  anchor: hhs.67.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: liushu
+  text: 劉淑
+  via: primary
 - id: hhs.67.p17.t1
   anchor: hhs.67.p17
   at: 60
@@ -263,18 +703,66 @@ annotations:
   era: 永興
   era_year: 2
   reasoning: 原文「永興二年」直接出现年号；解析為 AD 154（回溯前事，不推進章節時間軸）
+- id: hhs.67.p17.h2
+  anchor: hhs.67.p17
+  at: 80
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p18.h1
+  anchor: hhs.67.p18
+  at: 75
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.67.p19.h1
+  anchor: hhs.67.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p19.a1
   anchor: hhs.67.p19
   at: 16
   length: 0
   type: lixian
   text: 《漢官儀》曰：「脩，字伯游。」
+- id: hhs.67.p19.h2
+  anchor: hhs.67.p19
+  at: 17
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
 - id: hhs.67.p19.a2
   anchor: hhs.67.p19
   at: 35
   length: 0
   type: lixian
   text: 亢，高也
+- id: hhs.67.p19.h3
+  anchor: hhs.67.p19
+  at: 48
+  length: 2
+  type: person
+  person_id: xunshu
+  text: 荀淑
+  via: primary
+- id: hhs.67.p19.h4
+  anchor: hhs.67.p19
+  at: 51
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
 - id: hhs.67.p20.a1
   anchor: hhs.67.p20
   at: 60
@@ -311,6 +799,14 @@ annotations:
   era: 永壽
   era_year: 2
   reasoning: 原文「永壽二年」直接出现年号；解析為 AD 156（回溯前事，不推進章節時間軸）
+- id: hhs.67.p21.h1
+  anchor: hhs.67.p21
+  at: 11
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.67.p22.t1
   anchor: hhs.67.p22
   at: 0
@@ -329,6 +825,22 @@ annotations:
   length: 0
   type: lixian
   text: 溷軒，廁屋。
+- id: hhs.67.p22.h1
+  anchor: hhs.67.p22
+  at: 45
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: hhs.67.p23.h1
+  anchor: hhs.67.p23
+  at: 12
+  length: 2
+  type: person
+  person_id: liuyou
+  text: 劉祐
+  via: primary
 - id: hhs.67.p24.a1
   anchor: hhs.67.p24
   at: 30
@@ -341,6 +853,22 @@ annotations:
   length: 0
   type: lixian
   text: 瑋猶美也。史記曰，魏惠王問齊威王曰：「王亦有寶乎？」威王曰：「無有。」魏王曰：「寡人之國雖小，尚有徑寸珠照車前後十二乘者十枚，柰何以萬乘之國而無寶乎！」威王曰：「寡人所以爲寶者與王異。吾臣有檀子者，使守南城，楚人不敢爲寇。吾臣有盼子者，使守高堂，則趙人不敢東漁於河。吾臣有黔夫者，使守徐州，於是燕人祭北門，趙人祭西門，從者七千餘家。吾臣有種首者，使備盜賊，則道不拾遺。以此爲寶，將以照千里，豈直十二乘哉？」魏王籩，不懌而去。
+- id: hhs.67.p24.h1
+  anchor: hhs.67.p24
+  at: 75
+  length: 2
+  type: person
+  person_id: liuyou
+  text: 劉祐
+  via: primary
+- id: hhs.67.p24.h2
+  anchor: hhs.67.p24
+  at: 81
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p24.a3
   anchor: hhs.67.p24
   at: 100
@@ -353,6 +881,16 @@ annotations:
   length: 0
   type: lixian
   text: 紀太子僕殺紀公，以其寶玉來奔，納諸宣公，公命與之邑，季文子使司寇出之境。公問其故，對曰：「孝敬忠信爲吉德，盜賊藏姦爲凶德。夫莒僕，則其孝敬，*[則]*弒君父矣，則其忠信，則竊寶玉矣，其人則盜賊也，是以去之。舜舉十六相，去四凶，有大功二十而爲天子。今行父雖未獲一吉人，去一凶矣，於舜之功，二十之一也。」見《左傳》。
+- anchor: hhs.67.p24
+  at: 142
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 應奉理李膺等奏，桓帝延熹九年黨錮事，「陛下既不聽察」即奏桓帝，對應 huanhan。
+  id: hhs.67.p24.h3
 - id: hhs.67.p25.a1
   anchor: hhs.67.p25
   at: 42
@@ -407,6 +945,14 @@ annotations:
   length: 0
   type: lixian
   text: 以魚爲喻也。龍門，河水所下之口，在今絳州龍門縣。辛氏三秦記曰「河津一名龍門，水險不通，魚□之屬莫能上，江海大魚薄集龍門下數千，不得上，上則爲龍」也。
+- id: hhs.67.p27.h1
+  anchor: hhs.67.p27
+  at: 56
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p27.a3
   anchor: hhs.67.p27
   at: 91
@@ -431,6 +977,14 @@ annotations:
   length: 0
   type: lixian
   text: 以朝廷爲污穢也。
+- id: hhs.67.p28.h1
+  anchor: hhs.67.p28
+  at: 1
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p28.a1
   anchor: hhs.67.p28
   at: 58
@@ -491,12 +1045,52 @@ annotations:
   length: 0
   type: lixian
   text: 毛萇詩注曰：「衡門，橫木爲門。」
+- id: hhs.67.p28.h2
+  anchor: hhs.67.p28
+  at: 221
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p29.h1
+  anchor: hhs.67.p29
+  at: 1
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
 - id: hhs.67.p32.a1
   anchor: hhs.67.p32
   at: 3
   length: 0
   type: lixian
   text: 謝承書「瓚」作「珪」。
+- id: hhs.67.p32.h1
+  anchor: hhs.67.p32
+  at: 12
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.67.p32.h2
+  anchor: hhs.67.p32
+  at: 43
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.67.p33.h1
+  anchor: hhs.67.p33
+  at: 0
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
 - id: hhs.67.p34.a1
   anchor: hhs.67.p34
   at: 41
@@ -515,12 +1109,36 @@ annotations:
   length: 0
   type: lixian
   text: 力行謂盡力行善也。《禮記》曰：「好問近乎智，力行近乎仁。」
+- id: hhs.67.p35.h1
+  anchor: hhs.67.p35
+  at: 1
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p35.h2
+  anchor: hhs.67.p35
+  at: 29
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p35.a1
   anchor: hhs.67.p35
   at: 50
   length: 0
   type: lixian
   text: 前有李固、杜喬，故言「亦」也。
+- id: hhs.67.p35.h3
+  anchor: hhs.67.p35
+  at: 54
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p35.t1
   anchor: hhs.67.p35
   at: 64
@@ -533,6 +1151,14 @@ annotations:
   era: 中平
   era_year: 2
   reasoning: 「明年」 = 当前年 中平元年 (AD 184) 之次年 = AD 185
+- id: hhs.67.p36.h1
+  anchor: hhs.67.p36
+  at: 0
+  length: 2
+  type: person
+  person_id: liuyou
+  text: 劉祐
+  via: primary
 - id: hhs.67.p36.a1
   anchor: hhs.67.p36
   at: 13
@@ -563,6 +1189,22 @@ annotations:
   length: 0
   type: lixian
   text: 累氣，屏息也。
+- id: hhs.67.p39.h1
+  anchor: hhs.67.p39
+  at: 61
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p41.h1
+  anchor: hhs.67.p41
+  at: 19
+  length: 2
+  type: person
+  person_id: yandu
+  text: 延篤
+  via: primary
 - id: hhs.67.p41.a1
   anchor: hhs.67.p41
   at: 40
@@ -593,6 +1235,14 @@ annotations:
   length: 0
   type: lixian
   text: 莊子曰：「舜讓天下於子州支伯，子州支伯曰：『予適有幽憂之病，方且理之，未暇理天下也。』」靈帝初，陳蕃輔政，以祐爲河南尹。及蕃敗，祐黜歸，卒於家。明年，大誅黨人，幸不及禍。
+- id: hhs.67.p42.h1
+  anchor: hhs.67.p42
+  at: 0
+  length: 2
+  type: person
+  person_id: weilang
+  text: 魏朗
+  via: primary
 - id: hhs.67.p42.a1
   anchor: hhs.67.p42
   at: 13
@@ -605,24 +1255,72 @@ annotations:
   length: 0
   type: lixian
   text: 孔子作《春秋緯》十二篇。
+- id: hhs.67.p42.h2
+  anchor: hhs.67.p42
+  at: 67
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p43.a1
   anchor: hhs.67.p43
   at: 41
   length: 0
   type: lixian
   text: 中，猶中傷
+- id: hhs.67.p43.h1
+  anchor: hhs.67.p43
+  at: 77
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p43.h2
+  anchor: hhs.67.p43
+  at: 121
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p44.a1
   anchor: hhs.67.p44
   at: 35
   length: 0
   type: lixian
   text: 牛渚，山名。突出江中，謂爲牛渚圻，在宣州當塗縣北也。
+- id: hhs.67.p45.h1
+  anchor: hhs.67.p45
+  at: 0
+  length: 2
+  type: person
+  person_id: xiafu
+  text: 夏馥
+  via: primary
 - id: hhs.67.p45.a1
   anchor: hhs.67.p45
   at: 49
   length: 0
   type: lixian
   text: 比門，猶並門也。
+- id: hhs.67.p45.h2
+  anchor: hhs.67.p45
+  at: 58
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p46.h1
+  anchor: hhs.67.p46
+  at: 22
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
 - id: hhs.67.p47.a1
   anchor: hhs.67.p47
   at: 73
@@ -635,12 +1333,28 @@ annotations:
   length: 0
   type: lixian
   text: 涅陽，縣，屬南陽郡
+- id: hhs.67.p49.h1
+  anchor: hhs.67.p49
+  at: 0
+  length: 2
+  type: person
+  person_id: zongci
+  text: 宗慈
+  via: primary
 - id: hhs.67.p49.a1
   anchor: hhs.67.p49
   at: 13
   length: 0
   type: lixian
   text: 安觿在今南陽縣西南，仍有其名，無復基趾也。
+- id: hhs.67.p50.h1
+  anchor: hhs.67.p50
+  at: 0
+  length: 2
+  type: person
+  person_id: basu
+  text: 巴肅
+  via: primary
 - id: hhs.67.p50.a1
   anchor: hhs.67.p50
   at: 13
@@ -653,6 +1367,14 @@ annotations:
   length: 0
   type: lixian
   text: 慎，縣，屬汝南郡。貝丘，縣，屬清河郡。
+- id: hhs.67.p50.h2
+  anchor: hhs.67.p50
+  at: 52
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p51.a1
   anchor: hhs.67.p51
   at: 13
@@ -665,6 +1387,14 @@ annotations:
   length: 0
   type: lixian
   text: 漢官儀曰：「光祿舉敦厚﹑質樸﹑遜讓﹑節儉。」此爲四行也。
+- id: hhs.67.p52.h1
+  anchor: hhs.67.p52
+  at: 78
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.67.p52.a2
   anchor: hhs.67.p52
   at: 108
@@ -677,6 +1407,14 @@ annotations:
   length: 0
   type: lixian
   text: 格，正也。
+- id: hhs.67.p53.h1
+  anchor: hhs.67.p53
+  at: 4
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.67.p53.a1
   anchor: hhs.67.p53
   at: 19
@@ -707,6 +1445,14 @@ annotations:
   length: 0
   type: lixian
   text: 帝謂天也。
+- id: hhs.67.p58.h1
+  anchor: hhs.67.p58
+  at: 39
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.67.p58.a1
   anchor: hhs.67.p58
   at: 65
@@ -779,6 +1525,14 @@ annotations:
   length: 0
   type: lixian
   text: 李膺﹑杜密。
+- id: hhs.67.p64.h1
+  anchor: hhs.67.p64
+  at: 3
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p64.a1
   anchor: hhs.67.p64
   at: 12
@@ -797,18 +1551,74 @@ annotations:
   length: 0
   type: lixian
   text: 《論語》之文。
+- id: hhs.67.p65.h1
+  anchor: hhs.67.p65
+  at: 0
+  length: 2
+  type: person
+  person_id: yinxun_2
+  text: 尹勳
+  via: primary
+- id: hhs.67.p65.h2
+  anchor: hhs.67.p65
+  at: 84
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p66.h1
+  anchor: hhs.67.p66
+  at: 0
+  length: 2
+  type: person
+  person_id: caiyan
+  text: 蔡衍
+  via: primary
 - id: hhs.67.p66.a1
   anchor: hhs.67.p66
   at: 12
   length: 0
   type: lixian
   text: 項，今陳州項城縣也。
+- id: hhs.67.p67.h1
+  anchor: hhs.67.p67
+  at: 159
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.67.p68.h1
+  anchor: hhs.67.p68
+  at: 0
+  length: 2
+  type: person
+  person_id: yangzhi
+  text: 羊陟
+  via: primary
 - id: hhs.67.p68.a1
   anchor: hhs.67.p68
   at: 13
   length: 0
   type: lixian
   text: 梁父故城在今兗州泗水縣北。
+- id: hhs.67.p68.h2
+  anchor: hhs.67.p68
+  at: 33
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- id: hhs.67.p69.h1
+  anchor: hhs.67.p69
+  at: 0
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
 - id: hhs.67.p69.a1
   anchor: hhs.67.p69
   at: 20
@@ -833,6 +1643,14 @@ annotations:
   length: 0
   type: lixian
   text: 縣名，屬山陽郡，故城在今兗州金鄉縣南。
+- id: hhs.67.p72.h1
+  anchor: hhs.67.p72
+  at: 28
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
 - id: hhs.67.p72.a1
   anchor: hhs.67.p72
   at: 99
@@ -851,6 +1669,14 @@ annotations:
   era: 中平
   era_year: 1
   reasoning: 原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
+- id: hhs.67.p73.h1
+  anchor: hhs.67.p73
+  at: 43
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
 - id: hhs.67.p76.a1
   anchor: hhs.67.p76
   at: 14
@@ -863,6 +1689,14 @@ annotations:
   length: 0
   type: lixian
   text: 季布，楚人。爲項羽將，數窘漢王。羽敗，漢購求布千金，敢舍匿，罪三族。布匿濮陽周氏，髡鉗布，之魯朱家所賣之。朱家心知是季布也。買置田舍。乃往洛陽，見汝陰侯灌嬰，説之曰：「季布何罪？臣各爲主用，職耳。」汝陰侯言於高帝，帝乃赦之。拜郎中，後爲河東守也。
+- id: hhs.67.p76.h1
+  anchor: hhs.67.p76
+  at: 25
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
 - id: hhs.67.p76.a3
   anchor: hhs.67.p76
   at: 95
@@ -875,6 +1709,14 @@ annotations:
   length: 0
   type: lixian
   text: 《論語》曰：「人而不仁，疾之以甚，亂也。」又曰：「人雖欲自絶，其何傷於日月[乎]？多見其不知量也。」
+- id: hhs.67.p77.h1
+  anchor: hhs.67.p77
+  at: 0
+  length: 2
+  type: person
+  person_id: cenzhi
+  text: 岑晊
+  via: primary
 - id: hhs.67.p77.a1
   anchor: hhs.67.p77
   at: 12
@@ -887,12 +1729,52 @@ annotations:
   length: 0
   type: lixian
   text: 《方言》曰：「叨，殘也。」
+- id: hhs.67.p77.h2
+  anchor: hhs.67.p77
+  at: 39
+  length: 2
+  type: person
+  person_id: zongci
+  text: 宗慈
+  via: primary
+- id: hhs.67.p78.h1
+  anchor: hhs.67.p78
+  at: 17
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p78.a1
   anchor: hhs.67.p78
   at: 44
   length: 0
   type: lixian
   text: 《爾雅》曰：「董，督正也。」
+- id: hhs.67.p78.h2
+  anchor: hhs.67.p78
+  at: 103
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p79.h1
+  anchor: hhs.67.p79
+  at: 0
+  length: 2
+  type: person
+  person_id: chenxiang
+  text: 陳翔
+  via: primary
+- id: hhs.67.p80.h1
+  anchor: hhs.67.p80
+  at: 0
+  length: 2
+  type: person
+  person_id: kongyu
+  text: 孔昱
+  via: primary
 - id: hhs.67.p80.a1
   anchor: hhs.67.p80
   at: 29
@@ -905,18 +1787,82 @@ annotations:
   length: 0
   type: lixian
   text: 家學《尚書》。
+- id: hhs.67.p80.h2
+  anchor: hhs.67.p80
+  at: 93
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.67.p81.h1
+  anchor: hhs.67.p81
+  at: 0
+  length: 2
+  type: person
+  person_id: yuankang
+  text: 苑康
+  via: primary
 - id: hhs.67.p81.a1
   anchor: hhs.67.p81
   at: 13
   length: 0
   type: lixian
   text: 重合，縣，故城在今滄州樂陵縣東。
+- id: hhs.67.p83.h1
+  anchor: hhs.67.p83
+  at: 4
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p83.h2
+  anchor: hhs.67.p83
+  at: 97
+  length: 2
+  type: person
+  person_id: yangzhi
+  text: 羊陟
+  via: primary
+- id: hhs.67.p84.h1
+  anchor: hhs.67.p84
+  at: 0
+  length: 2
+  type: person
+  person_id: tanfu
+  text: 檀敷
+  via: primary
 - id: hhs.67.p84.a1
   anchor: hhs.67.p84
   at: 13
   length: 0
   type: lixian
   text: 瑕丘，今兗州縣。
+- id: hhs.67.p84.h2
+  anchor: hhs.67.p84
+  at: 59
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p84.h3
+  anchor: hhs.67.p84
+  at: 70
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.67.p84.h4
+  anchor: hhs.67.p84
+  at: 77
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.67.p84.a2
   anchor: hhs.67.p84
   at: 98
@@ -929,6 +1875,14 @@ annotations:
   length: 0
   type: lixian
   text: 謝承書曰「敷與孫同衣而行，并日而食」也。
+- id: hhs.67.p85.h1
+  anchor: hhs.67.p85
+  at: 0
+  length: 2
+  type: person
+  person_id: liuru
+  text: 劉儒
+  via: primary
 - id: hhs.67.p85.a1
   anchor: hhs.67.p85
   at: 13
@@ -941,6 +1895,14 @@ annotations:
   length: 0
   type: lixian
   text: 珪璋，玉也。半珪曰璋。謝承書曰：「林宗歎儒有珪璋之質，終必爲令德之士。」《詩》曰：「如珪如璋，令聞令望。」
+- id: hhs.67.p85.h2
+  anchor: hhs.67.p85
+  at: 43
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.67.p87.a1
   anchor: hhs.67.p87
   at: 14
@@ -965,6 +1927,38 @@ annotations:
   era: 延熹
   era_year: 9
   reasoning: 原文「延熹九年」直接出现年号；解析為 AD 166（回溯前事，不推進章節時間軸）
+- id: hhs.67.p89.h1
+  anchor: hhs.67.p89
+  at: 11
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p90.h1
+  anchor: hhs.67.p90
+  at: 35
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.67.p90.h2
+  anchor: hhs.67.p90
+  at: 44
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p91.h1
+  anchor: hhs.67.p91
+  at: 2
+  length: 2
+  type: person
+  person_id: cenzhi
+  text: 岑晊
+  via: primary
 - id: hhs.67.p91.a1
   anchor: hhs.67.p91
   at: 28
@@ -989,12 +1983,100 @@ annotations:
   length: 0
   type: lixian
   text: 醊，祭酹也，音竹歲反。
+- id: hhs.67.p94.h1
+  anchor: hhs.67.p94
+  at: 1
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p94.h2
+  anchor: hhs.67.p94
+  at: 4
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p95.h1
+  anchor: hhs.67.p95
+  at: 15
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: hhs.67.p95.a1
   anchor: hhs.67.p95
   at: 32
   length: 0
   type: lixian
   text: 《詩·大雅》曰：「予曰有胥附，予曰有先後，予曰有奔走，予曰有禦侮。」毛萇注曰：「諭德宣譽曰奔走。」
+- id: hhs.67.p95.h2
+  anchor: hhs.67.p95
+  at: 53
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.67.p96.h1
+  anchor: hhs.67.p96
+  at: 28
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.67.p96.h2
+  anchor: hhs.67.p96
+  at: 54
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.67.p96.h3
+  anchor: hhs.67.p96
+  at: 59
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.67.p96.h4
+  anchor: hhs.67.p96
+  at: 70
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.67.p96.h5
+  anchor: hhs.67.p96
+  at: 83
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.67.p97.h1
+  anchor: hhs.67.p97
+  at: 0
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name_carry
+- id: hhs.67.p97.h2
+  anchor: hhs.67.p97
+  at: 11
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
 - id: hhs.67.p98.a1
   anchor: hhs.67.p98
   at: 23
@@ -1013,6 +2095,22 @@ annotations:
   length: 0
   type: lixian
   text: 前書龔勝死，有一老父入哭甚哀，曰：「熏以香自燒，膏以明自銷。」
+- id: hhs.67.p103.h1
+  anchor: hhs.67.p103
+  at: 33
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
+- id: hhs.67.p108.h1
+  anchor: hhs.67.p108
+  at: 7
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.67.p109.t1
   anchor: hhs.67.p109
   at: 15
@@ -1037,3 +2135,107 @@ annotations:
   era: 中平
   era_year: 2
   reasoning: 「是年」 = 当前年 中平2年 (AD 185)
+- id: hhs.67.p109.h1
+  anchor: hhs.67.p109
+  at: 22
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p109.h2
+  anchor: hhs.67.p109
+  at: 75
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.67.p109.h3
+  anchor: hhs.67.p109
+  at: 114
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.67.p113.h1
+  anchor: hhs.67.p113
+  at: 8
+  length: 2
+  type: person
+  person_id: kongyu
+  text: 孔昱
+  via: primary
+- id: hhs.67.p113.h2
+  anchor: hhs.67.p113
+  at: 12
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.67.p113.h3
+  anchor: hhs.67.p113
+  at: 36
+  length: 2
+  type: person
+  person_id: kongyu
+  text: 孔昱
+  via: primary
+- id: hhs.67.p114.h1
+  anchor: hhs.67.p114
+  at: 8
+  length: 2
+  type: person
+  person_id: yuankang
+  text: 苑康
+  via: primary
+- id: hhs.67.p114.h2
+  anchor: hhs.67.p114
+  at: 28
+  length: 2
+  type: person
+  person_id: xunshu
+  text: 荀淑
+  via: primary
+- id: hhs.67.p114.h3
+  anchor: hhs.67.p114
+  at: 37
+  length: 2
+  type: person
+  person_id: yuankang
+  text: 苑康
+  via: primary
+- id: hhs.67.p119.h1
+  anchor: hhs.67.p119
+  at: 7
+  length: 2
+  type: person
+  person_id: wangzhang
+  text: 王璋
+  via: primary
+- id: hhs.67.p142.h1
+  anchor: hhs.67.p142
+  at: 22
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.67.p146.h1
+  anchor: hhs.67.p146
+  at: 32
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary
+- id: hhs.67.p146.h2
+  anchor: hhs.67.p146
+  at: 98
+  length: 2
+  type: person
+  person_id: zhangjian
+  text: 張儉
+  via: primary

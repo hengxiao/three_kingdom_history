@@ -1,0 +1,72 @@
+{
+  "id": "wenhui",
+  "primary_name": "溫恢",
+  "courtesy_name": "曼基",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.15",
+      "title": "魏書·劉司馬梁張溫賈傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/15.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p32",
+        "at": 18,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "溫恢",
+        "snippet": "孫權攻合肥。時諸州兵戍淮南。揚州刺史溫恢謂兗州刺史裴潛曰：「此間雖有賊，然不足憂。今水潦方生，而子孝縣軍，無有遠備，關羽驍猾，正恐征南有變耳。」已而關羽果使南郡太守糜…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p64",
+        "at": 7,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "溫恢",
+        "snippet": "大軍南征還，以溫恢為揚州刺史，濟為別駕。令曰：「季子為臣，吳宜有君。今君還州，吾無憂矣。」民有誣告濟為謀叛主率者，太祖聞之，指前令與左將軍於禁、…"
+      },
+      {
+        "chapter_id": "wei.24",
+        "chapter_title": "魏書·韓崔高孫王傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.24.p28",
+        "at": 91,
+        "data_url": "data/sanguozhi/wei/24.json",
+        "matched": "溫恢",
+        "snippet": "…令踰獄自首，旣而曰：「臣無逃亡之義。」徑詣刺姧主簿溫恢。恢嘉之，具白太祖，各減死一等。"
+      },
+      {
+        "chapter_id": "wei.27",
+        "chapter_title": "魏書·徐胡二王傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.27.p7",
+        "at": 33,
+        "data_url": "data/sanguozhi/wei/27.json",
+        "matched": "溫恢",
+        "snippet": "…史，州請爲治中。將軍張遼與其護軍武周有隙。遼見刺史溫恢求請質，質辭以疾。遼出謂質曰：「僕委意於君，何以相辜如此？」質曰：「古人之交也，取多知其不貪，奔北知其不怯，聞流言而不信，故可…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

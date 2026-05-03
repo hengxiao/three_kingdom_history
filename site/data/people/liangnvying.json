@@ -1,0 +1,41 @@
+{
+  "id": "liangnvying",
+  "primary_name": "懿獻梁皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "梁女瑩",
+    "懿獻皇后"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 159,
+  "brief": "漢桓帝前皇后，梁冀之妹",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.10",
+      "title": "皇后紀（下）",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.78",
+        "chapter_title": "宦者列传",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.78.p33",
+        "at": 51,
+        "data_url": "data/houhanshu/hhs/78.json",
+        "matched": "皇后",
+        "snippet": "…权威，威振天下。冀自诛太尉李固、杜乔等，骄横益甚，皇后乘势忌恣，多所鸩毒，上下钳口，莫有言者。帝逼畏久，恒怀不平，恐言泄，不敢谋之。延熹二年，皇后崩，帝因如厕，独呼衡问：“左右与外…"
+      }
+    ]
+  },
+  "n_mentions": 1
+}

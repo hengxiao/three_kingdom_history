@@ -1,0 +1,105 @@
+{
+  "id": "sunbi",
+  "primary_name": "孫賁",
+  "courtesy_name": "伯陽",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p36",
+        "at": 45,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "孫賁",
+        "snippet": "…揚州刺史。州舊治壽春，術已據之，繇欲南渡江，吳景、孫賁迎置曲阿。及策攻廬江，繇聞之，以景、賁本術所置，懼為袁、孫所併，遂構嫌隙，迫逐景、賁。景、賁退屯歷陽。繇遣將樊能、于糜屯橫江，…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p82",
+        "at": 46,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "孫賁",
+        "snippet": "…表策為討逆將軍，封吳侯；以弟女配策弟匡，又為子彰取孫賁女；禮辟策弟權、翊；以張紘為侍御史。袁術以周瑜為居巢長，以臨淮魯肅為東城長。瑜、肅知術終無所成，皆棄官渡江從孫策。策以瑜為建威…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p13",
+        "at": 502,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "孫賁",
+        "snippet": "…給兵三千人以守皖城，皆徙所得民東詣吳。勳還至彭澤，孫賁、孫輔邀擊，破之。勳走保流沂，求救於黃祖，祖遣其子射率船軍五千人助勳。策復就攻勳，大破之，勳北歸曹操，射亦遁走。策收得勳兵二千…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p16",
+        "at": 10,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "孫賁",
+        "snippet": "策分豫章為廬陵郡，以孫賁為豫章太守，孫輔為廬陵太守。會僮芝病，輔遂進屯廬陵，留周瑜鎮巴丘。孫策之克皖城也，撫視袁術妻子；及入豫章，收載劉繇喪，善遇其家…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.1",
+        "chapter_title": "吳書·孫破虜討逆傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.1.p13",
+        "at": 155,
+        "data_url": "data/sanguozhi/wu/01.json",
+        "matched": "孫賁",
+        "snippet": "…盡更置長吏，策自領會稽太守，復以呉景爲丹楊太守，以孫賁爲豫章太守，分豫章爲廬陵郡，以賁弟輔爲廬陵太守，丹揚朱治爲呉郡太守。彭城張昭、廣陵張紘、秦松、陳端等，爲謀主。"
+      },
+      {
+        "chapter_id": "wu.4",
+        "chapter_title": "吳書·劉繇太史慈士燮傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.4.p3",
+        "at": 204,
+        "data_url": "data/sanguozhi/wu/04.json",
+        "matched": "孫賁",
+        "snippet": "…。時袁術在淮南，繇畏憚，不敢之州。欲南渡江，吳景，孫賁迎置曲阿。術圖為僭逆，攻沒諸郡縣。繇遣樊能、張英屯江邊以拒之。以景、賁術所授用，乃迫逐使去。於是術乃自置揚州刺史，與景、賁並力…"
+      },
+      {
+        "chapter_id": "wu.5",
+        "chapter_title": "吳書·妃嬪傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.5.p3",
+        "at": 85,
+        "data_url": "data/sanguozhi/wu/05.json",
+        "matched": "孫賁",
+        "snippet": "…走。會為劉繇所迫，景復北依術，術以為督軍中郎將，與孫賁共討樊能、於麋於橫江，又擊笮融、薛禮於秣陵。時策被創牛渚，降賊復反，景攻討，盡禽之。從討劉繇，繇奔豫章，策遣景、賁到壽春報術。…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 7
+}

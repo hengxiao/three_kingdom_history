@@ -1,0 +1,72 @@
+{
+  "id": "luotong",
+  "primary_name": "駱統",
+  "courtesy_name": "公緒",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.12",
+      "title": "吳書·虞陆张骆陆吾朱传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p41",
+        "at": 49,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "駱統",
+        "snippet": "…，軍容鮮整，士卒練習。權大悅，增其兵，寵任之。功曹駱統勸權尊賢接士，勤求損益，饗賜之日，人人別進，問其燥濕，加以密意，誘諭使言，察其志趣。權納用焉。統，俊之子也。廬陵太守孫輔恐權不…"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p82",
+        "at": 116,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "駱統",
+        "snippet": "…言「備必可禽，乞復攻之。」吳王以問陸遜。遜與朱然、駱統上言曰：「曹丕大合士眾，外托助國討備，內實有奸心，謹決計輒還。」"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p14",
+        "at": 40,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "駱統",
+        "snippet": "…等各競表言備必可禽，乞復攻之。權以問遜，遜與朱然、駱統以為「曹丕大合士眾。外托助國討備，內實有奸心，謹決計輒還」。無幾，魏軍果出，三方受敵也。備尋病亡，子禪襲位，諸葛亮秉政，與權連…"
+      },
+      {
+        "chapter_id": "wu.8",
+        "chapter_title": "吳書·張嚴程闞薛傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.8.p11",
+        "at": 60,
+        "data_url": "data/sanguozhi/wu/08.json",
+        "matched": "駱統",
+        "snippet": "…，講授常數十人。權為吳王，拜固儀郎，自陸遜、張溫、駱統等皆拜之。黃武四年尚書僕射，卒。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

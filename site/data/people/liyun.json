@@ -1,0 +1,61 @@
+{
+  "id": "liyun",
+  "primary_name": "李雲",
+  "courtesy_name": "行祖",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.57",
+      "title": "杜欒劉李劉謝列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/57.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.13",
+        "chapter_title": "魏書·鍾繇華歆王朗傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.13.p25",
+        "at": 14,
+        "data_url": "data/sanguozhi/wei/13.json",
+        "matched": "李雲",
+        "snippet": "帝嘗問曰：「漢桓帝時，白馬令李雲上書言：『帝者，諦也。是帝欲不諦。』當何得不死？」肅對曰：「但爲言失逆順之節。原其本意，皆欲盡心，念存補國。且帝者之威，過於雷…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.61",
+        "chapter_title": "左周黃列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.61.p63",
+        "at": 98,
+        "data_url": "data/houhanshu/hhs/61.json",
+        "matched": "李雲",
+        "snippet": "…坐陳國議，遂見殘滅。賢愚切痛，海內傷懼。又前白馬令李雲，指言宦官罪穢宜誅，皆因觿人之心，以救積薪之敝。弘農杜觿，知雲所言宜行，懼雲以忠獲罪，故上書陳理之，乞同日而死，所以感悟國家，…"
+      },
+      {
+        "chapter_id": "hhs.66",
+        "chapter_title": "陳王列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.66.p8",
+        "at": 9,
+        "data_url": "data/houhanshu/hhs/66.json",
+        "matched": "李雲",
+        "snippet": "遷大鴻臚。會白馬令李雲抗疏諫，桓帝怒，當伏*[重]*誅。蕃上書救雲，坐免歸田里。"
+      }
+    ]
+  },
+  "n_mentions": 3
+}

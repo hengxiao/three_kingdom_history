@@ -5,6 +5,14 @@ source:
   retrieved: '2026-05-03'
   sha256: 02bdce7b4af956571b9884de897d185993c81e63f1aef158ac8dccf19ad9d6fd
 annotations:
+- id: hhs.65.p1.h1
+  anchor: hhs.65.p1
+  at: 0
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
 - id: hhs.65.p2.t1
   anchor: hhs.65.p2
   at: 0
@@ -17,6 +25,16 @@ annotations:
   era: 永和
   era_year: 6
   reasoning: 原文「永和六年」直接出现年号；解析為 AD 141
+- anchor: hhs.65.p4
+  at: 6
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「沖質之閒，梁太后臨朝」即順烈梁妠臨朝，未列 roster。
+  id: hhs.65.p4.h1
 - id: hhs.65.p8.t1
   anchor: hhs.65.p8
   at: 14
@@ -29,6 +47,14 @@ annotations:
   era: 延熹
   era_year: 4
   reasoning: 原文「延熹四年」直接出现年号；解析為 AD 161
+- id: hhs.65.p8.h1
+  anchor: hhs.65.p8
+  at: 39
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
 - id: hhs.65.p9.t1
   anchor: hhs.65.p9
   at: 61
@@ -53,6 +79,30 @@ annotations:
   era: 延熹
   era_year: 5
   reasoning: 「其年」 = 当前年 延熹5年 (AD 162)
+- id: hhs.65.p13.h1
+  anchor: hhs.65.p13
+  at: 18
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p13.h2
+  anchor: hhs.65.p13
+  at: 56
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p15.h1
+  anchor: hhs.65.p15
+  at: 177
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
 - id: hhs.65.p16.t1
   anchor: hhs.65.p16
   at: 10
@@ -65,6 +115,58 @@ annotations:
   era: 永康
   era_year: 1
   reasoning: 原文「永康元年」直接出现年号；解析為 AD 167
+- anchor: hhs.65.p16
+  at: 72
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 永康元年皇甫規對策論災異，桓帝末年事，「陛下八年之中」即桓帝（延熹改元已八年），對應 huanhan。
+  id: hhs.65.p16.h5
+- id: hhs.65.p16.h1
+  anchor: hhs.65.p16
+  at: 138
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.65.p16.h2
+  anchor: hhs.65.p16
+  at: 158
+  length: 2
+  type: person
+  person_id: liuyou
+  text: 劉祐
+  via: primary
+- id: hhs.65.p16.h3
+  anchor: hhs.65.p16
+  at: 171
+  length: 2
+  type: person
+  person_id: yinxun_2
+  text: 尹勳
+  via: primary
+- id: hhs.65.p16.h4
+  anchor: hhs.65.p16
+  at: 184
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- anchor: hhs.65.p16
+  at: 265
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「伏願陛下暫留聖明」即奏桓帝，對應 huanhan。
+  id: hhs.65.p16.h6
 - id: hhs.65.p17.t1
   anchor: hhs.65.p17
   at: 31
@@ -77,6 +179,30 @@ annotations:
   era: 熹平
   era_year: 3
   reasoning: 原文「熹平三年」直接出现年号；解析為 AD 174
+- id: hhs.65.p18.h1
+  anchor: hhs.65.p18
+  at: 26
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.65.p20.h1
+  anchor: hhs.65.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p20.h2
+  anchor: hhs.65.p20
+  at: 96
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.65.p21.t1
   anchor: hhs.65.p21
   at: 0
@@ -113,6 +239,14 @@ annotations:
   era: 熹平
   era_year: 4
   reasoning: 「明年」 = 当前年 熹平3年 (AD 174) 之次年 = AD 175
+- id: hhs.65.p25.h1
+  anchor: hhs.65.p25
+  at: 19
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
 - id: hhs.65.p25.t2
   anchor: hhs.65.p25
   at: 90
@@ -153,6 +287,14 @@ annotations:
   era: 永康
   era_year: 1
   reasoning: 原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）
+- id: hhs.65.p27.h1
+  anchor: hhs.65.p27
+  at: 68
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.65.p28.t1
   anchor: hhs.65.p28
   at: 0
@@ -165,6 +307,24 @@ annotations:
   era: 建寧
   era_year: 1
   reasoning: 原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）
+- anchor: hhs.65.p28
+  at: 12
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「竇太后臨朝」即桓思竇皇后竇妙臨朝，未列 roster。
+  id: hhs.65.p28.h2
+- id: hhs.65.p28.h1
+  anchor: hhs.65.p28
+  at: 25
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.65.p29.t1
   anchor: hhs.65.p29
   at: 0
@@ -177,6 +337,32 @@ annotations:
   era: 熹平
   era_year: 5
   reasoning: 「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176
+- id: hhs.65.p30.h1
+  anchor: hhs.65.p30
+  at: 78
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- anchor: hhs.65.p30
+  at: 176
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 張奐上疏「皇太后雖居南居」即竇太后竇妙被遷南宮，未列 roster。
+  id: hhs.65.p30.h2
+- id: hhs.65.p31.h1
+  anchor: hhs.65.p31
+  at: 21
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.65.p31.t1
   anchor: hhs.65.p31
   at: 62
@@ -191,6 +377,30 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 熹平5年 (AD 176)，月份「三月」
+- id: hhs.65.p33.h1
+  anchor: hhs.65.p33
+  at: 9
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
+- id: hhs.65.p35.h1
+  anchor: hhs.65.p35
+  at: 40
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.65.p35.h2
+  anchor: hhs.65.p35
+  at: 55
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: hhs.65.p35.t1
   anchor: hhs.65.p35
   at: 64
@@ -203,6 +413,30 @@ annotations:
   era: 光和
   era_year: 4
   reasoning: 原文「光和四年」直接出现年号；解析為 AD 181
+- id: hhs.65.p38.h1
+  anchor: hhs.65.p38
+  at: 44
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.65.p38.h2
+  anchor: hhs.65.p38
+  at: 69
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p39.h1
+  anchor: hhs.65.p39
+  at: 0
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
 - id: hhs.65.p41.t1
   anchor: hhs.65.p41
   at: 36
@@ -215,6 +449,14 @@ annotations:
   era: 永壽
   era_year: 2
   reasoning: 原文「永壽二年」直接出现年号；解析為 AD 156（回溯前事，不推進章節時間軸）
+- id: hhs.65.p41.h1
+  anchor: hhs.65.p41
+  at: 41
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.65.p43.t1
   anchor: hhs.65.p43
   at: 0
@@ -287,6 +529,62 @@ annotations:
   era: 永康
   era_year: 1
   reasoning: 原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）
+- id: hhs.65.p53.h1
+  anchor: hhs.65.p53
+  at: 37
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.65.p53.h2
+  anchor: hhs.65.p53
+  at: 44
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p53.h3
+  anchor: hhs.65.p53
+  at: 56
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.65.p53.h4
+  anchor: hhs.65.p53
+  at: 74
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.65.p53.h5
+  anchor: hhs.65.p53
+  at: 78
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p53.h6
+  anchor: hhs.65.p53
+  at: 131
+  length: 3
+  type: person
+  person_id: huangfugui
+  text: 皇甫規
+  via: primary
+- id: hhs.65.p53.h7
+  anchor: hhs.65.p53
+  at: 153
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
 - id: hhs.65.p55.t1
   anchor: hhs.65.p55
   at: 0
@@ -299,6 +597,32 @@ annotations:
   era: 建寧
   era_year: 1
   reasoning: 原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）
+- anchor: hhs.65.p56
+  at: 2
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「竇太后臨朝」即桓思竇妙臨朝，未列 roster。
+  id: hhs.65.p56.h1
+- id: hhs.65.p58.h1
+  anchor: hhs.65.p58
+  at: 1
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: hhs.65.p58.h2
+  anchor: hhs.65.p58
+  at: 83
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
 - id: hhs.65.p59.t1
   anchor: hhs.65.p59
   at: 0
@@ -347,6 +671,56 @@ annotations:
   era: 光和
   era_year: 2
   reasoning: 原文「光和二年」直接出现年号；解析為 AD 179（回溯前事，不推進章節時間軸）
+- id: hhs.65.p65.h1
+  anchor: hhs.65.p65
+  at: 85
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.65.p69.h1
+  anchor: hhs.65.p69
+  at: 58
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.65.p71.h1
+  anchor: hhs.65.p71
+  at: 12
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
+- id: hhs.65.p78.h1
+  anchor: hhs.65.p78
+  at: 45
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- anchor: hhs.65.p78
+  at: 94
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 校勘記引「皇太后恩禮不接」即竇太后竇妙，未列 roster。
+  id: hhs.65.p78.h4
+- id: hhs.65.p78.h2
+  anchor: hhs.65.p78
+  at: 109
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.65.p78.t1
   anchor: hhs.65.p78
   at: 111
@@ -361,6 +735,14 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 原文「建寧二年四月」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
+- id: hhs.65.p78.h3
+  anchor: hhs.65.p78
+  at: 124
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.65.p78.t2
   anchor: hhs.65.p78
   at: 126
@@ -373,3 +755,27 @@ annotations:
   era: 永康
   era_year: 1
   reasoning: 原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）
+- id: hhs.65.p87.h1
+  anchor: hhs.65.p87
+  at: 102
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: hhs.65.p92.h1
+  anchor: hhs.65.p92
+  at: 29
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.65.p97.h1
+  anchor: hhs.65.p97
+  at: 8
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary

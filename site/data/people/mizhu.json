@@ -1,0 +1,94 @@
+{
+  "id": "mizhu",
+  "primary_name": "麋竺",
+  "courtesy_name": "子仲",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.8",
+      "title": "蜀書·許糜孫簡伊秦傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/08.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p32",
+        "at": 13,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "麋竺",
+        "snippet": "徐州牧陶謙疾篤，謂別駕東海麋竺曰：「非劉備不能安此州也。」謙卒，竺率州人迎備。備未敢當，曰：「袁公路近在壽春，〔此君四世五公，海內所歸〕[4]，君可以州與之…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p9",
+        "at": 178,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "麋竺",
+        "snippet": "…術戰，又敗，屯於海西。飢餓困踧，吏士相食，從事東海麋竺以家財助軍。備請降於布，布亦忿袁術運糧不繼，乃召備，復以為豫州刺史，與并勢擊術，使屯小沛。布自稱徐州牧。"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p9",
+        "at": 119,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "麋竺",
+        "snippet": "…太守、揚武將軍，裨將軍南陽黃忠為討虜將軍，從事中郎麋竺為安漢將軍，簡雍為昭德將軍，北海孫乾為秉忠將軍，廣漢長黃權為偏將軍，汝南許靖為左將軍長史，龐羲為司馬，李嚴為犍為太守，費觀為巴…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p16",
+        "at": 89,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "麋竺",
+        "snippet": "…為股肱，法正為謀主，關羽、張飛、馬超為爪牙，許靖、麋竺、簡雍為賓友。及董和、黃權、李嚴等本璋之所授用也，吳壹、費觀等又璋之婚親也，彭羕又璋之所排擯也，劉巴者宿昔之所忌恨也，皆處之顯…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p4",
+        "at": 113,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "麋竺",
+        "snippet": "…楷歸謙。謙表先主為豫州刺史，屯小沛。謙病篤，謂別駕麋竺曰：「非劉備不能安此州也。」謙死，竺率州人迎先主，先主未敢當。下邳陳登謂先主曰：「今漢室陵遲，海內傾覆，立功立事，在於今日。彼…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p9",
+        "at": 15,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "麋竺",
+        "snippet": "曹公既破紹，自南擊先主。先主遣麋竺、孫乾與劉表相聞，表自郊迎，以上賓禮待之，益其兵，使屯新野。荊州豪傑歸先主者日益多，表疑其心，陰禦之。使拒夏侯惇、于禁等於博望…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 6
+}

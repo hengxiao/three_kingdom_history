@@ -11,26 +11,81 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷57",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 43,
+  "n_segments": 42,
   "segments": [
     {
       "id": "wu.12.p1",
       "text": "虞翻陆绩张温骆统陆瑁吾粲朱据",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "虞翻",
+          "person_id": "yufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p1.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "吾粲",
+          "person_id": "wucan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.12.p2",
       "text": "虞翻字仲翔，會稽餘姚人也。太守王朗命為功曹。孫策征會稽，翻時遭父喪，衰絰詣府門，朗欲就之，翻乃脫衰入見，勸朗避策。朗不能用。拒戰敗績，亡走浮海。翻追隨營護，到東部候官，候官長閉城不受，翻往說之，然後見納。朗謂翻曰：\"卿有老母，可以還矣。\"翻既歸，策覆命為功曹，待以交友之禮。身詣翻第。",
       "annotations": [
         {
+          "id": "wu.12.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "虞翻",
+          "person_id": "yufan",
+          "via": "primary"
+        },
+        {
           "id": "wu.12.p2.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "《吴书》曰：翻少好学，有高气。年十二，客有候其兄者，不过翻，翻追与书曰：“仆闻虎魄不取腐芥，磁石不受曲针，过而不存，不亦宜乎！”客得书奇之，由是见称。"
+        },
+        {
+          "id": "wu.12.p2.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p2.h3",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p2.h4",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
         },
         {
           "id": "wu.12.p2.a2",
@@ -47,6 +102,15 @@
           "text": "《翻别传》曰：朗使翻见豫章太守华歆，图起义兵。翻未至豫章，闻孙策向会稽，翻乃还。会遭父丧，以臣使有节，不敢过家，星行追朗至候官。朗遣翻还，然后奔丧。而传云孙策之来，翻衰绖诣府门，劝朗避策，则为大异。"
         },
         {
+          "id": "wu.12.p2.h5",
+          "type": "person",
+          "at": 123,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
           "id": "wu.12.p2.a4",
           "type": "pei",
           "at": 142,
@@ -60,6 +124,24 @@
       "text": "策好馳騁遊獵，翻諫曰：\"明府用烏集之眾，驅散附之士，皆得其死力，雖漢高帝不及也。至於輕出微行，從官不暇嚴，吏卒常苦之。夫君人者不重則不威，故曰龍魚服，困於豫且，白蛇自放，劉季害之，願少留意。\"策曰：\"君言是也，然時有所思，端坐悒悒，有裨諶草創之計，是以行耳。\"翻出為富春長。",
       "annotations": [
         {
+          "id": "wu.12.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p3.h2",
+          "type": "person",
+          "at": 96,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.12.p3.a1",
           "type": "pei",
           "at": 130,
@@ -72,6 +154,15 @@
       "id": "wu.12.p4",
       "text": "策薨，諸長吏並欲出赴喪，翻曰：\"恐鄰縣山民或有奸變，遠委城郭，必致不虞。\"因留制服行喪。諸縣皆效之，鹹以安寧。後翻州舉茂才，漢召為侍御使，曹公為司空辟，皆不就。",
       "annotations": [
+        {
+          "id": "wu.12.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.12.p4.a1",
           "type": "pei",
@@ -91,17 +182,199 @@
     {
       "id": "wu.12.p5",
       "text": "翻與少府孔融書，並示以所著《易注》。融答書曰：\"聞延陵之理樂，睹吾子之治《易》，乃知東南之美者，非徒會稽之竹箭也。又觀象雲物，察應寒溫，原其禍福，與神合契，可謂探賾窮通者也。\"會稽東部都尉張紘又與融書曰：\"虞仲翔前頗為論者所侵，美寶為質，雕摩益光，不足以損。\"",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p5.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p5.h2",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "張紘",
+          "person_id": "zhanghong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.12.p6",
       "text": "孫權以為騎都尉。翻數犯顏諫爭，權不能悅。又性不協俗，多見謗毀，坐徙丹楊涇縣。呂蒙圖取關羽，稱疾還建業，以翻兼知醫術，請以自隨，亦欲因此令翻得釋也。後蒙舉軍西上，南郡太守麋芳開城出降。蒙未據郡城而作樂沙上。翻渭蒙曰：“今區區一心者麋將軍也，城中之人豈可盡信，何不急入城持其管答乎？”蒙即從之。時城中有伏計，賴翻謀不行。關羽既敗，權使翻筮之，得兌下坎上，節，五爻變之臨，翻曰：\"不出二日，必當斷頭。\"果如翻言。權曰：\"卿不及伏羲，可與東方朔為比矣。\"",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p6.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h3",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p6.h4",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p6.h5",
+          "type": "person",
+          "at": 74,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h6",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h7",
+          "type": "person",
+          "at": 104,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h8",
+          "type": "person",
+          "at": 140,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h9",
+          "type": "person",
+          "at": 158,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p6.h10",
+          "type": "person",
+          "at": 163,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p6.h11",
+          "type": "person",
+          "at": 203,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.12.p7",
       "text": "魏將于禁為羽所獲，繫在城中，權至釋之，請與相見。他日，權乘馬出，引禁並行，翻呵禁曰：\"爾降虜，何敢與吾君齊馬首乎！\"欲抗鞭擊禁，權呵止之。後權於樓船會群臣飲，禁聞樂流涕，翻又曰：“汝欲以偽求免邪？”權帳然不平。",
       "annotations": [
+        {
+          "id": "wu.12.p7.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "于禁",
+          "person_id": "yujin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p7.h2",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p7.h3",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p7.h4",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p7.h5",
+          "type": "person",
+          "at": 64,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p7.h6",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p7.h7",
+          "type": "person",
+          "at": 99,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.12.p7.a1",
           "type": "pei",
@@ -114,12 +387,103 @@
     {
       "id": "wu.12.p8",
       "text": "權既為吳王，歡宴之末。自起行酒，翻伏地陽醉，不持。權去，翻起坐。權於是大怒，手劍欲擊之，侍坐者莫不惶遽。惟大司農劉基起抱權諫曰：\"大王以三爵之後殺善士，雖翻有罪，天下孰知之?且大王以能容賢畜眾，故海內望風，今一朝棄之，可乎？\"權曰：\"曹孟德尚殺孔文舉，孤於虞翻何有哉！\"基曰：\"孟德輕害士人，天下非之。大王躬行德義，欲與堯、舜比隆，何得自喻於彼乎？\"翻由是得免。權因敕左右，自今酒後言殺，皆不得殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p8.h2",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p8.h3",
+          "type": "person",
+          "at": 32,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p8.h4",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p8.h5",
+          "type": "person",
+          "at": 113,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p8.h6",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "虞翻",
+          "person_id": "yufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p8.h7",
+          "type": "person",
+          "at": 181,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p9",
       "text": "翻常乘船行，與麋芳相逢，芳船上人多欲令翻自避，先驅曰：“避將軍船！”翻厲聲曰：\"失忠與信，何以事君？傾人二城，而稱將軍，可乎？\"芳闔戶不應而遽避之。後翻乘車行，又經芳營勞，吏閉門，車不得過。翻復怒曰：\"當閉反開。當開反閉。豈得事宜邪？\"芳聞之，有慚色。翻性疏直，數有酒失。權與張昭論及神仙，翻指昭曰：\"彼皆死人，而語神仙，世豈有仙人也！\"權積怒非一，遂徙翻交州。雖處罪放，而講學不倦，門徒常數百人。又為《老子》《論語》《國語》訓注，皆傳於世。",
       "annotations": [
+        {
+          "id": "wu.12.p9.h1",
+          "type": "person",
+          "at": 136,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p9.h2",
+          "type": "person",
+          "at": 138,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p9.h3",
+          "type": "person",
+          "at": 169,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.12.p9.a1",
           "type": "pei",
@@ -188,11 +552,92 @@
       "text": "陸績字公紀，吳郡吳人也。父康，漢末為廬江太守。績年六歲，於九江見袁術。術出橘，績懷三枚，去，拜辭墮地，術謂曰：“陸郎作賓客而懷橘乎？”績跪答曰：\"欲歸遺母。\"術大奇之。孫策在吳，張昭、張紘、秦松為上賓，共論四海未泰，須當用武治而平之，績年少末坐，遙大聲言曰：\"昔管夷吾相齊桓公，九合諸候，一匡天下，不用兵車。孔子曰：'遠人不服，則修文德以來之。'今論者不務道德懷取之術，而惟尚武，績雖童蒙，竊所未安也。\"昭等異焉。",
       "annotations": [
         {
+          "id": "wu.12.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陸績",
+          "person_id": "luji",
+          "via": "primary"
+        },
+        {
           "id": "wu.12.p12.a1",
           "type": "pei",
           "at": 23,
           "length": 0,
           "text": "谢承《后汉书》曰：康字季宁，少惇孝悌，勤脩操行，太守李肃察孝廉。肃后坐事伏法，康敛尸送丧还颍川，行服，礼终，举茂才，历三郡太守，所在称治，后拜庐江太守。"
+        },
+        {
+          "id": "wu.12.p12.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p12.h3",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p12.h4",
+          "type": "person",
+          "at": 51,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p12.h5",
+          "type": "person",
+          "at": 79,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p12.h6",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p12.h7",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p12.h8",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "張紘",
+          "person_id": "zhanghong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p12.h9",
+          "type": "person",
+          "at": 183,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
         }
       ]
     },
@@ -200,6 +645,42 @@
       "id": "wu.12.p13",
       "text": "績容貌雄壯，博學多識，星歷算數無不該覽。虞翻舊齒名盛，龐統荊州令士，年亦差長，皆與績友善。孫權統事，闢為奏曹掾，以直道見憚，出為鬱林太守，加偏將軍，給兵二千人。績既有躄疾，又意在儒雅，非其志也。雖有軍事，著述不廢，作《渾天圖》，注《易》釋《玄》，皆傳於世。豫自知亡日，乃為辭曰：\"有漢志士吳郡陸績，幼敦《詩》、《書》，長玩《禮》、《易》受命南征，遘疾遇厄，遭命不幸，嗚呼悲隔！\"又曰：\"從今已去，六十年之外，車同軌，書同文，恨不及見也。\"年三十二卒。長子宏，會稽南部都尉，次子睿，長水校尉。",
       "annotations": [
+        {
+          "id": "wu.12.p13.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "虞翻",
+          "person_id": "yufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p13.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "龐統",
+          "person_id": "pangtong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p13.h3",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p13.h4",
+          "type": "person",
+          "at": 146,
+          "length": 2,
+          "text": "陸績",
+          "person_id": "luji",
+          "via": "primary"
+        },
         {
           "id": "wu.12.p13.a1",
           "type": "pei",
@@ -212,17 +693,155 @@
     {
       "id": "wu.12.p14",
       "text": "張溫字惠恕，吳郡吳人也。父允，以輕財重士，名顯州郡，為孫權東曹掾。卒。溫少修節操，容貌奇偉。權聞之，以問公卿曰：“溫當今與誰為比？”大（司）農劉基曰：\"可與全琮為輩。\"太常顧雍曰：\"基未詳其為人也。溫當今無輩。\"權曰：\"如是，張允不死也。\"征到延見，文辭占對，觀者傾竦，權改容加禮。罷出，張昭執其手曰：\"老夫托意，君宜明之。\"拜議郎、選曹尚書，徙太子太傅，甚見信重。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p14.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p14.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p14.h3",
+          "type": "person",
+          "at": 46,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p14.h4",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p14.h5",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "顧雍",
+          "person_id": "guyong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p14.h6",
+          "type": "person",
+          "at": 106,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p14.h7",
+          "type": "person",
+          "at": 135,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p14.h8",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p14.h9",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.12.p15",
       "text": "時年三十二，以輔義中郎將使蜀。權謂溫曰：\"卿不宜遠出，恐諸葛孔明不知吾所以與曹氏通意，（以）故屈卿行。若山越都除，便欲大構於蜀。行人之義，受命不受辭也。\"溫對曰：\"臣入無腹心之規，出無專對之用，懼無張老延譽之功，又無子產陳事之效。然諸葛亮達見計數，必知神慮屈申之宜，加受朝廷天覆之惠，推亮之心，必無疑貳。\"溫至蜀，詣闕拜章曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p15.h1",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p15.h2",
+          "type": "person",
+          "at": 28,
+          "length": 4,
+          "text": "諸葛孔明",
+          "person_id": "zhugeliang",
+          "via": "alias"
+        },
+        {
+          "id": "wu.12.p15.h3",
+          "type": "person",
+          "at": 116,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p15.h4",
+          "type": "person",
+          "at": 143,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.12.p16",
       "text": "昔高宗以諒闇昌殷祚於再興，成王以幼沖隆周德於太平，功冒溥天，聲貫罔極。今陛下以聰明之姿，等契往古，總百揆於良佐，參列精這炳耀，遐邇望風，莫不欣賴。吳國勤任旅力，清澄江滸，願與有道平一宇內，委心協規，有如河水，軍事興煩，使役乏少，是以忍鄙倍之羞，使下臣溫通致情好。陛下敦祟禮義，未便恥忽。臣自（入）遠境，及即近郊，頻蒙勞來，恩詔輒加，以榮自懼，悚怛若驚。謹奉所賚函書一封。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p16.h1",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "liushan",
+          "via": "llm"
+        },
+        {
+          "id": "wu.12.p16.h2",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "liushan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.12.p17",
@@ -232,22 +851,98 @@
     {
       "id": "wu.12.p18",
       "text": "權既陰銜溫稱美蜀政，又嫌其聲名大盛，眾庶炫惑，恐終不為己用，思有以中傷之，會暨艷事起，遂因此發舉。艷字子休，亦吳郡人也，溫引致之，以為選曹郎，至尚書。艷性狷厲，好為清議，見時郎署混濁淆雜，多非其人，欲臧否區別，賢愚異貫。彈射百僚，核選三署，率皆貶高就下，降損數等，其守故者十未能一，其居位貪鄙，志節污卑者，皆以為軍吏，置營府以處之。而怨憤之聲積，浸潤之譖行矣。競言艷及選曹郎徐彪，專用私情，愛憎不由公理。艷、彪皆坐自殺。溫宿與艷、彪同意，數交書疏，聞問往還，即罪溫。權幽之有司，下令曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p18.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p18.h2",
+          "type": "person",
+          "at": 233,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p19",
       "text": "昔令召張溫，虛己待之，既至顯授，有過舊臣，何圖兇丑，專挾異心！昔暨艷父兄，附於惡逆，寡人無忌，故近而任之，欲觀艷何如。察其中問，形態果見。而溫與之結連死生，艷所進退。皆溫所為頭角，更相表裡，共為腹背，非溫之黨，即就疵瑕，為之生論。又前任溫董督三郡，指撝吏客及殘餘兵，時恐有事，欲令速歸，故授棨戟，獎以威柄。乃便到豫章，表討宿惡，寡人信受其言。特以繞帳、帳下、解煩兵五千人付之。後聞曹丕自出淮、泗，故豫敕溫有急便出。而溫悉內諸將，佈於深山，被命不至。賴丕自退。不然，已往豈可深計，又殷禮者，本占候召，而溫先後乞將到蜀，扇揚異國，為之譚論。又禮之還，當親本職，而令守尚書戶曹郎，如此署置，在溫而已。又溫語賈原，當薦卿作御史，語蔣康，當用卿代賈原，專衒賈國恩，為己形勢。揆其奸心，無所不為。不忍暴於市朝，今斥還本郡，以給廝吏。嗚呼溫也，免罪為幸！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p19.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p19.h2",
+          "type": "person",
+          "at": 190,
+          "length": 2,
+          "text": "曹丕",
+          "person_id": "caopi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p19.h3",
+          "type": "person",
+          "at": 225,
+          "length": 1,
+          "text": "丕",
+          "person_id": "caopi",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.12.p20",
       "text": "將軍駱統表理溫曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p20.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "駱統",
+          "person_id": "luotong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.12.p21",
       "text": "伏惟殿下，天生明德，神啟聖心，招髦秀於四方，署俊乂於宮朝。多士既受普篤之恩，張溫又蒙最隆之施。而溫自招罪譴，孤負榮遇，念其如此，誠可悲疚。然臣周旋之間，為國觀聽，深知其狀，故密陳其理。溫實心無他情，事無逆跡，但年紀尚少，鎮重尚淺，而戴赫烈之寵，體卓偉之才，亢臧否之譚，效褒貶之議。於是務勢者妒者寵，爭名者嫉其才，玄默者非其譚，瑕釁者諱其議，此臣下所當詳辨，明朝所當究察也，昔賈誼，至忠之臣也，漢文，大明之君也，然而絳、灌一言，賈誼遠退。何者？疾之者深，譖之者巧也。然而誤聞於天下，失彰於後世，故孔子曰：‘為君難，為臣不易’也。溫雖智非從橫，武非虓武，然其弘雅之素，英秀之德，文章之采，論議之辯，卓躒冠群，煒曄曜世，世人未有及之者也。故論溫才即可惜，言罪則可恕。若忍威烈以赦盛德，有賢才以敦大業，固明朝之休光，四方之麗觀也。國家之於暨艷，不內之忌族，猶等之平民，是故先見用於朱治，次見舉於眾人，中見任於明朝，亦見交於溫也。君臣之義，義之最重，朋友之交，交之最輕者也。國家不嫌於艷為最重之義，是以溫亦不嫌與艷為最輕之交也。時世寵之於上，溫竊親之於下也。夫宿惡之民，放逸山險，則為勁寇，將置平土，則為健兵，故溫念在欲取宿惡，以除勁寇之害，而增健兵之銳也。但自錯落，功不副言。然計其送兵，以比許晏，數之多少，溫不減之。用之強羸，溫不下之。至於遲速，溫不後之，故得及秋冬之月，赴有警之期，不敢忘恩而遺力也。溫之到蜀，共譽殷禮，雖臣無境外之交，亦有可原也。境外之交，謂無君命而私相從，非國事而陰相聞者也。若以命行，既修君好，因敘己情，亦使臣之道也。故孔子使鄰國，則有私覿之禮。季子聘諸夏，亦有燕譚之義也。古人有言，欲知其君，觀其所使，見其下之明明，知其上之赫赫。溫若譽禮，能使彼歎之，誠所以昭我臣之多良，明使之得其人，顯國美於異境，揚君命於他邦。是以晉趙文子之盟於宋也，稱隨今於屈建。楚王孫圉之使於晉也，譽左史於趙鞅。亦向他國之輔，而歎本邦之臣，經傳美之以光國，而不譏之以外交也。王靖內不憂時，外不趨事，溫彈之不私，推之不假，於是與靖遂為大怨，此其盡節之明驗也。靖兵眾之勢，干任之用，皆勝於賈原、蔣康，溫尚不容私以安於靖，豈敢賣恩以協原、康邪？又原在職不勤，當事不堪，溫數對以丑色，彈以急聲。若其誠欲賣恩作亂，則亦不必貪原也。凡此數者，校之於事既不合，參之於眾亦不驗。臣竊念人君雖有聖哲之姿，非常之智，然以一人之身御兆民之眾，從層宮之內，瞰四國之外，昭群下之情，求萬機之理，猶未易周也，固當聽察群下之言，以廣聰明之烈。今者人非溫既殷勤，臣是溫又契闊，辭則俱巧，意則俱至，各自言欲為國，誰其言欲為私，倉卒之間，猶難即別。然以殿下之聰睿，察講論之曲直。若潛神留思，纖粗研核，情何嫌而不宣，事何昧而不昭哉?溫非親臣，臣非愛溫者也，昔之君子，皆抑私忿，以增君明。彼獨行之於前，臣恥廢之於後，故遂發宿懷於今日。納愚言於聖聽，實盡心於明朝，非有念於溫身也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p21.h1",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p21.h2",
+          "type": "person",
+          "at": 386,
+          "length": 2,
+          "text": "朱治",
+          "person_id": "zhuzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.12.p22",
@@ -267,18 +962,82 @@
       "text": "駱統字公緒，會稽烏傷人也。父俊，官至陳相。為袁術所害。統母改適，為華歆小妻，統時八歲，遂與親客歸會稽。其母送之，拜辭上車，面而不顧，其母泣涕於後。御者曰：「夫人猶在也。」統曰：「不欲增母思，故不顧耳。」事適母甚謹。時饑荒，鄉里及遠方客多有困乏，統為之飲食衰少。其姊仁愛有行，寡歸無子，見統甚哀之，數問其故。統曰：「士大夫糟糠不足，我何心獨飽!」姊曰：「誠如是，何不告我，而自苦若此？」乃自以私粟與統，又以告母，母亦賢之，遂使分施，由是顯名。",
       "annotations": [
         {
+          "id": "wu.12.p23.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "駱統",
+          "person_id": "luotong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p23.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
           "id": "wu.12.p23.a1",
           "type": "pei",
           "at": 27,
           "length": 0,
           "text": "谢承《后汉书》曰：俊字孝远，有文武才幹，少为郡吏，察孝廉，补尚书郎，擢拜陈相。值袁术僭号，兄弟忿争，天下鼎沸，群贼并起，陈与比界，奸慝四布，俊厉威武，保疆境，贼不敢犯。养济百姓，灾害不生，岁获丰稔。后术军众饥困，就俊求粮。俊疾恶术，初不应答。术怒，密使人杀俊。"
+        },
+        {
+          "id": "wu.12.p23.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wu.12.p24",
       "text": "孫權以將軍領會稽太守，統年二十，試為烏程相，民戶過萬，咸歎其惠理。權嘉之，召為功曹，行騎都尉，妻以從兄輔女。統志在補察，苟所聞見，夕不待旦。常勸權以尊賢接士，勤求損益，饗賜之日，可人人別進。問其燥溼，加以密意，誘諭使言，察其志趣，令皆感恩戴義，懷欲報之心。權納用焉。出為建忠中郎將，領武射吏三千人。及淩統死，復領其兵。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p24.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p24.h2",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p24.h3",
+          "type": "person",
+          "at": 72,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.12.p24.h4",
+          "type": "person",
+          "at": 128,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.12.p25",
@@ -288,17 +1047,64 @@
     {
       "id": "wu.12.p26",
       "text": "臣聞君國者，以據疆土為彊富，制威福為尊貴，曜德義為榮顯，永世胤為豐祚。然財須民生，彊賴民力，威恃民勢，福由民殖，德俟民茂，義以民行，六者既備，然後應天受祚，保族宜邦。書曰：『衆非后無能胥以寧，后非衆無以辟四方。』推是言之，則民以君安，君以民濟，不易之道也。今彊敵未殄，海內未乂，三軍有無已之役，江境有不釋之備，徵賦調數，由來積紀，加以殃疫死喪之災，郡縣荒虛，田疇蕪曠，聽聞屬城，民戶浸寡，又多殘老，少有丁夫，聞此之日，心若焚燎。思尋所由，小民無知，既有安土重遷之性，且又前後出為兵者，生則困苦無有溫飽，死則委棄骸骨不反，是以尤用戀本畏遠，同之於死。每有徵發，羸謹居家重累者先見輸送。小有財貨，傾居行賂，不顧窮盡。輕剽者則迸入險阻，黨就羣惡。百姓虛竭，嗷然愁擾，愁擾則不營業，不營業則致窮困，致窮困則不樂生，故口腹急，則姦心動而攜叛多也。又聞民閒，非居處小能自供，生產兒子，多不起養；屯田貧兵，亦多棄子。天則生之，而父母殺之，既懼干逆和氣，感動陰陽。且惟殿下開基建國，乃無窮之業也，彊鄰大敵非造次所滅，疆埸常守非期月之戍，而兵民減耗，後生不育，非所以歷遠年，致成功也。夫國之有民，猶水之有舟，停則以安，擾則以危，愚而不可欺，弱而不可勝，是以聖王重焉，禍福由之，故與民消息，觀時制政。方今長吏親民之職，惟以辨具為能，取過目前之急，少復以恩惠為治，副稱殿下天覆之仁，勤恤之德者。官民政俗，日以彫弊，漸以陵遲，勢不可久。夫治疾及其未篤，除患貴其未深，願殿下少以萬機餘閒，留神思省，補復荒虛，深圖遠計，育殘餘之民，阜人財之用，參曜三光，等崇天地。臣統之大願，足以死而不朽矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p26.h1",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "田疇",
+          "person_id": "tianchou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.12.p27",
       "text": "權感統言，深加意焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p27.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p28",
       "text": "以隨陸遜破蜀軍於宜都，遷偏將軍。黃武初，曹仁攻濡須，使別將常雕等襲中洲，統與嚴圭共拒破之，封新陽亭侯，後為濡須督。數陳便宜，前後書數十上，所言皆善，文多故不悉載。尤以占募在民閒長惡敗俗，生離叛之心，急宜絕置，權與相反覆，終遂行之。年三十六，黃武七年卒。",
       "annotations": [
+        {
+          "id": "wu.12.p28.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p28.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p28.h3",
+          "type": "person",
+          "at": 104,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.12.p28.t1",
           "type": "temporal",
@@ -318,6 +1124,24 @@
       "id": "wu.12.p29",
       "text": "陸瑁字子璋，丞相遜弟也。少好學篤義。陳國陳融、陳留濮陽逸、沛郡蔣纂、廣陵袁迪等，皆單貧有志。就瑁游處，瑁割少分甘，與同豐約。及同郡徐原，爰居會稽，素不相識，臨死遺書，托以孤弱，瑁為起立墳墓，收導其子，又瑁從父績早亡，二男一女，皆數歲以還，瑁迎攝養，至長乃別。州郡辟舉，皆不就。時尚書暨艷盛明臧否，差斷三署。頗揚人暗昧之失，以顯其謫。瑁與書曰：\"夫聖人嘉善矜愚，忘過記功，以成美化。加今王業始建，將一大統，此乃漢高棄瑕錄用之時也，若令善惡異流，貴汝穎月旦之評，誠可以厲俗明教，然恐未易行也。宜遠模仲尼之泛愛，中則郭泰之弘濟，近有益於大道也。\"艷不能行，卒以致敗。",
       "annotations": [
+        {
+          "id": "wu.12.p29.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陸瑁",
+          "person_id": "lumao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p29.h2",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.12.p29.a1",
           "type": "pei",
@@ -343,28 +1167,86 @@
           "era": "嘉禾",
           "era_year": 1,
           "reasoning": "原文「嘉禾元年」直接出现年号；解析為 AD 232"
+        },
+        {
+          "id": "wu.12.p30.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wu.12.p31",
       "text": "臣聞聖王之御遠夷，羈縻而已，不常保有，故古者制地，謂之荒服，言慌惚無常，不可保也。今淵東夷小丑，屏在海隅，雖托人面，與禽獸無異。國家所為不愛貨寶遠以加之者，非嘉其德義也，誠欲誘納愚弄，以規其馬耳。淵之驕黠，恃遠負命，此乃荒貊常態，豈足深怪？昔漢諸帝亦嘗銳意以事外夷，馳使散貨，充滿西域，雖時有恭從，然其使人見害，財貨並沒，不可勝數。今陛下不忍悁悁之忿，欲越巨海，身踐其土，群臣愚議，竊謂不安。何者？北寇與國，壤地連接，苟有間隙，應機而至。夫所以越海求馬，曲意於淵者，為赴目前之急，除腹心之疾也；而更棄本追末，捐近治遠，忿以改規，激以動眾，斯乃猾虜所願聞，非大吳之至計也。又兵家之術，以功役相疲，勞逸相待，得失之間，所覺輒多。且沓渚去淵，道裡尚遠，今到其岸，兵勢三分，使強者進取，次當守船，又次運糧，行人雖多，難得悉用。加以單步負糧，經遠深入，賊地多馬，邀截無常。若淵狙詐，與北未絕，動眾之日，唇齒相濟。若實孑然無所憑賴，其畏怖遠迸，或難卒滅。使天誅稽於朔野，山虜承間而起，恐非萬安之長慮也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p31.h2",
+          "type": "person",
+          "at": 167,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunquan",
+          "via": "llm"
+        },
+        {
+          "id": "wu.12.p31.h1",
+          "type": "person",
+          "at": 289,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p32",
       "text": "權未許。瑁重上疏曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p32.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p33",
       "text": "夫兵革者，固前代所以誅暴亂，威四夷也，然其役皆在奸雄已除，天下無事，從容廟堂之上，以餘議議之耳。至於中夏鼎沸，九域槃互之時，率須深根固本，愛力惜費，務自休養，以待鄰敵之闕，未有正於此時，捨近治遠，以疲軍旅者也。昔尉佗叛逆，僭號稱帝，於時天下乂安，百姓殷阜，帶甲之數，糧食之積，可謂多矣，然漢文猶以遠征不易，重興師旅，告喻而已。今兇桀未殄，疆場猶警，雖蚩尤，鬼方之亂，故當以緩急差之，未宜以淵為先。願陛下抑威住計，暫寧六師，潛神嘿規，以為後圖，天下幸甚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p33.h1",
+          "type": "person",
+          "at": 199,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunquan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wu.12.p34",
       "text": "權再覽瑁書，嘉其詞理端切，遂不行。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p34.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.12.p35",
@@ -384,6 +1266,15 @@
           "reasoning": "原文「赤烏二年」直接出现年号；解析為 AD 239"
         },
         {
+          "id": "wu.12.p35.h1",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        },
+        {
           "id": "wu.12.p35.a1",
           "type": "pei",
           "at": 59,
@@ -397,11 +1288,38 @@
       "text": "吾粲字孔休，吳郡烏程人也。孫河為縣長，粲為小吏，河深奇之。河後為將軍，得自選長吏，表粲為曲阿丞，遷為長史，治有名跡。雖起孤微，與同郡陸遜、卜靜等比肩齊聲矣。孫權為車騎將軍，召為主簿，出為山陰令，還為參軍校尉。",
       "annotations": [
         {
+          "id": "wu.12.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "吾粲",
+          "person_id": "wucan",
+          "via": "primary"
+        },
+        {
           "id": "wu.12.p36.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "《吴录》曰：粲生数岁，孤城妪见之，谓其母曰：“是兒有卿相之骨。”"
+        },
+        {
+          "id": "wu.12.p36.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p36.h3",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         }
       ]
     },
@@ -421,13 +1339,59 @@
           "era": "黃武",
           "era_year": 1,
           "reasoning": "原文「黃武元年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.12.p37.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wu.12.p38",
       "text": "還，遷會稽太守，召處士謝譚為功曹，譚以疾不詣，粲教曰：\"夫應龍以屈伸為神，鳳皇以嘉鳴為貴，何必陷形於天外，潛鱗於重淵者哉？\"粲募合人眾，拜昭義中郎將，與呂岱討平山越，入為屯騎校尉、少府，遷太子太傅。遭二宮之變，抗言執正，明嫡庶之分，欲使魯王霸出駐夏口，遣楊竺不得令在都邑。又數以消息語陸遜，遜時駐武昌，連表諫爭。由此為霸、竺等所譖害，下獄誅。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p38.h1",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p38.h4",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "wu.12.p38.h2",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p38.h3",
+          "type": "person",
+          "at": 145,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.12.p39",
@@ -438,6 +1402,33 @@
       "id": "wu.12.p40",
       "text": "權咨嗟將率，發憤歎息，追思呂蒙、張溫，以為據才兼文武，可以繼之，自是拜建義校尉，領兵屯湖孰。黃龍元年，權遷都建業，征據尚公主，拜左將軍，封雲陽侯。謙虛接士，輕財好施，祿賜雖豐而常不足用。嘉禾中，始鑄大錢，一當五百。後據部曲應受三萬緡，工王遂詐而受之，典校呂壹疑據實取，考問主者，死於杖下，據哀其無辜，厚棺斂之。壹又表據吏為據隱，故厚其殯。權數責問據，據無以自明，藉草待罪。數月，典軍吏劉助覺，言王遂所取，權大感寤，曰：“朱據見枉，況吏民乎？”乃窮治壹罪，賞助百萬。",
       "annotations": [
+        {
+          "id": "wu.12.p40.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p40.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p40.h3",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
         {
           "id": "wu.12.p40.t1",
           "type": "temporal",
@@ -450,6 +1441,33 @@
           "era": "黃龍",
           "era_year": 1,
           "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.12.p40.h4",
+          "type": "person",
+          "at": 51,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p40.h5",
+          "type": "person",
+          "at": 169,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p40.h6",
+          "type": "person",
+          "at": 202,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -471,23 +1489,127 @@
           "reasoning": "原文「赤烏九年」直接出现年号；解析為 AD 246"
         },
         {
+          "id": "wu.12.p41.h4",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
           "id": "wu.12.p41.a1",
           "type": "pei",
           "at": 38,
           "length": 0,
           "text": "殷基《通语》载据争曰：“臣闻太子国之本根，雅性仁孝，天下归心，今卒责之，将有一朝之虑。昔晋献用骊姬而申生不存，汉武信江充而戾太子冤死。臣窃惧太子不堪其忧，虽立思子之宫，无所复及矣。”"
+        },
+        {
+          "id": "wu.12.p41.h1",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p41.h2",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p41.h3",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wu.12.p42",
       "text": "評曰：虞翻古之狂直，因難免乎末世，然權不能容，非曠宇也。陸績之於揚《玄》，是仲尼之左丘明，老聘之嚴周矣；以瑚璉之器，而作守南越，不亦賊夫人歟！張溫才藻俊茂，而智防未備，用致艱患。駱統抗明大義，辭切理至，值權方閉不開。陸瑁篤義規諫，君子有稱焉。吾粲、朱據遭罹屯蹇，以正喪身，悲夫！",
-      "annotations": []
-    },
-    {
-      "id": "wu.12.p43",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.12.p42.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "虞翻",
+          "person_id": "yufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p42.h2",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p42.h3",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "陸績",
+          "person_id": "luji",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p42.h4",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p42.h5",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "駱統",
+          "person_id": "luotong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p42.h6",
+          "type": "person",
+          "at": 102,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.12.p42.h7",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "陸瑁",
+          "person_id": "lumao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.12.p42.h8",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "吾粲",
+          "person_id": "wucan",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

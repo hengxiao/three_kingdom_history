@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷05",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 23,
@@ -24,7 +24,35 @@
     {
       "id": "wei.5.p2",
       "text": "漢制，帝祖母曰太皇太后，帝母曰皇太后，帝妃曰皇后，其餘內官十有四等。魏因漢法，母后之號皆如舊制，自夫人以下，世有增損。太祖建國，始命王后，其下五等：有夫人，有昭儀，有倢伃，有容華，有美人。文帝增貴嬪、淑媛、脩容、順成、良人。明帝增淑妃、昭華、脩儀；除順成官。太和中始復命夫人，登其位於淑妃之上。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.5.p2.h1",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p2.h2",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p2.h3",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.5.p3",
@@ -36,6 +64,24 @@
       "text": "武宣卞皇后，琅邪開陽人，文帝母也。本倡家，年二十，太祖於譙納后爲妾。後隨太祖至洛。及董卓爲亂，太祖微服東出避難。袁術傳太祖凶問，時太祖左右至洛者皆欲歸，后止之曰：「曹君吉凶未可知，今日還家，明日若在，何靣目復相見也？正使禍至，共死何苦！」遂從后言。太祖聞而善之。建安初，丁夫人廢，遂以后爲繼室。諸子無母者，太祖皆令后養之。文帝爲太子，左右長御賀后曰：「將軍拜太子，天下莫不歡喜，后當傾府藏賞賜。」后曰：「王自以丕年大，故用爲嗣，我但當以免無教導之過爲幸耳，亦何爲當重賜遺乎！」長御還，具以語太祖。太祖恱曰：「怒不變容，喜不失節，故是最爲難。」",
       "annotations": [
         {
+          "id": "wei.5.p4.h17",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p4.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.5.p4.a1",
           "type": "pei",
           "at": 21,
@@ -43,11 +89,146 @@
           "text": "《魏書》曰：后以漢延熹三年十二月己巳生齊郡白亭，有黃氣滿室移日。父敬侯怪之，以問卜者王旦，旦曰：「此吉祥也。」"
         },
         {
+          "id": "wei.5.p4.h2",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h3",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h4",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.5.p4.h5",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h6",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.5.p4.h7",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h8",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h9",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h10",
+          "type": "person",
+          "at": 153,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.5.p4.a2",
           "type": "pei",
           "at": 161,
           "length": 0,
           "text": "《魏略》曰：太祖始有丁夫人，又劉夫人生子脩及清河長公主。劉早終，丁養子脩。子脩亡於穰，丁常言：「將我兒殺之，都不復念！」遂哭泣無節。太祖忿之，遣歸家，欲其意折。後太祖就見之，夫人方織，外人傳云「公至」，夫人踞機如故。太祖到，撫其背曰：「顧我共載歸乎！」夫人不顧，又不應。太祖却行，立於戶外，復云：「得無尚可邪！」遂不應，太祖曰：「真訣矣。」遂與絕，欲其家嫁之，其家不敢。初，丁夫人旣爲嫡，加有子脩，丁視后母子不足。后爲繼室，不念舊惡，因太祖出行，常四時使人饋遺，又私迎之，延以正坐而己下之，迎來送去，有如昔日。丁謝曰：「廢放之人，夫人何能常爾邪！」其後丁亡，后請太祖殯葬，許之，乃葬許城南。後太祖病困，自慮不起，歎曰：「我前後行意，於心未曾有所負也。假令死而有靈，子脩若問『我母所在』，我將何辭以荅！」《魏書》曰：后性約儉，不尚華麗，無文繡珠玉，器皆黑漆。太祖常得名璫數具，命后自選一具，后取其中者，太祖問其故，對曰：「取其上者爲貪，取其下者爲偽，故取其中者。」"
+        },
+        {
+          "id": "wei.5.p4.h11",
+          "type": "person",
+          "at": 161,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h15",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p4.h16",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p4.h12",
+          "type": "person",
+          "at": 205,
+          "length": 1,
+          "text": "丕",
+          "person_id": "caopi",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.5.p4.h13",
+          "type": "person",
+          "at": 245,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p4.h14",
+          "type": "person",
+          "at": 248,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -56,11 +237,92 @@
       "text": "二十四年，拜爲王后，策曰：「夫人卞氏，撫養諸子，有母儀之德。今進位王后，太子諸侯陪位，羣卿上壽，減國內死罪一等。」二十五年，太祖崩，文帝即王位，尊后曰王太后，及踐阼，尊后曰皇太后，稱永壽宮。明帝即位，尊太后曰太皇太后。",
       "annotations": [
         {
+          "id": "wei.5.p5.h8",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "王后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p5.h9",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "王后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p5.h1",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p5.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p5.h4",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p5.h5",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.5.p5.a1",
           "type": "pei",
           "at": 95,
           "length": 0,
           "text": "《魏書》曰：后以國用不足，滅損御食，諸金銀器物皆去之。東阿王植，太后少子，最愛之。後植犯法，爲有司所奏，文帝令太后弟子奉車都尉蘭持公卿議白太后，太后曰：「不意此兒所作如是，汝還語帝，不可以我故壞國法。」及自見帝，不以爲言。臣松之案：文帝夢磨錢，欲使文滅而更愈明，以問周宣。宣荅曰：「此陛下家事，雖意欲爾，而太后不聽。」則太后用意，不得如此書所言也。《魏書》又曰：太后每隨軍征行，見高年白首，輙住車呼問，賜與絹帛，對之涕泣曰：「恨父母不及我時也。」太后每見外親，不假以顏色，常言「居處當務節儉，不當望賞賜，念自佚也。外舍當怪吾遇之太薄，吾自有常度故也。吾事武帝四五十年，行儉日久，不能自變爲奢，有犯科禁者，吾且能加罪一等耳，莫望錢米恩貸也。」帝爲太后弟秉起第，第成，太后幸第請諸家外親，設下廚，無異膳。太后左右菜食粟飯，無魚肉。其儉如此。"
+        },
+        {
+          "id": "wei.5.p5.h3",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p5.h6",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p5.h7",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -68,6 +330,42 @@
       "id": "wei.5.p6",
       "text": "黃初中，文帝欲追封太后父母，尚書陳羣奏曰：「陛下以聖德應運受命，創業革制，當永爲後式。案典籍之文，無婦人分土命爵之制。在禮典，婦因夫爵。秦違古法，漢氏因之，非先王之令典也。」帝曰：「此議是也，其勿施行。以作著詔下藏之臺閣，永爲後式。」至太和四年春，明帝乃追謚太后祖父廣曰開陽恭侯，父遠曰敬侯，祖母周封陽都君及敬侯夫人，皆贈印綬。其年五月，后崩。七月，合葬高陵。",
       "annotations": [
+        {
+          "id": "wei.5.p6.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p6.h5",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p6.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "陳羣",
+          "person_id": "chenqun",
+          "via": "alias"
+        },
+        {
+          "id": "wei.5.p6.h4",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        },
         {
           "id": "wei.5.p6.t1",
           "type": "temporal",
@@ -80,6 +378,24 @@
           "era": "太和",
           "era_year": 4,
           "reasoning": "原文「太和四年」直接出现年号；解析為 AD 230"
+        },
+        {
+          "id": "wei.5.p6.h3",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p6.h6",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.5.p6.t2",
@@ -116,6 +432,15 @@
       "text": "初，太后弟秉，以功封都鄉侯，黃初七年進封開陽侯，邑千二百戶，爲昭烈將軍。秉薨，子蘭嗣。少有才學，爲奉車都尉、游擊將軍，加散騎常侍。蘭薨，子暉嗣。又分秉爵，封蘭弟琳爲列侯，官至步兵校尉。蘭子隆女爲高貴鄉公皇后，隆以后父爲光祿大夫，位特進，封睢陽鄉侯，妻王爲顯陽鄉君。追封隆前妻劉爲順陽鄉君，后親母故也。琳女又爲陳留王皇后，時琳已沒，封琳妻劉爲廣陽鄉君。",
       "annotations": [
         {
+          "id": "wei.5.p7.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.5.p7.t1",
           "type": "temporal",
           "at": 14,
@@ -148,6 +473,24 @@
           "at": 72,
           "length": 0,
           "text": "《魏略》曰：明帝時，蘭見外有二難，而帝留意於宮室，常因侍從，數切諫。帝雖不能從，猶納其誠欵。後蘭苦酒消渴，時帝信巫女用水方，使人持水賜蘭，蘭不肯飲。詔問其意？蘭言治病自當以方藥，何信於此？帝爲變色，而蘭終不服。後渴稍甚，以至於亡。故時人見蘭好直言，謂帝靣折之而蘭自殺，其實不然。"
+        },
+        {
+          "id": "wei.5.p7.h2",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p7.h3",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -155,6 +498,24 @@
       "id": "wei.5.p8",
       "text": "文昭甄皇后，中山無極人，明帝母，漢太保甄邯後也，世吏二千石。父逸，上蔡令。后三歲失父。後天下兵亂，加以饑饉，百姓皆賣金銀珠玉寶物，時后家大有儲谷，頗以買之。后年十餘歲，白母曰：「今世亂而多買寶物，匹夫無罪，懷璧為罪。又左右皆飢乏，不如以穀振給親族鄰里，廣為恩惠也。」舉家稱善，即從后言。",
       "annotations": [
+        {
+          "id": "wei.5.p8.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p8.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.5.p8.a1",
           "type": "pei",
@@ -175,6 +536,33 @@
       "id": "wei.5.p9",
       "text": "建安中，袁紹為中子熙納之。熙出為幽州，后留養姑。及冀州平，文帝納后於鄴，有寵，生明帝及東鄉公主。",
       "annotations": [
+        {
+          "id": "wei.5.p9.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.5.p9.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p9.h3",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.5.p9.a1",
           "type": "pei",
@@ -202,6 +590,15 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "原文「延康元年正月」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.5.p10.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.5.p10.t2",
@@ -247,6 +644,24 @@
       "text": "明帝即位，有司奏請追諡，使司空王朗持節奉策以太牢告祠於陵，又別立寢廟。",
       "annotations": [
         {
+          "id": "wei.5.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p11.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
           "id": "wei.5.p11.a1",
           "type": "pei",
           "at": 35,
@@ -288,6 +703,15 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「四月」"
+        },
+        {
+          "id": "wei.5.p12.h1",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.5.p12.t3",
@@ -376,6 +800,33 @@
           "era": "景初",
           "era_year": 1,
           "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237"
+        },
+        {
+          "id": "wei.5.p13.h1",
+          "type": "person",
+          "at": 243,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p13.h2",
+          "type": "person",
+          "at": 248,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p13.h3",
+          "type": "person",
+          "at": 261,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -399,6 +850,15 @@
           "reasoning": "原文「嘉平三年正月」直接出现年号；解析為 AD 251"
         },
         {
+          "id": "wei.5.p14.h1",
+          "type": "person",
+          "at": 94,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.5.p14.t2",
           "type": "temporal",
           "at": 97,
@@ -410,6 +870,15 @@
           "era": "太和",
           "era_year": 6,
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.5.p14.h2",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.5.p14.a1",
@@ -425,11 +894,47 @@
       "text": "文德郭皇后，安平廣宗人也。祖世長吏。后少而父永奇之曰：「此乃吾女中王也。」遂以女王為字。早失二親，喪亂流離，沒在銅鞮侯家。太祖為魏公時，得入東宮。后有智數，時時有所獻納。文帝定為嗣，后有謀焉。太子即王位，后為夫人，及踐阼，為貴嬪。甄后之死，由后之寵也。黃初三年，將登后位，文帝欲立為后，中郎棧潛上疏曰：「在昔帝王之治天下，不惟外輔，亦有內助，治亂所由，盛衰從之。故西陵配黃，英娥降媯，並以賢明，流芳上世。桀奔南巢，禍階末喜；紂以砲烙，怡悅妲己。是以聖哲慎立元妃，必取先代世族之家，擇其令淑以統六宮，虔奉宗廟，陰教聿修。易曰：『家道正而天下定。』由內及外，先王之令典也。春秋書宗人釁夏云，無以妾為夫人之禮。齊桓誓命於葵丘，亦曰『無以妾為妻』。今后宮嬖寵，常亞乘輿。若因愛登后，使賤人暴貴，臣恐後世下陵上替，開張非度，亂自上起也。」文帝不從，遂立為皇后。",
       "annotations": [
         {
+          "id": "wei.5.p15.h6",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.5.p15.a1",
           "type": "pei",
           "at": 18,
           "length": 0,
           "text": "《魏書》曰：父永，官至南郡太守，諡敬侯。母姓董氏，即堂陽君，生三男二女：長男浮，高唐令，次女昱，次即后，后弟都，弟成。后以漢中平元年三月乙卯生，生而有異常。"
+        },
+        {
+          "id": "wei.5.p15.h1",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p15.h2",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p15.h5",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
         },
         {
           "id": "wei.5.p15.t1",
@@ -443,6 +948,33 @@
           "era": "黃初",
           "era_year": 3,
           "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.5.p15.h3",
+          "type": "person",
+          "at": 136,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p15.h4",
+          "type": "person",
+          "at": 364,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p15.h7",
+          "type": "person",
+          "at": 372,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.5.p15.a2",
@@ -502,6 +1034,24 @@
       "id": "wei.5.p18",
       "text": "明帝即位，尊后為皇太后，稱永安宮。太和四年，詔封表安陽亭侯，又進爵鄉侯，增邑並前五百戶，遷中壘將軍。以表子詳為騎都尉。其年，帝追諡太后父永為安陽鄉敬侯，母董為都鄉君。遷表昭德將軍，加金紫，位特進，表第二子訓為騎都尉。及孟武母卒，欲厚葬，起祠堂，太后止之曰：「自喪亂以來，墳墓無不發掘，皆由厚葬也；首陽陵可以為法。」青龍三年春，后崩於許昌，以終制營陵，三月庚寅，葬首陽陵西。帝進表爵為觀津侯，增邑五百，並前千戶。遷詳為駙馬都尉。四年，追改封永為觀津敬侯，世婦董為堂陽君。追封諡后兄浮為梁裡亭戴侯，都為武城亭孝侯，成為新樂亭定侯，皆使使者奉策，祠以太牢。表薨，子詳嗣，又分錶爵封詳弟述為列侯。詳薨，子釗嗣。",
       "annotations": [
+        {
+          "id": "wei.5.p18.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p18.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "太后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
         {
           "id": "wei.5.p18.t1",
           "type": "temporal",
@@ -583,6 +1133,24 @@
       "text": "明悼毛皇后，河內人也。黃初中，以選入東宮，明帝時為平原王，進御有寵，出入與同輿輦。及即帝立，以為貴嬪。太和元年，立為皇后。后父嘉，拜騎都尉，后弟曾，郎中。",
       "annotations": [
         {
+          "id": "wei.5.p19.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p19.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.5.p19.t1",
           "type": "temporal",
           "at": 51,
@@ -594,6 +1162,15 @@
           "era": "太和",
           "era_year": 1,
           "reasoning": "原文「太和元年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.5.p19.h3",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -601,6 +1178,42 @@
       "id": "wei.5.p20",
       "text": "初，明帝為王，始納河內虞氏為妃，帝即位，虞氏不得立為后，太皇后卞太后慰勉焉。虞氏曰：「曹氏自好立賤，未有能以義舉者也。然后職內事，君聽外政，其道相由而成，苟不能以善始，未有能令終者也。殆必由此亡國喪祀矣！」虞氏遂絀還鄴宮。進嘉為奉車都尉，曾騎都尉，寵賜隆渥。頃之，封嘉博平鄉侯，遷光祿大夫，曾駙馬都尉。嘉本典虞車工，卒暴富貴，明帝令朝臣會其家飲宴，其容止舉動甚蚩騃，語輒自謂「侯身」，時人以為笑。后又加嘉位特進，曾遷散騎侍郎。青龍三年，嘉薨，追贈光祿大夫，改封安國侯，增邑五百，並前千戶，諡曰節侯。四年，追封后母夏為野王君。",
       "annotations": [
+        {
+          "id": "wei.5.p20.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p20.h4",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p20.h3",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p20.h2",
+          "type": "person",
+          "at": 163,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.5.p20.a1",
           "type": "pei",
@@ -652,6 +1265,15 @@
           "era": "景初",
           "era_year": 1,
           "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.5.p21.h1",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -660,11 +1282,56 @@
       "text": "明元郭皇后，西平人也，世河右大族。黃初中，本郡反叛，遂沒入宮。明帝即位，甚見愛幸，拜為夫人。叔父立為騎都尉，從父芝為虎賁中郎將。帝疾困，遂立為皇后。齊王即位，尊后為皇太后，稱永寧宮，追封諡太后父滿為西都定侯，以立子建紹其爵。封太后母杜為郃陽君。芝遷散騎常侍、長水校尉，立，宣德將軍，皆封列侯。建兄德，出養甄氏。德及建俱為鎮護將軍，皆封列侯，並掌宿衛。值三主幼弱，宰輔統政，與奪大事，皆先諮啟於太后而後施行。毌丘儉、鍾會等作亂，咸假其命而以為辭焉。景元四年十二日崩，五年二月，葬高平陵西。",
       "annotations": [
         {
+          "id": "wei.5.p22.h1",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.5.p22.h5",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.5.p22.h2",
+          "type": "person",
+          "at": 108,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.5.p22.a1",
           "type": "pei",
           "at": 134,
           "length": 0,
           "text": "《魏略》曰：諸郭之中，芝最壯直。先時自以他功封侯。"
+        },
+        {
+          "id": "wei.5.p22.h3",
+          "type": "person",
+          "at": 203,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.5.p22.h4",
+          "type": "person",
+          "at": 207,
+          "length": 2,
+          "text": "鍾會",
+          "person_id": "zhonghui",
+          "via": "primary"
         },
         {
           "id": "wei.5.p22.t1",
@@ -691,7 +1358,17 @@
     {
       "id": "wei.5.p23",
       "text": "評曰：魏后妃之家，雖云富貴，未有若衰漢乘非其據，宰割朝政者也。鑑往易軌，於斯為美。追觀陳群之議，棧潛之論，適足以為百王之規典，垂憲範乎後葉矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.5.p23.h1",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "陳群",
+          "person_id": "chenqun",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

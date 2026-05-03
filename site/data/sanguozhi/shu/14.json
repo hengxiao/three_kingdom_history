@@ -11,15 +11,97 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷44",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 25,
+  "n_segments": 24,
   "segments": [
     {
       "id": "shu.14.p1",
       "text": "蔣琬字公琰，零陵湘鄉人也。弱冠與外弟泉陵劉敏俱知名。琬以州書佐隨先主入蜀，除廣都長。先主嘗因遊觀奄至廣都，見琬眾事不理，時又沉醉，先主大怒，將加罪戮。軍師將軍諸葛亮請曰：「蔣琬，社稷之器，非百里之才也。其為政以安民為本，不以修飾為先，願主公重加察之。」先主雅敬亮，乃不加罪，倉卒但免官而已。琬見推之後，夜夢有一牛頭在門前，流血滂沱，意甚惡之，呼問占夢趙直。直曰：「夫見血者，事分明也。牛角及鼻，『公』字之象，君位必當至公，大吉之征也。」頃之，為什邡令。先主為漢中王，琬人為尚書郎。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p1.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p1.h3",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p1.h4",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p1.h5",
+          "type": "person",
+          "at": 79,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p1.h6",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p1.h7",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p1.h8",
+          "type": "person",
+          "at": 130,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.14.p1.h9",
+          "type": "person",
+          "at": 226,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "shu.14.p2",
@@ -39,6 +121,24 @@
           "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223"
         },
         {
+          "id": "shu.14.p2.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p2.h2",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
           "id": "shu.14.p2.t2",
           "type": "temporal",
           "at": 97,
@@ -52,6 +152,24 @@
           "reasoning": "承前文年號「建興」推得，「五年」 = 建興5年 = AD 227"
         },
         {
+          "id": "shu.14.p2.h3",
+          "type": "person",
+          "at": 100,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p2.h4",
+          "type": "person",
+          "at": 109,
+          "length": 2,
+          "text": "張裔",
+          "person_id": "zhangyi_2",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p2.t3",
           "type": "temporal",
           "at": 116,
@@ -63,6 +181,33 @@
           "era": "建興",
           "era_year": 8,
           "reasoning": "承前文年號「建興」推得，「八年」 = 建興8年 = AD 230"
+        },
+        {
+          "id": "shu.14.p2.h5",
+          "type": "person",
+          "at": 131,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p2.h6",
+          "type": "person",
+          "at": 147,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p2.h7",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -70,6 +215,15 @@
       "id": "shu.14.p3",
       "text": "亮卒，以琬為尚書令，俄而加行都護、假節、領益州刺史、遷大將軍、錄尚書事、封安陽亭侯。時新喪元帥，遠近危悚。琬出類拔萃，處群僚之右，既無戚容，又無喜色，神守舉止，有如平日，由是眾望漸服。延熙元年，詔琬曰：「寇難未弭，曹睿驕凶，遼東三郡勞其暴虐，遂相糾結，與之離隔。睿大興眾役，還相攻伐。囊秦之亡，勝、廣首難，今有此變，斯乃天時。君其治嚴，總帥諸軍屯任漢中，須吳舉動，東西掎角，以乘其畔。」又命琬開府，明年就加為大司馬。",
       "annotations": [
+        {
+          "id": "shu.14.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
         {
           "id": "shu.14.p3.t1",
           "type": "temporal",
@@ -101,17 +255,83 @@
     {
       "id": "shu.14.p4",
       "text": "東曹掾楊戲索性簡略，琬與言論，時不應答。或欲構戲於琬，曰：「公與戲語而不見應，戲之慢上，不亦甚乎!」琬曰：「人心不同，各如其面；面從後言，古人之所誡也。戲欲贊吾是耶，則非其本心，欲反吾言，則顯吾之非，是以默然，是戲之快也。」又督農楊敏曾毀琬，曰：「作事憒憒；誠非及前人。」或以白琬，主者請推治敏。琬曰：「吾實不如前人，無可推也。」主者重據聽不推，則乞問其憒憒之狀。琬曰：「苟其不如，則事不當理，事不當理，則憒憒矣。復何問邪?」後敏坐事繫獄，眾人猶懼其必死。琬心無適莫，得免重罪。其好惡存道，皆此類也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p4.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "楊戲",
+          "person_id": "yangxi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.14.p5",
       "text": "琬以為昔諸葛亮數窺秦川，道險運艱，競不能克，不若乘水東下。乃多作舟船，欲由漢、沔襲魏興、上庸。會舊疾連動，未時得行。而眾論鹹謂如不克捷，還路甚難，非長策也。於是遣尚書令費禕、中監軍姜維等喻指。琬承命上疏曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p5.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p5.h2",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p5.h3",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.14.p6",
       "text": "芟穢弭難，臣職是掌。自臣奉辭漢中，已經六年，臣既闇弱，加嬰疾疢，規方無成，夙夜憂慘。今魏跨帶九州，根蒂滋蔓，平除未易。若東西並力，首尾掎角。雖未能速得如志，且當分裂蠶食，先摧其支黨。然吳期二三，連不克果，俯仰惟艱，實忘寢食。輒與費禕等議，以涼州胡塞之要，進退有資，賊之所惜；且羌、胡乃心思漢如渴。又昔偏軍人羌，郭淮破走，算其長短，以為事首，宜以姜維為涼州刺史。若維征行，銜持河右，臣當帥軍為維鎮繼。今涪水陸四通，惟急是應。若東北有虞，赴之不難。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p6.h1",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p6.h2",
+          "type": "person",
+          "at": 155,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p6.h3",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.14.p7",
@@ -121,23 +341,133 @@
     {
       "id": "shu.14.p8",
       "text": "子斌嗣，為綏武將軍、漢城護軍。魏大將軍鐘會至漢城，與斌書曰：「巴蜀賢智文武之士多矣，至於足下、諸葛思遠，譬諸草木，吾氣類也。桑梓之敬，古今所敦。西到，欲奉瞻尊大君公侯墓，當灑掃墳塋，奉祠致敬。願告其所在！」斌答書曰：「知惟臭味意眷之隆，雅托通流，未拒來謂也。亡考昔遭疾疢，亡於涪縣，卜云其吉，遂安厝之。知君西邁，乃欲屈駕修敬墳墓。視予猶父，顏子之仁也，聞命感愴，以增情思。」會得斌書報，嘉歎意義，及至涪如其書云。後主既降鄧艾，斌詣會於涪，待以交友之禮。隨會至成都，為亂兵所殺。斌弟顯，為太子僕。會亦愛其才學，與斌同時死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p8.h1",
+          "type": "person",
+          "at": 206,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p8.h2",
+          "type": "person",
+          "at": 210,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p8.h3",
+          "type": "person",
+          "at": 243,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "shu.14.p9",
       "text": "劉敏，左護軍、揚威將軍，與鎮北大將軍王平懼鎮漢巾。魏遣大將軍曹爽襲蜀時，時議者或謂但可守城，不出拒敵，必自引退。敏以為男女布野，農穀棲畝，若聽敵人，則大事去矣。遂帥所領與平據興勢，多張旗幟，彌亙百餘里。會大將軍費禕從成都至，魏軍即退。敏以功封雲亭侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p9.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "王平",
+          "person_id": "wangping",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p9.h2",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p9.h3",
+          "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.14.p10",
       "text": "費禕字文偉，江夏鄳人也。少孤，依族父伯仁。伯仁姑，益州牧劉璋之母也。璋遣使迎仁，仁將禕遊學入蜀。會先主定蜀，禕遂留益土，與汝南許叔龍、南郡董允齊名。時許靖喪子，允與禕欲共會其葬所。允白父和請車，和遣開後鹿車給之。允有難載之色．禕便從前先上。及於喪所，諸葛亮及諸貴人悉集，車乘甚鮮，允猶神色未泰，而禕晏然自若。持車人還，和問之，知其如此，乃謂允曰：「吾常疑汝於文偉優劣未別也。而今而後，吾意了矣。」",
       "annotations": [
         {
+          "id": "shu.14.p10.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p10.a1",
           "type": "pei",
           "at": 12,
           "length": 0,
           "text": "鄳音盲。"
+        },
+        {
+          "id": "shu.14.p10.h2",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p10.h3",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p10.h4",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "董允",
+          "person_id": "dongyun",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p10.h5",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p10.h6",
+          "type": "person",
+          "at": 125,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
         }
       ]
     },
@@ -146,6 +476,78 @@
       "text": "先主立太子，禕與允為舍人，遷庶子。後主踐位，為黃門侍郎。丞相亮南征還，群僚於數十里逢迎，年位多在禕右，而亮特命禕同載，由是眾人莫不易觀。亮以初從南歸，以禕為昭信校尉使吳。孫權性既滑稽，嘲啁無方，諸葛恪、羊衜等才博果辯，論難鋒至，禕辭順義篤，據理以答，終不能屈。權甚器之，謂禕曰：「君天下淑德，必當股肱蜀朝，恐不能數來也。」還，遷為侍中。亮住北住漢中，請禕為參軍。以奉使稱旨，頻煩至吳。",
       "annotations": [
         {
+          "id": "shu.14.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p11.h10",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liushan",
+          "via": "llm"
+        },
+        {
+          "id": "shu.14.p11.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p11.h3",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p11.h4",
+          "type": "person",
+          "at": 52,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p11.h5",
+          "type": "person",
+          "at": 68,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p11.h6",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p11.h7",
+          "type": "person",
+          "at": 97,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p11.a1",
           "type": "pei",
           "at": 130,
@@ -153,11 +555,29 @@
           "text": "禕别傳曰：孙权每别酌好酒以饮禕，视其已醉，然后問以国事，并论当世之务，辞难累至。禕辄辞以醉，退而撰次所問，事事条答，无所遗失。"
         },
         {
+          "id": "shu.14.p11.h8",
+          "type": "person",
+          "at": 130,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
           "id": "shu.14.p11.a2",
           "type": "pei",
           "at": 161,
           "length": 0,
           "text": "禕别傳曰：权乃以手中常所执宝刀赠之，禕答曰：“臣以不才，何以堪明命？然刀所以讨不庭、禁暴乱者也，但原大王勉建功业，同奖汉室，臣虽闇弱，终不负东顾。”"
+        },
+        {
+          "id": "shu.14.p11.h9",
+          "type": "person",
+          "at": 168,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -177,6 +597,51 @@
           "era": "建興",
           "era_year": 8,
           "reasoning": "原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.14.p12.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "魏延",
+          "person_id": "weiyan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p12.h2",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "楊儀",
+          "person_id": "yangyi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p12.h3",
+          "type": "person",
+          "at": 64,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p12.h4",
+          "type": "person",
+          "at": 84,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p12.h5",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
         },
         {
           "id": "shu.14.p12.a1",
@@ -203,6 +668,15 @@
           "era": "延熙",
           "era_year": 7,
           "reasoning": "原文「延熙七年」直接出现年号；解析為 AD 244"
+        },
+        {
+          "id": "shu.14.p13.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "來敏",
+          "person_id": "laimin",
+          "via": "primary"
         },
         {
           "id": "shu.14.p13.a1",
@@ -269,6 +743,15 @@
           "at": 63,
           "length": 0,
           "text": "禕别傳曰：恭为尚书郎，显名当世，早卒。"
+        },
+        {
+          "id": "shu.14.p14.h1",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
         }
       ]
     },
@@ -276,6 +759,15 @@
       "id": "shu.14.p15",
       "text": "姜維，字伯約，天水冀人也。少孤，與母居，好鄭氏學。仕郡上計掾，州闢為從事。以父冏昔為郡功曹，值羌、戎叛亂，身衛郡將，沒於戰場，賜維官中郎，參本郡軍事。建興六年，丞相諸葛亮軍向祁山，時天水太守適出案行。維及功曹梁緒、主簿尹賞、主記梁虔等從行。太守聞蜀軍垂至而諸縣響應，疑維等皆有異心，於是夜亡保上邽。維等覺太守去，追遲，至城門，城門已閉，不納。維等相率還冀，冀亦不入維。維等乃俱詣諸葛亮。會馬謖敗於街亭。亮拔將西縣千餘家及維等還，故維遂與母相失。亮辟維為倉曹掾，加奉義將軍，封當陽亭侯，時年二十七。亮與留府長史張裔、參軍蔣琬書曰：「姜伯約忠勤時事，思慮精密，考其所有，永南、季常諸人不如也。其人，涼州上士也。」又曰：「須先教中虎步兵五六千人。姜伯約甚敏於軍事，既有膽義，深解兵意。此人心存漢室而才兼於人，畢教軍事，當遣詣宮，覲見主上。」後遷中監軍、征西將軍。",
       "annotations": [
+        {
+          "id": "shu.14.p15.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
         {
           "id": "shu.14.p15.a1",
           "type": "pei",
@@ -297,11 +789,83 @@
           "reasoning": "原文「建興六年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.14.p15.h2",
+          "type": "person",
+          "at": 82,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p15.h3",
+          "type": "person",
+          "at": 189,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p15.h4",
+          "type": "person",
+          "at": 201,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
           "id": "shu.14.p15.a2",
           "type": "pei",
           "at": 222,
           "length": 0,
           "text": "《魏略》曰：天水太守马遵将维及诸官属随雍州刺史郭淮偶自西至洛门案行，会闻亮已到祁山，淮顾遵曰：“是欲不善！”遂驱东还上邽。遵念所治冀县界在西偏，又恐吏民乐乱，遂亦随淮去。时维谓遵曰：“明府当还冀。”遵谓维等曰：“卿诸人（回）复信，皆贼也。”各自行。维亦无如遵何，而家在冀，遂与郡吏上官子脩等还冀。冀中吏民见维等大喜，便推令见亮。二人不获已，乃共诣亮。亮见，大悦。未及遣迎冀中人，会亮前锋为张郃、费繇等所破，遂将维等卻缩。维不得还，遂入蜀。诸军攻冀，皆得维母妻子，亦以维本无去意，故不没其家，但系保官以延之。此语与本傳不同。"
+        },
+        {
+          "id": "shu.14.p15.h5",
+          "type": "person",
+          "at": 222,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.14.p15.h6",
+          "type": "person",
+          "at": 248,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.14.p15.h7",
+          "type": "person",
+          "at": 254,
+          "length": 2,
+          "text": "張裔",
+          "person_id": "zhangyi_2",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p15.h8",
+          "type": "person",
+          "at": 259,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p15.h9",
+          "type": "person",
+          "at": 363,
+          "length": 2,
+          "text": "主上",
+          "person_id": "liushan",
+          "via": "llm"
         },
         {
           "id": "shu.14.p15.a3",
@@ -330,6 +894,15 @@
           "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
         },
         {
+          "id": "shu.14.p16.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
           "id": "shu.14.p16.t2",
           "type": "temporal",
           "at": 32,
@@ -341,6 +914,15 @@
           "era": "延熙",
           "era_year": 1,
           "reasoning": "原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.14.p16.h2",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
         },
         {
           "id": "shu.14.p16.t3",
@@ -369,6 +951,15 @@
           "reasoning": "承前文年號「延熙」推得，「十年」 = 延熙10年 = AD 247"
         },
         {
+          "id": "shu.14.p16.h3",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p16.t5",
           "type": "temporal",
           "at": 103,
@@ -382,6 +973,15 @@
           "reasoning": "「是歲」 = 当前年 延熙10年 (AD 247)"
         },
         {
+          "id": "shu.14.p16.h4",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p16.t6",
           "type": "temporal",
           "at": 167,
@@ -393,6 +993,15 @@
           "era": "延熙",
           "era_year": 12,
           "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
+        },
+        {
+          "id": "shu.14.p16.h5",
+          "type": "person",
+          "at": 228,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
         },
         {
           "id": "shu.14.p16.a1",
@@ -451,6 +1060,15 @@
           "era": "延熙",
           "era_year": 19,
           "reasoning": "承前文年號「延熙」推得，「十九年」 = 延熙19年 = AD 256"
+        },
+        {
+          "id": "shu.14.p18.h1",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
         }
       ]
     },
@@ -472,6 +1090,24 @@
           "reasoning": "承前文年號「延熙」推得，「二十年」 = 延熙20年 = AD 257"
         },
         {
+          "id": "shu.14.p19.h1",
+          "type": "person",
+          "at": 10,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p19.h2",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p19.t2",
           "type": "temporal",
           "at": 124,
@@ -489,7 +1125,44 @@
     {
       "id": "shu.14.p20",
       "text": "初，先主留魏延鎮漢中，皆實兵諸圍以御外敵。敵若來攻，使不得入。及興勢之役，王平捍拒曹爽，皆承此制。維建議，以為錯守諸圍，雖合《周易》「重門」之義，然適可禦敵，不獲大利。不若使聞敵至，諸圍皆斂兵聚谷，退就漢、樂二城。使敵不得入平，臣重關鎮守以捍之。有事之日，令遊軍並進以伺其虛。敵攻關不克，野無散谷，千里縣糧，自然疲乏。引退之日，然後諸城並出，與遊軍並力搏之，此殄敵之術也。於是令督漢中胡濟卻住漢壽，監軍王含守樂城，護軍蔣斌守漢城，又於西安、建威、武衛、石門、武城、建昌、臨遠皆立圍守。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.14.p20.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p20.h2",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "魏延",
+          "person_id": "weiyan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p20.h3",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "王平",
+          "person_id": "wangping",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p20.h4",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.14.p21",
@@ -507,6 +1180,15 @@
           "era": "景耀",
           "era_year": 5,
           "reasoning": "承前文年號「景耀」推得，「五年」 = 景耀5年 = AD 262"
+        },
+        {
+          "id": "shu.14.p21.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
         },
         {
           "id": "shu.14.p21.a1",
@@ -529,11 +1211,119 @@
           "reasoning": "承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263"
         },
         {
+          "id": "shu.14.p21.h2",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p21.h3",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "張翼",
+          "person_id": "zhangyi_3",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h4",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "廖化",
+          "person_id": "liaohua",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h5",
+          "type": "person",
+          "at": 153,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p21.h6",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h7",
+          "type": "person",
+          "at": 187,
+          "length": 2,
+          "text": "廖化",
+          "person_id": "liaohua",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h8",
+          "type": "person",
+          "at": 199,
+          "length": 2,
+          "text": "張翼",
+          "person_id": "zhangyi_3",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h9",
+          "type": "person",
+          "at": 247,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p21.a2",
           "type": "pei",
           "at": 289,
           "length": 0,
           "text": "汉晋春秋曰：蒋舒将出降，乃诡谓傅佥曰：“今贼至不击而闭城自守，非良图也。”佥曰：“受命保城，惟全为功，今违命出战，若丧师负国，死无益矣。”舒曰：“子以保城获全为功，我以出战克敌为功，请各行其志。”遂率众出。佥谓其战也，至阴平，以降胡烈。烈乘虚袭城，佥格斗而死，魏人义之。蜀记曰：蒋舒为武兴督，在事无称。蜀命人代之，因留舒助汉中守。舒恨，故开城出降。"
+        },
+        {
+          "id": "shu.14.p21.h10",
+          "type": "person",
+          "at": 430,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p21.h11",
+          "type": "person",
+          "at": 451,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p21.h12",
+          "type": "person",
+          "at": 473,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.14.p21.h13",
+          "type": "person",
+          "at": 513,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
         },
         {
           "id": "shu.14.p21.a3",
@@ -548,6 +1338,15 @@
       "id": "shu.14.p22",
       "text": "會厚待維等，皆權還其印號節蓋。會與維出則同輿，坐則同席，謂長史杜預曰：「以伯約比中土名士，公休、太初不能勝也。」《世語》曰：時蜀官屬皆天下英俊，無出維右。}}會既構鄧艾，艾檻車征，因將維等詣成都，自稱益州牧以叛。欲授維兵五萬人，使為前驅。魏將士憤發，殺會及維，維妻子皆伏誅。",
       "annotations": [
+        {
+          "id": "shu.14.p22.h1",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
         {
           "id": "shu.14.p22.a1",
           "type": "pei",
@@ -569,6 +1368,42 @@
       "text": "郤正著論論維曰：「姜伯約據上將之重，處群臣之右。宅舍弊薄，資財無餘，側室無妾媵之褻，後庭無聲樂之娛。衣服取供，輿馬取備，飲食節制，不奢不約，官給費用，隨手消盡；察其所以然者，非以激貪厲濁，抑情自割也。直謂如是為足，不在多求。凡人之談，常譽成毀敗，扶高抑下，鹹以姜維投厝無所，身死宗滅，以是貶削，不復料擿，異乎《春秋》褒貶之義矣。如姜維之樂學不倦，清素節約，自一時之儀表也。」維昔所俱至蜀，梁緒官至大鴻臚，尹賞執金吾，梁虔大長秋，皆先蜀亡沒。",
       "annotations": [
         {
+          "id": "shu.14.p23.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "郤正",
+          "person_id": "xizheng",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p23.h2",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.14.p23.h3",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p23.h4",
+          "type": "person",
+          "at": 165,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p23.a1",
           "type": "pei",
           "at": 187,
@@ -582,11 +1417,38 @@
       "text": "評曰：蔣琬方整有威重，費禕寬濟而博愛，咸承諸葛之成規，因循而不革，是以邊境無虞，邦家和一，然猶未盡治小之宜，居靜之理也。姜維粗有文武，志立功名，而玩眾黷旅，明斷不周，終致隕斃。老子有云：「治大國者猶烹小鮮。」況於區區蕞爾，而可屢擾乎哉？",
       "annotations": [
         {
+          "id": "shu.14.p24.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.14.p24.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
           "id": "shu.14.p24.a1",
           "type": "pei",
           "at": 60,
           "length": 0,
           "text": "臣松之以為蔣、費為相，克遵畫一，未嘗徇功妄動，有所虧喪，外卻駱谷之師，內保寧緝之實，治小之宜，居靜之理，何以過於此哉！今譏其未盡而不著其事，故使覽者不知所謂也。"
+        },
+        {
+          "id": "shu.14.p24.h3",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
         },
         {
           "id": "shu.14.p24.a2",
@@ -596,11 +1458,6 @@
           "text": "干寶曰：姜維為蜀相，國亡主辱弗之死，而死於鍾會之亂，惜哉！非死之難，處死之難也。是以古之烈士，見危授命，投節如歸，非不愛死也，固知命之不長而懼不得其所也。"
         }
       ]
-    },
-    {
-      "id": "shu.14.p25",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

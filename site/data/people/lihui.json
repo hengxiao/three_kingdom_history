@@ -1,0 +1,60 @@
+{
+  "id": "lihui",
+  "primary_name": "李恢",
+  "courtesy_name": "德昂",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.13",
+      "title": "蜀書·黃李呂馬王張傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/13.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p8",
+        "at": 132,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "李恢",
+        "snippet": "…事，又魯將楊昂等數害其能，超內懷於邑。備使建寧督郵李恢往說之，超遂從武都逃入氐中，密書請降於備。使人止超，而潛以兵資之。超到，令引軍屯城北，城中震怖。備圍城數十日，使從事中郎涿郡簡…"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p44",
+        "at": 32,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "李恢",
+        "snippet": "…，所在戰捷，亮由越巂入，斬雍闓及高定。使庲降督益州李恢由益州入，門下督巴西馬忠由牂柯入，擊破諸縣，復與亮合。孟獲收闓餘眾以拒亮。獲素為夷、漢所服，亮募生致之，既得，使觀於營陳之間，…"
+      },
+      {
+        "chapter_id": "zztj.76",
+        "chapter_title": "魏紀八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.76.p34",
+        "at": 2,
+        "data_url": "data/zztj/zztj/76.json",
+        "matched": "李恢",
+        "snippet": "初，李恢與尚書僕射杜畿及東安太守郭智善，智子沖，有內實而無外觀，州裡弗稱也。沖嘗與李豐俱見畿，既退，畿歎曰：「孝懿無子；非徒無子，殆將…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

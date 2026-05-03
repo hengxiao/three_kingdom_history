@@ -28,12 +28,15 @@ KNOWN_SOURCE_IDS = {"wikisource", "ctext", "zhonghua1959", "bona", "wuying"}
 
 REQUIRED_ANNOTATIONS_FILE_FIELDS = ("chapter", "source", "annotations")
 REQUIRED_ANNOTATION_FIELDS = ("id", "anchor", "at", "length", "type", "text")
-ALLOWED_ANNOTATION_TYPES = {"pei", "lixian", "chen", "editor", "crossref", "temporal"}
+ALLOWED_ANNOTATION_TYPES = {"pei", "lixian", "chen", "editor", "crossref", "temporal", "person"}
 REQUIRED_TEMPORAL_FIELDS = ("year_ad",)
 ALLOWED_TEMPORAL_RESOLUTIONS = {
     "absolute", "bare_year", "bare_month", "this_year", "next_year", "prev_year",
 }
-# Annotation IDs use a single-letter tag prefix per type series (a for pei/chen/editor/crossref, t for temporal).
+# Annotation IDs use a single-letter tag prefix per type series:
+#   a — pei/lixian/chen/editor/crossref     (textual commentary)
+#   t — temporal                            (date references)
+#   h — person                              (human/person references)
 _ANN_ID_RE = re.compile(r"^([a-z]+)\.(\d+)\.p\d+[a-z]*\.[a-z]\d+$")
 _CHAPTER_ID_RE = re.compile(r"^([a-z]+)\.(\d+)$")
 

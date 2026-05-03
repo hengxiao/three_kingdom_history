@@ -1,0 +1,95 @@
+{
+  "id": "sunfu",
+  "primary_name": "孫輔",
+  "courtesy_name": "國儀",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p14",
+        "at": 2917,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "孫輔",
+        "snippet": "…是得免。武府掾桂陽胡騰殯斂武屍，行喪，坐以禁錮。武孫輔，年二歲，騰詐以為己子，與令史南陽張敞共匿之於零陵界中，亦得免。張奐遷大司農，以功封侯。奐深病為曹節等所賣，固辭不受。"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p13",
+        "at": 505,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "孫輔",
+        "snippet": "…千人以守皖城，皆徙所得民東詣吳。勳還至彭澤，孫賁、孫輔邀擊，破之。勳走保流沂，求救於黃祖，祖遣其子射率船軍五千人助勳。策復就攻勳，大破之，勳北歸曹操，射亦遁走。策收得勳兵二千餘人，…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p16",
+        "at": 18,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "孫輔",
+        "snippet": "策分豫章為廬陵郡，以孫賁為豫章太守，孫輔為廬陵太守。會僮芝病，輔遂進屯廬陵，留周瑜鎮巴丘。孫策之克皖城也，撫視袁術妻子；及入豫章，收載劉繇喪，善遇其家。士大夫以是稱之…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p41",
+        "at": 109,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "孫輔",
+        "snippet": "…諭使言，察其志趣。權納用焉。統，俊之子也。廬陵太守孫輔恐權不能保江東，陰遣人繼書呼曹操。行人以告，權悉斬輔親近，分其部曲，徙輔置東。曹操表徵華歆為議郎、參司空軍事。廬江太守李術不肯…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.18",
+        "chapter_title": "吳書·吳範劉惇趙達傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.18.p11",
+        "at": 22,
+        "data_url": "data/sanguozhi/wu/18.json",
+        "matched": "孫輔",
+        "snippet": "劉惇字子仁，平原人也。遭亂避地，客游廬陵，事孫輔。以明天官達占數顯於南土。每有水旱寇賊，皆先時處期，無不中者。輔異焉，以爲軍師，軍中咸敬事之，號曰神明。"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p12",
+        "at": 1,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "孫輔",
+        "snippet": "武孫輔，時年二歲，逃竄得全。事覺，節等捕之急。胡騰及令史南陽張敞共逃輔於零陵界，詐云已死，騰以為己子，而使聘娶焉。後舉桂陽孝廉。至建…"
+      }
+    ]
+  },
+  "n_mentions": 6
+}

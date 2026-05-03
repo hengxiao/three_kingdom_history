@@ -1,0 +1,50 @@
+{
+  "id": "cenzhi",
+  "primary_name": "岑晊",
+  "courtesy_name": "公孝",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 158,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "岑晊",
+        "snippet": "…羊陟為八顧，顧者，言能以德行引人者也；張儉、翟超、岑晊、苑康及山陽劉表、汝南陳翔、魯國孔昱、山陽檀敷為八及，及者，言其能導人追宗者也；度尚及東平張邈、王孝、東郡劉儒、泰山胡母班、陳…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.66",
+        "chapter_title": "陳王列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.66.p58",
+        "at": 36,
+        "data_url": "data/houhanshu/hhs/66.json",
+        "matched": "岑晊",
+        "snippet": "…猾張*(汜)**[泛]*據汲本、殿本改。下同。按：岑晊傳作「張泛」，泛與泛同。"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

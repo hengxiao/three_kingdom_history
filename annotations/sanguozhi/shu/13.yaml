@@ -2,15 +2,121 @@ chapter: shu.13
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷43
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 41389097af7103e09f21b40f00a2c988ca2d92f2b5659b0f7605f4a8cc350255
 annotations:
+- id: shu.13.p1.h1
+  anchor: shu.13.p1
+  at: 21
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.13.p1.h2
+  anchor: shu.13.p1
+  at: 38
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p1.h3
+  anchor: shu.13.p1
+  at: 136
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p1.h4
+  anchor: shu.13.p1
+  at: 163
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.13.p1.h5
+  anchor: shu.13.p1
+  at: 171
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p1.h6
+  anchor: shu.13.p1
+  at: 174
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p1.a1
   anchor: shu.13.p1
   at: 182
   length: 0
   type: pei
   text: 徐眾評曰：權既忠諫於主，又閉城拒守，得事君之禮。武王下車，封比干之墓，表商容之閭，所以大顯忠賢之士，而明示所貴之旨。先主假權將軍，善矣，然猶薄少，未足彰忠義之高節，而大勸為善者之心。
+- id: shu.13.p1.h7
+  anchor: shu.13.p1
+  at: 223
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p2.h1
+  anchor: shu.13.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.13.p2
+  at: 61
+  length: 2
+  type: person
+  person_id: liubei
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 黃權諫先主東伐吳「陛下宜為後鎮」，所諫對象即先主劉備。
+  id: shu.13.p2.h7
+- id: shu.13.p2.h2
+  anchor: shu.13.p2
+  at: 69
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p2.h3
+  anchor: shu.13.p2
+  at: 91
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p2.h4
+  anchor: shu.13.p2
+  at: 114
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p2.h5
+  anchor: shu.13.p2
+  at: 149
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p2.a1
   anchor: shu.13.p2
   at: 171
@@ -23,6 +129,22 @@ annotations:
   length: 0
   type: pei
   text: 《漢魏春秋》曰：文帝詔令發喪，權答曰：「臣與劉、葛推誠相信，明臣本志。疑惑未實，請須後問。」
+- id: shu.13.p2.h6
+  anchor: shu.13.p2
+  at: 300
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p3.h1
+  anchor: shu.13.p3
+  at: 58
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: shu.13.p3.t1
   anchor: shu.13.p3
   at: 92
@@ -53,12 +175,108 @@ annotations:
   era: 延熙
   era_year: 3
   reasoning: 「明年」 = 当前年 延熙2年 (AD 239) 之次年 = AD 240
+- id: shu.13.p3.h2
+  anchor: shu.13.p3
+  at: 148
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: shu.13.p4.h1
+  anchor: shu.13.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: lihui
+  text: 李恢
+  via: primary
+- id: shu.13.p4.h2
+  anchor: shu.13.p4
+  at: 41
+  length: 2
+  type: person
+  person_id: donghe
+  text: 董和
+  via: primary
 - id: shu.13.p4.a1
   anchor: shu.13.p4
   at: 55
   length: 0
   type: pei
   text: 《華陽國志》曰：習後官至領軍。
+- id: shu.13.p4.h3
+  anchor: shu.13.p4
+  at: 67
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p4.h4
+  anchor: shu.13.p4
+  at: 74
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.13.p4.h5
+  anchor: shu.13.p4
+  at: 84
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p4.h6
+  anchor: shu.13.p4
+  at: 98
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p4.h7
+  anchor: shu.13.p4
+  at: 106
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p4.h8
+  anchor: shu.13.p4
+  at: 123
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: shu.13.p4.h9
+  anchor: shu.13.p4
+  at: 126
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: shu.13.p4.h10
+  anchor: shu.13.p4
+  at: 136
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p4.h11
+  anchor: shu.13.p4
+  at: 171
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p4.t1
   anchor: shu.13.p4
   at: 187
@@ -71,12 +289,70 @@ annotations:
   era: 章武
   era_year: 1
   reasoning: 原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
+- id: shu.13.p4.h12
+  anchor: shu.13.p4
+  at: 200
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.13.p4
+  at: 278
+  length: 2
+  type: person
+  person_id: liubei
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 李恢答先主自薦語末「惟陛下察之」，所對亦先主劉備（先主笑曰即指）。
+  id: shu.13.p4.h14
+- id: shu.13.p4.h13
+  anchor: shu.13.p4
+  at: 284
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p4.a2
   anchor: shu.13.p4
   at: 325
   length: 0
   type: pei
   text: 臣松之訊之蜀人，云庲降地名，去蜀二千餘里，時未有寧州，號為南中，立此職以總攝之。晉泰始中，始分為寧州。
+- id: shu.13.p5.h1
+  anchor: shu.13.p5
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p5.h2
+  anchor: shu.13.p5
+  at: 30
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p5.h3
+  anchor: shu.13.p5
+  at: 71
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p5.h4
+  anchor: shu.13.p5
+  at: 163
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.13.p6.t1
   anchor: shu.13.p6
   at: 82
@@ -89,18 +365,106 @@ annotations:
   era: 建興
   era_year: 7
   reasoning: 原文「建興七年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）
+- id: shu.13.p6.h1
+  anchor: shu.13.p6
+  at: 140
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: shu.13.p7.h1
+  anchor: shu.13.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: lvkai
+  text: 呂凱
+  via: primary
 - id: shu.13.p7.a1
   anchor: shu.13.p7
   at: 13
   length: 0
   type: pei
   text: 孫盛《蜀世譜》曰：初，秦徙呂不韋子弟宗族於蜀漢。漢武帝時，開西南夷，置郡縣，徙呂氏以充之，因曰不韋縣。
+- id: shu.13.p7.h2
+  anchor: shu.13.p7
+  at: 27
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p7.h3
+  anchor: shu.13.p7
+  at: 41
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.13.p10.h1
+  anchor: shu.13.p10
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p10.h2
+  anchor: shu.13.p10
+  at: 25
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p10.h3
+  anchor: shu.13.p10
+  at: 38
+  length: 2
+  type: person
+  person_id: lvkai
+  text: 呂凱
+  via: primary
 - id: shu.13.p10.a1
   anchor: shu.13.p10
   at: 129
   length: 0
   type: pei
   text: 《蜀世譜》曰：呂祥後為晉南夷校尉，祥子及孫世為永昌太守。李雄破寧州，諸呂不肯附，舉郡固守。王伉等亦守正節。
+- id: shu.13.p11.h1
+  anchor: shu.13.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
+- id: shu.13.p11.h2
+  anchor: shu.13.p11
+  at: 49
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p11.h3
+  anchor: shu.13.p11
+  at: 82
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.13.p11.h4
+  anchor: shu.13.p11
+  at: 98
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
 - id: shu.13.p11.t1
   anchor: shu.13.p11
   at: 122
@@ -113,6 +477,14 @@ annotations:
   era: 建興
   era_year: 1
   reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
+- id: shu.13.p11.h5
+  anchor: shu.13.p11
+  at: 129
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.13.p11.t2
   anchor: shu.13.p11
   at: 139
@@ -125,6 +497,14 @@ annotations:
   era: 延熙
   era_year: 3
   reasoning: 承前文年號「延熙」推得，「三年」 = 延熙3年 = AD 240
+- id: shu.13.p11.h6
+  anchor: shu.13.p11
+  at: 142
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.13.p11.t3
   anchor: shu.13.p11
   at: 175
@@ -137,6 +517,14 @@ annotations:
   era: 延熙
   era_year: 8
   reasoning: 承前文年號「延熙」推得，「八年」 = 延熙8年 = AD 245
+- id: shu.13.p11.h7
+  anchor: shu.13.p11
+  at: 188
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
 - id: shu.13.p11.t4
   anchor: shu.13.p11
   at: 203
@@ -149,6 +537,30 @@ annotations:
   era: 延熙
   era_year: 9
   reasoning: 「明年」 = 当前年 延熙8年 (AD 245) 之次年 = AD 246
+- id: shu.13.p11.h8
+  anchor: shu.13.p11
+  at: 206
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p11.h9
+  anchor: shu.13.p11
+  at: 213
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p11.h10
+  anchor: shu.13.p11
+  at: 227
+  length: 2
+  type: person
+  person_id: zhangyi
+  text: 張嶷
+  via: primary
 - id: shu.13.p11.t5
   anchor: shu.13.p11
   at: 237
@@ -161,6 +573,22 @@ annotations:
   era: 延熙
   era_year: 11
   reasoning: 承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248
+- id: shu.13.p11.h11
+  anchor: shu.13.p11
+  at: 307
+  length: 2
+  type: person
+  person_id: zhangyi_2
+  text: 張裔
+  via: primary
+- id: shu.13.p11.h12
+  anchor: shu.13.p11
+  at: 351
+  length: 2
+  type: person
+  person_id: zhangyi
+  text: 張嶷
+  via: primary
 - id: shu.13.p11.t6
   anchor: shu.13.p11
   at: 374
@@ -173,6 +601,14 @@ annotations:
   era: 延熙
   era_year: 5
   reasoning: 原文「延熙五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
+- id: shu.13.p11.h13
+  anchor: shu.13.p11
+  at: 390
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
 - id: shu.13.p11.t7
   anchor: shu.13.p11
   at: 406
@@ -209,6 +645,22 @@ annotations:
   length: 0
   type: pei
   text: 《益部耆舊傳》曰：張表，肅子也。《華陽國志》云：表，張松子，未詳。閻宇字文平，南郡人也。
+- id: shu.13.p12.h1
+  anchor: shu.13.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: wangping
+  text: 王平
+  via: primary
+- id: shu.13.p12.h2
+  anchor: shu.13.p12
+  at: 48
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p12.t1
   anchor: shu.13.p12
   at: 60
@@ -221,6 +673,22 @@ annotations:
   era: 建興
   era_year: 6
   reasoning: 原文「建興六年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- id: shu.13.p12.h3
+  anchor: shu.13.p12
+  at: 119
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.13.p12.h4
+  anchor: shu.13.p12
+  at: 151
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.13.p12.t2
   anchor: shu.13.p12
   at: 203
@@ -233,6 +701,30 @@ annotations:
   era: 延熙
   era_year: 9
   reasoning: 承前文年號「延熙」推得，「九年」 = 延熙9年 = AD 246
+- id: shu.13.p12.h5
+  anchor: shu.13.p12
+  at: 206
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p12.h6
+  anchor: shu.13.p12
+  at: 226
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p12.h7
+  anchor: shu.13.p12
+  at: 228
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
 - id: shu.13.p13.t1
   anchor: shu.13.p13
   at: 0
@@ -245,6 +737,22 @@ annotations:
   era: 延熙
   era_year: 12
   reasoning: 承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249
+- id: shu.13.p13.h1
+  anchor: shu.13.p13
+  at: 4
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p13.h2
+  anchor: shu.13.p13
+  at: 14
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
 - id: shu.13.p13.t2
   anchor: shu.13.p13
   at: 58
@@ -269,6 +777,14 @@ annotations:
   era: 延熙
   era_year: 1
   reasoning: 原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
+- id: shu.13.p13.h3
+  anchor: shu.13.p13
+  at: 82
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
 - id: shu.13.p13.t4
   anchor: shu.13.p13
   at: 100
@@ -293,6 +809,46 @@ annotations:
   era: 延熙
   era_year: 7
   reasoning: 承前文年號「延熙」推得，「七年」 = 延熙7年 = AD 244
+- id: shu.13.p14.h1
+  anchor: shu.13.p14
+  at: 8
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: shu.13.p14.h2
+  anchor: shu.13.p14
+  at: 177
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.13.p14.h3
+  anchor: shu.13.p14
+  at: 200
+  length: 2
+  type: person
+  person_id: dengzhi
+  text: 鄧芝
+  via: primary
+- id: shu.13.p14.h4
+  anchor: shu.13.p14
+  at: 205
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
+- id: shu.13.p15.h1
+  anchor: shu.13.p15
+  at: 47
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: shu.13.p15.t1
   anchor: shu.13.p15
   at: 106
@@ -317,12 +873,28 @@ annotations:
   length: 0
   type: pei
   text: 《華陽國志》曰：後張翼、廖化並為大將軍，時人語曰：「前有王、句，後有張、廖。」
+- id: shu.13.p17.h1
+  anchor: shu.13.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: zhangyi
+  text: 張嶷
+  via: primary
 - id: shu.13.p17.a1
   anchor: shu.13.p17
   at: 14
   length: 0
   type: pei
   text: 《益部耆舊傳》曰：嶷出自孤微，而少有通壯之節。
+- id: shu.13.p17.h2
+  anchor: shu.13.p17
+  at: 21
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.13.p17.t1
   anchor: shu.13.p17
   at: 93
@@ -335,6 +907,22 @@ annotations:
   era: 建興
   era_year: 5
   reasoning: 原文「建興五年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）
+- id: shu.13.p17.h3
+  anchor: shu.13.p17
+  at: 100
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p17.h4
+  anchor: shu.13.p17
+  at: 260
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
 - id: shu.13.p17.a2
   anchor: shu.13.p17
   at: 286
@@ -353,6 +941,54 @@ annotations:
   era: 延熙
   era_year: 14
   reasoning: 承前文年號「延熙」推得，「十四年」 = 延熙14年 = AD 251
+- id: shu.13.p18.h1
+  anchor: shu.13.p18
+  at: 29
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.13.p18.h2
+  anchor: shu.13.p18
+  at: 110
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p22.h1
+  anchor: shu.13.p22
+  at: 103
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.13.p22.h2
+  anchor: shu.13.p22
+  at: 122
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.13.p23.h1
+  anchor: shu.13.p23
+  at: 3
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: shu.13.p23.h2
+  anchor: shu.13.p23
+  at: 29
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.13.p26.a1
   anchor: shu.13.p26
   at: 99
@@ -383,6 +1019,14 @@ annotations:
   era: 延熙
   era_year: 17
   reasoning: 原文「延熙十七年」直接出现年号；解析為 AD 254
+- id: shu.13.p26.h1
+  anchor: shu.13.p26
+  at: 122
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: shu.13.p26.a2
   anchor: shu.13.p26
   at: 136
@@ -395,9 +1039,57 @@ annotations:
   length: 0
   type: pei
   text: 《益部耆舊傳》曰：余觀張嶷儀貌辭令，不能駭人，而其策略足以入算，果烈足以立威，為臣有忠誠之節，處類有亮直之風，而動必顧典，後主深崇之。雖古之英士，何以遠逾哉！《蜀世譜》曰：嶷孫奕，晉梁州刺史。
+- id: shu.13.p27.h1
+  anchor: shu.13.p27
+  at: 10
+  length: 2
+  type: person
+  person_id: lihui
+  text: 李恢
+  via: primary
+- id: shu.13.p27.h2
+  anchor: shu.13.p27
+  at: 13
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.13.p27.h3
+  anchor: shu.13.p27
+  at: 17
+  length: 2
+  type: person
+  person_id: lvkai
+  text: 呂凱
+  via: primary
+- id: shu.13.p27.h4
+  anchor: shu.13.p27
+  at: 24
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
 - id: shu.13.p27.a1
   anchor: shu.13.p27
   at: 31
   length: 0
   type: pei
   text: 《尚書》曰：擾而毅。鄭玄注曰：擾，馴也。致果曰毅。
+- id: shu.13.p27.h5
+  anchor: shu.13.p27
+  at: 31
+  length: 2
+  type: person
+  person_id: wangping
+  text: 王平
+  via: primary
+- id: shu.13.p27.h6
+  anchor: shu.13.p27
+  at: 39
+  length: 2
+  type: person
+  person_id: zhangyi
+  text: 張嶷
+  via: primary

@@ -5,6 +5,14 @@ source:
   retrieved: '2026-05-03'
   sha256: e2788721b78210102b772d0bc2d0c61e366328b8f24c6e221499081787f6f0b8
 annotations:
+- id: hhs.58.p2.h1
+  anchor: hhs.58.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: yuxu
+  text: 虞詡
+  via: primary
 - id: hhs.58.p2.a1
   anchor: hhs.58.p2
   at: 13
@@ -107,6 +115,16 @@ annotations:
   length: 0
   type: lixian
   text: 幟，記也。續漢書曰「以絳縷縫其裾」也。
+- anchor: hhs.58.p11
+  at: 7
+  length: 2
+  type: person
+  person_id: dengsui
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「鄧太后以詡有將帥之略」即和熹鄧太后（鄧綏）任虞詡為武都太守，未列 roster。
+  id: hhs.58.p11.h1
 - id: hhs.58.p12.a1
   anchor: hhs.58.p12
   at: 95
@@ -179,6 +197,14 @@ annotations:
   length: 0
   type: lixian
   text: 韓詩外傳曰「昔者衛大夫史魚病且死，謂其子曰：『我數言蘧伯玉之賢而不能進，彌子瑕不肖不能退。為人臣生不能進賢而退不肖，死不當理喪正堂，殯我於室足矣。』衛君問其故，子以父言聞，君乃立召蘧伯玉而貴之，彌子瑕而退之，徙殯於正堂，成禮而後去」也。
+- id: hhs.58.p16.h1
+  anchor: hhs.58.p16
+  at: 166
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.58.p16.a3
   anchor: hhs.58.p16
   at: 180
@@ -197,12 +223,40 @@ annotations:
   length: 0
   type: lixian
   text: 歐刀，刑人之刀也。
+- anchor: hhs.58.p17
+  at: 187
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 孫程等諫順帝救虞詡，「陛下始與臣等造事之時」即孫程立順帝事，對應 shunhan。
+  id: hhs.58.p17.h2
 - id: hhs.58.p17.a3
   anchor: hhs.58.p17
   at: 198
   length: 0
   type: lixian
   text: 謂順帝為太子，被江京等廢為濟陰王，程等謀立之時也。
+- id: hhs.58.p17.h1
+  anchor: hhs.58.p17
+  at: 228
+  length: 2
+  type: person
+  person_id: yuxu
+  text: 虞詡
+  via: primary
+- anchor: hhs.58.p17
+  at: 231
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段孫程奏順帝救虞詡，對應 shunhan。
+  id: hhs.58.p17.h3
 - id: hhs.58.p17.a4
   anchor: hhs.58.p17
   at: 271
@@ -215,6 +269,16 @@ annotations:
   length: 0
   type: lixian
   text: 埤蒼云：「箱，序也。」字或作「廂」。
+- anchor: hhs.58.p17
+  at: 333
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段孫程「陛下急收防」即奏順帝，對應 shunhan。
+  id: hhs.58.p17.h4
 - id: hhs.58.p18.a1
   anchor: hhs.58.p18
   at: 0
@@ -233,12 +297,40 @@ annotations:
   length: 0
   type: lixian
   text: 寧陽，縣，屬東平國，故城在今兗州龔丘縣南也。
+- anchor: hhs.58.p20
+  at: 33
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.85
+  reasoning: 寧陽主簿上書順帝訴冤，「陛下」即順帝，對應 shunhan。
+  id: hhs.58.p20.h1
+- anchor: hhs.58.p20
+  at: 37
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.85
+  reasoning: 同段「陛下為臣父」延續即順帝，對應 shunhan。
+  id: hhs.58.p20.h2
 - id: hhs.58.p21.a1
   anchor: hhs.58.p21
   at: 10
   length: 0
   type: lixian
   text: 回，曲也。
+- id: hhs.58.p24.h1
+  anchor: hhs.58.p24
+  at: 0
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
 - id: hhs.58.p24.a1
   anchor: hhs.58.p24
   at: 13
@@ -251,6 +343,14 @@ annotations:
   length: 0
   type: lixian
   text: 家語子貢對衛文子曰：「一日三復白珪之玷，是南宮絛之行也。」王肅注云：「玷，缺也。詩云：『白珪之玷，尚可磨也。斯言之玷，不可為也。』一日三復，慎之至也。」
+- id: hhs.58.p25.h1
+  anchor: hhs.58.p25
+  at: 16
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: hhs.58.p26.a1
   anchor: hhs.58.p26
   at: 51
@@ -263,6 +363,16 @@ annotations:
   length: 0
   type: lixian
   text: 皇甫嵩傳曰：「連結郡國，自青、徐、幽、冀、荊、楊、兗、豫八州之人，莫不畢應。」此云「六州」，蓋初起時也。
+- anchor: hhs.58.p26
+  at: 151
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 蓋勳奏靈帝論黃巾，「陛下仁德寬容」末段「靈帝猶識燮言」明點靈帝，對應 linghan。
+  id: hhs.58.p26.h2
 - id: hhs.58.p26.a3
   anchor: hhs.58.p26
   at: 196
@@ -293,18 +403,46 @@ annotations:
   length: 0
   type: lixian
   text: 白起與應侯有隙，構之秦昭王，免起為士伍，遷之陰密。行出咸陽西門十里，至杜郵，使賜劍自裁。見史記。案杜郵，今咸陽城是其地。酈元注水經雲渭水北有杜郵亭也。
+- anchor: hhs.58.p26
+  at: 278
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「陛下宜思虞舜四罪之舉」即奏靈帝，對應 linghan。
+  id: hhs.58.p26.h3
 - id: hhs.58.p26.a8
   anchor: hhs.58.p26
   at: 298
   length: 0
   type: lixian
   text: 殛音紀力反。殛亦誅也。
+- anchor: hhs.58.p26
+  at: 346
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「陛下少用其言」即奏靈帝，對應 linghan。
+  id: hhs.58.p26.h4
 - id: hhs.58.p26.a9
   anchor: hhs.58.p26
   at: 387
   length: 0
   type: lixian
   text: 續漢書曰：「燮軍斬賊三帥卜巳、張伯、梁仲寧等，功高為封首。」
+- id: hhs.58.p26.h1
+  anchor: hhs.58.p26
+  at: 387
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.58.p26.a10
   anchor: hhs.58.p26
   at: 394
@@ -329,6 +467,16 @@ annotations:
   length: 0
   type: lixian
   text: 前書，武帝分武威、酒泉，置張掖、敦煌，謂之四郡。劉歆等議曰：「孝武帝北攘匈奴，降昆邪十萬之觿，置五屬國，起朔方，以奪其肥饒之地。東伐朝鮮，起玄菟、樂浪，以斷匈奴之左臂。西伐大宛，并*[三十]*六國，結烏孫，起敦煌、酒泉、張掖，以*(高)**[鬲]*婼羌，裂匈奴之右臂。」婼音而遮反。
+- anchor: hhs.58.p29
+  at: 39
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 「陛下臥不安寢」承蓋勳駁崔烈棄涼州議，靈帝時事，對應 linghan。
+  id: hhs.58.p29.h1
 - id: hhs.58.p29.a3
   anchor: hhs.58.p29
   at: 90
@@ -341,6 +489,14 @@ annotations:
   length: 0
   type: lixian
   text: 方，正也。格猶標準也。
+- id: hhs.58.p31.h1
+  anchor: hhs.58.p31
+  at: 63
+  length: 2
+  type: person
+  person_id: fuxie
+  text: 傅燮
+  via: primary
 - id: hhs.58.p31.a1
   anchor: hhs.58.p31
   at: 99
@@ -419,6 +575,14 @@ annotations:
   length: 0
   type: lixian
   text: 師即君也。尚書曰「作之君，作之師」也。
+- id: hhs.58.p38.h1
+  anchor: hhs.58.p38
+  at: 0
+  length: 2
+  type: person
+  person_id: gaixun
+  text: 蓋勳
+  via: primary
 - id: hhs.58.p38.a1
   anchor: hhs.58.p38
   at: 13
@@ -515,6 +679,14 @@ annotations:
   length: 0
   type: lixian
   text: 調猶發也。
+- id: hhs.58.p44.h1
+  anchor: hhs.58.p44
+  at: 11
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.58.p45.a1
   anchor: hhs.58.p45
   at: 30
@@ -533,24 +705,234 @@ annotations:
   length: 0
   type: lixian
   text: 左傳曰「戎昭果毅以聽之之謂武，殺敵為果，致果曰毅」也。
+- id: hhs.58.p48.h1
+  anchor: hhs.58.p48
+  at: 5
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.58.p48.h2
+  anchor: hhs.58.p48
+  at: 12
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.58.p48.h3
+  anchor: hhs.58.p48
+  at: 21
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.58.p48.h4
+  anchor: hhs.58.p48
+  at: 23
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p48.h5
+  anchor: hhs.58.p48
+  at: 76
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.58.p48.h6
+  anchor: hhs.58.p48
+  at: 78
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p48.h7
+  anchor: hhs.58.p48
+  at: 98
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: hhs.58.p49.a1
   anchor: hhs.58.p49
   at: 172
   length: 0
   type: lixian
   text: 府，聚也。
+- id: hhs.58.p50.h1
+  anchor: hhs.58.p50
+  at: 4
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.58.p50.h2
+  anchor: hhs.58.p50
+  at: 7
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- anchor: hhs.58.p50
+  at: 12
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「董卓廢少帝，殺何太后」直點何氏，對應 hetaihou。
+  id: hhs.58.p50.h10
 - id: hhs.58.p50.a1
   anchor: hhs.58.p50
   at: 63
   length: 0
   type: lixian
   text: 續漢書曰：「是時，漢陽叛人王國，觿十餘萬，攻陳倉，三輔震動。勳領郡兵五千人，自請滿萬人，因表用處士扶風*[士]*孫瑞為鷹鷂都尉，桂陽魏傑為破敵都尉，京兆杜楷為威虜都尉，弘農楊儒為鳥擊都尉，長陵第五鑈為清寇都尉。凡五都尉，皆素有名，悉領屬勳。每有密事，靈帝手詔問之。」
+- id: hhs.58.p50.h3
+  anchor: hhs.58.p50
+  at: 63
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.58.p50.h4
+  anchor: hhs.58.p50
+  at: 81
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.58.p50.h5
+  anchor: hhs.58.p50
+  at: 101
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.58.p50.h6
+  anchor: hhs.58.p50
+  at: 135
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.58.p50.h7
+  anchor: hhs.58.p50
+  at: 151
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.58.p50.h8
+  anchor: hhs.58.p50
+  at: 155
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.58.p50.h9
+  anchor: hhs.58.p50
+  at: 186
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.58.p51.h1
+  anchor: hhs.58.p51
+  at: 8
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p51.h2
+  anchor: hhs.58.p51
+  at: 43
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p51.h3
+  anchor: hhs.58.p51
+  at: 48
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.58.p51.a1
   anchor: hhs.58.p51
   at: 91
   length: 0
   type: lixian
   text: 孫卿子曰「慶者在堂，吊者在閭，福與禍鄰，莫知其門」也。
+- id: hhs.58.p52.h1
+  anchor: hhs.58.p52
+  at: 0
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p52.h2
+  anchor: hhs.58.p52
+  at: 23
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p52.h3
+  anchor: hhs.58.p52
+  at: 39
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p52.h4
+  anchor: hhs.58.p52
+  at: 60
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p52.h5
+  anchor: hhs.58.p52
+  at: 64
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.58.p54.h1
+  anchor: hhs.58.p54
+  at: 0
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
 - id: hhs.58.p54.a1
   anchor: hhs.58.p54
   at: 13
@@ -599,12 +981,36 @@ annotations:
   length: 0
   type: lixian
   text: 魁梧，壯大之貌也。梧音吾。
+- id: hhs.58.p57.h1
+  anchor: hhs.58.p57
+  at: 19
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.58.p58.a1
   anchor: hhs.58.p58
   at: 20
   length: 0
   type: lixian
   text: 即丘，縣，屬琅邪國，故城在今沂州臨沂縣東南，即春秋之祝丘也。
+- id: hhs.58.p58.h1
+  anchor: hhs.58.p58
+  at: 114
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p58.h2
+  anchor: hhs.58.p58
+  at: 128
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
 - id: hhs.58.p58.a2
   anchor: hhs.58.p58
   at: 167
@@ -617,6 +1023,14 @@ annotations:
   length: 0
   type: lixian
   text: 岱字公山。
+- id: hhs.58.p58.h3
+  anchor: hhs.58.p58
+  at: 253
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.58.p58.a4
   anchor: hhs.58.p58
   at: 307
@@ -635,12 +1049,116 @@ annotations:
   length: 0
   type: lixian
   text: 糾，收也。
+- id: hhs.58.p60.h1
+  anchor: hhs.58.p60
+  at: 5
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.58.p60.h2
+  anchor: hhs.58.p60
+  at: 12
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.58.p60.h3
+  anchor: hhs.58.p60
+  at: 22
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.58.p60.h4
+  anchor: hhs.58.p60
+  at: 48
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.58.p60.h5
+  anchor: hhs.58.p60
+  at: 51
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.58.p60.a1
   anchor: hhs.58.p60
   at: 147
   length: 0
   type: lixian
   text: 左傳曰，王子虎盟諸侯於王廷，要言曰「皆□王室，無相害也。有渝此盟，明神殛之，俾墜其師，無克祚國」也。
+- id: hhs.58.p61.h1
+  anchor: hhs.58.p61
+  at: 5
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.58.p61.h2
+  anchor: hhs.58.p61
+  at: 24
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.58.p61.h3
+  anchor: hhs.58.p61
+  at: 51
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p61.h4
+  anchor: hhs.58.p61
+  at: 71
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p61.h5
+  anchor: hhs.58.p61
+  at: 147
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p61.h6
+  anchor: hhs.58.p61
+  at: 152
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p61.h7
+  anchor: hhs.58.p61
+  at: 172
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p61.h8
+  anchor: hhs.58.p61
+  at: 179
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.58.p61.a1
   anchor: hhs.58.p61
   at: 211
@@ -695,6 +1213,14 @@ annotations:
   length: 0
   type: lixian
   text: 吳王余昧卒，欲授弟季札，季札逃去。見史記也。
+- id: hhs.58.p64.h1
+  anchor: hhs.58.p64
+  at: 59
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.58.p64.a2
   anchor: hhs.58.p64
   at: 78
@@ -743,12 +1269,44 @@ annotations:
   length: 0
   type: lixian
   text: 股肱猶手足也。言北邊有倉卒之急，股肱之臣將告歸自救耳。
+- id: hhs.58.p67.h1
+  anchor: hhs.58.p67
+  at: 13
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
 - id: hhs.58.p67.a1
   anchor: hhs.58.p67
   at: 29
   length: 0
   type: lixian
   text: 前書，彭越將其觿居鉅野中，無所屬，漢王乃使人賜越將軍印，使下濟陰以擊楚也。
+- id: hhs.58.p67.h2
+  anchor: hhs.58.p67
+  at: 29
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p68.h1
+  anchor: hhs.58.p68
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.58.p68.h2
+  anchor: hhs.58.p68
+  at: 38
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: hhs.58.p68.a1
   anchor: hhs.58.p68
   at: 76
@@ -761,6 +1319,22 @@ annotations:
   length: 0
   type: lixian
   text: 與音預。
+- id: hhs.58.p69.h1
+  anchor: hhs.58.p69
+  at: 7
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p69.h2
+  anchor: hhs.58.p69
+  at: 23
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
 - id: hhs.58.p70.a1
   anchor: hhs.58.p70
   at: 46
@@ -773,6 +1347,86 @@ annotations:
   length: 0
   type: lixian
   text: 前漢音義曰：「觖猶冀也。」觖音羌恚反。
+- id: hhs.58.p70.h1
+  anchor: hhs.58.p70
+  at: 121
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p71.h1
+  anchor: hhs.58.p71
+  at: 30
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p71.h2
+  anchor: hhs.58.p71
+  at: 44
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p71.h3
+  anchor: hhs.58.p71
+  at: 73
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p71.h4
+  anchor: hhs.58.p71
+  at: 87
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p71.h5
+  anchor: hhs.58.p71
+  at: 101
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p71.h6
+  anchor: hhs.58.p71
+  at: 140
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p71.h7
+  anchor: hhs.58.p71
+  at: 162
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.58.p72.h1
+  anchor: hhs.58.p72
+  at: 13
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.58.p73.h1
+  anchor: hhs.58.p73
+  at: 8
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
 - id: hhs.58.p73.a1
   anchor: hhs.58.p73
   at: 110
@@ -785,9 +1439,81 @@ annotations:
   length: 0
   type: lixian
   text: 前書魏相上書曰：「救亂誅暴，謂之義兵，兵義者王。敵加於己，不得已而起者，謂之應兵，兵應者勝。爭恨小故，不勝憤怒者，謂之忿兵，兵忿者敗。
+- id: hhs.58.p75.h1
+  anchor: hhs.58.p75
+  at: 25
+  length: 2
+  type: person
+  person_id: gaixun
+  text: 蓋勳
+  via: primary
+- id: hhs.58.p87.h1
+  anchor: hhs.58.p87
+  at: 33
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.58.p87.h2
+  anchor: hhs.58.p87
+  at: 65
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.58.p89.a1
   anchor: hhs.58.p89
   at: 9
   length: 0
   type: lixian
   text: 吳破楚，申包胥如秦乞師，立依於庭牆而哭，日夜不絕聲，勺飲不入口，七日秦師乃出，以車五百乘救楚，敗吳兵於稷。事見左傳及史記。言臧洪徒守節致死，不能如包胥之存楚也。
+- id: hhs.58.p92.h1
+  anchor: hhs.58.p92
+  at: 17
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.58.p101.h1
+  anchor: hhs.58.p101
+  at: 8
+  length: 2
+  type: person
+  person_id: zhaoqi
+  text: 趙岐
+  via: primary
+- id: hhs.58.p110.h1
+  anchor: hhs.58.p110
+  at: 38
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.58.p111.h1
+  anchor: hhs.58.p111
+  at: 7
+  length: 2
+  type: person
+  person_id: zanghong
+  text: 臧洪
+  via: primary
+- id: hhs.58.p114.h1
+  anchor: hhs.58.p114
+  at: 23
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.58.p115.h1
+  anchor: hhs.58.p115
+  at: 8
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary

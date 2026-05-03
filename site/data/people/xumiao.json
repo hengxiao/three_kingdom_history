@@ -1,0 +1,83 @@
+{
+  "id": "xumiao",
+  "primary_name": "徐邈",
+  "courtesy_name": "景山",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.27",
+      "title": "魏書·徐胡二王傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/27.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p17",
+        "at": 4,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "徐邈",
+        "snippet": "帝以燕國徐邈為涼州刺史。邈務農積穀，立學明訓，進善黜惡，與羌、胡從事，不問小過；若犯大罪，先告〔部〕(都)帥[2]，使知應死者，乃斬以徇。…"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p26",
+        "at": 18,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "徐邈",
+        "snippet": "夏，四月，以司空高柔為司徒，光祿大夫徐邈為司空。邈歎曰：「三公論道之官，無其人則缺，豈可以老病忝之哉！」遂固辭不受。"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p60",
+        "at": 4,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "徐邈",
+        "snippet": "光祿大夫徐邈卒。邈以清節著名，盧欽嘗著書稱邈曰：「徐公志高行潔，才博氣猛，其施之也，高而不狷，潔而不介，博而守約，猛而能寬。聖人以清為難，…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.24",
+        "chapter_title": "魏書·韓崔高孫王傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.24.p36",
+        "at": 79,
+        "data_url": "data/sanguozhi/wei/24.json",
+        "matched": "徐邈",
+        "snippet": "…曁年過八十，起家就列；柔保官二十年，元老終位：比之徐邈、常林，於茲為疚矣。"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p16",
+        "at": 67,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "徐邈",
+        "snippet": "…以侯就第，位特進。四月，以司空高柔為司徒；光祿大夫徐邈為司空，固辭不受。秋九月，以車騎將軍王淩為司空。冬十月，大風發屋折樹。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 5
+}

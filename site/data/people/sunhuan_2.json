@@ -1,0 +1,72 @@
+{
+  "id": "sunhuan_2",
+  "primary_name": "孫桓",
+  "courtesy_name": "叔武",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p45",
+        "at": 83,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "孫桓",
+        "snippet": "…假節，督將軍朱然、潘璋、宋謙、韓當、徐盛、鮮于丹、孫桓等五萬人拒之。"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p80",
+        "at": 8,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "孫桓",
+        "snippet": "初，吳安東中郎將孫桓別擊漢前鋒於夷道，為漢所圍，求救於陸遜，遜曰：「未可。」諸將曰：「孫安東，公族，見圍已困，奈何不救！」遜曰：「安東得士眾心，城…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p11",
+        "at": 2,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "孫桓",
+        "snippet": "初，孫桓別討備前鋒於夷道，為備所圍，求救於遜。遜曰：「未可。」諸將曰：「孫安東公族，見圍已困，奈何不救？」遜曰：「安東得士眾心，城牢糧…"
+      },
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p8",
+        "at": 46,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "孫桓",
+        "snippet": "…督、假節，督朱然、潘璋、宋謙、韓當、徐盛、鮮于丹、孫桓等五萬人拒之。備從巫峽、建平連圍至夷陵界，立數十屯，以金錦爵賞誘動諸夷，使將軍馮習為大督，張南為前部，輔匡，趙融、廖淳、傅肜等…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

@@ -1,0 +1,61 @@
+{
+  "id": "litong",
+  "primary_name": "李通",
+  "courtesy_name": "文達",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p63",
+        "at": 6,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "李通",
+        "snippet": "陽安都尉江夏李通妻伯父犯法，儼收治，致之大辟。時殺生之柄，決於牧守，通妻子號泣以請其命。通曰：「方與曹公戮力，義不以私廢公！」嘉儼執憲不阿，與…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p29",
+        "at": 37,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "李通",
+        "snippet": "…紹，紹遣劉備將兵助辟，郡縣多應之。紹遣使拜陽安都尉李通為征南將軍，劉表亦陰招之，通皆拒焉。或勸通從紹，通按劍叱之曰：「曹公明哲，必定天下；紹雖強盛，終為之虜耳。吾以死不貳。」即斬紹…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.23",
+        "chapter_title": "魏書·和常楊杜趙裴傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.23.p20",
+        "at": 177,
+        "data_url": "data/sanguozhi/wei/23.json",
+        "matched": "李通",
+        "snippet": "…使招誘豫州諸郡，諸郡多受其命。惟陽安郡不動，而都尉李通急錄戶調。儼見通曰：「方今天下未集，諸郡並叛，懷附者復收其綿絹，小人樂亂，能無遺恨！且遠近多虞，不可不詳也。」通曰：「紹與大將…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

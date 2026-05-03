@@ -1,0 +1,72 @@
+{
+  "id": "bingyuan",
+  "primary_name": "邴原",
+  "courtesy_name": "根矩",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.11",
+      "title": "魏書·袁張涼國田王邴管傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/11.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p27",
+        "at": 24,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "邴原",
+        "snippet": "公孫度威行海外，中國人士避亂者多歸之，北海管寧、邴原、王烈皆往依焉。寧少時與華歆為友，嘗與歆共鋤菜，見地有金，寧揮鋤不顧，與瓦石無異，歆捉而擲之，人以是知其優劣。邴原遠行遊學，八…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p62",
+        "at": 16,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "邴原",
+        "snippet": "操幼子倉舒卒，操傷惜之甚。司空掾邴原女早亡，操欲求與倉舒合葬，原辭曰：「嫁殤，非禮也。原之所以自容於明公，公之所以待原者，以能守訓典而不易也。若聽明公之命，則是凡…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.70",
+        "chapter_title": "鄭孔荀列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.70.p15",
+        "at": 11,
+        "data_url": "data/houhanshu/hhs/70.json",
+        "matched": "邴原",
+        "snippet": "東州鄭玄學該古今，北海邴原清高直亮，皆儒生所仰，羣士楷式。彼諸將若詢其計畫，足知彊弱。且燕、趙、齊、梁非不盛也，終滅於秦；吳、楚七國非不衆也，卒敗滎陽。…"
+      },
+      {
+        "chapter_id": "hhs.70",
+        "chapter_title": "鄭孔荀列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.70.p25",
+        "at": 100,
+        "data_url": "data/houhanshu/hhs/70.json",
+        "matched": "邴原",
+        "snippet": "…，更置城邑，立學校，表顯儒術，薦舉賢良鄭玄、彭璆、邴原等。郡人甄子然、臨孝存知名早卒，融恨不及之，乃命配食縣社。其餘雖一介之善，莫不加禮焉。郡人無後及四方游士有死亡者，皆爲棺具而斂…"
+      }
+    ]
+  },
+  "n_mentions": 4
+}

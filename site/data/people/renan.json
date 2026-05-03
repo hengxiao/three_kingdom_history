@@ -1,0 +1,82 @@
+{
+  "id": "renan",
+  "primary_name": "任安",
+  "courtesy_name": "定祖",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.79",
+      "title": "儒林列传",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/79.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.12",
+        "chapter_title": "蜀書·二杜周許孟來尹李譙郤傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.12.p1",
+        "at": 18,
+        "data_url": "data/sanguozhi/shu/12.json",
+        "matched": "任安",
+        "snippet": "杜微字國輔，梓潼涪人也。少受學於廣漢任安。劉障辟為從事，以疾去官。及先主定蜀，微常稱聾，閉門不出。"
+      },
+      {
+        "chapter_id": "shu.12",
+        "chapter_title": "蜀書·二杜周許孟來尹李譙郤傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.12.p11",
+        "at": 17,
+        "data_url": "data/sanguozhi/shu/12.json",
+        "matched": "任安",
+        "snippet": "杜瓊字伯瑜，蜀郡成都人也。少受學於任安，精究安術。劉璋時辟為從事，先主定益州，領牧，以瓊為議曹從事。後主踐阼，拜諫議大夫，遷左中郎將、大鴻臚、太常。為人靜默少言，闔…"
+      },
+      {
+        "chapter_id": "shu.12",
+        "chapter_title": "蜀書·二杜周許孟來尹李譙郤傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.12.p7",
+        "at": 34,
+        "data_url": "data/sanguozhi/shu/12.json",
+        "matched": "任安",
+        "snippet": "…中人也。父舒，字叔布，少學術於廣漢楊厚，名亞董扶、任安。數被徵，終不詣。時人有問：「《春秋讖》曰『代漢者當塗高』，此何謂也？」舒曰：「當塗高者，魏也。」鄉黨學者私傳其語，羣少受學於…"
+      },
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p20",
+        "at": 15,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "任安",
+        "snippet": "何彥英名宗，蜀郡郫人也。事廣漢任安學，精究安術，與杜瓊同師而名問過之。劉璋時，為犍為太守。先主定益州，領牧，闢為從事祭酒。後援引圖、讖，勸先主即尊號。踐阼之後，…"
+      },
+      {
+        "chapter_id": "shu.8",
+        "chapter_title": "蜀書·許糜孫簡伊秦傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.8.p15",
+        "at": 191,
+        "data_url": "data/sanguozhi/shu/08.json",
+        "matched": "任安",
+        "snippet": "…昔楚葉公好龍，神龍下之，好偽徹天，何況于真？今處士任安，仁義直道，流名四遠；如今見察，則一州斯服。昔湯舉伊芳尹，不仁者遠，何武貢二龔，雙名竹帛，故貪尋常之高而忽萬仞之嵩，樂面前之飾…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 5
+}

@@ -1,0 +1,49 @@
+{
+  "id": "guanlu",
+  "primary_name": "管輅",
+  "courtesy_name": "公明",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.29",
+      "title": "魏書·方技傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/29.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p33",
+        "at": 5,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "管輅",
+        "snippet": "何晏聞平原管輅明於術數，請與相見。十二月，丙戌，輅往詣晏，晏與之論《易》。時鄧颺在坐，謂輅曰：「君自謂善《易》，而語初不及《易》中辭義，何也…"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p49",
+        "at": 0,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "管輅",
+        "snippet": "管輅之舅謂輅曰：「爾前何以知何、鄧之敗？」輅曰：「鄧之行步，筋不束骨，脈不制肉，起立傾倚，若無手足，此為鬼躁。何之視候則魂不守宅，…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

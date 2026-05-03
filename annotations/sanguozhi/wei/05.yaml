@@ -2,27 +2,313 @@ chapter: wei.5
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷05
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: fd2688d265a9de3626b88ebd08df3a60650fbc0b3c8654942c1b9be5e09dedc0
 annotations:
+- id: wei.5.p2.h1
+  anchor: wei.5.p2
+  at: 59
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p2.h2
+  anchor: wei.5.p2
+  at: 94
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.5.p2.h3
+  anchor: wei.5.p2
+  at: 112
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p4
+  at: 3
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.97
+  reasoning: 「武宣卞皇后」— 即卞皇后本傳之首；roster 無此人，置 null。
+  id: wei.5.p4.h17
+- id: wei.5.p4.h1
+  anchor: wei.5.p4
+  at: 12
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.5.p4.a1
   anchor: wei.5.p4
   at: 21
   length: 0
   type: pei
   text: 《魏書》曰：后以漢延熹三年十二月己巳生齊郡白亭，有黃氣滿室移日。父敬侯怪之，以問卜者王旦，旦曰：「此吉祥也。」
+- id: wei.5.p4.h2
+  anchor: wei.5.p4
+  at: 25
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h3
+  anchor: wei.5.p4
+  at: 36
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h4
+  anchor: wei.5.p4
+  at: 42
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.5.p4.h5
+  anchor: wei.5.p4
+  at: 47
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h6
+  anchor: wei.5.p4
+  at: 56
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.5.p4.h7
+  anchor: wei.5.p4
+  at: 59
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h8
+  anchor: wei.5.p4
+  at: 65
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h9
+  anchor: wei.5.p4
+  at: 124
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h10
+  anchor: wei.5.p4
+  at: 153
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.5.p4.a2
   anchor: wei.5.p4
   at: 161
   length: 0
   type: pei
   text: 《魏略》曰：太祖始有丁夫人，又劉夫人生子脩及清河長公主。劉早終，丁養子脩。子脩亡於穰，丁常言：「將我兒殺之，都不復念！」遂哭泣無節。太祖忿之，遣歸家，欲其意折。後太祖就見之，夫人方織，外人傳云「公至」，夫人踞機如故。太祖到，撫其背曰：「顧我共載歸乎！」夫人不顧，又不應。太祖却行，立於戶外，復云：「得無尚可邪！」遂不應，太祖曰：「真訣矣。」遂與絕，欲其家嫁之，其家不敢。初，丁夫人旣爲嫡，加有子脩，丁視后母子不足。后爲繼室，不念舊惡，因太祖出行，常四時使人饋遺，又私迎之，延以正坐而己下之，迎來送去，有如昔日。丁謝曰：「廢放之人，夫人何能常爾邪！」其後丁亡，后請太祖殯葬，許之，乃葬許城南。後太祖病困，自慮不起，歎曰：「我前後行意，於心未曾有所負也。假令死而有靈，子脩若問『我母所在』，我將何辭以荅！」《魏書》曰：后性約儉，不尚華麗，無文繡珠玉，器皆黑漆。太祖常得名璫數具，命后自選一具，后取其中者，太祖問其故，對曰：「取其上者爲貪，取其下者爲偽，故取其中者。」
+- id: wei.5.p4.h11
+  anchor: wei.5.p4
+  at: 161
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.5.p4
+  at: 164
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「文帝爲太子」— 即曹丕被立為魏太子。
+  id: wei.5.p4.h15
+- anchor: wei.5.p4
+  at: 179
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「將軍拜太子」承前句，仍指曹丕。
+  id: wei.5.p4.h16
+- id: wei.5.p4.h12
+  anchor: wei.5.p4
+  at: 205
+  length: 1
+  type: person
+  person_id: caopi
+  text: 丕
+  via: given_name
+- id: wei.5.p4.h13
+  anchor: wei.5.p4
+  at: 245
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p4.h14
+  anchor: wei.5.p4
+  at: 248
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.5.p5
+  at: 7
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 王后
+  via: llm
+  confidence: 0.95
+  reasoning: 「拜爲王后」— 建安二十四年拜卞氏為魏王后；roster 無。
+  id: wei.5.p5.h8
+- anchor: wei.5.p5
+  at: 33
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 王后
+  via: llm
+  confidence: 0.95
+  reasoning: 「進位王后」承前句，指卞氏；roster 無。
+  id: wei.5.p5.h9
+- id: wei.5.p5.h1
+  anchor: wei.5.p5
+  at: 62
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p5.h2
+  anchor: wei.5.p5
+  at: 66
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.5.p5
+  at: 76
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「尊后曰王太后」— 卞氏進尊為王太后；roster 無。
+  id: wei.5.p5.h4
+- anchor: wei.5.p5
+  at: 87
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「尊后曰皇太后」— 卞氏進尊為皇太后；roster 無。
+  id: wei.5.p5.h5
 - id: wei.5.p5.a1
   anchor: wei.5.p5
   at: 95
   length: 0
   type: pei
   text: 《魏書》曰：后以國用不足，滅損御食，諸金銀器物皆去之。東阿王植，太后少子，最愛之。後植犯法，爲有司所奏，文帝令太后弟子奉車都尉蘭持公卿議白太后，太后曰：「不意此兒所作如是，汝還語帝，不可以我故壞國法。」及自見帝，不以爲言。臣松之案：文帝夢磨錢，欲使文滅而更愈明，以問周宣。宣荅曰：「此陛下家事，雖意欲爾，而太后不聽。」則太后用意，不得如此書所言也。《魏書》又曰：太后每隨軍征行，見高年白首，輙住車呼問，賜與絹帛，對之涕泣曰：「恨父母不及我時也。」太后每見外親，不假以顏色，常言「居處當務節儉，不當望賞賜，念自佚也。外舍當怪吾遇之太薄，吾自有常度故也。吾事武帝四五十年，行儉日久，不能自變爲奢，有犯科禁者，吾且能加罪一等耳，莫望錢米恩貸也。」帝爲太后弟秉起第，第成，太后幸第請諸家外親，設下廚，無異膳。太后左右菜食粟飯，無魚肉。其儉如此。
+- id: wei.5.p5.h3
+  anchor: wei.5.p5
+  at: 95
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p5
+  at: 101
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「明帝即位，尊太后曰太皇太后」— 卞太后；roster 無。
+  id: wei.5.p5.h6
+- anchor: wei.5.p5
+  at: 106
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太皇太后」承前句卞氏進尊；roster 無。
+  id: wei.5.p5.h7
+- id: wei.5.p6.h1
+  anchor: wei.5.p6
+  at: 4
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.5.p6
+  at: 9
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「文帝欲追封太后父母」— 卞太后；roster 無。
+  id: wei.5.p6.h5
+- id: wei.5.p6.h2
+  anchor: wei.5.p6
+  at: 16
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
+- anchor: wei.5.p6
+  at: 22
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 陳羣奏疏對曹丕稱「陛下以聖德應運受命」。
+  id: wei.5.p6.h4
 - id: wei.5.p6.t1
   anchor: wei.5.p6
   at: 118
@@ -35,6 +321,24 @@ annotations:
   era: 太和
   era_year: 4
   reasoning: 原文「太和四年」直接出现年号；解析為 AD 230
+- id: wei.5.p6.h3
+  anchor: wei.5.p6
+  at: 124
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p6
+  at: 129
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「追謚太后祖父廣曰開陽恭侯」— 卞太后；roster 無。
+  id: wei.5.p6.h6
 - id: wei.5.p6.t2
   anchor: wei.5.p6
   at: 164
@@ -61,6 +365,16 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 太和4年 (AD 230)，月份「七月」
+- anchor: wei.5.p7
+  at: 2
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后弟秉」— 卞太后弟卞秉；roster 無卞太后。
+  id: wei.5.p7.h1
 - id: wei.5.p7.t1
   anchor: wei.5.p7
   at: 14
@@ -91,6 +405,44 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：明帝時，蘭見外有二難，而帝留意於宮室，常因侍從，數切諫。帝雖不能從，猶納其誠欵。後蘭苦酒消渴，時帝信巫女用水方，使人持水賜蘭，蘭不肯飲。詔問其意？蘭言治病自當以方藥，何信於此？帝爲變色，而蘭終不服。後渴稍甚，以至於亡。故時人見蘭好直言，謂帝靣折之而蘭自殺，其實不然。
+- anchor: wei.5.p7
+  at: 101
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「蘭子隆女爲高貴鄉公皇后」— 即卞皇后（曹髦皇后）；roster 無。
+  id: wei.5.p7.h2
+- anchor: wei.5.p7
+  at: 157
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「琳女又爲陳留王皇后」— 即陳留王卞皇后；roster 無。
+  id: wei.5.p7.h3
+- anchor: wei.5.p8
+  at: 3
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.97
+  reasoning: 「文昭甄皇后」— 即甄氏本傳之首；roster 無。
+  id: wei.5.p8.h2
+- id: wei.5.p8.h1
+  anchor: wei.5.p8
+  at: 12
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p8.a1
   anchor: wei.5.p8
   at: 43
@@ -103,6 +455,30 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：后年十四，喪中兄儼，悲哀過制，事寡嫂謙敬，事處其勞，拊養儼子，慈愛甚篤。后母性嚴，待諸婦有常，后數諫母：「兄不幸早終，嫂年少守節，顧留一子，以大義言之，待之當如婦，愛之宜如女。」母感后言流涕，便令后與嫂共止，寢息坐起常相隨，恩愛益密。
+- id: wei.5.p9.h1
+  anchor: wei.5.p9
+  at: 4
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.5.p9.h2
+  anchor: wei.5.p9
+  at: 29
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.5.p9.h3
+  anchor: wei.5.p9
+  at: 40
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p9.a1
   anchor: wei.5.p9
   at: 48
@@ -123,6 +499,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「延康元年正月」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
+- id: wei.5.p10.h1
+  anchor: wei.5.p10
+  at: 7
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.5.p10.t2
   anchor: wei.5.p10
   at: 13
@@ -157,6 +541,22 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：有司奏建長秋宮，帝璽書迎后，詣行在所，后上表曰：「妾聞先代之興，所以饗國久長，垂祚後嗣，無不由后妃焉。故必審選其人，以興內教。令踐阼之初，誠宜登進賢淑，統理六宮。妾自省愚陋，不任粢盛之事，加以寢疾，敢守微志。」璽書三至而后三讓，言甚懇切。時盛暑，帝欲須秋涼乃更迎后。會后疾遂篤，夏六月丁卯，崩於鄴。帝哀痛咨嗟，策贈皇后璽綬。臣松之以為春秋之義，內大惡諱，小惡不書。文帝之不立甄氏，及加殺害，事有明審。魏史若以為大惡邪，則宜隱而不言，若謂為小惡邪，則不應假為之辭，而崇飾虛文乃至於是，異乎所聞於舊史。推此而言，其稱卞、甄諸后言行之善，皆難以實論。陳氏刪落，良有以也。
+- id: wei.5.p11.h1
+  anchor: wei.5.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.5.p11.h2
+  anchor: wei.5.p11
+  at: 15
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: wei.5.p11.a1
   anchor: wei.5.p11
   at: 35
@@ -191,6 +591,14 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 太和4年 (AD 230)，月份「四月」
+- id: wei.5.p12.h1
+  anchor: wei.5.p12
+  at: 66
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p12.t3
   anchor: wei.5.p12
   at: 136
@@ -267,6 +675,36 @@ annotations:
   era: 景初
   era_year: 1
   reasoning: 原文「景初元年」直接出现年号；解析為 AD 237
+- anchor: wei.5.p13
+  at: 243
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「武宣皇后」— 卞氏；roster 無。
+  id: wei.5.p13.h1
+- anchor: wei.5.p13
+  at: 248
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「文德皇后」— 郭氏；roster 無。
+  id: wei.5.p13.h2
+- anchor: wei.5.p13
+  at: 261
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「文昭皇后」— 甄氏；roster 無。
+  id: wei.5.p13.h3
 - id: wei.5.p14.t1
   anchor: wei.5.p14
   at: 71
@@ -281,6 +719,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「嘉平三年正月」直接出现年号；解析為 AD 251
+- id: wei.5.p14.h1
+  anchor: wei.5.p14
+  at: 94
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.5.p14.t2
   anchor: wei.5.p14
   at: 97
@@ -293,18 +739,62 @@ annotations:
   era: 太和
   era_year: 6
   reasoning: 原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
+- id: wei.5.p14.h2
+  anchor: wei.5.p14
+  at: 102
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p14.a1
   anchor: wei.5.p14
   at: 170
   length: 0
   type: pei
   text: 孫盛曰：於禮，婦人既無封爵之典，況於孩末，而可建以大邑乎？德自異族，援繼非類，匪功匪親，而襲母爵，違情背典，於此為甚。陳群雖抗言，楊阜引事比並，然皆不能極陳先王之禮，明封建繼嗣之義，忠至之辭，猶有闕乎！詩云：「赫赫師尹，民具爾瞻。」宰輔之職，其可略哉！《晉諸公贊》曰：德字彥孫。司馬景王輔政，以女妻德。妻早亡，文王復以女繼室，即京兆長公主。景、文二王欲自結於郭后，是以頻繁為婚。德雖無才學，而恭謹謙順。甄溫字仲舒，與郭建及德等皆后族，以事宜見寵。咸熙初，封郭建為臨渭縣公，德廣安縣公，邑皆千八百戶。溫本國侯，進為輔國大將軍，加侍中，領射聲校尉，德鎮軍大將軍。泰始元年，晉受禪，加建、德、溫三人位特進。德為人貞素，加以世祖姊夫，是以遂貴當世。德暮年官更轉為宗正，遷侍中。太康中，大司馬齊王攸當之籓，德與左衛將軍王濟共諫請，時人嘉之。世祖以此望德，由此出德為大鴻臚，加侍中、光祿大夫，尋疾薨，贈中軍大將軍，開府侍中如故，諡恭公，子喜嗣。喜精粹有器美，歷中書郎、右衛將軍、侍中，位至輔國大將軍，加散騎常侍。喜與國姻親，而經趙王倫、齊王冏事故，能不豫際會，良由其才短，然亦以退靜免之。
+- anchor: wei.5.p15
+  at: 3
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.97
+  reasoning: 「文德郭皇后」— 即郭氏本傳；roster 無。
+  id: wei.5.p15.h6
 - id: wei.5.p15.a1
   anchor: wei.5.p15
   at: 18
   length: 0
   type: pei
   text: 《魏書》曰：父永，官至南郡太守，諡敬侯。母姓董氏，即堂陽君，生三男二女：長男浮，高唐令，次女昱，次即后，后弟都，弟成。后以漢中平元年三月乙卯生，生而有異常。
+- id: wei.5.p15.h1
+  anchor: wei.5.p15
+  at: 61
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.5.p15.h2
+  anchor: wei.5.p15
+  at: 85
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.5.p15
+  at: 96
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子即王位」— 文帝曹丕即魏王位；太子即指曹丕。
+  id: wei.5.p15.h5
 - id: wei.5.p15.t1
   anchor: wei.5.p15
   at: 126
@@ -317,6 +807,32 @@ annotations:
   era: 黃初
   era_year: 3
   reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
+- id: wei.5.p15.h3
+  anchor: wei.5.p15
+  at: 136
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.5.p15.h4
+  anchor: wei.5.p15
+  at: 364
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.5.p15
+  at: 372
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「文帝不從，遂立為皇后」— 立郭氏為皇后；roster 無。
+  id: wei.5.p15.h7
 - id: wei.5.p15.a2
   anchor: wei.5.p15
   at: 375
@@ -353,6 +869,24 @@ annotations:
   era: 嘉平
   era_year: 6
   reasoning: 承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254
+- id: wei.5.p18.h1
+  anchor: wei.5.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p18
+  at: 9
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「明帝即位，尊后為皇太后」— 郭氏（文德郭皇后）；roster 無。
+  id: wei.5.p18.h2
 - id: wei.5.p18.t1
   anchor: wei.5.p18
   at: 17
@@ -421,6 +955,24 @@ annotations:
   era: 嘉平
   era_year: 4
   reasoning: 承前文年號「嘉平」推得，「四年」 = 嘉平4年 = AD 252
+- anchor: wei.5.p19
+  at: 3
+  length: 2
+  type: person
+  person_id: maohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.97
+  reasoning: 「明悼毛皇后」— 毛氏本傳；roster 無。
+  id: wei.5.p19.h2
+- id: wei.5.p19.h1
+  anchor: wei.5.p19
+  at: 21
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p19.t1
   anchor: wei.5.p19
   at: 51
@@ -433,6 +985,52 @@ annotations:
   era: 太和
   era_year: 1
   reasoning: 原文「太和元年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）
+- anchor: wei.5.p19
+  at: 58
+  length: 2
+  type: person
+  person_id: maohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立為皇后」— 太和元年立毛皇后；roster 無。
+  id: wei.5.p19.h3
+- id: wei.5.p20.h1
+  anchor: wei.5.p20
+  at: 2
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p20
+  at: 29
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太皇后卞太后」— 此「皇后」係「太皇后」之分詞，指卞氏；roster 無。
+  id: wei.5.p20.h4
+- anchor: wei.5.p20
+  at: 32
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太皇后卞太后」— 卞太后慰勉虞氏；roster 無。
+  id: wei.5.p20.h3
+- id: wei.5.p20.h2
+  anchor: wei.5.p20
+  at: 163
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.5.p20.a1
   anchor: wei.5.p20
   at: 198
@@ -475,12 +1073,64 @@ annotations:
   era: 景初
   era_year: 1
   reasoning: 原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）
+- anchor: wei.5.p21
+  at: 40
+  length: 2
+  type: person
+  person_id: maohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「宜延皇后」— 郭元后請延見毛皇后；roster 無。
+  id: wei.5.p21.h1
+- id: wei.5.p22.h1
+  anchor: wei.5.p22
+  at: 31
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.5.p22
+  at: 71
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立為皇后」— 明帝病困立郭氏為皇后；roster 無。
+  id: wei.5.p22.h5
+- id: wei.5.p22.h2
+  anchor: wei.5.p22
+  at: 108
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.5.p22.a1
   anchor: wei.5.p22
   at: 134
   length: 0
   type: pei
   text: 《魏略》曰：諸郭之中，芝最壯直。先時自以他功封侯。
+- id: wei.5.p22.h3
+  anchor: wei.5.p22
+  at: 203
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.5.p22.h4
+  anchor: wei.5.p22
+  at: 207
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.5.p22.t1
   anchor: wei.5.p22
   at: 223
@@ -499,3 +1149,11 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：建字叔始，有器局而強問，泰始中疾薨。子嘏嗣，為給事中。
+- id: wei.5.p23.h1
+  anchor: wei.5.p23
+  at: 43
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳群
+  via: primary

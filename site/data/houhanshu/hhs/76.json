@@ -38,7 +38,17 @@
     {
       "id": "hhs.76.p2",
       "text": "然建武、永平之間，吏事刻深，亟以謠言單辭，轉易守長。故朱浮數上諫書，箴切峻政，鍾離意等亦規諷殷勤，以長者爲言，而不能得也。所以中興之美，蓋未盡焉。自章、和以後，其有善績者，徃徃不絕。如魯恭、吳祐、劉寬及潁川四長，並以仁信篤誠，使人不欺；王堂、陳寵委任賢良，而職事自理：斯皆可以感物而行化也。邊鳳、延篤先後爲京兆尹，時人以輩前世趙、張。又王渙、任峻之爲洛陽令，明發姦伏，吏端禁止，然導德劉禮，有所未充，亦一時之良能也。今綴集殊聞顯跡，以爲《循吏篇》云。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p2.h1",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "延篤",
+          "person_id": "yandu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.76.p3",
@@ -126,6 +136,15 @@
       "id": "hhs.76.p11",
       "text": "建武初，延上書願乞骸骨，歸拜王庭。詔徵爲九真太守。光武引見，賜馬雜繒，令妻子留洛陽。九真俗以謝獵爲業，不知牛耕，民常告糴交阯，每致困乏。延乃令鑄作田器，教之墾辟。田疇歲歲開廣，百姓充給。又駱越之民無嫁娶禮法，各因淫好，無適對匹，不識父子之性，夫婦之道。延乃移書屬縣，各使男年二十至五十，女年十五至四十，皆以年齒相配。其貧無禮娉，令長吏以下各省奉祿以賑助之。同時相娶者二千餘人。是歲風雨順節，穀稼豐衍。其產子者，始知種姓。咸曰：「使我有是子者，任君也。」多名子爲「任」。於是徼外蠻夷夜郎等慕義保塞，延遂止罷偵候戍卒。",
       "annotations": [
+        {
+          "id": "hhs.76.p11.h1",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "田疇",
+          "person_id": "tianchou",
+          "via": "primary"
+        },
         {
           "id": "hhs.76.p11.t1",
           "type": "temporal",
@@ -396,7 +415,17 @@
     {
       "id": "hhs.76.p29",
       "text": "王渙，字稚子，廣漢郪人也。父順，安定太守。渙少好俠，尚氣力，數通剽輕少年。晚而改節，敦儒學，習《尚書》，讀律令，略舉大義。爲太守陳寵功曹，當職割斷，不避豪右。寵風聲大行，入爲大司農。和帝問曰：「在郡何以爲理？」寵頓首謝曰：「臣任功曹王渙以簡賢選能，主簿鐔顯拾遺補闕，臣奉宣詔書而已。」帝大悅，渙由此顯名。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p29.h1",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p30",
@@ -456,13 +485,41 @@
           "era": "永初",
           "era_year": 2,
           "reasoning": "原文「永初二年」直接出现年号；解析為 AD 108"
+        },
+        {
+          "id": "hhs.76.p33.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.76.p33.h1",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.76.p34",
       "text": "鐔顯後亦知名，安帝時爲豫州刺史。時，天下飢荒，競爲盜賊，州界收捕且萬餘人。顯愍其困窮，自陷刑辟，輒擅赦之，因自劾奏。有詔勿理。後位至長樂衛尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p34.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p35",
@@ -482,12 +539,32 @@
     {
       "id": "hhs.76.p38",
       "text": "和帝時，稍遷桂陽太守。郡濱南州，風俗脆薄，不識學義。荊爲設喪紀婚姻制度，使知禮禁。嘗行春到耒陽縣，人有蔣均者，兄弟爭財，互相言訟。荊對之嘆曰：「吾荷國重任，而教化不行，咎在太守。」乃顧使吏上書陳狀，乞詣廷尉。均兄弟感悔，各求受罪。在事十二年，父老稱歌。以病自上，徵拜諫議大夫，卒於官。桂陽人爲立廟樹碑。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p38.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p39",
       "text": "荊孫𢒰，靈帝時爲太尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p39.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p40",
@@ -507,7 +584,17 @@
     {
       "id": "hhs.76.p43",
       "text": "榧齔桓帝時、尚書同郡楊喬上書薦嘗曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p43.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p44",
@@ -522,7 +609,17 @@
     {
       "id": "hhs.76.p46",
       "text": "遷張掖太守。歲飢，粟石數千，訪乃開倉賑給以救其敝。更懼譴，爭欲上言。訪曰：「若上須報，是棄民也。太守樂以一身救百姓！」遂出谷賦人。順帝璽書嘉之。由是一郡得全。歲餘，官民並豐，界無姦盜。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p46.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p47",
@@ -532,7 +629,17 @@
     {
       "id": "hhs.76.p48",
       "text": "劉矩字叔方，沛國蕭人也。叔父光，順帝時爲司徒。矩少有高節，以父叔遼未得仕進，遂絕州郡之命。太尉朱寵、太傅桓焉嘉其志義，故叔遼以此爲諸公所辟，拜議郎，矩乃舉孝廉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p48.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p49",
@@ -560,13 +667,32 @@
           "era": "延熹",
           "era_year": 4,
           "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161"
+        },
+        {
+          "id": "hhs.76.p51.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.76.p52",
       "text": "靈帝初，代周景爲太尉。矩再爲上公，所辟召皆名儒宿德。不與州郡交通。順辭默諫，多見省用。復以日食免。因乞骸骨，卒於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p52.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.76.p53",
@@ -639,6 +765,15 @@
           "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161"
         },
         {
+          "id": "hhs.76.p56.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
+        },
+        {
           "id": "hhs.76.p56.t2",
           "type": "temporal",
           "at": 42,
@@ -689,6 +824,15 @@
       "text": "董卓入洛陽，岱從侍中出爲兗州刺史。虛己愛物，爲士人所附。初平三年，青州黃巾賊入兗州，殺任城相鄭遂，轉入東平。岱擊之，戰死。",
       "annotations": [
         {
+          "id": "hhs.76.p59.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
           "id": "hhs.76.p59.t1",
           "type": "temporal",
           "at": 28,
@@ -706,7 +850,35 @@
     {
       "id": "hhs.76.p60",
       "text": "興平中，繇爲楊州牧、振威將軍。時袁術據淮南，繇乃移居曲阿。值中國喪亂，士友多南奔，繇攜接收養，與同優劇，甚得名稱。袁術遣孫策攻破繇，因奔豫章，病卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p60.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.76.p60.h2",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.76.p60.h3",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.76.p61",
@@ -737,7 +909,17 @@
     {
       "id": "hhs.76.p63",
       "text": "覽入太學。時，諸生同郡符融有高名，與覽比宇，賓客盈室。覽常自守，不與融言。融觀其容止，心獨奇之，乃謂曰：「與先生同郡壤，鄰房牖。今京師英雄四集，志士交結之秋，雖務經常，守之何因？」覽乃正色曰：「天子修設太學，豈但使人遊談其中！」高揖而去，不復與言。後融以告郭林宗，林宗因與融齎刺就房謁之，遂請留宿。林宗嗟嘆，下床爲拜。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p63.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "符融",
+          "person_id": "furong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.76.p64",
@@ -757,7 +939,17 @@
     {
       "id": "hhs.76.p67",
       "text": "恢少仕州郡爲吏，司徒楊賜聞其執法廉平，乃辟之。乃賜被劾當免，掾屬悉投刺去，恢獨詣闕爭之。乃得理，掾屬悉歸府，恢杖策而逝。由是論者歸美。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.76.p67.h1",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "hhs.76.p68",

@@ -14,7 +14,7 @@
     "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 63,
+  "n_segments": 62,
   "segments": [
     {
       "id": "zztj.83.p1",
@@ -44,7 +44,17 @@
     {
       "id": "zztj.83.p6",
       "text": "太子洗馬陳留江統以為戎、狄亂華，宜早絕其原，乃作《徙戎論》以警朝廷曰：「夫夷、蠻、戎、狄，地在要荒，禹平九土而西戎即敘。其性氣貪婪，凶悍不仁。四夷之中，戎、狄為甚，弱則畏服，強則侵叛。當其強也，以漢之高祖困於白登，孝文軍於霸上；及其弱也，以元、成之微而單于入朝。此其已然之效也。是以有道之君牧夷、狄也，惟以待之有備，御之有常，雖稽顙執贄，而邊城不弛固守，強暴為寇，而兵甲不加遠征，期令境內獲安，疆場不侵而已。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p7",
@@ -74,7 +84,17 @@
     {
       "id": "zztj.83.p12",
       "text": "「正始中，毌丘儉討句驪，徙其餘種於滎陽。始徙之時，戶落百數；子孫孳息，今以千計；數世之後，必至殷熾。今百姓失職，猶或亡叛，犬馬肥充，則有噬嚙，況於夷、狄，能不為變！但顧其微弱，勢力不逮耳。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p12.h1",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.83.p13",
@@ -84,7 +104,17 @@
     {
       "id": "zztj.83.p14",
       "text": "散騎常侍賈謐侍講東宮，對太子倨傲，成都王穎見而叱之；謐怒，言於賈后，出穎為平北將軍，鎮鄴。征梁王肜為大將軍、錄尚書事；以河間王顒為鎮西將軍，鎮關中。初，武帝作石函之制，非至親不得鎮關中；顒輕財愛士，朝廷以為賢，故用之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p14.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p15",
@@ -94,7 +124,26 @@
     {
       "id": "zztj.83.p16",
       "text": "賈后淫虐日甚，私於太醫令程據等；又以簏箱載道上年少入宮，復恐其漏洩，往往殺之。賈模恐禍及己，甚憂之。裴頠與模及張華議廢后，更立謝淑妃。模、華皆曰：「主上自無廢黜之意，而吾等專行之，倘上心不以為然，將若之何！且諸王方強，朋黨各異，恐一旦禍起，身死國危，無益社稷。」頠曰：「誠如公言。然中宮逞其昏虐，亂可立待也。」華曰：「卿二人於中宮皆親戚，言或見信，宜數為陳禍福之戒，庶無大悖，則天下尚未至於亂，吾曹得以估游卒歲而已。」頠旦夕說其從母廣城君，令戒諭賈后以親厚太子，賈模亦數為后言禍福；后不能用，反以模為毀己而疏之；模不得志，憂憤而卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p16.h2",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "主上",
+          "person_id": "simazhong",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p16.h1",
+          "type": "person",
+          "at": 228,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p17",
@@ -129,37 +178,440 @@
     {
       "id": "zztj.83.p23",
       "text": "初，廣城君郭槐，以賈后無子，常勸后使慈愛太子。賈謐驕縱，數無禮於太子，廣城君恆切責之。廣城君欲以韓壽女為太子妃，太子亦欲婚韓氏以自固；壽妻賈午及后皆不聽，而為太子聘王衍少女。太子聞衍長女美，而后為賈謐聘之，心不能平，頗以為言。及廣城君病，臨終，執后手，令盡心於太子，言甚切至。又曰：「趙粲、賈午，必亂汝家事；我死後，勿復聽入。深記吾言。」后不從，更與粲、午謀害太子。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p23.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h3",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h4",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h5",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h6",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h7",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p23.h8",
+          "type": "person",
+          "at": 180,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p24",
       "text": "太子幼有令名，及長，不好學，惟與左右嬉戲。賈后復使黃門輩誘之為奢靡威虐，由是名譽浸減，驕慢益彰。或廢朝侍而縱游逸，於宮中為市，使人屠酤，手揣斤兩，輕重不差。其母，本屠家女也，故太子好之。東宮月俸錢五十萬，太子常探取二月，用之猶不足。又令西園賣葵菜、藍子、雞、面等物而收其利。又好陰陽小數，多所拘忌。洗馬江統上書陳五事：「一曰雖有微苦，宜力疾朝侍。二曰宜勤見保傅，咨讒善道。三曰畫室之功，可且減省，後園刻鏤雜作，一皆罷遣。四曰西園賣葵、藍之屬，虧敗國體，貶損令聞。五曰繕牆正瓦，不必拘攣小忌。」太子皆不從。中舍人杜錫，恐太子不得安其位，每盡忠諫，勸太子修德業，保令名，言辭懇切。太子患之，置針著錫常所坐氈中，刺之流血，錫，預之子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p24.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h2",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h3",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h4",
+          "type": "person",
+          "at": 246,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h5",
+          "type": "person",
+          "at": 259,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h6",
+          "type": "person",
+          "at": 273,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p24.h7",
+          "type": "person",
+          "at": 288,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p25",
       "text": "太子性剛，知賈謐恃中宮驕貴，不能假借之。謐時為侍中，至東宮，或捨之，於後庭遊戲。詹事裴權諫曰：「謐，后所親暱，一旦交構，則事危矣。」不從。謐譖太子於后曰：「太子多畜私財以結小人者，為賈氏故也。若宮車晏駕，彼居大位，依楊氏故事，誅臣等，廢后於金墉，如反手耳。不如早圖之，更立慈順者，可以自安。」后納其言，乃宣揚太子之短，佈於遠近。又詐為有娠，內蒿物、產具，取妹夫韓壽子慰祖養之，欲以代太子。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p25.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p25.h2",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p25.h3",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p25.h4",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p25.h5",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p26",
       "text": "於時朝野咸知賈后有害太子之意，中護軍趙俊請太子廢后，太子不聽。左衛率東平劉卞，以賈后之謀問張華，華曰：「不聞。」卞曰：「卞自須昌小吏，受公成拔以至今日。士感知己，是以盡言，而公更有疑於卞邪！」華曰：「假令有此，君欲如何？」卞曰：「東宮俊乂如林，四率精兵萬人；公居阿衡之任，若得公命，皇太子因朝入錄尚書事，廢賈后於金墉城，兩黃門力耳。」華曰：「今天子當陽，太子，人子也，吾又不受阿衡之命，忽相與行此，是無君父而以不孝示天下也。雖能有成，猶不免罪。況權戚滿朝，威柄不一，成可必乎？」賈后常使親黨微服聽察於外，頗聞卞言，乃遷卞為雍州刺史；卞知言洩，飲藥而死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p26.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p26.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p26.h3",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p26.h4",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p26.h5",
+          "type": "person",
+          "at": 177,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p27",
       "text": "十二月，太子長子虨病，太子為虨求王爵，不許。虨疾篤，太子為之禱祀求福。賈后聞之，乃詐稱帝不豫，召太子入朝，既至，后不見，置於別室，遣婢陳舞以帝命賜太子酒三升，使盡飲之。太子辭以不能飲三升，舞逼之曰：「不孝邪！天賜汝酒而不飲，酒中有惡物邪！」太子不得已，強飲至盡，遂大醉。后使黃門侍朗潘岳作書草，令小婢承福，以紙筆及草，因太子醉，稱詔使書之，文曰：「陛下宜自了，不自了，吾當入了之。中宮又宜速自了，不自了，吾當手了之。並與謝妃共要，刻期兩發，勿疑猶豫，以致後患。茹毛飲血於三辰之下，皇天許當掃除患害，立道文為王，蔣氏為內主。願成，當三牲祠北君。」太子醉迷不覺，遂依而寫之。其字半不成，后補成之，以呈帝。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p27.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h3",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h4",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h5",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h6",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h7",
+          "type": "person",
+          "at": 120,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h8",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h10",
+          "type": "person",
+          "at": 174,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "simazhong",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p27.h9",
+          "type": "person",
+          "at": 272,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p28",
       "text": "壬戌，帝幸式乾殿，召公卿入，使黃門令董猛以太子書及青紙詔示之曰：「遹書如此，今賜死。」遍示諸公王，莫有言者。張華曰：「此國之大禍，自古以來，常因廢黜正嫡以致喪亂。且國家有天下日淺，願陛下詳之！」裴頠以為宜先檢校傳書者，又請比較太子手書，不然，恐有詐妄。賈后乃出太子啟事十餘紙，眾人比視，亦無敢言非者。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p28.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p28.h4",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "simazhong",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p28.h2",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p28.h3",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p29",
       "text": "賈后使董猛矯以長廣公主辭白帝曰：「事宜速決，而群臣各不同，其不從詔者，宜以軍法從事。」議至日西，不決。后見華等意堅，懼事變，乃表免太子為庶人，詔許之。於是使尚書和郁等持節詣東宮，廢太子為庶人，太子改服出，再拜受詔，步出承華門，乘粗犢車，車武公澹以兵仗送太子及妃王氏、三子虨、臧、尚同幽於金墉城。王衍自表離婚，許之，妃慟哭而歸。殺太子母謝淑媛及虨母保林蔣俊。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p29.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p29.h2",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p29.h3",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p29.h4",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p29.h5",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p30",
@@ -204,12 +656,77 @@
     {
       "id": "zztj.83.p32",
       "text": "西戎校尉司馬閻纘輿棺詣闕上書，以為：「漢戾太子稱兵拒命，言者猶曰罪當笞耳。今遹受罪之日，不敢失道，猶為輕於戾太子。宜重選師傅，先加嚴誨，若不悛改，棄之未晚也。」書奏，不省。纘，圃之孫也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p32.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p32.h2",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p33",
       "text": "賈后使黃門自首欲與太子為逆。詔以黃門首辭班示公卿，遣東武公澹以千兵防衛太子，幽於許昌宮，令持書御史劉振持節守之，詔宮臣不得辭送。洗馬江統、潘滔、舍人王敦、杜蕤、魯瑤等冒禁至伊水，拜辭涕泣。司隸校尉滿奮收縛統籌送獄。其系河南獄者，樂廣悉解遣之；系洛陽縣獄者，猶未釋。都官從事孫琰說賈謐曰：「所以廢徙太子，以其為惡故耳。今宮臣冒罪拜辭，而加以重辟；流聞四方，乃更彰太子之德也，不如釋之。」謐乃語洛陽令曹攄使釋之；廣亦不坐。敦，覽之孫；攄，肇之孫也。太子至許，遺王妃書，自陳誣枉，妃父衍不敢以聞。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p33.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p33.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p33.h3",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p33.h4",
+          "type": "person",
+          "at": 180,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p33.h5",
+          "type": "person",
+          "at": 222,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p34",
@@ -240,17 +757,173 @@
     {
       "id": "zztj.83.p36",
       "text": "太子既廢，眾情憤怒。有衛督司馬雅、常從督許超，皆嘗給事東宮，與殿中郎士猗等謀廢賈后，復太子。以張華、裴頠安常保位，難與行權，右軍將軍趙王倫執兵柄，性貪冒，可假以濟事。乃說孫秀曰：「中宮凶妒無道，與賈謐等共誣廢太子。今國無嫡嗣，社稷將危，大臣將起大事，而公名奉事中宮，與賈、郭親善，太子之廢，皆云豫知，一朝事起，禍必相及，何不先謀之乎！」秀許諾，言於倫，倫納焉，遂告通事令史張林及省事張衡等，使為內應。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p36.h2",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p36.h3",
+          "type": "person",
+          "at": 104,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p36.h4",
+          "type": "person",
+          "at": 140,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p37",
       "text": "事將起，孫秀言於倫曰：「太子聰明剛猛，若還東宮，必不受制於人。明公素黨於賈后，道路皆知之，今雖建大功於太子，太子謂公特逼於百姓之望，翻覆以免罪耳，雖含忍宿忿，必不能深德明公，若有瑕釁，猶不免誅。不若遷延緩期，賈后必害太子，然後廢賈后，為太子報仇，豈徒免禍而已，乃更可以得志！」倫然之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p37.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p37.h2",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p37.h3",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p37.h4",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p37.h5",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p38",
       "text": "秀因使人行反間，言殿中人欲廢皇后，迎太子。賈后數遣宮婢微服於民間聽察，聞之甚懼。倫、秀因勸謐等早除太子，以絕眾望。癸未，賈后使太醫令程據和毒藥。矯詔使黃門孫慮至許昌毒太子。太子自廢黜，恐被毒，常自煮食於前；慮以告劉振，振乃徙太子於小坊中，絕其食，宮人猶竊於牆上過食與之。慮逼太子以藥，太子不肯服，慮以藥杵椎殺之。有司請以庶人禮葬，賈后表請以廣陵王禮葬之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p38.h8",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "jianafeng",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h2",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h3",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h4",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h5",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h6",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p38.h7",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p39",
@@ -276,12 +949,41 @@
     {
       "id": "zztj.83.p40",
       "text": "趙王倫、孫秀將討賈后，告右衛佽飛督閭和，和從之，期以癸巳丙夜一籌，以鼓聲為應。癸巳，秀使司馬雅告張華曰：「趙王欲與公共匡社稷，為天下除害，使雅以告。」華拒之。雅怒曰：「刃將加頸，猶為是言邪！」不顧而出。及期，倫矯詔敕三部司馬曰：「中宮與賈謐等殺吾太子，今使車騎入廢中宮，汝等皆當從命，事畢，賜爵關中侯，不從者誅三族。」眾皆從之。又矯詔開門，夜入，陳兵道南，遣翊軍校尉齊王冏將百人排冏而入，華林令駱休為內應，迎帝幸東堂，以詔召賈謐於殿前，將誅之。謐走入西鐘下，呼曰：「阿后救我！」就斬之。賈后見齊王冏，驚曰：「卿何為來？」冏曰：「有詔收后。」后曰：「詔當從我出，何詔也！」后至上閤，遙呼帝曰：「陛下有婦，使人廢之，亦行自廢矣。」是時，梁王肜亦預其謀，后問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「系狗當繫頸，反系其尾，何得不然！」遂廢后為庶人，幽之於建始殿，收趙粲、賈午等付暴室考竟。詔尚書收捕賈氏親黨，召中書監、侍中、黃門侍郎、八座皆夜入殿。尚書始疑詔有詐，郎師景露版奏請手詔，倫等斬之以徇。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p40.h1",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p40.h2",
+          "type": "person",
+          "at": 296,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "simazhong",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p41",
       "text": "倫陰與秀謀篡位，欲先除朝望，且報宿怨，乃執張華、裴頠、解系、解結等於殿前。華謂張林曰：「卿欲害忠臣邪？」林稱詔詰之曰：「卿為宰相，太子之廢，不能死節，何也？」華曰：「式乾之議，臣諫事具存，可覆按也。」林曰：「諫而不從，何不去位？」華無以對。遂皆斬之，仍夷三族。解結女適裴氏，明日當嫁而禍起，裴氏欲認活之，女曰：「家既若此，我何以活為！」亦坐死。朝廷由是議革舊制，女不從死。甲午，倫坐端門，遣尚書和郁持節送賈庶人於金墉；誅劉振、董猛、孫慮、程據等；司徒王戎及內外官坐張、裴親黨黜免者甚眾。閻纘撫張華屍慟哭曰：「早語君遜位而不肯，今果不免，命也！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p41.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p42",
@@ -291,12 +993,41 @@
     {
       "id": "zztj.83.p43",
       "text": "詔追復故太子遹位號，使尚書和郁帥東宮官屬迎太子喪於許昌，追封遹子虨為南陽王，封虨弟臧為臨淮王，尚為襄陽王。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p43.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p43.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p44",
       "text": "有司奏：「尚書令王衍備位大臣，太子被誣，志在苟免，請禁錮終身。」從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p44.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.83.p45",
@@ -311,7 +1042,26 @@
     {
       "id": "zztj.83.p47",
       "text": "太子遹之廢也，將立淮南王允為太弟，議者不合。會趙王倫廢賈后，乃以允為驃騎將軍、開府儀同三司，領中護軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.83.p47.h2",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p47.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.83.p48",
@@ -336,6 +1086,15 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 永康元年 (AD 167)，月份「五月」"
+        },
+        {
+          "id": "zztj.83.p49.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
         }
       ]
     },
@@ -343,6 +1102,15 @@
       "id": "zztj.83.p50",
       "text": "己卯，謚故太子曰愍懷；六月，壬寅，葬於顯平陵。",
       "annotations": [
+        {
+          "id": "zztj.83.p50.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
         {
           "id": "zztj.83.p50.t1",
           "type": "temporal",
@@ -370,6 +1138,15 @@
       "text": "中護軍淮南王允，性沉毅，宿衛將士皆畏服之。允知相國倫及孫秀有異志，陰養死士，謀討之；倫、秀深憚之。秋，八月，轉允為太尉，外示優崇，實奪其兵權。允稱疾不拜。秀遣御史劉機逼允，收其官屬以下，劾以拒詔，大逆不敬。允視詔，乃秀手書也，大怒，收御史，將斬之，御史走免，斬其令史二人。厲色謂左右曰：「趙王欲破我家！」遂帥國兵及帳下七百人直出，大呼曰：「趙王反，我將討之，從我者左袒。」於是歸之者甚眾。允將赴宮，尚書左丞王輿閉掖門，允不得入，遂圍相府。允所將兵皆精銳，倫與戰，屢敗，死者千餘人。太子左率陳徽勒東宮兵，鼓噪於內以應允。允結陳於承華門前，弓弩齊發，射倫，飛矢雨下。主書司馬眭秘以身蔽倫，箭中其背而死。倫官屬皆隱樹而立，每樹輒中數百箭，自辰至未，中書令陳淮，徽之兄也，欲應允，言於帝曰：「宜遣白虎幡以解鬥。」乃使司馬督護伏胤將騎四百持幡從宮中出。侍中汝陰王虔在門下省，陰與胤誓曰：「富貴當與卿共之。」胤乃懷空板出，詐言有詔助淮南王。允不之覺，開陣內之，下車受詔；胤因殺之，並殺允子秦王郁、漢王迪，坐允夷滅者數千人。曲赦洛陽。初，孫秀嘗為小吏，事黃門郎潘岳，岳屢撻之。衛尉石崇之甥歐陽建素與相國倫有隙，崇有愛妾曰綠珠，孫秀便求之，崇不與。及淮南王允敗，秀因稱石崇、潘岳、歐陽建奉允為亂，收之。崇歎曰：「奴輩利吾財爾！」收者曰：「知財為禍，何不早散之？」崇不能答。初，潘岳母常誚責岳曰：「汝當知足，而乾沒不已乎！」及敗，岳謝母曰：「負阿母。」遂與崇，建皆族誅，籍沒崇家。相國倫收淮南王母弟吳王晏，欲殺之。光祿大夫傅祗爭之於朝堂，眾皆諫止倫，倫乃貶晏為賓徒縣王。",
       "annotations": [
         {
+          "id": "zztj.83.p52.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
+        },
+        {
           "id": "zztj.83.p52.t1",
           "type": "temporal",
           "at": 51,
@@ -383,6 +1160,24 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 永康元年 (AD 167)，月份「八月」"
+        },
+        {
+          "id": "zztj.83.p52.h3",
+          "type": "person",
+          "at": 240,
+          "length": 2,
+          "text": "太子",
+          "person_id": "simayu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.83.p52.h2",
+          "type": "person",
+          "at": 519,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
         }
       ]
     },
@@ -445,6 +1240,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 永康元年 (AD 167)，月份「十一月」"
+        },
+        {
+          "id": "zztj.83.p58.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "jianafeng",
+          "via": "llm"
         }
       ]
     },
@@ -466,11 +1270,6 @@
     {
       "id": "zztj.83.p62",
       "text": "廞自稱大都督，大將軍、益州牧，署置僚屬，改易守令。王官被召，無敢不往。李庠帥妹婿李含、天水任回、上官昌、扶風李攀、始平費他、氐苻成、隗伯等四千騎歸廞。廞以庠為威寇將軍，封陽泉亭侯，委以心膂，使招合六郡壯勇至萬餘人，以斷北道。",
-      "annotations": []
-    },
-    {
-      "id": "zztj.83.p63",
-      "text": "此北宋作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
       "annotations": []
     }
   ]

@@ -2,9 +2,97 @@ chapter: wei.27
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷27
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 4d719c917119297d1afb472658d96bcdbd7c8b71969a2410e5eb2da0acbd103f
 annotations:
+- id: wei.27.p1.h1
+  anchor: wei.27.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
+- id: wei.27.p1.h2
+  anchor: wei.27.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: huzhi
+  text: 胡質
+  via: primary
+- id: wei.27.p1.h3
+  anchor: wei.27.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wei.27.p1.h4
+  anchor: wei.27.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.27.p2.h1
+  anchor: wei.27.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
+- id: wei.27.p2.h2
+  anchor: wei.27.p2
+  at: 12
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p2.h3
+  anchor: wei.27.p2
+  at: 85
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p2.h4
+  anchor: wei.27.p2
+  at: 88
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p2.h5
+  anchor: wei.27.p2
+  at: 151
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.27.p3.h1
+  anchor: wei.27.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.27.p3.h2
+  anchor: wei.27.p3
+  at: 33
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: wei.27.p4.t1
   anchor: wei.27.p4
   at: 0
@@ -41,18 +129,122 @@ annotations:
   era: 嘉平
   era_year: 6
   reasoning: 承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254
+- id: wei.27.p4.h1
+  anchor: wei.27.p4
+  at: 148
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
+- id: wei.27.p4.h2
+  anchor: wei.27.p4
+  at: 155
+  length: 2
+  type: person
+  person_id: huzhi
+  text: 胡質
+  via: primary
+- id: wei.27.p4.h3
+  anchor: wei.27.p4
+  at: 160
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.27.p5.h1
+  anchor: wei.27.p5
+  at: 21
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
 - id: wei.27.p5.a1
   anchor: wei.27.p5
   at: 42
   length: 0
   type: pei
   text: 《魏名臣奏》載黃門侍郎杜恕表，稱：「韓觀、王昶，信有兼才，高官重任，不但三州。」
+- id: wei.27.p5.h2
+  anchor: wei.27.p5
+  at: 113
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.27.p6.h1
+  anchor: wei.27.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: huzhi
+  text: 胡質
+  via: primary
+- id: wei.27.p6.h2
+  anchor: wei.27.p6
+  at: 15
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
+- id: wei.27.p6.h3
+  anchor: wei.27.p6
+  at: 33
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
+- id: wei.27.p6.h4
+  anchor: wei.27.p6
+  at: 41
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p6.h5
+  anchor: wei.27.p6
+  at: 44
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.27.p6.a1
   anchor: wei.27.p6
   at: 93
   length: 0
   type: pei
   text: 案〈胡氏譜〉：通達名敏，以方正徵。
+- id: wei.27.p6.h6
+  anchor: wei.27.p6
+  at: 93
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p7.h1
+  anchor: wei.27.p7
+  at: 18
+  length: 2
+  type: person
+  person_id: zhangliao
+  text: 張遼
+  via: primary
+- id: wei.27.p7.h2
+  anchor: wei.27.p7
+  at: 33
+  length: 2
+  type: person
+  person_id: wenhui
+  text: 溫恢
+  via: primary
 - id: wei.27.p7.a1
   anchor: wei.27.p7
   at: 132
@@ -65,6 +257,22 @@ annotations:
   length: 0
   type: pei
   text: 虞預《晉書》曰：周字伯南，沛國竹邑人。位至光祿大夫。子陔，字元夏。陔及二弟韶、茂，皆總角見稱，並有器望，雖鄉人諸父，未能覺其多少。時同郡劉公榮，名知人，嘗造周。周謂曰：「卿有知人之明，欲使三兒見卿，卿爲目高下，以效郭、許之聽可乎？」公榮乃自詣陔兄弟，與共言語，觀其舉動。出語周曰：「君三子皆國士也。元夏器量最優，有輔佐之風，展力仕宦，可爲亞公。叔夏、季夏，不減常伯、納言也。」陔少出仕宦，歷職內外，泰始初爲吏部尚書，遷左僕射、右光祿大夫、開府儀同三司，卒於官。陔以在魏已爲大臣，本非佐命之數，懷遜讓，不得已而居位，故在官職，無所荷任，夙夜思恭而已。終始全潔，當世以爲美談。韶歷二官吏部郎。山濤啟事稱韶清白有誠，終於散騎常侍。茂至侍中、尚書。潁川荀愷，宣帝外孫，世祖姑子，自負貴戚，要與茂交。茂拒而不荅，由是見怒。元康元年，楊駿被誅。愷時爲尚書僕射，以茂駿之姨弟，陷爲駿黨，遂枉見殺，衆咸冤痛之。
+- id: wei.27.p8.h1
+  anchor: wei.27.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.27.p9.h1
+  anchor: wei.27.p9
+  at: 21
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
 - id: wei.27.p10.t1
   anchor: wei.27.p10
   at: 18
@@ -101,12 +309,54 @@ annotations:
   length: 0
   type: pei
   text: 《晉陽秋》曰：威字伯虎。少有志尚，厲操清白。質之爲荊州也，威自京都省之。家貧，無車馬童僕，威自驅驢單行，拜見父。停廄中十餘日，告歸。臨辭，質賜絹一匹，爲道路糧。威跪曰：「大人清白，不審於何得此絹？」質曰：「是吾俸祿之餘，故以爲汝糧耳。」威受之，辭歸。每至客舍，自放驢，取樵炊爨，食畢，復隨旅進道，往還如是。質帳下都督，素不相識，先其將歸，請假還家，陰資裝百餘里要之，因與爲伴，每事佐助經營之，又少進飲食，行數百里。威疑之，密誘問，乃知其都督也，因取向所賜絹荅謝而遣之。後因他信，具以白質。質杖其都督一百，除吏名。其父子清慎如此。於是名譽著聞，歷位宰牧。晉武帝賜見，論邊事，語及平生。帝歎其父清，謂威曰：「卿清孰與父清？」威對曰：「臣不如也。」帝曰：「以何爲不如？」對曰：「臣父清恐人知，臣清恐人不知，是臣不如者遠也。」官至前將軍、青州刺史。太康元年卒，追贈鎮東將軍。威弟羆，字季象，征南將軍；威子弈，字次孫，平東將軍；並以潔行垂名。
+- id: wei.27.p11.h1
+  anchor: wei.27.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wei.27.p11.a1
   anchor: wei.27.p11
   at: 13
   length: 0
   type: pei
   text: 案〈王氏譜〉：昶伯父柔，字叔優；父澤，字季道。〈郭林宗傳〉曰：叔優、季道幼少之時，聞林宗有知人之鑒，共往候之，請問才行所宜，以自處業。林宗笑曰：「卿二人皆二千石才也，雖然，叔優當以仕宦顯，季道宜以經術進，若違才易務，亦不至也。」叔優等從其言。叔優至北中郎將，季道代郡太守。
+- id: wei.27.p11.h2
+  anchor: wei.27.p11
+  at: 32
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.27.p11
+  at: 40
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「文帝在東宮，昶爲太子文學」— 文帝在東宮即曹丕為魏太子，王昶任太子文學，太子即指曹丕。
+  id: wei.27.p11.h5
+- id: wei.27.p11.h3
+  anchor: wei.27.p11
+  at: 50
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.27.p11.h4
+  anchor: wei.27.p11
+  at: 97
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.27.p11.a2
   anchor: wei.27.p11
   at: 199
@@ -161,6 +411,14 @@ annotations:
   era: 青龍
   era_year: 4
   reasoning: 原文「青龍四年」直接出现年号；解析為 AD 236（回溯前事，不推進章節時間軸）
+- id: wei.27.p17.h1
+  anchor: wei.27.p17
+  at: 12
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.27.p18.t1
   anchor: wei.27.p18
   at: 0
@@ -173,6 +431,46 @@ annotations:
   era: 嘉平
   era_year: 2
   reasoning: 承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250
+- id: wei.27.p18.h1
+  anchor: wei.27.p18
+  at: 7
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.27.p18.h2
+  anchor: wei.27.p18
+  at: 85
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.27.p18.h3
+  anchor: wei.27.p18
+  at: 242
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.27.p18.h4
+  anchor: wei.27.p18
+  at: 272
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.27.p18.h5
+  anchor: wei.27.p18
+  at: 307
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.27.p18.t2
   anchor: wei.27.p18
   at: 392
@@ -191,6 +489,128 @@ annotations:
   length: 0
   type: pei
   text: 案《晉書》：渾自越騎入晉，累居方任，平吳有功，封一子江陵侯，位至司徒。渾子濟，字武子，有儁才令望，爲河南尹、太僕。早卒，追贈驃騎將軍。渾弟深，兾州刺史。深弟湛，字處冲，汝南太守。湛子承，字安期，東海內史。承子述，字懷祖，尚書令、衞將軍。述子坦之，字文度，北中郎將，徐、兖二州刺史。昶諸子中，湛最有悳譽，而承亦自爲名士，述及坦之並顯重於世，爲時盛門云。自湛已下事，見《晉陽秋》也。
+- id: wei.27.p20.h1
+  anchor: wei.27.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.27.p20.h2
+  anchor: wei.27.p20
+  at: 79
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
+- id: wei.27.p20.h3
+  anchor: wei.27.p20
+  at: 106
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
+- id: wei.27.p21.h1
+  anchor: wei.27.p21
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.27.p21
+  at: 123
+  length: 2
+  type: person
+  person_id: caofang
+  text: 陛下
+  via: llm
+  confidence: 0.85
+  reasoning: 王昶上疏勸諫的對象，依本傳脈絡為齊王曹芳（正始年間）。
+  id: wei.27.p21.h2
+- id: wei.27.p22.h1
+  anchor: wei.27.p22
+  at: 50
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.27.p22.h2
+  anchor: wei.27.p22
+  at: 114
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.27.p22.h3
+  anchor: wei.27.p22
+  at: 127
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.27.p22.h4
+  anchor: wei.27.p22
+  at: 141
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wei.27.p22.h5
+  anchor: wei.27.p22
+  at: 147
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wei.27.p22.h6
+  anchor: wei.27.p22
+  at: 160
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wei.27.p22.h7
+  anchor: wei.27.p22
+  at: 167
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.27.p22.h8
+  anchor: wei.27.p22
+  at: 181
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.27.p22.h9
+  anchor: wei.27.p22
+  at: 226
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.27.p22.h10
+  anchor: wei.27.p22
+  at: 233
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.27.p23.t1
   anchor: wei.27.p23
   at: 0
@@ -203,6 +623,78 @@ annotations:
   era: 甘露
   era_year: 4
   reasoning: 「其年」 = 当前年 甘露4年 (AD 259)
+- id: wei.27.p23.h1
+  anchor: wei.27.p23
+  at: 22
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wei.27.p24.h1
+  anchor: wei.27.p24
+  at: 92
+  length: 2
+  type: person
+  person_id: fugu
+  text: 傅嘏
+  via: primary
+- id: wei.27.p25.h1
+  anchor: wei.27.p25
+  at: 15
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.27.p25.h2
+  anchor: wei.27.p25
+  at: 569
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.27.p26.h1
+  anchor: wei.27.p26
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.27.p26.h2
+  anchor: wei.27.p26
+  at: 377
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wei.27.p26.h3
+  anchor: wei.27.p26
+  at: 409
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.27.p26.h4
+  anchor: wei.27.p26
+  at: 515
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- id: wei.27.p26.h5
+  anchor: wei.27.p26
+  at: 519
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: wei.27.p27.t1
   anchor: wei.27.p27
   at: 0
@@ -257,3 +749,43 @@ annotations:
   era: 景元
   era_year: 2
   reasoning: 「是歲」 = 当前年 景元2年 (AD 261)
+- id: wei.27.p29.h1
+  anchor: wei.27.p29
+  at: 71
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
+- id: wei.27.p30.h1
+  anchor: wei.27.p30
+  at: 3
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
+- id: wei.27.p30.h2
+  anchor: wei.27.p30
+  at: 10
+  length: 2
+  type: person
+  person_id: huzhi
+  text: 胡質
+  via: primary
+- id: wei.27.p30.h3
+  anchor: wei.27.p30
+  at: 17
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wei.27.p30.h4
+  anchor: wei.27.p30
+  at: 24
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary

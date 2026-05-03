@@ -5,6 +5,22 @@ source:
   retrieved: '2026-05-03'
   sha256: 0dbd8ee41e193f03197dbdf1b5864e4a576e0d2e5bf99b7de660d726045e8e91
 annotations:
+- id: hhs.68.p1.h1
+  anchor: hhs.68.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: guotai
+  text: 郭太
+  via: primary
+- id: hhs.68.p2.h1
+  anchor: hhs.68.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: guotai
+  text: 郭太
+  via: primary
 - id: hhs.68.p2.a1
   anchor: hhs.68.p2
   at: 6
@@ -23,6 +39,30 @@ annotations:
   length: 0
   type: lixian
   text: 《蒼頡篇》曰：「廷，直也。」《說文》：「廷，朝中也。」《風俗通》：「廷，正也。言縣廷、郡廷、朝廷，皆取平均正直也。」
+- id: hhs.68.p2.h2
+  anchor: hhs.68.p2
+  at: 87
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.68.p2.h3
+  anchor: hhs.68.p2
+  at: 130
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.68.p3.h1
+  anchor: hhs.68.p3
+  at: 2
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.68.p3.a1
   anchor: hhs.68.p3
   at: 48
@@ -83,6 +123,14 @@ annotations:
   era: 建寧
   era_year: 1
   reasoning: 原文「建寧元年」直接出现年号；解析為 AD 168
+- id: hhs.68.p4.h1
+  anchor: hhs.68.p4
+  at: 7
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.68.p4.a1
   anchor: hhs.68.p4
   at: 48
@@ -113,6 +161,22 @@ annotations:
   length: 0
   type: lixian
   text: 謝承《書》曰：「泰以建寧二年正月卒，自弘農函谷關以西，河內湯陰以北，二千里負笈荷擔彌路，柴車葦裝塞塗，蓋有萬數來赴。」
+- id: hhs.68.p5.h1
+  anchor: hhs.68.p5
+  at: 37
+  length: 2
+  type: person
+  person_id: caiyong
+  text: 蔡邕
+  via: primary
+- id: hhs.68.p5.h2
+  anchor: hhs.68.p5
+  at: 48
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
 - id: hhs.68.p6.a1
   anchor: hhs.68.p6
   at: 11
@@ -143,6 +207,14 @@ annotations:
   length: 0
   type: lixian
   text: 《論語》孔子之言也。鄭玄注云：「不仁之人，當以風化之。若疾之以甚，是益使爲亂也。」
+- id: hhs.68.p8.h1
+  anchor: hhs.68.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: maorong
+  text: 茅容
+  via: primary
 - id: hhs.68.p8.a1
   anchor: hhs.68.p8
   at: 36
@@ -173,6 +245,14 @@ annotations:
   length: 0
   type: lixian
   text: 謝承《書》「乙」作「文」。
+- id: hhs.68.p12.h1
+  anchor: hhs.68.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: jiashu
+  text: 賈淑
+  via: primary
 - id: hhs.68.p12.a1
   anchor: hhs.68.p12
   at: 28
@@ -185,6 +265,38 @@ annotations:
   length: 0
   type: lixian
   text: 互鄉，鄉名。「互鄉難與言，童子見，門人惑。孔子曰：『人潔己以進，與其進，不保其往。』」
+- id: hhs.68.p14.h1
+  anchor: hhs.68.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: huangyun
+  text: 黃允
+  via: primary
+- id: hhs.68.p15.h1
+  anchor: hhs.68.p15
+  at: 16
+  length: 2
+  type: person
+  person_id: bianrang
+  text: 邊讓
+  via: primary
+- id: hhs.68.p15.h2
+  anchor: hhs.68.p15
+  at: 83
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.68.p15.h3
+  anchor: hhs.68.p15
+  at: 86
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.68.p17.a1
   anchor: hhs.68.p17
   at: 19
@@ -227,18 +339,42 @@ annotations:
   length: 0
   type: lixian
   text: 墨翟、孟軻也。絕，過也。
+- id: hhs.68.p19.h1
+  anchor: hhs.68.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: furong
+  text: 符融
+  via: primary
 - id: hhs.68.p19.a1
   anchor: hhs.68.p19
   at: 25
   length: 0
   type: lixian
   text: 《續漢志》曰：「都官從事，主察舉百官犯法者。」融恥爲其吏而去。
+- id: hhs.68.p19.h2
+  anchor: hhs.68.p19
+  at: 34
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.68.p19.a2
   anchor: hhs.68.p19
   at: 69
   length: 0
   type: lixian
   text: 幅巾者，以一幅爲之也。褎，古袖字。如雲者，奔踊而出也。
+- id: hhs.68.p19.h3
+  anchor: hhs.68.p19
+  at: 99
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.68.p19.a3
   anchor: hhs.68.p19
   at: 107
@@ -251,6 +387,22 @@ annotations:
   length: 0
   type: lixian
   text: 謝承書曰：「文經、子艾，曜名遠近，聲價已定，徵辟不就，療病京師，不通賔客。公卿將相大夫遣門生旦暮問疾，郎吏公府掾屬雜坐其門，不得見也。」
+- id: hhs.68.p20.h1
+  anchor: hhs.68.p20
+  at: 94
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.68.p21.h1
+  anchor: hhs.68.p21
+  at: 54
+  length: 2
+  type: person
+  person_id: kongzhou
+  text: 孔伷
+  via: primary
 - id: hhs.68.p21.a1
   anchor: hhs.68.p21
   at: 60
@@ -287,30 +439,102 @@ annotations:
   length: 0
   type: lixian
   text: 璆音求，又巨秋反。
+- id: hhs.68.p25.h1
+  anchor: hhs.68.p25
+  at: 31
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.68.p26.h1
+  anchor: hhs.68.p26
+  at: 15
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
+- id: hhs.68.p26.h2
+  anchor: hhs.68.p26
+  at: 19
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.68.p27.h1
+  anchor: hhs.68.p27
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.68.p27.a1
   anchor: hhs.68.p27
   at: 16
   length: 0
   type: lixian
   text: 令品藻爲題目。
+- id: hhs.68.p27.h2
+  anchor: hhs.68.p27
+  at: 25
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.68.p27.h3
+  anchor: hhs.68.p27
+  at: 54
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.68.p29.a1
   anchor: hhs.68.p29
   at: 30
   length: 0
   type: lixian
   text: 《蜀志》曰：「許靖字文休，少與從弟劭俱知名，並有人倫臧否之稱，而私情不協。劭爲郡功曹，排擯靖不得齒敘，以馬磨自給。」
+- id: hhs.68.p30.h1
+  anchor: hhs.68.p30
+  at: 63
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
 - id: hhs.68.p30.a1
   anchor: hhs.68.p30
   at: 123
   length: 0
   type: lixian
   text: 繇字正禮。
+- id: hhs.68.p30.h2
+  anchor: hhs.68.p30
+  at: 125
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
 - id: hhs.68.p30.a2
   anchor: hhs.68.p30
   at: 133
   length: 0
   type: lixian
   text: 寓，寄也。
+- id: hhs.68.p30.h3
+  anchor: hhs.68.p30
+  at: 134
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
 - id: hhs.68.p31.a1
   anchor: hhs.68.p31
   at: 18
@@ -329,9 +553,57 @@ annotations:
   length: 0
   type: lixian
   text: 明發，發夕至明也。《呂氏春秋》曰：「孔子周流天下。」
+- id: hhs.68.p32.h1
+  anchor: hhs.68.p32
+  at: 23
+  length: 2
+  type: person
+  person_id: furong
+  text: 符融
+  via: primary
 - id: hhs.68.p32.a3
   anchor: hhs.68.p32
   at: 43
   length: 0
   type: lixian
   text: 逡巡，自退不仕也。
+- id: hhs.68.p35.h1
+  anchor: hhs.68.p35
+  at: 63
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.68.p40.h1
+  anchor: hhs.68.p40
+  at: 8
+  length: 2
+  type: person
+  person_id: maorong
+  text: 茅容
+  via: primary
+- id: hhs.68.p40.h2
+  anchor: hhs.68.p40
+  at: 36
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
+- id: hhs.68.p43.h1
+  anchor: hhs.68.p43
+  at: 8
+  length: 2
+  type: person
+  person_id: jiashu
+  text: 賈淑
+  via: primary
+- id: hhs.68.p45.h1
+  anchor: hhs.68.p45
+  at: 7
+  length: 2
+  type: person
+  person_id: huangyun
+  text: 黃允
+  via: primary

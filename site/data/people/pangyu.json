@@ -1,0 +1,38 @@
+{
+  "id": "pangyu",
+  "primary_name": "龐淯",
+  "courtesy_name": "子異",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.15",
+        "chapter_title": "魏書·劉司馬梁張溫賈傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.15.p21",
+        "at": 34,
+        "data_url": "data/sanguozhi/wei/15.json",
+        "matched": "龐淯",
+        "snippet": "…惠著聞，其所禮辟扶風龐延、天水楊阜、安定胡遵、酒泉龐淯、燉煌張恭、周生烈等，終皆有名位。黃初四年薨。詔曰：「昔荀桓子立勳翟土，晉侯賞以千室之邑；馮異輸力漢朝，光武封其二子。故涼州刺…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

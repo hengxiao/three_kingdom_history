@@ -1,0 +1,360 @@
+{
+  "id": "doumiao",
+  "primary_name": "桓思竇皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "竇妙"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 172,
+  "brief": "漢桓帝後皇后，靈帝臨朝",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.10",
+      "title": "皇后紀（下）",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p10",
+        "at": 162,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "皇后",
+        "snippet": "…復癭陶王悝為勃海王。丁丑，帝崩於德陽前殿。戊寅，尊皇后曰皇太后。太后臨朝。初，竇後既立，御見甚稀，唯采女田聖等有寵。後素忌忍，帝梓宮尚在前殿，遂殺田聖。城門校尉竇武議立嗣，召侍御史…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p12",
+        "at": 833,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "…騰赴，馳騎於傍，突而擊之，虜眾大潰，斬首八千餘級。太后賜詔書褒美曰：「須東羌盡定，當並錄功勤；今且賜熲錢二十萬，以家一人為郎中。」敕中藏府調金錢、彩物增助軍費，拜熲破羌將軍。"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p14",
+        "at": 275,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "…列女倡歌舞於前，植侍講積年，未嘗轉眄，融以是敬之。太后以陳蕃舊德，特封高陽鄉侯。蕃上疏讓曰：「臣聞割地之封，功德是為。臣雖無素潔之行，竊慕君子『不以其道得之，不居也』。若受爵不讓，…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p19",
+        "at": 117,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "…宜急為改葬，徙還家屬，其從坐禁錮，一切蠲除。又，皇太后雖居南宮，而恩禮不接，朝臣莫言，遠近失望。宜思大義顧復之報。」上深嘉奐言，以問諸常侍，左右皆惡之，帝不得自從。奐又與尚書劉猛等…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p20",
+        "at": 29,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "…謝弼上封事曰：「臣聞『惟虺惟蛇，女子之祥』。伏惟皇太后定策宮闥，援立聖明，《書》曰：『父子兄弟，罪不相及』，竇氏之誅，豈宜咎延太后！幽隔空宮，愁感天心，如有霧露之疾，陛下當何面目以…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p43",
+        "at": 13,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "冬，十月，戊子朔，率群臣朝太后於南宮，親饋上壽。黃門令董萌因此數為太后訴冤，帝深納之，供養資奉，有加於前。曹節、王甫疾之，誣萌以謗訕永樂宮，下獄死。鮮卑寇并…"
+      },
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p48",
+        "at": 620,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "皇后",
+        "snippet": "…實，惻隱之心，義無所依，至有奸軌之人通容其中。桓思皇后祖載之時，東郡有盜人妻者，亡在孝中，本縣追捕，乃伏其辜。虛偽雜穢，難得勝言。太子官屬，宜搜選令德，豈有但取丘墓凶丑之人！其為不…"
+      },
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p7",
+        "at": 1,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "太后",
+        "snippet": "竇太后母卒於比景，太后憂思感疾，癸巳，崩於雲台。宦者積怨竇氏，以衣車載太后屍置城南市捨，數日，曹節、王甫欲用貴人禮殯。帝曰：「太后親…"
+      },
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p79",
+        "at": 43,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "太后",
+        "snippet": "…。郎中梁人審忠上書曰：「陛下即位之初，未能萬機，皇太后念在撫育，權時攝政，故中常侍蘇康、管霸應時誅殄。太傅陳蕃、大將軍竇武考其黨與，志清朝政。華容侯朱瑀知事覺露，禍及其身，遂興造逆…"
+      },
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p8",
+        "at": 11,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "皇后",
+        "snippet": "秋，七月，甲寅，葬桓思皇后於宣陵。"
+      },
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p9",
+        "at": 22,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "太后",
+        "snippet": "有人書朱雀闕，言：「天下大亂，曹節、王甫幽殺太后，公卿皆尸祿，無忠言者。」詔司隸校尉劉猛逐捕，十日一會。猛以誹書言直，不肯急捕。月餘，主名不立；猛坐左轉諫議大夫，以御史中丞段…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.60",
+        "chapter_title": "馬融列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.60.p90",
+        "at": 143,
+        "data_url": "data/houhanshu/hhs/60.json",
+        "matched": "皇后",
+        "snippet": "…，義無所依，至有姦軌之人，通容其中。（恆）［桓］思皇后祖載之時，[103]東郡有盜人妻者亡在孝中，本縣追捕，乃伏其辜。虛偽雜穢，難得勝言。又前至得拜，後輩被遺；或經年陵次，以暫歸見…"
+      },
+      {
+        "chapter_id": "hhs.64",
+        "chapter_title": "吳延史盧趙列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.64.p29",
+        "at": 1,
+        "data_url": "data/houhanshu/hhs/64.json",
+        "matched": "皇后",
+        "snippet": "時皇后父大將軍竇武援立靈帝，初秉機政，朝議欲加封爵。植雖布衣，以武素有名譽，乃獻書以規之曰：「植聞嫠有不恤緯之事，漆室有倚楹之戚，憂…"
+      },
+      {
+        "chapter_id": "hhs.65",
+        "chapter_title": "皇甫張段列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.65.p28",
+        "at": 12,
+        "data_url": "data/houhanshu/hhs/65.json",
+        "matched": "太后",
+        "snippet": "建寧元年，振旅而還。時竇太后臨朝，大將軍竇武與太傅陳蕃謀誅宦官，事洩，中常侍曹節等於中作亂，以奐新征，不知本謀，矯制使奐與少府周靖率五營士圍武。武自殺，蕃…"
+      },
+      {
+        "chapter_id": "hhs.65",
+        "chapter_title": "皇甫張段列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.65.p30",
+        "at": 176,
+        "data_url": "data/houhanshu/hhs/65.json",
+        "matched": "太后",
+        "snippet": "…。宜急為改葬，徙還家屬。其從坐禁錮，一切蠲除。又皇太后雖居南居，而恩禮不接，朝臣莫言，遠近失望。宜思大義顧復之報。」[53]天子深納奐言，以問諸黃門常侍，左右皆惡之，帝不得自從。"
+      },
+      {
+        "chapter_id": "hhs.65",
+        "chapter_title": "皇甫張段列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.65.p56",
+        "at": 2,
+        "data_url": "data/houhanshu/hhs/65.json",
+        "matched": "太后",
+        "snippet": "時竇太后臨朝，下詔曰：「先零東羌歷載為患，熲前陳狀，欲必埽滅。涉履霜雪，兼行晨夜，身當矢石，感厲吏士。曾未浹日，凶丑奔破，[81]連屍…"
+      },
+      {
+        "chapter_id": "hhs.65",
+        "chapter_title": "皇甫張段列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.65.p78",
+        "at": 94,
+        "data_url": "data/houhanshu/hhs/65.json",
+        "matched": "太后",
+        "snippet": "…傳，奐之被禁錮，先因災應上疏追訟竇武、陳番，及言皇太后恩禮不接，觸宦官忌，事已在靈帝建寧二年四月矣，不應反列於桓帝永康元年前也。"
+      },
+      {
+        "chapter_id": "hhs.66",
+        "chapter_title": "陳王列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.66.p19",
+        "at": 6,
+        "data_url": "data/houhanshu/hhs/66.json",
+        "matched": "太后",
+        "snippet": "靈帝即位，竇太后復優詔蕃曰：「蓋襃功以勸善，表義以厲俗，無德不報，大雅所歎。太傅陳蕃，輔弼先帝，出內累年。忠孝之美，德冠本朝；謇愕之操，華首彌…"
+      },
+      {
+        "chapter_id": "hhs.66",
+        "chapter_title": "陳王列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.66.p20",
+        "at": 12,
+        "data_url": "data/houhanshu/hhs/66.json",
+        "matched": "皇后",
+        "snippet": "初，桓帝欲立所幸田貴人為皇后。蕃以田氏卑微，竇族良家，爭之甚固。帝不得已，乃立竇後。及後臨朝，故委用於蕃。蕃與後父大將軍竇武，同心盡力，徵用名賢，共參政事…"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p10",
+        "at": 69,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "太后",
+        "snippet": "…曹何罪，而當盡見族滅？」因大呼曰：「陳蕃、竇武奏白太后廢帝，為大逆！」乃夜召素所親壯健者長樂從官史共普、張亮等十七人，喢血共盟誅武等。曹節聞之，驚起，白帝曰：「外閒切切，請出御德陽…"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p2",
+        "at": 31,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "皇后",
+        "snippet": "…女選入掖庭，桓帝以為貴人，拜武郎中。其冬，貴人立為皇后，武遷越騎校尉，封槐里侯，五千戶。明年冬，拜城門校尉。在位多辟名士，清身疾惡，禮賂不通，妻子衣食裁充足而已。是時羌蠻寇難，歲儉…"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p6",
+        "at": 41,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "太后",
+        "snippet": "…儵，參問其國中王子侯之賢者，儵稱解瀆亭侯宏。武入白太后，遂徵立之，是為靈帝。拜武為大將軍，常居禁中。帝既立，論定策功，更封武為聞喜侯；子機渭陽侯，拜侍中；兄子紹鄠侯，遷步兵校尉；紹…"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p8",
+        "at": 86,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "太后",
+        "snippet": "…日食，斥罷宦官，以塞天變。又趙夫人及女尚書，旦夕亂太后，急宜退絕。惟將軍慮焉。」武乃白太后曰：「故事，黃門、常侍但當給事省內，典門戶，主近署財物耳。今乃使與政事而任權重，子弟布列，…"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p9",
+        "at": 23,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "太后",
+        "snippet": "至八月，太白出西方。劉瑜素善天官，惡之，上書皇太后曰：「太白犯房左驂，上將星入太微，其占宮門當閉，將相不利，姦人在主傍。願急防之。」又與武、蕃書，以星辰錯繆，不利大臣，宜速斷大…"
+      },
+      {
+        "chapter_id": "hhs.78",
+        "chapter_title": "宦者列传",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.78.p45",
+        "at": 3,
+        "data_url": "data/houhanshu/hhs/78.json",
+        "matched": "太后",
+        "snippet": "時，窦太后临朝，后父大将军武与太傅陳蕃谋诛中官，节与长乐五官史硃瑀、从官史共普、張亮、中黄門王尊、长乐谒者腾是等十七人，共矫詔以长乐食监…"
+      },
+      {
+        "chapter_id": "hhs.78",
+        "chapter_title": "宦者列传",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.78.p47",
+        "at": 6,
+        "data_url": "data/houhanshu/hhs/78.json",
+        "matched": "太后",
+        "snippet": "熹平元年，窦太后崩，有何人書硃雀阙，言“天下大乱，曹节、王甫幽殺太后，常侍侯览多殺党人，公卿皆尸禄，无有忠言者。”于是詔司隶校尉劉猛逐捕，十日…"
+      },
+      {
+        "chapter_id": "hhs.78",
+        "chapter_title": "宦者列传",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.78.p51",
+        "at": 47,
+        "data_url": "data/houhanshu/hhs/78.json",
+        "matched": "太后",
+        "snippet": "…下理，汤举伊尹不仁者远。陛下即位之初，未能万机，皇太后念在抚育，权時摄政，故中常侍苏康、管霸应時诛殄。太傅陳蕃、大将军窦武考其党与，志清朝政。华容侯硃瑀知事觉露，祸及其身，遂兴造逆…"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p1",
+        "at": 52,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "太后",
+        "snippet": "…世封解瀆亭侯，帝襲侯爵。母董夫人。桓帝崩，無子，皇太后與父城門校尉竇武定策禁中，使守光祿大夫劉儵持節，將左右羽林至河閒奉迎。"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p14",
+        "at": 48,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "太后",
+        "snippet": "…及尚書令尹勳、侍中劉瑜、屯騎校尉馮述，皆夷其族。皇太后遷于南宮。司徒胡廣爲太傅，錄尚書事。司空劉寵爲司徒，大鴻臚許栩爲司空。"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p52",
+        "at": 4,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "太后",
+        "snippet": "癸巳，皇太后竇氏崩。秋七月甲寅，葬桓思皇后。"
+      }
+    ]
+  },
+  "n_mentions": 30
+}

@@ -1,5 +1,15 @@
 # 人物志：精选灵帝-三国期间核心人物。
 #
+# given_name（單字名）字段：narrative 中常以 全名引出后再用單字。如「曹操使...操乃引軍還」。
+# given_name 不进 name_index 全局搜，而是「段内 contextual」：本段已有 primary_name 出现后，
+# 段内剩余文本中的 given_name 才计入此人。避免 操行/權力/雲行 之类的伪命中。
+#
+# given_name_blockers：常见的二字复合词，命中时该单字不计为人名。
+# 形式为「单字+其他」或「其他+单字」的二字组合。
+# 在 build 时由 tools/extract_persons.py 应用。
+#
+
+#
 # 中国史书人名复杂：同一人有姓名/名/字/姓字/官位/爵位/廟號/諡號/小名等多种叫法，
 # 同一叫法又可能指不同的人或随时间变化（如「太祖」在魏书指曹操，吴书指孫權）。
 # 因此 schema 把名号分两类：
@@ -20,7 +30,11 @@
 - id: caocao
   primary_name: 曹操
   courtesy_name: 孟德
-  aliases: []                # 太祖/武帝/武皇帝 在魏书内泛用，搜索易混；暂略
+  given_name: 操
+  given_name_blockers: [操行, 操守, 操刀, 操筆, 操心, 操弄, 操作, 操練, 節操, 情操, 風操, 雅操, 高操, 苦操]
+  aliases: []
+  chapter_aliases:
+    wei: [太祖, 武皇帝, 武帝]   # 廟號/諡號，魏書內無歧義
   birth_ad: 155
   death_ad: 220
   brief: 三国魏太祖，挾天子以令諸侯，奠定曹魏基業
@@ -29,6 +43,10 @@
 - id: caopi
   primary_name: 曹丕
   courtesy_name: 子桓
+  given_name: 丕
+  given_name_blockers: []
+  chapter_aliases:
+    wei: [文帝, 文皇帝, 高祖]
   birth_ad: 187
   death_ad: 226
   brief: 魏文帝，曹魏首位皇帝，220 年代漢稱帝
@@ -37,6 +55,10 @@
 - id: caorui
   primary_name: 曹叡
   courtesy_name: 元仲
+  given_name: 叡
+  given_name_blockers: []
+  chapter_aliases:
+    wei: [明帝, 明皇帝, 烈祖]
   birth_ad: 204
   death_ad: 239
   brief: 魏明帝，曹丕長子
@@ -45,7 +67,11 @@
 - id: liubei
   primary_name: 劉備
   courtesy_name: 玄德
+  given_name: 備
+  given_name_blockers: [完備, 預備, 戒備, 防備, 整備, 軍備, 守備, 設備, 備用, 備戰, 不備, 具備, 齊備, 備至, 備細, 備陳, 備載, 備述, 備矣, 備位, 備員]
   aliases: [劉玄德]
+  chapter_aliases:
+    shu: [先主, 昭烈帝, 昭烈皇帝]
   birth_ad: 161
   death_ad: 223
   brief: 蜀漢昭烈帝，先主
@@ -54,6 +80,10 @@
 - id: liushan
   primary_name: 劉禪
   courtesy_name: 公嗣
+  given_name: 禪
+  given_name_blockers: [禪讓, 受禪, 封禪, 禪位, 禪代, 禪授]
+  chapter_aliases:
+    shu: [後主]
   birth_ad: 207
   death_ad: 271
   brief: 蜀漢後主，劉備子
@@ -62,6 +92,10 @@
 - id: sunjian
   primary_name: 孫堅
   courtesy_name: 文臺
+  given_name: 堅
+  given_name_blockers: [堅固, 堅決, 堅持, 堅守, 堅貞, 堅強, 堅壁, 堅城, 堅執, 堅銳]
+  chapter_aliases:
+    wu: [武烈皇帝, 武烈帝, 始祖]
   birth_ad: 155
   death_ad: 191
   brief: 吳武烈皇帝，孫氏基業創建者
@@ -70,6 +104,10 @@
 - id: sunce
   primary_name: 孫策
   courtesy_name: 伯符
+  given_name: 策
+  given_name_blockers: [策略, 策劃, 計策, 良策, 上策, 鞭策, 對策, 策應, 獻策, 籌策, 妙策, 策動, 策勵]
+  chapter_aliases:
+    wu: [長沙桓王, 桓王]
   birth_ad: 175
   death_ad: 200
   brief: 孫堅長子，奠定江東基業
@@ -78,6 +116,10 @@
 - id: sunquan
   primary_name: 孫權
   courtesy_name: 仲謀
+  given_name: 權
+  given_name_blockers: [權力, 權勢, 權衡, 權柄, 權變, 權貴, 權謀, 大權, 兵權, 王權, 政權, 重權, 中權, 主權, 集權, 攬權, 用權, 弄權, 權門]
+  chapter_aliases:
+    wu: [太祖, 大帝, 大皇帝, 吳主]
   birth_ad: 182
   death_ad: 252
   brief: 吳大帝，孫策弟
@@ -86,6 +128,8 @@
 - id: zhugeliang
   primary_name: 諸葛亮
   courtesy_name: 孔明
+  given_name: 亮
+  given_name_blockers: [明亮, 響亮, 亮光]
   aliases: [諸葛孔明]
   birth_ad: 181
   death_ad: 234
@@ -95,6 +139,8 @@
 - id: simayi
   primary_name: 司馬懿
   courtesy_name: 仲達
+  given_name: 懿
+  given_name_blockers: [懿德, 懿親, 懿戚, 懿行]
   aliases: [司馬仲達]
   birth_ad: 179
   death_ad: 251
@@ -104,6 +150,8 @@
 - id: zhouyu
   primary_name: 周瑜
   courtesy_name: 公瑾
+  given_name: 瑜
+  given_name_blockers: [瑕瑜, 瑜瑕]
   birth_ad: 175
   death_ad: 210
   brief: 吳大將軍，赤壁之戰主帥
@@ -112,6 +160,8 @@
 - id: lusu
   primary_name: 魯肅
   courtesy_name: 子敬
+  given_name: 肅
+  given_name_blockers: [嚴肅, 肅清, 肅靜, 整肅, 敬肅, 肅然, 肅穆, 恭肅, 莊肅, 肅敬, 肅拜, 肅戎]
   birth_ad: 172
   death_ad: 217
   brief: 吳大都督，主東吳聯劉抗曹之策
@@ -120,6 +170,8 @@
 - id: lvmeng
   primary_name: 呂蒙
   courtesy_name: 子明
+  given_name: 蒙
+  given_name_blockers: [蒙蔽, 蒙混, 蒙昧, 啟蒙, 受蒙, 蒙難, 蒙塵, 蒙恩, 蒙寵, 蒙養, 童蒙, 蒙古]
   birth_ad: 178
   death_ad: 220
   brief: 吳將，襲取荊州，俘關羽
@@ -128,6 +180,8 @@
 - id: luxun
   primary_name: 陸遜
   courtesy_name: 伯言
+  given_name: 遜
+  given_name_blockers: [謙遜, 不遜, 遜色, 遜位, 遜讓, 遜謝]
   birth_ad: 183
   death_ad: 245
   brief: 吳大都督、丞相，夷陵之戰主帥
@@ -136,6 +190,8 @@
 - id: guanyu
   primary_name: 關羽
   courtesy_name: 雲長
+  given_name: 羽
+  given_name_blockers: [羽毛, 羽翼, 羽林, 羽書, 羽檄, 羽箭, 鎩羽, 羽蓋, 羽扇, 羽儀]
   aliases: [關雲長]
   birth_ad: null
   death_ad: 220
@@ -145,6 +201,8 @@
 - id: zhangfei
   primary_name: 張飛
   courtesy_name: 益德
+  given_name: 飛
+  given_name_blockers: [飛揚, 飛舞, 飛翔, 飛馳, 飛行, 飛奔, 飛矢, 飛箭, 飛書, 飛報, 飛騰, 飛鳥, 飛將, 飛廉]
   aliases: [翼德]            # 益德/翼德 兩傳均見
   birth_ad: null
   death_ad: 221
@@ -154,6 +212,8 @@
 - id: zhaoyun
   primary_name: 趙雲
   courtesy_name: 子龍
+  given_name: 雲
+  given_name_blockers: [雲霧, 風雲, 烏雲, 浮雲, 白雲, 雲集, 雲端, 雲煙, 雲山, 慶雲, 雲氣, 雲漢, 雲霓, 雲合, 雲擾, 雲雨, 雲夢, 雲行, 雲屯, 雲飛, 青雲, 紫雲, 卿雲]
   birth_ad: null
   death_ad: 229
   brief: 蜀漢翊軍將軍
@@ -162,6 +222,8 @@
 - id: machao
   primary_name: 馬超
   courtesy_name: 孟起
+  given_name: 超
+  given_name_blockers: [超過, 超越, 超群, 高超, 超然, 超凡, 超拔, 超脫, 超邁, 超倫]
   birth_ad: 176
   death_ad: 222
   brief: 蜀漢驃騎將軍，西涼軍閥
@@ -170,6 +232,8 @@
 - id: lvbu
   primary_name: 呂布
   courtesy_name: 奉先
+  given_name: 布
+  given_name_blockers: [布衣, 布帛, 宣布, 布告, 布陣, 散布, 分布, 公布, 棉布, 麻布, 布列, 遍布, 頒布, 廣布, 布施, 葛布, 布幣, 布化, 布德]
   birth_ad: null
   death_ad: 198
   brief: 漢末群雄，殺董卓後割據徐州
@@ -178,6 +242,8 @@
 - id: dongzhuo
   primary_name: 董卓
   courtesy_name: 仲穎
+  given_name: 卓
+  given_name_blockers: [卓越, 卓絕, 卓然, 卓識, 卓爾, 卓立, 卓異, 卓行]
   birth_ad: null
   death_ad: 192
   brief: 漢末權臣，廢少帝立獻帝，引發群雄混戰
@@ -186,6 +252,8 @@
 - id: yuanshao
   primary_name: 袁紹
   courtesy_name: 本初
+  given_name: 紹
+  given_name_blockers: [紹介, 紹熙, 紹承, 紹繼, 紹隆]
   birth_ad: null
   death_ad: 202
   brief: 河北軍閥，官渡之戰主敗
@@ -194,6 +262,8 @@
 - id: yuanshu
   primary_name: 袁術
   courtesy_name: 公路
+  given_name: 術
+  given_name_blockers: [術士, 法術, 算術, 技術, 武術, 道術, 醫術, 學術, 心術, 邪術, 方術, 術數, 經術, 儒術, 仙術, 妖術, 巫術, 權術]
   birth_ad: null
   death_ad: 199
   brief: 漢末群雄，淮南僭號
@@ -202,6 +272,8 @@
 - id: liubiao
   primary_name: 劉表
   courtesy_name: 景升
+  given_name: 表
+  given_name_blockers: [上表, 章表, 表奏, 表彰, 表記, 表面, 表裡, 表率, 表章, 表狀, 表薦, 表述, 表彰, 出表, 進表, 奉表, 拜表, 上書表, 下表, 表云, 表曰, 表稱, 表言, 表請]
   birth_ad: 142
   death_ad: 208
   brief: 荊州牧，東漢末年穩坐荊州
@@ -210,6 +282,8 @@
 - id: gongsunzan
   primary_name: 公孫瓚
   courtesy_name: 伯珪
+  given_name: 瓚
+  given_name_blockers: []
   birth_ad: null
   death_ad: 199
   brief: 幽州軍閥，與袁紹爭河北
@@ -218,6 +292,8 @@
 - id: liuyu
   primary_name: 劉虞
   courtesy_name: 伯安
+  given_name: 虞
+  given_name_blockers: [不虞, 虞舜, 騶虞, 虞候, 虞人, 虞氏, 虞夏, 虞翻]
   birth_ad: null
   death_ad: 193
   brief: 漢末幽州牧，被公孫瓚所殺
@@ -226,7 +302,3001 @@
 - id: taoqian
   primary_name: 陶謙
   courtesy_name: 恭祖
+  given_name: 謙
+  given_name_blockers: [謙虛, 謙遜, 謙讓, 謙恭, 謙和, 謙退, 謙下, 謙謙, 謙辭, 謙抑]
   birth_ad: 132
   death_ad: 194
   brief: 徐州牧，與曹操有屠徐之仇
   bio_chapters: [hhs.73]
+
+# ---- 漢朝皇帝 (referenced by 廟號/諡號 across the corpus) ----
+# 灵帝/獻帝/少帝 在本史料時段內無同名混淆，可作 global aliases。
+# 早期皇帝 (桓帝/順帝 etc.) 偶爾在 三国志/后汉书/资治通鉴 flashback 中提及。
+
+- id: linghan
+  primary_name: 漢靈帝
+  courtesy_name: null
+  aliases: [靈帝]
+  birth_ad: 156
+  death_ad: 189
+  brief: 東漢第十二帝劉宏，黃巾之亂與十常侍亂政期
+  bio_chapters: [hhs.8]      # 孝靈帝紀
+
+- id: xianhan
+  primary_name: 漢獻帝
+  courtesy_name: null
+  aliases: [獻帝]
+  birth_ad: 181
+  death_ad: 234
+  brief: 東漢末帝劉協，先後受董卓、曹操挾持
+  bio_chapters: [hhs.9]      # 孝獻帝紀
+
+- id: liubian
+  primary_name: 劉辯
+  courtesy_name: null
+  aliases: [少帝, 弘農王]
+  birth_ad: 176
+  death_ad: 190
+  brief: 漢少帝，靈帝長子，被董卓廢為弘農王後鴆殺
+  bio_chapters: []           # 后汉书 9 提及但無單傳
+
+- id: huanhan
+  primary_name: 漢桓帝
+  courtesy_name: null
+  aliases: [桓帝]
+  birth_ad: 132
+  death_ad: 168
+  brief: 東漢第十一帝劉志，靈帝前任，黨錮之禍始
+  bio_chapters: []           # 范围外但常被引用
+
+- id: shunhan
+  primary_name: 漢順帝
+  courtesy_name: null
+  aliases: [順帝]
+  birth_ad: 115
+  death_ad: 144
+  brief: 東漢第七帝劉保
+  bio_chapters: []
+
+- id: anhan
+  primary_name: 漢安帝
+  courtesy_name: null
+  aliases: [安帝]
+  birth_ad: 94
+  death_ad: 125
+  brief: 東漢第六帝劉祜
+  bio_chapters: []
+
+- id: hehan
+  primary_name: 漢和帝
+  courtesy_name: null
+  aliases: [和帝]
+  birth_ad: 79
+  death_ad: 105
+  brief: 東漢第四帝劉肇
+  bio_chapters: []
+
+- id: chonghan
+  primary_name: 漢沖帝
+  courtesy_name: null
+  aliases: [沖帝]
+  birth_ad: 143
+  death_ad: 145
+  brief: 東漢第八帝劉炳，幼年即位早夭
+  bio_chapters: []
+
+- id: zhihan
+  primary_name: 漢質帝
+  courtesy_name: null
+  aliases: [質帝]
+  birth_ad: 138
+  death_ad: 146
+  brief: 東漢第九帝劉纘，被梁冀鴆殺
+  bio_chapters: []
+
+# ---- 后妃 (frequently referenced as 太后/皇后/王后, mostly missing from roster until now) ----
+
+- id: hetaihou
+  primary_name: 何皇后
+  courtesy_name: null
+  aliases: [何太后]
+  birth_ad: null
+  death_ad: 189
+  brief: 漢靈帝皇后，劉辯之母，何進之妹，董卓所鴆
+  bio_chapters: [hhs.10]     # 皇后紀（下）
+
+- id: dongtaihou
+  primary_name: 董太后
+  courtesy_name: null
+  aliases: [永樂太后]
+  birth_ad: null
+  death_ad: 189
+  brief: 漢靈帝母（孝仁皇后），與何皇后爭權
+  bio_chapters: [hhs.10]
+
+- id: fuhuanghou
+  primary_name: 伏皇后
+  courtesy_name: null
+  aliases: [伏壽, 伏氏]
+  birth_ad: null
+  death_ad: 214
+  brief: 漢獻帝皇后，父伏完，因與父書怨曹操事被廢黜死
+  bio_chapters: [hhs.10]
+
+- id: caojie_huanghou
+  primary_name: 曹節
+  courtesy_name: null
+  aliases: []                # 「曹節」与同名宦官曹節易混；保守不加 alias 全局搜
+  chapter_aliases:
+    hhs: [曹皇后]
+    wei: [曹皇后]
+  birth_ad: null
+  death_ad: 260
+  brief: 漢獻帝皇后，曹操之女，伏皇后被廢後立
+  bio_chapters: [hhs.10]
+
+- id: bianhuanghou
+  primary_name: 卞皇后
+  courtesy_name: null
+  aliases: [卞太后, 卞氏]
+  chapter_aliases:
+    wei: [武宣皇后, 武宣卞皇后]
+  birth_ad: 159
+  death_ad: 230
+  brief: 曹操繼室，曹丕、曹植之母，魏武宣皇后
+  bio_chapters: [wei.5]      # 后妃傳
+
+- id: zhenhuanghou
+  primary_name: 甄皇后
+  courtesy_name: null
+  aliases: [甄氏]
+  chapter_aliases:
+    wei: [文昭甄皇后, 甄夫人]
+  birth_ad: 183
+  death_ad: 221
+  brief: 曹丕妻，曹叡生母，被曹丕賜死，文昭甄皇后
+  bio_chapters: [wei.5]
+
+- id: guohuanghou
+  primary_name: 郭皇后
+  courtesy_name: null
+  aliases: [郭氏]
+  chapter_aliases:
+    wei: [文德郭皇后]
+  birth_ad: 184
+  death_ad: 235
+  brief: 曹丕皇后，魏文德郭皇后
+  bio_chapters: [wei.5]
+
+# ---- Tier-2 surfaced gaps: 漢 后妃/外戚 + 早期皇帝 ----
+
+- id: zhangdedouhh
+  primary_name: 章德竇皇后
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: 97
+  brief: 漢章帝皇后，和帝攝政
+  bio_chapters: [hhs.10]
+
+- id: dengsui
+  primary_name: 鄧綏
+  courtesy_name: null
+  aliases: [和熹鄧皇后, 和熹皇后, 和熹鄧太后]
+  birth_ad: 81
+  death_ad: 121
+  brief: 漢和帝皇后，安帝臨朝攝政十六年
+  bio_chapters: [hhs.10]
+
+- id: yanji
+  primary_name: 安思閻皇后
+  courtesy_name: null
+  aliases: [閻姬, 閻氏]
+  birth_ad: null
+  death_ad: 126
+  brief: 漢安帝皇后，順帝即位前臨朝
+  bio_chapters: [hhs.10]
+
+- id: liangna
+  primary_name: 順烈梁皇后
+  courtesy_name: null
+  aliases: [梁妠, 順烈皇后]
+  birth_ad: 116
+  death_ad: 150
+  brief: 漢順帝皇后，沖質桓三朝太后
+  bio_chapters: [hhs.10]
+
+- id: liangnvying
+  primary_name: 懿獻梁皇后
+  courtesy_name: null
+  aliases: [梁女瑩, 懿獻皇后]
+  birth_ad: null
+  death_ad: 159
+  brief: 漢桓帝前皇后，梁冀之妹
+  bio_chapters: [hhs.10]
+
+- id: dengmengnv
+  primary_name: 鄧猛女
+  courtesy_name: null
+  aliases: [鄧皇后]                # 漢桓帝后期皇后；魏明帝郭皇后等也作 鄧/郭皇后
+  birth_ad: null
+  death_ad: 165
+  brief: 漢桓帝中期皇后，後廢
+  bio_chapters: [hhs.10]
+
+- id: doumiao
+  primary_name: 桓思竇皇后
+  courtesy_name: null
+  aliases: [竇妙]
+  birth_ad: null
+  death_ad: 172
+  brief: 漢桓帝後皇后，靈帝臨朝
+  bio_chapters: [hhs.10]
+
+- id: songhuanghou
+  primary_name: 宋皇后
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: 178
+  brief: 漢靈帝前皇后，被王甫等構陷廢黜
+  bio_chapters: [hhs.10]
+
+- id: wangrong
+  primary_name: 靈懷皇后
+  courtesy_name: null
+  aliases: [王榮, 王美人]
+  birth_ad: null
+  death_ad: 181
+  brief: 漢靈帝美人，獻帝生母，何皇后所鴆
+  bio_chapters: [hhs.10]
+
+- id: gonghuailianggui
+  primary_name: 恭懷梁皇后
+  courtesy_name: null
+  aliases: [恭懷梁貴人, 梁貴人]
+  birth_ad: 62
+  death_ad: 83
+  brief: 漢章帝貴人，和帝生母
+  bio_chapters: []
+
+- id: yanhh
+  primary_name: 孝崇匽皇后
+  courtesy_name: null
+  aliases: [匽皇后, 匽明]
+  birth_ad: null
+  death_ad: 172
+  brief: 漢桓帝生母，蠡吾侯翼之妻
+  bio_chapters: []
+
+- id: liuxiu
+  primary_name: 漢光武帝
+  courtesy_name: 文叔
+  aliases: [光武帝, 光武, 劉秀]
+  birth_ad: -5
+  death_ad: 57
+  brief: 東漢開國皇帝
+  bio_chapters: []
+
+- id: liuzhuang
+  primary_name: 漢明帝
+  courtesy_name: null
+  aliases: [明皇帝]                # 在 hhs/zztj 早期紀; 三国志 wei 之「明帝」由 chapter_alias 指 caorui
+  birth_ad: 28
+  death_ad: 75
+  brief: 東漢第二帝劉莊
+  bio_chapters: []
+
+- id: liuda
+  primary_name: 漢章帝
+  courtesy_name: null
+  aliases: [章帝]
+  birth_ad: 57
+  death_ad: 88
+  brief: 東漢第三帝劉炟
+  bio_chapters: []
+
+# ---- Tier-2 surfaced gaps: 魏 后妃 (additional) ----
+
+- id: maohuanghou
+  primary_name: 明悼毛皇后
+  courtesy_name: null
+  aliases: [毛皇后, 毛氏]
+  birth_ad: null
+  death_ad: 237
+  brief: 魏明帝毛皇后，被賜死
+  bio_chapters: [wei.5]
+
+- id: guohuanghou_mingyuan
+  primary_name: 明元郭皇后
+  courtesy_name: null
+  aliases: [明元皇后]                # 不放 「郭皇后/郭氏」 — 與 文德郭皇后 衝突
+  chapter_aliases:
+    wei: [永寧太后]
+  birth_ad: null
+  death_ad: 264
+  brief: 魏明帝後立皇后，齊王芳-元帝三朝太后
+  bio_chapters: [wei.5]
+
+- id: zhenhuanghou_huai
+  primary_name: 懷甄皇后
+  courtesy_name: null
+  aliases: []                # 「甄皇后」已歸 文昭甄皇后；本人少見獨稱
+  birth_ad: null
+  death_ad: 251
+  brief: 魏齊王芳皇后甄氏（懷甄皇后）
+  bio_chapters: [wei.5]
+
+# ---- Tier-2 surfaced gaps: 蜀 后妃 + 太子 ----
+
+- id: ganhuanghou
+  primary_name: 甘皇后
+  courtesy_name: null
+  aliases: [甘夫人, 昭烈甘皇后]
+  birth_ad: null
+  death_ad: 209
+  brief: 劉備妾室，劉禪生母，追諡昭烈皇后
+  bio_chapters: [shu.4]
+
+- id: muhuanghou_shu
+  primary_name: 穆皇后
+  courtesy_name: null
+  aliases: [吳皇后, 吳氏, 穆吳皇后]
+  birth_ad: null
+  death_ad: 245
+  brief: 劉備皇后吳氏，劉禪繼母，後尊太后
+  bio_chapters: [shu.4]
+
+- id: jingaihuanghou
+  primary_name: 敬哀張皇后
+  courtesy_name: null
+  aliases: [敬哀皇后]
+  birth_ad: null
+  death_ad: 237
+  brief: 劉禪前皇后，張飛女
+  bio_chapters: [shu.4]
+
+- id: houzhuhuanghou
+  primary_name: 後主張皇后
+  courtesy_name: null
+  aliases: [張皇后]                # shu 上下文；如有衝突再 chapter_alias
+  birth_ad: null
+  death_ad: null
+  brief: 劉禪後皇后，敬哀皇后之妹
+  bio_chapters: [shu.4]
+
+- id: liuxuan
+  primary_name: 劉璿
+  courtesy_name: 文衡
+  aliases: []
+  birth_ad: 224
+  death_ad: 264
+  brief: 蜀漢後主長子，太子，鍾會亂中遇害
+  bio_chapters: []
+
+# ---- Tier-2 surfaced gaps: 吳 后妃 + 太子 ----
+
+- id: wulietaihou
+  primary_name: 武烈皇后
+  courtesy_name: null
+  aliases: [武烈吳皇后]              # 孫權母吳氏；与穆皇后吳氏不同
+  birth_ad: null
+  death_ad: 207
+  brief: 孫堅妻，孫權生母
+  bio_chapters: [wu.5]
+
+- id: bulianshi
+  primary_name: 步練師
+  courtesy_name: null
+  aliases: [步皇后, 步夫人]
+  birth_ad: null
+  death_ad: 238
+  brief: 孫權寵妃，追諡皇后
+  bio_chapters: [wu.5]
+
+- id: dayiwang
+  primary_name: 大懿王皇后
+  courtesy_name: null
+  aliases: [大懿王夫人]
+  birth_ad: null
+  death_ad: null
+  brief: 孫權妃，孫和母
+  bio_chapters: [wu.5]
+
+- id: jinghuaiwang
+  primary_name: 敬懷王皇后
+  courtesy_name: null
+  aliases: [敬懷王夫人]
+  birth_ad: null
+  death_ad: null
+  brief: 孫權妃，孫休母
+  bio_chapters: [wu.5]
+
+- id: panhuanghou
+  primary_name: 潘皇后
+  courtesy_name: null
+  aliases: [潘夫人]
+  birth_ad: null
+  death_ad: 252
+  brief: 孫權後立皇后，孫亮生母
+  bio_chapters: [wu.5]
+
+- id: quanhuanghou
+  primary_name: 全皇后
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: null
+  brief: 孫亮皇后，全琮孫女
+  bio_chapters: [wu.5]
+
+- id: zhuhuanghou
+  primary_name: 朱皇后
+  courtesy_name: null
+  aliases: [景皇后]
+  birth_ad: null
+  death_ad: 265
+  brief: 孫休皇后，朱據女
+  bio_chapters: [wu.5]
+
+- id: heji
+  primary_name: 何姬
+  courtesy_name: null
+  aliases: [大懿何皇后]
+  birth_ad: null
+  death_ad: 287
+  brief: 孫和妃，孫皓生母，吳大懿皇后
+  bio_chapters: [wu.5]
+
+- id: tenghuanghou
+  primary_name: 滕皇后
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: null
+  brief: 孫皓皇后，滕胤族姪女
+  bio_chapters: [wu.5]
+
+- id: sunwan
+  primary_name: 孫𩅦
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: 264
+  brief: 孫休長子，孫休立為太子
+  bio_chapters: []
+
+- id: sunjin
+  primary_name: 孫瑾
+  courtesy_name: null
+  aliases: []
+  birth_ad: null
+  death_ad: 280
+  brief: 孫皓太子
+  bio_chapters: []
+
+# ---- Tier-2 surfaced gaps: 西晉皇室 (mostly absent so far) ----
+
+- id: simayan
+  primary_name: 司馬炎
+  courtesy_name: 安世
+  aliases: [晉武帝]
+  birth_ad: 236
+  death_ad: 290
+  brief: 西晉開國皇帝，司馬昭子
+  bio_chapters: []
+
+- id: simazhong
+  primary_name: 司馬衷
+  courtesy_name: 正度
+  aliases: [晉惠帝]
+  birth_ad: 259
+  death_ad: 307
+  brief: 西晉第二帝
+  bio_chapters: []
+
+- id: yangyan
+  primary_name: 武元楊皇后
+  courtesy_name: 瓊芝
+  aliases: [楊艷, 武元皇后]
+  birth_ad: 238
+  death_ad: 274
+  brief: 司馬炎前皇后
+  bio_chapters: []
+
+- id: yangzhi_jin
+  primary_name: 武悼楊皇后
+  courtesy_name: 季蘭
+  aliases: [楊芷, 武悼皇后]
+  birth_ad: 259
+  death_ad: 292
+  brief: 司馬炎後立皇后，武元皇后從妹
+  bio_chapters: []
+
+- id: jianafeng
+  primary_name: 賈南風
+  courtesy_name: null
+  aliases: [惠賈皇后, 賈皇后]
+  birth_ad: 257
+  death_ad: 300
+  brief: 司馬衷皇后，八王之亂導火索
+  bio_chapters: []
+
+- id: simayu
+  primary_name: 司馬遹
+  courtesy_name: 熙祖
+  aliases: [愍懷太子]
+  birth_ad: 278
+  death_ad: 300
+  brief: 司馬衷太子，被賈南風所害
+  bio_chapters: []
+
+# ---- Batch 2: bio principals (no given_name yet — add only if mention count justifies disambiguation) ----
+
+# 魏 — 三少帝、宗室、文武
+- id: caofang
+  primary_name: 曹芳
+  courtesy_name: 蘭卿
+  birth_ad: 232
+  death_ad: 274
+  brief: 魏齊王，曹叡養子，被司馬師廢
+  bio_chapters: [wei.4]
+
+- id: caomao
+  primary_name: 曹髦
+  courtesy_name: 彥士
+  birth_ad: 241
+  death_ad: 260
+  brief: 魏高貴鄉公，被司馬昭弒於洛陽
+  bio_chapters: [wei.4]
+
+- id: caohuan
+  primary_name: 曹奐
+  courtesy_name: 景明
+  birth_ad: 246
+  death_ad: 302
+  brief: 魏元帝，禪位於司馬炎
+  bio_chapters: [wei.4]
+
+- id: xiahoudun
+  primary_name: 夏侯惇
+  courtesy_name: 元讓
+  birth_ad: null
+  death_ad: 220
+  brief: 曹魏大將軍，曹操從弟同宗
+  bio_chapters: [wei.9]
+
+- id: xiahouyuan
+  primary_name: 夏侯淵
+  courtesy_name: 妙才
+  birth_ad: null
+  death_ad: 219
+  brief: 曹魏征西將軍，戰死定軍山
+  bio_chapters: [wei.9]
+
+- id: caoren
+  primary_name: 曹仁
+  courtesy_name: 子孝
+  birth_ad: 168
+  death_ad: 223
+  brief: 曹魏大司馬，曹操從弟
+  bio_chapters: [wei.9]
+
+- id: caohong
+  primary_name: 曹洪
+  courtesy_name: 子廉
+  birth_ad: null
+  death_ad: 232
+  brief: 曹魏驃騎將軍，曹操從弟
+  bio_chapters: [wei.9]
+
+- id: caoxiu
+  primary_name: 曹休
+  courtesy_name: 文烈
+  birth_ad: null
+  death_ad: 228
+  brief: 曹魏大司馬，曹操族子
+  bio_chapters: [wei.9]
+
+- id: caozhen
+  primary_name: 曹真
+  courtesy_name: 子丹
+  birth_ad: null
+  death_ad: 231
+  brief: 曹魏大將軍，曹操族子
+  bio_chapters: [wei.9]
+
+- id: caoshuang
+  primary_name: 曹爽
+  courtesy_name: 昭伯
+  birth_ad: null
+  death_ad: 249
+  brief: 魏大將軍、輔政，被司馬懿誅
+  bio_chapters: [wei.9]
+
+- id: xiahoushang
+  primary_name: 夏侯尚
+  courtesy_name: 伯仁
+  birth_ad: null
+  death_ad: 226
+  brief: 曹魏征南將軍
+  bio_chapters: [wei.9]
+
+- id: xiahouxuan
+  primary_name: 夏侯玄
+  courtesy_name: 太初
+  birth_ad: 209
+  death_ad: 254
+  brief: 魏征西將軍，名士，後被司馬師誅
+  bio_chapters: [wei.9]
+
+- id: xunyu
+  primary_name: 荀彧
+  courtesy_name: 文若
+  birth_ad: 163
+  death_ad: 212
+  brief: 曹魏尚書令，曹操首席謀士
+  bio_chapters: [wei.10]
+
+- id: xunyou
+  primary_name: 荀攸
+  courtesy_name: 公達
+  birth_ad: 157
+  death_ad: 214
+  brief: 曹魏尚書令，謀士
+  bio_chapters: [wei.10]
+
+- id: jiaxu
+  primary_name: 賈詡
+  courtesy_name: 文和
+  birth_ad: 147
+  death_ad: 223
+  brief: 曹魏太尉，謀士
+  bio_chapters: [wei.10]
+
+- id: chengyu
+  primary_name: 程昱
+  courtesy_name: 仲德
+  birth_ad: 141
+  death_ad: 220
+  brief: 曹魏衛尉，曹操早期謀士
+  bio_chapters: [wei.14]
+
+- id: guojia
+  primary_name: 郭嘉
+  courtesy_name: 奉孝
+  birth_ad: 170
+  death_ad: 207
+  brief: 曹魏軍師祭酒，曹操早卒謀士
+  bio_chapters: [wei.14]
+
+- id: dongzhao
+  primary_name: 董昭
+  courtesy_name: 公仁
+  birth_ad: 156
+  death_ad: 236
+  brief: 曹魏司徒
+  bio_chapters: [wei.14]
+
+- id: liuye
+  primary_name: 劉曄
+  courtesy_name: 子揚
+  birth_ad: null
+  death_ad: 234
+  brief: 曹魏侍中、太中大夫
+  bio_chapters: [wei.14]
+
+- id: jiangji
+  primary_name: 蔣濟
+  courtesy_name: 子通
+  birth_ad: null
+  death_ad: 249
+  brief: 曹魏太尉
+  bio_chapters: [wei.14]
+
+- id: chenqun
+  primary_name: 陳群
+  courtesy_name: 長文
+  aliases: [陳羣]   # 群/羣 異體字
+  birth_ad: null
+  death_ad: 237
+  brief: 曹魏司空，創九品官人法
+  bio_chapters: [wei.22]
+
+- id: zhongyao
+  primary_name: 鍾繇
+  courtesy_name: 元常
+  birth_ad: 151
+  death_ad: 230
+  brief: 曹魏太傅，書法家
+  bio_chapters: [wei.13]
+
+- id: huaxin
+  primary_name: 華歆
+  courtesy_name: 子魚
+  birth_ad: 157
+  death_ad: 232
+  brief: 曹魏司徒
+  bio_chapters: [wei.13]
+
+- id: wanglang
+  primary_name: 王朗
+  courtesy_name: 景興
+  birth_ad: null
+  death_ad: 228
+  brief: 曹魏司徒
+  bio_chapters: [wei.13]
+
+- id: zhangliao
+  primary_name: 張遼
+  courtesy_name: 文遠
+  birth_ad: 169
+  death_ad: 222
+  brief: 曹魏前將軍，合肥名戰
+  bio_chapters: [wei.17]
+
+- id: yujin
+  primary_name: 于禁
+  courtesy_name: 文則
+  birth_ad: null
+  death_ad: 221
+  brief: 曹魏左將軍，襄樊降關羽
+  bio_chapters: [wei.17]
+
+- id: yuejin
+  primary_name: 樂進
+  courtesy_name: 文謙
+  birth_ad: null
+  death_ad: 218
+  brief: 曹魏右將軍
+  bio_chapters: [wei.17]
+
+- id: zhanghe
+  primary_name: 張郃
+  courtesy_name: 儁乂
+  birth_ad: null
+  death_ad: 231
+  brief: 曹魏征西車騎將軍
+  bio_chapters: [wei.17]
+
+- id: xuhuang
+  primary_name: 徐晃
+  courtesy_name: 公明
+  birth_ad: null
+  death_ad: 227
+  brief: 曹魏右將軍
+  bio_chapters: [wei.17]
+
+- id: xuchu
+  primary_name: 許褚
+  courtesy_name: 仲康
+  birth_ad: null
+  death_ad: null
+  brief: 曹魏武衛將軍，曹操貼身衛士
+  bio_chapters: [wei.18]
+
+- id: dianwei
+  primary_name: 典韋
+  courtesy_name: null
+  birth_ad: null
+  death_ad: 197
+  brief: 曹操親衛猛將，宛城戰死
+  bio_chapters: [wei.18]
+
+- id: pangde
+  primary_name: 龐德
+  courtesy_name: 令明
+  birth_ad: null
+  death_ad: 219
+  brief: 曹魏立義將軍，襄樊戰死
+  bio_chapters: [wei.18]
+
+- id: zhonghui
+  primary_name: 鍾會
+  courtesy_name: 士季
+  birth_ad: 225
+  death_ad: 264
+  brief: 曹魏司徒，伐蜀主將，後謀反被誅
+  bio_chapters: [wei.28]
+
+- id: dengai
+  primary_name: 鄧艾
+  courtesy_name: 士載
+  birth_ad: 197
+  death_ad: 264
+  brief: 曹魏太尉，奇兵入蜀降劉禪
+  bio_chapters: [wei.28]
+
+- id: zhugedan
+  primary_name: 諸葛誕
+  courtesy_name: 公休
+  birth_ad: null
+  death_ad: 258
+  brief: 魏大司空，淮南二叛之首
+  bio_chapters: [wei.28]
+
+- id: guohuai
+  primary_name: 郭淮
+  courtesy_name: 伯濟
+  birth_ad: null
+  death_ad: 255
+  brief: 曹魏車騎將軍，西部前線
+  bio_chapters: [wei.26]
+
+- id: manchong
+  primary_name: 滿寵
+  courtesy_name: 伯寧
+  birth_ad: null
+  death_ad: 242
+  brief: 曹魏太尉
+  bio_chapters: [wei.26]
+
+- id: simashi
+  primary_name: 司馬師
+  courtesy_name: 子元
+  birth_ad: 208
+  death_ad: 255
+  brief: 司馬懿長子，魏大將軍
+  bio_chapters: []
+
+- id: simazhao
+  primary_name: 司馬昭
+  courtesy_name: 子上
+  birth_ad: 211
+  death_ad: 265
+  brief: 司馬懿次子，魏相國，晉文帝
+  bio_chapters: []
+
+# 蜀
+- id: liuyan_shu
+  primary_name: 劉焉
+  courtesy_name: 君郎
+  birth_ad: null
+  death_ad: 194
+  brief: 益州牧，劉璋父
+  bio_chapters: [shu.1]
+
+- id: liuzhang
+  primary_name: 劉璋
+  courtesy_name: 季玉
+  birth_ad: null
+  death_ad: null
+  brief: 益州牧，後降劉備
+  bio_chapters: [shu.1]
+
+- id: huangzhong
+  primary_name: 黃忠
+  courtesy_name: 漢升
+  birth_ad: null
+  death_ad: 220
+  brief: 蜀漢後將軍，定軍山斬夏侯淵
+  bio_chapters: [shu.6]
+
+- id: pangtong
+  primary_name: 龐統
+  courtesy_name: 士元
+  birth_ad: 179
+  death_ad: 214
+  brief: 蜀漢軍師中郎將，落鳳坡卒
+  bio_chapters: [shu.7]
+
+- id: fazheng
+  primary_name: 法正
+  courtesy_name: 孝直
+  birth_ad: 176
+  death_ad: 220
+  brief: 蜀漢尚書令、護軍將軍
+  bio_chapters: [shu.7]
+
+- id: jiangwan
+  primary_name: 蔣琬
+  courtesy_name: 公琰
+  birth_ad: null
+  death_ad: 246
+  brief: 蜀漢大將軍、大司馬，諸葛亮繼任
+  bio_chapters: [shu.14]
+
+- id: feiyi
+  primary_name: 費禕
+  courtesy_name: 文偉
+  birth_ad: null
+  death_ad: 253
+  brief: 蜀漢大將軍，蔣琬繼任
+  bio_chapters: [shu.14]
+
+- id: jiangwei
+  primary_name: 姜維
+  courtesy_name: 伯約
+  birth_ad: 202
+  death_ad: 264
+  brief: 蜀漢大將軍，諸葛亮衣鉢繼承者
+  bio_chapters: [shu.14]
+
+- id: weiyan
+  primary_name: 魏延
+  courtesy_name: 文長
+  birth_ad: null
+  death_ad: 234
+  brief: 蜀漢征西大將軍
+  bio_chapters: [shu.10]
+
+# 吳
+- id: sunliang
+  primary_name: 孫亮
+  courtesy_name: 子明
+  birth_ad: 243
+  death_ad: 260
+  brief: 吳廢帝，孫權少子
+  bio_chapters: [wu.3]
+
+- id: sunxiu
+  primary_name: 孫休
+  courtesy_name: 子烈
+  birth_ad: 235
+  death_ad: 264
+  brief: 吳景帝，孫權六子
+  bio_chapters: [wu.3]
+
+- id: sunhao
+  primary_name: 孫晧
+  courtesy_name: 元宗
+  birth_ad: 242
+  death_ad: 284
+  brief: 吳末帝，亡國降晉
+  bio_chapters: [wu.3]
+
+- id: taishici
+  primary_name: 太史慈
+  courtesy_name: 子義
+  birth_ad: 166
+  death_ad: 206
+  brief: 吳建昌都尉
+  bio_chapters: [wu.4]
+
+- id: chengpu
+  primary_name: 程普
+  courtesy_name: 德謀
+  birth_ad: null
+  death_ad: 215
+  brief: 東吳老將
+  bio_chapters: [wu.10]
+
+- id: huanggai
+  primary_name: 黃蓋
+  courtesy_name: 公覆
+  birth_ad: null
+  death_ad: null
+  brief: 東吳偏將軍，赤壁之戰苦肉計
+  bio_chapters: [wu.10]
+
+- id: handang
+  primary_name: 韓當
+  courtesy_name: 義公
+  birth_ad: null
+  death_ad: 226
+  brief: 東吳威烈將軍
+  bio_chapters: [wu.10]
+
+- id: ganning
+  primary_name: 甘寧
+  courtesy_name: 興霸
+  birth_ad: null
+  death_ad: null
+  brief: 東吳西陵太守、折衝將軍
+  bio_chapters: [wu.10]
+
+- id: lingtong
+  primary_name: 凌統
+  courtesy_name: 公績
+  birth_ad: 189
+  death_ad: 217
+  brief: 東吳偏將軍
+  bio_chapters: [wu.10]
+
+- id: zhuran
+  primary_name: 朱然
+  courtesy_name: 義封
+  birth_ad: 182
+  death_ad: 249
+  brief: 東吳左大司馬，江陵防線主將
+  bio_chapters: [wu.11]
+
+- id: zhugeke
+  primary_name: 諸葛恪
+  courtesy_name: 元遜
+  birth_ad: 203
+  death_ad: 253
+  brief: 吳大將軍，孫亮初輔政，後被誅
+  bio_chapters: [wu.19]
+
+- id: zhugejin
+  primary_name: 諸葛瑾
+  courtesy_name: 子瑜
+  birth_ad: 174
+  death_ad: 241
+  brief: 吳大將軍，諸葛亮兄
+  bio_chapters: [wu.7]
+
+- id: guyong
+  primary_name: 顧雍
+  courtesy_name: 元歎
+  birth_ad: 168
+  death_ad: 243
+  brief: 吳丞相
+  bio_chapters: [wu.7]
+
+- id: buzhi
+  primary_name: 步騭
+  courtesy_name: 子山
+  birth_ad: null
+  death_ad: 247
+  brief: 吳丞相
+  bio_chapters: [wu.7]
+# === auto-extracted bio-subject candidates ===
+# Review carefully — heuristic from `X字Y，` patterns. May include false positives.
+
+- id: zanghong
+  primary_name: 臧洪
+  courtesy_name: 子源
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.58]   # found in: hhs.58, wei.7 (22 total occurrences)
+
+- id: liying
+  primary_name: 李膺
+  courtesy_name: 符禮
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (16 total occurrences)
+
+- id: zhangjian
+  primary_name: 張儉
+  courtesy_name: 符節
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (12 total occurrences)
+
+- id: tengyin
+  primary_name: 滕胤
+  courtesy_name: 承嗣
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.19]   # found in: wu.19 (11 total occurrences)
+
+- id: ligu
+  primary_name: 李固
+  courtesy_name: 子堅
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.63]   # found in: hhs.63 (11 total occurrences)
+
+- id: zhanghuan
+  primary_name: 張奐
+  courtesy_name: 然明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.65]   # found in: hhs.65 (11 total occurrences)
+
+- id: sunjun
+  primary_name: 孫峻
+  courtesy_name: 子遠
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.19]   # found in: wu.19 (8 total occurrences)
+
+- id: bingyuan
+  primary_name: 邴原
+  courtesy_name: 根矩
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (7 total occurrences)
+
+- id: guanqiujian
+  primary_name: 毌丘儉
+  courtesy_name: 仲恭
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.28]   # found in: wei.28 (7 total occurrences)
+
+- id: guanning
+  primary_name: 管寧
+  courtesy_name: 幼安
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (6 total occurrences)
+
+- id: duji
+  primary_name: 杜畿
+  courtesy_name: 伯侯
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.16]   # found in: wei.16 (6 total occurrences)
+
+- id: duxi
+  primary_name: 杜襲
+  courtesy_name: 子緒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (6 total occurrences)
+
+- id: wangji
+  primary_name: 王基
+  courtesy_name: 伯輿
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.27]   # found in: wei.27 (6 total occurrences)
+
+- id: wangling
+  primary_name: 王凌
+  courtesy_name: 彥雲
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.28]   # found in: wei.28 (6 total occurrences)
+
+- id: buzhi_2
+  primary_name: 歩騭
+  courtesy_name: 子山
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.7]   # found in: wu.7 (6 total occurrences)
+
+- id: wangfan
+  primary_name: 王蕃
+  courtesy_name: 永元
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.20]   # found in: wu.20 (6 total occurrences)
+
+- id: zuoxiong
+  primary_name: 左雄
+  courtesy_name: 伯豪
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.61]   # found in: hhs.61 (6 total occurrences)
+
+- id: huangfugui
+  primary_name: 皇甫規
+  courtesy_name: 威明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.65]   # found in: hhs.65 (6 total occurrences)
+
+- id: wangkuang
+  primary_name: 王匡
+  courtesy_name: 公節
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (6 total occurrences)
+
+- id: xingyong
+  primary_name: 邢顒
+  courtesy_name: 子昂
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (5 total occurrences)
+
+- id: liushao
+  primary_name: 劉劭
+  courtesy_name: 孔才
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.21]   # found in: wei.21 (5 total occurrences)
+
+- id: yangjun
+  primary_name: 楊俊
+  courtesy_name: 季才
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (5 total occurrences)
+
+- id: tianyu
+  primary_name: 田豫
+  courtesy_name: 國讓
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.26]   # found in: wei.26 (5 total occurrences)
+
+- id: huatuo
+  primary_name: 華佗
+  courtesy_name: 元化
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.29]   # found in: wei.29 (5 total occurrences)
+
+- id: mizhu
+  primary_name: 麋竺
+  courtesy_name: 子仲
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.8]   # found in: shu.8 (5 total occurrences)
+
+- id: dongyun
+  primary_name: 董允
+  courtesy_name: 休昭
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (5 total occurrences)
+
+- id: yangyi
+  primary_name: 楊儀
+  courtesy_name: 威公
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.10]   # found in: shu.10 (5 total occurrences)
+
+- id: dengzhi
+  primary_name: 鄧芝
+  courtesy_name: 伯苗
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.15]   # found in: shu.15 (5 total occurrences)
+
+- id: jiangqin
+  primary_name: 蔣欽
+  courtesy_name: 公弈
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (5 total occurrences)
+
+- id: xusheng
+  primary_name: 徐盛
+  courtesy_name: 文嚮
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (5 total occurrences)
+
+- id: yufan
+  primary_name: 虞翻
+  courtesy_name: 仲翔
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (5 total occurrences)
+
+- id: zhangwen
+  primary_name: 張溫
+  courtesy_name: 惠恕
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (5 total occurrences)
+
+- id: shiyi
+  primary_name: 是儀
+  courtesy_name: 子羽
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.17]   # found in: wu.17 (5 total occurrences)
+
+- id: louxuan
+  primary_name: 樓玄
+  courtesy_name: 承先
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.20]   # found in: wu.20 (5 total occurrences)
+
+- id: heshao
+  primary_name: 賀邵
+  courtesy_name: 興伯
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.20]   # found in: wu.20 (5 total occurrences)
+
+- id: yishi
+  primary_name: 翊世
+  courtesy_name: 季明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.57]   # found in: hhs.57 (5 total occurrences)
+
+- id: liyun
+  primary_name: 李雲
+  courtesy_name: 行祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.57]   # found in: hhs.57 (5 total occurrences)
+
+- id: zhouju
+  primary_name: 周舉
+  courtesy_name: 宣光
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.61]   # found in: hhs.61 (5 total occurrences)
+
+- id: huangqiong
+  primary_name: 黃瓊
+  courtesy_name: 世英
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.61]   # found in: hhs.61 (5 total occurrences)
+
+- id: duanjiong
+  primary_name: 段熲
+  courtesy_name: 紀明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.65]   # found in: hhs.65 (5 total occurrences)
+
+- id: chenfan
+  primary_name: 陳蕃
+  courtesy_name: 仲舉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.66]   # found in: hhs.66 (5 total occurrences)
+
+- id: tianchou
+  primary_name: 田疇
+  courtesy_name: 子泰
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (4 total occurrences)
+
+- id: cuiyan
+  primary_name: 崔琰
+  courtesy_name: 季珪
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (4 total occurrences)
+
+- id: litong
+  primary_name: 李通
+  courtesy_name: 文達
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (4 total occurrences)
+
+- id: caobiao_chuwang
+  primary_name: 曹彪
+  courtesy_name: 朱虎
+  aliases: [楚王彪]   # wei.20 introduces him by 封號
+  birth_ad: null
+  death_ad: null
+  brief: 魏楚王，曹操子，被誣謀反賜死
+  bio_chapters: [wei.20]
+
+- id: heqia
+  primary_name: 和洽
+  courtesy_name: 陽士
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (4 total occurrences)
+
+- id: hanji
+  primary_name: 韓曁
+  courtesy_name: 公至
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.24]   # found in: wei.24 (4 total occurrences)
+
+- id: cuilin
+  primary_name: 崔林
+  courtesy_name: 德儒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.24]   # found in: wei.24 (4 total occurrences)
+
+- id: xinpi
+  primary_name: 辛毗
+  courtesy_name: 佐治
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.25]   # found in: wei.25 (4 total occurrences)
+
+- id: qianzhao
+  primary_name: 牽招
+  courtesy_name: 子經
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.26]   # found in: wei.26 (4 total occurrences)
+
+- id: xumiao
+  primary_name: 徐邈
+  courtesy_name: 景山
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.27]   # found in: wei.27 (4 total occurrences)
+
+- id: huzhi
+  primary_name: 胡質
+  courtesy_name: 文德
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.27]   # found in: wei.27 (4 total occurrences)
+
+- id: wangchang
+  primary_name: 王昶
+  courtesy_name: 文舒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.27]   # found in: wei.27 (4 total occurrences)
+
+- id: sunqian
+  primary_name: 孫乾
+  courtesy_name: 公佑
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.8]   # found in: shu.8 (4 total occurrences)
+
+- id: jianyong
+  primary_name: 簡雍
+  courtesy_name: 憲和
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.8]   # found in: shu.8 (4 total occurrences)
+
+- id: liaoli
+  primary_name: 廖立
+  courtesy_name: 公淵
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.10]   # found in: shu.10 (4 total occurrences)
+
+- id: liyan
+  primary_name: 李嚴
+  courtesy_name: 正方
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.10]   # found in: shu.10 (4 total occurrences)
+
+- id: qiaozhou
+  primary_name: 譙周
+  courtesy_name: 允南
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (4 total occurrences)
+
+- id: mazhong
+  primary_name: 馬忠
+  courtesy_name: 德信
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.13]   # found in: shu.13 (4 total occurrences)
+
+- id: zhangyi
+  primary_name: 張嶷
+  courtesy_name: 伯岐
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.13]   # found in: shu.13 (4 total occurrences)
+
+- id: sunhao_2
+  primary_name: 孫皓
+  courtesy_name: 元宗
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.3]   # found in: wu.3 (4 total occurrences)
+
+- id: zhangzhao
+  primary_name: 張昭
+  courtesy_name: 子布
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.7]   # found in: wu.7 (4 total occurrences)
+
+- id: panzhang
+  primary_name: 潘璋
+  courtesy_name: 文珪
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (4 total occurrences)
+
+- id: quancong
+  primary_name: 全琮
+  courtesy_name: 子璜
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.15]   # found in: wu.15 (4 total occurrences)
+
+- id: lvdai
+  primary_name: 呂岱
+  courtesy_name: 定公
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.15]   # found in: wu.15 (4 total occurrences)
+
+- id: wufan
+  primary_name: 吳範
+  courtesy_name: 文則
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.18]   # found in: wu.18 (4 total occurrences)
+
+- id: chenshi
+  primary_name: 陳寔
+  courtesy_name: 仲弓
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.62]   # found in: hhs.62 (4 total occurrences)
+
+- id: duqiao
+  primary_name: 杜喬
+  courtesy_name: 叔榮
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.63]   # found in: hhs.63 (4 total occurrences)
+
+- id: shisunrui
+  primary_name: 士孫瑞
+  courtesy_name: 君策
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.66]   # found in: hhs.66 (4 total occurrences)
+
+- id: dumi
+  primary_name: 杜密
+  courtesy_name: 周甫
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (4 total occurrences)
+
+- id: liuyou
+  primary_name: 劉祐
+  courtesy_name: 伯祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (4 total occurrences)
+
+- id: cenzhi
+  primary_name: 岑晊
+  courtesy_name: 公孝
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (4 total occurrences)
+
+- id: kongyu
+  primary_name: 孔昱
+  courtesy_name: 符世
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (4 total occurrences)
+
+- id: yuankang
+  primary_name: 苑康
+  courtesy_name: 仲真
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (4 total occurrences)
+
+- id: kongrong
+  primary_name: 孔融
+  courtesy_name: 文舉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.70]   # found in: hhs.70 (4 total occurrences)
+
+- id: huangfusong
+  primary_name: 皇甫嵩
+  courtesy_name: 義真
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.71]   # found in: hhs.71 (4 total occurrences)
+
+- id: yinxun
+  primary_name: 陰循
+  courtesy_name: 符基
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (4 total occurrences)
+
+- id: miheng
+  primary_name: 禰衡
+  courtesy_name: 正平
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.80]   # found in: hhs.80 (4 total occurrences)
+
+- id: zhangyang
+  primary_name: 張楊
+  courtesy_name: 稚叔
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.8]   # found in: wei.8 (3 total occurrences)
+
+- id: liangmao
+  primary_name: 涼茂
+  courtesy_name: 伯方
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (3 total occurrences)
+
+- id: wangxiu
+  primary_name: 王脩
+  courtesy_name: 叔治
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (3 total occurrences)
+
+- id: xuyi
+  primary_name: 徐奕
+  courtesy_name: 季才
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (3 total occurrences)
+
+- id: liufang
+  primary_name: 劉放
+  courtesy_name: 子棄
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.14]   # found in: wei.14 (3 total occurrences)
+
+- id: lidian
+  primary_name: 李典
+  courtesy_name: 曼成
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (3 total occurrences)
+
+- id: zangba
+  primary_name: 臧霸
+  courtesy_name: 宣高
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (3 total occurrences)
+
+- id: wenpin
+  primary_name: 文聘
+  courtesy_name: 仲業
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (3 total occurrences)
+
+- id: yangxiu
+  primary_name: 楊脩
+  courtesy_name: 德祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.19]   # found in: wei.19 (3 total occurrences)
+
+- id: caoyu
+  primary_name: 曹宇
+  courtesy_name: 彭祖
+  aliases: [燕王宇]   # wei.20 introduces him by 封號
+  birth_ad: null
+  death_ad: null
+  brief: 魏燕王，曹操子，曹奐生父
+  bio_chapters: [wei.20]
+
+- id: wangcan
+  primary_name: 王粲
+  courtesy_name: 仲宣
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.21]   # found in: wei.21 (3 total occurrences)
+
+- id: weiji
+  primary_name: 衞覬
+  courtesy_name: 伯儒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.21]   # found in: wei.21 (3 total occurrences)
+
+- id: liuyi
+  primary_name: 劉廙
+  courtesy_name: 恭嗣
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.21]   # found in: wei.21 (3 total occurrences)
+
+- id: fugu
+  primary_name: 傅嘏
+  courtesy_name: 蘭石
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.21]   # found in: wei.21 (3 total occurrences)
+
+- id: changlin
+  primary_name: 常林
+  courtesy_name: 伯槐
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (3 total occurrences)
+
+- id: gaorou
+  primary_name: 高柔
+  courtesy_name: 文惠
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.24]   # found in: wei.24 (3 total occurrences)
+
+- id: sunli
+  primary_name: 孫禮
+  courtesy_name: 德達
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.24]   # found in: wei.24 (3 total occurrences)
+
+- id: wangguan
+  primary_name: 王觀
+  courtesy_name: 偉臺
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.24]   # found in: wei.24 (3 total occurrences)
+
+- id: yangfu
+  primary_name: 楊阜
+  courtesy_name: 義山
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.25]   # found in: wei.25 (3 total occurrences)
+
+- id: dukui
+  primary_name: 杜夔
+  courtesy_name: 公良
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.29]   # found in: wei.29 (3 total occurrences)
+
+- id: zhouxuan
+  primary_name: 周宣
+  courtesy_name: 孔和
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.29]   # found in: wei.29 (3 total occurrences)
+
+- id: guanlu
+  primary_name: 管輅
+  courtesy_name: 公明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.29]   # found in: wei.29 (3 total occurrences)
+
+- id: maliang
+  primary_name: 馬良
+  courtesy_name: 季常
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (3 total occurrences)
+
+- id: lvyi
+  primary_name: 呂乂
+  courtesy_name: 季陽
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (3 total occurrences)
+
+- id: xianglang
+  primary_name: 向朗
+  courtesy_name: 巨達
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (3 total occurrences)
+
+- id: zhangyi_2
+  primary_name: 張裔
+  courtesy_name: 君嗣
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (3 total occurrences)
+
+- id: mengguang
+  primary_name: 孟光
+  courtesy_name: 孝裕
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (3 total occurrences)
+
+- id: laimin
+  primary_name: 來敏
+  courtesy_name: 敬達
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (3 total occurrences)
+
+- id: yinmo
+  primary_name: 尹默
+  courtesy_name: 思潛
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (3 total occurrences)
+
+- id: xizheng
+  primary_name: 郤正
+  courtesy_name: 令先
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (3 total occurrences)
+
+- id: lvkai
+  primary_name: 呂凱
+  courtesy_name: 季平
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.13]   # found in: shu.13 (3 total occurrences)
+
+- id: zhangyi_3
+  primary_name: 張翼
+  courtesy_name: 伯恭
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.15]   # found in: shu.15 (3 total occurrences)
+
+- id: zongyu
+  primary_name: 宗預
+  courtesy_name: 德艷
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.15]   # found in: shu.15 (3 total occurrences)
+
+- id: shixie
+  primary_name: 士燮
+  courtesy_name: 威彥
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.4]   # found in: wu.4 (3 total occurrences)
+
+- id: sunyi
+  primary_name: 孫翊
+  courtesy_name: 叔弼
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (3 total occurrences)
+
+- id: kanze
+  primary_name: 闞澤
+  courtesy_name: 德潤
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.8]   # found in: wu.8 (3 total occurrences)
+
+- id: xuezong
+  primary_name: 薛綜
+  courtesy_name: 敬文
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.8]   # found in: wu.8 (3 total occurrences)
+
+- id: chenwu
+  primary_name: 陳武
+  courtesy_name: 子烈
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (3 total occurrences)
+
+- id: dingfeng
+  primary_name: 丁奉
+  courtesy_name: 承淵
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (3 total occurrences)
+
+- id: zhuzhi
+  primary_name: 朱治
+  courtesy_name: 君理
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.11]   # found in: wu.11 (3 total occurrences)
+
+- id: zhuhuan
+  primary_name: 朱桓
+  courtesy_name: 休穆
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.11]   # found in: wu.11 (3 total occurrences)
+
+- id: luji
+  primary_name: 陸績
+  courtesy_name: 公紀
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (3 total occurrences)
+
+- id: luotong
+  primary_name: 駱統
+  courtesy_name: 公緒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (3 total occurrences)
+
+- id: wucan
+  primary_name: 吾粲
+  courtesy_name: 孔休
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (3 total occurrences)
+
+- id: sundeng
+  primary_name: 孫登
+  courtesy_name: 子高
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.14]   # found in: wu.14 (3 total occurrences)
+
+- id: puyangxing
+  primary_name: 濮陽興
+  courtesy_name: 子元
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.19]   # found in: wu.19 (3 total occurrences)
+
+- id: weiyao
+  primary_name: 韋曜
+  courtesy_name: 弘嗣
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.20]   # found in: wu.20 (3 total occurrences)
+
+- id: liutao
+  primary_name: 劉陶
+  courtesy_name: 子奇
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.57]   # found in: hhs.57 (3 total occurrences)
+
+- id: marong
+  primary_name: 馬融
+  courtesy_name: 季長
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.60]   # found in: hhs.60 (3 total occurrences)
+
+- id: xunshu
+  primary_name: 荀淑
+  courtesy_name: 季和
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.62]   # found in: hhs.62 (3 total occurrences)
+
+- id: yandu
+  primary_name: 延篤
+  courtesy_name: 叔堅
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.64]   # found in: hhs.64 (3 total occurrences)
+
+- id: shibi
+  primary_name: 史弼
+  courtesy_name: 公謙
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.64]   # found in: hhs.64 (3 total occurrences)
+
+- id: wangyun
+  primary_name: 王允
+  courtesy_name: 子師
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.66]   # found in: hhs.66 (3 total occurrences)
+
+- id: weilang
+  primary_name: 魏朗
+  courtesy_name: 少英
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (3 total occurrences)
+
+- id: zongci
+  primary_name: 宗慈
+  courtesy_name: 孝初
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (3 total occurrences)
+
+- id: basu
+  primary_name: 巴肅
+  courtesy_name: 恭祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (3 total occurrences)
+
+- id: yangzhi
+  primary_name: 羊陟
+  courtesy_name: 嗣祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (3 total occurrences)
+
+- id: liuru
+  primary_name: 劉儒
+  courtesy_name: 叔林
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (3 total occurrences)
+
+- id: hejin
+  primary_name: 何進
+  courtesy_name: 遂高
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.69]   # found in: hhs.69 (3 total occurrences)
+
+- id: qiaomao
+  primary_name: 橋瑁
+  courtesy_name: 符瑋
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (3 total occurrences)
+
+- id: hanrong
+  primary_name: 韓融
+  courtesy_name: 符長
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (3 total occurrences)
+
+- id: humuban
+  primary_name: 胡母班
+  courtesy_name: 季友
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (3 total occurrences)
+
+- id: gengwu
+  primary_name: 耿武
+  courtesy_name: 文威
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (3 total occurrences)
+
+- id: liukun
+  primary_name: 劉昆
+  courtesy_name: 桓公
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (3 total occurrences)
+
+- id: dufu
+  primary_name: 杜撫
+  courtesy_name: 叔和
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (3 total occurrences)
+
+- id: liuzhen
+  primary_name: 劉珍
+  courtesy_name: 秋孫
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.80]   # found in: hhs.80 (3 total occurrences)
+
+# === auto-extracted bio-subject candidates ===
+# Review carefully — heuristic from `X字Y，` patterns. May include false positives.
+
+- id: zhangmiao
+  primary_name: 張邈
+  courtesy_name: 孟卓
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.7]   # found in: wei.7 (2 total occurrences)
+
+- id: yuanhuan
+  primary_name: 袁渙
+  courtesy_name: 曜卿
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (2 total occurrences)
+
+- id: guoyuan
+  primary_name: 國淵
+  courtesy_name: 子尼
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.11]   # found in: wei.11 (2 total occurrences)
+
+- id: maojie
+  primary_name: 毛玠
+  courtesy_name: 孝先
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (2 total occurrences)
+
+- id: hekui
+  primary_name: 何夔
+  courtesy_name: 叔龍
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (2 total occurrences)
+
+- id: baoxun
+  primary_name: 鮑勛
+  courtesy_name: 叔業
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (2 total occurrences)
+
+- id: simazhi
+  primary_name: 司馬芝
+  courtesy_name: 子華
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.12]   # found in: wei.12 (2 total occurrences)
+
+- id: liufu
+  primary_name: 劉馥
+  courtesy_name: 元穎
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.15]   # found in: wei.15 (2 total occurrences)
+
+- id: simalang
+  primary_name: 司馬朗
+  courtesy_name: 伯達
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.15]   # found in: wei.15 (2 total occurrences)
+
+- id: liangxi
+  primary_name: 梁習
+  courtesy_name: 子虞
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.15]   # found in: wei.15 (2 total occurrences)
+
+- id: zhangji
+  primary_name: 張旣
+  courtesy_name: 德容
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.15]   # found in: wei.15 (2 total occurrences)
+
+- id: wenhui
+  primary_name: 溫恢
+  courtesy_name: 曼基
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.15]   # found in: wei.15 (2 total occurrences)
+
+- id: lvqian
+  primary_name: 呂虔
+  courtesy_name: 子恪
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (2 total occurrences)
+
+- id: pangyu
+  primary_name: 龐淯
+  courtesy_name: 子異
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (2 total occurrences)
+
+- id: yanwen
+  primary_name: 閻溫
+  courtesy_name: 伯儉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.18]   # found in: wei.18 (2 total occurrences)
+
+- id: huanjie
+  primary_name: 桓階
+  courtesy_name: 伯緒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.22]   # found in: wei.22 (2 total occurrences)
+
+- id: zhaoyan
+  primary_name: 趙儼
+  courtesy_name: 伯然
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (2 total occurrences)
+
+- id: peiqian
+  primary_name: 裴潛
+  courtesy_name: 文行
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wei.23]   # found in: wei.23 (2 total occurrences)
+
+- id: xujing
+  primary_name: 許靖
+  courtesy_name: 文休
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.8]   # found in: shu.8 (2 total occurrences)
+
+- id: qinmi
+  primary_name: 秦宓
+  courtesy_name: 子敕
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.8]   # found in: shu.8 (2 total occurrences)
+
+- id: donghe
+  primary_name: 董和
+  courtesy_name: 幼宰
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (2 total occurrences)
+
+- id: liuba
+  primary_name: 劉巴
+  courtesy_name: 子初
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (2 total occurrences)
+
+- id: chenzhen
+  primary_name: 陳震
+  courtesy_name: 孝起
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.9]   # found in: shu.9 (2 total occurrences)
+
+- id: pengyang
+  primary_name: 彭羕
+  courtesy_name: 永年
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.10]   # found in: shu.10 (2 total occurrences)
+
+- id: liuyan
+  primary_name: 劉琰
+  courtesy_name: 威碩
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.10]   # found in: shu.10 (2 total occurrences)
+
+- id: huojun
+  primary_name: 霍峻
+  courtesy_name: 仲邈
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (2 total occurrences)
+
+- id: wanglian
+  primary_name: 王連
+  courtesy_name: 文儀
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (2 total occurrences)
+
+- id: yanghong
+  primary_name: 楊洪
+  courtesy_name: 季休
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (2 total occurrences)
+
+- id: feishi
+  primary_name: 費詩
+  courtesy_name: 公舉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.11]   # found in: shu.11 (2 total occurrences)
+
+- id: duwei
+  primary_name: 杜微
+  courtesy_name: 國輔
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (2 total occurrences)
+
+- id: zhouqun
+  primary_name: 周羣
+  courtesy_name: 仲直
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (2 total occurrences)
+
+- id: duqiong
+  primary_name: 杜瓊
+  courtesy_name: 伯瑜
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (2 total occurrences)
+
+- id: xuci
+  primary_name: 許慈
+  courtesy_name: 仁篤
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.12]   # found in: shu.12 (2 total occurrences)
+
+- id: lihui
+  primary_name: 李恢
+  courtesy_name: 德昂
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.13]   # found in: shu.13 (2 total occurrences)
+
+- id: wangping
+  primary_name: 王平
+  courtesy_name: 子均
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.13]   # found in: shu.13 (2 total occurrences)
+
+- id: liaohua
+  primary_name: 廖化
+  courtesy_name: 元儉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.15]   # found in: shu.15 (2 total occurrences)
+
+- id: yangxi
+  primary_name: 楊戲
+  courtesy_name: 文然
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [shu.15]   # found in: shu.15 (2 total occurrences)
+
+- id: sunjing
+  primary_name: 孫靜
+  courtesy_name: 幼臺
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunjiao
+  primary_name: 孫皎
+  courtesy_name: 叔朗
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunhuan
+  primary_name: 孫奐
+  courtesy_name: 季明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunbi
+  primary_name: 孫賁
+  courtesy_name: 伯陽
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunfu
+  primary_name: 孫輔
+  courtesy_name: 國儀
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunkuang
+  primary_name: 孫匡
+  courtesy_name: 季佐
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunshao
+  primary_name: 孫韶
+  courtesy_name: 公禮
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: sunhuan_2
+  primary_name: 孫桓
+  courtesy_name: 叔武
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.6]   # found in: wu.6 (2 total occurrences)
+
+- id: zhanghong
+  primary_name: 張紘
+  courtesy_name: 子綱
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.8]   # found in: wu.8 (2 total occurrences)
+
+- id: yanjun
+  primary_name: 嚴畯
+  courtesy_name: 曼才
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.8]   # found in: wu.8 (2 total occurrences)
+
+- id: chengbing
+  primary_name: 程秉
+  courtesy_name: 德樞
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.8]   # found in: wu.8 (2 total occurrences)
+
+- id: zhoutai
+  primary_name: 周泰
+  courtesy_name: 幼平
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (2 total occurrences)
+
+- id: dongxi
+  primary_name: 董襲
+  courtesy_name: 元代
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.10]   # found in: wu.10 (2 total occurrences)
+
+- id: lvfan
+  primary_name: 呂範
+  courtesy_name: 子衡
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.11]   # found in: wu.11 (2 total occurrences)
+
+- id: lumao
+  primary_name: 陸瑁
+  courtesy_name: 子璋
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.12]   # found in: wu.12 (2 total occurrences)
+
+- id: sunhe
+  primary_name: 孫和
+  courtesy_name: 子孝
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.14]   # found in: wu.14 (2 total occurrences)
+
+- id: sunba
+  primary_name: 孫霸
+  courtesy_name: 子威
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.14]   # found in: wu.14 (2 total occurrences)
+
+- id: sunfen
+  primary_name: 孫奮
+  courtesy_name: 子揚
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.14]   # found in: wu.14 (2 total occurrences)
+
+- id: zhoufang
+  primary_name: 周魴
+  courtesy_name: 子魚
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.15]   # found in: wu.15 (2 total occurrences)
+
+- id: zhonglimu
+  primary_name: 鍾離牧
+  courtesy_name: 子幹
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.15]   # found in: wu.15 (2 total occurrences)
+
+- id: lukai
+  primary_name: 陸凱
+  courtesy_name: 敬風
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.16]   # found in: wu.16 (2 total occurrences)
+
+- id: huzong
+  primary_name: 胡綜
+  courtesy_name: 偉則
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.17]   # found in: wu.17 (2 total occurrences)
+
+- id: liudun
+  primary_name: 劉惇
+  courtesy_name: 子仁
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.18]   # found in: wu.18 (2 total occurrences)
+
+- id: sunchen
+  primary_name: 孫綝
+  courtesy_name: 子通
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.19]   # found in: wu.19 (2 total occurrences)
+
+- id: huahe
+  primary_name: 華覈
+  courtesy_name: 永先
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [wu.20]   # found in: wu.20 (2 total occurrences)
+
+- id: yuxu
+  primary_name: 虞詡
+  courtesy_name: 升卿
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.58]   # found in: hhs.58 (2 total occurrences)
+
+- id: fuxie
+  primary_name: 傅燮
+  courtesy_name: 南容
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.58]   # found in: hhs.58 (2 total occurrences)
+
+- id: gaixun
+  primary_name: 蓋勳
+  courtesy_name: 元固
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.58]   # found in: hhs.58 (2 total occurrences)
+
+- id: caiyong
+  primary_name: 蔡邕
+  courtesy_name: 伯喈
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.60]   # found in: hhs.60 (2 total occurrences)
+
+- id: hanshao
+  primary_name: 韓韶
+  courtesy_name: 仲黃
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.62]   # found in: hhs.62 (2 total occurrences)
+
+- id: luzhi
+  primary_name: 盧植
+  courtesy_name: 子幹
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.64]   # found in: hhs.64 (2 total occurrences)
+
+- id: zhaoqi
+  primary_name: 趙岐
+  courtesy_name: 邠卿
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.64]   # found in: hhs.64 (2 total occurrences)
+
+- id: wanghong
+  primary_name: 王宏
+  courtesy_name: 長文
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.66]   # found in: hhs.66 (2 total occurrences)
+
+- id: zhaojian
+  primary_name: 趙戩
+  courtesy_name: 叔茂
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.66]   # found in: hhs.66 (2 total occurrences)
+
+- id: wangkao
+  primary_name: 王考
+  courtesy_name: 文祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: qinzhou
+  primary_name: 秦周
+  courtesy_name: 平王
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: fanxiang
+  primary_name: 蕃向
+  courtesy_name: 嘉景
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: wangzhang
+  primary_name: 王璋
+  courtesy_name: 伯儀
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: liushu
+  primary_name: 劉淑
+  courtesy_name: 仲承
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: xiafu
+  primary_name: 夏馥
+  courtesy_name: 子治
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: yinxun_2
+  primary_name: 尹勳
+  courtesy_name: 伯元
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: caiyan
+  primary_name: 蔡衍
+  courtesy_name: 孟喜
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: chenxiang
+  primary_name: 陳翔
+  courtesy_name: 子麟
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: tanfu
+  primary_name: 檀敷
+  courtesy_name: 文有
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.67]   # found in: hhs.67 (2 total occurrences)
+
+- id: guotai
+  primary_name: 郭太
+  courtesy_name: 林宗
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.68]   # found in: hhs.68 (2 total occurrences)
+
+- id: maorong
+  primary_name: 茅容
+  courtesy_name: 季偉
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.68]   # found in: hhs.68 (2 total occurrences)
+
+- id: jiashu
+  primary_name: 賈淑
+  courtesy_name: 子厚
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.68]   # found in: hhs.68 (2 total occurrences)
+
+- id: huangyun
+  primary_name: 黃允
+  courtesy_name: 子艾
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.68]   # found in: hhs.68 (2 total occurrences)
+
+- id: furong
+  primary_name: 符融
+  courtesy_name: 偉明
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.68]   # found in: hhs.68 (2 total occurrences)
+
+- id: zhengtai
+  primary_name: 鄭太
+  courtesy_name: 公業
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.70]   # found in: hhs.70 (2 total occurrences)
+
+- id: kongzhou
+  primary_name: 孔伷
+  courtesy_name: 公緒
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (2 total occurrences)
+
+- id: yuanyi
+  primary_name: 袁遺
+  courtesy_name: 伯業
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (2 total occurrences)
+
+- id: minchun
+  primary_name: 閔純
+  courtesy_name: 伯典
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.74]   # found in: hhs.74 (2 total occurrences)
+
+- id: renan
+  primary_name: 任安
+  courtesy_name: 定祖
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: ouyangshe
+  primary_name: 歐陽歙
+  courtesy_name: 正思
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: xuehan
+  primary_name: 薛漢
+  courtesy_name: 公子
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: weihong
+  primary_name: 衛宏
+  courtesy_name: 敬仲
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: dinggong
+  primary_name: 丁恭
+  courtesy_name: 子然
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: zhouze
+  primary_name: 周澤
+  courtesy_name: 稺都
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: louwang
+  primary_name: 樓望
+  courtesy_name: 次子
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: liyu
+  primary_name: 李育
+  courtesy_name: 元春
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: hexiu
+  primary_name: 何休
+  courtesy_name: 邵公
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: xiegai
+  primary_name: 謝該
+  courtesy_name: 文儀
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.79]   # found in: hhs.79 (2 total occurrences)
+
+- id: bianrang
+  primary_name: 邊讓
+  courtesy_name: 文禮
+  birth_ad: null
+  death_ad: null
+  brief: ''  # auto-extracted; FIXME: add brief
+  bio_chapters: [hhs.80]   # found in: hhs.80 (2 total occurrences)
+

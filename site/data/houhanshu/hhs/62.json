@@ -14,12 +14,21 @@
     "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 39,
+  "n_segments": 38,
   "segments": [
     {
       "id": "hhs.62.p1",
       "text": "荀淑字季和，穎川穎陰人(也)，荀卿十一世孫也。少有高行，博學而不好章句，多為俗儒所非，而州里稱其知人。",
       "annotations": [
+        {
+          "id": "hhs.62.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "荀淑",
+          "person_id": "xunshu",
+          "via": "primary"
+        },
         {
           "id": "hhs.62.p1.a1",
           "type": "lixian",
@@ -34,11 +43,56 @@
       "text": "安帝時，徵拜郎中，後再遷當塗長。去職還鄉里。當世名賢李固、李膺等皆師宗之。及梁太后臨朝，有日食地震之變，詔公卿舉賢良方正，光祿勳杜喬、少府房植舉淑對策，譏刺貴倖，為大將軍梁冀所忌，出補朗陵侯相。頃之，弃官歸，閒居養志。產業每增，輒以贍宗族知友。年六十七，建和三年卒。李膺時為尚書，自表師喪。二縣皆為立祠。有子八人：儉，緄，靖，燾，汪，爽，肅，專，並有名稱，時人謂[之]「八龍。」",
       "annotations": [
         {
+          "id": "hhs.62.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.62.p2.a1",
           "type": "lixian",
           "at": 16,
           "length": 0,
           "text": "當塗，縣名，故城在今宣州。"
+        },
+        {
+          "id": "hhs.62.p2.h2",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p2.h3",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p2.h6",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.62.p2.h4",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "杜喬",
+          "person_id": "duqiao",
+          "via": "primary"
         },
         {
           "id": "hhs.62.p2.a2",
@@ -59,6 +113,15 @@
           "era": "建和",
           "era_year": 3,
           "reasoning": "原文「建和三年」直接出现年号；解析為 AD 149"
+        },
+        {
+          "id": "hhs.62.p2.h5",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
         },
         {
           "id": "hhs.62.p2.a3",
@@ -88,6 +151,15 @@
           "text": "今許州城內西南有荀淑故宅，相傳云即舊西豪里也。"
         },
         {
+          "id": "hhs.62.p3.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "苑康",
+          "person_id": "yuankang",
+          "via": "primary"
+        },
+        {
           "id": "hhs.62.p3.a2",
           "type": "lixian",
           "at": 29,
@@ -112,7 +184,17 @@
     {
       "id": "hhs.62.p5",
       "text": "淑兄子昱字伯條，曇字元智。昱為沛相，曇為廣陵太守。兄弟皆正身疾惡，志除閹宦。其支黨賓客有在二郡者，纖罪必誅。昱後共大將軍竇武謀誅中官，與李膺俱死。曇亦禁錮終身。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p5.h1",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.62.p6",
@@ -124,6 +206,15 @@
           "at": 9,
           "length": 0,
           "text": "音息汝反。"
+        },
+        {
+          "id": "hhs.62.p6.h1",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "杜喬",
+          "person_id": "duqiao",
+          "via": "primary"
         }
       ]
     },
@@ -167,12 +258,68 @@
     {
       "id": "hhs.62.p10",
       "text": "後公車徵為大將軍何進從事中郎。進恐其不至，迎薦為侍中，及進敗而詔命中絕。獻帝即立，董卓輔政，復徵之。爽欲遁命，吏持之急，不得去，因復就拜平原相。行至宛陵，復追為光祿勳。視事三日，進拜司空。爽自被徵命及登臺司，九十五日。因從遷都長安。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p10.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p10.h2",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.62.p10.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.62.p11",
       "text": "爽見董卓忍暴滋甚，必危社稷，其所辟舉皆取才略之士，將共圖之，亦與司徒王允及卓長史何顒等為內謀。會病薨，年六十三。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p11.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p11.h2",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p11.h3",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "hhs.62.p12",
@@ -188,6 +335,15 @@
       "id": "hhs.62.p14",
       "text": "論曰：荀爽、鄭玄、申屠蟠俱以儒行為處士，累征並謝病不詣。及董卓當朝，復備禮召之。蟠、玄竟不屈以全其高。爽已黃發矣，獨至焉，未十旬而取卿相。意者疑其乖趣捨，余竊商其情，以為出處君子之大致也，平運則弘道以求志，陵夷則濡跡以匡時。荀公之急急自勵，其濡跡乎？不然，何為違貞吉而履虎尾焉？觀其遜言遷都之議，以救楊、黃之禍。及後潛圖董氏，幾振國命，所謂「大直若屈」，道固逶迤也。",
       "annotations": [
+        {
+          "id": "hhs.62.p14.h1",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
         {
           "id": "hhs.62.p14.a1",
           "type": "lixian",
@@ -221,7 +377,44 @@
     {
       "id": "hhs.62.p15",
       "text": "悅字仲豫，儉之子也。儉早卒。悅年十二，能說春秋。家貧無書，每之人閒，所見篇牘，一覽多能誦記。性沉靜，美姿容，尤好著述。靈帝時閹官用權，士多退身窮處，悅乃托疾隱居，時人莫之識，雖從弟彧特稱敬焉。初辟鎮東將軍曹操府，遷黃門侍郎。獻帝頗好文學，悅與彧及少府孔融侍講禁中，旦夕談論。累遷秘書監、侍中。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p15.h1",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.62.p15.h2",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p15.h3",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.62.p15.h4",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.62.p16",
@@ -277,18 +470,73 @@
       "text": "韓韶字仲黃，穎川舞陽人也。少仕郡，辟司徒府。時太山賊公孫舉偽號歷年，守令不能破散，多為坐法。尚書選三府掾能理劇者，乃以韶為贏長。賊聞其賢，相戒不入贏境。余縣多被寇盜，廢耕桑，其流入縣界求索衣糧者甚眾。韶愍其饑困，乃開倉賑之，所稟贍萬餘戶。主者爭謂不可。韶曰：「長活溝壑之人，而以此伏罪，含笑入地矣。」太守素知韶名德，竟無所坐。以病卒官。同郡李膺、陳寔、杜密、荀淑等為立碑頌焉。",
       "annotations": [
         {
+          "id": "hhs.62.p20.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "韓韶",
+          "person_id": "hanshao",
+          "via": "primary"
+        },
+        {
           "id": "hhs.62.p20.a1",
           "type": "lixian",
           "at": 64,
           "length": 0,
           "text": "贏，縣，故城在今兗州博城縣東北。"
+        },
+        {
+          "id": "hhs.62.p20.h2",
+          "type": "person",
+          "at": 170,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p20.h3",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p20.h4",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p20.h5",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "荀淑",
+          "person_id": "xunshu",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.62.p21",
       "text": "子融，字符長。少能辯理而不為章句學。聲名甚盛，五府並辟。獻帝初，至太僕。年七十卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p21.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.62.p22",
@@ -300,6 +548,42 @@
           "at": 46,
           "length": 0,
           "text": "密縣山也。"
+        },
+        {
+          "id": "hhs.62.p22.h1",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p22.h2",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p22.h3",
+          "type": "person",
+          "at": 177,
+          "length": 2,
+          "text": "荀淑",
+          "person_id": "xunshu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.62.p22.h4",
+          "type": "person",
+          "at": 188,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
         }
       ]
     },
@@ -344,7 +628,17 @@
     {
       "id": "hhs.62.p26",
       "text": "陳寔字仲弓，穎川許人也。出於單微。自為兒童，雖在戲弄，為等類所歸。少作縣吏，常給事廝役，後為都亭(刺)佐。而有志好學，坐立誦讀。縣令鄧邵試與語，奇之，聽受業太學。後令復召為吏，乃避隱陽城山中。時有殺人者，同縣楊吏以疑寔，縣遂逮系，考掠無實，而後得出。及為督郵，乃密托許令，禮召楊吏。遠近聞者，鹹歎服之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p26.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陳寔",
+          "person_id": "chenshi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.62.p27",
@@ -378,6 +672,15 @@
       "text": "司空黃瓊辟選理劇，補聞喜長，旬月，以開喪去官。復再遷除太丘長。修德清靜，百姓以安。鄰縣人戶歸附者，寔輒訓導譬解，發遣各令還本司官行部。吏慮有訟者，白欲禁之。寔曰：「訟以求直，禁之理將何申？其勿有所拘。」司官聞而歎息曰：「陳君所言若是，豈有怨於人乎？」亦竟無訟者。以沛相賦斂違法，及解印綬去，吏人追思之。",
       "annotations": [
         {
+          "id": "hhs.62.p28.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "黃瓊",
+          "person_id": "huangqiong",
+          "via": "primary"
+        },
+        {
           "id": "hhs.62.p28.a1",
           "type": "lixian",
           "at": 31,
@@ -396,7 +699,17 @@
     {
       "id": "hhs.62.p29",
       "text": "及後逮捕黨人，事亦連寔。餘人多逃避求免，寔曰：「吾不就獄，眾無所恃。」乃請囚焉。遇赦得出。靈帝初，大將軍竇武辟以為掾屬。時中常侍張讓權傾天下。讓父死，歸葬穎川，雖一郡畢至，而名士無往者，讓甚恥之，寔乃獨吊焉。乃後復誅黨人，讓感寔，故多所全宥。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p29.h1",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.62.p30",
@@ -407,6 +720,15 @@
       "id": "hhs.62.p31",
       "text": "太尉楊賜、司徒陳耽，每拜公卿，羣僚畢賀，賜等常歎寔大位未登，愧於先之。及黨禁始解，大將軍何進、司徒袁隗遣人敦寔，欲特表以不次之位。寔乃謝使者曰：「寔久絕人事，飾巾待終而已。」時三公每缺，議者歸之，累見征命，遂不起，閉門懸車，棲□養老。中平四年，年八十四，卒於家。何進遣使弔祭，海內赴者三萬餘人，制衰麻者以百數。共刊石立碑，謚為文范先生。",
       "annotations": [
+        {
+          "id": "hhs.62.p31.h1",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
         {
           "id": "hhs.62.p31.a1",
           "type": "lixian",
@@ -428,6 +750,15 @@
           "reasoning": "原文「中平四年」直接出现年号；解析為 AD 187（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.62.p31.h2",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
+        {
           "id": "hhs.62.p31.a2",
           "type": "lixian",
           "at": 168,
@@ -444,12 +775,31 @@
     {
       "id": "hhs.62.p33",
       "text": "紀字符方，亦以至德稱。兄弟孝養，閨門廱和，後進之士皆推慕其風。及遭黨錮，發憤著書數萬言，號曰陳子。黨禁解，四府並命，無所屈就。遭父憂，每哀至，輒歐血絕氣，雖衰服已除，而積毀消瘠，殆將滅性。豫州刺史嘉其至行，表上尚書，圖像百城，以厲風俗。董卓入洛陽，乃使就家拜五官中郎將，不得已，到京師，遷侍中。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.62.p33.h1",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.62.p34",
       "text": "出為平原相，往謁卓，時欲徙都長安。乃謂紀曰：「三輔平敞，四面險固，土地肥美，號為陸海。今關東兵起，恐洛陽不可久居。長安猶有宮室，今欲西遷何如？」紀曰：「天下有道，守在四夷。宜修德政，以懷不附。遷移至尊，誠計之末者。愚以公宜事委公卿，專精外任。其有違命，則威之以武。今關東兵起，民不堪命。若謙遠朝政，率師討伐，則塗炭之民，庶幾可全。若欲徙萬乘以自安，將有累卵之危，崢嶸之險也。」卓意甚忤，而敬紀名行，無所復言。時議欲以為司徒，紀見禍亂方作，不復辨嚴，實時之郡。璽書追拜太僕，又征為尚書令。建安初，袁紹為太尉，讓於紀；紀不受，拜大鴻臚。年七十一，卒於官。",
       "annotations": [
+        {
+          "id": "hhs.62.p34.h1",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
         {
           "id": "hhs.62.p34.a1",
           "type": "lixian",
@@ -472,11 +822,29 @@
           "text": "累卵，解見皇后紀。崢音士耕反。"
         },
         {
+          "id": "hhs.62.p34.h2",
+          "type": "person",
+          "at": 188,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
           "id": "hhs.62.p34.a4",
           "type": "lixian",
           "at": 224,
           "length": 0,
           "text": "嚴讀曰裝也。"
+        },
+        {
+          "id": "hhs.62.p34.h3",
+          "type": "person",
+          "at": 247,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
         }
       ]
     },
@@ -538,6 +906,15 @@
       "text": "贊曰：二李師淑，陳君友皓。韓韶就吏，贏寇懷道。太丘奧廣，模我彝倫。曾是淵軌，薄夫以淳。慶基既啟，有蔚穎濱，二方承則，八慈繼塵。",
       "annotations": [
         {
+          "id": "hhs.62.p38.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "韓韶",
+          "person_id": "hanshao",
+          "via": "primary"
+        },
+        {
           "id": "hhs.62.p38.a1",
           "type": "lixian",
           "at": 43,
@@ -552,11 +929,6 @@
           "text": "二方，元方﹑季方也。荀淑八子，皆以慈為字，見《荀氏家傳》也。"
         }
       ]
-    },
-    {
-      "id": "hhs.62.p39",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

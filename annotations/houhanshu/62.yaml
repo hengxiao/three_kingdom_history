@@ -5,18 +5,68 @@ source:
   retrieved: '2026-05-03'
   sha256: e416d6e9a47795a761cbc7cef594c3464a3de3b36e5b819f5c0514bf9f05d294
 annotations:
+- id: hhs.62.p1.h1
+  anchor: hhs.62.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: xunshu
+  text: 荀淑
+  via: primary
 - id: hhs.62.p1.a1
   anchor: hhs.62.p1
   at: 23
   length: 0
   type: lixian
   text: 卿名況，趙人也。為楚蘭陵令。著書二十二篇，號荀卿子。避宣帝諱，故改曰「孫」也。
+- id: hhs.62.p2.h1
+  anchor: hhs.62.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
 - id: hhs.62.p2.a1
   anchor: hhs.62.p2
   at: 16
   length: 0
   type: lixian
   text: 當塗，縣名，故城在今宣州。
+- id: hhs.62.p2.h2
+  anchor: hhs.62.p2
+  at: 26
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- id: hhs.62.p2.h3
+  anchor: hhs.62.p2
+  at: 29
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- anchor: hhs.62.p2
+  at: 39
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「梁太后臨朝」即順烈梁妠臨朝（桓帝建和年間），未列 roster。
+  id: hhs.62.p2.h6
+- id: hhs.62.p2.h4
+  anchor: hhs.62.p2
+  at: 64
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
 - id: hhs.62.p2.a2
   anchor: hhs.62.p2
   at: 97
@@ -35,6 +85,14 @@ annotations:
   era: 建和
   era_year: 3
   reasoning: 原文「建和三年」直接出现年号；解析為 AD 149
+- id: hhs.62.p2.h5
+  anchor: hhs.62.p2
+  at: 133
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.62.p2.a3
   anchor: hhs.62.p2
   at: 145
@@ -53,6 +111,14 @@ annotations:
   length: 0
   type: lixian
   text: 今許州城內西南有荀淑故宅，相傳云即舊西豪里也。
+- id: hhs.62.p3.h1
+  anchor: hhs.62.p3
+  at: 15
+  length: 2
+  type: person
+  person_id: yuankang
+  text: 苑康
+  via: primary
 - id: hhs.62.p3.a2
   anchor: hhs.62.p3
   at: 29
@@ -65,12 +131,28 @@ annotations:
   length: 0
   type: lixian
   text: 皇甫謐《高士傳》曰「靖字叔慈，少有俊才，動止以禮。靖弟爽亦以才顯於當時。或問汝南許章曰：『爽與靖孰賢？』章曰：『皆玉也。慈明外朗，叔慈內潤。』及卒，學士惜之，誄靖者二十六人。穎陰令丘禎追號靖曰玄行先生」也。
+- id: hhs.62.p5.h1
+  anchor: hhs.62.p5
+  at: 68
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.62.p6.a1
   anchor: hhs.62.p6
   at: 9
   length: 0
   type: lixian
   text: 音息汝反。
+- id: hhs.62.p6.h1
+  anchor: hhs.62.p6
+  at: 32
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
 - id: hhs.62.p7.t1
   anchor: hhs.62.p7
   at: 0
@@ -89,6 +171,62 @@ annotations:
   length: 0
   type: lixian
   text: 喪服曰：「夫為妻齊縗杖開。」禮記曰：「曾子問：『三年之喪吊乎？』孔子曰：『禮以飾情。三年之喪而吊哭，不亦虛乎！』」
+- id: hhs.62.p10.h1
+  anchor: hhs.62.p10
+  at: 8
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.62.p10.h2
+  anchor: hhs.62.p10
+  at: 36
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.62.p10.h3
+  anchor: hhs.62.p10
+  at: 41
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.62.p11.h1
+  anchor: hhs.62.p11
+  at: 2
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.62.p11.h2
+  anchor: hhs.62.p11
+  at: 34
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.62.p11.h3
+  anchor: hhs.62.p11
+  at: 37
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.62.p14.h1
+  anchor: hhs.62.p14
+  at: 29
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.62.p14.a1
   anchor: hhs.62.p14
   at: 112
@@ -113,6 +251,38 @@ annotations:
   length: 0
   type: lixian
   text: 《老子》云：「大直若屈，大巧若拙。」逶迤，曲也。
+- id: hhs.62.p15.h1
+  anchor: hhs.62.p15
+  at: 59
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.62.p15.h2
+  anchor: hhs.62.p15
+  at: 102
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.62.p15.h3
+  anchor: hhs.62.p15
+  at: 112
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.62.p15.h4
+  anchor: hhs.62.p15
+  at: 125
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
 - id: hhs.62.p18.a1
   anchor: hhs.62.p18
   at: 111
@@ -137,18 +307,98 @@ annotations:
   era: 建安
   era_year: 14
   reasoning: 原文「建安十四年」直接出现年号；解析為 AD 209
+- id: hhs.62.p20.h1
+  anchor: hhs.62.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: hanshao
+  text: 韓韶
+  via: primary
 - id: hhs.62.p20.a1
   anchor: hhs.62.p20
   at: 64
   length: 0
   type: lixian
   text: 贏，縣，故城在今兗州博城縣東北。
+- id: hhs.62.p20.h2
+  anchor: hhs.62.p20
+  at: 170
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.62.p20.h3
+  anchor: hhs.62.p20
+  at: 173
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
+- id: hhs.62.p20.h4
+  anchor: hhs.62.p20
+  at: 176
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
+- id: hhs.62.p20.h5
+  anchor: hhs.62.p20
+  at: 179
+  length: 2
+  type: person
+  person_id: xunshu
+  text: 荀淑
+  via: primary
+- id: hhs.62.p21.h1
+  anchor: hhs.62.p21
+  at: 28
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
 - id: hhs.62.p22.a1
   anchor: hhs.62.p22
   at: 46
   length: 0
   type: lixian
   text: 密縣山也。
+- id: hhs.62.p22.h1
+  anchor: hhs.62.p22
+  at: 59
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
+- id: hhs.62.p22.h2
+  anchor: hhs.62.p22
+  at: 116
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
+- id: hhs.62.p22.h3
+  anchor: hhs.62.p22
+  at: 177
+  length: 2
+  type: person
+  person_id: xunshu
+  text: 荀淑
+  via: primary
+- id: hhs.62.p22.h4
+  anchor: hhs.62.p22
+  at: 188
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.62.p23.a1
   anchor: hhs.62.p23
   at: 103
@@ -167,6 +417,14 @@ annotations:
   length: 0
   type: lixian
   text: 海內先賢傳曰：「繇字元常，郡主簿迪之子也。」《魏志》曰：「舉孝廉為尚書郎，辟三府為廷尉正、黃門侍郎。」
+- id: hhs.62.p26.h1
+  anchor: hhs.62.p26
+  at: 0
+  length: 2
+  type: person
+  person_id: chenshi
+  text: 陳寔
+  via: primary
 - id: hhs.62.p27.a1
   anchor: hhs.62.p27
   at: 49
@@ -185,6 +443,14 @@ annotations:
   length: 0
   type: lixian
   text: 輪氏，縣名，屬穎川郡，今故高陽縣是。
+- id: hhs.62.p28.h1
+  anchor: hhs.62.p28
+  at: 2
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.62.p28.a1
   anchor: hhs.62.p28
   at: 31
@@ -197,6 +463,22 @@ annotations:
   length: 0
   type: lixian
   text: 司官謂主司之官也。
+- id: hhs.62.p29.h1
+  anchor: hhs.62.p29
+  at: 45
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: hhs.62.p31.h1
+  anchor: hhs.62.p31
+  at: 44
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
 - id: hhs.62.p31.a1
   anchor: hhs.62.p31
   at: 56
@@ -215,12 +497,36 @@ annotations:
   era: 中平
   era_year: 4
   reasoning: 原文「中平四年」直接出现年号；解析為 AD 187（回溯前事，不推進章節時間軸）
+- id: hhs.62.p31.h2
+  anchor: hhs.62.p31
+  at: 131
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
 - id: hhs.62.p31.a2
   anchor: hhs.62.p31
   at: 168
   length: 0
   type: lixian
   text: 先賢行狀曰：「將軍何進遣官屬吊祠為謚。」
+- id: hhs.62.p33.h1
+  anchor: hhs.62.p33
+  at: 118
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.62.p34.h1
+  anchor: hhs.62.p34
+  at: 8
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.62.p34.a1
   anchor: hhs.62.p34
   at: 43
@@ -239,12 +545,28 @@ annotations:
   length: 0
   type: lixian
   text: 累卵，解見皇后紀。崢音士耕反。
+- id: hhs.62.p34.h2
+  anchor: hhs.62.p34
+  at: 188
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.62.p34.a4
   anchor: hhs.62.p34
   at: 224
   length: 0
   type: lixian
   text: 嚴讀曰裝也。
+- id: hhs.62.p34.h3
+  anchor: hhs.62.p34
+  at: 247
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: hhs.62.p35.a1
   anchor: hhs.62.p35
   at: 8
@@ -275,6 +597,14 @@ annotations:
   length: 0
   type: lixian
   text: 叫呼，譏笑之也。芸，除草也。
+- id: hhs.62.p38.h1
+  anchor: hhs.62.p38
+  at: 13
+  length: 2
+  type: person
+  person_id: hanshao
+  text: 韓韶
+  via: primary
 - id: hhs.62.p38.a1
   anchor: hhs.62.p38
   at: 43

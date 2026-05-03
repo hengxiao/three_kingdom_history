@@ -2,9 +2,83 @@ chapter: wu.14
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷59
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 8c89c86c6ecad64faf6a2b8d385ed5968dfc2dd41b0d0fdc0ab4fd03ad415d34
 annotations:
+- id: wu.14.p1.h1
+  anchor: wu.14.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 孫登
+  via: primary
+- id: wu.14.p1.h2
+  anchor: wu.14.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
+- id: wu.14.p1.h3
+  anchor: wu.14.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: sunba
+  text: 孫霸
+  via: primary
+- id: wu.14.p1.h4
+  anchor: wu.14.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: sunfen
+  text: 孫奮
+  via: primary
+- id: wu.14.p2.h1
+  anchor: wu.14.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 孫登
+  via: primary
+- anchor: wu.14.p2
+  at: 47
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「立登爲太子」— 黃武元年立孫登為吳王太子。
+  id: wu.14.p2.h5
+- id: wu.14.p2.h2
+  anchor: wu.14.p2
+  at: 67
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.14.p2.h3
+  anchor: wu.14.p2
+  at: 111
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
+- id: wu.14.p2.h4
+  anchor: wu.14.p2
+  at: 169
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: wu.14.p2.t1
   anchor: wu.14.p2
   at: 223
@@ -17,6 +91,16 @@ annotations:
   era: 黃龍
   era_year: 1
   reasoning: 原文「黃龍元年」直接出现年号；解析為 AD 229
+- anchor: wu.14.p2
+  at: 236
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「黃龍元年，權稱尊號，登爲皇太子」— 即孫登。
+  id: wu.14.p2.h6
 - id: wu.14.p2.a1
   anchor: wu.14.p2
   at: 284
@@ -29,6 +113,32 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：慎字孝敬，廣陵人，竭忠知己之君，纏綿三益之友，時人榮之。著論二十篇，名曰《矯非》。後爲侍中，出補武昌左部督，治軍整頓。孫皓移都，甚憚之，詔曰：「慎勳德俱茂，朕所敬憑，宜登上公，以副衆望。」以爲太尉。慎自恨久爲將，遂託老耄。軍士戀之，舉營爲之隕涕。鳳凰三年卒，子耀嗣。玄，丹楊人。衜，南陽人。《吳書》曰：衜初爲中庶子，年二十。時廷尉監隱蕃交結豪傑，自衞將軍全琮等皆傾心敬待，惟衜及宣詔郎豫章楊迪拒絕不與通，時人咸怪之。而蕃後叛逆，衆乃服之。《江表傳》曰：登使侍中胡綜作賔友目曰：「英才卓越，超踰倫匹，則諸葛恪。精識時機，達幽究微，則顧譚。凝辨宏達，言能釋結，則謝景。究學甄微，游夏同科，則范慎。」衜乃私駁綜曰：「元遜才而疏，子嘿精而狠，叔發辯而浮，孝敬深而狹。」所言皆有指趣。而衜卒以此言見咎，不爲恪等所親。後四人皆敗，吳人謂衜之言有徵。位至桂陽太守，卒。
+- id: wu.14.p3.h1
+  anchor: wu.14.p3
+  at: 11
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- anchor: wu.14.p3
+  at: 226
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 孫登諫權「天戴陛下」，陛下即吳大帝孫權。
+  id: wu.14.p3.h3
+- id: wu.14.p3.h2
+  anchor: wu.14.p3
+  at: 292
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
 - id: wu.14.p3.t1
   anchor: wu.14.p3
   at: 307
@@ -41,12 +151,152 @@ annotations:
   era: 嘉禾
   era_year: 3
   reasoning: 原文「嘉禾三年」直接出现年号；解析為 AD 234
+- anchor: wu.14.p4
+  at: 68
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「登將拜太子」— 即孫登被立為太子。
+  id: wu.14.p4.h1
+- anchor: wu.14.p4
+  at: 83
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.92
+  reasoning: 「欲立太子，宜先立后」承前句指孫登（亦含禮制論述）。
+  id: wu.14.p4.h2
 - id: wu.14.p4.a1
   anchor: wu.14.p4
   at: 114
   length: 0
   type: pei
   text: 《吳書》曰：弟和有寵於權，登親敬，待之如兄，常有欲讓之心。
+- anchor: wu.14.p5
+  at: 79
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 孫登臨終上疏對父孫權「死貽陛下重慼」。
+  id: wu.14.p5.h13
+- anchor: wu.14.p5
+  at: 169
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 同疏對孫權「係命陛下」。
+  id: wu.14.p5.h14
+- anchor: wu.14.p5
+  at: 183
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 同疏對孫權「願陛下棄忘臣身」。
+  id: wu.14.p5.h15
+- id: wu.14.p5.h1
+  anchor: wu.14.p5
+  at: 261
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.14.p5.h2
+  anchor: wu.14.p5
+  at: 352
+  length: 2
+  type: person
+  person_id: yufan
+  text: 虞翻
+  via: primary
+- anchor: wu.14.p5
+  at: 399
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 同疏對孫權「此皆陛下日月所照」。
+  id: wu.14.p5.h16
+- id: wu.14.p5.h3
+  anchor: wu.14.p5
+  at: 540
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.14.p5.h4
+  anchor: wu.14.p5
+  at: 563
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: wu.14.p5.h5
+  anchor: wu.14.p5
+  at: 570
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.14.p5.h6
+  anchor: wu.14.p5
+  at: 573
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.14.p5.h7
+  anchor: wu.14.p5
+  at: 579
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.14.p5.h8
+  anchor: wu.14.p5
+  at: 582
+  length: 2
+  type: person
+  person_id: wucan
+  text: 吾粲
+  via: primary
+- id: wu.14.p5.h9
+  anchor: wu.14.p5
+  at: 585
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
+- id: wu.14.p5.h10
+  anchor: wu.14.p5
+  at: 588
+  length: 2
+  type: person
+  person_id: yanjun
+  text: 嚴畯
+  via: primary
 - id: wu.14.p5.t1
   anchor: wu.14.p5
   at: 628
@@ -59,6 +309,16 @@ annotations:
   era: 嘉禾
   era_year: 5
   reasoning: 承前文年號「嘉禾」推得，「五年」 = 嘉禾5年 = AD 236
+- anchor: wu.14.p5
+  at: 710
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 同疏對孫權「願陛下留意聽采」。
+  id: wu.14.p5.h17
 - id: wu.14.p5.t2
   anchor: wu.14.p5
   at: 748
@@ -83,6 +343,26 @@ annotations:
   era: 赤烏
   era_year: 4
   reasoning: 原文「赤烏四年」直接出现年号；解析為 AD 241
+- anchor: wu.14.p5
+  at: 787
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「君與太子從事」— 權對謝景言其與孫登從事。
+  id: wu.14.p5.h11
+- anchor: wu.14.p5
+  at: 818
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「謚登曰宣太子」— 即孫登諡號「宣太子」。
+  id: wu.14.p5.h12
 - id: wu.14.p5.a1
   anchor: wu.14.p5
   at: 821
@@ -101,6 +381,14 @@ annotations:
   era: 五鳳
   era_year: 1
   reasoning: 原文「五鳳元年」直接出现年号；解析為 AD 254
+- id: wu.14.p6.h1
+  anchor: wu.14.p6
+  at: 27
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
 - id: wu.14.p6.a1
   anchor: wu.14.p6
   at: 44
@@ -119,6 +407,16 @@ annotations:
   era: 黃武
   era_year: 7
   reasoning: 原文「黃武七年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- anchor: wu.14.p8
+  at: 154
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 尚書僕射存上疏為建昌侯孫慮請進王號，對孫權「陛下謙光」。
+  id: wu.14.p8.h1
 - id: wu.14.p8.a1
   anchor: wu.14.p8
   at: 242
@@ -137,6 +435,22 @@ annotations:
   era: 嘉禾
   era_year: 1
   reasoning: 原文「嘉禾元年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
+- id: wu.14.p9.h1
+  anchor: wu.14.p9
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
+- id: wu.14.p9.h2
+  anchor: wu.14.p9
+  at: 32
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
 - id: wu.14.p9.t1
   anchor: wu.14.p9
   at: 49
@@ -149,12 +463,72 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
+- anchor: wu.14.p9
+  at: 56
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「赤烏五年，立爲太子」— 即立孫和為太子。
+  id: wu.14.p9.h5
+- id: wu.14.p9.h3
+  anchor: wu.14.p9
+  at: 64
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
+- id: wu.14.p9.h4
+  anchor: wu.14.p9
+  at: 70
+  length: 2
+  type: person
+  person_id: xuezong
+  text: 薛綜
+  via: primary
 - id: wu.14.p9.a1
   anchor: wu.14.p9
   at: 95
   length: 0
   type: pei
   text: 《吳書》曰：和少岐嶷有智意，故權尤愛幸，常在左右，衣服禮秩雕玩珍異之賜，諸子莫得比焉。好文學，善騎射，承師涉學，精識聦敏，尊敬師傅，愛好人物。穎等每朝見進賀，和常降意，歡以待之。講校經義，綜察是非，及訪諮朝臣，考績行能，以知優劣，各有條貫。後諸葛壹僞叛以誘魏將諸葛誕，權潛軍待之。和以權暴露外次，又戰者凶事，常憂勞憯怛，不復會同飲食，數上諫，戒令持重，務在全勝，權還，然後敢安。張純字元基，敦之子。《吳錄》曰：純少厲操行，學博才秀，切問捷對，容止可觀。拜郎中，補廣德令，治有異績，擢爲太子輔義都尉。
+- id: wu.14.p10.h1
+  anchor: wu.14.p10
+  at: 348
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
+- anchor: wu.14.p11
+  at: 49
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子不在廟中」— 全公主譖太子孫和。
+  id: wu.14.p11.h3
+- id: wu.14.p11.h1
+  anchor: wu.14.p11
+  at: 107
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.14.p11.h2
+  anchor: wu.14.p11
+  at: 110
+  length: 2
+  type: person
+  person_id: wucan
+  text: 吾粲
+  via: primary
 - id: wu.14.p11.a1
   anchor: wu.14.p11
   at: 163
@@ -207,6 +581,30 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 五鳳元年 (AD 254)，月份「四月」
+- id: wu.14.p12.h1
+  anchor: wu.14.p12
+  at: 25
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.14.p12.h2
+  anchor: wu.14.p12
+  at: 113
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.14.p13.h1
+  anchor: wu.14.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
 - id: wu.14.p13.t1
   anchor: wu.14.p13
   at: 27
@@ -253,12 +651,106 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：比仁還，中使手詔，日夜相繼，奉問神靈起居動止。巫覡言見和被服，顏色如平生日，皓悲喜涕淚，悉召公卿尚書詣闕門下受賜。
+- id: wu.14.p13.h2
+  anchor: wu.14.p13
+  at: 181
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: wu.14.p13.a2
   anchor: wu.14.p13
   at: 262
   length: 0
   type: pei
   text: 《吳歷》曰：和四子：皓、德、謙、俊。孫休即位，封德錢唐侯，謙永安侯，俊拜騎都尉。皓在武昌，吳興施但因民之不堪命，聚萬餘人，劫謙，將至秣陵，欲立之。未至三十里住，擇吉日，但遣使以謙命詔丁固、諸葛靚。靚即斬其使。但遂前到九里，固、靚出擊，大破之。但兵裸身無鎧甲，臨陣皆披散。謙獨坐車中，遂生獲之。固不敢殺，以狀告皓，皓酖之，母子皆死。俊，張承外孫，聦明辨惠，爲遠近所稱，皓又殺之。
+- id: wu.14.p14.h1
+  anchor: wu.14.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: sunba
+  text: 孫霸
+  via: primary
+- anchor: wu.14.p14
+  at: 12
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「和爲太子」— 即孫和為太子，霸為魯王。
+  id: wu.14.p14.h2
+- anchor: wu.14.p14
+  at: 190
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 羊衜上疏二宮並絕賓客事，對孫權「謂陛下當副順遐邇」。
+  id: wu.14.p14.h3
+- anchor: wu.14.p14
+  at: 258
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫權「雖實陛下敦尚古義」。
+  id: wu.14.p14.h4
+- anchor: wu.14.p14
+  at: 402
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫權「不審陛下何以解之」。
+  id: wu.14.p14.h5
+- anchor: wu.14.p14
+  at: 447
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫權「願陛下早發優詔」。
+  id: wu.14.p14.h6
+- anchor: wu.14.p15
+  at: 20
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「圖危太子」— 全寄等附霸，所危太子即孫和。
+  id: wu.14.p15.h1
+- anchor: wu.14.p15
+  at: 28
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子以敗」承前句仍指孫和被廢。
+  id: wu.14.p15.h2
+- id: wu.14.p16.h1
+  anchor: wu.14.p16
+  at: 25
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
 - id: wu.14.p16.t1
   anchor: wu.14.p16
   at: 30
@@ -271,6 +763,32 @@ annotations:
   era: 太平
   era_year: 2
   reasoning: 原文「太平二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
+- anchor: wu.14.p16
+  at: 78
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 「亮問侍中刁玄」對話，太平二年（257），刁玄稱「陛下」即吳少主孫亮。
+  id: wu.14.p16.h3
+- id: wu.14.p16.h2
+  anchor: wu.14.p16
+  at: 176
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wu.14.p17.h1
+  anchor: wu.14.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: sunfen
+  text: 孫奮
+  via: primary
 - id: wu.14.p17.t1
   anchor: wu.14.p17
   at: 15
@@ -283,6 +801,46 @@ annotations:
   era: 太元
   era_year: 2
   reasoning: 原文「太元二年」直接出现年号；解析為 AD 252（回溯前事，不推進章節時間軸）
+- id: wu.14.p17.h2
+  anchor: wu.14.p17
+  at: 34
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.14.p17.h3
+  anchor: wu.14.p17
+  at: 254
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wu.14.p17.h4
+  anchor: wu.14.p17
+  at: 257
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wu.14.p17.h5
+  anchor: wu.14.p17
+  at: 463
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wu.14.p17.h6
+  anchor: wu.14.p17
+  at: 484
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.14.p18.a1
   anchor: wu.14.p18
   at: 50
@@ -319,9 +877,25 @@ annotations:
   era: 建衡
   era_year: 2
   reasoning: 原文「建衡二年」直接出现年号；解析為 AD 270
+- id: wu.14.p19.h1
+  anchor: wu.14.p19
+  at: 5
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.14.p19.a1
   anchor: wu.14.p19
   at: 99
   length: 0
   type: pei
   text: 《江表傳》曰：豫章吏十人乞代俊死，皓不聽。奮以此見疑，本在章安，徙還吳城禁錮，使男女不得通婚，或年三十四十不得嫁娶。奮上表乞自比禽獸，使男女自相配偶。皓大怒，遣察戰齎藥賜奮，奮不受藥，叩頭千下，曰：「老臣自將兒子治生求治，無豫國事，乞丐餘年。」皓不聽，父子皆飲藥死。臣松之案：建衡二年至奮之死，孫皓即位，尚猶未乆。若奮未被疑之前，兒女年二十左右，至奮死時，不得年三十四十也。若先已長大，自失時未婚娶，則不由皓之禁錮矣。此雖欲增皓之惡，然非實理。
+- id: wu.14.p20.h1
+  anchor: wu.14.p20
+  at: 3
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 孫登
+  via: primary

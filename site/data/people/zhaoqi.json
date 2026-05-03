@@ -1,0 +1,116 @@
+{
+  "id": "zhaoqi",
+  "primary_name": "趙岐",
+  "courtesy_name": "邠卿",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.64",
+      "title": "吳延史盧趙列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/64.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p51",
+        "at": 9,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "趙岐",
+        "snippet": "詔太傅馬日磾、太僕趙岐杖節鎮撫關東。"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p66",
+        "at": 58,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "趙岐",
+        "snippet": "…，野無青草。紹以其子譚為青州刺史，楷與戰，不勝。會趙岐來和解關東，瓚乃與紹和親，各引兵去。"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p33",
+        "at": 8,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "趙岐",
+        "snippet": "初，太傅馬日磾與趙岐俱奉使至壽春，岐守志不橈，袁術憚之。日磾頗有求於術。術侵侮之，從日磾借節視之，因奪不還，條軍中十餘人，使促辟之。日磾從術求去，…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p8",
+        "at": 14,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "趙岐",
+        "snippet": "張楊使董承先繕修雒陽宮。太僕趙岐為承說劉表，使遣兵詣雒陽，助修宮室；軍資委輸，前後不絕。夏，五月，丙寅，帝遣使至楊奉、李樂、韓暹營，求送至雒陽，奉等從詔。六月…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.58",
+        "chapter_title": "虞傅蓋臧列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.58.p101",
+        "at": 8,
+        "data_url": "data/houhanshu/hhs/58.json",
+        "matched": "趙岐",
+        "snippet": "一八七八頁一五行趙岐注曰按：「岐」原作「歧」，逕改正。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p230",
+        "at": 9,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "趙岐",
+        "snippet": "二三八七頁五行太僕趙岐按「岐」原斗「歧」，逕改正。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p50",
+        "at": 9,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "趙岐",
+        "snippet": "四年初，天子遣太僕趙岐和解關東，使各罷兵。瓚因此以書譬紹曰：「趙太僕以周、邵之德，銜命來征，宣揚朝恩，示以和睦，曠若開雲見日，何喜如之！昔賈復、寇恂…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p87",
+        "at": 2,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "趙岐",
+        "snippet": "太僕趙岐銜命來征，宣明陛下含弘之施，蠲除細故，與下更新，奉詔之日，引師南轅。[四]是臣畏怖天威，不敢怠慢之三驗也。"
+      }
+    ]
+  },
+  "n_mentions": 8
+}

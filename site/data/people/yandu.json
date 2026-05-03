@@ -1,0 +1,49 @@
+{
+  "id": "yandu",
+  "primary_name": "延篤",
+  "courtesy_name": "叔堅",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.64",
+      "title": "吳延史盧趙列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/64.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.67",
+        "chapter_title": "黨錮列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.67.p41",
+        "at": 19,
+        "data_url": "data/houhanshu/hhs/67.json",
+        "matched": "延篤",
+        "snippet": "每三公缺，朝廷皆屬意於祐，以譖毀不用。延篤貽之書曰：「昔太伯三讓，人無德而稱焉。延陵高揖，華夏仰風。吾子懷蘧氏之可卷，體寧子之如愚，微妙玄通，沖而不盈，蔑三光之明，未暇…"
+      },
+      {
+        "chapter_id": "hhs.76",
+        "chapter_title": "循吏列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.76.p2",
+        "at": 148,
+        "data_url": "data/houhanshu/hhs/76.json",
+        "matched": "延篤",
+        "snippet": "…委任賢良，而職事自理：斯皆可以感物而行化也。邊鳳、延篤先後爲京兆尹，時人以輩前世趙、張。又王渙、任峻之爲洛陽令，明發姦伏，吏端禁止，然導德劉禮，有所未充，亦一時之良能也。今綴集殊聞…"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

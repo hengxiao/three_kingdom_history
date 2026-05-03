@@ -1,0 +1,83 @@
+{
+  "id": "zhouxuan",
+  "primary_name": "周宣",
+  "courtesy_name": "孔和",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.29",
+      "title": "魏書·方技傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/29.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.12",
+        "chapter_title": "魏書·崔毛徐何邢鮑司馬傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.12.p15",
+        "at": 192,
+        "data_url": "data/sanguozhi/wei/12.json",
+        "matched": "周宣",
+        "snippet": "…以爲急也？急當陰霖，何以反旱？成湯聖世，野無生草，周宣令主，旱魃爲虐。亢旱以來，积三十年，歸咎黥面，爲相值不？卫人伐邢，師兴而雨，罪恶無徵，何以应天？玠譏謗之言，流於下民，不悦之聲…"
+      },
+      {
+        "chapter_id": "wei.28",
+        "chapter_title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.28.p27",
+        "at": 21,
+        "data_url": "data/sanguozhi/wei/28.json",
+        "matched": "周宣",
+        "snippet": "戎狄獸心，不以義親，強則侵暴，弱則內附，故周宣有玁狁之寇，漢祖有平城之圍。每匈奴一盛，為前代重患。自單于在外，莫能牽制長卑。誘而致之，使來入侍。由是羌夷失統，合散無主。以單…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.57",
+        "chapter_title": "杜欒劉李劉謝列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.57.p30",
+        "at": 11,
+        "data_url": "data/houhanshu/hhs/57.json",
+        "matched": "周宣",
+        "snippet": "注[二]申伯，仲山甫，周宣王之臣也。詩曰：「惟申及甫，惟周之翰。」史記曰，周孝王之子燮，是為夷王。夷王崩，子厲王胡立，行暴虐，死於彘也。"
+      },
+      {
+        "chapter_id": "hhs.61",
+        "chapter_title": "左周黃列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.61.p22",
+        "at": 57,
+        "data_url": "data/houhanshu/hhs/61.json",
+        "matched": "周宣",
+        "snippet": "…而博學洽聞，為儒者所宗，故京師為之語曰：「五經從橫周宣光。」"
+      },
+      {
+        "chapter_id": "hhs.61",
+        "chapter_title": "左周黃列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.61.p57",
+        "at": 75,
+        "data_url": "data/houhanshu/hhs/61.json",
+        "matched": "周宣",
+        "snippet": "…故必躬郊廟之禮，親籍田之勤，以先腢萌，率勸農功。昔周宣王不籍千畝，□文公以為大譏，卒有姜戎之難，終損中興之名。竊見陛下遵稽古之鴻業，體虔肅以應天，順時奉元，懷柔百神，朝夕觸塵埃於道…"
+      }
+    ]
+  },
+  "n_mentions": 5
+}

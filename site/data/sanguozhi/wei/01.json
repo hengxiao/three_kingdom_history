@@ -11,21 +11,57 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷01",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 124,
+  "n_segments": 123,
   "segments": [
     {
       "id": "wei.1.p1",
       "text": "太祖武皇帝，沛國譙人也，姓曹，諱操，字孟德，漢相國參之後。桓帝世，曹騰爲中常侍大長秋，封費亭侯。養子嵩嗣，官至太尉，莫能審其生出本末。嵩生太祖。",
       "annotations": [
         {
+          "id": "wei.1.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p1.h3",
+          "type": "person",
+          "at": 16,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p1.a1",
           "type": "pei",
           "at": 29,
           "length": 0,
           "text": "〔《曹瞞傳》曰：〕太祖一名吉利，小字阿瞞。王沈《魏書》曰：其先出於黃帝。當高陽世，陸終之子曰安，是爲曹姓。周武王克殷，存先世之後，封曹俠於邾。春秋之世，與於盟會，逮至戰國，爲楚所滅。子孫分流，或家于沛。漢高祖之起，曹參以功封平陽侯，世襲爵土，絕而復紹，至今適嗣國於容城。"
+        },
+        {
+          "id": "wei.1.p1.h4",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         },
         {
           "id": "wei.1.p1.a2",
@@ -40,6 +76,15 @@
           "at": 67,
           "length": 0,
           "text": "《續漢書》曰：嵩字巨高。質性敦慎，所在忠孝。爲司隷校尉，靈帝擢拜大司農、大鴻臚，代崔烈爲太尉。黃初元年，追尊嵩曰太皇帝。吳人作《曹瞞傳》及郭頒《世語》並云：嵩，夏侯氏之子，夏侯惇之叔父。太祖於惇爲從父兄弟。"
+        },
+        {
+          "id": "wei.1.p1.h5",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -48,11 +93,29 @@
       "text": "太祖少機警，有權數，而任俠放蕩，不治行業，故世人未之奇也；惟梁國橋玄、南陽何顒異焉。玄謂太祖曰：「天下將亂，非命世之才不能濟也，能安之者，其在君乎！」年二十，舉孝廉爲郎，除洛陽北部尉，遷頓丘令，徵拜議郎。",
       "annotations": [
         {
+          "id": "wei.1.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p2.a1",
           "type": "pei",
           "at": 29,
           "length": 0,
           "text": "《曹瞞傳》云：太祖少好飛鷹走狗，游蕩無度，其叔父數言之於嵩。太祖患之，後逢叔父於路，乃陽敗面喎口；叔父怪而問其故，太祖曰：「卒中惡風。」叔父以告嵩。嵩驚愕，呼太祖，太祖口貌如故。嵩問曰：「叔父言汝中風，已差乎？」太祖曰：「初不中風，但失愛於叔父，故見罔耳。」嵩乃疑焉。自後叔父有所告，嵩終不復信，太祖於是益得肆意矣。"
+        },
+        {
+          "id": "wei.1.p2.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p2.a2",
@@ -102,6 +165,33 @@
       "text": "頃之，冀州刺史王芬、南陽許攸、沛國周旌等連結豪傑，謀廢靈帝，立合肥侯，以告太祖，太祖拒之。芬等遂敗。",
       "annotations": [
         {
+          "id": "wei.1.p4.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "wei.1.p4.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p4.h3",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p4.a1",
           "type": "pei",
           "at": 50,
@@ -115,11 +205,155 @@
       "text": "金城邊章、韓遂殺刺史郡守以叛，衆十餘萬，天下騷動。徵太祖爲典軍校尉。會靈帝崩，太子即位，太后臨朝。大將軍何進與袁紹謀誅宦官，太后不聽。進乃召董卓，欲以脅太后，卓未至而進見殺。卓到，廢帝爲弘農王而立獻帝，京都大亂。卓表太祖爲驍騎校尉，欲與計事。太祖乃變易姓名，間行東歸。出關，過中牟，爲亭長所疑，執詣縣，邑中或竊識之，爲請得解。卓遂殺太后及弘農王。太祖至陳留，散家財，合義兵，將以誅卓。冬十二月，始起兵於己吾，是歲中平六年也。",
       "annotations": [
         {
+          "id": "wei.1.p5.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p5.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "wei.1.p5.h17",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liubian",
+          "via": "llm"
+        },
+        {
+          "id": "wei.1.p5.h18",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.1.p5.h3",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p5.h4",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p5.h19",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.1.p5.h5",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p5.h20",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
           "id": "wei.1.p5.a1",
           "type": "pei",
           "at": 79,
           "length": 0,
           "text": "《魏書》曰：太祖聞而笑之曰：「閹豎之官，古今宜有，但世主不當假之權寵，使至於此。旣治其罪，當誅元惡，一獄吏足矣，何必紛紛召外將乎？欲盡誅之，事必宣露，吾見其敗也。」"
+        },
+        {
+          "id": "wei.1.p5.h6",
+          "type": "person",
+          "at": 79,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p5.h7",
+          "type": "person",
+          "at": 87,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p5.h8",
+          "type": "person",
+          "at": 93,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "wei.1.p5.h9",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "wei.1.p5.h10",
+          "type": "person",
+          "at": 106,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p5.h11",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p5.h12",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p5.a2",
@@ -134,6 +368,51 @@
           "at": 163,
           "length": 0,
           "text": "《世語》曰：中牟疑是亡人，見拘於縣。時掾亦已被卓書；唯功曹心知是太祖，以世方亂，不宜拘天下雄儁，因白令釋之。"
+        },
+        {
+          "id": "wei.1.p5.h13",
+          "type": "person",
+          "at": 163,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p5.h21",
+          "type": "person",
+          "at": 166,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.1.p5.h14",
+          "type": "person",
+          "at": 169,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "wei.1.p5.h15",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p5.h16",
+          "type": "person",
+          "at": 190,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p5.a4",
@@ -177,11 +456,29 @@
           "reasoning": "原文「初平元年春正月」直接出现年号；解析為 AD 190"
         },
         {
+          "id": "wei.1.p6.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p6.a1",
           "type": "pei",
           "at": 20,
           "length": 0,
           "text": "《英雄記》曰：馥字文節，潁川人。爲御史中丞。董卓舉爲冀州牧。于時冀州民人殷盛，兵糧優足。袁紹之在勃海，馥恐其興兵，遣數部從事守之，不得動搖。東郡太守橋瑁詐作京師三公移書與州郡，陳卓罪惡，云「見逼迫，無以自救，企望義兵，解國患難。」馥得移，請諸從事問曰：「今當助袁氏邪，助董卓邪？」治中從事劉子惠曰：「今興兵爲國，何謂袁、董！」馥自知言短而有慙色。子惠復言：「兵者凶事，不可爲首；今宜往視他州，有發動者，然後和之。冀州於他州不爲弱也，他人功未有在冀州之右者也。」馥然之。馥乃作書與紹，道卓之惡，聽其舉兵。"
+        },
+        {
+          "id": "wei.1.p6.h2",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "孔伷",
+          "person_id": "kongzhou",
+          "via": "primary"
         },
         {
           "id": "wei.1.p6.a2",
@@ -198,6 +495,15 @@
           "text": "岱，劉繇之兄，事見《吳志》。"
         },
         {
+          "id": "wei.1.p6.h3",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "王匡",
+          "person_id": "wangkuang",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p6.a4",
           "type": "pei",
           "at": 41,
@@ -205,11 +511,47 @@
           "text": "《英雄記》曰：匡字公節，泰山人。輕財好施，以任俠聞。辟大將軍何進府進符使，匡於徐州發彊弩五百西詣京師。會進敗，匡還鄉里。起家，拜河內太守。謝承《後漢書》曰：匡少與蔡邕善。其年爲卓軍所敗，走還泰山，收集勁勇得數千人，欲與張邈合。匡先殺執金吾胡母班。班親屬不勝憤怒，與太祖并勢，共殺匡。"
         },
         {
+          "id": "wei.1.p6.h4",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p6.h5",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p6.h6",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "橋瑁",
+          "person_id": "qiaomao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p6.a5",
           "type": "pei",
           "at": 62,
           "length": 0,
           "text": "《英雄記》曰：瑁字元偉，玄族子。先爲兖州刺史，甚有威惠。"
+        },
+        {
+          "id": "wei.1.p6.h7",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "袁遺",
+          "person_id": "yuanyi",
+          "via": "primary"
         },
         {
           "id": "wei.1.p6.a6",
@@ -224,6 +566,24 @@
           "at": 74,
           "length": 0,
           "text": "信事見子《勛傳》。"
+        },
+        {
+          "id": "wei.1.p6.h8",
+          "type": "person",
+          "at": 86,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p6.h9",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -245,18 +605,172 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 初平元年 (AD 190)，月份「二月」"
+        },
+        {
+          "id": "wei.1.p7.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p7.h2",
+          "type": "person",
+          "at": 16,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p7.h3",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p7.h4",
+          "type": "person",
+          "at": 45,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p7.h5",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p7.h6",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p7.h7",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p7.h8",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p7.h9",
+          "type": "person",
+          "at": 194,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p7.h10",
+          "type": "person",
+          "at": 204,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p7.h11",
+          "type": "person",
+          "at": 221,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p7.h12",
+          "type": "person",
+          "at": 241,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p7.h13",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.1.p8",
       "text": "太祖到酸棗，諸軍兵十餘萬，日置酒高會，不圖進取。太祖責讓之，因爲謀曰：「諸君聽吾計，使勃海引河內之衆臨孟津，酸棗諸將守成臯，據敖倉，塞轘轅、太谷，全制其險；使袁將軍率南陽之軍軍丹、析，入武關，以震三輔：皆高壘深壁，勿與戰，益爲疑兵，示天下形勢，以順誅逆，可立定也。今兵以義動，持疑而不進，失天下之望，竊爲諸君耻之！」邈等不能用。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p8.h2",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.1.p9",
       "text": "太祖兵少，乃與夏侯惇等詣揚州募兵，刺史陳溫、丹楊太守周昕與兵四千餘人。還到龍亢，士卒多叛。至銍、建平，復收兵得千餘人，進屯河內。",
       "annotations": [
+        {
+          "id": "wei.1.p9.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p9.h2",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
         {
           "id": "wei.1.p9.a1",
           "type": "pei",
@@ -269,18 +783,82 @@
     {
       "id": "wei.1.p10",
       "text": "劉岱與橋瑁相惡，岱殺瑁，以王肱領東郡太守。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p10.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "橋瑁",
+          "person_id": "qiaomao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.1.p11",
       "text": "袁紹與韓馥謀立幽州牧劉虞爲帝，太祖拒之。紹又甞得一玉印，於太祖坐中舉向其肘，太祖由是笑而惡焉。",
       "annotations": [
         {
+          "id": "wei.1.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p11.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "劉虞",
+          "person_id": "liuyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p11.h3",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p11.a1",
           "type": "pei",
           "at": 20,
           "length": 0,
           "text": "《魏書》載太祖荅紹曰：「董卓之罪，暴於四海，吾等合大衆興義兵，遠近莫不響應，此以義動故也。今幼主微弱，制於姦臣，未有昌邑亡國之釁，而一旦改易，天下其孰安之？諸君北面，我自西向。」"
+        },
+        {
+          "id": "wei.1.p11.h4",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p11.h5",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p11.h6",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p11.a2",
@@ -307,6 +885,33 @@
           "era": "初平",
           "era_year": 2,
           "reasoning": "承前文年號「初平」推得，「二年」 = 初平2年 = AD 191"
+        },
+        {
+          "id": "wei.1.p12.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p12.h2",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "虞",
+          "person_id": "liuyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p12.h3",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "虞",
+          "person_id": "liuyu",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -328,6 +933,15 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 初平2年 (AD 191)，月份「夏四月」"
+        },
+        {
+          "id": "wei.1.p13.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -349,6 +963,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 初平2年 (AD 191)，月份「秋七月」"
+        },
+        {
+          "id": "wei.1.p14.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
         }
       ]
     },
@@ -362,6 +985,33 @@
           "at": 12,
           "length": 0,
           "text": "眭，申隨反。"
+        },
+        {
+          "id": "wei.1.p15.h1",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p15.h2",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p15.h3",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -383,11 +1033,38 @@
           "reasoning": "承前文年號「初平」推得，「三年」 = 初平3年 = AD 192"
         },
         {
+          "id": "wei.1.p16.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p16.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p16.a1",
           "type": "pei",
           "at": 32,
           "length": 0,
           "text": "《魏書》曰：諸將皆以爲當還自救。太祖曰：「孫臏救趙而攻魏，耿弇欲走西安攻臨菑。使賊聞我西而還，武陽自解也；不還，我能敗其本屯，虜不能拔武陽必矣。」遂乃行。"
+        },
+        {
+          "id": "wei.1.p16.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p16.a2",
@@ -416,6 +1093,60 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 初平3年 (AD 192)，月份「夏四月」"
+        },
+        {
+          "id": "wei.1.p17.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "王允",
+          "person_id": "wangyun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p17.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p17.h3",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p17.h4",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p17.h5",
+          "type": "person",
+          "at": 26,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p17.h6",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
         }
       ]
     },
@@ -431,6 +1162,15 @@
           "text": "《世語》曰：岱旣死，陳宮謂太祖曰：「州今無主，而王命斷絕，宮請說州中，明府尋往牧之，資之以收天下，此霸王之業也。」宮說別駕、治中曰：「今天下分裂而州無主；曹東郡，命世之才也，若迎以牧州，必寧生民。」鮑信等亦謂之然。"
         },
         {
+          "id": "wei.1.p18.h1",
+          "type": "person",
+          "at": 151,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p18.a2",
           "type": "pei",
           "at": 180,
@@ -442,7 +1182,98 @@
     {
       "id": "wei.1.p19",
       "text": "袁術與紹有隙，術求援於公孫瓚，瓚使劉備屯高唐，單經屯平原，陶謙屯發干，以逼紹。太祖與紹會擊，皆破之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p19.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p19.h2",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p19.h3",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p19.h4",
+          "type": "person",
+          "at": 11,
+          "length": 3,
+          "text": "公孫瓚",
+          "person_id": "gongsunzan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p19.h5",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "瓚",
+          "person_id": "gongsunzan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p19.h6",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p19.h7",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p19.h8",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p19.h9",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p19.h10",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wei.1.p20",
@@ -460,13 +1291,131 @@
           "era": "初平",
           "era_year": 4,
           "reasoning": "承前文年號「初平」推得，「四年」 = 初平4年 = AD 193"
+        },
+        {
+          "id": "wei.1.p20.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p20.h2",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h3",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h4",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h5",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p20.h6",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h7",
+          "type": "person",
+          "at": 66,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h8",
+          "type": "person",
+          "at": 79,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p20.h9",
+          "type": "person",
+          "at": 109,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.1.p21",
       "text": "下邳闕宣聚衆數千人，自稱天子；徐州牧陶謙與共舉兵，取泰山華、費，略任城。秋，太祖征陶謙，下十餘城，謙守城不敢出。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p21.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p21.h2",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p21.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p21.h4",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wei.1.p22",
@@ -484,6 +1433,24 @@
           "era": "初平",
           "era_year": 4,
           "reasoning": "「是歲」 = 当前年 初平4年 (AD 193)"
+        },
+        {
+          "id": "wei.1.p22.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p22.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
         }
       ]
     },
@@ -505,11 +1472,119 @@
           "reasoning": "原文「興平元年」直接出现年号；解析為 AD 194"
         },
         {
+          "id": "wei.1.p23.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p23.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p23.h3",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h4",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h5",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p23.a1",
           "type": "pei",
           "at": 51,
           "length": 0,
           "text": "《世語》曰：嵩在泰山華縣。太祖令泰山太守應劭送家詣兖州，劭兵未至，陶謙密遣數千騎掩捕。嵩家以爲劭迎，不設備。謙兵至，殺太祖弟德於門中。嵩懼，穿後垣，先出其妾，妾肥，不時得出；嵩逃于厠，與妾俱被害，闔門皆死。劭懼，棄官赴袁紹。後太祖定冀州，劭時已死。韋曜《吳書》曰：太祖迎嵩，輜重百餘兩。陶謙遣都尉張闓將騎二百衞送，闓於泰山華、費間殺嵩，取財物，因奔淮南。太祖歸咎於陶謙，故伐之。"
+        },
+        {
+          "id": "wei.1.p23.h6",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h7",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h8",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h9",
+          "type": "person",
+          "at": 83,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p23.h10",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p23.h11",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p23.h12",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p23.a2",
@@ -525,11 +1600,146 @@
       "text": "會張邈與陳宮叛迎呂布，郡縣皆應。荀彧、程昱保鄄城，范、東阿二縣固守，太祖乃引軍還。布到，攻鄄城不能下，西屯濮陽。太祖曰：「布一旦得一州，不能據東平，斷亢父、泰山之道，乘險要我，而乃屯濮陽，吾知其無能爲也。」遂進軍攻之。布出兵戰，先以騎犯青州兵。青州兵奔，太祖陣亂，馳突火出，墜馬，燒左手掌。司馬樓異扶太祖上馬，遂引去。未至營止，諸將未與太祖相見，皆怖。太祖乃自力勞軍，令軍中促爲攻具，進復攻之，與布相守百餘日。蝗蟲起，百姓大餓，布糧食亦盡，各引去。",
       "annotations": [
         {
+          "id": "wei.1.p24.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p24.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p24.h3",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p24.h4",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p24.h5",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p24.h6",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p24.h7",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p24.h8",
+          "type": "person",
+          "at": 61,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p24.h9",
+          "type": "person",
+          "at": 109,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p24.h10",
+          "type": "person",
+          "at": 127,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p24.h11",
+          "type": "person",
+          "at": 150,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p24.a1",
           "type": "pei",
           "at": 159,
           "length": 0,
           "text": "袁暐《獻帝春秋》曰：太祖圍濮陽，濮陽大姓田氏爲反閒，太祖得入城。燒其東門，示無反意。及戰，軍敗。布騎得太祖而不知是，問曰：「曹操何在？」太祖曰：「乘黃馬走者是也。」布騎乃釋太祖而追黃馬者。門火猶盛，太祖突火而出。"
+        },
+        {
+          "id": "wei.1.p24.h12",
+          "type": "person",
+          "at": 168,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p24.h13",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p24.h14",
+          "type": "person",
+          "at": 198,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p24.h15",
+          "type": "person",
+          "at": 214,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
         }
       ]
     },
@@ -553,6 +1763,78 @@
           "reasoning": "年承前文 興平元年 (AD 194)，月份「秋九月」"
         },
         {
+          "id": "wei.1.p25.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p25.h2",
+          "type": "person",
+          "at": 10,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p25.h3",
+          "type": "person",
+          "at": 31,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p25.h4",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p25.h5",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p25.h6",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p25.h7",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p25.h8",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p25.t2",
           "type": "temporal",
           "at": 68,
@@ -566,6 +1848,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 興平元年 (AD 194)，月份「冬十月」"
+        },
+        {
+          "id": "wei.1.p25.h9",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -585,6 +1876,24 @@
           "era": "興平",
           "era_year": 1,
           "reasoning": "「是歲」 = 当前年 興平元年 (AD 194)"
+        },
+        {
+          "id": "wei.1.p26.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p26.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
         }
       ]
     },
@@ -606,11 +1915,128 @@
           "reasoning": "承前文年號「興平」推得，「二年」 = 興平2年 = AD 195"
         },
         {
+          "id": "wei.1.p27.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p27.h2",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h3",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p27.h4",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h5",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h6",
+          "type": "person",
+          "at": 64,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h7",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p27.a1",
           "type": "pei",
           "at": 97,
           "length": 0,
           "text": "《魏書》曰：於是兵皆出取麥，在者不能千人，屯營不固。太祖乃令婦人守陴，悉兵拒之。屯西有大隄，其南樹木幽深。布疑有伏，乃相謂曰：「曹操多譎，勿入伏中。」引軍屯南十餘里。明日復來，太祖隱兵隄裏，出半兵隄外。布益進，乃令輕兵挑戰，旣合，伏兵乃悉乘隄，步騎並進，大破之，獲其龍車，追至其營而還。"
+        },
+        {
+          "id": "wei.1.p27.h8",
+          "type": "person",
+          "at": 97,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h9",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p27.h10",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p27.h11",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p27.h12",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p27.h13",
+          "type": "person",
+          "at": 125,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p27.t2",
@@ -643,6 +2069,15 @@
           "reasoning": "年承前文 興平2年 (AD 195)，月份「冬十月」"
         },
         {
+          "id": "wei.1.p27.h14",
+          "type": "person",
+          "at": 153,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p27.t4",
           "type": "temporal",
           "at": 159,
@@ -656,6 +2091,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 興平2年 (AD 195)，月份「十二月」"
+        },
+        {
+          "id": "wei.1.p27.h15",
+          "type": "person",
+          "at": 178,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
         }
       ]
     },
@@ -696,18 +2140,100 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "原文「建安元年春正月」直接出现年号；解析為 AD 196"
+        },
+        {
+          "id": "wei.1.p29.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p29.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.1.p30",
       "text": "太祖將迎天子，諸將或疑，荀彧、程昱勸之，乃遣曹洪將兵西迎，衞將軍董承與袁術將萇奴拒險，洪不得進。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p30.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p30.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p30.h3",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p30.h4",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p30.h5",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.1.p31",
       "text": "汝南、潁川黃巾何儀、劉辟、黃邵、何曼等，衆各數萬，初應袁術，又附孫堅。二月，太祖進軍討破之，斬辟、邵等，儀及其衆皆降。天子拜太祖建德將軍，夏六月，遷鎮東將軍，封費亭侯。秋七月，楊奉、韓暹以天子還洛陽，奉別屯梁。太祖遂至洛陽，衞京都，暹遁走。天子假太祖節鉞，錄尚書事。洛陽殘破，董昭等勸太祖都許。九月，車駕出轘轅而東，以太祖爲大將軍，封武平侯。自天子西遷，朝廷日亂，至是宗廟社稷制度始立。",
       "annotations": [
+        {
+          "id": "wei.1.p31.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p31.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "孫堅",
+          "person_id": "sunjian",
+          "via": "primary"
+        },
         {
           "id": "wei.1.p31.t1",
           "type": "temporal",
@@ -722,6 +2248,24 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 建安元年 (AD 196)，月份「二月」"
+        },
+        {
+          "id": "wei.1.p31.h3",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p31.h4",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p31.t2",
@@ -761,11 +2305,47 @@
           "text": "《獻帝春秋》曰：天子初至洛陽，幸城西故中常侍趙忠宅。使張楊繕治宮室，名殿曰揚安殿，八月，帝乃遷居。"
         },
         {
+          "id": "wei.1.p31.h5",
+          "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.1.p31.h6",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p31.a2",
           "type": "pei",
           "at": 133,
           "length": 0,
           "text": "《獻帝紀》曰：又領司隷校尉。"
+        },
+        {
+          "id": "wei.1.p31.h7",
+          "type": "person",
+          "at": 138,
+          "length": 2,
+          "text": "董昭",
+          "person_id": "dongzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p31.h8",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p31.t4",
@@ -781,6 +2361,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 建安元年 (AD 196)，月份「九月」"
+        },
+        {
+          "id": "wei.1.p31.h9",
+          "type": "person",
+          "at": 159,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p31.a3",
@@ -811,6 +2400,42 @@
           "reasoning": "年承前文 建安元年 (AD 196)，月份「冬十月」"
         },
         {
+          "id": "wei.1.p32.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p32.h2",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p32.h3",
+          "type": "person",
+          "at": 48,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p32.h4",
+          "type": "person",
+          "at": 69,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p32.t2",
           "type": "temporal",
           "at": 84,
@@ -835,7 +2460,53 @@
     {
       "id": "wei.1.p33",
       "text": "呂布襲劉備，取下邳。備來奔。程昱說公曰：「觀劉備有雄才而甚得衆心，終不爲人下，不如早圖之。」公曰：「方今收英雄時也，殺一人而失天下之心，不可。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p33.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p33.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p33.h3",
+          "type": "person",
+          "at": 10,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p33.h4",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p33.h5",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.1.p34",
@@ -869,6 +2540,15 @@
           "text": "《魏書》曰：公所乘馬名絕影，爲流矢所中，傷頰及足，并中公右臂。《世語》曰：昂不能騎，進馬於公，公故免，而昂遇害。"
         },
         {
+          "id": "wei.1.p35.h1",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p35.a2",
           "type": "pei",
           "at": 124,
@@ -881,6 +2561,60 @@
       "id": "wei.1.p36",
       "text": "袁術欲稱帝於淮南，使人告呂布。布收其使，上其書。術怒，攻布，爲布所破。秋九月，術侵陳，公東征之。術聞公自來，棄軍走，留其將橋蕤、李豐、梁綱、樂就；公到，擊破蕤等，皆斬之。術走渡淮。公還許。",
       "annotations": [
+        {
+          "id": "wei.1.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p36.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p36.h3",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p36.h4",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p36.h5",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p36.h6",
+          "type": "person",
+          "at": 31,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p36.t1",
           "type": "temporal",
@@ -895,6 +2629,33 @@
           "month_chinese": "秋九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 建安2年 (AD 197)，月份「秋九月」"
+        },
+        {
+          "id": "wei.1.p36.h7",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p36.h8",
+          "type": "person",
+          "at": 48,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p36.h9",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
         }
       ]
     },
@@ -902,6 +2663,24 @@
       "id": "wei.1.p37",
       "text": "公之自舞陰還也，南陽、章陵諸縣復叛爲繡，公遣曹洪擊之，不利，還屯葉，數爲繡、表所侵。冬十一月，公自南征，至宛。表將鄧濟據湖陽。攻拔之，生禽濟，湖陽降。攻舞陰，下之。",
       "annotations": [
+        {
+          "id": "wei.1.p37.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p37.h2",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.1.p37.t1",
           "type": "temporal",
@@ -923,6 +2702,15 @@
           "at": 55,
           "length": 0,
           "text": "《魏書》曰：臨淯水，祠亡將士，歔欷流涕，衆皆感慟。"
+        },
+        {
+          "id": "wei.1.p37.h3",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -976,11 +2764,38 @@
           "reasoning": "年承前文 建安3年 (AD 198)，月份「夏五月」"
         },
         {
+          "id": "wei.1.p38.h1",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p38.a1",
           "type": "pei",
           "at": 43,
           "length": 0,
           "text": "《獻帝春秋》曰：袁紹叛卒詣公云：「田豐使紹早襲許，若挾天子以令諸侯，四海可指麾而定。」公乃解繡圍。"
+        },
+        {
+          "id": "wei.1.p38.h2",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p38.h3",
+          "type": "person",
+          "at": 102,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p38.t4",
@@ -996,6 +2811,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 建安3年 (AD 198)，月份「秋七月」"
+        },
+        {
+          "id": "wei.1.p38.h4",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
         }
       ]
     },
@@ -1003,6 +2827,51 @@
       "id": "wei.1.p39",
       "text": "呂布復爲袁術使高順攻劉備，公遣夏侯惇救之，不利。備爲順所敗。九月，公東征布。冬十月，屠彭城，獲其相侯諧。進至下邳，布自將騎逆擊。大破之，獲其驍將成廉。追至城下，布恐，欲降。陳宮等沮其計，求救於術，勸布出戰，戰又敗，乃還固守，攻之不下。時公連戰，士卒罷，欲還，用荀攸、郭嘉計，遂決泗、沂水以灌城。月餘，布將宋憲、魏續等執陳宮，舉城降，生禽布、宮，皆殺之。太山臧霸、孫觀、吳敦、尹禮、昌狶各聚衆。布之破劉備也，霸等悉從布。布敗，獲霸等，公厚納待，遂割青、徐二州附于海以委焉，分琅邪、東海、北海爲城陽、利城、昌慮郡。",
       "annotations": [
+        {
+          "id": "wei.1.p39.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h3",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h4",
+          "type": "person",
+          "at": 15,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h5",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p39.t1",
           "type": "temporal",
@@ -1019,6 +2888,15 @@
           "reasoning": "年承前文 建安3年 (AD 198)，月份「九月」"
         },
         {
+          "id": "wei.1.p39.h6",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p39.t2",
           "type": "temporal",
           "at": 38,
@@ -1032,6 +2910,123 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 建安3年 (AD 198)，月份「冬十月」"
+        },
+        {
+          "id": "wei.1.p39.h7",
+          "type": "person",
+          "at": 57,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h8",
+          "type": "person",
+          "at": 80,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h9",
+          "type": "person",
+          "at": 96,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h10",
+          "type": "person",
+          "at": 99,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h11",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h12",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "郭嘉",
+          "person_id": "guojia",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h13",
+          "type": "person",
+          "at": 150,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h14",
+          "type": "person",
+          "at": 168,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h15",
+          "type": "person",
+          "at": 178,
+          "length": 2,
+          "text": "臧霸",
+          "person_id": "zangba",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h16",
+          "type": "person",
+          "at": 196,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h17",
+          "type": "person",
+          "at": 199,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p39.h18",
+          "type": "person",
+          "at": 207,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p39.h19",
+          "type": "person",
+          "at": 209,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
         }
       ]
     },
@@ -1039,6 +3034,24 @@
       "id": "wei.1.p40",
       "text": "初，公爲兖州，以東平畢諶爲別駕。張邈之叛也，邈劫諶母弟妻子；公謝遣之，曰：「卿老母在彼，可去。」諶頓首無二心，公嘉之，爲之流涕。旣出，遂亡歸。及布破，諶生得，衆爲諶懼，公曰：「夫人孝於其親者，豈不亦忠於君乎！吾所求也。」以爲魯相。",
       "annotations": [
+        {
+          "id": "wei.1.p40.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p40.h2",
+          "type": "person",
+          "at": 72,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.1.p40.a1",
           "type": "pei",
@@ -1068,6 +3081,24 @@
           "reasoning": "承前文年號「建安」推得，「四年春二月」 = 建安4年 = AD 199"
         },
         {
+          "id": "wei.1.p41.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "張楊",
+          "person_id": "zhangyang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p41.h2",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p41.t2",
           "type": "temporal",
           "at": 37,
@@ -1081,6 +3112,24 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 建安4年 (AD 199)，月份「夏四月」"
+        },
+        {
+          "id": "wei.1.p41.h3",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p41.h4",
+          "type": "person",
+          "at": 80,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
         }
       ]
     },
@@ -1093,6 +3142,33 @@
       "id": "wei.1.p43",
       "text": "是時袁紹旣并公孫瓚，兼四州之地，衆十餘萬，將進軍攻許，諸將以爲不可敵，公曰：「吾知紹之爲人，志大而智小，色厲而膽薄，忌克而少威，兵多而分畫不明，將驕而政令不一，土地雖廣，糧食雖豐，適足以爲吾奉也。」秋八月，公進軍黎陽，使臧霸等入青州破齊、北海、東安，留于禁屯河上。九月，公還許，分兵守官渡。冬十一月，張繡率衆降，封列侯。十二月，公軍官渡。",
       "annotations": [
+        {
+          "id": "wei.1.p43.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p43.h2",
+          "type": "person",
+          "at": 6,
+          "length": 3,
+          "text": "公孫瓚",
+          "person_id": "gongsunzan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p43.h3",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p43.t1",
           "type": "temporal",
@@ -1107,6 +3183,24 @@
           "month_chinese": "秋八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安4年 (AD 199)，月份「秋八月」"
+        },
+        {
+          "id": "wei.1.p43.h4",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "臧霸",
+          "person_id": "zangba",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p43.h5",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "于禁",
+          "person_id": "yujin",
+          "via": "primary"
         },
         {
           "id": "wei.1.p43.t2",
@@ -1160,6 +3254,87 @@
       "text": "袁術自敗於陳，稍困，袁譚自青州遣迎之。術欲從下邳北過，公遣劉備、朱靈要之。會術病死。程昱、郭嘉聞公遣備，言於公曰：「劉備不可縱。」公悔，追之不及。備之未東也，陰與董承等謀反，至下邳，遂殺徐州刺史車冑，舉兵屯沛。遣劉岱、王忠擊之，不克。",
       "annotations": [
         {
+          "id": "wei.1.p44.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p44.h2",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p44.h3",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p44.h4",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p44.h5",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "程昱",
+          "person_id": "chengyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p44.h6",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "郭嘉",
+          "person_id": "guojia",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p44.h7",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p44.h8",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p44.h9",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p44.a1",
           "type": "pei",
           "at": 117,
@@ -1193,11 +3368,146 @@
           "reasoning": "承前文年號「建安」推得，「五年春正月」 = 建安5年 = AD 200"
         },
         {
+          "id": "wei.1.p46.h1",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h2",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p46.h3",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h4",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h5",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p46.a1",
           "type": "pei",
           "at": 79,
           "length": 0,
           "text": "孫盛《魏氏春秋》云：荅諸將曰：「劉備，人傑也，將生憂寡人。」臣松之以爲史之記言，旣多潤色，故前載所述有非實者矣，後之作者又生意改之，於失實也，不亦彌遠乎！凡孫盛製書，多用左氏以易舊文，如此者非一。嗟乎，後之學者將何取信哉？且魏武方以天下勵志，而用夫差分死之言，尤非其類。"
+        },
+        {
+          "id": "wei.1.p46.h6",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p46.h7",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "郭嘉",
+          "person_id": "guojia",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p46.h8",
+          "type": "person",
+          "at": 106,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h9",
+          "type": "person",
+          "at": 119,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h10",
+          "type": "person",
+          "at": 122,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h11",
+          "type": "person",
+          "at": 129,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h12",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p46.h13",
+          "type": "person",
+          "at": 142,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h14",
+          "type": "person",
+          "at": 149,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p46.h15",
+          "type": "person",
+          "at": 161,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
         }
       ]
     },
@@ -1221,6 +3531,24 @@
           "reasoning": "年承前文 建安5年 (AD 200)，月份「二月」"
         },
         {
+          "id": "wei.1.p47.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h2",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p47.t2",
           "type": "temporal",
           "at": 36,
@@ -1234,6 +3562,132 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 建安5年 (AD 200)，月份「夏四月」"
+        },
+        {
+          "id": "wei.1.p47.h3",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h4",
+          "type": "person",
+          "at": 78,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h5",
+          "type": "person",
+          "at": 108,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h6",
+          "type": "person",
+          "at": 145,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h7",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h8",
+          "type": "person",
+          "at": 174,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h9",
+          "type": "person",
+          "at": 273,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h10",
+          "type": "person",
+          "at": 290,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h11",
+          "type": "person",
+          "at": 296,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h12",
+          "type": "person",
+          "at": 376,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h13",
+          "type": "person",
+          "at": 387,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h14",
+          "type": "person",
+          "at": 398,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p47.h15",
+          "type": "person",
+          "at": 404,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p47.h16",
+          "type": "person",
+          "at": 408,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
         }
       ]
     },
@@ -1257,6 +3711,15 @@
           "reasoning": "年承前文 建安5年 (AD 200)，月份「八月」"
         },
         {
+          "id": "wei.1.p48.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p48.a1",
           "type": "pei",
           "at": 34,
@@ -1269,23 +3732,178 @@
           "at": 47,
           "length": 0,
           "text": "臣松之以爲魏武初起兵，已有衆五千，自後百戰百勝，敗者十二三而已矣。但一破黃巾，受降卒三十餘萬，餘所吞并，不可悉紀；雖征戰損傷，未應如此之少也。夫結營相守，異於摧鋒決戰。本紀云：「紹衆十餘萬，屯營東西數十里。」魏太祖雖機變無方，略不世出，安有以數千之兵，而得逾時相抗者哉？以理而言，竊謂不然。紹爲屯數十里，公能分營與相當，此兵不得甚少，一也。紹若有十倍之衆，理應當悉力圍守，使出入斷絕，而公使徐晃等擊其運車，公又自出擊淳于瓊等，揚旌往還，曾無抵閡，明紹力不能制，是不得甚少，二也。諸書皆云公坑紹衆八萬，或云七萬。夫八萬人奔散，非八千人所能縛，而紹之大衆皆拱手就戮，何緣力能制之？是不得甚少，三也。將記述者欲以少見奇，非其實錄也。按《鍾繇傳》云：「公與紹相持，繇爲司隷，送馬二千餘匹以給軍。」本紀及《世語》並云公時有騎六百餘匹，繇馬爲安在哉？"
+        },
+        {
+          "id": "wei.1.p48.h2",
+          "type": "person",
+          "at": 47,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p48.h3",
+          "type": "person",
+          "at": 71,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p48.h4",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p48.h5",
+          "type": "person",
+          "at": 110,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p48.h6",
+          "type": "person",
+          "at": 151,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wei.1.p49",
       "text": "孫策聞公與紹相持，乃謀襲許，未發，爲刺客所殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p49.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p49.h2",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wei.1.p50",
       "text": "汝南降賊劉辟等叛應紹，略許下。紹使劉備助辟，公使曹仁擊破之。備走，遂破辟屯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p50.h1",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p50.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p50.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p50.h4",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p50.h5",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wei.1.p51",
       "text": "袁紹運穀車數千乘至，公用荀攸計，遣徐晃、史渙邀擊，大破之，盡燒其車。公與紹相拒連月，雖比戰斬將，然衆少糧盡，士卒疲乏。公謂運者曰：「却十五日爲汝破紹，不復勞汝矣。」冬十月，紹遣車運穀，使淳于瓊等五人將兵萬餘人送之，宿紹營北四十里。紹謀臣許攸貪財，紹不能足，來奔，因說公擊瓊等。左右疑之，荀攸、賈詡勸公。公乃留曹洪守，自將步騎五千人夜往，會明至。瓊等望見公兵少，出陳門外。公急擊之，瓊退保營，遂攻之。紹遣騎救瓊。左右或言「賊騎稍近，請分兵拒之」。公怒曰：「賊在背後，乃白！」士卒皆殊死戰，大破瓊等，皆斬之。紹初聞公之擊瓊，謂長子譚曰：「就彼攻瓊等，吾攻拔其營，彼固無所歸矣！」乃使張郃、高覽攻曹洪。郃等聞瓊破，遂來降。紹衆大潰，紹及譚棄軍走，渡河。追之不及，盡收其輜重圖書珎寶，虜其衆。公收紹書中，得許下及軍中人書，皆焚之。冀州諸郡多舉城邑降者。",
       "annotations": [
+        {
+          "id": "wei.1.p51.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h4",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h5",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p51.t1",
           "type": "temporal",
@@ -1302,6 +3920,78 @@
           "reasoning": "年承前文 建安5年 (AD 200)，月份「冬十月」"
         },
         {
+          "id": "wei.1.p51.h6",
+          "type": "person",
+          "at": 86,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h7",
+          "type": "person",
+          "at": 108,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h8",
+          "type": "person",
+          "at": 115,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h9",
+          "type": "person",
+          "at": 123,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h10",
+          "type": "person",
+          "at": 143,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h11",
+          "type": "person",
+          "at": 146,
+          "length": 2,
+          "text": "賈詡",
+          "person_id": "jiaxu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h12",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h13",
+          "type": "person",
+          "at": 199,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p51.a1",
           "type": "pei",
           "at": 252,
@@ -1309,11 +3999,65 @@
           "text": "《曹瞞傳》曰：公聞攸來，跣出迎之，撫掌笑曰：「子卿遠來，吾事濟矣！」旣入坐，謂公曰：「袁氏軍盛，何以待之？今有幾糧乎？」公曰：「尚可支一歲。」攸曰：「無是，更言之！」又曰：「可支半歲。」攸曰：「足下不欲破袁氏邪，何言之不實也！」公曰：「向言戲之耳。其實可一月，爲之柰何？」攸曰：「公孤軍獨守，外無救援而糧穀已盡，此危急之日也。今袁氏輜重有萬餘乘，在故市、烏巢，屯軍無嚴備；今以輕兵襲之，不意而至，燔其積聚，不過三日，袁氏自敗也。」公大喜，乃選精銳步騎，皆用袁軍旗幟，銜枚縛馬口，夜從間道出，人抱束薪，所歷道有問者，語之曰：「袁公恐曹操鈔略後軍，遣兵以益備。」聞者信以爲然，皆自若。旣至，圍屯，大放火，營中驚亂。大破之，盡燔其糧穀寶貨，斬督將眭元進、騎督韓莒子、呂威璜、趙叡等首，割得將軍淳于仲簡鼻，未死，殺士卒千餘人，皆取鼻，牛馬割脣舌，以示紹軍。將士皆怛懼。時有夜得仲簡，將以詣麾下，公謂曰：「何爲如是？」仲簡曰：「勝負自天，何用爲問乎！」公意欲不殺。許攸曰：「明且鑒於鏡，此益不忘人。」乃殺之。"
         },
         {
+          "id": "wei.1.p51.h14",
+          "type": "person",
+          "at": 252,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h15",
+          "type": "person",
+          "at": 289,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h16",
+          "type": "person",
+          "at": 295,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p51.h17",
+          "type": "person",
+          "at": 308,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p51.h18",
+          "type": "person",
+          "at": 313,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p51.a2",
           "type": "pei",
           "at": 342,
           "length": 0,
           "text": "《獻帝起居注》曰：公上言「大將軍鄴侯袁紹前與冀州牧韓馥立故大司馬劉虞，刻作金璽，遣故任長畢瑜詣虞，爲說命錄之數。又紹與臣書云：『可都鄄城，當有所立。』擅鑄金銀印，孝廉計吏，皆往詣紹。從弟濟陰太守敘與紹書云：『今海內喪敗，天意實在我家，神應有徵，當在尊兄。南兄臣下欲使即位，南兄言，以年則北兄長，以位則北兄重。便欲送璽，會曹操斷道。』紹宗族累世受國重恩，而凶逆無道，乃至於此。輙勒兵馬，與戰官渡，乘聖朝之威，得斬紹大將淳于瓊等八人首，遂大破潰。紹與子譚輕身迸走。凡斬首七萬餘級，輜重財物巨億。」"
+        },
+        {
+          "id": "wei.1.p51.h19",
+          "type": "person",
+          "at": 344,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p51.a3",
@@ -1329,11 +4073,29 @@
       "text": "初，桓帝時有黃星見於楚、宋之分，遼東殷馗善天文，言後五十歲當有真人起於梁、沛之閒，其鋒不可當。至是凡五十年，而公破紹，天下莫敵矣。",
       "annotations": [
         {
+          "id": "wei.1.p52.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
           "id": "wei.1.p52.a1",
           "type": "pei",
           "at": 20,
           "length": 0,
           "text": "馗，古逵字，見三蒼。"
+        },
+        {
+          "id": "wei.1.p52.h2",
+          "type": "person",
+          "at": 57,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -1357,6 +4119,24 @@
           "reasoning": "承前文年號「建安」推得，「六年夏四月」 = 建安6年 = AD 201"
         },
         {
+          "id": "wei.1.p53.h1",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p53.h2",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p53.t2",
           "type": "temporal",
           "at": 35,
@@ -1370,6 +4150,51 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 建安6年 (AD 201)，月份「九月」"
+        },
+        {
+          "id": "wei.1.p53.h3",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p53.h4",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p53.h5",
+          "type": "person",
+          "at": 81,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p53.h6",
+          "type": "person",
+          "at": 83,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p53.h7",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
         }
       ]
     },
@@ -1405,6 +4230,15 @@
       "id": "wei.1.p55",
       "text": "紹自軍破後，發病歐血，夏五月死。小子尚代，譚自號車騎將軍，屯黎陽。秋九月，公征之，連戰。譚、尚數敗退，固守。",
       "annotations": [
+        {
+          "id": "wei.1.p55.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.1.p55.t1",
           "type": "temporal",
@@ -1549,6 +4383,33 @@
           "reasoning": "年承前文 建安8年 (AD 203)，月份「八月」"
         },
         {
+          "id": "wei.1.p59.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p59.h2",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p59.h3",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p59.a1",
           "type": "pei",
           "at": 64,
@@ -1636,6 +4497,15 @@
           "reasoning": "年承前文 建安9年 (AD 204)，月份「夏四月」"
         },
         {
+          "id": "wei.1.p60.h1",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p60.a1",
           "type": "pei",
           "at": 104,
@@ -1695,6 +4565,24 @@
           "reasoning": "年承前文 建安9年 (AD 204)，月份「八月」"
         },
         {
+          "id": "wei.1.p60.h2",
+          "type": "person",
+          "at": 369,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p60.h3",
+          "type": "person",
+          "at": 379,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p60.a3",
           "type": "pei",
           "at": 398,
@@ -1707,6 +4595,33 @@
       "id": "wei.1.p61",
       "text": "初，紹與公共起兵，紹問公曰：「若事不輯，則方面何所可據？」公曰：「足下意以爲何如？」紹曰：「吾南據河，北阻燕、代，兼戎狄之衆，南向以爭天下，庶可以濟乎？」公曰：「吾任天下之智力，以道御之，無所不可。」",
       "annotations": [
+        {
+          "id": "wei.1.p61.h1",
+          "type": "person",
+          "at": 2,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p61.h2",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p61.h3",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.1.p61.a1",
           "type": "pei",
@@ -1884,6 +4799,33 @@
       "text": "初，袁紹以甥高幹領并州牧，公之拔鄴，幹降，遂以爲刺史。幹聞公討烏丸，乃以州叛，執上黨太守，舉兵守壺關口。遣樂進、李典擊之，幹還守壺關城。十一年春正月，公征幹。幹聞之，乃留其別將守城，走入匈奴，求救於單于，單于不受。公圍壺關三月，拔之。幹遂走荊州，上洛都尉王琰捕斬之。",
       "annotations": [
         {
+          "id": "wei.1.p67.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p67.h2",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "樂進",
+          "person_id": "yuejin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p67.h3",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "李典",
+          "person_id": "lidian",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p67.t1",
           "type": "temporal",
           "at": 68,
@@ -1935,6 +4877,24 @@
           "reasoning": "年承前文 建安11年 (AD 206)，月份「秋八月」"
         },
         {
+          "id": "wei.1.p68.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "樂進",
+          "person_id": "yuejin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p68.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "李典",
+          "person_id": "lidian",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p68.a1",
           "type": "pei",
           "at": 52,
@@ -1947,6 +4907,24 @@
       "id": "wei.1.p69",
       "text": "三郡烏丸承天下亂，破幽州，略有漢民合十餘萬戶。袁紹皆立其酋豪爲單于，以家人子爲己女，妻焉。遼西單于蹋頓尤彊，爲紹所厚，故尚兄弟歸之，數入塞爲害。公將征之，鑿渠，自呼沲入泒水，名平虜渠；又從泃河口鑿入潞河，名泉州渠，以通海。",
       "annotations": [
+        {
+          "id": "wei.1.p69.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p69.h2",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p69.a1",
           "type": "pei",
@@ -1996,6 +4974,51 @@
       "text": "將北征三郡烏丸，諸將皆曰：「袁尚，亡虜耳，夷狄貪而無親，豈能爲尚用？今深入征之，劉備必說劉表以襲許。萬一爲變，事不可悔。」惟郭嘉策表必不能任備，勸公行。夏五月，至無終。秋七月，大水，傍海道不通，田疇請爲鄉導，公從之。引軍出盧龍塞，塞外道絕不通，乃壍山堙谷五百餘里，經白檀，歷平岡，涉鮮卑庭，東指柳城。未至二百里，虜乃知之。尚、熙與蹋頓、遼西單于樓班、右北平單于能臣抵之等，將數萬騎逆軍。八月，登白狼山，卒與虜遇，衆甚盛。公車重在後，被甲者少，左右皆懼。公登高，望虜陣不整，乃縱兵擊之，使張遼爲先鋒，虜衆大崩，斬蹋頓及名王已下，胡、漢降者二十餘萬口。遼東單于速僕丸及遼西、北平諸豪，棄其種人，與尚、熙奔遼東，衆尚有數千騎。初，遼東太守公孫康恃遠不服。及公破烏丸，或說公遂征之，尚兄弟可禽也。公曰：「吾方使康斬送尚、熙首，不煩兵矣。」九月，公引兵自柳城還，康即斬尚、熙及速僕丸等，傳其首。諸將或問：「公還而康斬送尚、熙，何也？」公曰：「彼素畏尚等，吾急之則并力，緩之則自相圖，其勢然也。」十一月至易水，代郡烏丸行單于普富盧、上郡烏丸行單于那樓將其名王來賀。",
       "annotations": [
         {
+          "id": "wei.1.p71.h1",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p71.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p71.h3",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "郭嘉",
+          "person_id": "guojia",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p71.h4",
+          "type": "person",
+          "at": 65,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p71.h5",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p71.t1",
           "type": "temporal",
           "at": 76,
@@ -2026,6 +5049,15 @@
           "reasoning": "年承前文 建安12年 (AD 207)，月份「秋七月」"
         },
         {
+          "id": "wei.1.p71.h6",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "田疇",
+          "person_id": "tianchou",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p71.t3",
           "type": "temporal",
           "at": 193,
@@ -2039,6 +5071,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安12年 (AD 207)，月份「八月」"
+        },
+        {
+          "id": "wei.1.p71.h7",
+          "type": "person",
+          "at": 243,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
         },
         {
           "id": "wei.1.p71.t4",
@@ -2149,6 +5190,15 @@
           "reasoning": "年承前文 建安13年 (AD 208)，月份「秋七月」"
         },
         {
+          "id": "wei.1.p73.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p73.t2",
           "type": "temporal",
           "at": 10,
@@ -2162,6 +5212,24 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安13年 (AD 208)，月份「八月」"
+        },
+        {
+          "id": "wei.1.p73.h2",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p73.h3",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
         },
         {
           "id": "wei.1.p73.t3",
@@ -2179,11 +5247,47 @@
           "reasoning": "年承前文 建安13年 (AD 208)，月份「九月」"
         },
         {
+          "id": "wei.1.p73.h4",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p73.h5",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p73.h6",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "文聘",
+          "person_id": "wenpin",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p73.a1",
           "type": "pei",
           "at": 111,
           "length": 0,
           "text": "衞恒《四體書勢序》曰：上谷王次仲善隷書，始爲楷法。至靈帝好書，世多能者。而師宜官爲最，甚矜其能，每書，輙削焚其札。梁鵠乃益爲版而飲之酒，候其醉而竊其札，鵠卒以攻書至選部尚書。於是公欲爲洛陽令，鵠以爲北部尉。鵠後依劉表。及荊州平，公募求鵠，鵠懼，自縛詣門，署軍假司馬，使在祕書，以勤書自効。公甞懸著帳中，及以釘壁玩之，謂勝宜官。鵠字孟皇，安定人。魏宮殿題署，皆鵠書也。皇甫謐《逸士傳》曰：汝南王儁，字子文，少爲范滂、許章所識，與南陽岑晊善。公之爲布衣，特愛儁；儁亦稱公有治世之具。及袁紹與弟術喪母，歸葬汝南，儁與公會之，會者三萬人。公於外密語儁曰：「天下將亂，爲亂魁者必此二人也。欲濟天下，爲百姓請命，不先誅此二子，亂今作矣。」儁曰：「如卿之言，濟天下者，舍卿復誰？」相對而笑。儁爲人外靜而內明，不應州郡三府之命。公車徵，不到，避地居武陵，歸儁者一百餘家。帝之都許，復徵爲尚書，又不就。劉表見紹彊，陰與紹通，儁謂表曰：「曹公，天下之雄也，必能興霸道，繼桓、文之功者也。今乃釋近而就遠，如有一朝之急，遙望漠北之救，不亦難乎！」表不從。儁年六十四，以壽終于武陵，公聞而哀傷。及平荊州，自臨江迎喪，改葬于江陵，表爲先賢也。"
+        },
+        {
+          "id": "wei.1.p73.h7",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
         },
         {
           "id": "wei.1.p73.t4",
@@ -2199,6 +5303,51 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 建安13年 (AD 208)，月份「十二月」"
+        },
+        {
+          "id": "wei.1.p73.h8",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p73.h9",
+          "type": "person",
+          "at": 133,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p73.h10",
+          "type": "person",
+          "at": 143,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p73.h11",
+          "type": "person",
+          "at": 156,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p73.h12",
+          "type": "person",
+          "at": 192,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p73.a2",
@@ -2313,6 +5462,24 @@
           "text": "《魏書》曰：庚辰，天子報：減戶五千，分所讓三縣萬五千封三子，植爲平原侯，據爲范陽侯，豹爲饒陽侯，食邑各五千戶。"
         },
         {
+          "id": "wei.1.p76.h1",
+          "type": "person",
+          "at": 41,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p76.h2",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p76.t2",
           "type": "temporal",
           "at": 57,
@@ -2326,6 +5493,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建安16年 (AD 211)，月份「三月」"
+        },
+        {
+          "id": "wei.1.p76.h3",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
         }
       ]
     },
@@ -2333,6 +5509,33 @@
       "id": "wei.1.p77",
       "text": "是時關中諸將疑繇欲自襲，馬超遂與韓遂、楊秋、李堪、成宜等叛。遣曹仁討之。超等屯潼關，公勑諸將：「關西兵精悍，堅壁勿與戰。」秋七月，公西征，與超等夾關而軍。公急持之，而潛遣徐晃、朱靈等夜渡蒲阪津，據河西爲營。公自潼關北渡，未濟，超赴船急戰。校尉丁斐因放牛馬以餌賊，賊亂取牛馬，公乃得渡，循河爲甬道而南。賊退，拒渭口，公乃多設疑兵，潛以舟載兵入渭，爲浮橋，夜，分兵結營於渭南。賊夜攻營，伏兵擊破之。超等屯渭南，遣信求割河以西請和，公不許。九月，進軍渡渭。超等數挑戰，又不許；固請割地，求送任子，公用賈詡計，偽許之。韓遂請與公相見，公與遂父同歲孝廉，又與遂同時儕輩，於是交馬語移時，不及軍事，但說京都舊故，拊手歡笑。旣罷，超等問遂：「公何言？」遂曰：「無所言也。」超等疑之。他日，公又與遂書，多所點竄，如遂改定者；超等愈疑遂。公乃與克日會戰，先以輕兵挑之，戰良久，乃縱虎騎夾擊，大破之，斬成宜、李堪等。遂、超等走涼州，楊秋奔安定，關中平。諸將或問公曰：「初，賊守潼關，渭北道缺，不從河東擊馮翊而反守潼關，引日而後北渡，何也？」公曰：「賊守潼關，若吾入河東，賊必引守諸津，則西河未可渡，吾故盛兵向潼關；賊悉衆南守，西河之備虛，故二將得擅取西河；然後引軍北渡，賊不能與吾爭西河者，以有二將之軍也。連車樹柵，爲甬道而南，旣爲不可勝，且以示弱。渡渭爲堅壘，虜至不出，所以驕之也；故賊不爲營壘而求割地。吾順言許之，所以從其意，使自安而不爲備，因畜士卒之力，一旦擊之，所謂疾雷不及掩耳，兵之變化，固非一道也。」始，賊每一部到，公輒有喜色。賊破之後，諸將問其故。公荅曰：「關中長遠，若賊各依險阻，征之，不一二年不可定也。今皆來集，其衆雖多，莫相歸服，軍無適主，一舉可滅，爲功差易，吾是以喜。」",
       "annotations": [
+        {
+          "id": "wei.1.p77.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p77.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p77.h3",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
         {
           "id": "wei.1.p77.t1",
           "type": "temporal",
@@ -2356,11 +5559,47 @@
           "text": "《魏書》曰：議者多言「關西兵彊，習長矛，非精選前鋒，則不可以當也」。公謂諸將曰：「戰在我，非在賊也。賊雖習長矛，將使不得以刺，諸君但觀之耳。」"
         },
         {
+          "id": "wei.1.p77.h4",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p77.h5",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p77.h6",
+          "type": "person",
+          "at": 113,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p77.a2",
           "type": "pei",
           "at": 142,
           "length": 0,
           "text": "《曹瞞傳》曰：公將過河，前隊適渡，超等奄至，公猶坐胡牀不起。張郃等見事急，共引公入船。河水急，北渡，流四五里，超等騎追射之，矢下如雨。諸將見軍敗，不知公所在，皆惶懼，至見，乃悲喜，或流涕。公大笑曰：「今日幾爲小賊所困乎！」"
+        },
+        {
+          "id": "wei.1.p77.h7",
+          "type": "person",
+          "at": 197,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p77.t2",
@@ -2385,6 +5624,42 @@
           "text": "《曹瞞傳》曰：時公軍每渡渭，輒爲超騎所衝突，營不得立，地又多沙，不可築壘。婁子伯說公曰：「今天寒，可起沙爲城，以水灌之，可一夜而成。」公從之，乃多作縑囊以運水，夜渡兵作城，比明，城立，由是公軍盡得渡渭。或疑于時九月，水未應凍。臣松之案《魏書》：公軍八月至潼關，閏月北渡河，則其年閏八月也，至此容可大寒邪！"
         },
         {
+          "id": "wei.1.p77.h8",
+          "type": "person",
+          "at": 225,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p77.h9",
+          "type": "person",
+          "at": 247,
+          "length": 2,
+          "text": "賈詡",
+          "person_id": "jiaxu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p77.h10",
+          "type": "person",
+          "at": 308,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p77.h11",
+          "type": "person",
+          "at": 329,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p77.a4",
           "type": "pei",
           "at": 334,
@@ -2392,11 +5667,47 @@
           "text": "《魏書》曰：公後日復與遂等會語，諸將曰：「公與虜交語，不宜輕脫，可爲木行馬以爲防遏。」公然之。賊將見公，悉於馬上拜，秦、胡觀者，前後重沓，公笑謂賊曰：「爾欲觀曹公邪？亦猶人也，非有四目兩口，但多智耳！」胡前後大觀。又列鐵騎五千爲十重陣，精光耀日，賊益震懼。"
         },
         {
+          "id": "wei.1.p77.h12",
+          "type": "person",
+          "at": 354,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p77.h13",
+          "type": "person",
+          "at": 400,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p77.h14",
+          "type": "person",
+          "at": 506,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p77.a5",
           "type": "pei",
           "at": 554,
           "length": 0,
           "text": "臣松之案：漢高祖二年，與楚戰滎陽京、索之間，築甬道屬河以取敖倉粟。應劭曰：「恐敵鈔輜重，故築垣牆如街巷也。」今魏武不築垣牆，但連車樹柵以扞兩面。"
+        },
+        {
+          "id": "wei.1.p77.h15",
+          "type": "person",
+          "at": 611,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -2440,6 +5751,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 建安16年 (AD 211)，月份「十二月」"
+        },
+        {
+          "id": "wei.1.p78.h1",
+          "type": "person",
+          "at": 42,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
         }
       ]
     },
@@ -2461,6 +5781,24 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「十七年春正月」 = 建安17年 = AD 212"
+        },
+        {
+          "id": "wei.1.p79.h1",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p79.h2",
+          "type": "person",
+          "at": 48,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
         }
       ]
     },
@@ -2482,6 +5820,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 建安17年 (AD 212)，月份「冬十月」"
+        },
+        {
+          "id": "wei.1.p80.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         }
       ]
     },
@@ -2503,6 +5850,24 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「十八年春正月」 = 建安18年 = AD 213"
+        },
+        {
+          "id": "wei.1.p81.h1",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p81.h2",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wei.1.p81.t2",
@@ -2561,6 +5926,15 @@
           "text": "《公羊傳》曰：「君若贅旒然。贅猶綴也。」何休云：「旒，旂旒也。以旒譬者，言爲下所執持東西也。」"
         },
         {
+          "id": "wei.1.p83.h1",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.1.p83.a2",
           "type": "pei",
           "at": 97,
@@ -2574,6 +5948,15 @@
       "text": "昔者董卓初興國難，羣后釋位以謀王室，君則攝進，首啟戎行，此君之忠于本朝也。後及黃巾反易天常，侵我三州，延及平民，君又翦之，以寧東夏，此又君之功也。韓暹、楊奉專用威命，君則致討，克黜其難，遂遷許都，造我京畿，設官兆祀，不失舊物，天地鬼神於是獲乂，此又君之功也。袁術僭逆，肆於淮南，懾憚君靈，用丕顯謀，蘄陽之役，橋蕤授首，稜威南邁，術以隕潰，此又君之功也。迴戈東征，呂布就戮，乘轅將返，張楊殂斃，眭固伏罪，張繡稽服，此又君之功也。袁紹逆亂天常，謀危社稷，憑恃其衆，稱兵內侮，當此之時，王師寡弱，天下寒心，莫有固志，君執大節，精貫白日，奮其武怒，運其神策，致屆官渡，大殲醜類，俾我國家拯於危墜，此又君之功也。濟師洪河，拓定四州，袁譚、高幹，咸梟其首，海盜奔迸，黑山順軌，此又君之功也。烏丸三種，崇亂二世，袁尚因之，逼據塞北，束馬縣車，一征而滅，此又君之功也。劉表背誕，不供貢職，王師首路，威風先逝，百城八郡，交臂屈膝，此又君之功也。馬超、成宜，同惡相濟，濵據河、潼，求逞所欲，殄之渭南，獻馘萬計，遂定邊境，撫和戎狄，此又君之功也。鮮卑、丁零，重譯而至，箄于、白屋，請吏率職，此又君之功也。君有定天下之功，重之以明德，班敘海內，宣美風俗，旁施勤教，恤慎刑獄，吏無苛政，民無懷慝；敦崇帝族，表繼絕世，舊德前功，罔不咸秩；雖伊尹格于皇天，周公光于四海，方之蔑如也。",
       "annotations": [
         {
+          "id": "wei.1.p84.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p84.a1",
           "type": "pei",
           "at": 18,
@@ -2581,11 +5964,92 @@
           "text": "《左氏傳》曰：「諸侯釋位以間王政。」服虔曰：「言諸侯釋其私政而佐王室。」"
         },
         {
+          "id": "wei.1.p84.h2",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p84.h3",
+          "type": "person",
+          "at": 145,
+          "length": 1,
+          "text": "丕",
+          "person_id": "caopi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p84.h4",
+          "type": "person",
+          "at": 164,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p84.h5",
+          "type": "person",
+          "at": 181,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p84.h6",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "張楊",
+          "person_id": "zhangyang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p84.h7",
+          "type": "person",
+          "at": 213,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p84.a2",
           "type": "pei",
           "at": 285,
           "length": 0,
           "text": "詩曰：「致天之屆，于牧之野。」鄭玄云：「屆，極也。」鴻範曰：「鯀則殛死。」"
+        },
+        {
+          "id": "wei.1.p84.h8",
+          "type": "person",
+          "at": 376,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p84.h9",
+          "type": "person",
+          "at": 413,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p84.h10",
+          "type": "person",
+          "at": 540,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
         }
       ]
     },
@@ -2593,6 +6057,33 @@
       "id": "wei.1.p85",
       "text": "朕聞先王並建明德，胙之以土，分之以民，崇其寵章，備其禮物，所以藩衞王室，左右厥世也。其在周成，管、蔡不靜，懲難念功，乃使邵康公賜齊太公履，東至于海，西至于河，南至于穆陵，北至于無棣，五侯九伯，實得征之，世祚太師，以表東海；爰及襄王，亦有楚人不供王職，又命晉文登爲侯伯，錫以二輅、虎賁、鈇鉞、秬鬯、弓矢，大啟南陽，世作盟主。故周室之不壞，繄二國是賴。今君稱丕顯德，明保朕躬，奉荅天命，導揚弘烈，緩爰九域，莫不率俾，功高于伊、周，而賞卑於齊、晉，朕甚恧焉。朕以眇眇之身，託于兆民之上，永思厥艱，若涉淵冰，非君攸濟，朕無任焉。今以冀州之河東、河內、魏郡、趙國、中山、常山、鉅鹿、安平、甘陵、平原凡十郡，封君爲魏公。錫君玄土，苴以白茅；爰契爾龜，用建冢社。昔在周室，畢公、毛公入爲卿佐，周、邵師保出爲二伯，外內之任，君實宜之，其以丞相領冀州牧如故。又加君九錫，其敬聽朕命。",
       "annotations": [
+        {
+          "id": "wei.1.p85.h1",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p85.h2",
+          "type": "person",
+          "at": 107,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p85.h3",
+          "type": "person",
+          "at": 177,
+          "length": 1,
+          "text": "丕",
+          "person_id": "caopi",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.1.p85.a1",
           "type": "pei",
@@ -2619,6 +6110,15 @@
           "at": 213,
           "length": 0,
           "text": "「糾虔天刑」語出《國語》，韋昭注曰：「糾，察也。虔，敬也。刑，法也。」"
+        },
+        {
+          "id": "wei.1.p86.h1",
+          "type": "person",
+          "at": 359,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.1.p86.a3",
@@ -2712,7 +6212,35 @@
     {
       "id": "wei.1.p88",
       "text": "馬超在漢陽，復因羌、胡爲害，氐王千萬叛應超，屯興國。使夏侯淵討之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p88.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p88.h2",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p88.h3",
+          "type": "person",
+          "at": 27,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.1.p89",
@@ -2732,6 +6260,33 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「十九年春正月」 = 建安19年 = AD 214"
+        },
+        {
+          "id": "wei.1.p89.h1",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p89.h2",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p89.h3",
+          "type": "person",
+          "at": 56,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
         }
       ]
     },
@@ -2796,6 +6351,15 @@
           "reasoning": "年承前文 建安19年 (AD 214)，月份「秋七月」"
         },
         {
+          "id": "wei.1.p92.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p92.a1",
           "type": "pei",
           "at": 9,
@@ -2808,6 +6372,15 @@
       "id": "wei.1.p93",
       "text": "初，隴西宋建自稱河首平漢王，聚衆枹罕，改元，置百官，三十餘年。遣夏侯淵自興國討之。冬十月，屠枹罕，斬建，涼州平。",
       "annotations": [
+        {
+          "id": "wei.1.p93.h1",
+          "type": "person",
+          "at": 32,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
         {
           "id": "wei.1.p93.t1",
           "type": "temporal",
@@ -2848,6 +6421,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「十一月」"
+        },
+        {
+          "id": "wei.1.p95.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
         },
         {
           "id": "wei.1.p95.a1",
@@ -2897,6 +6479,15 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「二十年春正月」 = 建安20年 = AD 215"
+        },
+        {
+          "id": "wei.1.p97.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "caojie_huanghou",
+          "via": "llm"
         }
       ]
     },
@@ -2918,6 +6509,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「三月」"
+        },
+        {
+          "id": "wei.1.p98.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
         },
         {
           "id": "wei.1.p98.t2",
@@ -2998,6 +6598,33 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「八月」"
+        },
+        {
+          "id": "wei.1.p99.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p99.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p99.h3",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "李典",
+          "person_id": "lidian",
+          "via": "primary"
         }
       ]
     },
@@ -3082,6 +6709,33 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「十一月」"
+        },
+        {
+          "id": "wei.1.p102.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p102.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p102.h3",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
         }
       ]
     },
@@ -3103,6 +6757,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「十二月」"
+        },
+        {
+          "id": "wei.1.p103.h1",
+          "type": "person",
+          "at": 11,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
         },
         {
           "id": "wei.1.p103.a1",
@@ -3214,6 +6877,15 @@
           "reasoning": "年承前文 建安21年 (AD 216)，月份「八月」"
         },
         {
+          "id": "wei.1.p104.h1",
+          "type": "person",
+          "at": 111,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p104.a4",
           "type": "pei",
           "at": 117,
@@ -3247,6 +6919,15 @@
           "at": 7,
           "length": 0,
           "text": "《魏書》曰：王親執金鼔以令進退。"
+        },
+        {
+          "id": "wei.1.p105.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
         },
         {
           "id": "wei.1.p105.t2",
@@ -3300,6 +6981,24 @@
           "reasoning": "年承前文 建安22年 (AD 217)，月份「二月」"
         },
         {
+          "id": "wei.1.p106.h1",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p106.h2",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.1.p106.t3",
           "type": "temporal",
           "at": 43,
@@ -3313,6 +7012,33 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建安22年 (AD 217)，月份「三月」"
+        },
+        {
+          "id": "wei.1.p106.h3",
+          "type": "person",
+          "at": 52,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p106.h4",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p106.h5",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
         }
       ]
     },
@@ -3366,6 +7092,15 @@
           "reasoning": "年承前文 建安22年 (AD 217)，月份「六月」"
         },
         {
+          "id": "wei.1.p107.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p107.a1",
           "type": "pei",
           "at": 41,
@@ -3386,13 +7121,59 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 建安22年 (AD 217)，月份「冬十月」"
+        },
+        {
+          "id": "wei.1.p107.h2",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "wei.1.p108",
       "text": "劉備遣張飛、馬超、吳蘭等屯下辯；遣曹洪拒之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p108.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p108.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p108.h3",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p108.h4",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.1.p109",
@@ -3434,6 +7215,15 @@
       "text": "曹洪破吳蘭，斬其將任夔等。三月，張飛、馬超走漢中，陰平氐強端斬吳蘭，傳其首。",
       "annotations": [
         {
+          "id": "wei.1.p110.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p110.t1",
           "type": "temporal",
           "at": 13,
@@ -3447,6 +7237,24 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建安23年 (AD 218)，月份「三月」"
+        },
+        {
+          "id": "wei.1.p110.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p110.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
         }
       ]
     },
@@ -3519,6 +7327,15 @@
           "reasoning": "年承前文 建安23年 (AD 218)，月份「秋七月」"
         },
         {
+          "id": "wei.1.p113.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p113.t2",
           "type": "temporal",
           "at": 13,
@@ -3553,6 +7370,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 建安23年 (AD 218)，月份「冬十月」"
+        },
+        {
+          "id": "wei.1.p114.h1",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p114.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
         }
       ]
     },
@@ -3589,6 +7424,33 @@
       "text": "夏侯淵與劉備戰於陽平，爲備所殺。三月，王自長安出斜谷，軍遮要以臨漢中，遂至陽平。備因險拒守。",
       "annotations": [
         {
+          "id": "wei.1.p116.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p116.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p116.h3",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p116.t1",
           "type": "temporal",
           "at": 16,
@@ -3602,6 +7464,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建安24年 (AD 219)，月份「三月」"
+        },
+        {
+          "id": "wei.1.p116.h4",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
         },
         {
           "id": "wei.1.p116.a1",
@@ -3653,6 +7524,42 @@
           "reasoning": "年承前文 建安24年 (AD 219)，月份「秋七月」"
         },
         {
+          "id": "wei.1.p118.h6",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "王后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.1.p118.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "于禁",
+          "person_id": "yujin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p118.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p118.h3",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
           "id": "wei.1.p118.t2",
           "type": "temporal",
           "at": 23,
@@ -3666,6 +7573,24 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安24年 (AD 219)，月份「八月」"
+        },
+        {
+          "id": "wei.1.p118.h4",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p118.h5",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
         }
       ]
     },
@@ -3687,6 +7612,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 建安24年 (AD 219)，月份「九月」"
+        },
+        {
+          "id": "wei.1.p119.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
         },
         {
           "id": "wei.1.p119.a1",
@@ -3724,6 +7658,51 @@
           "text": "《曹瞞傳》曰：王更脩治北部尉廨，令過於舊。"
         },
         {
+          "id": "wei.1.p120.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p120.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p120.h3",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p120.h4",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.1.p120.h5",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
           "id": "wei.1.p120.a2",
           "type": "pei",
           "at": 53,
@@ -3750,6 +7729,24 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「二十五年春正月」 = 建安25年 = AD 220"
+        },
+        {
+          "id": "wei.1.p121.h1",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.1.p121.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -3784,12 +7781,26 @@
     {
       "id": "wei.1.p123",
       "text": "評曰：漢末，天下大亂，雄豪並起，而袁紹虎眎四州，彊盛莫敵。太祖運籌演謀，鞭撻宇內，擥申、商之法術，該韓、白之奇策，官方授材，各因其器，矯情任筭，不念舊惡，終能總御皇機，克成洪業者，惟其明略最優也。抑可謂非常之人，超世之傑矣。",
-      "annotations": []
-    },
-    {
-      "id": "wei.1.p124",
-      "text": "此西晉作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.1.p123.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.1.p123.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     }
   ]
 }

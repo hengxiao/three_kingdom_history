@@ -2,39 +2,225 @@ chapter: wei.12
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷12
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: c4029c011e65e61f3f3cc7b3d5592d797f61c179514d22caf48ffc5a69d96437
 annotations:
+- id: wei.12.p1.h1
+  anchor: wei.12.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: cuiyan
+  text: 崔琰
+  via: primary
+- id: wei.12.p2.h1
+  anchor: wei.12.p2
+  at: 3
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.12.p2.h2
+  anchor: wei.12.p2
+  at: 86
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.12.p2.h3
+  anchor: wei.12.p2
+  at: 94
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.12.p2.h4
+  anchor: wei.12.p2
+  at: 134
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.12.p2.h5
+  anchor: wei.12.p2
+  at: 145
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.12.p3.h1
+  anchor: wei.12.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p3.h2
+  anchor: wei.12.p3
+  at: 121
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p4.h1
+  anchor: wei.12.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p4.h2
+  anchor: wei.12.p4
+  at: 9
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.12.p7.h1
+  anchor: wei.12.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.12.p7
+  at: 84
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「魏國初建……時未立太子，臨菑侯植有才而愛」崔琰露板諫立曹丕為太子，所立即曹丕。
+  id: wei.12.p7.h4
+- id: wei.12.p7.h2
+  anchor: wei.12.p7
+  at: 96
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p7.h3
+  anchor: wei.12.p7
+  at: 159
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p7.a1
   anchor: wei.12.p7
   at: 171
   length: 0
   type: pei
   text: 《世語》曰：植妻衣繡，太祖登臺見之，以違制命還家賜死。
+- id: wei.12.p8.h1
+  anchor: wei.12.p8
+  at: 27
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p8.a1
   anchor: wei.12.p8
   at: 34
   length: 0
   type: pei
   text: 先賢行狀曰：琰清忠高亮，雅識經遠，推方直道，正色於朝。魏氏初載，委授銓衡，總齊清議，十有餘年。文武羣才，多所明拔。朝廷歸高，天下稱仁。
+- id: wei.12.p8.h2
+  anchor: wei.12.p8
+  at: 54
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p8.h3
+  anchor: wei.12.p8
+  at: 62
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p8.h4
+  anchor: wei.12.p8
+  at: 159
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p8.h5
+  anchor: wei.12.p8
+  at: 212
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p8.a2
   anchor: wei.12.p8
   at: 252
   length: 0
   type: pei
   text: 《魏略》曰：人得琰書，以裹幘籠，持其籠行都道中。時有與琰宿不平者，遙見琰名著幘籠，從而視之，遂白之。太祖以爲琰腹誹心謗，乃收付獄，髡刑輸徒。前所白琰者又復白之云：『琰爲徒，虬鬚直視，心似不平。』時太祖亦以爲然，遂欲殺之。乃使清公大吏往經营琰，敕吏曰：『三日期消息。』琰不悟，後數日，吏故白琰平安。公忿然曰：『崔琰必欲使孤行刀鋸乎！』吏以是教告琰，琰謝吏曰：『我殊不宜，不知公意至此也！』遂自殺。
+- id: wei.12.p9.h1
+  anchor: wei.12.p9
+  at: 3
+  length: 3
+  type: person
+  person_id: simalang
+  text: 司馬朗
+  via: primary
 - id: wei.12.p9.a1
   anchor: wei.12.p9
   at: 43
   length: 0
   type: pei
   text: 臣松之案：『跱』或作『特』，竊謂『英特』爲是也。
+- id: wei.12.p9.h2
+  anchor: wei.12.p9
+  at: 98
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
 - id: wei.12.p9.a2
   anchor: wei.12.p9
   at: 189
   length: 0
   type: pei
   text: 《魏略》曰：明帝時，崔林嘗與司空陳羣共論冀州人士，稱琰爲首。羣以『智不存身』貶之。林曰：『大丈夫爲有邂逅耳，即如卿諸人，良足貴乎！』
+- id: wei.12.p10.h1
+  anchor: wei.12.p10
+  at: 2
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p10.h2
+  anchor: wei.12.p10
+  at: 15
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
 - id: wei.12.p10.a1
   anchor: wei.12.p10
   at: 18
@@ -59,30 +245,320 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：琰兄孫諒，字士文，以簡素稱，仕晉爲尚書大鸿胪。荀绰《冀州记》云諒即琰之孫也。
+- id: wei.12.p11.h1
+  anchor: wei.12.p11
+  at: 0
+  length: 2
+  type: person
+  person_id: maojie
+  text: 毛玠
+  via: primary
+- id: wei.12.p11.h2
+  anchor: wei.12.p11
+  at: 33
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.12.p11.h3
+  anchor: wei.12.p11
+  at: 45
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p11.h4
+  anchor: wei.12.p11
+  at: 60
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p11.h5
+  anchor: wei.12.p11
+  at: 108
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.12.p11.h6
+  anchor: wei.12.p11
+  at: 111
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.12.p11.h7
+  anchor: wei.12.p11
+  at: 176
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p12.h1
+  anchor: wei.12.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p12.h2
+  anchor: wei.12.p12
+  at: 16
+  length: 2
+  type: person
+  person_id: cuiyan
+  text: 崔琰
+  via: primary
+- id: wei.12.p12.h3
+  anchor: wei.12.p12
+  at: 85
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p12.h4
+  anchor: wei.12.p12
+  at: 110
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.12.p12.h5
+  anchor: wei.12.p12
+  at: 210
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p13.h1
+  anchor: wei.12.p13
+  at: 2
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p13.a1
   anchor: wei.12.p13
   at: 97
   length: 0
   type: pei
   text: 《先賢行狀》曰：玠雅亮公正，在官清恪。其典选舉，拔貞實，斥華僞，进遜行，抑阿党。諸宰官治民功绩不著而私财丰足者，皆免黜停废，久不选用。于時四海翕然，莫不励行。至乃長吏還者，垢面羸衣，常乘柴车。軍吏入府，朝服徒行。人拟壶飧之絜，家象濯缨之操，貴者無秽欲之累，賤者绝姦货之求，吏絜于上，俗移乎下，民到于今稱之。
+- anchor: wei.12.p13
+  at: 98
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子未定，而臨菑侯植有寵」毛玠密諫立長，最終立為太子者即曹丕。
+  id: wei.12.p13.h4
+- id: wei.12.p13.h2
+  anchor: wei.12.p13
+  at: 119
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.12.p13.h3
+  anchor: wei.12.p13
+  at: 153
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p14.h1
+  anchor: wei.12.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: cuiyan
+  text: 崔琰
+  via: primary
+- id: wei.12.p14.h2
+  anchor: wei.12.p14
+  at: 48
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p15.h1
+  anchor: wei.12.p15
+  at: 192
+  length: 2
+  type: person
+  person_id: zhouxuan
+  text: 周宣
+  via: primary
+- id: wei.12.p17.h1
+  anchor: wei.12.p17
+  at: 1
+  length: 2
+  type: person
+  person_id: huanjie
+  text: 桓階
+  via: primary
+- id: wei.12.p17.h2
+  anchor: wei.12.p17
+  at: 4
+  length: 2
+  type: person
+  person_id: heqia
+  text: 和洽
+  via: primary
 - id: wei.12.p17.a1
   anchor: wei.12.p17
   at: 20
   length: 0
   type: pei
   text: 孫盛曰：魏武於是失政刑矣。《易》稱『明折庶獄』，《傳》有『舉直措枉』，庶獄明則國無怨民，枉直當則民無不服，未有徵青蝇之浮聲，信浸润之谮诉，可以允釐四海，惟清缉熙者也。昔者漢高獄萧何，出復相之，玠之一责，永見摈放，二主度量，豈不殊哉！
+- id: wei.12.p17.h3
+  anchor: wei.12.p17
+  at: 20
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p18.h1
+  anchor: wei.12.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: xuyi
+  text: 徐奕
+  via: primary
+- id: wei.12.p18.h2
+  anchor: wei.12.p18
+  at: 16
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wei.12.p18.h3
+  anchor: wei.12.p18
+  at: 33
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p18.h4
+  anchor: wei.12.p18
+  at: 47
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: wei.12.p18.h5
+  anchor: wei.12.p18
+  at: 50
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
 - id: wei.12.p18.a1
   anchor: wei.12.p18
   at: 119
   length: 0
   type: pei
   text: 《魏書》曰：或謂奕曰：『夫以史魚之直，孰與蘧伯玉之智？丁儀方貴重，宜思所以下之。』奕曰：『以公明聖，儀豈得行其僞乎！且奸以事君者，吾所能御也，子寧以他規我。』《傅子》曰：武皇帝，至明也。崔琰、徐奕，一時清賢，皆以忠信顯於魏朝；丁儀間之，徐奕失位而崔琰被誅。
+- id: wei.12.p18.h6
+  anchor: wei.12.p18
+  at: 126
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p19.h1
+  anchor: wei.12.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p19.h2
+  anchor: wei.12.p19
+  at: 14
+  length: 2
+  type: person
+  person_id: yangjun
+  text: 楊俊
+  via: primary
+- id: wei.12.p19.h3
+  anchor: wei.12.p19
+  at: 19
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p19.h4
+  anchor: wei.12.p19
+  at: 62
+  length: 2
+  type: person
+  person_id: huanjie
+  text: 桓階
+  via: primary
+- id: wei.12.p19.h5
+  anchor: wei.12.p19
+  at: 67
+  length: 2
+  type: person
+  person_id: xuyi
+  text: 徐奕
+  via: primary
+- id: wei.12.p19.h6
+  anchor: wei.12.p19
+  at: 74
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p19.a1
   anchor: wei.12.p19
   at: 148
   length: 0
   type: pei
   text: 《魏書》曰：文帝每與朝臣會同，未嘗不嗟歎，思奕之爲人。奕無子，詔以其族子統爲郎，以奉奕後。
+- id: wei.12.p20.h1
+  anchor: wei.12.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: hekui
+  text: 何夔
+  via: primary
+- id: wei.12.p20.h2
+  anchor: wei.12.p20
+  at: 18
+  length: 3
+  type: person
+  person_id: anhan
+  text: 漢安帝
+  via: primary
 - id: wei.12.p20.a1
   anchor: wei.12.p20
   at: 29
@@ -95,6 +571,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：漢末阉宦用事，夔從父衡爲尚書，有直言，由是在党中，諸父兄皆禁锢。夔歎曰：『天地闭，賢人隱。』故不应宰司之命。
+- id: wei.12.p20.h3
+  anchor: wei.12.p20
+  at: 97
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p21.t1
   anchor: wei.12.p21
   at: 0
@@ -119,6 +603,38 @@ annotations:
   era: 建安
   era_year: 3
   reasoning: 「明年」 = 当前年 建安2年 (AD 197) 之次年 = AD 198
+- id: wei.12.p21.h1
+  anchor: wei.12.p21
+  at: 32
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p21.h2
+  anchor: wei.12.p21
+  at: 50
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p21.h3
+  anchor: wei.12.p21
+  at: 136
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p21.h4
+  anchor: wei.12.p21
+  at: 163
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p21.a1
   anchor: wei.12.p21
   at: 196
@@ -131,18 +647,240 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：自劉備叛后，東南多變。太祖以陳羣爲酂令，夔爲城父令，諸縣皆用名士以镇撫之，其后吏民稍定。
+- id: wei.12.p23.h1
+  anchor: wei.12.p23
+  at: 2
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p25.h1
+  anchor: wei.12.p25
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p25.h2
+  anchor: wei.12.p25
+  at: 33
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p26.h1
+  anchor: wei.12.p26
+  at: 11
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p28.h1
+  anchor: wei.12.p28
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p28.a1
   anchor: wei.12.p28
   at: 16
   length: 0
   type: pei
   text: 《魏書》曰：時丁儀兄弟方进寵，儀與夔不合。尚書傅巽謂夔曰：『儀不相好已甚，子友毛玠，玠等儀已害之矣。子宜少下之！』夔曰：『爲不義適足害其身，焉能害人？且怀奸佞之心，立於明朝，其得久乎！』夔終不屈志，儀后果以凶僞敗。
+- id: wei.12.p28.h2
+  anchor: wei.12.p28
+  at: 16
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.12.p28
+  at: 19
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「文帝為太子，以涼茂為太傅」文帝即曹丕。
+  id: wei.12.p28.h4
+- anchor: wei.12.p28
+  at: 45
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「並選太子諸侯官屬」續指曹丕之太子官屬。
+  id: wei.12.p28.h5
+- anchor: wei.12.p28
+  at: 68
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太傅入見太子」續指曹丕。
+  id: wei.12.p28.h6
+- anchor: wei.12.p28
+  at: 71
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子正法服而禮焉」續指曹丕。
+  id: wei.12.p28.h7
+- anchor: wei.12.p28
+  at: 91
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子欲與辭」續指曹丕。
+  id: wei.12.p28.h8
+- id: wei.12.p28.h3
+  anchor: wei.12.p28
+  at: 141
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.12.p29.a1
   anchor: wei.12.p29
   at: 11
   length: 0
   type: pei
   text: 干寶《晉紀》曰：曾字颖考。正元中爲司隸校尉。時毌丘儉孫女適劉氏，以孕系廷尉。女母荀，爲武卫將軍荀顗所表活，既免，辭诣廷尉，乞爲官婢以赎女命。曾使主簿程咸爲議，議曰：『大魏承奏、漢之弊，未及革制。所以追戮已出之女，誠欲殄丑類之族也。若已产育，則成他家之母。於防則不足惩姦亂之源，於情則傷孝子之思，男不御罪於他族，而女獨婴戮於二門，非所以哀矜女弱，均法制之大分也。臣以爲在室之女，可從父母之刑，既醮之妇，使從夫家之戮。』朝廷從之，乃定律令。《晉諸公贊》曰：曾以高雅稱，加性纯孝，位至太宰，封朗陵縣公。年八十餘薨，諡曰元公。子邵嗣。邵字敬祖，才識深博，有經國体儀。位亦至太宰，諡康公。子蕤嗣。邵庶兄遵，字思祖，有幹能。少經清職，終於太僕。遵子绥，字伯蔚，亦以幹事稱。永嘉中爲尚書，爲司馬越所殺。《傅子》稱曾及荀顗曰：『以文王之道事其親者，其潁昌何侯乎！其荀侯乎！古稱曾、闵，今曰荀、何。内尽其心以事其親，外崇禮讓以接天下。孝子，百世之宗；仁人，天下之令也。有能行仁孝之道者，君子之儀表矣。』
+- id: wei.12.p30.h1
+  anchor: wei.12.p30
+  at: 0
+  length: 2
+  type: person
+  person_id: xingyong
+  text: 邢顒
+  via: primary
+- id: wei.12.p30.h2
+  anchor: wei.12.p30
+  at: 43
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p30.h3
+  anchor: wei.12.p30
+  at: 109
+  length: 2
+  type: person
+  person_id: xingyong
+  text: 邢顒
+  via: primary
+- id: wei.12.p30.h4
+  anchor: wei.12.p30
+  at: 121
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p31.h1
+  anchor: wei.12.p31
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p31.h2
+  anchor: wei.12.p31
+  at: 43
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p31.h3
+  anchor: wei.12.p31
+  at: 107
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p31.h4
+  anchor: wei.12.p31
+  at: 131
+  length: 2
+  type: person
+  person_id: xingyong
+  text: 邢顒
+  via: primary
+- id: wei.12.p31.h5
+  anchor: wei.12.p31
+  at: 174
+  length: 2
+  type: person
+  person_id: xingyong
+  text: 邢顒
+  via: primary
+- anchor: wei.12.p31
+  at: 290
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 邢顒「太子未定……以庶代宗」諫太祖立曹丕，最終即立曹丕。
+  id: wei.12.p31.h8
+- id: wei.12.p31.h6
+  anchor: wei.12.p31
+  at: 312
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p31.h7
+  anchor: wei.12.p31
+  at: 342
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.12.p31
+  at: 352
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「以為太子少傅」邢顒所傅之太子即曹丕。
+  id: wei.12.p31.h9
+- id: wei.12.p32.h1
+  anchor: wei.12.p32
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.12.p32.t1
   anchor: wei.12.p32
   at: 30
@@ -161,6 +899,38 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：顒曾孫乔，字曾伯。有体量局幹，美於當世。历清職。元康中，與劉涣俱爲尚書吏部郎，稍遷至司隸校尉。
+- id: wei.12.p33.h1
+  anchor: wei.12.p33
+  at: 0
+  length: 2
+  type: person
+  person_id: baoxun
+  text: 鮑勛
+  via: primary
+- id: wei.12.p33.h2
+  anchor: wei.12.p33
+  at: 70
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p33.h3
+  anchor: wei.12.p33
+  at: 81
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.12.p33.h4
+  anchor: wei.12.p33
+  at: 87
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
 - id: wei.12.p33.a1
   anchor: wei.12.p33
   at: 92
@@ -179,6 +949,14 @@ annotations:
   era: 建安
   era_year: 17
   reasoning: 原文「建安十七年」直接出现年号；解析為 AD 212（回溯前事，不推進章節時間軸）
+- id: wei.12.p33.h5
+  anchor: wei.12.p33
+  at: 98
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p33.a2
   anchor: wei.12.p33
   at: 115
@@ -191,6 +969,54 @@ annotations:
   length: 0
   type: pei
   text: 魏書曰：勛清白有高節，知名於世。
+- anchor: wei.12.p34
+  at: 6
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 建安「二十二年，立太子」即立曹丕為魏太子。
+  id: wei.12.p34.h3
+- anchor: wei.12.p34
+  at: 31
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子郭夫人弟」郭夫人即曹丕嬪，太子即曹丕。
+  id: wei.12.p34.h4
+- id: wei.12.p34.h1
+  anchor: wei.12.p34
+  at: 53
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.12.p34
+  at: 59
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子留鄴」續指曹丕。
+  id: wei.12.p34.h5
+- anchor: wei.12.p34
+  at: 93
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子固不能悅」續指曹丕。
+  id: wei.12.p34.h6
 - id: wei.12.p34.t1
   anchor: wei.12.p34
   at: 137
@@ -203,6 +1029,80 @@ annotations:
   era: 延康
   era_year: 1
   reasoning: 原文「延康元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
+- id: wei.12.p34.h2
+  anchor: wei.12.p34
+  at: 142
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.12.p34
+  at: 146
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「延康元年，太祖崩，太子即王位」太子即繼魏王位之曹丕。
+  id: wei.12.p34.h7
+- id: wei.12.p35.h1
+  anchor: wei.12.p35
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.12.p35.h2
+  anchor: wei.12.p35
+  at: 35
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- anchor: wei.12.p35
+  at: 70
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 鮑勛諫文帝出獵疏「陛下仁聖惻隱」，文帝即曹丕。
+  id: wei.12.p35.h3
+- anchor: wei.12.p35
+  at: 119
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「唯陛下察焉」續指曹丕。
+  id: wei.12.p35.h4
+- anchor: wei.12.p35
+  at: 253
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「雖陛下以為務」續指曹丕。
+  id: wei.12.p35.h5
+- anchor: wei.12.p35
+  at: 280
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 「阿順陛下過戲之言」續指曹丕。
+  id: wei.12.p35.h6
 - id: wei.12.p36.t1
   anchor: wei.12.p36
   at: 0
@@ -215,6 +1115,14 @@ annotations:
   era: 黃初
   era_year: 4
   reasoning: 原文「黃初四年」直接出现年号；解析為 AD 223
+- id: wei.12.p36.h1
+  anchor: wei.12.p36
+  at: 8
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
 - id: wei.12.p36.t2
   anchor: wei.12.p36
   at: 51
@@ -227,18 +1135,142 @@ annotations:
   era: 黃初
   era_year: 6
   reasoning: 承前文年號「黃初」推得，「六年」 = 黃初6年 = AD 225
+- id: wei.12.p37.h1
+  anchor: wei.12.p37
+  at: 171
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
+- id: wei.12.p37.h2
+  anchor: wei.12.p37
+  at: 179
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
+- id: wei.12.p37.h3
+  anchor: wei.12.p37
+  at: 184
+  length: 2
+  type: person
+  person_id: xinpi
+  text: 辛毗
+  via: primary
+- id: wei.12.p37.h4
+  anchor: wei.12.p37
+  at: 195
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
+- id: wei.12.p37.h5
+  anchor: wei.12.p37
+  at: 207
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p37.h6
+  anchor: wei.12.p37
+  at: 248
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.12.p38.h1
+  anchor: wei.12.p38
+  at: 0
+  length: 3
+  type: person
+  person_id: simazhi
+  text: 司馬芝
+  via: primary
+- id: wei.12.p39.h1
+  anchor: wei.12.p39
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.12.p39.a1
   anchor: wei.12.p39
   at: 299
   length: 0
   type: pei
   text: 《魏略》曰：勛字子臺，琅邪人。中平末，爲沛國建平長，與太祖有舊。后爲庐江太守，爲孫策所破，自歸太祖，封列侯，遂從在散伍議中。勛兄爲豫州刺史，病亡。兄子威，又代從政。勛自恃與太祖有宿，日骄慢，數犯法，又誹謗。爲李申成所白，收治，並免威官。
+- id: wei.12.p40.h1
+  anchor: wei.12.p40
+  at: 113
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.12.p41.h1
+  anchor: wei.12.p41
+  at: 39
+  length: 2
+  type: person
+  person_id: dongzhao
+  text: 董昭
+  via: primary
+- id: wei.12.p42.h1
+  anchor: wei.12.p42
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.12.p42.h2
+  anchor: wei.12.p42
+  at: 16
+  length: 2
+  type: person
+  person_id: caohong
+  text: 曹洪
+  via: primary
 - id: wei.12.p42.a1
   anchor: wei.12.p42
   at: 34
   length: 0
   type: pei
   text: 臣松之案：無涧，山名，在洛陽東北。
+- anchor: wei.12.p42
+  at: 38
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「卞太后遣黃門詣府傳令」即魏武帝皇后卞氏（明帝祖母），roster未列卞太后。
+  id: wei.12.p42.h3
+- anchor: wei.12.p43
+  at: 48
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「傳太皇太后令」續指卞氏（明帝即位後尊為太皇太后），roster未列。
+  id: wei.12.p43.h1
+- id: wei.12.p46.h1
+  anchor: wei.12.p46
+  at: 64
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
 - id: wei.12.p46.t1
   anchor: wei.12.p46
   at: 215
@@ -273,3 +1305,59 @@ annotations:
   length: 0
   type: pei
   text: 肇，晉太康中爲冀州刺史、尚書，見（百官志）〔百官名〕。
+- id: wei.12.p49.h1
+  anchor: wei.12.p49
+  at: 3
+  length: 2
+  type: person
+  person_id: xuyi
+  text: 徐奕
+  via: primary
+- id: wei.12.p49.h2
+  anchor: wei.12.p49
+  at: 6
+  length: 2
+  type: person
+  person_id: hekui
+  text: 何夔
+  via: primary
+- id: wei.12.p49.h3
+  anchor: wei.12.p49
+  at: 9
+  length: 2
+  type: person
+  person_id: xingyong
+  text: 邢顒
+  via: primary
+- id: wei.12.p49.h4
+  anchor: wei.12.p49
+  at: 21
+  length: 2
+  type: person
+  person_id: maojie
+  text: 毛玠
+  via: primary
+- id: wei.12.p49.h5
+  anchor: wei.12.p49
+  at: 28
+  length: 3
+  type: person
+  person_id: simazhi
+  text: 司馬芝
+  via: primary
+- id: wei.12.p49.h6
+  anchor: wei.12.p49
+  at: 44
+  length: 2
+  type: person
+  person_id: cuiyan
+  text: 崔琰
+  via: primary
+- id: wei.12.p49.h7
+  anchor: wei.12.p49
+  at: 51
+  length: 2
+  type: person
+  person_id: baoxun
+  text: 鮑勛
+  via: primary

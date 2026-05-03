@@ -2,9 +2,17 @@ chapter: wei.10
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷10
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 98ea4c26179cf136c3617c9f0821787c7c29541e4fe52183053350a27b3573bf
 annotations:
+- id: wei.10.p1.h1
+  anchor: wei.10.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
 - id: wei.10.p2.a1
   anchor: wei.10.p2
   at: 21
@@ -23,6 +31,46 @@ annotations:
   era: 永漢
   era_year: 1
   reasoning: 原文「永漢元年」直接出现年号；解析為 AD 189
+- id: wei.10.p2.h1
+  anchor: wei.10.p2
+  at: 35
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.10.p2.h2
+  anchor: wei.10.p2
+  at: 126
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p2.h3
+  anchor: wei.10.p2
+  at: 155
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p2.h4
+  anchor: wei.10.p2
+  at: 161
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p2.h5
+  anchor: wei.10.p2
+  at: 170
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p2.t2
   anchor: wei.10.p2
   at: 182
@@ -35,6 +83,62 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 原文「初平二年」直接出现年号；解析為 AD 191
+- id: wei.10.p2.h6
+  anchor: wei.10.p2
+  at: 189
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p2.h7
+  anchor: wei.10.p2
+  at: 191
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h8
+  anchor: wei.10.p2
+  at: 194
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h9
+  anchor: wei.10.p2
+  at: 222
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.10.p2.h10
+  anchor: wei.10.p2
+  at: 229
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h11
+  anchor: wei.10.p2
+  at: 239
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.10.p2.h12
+  anchor: wei.10.p2
+  at: 256
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.10.p2.t3
   anchor: wei.10.p2
   at: 288
@@ -47,6 +151,14 @@ annotations:
   era: 初平
   era_year: 3
   reasoning: 「明年」 = 当前年 初平2年 (AD 191) 之次年 = AD 192
+- id: wei.10.p2.h13
+  anchor: wei.10.p2
+  at: 291
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p2.t4
   anchor: wei.10.p2
   at: 312
@@ -59,6 +171,134 @@ annotations:
   era: 興平
   era_year: 1
   reasoning: 原文「興平元年」直接出现年号；解析為 AD 194
+- id: wei.10.p2.h14
+  anchor: wei.10.p2
+  at: 317
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h15
+  anchor: wei.10.p2
+  at: 320
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wei.10.p2.h16
+  anchor: wei.10.p2
+  at: 329
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: wei.10.p2.h17
+  anchor: wei.10.p2
+  at: 341
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p2.h18
+  anchor: wei.10.p2
+  at: 344
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p2.h19
+  anchor: wei.10.p2
+  at: 367
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wei.10.p2.h20
+  anchor: wei.10.p2
+  at: 400
+  length: 3
+  type: person
+  person_id: xiahoudun
+  text: 夏侯惇
+  via: primary
+- id: wei.10.p2.h21
+  anchor: wei.10.p2
+  at: 411
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p2.h22
+  anchor: wei.10.p2
+  at: 415
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h23
+  anchor: wei.10.p2
+  at: 420
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: wei.10.p2.h24
+  anchor: wei.10.p2
+  at: 475
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p2.h25
+  anchor: wei.10.p2
+  at: 588
+  length: 2
+  type: person
+  person_id: chengyu
+  text: 程昱
+  via: primary
+- id: wei.10.p2.h26
+  anchor: wei.10.p2
+  at: 606
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h27
+  anchor: wei.10.p2
+  at: 609
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p2.h28
+  anchor: wei.10.p2
+  at: 616
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p2.h29
+  anchor: wei.10.p2
+  at: 620
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: wei.10.p2.t5
   anchor: wei.10.p2
   at: 624
@@ -71,6 +311,86 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 承前文年號「興平」推得，「二年」 = 興平2年 = AD 195
+- id: wei.10.p2.h30
+  anchor: wei.10.p2
+  at: 628
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p3.h1
+  anchor: wei.10.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: wei.10.p3.h2
+  anchor: wei.10.p3
+  at: 4
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p3.h3
+  anchor: wei.10.p3
+  at: 15
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h4
+  anchor: wei.10.p3
+  at: 174
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h5
+  anchor: wei.10.p3
+  at: 180
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h6
+  anchor: wei.10.p3
+  at: 191
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.10.p3.h7
+  anchor: wei.10.p3
+  at: 202
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h8
+  anchor: wei.10.p3
+  at: 228
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h9
+  anchor: wei.10.p3
+  at: 277
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
 - id: wei.10.p3.a1
   anchor: wei.10.p3
   at: 354
@@ -83,6 +403,30 @@ annotations:
   length: 0
   type: pei
   text: 《曹瞞傳》云：自京師遭董卓之亂，人民流移東出，多依彭城間。遇太祖至，坑殺男女數萬口於泗水，水爲不流。陶謙帥其衆軍武原，太祖不得進。引軍從泗南攻取慮、睢陵、夏丘諸縣，皆屠之；鷄犬亦盡，墟邑無復行人。
+- id: wei.10.p3.h10
+  anchor: wei.10.p3
+  at: 447
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p3.h11
+  anchor: wei.10.p3
+  at: 458
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h12
+  anchor: wei.10.p3
+  at: 467
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
 - id: wei.10.p4.t1
   anchor: wei.10.p4
   at: 0
@@ -95,24 +439,338 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
+- id: wei.10.p4.h1
+  anchor: wei.10.p4
+  at: 5
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p4.h2
+  anchor: wei.10.p4
+  at: 12
+  length: 3
+  type: person
+  person_id: xianhan
+  text: 漢獻帝
+  via: primary
+- id: wei.10.p4.h3
+  anchor: wei.10.p4
+  at: 22
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p4.h4
+  anchor: wei.10.p4
+  at: 52
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
+- id: wei.10.p4.h5
+  anchor: wei.10.p4
+  at: 62
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.10.p4
+  at: 193
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 主上
+  via: llm
+  confidence: 0.95
+  reasoning: 建安初荀彧勸太祖迎天子，「奉主上以從民望」即奉漢獻帝劉協。
+  id: wei.10.p4.h14
+- id: wei.10.p4.h6
+  anchor: wei.10.p4
+  at: 273
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p4.h7
+  anchor: wei.10.p4
+  at: 290
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p4.a1
   anchor: wei.10.p4
   at: 314
   length: 0
   type: pei
   text: 《典略》曰：彧折節下士，坐不累席。其在臺閣，不以私欲撓意。彧有羣從一人，才行實薄，或謂彧：「以君當事，不可不以某爲議郎邪？」彧笑曰：「官者所以表才也，若如來言，衆人其謂我何邪！」其持心平正皆類此。
+- id: wei.10.p4.h8
+  anchor: wei.10.p4
+  at: 314
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p4.a2
   anchor: wei.10.p4
   at: 331
   length: 0
   type: pei
   text: 《典略》曰：彧爲人偉美。又平原禰衡傳曰：衡字正平，建安初，自荊州北游許都，恃才傲逸，臧否過差，見不如己者不與語，人皆以是憎之。唯少府孔融髙貴其才，上書薦之曰：「淑質貞亮，英才卓犖。初渉藝文，升堂覩奧；目所一見，輒誦於口，耳所暫聞，不忘於心。性與道合，思若有神。弘羊心計，安世默識，以衡準之，誠不足恠。」衡時年二十四。是時許都雖新建，尚饒人士。衡嘗書一刺懷之，字漫滅而無所適。或問之曰：「何不從陳長文、司馬伯達乎？」衡曰：「卿欲使我從屠沽兒輩也！」又問曰：「當今許中，誰最可者？」衡曰：「大兒有孔文舉，小兒有楊德祖。」又問：「曹公、荀令君、趙盪寇皆足蓋世乎？」衡稱曹公不甚多；又見荀有儀容，趙有腹尺，因荅曰：「文若可借面吊喪，稚長可使監廚請客。」其意以爲荀但有貌，趙健啖肉也。於是衆人皆切齒。衡知衆不恱，將南還荊州。裝束臨發，衆人爲祖道，先設供帳於城南，自共相誡曰：「衡數不遜，今因其後到，以不起報之。」及衡至，衆人皆坐不起，衡乃號咷大哭。衆人問其故，衡曰：「行屍柩之間，能不悲乎？」衡南見劉表，表甚禮之。將軍黃祖屯夏口，祖子射與衡善，隨到夏口。祖嘉其才，毎在坐，席有異賔，介使與衡談。後衡驕蹇，荅祖言徘優饒言，祖以爲罵己也，大怒，顧伍伯捉頭出。左右遂扶以去，拉而殺之。臣松之以本傳不稱彧容貌，故載《典略》與衡傳以見之。又潘勗爲彧碑文，稱彧「瓌姿奇表」。張衡《文士傳》曰：孔融數薦衡於太祖，欲與相見，而衡疾惡之，意常憤懣。因狂疾不肯往，而數有言論。太祖聞其名，圖欲辱之，乃録爲鼓吏。後至八月朝，大宴，賔客並會。時鼓吏撃鼓過，皆當脱其故服，易着新衣。次衡，衡撃爲漁陽參檛，容態不常，音節殊妙。坐上賔客聽之，莫不慷慨。過不易衣，吏呵之，衡乃當太祖前，以次脱衣，裸身而立，徐徐乃着褌冐畢，復撃鼓參檛，而顏色不怍。太祖大笑，告四坐曰：「本欲辱衡，衡反辱孤。」至今有漁陽參檛，自衡造也。融深責數衡，并宣太祖意，欲令與太祖相見。衡許之，曰：「當爲卿往。」至十月朝，融先見太祖，説「衡欲求見」。至日晏，衡着布單衣，疎巾履，坐太祖營門外，以杖捶地，數罵太祖。太祖勑外廄急具精馬三匹，并騎二人，謂融曰：「禰衡豎子，乃敢爾！孤殺之無異於雀鼠，顧此人素有虚名，遠近所聞，今日殺之，人將謂孤不能容。今送與劉表，視卒當何如？」乃令騎以衡置馬上，兩騎扶送至南陽。《傅子》曰：衡辯於言而剋于論，見荊州牧劉表日，所以自結於表者甚至，表恱之以爲上賔。衡稱表之美盈口，而論表左右不廢繩墨。於是左右因形而譖之，曰：「衡稱將軍之仁，西伯不過也，唯以爲不能斷；終不濟者，必由此也。」是言實指表智短，而非衡所言也。表不詳察，遂疎衡而逐之。衡以交絶於劉表，智窮於黃祖，身死名滅，爲天下笑者，譖之者有形也。
+- id: wei.10.p4.h9
+  anchor: wei.10.p4
+  at: 331
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p4.h10
+  anchor: wei.10.p4
+  at: 350
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
+- id: wei.10.p4.h11
+  anchor: wei.10.p4
+  at: 353
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
+- id: wei.10.p4.h12
+  anchor: wei.10.p4
+  at: 377
+  length: 2
+  type: person
+  person_id: guojia
+  text: 郭嘉
+  via: primary
+- id: wei.10.p4.h13
+  anchor: wei.10.p4
+  at: 380
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p4.a3
   anchor: wei.10.p4
   at: 413
   length: 0
   type: pei
   text: 《三輔決録》曰：象字文則，京兆人。少聦博，有膽智。以督軍御史中丞詣揚州討袁術，會術病卒，因以爲揚州刺史。建安五年，爲孫策廬江太守李術所殺，時年三十八。象同郡趙岐作三輔決録，恐時人不盡其意，故隱其書，唯以示象。康字元將，亦京兆人。孔融與康父端書曰：「前日元將來，淵才亮茂，雅度弘毅，偉世之器也。昨日仲將又來，懿性貞實，文愍篤誠，保家之主也。不意雙珠，近出老蚌，甚珍貴之。」端從涼州牧徴爲太僕，康代爲涼州刺史，時人榮之。後爲馬超所圍，堅守歴時，救軍不至，遂爲超所殺。仲將名誕，見劉邵傳。
+- id: wei.10.p5.h1
+  anchor: wei.10.p5
+  at: 1
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h2
+  anchor: wei.10.p5
+  at: 9
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p5.h3
+  anchor: wei.10.p5
+  at: 16
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p5.h4
+  anchor: wei.10.p5
+  at: 28
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h5
+  anchor: wei.10.p5
+  at: 33
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p5.h6
+  anchor: wei.10.p5
+  at: 44
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h7
+  anchor: wei.10.p5
+  at: 50
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p5.h8
+  anchor: wei.10.p5
+  at: 55
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h9
+  anchor: wei.10.p5
+  at: 64
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h10
+  anchor: wei.10.p5
+  at: 89
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
+- id: wei.10.p5.h11
+  anchor: wei.10.p5
+  at: 119
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h12
+  anchor: wei.10.p5
+  at: 124
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p5.h13
+  anchor: wei.10.p5
+  at: 128
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p6.h1
+  anchor: wei.10.p6
+  at: 51
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p7.h1
+  anchor: wei.10.p7
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p8.h1
+  anchor: wei.10.p8
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p9.h1
+  anchor: wei.10.p9
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p10.h1
+  anchor: wei.10.p10
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p11.h1
+  anchor: wei.10.p11
+  at: 18
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p11.h2
+  anchor: wei.10.p11
+  at: 27
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p12.h1
+  anchor: wei.10.p12
+  at: 7
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p13.h1
+  anchor: wei.10.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p13.h2
+  anchor: wei.10.p13
+  at: 14
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p13.h3
+  anchor: wei.10.p13
+  at: 73
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: wei.10.p13.h4
+  anchor: wei.10.p13
+  at: 124
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
 - id: wei.10.p14.t1
   anchor: wei.10.p14
   at: 0
@@ -125,6 +783,54 @@ annotations:
   era: 建安
   era_year: 3
   reasoning: 承前文年號「建安」推得，「三年」 = 建安3年 = AD 198
+- id: wei.10.p14.h1
+  anchor: wei.10.p14
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p14.h2
+  anchor: wei.10.p14
+  at: 12
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p14.h3
+  anchor: wei.10.p14
+  at: 21
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p14.h4
+  anchor: wei.10.p14
+  at: 26
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: wei.10.p14.h5
+  anchor: wei.10.p14
+  at: 33
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p15.h1
+  anchor: wei.10.p15
+  at: 4
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.10.p16.t1
   anchor: wei.10.p16
   at: 0
@@ -137,6 +843,78 @@ annotations:
   era: 建安
   era_year: 5
   reasoning: 承前文年號「建安」推得，「五年」 = 建安5年 = AD 200
+- id: wei.10.p16.h1
+  anchor: wei.10.p16
+  at: 4
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p16.h2
+  anchor: wei.10.p16
+  at: 8
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p16.h3
+  anchor: wei.10.p16
+  at: 14
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p16.h4
+  anchor: wei.10.p16
+  at: 18
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p16.h5
+  anchor: wei.10.p16
+  at: 35
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p16.h6
+  anchor: wei.10.p16
+  at: 128
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p16.h7
+  anchor: wei.10.p16
+  at: 138
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p16.h8
+  anchor: wei.10.p16
+  at: 150
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p16.h9
+  anchor: wei.10.p16
+  at: 171
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.10.p17.t1
   anchor: wei.10.p17
   at: 0
@@ -149,6 +927,86 @@ annotations:
   era: 建安
   era_year: 6
   reasoning: 承前文年號「建安」推得，「六年」 = 建安6年 = AD 201
+- id: wei.10.p17.h1
+  anchor: wei.10.p17
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p17.h2
+  anchor: wei.10.p17
+  at: 26
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p17.h3
+  anchor: wei.10.p17
+  at: 35
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p17.h4
+  anchor: wei.10.p17
+  at: 43
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p17.h5
+  anchor: wei.10.p17
+  at: 73
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p17.h6
+  anchor: wei.10.p17
+  at: 93
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p17.h7
+  anchor: wei.10.p17
+  at: 101
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p17.h8
+  anchor: wei.10.p17
+  at: 105
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p17.h9
+  anchor: wei.10.p17
+  at: 111
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p17.h10
+  anchor: wei.10.p17
+  at: 133
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
 - id: wei.10.p18.t1
   anchor: wei.10.p18
   at: 0
@@ -161,6 +1019,22 @@ annotations:
   era: 建安
   era_year: 8
   reasoning: 承前文年號「建安」推得，「八年」 = 建安8年 = AD 203
+- id: wei.10.p18.h1
+  anchor: wei.10.p18
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p18.h2
+  anchor: wei.10.p18
+  at: 11
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.10.p18.a1
   anchor: wei.10.p18
   at: 20
@@ -179,12 +1053,76 @@ annotations:
   era: 建安
   era_year: 9
   reasoning: 承前文年號「建安」推得，「九年」 = 建安9年 = AD 204
+- id: wei.10.p19.h1
+  anchor: wei.10.p19
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p19.h2
+  anchor: wei.10.p19
+  at: 15
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p19.h3
+  anchor: wei.10.p19
+  at: 40
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p19.h4
+  anchor: wei.10.p19
+  at: 185
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p19.h5
+  anchor: wei.10.p19
+  at: 263
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p20.h1
+  anchor: wei.10.p20
+  at: 2
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
+- id: wei.10.p20.h2
+  anchor: wei.10.p20
+  at: 26
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p20.a1
   anchor: wei.10.p20
   at: 57
   length: 0
   type: pei
   text: 《荀氏家傳》曰：衍字休若，彧第三兄。彧第四兄諶，字友若，事見袁紹傳。陳羣與孔融論汝、潁人物，羣曰：「荀文若、公達、休若、友若、仲豫，當今並無對。」衍子紹，位至太僕。紹子融，字伯雅，與王弼、鍾會倶知名，爲洛陽令，參大將軍軍事，與弼、會論易、老義，傳於世。諶子閎，字仲茂，爲太子文學掾。時有甲乙疑論，閎與鍾繇、王朗、袁渙議各不同。文帝與繇書曰：「袁、王國士，更爲脣齒，荀閎勁悍，往來鋭師，眞君侯之勍敵，左右之深憂也。」終黃門侍郎。閎從孫惲字景文，太子中庶子，亦知名。與賈充共定音律，又作易集解。仲豫名恱，朗陵長儉之少子，彧從父兄也。張璠《漢紀》稱恱淸虚沈靜，善於著述。建安初爲祕書監侍中，被詔刪《漢書》作《漢紀》三十篇，因事以明臧否，致有典要；其書大行於世。
+- id: wei.10.p21.h1
+  anchor: wei.10.p21
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p21.t1
   anchor: wei.10.p21
   at: 44
@@ -203,6 +1141,54 @@ annotations:
   length: 0
   type: pei
   text: 《彧別傳》曰：太祖又表曰：「昔袁紹侵入郊甸，戰於官渡。時兵少糧盡，圖欲還許，書與彧議，彧不聽臣。建宜住之便，恢進討之規，更起臣心，易其愚慮，遂摧大逆，覆取其衆。此彧覩勝敗之機，略不世出也。及紹破敗，臣糧亦盡，以爲河北未易圖也，欲南討劉表。彧復止臣，陳其得失，臣用反斾，遂呑凶族，克平四州。向使臣退於官渡，紹必鼓行而前，有傾覆之形，無克捷之勢。後若南征，委棄兖、豫，利旣難要，將失本據。彧之二策，以亡爲存，以禍致福，謀殊功異，臣所不及也。是以先帝貴指蹤之功，薄搏獲之賞；古人尚帷幄之規，下攻拔之捷。前所賞録，未副彧巍巍之勳，乞重平議，疇其戸邑。」彧深辭讓，太祖報之曰：「君之策謀，非但所表二事。前後謙沖，欲慕魯連先生乎？此聖人達節者所不貴也。昔介子推有言『竊人之財，猶謂之盜』。況君密謀安衆，光顯於孤者以百數乎！以二事相還而復辭之，何取謙亮之多邪！」太祖欲表彧爲三公，彧使荀攸深讓，至于十數，太祖乃止。
+- id: wei.10.p22.h1
+  anchor: wei.10.p22
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p22.h2
+  anchor: wei.10.p22
+  at: 4
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p22.h3
+  anchor: wei.10.p22
+  at: 48
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p22.h4
+  anchor: wei.10.p22
+  at: 54
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p22.h5
+  anchor: wei.10.p22
+  at: 58
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p22.h6
+  anchor: wei.10.p22
+  at: 69
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
 - id: wei.10.p23.t1
   anchor: wei.10.p23
   at: 0
@@ -215,6 +1201,54 @@ annotations:
   era: 建安
   era_year: 17
   reasoning: 承前文年號「建安」推得，「十七年」 = 建安17年 = AD 212
+- id: wei.10.p23.h1
+  anchor: wei.10.p23
+  at: 4
+  length: 2
+  type: person
+  person_id: dongzhao
+  text: 董昭
+  via: primary
+- id: wei.10.p23.h2
+  anchor: wei.10.p23
+  at: 8
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p23.h3
+  anchor: wei.10.p23
+  at: 34
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p23.h4
+  anchor: wei.10.p23
+  at: 70
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p23.h5
+  anchor: wei.10.p23
+  at: 81
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.10.p23.h6
+  anchor: wei.10.p23
+  at: 113
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p23.t2
   anchor: wei.10.p23
   at: 140
@@ -227,12 +1261,52 @@ annotations:
   era: 建安
   era_year: 18
   reasoning: 「明年」 = 当前年 建安17年 (AD 212) 之次年 = AD 213
+- id: wei.10.p23.h7
+  anchor: wei.10.p23
+  at: 143
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p23.a1
   anchor: wei.10.p23
   at: 151
   length: 0
   type: pei
   text: 《魏氏春秋》曰：太祖饋彧食，發之乃空器也，於是飲藥而卒。咸熙二年，贈彧太尉。《彧別傳》曰：彧自爲尚書令，常以書陳事，臨薨，皆焚毀之，故奇策密謀不得盡聞也。是時征役草創，制度多所興復，彧嘗言於太祖曰：「昔舜分命禹、稷、契、皐陶以揆庶績，教化征伐，並時而用。及髙祖之初，金革方殷，猶舉民能善教訓者，叔孫通習禮儀於戎旅之閒，世祖有投戈講藝、息馬論道之事，君子無終食之閒違仁。今公外定武功，内興文學，使干戈戢睦，大道流行，國難方弭，六禮倶治，此姬旦宰周之所以速平也。旣立德立功，而又兼立言，成仲尼述作之意；顯制度於當時，揚名於後世，豈不盛哉！若須武事畢而後制作，以稽治化，於事未敏。宜集天下大才通儒，考論六經，刊定傳記，存古今之學，除其煩重，以一聖眞，並隆禮學，漸敦教化，則王道兩濟。」彧從容與太祖論治道，如此之類甚衆，太祖常嘉納之。彧德行周備，非正道不用心，名重天下，莫不以爲儀表，海内英儁咸宗焉。司馬宣王常稱書傳遠事，吾自耳目所從聞見，逮百數十年間，賢才未有及荀令君者也。前後所舉者，命世大才，邦邑則荀攸、鍾繇、陳羣，海内則司馬宣王，及引致當世知名郗慮、華歆、王朗、荀恱、杜襲、辛毗、趙儼之儔，終爲卿相，以十數人。取士不以一揆，戲志才、郭嘉等有負俗之譏，杜畿簡傲少文，皆以智策舉之，終各顯名。荀攸後爲魏尚書令，亦推賢進士。太祖曰：「二荀令之論人，久而益信，吾沒世不忘。」鍾繇以爲顏子旣沒，能備九德，不貳其過，唯荀彧然。或問繇曰：「君雅重荀君，比之顏子，自以不及，可得聞乎？」曰：「夫明君師臣，其次友之。以太祖之聦明，毎有大事，常先諮之荀君，是則古師友之義也。吾等受命而行，猶或不盡，相去顧不遠邪！」《獻帝春秋》曰：董承之誅，伏后與父完書，言司空殺董承，帝方爲報怨。完得書以示彧，彧惡之，久隱而不言。完以示妻弟樊普，普封以呈太祖，太祖陰爲之備。彧後恐事覺，欲自發之，因求使至鄴，勸太祖以女配帝。太祖曰：「今朝廷有伏后，吾女何得以配上，吾以微功見録，位爲宰相，豈復賴女寵乎！」彧曰：「伏后無子，性又凶邪，往常與父書，言辭醜惡，可因此廢也。」太祖曰：「卿昔何不道之？」彧陽驚曰：「昔已嘗爲公言也。」太祖曰：「此豈小事而吾忘之！」彧又驚曰：「誠未語公邪！昔公在官渡與袁紹相持，恐增内顧之念，故不言爾。」太祖曰：「官渡事後何以不言？」彧無對，謝闕而已。太祖以此恨彧，而外含容之，故世莫得知。至董昭建立魏公之議，彧意不同，欲言之於太祖。及齎璽書犒軍，飲饗禮畢，彧留請閒。太祖知彧欲言封事，揖而遣之，彧遂不得言。彧卒於壽春，壽春亡者告孫權，言太祖使彧殺伏后，彧不從，故自殺。權以露布於蜀，劉備聞之，曰：「老賊不死，禍亂未已。」臣松之案《獻帝春秋》云彧欲發伏后事而求使至鄴，而方誣太祖云「昔已嘗言」。言旣無徴，迴託以官渡之虞，俛仰之間，辭情頓屈，雖在庸人，猶不至此，何以玷累賢哲哉！凡諸云云，皆出自鄙俚，可謂以吾儕之言而厚誣君子者矣。袁暐虚罔之類，此最爲甚也。
+- id: wei.10.p24.h1
+  anchor: wei.10.p24
+  at: 16
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p24.h2
+  anchor: wei.10.p24
+  at: 28
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p24.h3
+  anchor: wei.10.p24
+  at: 47
+  length: 3
+  type: person
+  person_id: xiahoushang
+  text: 夏侯尚
+  via: primary
+- id: wei.10.p24.h4
+  anchor: wei.10.p24
+  at: 53
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.10.p24.a1
   anchor: wei.10.p24
   at: 68
@@ -263,30 +1337,118 @@ annotations:
   length: 0
   type: pei
   text: 《荀氏家傳》曰：愷，晉武帝時爲侍中。干寶《晉紀》曰：武帝使侍中荀顗、和嶠倶至東宮，觀察太子。顗還稱太子德識進茂，而嶠云聖質如初。孫盛曰「遣荀勗」，其餘語則同。臣松之案和嶠爲侍中，荀顗亡沒久矣。荀勗位亞台司，不與嶠同班，無縁方稱侍中。二書所云，皆爲非也。考其時位，愷寔當之。愷位至征西大將軍。愷兄憺，少府。弟悝，護軍將軍，追贈車騎大將軍。
+- id: wei.10.p27.h1
+  anchor: wei.10.p27
+  at: 0
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
 - id: wei.10.p27.a1
   anchor: wei.10.p27
   at: 20
   length: 0
   type: pei
   text: 《荀氏家傳》曰：曇字元智。兄昱，字伯脩。張璠《漢紀》稱昱、曇並傑俊有殊才。昱與李膺、王暢、杜密等號爲八俊，位至沛相。攸父彝，州從事。彝於彧爲從祖兄弟。
+- id: wei.10.p27.h2
+  anchor: wei.10.p27
+  at: 31
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.10.p27.a2
   anchor: wei.10.p27
   at: 84
   length: 0
   type: pei
   text: 《魏書》曰：攸年七八歳，衢曾醉，誤傷攸耳；而攸出入遊戲，常避護不欲令衢見。衢後聞之，乃驚其夙智如此。荀氏家傳曰：衢子祈，字伯旗，與族父愔倶著名。祈與孔融論肉刑，愔與孔融論聖人優劣，並在融集。祈位至濟陰太守；愔後徴有道，至丞相祭酒。
+- id: wei.10.p28.h1
+  anchor: wei.10.p28
+  at: 0
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: wei.10.p28.h2
+  anchor: wei.10.p28
+  at: 26
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.10.p28.h3
+  anchor: wei.10.p28
+  at: 36
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.10.p28.h4
+  anchor: wei.10.p28
+  at: 68
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: wei.10.p28.a1
   anchor: wei.10.p28
   at: 149
   length: 0
   type: pei
   text: 張璠《漢紀》曰：顒字伯求，少與郭泰、賈彪等遊學洛陽，泰等與同風好。顒顯名太學，於是中朝名臣太傅陳蕃、司隷李膺等皆深接之。及黨事起，顒亦名在其中，乃變名姓亡匿汝南間，所至皆交結其豪桀。顒旣奇太祖而知荀彧，袁紹慕之，與爲奔走之友。是時天下士大夫多遇黨難，顒常歳再三私入洛陽，從紹計議，爲諸窮窘之士解釋患禍。而袁術亦豪俠，與紹爭名。顒未常造術，術深恨之。《漢末名士録》曰：術嘗於衆坐數顒三罪，曰：「王德彌先覺儁老，名德髙亮，而伯求踈之，是一罪也。許子遠凶淫之人，性行不純，而伯求親之，是二罪也。郭、賈寒窶，無他資業，而伯求肥馬輕裘，光曜道路，是三罪也。」陶丘洪曰：「王德彌大賢而短於濟時，許子遠雖不純而赴難不憚濡足。伯求舉善則以德彌爲首，濟難則以子遠爲宗。且伯求嘗爲虞偉髙手刃復仇，義名奮發。其怨家積財巨萬，文馬百駟，而欲使伯求羸牛疲馬，頓伏道路，此爲披其胷而假仇敵之刃也。」術意猶不平。後與南陽宗承會於闕下，術發怒曰：「何伯求，凶德也，吾當殺之。」承曰：「何生英俊之士，足下善遇之，使延令名於天下。」術乃止。後黨禁除解，辟司空府。毎三府掾屬會議，顒策謀有餘，議者皆自以爲不及。遷北軍中候，董卓以爲長史。後荀彧爲尚書令，遣人迎叔父司空爽喪，使并置顒尸，而葬之於爽冢傍。
+- id: wei.10.p28.h5
+  anchor: wei.10.p28
+  at: 158
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.10.p28.a2
   anchor: wei.10.p28
   at: 163
   length: 0
   type: pei
   text: 《魏書》云攸使人説卓得免，與此不同。
+- id: wei.10.p29.h1
+  anchor: wei.10.p29
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p29.h2
+  anchor: wei.10.p29
+  at: 57
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p29.h3
+  anchor: wei.10.p29
+  at: 70
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
+- id: wei.10.p29.h4
+  anchor: wei.10.p29
+  at: 73
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
 - id: wei.10.p29.t1
   anchor: wei.10.p29
   at: 106
@@ -299,18 +1461,306 @@ annotations:
   era: 建安
   era_year: 3
   reasoning: 原文「建安三年」直接出现年号；解析為 AD 198（回溯前事，不推進章節時間軸）
+- id: wei.10.p29.h5
+  anchor: wei.10.p29
+  at: 119
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p29.h6
+  anchor: wei.10.p29
+  at: 126
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p29.h7
+  anchor: wei.10.p29
+  at: 141
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p29.h8
+  anchor: wei.10.p29
+  at: 143
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p29.h9
+  anchor: wei.10.p29
+  at: 178
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p29.h10
+  anchor: wei.10.p29
+  at: 195
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p29.h11
+  anchor: wei.10.p29
+  at: 204
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p30.h1
+  anchor: wei.10.p30
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p30.h2
+  anchor: wei.10.p30
+  at: 8
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
 - id: wei.10.p30.a1
   anchor: wei.10.p30
   at: 11
   length: 0
   type: pei
   text: 《魏書》曰：議者云表、繡在後而還襲呂布，其危必也。攸以爲表、繡新破，勢不敢動。布驍猛，又恃袁術，若從橫淮、泗間，豪傑必應之。今乘其初叛，衆心未一，往可破也。太祖曰：「善。」比行，布以敗劉備，而臧霸等應之。
+- id: wei.10.p30.h3
+  anchor: wei.10.p30
+  at: 15
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p30.h4
+  anchor: wei.10.p30
+  at: 33
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p30.h5
+  anchor: wei.10.p30
+  at: 40
+  length: 2
+  type: person
+  person_id: guojia
+  text: 郭嘉
+  via: primary
+- id: wei.10.p30.h6
+  anchor: wei.10.p30
+  at: 46
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.10.p30.h7
+  anchor: wei.10.p30
+  at: 90
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p30.h8
+  anchor: wei.10.p30
+  at: 107
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p30.h9
+  anchor: wei.10.p30
+  at: 126
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.10.p31.h1
+  anchor: wei.10.p31
+  at: 21
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h2
+  anchor: wei.10.p31
+  at: 36
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p31.h3
+  anchor: wei.10.p31
+  at: 44
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h4
+  anchor: wei.10.p31
+  at: 54
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h5
+  anchor: wei.10.p31
+  at: 76
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h6
+  anchor: wei.10.p31
+  at: 115
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h7
+  anchor: wei.10.p31
+  at: 119
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p31.h8
+  anchor: wei.10.p31
+  at: 134
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h9
+  anchor: wei.10.p31
+  at: 139
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.10.p31.a1
   anchor: wei.10.p31
   at: 161
   length: 0
   type: pei
   text: 臣松之案諸書，韓𦳣或作韓猛，或云韓若，未詳孰是。
+- id: wei.10.p31.h10
+  anchor: wei.10.p31
+  at: 161
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h11
+  anchor: wei.10.p31
+  at: 175
+  length: 2
+  type: person
+  person_id: xuhuang
+  text: 徐晃
+  via: primary
+- id: wei.10.p31.h12
+  anchor: wei.10.p31
+  at: 204
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p31.h13
+  anchor: wei.10.p31
+  at: 235
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
+- id: wei.10.p31.h14
+  anchor: wei.10.p31
+  at: 238
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h15
+  anchor: wei.10.p31
+  at: 241
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h16
+  anchor: wei.10.p31
+  at: 247
+  length: 2
+  type: person
+  person_id: caohong
+  text: 曹洪
+  via: primary
+- id: wei.10.p31.h17
+  anchor: wei.10.p31
+  at: 251
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p31.h18
+  anchor: wei.10.p31
+  at: 264
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p31.h19
+  anchor: wei.10.p31
+  at: 266
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: wei.10.p31.h20
+  anchor: wei.10.p31
+  at: 276
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.10.p32.t1
   anchor: wei.10.p32
   at: 0
@@ -335,6 +1785,94 @@ annotations:
   era: 建安
   era_year: 8
   reasoning: 「明年」 = 当前年 建安7年 (AD 202) 之次年 = AD 203
+- id: wei.10.p32.h1
+  anchor: wei.10.p32
+  at: 16
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p32.h2
+  anchor: wei.10.p32
+  at: 20
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p32.h3
+  anchor: wei.10.p32
+  at: 32
+  length: 2
+  type: person
+  person_id: xinpi
+  text: 辛毗
+  via: primary
+- id: wei.10.p32.h4
+  anchor: wei.10.p32
+  at: 39
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p32.h5
+  anchor: wei.10.p32
+  at: 55
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p32.h6
+  anchor: wei.10.p32
+  at: 82
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.10.p32.h7
+  anchor: wei.10.p32
+  at: 114
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p32.h8
+  anchor: wei.10.p32
+  at: 189
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p32.h9
+  anchor: wei.10.p32
+  at: 225
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p32.h10
+  anchor: wei.10.p32
+  at: 227
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p32.h11
+  anchor: wei.10.p32
+  at: 235
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
 - id: wei.10.p32.t3
   anchor: wei.10.p32
   at: 268
@@ -347,36 +1885,172 @@ annotations:
   era: 建安
   era_year: 12
   reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
+- id: wei.10.p32.h12
+  anchor: wei.10.p32
+  at: 280
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p32.a1
   anchor: wei.10.p32
   at: 318
   length: 0
   type: pei
   text: 《魏書》曰：太祖自柳城還，過攸舍，稱述攸前後謀謨勞勳，曰：「今天下事略已定矣，孤願與賢士大夫共饗其勞。昔髙祖使張子房自擇邑三萬戸，今孤亦欲君自擇所封焉。」
+- id: wei.10.p33.h1
+  anchor: wei.10.p33
+  at: 9
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p33.a1
   anchor: wei.10.p33
   at: 31
   length: 0
   type: pei
   text: 《魏書》曰：攸姑子辛韜曾問攸説太祖取冀州時事。攸曰：「佐治爲袁譚乞降，王師自往平之，吾何知焉？」自是韜及内外莫敢復問軍國事也。
+- id: wei.10.p33.h2
+  anchor: wei.10.p33
+  at: 31
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p33.h3
+  anchor: wei.10.p33
+  at: 84
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p33.h4
+  anchor: wei.10.p33
+  at: 90
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p33.h5
+  anchor: wei.10.p33
+  at: 103
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.10.p33.h6
+  anchor: wei.10.p33
+  at: 137
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
 - id: wei.10.p33.a2
   anchor: wei.10.p33
   at: 207
   length: 0
   type: pei
   text: 臣松之案：攸亡後十六年，鍾繇乃卒，撰攸奇策，亦有何難？而年造八十，猶云未就，遂使攸從征機策之謀不傳於世，惜哉！
+- id: wei.10.p33.h7
+  anchor: wei.10.p33
+  at: 210
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.10.p33.h8
+  anchor: wei.10.p33
+  at: 216
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p33.a3
   anchor: wei.10.p33
   at: 223
   length: 0
   type: pei
   text: 《魏書》曰：時建安十九年，攸年五十八。計其年大彧六歳。《魏書》載太祖令曰：「孤與荀公達周遊二十餘年，無毫毛可非者。」又曰：「荀公達眞賢人也，所謂『温良恭儉讓以得之』。孔子稱『晏平仲善與人交，久而敬之』，公達即其人也。」《傅子》曰：或問近世大賢君子，荅曰：「荀令君之仁，荀軍師之智，斯可謂近世大賢君子矣。荀令君仁以立德，明以舉賢，行無諂黷，謀能應機。孟軻稱『五百年而有王者興，其間必有命世者』，其荀令君乎！太祖稱『荀令君之進善，不進不休，荀軍師之去惡，不去不止』也。」
+- id: wei.10.p34.h1
+  anchor: wei.10.p34
+  at: 25
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.10.p35.h1
+  anchor: wei.10.p35
+  at: 0
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: wei.10.p35.a1
   anchor: wei.10.p35
   at: 36
   length: 0
   type: pei
   text: 《九州春秋》曰：中平元年，車騎將軍皇甫嵩旣破黃巾，威震天下。閻忠時罷信都令，説嵩曰：「夫難得而易失者時也，時至而不旋踵者機也，故聖人常順時而動，智者必因機以發。今將軍遭難得之運，蹈易解之機，而踐運不撫，臨機不發，將何以享大名乎？」嵩曰：「何謂也？」忠曰：「天道無親，百姓與能，故有髙人之功者，不受庸主之賞。今將軍授鉞於初春，收功於末冬，兵動若神，謀不再計，旬月之間，神兵電掃，攻堅易於折枯，摧敵甚於湯雪，七州席巻，屠三十六萬方，夷黃巾之師，除邪害之患，或封戸刻石，南向以報德，威震本朝，風馳海外。是以羣雄迴首，百姓企踵，雖湯武之舉，未有髙於將軍者。身建髙人之功，北面以事庸主，將何以圖安？」嵩曰：「心不忘忠，何爲不安？」忠曰：「不然。昔韓信不忍一飱之遇，而棄三分之利，拒蒯通之忠，忽鼎跱之勢，利劒已揣其喉，乃嘆息而悔，所以見烹於兒女也。今主勢弱於劉、項，將軍權重於淮陰，指麾可以振風雲，叱咤足以興雷電；赫然奮發，因危抵頽，崇恩以綏前附，振武以臨後服；徴冀方之士，動七州之衆，羽檄先馳於前，大軍震響於後，蹈蹟漳河，飲馬孟津，舉天網以網羅京都，誅閹宦之罪，除羣怨之積忿，解久危之倒懸。如此則攻守無堅城，不招必影從，雖兒童可使奮空拳以致力，女子可使其褰裳以用命，況厲智能之士，因迅風之勢，則大功不足合，八方不足同也。功業已就，天下已順，乃燎于上帝，告以天命，混齊六合，南面以制，移神器於己家，推亡漢以定祚，實神機之至決，風發之良時也。夫木朽不彫，世衰難佐，將軍雖欲委忠難佐之朝，彫畫朽敗之木，猶逆坂而走丸，必不可也。方今權宦羣居，同惡如市，主上不自由，詔命出左右。如有至聦不察，機事不先，必嬰後悔，亦無及矣。」嵩不從，忠乃亡去。《英雄記》曰：涼州賊王國等起兵，共劫忠爲主，統三十六部，號車騎將軍。忠感慨發病而死。
+- id: wei.10.p35.h2
+  anchor: wei.10.p35
+  at: 94
+  length: 2
+  type: person
+  person_id: duanjiong
+  text: 段熲
+  via: primary
+- id: wei.10.p35.h3
+  anchor: wei.10.p35
+  at: 138
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.10.p36.h1
+  anchor: wei.10.p36
+  at: 0
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.10.p36.h2
+  anchor: wei.10.p36
+  at: 24
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.10.p36.h3
+  anchor: wei.10.p36
+  at: 39
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.10.p36.h4
+  anchor: wei.10.p36
+  at: 164
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.10.p36.a1
   anchor: wei.10.p36
   at: 167
@@ -413,12 +2087,188 @@ annotations:
   length: 0
   type: pei
   text: 《典略》稱煨在華陰時，脩農事，不虜略。天子東還，煨迎道貢遺周急。獻帝紀曰：後以煨爲大鴻臚光祿大夫，建安十四年，以壽終。
+- id: wei.10.p37.h1
+  anchor: wei.10.p37
+  at: 114
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
+- id: wei.10.p37.h2
+  anchor: wei.10.p37
+  at: 128
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: wei.10.p37.a1
   anchor: wei.10.p37
   at: 133
   length: 0
   type: pei
   text: 《傅子》曰：詡南見劉表，表以客禮待之。詡曰：「表，平世三公才也；不見事變，多疑無決，無能爲也。」
+- id: wei.10.p37.h3
+  anchor: wei.10.p37
+  at: 133
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h4
+  anchor: wei.10.p37
+  at: 426
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h5
+  anchor: wei.10.p37
+  at: 429
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p37.h6
+  anchor: wei.10.p37
+  at: 435
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h7
+  anchor: wei.10.p37
+  at: 460
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h8
+  anchor: wei.10.p37
+  at: 575
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h9
+  anchor: wei.10.p37
+  at: 651
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h10
+  anchor: wei.10.p37
+  at: 654
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h11
+  anchor: wei.10.p37
+  at: 680
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.10.p37.h12
+  anchor: wei.10.p37
+  at: 709
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.10.p37.h13
+  anchor: wei.10.p37
+  at: 712
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h14
+  anchor: wei.10.p37
+  at: 718
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h15
+  anchor: wei.10.p37
+  at: 737
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h16
+  anchor: wei.10.p37
+  at: 741
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h17
+  anchor: wei.10.p37
+  at: 746
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h18
+  anchor: wei.10.p37
+  at: 751
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h19
+  anchor: wei.10.p37
+  at: 783
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p37.h20
+  anchor: wei.10.p37
+  at: 798
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p37.h21
+  anchor: wei.10.p37
+  at: 808
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.10.p38.h1
+  anchor: wei.10.p38
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p38.t1
   anchor: wei.10.p38
   at: 15
@@ -431,30 +2281,250 @@ annotations:
   era: 建安
   era_year: 13
   reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208
+- id: wei.10.p38.h2
+  anchor: wei.10.p38
+  at: 21
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p38.h3
+  anchor: wei.10.p38
+  at: 96
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.10.p38.a1
   anchor: wei.10.p38
   at: 106
   length: 0
   type: pei
   text: 臣松之以爲詡之此謀，未合當時之宜。于時韓、馬之徒尚狼顧關右，魏武不得安坐郢都以威懷呉會，亦已明矣。彼荊州者，孫、劉之所必爭也。荊人服劉主之雄姿，憚孫權之武略，爲日旣久，誠非曹氏諸將所能抗禦。故曹仁守江陵，敗不旋踵，何撫安之得行，稽服之可期？將此旣新平江、漢，威懾揚、越，資劉表水戰之具，藉荊楚檝櫂之手，實震蕩之良會，廓定之大機。不乘此取呉，將安俟哉？至於赤壁之敗，蓋有運數。實由疾疫大興，以損淩厲之鋒，凱風自南，用成焚如之勢。天實爲之，豈人事哉？然則魏武之東下，非失筭也。詡之此規，爲無當矣。魏武後克平張魯，蜀中一日數十驚，劉備雖斬之而不能止，由不用劉曄之計，以失席巻之會，斤石旣差，悔無所及，即亦此事之類也。世咸謂劉計爲是，即愈見賈言之非也。
+- id: wei.10.p38.h4
+  anchor: wei.10.p38
+  at: 106
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p38.h5
+  anchor: wei.10.p38
+  at: 113
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: wei.10.p38.h6
+  anchor: wei.10.p38
+  at: 120
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: wei.10.p38.h7
+  anchor: wei.10.p38
+  at: 157
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p38.h8
+  anchor: wei.10.p38
+  at: 180
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: wei.10.p39.h1
+  anchor: wei.10.p39
+  at: 3
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p39.h2
+  anchor: wei.10.p39
+  at: 31
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p39.h3
+  anchor: wei.10.p39
+  at: 76
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.10.p39.h4
+  anchor: wei.10.p39
+  at: 86
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p39.h5
+  anchor: wei.10.p39
+  at: 103
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p39.h6
+  anchor: wei.10.p39
+  at: 136
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p39.h7
+  anchor: wei.10.p39
+  at: 162
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.10.p39
+  at: 169
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 賈詡諷喻太祖立嗣事「於是太子遂定」即定立曹丕為太子。
+  id: wei.10.p39.h9
+- id: wei.10.p39.h8
+  anchor: wei.10.p39
+  at: 178
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.10.p40.h1
+  anchor: wei.10.p40
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.10.p40.a1
   anchor: wei.10.p40
   at: 11
   length: 0
   type: pei
   text: 《魏略》曰：文帝得詡之對太祖，故即位首登上司。荀勗別傳曰：晉司徒闕，武帝問其人於勗。荅曰：「三公具瞻所歸，不可用非其人。昔魏文帝用賈詡爲三公，孫權笑之。」
+- anchor: wei.10.p40
+  at: 95
+  length: 2
+  type: person
+  person_id: caopi
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 黃初時詡對「陛下應期受禪」即文帝曹丕受禪登基。
+  id: wei.10.p40.h8
+- id: wei.10.p40.h2
+  anchor: wei.10.p40
+  at: 139
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.10.p40.h3
+  anchor: wei.10.p40
+  at: 145
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wei.10.p40.h4
+  anchor: wei.10.p40
+  at: 152
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.10.p40.h5
+  anchor: wei.10.p40
+  at: 208
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.10.p40.h6
+  anchor: wei.10.p40
+  at: 210
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.10.p40.h7
+  anchor: wei.10.p40
+  at: 250
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.10.p40.a2
   anchor: wei.10.p40
   at: 296
   length: 0
   type: pei
   text: 《世語》曰：模，晉惠帝時爲散騎常侍、護軍將軍，模子胤，胤弟龕，從弟疋，皆至大官，並顯於晉也。
+- id: wei.10.p41.h1
+  anchor: wei.10.p41
+  at: 3
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
 - id: wei.10.p41.a1
   anchor: wei.10.p41
   at: 29
   length: 0
   type: pei
   text: 世之論者，多譏彧協規魏氏，以傾漢祚；君臣易位，實彧之由。雖晩節立異，無救運移；功旣違義，識亦疚焉。陳氏此評，蓋亦同乎世識。臣松之以爲斯言之作，誠未得其遠大者也。彧豈不知魏武之志氣，非衰漢之貞臣哉？良以于時王道旣微，橫流已及，雄豪虎視，人懷異心，不有撥亂之資，仗順之略，則漢室之亡忽諸，黔首之類殄矣。夫欲翼讚時英，一匡屯運，非斯人之與而誰與哉？是故經綸急病，若救身首，用能動于嶮中，至于大亨，蒼生蒙舟航之接，劉宗延二紀之祚，豈非荀生之本圖，仁恕之遠致乎？及至霸業旣隆，翦漢迹著，然後亡身殉節，以申素情，全大正於當年，布誠心於百代，可謂任重道遠，志行義立。謂之未充，其殆誣歟！
+- id: wei.10.p42.h1
+  anchor: wei.10.p42
+  at: 0
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
+- id: wei.10.p42.h2
+  anchor: wei.10.p42
+  at: 3
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: wei.10.p42.a1
   anchor: wei.10.p42
   at: 26

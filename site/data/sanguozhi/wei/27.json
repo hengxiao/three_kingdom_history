@@ -11,25 +11,127 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷27",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 31,
+  "n_segments": 30,
   "segments": [
     {
       "id": "wei.27.p1",
       "text": "徐邈胡質王昶王基",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p1.h3",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p1.h4",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p2",
       "text": "徐邈字景山，燕國薊人也。太祖平河朔，召爲丞相軍謀掾，試守奉高令，入爲東曹議令史。魏國初建，爲尚書郎。時科禁酒，而邈私飲至於沈醉。校事趙達問以曹事，邈曰：「中聖人。」達白之太祖，太祖甚怒。度遼將軍鮮于輔進曰：「平日醉客謂酒清者爲聖人，濁者爲賢人，邈性脩慎，偶醉言耳。」竟坐得免刑。後領隴西太守，轉爲南安。文帝踐阼，歷譙相，平陽、安平太守，潁川典農中郎將，所在著稱，賜爵關內侯。車駕幸許昌，問邈曰：「頗復中聖人不？」邈對曰：「昔子反斃於穀陽，御叔罰於飲酒，臣嗜同二子，不能自懲，時復中之。然宿瘤以醜見傳，而臣以醉見識。」帝大笑，顧左右曰：「名不虛立。」遷撫軍大將軍軍師。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p2.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p2.h3",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p2.h4",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p2.h5",
+          "type": "person",
+          "at": 151,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.27.p3",
       "text": "明帝以涼州絕遠，南接蜀寇，以邈爲涼州刺史，使持節領護羌校尉。至，值諸葛亮出祁山，隴右三郡反，邈輙遣參軍及金城太守等擊南安賊，破之。河右少雨，常苦乏糓，邈上脩武威、酒泉鹽池以收虜糓，又廣開水田，募貧民佃之，家家豐足，倉庫盈溢。乃支度州界軍用之餘，以市金帛犬馬，通供中國之費。以漸收斂民間私杖，藏之府庫。然後率以仁義，立學明訓，禁厚葬，斷淫祀，進善黜惡，風化大行，百姓歸心焉。西域流通，荒戎入貢，皆邈勳也。討叛羌柯吾有功，封都亭侯，邑三百戶，加建威將車。邈與羌、胡從事，不問小過；若犯大罪，先告部帥，使知，應死者乃斬以徇，是以信服畏威。賞賜皆散與將士，無入家者，妻子衣食不充；天子聞而嘉之，隨時供給其家。彈邪繩枉，州界肅清。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p3.h2",
+          "type": "person",
+          "at": 33,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p4",
@@ -73,6 +175,33 @@
           "era": "嘉平",
           "era_year": 6,
           "reasoning": "承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254"
+        },
+        {
+          "id": "wei.27.p4.h1",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p4.h2",
+          "type": "person",
+          "at": 155,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p4.h3",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "田豫",
+          "person_id": "tianyu",
+          "via": "primary"
         }
       ]
     },
@@ -81,11 +210,29 @@
       "text": "邈同郡韓觀曼遊，有鑒識器幹，與邈齊名，而在孫禮、盧毓先，爲豫州刺史，甚有治功，卒官。盧欽著書，稱邈曰：「徐公志高行絜，才博氣猛。其施之也，高而不狷，絜而不介，博而守約，猛而能寬。聖人以清爲難，而徐公之所易也。」或問欽：「徐公當武帝之時，人以爲通，自在涼州及還京師，人以爲介，何也？」欽荅曰：「往者毛孝先、崔季珪等用事，貴清素之士，于時皆變易車服以求名高，而徐公不改其常，故人以爲通。比來天下奢靡，轉相倣效，而徐公雅尚自若，不與俗同，故前日之通，乃今日之介也。是世人之無常，而徐公之有常也。」",
       "annotations": [
         {
+          "id": "wei.27.p5.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "孫禮",
+          "person_id": "sunli",
+          "via": "primary"
+        },
+        {
           "id": "wei.27.p5.a1",
           "type": "pei",
           "at": 42,
           "length": 0,
           "text": "《魏名臣奏》載黃門侍郎杜恕表，稱：「韓觀、王昶，信有兼才，高官重任，不但三州。」"
+        },
+        {
+          "id": "wei.27.p5.h2",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "武帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -94,11 +241,65 @@
       "text": "胡質字文德，楚國壽春人也。少與蔣濟、朱績俱知名於江、淮間，仕州郡。蔣濟爲別駕，使見太祖。太祖問曰：「胡通達，長者也，寧有子孫不？」濟曰：「有子曰質，規模大略不及於父，至於精良綜事過之。」太祖即召質爲頓丘令。縣民郭政通於從妹，殺其夫程他，郡吏馮諒繫獄爲證。政與妹皆耐掠隱抵，諒不勝痛，自誣，當反其罪。質至官，察其情色，更詳其事，檢驗具服。",
       "annotations": [
         {
+          "id": "wei.27.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p6.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p6.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p6.h4",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p6.h5",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.27.p6.a1",
           "type": "pei",
           "at": 93,
           "length": 0,
           "text": "案〈胡氏譜〉：通達名敏，以方正徵。"
+        },
+        {
+          "id": "wei.27.p6.h6",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -106,6 +307,24 @@
       "id": "wei.27.p7",
       "text": "入爲丞相東曹議令史，州請爲治中。將軍張遼與其護軍武周有隙。遼見刺史溫恢求請質，質辭以疾。遼出謂質曰：「僕委意於君，何以相辜如此？」質曰：「古人之交也，取多知其不貪，奔北知其不怯，聞流言而不信，故可終也。武伯南身爲雅士，往者將軍稱之不容於口，今以睚眦之恨，乃成嫌隙。況質才薄，豈能終好？是以不願也。」遼感言，復與周平。",
       "annotations": [
+        {
+          "id": "wei.27.p7.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p7.h2",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "溫恢",
+          "person_id": "wenhui",
+          "via": "primary"
+        },
         {
           "id": "wei.27.p7.a1",
           "type": "pei",
@@ -125,12 +344,32 @@
     {
       "id": "wei.27.p8",
       "text": "太祖辟爲丞相屬。黃初中，徙吏部郎，爲常山太守，遷任東莞。士盧顯爲人所殺，質曰：「此士無讎而有少妻，所以死乎！」悉見其比居年少，書吏李若見問而色動，遂窮詰情狀。若即自首，罪人斯得。每軍功賞賜，皆散之於衆，無入家者。在郡九年，吏民便安，將士用命。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.27.p9",
       "text": "遷荊州刺史，加振威將軍，賜爵關內侯。吳大將朱然圍樊城，質輕軍赴之。議者皆以爲賊盛不可迫，質曰：「樊城卑下，兵少，故當進軍爲之外援；不然，危矣。」遂勒兵臨圍，城中乃安。遷征東將軍，假節都督青、徐諸軍。廣農積糓，有兼年之儲，置東征臺，且佃且守。又通渠諸郡，利舟楫，嚴設備以待敵。海邊無事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p9.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p10",
@@ -183,11 +422,56 @@
       "text": "王昶字文舒，太原晉陽人也。少與同郡王淩俱知名。淩年長，昶兄事之。文帝在東宮，昶爲太子文學，遷中庶子。文帝踐阼，徙散騎侍郎，爲洛陽典農。時都畿樹木成林，昶斫開荒萊，勤勸百姓，墾田特多。遷兖州刺史。明帝即位，加揚烈將軍，賜爵關內侯。昶雖在外任，心存朝廷，以爲魏承秦、漢之弊，法制苛碎，不大釐改國典以準先王之風，而望治化復興，不可得也。乃著治論，略依古制而合於時務者二十餘篇，又著兵書十餘篇，言奇正之用，青龍中奏之。",
       "annotations": [
         {
+          "id": "wei.27.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
           "id": "wei.27.p11.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "案〈王氏譜〉：昶伯父柔，字叔優；父澤，字季道。〈郭林宗傳〉曰：叔優、季道幼少之時，聞林宗有知人之鑒，共往候之，請問才行所宜，以自處業。林宗笑曰：「卿二人皆二千石才也，雖然，叔優當以仕宦顯，季道宜以經術進，若違才易務，亦不至也。」叔優等從其言。叔優至北中郎將，季道代郡太守。"
+        },
+        {
+          "id": "wei.27.p11.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p11.h5",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.27.p11.h3",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p11.h4",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.27.p11.a2",
@@ -285,7 +569,17 @@
     {
       "id": "wei.27.p17",
       "text": "嘉平初，太傅司馬宣王旣誅曹爽，乃奏愽問大臣得失。昶陳治略五事：「其一，欲崇道篤學，抑絕浮華，使國子入太學而脩庠序；其二，欲用考試，考試猶準繩也，未有舍準繩而意正曲直，廢黜陟而空論能否也；其三，欲令居官者乆於其職，有治績則就增位賜爵；其四，欲約官實祿，勵以廉恥，不使與百姓爭利；其五，欲絕侈靡，務崇節儉，令衣服有章，上下有叙，儲糓畜帛，反民於樸。」詔書襃讚。因使撰百官考課事，昶以爲唐虞雖有黜陟之文，而考課之法不垂。周制冢宰之職，大計群吏之治而誅賞，又無校比之制。由此言之，聖主明於任賢，略舉黜陟之體，以委達官之長，而總其統紀，故能否可得而知也。其大指如此。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p17.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p18",
@@ -303,6 +597,51 @@
           "era": "嘉平",
           "era_year": 2,
           "reasoning": "承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250"
+        },
+        {
+          "id": "wei.27.p18.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p18.h2",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p18.h3",
+          "type": "person",
+          "at": 242,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p18.h4",
+          "type": "person",
+          "at": 272,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p18.h5",
+          "type": "person",
+          "at": 307,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
         },
         {
           "id": "wei.27.p18.t2",
@@ -335,17 +674,155 @@
     {
       "id": "wei.27.p20",
       "text": "王基字伯輿，東萊曲城人也。少孤，與叔父翁居。翁撫養甚篤，基亦以孝稱。年十七，郡召爲吏，非其好也，遂去，入琅邪界游學。黃初中，察孝廉，除郎中。是時青土初定，刺史王凌特表請基爲別駕，後召爲秘書郎，凌復請還。頃之，司徒王朗辟基，淩不遣。朗書劾州曰：「凡家臣之良，則升于公輔，公臣之良，則入于王職，是故古者侯伯有貢士之禮。今州取宿衞之臣，留秘閣之吏，所希聞也。」淩猶不遣。淩流稱青土，蓋亦由基恊和之輔也。大將軍司馬宣王辟基，未至，擢爲中書侍郎。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p20.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p20.h2",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p20.h3",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p21",
       "text": "明帝盛脩宮室，百姓勞瘁。基上疏曰：「臣聞古人以水喻民，曰『水所以載舟，亦所以覆舟』。故在民上者，不可以不戒懼。夫民逸則慮易，苦則思難，是以先王居之以約儉，俾不至於生患。昔顏淵云東野子之御，馬力盡矣而求進不已，是以知其將敗。今事役勞苦，男女離曠，願陛下深察東野之弊，留意舟水之喻，息奔駟於未盡，節力役於未困。昔漢有天下，至孝文時唯有同姓諸侯，而賈誼憂之曰：『置火積薪之下而寢其上，因謂之安也。』今寇賊未殄，猛將擁兵，檢之則無以應敵，乆之則難以遺後，當盛明之世，不務以除患，若子孫不競，社稷之憂也。使賈誼復起，必深切於曩時矣。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p21.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p21.h2",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.27.p22",
       "text": "散騎常侍王肅著諸經傳解及論定朝儀，改易鄭玄舊說，而基據持玄義，常與抗衡。遷安平太守，公事去官。大將軍曹爽請爲從事中郎，出爲安豐太守。郡接吳寇，爲政清嚴有威惠，明設防備，敵不敢犯。加討寇將軍。吳嘗大發衆集建業，揚聲欲入攻揚州，刺史諸葛誕使基策之。基曰：「昔孫權再至合肥，一至江夏，其後全琮出廬江，朱然寇襄陽，皆無功而還。今陸遜等已死，而權年老，內無賢嗣，中無謀主。權自出則懼內釁卒起，癕疽發潰；遣將則舊將已盡，新將未信。此不過欲補定支黨，還自保護耳。」後權竟不能出。時曹爽專柄，風化陵遲，基著《時要論》以切世事。以疾徵還，起家爲河南尹，未拜，爽伏誅，基甞爲爽官屬，隨例罷。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p22.h1",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h2",
+          "type": "person",
+          "at": 114,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h3",
+          "type": "person",
+          "at": 127,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h4",
+          "type": "person",
+          "at": 141,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h5",
+          "type": "person",
+          "at": 147,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h6",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p22.h7",
+          "type": "person",
+          "at": 167,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.27.p22.h8",
+          "type": "person",
+          "at": 181,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.27.p22.h9",
+          "type": "person",
+          "at": 226,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.27.p22.h10",
+          "type": "person",
+          "at": 233,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p23",
@@ -363,23 +840,107 @@
           "era": "甘露",
           "era_year": 4,
           "reasoning": "「其年」 = 当前年 甘露4年 (AD 259)"
+        },
+        {
+          "id": "wei.27.p23.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.27.p24",
       "text": "司馬景王新統政，基書戒之曰：「天下至廣，萬機至猥，誠不可不矜矜業業，坐而待旦也。夫志正則衆邪不生，心靜則衆事不躁，思慮審定則教令不煩，親用忠良則遠近恊服。故知和遠在身，定衆在心。許允、傅嘏、袁侃、崔贊皆一時正士，有直質而無流心，可與同政事者也。」景王納其言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p24.h1",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "傅嘏",
+          "person_id": "fugu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p25",
       "text": "高貴鄉公即尊位，進封常樂亭侯。毌丘儉、文欽作亂，以基爲行監軍、假節，統許昌軍，適與景王會於許昌。景王曰：「君籌儉等何如？」基曰：「淮南之逆，非吏民思亂也，儉等誑脅迫懼，畏目下之戮，是以尚群聚耳。若大兵臨偪，必土崩瓦解，儉、欽之首，不終朝而縣於軍門矣。」景王曰：「善。」乃令基居軍前。議者咸以儉、欽慓悍，難與爭鋒。詔基停駐。基以爲：「儉等舉軍足以深入，而乆不進者，是其詐僞已露，衆心疑沮也。今不張示威形以副民望，而停軍高壘，有似畏懦，非用兵之勢也。若或虜略民人，又州郡兵家爲賊所得者，更懷離心；儉等所迫脅者，自顧罪重，不敢復還，此爲錯兵無用之地，而成姦宄之源。吳寇因之，則淮南非國家之有，譙、沛、汝、豫危而不安，此計之大失也。軍宜速進據南頓，南頓有大邸閣，計足軍人四十日糧。保堅城，因積穀，先人有奪人之心，此平賊之要也。」基屢請，乃聽進據㶏水。旣至，復言曰：「兵聞拙速，未覩工遟之乆。方今外有彊寇，內有叛臣，若不時決，則事之深淺未可測也。議者多欲將軍持重。將軍持重是也，停軍不進非也。持重非不行之謂也，進而不可犯耳。今據堅城，保壁壘，以積實資虜，縣運軍糧，甚非計也。」景王欲須諸軍集到，猶尚未許。基曰：「將在軍，君令有所不受。彼得則利，我得亦利，是謂爭城，南頓是也。」遂輙進據南頓，儉等從項亦爭欲往，發十餘里，聞基先到，復還保項。時兖州刺史鄧艾屯樂嘉，儉使文欽將兵襲艾。基知其勢分，進兵偪項，儉衆遂敗。欽等已平，遷鎮南將軍，都督豫州諸軍事，領豫州刺史，進封安樂鄉侯。上疏求分戶二百，賜叔父子喬爵關內侯，以報叔父拊育之德。有詔特聽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p25.h1",
+          "type": "person",
+          "at": 15,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p25.h2",
+          "type": "person",
+          "at": 569,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p26",
       "text": "諸葛誕反，基以本官行鎮東將軍，都督揚、豫諸軍事。時大軍在項，以賊兵精，詔基斂軍堅壘。基累啟求進討。會吳遣朱異來救誕，軍於安城。基又被詔引諸軍轉據北山，基謂諸將曰：「今圍壘轉固，兵馬向集，但當精修守備以待越逸，而更移兵守險，使得放縱，雖有智者不能善後矣。」遂守便宜上疏曰：「今與賊家對敵，當不動如山。若遷移依險，人心搖蕩，於勢大損。諸軍並據深溝高壘，衆心皆定，不可傾動，此御兵之要也。」書奏，報聽。大將軍司馬文王進屯丘頭，分部圍守，各有所統。基督城東城南二十六軍，文王勑軍吏入鎮南部界，一不得有所遣。城中食盡，晝夜攻壘，基輙拒擊，破之。壽春旣拔，文王與基書曰：「初議者云云，求移者甚衆，時未臨履，亦謂宜然。將軍深筭利害，獨秉固志，上違詔命，下拒衆議，終至制敵禽賊，雖古人所述，不是過也。」文王欲遣諸將輕兵深入，招迎唐咨等子弟，因釁有蕩覆吳之勢。基諫曰：「昔諸葛恪乘東關之勝，竭江表之兵，以圍新城，城旣不拔，而衆死者大半。姜維因洮上之利，輕兵深入，糧餉不繼，軍覆上邽。夫大捷之後，上下輕敵，輕敵則慮難不深。今賊新敗於外，又內患未弭，是其脩備設慮之時也。且兵出踰年，人有歸志，今俘馘十萬，罪人斯得，自歷代征伐，未有全兵獨克如今之盛者也。武皇帝克袁紹於官渡，自以所獲已多，不復追奔，懼挫威也。」文王乃止。以淮南初定，轉基爲征東將軍，都督揚州諸軍事，進封東武侯。基上疏固讓，歸功參佐，由是長史司馬等七人皆侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p26.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p26.h2",
+          "type": "person",
+          "at": 377,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p26.h3",
+          "type": "person",
+          "at": 409,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p26.h4",
+          "type": "person",
+          "at": 515,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.27.p26.h5",
+          "type": "person",
+          "at": 519,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.27.p27",
@@ -455,18 +1016,59 @@
           "era": "景元",
           "era_year": 2,
           "reasoning": "「是歲」 = 当前年 景元2年 (AD 261)"
+        },
+        {
+          "id": "wei.27.p29.h1",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.27.p30",
       "text": "評曰：徐邈清尚弘通，胡質素業貞粹，王昶開濟識度，王基學行堅白，皆掌統方任，垂稱著績。可謂國之良臣，時之彥士矣。",
-      "annotations": []
-    },
-    {
-      "id": "wei.27.p31",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.27.p30.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p30.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p30.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.27.p30.h4",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

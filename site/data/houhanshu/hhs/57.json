@@ -37,6 +37,24 @@
           "era": "永初",
           "era_year": 1,
           "reasoning": "原文「永初元年」直接出现年号；解析為 AD 107"
+        },
+        {
+          "id": "hhs.57.p2.h1",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.57.p2.h2",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
         }
       ]
     },
@@ -48,17 +66,137 @@
     {
       "id": "hhs.57.p4",
       "text": "及鄧氏誅，左右皆言根等之忠。帝謂根已死，乃下詔佈告天下，錄其子孫。根方歸鄉里，征詣公車，拜侍御史。初，平原郡吏成翊世亦諫太后歸政，坐抵罪，與根俱征，擢為尚書郎，並見納用。或問根曰：「往者遇禍，天下同義，知故不少，何至自苦如此？」根曰：「周旋民閒，非絕跡之處，邂逅發露，禍及知親，故不為也。」順帝時，稍遷濟陰太守。去官還家，年七十八卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p4.h1",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "翊世",
+          "person_id": "yishi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p4.h3",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p4.h2",
+          "type": "person",
+          "at": 145,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p5",
       "text": "翊世字季明，少好學，深明道術。延光，中常侍樊豐、帝乳母王聖共譖皇太子，廢為濟陰王。翊世連上書訟之，又言樊豐、王聖誣罔之狀。帝既不從，而豐等陷以重罪，下獄當死，有詔免官歸本郡。及濟陰王立，是為順帝，司空張皓辟之。皓以翊世前訟太子之廢，薦為議郎。翊世自以其功不顯，恥於受位，自劾歸。三公比辟，不應。[一]尚書僕射虞詡雅重之，欲引與共參朝政，乃上書薦之，征拜議郎。後尚書令左雄、僕射郭虔復舉為尚書。在朝正色，百僚敬之。注[一]比猶頻也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p5.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "翊世",
+          "person_id": "yishi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p5.h8",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p5.h2",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "翊世",
+          "person_id": "yishi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p5.h3",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.57.p5.h4",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "翊世",
+          "person_id": "yishi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p5.h9",
+          "type": "person",
+          "at": 111,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p5.h5",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "翊世",
+          "person_id": "yishi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p5.h6",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "虞詡",
+          "person_id": "yuxu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p5.h7",
+          "type": "person",
+          "at": 183,
+          "length": 2,
+          "text": "左雄",
+          "person_id": "zuoxiong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p6",
       "text": "欒巴字叔元，魏郡內黃人也。[一]*[好道]*。順帝世，以宦者給事掖庭，補黃門令，非其好也。性質直，學覽經典，雖在中官，不與諸常侍交接。後陽氣通暢，白上乞退，擢拜郎中，四遷桂楊太守。以郡處南垂，不閒典訓，為吏人定婚姻喪紀之禮，興立*(校)*學*[校]*，以獎進之。雖幹吏卑末，皆課令習讀，程試殿最，隨能升授。[二]政事明察。視事七年，以病乞骸骨。注[一]神仙傳云：「巴，蜀郡人也。少而學道，不修俗事。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p6.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p7",
@@ -68,7 +206,35 @@
     {
       "id": "hhs.57.p8",
       "text": "荊州刺史李固薦巴治多，征拜議郎，守光祿大夫，與杜喬、周舉等八人徇行州郡。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p8.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p8.h2",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "杜喬",
+          "person_id": "duqiao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p8.h3",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "周舉",
+          "person_id": "zhouju",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p9",
@@ -78,7 +244,17 @@
     {
       "id": "hhs.57.p10",
       "text": "陵左右或有小人墳頤，主者欲有所侵毀，巴連上書苦諫。時梁太后臨朝，詔詰巴曰：「大行皇帝晏駕有日，卜擇陵園，務從省約，塋域所極，裁二十頃，而巴虛言主者壞人頤墓。事既非實，寢不報下，巴猶固遂其愚，復上誹謗。苟肆狂瞽，益不可長。」巴坐下獄，抵罪，禁錮還家。注[一]房謂為房堂而祀者。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p10.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p11",
@@ -98,7 +274,26 @@
     {
       "id": "hhs.57.p14",
       "text": "二十餘年，靈帝即位，大將軍竇武、太傅陳蕃輔政，征拜議郎。蕃、武被誅，巴以其黨，復讁為永昌太守。以功自劾，辭病不行，上書極諫，理陳、竇之冤。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p14.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.57.p14.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p15",
@@ -108,12 +303,32 @@
     {
       "id": "hhs.57.p16",
       "text": "劉陶字子奇，一名偉，穎川穎陰人，濟北貞王勃之後。陶為人居簡，不修小節。所與交友，必也同志。好尚或殊，富貴不求合；情趣苟同，貧賤不易意。同宗劉愷，以雅德知名，獨深器陶。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p16.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉陶",
+          "person_id": "liutao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p17",
       "text": "時大將軍梁冀專朝，而桓帝無子，連歲荒饑，災異數見。陶時游太學，乃上疏陳事曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p17.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p18",
@@ -178,7 +393,17 @@
     {
       "id": "hhs.57.p30",
       "text": "注[二]申伯，仲山甫，周宣王之臣也。詩曰：「惟申及甫，惟周之翰。」史記曰，周孝王之子燮，是為夷王。夷王崩，子厲王胡立，行暴虐，死於彘也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p30.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "周宣",
+          "person_id": "zhouxuan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p31",
@@ -228,7 +453,17 @@
     {
       "id": "hhs.57.p40",
       "text": "注[六]列子曰：「昔堯理天下五十年，不知天下理亂。堯乃微服游於康衢。兒童謠曰：『立我蒸人，莫*(不)**[非]*爾極，不識不知，順帝之則。』」說苑曰：「孔子行游中路，聞哭者聲，其音甚悲。孔子避車而問之曰：『夫子非有喪也，何哭之悲？』虞丘子對曰：『吾有三失：吾少好學，周徧天下，還後吾親亡，一失也；事君奢驕不遂，是二失也；厚交友而後絕，是三失也。』」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p40.h1",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p41",
@@ -258,7 +493,17 @@
     {
       "id": "hhs.57.p46",
       "text": "注[五]公羊傳曰：「其言梁亡何？魚爛而亡也。」何休曰：「魚爛，從中發潰爛也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p46.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "何休",
+          "person_id": "hexiu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p47",
@@ -289,6 +534,15 @@
       "id": "hhs.57.p52",
       "text": "頃之，拜侍御史。靈帝宿聞其名，數引納之。時鉅鹿張角偽托大道，妖惑小民，陶與奉車都尉樂松、議郎袁貢連名上疏言之，曰：「聖王以天下耳目為視聽，故能無不聞見。今張角支黨不可勝計。前司徒楊賜奏下詔書，切敕州郡，護送流民，會賜去位，不復捕錄。唯會赦令，而謀不解散。四方私言，雲角等竊入京師，覘視朝政，鳥聲獸心，私共鳴呼。州郡忌諱，不欲聞之，但更相告語，莫肯公文。宜下明詔，重募角等，賞以國土。有敢迴避，與之同罪。」帝殊不悟，方詔陶次第春秋條例。明年，張角反亂，海內鼎沸，帝思陶言，封中陵鄉侯，三遷尚書令。以所舉將為尚書，難與齊列，乞從冗散，拜侍中。以數切諫，為權臣所憚，徙為京兆尹。到職，當出修宮錢直千萬，[一]陶既清貧，而恥以錢買職，稱疾不聽政。帝宿重陶才，原其罪，征拜諫議大夫。",
       "annotations": [
+        {
+          "id": "hhs.57.p52.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
         {
           "id": "hhs.57.p52.t1",
           "type": "temporal",
@@ -322,7 +576,17 @@
     {
       "id": "hhs.57.p56",
       "text": "陶自知必死，對使者曰：「朝廷前封臣雲何？今反受邪譖。恨不與伊﹑呂同疇，而以三仁為輩。」[三]遂閉氣而死，天下莫不痛之。注[一]時湟中義從胡北宮伯玉等叛，遣左車騎將軍皇甫嵩討之不克也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p56.h1",
+          "type": "person",
+          "at": 82,
+          "length": 3,
+          "text": "皇甫嵩",
+          "person_id": "huangfusong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p57",
@@ -355,18 +619,46 @@
           "era": "光和",
           "era_year": 5,
           "reasoning": "原文「光和五年」直接出现年号；解析為 AD 182"
+        },
+        {
+          "id": "hhs.57.p60.h1",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.57.p61",
       "text": "李雲字行祖，甘陵人也。性好學，善陰陽。初舉孝廉，再遷白馬令。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p61.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "李雲",
+          "person_id": "liyun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p62",
       "text": "桓帝延熹二年，誅大將軍梁冀，而中常侍單超等五人皆以誅冀功並封列侯，專權選舉。又立掖庭民女亳氏為皇后，數月閒，後家封者四人，賞賜巨萬。[一]是時地數震裂，觿災頻降。雲素剛，憂國將危，心不能忍，乃露布上書，移副三府，[二]曰：「臣聞皇后天下母，德配坤靈，得其人則五氏來備，不得其人則地動搖宮。[三]比年災異，可謂多矣，皇天之戒，可謂至矣。高祖受命，至今三百六十四歲，君期一週，當有黃精代見，姓陳﹑項﹑虞﹑田﹑許氏，不可令此人居太尉﹑太傅典兵之官。[四]舉厝至重，不可不慎。班功行賞，宜應其實。梁冀雖持權專□，虐流天下，今以罪行誅，猶召家臣搤殺之耳。而猥封謀臣萬戶以上，高祖聞之，得無見非？西北列將，得無解體？[五]孔子曰：『帝者，諦也。』[六]今官位錯亂，小人諂進，財貨公行，政化日損，尺一拜用不經御省。[七]是帝欲不諦乎？」帝得奏震怒，下有司逮雲，詔尚書都護□戟送黃門北寺獄，使中常侍管霸與御史廷尉雜考之。",
       "annotations": [
+        {
+          "id": "hhs.57.p62.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
         {
           "id": "hhs.57.p62.t1",
           "type": "temporal",
@@ -390,7 +682,35 @@
     {
       "id": "hhs.57.p64",
       "text": "大鴻臚陳蕃上疏救雲曰：「李雲所言，雖不識禁忌，幹上逆旨，其意歸於忠國而已。昔高祖忍周昌不諱之諫，成帝赦朱雲□領之誅。[八]今日殺雲，臣恐剖心之譏復議於世矣。[九]故敢觸龍鱗，冒昧以請。」[一０]太常楊秉﹑洛陽市長沐茂﹑郎中上官資並上疏請雲。帝恚甚，有司奏以為大不敬。詔切責蕃﹑秉，免歸田裡；茂﹑資貶秩二等。時帝在濯龍池，管霸奏雲等事。霸*(跪)**[詭]*言曰：「李雲野澤愚儒，杜觿郡中小吏，出於狂戇，不足加罪。」帝謂霸曰：「帝欲不諦，是何等語，而常侍欲原之邪？」顧使小黃門可其奏，雲﹑觿皆死獄中。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p64.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p64.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "李雲",
+          "person_id": "liyun",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p64.h3",
+          "type": "person",
+          "at": 182,
+          "length": 2,
+          "text": "李雲",
+          "person_id": "liyun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p65",
@@ -415,7 +735,26 @@
     {
       "id": "hhs.57.p69",
       "text": "注[五]列將謂皇甫規﹑段熲等。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p69.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "皇甫規",
+          "person_id": "huangfugui",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p69.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "段熲",
+          "person_id": "duanjiong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p70",
@@ -453,7 +792,17 @@
     {
       "id": "hhs.57.p75",
       "text": "論曰：禮有五諫，諷為上。[一]若夫托物見情，因文載旨，使言之者無罪，聞之者足以自戒，[二]貴在於意達言從，理歸乎正。曷其絞訐摩上，以衒沽成名哉？[三]李雲草茅之生，不識失身之義，[四]遂乃露布帝者，班檄三公，至於誅死而不顧，斯豈古之狂也！[五]夫未信而諫，則以為謗己，[六]故說者識其難焉。[七]",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p75.h1",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "李雲",
+          "person_id": "liyun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p76",
@@ -517,7 +866,17 @@
     {
       "id": "hhs.57.p85",
       "text": "臣瑜自念東國鄙陋，得以豐沛枝胤，被蒙復除，不給卒伍。故太尉楊秉知臣竊窺典籍，猥見顯舉，誠冀臣愚直，有補萬一。而秉忠謨不遂，命先朝露。臣在下土，聽聞歌謠，驕臣虐政之事，遠近呼嗟之音，竊為辛楚，泣血漣如。幸得引錄，備荅聖問，洩寫至情，不敢庸回。[一]誠願陛下且以須臾之慮，覽今往之事，人何為咨嗟，天曷為動變。注[一]庸，用也。回，邪也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p85.h1",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "huanhan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p86",
@@ -583,7 +942,26 @@
     {
       "id": "hhs.57.p95",
       "text": "又陛下以北辰之尊，神器之寶，而微行近習之家，私幸宦者之捨，[一]賓客市買，熏灼道路，因此暴縱，無所不容。今三公在位，皆博達道蓺，而各正諸己，莫或匡益者，非不智也，畏死罰也。惟陛下設置七臣，以廣諫道，[二]及開東序金縢史官之書，從堯舜禹湯文武致興之道，[三]遠佞邪之人，放鄭□之聲，則政致和平，德感祥風矣。[四]臣悾悾推情，言不足采，[五]懼以觸忤，征營懾悸。注[一]近習謂親近狎者。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p95.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "huanhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p95.h2",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "huanhan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p96",
@@ -615,6 +993,15 @@
       "text": "及帝崩，大將軍竇武欲大誅宦官，乃引瑜為侍中，又以侍中尹勳為尚書令，共同謀畫。及武敗，瑜﹑勳並被誅。事在。",
       "annotations": [
         {
+          "id": "hhs.57.p101.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "尹勳",
+          "person_id": "yinxun_2",
+          "via": "primary"
+        },
+        {
           "id": "hhs.57.p101.a1",
           "type": "lixian",
           "at": 51,
@@ -626,7 +1013,17 @@
     {
       "id": "hhs.57.p102",
       "text": "勳字伯元，河南人。從祖睦為太尉，睦孫頌為司徒。勳為人剛毅直方。少時每讀書，得忠臣義士之事，未嘗不投書而仰歎。自以行不合於當時，不應州郡公府禮命。桓帝時，以有道征，四遷尚書令。延熹中，誅大將軍梁冀，帝召勳部分觿職，甚有方略，封宜陽鄉侯。僕射霍諝，尚書張敬﹑歐陽參﹑李偉﹑虞放﹑周永，並封亭侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p102.h1",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p103",
@@ -675,12 +1072,50 @@
     {
       "id": "hhs.57.p109",
       "text": "臣聞和氣應於有德，妖異生乎失政。上天告譴，則王者思其愆；政道或虧，則奸臣當其罰。夫蛇者，陰氣所生；鱗者，甲兵之符也。[一]鴻範傳曰：「厥極弱，時則有蛇龍之驅。」[二]又熒惑守亢，裴回不去，法有近臣謀亂，發於左右。不知陛下所與從容帷幄之內，親信者為誰。宜急斥黜，以消天戒。臣又聞「惟虺惟蛇，女子之祥」。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p109.h1",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p110",
       "text": "[三]伏惟皇太后定策宮闥，援立聖明，書云：「父子兄弟，罪不相及。」竇氏之誅，豈宜咎延太后？幽隔空宮，愁感天心，如有霧露之疾，陛下當何面目以見天下？[四]昔周襄王不能敬事其母，戎狄遂至交侵。[五]孝和皇帝不絕竇後之恩，前世以為美談。[六]禮為人後者為之子，今以桓帝為父，豈得不以太后為母哉？援神契曰：「天子行孝，四夷和平。」方今邊境日蹙，兵革蜂起，自非孝道，何以濟之！願陛下仰慕有虞蒸蒸之化，俯思凱風慰母之念。[七]注[一]謝承書曰：「蛇者，陰*(之)**[氣]*所生，龍之類也。龍有鱗，甲兵之符也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p110.h2",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p110.h1",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.57.p110.h3",
+          "type": "person",
+          "at": 184,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p111",
@@ -695,7 +1130,17 @@
     {
       "id": "hhs.57.p113",
       "text": "注[四]文帝徙淮南王長於蜀，袁盎曰：「淮南王為人剛，今暴摧折之，臣恐其逢霧露病死，陛下有殺弟之名也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p113.h1",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p114",
@@ -706,6 +1151,15 @@
       "id": "hhs.57.p115",
       "text": "注[六]竇太后崩，張酺等奏云：「不宜合葬先帝。」和帝手詔曰：「臣子無貶尊上之文，恩不忍離。」於是合葬。見也。",
       "annotations": [
+        {
+          "id": "hhs.57.p115.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        },
         {
           "id": "hhs.57.p115.a1",
           "type": "lixian",
@@ -723,7 +1177,44 @@
     {
       "id": "hhs.57.p117",
       "text": "臣又聞爵賞之設，必酬庸勳；開國承家，小人勿用。[一]今功臣久外，未蒙爵秩，阿母寵私，乃享大封，大風雨雹，亦由於茲。又故太傅陳蕃，輔相陛下，勤身王室，夙夜匪懈，而見陷腢邪，一旦誅滅。其為酷濫，駭動天下，而門生故吏，並離徙錮。蕃身已往，人百何贖！[二]宜還其家屬，解除禁網。夫台宰重器，國命所繼。今之四公，唯司空劉寵斷斷守善，余皆素餐致寇之人，[三]必有折足覆餗之凶。可因災異，並加罷黜。[四]征故司空王暢，長樂少府李膺，並居政事，庶災變可消，國祚惟永。臣山藪頑闇，未達國典。策曰「無有所隱」，敢不盡愚，用忘諱忌。伏惟陛下裁其誅罰。注[一]易師卦上六爻詞也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p117.h1",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p117.h3",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.57.p117.h2",
+          "type": "person",
+          "at": 206,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p117.h4",
+          "type": "person",
+          "at": 257,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.57.p118",
@@ -772,7 +1263,17 @@
     {
       "id": "hhs.57.p124",
       "text": "注[一]尚書曰：「朕復子明辟。」孔安國注云：「復還明君之政於成王也。」言鄧後臨朝，不還政於安帝也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p124.h1",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.57.p125",
@@ -863,7 +1364,26 @@
     {
       "id": "hhs.57.p139",
       "text": "一八四八頁一二行後陶舉孝廉除順陽長集解引汪文台說，謂類聚十九引謝承書作「樅陽長」，類聚五十、御覽二百六十七引續漢書作「湞陽長」。今按：校補引柳從辰說，謂御覽四百六十五引本書，仍作「順陽長」。又按：類聚十九引謝承書，御覽二百六十七引續漢書，「劉陶」作「劉騊駼」，類聚五十作「劉騊」，御覽四百六十五引本書作「劉陶駼」，皆誤。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p139.h1",
+          "type": "person",
+          "at": 120,
+          "length": 2,
+          "text": "劉陶",
+          "person_id": "liutao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.57.p139.h2",
+          "type": "person",
+          "at": 152,
+          "length": 2,
+          "text": "劉陶",
+          "person_id": "liutao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p140",
@@ -908,7 +1428,17 @@
     {
       "id": "hhs.57.p148",
       "text": "意者，范氏元以李雲為古之愚，而正文鬥「愚」為「狂」，後人遂並注文而改之歟？",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.57.p148.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "李雲",
+          "person_id": "liyun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.57.p149",
@@ -963,6 +1493,15 @@
           "reasoning": "原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.57.p156.h1",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.57.p156.t2",
           "type": "temporal",
           "at": 41,
@@ -976,6 +1515,15 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "原文「建寧元年五月」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.57.p156.h2",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
@@ -988,6 +1536,15 @@
       "id": "hhs.57.p158",
       "text": "一八六０頁四行司空劉寵按：校補謂案靈帝紀，詔公卿以下各上封事在建寧二年四月，其時劉寵尚為司徒，傳文「司空」明是「司徒」之誤。",
       "annotations": [
+        {
+          "id": "hhs.57.p158.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
         {
           "id": "hhs.57.p158.t1",
           "type": "temporal",

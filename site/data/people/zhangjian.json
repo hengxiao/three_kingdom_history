@@ -1,0 +1,106 @@
+{
+  "id": "zhangjian",
+  "primary_name": "張儉",
+  "courtesy_name": "符節",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 152,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "張儉",
+        "snippet": "…南蔡衍、泰山羊陟為八顧，顧者，言能以德行引人者也；張儉、翟超、岑晊、苑康及山陽劉表、汝南陳翔、魯國孔昱、山陽檀敷為八及，及者，言其能導人追宗者也；度尚及東平張邈、王孝、東郡劉儒、泰…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p30",
+        "at": 0,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "張儉",
+        "snippet": "張儉亡命困迫，望門投止，莫不重其名行，破家相容。後流轉東萊，止李篤家。外黃令毛欽操兵到門，篤引欽就席曰：「張儉負罪亡命，篤豈得藏之…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p32",
+        "at": 3,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "張儉",
+        "snippet": "夏馥聞張儉亡命，歎曰：「孽自己作，空污良善，一人逃死，禍及萬家，何以生為！」乃自翦鬚變形，入林慮山中，隱姓名，為冶家傭，親突煙炭，形貌毀…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p18",
+        "at": 35,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "張儉",
+        "snippet": "…薨。太子丕代爲丞相魏王，改年爲延康。秋，魏將梅敷使張儉求見撫納。南陽陰、酇築陽、山都、中廬五縣民五千家來附。冬，魏嗣王稱尊號，改元爲黃初。"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.70",
+        "chapter_title": "鄭孔荀列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.70.p22",
+        "at": 2,
+        "data_url": "data/houhanshu/hhs/70.json",
+        "matched": "張儉",
+        "snippet": "山陽張儉爲中常侍侯覽所怨，覽爲刊章下州郡，以名捕儉。儉與融兄襃有舊，亡抵於襃，不遇。時融年十六，儉少之而不告。融見其有窘色，謂曰：「兄…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p290",
+        "at": 33,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "張儉",
+        "snippet": "…高平人，魯恭王之後也。身長八尺餘，姿貌溫偉。與同郡張儉等俱被訕議，號為「八顧」。詔書捕案黨人，表亡走得免。黨禁解，辟大將軍何進掾。"
+      },
+      {
+        "chapter_id": "hhs.77",
+        "chapter_title": "酷吏列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.77.p2",
+        "at": 46,
+        "data_url": "data/houhanshu/hhs/77.json",
+        "matched": "張儉",
+        "snippet": "…世省矣。而閹人親婭，侵虐天下。至使陽球磔王甫之屍，張儉剖曹節之墓。若此之類，雖厭快眾憤，亦云酷矣！儉知名，故附《黨人篇》。"
+      }
+    ]
+  },
+  "n_mentions": 7
+}

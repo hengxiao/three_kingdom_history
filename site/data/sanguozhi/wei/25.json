@@ -11,58 +11,361 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷25",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 53,
+  "n_segments": 52,
   "segments": [
     {
       "id": "wei.25.p1",
       "text": "辛毗楊阜高堂隆",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "楊阜",
+          "person_id": "yangfu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.25.p2",
       "text": "辛毗字佐治，潁川陽翟人也。其先建武中，自隴西東遷。毗隨兄評從袁紹。太祖爲司空，辟毗，毗不得應命。及袁尚攻兄譚於平原，譚使毗詣太祖求和。太祖將征荊州，次于西平。毗見太祖致譚意，太祖大恱。後數日，更欲先平荊州，使譚、尚自相弊。他日置酒，毗望太祖色，知有變，以語郭嘉。嘉白太祖，太祖謂毗曰：「譚可信？尚必可克不？」毗對曰：「明公無問信與詐也，直當論其勢耳。袁氏本兄弟相伐，非謂他人能閒其間，乃謂天下可定於己也。今一旦求救於明公，此可知也。顯甫見顯思困而不能取，此力竭也。兵革敗於外，謀臣誅於內，兄弟讒鬩，國分爲二；連年戰伐，而介冑生蟣蝨，加以旱蝗，饑饉並臻，國無囷倉，行無裹糧，天災應於上，人事困於下，民無愚智，皆知土崩瓦解，此乃天亡尚之時也。兵法稱有石城湯池帶甲百萬而無粟者，不能守也。今往攻鄴，尚不還救，即不能自守。還救，即譚踵其後。以明公之威，應困窮之敵，擊疲弊之寇，無異迅風之振秋葉矣。天以袁尚與明公，明公不取而伐荊州。荊州豐樂，國未有釁。仲虺有言：『取亂侮亡。』方今二袁不務遠略而內相圖，可謂亂矣；居者無食，行者無糧，可謂亡矣。朝不謀夕，民命靡繼，而不綏之，欲待他年；他年或登，又自知亡而改脩厥德，失所以用兵之要矣。今因其請救而撫之，利莫大焉。且四方之寇，莫大於河北；河北平，則六軍盛而天下震。」太祖曰：「善。」乃許譚平，次于黎陽。明年攻鄴，克之，表毗爲議郎。",
       "annotations": [
         {
+          "id": "wei.25.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p2.h2",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p2.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h4",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.25.p2.a1",
           "type": "pei",
           "at": 67,
           "length": 0,
           "text": "《英雄記》曰：譚、尚戰於外門，譚軍敗奔北。郭圖說譚曰：「今將軍國小兵少，糧匱勢弱，顯甫之來，久則不敵。愚以爲可呼曹公來擊顯甫。曹公至，必先攻鄴，顯甫還救。將軍引兵而西，自鄴以北皆可虜得。若顯甫軍破，其兵奔亡，又可斂取以拒曹公。曹公遠僑而來，糧餉不繼，必自逃去。比此之際，趙國以北皆我之有，亦足與曹公爲對矣。不然，不諧。」譚始不納，後遂從之。問圖：「誰可使？」圖荅：「辛佐治可。」譚遂遣毗詣太祖。"
+        },
+        {
+          "id": "wei.25.p2.h5",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h6",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h7",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h8",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h9",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "郭嘉",
+          "person_id": "guojia",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p2.h10",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h11",
+          "type": "person",
+          "at": 136,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p2.h12",
+          "type": "person",
+          "at": 550,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.25.p3",
       "text": "乆之，太祖遣都護曹洪平下辯，使毗與曹休參之，令曰：「昔高祖貪財好色，而良、平匡其過失。今佐治、文烈憂不輕矣。」軍還，爲丞相長史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p3.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p3.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p3.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p3.h4",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p4",
       "text": "文帝踐阼，遷侍中，賜爵關內侯。時議改正朔。毗以魏氏遵舜、禹之統，應天順民；至於湯、武，以戰伐定天下，乃改正朔。孔子曰「行夏之時」，左氏傳曰「夏數爲得天正」，何必期於相反。帝善而從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p5",
       "text": "帝欲徙冀州士家十萬戶實河南。時連蝗民饑，群司以爲不可，而帝意甚盛。毗與朝臣俱求見，帝知其欲諫，作色以見之，皆莫敢言。毗曰：「陛下欲徙士家，其計安出：」帝曰：「卿謂我徙之非邪？」毗曰：「誠以爲非也。」帝曰：「吾不與卿共議也。」毗曰：「陛下不以臣不肖，置之左右，廁之謀議之官，安得不與臣議邪！臣所言非私，乃社稷之慮也，安得怒臣！」帝不荅，起入內；毗隨而引其裾，帝遂奮衣不還，良乆乃出，曰：「佐治，卿持我何太急邪？」毗曰：「今徙，旣失民心，又無以食也。」帝遂徙其半。嘗從帝射雉，帝曰：「射雉樂哉！」毗曰：「於陛下甚樂，而於羣下甚苦。」帝默然，後遂爲之稀出。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p5.h1",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p5.h2",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p5.h3",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p6",
       "text": "上軍大將軍曹真征朱然于江陵，毗行軍師。還，封廣平亭侯。帝欲大興軍征吳，毗諫曰：「吳、楚之民，險而難禦，道隆後服，道洿先叛，自古患之，非徒今也。今陛下祚有海內，夫不賔者，其能乆乎？昔尉佗稱帝，子陽僭號，歷年未幾，或臣或誅。何則，違逆之道不乆全，而大德無所不服也。方今天下新定，土廣民稀。夫廟筭而後出軍，猶臨事而懼，況今廟筭有闕而欲用之，臣誠未見其利也。先帝屢起銳師，臨江而旋。今六軍不增於故，而復循之，此未易也。今日之計，莫若脩范蠡之養民，法管仲之寄政，則充國之屯田，明仲尼之懷遠；十年之中，彊壯未老，童齓勝戰，兆民知義，將士思奮，然後用之，則役不再舉矣。」帝曰：「如卿意，更當以虜遺子孫邪？」毗對曰：「昔周文王以紂遺武王，惟知時也。苟時未可，容得已乎！」帝竟伐吳，至江而還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p6.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p6.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p6.h3",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p7",
       "text": "明帝即位，進封潁鄉侯，邑三百戶。時中書監劉放、令孫資見信於主，制斷時政，大臣莫不交好，而毗不與往來。毗子敞諫曰：「今劉、孫用事，衆皆影附，大人宜小降意，和光同塵；不然必有謗言。」毗正色曰：「主上雖未稱聦明，不爲闇劣。吾之立身，自有本未。就與劉、孫不平，不過令吾不作三公而已，何危害之有？焉有大丈夫欲爲公而毀其高節者邪？」宂從僕射畢軌表言：「尚書僕射王思精勤舊吏，忠亮計略不如辛毗，毗宜代思。」帝以訪放、資，放、資對曰：「陛下用思者，誠欲取其効力，不貴虛名也。毗實亮直，然性剛而專，聖慮所當深察也。」遂不用。出爲衞尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p7.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p7.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "劉放",
+          "person_id": "liufang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p7.h4",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "主上",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p7.h3",
+          "type": "person",
+          "at": 187,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p7.h5",
+          "type": "person",
+          "at": 210,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p8",
       "text": "帝方脩殿舍，百姓勞役，毗上疏曰：「竊聞諸葛亮講武治兵，而孫權巿馬遼東，量其意指，似欲相左右。備豫不虞，古之善政，而今者宮室大興，加連年穀麥不收。詩云：『民亦勞止，迄可小康，惠此中國，以綏四方。』唯陛下爲社稷計。」帝報曰：「二虜未滅而治宮室，直諫者立名之時也。夫王者之都，當及民勞兼辦，使後世無所復增，是蕭何爲漢規摹之略也。今卿爲魏重臣，亦宜解其大歸。」帝又欲平北芒，令於其上作臺觀，則見孟津。毗諫曰：「天地之性，高高下下，今而反之，旣非其理；加以損費人功，民不堪役。且若九河盈溢，洪水爲害，而丘陵皆夷，將何以禦之？」帝乃止。",
       "annotations": [
+        {
+          "id": "wei.25.p8.h1",
+          "type": "person",
+          "at": 19,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p8.h2",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p8.h3",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
         {
           "id": "wei.25.p8.a1",
           "type": "pei",
@@ -90,6 +393,33 @@
           "reasoning": "原文「青龍二年」直接出现年号；解析為 AD 234"
         },
         {
+          "id": "wei.25.p9.h1",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p9.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p9.h3",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.25.p9.t2",
           "type": "temporal",
           "at": 36,
@@ -110,6 +440,15 @@
           "text": "《魏略》曰：宣王數數欲進攻，毗禁不聽。宣王雖能行意，而每屈於毗。"
         },
         {
+          "id": "wei.25.p9.h4",
+          "type": "person",
+          "at": 72,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
           "id": "wei.25.p9.a2",
           "type": "pei",
           "at": 101,
@@ -123,6 +462,15 @@
       "text": "楊阜字義山，天水冀人也。以州從事爲牧韋端使詣許，拜安定長史。阜還，關右諸將問袁、曹勝敗孰在，阜曰：「袁公寬而不斷，好謀而少決；不斷則無威，少決則失後事，今雖彊，終不能成大業。曹公有雄才遠略，決機無疑，法一而兵精，能用度外之人，所任各盡其力，必能濟大事者也。」長史非其好，遂去官。而端徵爲太僕，其子康代爲刺史，辟阜爲別駕。察孝廉，辟丞相府，州表留參軍事。",
       "annotations": [
         {
+          "id": "wei.25.p10.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "楊阜",
+          "person_id": "yangfu",
+          "via": "primary"
+        },
+        {
           "id": "wei.25.p10.a1",
           "type": "pei",
           "at": 12,
@@ -135,6 +483,78 @@
       "id": "wei.25.p11",
       "text": "馬超之戰敗渭南也，走保諸戎。太祖追至安定，而蘇伯反河閒，將引軍東還。阜時奉使，言於太祖曰：「超有信、布之勇，甚得羌、胡心，西州畏之。若大軍還，不嚴爲之備，隴上諸郡非國家之有也。」太祖善之，而軍還倉卒，爲備不周。超率諸戎渠帥以擊隴上郡縣，隴上郡縣皆應之，惟冀城奉州郡以固守。超盡兼隴右之衆，而張魯又遣大將楊昂以助之，凡萬餘人，攻城。阜率國士大夫及宗族子弟勝兵者千餘人，使從弟岳於城上作偃月營，與超接戰，自正月至八月拒守而救兵不至。州遣別駕閻溫循水潛出求救，爲超所殺，於是刺史、太守失色，始有降超之計。阜流涕諫曰：「阜等率父兄子弟以義相勵，有死無二；田單之守，不固於此也。棄垂成之功，陷不義之名，阜以死守之。」遂號哭。刺史、太守卒遣人請和，開城門迎超。超入，拘岳於冀，使楊昂殺刺史、太守。",
       "annotations": [
+        {
+          "id": "wei.25.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p11.h2",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p11.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p11.h4",
+          "type": "person",
+          "at": 46,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h5",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p11.h6",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h7",
+          "type": "person",
+          "at": 136,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h8",
+          "type": "person",
+          "at": 196,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
         {
           "id": "wei.25.p11.t1",
           "type": "temporal",
@@ -164,18 +584,190 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「八月」"
+        },
+        {
+          "id": "wei.25.p11.h9",
+          "type": "person",
+          "at": 218,
+          "length": 2,
+          "text": "閻溫",
+          "person_id": "yanwen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p11.h10",
+          "type": "person",
+          "at": 228,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h11",
+          "type": "person",
+          "at": 245,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h12",
+          "type": "person",
+          "at": 322,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p11.h13",
+          "type": "person",
+          "at": 324,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
         }
       ]
     },
     {
       "id": "wei.25.p12",
       "text": "阜內有報超之志，而未得其便。頃之，阜以喪妻求葬假。阜外兄姜叙屯歷城。阜少長叙家，見叙母及叙，說前在冀中時事，歔欷悲甚。叙曰：「何爲乃爾？」阜曰：「守城不能完，君亡不能死，亦何面目以視息於天下！馬超背父叛君，虐殺州將，豈獨阜之憂責，一州士大夫皆蒙其恥。君擁兵專制而無討賊心，此趙盾所以書殺君也。超彊而無義，多釁易圖耳。」叙母慨然，勑叙從阜計。計定，外與鄉人姜隱、趙昂、尹奉、姚瓊、孔信、武都人李俊、王靈結謀，定討超約，使從弟謨至冀語岳，并結安定梁寬、南安趙衢、龐恭等。約誓旣明，十七年九月，與叙起兵於鹵城。超聞阜等兵起，自將出。而衢、寬等解岳，閉冀城門，討超妻子。超襲歷城，得叙母。叙母罵之曰：「汝背父之逆子，殺君之桀賊，天地豈乆容汝，而不早死，敢以面目視人乎！」超怒，殺之。阜與超戰，身被五創，宗族昆弟死者七人。超遂南奔張魯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p12.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h2",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p12.h3",
+          "type": "person",
+          "at": 146,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h4",
+          "type": "person",
+          "at": 205,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h5",
+          "type": "person",
+          "at": 252,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h6",
+          "type": "person",
+          "at": 277,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h7",
+          "type": "person",
+          "at": 281,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h8",
+          "type": "person",
+          "at": 331,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h9",
+          "type": "person",
+          "at": 339,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p12.h10",
+          "type": "person",
+          "at": 356,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wei.25.p13",
       "text": "隴右平定，太祖封討超之功，侯者十一人，賜阜爵關內侯。阜讓曰：「阜君存無扞難之功，君亡無死節之効，於義當絀，於法當誅；超又不死，無宜苟荷爵祿。」太祖報曰：「君與羣賢共建大功，西土之人以爲美談。子貢辭賞，仲尼謂之止善。君其剖心以順國命。姜叙之母，勸叙早發，明智乃爾，雖楊敞之妻蓋不過此。賢哉，賢哉！良史記錄，必不墜於地矣。」",
       "annotations": [
+        {
+          "id": "wei.25.p13.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p13.h2",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.25.p13.h3",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.25.p13.h4",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.25.p13.a1",
           "type": "pei",
@@ -188,27 +780,248 @@
     {
       "id": "wei.25.p14",
       "text": "太祖征漢中，以阜爲益州刺史。還，拜金城太守，未發，轉武都太守。郡濵蜀漢，阜請依龔遂故事，安之而已。會劉備遣張飛、馬超等從沮道趣下辯，而氐雷定等七部萬餘落反應之。太祖遣都護曹洪禦超等，超等退還。洪置酒大會，令女倡著羅縠之衣，蹋鼓，一坐皆笑。阜厲聲責洪曰：「男女之別，國之大節，何有於廣坐之中裸女人形體！雖桀、紂之亂，不甚於此。」遂奮衣辭出。洪立罷女樂，請阜還坐，肅然憚焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p14.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p14.h2",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p14.h3",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p14.h4",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p14.h5",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p14.h6",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "曹洪",
+          "person_id": "caohong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p14.h7",
+          "type": "person",
+          "at": 88,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.25.p14.h8",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wei.25.p15",
       "text": "及劉備取漢中以逼下辯，太祖以武都孤遠，欲移之，恐吏民戀土。阜威信素著，前後徙民、氐，使居京兆、扶風、天水界者萬餘戶，徙郡小槐里，百姓襁負而隨之。爲政舉大綱而已，下不忍欺也。文帝問侍中劉曄等：「武都太守何如人也？」皆稱阜有公輔之節。未及用，會帝崩。在郡十餘年，徵拜城門校尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p15.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p15.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p15.h3",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p15.h4",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "劉曄",
+          "person_id": "liuye",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.25.p16",
       "text": "阜常見明帝著𧛕，被縹綾半裦袖，阜問帝曰：「此於禮何法服也？」帝默然不荅，自是不法服不以見阜。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p16.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p17",
       "text": "遷將作大匠。時初治宮室，發美女以充後庭，數出入弋獵。秋，大雨震電，多殺鳥雀。阜上疏曰：「臣聞明主在上，羣下盡辭。堯、舜聖德，求非索諫；大禹勤功，務卑宮室；成湯遭旱，歸咎責己；周文刑於寡妻，以御家邦；漢文躬行節儉，身衣弋綈：此皆能昭令問，貽厥孫謀者也。伏惟陛下奉武皇帝開拓之大業，守文皇帝克終之元緒，誠宜思齊往古聖賢之善治，總觀季世放盪之惡政。所謂善治者，務儉約、重民力也；所謂惡政者，從心恣欲，觸情而發也。惟陛下稽古世代之初所以明赫，及季世所以衰弱至于泯滅，近覽漢末之變，足以動心誡懼矣。曩使桓、靈不廢高祖之法，文、景之恭儉，太祖雖有神武，於何所施其能邪？而陛下何由處斯尊哉？今吳、蜀未定，軍旅在外，願陛下動則三思，慮而後行，重慎出入，以往鑒來，言之若輕，成敗甚重。頃者天雨，又多卒暴雷電非常，至殺鳥雀。天地神明，以王者爲子也，政有不當，則見災譴。克己內訟，聖人所記。惟陛下慮患無形之外，慎萌纖微之初，法漢孝文出惠帝美人，令得自嫁；頃所調送小女，遠聞不令，宜爲後圖。諸所繕治，務從約節。書曰：『九族旣睦，恊和萬國。』事思厥宜，以從中道，精心計謀，省息費用。吳、蜀以定，爾乃上安下樂，九親熈熈。如此以往，祖考心歡，堯舜其猶病諸。今宜開大信於天下，以安衆庶，以示遠人。」時雍丘王植怨於不齒，藩國至親，法禁峻密，故阜又陳九族之義焉。詔報曰：「閒得密表，先陳往古明王聖主，以諷闇政，切至之辭，款誠篤實。退思補過，將順匡救，備至悉矣。覽思苦言，吾甚嘉之。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p17.h5",
+          "type": "person",
+          "at": 127,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p17.h1",
+          "type": "person",
+          "at": 130,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p17.h2",
+          "type": "person",
+          "at": 140,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p17.h6",
+          "type": "person",
+          "at": 204,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p17.h3",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p17.h4",
+          "type": "person",
+          "at": 263,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p17.h7",
+          "type": "person",
+          "at": 279,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p17.h8",
+          "type": "person",
+          "at": 301,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p17.h9",
+          "type": "person",
+          "at": 385,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p18",
       "text": "後遷少府。是時大司馬曹真伐蜀，遇雨不進。阜上疏曰：「昔文王有赤烏之符，而猶日仄不暇食；武王白魚入舟，君臣變色。而動得吉瑞，猶尚憂懼，況有災異而不戰竦者哉？今吳、蜀未平，而天屢降變，陛下宜深有以專精應荅，側席而坐，思示遠以德，綏邇以儉。閒者諸軍始進，便有天雨之患，稽閡山險，以積日矣。轉運之勞，擔負之苦，所費以多，若有不繼，必違本圖。傳曰：『見可而進，知難而退，軍之善政也。』徒使六軍困於山谷之間，進無所略，退又不得，非主兵之道也。武王還師，殷卒以亡，知天期也。今年凶民饑，宜發明詔損膳減服，技巧珍玩之物，皆可罷之。昔邵信臣爲少府於無事之世，而奏罷浮食；今者軍用不足，益宜節度。」帝即召諸軍還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p18.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p18.h2",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p19",
@@ -223,18 +1036,91 @@
     {
       "id": "wei.25.p21",
       "text": "帝愛女淑，未期而夭，帝痛之甚，追封平原公主，立廟洛陽，葬於南陵。將自臨送，阜上疏曰：「文皇帝、武宣皇后崩，陛下皆不送葬，所以重社稷、備不虞也。何至孩抱之赤子而可送葬也哉？」帝不從。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p21.h1",
+          "type": "person",
+          "at": 43,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p21.h4",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p21.h3",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p21.h2",
+          "type": "person",
+          "at": 66,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wei.25.p22",
       "text": "帝旣新作許宮，又營洛陽宮殿觀閣。阜上疏曰：「堯尚茅茨而萬國安其居，禹卑宮室而天下樂其業；及至殷、周，或堂崇三尺，度以九筵耳。古之聖帝明王，未有極宮室之高麗以彫弊百姓之財力者也。桀作琁室、象廊，紂爲傾宮、鹿臺，以喪其社稷，楚靈以築章華而身受其禍；秦始皇作阿房而殃及其子，天下叛之，二世而滅。夫不度萬民之力，以從耳目之欲，未有不亡者也。陛下當以堯、舜、禹、湯、文、武爲法則，夏桀、殷紂、楚靈、秦皇爲深誡。高高在上，實監后德。慎守天位，以承祖考，巍巍大業，猶恐失之。不夙夜敬止，允恭卹民，而乃自暇自逸，惟宮臺是侈是飾，必有顛覆危亡之禍。易曰：『豐其屋，蔀其家，闚其戶，閴其無人。』王者以天下爲家，言豐屋之禍，至於家無人也。方今二虜合從，謀危宗廟，十萬之軍，東西奔赴，邊境無一日之娛；農夫廢業，民有饑色。陛下不以是爲憂，而營作宮室，無有已時。使國亡而臣可以獨存，臣又不言也；君作元首，臣爲股肱，存亡一體，得失同之。孝經曰：『天子有爭臣七人，雖無道不失其天下。』臣雖駑怯，敢忘爭臣之義？言不切至，不足以感寤陛下。陛下不察臣言，恐皇祖烈考之祚，將墜于地。使臣身死有補萬一，則死之日，猶生之年也。謹叩棺沐浴，伏俟重誅。」奏御，天子感其忠言，手筆詔荅。每朝廷會議，阜常侃然以天下爲己任。數諫爭，不聽，乃屢乞遜位，未許。會卒，家無餘財。孫豹嗣。",
       "annotations": [
         {
+          "id": "wei.25.p22.h1",
+          "type": "person",
+          "at": 166,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p22.h2",
+          "type": "person",
+          "at": 348,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
           "id": "wei.25.p22.a1",
           "type": "pei",
           "at": 383,
           "length": 0,
           "text": "臣松之以爲忠至之道，以亡己爲理。是以匡救其惡，不爲身計。而阜表云「使國亡而臣可以獨存，臣又不言也」，此則發憤爲己，豈爲國哉？斯言也，豈不傷讜烈之義，爲一表之病乎！"
+        },
+        {
+          "id": "wei.25.p22.h3",
+          "type": "person",
+          "at": 448,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p22.h4",
+          "type": "person",
+          "at": 451,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
         }
       ]
     },
@@ -261,6 +1147,33 @@
           "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.25.p24.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p24.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p24.h3",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.25.p24.a1",
           "type": "pei",
           "at": 211,
@@ -282,17 +1195,56 @@
     {
       "id": "wei.25.p27",
       "text": "夫災變之發，皆所以明教誡也，惟率禮脩德，可以勝之。易傳曰：『上不儉，下不節，孽火燒其室。』又曰：『君高其臺，天火爲災。』此人君苟飾宮室，不知百姓空竭，故天應之以旱，火從高殿起也。上天降鑒，故譴告陛下；陛下宜增崇人道，以荅天意。昔太戊有桑穀生於朝，武丁有雊雉登於鼎，皆聞災恐懼，側身脩德，三年之後，遠夷朝貢，故號曰中宗、高宗。此則前代之明鑒也。今案舊占，災火之發，皆以臺榭宮室爲誡。然今宮室之所以充廣者，實由宮人猥多之故。宜簡擇留其淑懿，如周之制，罷省其餘。此則祖乙之所以訓高宗，高宗之所以享遠號也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p27.h1",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p27.h2",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p28",
       "text": "詔問隆：「吾聞漢武帝時，栢梁災，而大起宮殿以厭之，其義云何？」隆對曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p28.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "武帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p29",
       "text": "臣聞西京栢梁旣災，越巫陳方，建章是經，以厭火祥；乃夷越之巫所爲，非聖賢之明訓也。五行志曰：『栢梁災，其後有江充巫蠱也，衞太子事。』如志之言，越巫建章無所厭也。孔子曰：『災者脩類應行，精祲相感，以戒人君。』是以聖主覩災責躬，退而脩德，以消復之。今宜罷散民役。宮室之制，務從約節，內足以待風雨，外足以講禮儀。清埽所災之處，不敢於此有所立作，萐莆、嘉禾必生此地，以報陛下虔恭之德。豈可疲民之力，竭民之財！實非所以致符瑞而懷遠人也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p29.h1",
+          "type": "person",
+          "at": 180,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p30",
@@ -302,7 +1254,17 @@
     {
       "id": "wei.25.p31",
       "text": "陵霄闕始構，有鵲巢其上，帝以問隆，對曰：「詩云『惟鵲有巢，惟鳩居之』。今興宮室，起陵霄闕，而鵲巢之，此宮室未成身不得居之象也。天意若曰，宮室未成，將有他姓制御之，斯乃上天之戒也。夫天道無親，惟與善人，不可不深防，不可不深慮。夏、商之季，皆繼體也，不欽承上天之明命，惟讒諂是從，廢德適欲，故其亡也忽焉。太戊、武丁，覩災竦懼，祗承天戒，故其興也勃焉。今若休罷百役，儉以足用，增崇德政，動遵帝則，除普天之所患，興兆民之所利，三王可四，五帝可六，豈惟殷宗轉禍爲福而已哉！臣備腹心，苟可以繁祉聖躬，安存社稷，臣雖灰身破族，猶生之年也。豈憚忤逆之災，而令陛下不聞至言乎？」於是帝改容動色。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p31.h1",
+          "type": "person",
+          "at": 271,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p32",
@@ -320,6 +1282,24 @@
           "era": "青龍",
           "era_year": 2,
           "reasoning": "「是歲」 = 当前年 青龍2年 (AD 234)"
+        },
+        {
+          "id": "wei.25.p32.h1",
+          "type": "person",
+          "at": 313,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p32.h2",
+          "type": "person",
+          "at": 340,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
         }
       ]
     },
@@ -375,7 +1355,17 @@
     {
       "id": "wei.25.p34",
       "text": "遷光祿勳。帝愈增崇宮殿，彫飾觀閣，鑿太行之石英，采穀城之文石，起景陽山於芳林之園，建昭陽殿於太極之北，鑄作黃龍鳳皇奇偉之獸，飾金墉、陵雲臺、陵霄闕。百役繁興，作者萬數，公卿以下至于學生，莫不展力，帝乃躬自握土以率之。而遼東不朝。悼皇后崩。天作淫雨，冀州水出，漂沒民物。隆上疏切諫曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p34.h1",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "maohuanghou",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p35",
@@ -395,12 +1385,41 @@
     {
       "id": "wei.25.p38",
       "text": "今吳、蜀二賊，非徒白地小虜、聚邑之寇，乃據險乘流，跨有士衆，僭號稱帝，欲與中國爭衡。今若有人來告，權、備並脩德政，復履清儉，輕省租賦，不治玩好，動咨耆賢，事遵禮度。陛下聞之，豈不惕然惡其如此，以爲難卒討滅，而爲國憂乎？若使告者曰，彼二賊並爲無道，崇侈無度，役其士民，重其徵賦，下不堪命，吁嗟日甚。陛下聞之，豈不勃然忿其困我無辜之民，而欲速加之誅，其次，豈不幸彼疲弊而取之不難乎？苟如此，則可易心而度，事義之數亦不遠矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p38.h1",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p38.h2",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p39",
       "text": "且秦始皇不築道德之基，而築阿房之宮，不憂蕭墻之變，而脩長城之役。當其君臣爲此計也，亦欲立萬世之業，使子孫長有天下，豈意一朝匹夫大呼，而天下傾覆哉？故臣以爲使先代之君知其所行必將至於敗，則弗爲之矣。是以亡國之主自謂不亡，然後至於亡；賢聖之君自謂將亡，然後至於不亡。昔漢文帝稱爲賢主，躬行約儉，惠下養民，而賈誼方之，以爲天下倒縣，可爲痛哭者一，可爲流涕者二，可爲長歎息者三。況今天下彫弊，民無儋石之儲，國無終年之畜，外有彊敵，六軍暴邊，內興土功，州郡騷動，若有寇警，則臣懼版築之士不能投命虜庭矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p39.h1",
+          "type": "person",
+          "at": 133,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p40",
@@ -412,6 +1431,15 @@
           "at": 207,
           "length": 0,
           "text": "會音膾。"
+        },
+        {
+          "id": "wei.25.p40.h1",
+          "type": "person",
+          "at": 208,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
         }
       ]
     },
@@ -428,7 +1456,17 @@
     {
       "id": "wei.25.p43",
       "text": "曾子有疾，孟敬子問之。曾子曰：「鳥之將死，其鳴也哀；人之將死，其言也善。」臣寢疾病，有增無損，常懼奄忽，忠款不昭。臣之丹誠，豈惟曾子，願陛下少垂省覽！渙然改往事之過謬，勃然興來事之淵塞，使神人嚮應，殊方慕義，四靈效珍，玉衡曜精，則三王可邁，五帝可越，非徒繼體守文而已也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p43.h1",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p44",
@@ -438,7 +1476,17 @@
     {
       "id": "wei.25.p45",
       "text": "臣觀黃初之際，天兆其戒，異類之鳥，育長燕巢，口爪胷赤，此魏室之大異也，宜防鷹揚之臣於蕭牆之內。可選諸王，使君國典兵，往往棊跱，鎮撫皇畿，翼亮帝室。昔周之東遷，晉、鄭是依，漢呂之亂，實賴朱虛，斯蓋前代之明鑒。夫皇天無親，惟德是輔。民詠德政，則延期過歷，下有怨歎，掇錄授能。由此觀之，天下之天下，非獨陛下之天下也。臣百疾所鍾，氣力稍微，輒自輿出，歸還里舍，若遂沈淪，魂而有知，結草以報。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p45.h1",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p46",
@@ -456,17 +1504,46 @@
     {
       "id": "wei.25.p47",
       "text": "初，太和中，中護軍蔣濟上疏曰「宜遵古封禪」。詔曰：「聞濟斯言，使吾汗出流足。」事寢歷歲，後遂議脩之，使隆撰其禮儀。帝聞隆沒，歎息曰：「天不欲成吾事，高堂生舍我亡也。」子琛嗣爵。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p47.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.25.p48",
       "text": "始，景初中，帝以蘇林、秦靜等並老，恐無能傳業者。乃詔曰：「昔先聖旣沒，而其遺言餘教，著於六藝。六藝之文，禮又爲急，弗可斯須離者也。末俗背本，所由來乆。故閔子譏原伯之不學，荀卿醜秦世之坑儒，儒學旣廢，則風化曷由興哉？方今宿生巨儒，並各年高，教訓之道，孰爲其繼？昔伏生將老，漢文帝嗣以鼂錯；穀梁寡疇，宣帝承以十郎。其科郎吏高才解經義者三十人，從光祿勳隆、散騎常侍林、博士靜，分受四經三禮，主者具爲設課試之法。夏侯勝有言：『士病不明經術，經術苟明，其取青紫如俯拾地芥耳。』今學者有能究極經道，則爵祿榮寵，不期而至。可不勉哉！」數年，隆等皆卒，學者遂廢。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p48.h1",
+          "type": "person",
+          "at": 136,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.25.p49",
       "text": "初，任城棧潛，太祖世歷縣令，嘗督守鄴城。時文帝爲太子，耽樂田獵，晨出夜還。潛諫曰：「王公設險以固其國，都城禁衞，用戒不虞。大雅云：『宗子維城，無俾城壞。』又曰：『猶之未遠，是用大簡。』若逸于遊田，晨出昏歸，以一日從禽之娛，而忘無垠之釁，愚竊惑之。」太子不恱，然自後游出差簡。黃初中，文帝將立郭貴嬪爲皇后，潛上疏諫，語在。明帝時，衆役並興，戚屬疏斥，潛上疏曰：",
       "annotations": [
+        {
+          "id": "wei.25.p49.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.25.p49.a1",
           "type": "pei",
@@ -475,18 +1552,109 @@
           "text": "潛字彥皇，見應璩《書林》。"
         },
         {
+          "id": "wei.25.p49.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p49.h5",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p49.h6",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p49.h3",
+          "type": "person",
+          "at": 141,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p49.h7",
+          "type": "person",
+          "at": 149,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "guohuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wei.25.p49.a2",
           "type": "pei",
           "at": 159,
           "length": 0,
           "text": "后妃傳"
+        },
+        {
+          "id": "wei.25.p49.h4",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.25.p50",
       "text": "天生蒸民而樹之君，所以覆燾羣生，熈育兆庶，故方制四海匪爲天子，裂土分疆匪爲諸侯也。始自三皇，爰曁唐、虞，咸以愽濟加于天下，醇德以洽，黎元賴之。三王旣微，降逮于漢，治日益少，喪亂弘多，自時厥後，亦罔克乂。太祖濬哲神武，芟除暴亂，克復王綱，以開帝業。文帝受天明命，廓恢皇基，踐阼七載，每事未遑。陛下聖德，纂承洪緒，宜崇晏晏，與民休息。而方隅匪寧，征夫遠戍，有事海外，縣旌萬里，六軍騷動，水陸轉運，百姓舍業，日費千金。大興殿舍，功作萬計，徂來之松，刊山窮谷，怪石珷玞，浮于河、淮，都圻之內，盡爲甸服，當供稾秸銍粟之調，而爲苑囿擇禽之府，盛林莽之穢，豐鹿兎之藪；傷害農功，地繁茨棘，災疫流行，民物大潰，上減和氣，嘉禾不植。臣聞文王作豐，經始勿亟，百姓子來，不日而成。靈沼、靈囿，與民共之。今宮觀崇侈，彫鏤極妙，忘有虞之總期，思殷辛之瓊室，禁地千里，舉足投網，麗擬阿房，役百乾谿，臣恐民力彫盡，下不堪命也。昔秦據殽函以制六合，自以德高三皇，功兼五帝，欲號謚至萬葉，而二世顛覆，願爲黔首，由枝幹旣杌，本實先拔也。蓋聖王之御世也，克明俊德，庸勳親親；俊乂在官，則功業可隆，親親顯用，則安危同憂；深根固本，並爲幹翼，雖歷盛衰，內外有輔。昔成王幼沖，未能莅政，周、呂、召、畢，並在左右；今旣無衞侯、康叔之監，分陝所任，又非旦、奭。東宮未建，天下無副。願陛下留心關塞，永保無極，則海內幸甚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p50.h1",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p50.h2",
+          "type": "person",
+          "at": 123,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.25.p50.h3",
+          "type": "person",
+          "at": 145,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.25.p50.h4",
+          "type": "person",
+          "at": 567,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.25.p51",
@@ -496,12 +1664,26 @@
     {
       "id": "wei.25.p52",
       "text": "評曰：辛毗、楊阜，剛亮公直，正諫匪躬，亞乎汲黯之高風焉。高堂隆學業脩明，志在匡君，因變陳戒，發於懇誠，忠矣哉！及至必改正朔，俾魏祖虞，所謂意過其通者歟！",
-      "annotations": []
-    },
-    {
-      "id": "wei.25.p53",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.25.p52.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.25.p52.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "楊阜",
+          "person_id": "yangfu",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

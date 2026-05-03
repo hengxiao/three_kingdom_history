@@ -5,12 +5,68 @@ source:
   retrieved: '2026-05-03'
   sha256: eba78586751e8ab88b439f82ee8bba98b4768c253f211c5bed6c316b2991f5e4
 annotations:
+- id: hhs.73.p1.h1
+  anchor: hhs.73.p1
+  at: 7
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.73.p1.h2
+  anchor: hhs.73.p1
+  at: 9
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.73.p1.h3
+  anchor: hhs.73.p1
+  at: 12
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: hhs.73.p2.h1
+  anchor: hhs.73.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
 - id: hhs.73.p2.a1
   anchor: hhs.73.p2
   at: 12
   length: 0
   type: lixian
   text: 謝承書曰：「虞父舒，丹陽太守。虞通五經，東海*(王)*恭*[王]*之後。」
+- id: hhs.73.p2.h2
+  anchor: hhs.73.p2
+  at: 20
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.73.p2.h3
+  anchor: hhs.73.p2
+  at: 95
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.73.p3.h1
+  anchor: hhs.73.p3
+  at: 5
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: hhs.73.p3.a1
   anchor: hhs.73.p3
   at: 35
@@ -29,12 +85,60 @@ annotations:
   length: 0
   type: lixian
   text: 峭音七笑反。
+- id: hhs.73.p3.h2
+  anchor: hhs.73.p3
+  at: 268
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p3.h3
+  anchor: hhs.73.p3
+  at: 288
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p3.h4
+  anchor: hhs.73.p3
+  at: 351
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p3.h5
+  anchor: hhs.73.p3
+  at: 353
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.73.p3.a4
   anchor: hhs.73.p3
   at: 368
   length: 0
   type: lixian
   text: 容丘，縣，屬東海郡。
+- id: hhs.73.p4.h1
+  anchor: hhs.73.p4
+  at: 1
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p4.h2
+  anchor: hhs.73.p4
+  at: 10
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p4.t1
   anchor: hhs.73.p4
   at: 21
@@ -47,12 +151,76 @@ annotations:
   era: 初平
   era_year: 1
   reasoning: 原文「初平元年」直接出现年号；解析為 AD 190
+- id: hhs.73.p5.h1
+  anchor: hhs.73.p5
+  at: 55
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p5.h2
+  anchor: hhs.73.p5
+  at: 103
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p5.h3
+  anchor: hhs.73.p5
+  at: 130
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p5.a1
   anchor: hhs.73.p5
   at: 169
   length: 0
   type: lixian
   text: 夙猶舊也。
+- id: hhs.73.p6.h1
+  anchor: hhs.73.p6
+  at: 4
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.73.p6.h2
+  anchor: hhs.73.p6
+  at: 12
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p6.h3
+  anchor: hhs.73.p6
+  at: 16
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p6.h4
+  anchor: hhs.73.p6
+  at: 40
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p6.h5
+  anchor: hhs.73.p6
+  at: 54
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
 - id: hhs.73.p6.t1
   anchor: hhs.73.p6
   at: 60
@@ -65,12 +233,62 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 承前文年號「初平」推得，「二年」 = 初平2年 = AD 191
+- id: hhs.73.p6.h6
+  anchor: hhs.73.p6
+  at: 74
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p6.h7
+  anchor: hhs.73.p6
+  at: 91
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.73.p6.a1
   anchor: hhs.73.p6
   at: 94
   length: 0
   type: lixian
   text: 時獻帝年十歲。
+- id: hhs.73.p6.h8
+  anchor: hhs.73.p6
+  at: 105
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p6.h9
+  anchor: hhs.73.p6
+  at: 130
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p7.h1
+  anchor: hhs.73.p7
+  at: 0
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- anchor: hhs.73.p7
+  at: 18
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 主上
+  via: llm
+  confidence: 0.95
+  reasoning: 劉虞叱袁紹使者「主上蒙塵」即獻帝西遷蒙塵，對應 xianhan。
+  id: hhs.73.p7.h2
 - id: hhs.73.p7.a1
   anchor: hhs.73.p7
   at: 23
@@ -83,30 +301,294 @@ annotations:
   length: 0
   type: lixian
   text: 說文曰：「曒力，並力也。」左傳曰：「曒力同心。」音力凋反，又音六。
+- id: hhs.73.p8.h1
+  anchor: hhs.73.p8
+  at: 8
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p8.h2
+  anchor: hhs.73.p8
+  at: 36
+  length: 2
+  type: person
+  person_id: tianchou
+  text: 田疇
+  via: primary
 - id: hhs.73.p8.a1
   anchor: hhs.73.p8
   at: 44
   length: 0
   type: lixian
   text: 魏志曰：「疇字子泰，右北平無終人。好讀書，善擊劍。劉虞署為從事。太祖北征烏桓，令疇將觿*(止)**[上]*徐無，出盧龍，歷平剛，登白狼堆。去柳城二百餘里，虜乃驚，太祖與戰，大斬獲，論功封疇。疇上疏自陳，太祖令夏侯惇喻之。疇曰：『豈可賣盧龍塞以易賞祿哉？』」
+- id: hhs.73.p8.h3
+  anchor: hhs.73.p8
+  at: 54
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.73.p9.h1
+  anchor: hhs.73.p9
+  at: 1
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p9.h2
+  anchor: hhs.73.p9
+  at: 19
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p9.h3
+  anchor: hhs.73.p9
+  at: 33
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: hhs.73.p9.h4
+  anchor: hhs.73.p9
+  at: 45
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p9.h5
+  anchor: hhs.73.p9
+  at: 51
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p9.h6
+  anchor: hhs.73.p9
+  at: 65
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: hhs.73.p10.h1
+  anchor: hhs.73.p10
+  at: 2
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.73.p10.h2
+  anchor: hhs.73.p10
+  at: 6
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: hhs.73.p10.h3
+  anchor: hhs.73.p10
+  at: 11
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p10.h4
+  anchor: hhs.73.p10
+  at: 15
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p10.h5
+  anchor: hhs.73.p10
+  at: 19
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h6
+  anchor: hhs.73.p10
+  at: 23
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: hhs.73.p10.h7
+  anchor: hhs.73.p10
+  at: 35
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h8
+  anchor: hhs.73.p10
+  at: 45
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: hhs.73.p10.h9
+  anchor: hhs.73.p10
+  at: 51
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p10.h10
+  anchor: hhs.73.p10
+  at: 56
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h11
+  anchor: hhs.73.p10
+  at: 60
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p10.h12
+  anchor: hhs.73.p10
+  at: 71
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p10.a1
   anchor: hhs.73.p10
   at: 77
   length: 0
   type: lixian
   text: 黷猶慢也，數也。尚書曰「黷於祭祀」也。
+- id: hhs.73.p10.h13
+  anchor: hhs.73.p10
+  at: 98
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h14
+  anchor: hhs.73.p10
+  at: 113
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p10.a2
   anchor: hhs.73.p10
   at: 122
   length: 0
   type: lixian
   text: 當音丁浪反。
+- id: hhs.73.p10.h15
+  anchor: hhs.73.p10
+  at: 122
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h16
+  anchor: hhs.73.p10
+  at: 146
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h17
+  anchor: hhs.73.p10
+  at: 149
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p10.h18
+  anchor: hhs.73.p10
+  at: 172
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h19
+  anchor: hhs.73.p10
+  at: 181
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p10.a3
   anchor: hhs.73.p10
   at: 183
   length: 0
   type: lixian
   text: 京，高丘也，言高築丘壘以備虞焉。解見獻帝紀。
+- id: hhs.73.p10.h20
+  anchor: hhs.73.p10
+  at: 183
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p10.h21
+  anchor: hhs.73.p10
+  at: 186
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h22
+  anchor: hhs.73.p10
+  at: 194
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p10.h23
+  anchor: hhs.73.p10
+  at: 237
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p10.h24
+  anchor: hhs.73.p10
+  at: 256
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p11.t1
   anchor: hhs.73.p11
   at: 11
@@ -119,24 +601,256 @@ annotations:
   era: 初平
   era_year: 4
   reasoning: 承前文年號「初平」推得，「四年」 = 初平4年 = AD 193
+- id: hhs.73.p11.h1
+  anchor: hhs.73.p11
+  at: 28
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h2
+  anchor: hhs.73.p11
+  at: 46
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: hhs.73.p11.h3
+  anchor: hhs.73.p11
+  at: 98
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h4
+  anchor: hhs.73.p11
+  at: 116
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h5
+  anchor: hhs.73.p11
+  at: 158
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h6
+  anchor: hhs.73.p11
+  at: 169
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h7
+  anchor: hhs.73.p11
+  at: 174
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h8
+  anchor: hhs.73.p11
+  at: 176
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h9
+  anchor: hhs.73.p11
+  at: 199
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h10
+  anchor: hhs.73.p11
+  at: 223
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h11
+  anchor: hhs.73.p11
+  at: 243
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p11.a1
   anchor: hhs.73.p11
   at: 257
   length: 0
   type: lixian
   text: 居庸縣屬上谷郡，有關。
+- id: hhs.73.p11.h12
+  anchor: hhs.73.p11
+  at: 257
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h13
+  anchor: hhs.73.p11
+  at: 269
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h14
+  anchor: hhs.73.p11
+  at: 292
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h15
+  anchor: hhs.73.p11
+  at: 302
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h16
+  anchor: hhs.73.p11
+  at: 331
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p11.h17
+  anchor: hhs.73.p11
+  at: 334
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h18
+  anchor: hhs.73.p11
+  at: 337
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p11.h19
+  anchor: hhs.73.p11
+  at: 348
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h20
+  anchor: hhs.73.p11
+  at: 361
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p11.h21
+  anchor: hhs.73.p11
+  at: 399
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: hhs.73.p12.a1
   anchor: hhs.73.p12
   at: 0
   length: 0
   type: lixian
   text: 尾敦，姓名。
+- id: hhs.73.p12.h1
+  anchor: hhs.73.p12
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p12.h2
+  anchor: hhs.73.p12
+  at: 10
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p13.h1
+  anchor: hhs.73.p13
+  at: 2
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p13.h2
+  anchor: hhs.73.p13
+  at: 24
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p13.h3
+  anchor: hhs.73.p13
+  at: 51
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p13.h4
+  anchor: hhs.73.p13
+  at: 54
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p14.h1
+  anchor: hhs.73.p14
+  at: 0
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
 - id: hhs.73.p14.a1
   anchor: hhs.73.p14
   at: 14
   length: 0
   type: lixian
   text: 令音力定反。支音巨移反。
+- id: hhs.73.p14.h2
+  anchor: hhs.73.p14
+  at: 20
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
 - id: hhs.73.p14.a2
   anchor: hhs.73.p14
   at: 46
@@ -149,18 +863,170 @@ annotations:
   length: 0
   type: lixian
   text: 魏志曰：「侯太守妻之以女。」
+- id: hhs.73.p14.h3
+  anchor: hhs.73.p14
+  at: 61
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
+- id: hhs.73.p14.h4
+  anchor: hhs.73.p14
+  at: 99
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p14.h5
+  anchor: hhs.73.p14
+  at: 128
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: hhs.73.p17.h1
+  anchor: hhs.73.p17
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p18.h1
+  anchor: hhs.73.p18
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p18.h2
+  anchor: hhs.73.p18
+  at: 43
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p19.h1
+  anchor: hhs.73.p19
+  at: 5
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p19.h2
+  anchor: hhs.73.p19
+  at: 16
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
 - id: hhs.73.p19.a1
   anchor: hhs.73.p19
   at: 23
   length: 0
   type: lixian
   text: 賊即邊章等。
+- id: hhs.73.p19.h3
+  anchor: hhs.73.p19
+  at: 39
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p19.h4
+  anchor: hhs.73.p19
+  at: 84
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p19.a2
   anchor: hhs.73.p19
   at: 94
   length: 0
   type: lixian
   text: 石門，山名，在今營州柳城縣西南。
+- id: hhs.73.p19.h5
+  anchor: hhs.73.p19
+  at: 114
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p20.h1
+  anchor: hhs.73.p20
+  at: 25
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p20.h2
+  anchor: hhs.73.p20
+  at: 59
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p20.h3
+  anchor: hhs.73.p20
+  at: 85
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p21.h1
+  anchor: hhs.73.p21
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p21.h2
+  anchor: hhs.73.p21
+  at: 47
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p22.h1
+  anchor: hhs.73.p22
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p22.h2
+  anchor: hhs.73.p22
+  at: 8
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.73.p22.h3
+  anchor: hhs.73.p22
+  at: 20
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
 - id: hhs.73.p22.t1
   anchor: hhs.73.p22
   at: 24
@@ -173,42 +1039,252 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 原文「初平二年」直接出现年号；解析為 AD 191（回溯前事，不推進章節時間軸）
+- id: hhs.73.p22.h4
+  anchor: hhs.73.p22
+  at: 49
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p22.a1
   anchor: hhs.73.p22
   at: 68
   length: 0
   type: lixian
   text: 東光，今滄州縣。
+- id: hhs.73.p22.h5
+  anchor: hhs.73.p22
+  at: 89
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p23.h1
+  anchor: hhs.73.p23
+  at: 0
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p23.h2
+  anchor: hhs.73.p23
+  at: 3
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.73.p23.h3
+  anchor: hhs.73.p23
+  at: 8
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: hhs.73.p23.h4
+  anchor: hhs.73.p23
+  at: 13
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: hhs.73.p23.h5
+  anchor: hhs.73.p23
+  at: 28
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: hhs.73.p23.h6
+  anchor: hhs.73.p23
+  at: 32
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: hhs.73.p23.h7
+  anchor: hhs.73.p23
+  at: 38
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: hhs.73.p23.h8
+  anchor: hhs.73.p23
+  at: 42
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p23.h9
+  anchor: hhs.73.p23
+  at: 56
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p23.h10
+  anchor: hhs.73.p23
+  at: 60
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h11
+  anchor: hhs.73.p23
+  at: 72
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a1
   anchor: hhs.73.p23
   at: 74
   length: 0
   type: lixian
   text: 般即爾雅九河鉤盤之河也。其枯河在今滄州樂陵縣東南。
+- id: hhs.73.p23.h12
+  anchor: hhs.73.p23
+  at: 109
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- anchor: hhs.73.p23
+  at: 143
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 公孫瓚劾袁紹奏「太后承攝，何氏輔朝」即何太后臨朝何進輔朝，對應 hetaihou。
+  id: hhs.73.p23.h44
 - id: hhs.73.p23.a2
   anchor: hhs.73.p23
   at: 153
   length: 0
   type: lixian
   text: 謂何進也。
+- id: hhs.73.p23.h13
+  anchor: hhs.73.p23
+  at: 153
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a3
   anchor: hhs.73.p23
   at: 186
   length: 0
   type: lixian
   text: 續漢書曰：「何進欲誅中常侍趙忠等，進乃詐令武猛都尉丁原放兵數千人，為賊於河內，稱『黑山伯』，上事以誅忠等為辭，燒平陰、河津莫府人舍，以怖動太后。」
+- id: hhs.73.p23.h14
+  anchor: hhs.73.p23
+  at: 186
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p23.h15
+  anchor: hhs.73.p23
+  at: 193
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h16
+  anchor: hhs.73.p23
+  at: 198
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.73.p23.h17
+  anchor: hhs.73.p23
+  at: 208
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a4
   anchor: hhs.73.p23
   at: 227
   length: 0
   type: lixian
   text: 傳音丁戀反。
+- id: hhs.73.p23.h18
+  anchor: hhs.73.p23
+  at: 242
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h19
+  anchor: hhs.73.p23
+  at: 247
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h20
+  anchor: hhs.73.p23
+  at: 254
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p23.h21
+  anchor: hhs.73.p23
+  at: 285
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a5
   anchor: hhs.73.p23
   at: 290
   length: 0
   type: lixian
   text: 左傳曰：「兩釋累囚。」杜預曰：「累，系也。」前書音義曰：「諸不以罪死曰累。」斃，踣也。董卓恨紹起兵山東，乃誅紹叔父太傅隗，及宗族在京師者，盡誅滅之。
+- id: hhs.73.p23.h22
+  anchor: hhs.73.p23
+  at: 290
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h23
+  anchor: hhs.73.p23
+  at: 341
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a6
   anchor: hhs.73.p23
   at: 382
@@ -221,30 +1297,166 @@ annotations:
   length: 0
   type: lixian
   text: 亡新，王莽。
+- id: hhs.73.p23.h24
+  anchor: hhs.73.p23
+  at: 394
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a8
   anchor: hhs.73.p23
   at: 403
   length: 0
   type: lixian
   text: 階，梯也。詩曰：「職為亂階。」
+- id: hhs.73.p23.h25
+  anchor: hhs.73.p23
+  at: 403
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h26
+  anchor: hhs.73.p23
+  at: 408
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a9
   anchor: hhs.73.p23
   at: 417
   length: 0
   type: lixian
   text: 星工，善星者。
+- id: hhs.73.p23.h27
+  anchor: hhs.73.p23
+  at: 446
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h28
+  anchor: hhs.73.p23
+  at: 451
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h29
+  anchor: hhs.73.p23
+  at: 469
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
+- id: hhs.73.p23.h30
+  anchor: hhs.73.p23
+  at: 496
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h31
+  anchor: hhs.73.p23
+  at: 516
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a10
   anchor: hhs.73.p23
   at: 521
   length: 0
   type: lixian
   text: 惏音力含反。
+- id: hhs.73.p23.h32
+  anchor: hhs.73.p23
+  at: 536
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a11
   anchor: hhs.73.p23
   at: 551
   length: 0
   type: lixian
   text: 公羊傳曰「桓公幼而貴，隱公長而卑，子以母貴，母以子貴」也。
+- id: hhs.73.p23.h33
+  anchor: hhs.73.p23
+  at: 551
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h34
+  anchor: hhs.73.p23
+  at: 585
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h35
+  anchor: hhs.73.p23
+  at: 595
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: hhs.73.p23.h36
+  anchor: hhs.73.p23
+  at: 609
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p23.h37
+  anchor: hhs.73.p23
+  at: 627
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h38
+  anchor: hhs.73.p23
+  at: 638
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: hhs.73.p23.h39
+  anchor: hhs.73.p23
+  at: 647
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p23.h40
+  anchor: hhs.73.p23
+  at: 654
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a12
   anchor: hhs.73.p23
   at: 698
@@ -281,30 +1493,142 @@ annotations:
   length: 0
   type: lixian
   text: 鈇音方於反。莝，刃也。鉞，斧也。
+- id: hhs.73.p23.h41
+  anchor: hhs.73.p23
+  at: 761
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p23.a18
   anchor: hhs.73.p23
   at: 775
   length: 0
   type: lixian
   text: 尚書：「周公東征，三年，罪人斯得。」
+- id: hhs.73.p23.h42
+  anchor: hhs.73.p23
+  at: 789
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p23.h43
+  anchor: hhs.73.p23
+  at: 800
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p24.h1
+  anchor: hhs.73.p24
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p24.h2
+  anchor: hhs.73.p24
+  at: 14
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p24.h3
+  anchor: hhs.73.p24
+  at: 32
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p24.h4
+  anchor: hhs.73.p24
+  at: 40
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p24.h5
+  anchor: hhs.73.p24
+  at: 42
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p24.h6
+  anchor: hhs.73.p24
+  at: 69
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: hhs.73.p24.a1
   anchor: hhs.73.p24
   at: 76
   length: 0
   type: lixian
   text: 橋名。解見獻帝紀。
+- id: hhs.73.p24.h7
+  anchor: hhs.73.p24
+  at: 76
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p24.h8
+  anchor: hhs.73.p24
+  at: 82
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p24.h9
+  anchor: hhs.73.p24
+  at: 104
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p24.a2
   anchor: hhs.73.p24
   at: 118
   length: 0
   type: lixian
   text: 水在幽州歸義縣界，自易州遒縣界流入。
+- id: hhs.73.p25.h1
+  anchor: hhs.73.p25
+  at: 29
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: hhs.73.p25.a1
   anchor: hhs.73.p25
   at: 62
   length: 0
   type: lixian
   text: 左傳齊侯伐魯，語展喜曰：「室如懸罄，野無青草，何恃而不恐？」
+- id: hhs.73.p25.h2
+  anchor: hhs.73.p25
+  at: 62
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: hhs.73.p26.t1
   anchor: hhs.73.p26
   at: 0
@@ -317,12 +1641,92 @@ annotations:
   era: 初平
   era_year: 4
   reasoning: 「是歲」 = 当前年 初平4年 (AD 193)
+- id: hhs.73.p26.h1
+  anchor: hhs.73.p26
+  at: 3
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p26.h2
+  anchor: hhs.73.p26
+  at: 6
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.73.p26.h3
+  anchor: hhs.73.p26
+  at: 54
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p26.a1
   anchor: hhs.73.p26
   at: 68
   length: 0
   type: lixian
   text: 前書易縣屬涿郡，續漢志曰屬河閒。瓚所居易京故城在今幽州歸義縣南十八裡。
+- id: hhs.73.p27.h1
+  anchor: hhs.73.p27
+  at: 0
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: hhs.73.p27.h2
+  anchor: hhs.73.p27
+  at: 19
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p27.h3
+  anchor: hhs.73.p27
+  at: 49
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p27.h4
+  anchor: hhs.73.p27
+  at: 76
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.73.p27.h5
+  anchor: hhs.73.p27
+  at: 95
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: hhs.73.p27.h6
+  anchor: hhs.73.p27
+  at: 100
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p27.h7
+  anchor: hhs.73.p27
+  at: 112
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p27.t1
   anchor: hhs.73.p27
   at: 114
@@ -335,12 +1739,68 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
+- id: hhs.73.p27.h8
+  anchor: hhs.73.p27
+  at: 120
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p27.a1
   anchor: hhs.73.p27
   at: 125
   length: 0
   type: lixian
   text: 鮑丘，水名也，又名路水，在今幽州漁陽縣。
+- id: hhs.73.p27.h9
+  anchor: hhs.73.p27
+  at: 132
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p27.h10
+  anchor: hhs.73.p27
+  at: 172
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p28.h1
+  anchor: hhs.73.p28
+  at: 11
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p28.h2
+  anchor: hhs.73.p28
+  at: 105
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p28.h3
+  anchor: hhs.73.p28
+  at: 119
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p28.h4
+  anchor: hhs.73.p28
+  at: 226
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p28.a1
   anchor: hhs.73.p28
   at: 259
@@ -365,6 +1825,70 @@ annotations:
   era: 建安
   era_year: 3
   reasoning: 原文「建安三年」直接出现年号；解析為 AD 198
+- id: hhs.73.p29.h1
+  anchor: hhs.73.p29
+  at: 5
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p29.h2
+  anchor: hhs.73.p29
+  at: 10
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p29.h3
+  anchor: hhs.73.p29
+  at: 12
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p29.h4
+  anchor: hhs.73.p29
+  at: 38
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p29.h5
+  anchor: hhs.73.p29
+  at: 94
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p29.h6
+  anchor: hhs.73.p29
+  at: 120
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p29.h7
+  anchor: hhs.73.p29
+  at: 124
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: hhs.73.p29.h8
+  anchor: hhs.73.p29
+  at: 130
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p30.t1
   anchor: hhs.73.p30
   at: 0
@@ -377,6 +1901,22 @@ annotations:
   era: 建安
   era_year: 4
   reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
+- id: hhs.73.p30.h1
+  anchor: hhs.73.p30
+  at: 21
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p30.h2
+  anchor: hhs.73.p30
+  at: 27
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p32.a1
   anchor: hhs.73.p32
   at: 10
@@ -395,30 +1935,158 @@ annotations:
   length: 0
   type: lixian
   text: 下濕曰隰。
+- id: hhs.73.p32.h1
+  anchor: hhs.73.p32
+  at: 87
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: hhs.73.p32.a4
   anchor: hhs.73.p32
   at: 93
   length: 0
   type: lixian
   text: 獻帝春秋「候者得書，紹使陳琳易其詞」，即此書。
+- id: hhs.73.p32.h2
+  anchor: hhs.73.p32
+  at: 98
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p32.h3
+  anchor: hhs.73.p32
+  at: 109
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p32.h4
+  anchor: hhs.73.p32
+  at: 113
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p32.h5
+  anchor: hhs.73.p32
+  at: 147
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p33.h1
+  anchor: hhs.73.p33
+  at: 3
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
+- id: hhs.73.p33.h2
+  anchor: hhs.73.p33
+  at: 51
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: hhs.73.p33.a1
   anchor: hhs.73.p33
   at: 63
   length: 0
   type: lixian
   text: 屠各，胡號。
+- id: hhs.73.p33.h3
+  anchor: hhs.73.p33
+  at: 66
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: hhs.73.p34.h1
+  anchor: hhs.73.p34
+  at: 7
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p34.h2
+  anchor: hhs.73.p34
+  at: 10
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.73.p34.h3
+  anchor: hhs.73.p34
+  at: 29
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p35.h1
+  anchor: hhs.73.p35
+  at: 4
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: hhs.73.p35.h2
+  anchor: hhs.73.p35
+  at: 13
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.73.p36.a1
   anchor: hhs.73.p36
   at: 40
   length: 0
   type: lixian
   text: 前書班固曰：「夫唯大雅，卓爾不腢者，河閒獻王之謂與？」故論引焉。
+- id: hhs.73.p36.h1
+  anchor: hhs.73.p36
+  at: 40
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
 - id: hhs.73.p36.a2
   anchor: hhs.73.p36
   at: 53
   length: 0
   type: lixian
   text: 牧，養也。易曰：「卑以自牧。」
+- id: hhs.73.p37.h1
+  anchor: hhs.73.p37
+  at: 1
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
+- id: hhs.73.p37.h2
+  anchor: hhs.73.p37
+  at: 2
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: hhs.73.p37.a1
   anchor: hhs.73.p37
   at: 24
@@ -437,6 +2105,14 @@ annotations:
   length: 0
   type: lixian
   text: 天運猶天命也。人文猶人事也。易曰「觀乎人文，以化成天下」。
+- id: hhs.73.p38.h1
+  anchor: hhs.73.p38
+  at: 0
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
 - id: hhs.73.p38.a1
   anchor: hhs.73.p38
   at: 11
@@ -449,18 +2125,90 @@ annotations:
   length: 0
   type: lixian
   text: 吳書曰：「陶謙察孝廉，拜尚書郎，除舒令。郡太守張盤，同郡先輩，與謙父友，謙恥為之屈。嘗*[以]*舞屬謙，謙不為起，固強之乃舞，舞又不轉。
+- id: hhs.73.p38.h2
+  anchor: hhs.73.p38
+  at: 27
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: hhs.73.p38.h3
+  anchor: hhs.73.p38
+  at: 45
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: hhs.73.p39.h1
+  anchor: hhs.73.p39
+  at: 25
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.73.p39.h2
+  anchor: hhs.73.p39
+  at: 48
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p39.a1
   anchor: hhs.73.p39
   at: 78
   length: 0
   type: lixian
   text: 溧陽今宣州縣也。溧音栗。
+- id: hhs.73.p39.h3
+  anchor: hhs.73.p39
+  at: 99
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p39.a2
   anchor: hhs.73.p39
   at: 136
   length: 0
   type: lixian
   text: 謝承書曰：「謙奏昱茂才，遷為太守。」
+- id: hhs.73.p39.h4
+  anchor: hhs.73.p39
+  at: 144
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.73.p40.h1
+  anchor: hhs.73.p40
+  at: 20
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.73.p41.h1
+  anchor: hhs.73.p41
+  at: 2
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p41.h2
+  anchor: hhs.73.p41
+  at: 12
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p41.a1
   anchor: hhs.73.p41
   at: 19
@@ -479,18 +2227,50 @@ annotations:
   era: 初平
   era_year: 4
   reasoning: 原文「初平四年」直接出现年号；解析為 AD 193（回溯前事，不推進章節時間軸）
+- id: hhs.73.p41.h3
+  anchor: hhs.73.p41
+  at: 36
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p41.h4
+  anchor: hhs.73.p41
+  at: 39
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p41.a2
   anchor: hhs.73.p41
   at: 47
   length: 0
   type: lixian
   text: 縣名，屬彭城國，本春秋時偪陽也。楚宣王滅宋，改曰傅陽，故城在今沂州承縣南。
+- id: hhs.73.p41.h5
+  anchor: hhs.73.p41
+  at: 52
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.73.p41.a3
   anchor: hhs.73.p41
   at: 77
   length: 0
   type: lixian
   text: 取慮音秋閭，縣名，屬下邳郡，故城在今泗州下邳縣西南。雎陵，縣，在下邳縣東南。夏丘，縣，屬沛郡，故城今泗州虹縣是。
+- id: hhs.73.p41.h6
+  anchor: hhs.73.p41
+  at: 123
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p41.a4
   anchor: hhs.73.p41
   at: 128
@@ -509,6 +2289,62 @@ annotations:
   era: 興平
   era_year: 1
   reasoning: 原文「興平元年」直接出现年号；解析為 AD 194（回溯前事，不推進章節時間軸）
+- id: hhs.73.p42.h1
+  anchor: hhs.73.p42
+  at: 5
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p42.h2
+  anchor: hhs.73.p42
+  at: 9
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.73.p42.h3
+  anchor: hhs.73.p42
+  at: 21
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.73.p42.h4
+  anchor: hhs.73.p42
+  at: 33
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: hhs.73.p42.h5
+  anchor: hhs.73.p42
+  at: 36
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.73.p42.h6
+  anchor: hhs.73.p42
+  at: 42
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.73.p42.h7
+  anchor: hhs.73.p42
+  at: 45
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.73.p42.t2
   anchor: hhs.73.p42
   at: 47
@@ -521,24 +2357,72 @@ annotations:
   era: 建安
   era_year: 4
   reasoning: 「是歲」 = 当前年 建安4年 (AD 199)
+- id: hhs.73.p42.h8
+  anchor: hhs.73.p42
+  at: 50
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p43.a1
   anchor: hhs.73.p43
   at: 8
   length: 0
   type: lixian
   text: 笮音側格反。
+- id: hhs.73.p43.h1
+  anchor: hhs.73.p43
+  at: 16
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
+- id: hhs.73.p43.h2
+  anchor: hhs.73.p43
+  at: 18
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p44.a1
   anchor: hhs.73.p44
   at: 13
   length: 0
   type: lixian
   text: 浮屠，佛也。解見西羌傳。
+- id: hhs.73.p44.h1
+  anchor: hhs.73.p44
+  at: 57
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
 - id: hhs.73.p44.a2
   anchor: hhs.73.p44
   at: 74
   length: 0
   type: lixian
   text: 獻帝春秋曰：「融敷席方四五里，費以巨萬。」
+- id: hhs.73.p44.h2
+  anchor: hhs.73.p44
+  at: 75
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.73.p44.h3
+  anchor: hhs.73.p44
+  at: 78
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry
 - id: hhs.73.p46.a1
   anchor: hhs.73.p46
   at: 13
@@ -551,3 +2435,11 @@ annotations:
   length: 0
   type: lixian
   text: 趫音去驕反。
+- id: hhs.73.p46.h1
+  anchor: hhs.73.p46
+  at: 49
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name_carry

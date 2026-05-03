@@ -1,0 +1,106 @@
+{
+  "id": "chenshi",
+  "primary_name": "陳寔",
+  "courtesy_name": "仲弓",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.62",
+      "title": "荀韓鍾陳列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/62.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p33",
+        "at": 33,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "陳寔",
+        "snippet": "…死，歸葬穎川，雖一郡畢至，而名士無往者，讓甚恥之，陳寔獨弔焉。及誅黨人，讓以寔故，多所全宥。南陽何顒，素與陳蕃、李膺善，亦被收捕，乃變名姓匿汝南間，與袁紹為奔走之交，常私入雒陽，從…"
+      },
+      {
+        "chapter_id": "zztj.58",
+        "chapter_title": "漢紀五十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.58.p116",
+        "at": 4,
+        "data_url": "data/zztj/zztj/58.json",
+        "matched": "陳寔",
+        "snippet": "前大秋長陳寔卒，海內赴吊者三萬餘人。寔在鄉閭，平心率物，其有爭論，輒求判正，曉譬曲直，退無怨者，至乃歎曰：「寧為刑罰所加，不為陳君所短！」…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.28",
+        "chapter_title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.28.p23",
+        "at": 47,
+        "data_url": "data/sanguozhi/wei/28.json",
+        "matched": "陳寔",
+        "snippet": "…徙汝南，為農民養犢。年十二，隨母至潁川，讀故太丘長陳寔碑文，言「文為世範，行為士則」，艾遂自名範，字士則。後宗族有與同者，故改焉。為都尉學士，以口吃，不得作幹佐。為稻田守叢草吏。同…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.67",
+        "chapter_title": "黨錮列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.67.p19",
+        "at": 51,
+        "data_url": "data/houhanshu/hhs/67.json",
+        "matched": "陳寔",
+        "snippet": "…，趙國相。膺性簡亢，無所交接，[二]唯以同郡荀淑、陳寔爲師友。"
+      },
+      {
+        "chapter_id": "hhs.67",
+        "chapter_title": "黨錮列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.67.p9",
+        "at": 83,
+        "data_url": "data/houhanshu/hhs/67.json",
+        "matched": "陳寔",
+        "snippet": "…捕黨人，佈告天下，使同忿疾，遂收執膺等。其辭所連及陳寔之徒二百餘人，或有逃遁不獲，皆懸金購募。使者四出，相望於道。明年，尚書霍諝、城門校尉竇武並表爲請，帝意稍解，乃皆赦歸田裡，禁錮…"
+      },
+      {
+        "chapter_id": "hhs.68",
+        "chapter_title": "郭符許列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.68.p26",
+        "at": 15,
+        "data_url": "data/houhanshu/hhs/68.json",
+        "matched": "陳寔",
+        "snippet": "劭甞到潁川，多長者之遊，唯不候陳寔。又陳蕃喪妻還葬，鄉人畢至，而劭獨不往。或問其故，劭曰：「太丘道廣，廣則難周；仲舉性峻，峻則少通。故不造也。」其多所裁量若此。"
+      },
+      {
+        "chapter_id": "hhs.69",
+        "chapter_title": "竇何列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.69.p7",
+        "at": 181,
+        "data_url": "data/houhanshu/hhs/69.json",
+        "matched": "陳寔",
+        "snippet": "…宇等，列於朝廷；請前越巂太守荀翌為從事中郎，辟潁川陳寔為屬：共定計策。於是天下雄俊，知其風旨，莫不延頸企踵，思奮其智力。"
+      }
+    ]
+  },
+  "n_mentions": 7
+}

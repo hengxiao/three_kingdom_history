@@ -1,0 +1,50 @@
+{
+  "id": "sunjiao",
+  "primary_name": "孫皎",
+  "courtesy_name": "叔朗",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p38",
+        "at": 800,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "孫皎",
+        "snippet": "…，擅取權湘關米；權聞之，遂發兵襲羽。權欲令征虜將軍孫皎與呂蒙為左右部大督，蒙曰：「若至尊以征虜能，宜用之；以蒙能，宜用蒙。昔周瑜、程普為左右部督，督兵攻江陵，雖事決於瑜，普自恃久將…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p13",
+        "at": 248,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "孫皎",
+        "snippet": "…助肅。蒙使人誘普，普降，盡得三郡將守。因引軍還，與孫皎、潘璋並魯肅兵並進，拒羽於益陽。未戰，會曹公入漢中，備懼失益州，使使求和。權令諸葛瑾報，更尋盟好。遂分荊州、長沙、江夏、桂陽以…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

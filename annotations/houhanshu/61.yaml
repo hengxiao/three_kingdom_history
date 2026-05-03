@@ -5,12 +5,62 @@ source:
   retrieved: '2026-05-03'
   sha256: cba76286271b9d3dfb7db764f13f225ebd9487dd1002dc1fd40573ca5e97061f
 annotations:
+- id: hhs.61.p2.h1
+  anchor: hhs.61.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.61.p2.h2
+  anchor: hhs.61.p2
+  at: 22
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
+- id: hhs.61.p3.h1
+  anchor: hhs.61.p3
+  at: 12
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.61.p3.h2
+  anchor: hhs.61.p3
+  at: 41
+  length: 2
+  type: person
+  person_id: yuxu
+  text: 虞詡
+  via: primary
 - id: hhs.61.p3.a1
   anchor: hhs.61.p3
   at: 101
   length: 0
   type: lixian
   text: 容容猶和同也。言不可獨為白玉之清絜，當與觿人和同。
+- id: hhs.61.p3.h3
+  anchor: hhs.61.p3
+  at: 105
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- anchor: hhs.61.p3
+  at: 115
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 「順帝新立」段虞詡薦左雄，「陛下身遭難」指順帝廢為濟陰王事，對應 shunhan。
+  id: hhs.61.p3.h4
 - id: hhs.61.p3.a2
   anchor: hhs.61.p3
   at: 144
@@ -209,6 +259,22 @@ annotations:
   length: 0
   type: lixian
   text: 解見順帝紀。
+- id: hhs.61.p14.h1
+  anchor: hhs.61.p14
+  at: 92
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.61.p14.h2
+  anchor: hhs.61.p14
+  at: 97
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.61.p16.t1
   anchor: hhs.61.p16
   at: 111
@@ -221,12 +287,30 @@ annotations:
   era: 永建
   era_year: 2
   reasoning: 原文「永建二年」直接出现年号；解析為 AD 127（回溯前事，不推進章節時間軸）
+- anchor: hhs.61.p16
+  at: 162
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 左雄諫順帝封宋娥，「陛下」即順帝，對應 shunhan。
+  id: hhs.61.p16.h1
 - id: hhs.61.p20.a1
   anchor: hhs.61.p20
   at: 60
   length: 0
   type: lixian
   text: 禮記曰：「公侯佩山玄玉而朱組綬，大夫佩水蒼玉而緇組綬。」
+- id: hhs.61.p21.h1
+  anchor: hhs.61.p21
+  at: 4
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
 - id: hhs.61.p21.a1
   anchor: hhs.61.p21
   at: 97
@@ -257,12 +341,56 @@ annotations:
   era: 永和
   era_year: 3
   reasoning: 原文「永和三年」直接出现年号；解析為 AD 138
+- id: hhs.61.p22.h1
+  anchor: hhs.61.p22
+  at: 0
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
+- id: hhs.61.p22.h2
+  anchor: hhs.61.p22
+  at: 57
+  length: 2
+  type: person
+  person_id: zhouxuan
+  text: 周宣
+  via: primary
+- id: hhs.61.p23.h1
+  anchor: hhs.61.p23
+  at: 29
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- anchor: hhs.61.p23
+  at: 44
+  length: 2
+  type: person
+  person_id: yanji
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「閻太后與帝無母子恩」即閻姬安思皇后，未列 roster。
+  id: hhs.61.p23.h3
 - id: hhs.61.p23.a1
   anchor: hhs.61.p23
   at: 127
   length: 0
   type: lixian
   text: 鄭武姜生莊公及共叔段，愛叔段，謀殺莊公。公誓之曰：「不及黃泉，無相見也。」既而悔之。穎考叔為穎谷封人，曰：「若掘地及泉，隧而相見，其誰曰不然！」公從之，遂為母子如初。事見左傳。茅焦事，解見蘇竟傳也。
+- anchor: hhs.61.p23
+  at: 151
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 主上
+  via: llm
+  confidence: 0.92
+  reasoning: 「主上將何以令於天下」順帝即位之主上，對應 shunhan。
+  id: hhs.61.p23.h2
 - id: hhs.61.p23.t1
   anchor: hhs.61.p23
   at: 212
@@ -345,6 +473,22 @@ annotations:
   era: 陽嘉
   era_year: 3
   reasoning: 原文「陽嘉三年」直接出现年号；解析為 AD 134（回溯前事，不推進章節時間軸）
+- id: hhs.61.p28.h1
+  anchor: hhs.61.p28
+  at: 15
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.61.p28.h2
+  anchor: hhs.61.p28
+  at: 29
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.61.p28.t2
   anchor: hhs.61.p28
   at: 46
@@ -375,6 +519,26 @@ annotations:
   length: 0
   type: lixian
   text: 五品，五常之教也。書曰：「五品不遜，汝作司徒，敬敷五教在寬。」訓亦遜之義。
+- anchor: hhs.61.p32
+  at: 11
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 周舉等對策旱災，順帝時事，「陛下」即順帝，對應 shunhan。
+  id: hhs.61.p32.h1
+- anchor: hhs.61.p32
+  at: 82
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「非但陛下行此而已」即奏順帝，對應 shunhan。
+  id: hhs.61.p32.h2
 - id: hhs.61.p32.a1
   anchor: hhs.61.p32
   at: 125
@@ -399,12 +563,32 @@ annotations:
   length: 0
   type: lixian
   text: 解見楊厚傳。
+- anchor: hhs.61.p32
+  at: 181
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「未聞陛下改過之」即奏順帝，對應 shunhan。
+  id: hhs.61.p32.h3
 - id: hhs.61.p33.a1
   anchor: hhs.61.p33
   at: 33
   length: 0
   type: lixian
   text: 晏子春秋之文。
+- anchor: hhs.61.p33
+  at: 33
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段延續對順帝對策，對應 shunhan。
+  id: hhs.61.p33.h1
 - id: hhs.61.p33.a2
   anchor: hhs.61.p33
   at: 59
@@ -417,6 +601,32 @@ annotations:
   length: 0
   type: lixian
   text: 易稽覽圖之文也。解具郎顗傳也。
+- anchor: hhs.61.p34
+  at: 15
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 同段「惟陛下留神裁察」即奏順帝，對應 shunhan。
+  id: hhs.61.p34.h3
+- id: hhs.61.p34.h1
+  anchor: hhs.61.p34
+  at: 32
+  length: 2
+  type: person
+  person_id: yishi
+  text: 翊世
+  via: primary
+- id: hhs.61.p34.h2
+  anchor: hhs.61.p34
+  at: 37
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.61.p34.a2
   anchor: hhs.61.p34
   at: 123
@@ -485,12 +695,64 @@ annotations:
   length: 0
   type: lixian
   text: 左傳曰，叔孫昭子與宋公語，相泣。樂祁退而告人曰：「君與叔孫其皆死乎？吾聞之，哀樂而樂哀，皆喪心也。心之精爽，是謂魂魄。魂魄去之，何以能久也！」
+- id: hhs.61.p39.h1
+  anchor: hhs.61.p39
+  at: 167
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
+- anchor: hhs.61.p41
+  at: 28
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 周舉於顯親殿對順帝言災變，「陛下初立」即順帝，對應 shunhan。
+  id: hhs.61.p41.h1
 - id: hhs.61.p41.a1
   anchor: hhs.61.p41
   at: 93
   length: 0
   type: lixian
   text: 尚書洪範之文也。孔安國注曰：「君行僭差，則常暘順之也。」
+- id: hhs.61.p43.h1
+  anchor: hhs.61.p43
+  at: 28
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
+- anchor: hhs.61.p46
+  at: 2
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「梁太后臨朝」即順烈梁妠崩前臨朝，未列 roster。
+  id: hhs.61.p46.h4
+- id: hhs.61.p46.h1
+  anchor: hhs.61.p46
+  at: 18
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.61.p46.h2
+  anchor: hhs.61.p46
+  at: 52
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.61.p46.a1
   anchor: hhs.61.p46
   at: 120
@@ -503,6 +765,24 @@ annotations:
   length: 0
   type: lixian
   text: 左氏傳：「從祀先公。」杜預云：「從，順也。先公，閔公、僖公也。將正二公之位，親盡，故通言先公也。」
+- id: hhs.61.p46.h3
+  anchor: hhs.61.p46
+  at: 153
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- anchor: hhs.61.p46
+  at: 186
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太后下詔從之」即梁太后梁妠，未列 roster。
+  id: hhs.61.p46.h5
 - id: hhs.61.p47.t1
   anchor: hhs.61.p47
   at: 0
@@ -527,6 +807,14 @@ annotations:
   length: 0
   type: lixian
   text: 公叔文子，衛大夫也。文子卒，其子戌請謚於君。君曰：「昔者衛國凶饑，夫子為粥與國之餓者，不亦惠乎？衛國有難，夫子以其死衛寡人，不亦貞乎？
+- id: hhs.61.p47.h1
+  anchor: hhs.61.p47
+  at: 89
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
 - id: hhs.61.p47.a3
   anchor: hhs.61.p47
   at: 98
@@ -569,12 +857,36 @@ annotations:
   era: 延熹
   era_year: 2
   reasoning: 原文「延熹二年」直接出现年号；解析為 AD 159
+- id: hhs.61.p49.h1
+  anchor: hhs.61.p49
+  at: 182
+  length: 2
+  type: person
+  person_id: caiyong
+  text: 蔡邕
+  via: primary
+- id: hhs.61.p50.h1
+  anchor: hhs.61.p50
+  at: 0
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.61.p51.a1
   anchor: hhs.61.p51
   at: 38
   length: 0
   type: lixian
   text: 綸氏即夏之綸國，少康之邑也。竹書紀年云：「楚及秦伐鄭綸氏。」今洛州故嵩陽縣城是也。
+- id: hhs.61.p51.h1
+  anchor: hhs.61.p51
+  at: 68
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
 - id: hhs.61.p51.a2
   anchor: hhs.61.p51
   at: 109
@@ -599,6 +911,14 @@ annotations:
   length: 0
   type: lixian
   text: 樊君，樊英也。事具英傳。
+- id: hhs.61.p55.h1
+  anchor: hhs.61.p55
+  at: 9
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.61.p55.a1
   anchor: hhs.61.p55
   at: 24
@@ -611,6 +931,16 @@ annotations:
   length: 0
   type: lixian
   text: 蒙，陰闇也。散謂不精明。
+- anchor: hhs.61.p55
+  at: 49
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 「上疏順帝」明點，「陛下宜開石室」即奏順帝，對應 shunhan。
+  id: hhs.61.p55.h2
 - id: hhs.61.p55.a3
   anchor: hhs.61.p55
   at: 60
@@ -641,12 +971,30 @@ annotations:
   length: 0
   type: lixian
   text: 春秋考異郵曰「僖公之時，雨澤不澍，比於九月，公大驚懼，率腢臣禱山川，以六過自讓，絀女謁，放下讒佞郭都*(之)*等十三人，誅領人之吏受貨賂趙祝等九人。曰：『辜在寡人。方今天旱，野無生稼，寡人當死，百姓何謗，請以身塞無狀』」也。
+- id: hhs.61.p57.h1
+  anchor: hhs.61.p57
+  at: 75
+  length: 2
+  type: person
+  person_id: zhouxuan
+  text: 周宣
+  via: primary
 - id: hhs.61.p57.a1
   anchor: hhs.61.p57
   at: 105
   length: 0
   type: lixian
   text: 國語曰，宣王即位，不籍千畝。□文公諫曰：「夫人之大事在農，上帝之粢盛於是乎出，故稷為太官。古者太史順時覛土，農祥晨正日月，底於天廟。先時九日，太史告稷曰：『陽氣俱蒸，土膏其動。』稷以告王，王即齋宮，百官御事。王耕一□，班三之，庶人終於千畝。」王弗聽，後師敗績於姜氏之戎。□音扶發反。
+- anchor: hhs.61.p57
+  at: 107
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 黃瓊奏順帝親耕籍田之禮，「陛下」即順帝，對應 shunhan。
+  id: hhs.61.p57.h2
 - id: hhs.61.p57.a2
   anchor: hhs.61.p57
   at: 175
@@ -671,6 +1019,14 @@ annotations:
   length: 0
   type: lixian
   text: 干卦象曰「天行健，君子以自強不息」也。
+- id: hhs.61.p58.h1
+  anchor: hhs.61.p58
+  at: 11
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
 - id: hhs.61.p59.t1
   anchor: hhs.61.p59
   at: 0
@@ -683,6 +1039,14 @@ annotations:
   era: 元嘉
   era_year: 1
   reasoning: 原文「元嘉元年」直接出现年号；解析為 AD 151（回溯前事，不推進章節時間軸）
+- id: hhs.61.p59.h1
+  anchor: hhs.61.p59
+  at: 9
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.61.p59.a1
   anchor: hhs.61.p59
   at: 88
@@ -797,6 +1161,16 @@ annotations:
   length: 0
   type: lixian
   text: 形，兆也。言未有天下之兆。「畫」或作「書」也。
+- anchor: hhs.61.p62
+  at: 210
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 「陛下初從藩國，爰升帝位」即桓帝由蠡吾侯入承大統，對應 huanhan。
+  id: hhs.61.p62.h1
 - id: hhs.61.p62.a3
   anchor: hhs.61.p62
   at: 292
@@ -809,12 +1183,46 @@ annotations:
   length: 0
   type: lixian
   text: 法言曰「金口木舌」也。
+- anchor: hhs.61.p63
+  at: 29
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 黃瓊論李固杜喬冤被誅，桓帝時事，「陛下」即桓帝，對應 huanhan。
+  id: hhs.61.p63.h4
+- id: hhs.61.p63.h1
+  anchor: hhs.61.p63
+  at: 46
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- id: hhs.61.p63.h2
+  anchor: hhs.61.p63
+  at: 49
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
 - id: hhs.61.p63.a2
   anchor: hhs.61.p63
   at: 83
   length: 0
   type: lixian
   text: 坐音才臥反。
+- id: hhs.61.p63.h3
+  anchor: hhs.61.p63
+  at: 98
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
 - id: hhs.61.p63.a3
   anchor: hhs.61.p63
   at: 124
@@ -827,6 +1235,16 @@ annotations:
   length: 0
   type: lixian
   text: 史記曰，孔子將西見趙簡子，至於河而聞竇鳴犢、舜華之死也，臨河而歎曰：「美哉洋洋，丘之不濟此，命也夫！竇鳴犢、舜華，晉之賢大夫也。趙簡子未得志之時，須此兩人而後從政，及其得志而殺之。丘聞刳胎殺夭，則麒麟不至郊藪；涸澤而漁，則蛟龍不合陰陽；覆巢毀卵，則鳳皇不翔。何則？君子諱傷其類也。」事亦見孔子家語文也。
+- anchor: hhs.61.p65
+  at: 113
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段論梁冀誅後封侯不當，桓帝時事，「陛下」即桓帝，對應 huanhan。
+  id: hhs.61.p65.h1
 - id: hhs.61.p65.a2
   anchor: hhs.61.p65
   at: 154
@@ -877,12 +1295,30 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「建和元年正月」直接出现年号；解析為 AD 147（回溯前事，不推進章節時間軸）
+- anchor: hhs.61.p66
+  at: 44
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 建和元年（桓帝元年）「太后詔問」即順烈梁妠尚為太后時，未列 roster。
+  id: hhs.61.p66.h1
 - id: hhs.61.p66.a1
   anchor: hhs.61.p66
   at: 154
   length: 0
   type: lixian
   text: 副本詣公府也。
+- id: hhs.61.p67.h1
+  anchor: hhs.61.p67
+  at: 9
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.61.p67.a1
   anchor: hhs.61.p67
   at: 52
@@ -895,6 +1331,38 @@ annotations:
   length: 0
   type: lixian
   text: 能音乃來反。
+- id: hhs.61.p68.h1
+  anchor: hhs.61.p68
+  at: 10
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.61.p71.h1
+  anchor: hhs.61.p71
+  at: 1
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.61.p71.h2
+  anchor: hhs.61.p71
+  at: 27
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.61.p72.h1
+  anchor: hhs.61.p72
+  at: 3
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.61.p72.a1
   anchor: hhs.61.p72
   at: 36
@@ -907,18 +1375,130 @@ annotations:
   length: 0
   type: lixian
   text: 解見馮衍傳。
+- id: hhs.61.p72.h2
+  anchor: hhs.61.p72
+  at: 68
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.61.p72.h3
+  anchor: hhs.61.p72
+  at: 106
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.61.p72.h4
+  anchor: hhs.61.p72
+  at: 111
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.61.p72.h5
+  anchor: hhs.61.p72
+  at: 114
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.61.p73.a1
   anchor: hhs.61.p73
   at: 47
   length: 0
   type: lixian
   text: 尚書大傳曰「古者諸侯之於天子，三年一貢士。一適謂之好德，再適謂之賢賢，三適謂之有功。有功者，天子賜以車服弓矢，號曰命。諸侯有不貢士謂之不率正，一不適謂之過，再不適謂之傲，三不適謂之誣。誣者，天子絀之，一絀以爵，再絀以地，三絀而爵地畢」也。
+- id: hhs.61.p73.h1
+  anchor: hhs.61.p73
+  at: 166
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.61.p73.h2
+  anchor: hhs.61.p73
+  at: 190
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
+- id: hhs.61.p73.h3
+  anchor: hhs.61.p73
+  at: 259
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.61.p73.a2
   anchor: hhs.61.p73
   at: 353
   length: 0
   type: lixian
   text: 拘儒猶褊狹也。
+- id: hhs.61.p73.h4
+  anchor: hhs.61.p73
+  at: 379
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- id: hhs.61.p73.h5
+  anchor: hhs.61.p73
+  at: 382
+  length: 2
+  type: person
+  person_id: zhouju
+  text: 周舉
+  via: primary
+- id: hhs.61.p73.h6
+  anchor: hhs.61.p73
+  at: 390
+  length: 2
+  type: person
+  person_id: zuoxiong
+  text: 左雄
+  via: primary
+- id: hhs.61.p73.h7
+  anchor: hhs.61.p73
+  at: 393
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
+- id: hhs.61.p73.h8
+  anchor: hhs.61.p73
+  at: 414
+  length: 2
+  type: person
+  person_id: marong
+  text: 馬融
+  via: primary
+- id: hhs.61.p73.h9
+  anchor: hhs.61.p73
+  at: 441
+  length: 2
+  type: person
+  person_id: yuxu
+  text: 虞詡
+  via: primary
+- id: hhs.61.p73.h10
+  anchor: hhs.61.p73
+  at: 463
+  length: 2
+  type: person
+  person_id: duqiao
+  text: 杜喬
+  via: primary
 - id: hhs.61.p73.a3
   anchor: hhs.61.p73
   at: 546
@@ -931,12 +1511,36 @@ annotations:
   length: 0
   type: lixian
   text: 碩，大也。
+- id: hhs.61.p73.h11
+  anchor: hhs.61.p73
+  at: 577
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
+- id: hhs.61.p73.h12
+  anchor: hhs.61.p73
+  at: 601
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.61.p73.a5
   anchor: hhs.61.p73
   at: 608
   length: 0
   type: lixian
   text: 彌縫猶補合也。詩曰：「袞職有闕，惟仲山甫補之。」
+- id: hhs.61.p73.h13
+  anchor: hhs.61.p73
+  at: 611
+  length: 2
+  type: person
+  person_id: liutao
+  text: 劉陶
+  via: primary
 - id: hhs.61.p73.a6
   anchor: hhs.61.p73
   at: 697

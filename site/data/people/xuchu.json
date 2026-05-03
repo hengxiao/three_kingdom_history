@@ -1,0 +1,94 @@
+{
+  "id": "xuchu",
+  "primary_name": "許褚",
+  "courtesy_name": "仲康",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "曹魏武衛將軍，曹操貼身衛士",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p57",
+        "at": 2,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "許褚",
+        "snippet": "沛國許褚，勇力絕人，聚少年及宗族數千家，堅壁以御外寇，淮、汝、陳、梁間皆畏憚之，操徇淮、汝，褚以眾歸操，操曰：「此吾樊噲也！即日拜都尉…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p17",
+        "at": 25,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "許褚",
+        "snippet": "曹操復屯官渡。操常從士徐他等謀殺操，入操帳，見校尉許褚，色變，褚覺而殺之。"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p29",
+        "at": 100,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "許褚",
+        "snippet": "…。馬超將步騎萬餘人攻之，矢下如雨，操猶據胡床不動。許褚扶操上船，船工中流矢死，褚左手舉馬鞍以蔽操，右手刺船。校尉丁斐，放牛馬以餌賊，賊亂取牛馬，操乃得渡。遂自蒲阪渡西河，循河為甬道…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p30",
+        "at": 167,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "許褚",
+        "snippet": "…盡，操意沮，便欲拔軍截山而還，遣大將軍夏侯惇、將軍許褚呼山上兵還。會前軍夜迷惑，誤入張衛別營，營中大驚退散。侍中辛毘、主簿劉曄等在兵後，語惇、褚，言「官兵已據得賊要屯，賊已散走」，…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.6",
+        "chapter_title": "蜀書·關張馬黃趙傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.6.p11",
+        "at": 61,
+        "data_url": "data/sanguozhi/shu/06.json",
+        "matched": "許褚",
+        "snippet": "…超單馬會語，超負其多力，陰欲突前捉曹公，曹公左右將許褚瞋目盻之，超乃不敢動。曹公用賈詡謀，離間超、遂，更相猜疑，軍以大敗。超走保諸戎，曹公追至安定，會北方有事，引軍東還。楊阜說曹公…"
+      },
+      {
+        "chapter_id": "wei.28",
+        "chapter_title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.28.p51",
+        "at": 210,
+        "data_url": "data/sanguozhi/wei/28.json",
+        "matched": "許褚",
+        "snippet": "…前治道，會在後行，而橋穿，馬足陷，於是斬儀。儀者，許褚之子，有功王室，猶不原貸。諸軍聞之，莫不震竦。蜀令諸圍皆不得戰，退還漢、樂二城守。魏興太守劉欽趣子午谷，諸軍數道平行，至漢中。…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 6
+}

@@ -1,0 +1,105 @@
+{
+  "id": "wucan",
+  "primary_name": "吾粲",
+  "courtesy_name": "孔休",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.12",
+      "title": "吳書·虞陆张骆陆吾朱传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p74",
+        "at": 542,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "吾粲",
+        "snippet": "…吳主，吳主徙譚、承、休於交州，又追賜休死。太子太傅吾粲請使魯王出鎮夏口，出楊竺等不得令在京師，又數以消息語陸遜；魯王與楊竺共譖之，吳主怒，收粲下獄，誅。數遣中使責問陸遜，遜憤恚而卒…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p29",
+        "at": 250,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "吾粲",
+        "snippet": "…顧譚、顧承、姚信，工以親附太子，枉見流徙。太子太傅吾粲坐數與遜交書，下獄死。權累遣中使責讓遜，遜憤恚致卒，時年六十三。家無餘財。"
+      },
+      {
+        "chapter_id": "wu.14",
+        "chapter_title": "吳書·吳主五子傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.14.p11",
+        "at": 110,
+        "data_url": "data/sanguozhi/wu/14.json",
+        "matched": "吾粲",
+        "snippet": "…憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不可奪，全寄、楊笁爲魯王霸支黨，譖愬日興。粲遂下獄誅，譚徙交州。權沈吟者歷年，後遂幽閉和。於是驃騎將軍…"
+      },
+      {
+        "chapter_id": "wu.14",
+        "chapter_title": "吳書·吳主五子傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.14.p5",
+        "at": 582,
+        "data_url": "data/sanguozhi/wu/14.json",
+        "matched": "吾粲",
+        "snippet": "…有匪躬之節。諸葛瑾、步隲、朱然、全琮、朱據、呂岱、吾粲、闞澤、嚴畯、張承、孫怡忠於爲國，通達治體。可令陳上便宜，蠲除苛煩，愛養士馬，撫循百姓。五年之外，十年之內，遠者歸復，近者盡力…"
+      },
+      {
+        "chapter_id": "wu.15",
+        "chapter_title": "吳書·贺全吕周钟离传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.15.p41",
+        "at": 115,
+        "data_url": "data/sanguozhi/wu/15.json",
+        "matched": "吾粲",
+        "snippet": "…賜爵關內侯。賊帥董嗣負阻劫鈔，豫章、臨川並受其害。吾粲、唐咨嘗以三千兵攻守，連月不能拔。魴表乞罷兵，得以便宜從事。魴遣間諜，授以方策，誘狙殺嗣。嗣弟怖懼，詣武昌降於陸遜，乞出平地，…"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p43",
+        "at": 56,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "吾粲",
+        "snippet": "…二月，武昌言甘露降於禮賓殿。輔吳將軍張昭卒。中郎將吾粲獲李桓，將軍唐咨獲羅厲等。自十月不雨，至於夏。冬十月，彗星見於東方。鄱陽賊彭旦等爲亂。"
+      },
+      {
+        "chapter_id": "wu.7",
+        "chapter_title": "吳書·張顧諸葛歩傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.7.p43",
+        "at": 295,
+        "data_url": "data/sanguozhi/wu/07.json",
+        "matched": "吾粲",
+        "snippet": "…至於趣捨大檢，不犯四者，懼一揆也。昔丁諝出於孤家，吾粲由於牧堅，豫章揚其善，以並陸、全之列，是以人無幽滯而風俗厚焉。使君、丞相、衞尉三君，昔以布衣俱相友善，諸論者因各敘其優劣。初，…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 7
+}

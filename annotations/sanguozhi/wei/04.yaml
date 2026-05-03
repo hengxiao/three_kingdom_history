@@ -2,9 +2,17 @@ chapter: wei.4
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷04
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 025bae4d2ad9af6d5f59961c45c85bee06eb7539ad2aabeffd9611e929298771
 annotations:
+- id: wei.4.p1.h1
+  anchor: wei.4.p1
+  at: 9
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.4.p1.a1
   anchor: wei.4.p1
   at: 35
@@ -37,6 +45,24 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「景初三年正月」直接出现年号；解析為 AD 239
+- anchor: wei.4.p1
+  at: 63
+  length: 2
+  type: person
+  person_id: caofang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 景初三年明帝病篤立齊王芳為皇太子，太子即指曹芳本人。
+  id: wei.4.p1.h3
+- id: wei.4.p1.h2
+  anchor: wei.4.p1
+  at: 88
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.4.p1.t3
   anchor: wei.4.p1
   at: 207
@@ -71,6 +97,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 景初3年 (AD 239)，月份「三月」
+- id: wei.4.p2.h1
+  anchor: wei.4.p2
+  at: 98
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
 - id: wei.4.p2.t2
   anchor: wei.4.p2
   at: 104
@@ -141,6 +175,22 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 景初3年 (AD 239)，月份「十二月」
+- id: wei.4.p3.h1
+  anchor: wei.4.p3
+  at: 8
+  length: 2
+  type: person
+  person_id: caorui
+  text: 烈祖
+  via: chapter_alias
+- id: wei.4.p3.h2
+  anchor: wei.4.p3
+  at: 10
+  length: 3
+  type: person
+  person_id: caorui
+  text: 明皇帝
+  via: chapter_alias
 - id: wei.4.p3.t2
   anchor: wei.4.p3
   at: 14
@@ -197,6 +247,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 原文「正始元年春二月」直接出现年号；解析為 AD 240
+- id: wei.4.p4.h1
+  anchor: wei.4.p4
+  at: 16
+  length: 2
+  type: person
+  person_id: liufang
+  text: 劉放
+  via: primary
 - id: wei.4.p5.t1
   anchor: wei.4.p5
   at: 2
@@ -281,6 +339,14 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 年承前文 正始2年 (AD 241)，月份「夏五月」
+- id: wei.4.p7.h1
+  anchor: wei.4.p7
+  at: 6
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
 - id: wei.4.p7.a1
   anchor: wei.4.p7
   at: 27
@@ -301,6 +367,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 正始2年 (AD 241)，月份「六月」
+- id: wei.4.p7.h2
+  anchor: wei.4.p7
+  at: 42
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
 - id: wei.4.p7.t3
   anchor: wei.4.p7
   at: 50
@@ -343,6 +417,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 正始3年 (AD 242)，月份「三月」
+- id: wei.4.p8.h1
+  anchor: wei.4.p8
+  at: 17
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
 - id: wei.4.p8.t3
   anchor: wei.4.p8
   at: 21
@@ -357,6 +439,14 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 正始3年 (AD 242)，月份「秋七月」
+- id: wei.4.p8.h2
+  anchor: wei.4.p8
+  at: 41
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: wei.4.p8.t4
   anchor: wei.4.p8
   at: 47
@@ -427,6 +517,166 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 正始4年 (AD 243)，月份「秋七月」
+- id: wei.4.p9.h1
+  anchor: wei.4.p9
+  at: 54
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: wei.4.p9.h2
+  anchor: wei.4.p9
+  at: 57
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wei.4.p9.h3
+  anchor: wei.4.p9
+  at: 65
+  length: 3
+  type: person
+  person_id: xiahoushang
+  text: 夏侯尚
+  via: primary
+- id: wei.4.p9.h4
+  anchor: wei.4.p9
+  at: 71
+  length: 2
+  type: person
+  person_id: huanjie
+  text: 桓階
+  via: primary
+- id: wei.4.p9.h5
+  anchor: wei.4.p9
+  at: 76
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
+- id: wei.4.p9.h6
+  anchor: wei.4.p9
+  at: 81
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
+- id: wei.4.p9.h7
+  anchor: wei.4.p9
+  at: 88
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: wei.4.p9.h8
+  anchor: wei.4.p9
+  at: 94
+  length: 2
+  type: person
+  person_id: xuhuang
+  text: 徐晃
+  via: primary
+- id: wei.4.p9.h9
+  anchor: wei.4.p9
+  at: 100
+  length: 2
+  type: person
+  person_id: zhangliao
+  text: 張遼
+  via: primary
+- id: wei.4.p9.h10
+  anchor: wei.4.p9
+  at: 106
+  length: 2
+  type: person
+  person_id: yuejin
+  text: 樂進
+  via: primary
+- id: wei.4.p9.h11
+  anchor: wei.4.p9
+  at: 111
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
+- id: wei.4.p9.h12
+  anchor: wei.4.p9
+  at: 116
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
+- id: wei.4.p9.h13
+  anchor: wei.4.p9
+  at: 123
+  length: 2
+  type: person
+  person_id: caohong
+  text: 曹洪
+  via: primary
+- id: wei.4.p9.h14
+  anchor: wei.4.p9
+  at: 130
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
+- id: wei.4.p9.h15
+  anchor: wei.4.p9
+  at: 140
+  length: 2
+  type: person
+  person_id: wenpin
+  text: 文聘
+  via: primary
+- id: wei.4.p9.h16
+  anchor: wei.4.p9
+  at: 146
+  length: 2
+  type: person
+  person_id: zangba
+  text: 臧霸
+  via: primary
+- id: wei.4.p9.h17
+  anchor: wei.4.p9
+  at: 153
+  length: 2
+  type: person
+  person_id: lidian
+  text: 李典
+  via: primary
+- id: wei.4.p9.h18
+  anchor: wei.4.p9
+  at: 160
+  length: 2
+  type: person
+  person_id: pangde
+  text: 龐德
+  via: primary
+- id: wei.4.p9.h19
+  anchor: wei.4.p9
+  at: 167
+  length: 2
+  type: person
+  person_id: dianwei
+  text: 典韋
+  via: primary
+- id: wei.4.p9.h20
+  anchor: wei.4.p9
+  at: 170
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.4.p9.t5
   anchor: wei.4.p9
   at: 175
@@ -455,6 +705,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「正始」推得，「五年春二月」 = 正始5年 = AD 244
+- id: wei.4.p10.h1
+  anchor: wei.4.p10
+  at: 10
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.4.p10.t2
   anchor: wei.4.p10
   at: 17
@@ -483,6 +741,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 正始5年 (AD 244)，月份「五月」
+- id: wei.4.p10.h2
+  anchor: wei.4.p10
+  at: 77
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.4.p10.t4
   anchor: wei.4.p10
   at: 83
@@ -525,6 +791,22 @@ annotations:
   month_chinese: 冬十一月
   month_ordinal: 11
   reasoning: 年承前文 正始5年 (AD 244)，月份「冬十一月」
+- id: wei.4.p10.h3
+  anchor: wei.4.p10
+  at: 127
+  length: 2
+  type: person
+  person_id: xunyou
+  text: 荀攸
+  via: primary
+- id: wei.4.p10.h4
+  anchor: wei.4.p10
+  at: 130
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.4.p10.a1
   anchor: wei.4.p10
   at: 135
@@ -545,6 +827,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 正始5年 (AD 244)，月份「十二月」
+- id: wei.4.p10.h5
+  anchor: wei.4.p10
+  at: 152
+  length: 2
+  type: person
+  person_id: cuilin
+  text: 崔林
+  via: primary
 - id: wei.4.p11.t1
   anchor: wei.4.p11
   at: 0
@@ -559,6 +849,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「正始」推得，「六年春二月」 = 正始6年 = AD 245
+- id: wei.4.p11.h1
+  anchor: wei.4.p11
+  at: 22
+  length: 2
+  type: person
+  person_id: zhaoyan
+  text: 趙儼
+  via: primary
 - id: wei.4.p11.t2
   anchor: wei.4.p11
   at: 28
@@ -587,6 +885,22 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 正始6年 (AD 245)，月份「八月」
+- id: wei.4.p11.h2
+  anchor: wei.4.p11
+  at: 43
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
+- id: wei.4.p11.h3
+  anchor: wei.4.p11
+  at: 58
+  length: 2
+  type: person
+  person_id: liufang
+  text: 劉放
+  via: primary
 - id: wei.4.p11.t4
   anchor: wei.4.p11
   at: 78
@@ -601,6 +915,14 @@ annotations:
   month_chinese: 冬十一月
   month_ordinal: 11
   reasoning: 年承前文 正始6年 (AD 245)，月份「冬十一月」
+- id: wei.4.p11.h4
+  anchor: wei.4.p11
+  at: 85
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.4.p11.t5
   anchor: wei.4.p11
   at: 102
@@ -615,6 +937,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 正始6年 (AD 245)，月份「十二月」
+- id: wei.4.p11.h5
+  anchor: wei.4.p11
+  at: 112
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: wei.4.p12.t1
   anchor: wei.4.p12
   at: 0
@@ -629,6 +959,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「正始」推得，「七年春二月」 = 正始7年 = AD 246
+- id: wei.4.p12.h1
+  anchor: wei.4.p12
+  at: 10
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.4.p12.t2
   anchor: wei.4.p12
   at: 18
@@ -739,6 +1077,16 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 年承前文 正始8年 (AD 247)，月份「冬十二月」
+- anchor: wei.4.p15
+  at: 335
+  length: 2
+  type: person
+  person_id: caofang
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 孔晏乂諫疏對齊王曹芳所稱「陛下」。
+  id: wei.4.p15.h1
 - id: wei.4.p16.t1
   anchor: wei.4.p16
   at: 0
@@ -753,6 +1101,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「正始」推得，「九年春二月」 = 正始9年 = AD 248
+- id: wei.4.p16.h1
+  anchor: wei.4.p16
+  at: 25
+  length: 2
+  type: person
+  person_id: liufang
+  text: 劉放
+  via: primary
 - id: wei.4.p16.t2
   anchor: wei.4.p16
   at: 28
@@ -781,6 +1137,22 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 正始9年 (AD 248)，月份「四月」
+- id: wei.4.p16.h2
+  anchor: wei.4.p16
+  at: 57
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
+- id: wei.4.p16.h3
+  anchor: wei.4.p16
+  at: 67
+  length: 2
+  type: person
+  person_id: xumiao
+  text: 徐邈
+  via: primary
 - id: wei.4.p16.t4
   anchor: wei.4.p16
   at: 78
@@ -829,6 +1201,14 @@ annotations:
   length: 0
   type: pei
   text: 孫盛《魏世籍》曰：高平陵在洛水南大石山，去洛城九十里。
+- id: wei.4.p17.h1
+  anchor: wei.4.p17
+  at: 28
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
 - id: wei.4.p17.a2
   anchor: wei.4.p17
   at: 156
@@ -849,6 +1229,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 嘉平元年 (AD 249)，月份「夏四月」
+- id: wei.4.p18.h1
+  anchor: wei.4.p18
+  at: 14
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: wei.4.p18.t2
   anchor: wei.4.p18
   at: 18
@@ -863,6 +1251,14 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 年承前文 嘉平元年 (AD 249)，月份「冬十二月」
+- id: wei.4.p18.h2
+  anchor: wei.4.p18
+  at: 42
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
 - id: wei.4.p19.t1
   anchor: wei.4.p19
   at: 0
@@ -877,6 +1273,14 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 承前文年號「嘉平」推得，「二年夏五月」 = 嘉平2年 = AD 250
+- id: wei.4.p19.h1
+  anchor: wei.4.p19
+  at: 11
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
 - id: wei.4.p19.t2
   anchor: wei.4.p19
   at: 19
@@ -905,6 +1309,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 嘉平2年 (AD 250)，月份「十一月」
+- id: wei.4.p19.h2
+  anchor: wei.4.p19
+  at: 40
+  length: 2
+  type: person
+  person_id: sunli
+  text: 孫禮
+  via: primary
 - id: wei.4.p19.t4
   anchor: wei.4.p19
   at: 44
@@ -919,6 +1331,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 嘉平2年 (AD 250)，月份「十二月」
+- id: wei.4.p19.h3
+  anchor: wei.4.p19
+  at: 63
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wei.4.p20.t1
   anchor: wei.4.p20
   at: 0
@@ -933,6 +1353,14 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「嘉平」推得，「三年春正月」 = 嘉平3年 = AD 251
+- id: wei.4.p20.h1
+  anchor: wei.4.p20
+  at: 10
+  length: 2
+  type: person
+  person_id: wangji
+  text: 王基
+  via: primary
 - id: wei.4.p20.t2
   anchor: wei.4.p20
   at: 31
@@ -975,6 +1403,22 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 嘉平3年 (AD 251)，月份「四月」
+- id: wei.4.p20.h2
+  anchor: wei.4.p20
+  at: 70
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wei.4.p20.h3
+  anchor: wei.4.p20
+  at: 98
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
 - id: wei.4.p20.t5
   anchor: wei.4.p20
   at: 112
@@ -1031,6 +1475,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 嘉平3年 (AD 251)，月份「十一月」
+- id: wei.4.p20.h4
+  anchor: wei.4.p20
+  at: 221
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.4.p20.t9
   anchor: wei.4.p20
   at: 247
@@ -1073,6 +1525,16 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 嘉平4年 (AD 252)，月份「二月」
+- anchor: wei.4.p21
+  at: 27
+  length: 2
+  type: person
+  person_id: houzhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立皇后張氏」— 嘉平四年齊王曹芳立張皇后；roster 無，置 null。
+  id: wei.4.p21.h4
 - id: wei.4.p21.t3
   anchor: wei.4.p21
   at: 35
@@ -1107,6 +1569,22 @@ annotations:
   month_chinese: 冬十一月
   month_ordinal: 11
   reasoning: 年承前文 嘉平4年 (AD 252)，月份「冬十一月」
+- id: wei.4.p21.h1
+  anchor: wei.4.p21
+  at: 60
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wei.4.p21.h2
+  anchor: wei.4.p21
+  at: 74
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.4.p21.t5
   anchor: wei.4.p21
   at: 81
@@ -1121,6 +1599,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 嘉平4年 (AD 252)，月份「十二月」
+- id: wei.4.p21.h3
+  anchor: wei.4.p21
+  at: 89
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
 - id: wei.4.p21.a2
   anchor: wei.4.p21
   at: 108
@@ -1155,6 +1641,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 嘉平5年 (AD 253)，月份「五月」
+- id: wei.4.p22.h1
+  anchor: wei.4.p22
+  at: 15
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
 - id: wei.4.p22.a1
   anchor: wei.4.p22
   at: 33
@@ -1195,6 +1689,22 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 嘉平5年 (AD 253)，月份「八月」
+- id: wei.4.p23.h1
+  anchor: wei.4.p23
+  at: 29
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.4.p23.h2
+  anchor: wei.4.p23
+  at: 47
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
 - id: wei.4.p23.a1
   anchor: wei.4.p23
   at: 182
@@ -1227,6 +1737,40 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「嘉平」推得，「六年春二月」 = 嘉平6年 = AD 254
+- id: wei.4.p25.h1
+  anchor: wei.4.p25
+  at: 12
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.4.p25.h2
+  anchor: wei.4.p25
+  at: 20
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- anchor: wei.4.p26
+  at: 9
+  length: 2
+  type: person
+  person_id: houzhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「皇后父光祿大夫張緝」— 即廢張皇后之父；roster 無張皇后，置 null。
+  id: wei.4.p26.h3
+- id: wei.4.p26.h1
+  anchor: wei.4.p26
+  at: 28
+  length: 3
+  type: person
+  person_id: xiahouxuan
+  text: 夏侯玄
+  via: primary
 - id: wei.4.p26.t1
   anchor: wei.4.p26
   at: 54
@@ -1241,6 +1785,16 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 嘉平6年 (AD 254)，月份「三月」
+- anchor: wei.4.p26
+  at: 58
+  length: 2
+  type: person
+  person_id: houzhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「廢皇后張氏」— 即廢張皇后；roster 無，置 null。
+  id: wei.4.p26.h4
 - id: wei.4.p26.t2
   anchor: wei.4.p26
   at: 63
@@ -1289,6 +1843,14 @@ annotations:
   length: 0
   type: pei
   text: 《世語》及《魏氏春秋》並云：此秋，姜維寇隴右。時安東將軍司馬文王鎮許昌，徵還擊維，至京師，帝於平樂觀以臨軍過。中領軍許允與左右小臣謀，因文王辭，殺之，勒其衆以退大將軍。已書詔於前。文王入，帝方食栗，優人雲午等唱曰：「青頭雞，青頭雞。」青頭雞者，鴨也。帝懼不敢發。文王引兵入城，景王因是謀廢帝。臣松之案夏侯玄傳及《魏略》，許允此年春與李豐事相連。豐旣誅，即出允為鎮北將軍，未發，以放散官物收付廷尉，徙樂浪，追殺之。允此秋不得故為領軍而建此謀。
+- id: wei.4.p26.h2
+  anchor: wei.4.p26
+  at: 223
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
 - id: wei.4.p26.a2
   anchor: wei.4.p26
   at: 251
@@ -1301,12 +1863,44 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：景王將廢帝，遣郭芝入白太后，太后與帝對坐。芝謂帝曰：「大將軍欲廢陛下，立彭城王據。」帝乃起去。太后不恱。芝曰：「太后有子不能教，今大將軍意已成，又勒兵于外以備非常，但當順旨，將復何言！」太后曰：「我欲見大將軍，口有所說。」芝曰：「何可見邪？但當速取璽綬。」太后意折，乃遣傍侍御取璽綬著坐側。芝出報景王，景王甚歡。又遣使者授齊王印綬，當出就西宮。帝受命，遂載王車，與太后別，垂涕，始從太極殿南出，羣臣送者數十人，太尉司馬孚悲不自勝，餘多流涕。王出後，景王又使使者請璽綬。太后曰：「彭城王，我之季叔也，今來立，我當何之！且明皇帝當絕嗣乎？吾以為高貴鄉公者，文皇帝之長孫，明皇帝之弟子，於禮，小宗有後大宗之義，其詳議之。」景王乃更召群臣，以皇太后令示之，乃定迎高貴鄉公。是時太常已發二日，待璽綬於溫。事定，又請璽綬。太后令曰：「我見高貴鄉公，小時識之，明日我自欲以璽綬手授之也。」
+- id: wei.4.p27.h1
+  anchor: wei.4.p27
+  at: 12
+  length: 2
+  type: person
+  person_id: caopi
+  text: 高祖
+  via: chapter_alias
+- id: wei.4.p27.h2
+  anchor: wei.4.p27
+  at: 14
+  length: 3
+  type: person
+  person_id: caopi
+  text: 文皇帝
+  via: chapter_alias
+- id: wei.4.p27.h3
+  anchor: wei.4.p27
+  at: 44
+  length: 3
+  type: person
+  person_id: caorui
+  text: 明皇帝
+  via: chapter_alias
 - id: wei.4.p27.a1
   anchor: wei.4.p27
   at: 50
   length: 0
   type: pei
   text: 《魏書》曰：景王復與羣臣共奏永寧宮曰：「臣等聞人道親親故尊祖，尊祖故敬宗。禮，大宗無嗣，則擇支子之賢者；為人後者，為之子也。東海定王子高貴鄉公，文皇帝之孫，宜承正統，以嗣烈祖明皇帝後。率土有賴，萬邦幸甚，臣請徵公詣洛陽宮。」奏可。使中護軍望、兼太常河南尹肅持節，與少府袤、尚書亮、侍中表等奉法駕，迎公于元城。《魏世譜》曰：晉受禪，封齊王為邵陵縣公。年四十三，泰始十年薨，謚曰厲公。
+- id: wei.4.p28.h1
+  anchor: wei.4.p28
+  at: 11
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.4.p28.t1
   anchor: wei.4.p28
   at: 23
@@ -1367,12 +1961,36 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「正元」推得，「二年春正月」 = 正元2年 = AD 255
+- id: wei.4.p30.h1
+  anchor: wei.4.p30
+  at: 12
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wei.4.p30.h2
+  anchor: wei.4.p30
+  at: 44
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
 - id: wei.4.p30.a1
   anchor: wei.4.p30
   at: 83
   length: 0
   type: pei
   text: 《世語》曰：大將軍奉天子征儉，至項；儉旣破，天子先還。臣松之檢諸書都無此事，至諸葛誕反，司馬文王始挾太后及帝與俱行耳。故發詔引漢二祖及明帝親征以為前比，知明帝已後始有此行也。案張璠、虞溥、郭頒皆晉之令史，璠、頒出為官長，溥，鄱陽內史。璠撰《後漢紀》，雖似未成，辭藻可觀。溥著《江表傳》，亦粗有條貫。惟頒撰魏晉《世語》，蹇乏全無宮商，最為鄙劣，以時有異事，故頗行於世。干寶、孫盛等多采其言以為《晉書》，其中虛錯如此者，往往而有之。
+- id: wei.4.p30.h3
+  anchor: wei.4.p30
+  at: 108
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p30.t2
   anchor: wei.4.p30
   at: 127
@@ -1387,6 +2005,22 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 正元2年 (AD 255)，月份「二月」
+- id: wei.4.p31.h1
+  anchor: wei.4.p31
+  at: 6
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wei.4.p31.h2
+  anchor: wei.4.p31
+  at: 17
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p31.t1
   anchor: wei.4.p31
   at: 39
@@ -1401,6 +2035,16 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 正元2年 (AD 255)，月份「三月」
+- anchor: wei.4.p31
+  at: 43
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立皇后卞氏」— 正元二年高貴鄉公立卞皇后；roster 無。
+  id: wei.4.p31.h5
 - id: wei.4.p31.t2
   anchor: wei.4.p31
   at: 51
@@ -1415,6 +2059,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 正元2年 (AD 255)，月份「夏四月」
+- id: wei.4.p31.h3
+  anchor: wei.4.p31
+  at: 75
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wei.4.p31.t3
   anchor: wei.4.p31
   at: 83
@@ -1429,6 +2081,14 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 正元2年 (AD 255)，月份「秋七月」
+- id: wei.4.p31.h4
+  anchor: wei.4.p31
+  at: 105
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p32.t1
   anchor: wei.4.p32
   at: 0
@@ -1443,6 +2103,22 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 正元2年 (AD 255)，月份「八月」
+- id: wei.4.p32.h1
+  anchor: wei.4.p32
+  at: 9
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.4.p32.h2
+  anchor: wei.4.p32
+  at: 44
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.4.p32.t2
   anchor: wei.4.p32
   at: 78
@@ -1457,6 +2133,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 正元2年 (AD 255)，月份「九月」
+- id: wei.4.p32.h3
+  anchor: wei.4.p32
+  at: 113
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.4.p32.t3
   anchor: wei.4.p32
   at: 118
@@ -1567,6 +2251,22 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 甘露元年 (AD 256)，月份「秋七月」
+- id: wei.4.p40.h1
+  anchor: wei.4.p40
+  at: 7
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.4.p40.h2
+  anchor: wei.4.p40
+  at: 14
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.4.p41.t1
   anchor: wei.4.p41
   at: 0
@@ -1595,6 +2295,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 甘露元年 (AD 256)，月份「九月」
+- id: wei.4.p41.h1
+  anchor: wei.4.p41
+  at: 47
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
 - id: wei.4.p41.t3
   anchor: wei.4.p41
   at: 53
@@ -1651,6 +2359,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 甘露2年 (AD 257)，月份「夏四月」
+- id: wei.4.p44.h1
+  anchor: wei.4.p44
+  at: 9
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p45.t1
   anchor: wei.4.p45
   at: 0
@@ -1665,6 +2381,46 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 甘露2年 (AD 257)，月份「五月」
+- id: wei.4.p46.h1
+  anchor: wei.4.p46
+  at: 3
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.4.p46.h2
+  anchor: wei.4.p46
+  at: 46
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wei.4.p46.h3
+  anchor: wei.4.p46
+  at: 81
+  length: 2
+  type: person
+  person_id: caorui
+  text: 烈祖
+  via: chapter_alias
+- id: wei.4.p46.h4
+  anchor: wei.4.p46
+  at: 83
+  length: 3
+  type: person
+  person_id: caorui
+  text: 明皇帝
+  via: chapter_alias
+- id: wei.4.p46.h5
+  anchor: wei.4.p46
+  at: 136
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p47.t1
   anchor: wei.4.p47
   at: 0
@@ -1685,6 +2441,14 @@ annotations:
   length: 0
   type: pei
   text: 臣松之以為壹畏逼歸命，事無可嘉，格以古義，欲蓋而名彰者也。當時之宜，未得遠遵式典，固應量才受賞，足以疇其來情而已。至乃光錫八命，禮同台鼎，不亦過乎！於招攜致遠，又無取焉。何者？若使彼之將守，與時無嫌，終不恱於殊寵，坐生叛心，以叛而愧，辱孰甚焉？如其憂危將及，非奔不免，則必逃死苟存，無希榮利矣，然則高位厚祿何為者哉？魏初有孟達、黃權，在晉有孫秀、孫楷；達、權爵賞比壹為輕，秀、楷禮秩優異尤甚。及至吳平，而降黜數等，不承權輿，豈不緣在始失中乎？
+- id: wei.4.p48.h1
+  anchor: wei.4.p48
+  at: 63
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.4.p48.t1
   anchor: wei.4.p48
   at: 73
@@ -1699,6 +2463,14 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 甘露2年 (AD 257)，月份「秋八月」
+- id: wei.4.p48.h2
+  anchor: wei.4.p48
+  at: 102
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p49.t1
   anchor: wei.4.p49
   at: 0
@@ -1741,6 +2513,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「甘露」推得，「三年春二月」 = 甘露3年 = AD 258
+- id: wei.4.p50.h1
+  anchor: wei.4.p50
+  at: 19
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wei.4.p50.t2
   anchor: wei.4.p50
   at: 23
@@ -1803,6 +2583,14 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 甘露3年 (AD 258)，月份「秋八月」
+- id: wei.4.p54.h1
+  anchor: wei.4.p54
+  at: 11
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wei.4.p54.a1
   anchor: wei.4.p54
   at: 147
@@ -1855,6 +2643,14 @@ annotations:
   month_chinese: 夏六月
   month_ordinal: 6
   reasoning: 年承前文 甘露4年 (AD 259)，月份「夏六月」
+- id: wei.4.p56.h1
+  anchor: wei.4.p56
+  at: 24
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wei.4.p56.t3
   anchor: wei.4.p56
   at: 28
@@ -1945,6 +2741,14 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：帝見威權日去，不勝其忿。乃召侍中王沈、尚書王經、散騎常侍王業，謂曰：「司馬昭之心，路人所知也。吾不能坐受廢辱，今日當與卿等自出討之。」王經曰：「昔魯昭公不忍季氏，敗走失國，為天下笑。今權在其門，為日乆矣，朝廷四方皆為之致死，不顧逆順之理，非一日也。且宿衞空闕，兵甲寡弱，陛下何所資用，而一旦如此，無乃欲除疾而更深之邪！禍殆不測，宜見重詳。」帝乃出懷中版令投地，曰：「行之決矣。正使死，何所懼？況不必死邪！」於是入白太后，沈、業奔走告文王，文王為之備。帝遂帥僮僕數百，鼓譟而出。文王弟屯騎校尉伷入，遇帝於東止車門，左右呵之，伷衆奔走。中護軍賈充又逆帝戰於南闕下，帝自用劒。衆欲退，太子舍人成濟問充曰：「事急矣。當云何？」充曰：「畜養汝等，正謂今日。今日之事，無所問也。」濟即前刺帝，刃出於背。文王聞，大驚，自投於地曰：「天下其謂我何！」太傅孚奔往，枕帝股而哭，哀甚，曰：「殺陛下者，臣之罪也。」臣松之以為習鑿齒書，雖最後出，然述此事差有次第。故先載習語，以其餘所言微異者次其後。《世語》曰：王沈、王業馳告文王，尚書王經以正直不出，因沈、業申意。《晉諸公贊曰：沈、業將出，呼王經。經不從，曰：「吾子行矣！」干寶《晉紀》曰：成濟問賈充曰：「事急矣。若之何？」充曰：「公畜養汝等，為今日之事也。夫何疑！」濟曰：「然。」乃抽戈犯蹕。《魏氏春秋》曰：戊子夜，帝自將宂從僕射李昭、黃門從官焦伯等下陵雲臺，鎧仗授兵，欲因際會，自出討文王。會雨，有司奏却日，遂見王經等出黃素詔於懷曰：「是可忍也，孰不可忍也！今日便當決行此事。」入白太后，遂拔劒升輦，帥殿中宿衞蒼頭官僮擊戰鼓，出雲龍門。賈充自外而入，帝師潰散，猶稱天子，手劒奮擊，衆莫敢逼。充帥厲將士，騎督成倅弟成濟以矛進，帝崩于師。時暴雨雷霆，晦冥。魏末傳曰：賈充呼帳下督成濟謂曰：「司馬家事若敗，汝等豈復有種乎？何不出擊！」倅兄弟二人乃帥帳下人出，顧曰：「當殺邪？執邪？」充曰：「殺之。」兵交，帝曰：「放仗！」大將軍士皆放仗。濟兄弟因前刺帝，帝倒車下。
+- id: wei.4.p58.h1
+  anchor: wei.4.p58
+  at: 43
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.4.p58.a2
   anchor: wei.4.p58
   at: 293
@@ -1957,6 +2761,14 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：丁卯，葬高貴鄉公于洛陽西北三十里瀍澗之濵。下車數乘，不設旌旐，百姓相聚而觀之，曰：「是前日所殺天子也。」或掩靣而泣，悲不自勝。臣松之以為若但下車數乘，不設旌旐，何以為王禮葬乎？斯蓋惡之過言，所謂不如是之甚者。
+- id: wei.4.p60.h1
+  anchor: wei.4.p60
+  at: 23
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.4.p62.a1
   anchor: wei.4.p62
   at: 283
@@ -1983,6 +2795,22 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 甘露5年 (AD 260)，月份「六月」
+- id: wei.4.p64.h1
+  anchor: wei.4.p64
+  at: 10
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.4.p64.h2
+  anchor: wei.4.p64
+  at: 14
+  length: 3
+  type: person
+  person_id: caoyu
+  text: 燕王宇
+  via: alias
 - id: wei.4.p64.t1
   anchor: wei.4.p64
   at: 20
@@ -2023,6 +2851,22 @@ annotations:
   month_chinese: 夏六月
   month_ordinal: 6
   reasoning: 原文「景元元年夏六月」直接出现年号；解析為 AD 260
+- id: wei.4.p65.h1
+  anchor: wei.4.p65
+  at: 84
+  length: 3
+  type: person
+  person_id: xianhan
+  text: 漢獻帝
+  via: primary
+- id: wei.4.p65.h2
+  anchor: wei.4.p65
+  at: 136
+  length: 2
+  type: person
+  person_id: wangguan
+  text: 王觀
+  via: primary
 - id: wei.4.p65.t2
   anchor: wei.4.p65
   at: 142
@@ -2051,6 +2895,16 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 景元元年 (AD 260)，月份「十一月」
+- anchor: wei.4.p66
+  at: 114
+  length: 2
+  type: person
+  person_id: caohuan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 有司奏議對魏元帝曹奐稱「陛下」（追尊燕王宇本生事）。
+  id: wei.4.p66.h1
 - id: wei.4.p67.t1
   anchor: wei.4.p67
   at: 0
@@ -2149,6 +3003,22 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 景元3年 (AD 262)，月份「冬十月」
+- id: wei.4.p69.h1
+  anchor: wei.4.p69
+  at: 83
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.4.p69.h2
+  anchor: wei.4.p69
+  at: 93
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.4.p69.t4
   anchor: wei.4.p69
   at: 108
@@ -2161,6 +3031,22 @@ annotations:
   era: 景元
   era_year: 3
   reasoning: 「是歲」 = 当前年 景元3年 (AD 262)
+- id: wei.4.p69.h3
+  anchor: wei.4.p69
+  at: 117
+  length: 2
+  type: person
+  person_id: guojia
+  text: 郭嘉
+  via: primary
+- id: wei.4.p69.h4
+  anchor: wei.4.p69
+  at: 120
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.4.p70.t1
   anchor: wei.4.p70
   at: 0
@@ -2189,6 +3075,30 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 年承前文 景元4年 (AD 263)，月份「夏五月」
+- id: wei.4.p71.h1
+  anchor: wei.4.p71
+  at: 21
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.4.p71.h2
+  anchor: wei.4.p71
+  at: 115
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.4.p71.h3
+  anchor: wei.4.p71
+  at: 179
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.4.p72.t1
   anchor: wei.4.p72
   at: 0
@@ -2203,6 +3113,14 @@ annotations:
   month_chinese: 秋九月
   month_ordinal: 9
   reasoning: 年承前文 景元4年 (AD 263)，月份「秋九月」
+- id: wei.4.p72.h1
+  anchor: wei.4.p72
+  at: 6
+  length: 2
+  type: person
+  person_id: gaorou
+  text: 高柔
+  via: primary
 - id: wei.4.p72.t2
   anchor: wei.4.p72
   at: 10
@@ -2217,6 +3135,16 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 景元4年 (AD 263)，月份「冬十月」
+- anchor: wei.4.p72
+  at: 34
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立皇后卞氏」— 景元三年陳留王曹奐立卞皇后；roster 無。
+  id: wei.4.p72.h2
 - id: wei.4.p72.t3
   anchor: wei.4.p72
   at: 39
@@ -2231,6 +3159,30 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 景元4年 (AD 263)，月份「十一月」
+- id: wei.4.p73.h1
+  anchor: wei.4.p73
+  at: 1
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.4.p73.h2
+  anchor: wei.4.p73
+  at: 4
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.4.p73.h3
+  anchor: wei.4.p73
+  at: 21
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
 - id: wei.4.p73.t1
   anchor: wei.4.p73
   at: 32
@@ -2245,6 +3197,22 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 景元4年 (AD 263)，月份「十二月」
+- id: wei.4.p73.h4
+  anchor: wei.4.p73
+  at: 84
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.4.p73.h5
+  anchor: wei.4.p73
+  at: 94
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.4.p74.t1
   anchor: wei.4.p74
   at: 0
@@ -2259,6 +3227,30 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 原文「咸熙元年春正月」直接出现年号；解析為 AD 264
+- id: wei.4.p74.h1
+  anchor: wei.4.p74
+  at: 13
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: wei.4.p74.h2
+  anchor: wei.4.p74
+  at: 40
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
+- id: wei.4.p74.h3
+  anchor: wei.4.p74
+  at: 51
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.4.p74.t2
   anchor: wei.4.p74
   at: 57
@@ -2293,6 +3285,14 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：晉公旣進爵為王，太尉王祥、司徒何曾、司空荀顗並詣王。顗曰：「相王尊重，何侯與一朝之臣皆已盡敬，今日便當相率而拜，無所疑也。」祥曰：「相國位勢，誠為尊貴，然要是魏之宰相，吾等魏之三公；公、王相去，一階而已，班列大同，安有天子三公可輙拜人者！損魏朝之望，虧晉王之德，君子愛人以禮，吾不為也。」及入，顗遂拜，而祥獨長揖。王謂祥曰：「今日然後知君見顧之重！」
+- id: wei.4.p74.h4
+  anchor: wei.4.p74
+  at: 137
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
 - id: wei.4.p74.t4
   anchor: wei.4.p74
   at: 144
@@ -2355,6 +3355,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「八月」
+- id: wei.4.p76.h1
+  anchor: wei.4.p76
+  at: 10
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.4.p77.t1
   anchor: wei.4.p77
   at: 16
@@ -2369,6 +3377,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「九月」
+- id: wei.4.p78.h1
+  anchor: wei.4.p78
+  at: 19
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
 - id: wei.4.p79.t1
   anchor: wei.4.p79
   at: 0
@@ -2383,6 +3399,38 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「冬十月」
+- id: wei.4.p79.h1
+  anchor: wei.4.p79
+  at: 107
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.4.p79.h2
+  anchor: wei.4.p79
+  at: 110
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.4.p79.h3
+  anchor: wei.4.p79
+  at: 260
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wei.4.p79.h4
+  anchor: wei.4.p79
+  at: 425
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wei.4.p80.t1
   anchor: wei.4.p80
   at: 19
@@ -2409,6 +3457,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「咸熙」推得，「二年春二月」 = 咸熙2年 = AD 265
+- id: wei.4.p81.h1
+  anchor: wei.4.p81
+  at: 42
+  length: 2
+  type: person
+  person_id: zhonghui
+  text: 鍾會
+  via: primary
 - id: wei.4.p81.t2
   anchor: wei.4.p81
   at: 61
@@ -2437,6 +3493,22 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 咸熙2年 (AD 265)，月份「五月」
+- id: wei.4.p82.h1
+  anchor: wei.4.p82
+  at: 119
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wei.4.p82.h2
+  anchor: wei.4.p82
+  at: 177
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wei.4.p82.t2
   anchor: wei.4.p82
   at: 236
@@ -2451,6 +3523,14 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 咸熙2年 (AD 265)，月份「秋八月」
+- id: wei.4.p82.h3
+  anchor: wei.4.p82
+  at: 265
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wei.4.p82.t3
   anchor: wei.4.p82
   at: 327
@@ -2485,3 +3565,27 @@ annotations:
   length: 0
   type: pei
   text: 《魏世譜》曰：封帝為陳留王。年五十八，太安元年崩，謚曰元皇帝。
+- id: wei.4.p84.h1
+  anchor: wei.4.p84
+  at: 56
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.4.p84.h2
+  anchor: wei.4.p84
+  at: 90
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary
+- id: wei.4.p84.h3
+  anchor: wei.4.p84
+  at: 115
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias

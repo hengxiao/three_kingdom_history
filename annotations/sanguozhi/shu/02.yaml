@@ -2,27 +2,163 @@ chapter: shu.2
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷32
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 965e5c3a5d4bd32e13571e7e6b34d011f952f36a01984112c0cea47088925387
 annotations:
+- id: shu.2.p1.h1
+  anchor: shu.2.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p1.h2
+  anchor: shu.2.p1
+  at: 6
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
 - id: shu.2.p1.a1
   anchor: shu.2.p1
   at: 57
   length: 0
   type: pei
   text: 《典略》曰：備本臨邑侯枝屬也。
+- id: shu.2.p1.h3
+  anchor: shu.2.p1
+  at: 57
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h1
+  anchor: shu.2.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p2.a1
   anchor: shu.2.p2
   at: 56
   length: 0
   type: pei
   text: 《漢晉春秋》曰：涿人李定云：「此家必出貴人。」
+- id: shu.2.p2.h2
+  anchor: shu.2.p2
+  at: 56
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h3
+  anchor: shu.2.p2
+  at: 123
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: shu.2.p2.h4
+  anchor: shu.2.p2
+  at: 135
+  length: 2
+  type: person
+  person_id: luzhi
+  text: 盧植
+  via: primary
+- id: shu.2.p2.h5
+  anchor: shu.2.p2
+  at: 146
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h6
+  anchor: shu.2.p2
+  at: 190
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: shu.2.p2.h7
+  anchor: shu.2.p2
+  at: 193
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h8
+  anchor: shu.2.p2
+  at: 198
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: shu.2.p2.h9
+  anchor: shu.2.p2
+  at: 202
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h10
+  anchor: shu.2.p2
+  at: 209
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p2.h11
+  anchor: shu.2.p2
+  at: 309
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p3.h1
+  anchor: shu.2.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: shu.2.p3.h2
+  anchor: shu.2.p3
+  at: 15
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p3.a1
   anchor: shu.2.p3
   at: 37
   length: 0
   type: pei
   text: 《典略》曰：平原劉子平知備有武勇，時張純反叛，青州被詔，遣從事將兵討純，過平原，子平薦備於從事，遂與相隨，遇賊於野，備中創陽死，賊去後，故人以車載之，得免。後以軍功，為中山安喜尉。
+- id: shu.2.p3.h3
+  anchor: shu.2.p3
+  at: 45
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p3.a2
   anchor: shu.2.p3
   at: 72
@@ -35,24 +171,288 @@ annotations:
   length: 0
   type: pei
   text: 《典略》曰：其後州郡被詔書，其有軍功為長吏者，當沙汰之，備疑在遣中。督郵至縣，當遣備，備素知之。聞督郵在傳舍，備欲求見督郵，督郵稱疾不肯見備，備恨之，因還治，將吏卒更詣傳舍，突入門，言「我被府君密教收督郵」。遂就床縛之，將出到界，自解其綬以繫督郵頸，縛之著樹，鞭杖百餘下，欲殺之。督郵求哀，乃釋去之。
+- id: shu.2.p3.h4
+  anchor: shu.2.p3
+  at: 83
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: shu.2.p3.h5
+  anchor: shu.2.p3
+  at: 97
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p3.a4
   anchor: shu.2.p3
   at: 134
   length: 0
   type: pei
   text: 《英雄記》云：靈帝末年，備嘗在京師，後與曹公俱還沛國，募召合眾。會靈帝崩，天下大亂，備亦起軍從討董卓。
+- id: shu.2.p3.h6
+  anchor: shu.2.p3
+  at: 144
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: shu.2.p3.h7
+  anchor: shu.2.p3
+  at: 148
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: shu.2.p3.h8
+  anchor: shu.2.p3
+  at: 169
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.2.p3.h9
+  anchor: shu.2.p3
+  at: 195
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p3.a5
   anchor: shu.2.p3
   at: 225
   length: 0
   type: pei
   text: 《魏書》曰：劉平結客刺備，備不知而待客甚厚，客以狀語之而去。是時人民饑饉，屯聚鈔暴。備外禦寇難，內豐財施，士之下者，必與同席而坐，同簋而食，無所簡擇。眾多歸焉。
+- id: shu.2.p4.h1
+  anchor: shu.2.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.2.p4.h2
+  anchor: shu.2.p4
+  at: 3
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: shu.2.p4.h3
+  anchor: shu.2.p4
+  at: 7
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h4
+  anchor: shu.2.p4
+  at: 25
+  length: 2
+  type: person
+  person_id: taoqian
+  text: 陶謙
+  via: primary
+- id: shu.2.p4.h5
+  anchor: shu.2.p4
+  at: 37
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h6
+  anchor: shu.2.p4
+  at: 44
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h7
+  anchor: shu.2.p4
+  at: 73
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.2.p4.h8
+  anchor: shu.2.p4
+  at: 81
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h9
+  anchor: shu.2.p4
+  at: 84
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h10
+  anchor: shu.2.p4
+  at: 90
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.2.p4.h11
+  anchor: shu.2.p4
+  at: 92
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.2.p4.h12
+  anchor: shu.2.p4
+  at: 94
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h13
+  anchor: shu.2.p4
+  at: 106
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.2.p4.h14
+  anchor: shu.2.p4
+  at: 113
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.2.p4.h15
+  anchor: shu.2.p4
+  at: 119
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: shu.2.p4.h16
+  anchor: shu.2.p4
+  at: 129
+  length: 1
+  type: person
+  person_id: taoqian
+  text: 謙
+  via: given_name
+- id: shu.2.p4.h17
+  anchor: shu.2.p4
+  at: 137
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h18
+  anchor: shu.2.p4
+  at: 140
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h19
+  anchor: shu.2.p4
+  at: 151
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h20
+  anchor: shu.2.p4
+  at: 197
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h21
+  anchor: shu.2.p4
+  at: 305
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: shu.2.p4.h22
+  anchor: shu.2.p4
+  at: 308
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h23
+  anchor: shu.2.p4
+  at: 355
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p4.a1
   anchor: shu.2.p4
   at: 362
   length: 0
   type: pei
   text: 《獻帝春秋》曰：陳登等遣使詣袁紹曰：「天降災沴，禍臻鄙州，州將殂殞，生民無主，恐懼姦雄一旦承隙，以貽盟主日昃之憂，輒共奉故平原相劉備府君以為宗主，永使百姓知有依歸。方今寇難縱橫，不遑釋甲，謹遣下吏奔告于執事。」紹答曰：「劉玄德弘雅有信義，今徐州樂戴之，誠副所望也。」
+- id: shu.2.p4.h24
+  anchor: shu.2.p4
+  at: 362
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: shu.2.p4.h25
+  anchor: shu.2.p4
+  at: 366
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h26
+  anchor: shu.2.p4
+  at: 369
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h27
+  anchor: shu.2.p4
+  at: 383
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p4.t1
   anchor: shu.2.p4
   at: 399
@@ -65,30 +465,326 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
+- id: shu.2.p4.h28
+  anchor: shu.2.p4
+  at: 405
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h29
+  anchor: shu.2.p4
+  at: 408
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: shu.2.p4.h30
+  anchor: shu.2.p4
+  at: 414
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: shu.2.p4.h31
+  anchor: shu.2.p4
+  at: 432
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p4.h32
+  anchor: shu.2.p4
+  at: 434
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p4.h33
+  anchor: shu.2.p4
+  at: 436
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h34
+  anchor: shu.2.p4
+  at: 441
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p4.a2
   anchor: shu.2.p4
   at: 448
   length: 0
   type: pei
   text: 《英雄記》曰：備留張飛守下邳，引兵與袁術戰於淮陰石亭，更有勝負。陶謙故將曹豹在下邳，張飛欲殺之。豹眾堅營自守，使人招呂布。布取下邳，張飛敗走。備聞之，引兵還，比至下邳，兵潰。收散卒東取廣陵，與袁術戰，又敗。
+- id: shu.2.p4.h35
+  anchor: shu.2.p4
+  at: 459
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h36
+  anchor: shu.2.p4
+  at: 468
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h37
+  anchor: shu.2.p4
+  at: 473
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: shu.2.p4.h38
+  anchor: shu.2.p4
+  at: 476
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p4.h39
+  anchor: shu.2.p4
+  at: 482
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p4.h40
+  anchor: shu.2.p4
+  at: 485
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p5.h1
+  anchor: shu.2.p5
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p5.a1
   anchor: shu.2.p5
   at: 6
   length: 0
   type: pei
   text: 《英雄記》曰：備軍在廣陵，飢餓困踧，吏士大小自相噉食，窮餓侵逼，欲還小沛，遂使吏請降布。布令備還州，并勢擊術。具刺史車馬僮僕，發遣備妻子部曲家屬於泗水上，祖道相樂。魏書曰：諸將謂布曰：「備數反覆難養，宜早圖之。」布不聽，以狀語備。備心不安而求自託，使人說布，求屯小沛，布乃遣之。
+- id: shu.2.p5.h2
+  anchor: shu.2.p5
+  at: 14
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: shu.2.p5.h3
+  anchor: shu.2.p5
+  at: 23
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h4
+  anchor: shu.2.p5
+  at: 26
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h5
+  anchor: shu.2.p5
+  at: 64
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p5.h6
+  anchor: shu.2.p5
+  at: 66
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p5.h7
+  anchor: shu.2.p5
+  at: 76
+  length: 3
+  type: person
+  person_id: xiahoudun
+  text: 夏侯惇
+  via: primary
+- id: shu.2.p5.h8
+  anchor: shu.2.p5
+  at: 92
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h9
+  anchor: shu.2.p5
+  at: 97
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: shu.2.p5.a2
   anchor: shu.2.p5
   at: 106
   length: 0
   type: pei
   text: 英雄記曰：建安三年春，布使人齎金欲詣河內買馬，為備兵所鈔。布由是遣中郎將高順、北地太守張遼等攻備。九月，遂破沛城，備單身走，獲其妻息。十月，曹公自征布，備於梁國界中與曹公相遇，遂隨公俱東征。
+- id: shu.2.p5.h10
+  anchor: shu.2.p5
+  at: 107
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h11
+  anchor: shu.2.p5
+  at: 110
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p5.h12
+  anchor: shu.2.p5
+  at: 117
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: shu.2.p5.h13
+  anchor: shu.2.p5
+  at: 119
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h14
+  anchor: shu.2.p5
+  at: 133
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h15
+  anchor: shu.2.p5
+  at: 155
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: shu.2.p5.h16
+  anchor: shu.2.p5
+  at: 163
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.2.p5.h17
+  anchor: shu.2.p5
+  at: 169
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p5.h18
+  anchor: shu.2.p5
+  at: 179
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: shu.2.p5.h19
+  anchor: shu.2.p5
+  at: 184
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: shu.2.p6.h1
+  anchor: shu.2.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p6.h2
+  anchor: shu.2.p6
+  at: 6
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
 - id: shu.2.p6.a1
   anchor: shu.2.p6
   at: 15
   length: 0
   type: pei
   text: 臣松之案：董承，漢靈帝母董太后之侄，於獻帝為丈人。蓋古無丈人之名，故謂之舅也。
+- id: shu.2.p6.h3
+  anchor: shu.2.p6
+  at: 29
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p6.h4
+  anchor: shu.2.p6
+  at: 41
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p6.h5
+  anchor: shu.2.p6
+  at: 70
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p6.a2
   anchor: shu.2.p6
   at: 79
@@ -101,12 +797,60 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝起居注》曰：承等與備謀未發，而備出。承謂服曰：「郭多有數百兵，壞李傕數万人，但足下與我同不耳！昔呂不韋之門，須子楚而後高，今吾與子由是也。」服曰：「惶懼不敢當，且兵又少。」承曰：「舉事訖，得曹公成兵，顧不足邪？」服曰：「今京師豈有所任乎？」承曰：「長水校尉种輯、議郎吳碩是我腹心辦事者。」遂定計。
+- id: shu.2.p7.h1
+  anchor: shu.2.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p7.h2
+  anchor: shu.2.p7
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p7.h3
+  anchor: shu.2.p7
+  at: 22
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
 - id: shu.2.p7.a1
   anchor: shu.2.p7
   at: 34
   length: 0
   type: pei
   text: 胡沖《吳歷》曰：曹公數遣親近密覘諸將有賓客酒食者，輒因事害之。備時閉門，將人種蕪菁，曹公使人闚門。既去，備謂張飛、關羽曰：「吾豈種菜者乎？曹公必有疑意，不可復留。」其夜開後柵，與飛等輕騎俱去，所得賜遺衣服，悉封留之，乃往小沛收合兵眾。臣松之案：魏武帝遣先主統諸將要擊袁術，郭嘉等並諫，魏武不從，其事顯然，非因種菜遁逃而去。如胡沖所云，何乖僻之甚乎！
+- id: shu.2.p7.h4
+  anchor: shu.2.p7
+  at: 47
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p7.h5
+  anchor: shu.2.p7
+  at: 56
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.2.p7.h6
+  anchor: shu.2.p7
+  at: 59
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
 - id: shu.2.p7.t1
   anchor: shu.2.p7
   at: 78
@@ -119,24 +863,336 @@ annotations:
   era: 建安
   era_year: 5
   reasoning: 承前文年號「建安」推得，「五年」 = 建安5年 = AD 200
+- id: shu.2.p7.h7
+  anchor: shu.2.p7
+  at: 85
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p7.h8
+  anchor: shu.2.p7
+  at: 88
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p7.a2
   anchor: shu.2.p7
   at: 93
   length: 0
   type: pei
   text: 《魏書》曰：是時，公方有急於官渡，乃分留諸將屯官渡，自勒精兵征備。備初謂公與大敵連，不得東，而候騎卒至，言曹公自來。備大驚，然猶未信。自將數十騎出望公軍，見麾旌，便棄眾而走。
+- id: shu.2.p7.h9
+  anchor: shu.2.p7
+  at: 101
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p7.h10
+  anchor: shu.2.p7
+  at: 108
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p8.h1
+  anchor: shu.2.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h2
+  anchor: shu.2.p8
+  at: 13
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h3
+  anchor: shu.2.p8
+  at: 24
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h4
+  anchor: shu.2.p8
+  at: 27
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h5
+  anchor: shu.2.p8
+  at: 39
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h6
+  anchor: shu.2.p8
+  at: 41
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h7
+  anchor: shu.2.p8
+  at: 57
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p8.a1
   anchor: shu.2.p8
   at: 62
   length: 0
   type: pei
   text: 魏書曰：備歸紹，紹父子傾心敬重。
+- id: shu.2.p8.h8
+  anchor: shu.2.p8
+  at: 80
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.2.p8.h9
+  anchor: shu.2.p8
+  at: 99
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h10
+  anchor: shu.2.p8
+  at: 101
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h11
+  anchor: shu.2.p8
+  at: 103
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h12
+  anchor: shu.2.p8
+  at: 114
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p8.h13
+  anchor: shu.2.p8
+  at: 118
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h14
+  anchor: shu.2.p8
+  at: 124
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: shu.2.p8.h15
+  anchor: shu.2.p8
+  at: 129
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h16
+  anchor: shu.2.p8
+  at: 132
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h17
+  anchor: shu.2.p8
+  at: 135
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h18
+  anchor: shu.2.p8
+  at: 141
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h19
+  anchor: shu.2.p8
+  at: 145
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h20
+  anchor: shu.2.p8
+  at: 151
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.2.p8.h21
+  anchor: shu.2.p8
+  at: 154
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.2.p8.h22
+  anchor: shu.2.p8
+  at: 156
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p8.h23
+  anchor: shu.2.p8
+  at: 187
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p9.h1
+  anchor: shu.2.p9
+  at: 4
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: shu.2.p9.h2
+  anchor: shu.2.p9
+  at: 9
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p9.h3
+  anchor: shu.2.p9
+  at: 12
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p9.h4
+  anchor: shu.2.p9
+  at: 15
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.2.p9.h5
+  anchor: shu.2.p9
+  at: 18
+  length: 2
+  type: person
+  person_id: sunqian
+  text: 孫乾
+  via: primary
+- id: shu.2.p9.h6
+  anchor: shu.2.p9
+  at: 21
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.2.p9.h7
+  anchor: shu.2.p9
+  at: 26
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.2.p9.h8
+  anchor: shu.2.p9
+  at: 52
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p9.h9
+  anchor: shu.2.p9
+  at: 59
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
 - id: shu.2.p9.a1
   anchor: shu.2.p9
   at: 68
   length: 0
   type: pei
   text: 《九州春秋》曰：備住荊州數年，嘗於表坐起至廁，見髀裡肉生，慨然流涕。還坐，表怪問備，備曰：「吾常身不離鞍，髀肉皆消。今不復騎，髀裏肉生。日月若馳，老將至矣，而功業不建，是以悲耳。」《世語》曰：備屯樊城，劉表禮焉，憚其為人，不甚信用。曾請備宴會，蒯越、蔡瑁欲因會取備，備覺之，偽如廁，潛遁出。所乘馬名的盧，騎的盧走，墮襄陽城西檀溪水中，溺不得出。備急曰：「的盧：今日厄矣，可努力！」的盧乃一踴三丈，遂得過，乘桴渡河，中流而追者至，以表意謝之，曰：「何去之速乎！」孫盛曰：此不然之言。備時羈旅，客主勢殊，若有此變，豈敢晏然終表之世而無釁故乎？此皆世俗妄說，非事實也。
+- id: shu.2.p9.h10
+  anchor: shu.2.p9
+  at: 70
+  length: 3
+  type: person
+  person_id: xiahoudun
+  text: 夏侯惇
+  via: primary
+- id: shu.2.p9.h11
+  anchor: shu.2.p9
+  at: 74
+  length: 2
+  type: person
+  person_id: yujin
+  text: 于禁
+  via: primary
+- id: shu.2.p9.h12
+  anchor: shu.2.p9
+  at: 84
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p10.t1
   anchor: shu.2.p10
   at: 0
@@ -149,72 +1205,432 @@ annotations:
   era: 建安
   era_year: 12
   reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
+- id: shu.2.p10.h1
+  anchor: shu.2.p10
+  at: 11
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p10.h2
+  anchor: shu.2.p10
+  at: 14
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.2.p10.h3
+  anchor: shu.2.p10
+  at: 18
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.2.p10.a1
   anchor: shu.2.p10
   at: 23
   length: 0
   type: pei
   text: 《漢晉春秋》曰：曹公自柳城還，表謂備曰：「不用君言，故為失此大會。」備曰：「今天下分裂，日尋干戈，事會之來，豈有終極乎？若能應之於後者，則此未足為恨也。」
+- id: shu.2.p10.h4
+  anchor: shu.2.p10
+  at: 27
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.2.p10.h5
+  anchor: shu.2.p10
+  at: 30
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.2.p10.a2
   anchor: shu.2.p10
   at: 33
   length: 0
   type: pei
   text: 《英雄記》曰：表病，上備領荊州刺史。魏書曰：表病篤，託國於備，顧謂曰：「我兒不才，而諸將並零落，我死之後，卿便攝荊州。」備曰：「諸子自賢，君其憂病。」或勸備宜從表言，備曰：「此人待我厚，今從其言，人必以我為薄，所不忍也。」臣松之以為表夫妻素愛琮，捨適立庶，情計久定，無緣臨終舉荊州以授備，此亦不然之言。
+- id: shu.2.p10.h6
+  anchor: shu.2.p10
+  at: 43
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p10.h7
+  anchor: shu.2.p10
+  at: 71
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p10.h8
+  anchor: shu.2.p10
+  at: 75
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p10.h9
+  anchor: shu.2.p10
+  at: 85
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p10.a3
   anchor: shu.2.p10
   at: 96
   length: 0
   type: pei
   text: 孔衍《漢魏春秋》曰：劉琮乞降，不敢告備。備亦不知，久之乃覺，遣所親問琮。琮令宋忠詣備宣旨。是時曹公在宛，備乃大驚駭，謂忠曰：「卿諸人作事如此，不早相語，今禍至方告我，不亦太劇乎！」引刀向忠曰：「今斷卿頭，不足以解忿，亦恥大丈夫臨別復殺卿輩！」遣忠去，乃呼部曲議。或勸備劫將琮及荊州吏士徑南到江陵，備答曰：「劉荊州臨亡託我以孤遺，背信自濟，吾所不為，死何面目以見劉荊州乎！」
+- id: shu.2.p10.h10
+  anchor: shu.2.p10
+  at: 117
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p10.a4
   anchor: shu.2.p10
   at: 120
   length: 0
   type: pei
   text: 《典略》曰：備過辭表墓，遂涕泣而去。
+- id: shu.2.p10.h11
+  anchor: shu.2.p10
+  at: 144
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p10.h12
+  anchor: shu.2.p10
+  at: 159
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p10.h13
+  anchor: shu.2.p10
+  at: 194
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p10.a5
   anchor: shu.2.p10
   at: 221
   length: 0
   type: pei
   text: 習鑿齒曰：先主雖顛沛險難而信義愈明，勢偪事危而言不失道。追景升之顧，則情感三軍；戀赴義之士，則甘與同敗。觀其所以結物情者，豈徒投醪撫寒含蓼問疾而已哉！其終濟大業，不亦宜乎！
+- id: shu.2.p11.h1
+  anchor: shu.2.p11
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p11.h2
+  anchor: shu.2.p11
+  at: 27
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p11.h3
+  anchor: shu.2.p11
+  at: 61
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p11.h4
+  anchor: shu.2.p11
+  at: 68
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p11.h5
+  anchor: shu.2.p11
+  at: 72
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p11.h6
+  anchor: shu.2.p11
+  at: 75
+  length: 2
+  type: person
+  person_id: zhaoyun
+  text: 趙雲
+  via: primary
+- id: shu.2.p11.h7
+  anchor: shu.2.p11
+  at: 93
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p11.h8
+  anchor: shu.2.p11
+  at: 102
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name_carry
+- id: shu.2.p11.h9
+  anchor: shu.2.p11
+  at: 111
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.2.p11.h10
+  anchor: shu.2.p11
+  at: 130
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p11.h11
+  anchor: shu.2.p11
+  at: 133
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p11.h12
+  anchor: shu.2.p11
+  at: 139
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: shu.2.p11.a1
   anchor: shu.2.p11
   at: 142
   length: 0
   type: pei
   text: 《江表傳》曰：孫權遣魯肅弔劉表二子，并令與備相結。肅未至而曹公已濟漢津。肅故進前，與備相遇於當陽。因宣權旨，論天下事勢，致殷勤之意。且問備曰：「豫州今欲何至？」備曰：「與蒼梧太守〔吳巨〕有舊，欲往投之。」肅曰：「孫討虜聰明仁惠，敬賢禮士，江表英豪，咸歸附之，已據有六郡，兵精糧多，足以立事。今為君計，莫若遣腹心使自結於東，崇連和之好，共濟世業，而云欲投〔吳巨〕，〔巨〕是凡人，偏在遠郡，行將為人所併，豈足託乎？」備大喜，進住鄂縣，即遣諸葛亮隨肅詣孫權，結同盟誓。
+- id: shu.2.p11.h13
+  anchor: shu.2.p11
+  at: 142
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.2.p11.h14
+  anchor: shu.2.p11
+  at: 144
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: shu.2.p11.h15
+  anchor: shu.2.p11
+  at: 147
+  length: 2
+  type: person
+  person_id: chengpu
+  text: 程普
+  via: primary
+- id: shu.2.p11.h16
+  anchor: shu.2.p11
+  at: 156
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p11.a2
   anchor: shu.2.p11
   at: 161
   length: 0
   type: pei
   text: 江表傳曰：備從魯肅計，進住鄂縣之樊口。諸葛亮詣吳未還，備聞曹公軍下，恐懼，日遣邏吏於水次候望權軍。吏望見瑜船，馳往白備，備曰：「何以知（之）非青徐軍邪？」吏對曰：「以船知之。」備遣人慰勞之。瑜曰：「有軍任，不可得委署，儻能屈威，誠副其所望。」備謂關羽、張飛曰：「彼欲致我，我今自結託於東而不往，非同盟之意也。」乃乘單舸往見瑜，問曰：「今拒曹公，深為得計。戰卒有幾？」瑜曰：「三萬人。」備曰：「恨少。」瑜曰：「此自足用，豫州但觀瑜破之。」備欲呼魯肅等共會語，瑜曰：「受命不得妄委署，若欲見子敬，可別過之。又孔明已俱來，不過三兩日到也。」備雖深愧異瑜，而心未許之能必破北軍也，故差池在後，將二千人與羽、飛俱，未肯係瑜，蓋為進退之計也。孫盛曰：劉備雄才，處必亡之地，告急於吳，而獲奔助，無緣復顧望江渚而懷後計。江表傳之言，當是吳人欲專美之辭。
+- id: shu.2.p11.h17
+  anchor: shu.2.p11
+  at: 178
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p11.a3
   anchor: shu.2.p11
   at: 208
   length: 0
   type: pei
   text: 《江表傳》曰：周瑜為南郡太守，分南岸地以給備。備別立營於油江口，改名為公安。劉表吏士見從北軍，多叛來投備。備以瑜所給地少，不足以安民，（後）〔復〕從權借荊州數郡。
+- id: shu.2.p12.h1
+  anchor: shu.2.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p12.h2
+  anchor: shu.2.p12
+  at: 2
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.2.p12.a1
   anchor: shu.2.p12
   at: 46
   length: 0
   type: pei
   text: 《三輔決錄注》曰：金旋字元機，京兆人，歷位黃門郎，漢陽太守，徵拜議郎，遷中郎將，領武陵太守，為備所攻劫死。子禕，事見《魏武本紀》。
+- id: shu.2.p12.h3
+  anchor: shu.2.p12
+  at: 66
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p12.h4
+  anchor: shu.2.p12
+  at: 77
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p12.h5
+  anchor: shu.2.p12
+  at: 87
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p12.h6
+  anchor: shu.2.p12
+  at: 92
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: shu.2.p12.a2
   anchor: shu.2.p12
   at: 99
   length: 0
   type: pei
   text: 《山陽公載記》曰：備還，謂左右曰：「孫車騎長上短下，其難為下，吾不可以再見之。」乃晝夜兼行。臣松之案：魏書載劉備與孫權語，與蜀志述諸葛亮與權語正同。劉備未破魏軍之前，尚未與孫權相見，不得有此說。故知蜀志為是。
+- id: shu.2.p12.h7
+  anchor: shu.2.p12
+  at: 99
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p12.h8
+  anchor: shu.2.p12
+  at: 215
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p12.h9
+  anchor: shu.2.p12
+  at: 220
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: shu.2.p12.a3
   anchor: shu.2.p12
   at: 233
   length: 0
   type: pei
   text: 《獻帝春秋》曰：孫權欲與備共取蜀，遣使報備曰：「米賊張魯居王巴、漢，為曹操耳目，規圖益州。劉璋不武，不能自守。若操得蜀，則荊州危矣。今欲先攻取璋，進討張魯，首尾相連，一統吳、楚，雖有十操，無所憂也。」備欲自圖蜀，拒答不聽，曰：
+- id: shu.2.p13.h1
+  anchor: shu.2.p13
+  at: 11
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.2.p13.h2
+  anchor: shu.2.p13
+  at: 31
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p13.h3
+  anchor: shu.2.p13
+  at: 77
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.2.p13.h4
+  anchor: shu.2.p13
+  at: 96
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p13.h5
+  anchor: shu.2.p13
+  at: 115
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p13.h6
+  anchor: shu.2.p13
+  at: 161
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: shu.2.p14.t1
   anchor: shu.2.p14
   at: 0
@@ -227,12 +1643,132 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211
+- id: shu.2.p14.h1
+  anchor: shu.2.p14
+  at: 7
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.2.p14.h2
+  anchor: shu.2.p14
+  at: 15
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
+- id: shu.2.p14.h3
+  anchor: shu.2.p14
+  at: 145
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.2.p14.h4
+  anchor: shu.2.p14
+  at: 152
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p14.a1
   anchor: shu.2.p14
   at: 174
   length: 0
   type: pei
   text: 《吳書》曰：備前見張松，後得法正，皆厚以恩意接納，盡其殷勤之歡。因問蜀中闊狹，兵器府庫人馬眾寡，及諸要害道里遠近，松等具言之，又畫地圖山川處所，由是盡知益州虛實也。
+- id: shu.2.p14.h5
+  anchor: shu.2.p14
+  at: 174
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h6
+  anchor: shu.2.p14
+  at: 177
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p14.h7
+  anchor: shu.2.p14
+  at: 181
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p14.h8
+  anchor: shu.2.p14
+  at: 214
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.2.p14.h9
+  anchor: shu.2.p14
+  at: 217
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h10
+  anchor: shu.2.p14
+  at: 223
+  length: 2
+  type: person
+  person_id: pangtong
+  text: 龐統
+  via: primary
+- id: shu.2.p14.h11
+  anchor: shu.2.p14
+  at: 236
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h12
+  anchor: shu.2.p14
+  at: 254
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h13
+  anchor: shu.2.p14
+  at: 267
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h14
+  anchor: shu.2.p14
+  at: 286
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p14.h15
+  anchor: shu.2.p14
+  at: 302
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p14.t2
   anchor: shu.2.p14
   at: 320
@@ -245,6 +1781,14 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 「是歲」 = 当前年 建安16年 (AD 211)
+- id: shu.2.p14.h16
+  anchor: shu.2.p14
+  at: 328
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p15.t1
   anchor: shu.2.p15
   at: 0
@@ -257,24 +1801,200 @@ annotations:
   era: 建安
   era_year: 17
   reasoning: 「明年」 = 当前年 建安16年 (AD 211) 之次年 = AD 212
+- id: shu.2.p15.h1
+  anchor: shu.2.p15
+  at: 6
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p15.h2
+  anchor: shu.2.p15
+  at: 9
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.2.p15.h3
+  anchor: shu.2.p15
+  at: 11
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h4
+  anchor: shu.2.p15
+  at: 16
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h5
+  anchor: shu.2.p15
+  at: 45
+  length: 2
+  type: person
+  person_id: yuejin
+  text: 樂進
+  via: primary
+- id: shu.2.p15.h6
+  anchor: shu.2.p15
+  at: 51
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p15.h7
+  anchor: shu.2.p15
+  at: 60
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
 - id: shu.2.p15.a1
   anchor: shu.2.p15
   at: 121
   length: 0
   type: pei
   text: 《魏書》曰：備因激怒其眾曰：「吾為益州徵強敵，師徒勤瘁，不遑寧居；今積帑藏之財而吝於賞功，望士大夫為出死力戰，其可得乎！」
+- id: shu.2.p15.h8
+  anchor: shu.2.p15
+  at: 125
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h9
+  anchor: shu.2.p15
+  at: 128
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
 - id: shu.2.p15.a2
   anchor: shu.2.p15
   at: 180
   length: 0
   type: pei
   text: 《益部耆舊雜記》曰：張肅有威儀，容貌甚偉。松為人短小，放蕩不治節操，然識達精果，有才幹。劉璋遣詣曹公，曹公不甚禮；公主簿楊脩深器之，白公闢松，公不納。脩以公所撰兵書示松，松宴飲之間一看便闇誦。脩以此益異之。
+- id: shu.2.p15.h10
+  anchor: shu.2.p15
+  at: 192
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h11
+  anchor: shu.2.p15
+  at: 195
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h12
+  anchor: shu.2.p15
+  at: 219
+  length: 2
+  type: person
+  person_id: huangzhong
+  text: 黃忠
+  via: primary
+- id: shu.2.p15.h13
+  anchor: shu.2.p15
+  at: 229
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h14
+  anchor: shu.2.p15
+  at: 275
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p15.a3
   anchor: shu.2.p15
   at: 280
   length: 0
   type: pei
   text: 《益部耆舊雜記》曰：張任，蜀郡人，家世寒門。少有膽勇，有志節，仕州為從事。
+- id: shu.2.p15.h15
+  anchor: shu.2.p15
+  at: 292
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.2.p15.h16
+  anchor: shu.2.p15
+  at: 304
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h17
+  anchor: shu.2.p15
+  at: 307
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p15.h18
+  anchor: shu.2.p15
+  at: 322
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p15.h19
+  anchor: shu.2.p15
+  at: 326
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p15.h20
+  anchor: shu.2.p15
+  at: 329
+  length: 2
+  type: person
+  person_id: zhaoyun
+  text: 趙雲
+  via: primary
+- id: shu.2.p15.h21
+  anchor: shu.2.p15
+  at: 347
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p15.h22
+  anchor: shu.2.p15
+  at: 354
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p16.t1
   anchor: shu.2.p16
   at: 0
@@ -299,6 +2019,126 @@ annotations:
   length: 0
   type: pei
   text: 《傅子》曰：初，劉備襲蜀，丞相掾趙戩曰：「劉備其不濟乎？拙於用兵，每戰則敗，奔亡不暇，何以圖人？蜀雖小區，險固四塞，獨守之國，難卒並也。」徵士傅幹曰：「劉備寬仁有度，能得人死力。諸葛亮達治知變，正而有謀，而為之相；張飛、關羽勇而有義，皆萬人之敵，而為之將：此三人者，皆人傑也。以備之略，三傑佐之，何為不濟也？」《典略》曰：趙戩，字叔茂，京兆長陵人也。質而好學，言稱詩書，愛卹於人，不論疏密。闢公府，入為尚書選部郎。董卓欲以所私並充臺閣，戩拒不聽。卓怒，召戩欲殺之，觀者皆為戩懼，而戩自若。及見卓，引辭正色，陳說是非，卓雖凶戾，屈而謝之遷平陵令。故將王允被害，莫敢近者，戩棄官收斂之。三輔亂，戩客荊州，劉表以為賓客。曹公平荊州，執戩手曰：「何相見之晚也！」遂闢為掾。後為五官將司馬，相國鍾繇長史，年六十餘卒。
+- id: shu.2.p16.h1
+  anchor: shu.2.p16
+  at: 28
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p16.h2
+  anchor: shu.2.p16
+  at: 53
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p16.h3
+  anchor: shu.2.p16
+  at: 61
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p16.h4
+  anchor: shu.2.p16
+  at: 68
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.2.p16.h5
+  anchor: shu.2.p16
+  at: 74
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p16.h6
+  anchor: shu.2.p16
+  at: 77
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p16.h7
+  anchor: shu.2.p16
+  at: 80
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: shu.2.p16.h8
+  anchor: shu.2.p16
+  at: 86
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.2.p16.h9
+  anchor: shu.2.p16
+  at: 89
+  length: 2
+  type: person
+  person_id: mizhu
+  text: 麋竺
+  via: primary
+- id: shu.2.p16.h10
+  anchor: shu.2.p16
+  at: 92
+  length: 2
+  type: person
+  person_id: jianyong
+  text: 簡雍
+  via: primary
+- id: shu.2.p16.h11
+  anchor: shu.2.p16
+  at: 99
+  length: 2
+  type: person
+  person_id: donghe
+  text: 董和
+  via: primary
+- id: shu.2.p16.h12
+  anchor: shu.2.p16
+  at: 103
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p16.h13
+  anchor: shu.2.p16
+  at: 105
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.2.p16.h14
+  anchor: shu.2.p16
+  at: 129
+  length: 2
+  type: person
+  person_id: pengyang
+  text: 彭羕
+  via: primary
+- id: shu.2.p16.h15
+  anchor: shu.2.p16
+  at: 139
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
 - id: shu.2.p17.t1
   anchor: shu.2.p17
   at: 0
@@ -311,6 +2151,62 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215
+- id: shu.2.p17.h1
+  anchor: shu.2.p17
+  at: 4
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p17.h2
+  anchor: shu.2.p17
+  at: 7
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p17.h3
+  anchor: shu.2.p17
+  at: 22
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p17.h4
+  anchor: shu.2.p17
+  at: 40
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.2.p17.h5
+  anchor: shu.2.p17
+  at: 46
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: shu.2.p17.h6
+  anchor: shu.2.p17
+  at: 61
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p17.h7
+  anchor: shu.2.p17
+  at: 72
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
 - id: shu.2.p17.t2
   anchor: shu.2.p17
   at: 78
@@ -323,6 +2219,70 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 「是歲」 = 当前年 建安20年 (AD 215)
+- id: shu.2.p17.h8
+  anchor: shu.2.p17
+  at: 94
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p17.h9
+  anchor: shu.2.p17
+  at: 100
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.2.p17.h10
+  anchor: shu.2.p17
+  at: 138
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.2.p17.h11
+  anchor: shu.2.p17
+  at: 155
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
+- id: shu.2.p17.h12
+  anchor: shu.2.p17
+  at: 159
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.2.p17.h13
+  anchor: shu.2.p17
+  at: 172
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p17.h14
+  anchor: shu.2.p17
+  at: 175
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p17.h15
+  anchor: shu.2.p17
+  at: 200
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p18.t1
   anchor: shu.2.p18
   at: 0
@@ -335,6 +2295,22 @@ annotations:
   era: 建安
   era_year: 23
   reasoning: 承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218
+- id: shu.2.p18.h1
+  anchor: shu.2.p18
+  at: 5
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p18.h2
+  anchor: shu.2.p18
+  at: 37
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p19.t1
   anchor: shu.2.p19
   at: 0
@@ -347,30 +2323,434 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 承前文年號「建安」推得，「二十四年」 = 建安24年 = AD 219
+- id: shu.2.p19.h1
+  anchor: shu.2.p19
+  at: 35
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p19.h2
+  anchor: shu.2.p19
+  at: 38
+  length: 2
+  type: person
+  person_id: huangzhong
+  text: 黃忠
+  via: primary
+- id: shu.2.p19.h3
+  anchor: shu.2.p19
+  at: 77
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p19.h4
+  anchor: shu.2.p19
+  at: 108
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p19.h5
+  anchor: shu.2.p19
+  at: 139
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p20.h1
+  anchor: shu.2.p20
+  at: 5
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p20.h2
+  anchor: shu.2.p20
+  at: 12
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.2.p21.h1
+  anchor: shu.2.p21
+  at: 8
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: shu.2.p21.h2
+  anchor: shu.2.p21
+  at: 24
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
 - id: shu.2.p21.a1
   anchor: shu.2.p21
   at: 49
   length: 0
   type: pei
   text: 《三輔決錄注》曰：援字文雄，扶風人也。其先本姓謝，與北地諸謝同族。始祖謝服為將軍出征，天子以謝服非令名，改為射，子孫氏焉。兄堅，字文固，少有美名，闢公府為黃門侍郎。獻帝之初，三輔飢亂，堅去官，與弟援南入蜀依劉璋，璋以堅為長史。劉備代璋，以堅為廣漢、蜀郡太守。援亦少有名行，太尉皇甫嵩賢其才而以女妻之，丞相諸葛亮以援為祭酒，遷從事中郎，卒官。
+- id: shu.2.p21.h3
+  anchor: shu.2.p21
+  at: 54
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p21.h4
+  anchor: shu.2.p21
+  at: 67
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p21.h5
+  anchor: shu.2.p21
+  at: 78
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p21.h6
+  anchor: shu.2.p21
+  at: 86
+  length: 2
+  type: person
+  person_id: huangzhong
+  text: 黃忠
+  via: primary
+- id: shu.2.p21.h7
+  anchor: shu.2.p21
+  at: 102
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.2.p21.h8
+  anchor: shu.2.p21
+  at: 110
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: shu.2.p21.h9
+  anchor: shu.2.p21
+  at: 171
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: shu.2.p21
+  at: 211
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 群臣勸進表敘「久令陛下蒙塵憂厄」追述漢獻帝劉協受董卓、曹操逼凌之事，故陛下指漢獻帝。
+  id: shu.2.p21.h21
+- id: shu.2.p21.h10
+  anchor: shu.2.p21
+  at: 232
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: shu.2.p21.h11
+  anchor: shu.2.p21
+  at: 242
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- anchor: shu.2.p21
+  at: 252
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.7
+  reasoning: 「皇后太子，鴆殺見害」指漢末伏皇后與弘農王（少帝太子之事），最可能伏皇后；roster未列伏皇后，留空。
+  id: shu.2.p21.h24
+- anchor: shu.2.p21
+  at: 254
+  length: 2
+  type: person
+  person_id: liubian
+  text: 太子
+  via: llm
+  confidence: 0.7
+  reasoning: 「皇后太子鴆殺見害」之太子當指被鴆殺之弘農王劉辯（少帝），roster中為liubian。
+  id: shu.2.p21.h22
+- anchor: shu.2.p21
+  at: 274
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 同表「久令陛下蒙塵憂厄」陛下仍指漢獻帝。
+  id: shu.2.p21.h23
+- id: shu.2.p21.h12
+  anchor: shu.2.p21
+  at: 326
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p21.h13
+  anchor: shu.2.p21
+  at: 363
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p21.h14
+  anchor: shu.2.p21
+  at: 383
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: shu.2.p21.a2
   anchor: shu.2.p21
   at: 416
   length: 0
   type: pei
   text: 趙高使閻樂殺二世。王莽廢孺子以為定安公。
+- id: shu.2.p21.h15
+  anchor: shu.2.p21
+  at: 490
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p21.h16
+  anchor: shu.2.p21
+  at: 512
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p21.h17
+  anchor: shu.2.p21
+  at: 582
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p21.h18
+  anchor: shu.2.p21
+  at: 621
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p21.h19
+  anchor: shu.2.p21
+  at: 659
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p21.h20
+  anchor: shu.2.p21
+  at: 713
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p22.h1
+  anchor: shu.2.p22
+  at: 26
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p23.h1
+  anchor: shu.2.p23
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.2.p24
+  at: 37
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 諸葛亮等再上漢中王上表「久使陛下聖教陵遲」，陛下乃漢獻帝。
+  id: shu.2.p24.h9
+- id: shu.2.p24.h1
+  anchor: shu.2.p24
+  at: 66
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- anchor: shu.2.p24
+  at: 89
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 同表「賴陛下聖德威靈」承上指漢獻帝。
+  id: shu.2.p24.h10
+- id: shu.2.p24.h2
+  anchor: shu.2.p24
+  at: 125
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.2.p24.h3
+  anchor: shu.2.p24
+  at: 136
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p24.h4
+  anchor: shu.2.p24
+  at: 155
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p24.h5
+  anchor: shu.2.p24
+  at: 181
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: shu.2.p24.a1
   anchor: shu.2.p24
   at: 258
   length: 0
   type: pei
   text: 鄭玄注曰：庶，眾也；勵，作也；敘，次序也。序九族而親之，以眾明作羽翼之臣也。
+- id: shu.2.p24.h6
+  anchor: shu.2.p24
+  at: 314
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p24.h7
+  anchor: shu.2.p24
+  at: 353
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p24.h8
+  anchor: shu.2.p24
+  at: 446
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p25.h1
+  anchor: shu.2.p25
+  at: 8
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
 - id: shu.2.p25.a1
   anchor: shu.2.p25
   at: 18
   length: 0
   type: pei
   text: 《典略》曰：備於是起館舍，築亭障，從成都至白水關，四百餘區。
+- id: shu.2.p25.h2
+  anchor: shu.2.p25
+  at: 19
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p25.h3
+  anchor: shu.2.p25
+  at: 25
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: shu.2.p25.h4
+  anchor: shu.2.p25
+  at: 29
+  length: 2
+  type: person
+  person_id: yujin
+  text: 于禁
+  via: primary
+- id: shu.2.p25.h5
+  anchor: shu.2.p25
+  at: 36
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p25.h6
+  anchor: shu.2.p25
+  at: 40
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
 - id: shu.2.p26.t1
   anchor: shu.2.p26
   at: 0
@@ -383,6 +2763,86 @@ annotations:
   era: 建安
   era_year: 25
   reasoning: 承前文年號「建安」推得，「二十五年」 = 建安25年 = AD 220
+- id: shu.2.p26.h1
+  anchor: shu.2.p26
+  at: 26
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p26.h2
+  anchor: shu.2.p26
+  at: 74
+  length: 2
+  type: person
+  person_id: zhangyi_2
+  text: 張裔
+  via: primary
+- id: shu.2.p26.h3
+  anchor: shu.2.p26
+  at: 78
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.2.p26.h4
+  anchor: shu.2.p26
+  at: 100
+  length: 2
+  type: person
+  person_id: yanghong
+  text: 楊洪
+  via: primary
+- id: shu.2.p26.h5
+  anchor: shu.2.p26
+  at: 114
+  length: 2
+  type: person
+  person_id: duqiong
+  text: 杜瓊
+  via: primary
+- id: shu.2.p26.h6
+  anchor: shu.2.p26
+  at: 124
+  length: 2
+  type: person
+  person_id: yinmo
+  text: 尹默
+  via: primary
+- id: shu.2.p26.h7
+  anchor: shu.2.p26
+  at: 127
+  length: 2
+  type: person
+  person_id: qiaozhou
+  text: 譙周
+  via: primary
+- id: shu.2.p27.h1
+  anchor: shu.2.p27
+  at: 43
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p27.h2
+  anchor: shu.2.p27
+  at: 63
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p27.h3
+  anchor: shu.2.p27
+  at: 127
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: shu.2.p27.t1
   anchor: shu.2.p27
   at: 214
@@ -395,12 +2855,132 @@ annotations:
   era: 建安
   era_year: 25
   reasoning: 「是年」 = 当前年 建安25年 (AD 220)
+- id: shu.2.p28.h1
+  anchor: shu.2.p28
+  at: 2
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.2.p28.h2
+  anchor: shu.2.p28
+  at: 16
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p29.h1
+  anchor: shu.2.p29
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 曹丕
+  via: primary
+- id: shu.2.p29.h2
+  anchor: shu.2.p29
+  at: 119
+  length: 1
+  type: person
+  person_id: zhangfei
+  text: 飛
+  via: given_name_carry
+- id: shu.2.p29.h3
+  anchor: shu.2.p29
+  at: 138
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.2.p29.h4
+  anchor: shu.2.p29
+  at: 419
+  length: 2
+  type: person
+  person_id: xuci
+  text: 許慈
+  via: primary
+- id: shu.2.p29.h5
+  anchor: shu.2.p29
+  at: 424
+  length: 2
+  type: person
+  person_id: mengguang
+  text: 孟光
+  via: primary
 - id: shu.2.p30.a1
   anchor: shu.2.p30
   at: 12
   length: 0
   type: pei
   text: 《蜀本紀》曰：武都有丈夫化為女子，顏色美好，蓋山精也。蜀王娶以為妻，不習水土，疾病欲歸國，蜀王留之，無幾物故。蜀王發卒之武都擔土，於成都郭中葬，蓋地數畝，高十丈，號曰武擔也。臣松之案：武擔，山名，在成都西北，蓋以乾位在西北，故就之以即阼。
+- id: shu.2.p31.h1
+  anchor: shu.2.p31
+  at: 14
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p31.h2
+  anchor: shu.2.p31
+  at: 63
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.2.p31.h3
+  anchor: shu.2.p31
+  at: 85
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.2.p31.h4
+  anchor: shu.2.p31
+  at: 87
+  length: 1
+  type: person
+  person_id: caopi
+  text: 丕
+  via: given_name_carry
+- id: shu.2.p31.h5
+  anchor: shu.2.p31
+  at: 110
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p31.h6
+  anchor: shu.2.p31
+  at: 125
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p31.h7
+  anchor: shu.2.p31
+  at: 181
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: shu.2.p31.h8
+  anchor: shu.2.p31
+  at: 185
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: shu.2.p32.t1
   anchor: shu.2.p32
   at: 0
@@ -415,6 +2995,22 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 原文「章武元年夏四月」直接出现年号；解析為 AD 221
+- id: shu.2.p32.h1
+  anchor: shu.2.p32
+  at: 15
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p32.h2
+  anchor: shu.2.p32
+  at: 22
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
 - id: shu.2.p32.a1
   anchor: shu.2.p32
   at: 44
@@ -435,6 +3031,26 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 章武元年 (AD 221)，月份「五月」
+- anchor: shu.2.p32
+  at: 48
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 皇后
+  via: llm
+  confidence: 0.7
+  reasoning: 章武元年「立皇后吳氏」即穆皇后吳氏（後主劉禪嫡母），roster未列。
+  id: shu.2.p32.h10
+- anchor: shu.2.p32
+  at: 57
+  length: 2
+  type: person
+  person_id: liushan
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「子禪為皇太子」明指立劉禪為皇太子。
+  id: shu.2.p32.h9
 - id: shu.2.p32.t3
   anchor: shu.2.p32
   at: 60
@@ -449,6 +3065,38 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 章武元年 (AD 221)，月份「六月」
+- id: shu.2.p32.h3
+  anchor: shu.2.p32
+  at: 79
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.2.p32.h4
+  anchor: shu.2.p32
+  at: 90
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p32.h5
+  anchor: shu.2.p32
+  at: 93
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p32.h6
+  anchor: shu.2.p32
+  at: 97
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
 - id: shu.2.p32.t4
   anchor: shu.2.p32
   at: 104
@@ -463,6 +3111,22 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 章武元年 (AD 221)，月份「秋七月」
+- id: shu.2.p32.h7
+  anchor: shu.2.p32
+  at: 115
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p32.h8
+  anchor: shu.2.p32
+  at: 122
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p33.t1
   anchor: shu.2.p33
   at: 0
@@ -477,6 +3141,14 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「章武」推得，「二年春正月」 = 章武2年 = AD 222
+- id: shu.2.p33.h1
+  anchor: shu.2.p33
+  at: 6
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p33.t2
   anchor: shu.2.p33
   at: 32
@@ -491,6 +3163,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 章武2年 (AD 222)，月份「二月」
+- id: shu.2.p33.h2
+  anchor: shu.2.p33
+  at: 35
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p33.a1
   anchor: shu.2.p33
   at: 56
@@ -503,6 +3183,22 @@ annotations:
   length: 0
   type: pei
   text: 佷，音恆。
+- id: shu.2.p33.h3
+  anchor: shu.2.p33
+  at: 69
+  length: 2
+  type: person
+  person_id: maliang
+  text: 馬良
+  via: primary
+- id: shu.2.p33.h4
+  anchor: shu.2.p33
+  at: 89
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: shu.2.p33.t3
   anchor: shu.2.p33
   at: 106
@@ -517,6 +3213,30 @@ annotations:
   month_chinese: 夏六月
   month_ordinal: 6
   reasoning: 年承前文 章武2年 (AD 222)，月份「夏六月」
+- id: shu.2.p33.h5
+  anchor: shu.2.p33
+  at: 135
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p33.h6
+  anchor: shu.2.p33
+  at: 153
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p33.h7
+  anchor: shu.2.p33
+  at: 200
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p33.t4
   anchor: shu.2.p33
   at: 209
@@ -531,6 +3251,14 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 章武2年 (AD 222)，月份「秋八月」
+- id: shu.2.p33.h8
+  anchor: shu.2.p33
+  at: 220
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
 - id: shu.2.p33.t5
   anchor: shu.2.p33
   at: 224
@@ -545,6 +3273,38 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 章武2年 (AD 222)，月份「冬十月」
+- id: shu.2.p33.h9
+  anchor: shu.2.p33
+  at: 231
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.2.p33.h10
+  anchor: shu.2.p33
+  at: 240
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.2.p33.h11
+  anchor: shu.2.p33
+  at: 243
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p33.h12
+  anchor: shu.2.p33
+  at: 257
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p33.t6
   anchor: shu.2.p33
   at: 272
@@ -559,6 +3319,14 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 年承前文 章武2年 (AD 222)，月份「冬十二月」
+- id: shu.2.p33.h13
+  anchor: shu.2.p33
+  at: 284
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p34.t1
   anchor: shu.2.p34
   at: 0
@@ -573,6 +3341,14 @@ annotations:
   month_chinese: 春二月
   month_ordinal: 2
   reasoning: 承前文年號「章武」推得，「三年春二月」 = 章武3年 = AD 223
+- id: shu.2.p34.h1
+  anchor: shu.2.p34
+  at: 8
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.2.p34.t2
   anchor: shu.2.p34
   at: 16
@@ -593,6 +3369,30 @@ annotations:
   length: 0
   type: pei
   text: 音笏。
+- id: shu.2.p34.h2
+  anchor: shu.2.p34
+  at: 60
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p34.h3
+  anchor: shu.2.p34
+  at: 70
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.2.p34.h4
+  anchor: shu.2.p34
+  at: 75
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
 - id: shu.2.p34.t3
   anchor: shu.2.p34
   at: 80
@@ -607,12 +3407,44 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 章武3年 (AD 223)，月份「夏四月」
+- id: shu.2.p34.h5
+  anchor: shu.2.p34
+  at: 86
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.2.p34.a2
   anchor: shu.2.p34
   at: 100
   length: 0
   type: pei
   text: 諸葛亮集載先主遺詔敕後主曰：朕初疾但下痢耳，後轉雜他病，殆不自濟。人五十不稱夭，年已六十有餘，何所复恨，不復自傷，但以卿兄弟為念。射君到，說丞相嘆卿智量，甚大增脩，過於所望，審能如此，吾復何憂！勉之，勉之！勿以惡小而為之，勿以善小而不為。惟賢惟德，能服於人。汝父德薄，勿效之。可讀漢書、禮記，間暇歷觀諸子及六韜、商君書，益人意智。聞丞相為寫申、韓、管子、六韜一通已畢，未送，道亡，可自更求聞達。臨終時，呼魯王與語：「吾亡之後，汝兄弟父事丞相，令卿與丞相共事而已。」
+- id: shu.2.p35.h1
+  anchor: shu.2.p35
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.2.p35.h2
+  anchor: shu.2.p35
+  at: 4
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.2.p36.h1
+  anchor: shu.2.p36
+  at: 102
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.2.p37.t1
   anchor: shu.2.p37
   at: 0
@@ -627,6 +3459,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 章武3年 (AD 223)，月份「五月」
+- id: shu.2.p37.h1
+  anchor: shu.2.p37
+  at: 14
+  length: 4
+  type: person
+  person_id: liubei
+  text: 昭烈皇帝
+  via: chapter_alias
 - id: shu.2.p37.t2
   anchor: shu.2.p37
   at: 21
@@ -647,3 +3487,27 @@ annotations:
   length: 0
   type: pei
   text: 葛洪《神仙傳》曰：仙人李意其，蜀人也。傳世見之，云是漢文帝時人。先主欲伐吳，遣人迎意其。意其到，先主禮敬之，問以吉凶。意其不答而求紙筆，畫作兵馬器仗數十紙已，便一一以手裂壞之，又畫作一大人，掘地埋之，便徑去。先主大不喜。而自出軍徵吳，大敗還，忿恥發病死，眾人乃知其意。其畫作大人而埋之者，即是言先主死意。
+- id: shu.2.p38.h1
+  anchor: shu.2.p38
+  at: 3
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.2.p38.h2
+  anchor: shu.2.p38
+  at: 36
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.2.p38.h3
+  anchor: shu.2.p38
+  at: 61
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry

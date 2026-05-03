@@ -19,7 +19,7 @@ annotations:
   reasoning: 原文「太和五年」直接出现年号；解析為 AD 231
 - id: zztj.72.p5.t1
   anchor: zztj.72.p5
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 二月
@@ -31,9 +31,89 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太和5年 (AD 231)，月份「二月」
+- id: zztj.72.p5.h1
+  anchor: zztj.72.p5
+  at: 16
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: zztj.72.p5.h2
+  anchor: zztj.72.p5
+  at: 32
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p5.h3
+  anchor: zztj.72.p5
+  at: 35
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p7.h1
+  anchor: zztj.72.p7
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p7.h2
+  anchor: zztj.72.p7
+  at: 5
+  length: 2
+  type: person
+  person_id: liyan
+  text: 李嚴
+  via: primary
+- id: zztj.72.p7.h3
+  anchor: zztj.72.p7
+  at: 20
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p7.h4
+  anchor: zztj.72.p7
+  at: 41
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: zztj.72.p7.h5
+  anchor: zztj.72.p7
+  at: 48
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p7.h6
+  anchor: zztj.72.p7
+  at: 59
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: zztj.72.p7.h7
+  anchor: zztj.72.p7
+  at: 68
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
 - id: zztj.72.p8.t1
   anchor: zztj.72.p8
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 三月
@@ -45,9 +125,17 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 太和5年 (AD 231)，月份「三月」
+- id: zztj.72.p8.h1
+  anchor: zztj.72.p8
+  at: 7
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
 - id: zztj.72.p9.t1
   anchor: zztj.72.p9
-  at: 2
+  at: 1
   length: 2
   type: temporal
   text: 十月
@@ -59,6 +147,150 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 太和5年 (AD 231)，月份「十月」
+- id: zztj.72.p10.h1
+  anchor: zztj.72.p10
+  at: 0
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p10.h2
+  anchor: zztj.72.p10
+  at: 28
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: zztj.72.p10.h3
+  anchor: zztj.72.p10
+  at: 38
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p10.h4
+  anchor: zztj.72.p10
+  at: 84
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p10.h5
+  anchor: zztj.72.p10
+  at: 94
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p10.h6
+  anchor: zztj.72.p10
+  at: 99
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: zztj.72.p10.h7
+  anchor: zztj.72.p10
+  at: 106
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p10.h8
+  anchor: zztj.72.p10
+  at: 108
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p10.h9
+  anchor: zztj.72.p10
+  at: 120
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p10.h10
+  anchor: zztj.72.p10
+  at: 128
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p10.h11
+  anchor: zztj.72.p10
+  at: 139
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h1
+  anchor: zztj.72.p11
+  at: 0
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p11.h2
+  anchor: zztj.72.p11
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h3
+  anchor: zztj.72.p11
+  at: 10
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: zztj.72.p11.h4
+  anchor: zztj.72.p11
+  at: 88
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h5
+  anchor: zztj.72.p11
+  at: 100
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p11.h6
+  anchor: zztj.72.p11
+  at: 106
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h7
+  anchor: zztj.72.p11
+  at: 147
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
 - id: zztj.72.p11.t1
   anchor: zztj.72.p11
   at: 159
@@ -73,6 +305,54 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 太和5年 (AD 231)，月份「五月」
+- id: zztj.72.p11.h8
+  anchor: zztj.72.p11
+  at: 165
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p11.h9
+  anchor: zztj.72.p11
+  at: 168
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: zztj.72.p11.h10
+  anchor: zztj.72.p11
+  at: 185
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h11
+  anchor: zztj.72.p11
+  at: 187
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p11.h12
+  anchor: zztj.72.p11
+  at: 189
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: zztj.72.p11.h13
+  anchor: zztj.72.p11
+  at: 213
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
 - id: zztj.72.p12.t1
   anchor: zztj.72.p12
   at: 0
@@ -87,9 +367,49 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 太和5年 (AD 231)，月份「六月」
+- id: zztj.72.p12.h1
+  anchor: zztj.72.p12
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p12.h2
+  anchor: zztj.72.p12
+  at: 10
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p12.h3
+  anchor: zztj.72.p12
+  at: 14
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: zztj.72.p12.h4
+  anchor: zztj.72.p12
+  at: 40
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p12.h5
+  anchor: zztj.72.p12
+  at: 63
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: zztj.72.p13.t1
   anchor: zztj.72.p13
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 七月
@@ -101,6 +421,96 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 太和5年 (AD 231)，月份「七月」
+- anchor: zztj.72.p14
+  at: 79
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p14.h1
+- anchor: zztj.72.p14
+  at: 299
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p14.h2
+- anchor: zztj.72.p14
+  at: 396
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p14.h3
+- anchor: zztj.72.p14
+  at: 680
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p14.h4
+- anchor: zztj.72.p14
+  at: 734
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p14.h5
+- anchor: zztj.72.p15
+  at: 61
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p15.h1
+- anchor: zztj.72.p15
+  at: 289
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p15.h2
+- anchor: zztj.72.p15
+  at: 357
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p15.h3
+- anchor: zztj.72.p15
+  at: 382
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p15.h4
 - id: zztj.72.p16.t1
   anchor: zztj.72.p16
   at: 0
@@ -129,9 +539,81 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 「明年正月」 = 当前年 太和5年 (AD 231) 之次年 = AD 232
+- id: zztj.72.p17.h1
+  anchor: zztj.72.p17
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p17.h2
+  anchor: zztj.72.p17
+  at: 46
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p17.h3
+  anchor: zztj.72.p17
+  at: 50
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p17.h4
+  anchor: zztj.72.p17
+  at: 113
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p17.h5
+  anchor: zztj.72.p17
+  at: 142
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p18.h1
+  anchor: zztj.72.p18
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p18.h2
+  anchor: zztj.72.p18
+  at: 3
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p18.h3
+  anchor: zztj.72.p18
+  at: 6
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: zztj.72.p18.h4
+  anchor: zztj.72.p18
+  at: 77
+  length: 2
+  type: person
+  person_id: chenzhen
+  text: 陳震
+  via: primary
 - id: zztj.72.p19.t1
   anchor: zztj.72.p19
-  at: 4
+  at: 2
   length: 2
   type: temporal
   text: 十月
@@ -143,9 +625,17 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 太和6年 (AD 232)，月份「十月」
+- id: zztj.72.p19.h1
+  anchor: zztj.72.p19
+  at: 72
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
 - id: zztj.72.p21.t1
   anchor: zztj.72.p21
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十一月
@@ -159,7 +649,7 @@ annotations:
   reasoning: 年承前文 太和6年 (AD 232)，月份「十一月」
 - id: zztj.72.p22.t1
   anchor: zztj.72.p22
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十二月
@@ -171,9 +661,17 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太和6年 (AD 232)，月份「十二月」
+- id: zztj.72.p22.h1
+  anchor: zztj.72.p22
+  at: 11
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
 - id: zztj.72.p23.t1
   anchor: zztj.72.p23
-  at: 10
+  at: 8
   length: 2
   type: temporal
   text: 明年
@@ -197,7 +695,7 @@ annotations:
   reasoning: 原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
 - id: zztj.72.p25.t1
   anchor: zztj.72.p25
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -209,9 +707,27 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 太和7年 (AD 233)，月份「正月」
+- anchor: zztj.72.p25
+  at: 15
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 吳太子指孫登
+  id: zztj.72.p25.h2
+- id: zztj.72.p25.h1
+  anchor: zztj.72.p25
+  at: 41
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
 - id: zztj.72.p26.t1
   anchor: zztj.72.p26
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 二月
@@ -223,9 +739,55 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太和7年 (AD 233)，月份「二月」
+- id: zztj.72.p27.h1
+  anchor: zztj.72.p27
+  at: 69
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳群
+  via: primary
+- anchor: zztj.72.p27
+  at: 137
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p27.h3
+- id: zztj.72.p27.h2
+  anchor: zztj.72.p27
+  at: 323
+  length: 2
+  type: person
+  person_id: yangfu
+  text: 楊阜
+  via: primary
+- anchor: zztj.72.p27
+  at: 334
+  length: 2
+  type: person
+  person_id: maohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 太和-青龍年間皇后(毛皇后)不在花名冊
+  id: zztj.72.p27.h5
+- anchor: zztj.72.p27
+  at: 338
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p27.h4
 - id: zztj.72.p27.t1
   anchor: zztj.72.p27
-  at: 376
+  at: 375
   length: 2
   type: temporal
   text: 三月
@@ -237,9 +799,41 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 太和7年 (AD 233)，月份「三月」
+- id: zztj.72.p28.h1
+  anchor: zztj.72.p28
+  at: 10
+  length: 2
+  type: person
+  person_id: peiqian
+  text: 裴潛
+  via: primary
+- id: zztj.72.p29.h1
+  anchor: zztj.72.p29
+  at: 2
+  length: 2
+  type: person
+  person_id: yufan
+  text: 虞翻
+  via: primary
+- id: zztj.72.p29.h2
+  anchor: zztj.72.p29
+  at: 28
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
+- id: zztj.72.p29.h3
+  anchor: zztj.72.p29
+  at: 132
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: zztj.72.p30.t1
   anchor: zztj.72.p30
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 四月
@@ -253,7 +847,7 @@ annotations:
   reasoning: 年承前文 太和7年 (AD 233)，月份「四月」
 - id: zztj.72.p31.t1
   anchor: zztj.72.p31
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 五月
@@ -267,7 +861,7 @@ annotations:
   reasoning: 年承前文 太和7年 (AD 233)，月份「五月」
 - id: zztj.72.p32.t1
   anchor: zztj.72.p32
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 七月
@@ -279,9 +873,17 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 太和7年 (AD 233)，月份「七月」
+- id: zztj.72.p32.h1
+  anchor: zztj.72.p32
+  at: 8
+  length: 2
+  type: person
+  person_id: dongzhao
+  text: 董昭
+  via: primary
 - id: zztj.72.p33.t1
   anchor: zztj.72.p33
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 九月
@@ -293,9 +895,33 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 太和7年 (AD 233)，月份「九月」
+- id: zztj.72.p34.h1
+  anchor: zztj.72.p34
+  at: 19
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: zztj.72.p34.h2
+  anchor: zztj.72.p34
+  at: 46
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
+- id: zztj.72.p35.h1
+  anchor: zztj.72.p35
+  at: 74
+  length: 2
+  type: person
+  person_id: yufan
+  text: 虞翻
+  via: primary
 - id: zztj.72.p36.t1
   anchor: zztj.72.p36
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十一月
@@ -309,7 +935,7 @@ annotations:
   reasoning: 年承前文 太和7年 (AD 233)，月份「十一月」
 - id: zztj.72.p37.t1
   anchor: zztj.72.p37
-  at: 2
+  at: 0
   length: 3
   type: temporal
   text: 十二月
@@ -321,6 +947,282 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太和7年 (AD 233)，月份「十二月」
+- id: zztj.72.p38.h1
+  anchor: zztj.72.p38
+  at: 2
+  length: 2
+  type: person
+  person_id: liuye
+  text: 劉曄
+  via: primary
+- id: zztj.72.p38.h2
+  anchor: zztj.72.p38
+  at: 138
+  length: 2
+  type: person
+  person_id: liuye
+  text: 劉曄
+  via: primary
+- anchor: zztj.72.p38
+  at: 249
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p38.h3
+- anchor: zztj.72.p39
+  at: 21
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p39.h1
+- anchor: zztj.72.p40
+  at: 24
+  length: 2
+  type: person
+  person_id: caorui
+  text: 主上
+  via: llm
+  confidence: 0.75
+  reasoning: 魏主上指明帝
+  id: zztj.72.p40.h1
+- anchor: zztj.72.p41
+  at: 136
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h2
+- anchor: zztj.72.p41
+  at: 211
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h3
+- anchor: zztj.72.p41
+  at: 318
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h4
+- anchor: zztj.72.p41
+  at: 330
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h5
+- anchor: zztj.72.p41
+  at: 372
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h6
+- anchor: zztj.72.p41
+  at: 513
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h7
+- anchor: zztj.72.p41
+  at: 528
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h8
+- anchor: zztj.72.p41
+  at: 535
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h9
+- anchor: zztj.72.p41
+  at: 613
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h10
+- anchor: zztj.72.p41
+  at: 642
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h11
+- anchor: zztj.72.p41
+  at: 736
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h12
+- anchor: zztj.72.p41
+  at: 824
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h13
+- anchor: zztj.72.p41
+  at: 875
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h14
+- id: zztj.72.p41.h1
+  anchor: zztj.72.p41
+  at: 921
+  length: 3
+  type: person
+  person_id: anhan
+  text: 漢安帝
+  via: primary
+- anchor: zztj.72.p41
+  at: 1015
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h15
+- anchor: zztj.72.p41
+  at: 1109
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h16
+- anchor: zztj.72.p41
+  at: 1179
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p41.h17
+- anchor: zztj.72.p42
+  at: 16
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p42.h1
+- anchor: zztj.72.p42
+  at: 46
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p42.h2
+- anchor: zztj.72.p42
+  at: 66
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p42.h3
+- id: zztj.72.p43.h1
+  anchor: zztj.72.p43
+  at: 1
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: zztj.72.p43.h2
+  anchor: zztj.72.p43
+  at: 18
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: zztj.72.p44.h1
+  anchor: zztj.72.p44
+  at: 10
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: zztj.72.p44.h2
+  anchor: zztj.72.p44
+  at: 121
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: zztj.72.p45.t1
   anchor: zztj.72.p45
   at: 0
@@ -335,7 +1237,7 @@ annotations:
   reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233
 - id: zztj.72.p46.t1
   anchor: zztj.72.p46
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 正月
@@ -349,7 +1251,7 @@ annotations:
   reasoning: 年承前文 青龍元年 (AD 233)，月份「正月」
 - id: zztj.72.p46.t2
   anchor: zztj.72.p46
-  at: 17
+  at: 16
   length: 2
   type: temporal
   text: 二月
@@ -363,7 +1265,7 @@ annotations:
   reasoning: 年承前文 青龍元年 (AD 233)，月份「二月」
 - id: zztj.72.p47.t1
   anchor: zztj.72.p47
-  at: 32
+  at: 31
   length: 2
   type: temporal
   text: 三月
@@ -375,9 +1277,25 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 青龍元年 (AD 233)，月份「三月」
+- id: zztj.72.p47.h1
+  anchor: zztj.72.p47
+  at: 83
+  length: 2
+  type: person
+  person_id: guyong
+  text: 顧雍
+  via: primary
+- id: zztj.72.p47.h2
+  anchor: zztj.72.p47
+  at: 123
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
 - id: zztj.72.p48.t1
   anchor: zztj.72.p48
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 五月
@@ -391,7 +1309,7 @@ annotations:
   reasoning: 年承前文 青龍元年 (AD 233)，月份「五月」
 - id: zztj.72.p50.t1
   anchor: zztj.72.p50
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 六月
@@ -405,7 +1323,7 @@ annotations:
   reasoning: 年承前文 青龍元年 (AD 233)，月份「六月」
 - id: zztj.72.p52.t1
   anchor: zztj.72.p52
-  at: 35
+  at: 34
   length: 3
   type: temporal
   text: 十二月
@@ -417,6 +1335,68 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 青龍元年 (AD 233)，月份「十二月」
+- id: zztj.72.p54.h1
+  anchor: zztj.72.p54
+  at: 0
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- anchor: zztj.72.p54
+  at: 7
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p54.h2
+- anchor: zztj.72.p54
+  at: 138
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p54.h3
+- id: zztj.72.p55.h1
+  anchor: zztj.72.p55
+  at: 4
+  length: 2
+  type: person
+  person_id: xuezong
+  text: 薛綜
+  via: primary
+- id: zztj.72.p56.h1
+  anchor: zztj.72.p56
+  at: 4
+  length: 2
+  type: person
+  person_id: lumao
+  text: 陸瑁
+  via: primary
+- anchor: zztj.72.p57
+  at: 156
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.88
+  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
+  id: zztj.72.p57.h1
+- id: zztj.72.p58.h1
+  anchor: zztj.72.p58
+  at: 7
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
 - id: zztj.72.p59.t1
   anchor: zztj.72.p59
   at: 184
@@ -433,7 +1413,7 @@ annotations:
   reasoning: 年承前文 青龍元年 (AD 233)，月份「八月」
 - id: zztj.72.p60.t1
   anchor: zztj.72.p60
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 是歲
@@ -443,6 +1423,54 @@ annotations:
   era: 青龍
   era_year: 1
   reasoning: 「是歲」 = 当前年 青龍元年 (AD 233)
+- id: zztj.72.p60.h1
+  anchor: zztj.72.p60
+  at: 28
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: zztj.72.p60.h2
+  anchor: zztj.72.p60
+  at: 36
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: zztj.72.p61.h1
+  anchor: zztj.72.p61
+  at: 10
+  length: 2
+  type: person
+  person_id: zhangyi_3
+  text: 張翼
+  via: primary
+- id: zztj.72.p61.h2
+  anchor: zztj.72.p61
+  at: 37
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
+- id: zztj.72.p61.h3
+  anchor: zztj.72.p61
+  at: 131
+  length: 2
+  type: person
+  person_id: mazhong
+  text: 馬忠
+  via: primary
+- id: zztj.72.p62.h1
+  anchor: zztj.72.p62
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: zztj.72.p63.t1
   anchor: zztj.72.p63
   at: 0
@@ -457,7 +1485,7 @@ annotations:
   reasoning: 原文「青龍二年」直接出现年号；解析為 AD 234
 - id: zztj.72.p64.t1
   anchor: zztj.72.p64
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 二月
@@ -469,9 +1497,17 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 青龍2年 (AD 234)，月份「二月」
+- id: zztj.72.p64.h1
+  anchor: zztj.72.p64
+  at: 5
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: zztj.72.p65.t1
   anchor: zztj.72.p65
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 三月
@@ -485,7 +1521,7 @@ annotations:
   reasoning: 年承前文 青龍2年 (AD 234)，月份「三月」
 - id: zztj.72.p66.t1
   anchor: zztj.72.p66
-  at: 3
+  at: 2
   length: 2
   type: temporal
   text: 四月
@@ -497,9 +1533,89 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 青龍2年 (AD 234)，月份「四月」
+- id: zztj.72.p67.h1
+  anchor: zztj.72.p67
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p67.h2
+  anchor: zztj.72.p67
+  at: 13
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p67.h3
+  anchor: zztj.72.p67
+  at: 34
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p67.h4
+  anchor: zztj.72.p67
+  at: 64
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p68.h1
+  anchor: zztj.72.p68
+  at: 4
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: zztj.72.p68.h2
+  anchor: zztj.72.p68
+  at: 8
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p68.h3
+  anchor: zztj.72.p68
+  at: 12
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p68.h4
+  anchor: zztj.72.p68
+  at: 36
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p68.h5
+  anchor: zztj.72.p68
+  at: 65
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p69.h1
+  anchor: zztj.72.p69
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: zztj.72.p70.t1
   anchor: zztj.72.p70
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 五月
@@ -511,9 +1627,33 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 青龍2年 (AD 234)，月份「五月」
+- id: zztj.72.p70.h1
+  anchor: zztj.72.p70
+  at: 24
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: zztj.72.p70.h2
+  anchor: zztj.72.p70
+  at: 27
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: zztj.72.p70.h3
+  anchor: zztj.72.p70
+  at: 47
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
 - id: zztj.72.p70.t2
   anchor: zztj.72.p70
-  at: 63
+  at: 62
   length: 2
   type: temporal
   text: 六月
@@ -525,6 +1665,46 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 青龍2年 (AD 234)，月份「六月」
+- id: zztj.72.p70.h4
+  anchor: zztj.72.p70
+  at: 65
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: zztj.72.p70.h5
+  anchor: zztj.72.p70
+  at: 79
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: zztj.72.p72.h1
+  anchor: zztj.72.p72
+  at: 117
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p72.h2
+  anchor: zztj.72.p72
+  at: 121
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p72.h3
+  anchor: zztj.72.p72
+  at: 126
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
 - id: zztj.72.p72.t1
   anchor: zztj.72.p72
   at: 180
@@ -539,9 +1719,121 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 青龍2年 (AD 234)，月份「七月」
+- id: zztj.72.p72.h4
+  anchor: zztj.72.p72
+  at: 198
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: zztj.72.p72.h5
+  anchor: zztj.72.p72
+  at: 254
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
+- id: zztj.72.p73.h1
+  anchor: zztj.72.p73
+  at: 0
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: zztj.72.p73.h2
+  anchor: zztj.72.p73
+  at: 18
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: zztj.72.p73.h3
+  anchor: zztj.72.p73
+  at: 28
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h4
+  anchor: zztj.72.p73
+  at: 58
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h5
+  anchor: zztj.72.p73
+  at: 102
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h6
+  anchor: zztj.72.p73
+  at: 104
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h7
+  anchor: zztj.72.p73
+  at: 193
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h8
+  anchor: zztj.72.p73
+  at: 208
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h9
+  anchor: zztj.72.p73
+  at: 222
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: zztj.72.p73.h10
+  anchor: zztj.72.p73
+  at: 288
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p73.h11
+  anchor: zztj.72.p73
+  at: 293
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p73.h12
+  anchor: zztj.72.p73
+  at: 316
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: zztj.72.p74.t1
   anchor: zztj.72.p74
-  at: 1
+  at: 0
   length: 2
   type: temporal
   text: 八月
@@ -553,9 +1845,579 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 青龍2年 (AD 234)，月份「八月」
+- id: zztj.72.p76.h1
+  anchor: zztj.72.p76
+  at: 0
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p76.h2
+  anchor: zztj.72.p76
+  at: 4
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p76.h3
+  anchor: zztj.72.p76
+  at: 13
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p76.h4
+  anchor: zztj.72.p76
+  at: 18
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p76.h5
+  anchor: zztj.72.p76
+  at: 22
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p76.h6
+  anchor: zztj.72.p76
+  at: 25
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p76.h7
+  anchor: zztj.72.p76
+  at: 33
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p76.h8
+  anchor: zztj.72.p76
+  at: 45
+  length: 2
+  type: person
+  person_id: xinpi
+  text: 辛毗
+  via: primary
+- id: zztj.72.p76.h9
+  anchor: zztj.72.p76
+  at: 58
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: zztj.72.p76.h10
+  anchor: zztj.72.p76
+  at: 61
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p76.h11
+  anchor: zztj.72.p76
+  at: 80
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p77.h1
+  anchor: zztj.72.p77
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p77.h2
+  anchor: zztj.72.p77
+  at: 5
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p77.h3
+  anchor: zztj.72.p77
+  at: 8
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p77.h4
+  anchor: zztj.72.p77
+  at: 58
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name_carry
+- id: zztj.72.p77.h5
+  anchor: zztj.72.p77
+  at: 64
+  length: 4
+  type: person
+  person_id: zhugeliang
+  text: 諸葛孔明
+  via: alias
+- id: zztj.72.p78.h1
+  anchor: zztj.72.p78
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p78.h2
+  anchor: zztj.72.p78
+  at: 33
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p78.h3
+  anchor: zztj.72.p78
+  at: 45
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p78.h4
+  anchor: zztj.72.p78
+  at: 117
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p78.h5
+  anchor: zztj.72.p78
+  at: 128
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p78.h6
+  anchor: zztj.72.p78
+  at: 145
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p79.h1
+  anchor: zztj.72.p79
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p79.h2
+  anchor: zztj.72.p79
+  at: 11
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: zztj.72.p79.h3
+  anchor: zztj.72.p79
+  at: 22
+  length: 3
+  type: person
+  person_id: simayi
+  text: 司馬懿
+  via: primary
+- id: zztj.72.p79.h4
+  anchor: zztj.72.p79
+  at: 26
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p79.h5
+  anchor: zztj.72.p79
+  at: 30
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: zztj.72.p79.h6
+  anchor: zztj.72.p79
+  at: 42
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p79.h7
+  anchor: zztj.72.p79
+  at: 45
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p79.h8
+  anchor: zztj.72.p79
+  at: 55
+  length: 2
+  type: person
+  person_id: shiyi
+  text: 是儀
+  via: primary
+- id: zztj.72.p79.h9
+  anchor: zztj.72.p79
+  at: 86
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p79.h10
+  anchor: zztj.72.p79
+  at: 107
+  length: 1
+  type: person
+  person_id: simayi
+  text: 懿
+  via: given_name
+- id: zztj.72.p79.h11
+  anchor: zztj.72.p79
+  at: 110
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h1
+  anchor: zztj.72.p80
+  at: 6
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: zztj.72.p80.h2
+  anchor: zztj.72.p80
+  at: 21
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h3
+  anchor: zztj.72.p80
+  at: 32
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h4
+  anchor: zztj.72.p80
+  at: 46
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h5
+  anchor: zztj.72.p80
+  at: 55
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h6
+  anchor: zztj.72.p80
+  at: 68
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: zztj.72.p80.h7
+  anchor: zztj.72.p80
+  at: 75
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p80.h8
+  anchor: zztj.72.p80
+  at: 142
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p81.h1
+  anchor: zztj.72.p81
+  at: 0
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: zztj.72.p81.h2
+  anchor: zztj.72.p81
+  at: 14
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: zztj.72.p81.h3
+  anchor: zztj.72.p81
+  at: 17
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: zztj.72.p81.h4
+  anchor: zztj.72.p81
+  at: 52
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p82.h1
+  anchor: zztj.72.p82
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p82.h2
+  anchor: zztj.72.p82
+  at: 9
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: zztj.72.p82.h3
+  anchor: zztj.72.p82
+  at: 27
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: zztj.72.p82.h4
+  anchor: zztj.72.p82
+  at: 44
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p82.h5
+  anchor: zztj.72.p82
+  at: 110
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: zztj.72.p82.h6
+  anchor: zztj.72.p82
+  at: 117
+  length: 2
+  type: person
+  person_id: yangyi
+  text: 楊儀
+  via: primary
+- id: zztj.72.p83.h1
+  anchor: zztj.72.p83
+  at: 9
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p83.h2
+  anchor: zztj.72.p83
+  at: 70
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: zztj.72.p83.h3
+  anchor: zztj.72.p83
+  at: 77
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p83.h4
+  anchor: zztj.72.p83
+  at: 204
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p84.h1
+  anchor: zztj.72.p84
+  at: 10
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p84.h2
+  anchor: zztj.72.p84
+  at: 20
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- anchor: zztj.72.p84
+  at: 80
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.85
+  reasoning: 蜀漢上書時陛下指後主劉禪
+  id: zztj.72.p84.h3
+- id: zztj.72.p85.h1
+  anchor: zztj.72.p85
+  at: 4
+  length: 2
+  type: person
+  person_id: zhangyi_2
+  text: 張裔
+  via: primary
+- id: zztj.72.p85.h2
+  anchor: zztj.72.p85
+  at: 8
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: zztj.72.p86.h1
+  anchor: zztj.72.p86
+  at: 6
+  length: 2
+  type: person
+  person_id: liaoli
+  text: 廖立
+  via: primary
+- id: zztj.72.p86.h2
+  anchor: zztj.72.p86
+  at: 15
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p86.h3
+  anchor: zztj.72.p86
+  at: 35
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p86.h4
+  anchor: zztj.72.p86
+  at: 47
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p86.h5
+  anchor: zztj.72.p86
+  at: 77
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: zztj.72.p87.h1
+  anchor: zztj.72.p87
+  at: 11
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p88.h1
+  anchor: zztj.72.p88
+  at: 26
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: zztj.72.p89.h1
+  anchor: zztj.72.p89
+  at: 3
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: zztj.72.p89.h2
+  anchor: zztj.72.p89
+  at: 69
+  length: 2
+  type: person
+  person_id: zongyu
+  text: 宗預
+  via: primary
+- id: zztj.72.p89.h3
+  anchor: zztj.72.p89
+  at: 154
+  length: 2
+  type: person
+  person_id: dengzhi
+  text: 鄧芝
+  via: primary
+- id: zztj.72.p90.h1
+  anchor: zztj.72.p90
+  at: 1
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
 - id: zztj.72.p91.t1
   anchor: zztj.72.p91
-  at: 4
+  at: 2
   length: 3
   type: temporal
   text: 十一月
@@ -569,7 +2431,7 @@ annotations:
   reasoning: 年承前文 青龍2年 (AD 234)，月份「十一月」
 - id: zztj.72.p92.t1
   anchor: zztj.72.p92
-  at: 30
+  at: 28
   length: 3
   type: temporal
   text: 十一月

@@ -1,0 +1,61 @@
+{
+  "id": "yuanhuan",
+  "primary_name": "袁渙",
+  "courtesy_name": "曜卿",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.11",
+      "title": "魏書·袁張涼國田王邴管傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/11.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p35",
+        "at": 10,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "袁渙",
+        "snippet": "初，備在豫州，舉陳郡袁渙為茂才。渙為呂布所留，布欲使渙作書罵辱備，渙不可，再三強之。不許。布大怒，以兵脅渙曰：「為之則生，不為則死！」渙顏色不變，笑而…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p63",
+        "at": 78,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "袁渙",
+        "snippet": "…杜襲、衛覬、和洽為侍中，鐘繇為大理，王修為大司農，袁渙為郎中令、行御史大夫事，陳群為御史中丞。袁渙得賞賜，皆散之，家無所儲，乏則取之於人，不為皦察之行，然時人皆服其清。時有傳劉備死…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.8",
+        "chapter_title": "蜀書·許糜孫簡伊秦傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.8.p8",
+        "at": 69,
+        "data_url": "data/sanguozhi/shu/08.json",
+        "matched": "袁渙",
+        "snippet": "…沒。欽子游，景耀中為尚書。始靖兄事颍川陳紀，與陳郡袁渙、平原華歆、東海王朗等親善，歆、朗及紀子群，魏初為公輔大臣，咸與靖書，申陳舊好，情義款至，文多故不載。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

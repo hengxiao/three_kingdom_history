@@ -1,0 +1,50 @@
+{
+  "id": "furong",
+  "primary_name": "符融",
+  "courtesy_name": "偉明",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.68",
+      "title": "郭符許列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/68.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p49",
+        "at": 369,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "符融",
+        "snippet": "…、李膺之徒面引廷爭，用公義以扶其危，下則有布衣之士符融、郭泰、范滂、許邵之流，立私論以救其敗。是以政治雖濁而風俗不衰，至有觸冒斧鉞，僵仆於前，而忠義奮發，繼起於後，隨踵就戮，視死如…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.76",
+        "chapter_title": "循吏列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.76.p63",
+        "at": 11,
+        "data_url": "data/houhanshu/hhs/76.json",
+        "matched": "符融",
+        "snippet": "覽入太學。時，諸生同郡符融有高名，與覽比宇，賓客盈室。覽常自守，不與融言。融觀其容止，心獨奇之，乃謂曰：「與先生同郡壤，鄰房牖。今京師英雄四集，志士交結…"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

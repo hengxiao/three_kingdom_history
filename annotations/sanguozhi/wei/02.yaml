@@ -2,11 +2,45 @@ chapter: wei.2
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷02
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 0ef6fc579ac95a65d14d5675959fdb16bcfabb3fb817951b116bd00a013fe125
 parse_warnings:
 - 'source has unbalanced brackets: 1 stray ''〈'', 0 stray ''〉'' — treating them as literal text'
 annotations:
+- id: wei.2.p1.h1
+  anchor: wei.2.p1
+  at: 0
+  length: 3
+  type: person
+  person_id: caopi
+  text: 文皇帝
+  via: chapter_alias
+- id: wei.2.p1.h2
+  anchor: wei.2.p1
+  at: 4
+  length: 1
+  type: person
+  person_id: caopi
+  text: 丕
+  via: given_name
+- id: wei.2.p1.h3
+  anchor: wei.2.p1
+  at: 10
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- anchor: wei.2.p1
+  at: 12
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.99
+  reasoning: 本紀首句「文皇帝諱丕……武帝太子也」太子即曹丕本人。
+  id: wei.2.p1.h5
 - id: wei.2.p1.t1
   anchor: wei.2.p1
   at: 16
@@ -49,18 +83,56 @@ annotations:
   era: 建安
   era_year: 22
   reasoning: 承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217
+- anchor: wei.2.p1
+  at: 51
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.99
+  reasoning: 「二十二年，立為魏太子」即立曹丕為魏太子。
+  id: wei.2.p1.h6
 - id: wei.2.p1.a2
   anchor: wei.2.p1
   at: 54
   length: 0
   type: pei
   text: 《魏略》曰：太祖不時立太子，太子自疑。是時有高元呂者，善相人，乃呼問之，對曰：「其貴乃不可言。」問：「壽幾何？」元呂曰：「其壽，至四十當有小苦，過是無憂也。」後無幾而立爲王太子，至年四十而薨。
+- id: wei.2.p1.h4
+  anchor: wei.2.p1
+  at: 54
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.2.p1.a3
   anchor: wei.2.p1
   at: 67
   length: 0
   type: pei
   text: 袁宏《漢紀》載漢帝詔曰：「魏太子丕：昔皇天授乃顯考以翼我皇家，遂攘除羣凶，拓定九州，弘功茂績，光于宇宙，朕用垂拱負扆二十有餘載。天不憖遺一老，永保余一人，早世潛神，哀悼傷切。丕奕世宣明，宜秉文武，紹熙前緒。今使使持節御史大夫華歆奉策詔授丕丞相印綬、魏王璽紱，領冀州牧。方今外有遺虜，遐夷未賔，旗鼓猶在邊境，干戈不得韜刃，斯乃播揚洪烈，立功垂名之秋也。豈得脩諒闇之禮，究曾、閔之志哉？其敬服朕命，抑弭憂懷，旁祗厥緒，時亮庶功，以稱朕意。於戲，可不勉與！」
+- anchor: wei.2.p1
+  at: 68
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 王后
+  via: llm
+  confidence: 0.92
+  reasoning: 「尊王后曰王太后」王后即曹操魏王后卞氏，roster未列卞太后。
+  id: wei.2.p1.h7
+- anchor: wei.2.p1
+  at: 72
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 同句「曰王太后」續指卞氏，roster未列。
+  id: wei.2.p1.h8
 - id: wei.2.p1.t4
   anchor: wei.2.p1
   at: 76
@@ -105,6 +177,30 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》載庚戌令曰：「關津所以通商旅，池苑所以御災荒也。設禁重稅，非所以便民；其除池籞之禁，輕關津之稅，皆復什一。」辛亥，賜諸侯王將相已下大將粟萬斛，帛千匹，金銀各有差等。遣使者循行郡國，有違理掊克暴虐者，舉其罪。
+- id: wei.2.p2.h1
+  anchor: wei.2.p2
+  at: 12
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
+- id: wei.2.p2.h2
+  anchor: wei.2.p2
+  at: 22
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
+- id: wei.2.p2.h3
+  anchor: wei.2.p2
+  at: 30
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: wei.2.p3.t1
   anchor: wei.2.p3
   at: 2
@@ -137,6 +233,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：王召見登，謂之曰：「昔成風聞楚丘之繇而敬事季友，鄧晨信少公之言而自納光武。登以篤老，服膺占術，記識天道，豈有是乎！」賜登穀二百斛，遣歸家。
+- id: wei.2.p4.h1
+  anchor: wei.2.p4
+  at: 7
+  length: 3
+  type: person
+  person_id: xiahoudun
+  text: 夏侯惇
+  via: primary
 - id: wei.2.p4.a1
   anchor: wei.2.p4
   at: 36
@@ -163,6 +267,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：賜饒安田租，勃海郡百戶牛酒，大酺三日；太常以太牢祠宗廟。
+- id: wei.2.p5.h1
+  anchor: wei.2.p5
+  at: 20
+  length: 3
+  type: person
+  person_id: xiahoudun
+  text: 夏侯惇
+  via: primary
 - id: wei.2.p5.a2
   anchor: wei.2.p5
   at: 25
@@ -247,6 +359,14 @@ annotations:
   length: 0
   type: pei
   text: 管子曰：黃帝立明臺之議者，上觀於兵也；堯有衢室之問者，下聽於民也；舜有告善之旌，而主不蔽也；禹立建鼓於朝，而備訴訟也；湯有總街之廷，以觀民非也；武王有靈臺之囿，而賢者進也：此古聖帝明王所以有而勿失，得而勿忘也。
+- id: wei.2.p10.h1
+  anchor: wei.2.p10
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wei.2.p10.a1
   anchor: wei.2.p10
   at: 32
@@ -319,6 +439,34 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 原文「黃初元年十一月」直接出现年号；解析為 AD 220
+- id: wei.2.p15.h1
+  anchor: wei.2.p15
+  at: 81
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- anchor: wei.2.p15
+  at: 87
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 黃初元年受禪「尊王太后曰皇太后」即卞氏由王太后進為皇太后，roster未列。
+  id: wei.2.p15.h2
+- anchor: wei.2.p15
+  at: 91
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 同句「曰皇太后」續指卞氏。
+  id: wei.2.p15.h3
 - id: wei.2.p15.t2
   anchor: wei.2.p15
   at: 231
@@ -411,6 +559,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 黃初2年 (AD 221)，月份「夏四月」
+- id: wei.2.p19.h1
+  anchor: wei.2.p19
+  at: 32
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
 - id: wei.2.p19.t3
   anchor: wei.2.p19
   at: 39
@@ -425,6 +581,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初2年 (AD 221)，月份「五月」
+- id: wei.2.p19.h2
+  anchor: wei.2.p19
+  at: 48
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
 - id: wei.2.p19.t4
   anchor: wei.2.p19
   at: 54
@@ -459,6 +623,30 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 黃初2年 (AD 221)，月份「秋八月」
+- id: wei.2.p20.h1
+  anchor: wei.2.p20
+  at: 4
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.2.p20.h2
+  anchor: wei.2.p20
+  at: 13
+  length: 2
+  type: person
+  person_id: yujin
+  text: 于禁
+  via: primary
+- id: wei.2.p20.h3
+  anchor: wei.2.p20
+  at: 29
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wei.2.p20.t2
   anchor: wei.2.p20
   at: 43
@@ -485,6 +673,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》曰：十一月辛未，鎮西將軍曹真命衆將及州郡兵討破叛胡治元多、蘆水、封賞等，斬首五萬餘級，獲生口十萬，羊一百一十一萬口，牛八萬，河西遂平。帝初聞胡決水灌顯美，謂左右諸將曰：「昔隗嚻灌略陽，而光武因其疲弊，進兵滅之。今胡決水灌顯美，其事正相似，破胡事今至不久。」旬日，破胡告檄到，上大笑曰：「吾策之於帷幕之內，諸將奮擊於萬里之外，其相應若合符契。前後戰克獲虜，未有如此也。」
+- id: wei.2.p20.h4
+  anchor: wei.2.p20
+  at: 71
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
 - id: wei.2.p20.t3
   anchor: wei.2.p20
   at: 78
@@ -593,6 +789,70 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初3年 (AD 222)，月份「五月」
+- id: wei.2.p23.h1
+  anchor: wei.2.p23
+  at: 117
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.2.p24.h1
+  anchor: wei.2.p24
+  at: 3
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.2.p24.h2
+  anchor: wei.2.p24
+  at: 6
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.2.p24.h3
+  anchor: wei.2.p24
+  at: 16
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.2.p24.h4
+  anchor: wei.2.p24
+  at: 22
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.2.p24.h5
+  anchor: wei.2.p24
+  at: 41
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.2.p24.h6
+  anchor: wei.2.p24
+  at: 81
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.2.p24.h7
+  anchor: wei.2.p24
+  at: 95
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
 - id: wei.2.p25.t1
   anchor: wei.2.p25
   at: 0
@@ -607,6 +867,14 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 黃初3年 (AD 222)，月份「秋七月」
+- id: wei.2.p25.h1
+  anchor: wei.2.p25
+  at: 15
+  length: 2
+  type: person
+  person_id: duji
+  text: 杜畿
+  via: primary
 - id: wei.2.p25.t2
   anchor: wei.2.p25
   at: 26
@@ -621,6 +889,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 黃初3年 (AD 222)，月份「八月」
+- id: wei.2.p25.h2
+  anchor: wei.2.p25
+  at: 33
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.2.p25.a1
   anchor: wei.2.p25
   at: 38
@@ -641,12 +917,32 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 黃初3年 (AD 222)，月份「九月」
+- anchor: wei.2.p26
+  at: 31
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.85
+  reasoning: 黃初三年詔「群臣不得奏事太后」泛指後世太后（戒后族干政）；當代太后即卞太后，roster未列。
+  id: wei.2.p26.h1
 - id: wei.2.p26.a1
   anchor: wei.2.p26
   at: 75
   length: 0
   type: pei
   text: 孫盛曰：夫經國營治，必憑俊喆之輔，賢達令德，必居參亂之任，故雖周室之盛，有婦人與焉。然則坤道承天，南面罔二，三從之禮，謂之至順，至於號令自天子出，奏事專行，非古義也。昔在申、呂，實匡有周。苟以天下爲心，惟德是杖，則親疏之授，至公一也，何至后族而必斥遠之哉？二漢之季世，王道陵遲，故令外戚憑寵，職爲亂階。於此，自時昏道喪，運祚將移，縱無王、呂之難，豈乏田、趙之禍乎？而後世觀其若此，深懷酸毒之戒也。至於魏文，遂發一概之詔，可謂有識之爽言，非帝者之宏議。
+- anchor: wei.2.p26
+  at: 79
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立皇后郭氏」即文德郭皇后，roster未列。
+  id: wei.2.p26.h2
 - id: wei.2.p27.t1
   anchor: wei.2.p27
   at: 0
@@ -679,6 +975,64 @@ annotations:
   length: 0
   type: pei
   text: 《呂氏春秋》：堯葬於穀林，通樹之；舜葬於紀，市廛不變其肆；禹葬會稽，不變人徒。
+- id: wei.2.p27.h1
+  anchor: wei.2.p27
+  at: 292
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.2.p27.h2
+  anchor: wei.2.p27
+  at: 332
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.2.p27.h3
+  anchor: wei.2.p27
+  at: 343
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.2.p27.h4
+  anchor: wei.2.p27
+  at: 376
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- anchor: wei.2.p27
+  at: 491
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 終制「其皇后及貴人以下」泛指文帝後宮諸后妃，主要指郭皇后等，roster未列。
+  id: wei.2.p27.h5
+- id: wei.2.p28.h1
+  anchor: wei.2.p28
+  at: 3
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.2.p28.h2
+  anchor: wei.2.p28
+  at: 28
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wei.2.p28.t1
   anchor: wei.2.p28
   at: 34
@@ -739,6 +1093,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》載丙午詔曰：「孫權殘害民物，朕以寇不可長，故分命猛將三道並征。今征東諸軍與權黨呂範等水戰，則斬首四萬，獲船萬艘。大司馬據守濡須，其所禽獲亦以萬數。中軍、征南攻圍江陵，左將軍張郃等舳艫直渡，擊其南渚，賊赴水溺死者數千人，又爲地道攻城，城中外雀鼠不得出入，此几上肉耳！而賊中癘氣疾病，夾江塗地，恐相染污。昔周武伐殷，旋師孟津，漢祖征隗嚻，還軍高平，皆知天時而度賊情也。且成湯解三面之網，天下歸仁。今開江陵之圍，以緩成死之禽。且休力役，罷省繇戍，畜養士民，咸使安息。」
+- id: wei.2.p29.h1
+  anchor: wei.2.p29
+  at: 84
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
 - id: wei.2.p30.t1
   anchor: wei.2.p30
   at: 0
@@ -773,6 +1135,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 黃初4年 (AD 223)，月份「六月」
+- id: wei.2.p31.h1
+  anchor: wei.2.p31
+  at: 19
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: wei.2.p31.a1
   anchor: wei.2.p31
   at: 47
@@ -793,12 +1163,28 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 年承前文 黃初4年 (AD 223)，月份「秋八月」
+- id: wei.2.p31.h2
+  anchor: wei.2.p31
+  at: 56
+  length: 2
+  type: person
+  person_id: zhongyao
+  text: 鍾繇
+  via: primary
 - id: wei.2.p31.a2
   anchor: wei.2.p31
   at: 62
   length: 0
   type: pei
   text: 《魏書》曰：有司奏改漢氏宗廟安世樂曰正世樂，嘉至樂曰迎靈樂，武德樂曰武頌樂，昭容樂曰昭業樂，雲翹舞曰鳳翔舞，育命舞曰靈應舞，武德舞曰武頌舞，文昭舞曰大昭舞，五行舞曰大武舞。
+- id: wei.2.p31.h3
+  anchor: wei.2.p31
+  at: 77
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wei.2.p31.t3
   anchor: wei.2.p31
   at: 93
@@ -1011,6 +1397,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 黃初6年 (AD 225)，月份「三月」
+- id: wei.2.p34.h1
+  anchor: wei.2.p34
+  at: 56
+  length: 2
+  type: person
+  person_id: liangxi
+  text: 梁習
+  via: primary
 - id: wei.2.p34.t3
   anchor: wei.2.p34
   at: 79
@@ -1183,6 +1577,30 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 年承前文 黃初7年 (AD 226)，月份「夏五月」
+- id: wei.2.p37.h1
+  anchor: wei.2.p37
+  at: 63
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: wei.2.p37.h2
+  anchor: wei.2.p37
+  at: 71
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
+- id: wei.2.p37.h3
+  anchor: wei.2.p37
+  at: 79
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
 - id: wei.2.p37.a1
   anchor: wei.2.p37
   at: 129
@@ -1203,6 +1621,38 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 黃初7年 (AD 226)，月份「六月」
+- id: wei.2.p37.h4
+  anchor: wei.2.p37
+  at: 160
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.2.p37.h5
+  anchor: wei.2.p37
+  at: 166
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: wei.2.p37.h6
+  anchor: wei.2.p37
+  at: 169
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳羣
+  via: alias
+- id: wei.2.p37.h7
+  anchor: wei.2.p37
+  at: 172
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
 - id: wei.2.p37.t5
   anchor: wei.2.p37
   at: 214
@@ -1231,12 +1681,28 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 原文「黃初七年五月」直接出现年号；解析為 AD 226
+- id: wei.2.p38.h1
+  anchor: wei.2.p38
+  at: 673
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.2.p39.a1
   anchor: wei.2.p39
   at: 47
   length: 0
   type: pei
   text: 《魏書》曰：帝初在東宮，疫癘大起，時人彫傷，帝深感歎，與素所敬者大理王朗書曰：「生有七尺之形，死爲一棺之土，唯立德揚名，可以不朽，其次莫如著篇籍。疫癘數起，士人彫落，余獨何人，能全其壽？」故論撰所著《典論》、詩賦，蓋百餘篇，集諸儒於肅城門內，講論大義，侃侃無倦。常嘉漢文帝之爲君，寬仁玄默，務欲以德化民，有賢聖之風。時文學諸儒，或以爲孝文雖賢，其於聦明，通達國體，不如賈誼。帝由是著《太宗論》曰：「昔有苗不賔，重華舞以干戚，尉他稱帝，孝文撫以恩德，吳王不朝，錫之几杖以撫其意，而天下賴安；乃弘三章之教，愷悌之化，欲使曩時累息之民，得闊步高談，無危懼之心。若賈誼之才敏，籌畫國政，特賢臣之器，管、晏之姿，豈若孝文大人之量哉？」三年之中，以孫權不服，復班太宗論於天下，明示不願征伐也。他日又從容言曰：「顧我亦有所不取於漢文帝者三：殺薄昭；幸鄧通；慎夫人衣不曳地，集上書囊爲帳帷。以爲漢文儉而無法，舅后之家，但當養育以恩而不當假借以權，旣觸罪法，又不得不害矣。」其欲秉持中道，以爲帝王儀表者如此。胡沖《吳歷》曰：帝以素書所著《典論》及詩賦餉孫權，又以紙寫一通與張昭。
+- id: wei.2.p40.h1
+  anchor: wei.2.p40
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.2.p40.a1
   anchor: wei.2.p40
   at: 22

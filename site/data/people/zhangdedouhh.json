@@ -1,0 +1,49 @@
+{
+  "id": "zhangdedouhh",
+  "primary_name": "章德竇皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 97,
+  "brief": "漢章帝皇后，和帝攝政",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.10",
+      "title": "皇后紀（下）",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.77",
+        "chapter_title": "酷吏列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.77.p17",
+        "at": 78,
+        "data_url": "data/houhanshu/hhs/77.json",
+        "matched": "皇后",
+        "snippet": "…於是部吏望風旨，爭以激切為事。貴戚跼蹐，京師肅清。皇后弟黃門郎竇篤從宮中歸，夜至止姦亭，亭長霍延遮止篤，篤蒼頭與爭，延遂拔劍擬篤，而肆詈恣口。篤以表聞。詔召司隸校尉、河南尹詣尚書譴…"
+      },
+      {
+        "chapter_id": "hhs.78",
+        "chapter_title": "宦者列传",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.78.p7",
+        "at": 2,
+        "data_url": "data/houhanshu/hhs/78.json",
+        "matched": "太后",
+        "snippet": "時窦太后秉政，后兄大将军宪等并窃威权，朝臣上下莫不附之，而众独一心王室，不事豪党，帝亲信焉。及宪兄弟图作不轨，众遂首谋诛之，以功迁大长…"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

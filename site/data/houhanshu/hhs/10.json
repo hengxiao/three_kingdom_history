@@ -19,12 +19,139 @@
     {
       "id": "hhs.10.p1",
       "text": "安思閻皇后順烈梁皇后孝崇匽皇后桓帝懿獻梁皇后孝桓鄧皇后桓思竇皇后孝仁董皇后孝靈宋皇后靈思何皇后獻帝伏皇后獻穆曹皇后",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.10.p1.h7",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanji",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h8",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h9",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanhh",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p1.h10",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangnvying",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h11",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dengmengnv",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h12",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h3",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dongtaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h13",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "songhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h4",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h2",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p1.h5",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p1.h6",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "caojie_huanghou",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.10.p2",
       "text": "安思閻皇后諱姬，河南滎陽人也。祖父章，永平中爲尚書，以二妹爲貴人。章精力曉舊典，乆次，當遷以重職，顯宗爲後宮親屬，竟不用，出爲步兵校尉。章生暢，暢生后。",
       "annotations": [
+        {
+          "id": "hhs.10.p2.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanji",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p2.a1",
           "type": "lixian",
@@ -70,6 +197,15 @@
           "era": "元初",
           "era_year": 2,
           "reasoning": "承前文年號「元初」推得，「二年」 = 元初2年 = AD 115"
+        },
+        {
+          "id": "hhs.10.p3.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanji",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p3.a1",
@@ -131,6 +267,15 @@
           "reasoning": "原文「建光元年」直接出现年号；解析為 AD 121"
         },
         {
+          "id": "hhs.10.p4.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengmengnv",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p4.t2",
           "type": "temporal",
           "at": 33,
@@ -163,6 +308,15 @@
           "at": 75,
           "length": 0,
           "text": "《大戴禮》曰：「男八歲而齔，女七歲而齔。」齔，毀齒也，音初刃反。"
+        },
+        {
+          "id": "hhs.10.p4.h1",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
         }
       ]
     },
@@ -189,6 +343,15 @@
           "at": 42,
           "length": 0,
           "text": "晏，晚也。臣下不敢斥言帝崩，猶言晚駕而出。"
+        },
+        {
+          "id": "hhs.10.p5.h1",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "太后",
+          "person_id": "yanji",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p5.a2",
@@ -238,6 +401,33 @@
       "text": "少帝立二百餘日而疾篤，顯兄弟及江京等皆在左右。京引顯屏語曰：「北鄉侯病不解，國嗣宜時有定。前不用濟陰王，今若立之，後必當怨，人何不早徵諸王子，簡所置乎？」顯以爲然。及少帝薨，京白太后，徵濟北、河閒王子。未至，而中黃門孫程合謀殺江京等，立濟陰王，是爲順帝。顯、景、晏及黨與皆伏誅，遷太后於離宮，家屬徙比景。明年，太后崩。在位十二年，合葬恭陵。",
       "annotations": [
         {
+          "id": "hhs.10.p7.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "少帝",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p7.h2",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "少帝",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p7.h3",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.10.p7.t1",
           "type": "temporal",
           "at": 152,
@@ -268,11 +458,29 @@
       "text": "順烈梁皇后諱妠，大將軍商之女，恭懷皇后弟之孫也。后生，有光景之祥。少善女工，好史書，九歲能誦《論語》，治《韓詩》，大義略舉。常以列女圖畫置於左右，以自監戒。父商深異之，竊謂諸弟曰：「我先人全濟河西，所活者不可勝數。雖大位不究，而積德必報。若慶流子孫者，儻興此女乎？」",
       "annotations": [
         {
+          "id": "hhs.10.p9.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p9.a1",
           "type": "lixian",
           "at": 8,
           "length": 0,
           "text": "《謚法》曰：「執德尊業曰烈。」聲類曰：「妠，娶也，音納。」"
+        },
+        {
+          "id": "hhs.10.p9.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "gonghuailianggui",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p9.a2",
@@ -329,6 +537,15 @@
           "text": "《詩》國風序曰：「言后妃若螽斯不妒忌，則子孫衆多也。」《詩》大雅曰「太姒嗣徽音，則百斯男」也。"
         },
         {
+          "id": "hhs.10.p10.h1",
+          "type": "person",
+          "at": 117,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p10.a3",
           "type": "lixian",
           "at": 133,
@@ -376,6 +593,15 @@
           "text": "正其內位，居陰德之極也。《易》曰「女正位乎內」也。"
         },
         {
+          "id": "hhs.10.p11.h1",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p11.a4",
           "type": "lixian",
           "at": 66,
@@ -407,6 +633,51 @@
           "era": "建康",
           "era_year": 1,
           "reasoning": "原文「建康元年」直接出现年号；解析為 AD 144"
+        },
+        {
+          "id": "hhs.10.p12.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "沖帝",
+          "person_id": "chonghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p12.h4",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p12.h5",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p12.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "沖帝",
+          "person_id": "chonghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p12.h3",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "質帝",
+          "person_id": "zhihan",
+          "via": "alias"
         }
       ]
     },
@@ -415,11 +686,74 @@
       "text": "時楊、徐劇賊寇擾州郡，西羌、鮮卑及日南蠻夷攻城暴掠，賦斂煩數，官民困竭。太后夙夜勤勞，推心杖賢，委任太尉李固等，拔用忠良，務崇節儉。其貪叨罪慝，多見誅廢。分兵討伐，羣寇消夷。故海內肅然，宗廟以寧。而兄大將軍兾鴆殺質帝，專權暴濫，忌害忠良，數以邪說疑誤太后，遂立桓帝而誅李固。太后又溺於宦官，多所封寵，以此天下失望。",
       "annotations": [
         {
+          "id": "hhs.10.p13.h5",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p13.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.10.p13.a1",
           "type": "lixian",
           "at": 72,
           "length": 0,
           "text": "貪財曰叨。慝，惡也。"
+        },
+        {
+          "id": "hhs.10.p13.h2",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "質帝",
+          "person_id": "zhihan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p13.h6",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p13.h3",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p13.h4",
+          "type": "person",
+          "at": 134,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p13.h7",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
         }
       ]
     },
@@ -441,6 +775,15 @@
           "reasoning": "原文「和平元年」直接出现年号；解析為 AD 150"
         },
         {
+          "id": "hhs.10.p14.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p14.a1",
           "type": "lixian",
           "at": 69,
@@ -459,13 +802,41 @@
           "at": 17,
           "length": 0,
           "text": "《續漢志》曰：「美人父詩爲郎中，詩父衡屯騎校尉。」"
+        },
+        {
+          "id": "hhs.10.p15.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "順帝",
+          "person_id": "shunhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p15.h2",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "沖帝",
+          "person_id": "chonghan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.10.p16",
       "text": "陳夫人者，家本魏郡，少以聲伎入孝王宮，得幸，生質帝。亦以梁氏故，榮寵不及焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.10.p16.h1",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "質帝",
+          "person_id": "zhihan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.10.p17",
@@ -506,6 +877,24 @@
           "text": "《公羊傳》曰：「桓公幼而貴，隱公長而卑。桓何以貴？母貴也。母貴則子何以貴？子以母貴，母以子貴。」"
         },
         {
+          "id": "hhs.10.p17.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "沖帝",
+          "person_id": "chonghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p17.h2",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "質帝",
+          "person_id": "zhihan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.10.p17.a4",
           "type": "lixian",
           "at": 144,
@@ -526,6 +915,15 @@
       "text": "孝崇匽皇后諱明，爲蠡吾侯翼媵妾，生桓帝。桓帝即位，明年，追尊翼爲孝崇皇，陵曰博陵，以后爲博園貴人。和平元年，梁太后崩，乃就博陵尊后爲孝崇皇后。遣司徒持節奉策授璽綬，齎乘輿器服，備法物。宮曰永樂。置太僕、少府以下，皆如長樂宮故事。又置虎賁、羽林衞士，起宮室，分鉅鹿九縣爲后湯沐邑。在位三年，元嘉二年崩。以帝弟平原王石爲喪主，斂以東園畫梓壽器、玉匣、飯含之具，禮儀制度比恭懷皇后。使司徒持節，大長秋奉弔祠，賻錢四千萬，布四萬匹，中謁者僕射典護喪事，侍御史護大駕鹵簿。詔安平王豹、河閒王建、勃海王悝，長社、益陽二長公主，與諸國侯三百里內者，及中二千石、二千石、令、長、相，皆會葬。將作大匠復土，繕廟，合葬博陵。",
       "annotations": [
         {
+          "id": "hhs.10.p18.h3",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanhh",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p18.a1",
           "type": "lixian",
           "at": 8,
@@ -538,6 +936,24 @@
           "at": 16,
           "length": 0,
           "text": "蠡吾侯翼，河閒王開子，和帝孫。"
+        },
+        {
+          "id": "hhs.10.p18.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p18.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p18.t1",
@@ -566,6 +982,24 @@
           "reasoning": "原文「和平元年」直接出现年号；解析為 AD 150（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.10.p18.h4",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p18.h5",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanhh",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p18.a3",
           "type": "lixian",
           "at": 114,
@@ -591,6 +1025,15 @@
           "at": 161,
           "length": 0,
           "text": "石，蠡吾侯翼子，桓帝兄。"
+        },
+        {
+          "id": "hhs.10.p18.h6",
+          "type": "person",
+          "at": 185,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "gonghuailianggui",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p18.a5",
@@ -634,6 +1077,24 @@
       "text": "桓帝懿獻梁皇后諱女瑩，順烈皇后之女弟也。帝初爲蠡吾侯，梁太后徵，欲與后爲婚，未及嘉禮，會質帝崩，因以立帝。明年，有司奏太后曰：「《春秋》迎王后于紀，在塗則稱后。今大將軍兾女弟，膺紹聖善。結婚之際，有命旣集，宜備禮章，時進徵幣。請下三公、太常案禮儀。」奏可。於是悉依孝惠皇帝納后故事，聘黃金二萬斤，納采鴈璧乘馬束帛，一如舊典。建和元年六月始入掖庭，八月立爲皇后。",
       "annotations": [
         {
+          "id": "hhs.10.p19.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p19.h3",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangnvying",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p19.a1",
           "type": "lixian",
           "at": 11,
@@ -641,11 +1102,38 @@
           "text": "《謚法》曰：「溫和聖善曰懿，聦明叡知曰獻。」"
         },
         {
+          "id": "hhs.10.p19.h4",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p19.h5",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p19.a2",
           "type": "lixian",
           "at": 43,
           "length": 0,
           "text": "嘉禮，婚禮。"
+        },
+        {
+          "id": "hhs.10.p19.h2",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "質帝",
+          "person_id": "zhihan",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p19.t1",
@@ -659,6 +1147,15 @@
           "era": "熹平",
           "era_year": 6,
           "reasoning": "「明年」 = 当前年 熹平5年 (AD 176) 之次年 = AD 177"
+        },
+        {
+          "id": "hhs.10.p19.h6",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p19.a3",
@@ -724,6 +1221,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 熹平6年 (AD 177)，月份「八月」"
+        },
+        {
+          "id": "hhs.10.p19.h7",
+          "type": "person",
+          "at": 177,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangnvying",
+          "via": "llm"
         }
       ]
     },
@@ -731,6 +1237,24 @@
       "id": "hhs.10.p20",
       "text": "時太后秉政而梁兾專朝，故后獨得寵幸，自下莫得進見。后藉姊兄廕埶，恣極奢靡，宮幄彫麗，服御珍華，巧飾制度，兼倍前世。及皇太后崩，恩愛稍衰。后旣無子，潛懷怨忌，每宮人孕育，鮮得全者。帝雖迫畏梁兾，不敢譴怒，然見御轉稀。至延熹三年，后以憂恚崩，在位十三年，葬懿陵。其歲，誅梁兾，廢懿陵爲貴人冢焉。",
       "annotations": [
+        {
+          "id": "hhs.10.p20.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p20.h2",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太后",
+          "person_id": "liangna",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p20.t1",
           "type": "temporal",
@@ -751,6 +1275,24 @@
       "text": "桓帝鄧皇后諱猛女，和熹皇后從兄子鄧香之女也。母宣，初適香，生后。改嫁梁紀，紀者，大將軍梁兾妻孫壽之舅也。后少孤，隨母爲居，因冒姓梁氏。兾妻見后貌美，永興中進入掖庭，爲采女，絕幸。明年，封兄鄧演爲南頓侯，位特進。演卒，子康嗣。及懿獻后崩，梁兾誅，立后爲皇后。帝惡梁氏，改姓爲薄，封后母宣爲長安君。四年，有司奏后本郎中鄧香之女，不宜改易它姓，於是復爲鄧氏。追封贈香車騎將軍安陽侯印綬，更封宣、康大縣，宣爲昆陽君，康爲沘陽侯，賞賜巨萬計。宣卒，賵贈葬禮，皆依后母舊儀。以康弟統襲封昆陽侯，位侍中；統從兄會襲安陽侯，爲虎賁中郎將；又封統弟秉爲淯陽侯。宗族皆列校、郎將。",
       "annotations": [
         {
+          "id": "hhs.10.p21.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p21.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dengmengnv",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p21.a1",
           "type": "lixian",
           "at": 89,
@@ -769,6 +1311,15 @@
           "era": "熹平",
           "era_year": 7,
           "reasoning": "「明年」 = 当前年 熹平6年 (AD 177) 之次年 = AD 178"
+        },
+        {
+          "id": "hhs.10.p21.h3",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dengmengnv",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p21.t2",
@@ -810,6 +1361,15 @@
       "text": "桓思竇皇后諱妙，章德皇后從祖弟之孫女也。父諱武。延熹八年，鄧皇后廢，后以選入掖庭爲貴人，其冬，立爲皇后，而御見甚稀，帝所寵唯采女田聖等。永康元年冬，帝寢疾，遂以聖等九女皆爲貴人。及崩，無嗣，后爲皇太后。太后臨朝定策，立解犢亭侯宏，是爲靈帝。",
       "annotations": [
         {
+          "id": "hhs.10.p23.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p23.t1",
           "type": "temporal",
           "at": 24,
@@ -823,6 +1383,24 @@
           "reasoning": "原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.10.p23.h3",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dengmengnv",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p23.h4",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p23.t2",
           "type": "temporal",
           "at": 68,
@@ -834,18 +1412,91 @@
           "era": "永康",
           "era_year": 1,
           "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.10.p23.h5",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p23.h6",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p23.h1",
+          "type": "person",
+          "at": 117,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "hhs.10.p24",
       "text": "太后素忌忍，積怒田聖等，桓帝梓宮尚在前殿，遂殺田聖。又欲盡誅諸貴人，中常侍管霸、蘇康苦諫，乃止。時太后父大將軍武謀誅宦官，而中常侍曹節等矯詔殺武，遷太后於南宮雲臺，家屬徙比景。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.10.p24.h2",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p24.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p24.h3",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p24.h4",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.10.p25",
       "text": "竇氏雖誅，帝猶以太后有援立之功，建寧四年十月朔，率羣臣朝于南宮，親饋上壽。黃門令董萌因此數爲太后訴怨，帝深納之，供養資奉有加於前。中常侍曹節、王甫疾萌附助太后，誣以謗訕永樂宮，萌坐下獄死。熹平元年，太后母卒於比景，太后感疾而崩。立七年。合葬宣陵。",
       "annotations": [
+        {
+          "id": "hhs.10.p25.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p25.t1",
           "type": "temporal",
@@ -869,6 +1520,24 @@
           "text": "《漢官儀》曰：「黃門令秩六百石。」"
         },
         {
+          "id": "hhs.10.p25.h2",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p25.h3",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p25.a2",
           "type": "lixian",
           "at": 88,
@@ -887,6 +1556,24 @@
           "era": "熹平",
           "era_year": 1,
           "reasoning": "原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.10.p25.h4",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p25.h5",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
         }
       ]
     },
@@ -895,11 +1582,29 @@
       "text": "孝仁董皇后諱某，河閒人。爲解犢亭侯萇夫人，生靈帝。建寧元年，帝即位，追尊萇爲孝仁皇，陵曰慎陵，以后爲慎園貴人。及竇氏誅，明年，帝使中常侍迎貴人，并徵貴人兄寵到京師，上尊號曰孝仁皇后，居南宮嘉德殿，宮稱永樂。拜寵執金吾。後坐矯稱永樂后屬請，下獄死。",
       "annotations": [
         {
+          "id": "hhs.10.p26.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dongtaihou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p26.a1",
           "type": "lixian",
           "at": 21,
           "length": 0,
           "text": "萇，河閒孝王開孫淑之子也。"
+        },
+        {
+          "id": "hhs.10.p26.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p26.t1",
@@ -928,6 +1633,15 @@
           "reasoning": "「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176"
         },
         {
+          "id": "hhs.10.p26.h3",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dongtaihou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p26.a2",
           "type": "lixian",
           "at": 98,
@@ -940,6 +1654,15 @@
       "id": "hhs.10.p27",
       "text": "及竇太后崩，始與朝政，使帝賣官求貨，自納金錢，盈滿堂室。中平五年，以后兄子衞尉脩侯重爲票騎將軍，領兵千餘人。初，后自養皇子協，數勸帝立爲太子，而何皇后恨之，議未及定而帝崩。何太后臨朝，重與太后兄大將軍進權埶相害，后每欲參干政事，太后輒相禁塞。后忿恚詈言曰：「汝今輈張，怙汝兄耶？當勑票騎斷何進頭來。」何太后聞，以告進。進與三公及弟車騎將軍苗等奏：「孝仁皇后使故中常侍夏惲、永樂太僕封諝等交通州郡，辜較在所珍寶貨賂，悉入西省。蕃后故事不得留京師，輿服有章，膳羞有品。請永樂后遷宮本國。」奏可。何進遂舉兵圍驃騎府，收重，重免官自殺。后憂怖，疾病暴崩，在位二十二年。民間歸咎何氏。喪還河閒，合葬慎陵。",
       "annotations": [
+        {
+          "id": "hhs.10.p27.h9",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p27.t1",
           "type": "temporal",
@@ -961,11 +1684,74 @@
           "text": "脩，今德州縣也，故城在縣南。「脩」今作「蓨」，音條。"
         },
         {
+          "id": "hhs.10.p27.h3",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p27.h4",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p27.h5",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p27.h6",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p27.a2",
           "type": "lixian",
           "at": 139,
           "length": 0,
           "text": "輈張猶彊梁也。"
+        },
+        {
+          "id": "hhs.10.p27.h1",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p27.h7",
+          "type": "person",
+          "at": 151,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p27.h8",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dongtaihou",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p27.a3",
@@ -987,6 +1773,15 @@
           "at": 222,
           "length": 0,
           "text": "蕃后謂平帝母衞姬。時王莽攝政，恐其專權，后不得留在京師，故云故事也。"
+        },
+        {
+          "id": "hhs.10.p27.h2",
+          "type": "person",
+          "at": 245,
+          "length": 2,
+          "text": "何進",
+          "person_id": "hejin",
+          "via": "primary"
         }
       ]
     },
@@ -994,6 +1789,24 @@
       "id": "hhs.10.p28",
       "text": "靈帝宋皇后諱某，扶風平陵人也，肅宗宋貴人之從曾孫也。建寧三年，選入掖庭爲貴人。明年，立爲皇后。父酆，執金吾，封不其鄉侯。",
       "annotations": [
+        {
+          "id": "hhs.10.p28.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p28.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "songhuanghou",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p28.t1",
           "type": "temporal",
@@ -1041,6 +1854,15 @@
           "text": "熹平元年，王甫譖悝與中常侍鄭颯交通，欲迎立悝，悝自殺，妃死獄中也。"
         },
         {
+          "id": "hhs.10.p29.h1",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "songhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p29.a2",
           "type": "lixian",
           "at": 68,
@@ -1074,6 +1896,24 @@
       "text": "帝後夢見桓帝怒曰：「宋皇后有何罪過，而聽用邪孽，使絕其命？勃海王悝旣已自貶，又受誅斃。今宋氏及悝自訴於天，上帝震怒，罪在難救。」夢殊明察。帝旣覺而恐，以事問於羽林左監許永曰：「此何祥？其可攘乎？」永對曰：「宋皇后親與陛下共承宗廟，母臨萬國，歷年已乆，海內蒙化，過惡無聞。而虛聽讒妬之說，以致無辜之罪，身嬰極誅，禍及家族，天下臣妾，咸爲怨痛。勃海王悝，桓帝母弟也。處國奉藩，未甞有過。陛下曾不證審，遂伏其辜。昔晉侯失刑，亦夢大厲被髮屬地。天道明察，鬼神難誣。宜並改葬，以安冤魂。反宋后之徙家，復勃海之先封，以消厥咎。」帝弗能用，尋亦崩焉。",
       "annotations": [
         {
+          "id": "hhs.10.p30.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p30.h5",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "songhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p30.a1",
           "type": "lixian",
           "at": 58,
@@ -1095,6 +1935,42 @@
           "text": "攘謂除也。"
         },
         {
+          "id": "hhs.10.p30.h6",
+          "type": "person",
+          "at": 104,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "songhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p30.h3",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p30.h2",
+          "type": "person",
+          "at": 175,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p30.h4",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p30.a4",
           "type": "lixian",
           "at": 218,
@@ -1107,6 +1983,15 @@
       "id": "hhs.10.p31",
       "text": "靈思何皇后諱某，南陽宛人。家本屠者，以選入掖庭。長七尺一寸。生皇子辯，養於史道人家，號曰史侯。拜后爲貴人，甚有寵幸。性彊忌，後宮莫不震懾。",
       "annotations": [
+        {
+          "id": "hhs.10.p31.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
         {
           "id": "hhs.10.p31.a1",
           "type": "lixian",
@@ -1141,6 +2026,15 @@
           "reasoning": "原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.10.p32.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p32.t2",
           "type": "temporal",
           "at": 10,
@@ -1157,6 +2051,15 @@
           "at": 47,
           "length": 0,
           "text": "《左傳》曰：「邑姜方娠。」杜預注曰：「懷胎爲娠。」音之刃反，一音身。"
+        },
+        {
+          "id": "hhs.10.p32.h2",
+          "type": "person",
+          "at": 103,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dongtaihou",
+          "via": "llm"
         }
       ]
     },
@@ -1191,6 +2094,105 @@
           "reasoning": "原文「中平六年」直接出现年号；解析為 AD 189（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.10.p34.h8",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p34.h9",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p34.h1",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p34.h2",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "少帝",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p34.h3",
+          "type": "person",
+          "at": 76,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p34.h4",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p34.h5",
+          "type": "person",
+          "at": 89,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p34.h10",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p34.h6",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p34.h11",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.10.p34.h7",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
           "id": "hhs.10.p34.a1",
           "type": "lixian",
           "at": 168,
@@ -1209,7 +2211,17 @@
     {
       "id": "hhs.10.p35",
       "text": "初，太后新立，當謁二祖廟，欲齋，輒有變故，如此者數，竟不克。時有識之士心獨怪之，後遂因何氏傾沒漢祚焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.10.p35.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太后",
+          "person_id": "hetaihou",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.10.p36",
@@ -1225,6 +2237,33 @@
           "resolution": "next_year",
           "year_ad": 191,
           "reasoning": "「明年」 = 当前年 AD 190 之次年 = AD 191（跨年號邊界，新年號未明）"
+        },
+        {
+          "id": "hhs.10.p36.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p36.h2",
+          "type": "person",
+          "at": 16,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.10.p36.h3",
+          "type": "person",
+          "at": 19,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p36.a1",
@@ -1254,11 +2293,38 @@
           "text": "不自名少帝之姬也。袁宏《紀》曰：「爲傕所略，不敢自言。」"
         },
         {
+          "id": "hhs.10.p37.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "賈詡",
+          "person_id": "jiaxu",
+          "via": "primary"
+        },
+        {
           "id": "hhs.10.p37.a2",
           "type": "lixian",
           "at": 70,
           "length": 0,
           "text": "《魏志》曰：「詡字文和，武威姑臧人。少時漢陽閻忠見而異之，曰：『詡有良、平之才。』」"
+        },
+        {
+          "id": "hhs.10.p37.h2",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p37.h3",
+          "type": "person",
+          "at": 98,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
         }
       ]
     },
@@ -1280,6 +2346,15 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "原文「初平元年二月」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.10.p38.h1",
+          "type": "person",
+          "at": 8,
+          "length": 3,
+          "text": "弘農王",
+          "person_id": "liubian",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p38.a1",
@@ -1320,6 +2395,15 @@
           "text": "《詩》云：「心如結兮。」"
         },
         {
+          "id": "hhs.10.p40.h1",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "wangrong",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p40.a2",
           "type": "lixian",
           "at": 110,
@@ -1346,11 +2430,38 @@
       "text": "獻帝伏皇后諱壽，琅邪東武人，，大司徒湛之八世孫也。父完，沈深有大度，襲爵不其侯，尚桓帝女陽安公主，爲侍中。",
       "annotations": [
         {
+          "id": "hhs.10.p42.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p42.h3",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p42.a1",
           "type": "lixian",
           "at": 14,
           "length": 0,
           "text": "東武，今密州諸城縣。"
+        },
+        {
+          "id": "hhs.10.p42.h2",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p42.a2",
@@ -1392,6 +2503,15 @@
           "reasoning": "原文「興平二年」直接出现年号；解析為 AD 195"
         },
         {
+          "id": "hhs.10.p43.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p43.a1",
           "type": "lixian",
           "at": 66,
@@ -1426,6 +2546,15 @@
           "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196"
         },
         {
+          "id": "hhs.10.p43.h1",
+          "type": "person",
+          "at": 143,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
           "id": "hhs.10.p43.t4",
           "type": "temporal",
           "at": 169,
@@ -1445,6 +2574,42 @@
       "text": "自帝都許，守位而已，宿衞兵侍，莫非曹氏黨舊姻戚。議郎趙彥甞爲帝陳言時策，曹操惡而殺之。其餘內外，多見誅戮。操後以事入見殿中，帝不任其憤，因曰：「君若能相輔，則厚；不爾，幸垂恩相捨。」操失色，俛仰求出。舊儀，三公領兵朝見，令虎賁執刃挾之。操出，顧左右，汗流浹背，自後不敢復朝請。董承女爲貴人，操誅承而求貴人殺之。帝以貴人有𡜟，累爲請，不能得。后自是懷懼，乃與父完書，言曹操殘逼之狀，令密圖之。完不敢發。至十九年，事乃露泄。操追大怒，遂逼帝廢后，假爲策曰：「皇后壽，得由卑賤，登顯尊極，自處椒房，二紀于茲。旣無任、姒徽音之羙，又乏謹身養己之福，而陰懷妒害，苞藏禍心，弗可以承天命，奉祖宗。今使御史大夫郗慮持節策詔，其上皇后璽綬，退避中宮，遷于它館。嗚呼傷哉！自壽取之，未致于理，爲幸多焉。」又以尚書令華歆爲郗慮副，勒兵入宮收后。閉戶藏壁中，歆就牽后出。時帝在外殿，引慮於坐。后被髮徒跣行泣過訣曰：「不能復相活邪？」帝曰：「我亦不知命在何時！」顧謂慮曰：「郗公，天下寧有是邪？」遂將后下暴室，以幽崩。所生二皇子，皆酖殺之。后在位二十年，兄弟及宗族死者百餘人，母盈等十九人徙涿郡。",
       "annotations": [
         {
+          "id": "hhs.10.p44.h1",
+          "type": "person",
+          "at": 36,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p44.h2",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.10.p44.h3",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.10.p44.h4",
+          "type": "person",
+          "at": 118,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
           "id": "hhs.10.p44.a1",
           "type": "lixian",
           "at": 130,
@@ -1452,11 +2617,47 @@
           "text": "浹，徹也，音子協反。"
         },
         {
+          "id": "hhs.10.p44.h5",
+          "type": "person",
+          "at": 145,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
           "id": "hhs.10.p44.a2",
           "type": "lixian",
           "at": 162,
           "length": 0,
           "text": "《說文》曰：「𡜟，孕也。」音仁蔭反。"
+        },
+        {
+          "id": "hhs.10.p44.h6",
+          "type": "person",
+          "at": 183,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.10.p44.h7",
+          "type": "person",
+          "at": 210,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.10.p44.h9",
+          "type": "person",
+          "at": 227,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p44.a3",
@@ -1480,11 +2681,29 @@
           "text": "《左傳》曰：「人受天地之中而生，謂之命。能者養之以福，不能者敗以取禍。」"
         },
         {
+          "id": "hhs.10.p44.h10",
+          "type": "person",
+          "at": 307,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p44.a6",
           "type": "lixian",
           "at": 312,
           "length": 0,
           "text": "蔡邕《獨斷》曰：「皇后赤綬玉璽。」《續漢志》曰：「乘輿黃赤綬，四綵黃赤縹紺，淳黃圭，綬長二丈九尺九寸，五百首。太皇太后、皇太后，其綬皆與乘輿同。」"
+        },
+        {
+          "id": "hhs.10.p44.h8",
+          "type": "person",
+          "at": 348,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
         },
         {
           "id": "hhs.10.p44.a7",
@@ -1500,11 +2719,29 @@
       "text": "獻穆曹皇后諱節，魏公曹操之中女也。建安十八年，操進三女憲、節、華爲夫人，聘以束帛玄纁五萬匹，小者待年於國。十九年，並拜爲貴人。及伏皇后被弒，明年，立節爲皇后。魏受禪，遣使求璽綬，后怒不與。如此數輩，后乃呼使者入，親數讓之，以璽抵軒下，因涕泣橫流曰：「天不祚爾！」左右皆莫能仰視。后在位七年。魏氏旣立，以后爲山陽公夫人。自後四十一年，魏景初元年薨，合葬禪陵，車服禮儀皆依漢制。",
       "annotations": [
         {
+          "id": "hhs.10.p45.h3",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "caojie_huanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p45.a1",
           "type": "lixian",
           "at": 8,
           "length": 0,
           "text": "《謚法》曰：「布德執義曰穆。」"
+        },
+        {
+          "id": "hhs.10.p45.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
         },
         {
           "id": "hhs.10.p45.t1",
@@ -1518,6 +2755,15 @@
           "era": "建安",
           "era_year": 18,
           "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213"
+        },
+        {
+          "id": "hhs.10.p45.h2",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
         },
         {
           "id": "hhs.10.p45.a2",
@@ -1540,6 +2786,15 @@
           "reasoning": "承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214"
         },
         {
+          "id": "hhs.10.p45.h4",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "fuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "hhs.10.p45.t3",
           "type": "temporal",
           "at": 70,
@@ -1551,6 +2806,15 @@
           "era": "建安",
           "era_year": 20,
           "reasoning": "「明年」 = 当前年 建安19年 (AD 214) 之次年 = AD 215"
+        },
+        {
+          "id": "hhs.10.p45.h5",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "caojie_huanghou",
+          "via": "llm"
         },
         {
           "id": "hhs.10.p45.a3",
@@ -1571,6 +2835,15 @@
           "at": 34,
           "length": 0,
           "text": "上官，昭帝后也。"
+        },
+        {
+          "id": "hhs.10.p46.h1",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
         },
         {
           "id": "hhs.10.p46.a2",
@@ -1674,6 +2947,24 @@
           "at": 75,
           "length": 0,
           "text": "《東平王傳》曰：「封蒼女五人爲縣公主。」孝王女，傳不見其數。"
+        },
+        {
+          "id": "hhs.10.p48.h1",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.10.p48.h2",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
         },
         {
           "id": "hhs.10.p48.a5",
@@ -1924,6 +3215,15 @@
           "at": 26,
           "length": 0,
           "text": "征羌，縣，屬汝南郡。棱，襃之子，歙之孫。"
+        },
+        {
+          "id": "hhs.10.p61.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
         }
       ]
     },

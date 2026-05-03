@@ -151,8 +151,8 @@ async function renderChapter(book, juan) {
   const main = $("#content");
   main.innerHTML = "載入章節中…";
   try {
-    const [ch, nameIndex] = await Promise.all([loadJSON(dataUrl), getNameIndex()]);
-    main.innerHTML = renderChapterHTML(ch, nameIndex);
+    const ch = await loadJSON(dataUrl);
+    main.innerHTML = renderChapterHTML(ch);
   } catch (err) {
     main.innerHTML = `<div class="error">載入章節失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -162,7 +162,7 @@ function bookTitleFromId(id) {
   return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書", zztj: "資治通鑑" }[id] || id;
 }
 
-function renderChapterHTML(ch, nameIndex) {
+function renderChapterHTML(ch) {
   const warns = (ch.parse_warnings && ch.parse_warnings.length) ? `
     <div class="parse-warnings">
       <strong>解析警告</strong>（多半因 Wikisource 標記不平衡，已盡力恢復）：
@@ -170,7 +170,7 @@ function renderChapterHTML(ch, nameIndex) {
     </div>` : "";
 
   const segments = ch.segments.map(s => {
-    const r = renderSegmentText(s, nameIndex);
+    const r = renderSegmentText(s);
     return `
     <div class="segment" id="${s.id}">
       <div class="seg-id"><a href="#/chapter/${ch.book}/${ch.juan}#${s.id}" title="複製鏈接">${escapeHTML(s.id.split('.').slice(-1)[0])}</a></div>
@@ -218,21 +218,23 @@ function renderChapterNav(ch) {
  *
  * Returns { textHTML, notesHTML }.
  */
-function renderSegmentText(seg, nameIndex) {
+function renderSegmentText(seg) {
   const text = seg.text;
-  const peis = seg.annotations.filter(a => a.type !== "temporal");
+  const peis = seg.annotations.filter(a => a.type !== "temporal" && a.type !== "person");
   const temporals = seg.annotations.filter(a => a.type === "temporal");
+  const personAnns = seg.annotations.filter(a => a.type === "person");
   const peiNum = new Map();
   peis.forEach((a, i) => peiNum.set(a.id, i + 1));
   const tempNum = new Map();
   temporals.forEach((a, i) => tempNum.set(a.id, i + 1));
 
-  // Person-name spans, excluding any that fall inside a temporal surface (otherwise
-  // we'd nest <a> tags — temporal anchors already wrap their range).
+  // Person spans come from build-time annotations (tools/extract_persons.py).
+  // Skip any that overlap a temporal surface — temporal already wraps that range
+  // with an <a> tag, and nesting <a>s produces invalid HTML.
   const tempRanges = temporals.map(a => [a.at, a.at + a.length]);
-  const personSpans = nameIndex && nameIndex.length
-    ? findPersonSpans(text, nameIndex, tempRanges)
-    : [];
+  const personSpans = personAnns
+    .map(a => ({ at: a.at, end: a.at + a.length, id: a.person_id, name: a.text }))
+    .filter(sp => !tempRanges.some(([s, e]) => sp.at < e && sp.end > s));
 
   const events = [];
   for (const a of temporals) {

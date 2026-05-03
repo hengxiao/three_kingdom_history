@@ -409,12 +409,22 @@ def parse_wikisource_html(html: str, *, work: str = "sanguozhi") -> WSChapter:
         for tag in ("h2", "h3", "h4", "pre"):
             body = re.sub(rf"<{tag}([^>]*)>(.*?)</{tag}>",
                           r"<p\1>\2</p>", body, flags=re.DOTALL)
+        # Several zztj chapters (058, 061, 062, 069-072) prefix each paragraph
+        # with `<b>N</b>　…` paragraph numbers from the Wikisource template.
+        # Strip them — they're not part of the canonical text.
+        body = re.sub(r"<p([^>]*)>(?:<b>)?\s*\d+\s*(?:</b>)?[　\s]*",
+                      r"<p\1>", body)
 
     p_texts: list[str] = []
     for pm in _P_TAG_RE.finditer(body):
         text = _strip_to_text(pm.group(1))
-        if text and _has_min_han(text):
-            p_texts.append(text)
+        if not text or not _has_min_han(text):
+            continue
+        # Drop the public-domain notice that appears at the end of every
+        # Wikisource page: 「此<朝代>作品在全世界都属于公有领域…1931年1月1日之前出版。」
+        if "公有领域" in text or "公有領域" in text:
+            continue
+        p_texts.append(text)
 
     if not p_texts:
         raise ValueError("no body paragraphs found — Wikisource layout may have changed")

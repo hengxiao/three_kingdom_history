@@ -1,0 +1,49 @@
+{
+  "id": "liuru",
+  "primary_name": "劉儒",
+  "courtesy_name": "叔林",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 213,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "劉儒",
+        "snippet": "…者，言其能導人追宗者也；度尚及東平張邈、王孝、東郡劉儒、泰山胡母班、陳留秦周、魯國蕃向、東萊王章為八廚，廚者，言能以財救人者也。及陳、竇用事，復舉拔膺等；陳、竇誅，膺等復廢。宦官疾…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p26",
+        "at": 42,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "劉儒",
+        "snippet": "…諸鉤黨者故司空虞放及李膺、杜宻、朱㝢、荀翌、翟超、劉儒、范滂等，請下州郡考治。」是時上年十四，問節等曰：「何以為鉤黨？」對曰：「鉤黨者，即黨人也。」上曰：「黨人何用為惡而欲誅之邪？…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

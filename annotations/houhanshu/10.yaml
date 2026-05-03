@@ -5,6 +5,142 @@ source:
   retrieved: '2026-05-03'
   sha256: 1bff2f13bdcc003ee21adc1873e1c8355e907ec92338e51371da00a9a3fad71f
 annotations:
+- anchor: hhs.10.p1
+  at: 3
+  length: 2
+  type: person
+  person_id: yanji
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 目錄首列「安思閻皇后」即漢安帝閻皇后閻姬，名籍未列入 roster。
+  id: hhs.10.p1.h7
+- anchor: hhs.10.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: liangna
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「順烈梁皇后」即漢順帝梁皇后梁妠，未列 roster。
+  id: hhs.10.p1.h8
+- anchor: hhs.10.p1
+  at: 13
+  length: 2
+  type: person
+  person_id: yanhh
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「孝崇匽皇后」即桓帝生母匽明，未列 roster。
+  id: hhs.10.p1.h9
+- id: hhs.10.p1.h1
+  anchor: hhs.10.p1
+  at: 15
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p1
+  at: 20
+  length: 2
+  type: person
+  person_id: liangnvying
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「桓帝懿獻梁皇后」即桓帝梁皇后梁女瑩，未列 roster。
+  id: hhs.10.p1.h10
+- anchor: hhs.10.p1
+  at: 25
+  length: 2
+  type: person
+  person_id: dengmengnv
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「孝桓鄧皇后」即桓帝鄧皇后鄧猛女，未列 roster。
+  id: hhs.10.p1.h11
+- anchor: hhs.10.p1
+  at: 30
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「桓思竇皇后」即桓帝竇皇后竇妙，未列 roster。
+  id: hhs.10.p1.h12
+- anchor: hhs.10.p1
+  at: 35
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「孝仁董皇后」即靈帝生母董太后（永樂太后），對應 dongtaihou。
+  id: hhs.10.p1.h3
+- anchor: hhs.10.p1
+  at: 40
+  length: 2
+  type: person
+  person_id: songhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「孝靈宋皇后」即靈帝前皇后宋氏，未列 roster。
+  id: hhs.10.p1.h13
+- anchor: hhs.10.p1
+  at: 45
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「靈思何皇后」即靈帝何皇后，後為何太后，何進妹，對應 hetaihou。
+  id: hhs.10.p1.h4
+- id: hhs.10.p1.h2
+  anchor: hhs.10.p1
+  at: 47
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- anchor: hhs.10.p1
+  at: 50
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「獻帝伏皇后」即獻帝伏壽皇后，父伏完，對應 fuhuanghou。
+  id: hhs.10.p1.h5
+- anchor: hhs.10.p1
+  at: 55
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「獻穆曹皇后」即獻帝後立皇后曹節，曹操中女，對應 caojie_huanghou。
+  id: hhs.10.p1.h6
+- anchor: hhs.10.p2
+  at: 3
+  length: 2
+  type: person
+  person_id: yanji
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 本段「安思閻皇后諱姬」傳記之主，閻姬未列 roster。
+  id: hhs.10.p2.h1
 - id: hhs.10.p2.a1
   anchor: hhs.10.p2
   at: 8
@@ -41,6 +177,16 @@ annotations:
   era: 元初
   era_year: 2
   reasoning: 承前文年號「元初」推得，「二年」 = 元初2年 = AD 115
+- anchor: hhs.10.p3
+  at: 30
+  length: 2
+  type: person
+  person_id: yanji
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立爲皇后」承閻姬傳，未列 roster。
+  id: hhs.10.p3.h1
 - id: hhs.10.p3.a1
   anchor: hhs.10.p3
   at: 57
@@ -89,6 +235,16 @@ annotations:
   era: 建光
   era_year: 1
   reasoning: 原文「建光元年」直接出现年号；解析為 AD 121
+- anchor: hhs.10.p4
+  at: 6
+  length: 2
+  type: person
+  person_id: dengmengnv
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「鄧太后崩」指漢和帝鄧皇后（和熹鄧后），未列 roster。
+  id: hhs.10.p4.h2
 - id: hhs.10.p4.t2
   anchor: hhs.10.p4
   at: 33
@@ -119,6 +275,16 @@ annotations:
   length: 0
   type: lixian
   text: 《大戴禮》曰：「男八歲而齔，女七歲而齔。」齔，毀齒也，音初刃反。
+- anchor: hhs.10.p4
+  at: 113
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「皇太子保」即漢安帝太子劉保，後為漢順帝，對應 shunhan。
+  id: hhs.10.p4.h1
 - id: hhs.10.p5.t1
   anchor: hhs.10.p5
   at: 0
@@ -137,6 +303,16 @@ annotations:
   length: 0
   type: lixian
   text: 晏，晚也。臣下不敢斥言帝崩，猶言晚駕而出。
+- anchor: hhs.10.p5
+  at: 113
+  length: 2
+  type: person
+  person_id: yanji
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「尊后曰皇太后」即閻姬被尊為太后，未列 roster。
+  id: hhs.10.p5.h1
 - id: hhs.10.p5.a2
   anchor: hhs.10.p5
   at: 122
@@ -167,6 +343,30 @@ annotations:
   length: 0
   type: lixian
   text: 比景，縣名，屬日南郡。《前書音義》曰：「日中於頭上，景在己下，故名之。」
+- id: hhs.10.p7.h1
+  anchor: hhs.10.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.10.p7.h2
+  anchor: hhs.10.p7
+  at: 83
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.10.p7.h3
+  anchor: hhs.10.p7
+  at: 124
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
 - id: hhs.10.p7.t1
   anchor: hhs.10.p7
   at: 152
@@ -183,12 +383,32 @@ annotations:
   length: 0
   type: lixian
   text: 在恭陵之北，因以爲名。《漢官儀》曰：「置陵園令、食監各一人，秩皆六百石。」金匱，緘之以金。
+- anchor: hhs.10.p9
+  at: 3
+  length: 2
+  type: person
+  person_id: liangna
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「順烈梁皇后」即梁妠，傳主，未列 roster。
+  id: hhs.10.p9.h1
 - id: hhs.10.p9.a1
   anchor: hhs.10.p9
   at: 8
   length: 0
   type: lixian
   text: 《謚法》曰：「執德尊業曰烈。」聲類曰：「妠，娶也，音納。」
+- anchor: hhs.10.p9
+  at: 17
+  length: 2
+  type: person
+  person_id: gonghuailianggui
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「恭懷皇后弟之孫」指和帝梁貴人恭懷皇后梁氏，未列 roster。
+  id: hhs.10.p9.h2
 - id: hhs.10.p9.a2
   anchor: hhs.10.p9
   at: 57
@@ -231,6 +451,16 @@ annotations:
   length: 0
   type: lixian
   text: 《詩》國風序曰：「言后妃若螽斯不妒忌，則子孫衆多也。」《詩》大雅曰「太姒嗣徽音，則百斯男」也。
+- anchor: hhs.10.p10
+  at: 117
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 「願陛下思雲雨之均澤」梁妠對話對象為順帝，對應 shunhan。
+  id: hhs.10.p10.h1
 - id: hhs.10.p10.a3
   anchor: hhs.10.p10
   at: 133
@@ -267,6 +497,16 @@ annotations:
   length: 0
   type: lixian
   text: 正其內位，居陰德之極也。《易》曰「女正位乎內」也。
+- anchor: hhs.10.p11
+  at: 63
+  length: 2
+  type: person
+  person_id: liangna
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立貴人爲皇后」即陽嘉元年立梁妠為皇后，未列 roster。
+  id: hhs.10.p11.h1
 - id: hhs.10.p11.a4
   anchor: hhs.10.p11
   at: 66
@@ -291,12 +531,118 @@ annotations:
   era: 建康
   era_year: 1
   reasoning: 原文「建康元年」直接出现年号；解析為 AD 144
+- id: hhs.10.p12.h1
+  anchor: hhs.10.p12
+  at: 22
+  length: 2
+  type: person
+  person_id: chonghan
+  text: 沖帝
+  via: alias
+- anchor: hhs.10.p12
+  at: 29
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「尊后爲皇太后」即梁妠由皇后進為太后（順烈太后），未列 roster。
+  id: hhs.10.p12.h4
+- anchor: hhs.10.p12
+  at: 32
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后臨朝」延續即梁太后梁妠，未列 roster。
+  id: hhs.10.p12.h5
+- id: hhs.10.p12.h2
+  anchor: hhs.10.p12
+  at: 37
+  length: 2
+  type: person
+  person_id: chonghan
+  text: 沖帝
+  via: alias
+- id: hhs.10.p12.h3
+  anchor: hhs.10.p12
+  at: 44
+  length: 2
+  type: person
+  person_id: zhihan
+  text: 質帝
+  via: alias
+- anchor: hhs.10.p13
+  at: 36
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后夙夜勤勞」即梁太后梁妠，未列 roster。
+  id: hhs.10.p13.h5
+- id: hhs.10.p13.h1
+  anchor: hhs.10.p13
+  at: 52
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
 - id: hhs.10.p13.a1
   anchor: hhs.10.p13
   at: 72
   length: 0
   type: lixian
   text: 貪財曰叨。慝，惡也。
+- id: hhs.10.p13.h2
+  anchor: hhs.10.p13
+  at: 106
+  length: 2
+  type: person
+  person_id: zhihan
+  text: 質帝
+  via: alias
+- anchor: hhs.10.p13
+  at: 125
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「邪說疑誤太后」承前段為梁太后梁妠，未列 roster。
+  id: hhs.10.p13.h6
+- id: hhs.10.p13.h3
+  anchor: hhs.10.p13
+  at: 130
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.10.p13.h4
+  anchor: hhs.10.p13
+  at: 134
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
+- anchor: hhs.10.p13
+  at: 137
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后又溺於宦官」承前即梁太后梁妠，未列 roster。
+  id: hhs.10.p13.h7
 - id: hhs.10.p14.t1
   anchor: hhs.10.p14
   at: 0
@@ -309,6 +655,16 @@ annotations:
   era: 和平
   era_year: 1
   reasoning: 原文「和平元年」直接出现年号；解析為 AD 150
+- anchor: hhs.10.p14
+  at: 11
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后寢疾」即梁太后梁妠歸政後病篤，未列 roster。
+  id: hhs.10.p14.h1
 - id: hhs.10.p14.a1
   anchor: hhs.10.p14
   at: 69
@@ -321,6 +677,30 @@ annotations:
   length: 0
   type: lixian
   text: 《續漢志》曰：「美人父詩爲郎中，詩父衡屯騎校尉。」
+- id: hhs.10.p15.h1
+  anchor: hhs.10.p15
+  at: 37
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: hhs.10.p15.h2
+  anchor: hhs.10.p15
+  at: 48
+  length: 2
+  type: person
+  person_id: chonghan
+  text: 沖帝
+  via: alias
+- id: hhs.10.p16.h1
+  anchor: hhs.10.p16
+  at: 23
+  length: 2
+  type: person
+  person_id: zhihan
+  text: 質帝
+  via: alias
 - id: hhs.10.p17.t1
   anchor: hhs.10.p17
   at: 0
@@ -351,6 +731,22 @@ annotations:
   length: 0
   type: lixian
   text: 《公羊傳》曰：「桓公幼而貴，隱公長而卑。桓何以貴？母貴也。母貴則子何以貴？子以母貴，母以子貴。」
+- id: hhs.10.p17.h1
+  anchor: hhs.10.p17
+  at: 52
+  length: 2
+  type: person
+  person_id: chonghan
+  text: 沖帝
+  via: alias
+- id: hhs.10.p17.h2
+  anchor: hhs.10.p17
+  at: 59
+  length: 2
+  type: person
+  person_id: zhihan
+  text: 質帝
+  via: alias
 - id: hhs.10.p17.a4
   anchor: hhs.10.p17
   at: 144
@@ -363,6 +759,16 @@ annotations:
   length: 0
   type: lixian
   text: 懷陵，沖帝陵。靜陵，質帝陵。
+- anchor: hhs.10.p18
+  at: 3
+  length: 2
+  type: person
+  person_id: yanhh
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「孝崇匽皇后諱明」即桓帝生母匽明，未列 roster。
+  id: hhs.10.p18.h3
 - id: hhs.10.p18.a1
   anchor: hhs.10.p18
   at: 8
@@ -375,6 +781,22 @@ annotations:
   length: 0
   type: lixian
   text: 蠡吾侯翼，河閒王開子，和帝孫。
+- id: hhs.10.p18.h1
+  anchor: hhs.10.p18
+  at: 17
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.10.p18.h2
+  anchor: hhs.10.p18
+  at: 20
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.10.p18.t1
   anchor: hhs.10.p18
   at: 25
@@ -399,6 +821,26 @@ annotations:
   era: 和平
   era_year: 1
   reasoning: 原文「和平元年」直接出现年号；解析為 AD 150（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p18
+  at: 55
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「梁太后崩」指順烈梁妠崩於和平元年，未列 roster。
+  id: hhs.10.p18.h4
+- anchor: hhs.10.p18
+  at: 68
+  length: 2
+  type: person
+  person_id: yanhh
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「尊后爲孝崇皇后」即匽明被尊號，未列 roster。
+  id: hhs.10.p18.h5
 - id: hhs.10.p18.a3
   anchor: hhs.10.p18
   at: 114
@@ -423,6 +865,16 @@ annotations:
   length: 0
   type: lixian
   text: 石，蠡吾侯翼子，桓帝兄。
+- anchor: hhs.10.p18
+  at: 185
+  length: 2
+  type: person
+  person_id: gonghuailianggui
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「禮儀制度比恭懷皇后」指和帝梁貴人恭懷皇后，未列 roster。
+  id: hhs.10.p18.h6
 - id: hhs.10.p18.a5
   anchor: hhs.10.p18
   at: 188
@@ -453,18 +905,64 @@ annotations:
   length: 0
   type: lixian
   text: 長社公主，桓帝姊，耿弇弟霸玄孫援尚焉。益陽公主，桓帝妹，侍中寇榮從兄子尚焉。
+- id: hhs.10.p19.h1
+  anchor: hhs.10.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p19
+  at: 5
+  length: 2
+  type: person
+  person_id: liangnvying
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「桓帝懿獻梁皇后諱女瑩」傳主，未列 roster。
+  id: hhs.10.p19.h3
 - id: hhs.10.p19.a1
   anchor: hhs.10.p19
   at: 11
   length: 0
   type: lixian
   text: 《謚法》曰：「溫和聖善曰懿，聦明叡知曰獻。」
+- anchor: hhs.10.p19
+  at: 13
+  length: 2
+  type: person
+  person_id: liangna
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「順烈皇后之女弟」即梁妠之妹身份，順烈梁皇后未列 roster。
+  id: hhs.10.p19.h4
+- anchor: hhs.10.p19
+  at: 28
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「梁太后徵」即順烈梁妠召立桓帝，未列 roster。
+  id: hhs.10.p19.h5
 - id: hhs.10.p19.a2
   anchor: hhs.10.p19
   at: 43
   length: 0
   type: lixian
   text: 嘉禮，婚禮。
+- id: hhs.10.p19.h2
+  anchor: hhs.10.p19
+  at: 44
+  length: 2
+  type: person
+  person_id: zhihan
+  text: 質帝
+  via: alias
 - id: hhs.10.p19.t1
   anchor: hhs.10.p19
   at: 53
@@ -477,6 +975,16 @@ annotations:
   era: 熹平
   era_year: 6
   reasoning: 「明年」 = 当前年 熹平5年 (AD 176) 之次年 = AD 177
+- anchor: hhs.10.p19
+  at: 59
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「有司奏太后」即奏梁太后梁妠，未列 roster。
+  id: hhs.10.p19.h6
 - id: hhs.10.p19.a3
   anchor: hhs.10.p19
   at: 80
@@ -535,6 +1043,36 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 熹平6年 (AD 177)，月份「八月」
+- anchor: hhs.10.p19
+  at: 177
+  length: 2
+  type: person
+  person_id: liangnvying
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「八月立爲皇后」即立梁女瑩為皇后，未列 roster。
+  id: hhs.10.p19.h7
+- anchor: hhs.10.p20
+  at: 1
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「時太后秉政」承前段即梁太后梁妠，未列 roster。
+  id: hhs.10.p20.h1
+- anchor: hhs.10.p20
+  at: 59
+  length: 2
+  type: person
+  person_id: liangna
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「及皇太后崩」即梁太后梁妠崩，未列 roster。
+  id: hhs.10.p20.h2
 - id: hhs.10.p20.t1
   anchor: hhs.10.p20
   at: 108
@@ -547,6 +1085,24 @@ annotations:
   era: 延熹
   era_year: 3
   reasoning: 原文「延熹三年」直接出现年号；解析為 AD 160（回溯前事，不推進章節時間軸）
+- id: hhs.10.p21.h1
+  anchor: hhs.10.p21
+  at: 0
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p21
+  at: 3
+  length: 2
+  type: person
+  person_id: dengmengnv
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「桓帝鄧皇后諱猛女」傳主，未列 roster。
+  id: hhs.10.p21.h2
 - id: hhs.10.p21.a1
   anchor: hhs.10.p21
   at: 89
@@ -565,6 +1121,16 @@ annotations:
   era: 熹平
   era_year: 7
   reasoning: 「明年」 = 当前年 熹平6年 (AD 177) 之次年 = AD 178
+- anchor: hhs.10.p21
+  at: 125
+  length: 2
+  type: person
+  person_id: dengmengnv
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立后爲皇后」即立鄧猛女為皇后，未列 roster。
+  id: hhs.10.p21.h3
 - id: hhs.10.p21.t2
   anchor: hhs.10.p21
   at: 147
@@ -589,6 +1155,16 @@ annotations:
   length: 0
   type: lixian
   text: 《漢官儀》曰：「暴室在掖庭內，丞一人，主宮中婦人疾病者。其皇后、貴人有罪，亦就此室也。」
+- anchor: hhs.10.p23
+  at: 3
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「桓思竇皇后諱妙」傳主竇妙，未列 roster。
+  id: hhs.10.p23.h2
 - id: hhs.10.p23.t1
   anchor: hhs.10.p23
   at: 24
@@ -601,6 +1177,26 @@ annotations:
   era: 延熹
   era_year: 8
   reasoning: 原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p23
+  at: 30
+  length: 2
+  type: person
+  person_id: dengmengnv
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「鄧皇后廢」指桓帝鄧猛女被廢，未列 roster。
+  id: hhs.10.p23.h3
+- anchor: hhs.10.p23
+  at: 49
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立爲皇后」即立竇妙為皇后，未列 roster。
+  id: hhs.10.p23.h4
 - id: hhs.10.p23.t2
   anchor: hhs.10.p23
   at: 68
@@ -613,6 +1209,82 @@ annotations:
   era: 永康
   era_year: 1
   reasoning: 原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p23
+  at: 98
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「后爲皇太后」即竇妙進為太后，未列 roster。
+  id: hhs.10.p23.h5
+- anchor: hhs.10.p23
+  at: 101
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后臨朝定策」延續即竇太后竇妙，未列 roster。
+  id: hhs.10.p23.h6
+- id: hhs.10.p23.h1
+  anchor: hhs.10.p23
+  at: 117
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- anchor: hhs.10.p24
+  at: 0
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后素忌忍」即竇太后竇妙，未列 roster。
+  id: hhs.10.p24.h2
+- id: hhs.10.p24.h1
+  anchor: hhs.10.p24
+  at: 12
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p24
+  at: 49
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后父大將軍武」即竇太后竇妙之父竇武，未列 roster。
+  id: hhs.10.p24.h3
+- anchor: hhs.10.p24
+  at: 74
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「遷太后於南宮雲臺」即竇太后竇妙，未列 roster。
+  id: hhs.10.p24.h4
+- anchor: hhs.10.p25
+  at: 8
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「帝猶以太后有援立之功」即竇太后竇妙，未列 roster。
+  id: hhs.10.p25.h1
 - id: hhs.10.p25.t1
   anchor: hhs.10.p25
   at: 16
@@ -633,6 +1305,26 @@ annotations:
   length: 0
   type: lixian
   text: 《漢官儀》曰：「黃門令秩六百石。」
+- anchor: hhs.10.p25
+  at: 46
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「為太后訴怨」即竇太后竇妙，未列 roster。
+  id: hhs.10.p25.h2
+- anchor: hhs.10.p25
+  at: 77
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「附助太后」即竇太后竇妙，未列 roster。
+  id: hhs.10.p25.h3
 - id: hhs.10.p25.a2
   anchor: hhs.10.p25
   at: 88
@@ -651,12 +1343,50 @@ annotations:
   era: 熹平
   era_year: 1
   reasoning: 原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p25
+  at: 99
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后母卒於比景」即竇太后竇妙之母，主體仍指竇太后，未列 roster。
+  id: hhs.10.p25.h4
+- anchor: hhs.10.p25
+  at: 107
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后感疾而崩」即竇太后竇妙崩，未列 roster。
+  id: hhs.10.p25.h5
+- anchor: hhs.10.p26
+  at: 3
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「孝仁董皇后」即靈帝生母董氏，亦稱永樂太后，對應 dongtaihou。
+  id: hhs.10.p26.h2
 - id: hhs.10.p26.a1
   anchor: hhs.10.p26
   at: 21
   length: 0
   type: lixian
   text: 萇，河閒孝王開孫淑之子也。
+- id: hhs.10.p26.h1
+  anchor: hhs.10.p26
+  at: 22
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.10.p26.t1
   anchor: hhs.10.p26
   at: 25
@@ -681,12 +1411,32 @@ annotations:
   era: 熹平
   era_year: 5
   reasoning: 「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176
+- anchor: hhs.10.p26
+  at: 88
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「上尊號曰孝仁皇后」即董氏被尊為孝仁皇后，對應 dongtaihou。
+  id: hhs.10.p26.h3
 - id: hhs.10.p26.a2
   anchor: hhs.10.p26
   at: 98
   length: 0
   type: lixian
   text: 嘉德殿在九龍門內。
+- anchor: hhs.10.p27
+  at: 2
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「及竇太后崩」指桓思竇妙之崩，未列 roster。
+  id: hhs.10.p27.h9
 - id: hhs.10.p27.t1
   anchor: hhs.10.p27
   at: 28
@@ -705,12 +1455,80 @@ annotations:
   length: 0
   type: lixian
   text: 脩，今德州縣也，故城在縣南。「脩」今作「蓨」，音條。
+- anchor: hhs.10.p27
+  at: 73
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「何皇后恨之」即靈思何皇后，後為何太后，對應 hetaihou。
+  id: hhs.10.p27.h3
+- anchor: hhs.10.p27
+  at: 87
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「何太后臨朝」即靈帝崩後何氏臨朝，對應 hetaihou。
+  id: hhs.10.p27.h4
+- anchor: hhs.10.p27
+  at: 94
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后兄大將軍進」即何太后兄何進，對應 hetaihou。
+  id: hhs.10.p27.h5
+- anchor: hhs.10.p27
+  at: 114
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后輒相禁塞」延續即何太后，對應 hetaihou。
+  id: hhs.10.p27.h6
 - id: hhs.10.p27.a2
   anchor: hhs.10.p27
   at: 139
   length: 0
   type: lixian
   text: 輈張猶彊梁也。
+- id: hhs.10.p27.h1
+  anchor: hhs.10.p27
+  at: 144
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- anchor: hhs.10.p27
+  at: 151
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「何太后聞」即何太后，對應 hetaihou。
+  id: hhs.10.p27.h7
+- anchor: hhs.10.p27
+  at: 176
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 皇后
+  via: llm
+  confidence: 0.9
+  reasoning: 「孝仁皇后使故中常侍夏惲」即董太后被劾，對應 dongtaihou。
+  id: hhs.10.p27.h8
 - id: hhs.10.p27.a3
   anchor: hhs.10.p27
   at: 198
@@ -729,6 +1547,32 @@ annotations:
   length: 0
   type: lixian
   text: 蕃后謂平帝母衞姬。時王莽攝政，恐其專權，后不得留在京師，故云故事也。
+- id: hhs.10.p27.h2
+  anchor: hhs.10.p27
+  at: 245
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.10.p28.h1
+  anchor: hhs.10.p28
+  at: 0
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- anchor: hhs.10.p28
+  at: 3
+  length: 2
+  type: person
+  person_id: songhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「靈帝宋皇后」傳主宋氏，未列 roster。
+  id: hhs.10.p28.h2
 - id: hhs.10.p28.t1
   anchor: hhs.10.p28
   at: 26
@@ -765,6 +1609,16 @@ annotations:
   length: 0
   type: lixian
   text: 熹平元年，王甫譖悝與中常侍鄭颯交通，欲迎立悝，悝自殺，妃死獄中也。
+- anchor: hhs.10.p29
+  at: 60
+  length: 2
+  type: person
+  person_id: songhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「共構言皇后挾左道祝詛」即誣宋皇后，未列 roster。
+  id: hhs.10.p29.h1
 - id: hhs.10.p29.a2
   anchor: hhs.10.p29
   at: 68
@@ -789,6 +1643,24 @@ annotations:
   length: 0
   type: lixian
   text: 《詩》云：「迺立皐門。」注云：「王之郭門曰皐門。」《漢官儀》曰：「十二門皆有亭。」
+- id: hhs.10.p30.h1
+  anchor: hhs.10.p30
+  at: 4
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p30
+  at: 11
+  length: 2
+  type: person
+  person_id: songhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「宋皇后有何罪過」桓帝夢中言宋氏被冤，未列 roster。
+  id: hhs.10.p30.h5
 - id: hhs.10.p30.a1
   anchor: hhs.10.p30
   at: 58
@@ -807,12 +1679,60 @@ annotations:
   length: 0
   type: lixian
   text: 攘謂除也。
+- anchor: hhs.10.p30
+  at: 104
+  length: 2
+  type: person
+  person_id: songhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「宋皇后親與陛下共承宗廟」許永之言指宋氏，未列 roster。
+  id: hhs.10.p30.h6
+- anchor: hhs.10.p30
+  at: 108
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 許永答靈帝問祥，稱「陛下」即靈帝，對應 linghan。
+  id: hhs.10.p30.h3
+- id: hhs.10.p30.h2
+  anchor: hhs.10.p30
+  at: 175
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.10.p30
+  at: 191
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同段許永對靈帝言「陛下曾不證審」，對應 linghan。
+  id: hhs.10.p30.h4
 - id: hhs.10.p30.a4
   anchor: hhs.10.p30
   at: 218
   length: 0
   type: lixian
   text: 《左傳》曰：「晉侯夢大厲，被髮及地，搏膺而踊曰：『殺余孫，不義，余得請于帝矣。』」杜預注曰：「厲鬼，趙氏之先祖也。晉侯先殺趙同、趙括，故怒也。」
+- anchor: hhs.10.p31
+  at: 3
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「靈思何皇后」傳主，即何皇后，對應 hetaihou。
+  id: hhs.10.p31.h1
 - id: hhs.10.p31.a1
   anchor: hhs.10.p31
   at: 24
@@ -837,6 +1757,16 @@ annotations:
   era: 光和
   era_year: 3
   reasoning: 原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p32
+  at: 7
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「立爲皇后」即立何氏為皇后，對應 hetaihou。
+  id: hhs.10.p32.h1
 - id: hhs.10.p32.t2
   anchor: hhs.10.p32
   at: 10
@@ -853,6 +1783,16 @@ annotations:
   length: 0
   type: lixian
   text: 《左傳》曰：「邑姜方娠。」杜預注曰：「懷胎爲娠。」音之刃反，一音身。
+- anchor: hhs.10.p32
+  at: 103
+  length: 2
+  type: person
+  person_id: dongtaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「董太后自養協」即靈帝母董氏代養皇子協，對應 dongtaihou。
+  id: hhs.10.p32.h2
 - id: hhs.10.p33.a1
   anchor: hhs.10.p33
   at: 36
@@ -871,6 +1811,102 @@ annotations:
   era: 中平
   era_year: 6
   reasoning: 原文「中平六年」直接出现年号；解析為 AD 189（回溯前事，不推進章節時間軸）
+- anchor: hhs.10.p34
+  at: 18
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「尊后爲皇太后」即何皇后進為太后，對應 hetaihou。
+  id: hhs.10.p34.h8
+- anchor: hhs.10.p34
+  at: 21
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后臨朝」延續何太后，對應 hetaihou。
+  id: hhs.10.p34.h9
+- id: hhs.10.p34.h1
+  anchor: hhs.10.p34
+  at: 55
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.10.p34.h2
+  anchor: hhs.10.p34
+  at: 73
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: hhs.10.p34.h3
+  anchor: hhs.10.p34
+  at: 76
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- id: hhs.10.p34.h4
+  anchor: hhs.10.p34
+  at: 85
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.10.p34.h5
+  anchor: hhs.10.p34
+  at: 89
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- anchor: hhs.10.p34
+  at: 100
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「太后鯁涕」即何太后見廢少帝事，對應 hetaihou。
+  id: hhs.10.p34.h10
+- id: hhs.10.p34.h6
+  anchor: hhs.10.p34
+  at: 114
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- anchor: hhs.10.p34
+  at: 118
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「議太后踧迫永樂宮」指何太后逼董太后事，對應 hetaihou。
+  id: hhs.10.p34.h11
+- id: hhs.10.p34.h7
+  anchor: hhs.10.p34
+  at: 157
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.10.p34.a1
   anchor: hhs.10.p34
   at: 168
@@ -883,6 +1919,16 @@ annotations:
   length: 0
   type: lixian
   text: 有凶事素服而朝，謂之白衣會。《左傳》曰：「不書葬，不成喪。」
+- anchor: hhs.10.p35
+  at: 2
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「太后新立」承前段為何太后初立，對應 hetaihou。
+  id: hhs.10.p35.h1
 - id: hhs.10.p36.t1
   anchor: hhs.10.p36
   at: 0
@@ -893,6 +1939,30 @@ annotations:
   resolution: next_year
   year_ad: 191
   reasoning: 「明年」 = 当前年 AD 190 之次年 = AD 191（跨年號邊界，新年號未明）
+- id: hhs.10.p36.h1
+  anchor: hhs.10.p36
+  at: 11
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.10.p36.h2
+  anchor: hhs.10.p36
+  at: 16
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.10.p36.h3
+  anchor: hhs.10.p36
+  at: 19
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
 - id: hhs.10.p36.a1
   anchor: hhs.10.p36
   at: 143
@@ -911,12 +1981,36 @@ annotations:
   length: 0
   type: lixian
   text: 不自名少帝之姬也。袁宏《紀》曰：「爲傕所略，不敢自言。」
+- id: hhs.10.p37.h1
+  anchor: hhs.10.p37
+  at: 65
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: hhs.10.p37.a2
   anchor: hhs.10.p37
   at: 70
   length: 0
   type: lixian
   text: 《魏志》曰：「詡字文和，武威姑臧人。少時漢陽閻忠見而異之，曰：『詡有良、平之才。』」
+- id: hhs.10.p37.h2
+  anchor: hhs.10.p37
+  at: 73
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- id: hhs.10.p37.h3
+  anchor: hhs.10.p37
+  at: 98
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
 - id: hhs.10.p38.t1
   anchor: hhs.10.p38
   at: 0
@@ -931,6 +2025,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 原文「初平元年二月」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）
+- id: hhs.10.p38.h1
+  anchor: hhs.10.p38
+  at: 8
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
 - id: hhs.10.p38.a1
   anchor: hhs.10.p38
   at: 22
@@ -955,6 +2057,16 @@ annotations:
   length: 0
   type: lixian
   text: 《詩》云：「心如結兮。」
+- anchor: hhs.10.p40
+  at: 93
+  length: 2
+  type: person
+  person_id: wangrong
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「追尊王美人爲靈懷皇后」即獻帝生母王榮被追尊，未列 roster。
+  id: hhs.10.p40.h1
 - id: hhs.10.p40.a2
   anchor: hhs.10.p40
   at: 110
@@ -967,12 +2079,38 @@ annotations:
   length: 0
   type: lixian
   text: 凡言都亭者，並城內亭也。漢法，大縣侯位視三公，小縣侯位視上卿，鄉侯、亭侯視中二千石也。
+- id: hhs.10.p42.h1
+  anchor: hhs.10.p42
+  at: 0
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
+- anchor: hhs.10.p42
+  at: 3
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 「獻帝伏皇后諱壽」傳主伏壽，對應 fuhuanghou。
+  id: hhs.10.p42.h3
 - id: hhs.10.p42.a1
   anchor: hhs.10.p42
   at: 14
   length: 0
   type: lixian
   text: 東武，今密州諸城縣。
+- id: hhs.10.p42.h2
+  anchor: hhs.10.p42
+  at: 41
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.10.p42.a2
   anchor: hhs.10.p42
   at: 49
@@ -1003,6 +2141,16 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
+- anchor: hhs.10.p43
+  at: 29
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 「立爲皇后」即立伏氏為皇后，對應 fuhuanghou。
+  id: hhs.10.p43.h2
 - id: hhs.10.p43.a1
   anchor: hhs.10.p43
   at: 66
@@ -1033,6 +2181,14 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
+- id: hhs.10.p43.h1
+  anchor: hhs.10.p43
+  at: 143
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.10.p43.t4
   anchor: hhs.10.p43
   at: 169
@@ -1045,18 +2201,84 @@ annotations:
   era: 建安
   era_year: 14
   reasoning: 承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209
+- id: hhs.10.p44.h1
+  anchor: hhs.10.p44
+  at: 36
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.10.p44.h2
+  anchor: hhs.10.p44
+  at: 53
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.10.p44.h3
+  anchor: hhs.10.p44
+  at: 91
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: hhs.10.p44.h4
+  anchor: hhs.10.p44
+  at: 118
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.10.p44.a1
   anchor: hhs.10.p44
   at: 130
   length: 0
   type: lixian
   text: 浹，徹也，音子協反。
+- id: hhs.10.p44.h5
+  anchor: hhs.10.p44
+  at: 145
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.10.p44.a2
   anchor: hhs.10.p44
   at: 162
   length: 0
   type: lixian
   text: 《說文》曰：「𡜟，孕也。」音仁蔭反。
+- id: hhs.10.p44.h6
+  anchor: hhs.10.p44
+  at: 183
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: hhs.10.p44.h7
+  anchor: hhs.10.p44
+  at: 210
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- anchor: hhs.10.p44
+  at: 227
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 策書「皇后壽」直點伏壽名，對應 fuhuanghou。
+  id: hhs.10.p44.h9
 - id: hhs.10.p44.a3
   anchor: hhs.10.p44
   at: 246
@@ -1075,24 +2297,60 @@ annotations:
   length: 0
   type: lixian
   text: 《左傳》曰：「人受天地之中而生，謂之命。能者養之以福，不能者敗以取禍。」
+- anchor: hhs.10.p44
+  at: 307
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 「其上皇后璽綬」即收伏皇后璽綬，對應 fuhuanghou。
+  id: hhs.10.p44.h10
 - id: hhs.10.p44.a6
   anchor: hhs.10.p44
   at: 312
   length: 0
   type: lixian
   text: 蔡邕《獨斷》曰：「皇后赤綬玉璽。」《續漢志》曰：「乘輿黃赤綬，四綵黃赤縹紺，淳黃圭，綬長二丈九尺九寸，五百首。太皇太后、皇太后，其綬皆與乘輿同。」
+- id: hhs.10.p44.h8
+  anchor: hhs.10.p44
+  at: 348
+  length: 2
+  type: person
+  person_id: huaxin
+  text: 華歆
+  via: primary
 - id: hhs.10.p44.a7
   anchor: hhs.10.p44
   at: 355
   length: 0
   type: lixian
   text: 《魏志》曰：「華歆字子魚，平原高唐人。代荀彧爲尚書令。慮字鴻預，山陽高平人。」
+- anchor: hhs.10.p45
+  at: 3
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 「獻穆曹皇后諱節」傳主曹節，對應 caojie_huanghou。
+  id: hhs.10.p45.h3
 - id: hhs.10.p45.a1
   anchor: hhs.10.p45
   at: 8
   length: 0
   type: lixian
   text: 《謚法》曰：「布德執義曰穆。」
+- id: hhs.10.p45.h1
+  anchor: hhs.10.p45
+  at: 10
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.10.p45.t1
   anchor: hhs.10.p45
   at: 17
@@ -1105,6 +2363,14 @@ annotations:
   era: 建安
   era_year: 18
   reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213
+- id: hhs.10.p45.h2
+  anchor: hhs.10.p45
+  at: 23
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
 - id: hhs.10.p45.a2
   anchor: hhs.10.p45
   at: 53
@@ -1123,6 +2389,16 @@ annotations:
   era: 建安
   era_year: 19
   reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
+- anchor: hhs.10.p45
+  at: 65
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「及伏皇后被弒」即伏壽，對應 fuhuanghou。
+  id: hhs.10.p45.h4
 - id: hhs.10.p45.t3
   anchor: hhs.10.p45
   at: 70
@@ -1135,6 +2411,16 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 「明年」 = 当前年 建安19年 (AD 214) 之次年 = AD 215
+- anchor: hhs.10.p45
+  at: 76
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 皇后
+  via: llm
+  confidence: 0.98
+  reasoning: 「立節爲皇后」即立曹節為皇后，對應 caojie_huanghou。
+  id: hhs.10.p45.h5
 - id: hhs.10.p45.a3
   anchor: hhs.10.p45
   at: 117
@@ -1147,6 +2433,14 @@ annotations:
   length: 0
   type: lixian
   text: 上官，昭帝后也。
+- id: hhs.10.p46.h1
+  anchor: hhs.10.p46
+  at: 116
+  length: 2
+  type: person
+  person_id: caiyong
+  text: 蔡邕
+  via: primary
 - id: hhs.10.p46.a2
   anchor: hhs.10.p46
   at: 126
@@ -1225,6 +2519,22 @@ annotations:
   length: 0
   type: lixian
   text: 《東平王傳》曰：「封蒼女五人爲縣公主。」孝王女，傳不見其數。
+- id: hhs.10.p48.h1
+  anchor: hhs.10.p48
+  at: 77
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
+- id: hhs.10.p48.h2
+  anchor: hhs.10.p48
+  at: 80
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.10.p48.a5
   anchor: hhs.10.p48
   at: 94
@@ -1375,6 +2685,14 @@ annotations:
   length: 0
   type: lixian
   text: 征羌，縣，屬汝南郡。棱，襃之子，歙之孫。
+- id: hhs.10.p61.h1
+  anchor: hhs.10.p61
+  at: 26
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
 - id: hhs.10.p62.t1
   anchor: hhs.10.p62
   at: 4

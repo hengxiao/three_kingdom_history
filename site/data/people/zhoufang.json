@@ -1,0 +1,105 @@
+{
+  "id": "zhoufang",
+  "primary_name": "周魴",
+  "courtesy_name": "子魚",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.15",
+      "title": "吳書·贺全吕周钟离传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/15.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p72",
+        "at": 13,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "周魴",
+        "snippet": "春，吳解煩督胡綜、鄱陽太守周魴擊彭綺，生獲之。"
+      },
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p18",
+        "at": 7,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "周魴",
+        "snippet": "吳王使鄱陽太守周魴密求山中舊族名帥為北方所聞知者，令譎挑揚州牧曹休。魴曰：「民帥小丑，不足杖任，事或漏洩，不能致休。乞遣親人繼箋以誘休，言被譴懼…"
+      },
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p21",
+        "at": 9,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "周魴",
+        "snippet": "初，休表求深入以應周魴，帝命賈逵引兵東與休合。逵曰：「賊無東關之備，必並軍於皖，休深入與賊戰，必敗。」乃部署諸將，水陸並進，行二百里，獲吳人，言休戰…"
+      },
+      {
+        "chapter_id": "zztj.80",
+        "chapter_title": "晉紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.80.p33",
+        "at": 2,
+        "data_url": "data/zztj/zztj/80.json",
+        "matched": "周魴",
+        "snippet": "初，周魴之子處，膂力絕人，不修細行，鄉里患之。處嘗問父老曰：「今時和歲豐而人不樂，何邪？」父老歎曰：「三害不除，何樂之有！」處曰：「何…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.11",
+        "chapter_title": "吳書·三朱吕範傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.11.p25",
+        "at": 9,
+        "data_url": "data/sanguozhi/wu/11.json",
+        "matched": "周魴",
+        "snippet": "黃武七年，鄱陽太守周魴譎誘魏大司馬曹休，休將步騎十萬至皖城以迎魴。時陸遜為元帥，全琮與桓為左右督，各督三萬人擊休。休知見欺，當引軍還，自負眾盛，邀於…"
+      },
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p15",
+        "at": 9,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "周魴",
+        "snippet": "七年，權使鄱陽太守周魴譎魏大司馬曹休。休果舉眾入皖，乃召遜假黃鉞，為大都督，逆休。休既覺知，恥見欺誘，自恃兵馬精多，遂交戰。遜自為中部，令朱桓、全琮…"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p32",
+        "at": 26,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "周魴",
+        "snippet": "…年三月，封子慮爲建昌侯，罷東安郡。夏五月，鄱陽太守周魴偽叛，誘魏將曹休。秋八月，權至皖口，使將軍陸遜督諸將大破休於石亭。大司馬呂範卒。是歳，改合浦爲珠官郡。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 7
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sunhuan",
+  "primary_name": "孫奐",
+  "courtesy_name": "季明",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.15",
+        "chapter_title": "吳書·贺全吕周钟离传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.15.p33",
+        "at": 294,
+        "data_url": "data/sanguozhi/wu/15.json",
+        "matched": "孫奐",
+        "snippet": "…襄陽。陸議、潘璋等討梅敷。東主中營自掩石陽，別遣從孫奐治安陸城，修立邸閣，輦貲運糧，以為軍儲，又命諸葛亮進指關西，江邊諸將無復在者，才留三千所兵守武昌耳。若明使君以萬兵從皖南首江渚…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

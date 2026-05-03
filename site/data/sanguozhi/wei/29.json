@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷29",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 52,
@@ -19,12 +19,58 @@
     {
       "id": "wei.29.p1",
       "text": "華佗杜夔朱建平周宣管輅",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "華佗",
+          "person_id": "huatuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "杜夔",
+          "person_id": "dukui",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p1.h3",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "周宣",
+          "person_id": "zhouxuan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p1.h4",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "管輅",
+          "person_id": "guanlu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.29.p2",
       "text": "華佗字元化，沛國譙人也，一名旉。遊學徐土，兼通數經。沛相陳珪舉孝廉，太尉黃琬辟，皆不就。曉養性之術，時人以為年且百歲而貌有壯容。又精方藥，其療疾，合湯不過數種，心解分劑，不復稱量，煮熟便飲，語其節度，捨去輒愈。若當灸，不過一兩處，每處不過七八壯，病亦應除。若當針，亦不過一兩處，下針言「當引某許，若至，語人」。病者言「巳到」，應便拔針，病亦行差。若病結積在內，針藥所不能及，當須刳割者，便飲其麻沸散，須臾便如醉死無所知，因破取。病若在腸中，便斷腸湔洗，縫腹膏摩，四五日差，不痛，人亦不自寤，一月之間，即平復矣。",
       "annotations": [
+        {
+          "id": "wei.29.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "華佗",
+          "person_id": "huatuo",
+          "via": "primary"
+        },
         {
           "id": "wei.29.p2.a1",
           "type": "pei",
@@ -104,6 +150,24 @@
       "text": "太祖聞而召佗，佗常在左右。太祖苦頭風，每發，心亂目眩，佗針鬲，隨手而差。",
       "annotations": [
         {
+          "id": "wei.29.p16.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p16.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.29.p16.a1",
           "type": "pei",
           "at": 36,
@@ -120,7 +184,89 @@
     {
       "id": "wei.29.p18",
       "text": "佗之絕技，凡此類也。然本作士人，以醫見業，意常自悔，後太祖親理，得病篤重，使佗專視。佗曰：「此近難濟，恆事攻治，可延歲月。」佗久遠家思歸，因曰：「當得家書，方欲暫還耳。」到家，辭以妻病，數乞期不反。太祖累書呼，又敕郡縣發遣。佗恃能厭食事，猶不上道。太祖大怒，使人往檢。若妻信病，賜小豆四十斛，寬假限日；若其虛詐，便收送之。於是傳付許獄，考驗首服。荀彧請曰：「佗術實工，人命所縣，宜含宥之。」太祖曰：「不憂，天下當無此鼠輩耶？」遂考竟佗。佗臨死，出一卷書與獄吏，曰：「此可以活人。」吏畏法不受，佗亦不強，索火燒之。佗死後，太祖頭風未除。太祖曰：「佗能愈此。小人養吾病，欲以自重，然吾不殺此子，亦終當不為我斷此根原耳。」及後愛子倉舒病困，太祖歎曰：「吾悔殺華佗，令此兒強死也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p18.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h2",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h3",
+          "type": "person",
+          "at": 124,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h4",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p18.h5",
+          "type": "person",
+          "at": 195,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h6",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h7",
+          "type": "person",
+          "at": 267,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h8",
+          "type": "person",
+          "at": 317,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p18.h9",
+          "type": "person",
+          "at": 326,
+          "length": 2,
+          "text": "華佗",
+          "person_id": "huatuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.29.p19",
@@ -132,6 +278,15 @@
           "at": 152,
           "length": 0,
           "text": "臣松之案：古語以藏為去。"
+        },
+        {
+          "id": "wei.29.p19.h1",
+          "type": "person",
+          "at": 168,
+          "length": 2,
+          "text": "華佗",
+          "person_id": "huatuo",
+          "via": "primary"
         },
         {
           "id": "wei.29.p19.a2",
@@ -160,6 +315,15 @@
       "text": "杜夔字公良，河南人也。以知音為雅樂郎，中平五年，疾去官。州郡司徒禮辟，以世亂奔荊州。荊州牧劉表令與孟曜為漢主合雅樂，樂備，表欲庭觀之，夔諫曰：「今將軍號（不）為天子合樂，而庭作之，無乃不可乎！」表納其言而止。後表子琮降太祖，太祖以夔為軍謀祭酒，參太樂事，因令創製雅樂。",
       "annotations": [
         {
+          "id": "wei.29.p21.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "杜夔",
+          "person_id": "dukui",
+          "via": "primary"
+        },
+        {
           "id": "wei.29.p21.t1",
           "type": "temporal",
           "at": 19,
@@ -171,6 +335,60 @@
           "era": "中平",
           "era_year": 5,
           "reasoning": "原文「中平五年」直接出现年号；解析為 AD 188"
+        },
+        {
+          "id": "wei.29.p21.h2",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p21.h3",
+          "type": "person",
+          "at": 61,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.29.p21.h4",
+          "type": "person",
+          "at": 97,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.29.p21.h5",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.29.p21.h6",
+          "type": "person",
+          "at": 109,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p21.h7",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -182,7 +400,35 @@
     {
       "id": "wei.29.p23",
       "text": "黃初中，為太樂令、協律都尉。漢鑄鐘工柴玉巧有意思，形器之中，多所造作，亦為時貴人見知。夔令玉鑄銅鐘，其聲均清濁多不如法，數毀改作。玉甚厭之，謂夔清濁任意，頗拒捍夔。夔、玉更相白於太祖，太祖取所鑄鐘，雜錯更試，然知夔為精而玉之妄也，於是罪玉及諸子，皆為養馬士。文帝愛待玉，又嘗令夔與（左原）〔左𩥄〕等於賓客之中吹笙鼓琴，夔有難色，由是帝意不悅。後因他事系夔，使（原）等就學，夔自謂所習者雅，仕宦有本，意猶不滿，遂黜免以卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p23.h1",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p23.h2",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p23.h3",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.29.p24",
@@ -192,17 +438,82 @@
     {
       "id": "wei.29.p25",
       "text": "朱建平，沛國人也。善相術，於閭巷之間，效驗非一。太祖為魏公，聞之，召為郎。文帝為五官將，坐上會客三十餘人，文帝問己年壽，又令遍相眾賓。建平曰：「將軍當壽八十，至四十時當有小厄，願謹護之。」謂夏侯威曰：「君四十九位為州牧，而當有厄，厄若得過，可年至七十，致位公輔。」謂應璩曰：「君六十二位為常伯，而當有厄，先此一年，當獨見一白狗，而旁人不見也。」謂曹彪曰：「君據藩國，至五十七當厄於兵，宜善防之。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p25.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p25.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p25.h3",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p25.h4",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "曹彪",
+          "person_id": "caobiao_chuwang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.29.p26",
       "text": "初，潁川荀攸、鍾繇相與親善。攸先亡，子幼。繇經紀其門戶，欲嫁其妾。與人書曰：「吾與公達曾共使朱建平相，建平曰：『荀君雖少，然當以後事付鍾君。』吾時啁之曰：『惟當嫁卿阿騖耳。』何意此子竟早隕沒，戲言遂驗乎！今欲嫁阿騖，使得善處。追思建平之妙，雖唐舉、許負何以復加也！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p26.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p26.h2",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "鍾繇",
+          "person_id": "zhongyao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.29.p27",
       "text": "文帝黃初七年，年四十，病困，謂左右曰：「建平所言八十，謂晝夜也，吾其決矣。」頃之，果崩。夏侯威為兗州刺史，年四十九，十二月上旬得疾，念建平之言，自分必死，豫作遺令及送喪之備，咸使素辦。至下旬轉差，垂以平復。三十日日昃，請紀綱大吏設酒，曰：「吾所苦漸平，明日雞鳴，年便五十，建平之戒，眞必過矣。」威罷客之後，合瞑疾動，夜半遂卒。璩六十一為侍中，直省內，欻見白狗，問之眾人，悉無見者。於是數聚會，並急遊觀田裡，飲宴自娛，過期一年，六十三卒。曹彪封楚王，年五十七，坐與王淩通謀，賜死。凡說此輩，無不如言，不能具詳，故粗記數事。惟相司空王昶、征北將軍程喜、中領軍王肅有蹉跌云。肅年六十二，疾篤，眾醫並以為不愈。肅夫人問以遺言，肅云：「建平相我踰七十，位至三公，今皆未也，將何慮乎！」而肅竟卒。",
       "annotations": [
+        {
+          "id": "wei.29.p27.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.29.p27.t1",
           "type": "temporal",
@@ -230,18 +541,64 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 黃初7年 (AD 226)，月份「十二月」"
+        },
+        {
+          "id": "wei.29.p27.h2",
+          "type": "person",
+          "at": 218,
+          "length": 2,
+          "text": "曹彪",
+          "person_id": "caobiao_chuwang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p27.h3",
+          "type": "person",
+          "at": 264,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.29.p28",
       "text": "建平又善相馬。文帝將出，取馬外入，建平道遇之，語曰：「此馬之相，今日死矣。」帝將乘馬，馬惡衣香，驚囓文帝膝，帝大怒，即便殺之。建平黃初中卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p28.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p28.h2",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.29.p29",
       "text": "周宣字孔和，樂安人也。為郡吏。太守楊沛夢人曰：「八月一日曹公當至，必與君杖，飲以藥酒。」使宣占之。是時黃巾賊起，宣對曰：「夫杖起弱者，藥治人病，八月一日，賊必除滅。」至期，賊果破。",
       "annotations": [
+        {
+          "id": "wei.29.p29.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "周宣",
+          "person_id": "zhouxuan",
+          "via": "primary"
+        },
         {
           "id": "wei.29.p29.t1",
           "type": "temporal",
@@ -282,17 +639,73 @@
     {
       "id": "wei.29.p31",
       "text": "文帝問宣曰：「吾夢殿屋兩瓦墮地，化為雙鴛鴦，此何謂也？」宣對曰：「後宮當有暴死者。」帝曰：「吾詐卿耳！」宣對曰：「夫夢者意耳，苟以形言，便佔吉凶。」言未畢，而黃門令奏宮人相殺。無幾，帝復問曰：「我昨夜夢青氣自地屬天。」宣對曰：「天下當有貴女子冤死。」是時，帝已遣使賜甄後璽書，聞宣言而悔之，遣人追使者不及。帝復問曰：「吾夢摩錢文，欲令滅而更愈明，此何謂邪？」宣悵然不對。帝重問之，宣對曰：「此自陛下家事，雖意欲爾而太后不聽，是以文欲滅而明耳。」時帝欲治弟植之罪，偪於太后，但加貶爵。以宣為中郎，屬太史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p31.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.29.p31.h2",
+          "type": "person",
+          "at": 197,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.29.p31.h3",
+          "type": "person",
+          "at": 207,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.29.p31.h4",
+          "type": "person",
+          "at": 233,
+          "length": 2,
+          "text": "太后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.29.p32",
       "text": "嘗有問宣曰：「吾昨夜夢見芻狗，其占何也？」宣答曰：「君欲得美食耳！」有頃，出行，果遇豐膳。後又問宣曰：「昨夜復夢見芻狗，何也？」宣曰：「君欲墮車折腳，宜戒慎之。」頃之，果如宣言。後又問宣：「昨夜復夢見芻狗，何也？」宣曰：「君家失火，當善護之。」俄遂火起。語宣曰：「前後三時，皆不夢也。聊試君耳，何以皆驗邪？」宣對曰：「此神靈動君使言，故與眞夢無異也。」又問宣曰：「三夢芻狗而其占不同，何也？」宣曰：「芻狗者，祭神之物。故君始夢，當得餘食也。祭祀既訖，則芻狗為車所轢，故中夢當墮車折腳也。芻狗既車轢之後，必載以為樵，故後夢憂失火也。」宣之敘夢，凡此類也。十中八九，世以比建平之相矣。其餘效故不次列。明帝末卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p32.h1",
+          "type": "person",
+          "at": 298,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.29.p33",
       "text": "管輅字公明，平原人也。容貌粗醜，無威儀而嗜酒，飲食言戲，不擇非類，故人多愛之而不敬也。",
       "annotations": [
+        {
+          "id": "wei.29.p33.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "管輅",
+          "person_id": "guanlu",
+          "via": "primary"
+        },
         {
           "id": "wei.29.p33.a1",
           "type": "pei",
@@ -362,6 +775,15 @@
       "id": "wei.29.p36",
       "text": "輅往見安平太守王基，基令作卦，輅曰：「當有賤婦人，生一男兒，墮地便走入灶中死。又床上當有一大蛇銜筆，小大共視，須臾去之也。又烏來入室中，與燕共鬥，燕死，烏去。有此三怪。」基大驚，問其吉凶。輅曰：「直客舍久遠，魑魅魍魎為怪耳。兒生便走，非能自走，直宋無忌之妖將其入灶也。大蛇銜筆，直老書佐耳。烏與燕鬥，直老鈴下耳。今卦中見象而不見其凶，知非妖咎之徵，自無所憂也。」後卒無患。",
       "annotations": [
+        {
+          "id": "wei.29.p36.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
         {
           "id": "wei.29.p36.a1",
           "type": "pei",
@@ -570,6 +992,15 @@
       "text": "始輅過魏郡太守鍾毓，共論易義，輅因言「卜可知君生死之日。」毓使筮其生日月，如言無蹉跌。毓大愕然，曰：「君可畏也。死以付天，不以付君。」遂不復筮。毓問輅：「天下當太平否？」輅曰：「方今四九天飛，利見大人，神武升建，王道文明，何憂不平？」毓未解輅言，無幾，曹爽等誅，乃覺寤云。",
       "annotations": [
         {
+          "id": "wei.29.p47.h1",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
           "id": "wei.29.p47.a1",
           "type": "pei",
           "at": 136,
@@ -608,6 +1039,15 @@
       "id": "wei.29.p50",
       "text": "輅隨軍西行，過毌丘儉墓下，倚樹哀吟，精神不樂。人問其故，輅曰：「林木雖茂，無形可久；碑誄雖美，無後可守。玄武藏頭，蒼龍無足，白虎銜屍，硃雀悲哭，四危以備，法當滅族。不過二載，其應至矣。」卒如其言。後得休，過清河倪太守。時天旱，倪問輅雨期，輅曰：「今夕當雨。」是日暘燥，晝無形似，府丞及令在坐，咸謂不然。到鼓一中，星月皆沒，風雲並起，竟成快雨。於是倪盛脩主人禮，共為歡樂。",
       "annotations": [
+        {
+          "id": "wei.29.p50.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
         {
           "id": "wei.29.p50.a1",
           "type": "pei",
@@ -689,7 +1129,44 @@
     {
       "id": "wei.29.p52",
       "text": "評曰：華佗之醫診，杜夔之聲樂，朱建平之相術，周宣之相夢，管輅之術筮，誠皆玄妙之殊巧，非常之絕技矣。昔史遷著扁鵲、倉公、日者之傳，所以廣異聞而表奇事也。故存錄云爾。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.29.p52.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "華佗",
+          "person_id": "huatuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p52.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "杜夔",
+          "person_id": "dukui",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p52.h3",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "周宣",
+          "person_id": "zhouxuan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.29.p52.h4",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "管輅",
+          "person_id": "guanlu",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

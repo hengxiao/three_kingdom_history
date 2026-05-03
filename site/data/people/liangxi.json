@@ -1,0 +1,72 @@
+{
+  "id": "liangxi",
+  "primary_name": "梁習",
+  "courtesy_name": "子虞",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.15",
+      "title": "魏書·劉司馬梁張溫賈傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/15.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p6",
+        "at": 85,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "梁習",
+        "snippet": "…南奔荊州，上洛都尉王琰捕斬之，并州悉平。曹操使陳郡梁習以別部司馬領并州刺史。時荒亂之餘，胡、狄雄張，吏民亡叛入其部落，兵家擁眾，各為寇害。習到官，誘喻招納，皆禮如其豪右，稍稍薦舉，…"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p38",
+        "at": 4,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "梁習",
+        "snippet": "并州刺史梁習討軻比能，大破之。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.2",
+        "chapter_title": "魏書·文帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.2.p34",
+        "at": 56,
+        "data_url": "data/sanguozhi/wei/02.json",
+        "matched": "梁習",
+        "snippet": "…三月，行幸召陵，通討虜渠。乙巳，還許昌宮。并州刺史梁習討鮮卑軻比能，大破之。辛未，帝爲舟師東征。五月戊申，幸譙。壬戌，熒惑入太微。"
+      },
+      {
+        "chapter_id": "wei.23",
+        "chapter_title": "魏書·和常楊杜趙裴傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.23.p10",
+        "at": 20,
+        "data_url": "data/sanguozhi/wei/23.json",
+        "matched": "梁習",
+        "snippet": "幷州刺史高幹表爲騎都尉，林辭不受。後刺史梁習薦州界名士林及楊俊、王淩、王象、荀緯，太祖皆以爲縣長。林宰南和，治化有成，超遷博陵太守、幽州刺史，所在有績。文帝爲五官將，林爲…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

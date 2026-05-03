@@ -1,0 +1,72 @@
+{
+  "id": "simalang",
+  "primary_name": "司馬朗",
+  "courtesy_name": "伯達",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.15",
+      "title": "魏書·劉司馬梁張溫賈傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/15.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p34",
+        "at": 68,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "司馬朗",
+        "snippet": "…西曹掾，司空東曹掾陳留毛玠為丞相東曹掾，元城令河內司馬朗為主簿，弟懿為文學掾，冀州主簿盧毓為法曹議令史。毓，植之子也。琰、玠並典選舉，其所舉用皆清正之士，雖於時有盛名而行不由本者，…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.12",
+        "chapter_title": "魏書·崔毛徐何邢鮑司馬傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.12.p9",
+        "at": 3,
+        "data_url": "data/sanguozhi/wei/12.json",
+        "matched": "司馬朗",
+        "snippet": "始琰與司馬朗善，晉宣王方壯，琰謂朗曰：『子之弟，聰哲明允，剛斷英跱，殆非子之所及也。』朗以爲不然，而琰每秉此論。琰從弟林，少無名望，雖姻…"
+      },
+      {
+        "chapter_id": "wei.23",
+        "chapter_title": "魏書·和常楊杜趙裴傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.23.p12",
+        "at": 126,
+        "data_url": "data/sanguozhi/wei/23.json",
+        "matched": "司馬朗",
+        "snippet": "…宣王年十六七，與俊相遇，俊曰：「此非常之人也。」又司馬朗早有聲名，其族兄芝，衆未之知，惟俊言曰：「芝雖夙望不及朗，實理但有優耳。」俊轉避地幷州。本郡王象，少孤特，爲人僕隸，年十七八…"
+      },
+      {
+        "chapter_id": "wei.28",
+        "chapter_title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.28.p3",
+        "at": 203,
+        "data_url": "data/sanguozhi/wei/28.json",
+        "matched": "司馬朗",
+        "snippet": "…先賢之後，求未顯之士，各有條教，意義甚美。初，凌與司馬朗、賈逵友善，及臨兗、豫，繼其名跡。正始初，為征東將軍，假節都督揚州諸軍事。二年，吳大將全琮數万眾寇芍陂，凌率諸軍逆討，與賊爭…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

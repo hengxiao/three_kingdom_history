@@ -14,7 +14,7 @@
     "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 51,
+  "n_segments": 50,
   "segments": [
     {
       "id": "zztj.67.p1",
@@ -48,7 +48,62 @@
     {
       "id": "zztj.67.p4",
       "text": "春，馬超從張魯求兵，北取涼州，魯遣超還圍祁山。姜敘等告急於夏侯淵，諸將議欲須魏公操節度。淵曰：「公在鄴，反覆四千里，比報，敘等必敗，非救急也。」遂行，使張郃督步騎五千為前軍。超敗走。韓遂在顯親，淵欲襲取之，遂走。淵追至略陽城，去遂三十餘里，諸將欲攻之，或言當攻興國氐。淵以為：「遂兵精，興國城固，攻不可卒拔，不如襲長離諸羌。長離諸羌多在遂軍，必歸救其家。若捨羌獨守則孤，救長離則官兵得與野戰，必可虜也。」淵乃留督將守輜重，自將輕兵到長離，攻燒羌屯，遂果救長離。諸將見遂兵眾，欲結營作塹乃與戰。淵曰：「我轉斗千里，今復作營塹，則士眾罷敝，不可復用。賊雖眾，易與耳。」乃鼓之，大破遂軍。進圍興國。氐王千萬奔馬超，餘眾悉降。轉擊高平、屠各，皆破之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p4.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p4.h2",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p4.h3",
+          "type": "person",
+          "at": 29,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p4.h4",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p4.h5",
+          "type": "person",
+          "at": 87,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p4.h6",
+          "type": "person",
+          "at": 301,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p5",
@@ -104,53 +159,1097 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「五月」"
+        },
+        {
+          "id": "zztj.67.p6.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p6.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p6.h3",
+          "type": "person",
+          "at": 66,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h4",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p6.h5",
+          "type": "person",
+          "at": 139,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h6",
+          "type": "person",
+          "at": 183,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h7",
+          "type": "person",
+          "at": 187,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h8",
+          "type": "person",
+          "at": 189,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p6.h9",
+          "type": "person",
+          "at": 210,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h10",
+          "type": "person",
+          "at": 250,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p6.h11",
+          "type": "person",
+          "at": 264,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p6.h12",
+          "type": "person",
+          "at": 266,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.67.p7",
       "text": "諸葛亮留關羽守荊州，與張飛、趙雲將兵溯流克巴東。至江州，破巴郡太守嚴顏，生獲之。飛呵顏曰：「大軍既至，何以不降，而敢拒戰！」顏曰：「卿等無狀，侵奪我州，我州但有斷頭將軍，無降將軍也！」飛怒，令左右牽去斫頭。顏容止不變，曰：「斫頭便斫頭，何為怒邪！」飛壯而釋之，引為賓客。分遣趙雲從外水定江陽、犍為，飛定巴西、德陽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p7.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p7.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p7.h3",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p7.h4",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "趙雲",
+          "person_id": "zhaoyun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p7.h5",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "飛",
+          "person_id": "zhangfei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p7.h6",
+          "type": "person",
+          "at": 92,
+          "length": 1,
+          "text": "飛",
+          "person_id": "zhangfei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p7.h7",
+          "type": "person",
+          "at": 124,
+          "length": 1,
+          "text": "飛",
+          "person_id": "zhangfei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p7.h8",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "趙雲",
+          "person_id": "zhaoyun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p7.h9",
+          "type": "person",
+          "at": 149,
+          "length": 1,
+          "text": "飛",
+          "person_id": "zhangfei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p8",
       "text": "劉備圍雒城且一年，龐統為流矢所中，卒。法正箋與劉璋，為陳形勢強弱，且曰：「左將軍從舉兵以來，舊心依依，實無薄意。愚以為可圖變化，以保尊門。」璋不答。雒城潰，備進圍成都。諸葛亮、張飛、趙雲引兵來會。馬超知張魯不足與計事，又魯將楊昂等數害其能，超內懷於邑。備使建寧督郵李恢往說之，超遂從武都逃入氐中，密書請降於備。使人止超，而潛以兵資之。超到，令引軍屯城北，城中震怖。備圍城數十日，使從事中郎涿郡簡雍入說劉璋。時城中尚有精兵三萬人，穀帛支一年，吏民咸欲死戰。璋言：「父子在州二十餘年，無恩德以加百姓。百姓攻戰三年，肌膏草野者，以璋故也，何心能安！」遂開城，與簡雍同輿出降，群下莫不流涕。備遷璋於公安，盡歸其財物，佩振威將軍印綬。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "龐統",
+          "person_id": "pangtong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h4",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h5",
+          "type": "person",
+          "at": 78,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h6",
+          "type": "person",
+          "at": 84,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h7",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h8",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "趙雲",
+          "person_id": "zhaoyun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h9",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h10",
+          "type": "person",
+          "at": 120,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h11",
+          "type": "person",
+          "at": 126,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h12",
+          "type": "person",
+          "at": 132,
+          "length": 2,
+          "text": "李恢",
+          "person_id": "lihui",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h13",
+          "type": "person",
+          "at": 138,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h14",
+          "type": "person",
+          "at": 153,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h15",
+          "type": "person",
+          "at": 158,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h16",
+          "type": "person",
+          "at": 167,
+          "length": 1,
+          "text": "超",
+          "person_id": "machao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h17",
+          "type": "person",
+          "at": 182,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p8.h18",
+          "type": "person",
+          "at": 196,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h19",
+          "type": "person",
+          "at": 200,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h20",
+          "type": "person",
+          "at": 277,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p8.h21",
+          "type": "person",
+          "at": 291,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p9",
       "text": "備入成都，置酒，大饗士卒。取蜀城中金銀，分賜將士，還其穀帛。備領益州牧，以軍師中郎將諸葛亮為軍師將軍，益州太守南郡董和為掌軍中郎將，並置左將軍府事，偏將軍馬超為平西將軍，軍議校尉法正為蜀郡太守、揚武將軍，裨將軍南陽黃忠為討虜將軍，從事中郎麋竺為安漢將軍，簡雍為昭德將軍，北海孫乾為秉忠將軍，廣漢長黃權為偏將軍，汝南許靖為左將軍長史，龐羲為司馬，李嚴為犍為太守，費觀為巴郡太守，山陽伊籍為從事中郎，零陵劉巴為西曹掾，廣漢彭羕為益州治中從事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p9.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p9.h2",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p9.h3",
+          "type": "person",
+          "at": 42,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h4",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "董和",
+          "person_id": "donghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h5",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h6",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h7",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "黃忠",
+          "person_id": "huangzhong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h8",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h9",
+          "type": "person",
+          "at": 127,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h10",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "孫乾",
+          "person_id": "sunqian",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h11",
+          "type": "person",
+          "at": 149,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p9.h12",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h13",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h14",
+          "type": "person",
+          "at": 200,
+          "length": 2,
+          "text": "劉巴",
+          "person_id": "liuba",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p9.h15",
+          "type": "person",
+          "at": 209,
+          "length": 2,
+          "text": "彭羕",
+          "person_id": "pengyang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p10",
       "text": "初，董和在郡，清儉公直，為民夷所愛信，蜀中推為循吏，故備舉而用之。備之自新野奔江南也，荊楚群士從之如雲，而劉巴獨北詣魏公操。操闢為掾，遣招納長沙、零陵，桂陽。會備略有三郡，巴事不成，欲由交州道還京師。時諸葛亮在臨蒸，以書招之，巴不從，備深以為恨。巴遂自交趾入蜀依劉璋。及璋迎備，巴諫曰：「備，雄人也，入必為害。」既入，巴復諫曰：「若使備討張魯，是放虎於山林也。」璋不聽，巴閉門稱疾。備攻成都，令軍中曰：「有害巴者，誅及三族。」及得巴，甚喜。是時益州郡縣皆望風景附，獨黃權閉城堅守，須璋稽服，乃降。於是董和、黃權、李嚴等，本璋之所授用也；吳懿、費觀等，璋之婚親也；彭羕，璋之所擯棄也；劉巴，宿昔之所忌恨也；備皆處之顯任，盡其器能，有志之士，無不競勸，益州之民，是以大和。初，劉璋以許靖為蜀郡太守。成都將潰，靖謀逾城降備，備以此薄靖，不用也。法正曰：「天下有獲虛譽而無其實者，許靖是也。然今主公始創大業，天下之人，不可戶說，宜加敬重，以慰遠近之望。」備乃禮而用之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p10.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "董和",
+          "person_id": "donghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h3",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h4",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "雲",
+          "person_id": "zhaoyun",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h5",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "劉巴",
+          "person_id": "liuba",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h6",
+          "type": "person",
+          "at": 80,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h7",
+          "type": "person",
+          "at": 101,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h8",
+          "type": "person",
+          "at": 117,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h9",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h10",
+          "type": "person",
+          "at": 137,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h11",
+          "type": "person",
+          "at": 144,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h12",
+          "type": "person",
+          "at": 167,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h13",
+          "type": "person",
+          "at": 191,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h14",
+          "type": "person",
+          "at": 234,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h15",
+          "type": "person",
+          "at": 250,
+          "length": 2,
+          "text": "董和",
+          "person_id": "donghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h16",
+          "type": "person",
+          "at": 254,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h17",
+          "type": "person",
+          "at": 256,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h18",
+          "type": "person",
+          "at": 281,
+          "length": 2,
+          "text": "彭羕",
+          "person_id": "pengyang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h19",
+          "type": "person",
+          "at": 291,
+          "length": 2,
+          "text": "劉巴",
+          "person_id": "liuba",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h20",
+          "type": "person",
+          "at": 302,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h21",
+          "type": "person",
+          "at": 336,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h22",
+          "type": "person",
+          "at": 339,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h23",
+          "type": "person",
+          "at": 357,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h24",
+          "type": "person",
+          "at": 359,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p10.h25",
+          "type": "person",
+          "at": 369,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h26",
+          "type": "person",
+          "at": 386,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p10.h27",
+          "type": "person",
+          "at": 423,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p11",
       "text": "成都之圍也，備與士眾約：「若事定，府庫百物，孤無預焉。」及拔成都，士眾皆捨干戈赴諸藏，競取寶物。軍用不足，備甚憂之，劉巴曰：「此易耳。但當鑄直百錢，平諸物價，令吏為官市。」備從之。數月之間，府庫充實。時議者欲以成都名田宅分賜諸將。趙雲曰：「霍去病以匈奴未滅，無用家為。今國賊非但匈奴，未可求安也。須天下都定，各反桑梓，歸耕本土，乃其宜耳。益州人民，初罹兵革，田宅皆可歸還，令安居復業，然後可役調，得其歡心，不宜奪之以私所愛也。」備從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p11.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p11.h2",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p11.h3",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "劉巴",
+          "person_id": "liuba",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p11.h4",
+          "type": "person",
+          "at": 86,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p11.h5",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "趙雲",
+          "person_id": "zhaoyun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p11.h6",
+          "type": "person",
+          "at": 214,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p12",
       "text": "備之襲劉璋也，留中郎將南郡霍峻守葭萌城。張魯遣楊昂誘峻求共守城。峻曰：「小人頭可得，城不可得！」昂乃退。後璋將扶禁、向存等帥萬餘人由閬水上，攻圍峻，且一年。峻城中兵才數百人，伺其怠隙，選精銳出擊，大破之，斬存。備既定蜀，乃分廣漢為梓潼郡，以峻為梓潼太守。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p12.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p12.h3",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "霍峻",
+          "person_id": "huojun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p12.h4",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p13",
       "text": "法正外統都畿，內為謀主，一飧之德、睚眥之怨，無不報復，擅殺毀傷己者數人。或謂諸葛亮曰：「法正太縱橫，將軍宜啟主公，抑其威福。」亮曰：「主公之在公安也，北畏曹操之強，東憚孫權之逼，近則懼孫夫人生變於肘腋。法孝直為之輔翼，令翻然翱翔，不可複製。如何禁止孝直，使不得少行其意邪！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p13.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p13.h2",
+          "type": "person",
+          "at": 38,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p13.h3",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p13.h4",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p13.h5",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p13.h6",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p14",
       "text": "諸葛亮佐備治蜀，頗尚嚴峻，人多怨歎者。法正謂亮曰：「昔高祖入關，約法三章，秦民知德。今君假借威力，跨據一州，初有其國，未垂惠撫；且客主之義，宜相降下，願緩刑弛禁以慰其望。」亮曰：「君知其一，未知其二。秦以無道，政苛民怨，匹夫大呼，天下土崩；高祖因之，可以弘濟。劉璋闇弱，自焉已來，有累世之累，文法羈縻，互相承奉，德政不舉，威刑不肅。蜀土人土，專權自恣，君臣之道，漸以陵替。寵之以位，位極則賤；順之以恩，恩竭則慢。所以致敝，實由於此。吾今威之以法，法行則知恩；限之以爵，爵加則知榮。榮恩並濟，上下有節，為治之要，於斯而著矣。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p14.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p14.h2",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p14.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p14.h4",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p14.h5",
+          "type": "person",
+          "at": 86,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p14.h6",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p14.h7",
+          "type": "person",
+          "at": 172,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p15",
       "text": "劉備以零陵蔣琬為廣都長。備嘗因遊觀，奄至廣都，見琬眾事不治，時又沉醉。備大怒，將加罪戮。諸葛亮請曰：「蔣琬社稷之器，非百里之才也。其為政以安民為本，不以修飾為先，願主公重加察之。」備雅敬亮，乃不加罪，倉卒但免官而已。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p15.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p15.h2",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p15.h3",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p15.h4",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p15.h5",
+          "type": "person",
+          "at": 44,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p15.h6",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p15.h7",
+          "type": "person",
+          "at": 90,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p15.h8",
+          "type": "person",
+          "at": 93,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p16",
@@ -170,13 +1269,68 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「七月」"
+        },
+        {
+          "id": "zztj.67.p16.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p16.h2",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p16.h3",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "zztj.67.p17",
       "text": "魏尚書令荀攸卒。攸深密有智防，自從魏公操攻討，常謀謨帷幄，時人及子弟莫知其所言。操嘗稱：「荀文若之進善，不進不休；荀公達之去惡，不去不止。」又稱：「二荀令之論人，久而益信，吾沒世不忘。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p17.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "荀攸",
+          "person_id": "xunyou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p17.h2",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p17.h3",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p18",
@@ -196,6 +1350,33 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「十月」"
+        },
+        {
+          "id": "zztj.67.p18.h1",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p18.h2",
+          "type": "person",
+          "at": 40,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p18.h3",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
         }
       ]
     },
@@ -203,6 +1384,69 @@
       "id": "zztj.67.p19",
       "text": "帝自都許以來，守位而已，左右侍衛莫非曹氏之人者。議郎趙彥嘗為帝陳言時策，魏公操惡而殺之。操後以事入見殿中，帝不任其懼，因曰：「君若能相輔，則厚；不爾，幸垂恩相捨。」操失色，俛仰求出。舊儀：三公領兵，朝見，令虎賁執刃挾之。操出，顧左右，汗流浹背；自後不復朝請。董承女為貴人，操誅承，求貴人殺之。帝以貴人有妊，累為請，不能得。伏皇后由是懷懼，乃與父完書，言曹操殘逼之狀，令密圖之，完不敢發。至是，事乃洩，操大怒，十一月，使御史大夫郗慮持節策收皇后璽綬，以尚書令華歆為副，勒兵入宮，收後。後閉戶，藏壁中。歆壞戶發壁，就牽後出。時帝在外殿，引慮於坐，後被發，徒跣，行泣，過訣曰：「不能復相活邪？」帝曰：「我亦不知命在何時！」顧謂慮曰：「郗公，天下寧有是邪！」遂將後下暴室，以幽死；所生二皇子，皆鴆殺之，兄弟及宗族死者百餘人。",
       "annotations": [
+        {
+          "id": "zztj.67.p19.h1",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p19.h2",
+          "type": "person",
+          "at": 44,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p19.h3",
+          "type": "person",
+          "at": 82,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p19.h4",
+          "type": "person",
+          "at": 110,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p19.h5",
+          "type": "person",
+          "at": 136,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p19.h6",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p19.h7",
+          "type": "person",
+          "at": 200,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
         {
           "id": "zztj.67.p19.t1",
           "type": "temporal",
@@ -217,6 +1461,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「十一月」"
+        },
+        {
+          "id": "zztj.67.p19.h8",
+          "type": "person",
+          "at": 228,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
         }
       ]
     },
@@ -238,13 +1491,59 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 建安19年 (AD 214)，月份「十二月」"
+        },
+        {
+          "id": "zztj.67.p20.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "zztj.67.p21",
       "text": "操以尚書郎高柔為理曹掾。舊法：軍征士亡，考竟其妻子。而亡者猶不息。操欲更重其刑，並及父母、兄弟，柔啟曰：「士卒亡軍，誠在可疾，然竊聞基中時有悔者。愚謂乃宜貸其妻子，一可使誘其還心。正如前科，固已絕其意望；而猥復重之，柔恐自今在軍之士，見一人亡逃，誅將及己，亦且相隨而走，不可復得殺也。此重刑非所以止亡，乃所以益走耳！」操曰：「善！」即止不殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p21.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p21.h2",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "高柔",
+          "person_id": "gaorou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p21.h3",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p21.h4",
+          "type": "person",
+          "at": 159,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p22",
@@ -285,6 +1584,15 @@
           "reasoning": "年承前文 建安20年 (AD 215)，月份「正月」"
         },
         {
+          "id": "zztj.67.p23.h1",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "zztj.67.p23.t2",
           "type": "temporal",
           "at": 24,
@@ -300,6 +1608,24 @@
           "reasoning": "年承前文 建安20年 (AD 215)，月份「三月」"
         },
         {
+          "id": "zztj.67.p23.h2",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p23.h3",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
           "id": "zztj.67.p23.t3",
           "type": "temporal",
           "at": 61,
@@ -313,6 +1639,15 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「四月」"
+        },
+        {
+          "id": "zztj.67.p23.h4",
+          "type": "person",
+          "at": 64,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         },
         {
           "id": "zztj.67.p23.t4",
@@ -334,32 +1669,767 @@
     {
       "id": "zztj.67.p24",
       "text": "初，劉備在荊州，周瑜、甘寧等數勸孫權取蜀。權遣使謂備曰：「劉璋不武，不能自守，若使曹操得蜀，則荊州危矣。今欲先攻取璋，次取張魯，一統南方，雖有十操，無所憂也。」備報曰：「益州民富地險，劉璋雖弱，足以自守。今暴師於蜀、漢，轉運於萬里，欲使戰克攻取，舉不失利，此孫、吳所難也。議者見曹操失利於赤壁，謂其力屈，無復遠念。今操三分天下已有其二，將欲飲馬於滄海，觀兵於吳會，何肯守此坐須老乎！而同盟無故自相攻伐，借樞於操，使敵承其隙，非長計也。且備與璋托為宗室，冀憑英靈以匡漢朝。今璋得罪於左右，備獨悚懼，非所敢聞，願加寬貸。」權不聽，遣孫瑜率水軍往夏口。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p24.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h3",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h4",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h5",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h6",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h7",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h8",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h9",
+          "type": "person",
+          "at": 72,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h10",
+          "type": "person",
+          "at": 80,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h11",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h12",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p24.h13",
+          "type": "person",
+          "at": 158,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h14",
+          "type": "person",
+          "at": 204,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h15",
+          "type": "person",
+          "at": 218,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h16",
+          "type": "person",
+          "at": 243,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h17",
+          "type": "person",
+          "at": 259,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p24.h18",
+          "type": "person",
+          "at": 265,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p25",
       "text": "備不聽軍過，謂瑜曰：「汝欲取蜀，吾當被髪入山，不失信於天下也。」使關羽屯江陵，張飛屯秭歸，諸葛亮據南郡，備自住孱陵，權不得已召瑜還。及備西攻劉璋，權曰：「猾虜，乃敢挾詐如此！」備留關羽守江陵，魯肅與羽鄰界；羽數生疑貳，肅常以歡好撫之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p25.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h2",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h4",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h5",
+          "type": "person",
+          "at": 45,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h6",
+          "type": "person",
+          "at": 52,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h7",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h8",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h9",
+          "type": "person",
+          "at": 67,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h10",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h11",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h12",
+          "type": "person",
+          "at": 88,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p25.h13",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h14",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p25.h15",
+          "type": "person",
+          "at": 99,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p25.h16",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p25.h17",
+          "type": "person",
+          "at": 109,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p26",
       "text": "及備已得益州，權令中司馬諸葛瑾以備求荊州諸郡。備不許，曰：「吾方圖涼州，涼州定，乃盡以荊州相與耳。」權曰：「此假而不反，乃欲以虛辭引歲也。」遂置長沙、零陵、桂陽三郡長吏。關羽盡逐之。權大怒，遣呂蒙督兵二萬以取三郡。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p26.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h2",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h3",
+          "type": "person",
+          "at": 12,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p26.h4",
+          "type": "person",
+          "at": 16,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h5",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h6",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h7",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p26.h8",
+          "type": "person",
+          "at": 91,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p26.h9",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p27",
       "text": "蒙移書長沙、桂陽，皆望風歸服，惟零陵太守郝普城守不降。劉備聞之，自蜀親至公安，遣關羽爭三郡。孫權進住陸口，為諸軍節度；使魯肅將萬人屯曾陽以拒羽；飛書召呂蒙，使捨零陵急還助肅。蒙得書，秘之，夜，召諸將授以方略；晨，當攻零陵，顧謂郝普故人南陽鄧玄之曰：「郝子太聞世間有忠義事，亦欲為之，而不知時也。今左將軍在漢中為夏侯淵所圍；關羽在南郡，至尊身自臨之。彼方首尾倒縣，救死不給，豈有餘力復營此哉！今吾計力度慮而以攻此，曾不移日而城必破，城破之後，身死，何益於事，而令百歲老母戴白受誅，豈不痛哉！度此家不得外問，謂援可恃，故至於此耳。君可見之，為陳禍福。」玄之見普，具宣蒙意，普懼而出降。蒙迎，執其手與俱下船，語畢，出書示之，因拊手大笑。普見書，知備在公安而羽在益陽，慚恨入地。蒙留孫河，委以後事，即日引軍赴益陽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p27.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h3",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h4",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h5",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h6",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h7",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h8",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h9",
+          "type": "person",
+          "at": 87,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h10",
+          "type": "person",
+          "at": 155,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h11",
+          "type": "person",
+          "at": 161,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p27.h12",
+          "type": "person",
+          "at": 281,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h13",
+          "type": "person",
+          "at": 290,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h14",
+          "type": "person",
+          "at": 320,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h15",
+          "type": "person",
+          "at": 325,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p27.h16",
+          "type": "person",
+          "at": 335,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p28",
       "text": "魯肅欲與關羽會語，諸將疑恐有變，議不可往。肅曰：「今日之事，宜相開譬。劉備負國，是非未決，羽亦何敢重欲干命！」乃邀羽相見，各駐兵馬百步上，但諸將軍單刀俱會。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p28.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p28.h2",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p28.h3",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p28.h4",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p28.h5",
+          "type": "person",
+          "at": 45,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p28.h6",
+          "type": "person",
+          "at": 57,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p29",
       "text": "肅因責數羽以不返三郡，羽曰：「烏林之役，左將軍身在行間，戮力破敵，豈得徒勞，無一塊土，而足下來欲收地邪！」肅曰：「不然。始與豫州覲於長阪，豫州之眾不當一校，計窮慮極，志勢摧弱，圖欲遠竄，望不及此。主上矜愍豫州之身無有處所，不愛土地士民之力，使有所庇廕以濟其患；而豫州私獨飾情，愆德墮好。今已藉手於西州矣，又欲翦並荊州之土，斯蓋凡夫所不忍行，而況整領人物之主乎！」羽無以答。會聞魏公操將攻漢中，劉備懼失益州，使使求和於權。權令諸葛瑾報命，更尋盟好。遂分荊州，以湘水為界；長沙、江夏、桂陽以東屬權，南郡、零陵、武陵以西屬備。諸葛瑾每奉使至蜀，與其弟亮但公會相見，退無私面。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p29.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h2",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h3",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h4",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h15",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "主上",
+          "person_id": "xianhan",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.67.p29.h5",
+          "type": "person",
+          "at": 181,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h6",
+          "type": "person",
+          "at": 190,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h7",
+          "type": "person",
+          "at": 196,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p29.h8",
+          "type": "person",
+          "at": 208,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h9",
+          "type": "person",
+          "at": 210,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h10",
+          "type": "person",
+          "at": 212,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p29.h11",
+          "type": "person",
+          "at": 245,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p29.h12",
+          "type": "person",
+          "at": 258,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p29.h13",
+          "type": "person",
+          "at": 260,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p29.h14",
+          "type": "person",
+          "at": 272,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p30",
@@ -379,13 +2449,230 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「七月」"
+        },
+        {
+          "id": "zztj.67.p30.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p30.h2",
+          "type": "person",
+          "at": 46,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p30.h3",
+          "type": "person",
+          "at": 144,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p30.h4",
+          "type": "person",
+          "at": 161,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p30.h5",
+          "type": "person",
+          "at": 167,
+          "length": 2,
+          "text": "許褚",
+          "person_id": "xuchu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p30.h6",
+          "type": "person",
+          "at": 203,
+          "length": 2,
+          "text": "劉曄",
+          "person_id": "liuye",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p30.h7",
+          "type": "person",
+          "at": 245,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p30.h8",
+          "type": "person",
+          "at": 369,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "zztj.67.p31",
       "text": "丞相主簿司馬懿言於操曰：「劉備以詐力虜劉璋，蜀人未附，而遠爭江陵，此機不可失也。今克漢中，益州震動，進兵臨之，勢必瓦解。聖人不能違時，亦不可失時也。」操曰：「人苦無足，既得隴，復望蜀邪！」劉曄曰：「劉備，人傑也，有度而遲；得蜀日淺，蜀人未恃也。今破漢中，蜀人震恐，其勢自傾。以公之神明，因其傾而壓之，無不克也。若小緩之，諸葛亮明於治國而為相，關羽、張飛勇冠三軍而為將，蜀民既定，據險守要，則不可犯矣。今不取，必為後憂。」操不從。居七日，蜀降者說「蜀中一日數十驚，守將雖斬之而不能安也。」操問曄曰：「今尚可擊不？」曄曰：「今已小定，未可擊也。」乃還。以夏侯淵為都護將軍，督張郃、徐晃等守漢中；以丞相長史杜襲為駙馬都尉，留督漢中事。襲綏懷開導，百姓自樂出徙洛、鄴者八萬餘口。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p31.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h2",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p31.h3",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h4",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h5",
+          "type": "person",
+          "at": 75,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p31.h6",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "劉曄",
+          "person_id": "liuye",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h7",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h8",
+          "type": "person",
+          "at": 160,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h9",
+          "type": "person",
+          "at": 171,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h10",
+          "type": "person",
+          "at": 174,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h11",
+          "type": "person",
+          "at": 210,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p31.h12",
+          "type": "person",
+          "at": 243,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p31.h13",
+          "type": "person",
+          "at": 275,
+          "length": 3,
+          "text": "夏侯淵",
+          "person_id": "xiahouyuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h14",
+          "type": "person",
+          "at": 285,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h15",
+          "type": "person",
+          "at": 288,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p31.h16",
+          "type": "person",
+          "at": 300,
+          "length": 2,
+          "text": "杜襲",
+          "person_id": "duxi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p32",
@@ -405,6 +2692,258 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「八月」"
+        },
+        {
+          "id": "zztj.67.p32.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h2",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "李典",
+          "person_id": "lidian",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h4",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "樂進",
+          "person_id": "yuejin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h5",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p32.h6",
+          "type": "person",
+          "at": 64,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h7",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h8",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h9",
+          "type": "person",
+          "at": 194,
+          "length": 2,
+          "text": "李典",
+          "person_id": "lidian",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h10",
+          "type": "person",
+          "at": 291,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h11",
+          "type": "person",
+          "at": 295,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h12",
+          "type": "person",
+          "at": 317,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h13",
+          "type": "person",
+          "at": 321,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h14",
+          "type": "person",
+          "at": 381,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h15",
+          "type": "person",
+          "at": 416,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h16",
+          "type": "person",
+          "at": 438,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h17",
+          "type": "person",
+          "at": 448,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h18",
+          "type": "person",
+          "at": 462,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h19",
+          "type": "person",
+          "at": 465,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h20",
+          "type": "person",
+          "at": 473,
+          "length": 2,
+          "text": "凌統",
+          "person_id": "lingtong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p32.h21",
+          "type": "person",
+          "at": 479,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h22",
+          "type": "person",
+          "at": 500,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h23",
+          "type": "person",
+          "at": 507,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h24",
+          "type": "person",
+          "at": 535,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h25",
+          "type": "person",
+          "at": 566,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h26",
+          "type": "person",
+          "at": 568,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h27",
+          "type": "person",
+          "at": 574,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p32.h28",
+          "type": "person",
+          "at": 630,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
         }
       ]
     },
@@ -468,6 +3007,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建安20年 (AD 215)，月份「十一月」"
+        },
+        {
+          "id": "zztj.67.p35.h1",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -479,17 +3027,182 @@
     {
       "id": "zztj.67.p37",
       "text": "程銀、侯選、龐德皆隨魯降，魏公操復銀、選官爵，拜德立義將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p37.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "龐德",
+          "person_id": "pangde",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p37.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p38",
       "text": "張魯之走巴中也，黃權言於劉備曰：「若失漢中，則三巴不振，此為割蜀之股臂也。」備乃以權為護軍，率諸將迎魯；魯已降，權遂擊樸胡、杜濩、任約，破之。魏公操使張郃督諸軍徇三巴，欲徙其民於漢中，進軍宕渠。劉備使巴西太守張飛與郃相拒，五十餘日，飛襲擊郃，大破之。郃走還南鄭，備亦還成都。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p38.h1",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p38.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p38.h3",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p38.h4",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p38.h5",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p38.h6",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p38.h7",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p38.h8",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p38.h9",
+          "type": "person",
+          "at": 104,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p38.h10",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "飛",
+          "person_id": "zhangfei",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.67.p38.h11",
+          "type": "person",
+          "at": 131,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.67.p39",
       "text": "操徙出故韓遂、馬超等兵五千餘人，使平難將軍殷署等督領，以扶風太守趙儼為關中護軍。操使儼發千二百兵助漢中守禦，殷署督送之，行者不樂。儼護送至斜谷口，還，未至營，署軍叛亂。儼自隨步騎百五十人，皆叛者親黨也，聞之，各驚，被甲持兵，不復自安。儼徐諭以成敗，慰勵懇切，皆慷慨曰：「死生當隨護軍，不敢有二！」前到諸營，各召料簡諸奸結叛者八百餘人，散在原野。儼下令惟取其造謀魁率治之，餘一不問，郡縣所收送皆放遣，乃即相率還降。儼密白：「宜遣將詣大營，請舊兵鎮守關中。」魏公操遣將軍劉柱將二千人往，當須到乃發遣。俄而事露，諸營大駭，不可安諭。儼遂宣言：「當差留新兵之溫厚者千人，鎮守關中，其餘悉遣東。」便見主者內諸營兵名籍，立差別人。留者意定，與儼同心，其當去者亦不敢動。儼一日盡遣上道，因使所留千人分佈羅落之。東兵尋至，乃復脅諭，並徙千人，令相及共東。凡所全致二萬餘口。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p39.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p39.h2",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "馬超",
+          "person_id": "machao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p39.h3",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "趙儼",
+          "person_id": "zhaoyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p39.h4",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p39.h5",
+          "type": "person",
+          "at": 229,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p40",
@@ -528,6 +3241,15 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 建安21年 (AD 216)，月份「二月」"
+        },
+        {
+          "id": "zztj.67.p41.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -549,23 +3271,206 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 建安21年 (AD 216)，月份「五月」"
+        },
+        {
+          "id": "zztj.67.p42.h1",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "zztj.67.p43",
       "text": "初，中尉崔琰薦巨鹿楊訓於操，操禮辟之。及操進爵，訓發表稱頌功德。或笑訓希世浮偽，謂琰為失所舉。琰從訓取表草視之，與訓書曰：「省表，事佳耳。時乎，時乎！會當有變時。」琰本意譏論者好譴呵而不尋情理也，時有與琰宿不平者，白琰「傲世怨謗，意指不遜」，操怒，收琰付獄，髡為徒隸。前白琰者復白之云：「琰為徒，對賓客虯鬚直視，若有所瞋。」遂賜琰死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p43.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "崔琰",
+          "person_id": "cuiyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p43.h2",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p43.h3",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p43.h4",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p43.h5",
+          "type": "person",
+          "at": 121,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p44",
       "text": "尚書僕射毛玠傷琰無辜，心不悅。人復白玠怨謗，操收玠付獄，侍中桓階、和洽皆為之陳理，操不聽。階求案實其事。王曰：「言事者白，玠不但謗吾也，乃復為崔琰觖望。此捐君臣恩義，妄為死友怨歎，殆不可忍也。」洽曰：「如言事者言，玠罪過深重，非天地所覆載。臣非敢曲理玠以枉大倫也，以玠歷年荷寵，剛直忠公，為眾所憚，不宜有此。然人情難保，要宜考玠，兩驗其實。今聖恩不忍致之於理，更使曲直之分不明。」操曰：「所以不考，欲兩全玠及言事者耳。」洽對曰：「玠信有謗主之言，當肆之市朝；若玠無此言，言事者加誣大臣以誤主聽，不加檢覈，臣竊不安。」操卒不窮治，玠遂免黜，終於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p44.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "毛玠",
+          "person_id": "maojie",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p44.h2",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p44.h3",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "桓階",
+          "person_id": "huanjie",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p44.h4",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "和洽",
+          "person_id": "heqia",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p44.h5",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p44.h6",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "崔琰",
+          "person_id": "cuiyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p44.h7",
+          "type": "person",
+          "at": 190,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p44.h8",
+          "type": "person",
+          "at": 258,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.67.p45",
       "text": "是時西曹掾沛國丁儀用事，玠之獲罪，儀有力焉；群下畏之側目。尚書僕射何夔及東曹屬東莞徐弈獨不事儀，儀譖弈，出為魏郡太守，賴桓階左右之得免。尚書傅選謂何夔曰：「儀已害毛玠，子宜少下之。」夔曰：「為不義，適足害其身，焉能害人！且懷奸佞之心，立於明朝，其得久乎！」崔琰從弟林，嘗與陳群共論冀州人士，稱琰為首，群以智不存身貶之。林曰：「大丈夫為有邂逅耳，即如卿諸人，良足貴乎□」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p45.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "何夔",
+          "person_id": "hekui",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p45.h2",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "桓階",
+          "person_id": "huanjie",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p45.h3",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "何夔",
+          "person_id": "hekui",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p45.h4",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "毛玠",
+          "person_id": "maojie",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p45.h5",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "崔琰",
+          "person_id": "cuiyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p45.h6",
+          "type": "person",
+          "at": 136,
+          "length": 2,
+          "text": "陳群",
+          "person_id": "chenqun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p46",
@@ -591,7 +3496,26 @@
     {
       "id": "zztj.67.p47",
       "text": "代郡烏桓三大人皆稱單于，恃力驕恣，太守不能治。魏王操以丞相倉曹屬裴潛為太守，欲授以精兵。潛曰：「單于自知放橫日久，今多將兵往，必懼而拒境，少將則不見憚，宜以計謀圖之。」遂單車之郡，單于驚喜。潛撫以恩威，單于讋服。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.67.p47.h1",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p47.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "裴潛",
+          "person_id": "peiqian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.67.p48",
@@ -611,6 +3535,15 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 建安21年 (AD 216)，月份「七月」"
+        },
+        {
+          "id": "zztj.67.p48.h1",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -655,6 +3588,24 @@
           "reasoning": "年承前文 建安21年 (AD 216)，月份「十月」"
         },
         {
+          "id": "zztj.67.p50.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.67.p50.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
           "id": "zztj.67.p50.t2",
           "type": "temporal",
           "at": 14,
@@ -670,11 +3621,6 @@
           "reasoning": "年承前文 建安21年 (AD 216)，月份「十一月」"
         }
       ]
-    },
-    {
-      "id": "zztj.67.p51",
-      "text": "此北宋作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

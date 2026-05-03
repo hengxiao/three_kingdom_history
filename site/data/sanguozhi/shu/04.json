@@ -11,15 +11,96 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷34",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 10,
+  "n_segments": 9,
   "segments": [
     {
       "id": "shu.4.p1",
       "text": "先主甘皇后，沛人也。先主臨豫州，住小沛，納以為妾。先主數喪嫡室，常攝內事。隨先主於荊州，產後主。值曹公軍至，追及先主於當陽長阪，於時困偪，棄后及後主，賴趙雲保護，得免於難。後卒，葬於南郡。章武二年，追諡皇思夫人，遷葬於蜀，未至而先主殂隕。丞相亮上言：",
       "annotations": [
+        {
+          "id": "shu.4.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h10",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "ganhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p1.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h3",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h4",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h5",
+          "type": "person",
+          "at": 45,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h6",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h7",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p1.h8",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "趙雲",
+          "person_id": "zhaoyun",
+          "via": "primary"
+        },
         {
           "id": "shu.4.p1.t1",
           "type": "temporal",
@@ -32,6 +113,15 @@
           "era": "章武",
           "era_year": 2,
           "reasoning": "原文「章武二年」直接出现年号；解析為 AD 222"
+        },
+        {
+          "id": "shu.4.p1.h9",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -40,11 +130,47 @@
       "text": "皇思夫人履行脩仁，淑慎其身。大行皇帝昔在上將，嬪妃作合，載育聖躬，大命不融。大行皇帝存時，篤義垂恩，念皇思夫人神柩在遠飄颻，特遣使者奉迎。會大行皇帝崩，今皇思夫人神柩以到，又梓宮在道，園陵將成，安厝有期。臣輒與太常臣賴恭等議：《禮記》曰：『立愛自親始，教民孝也；立敬自長始，教民順也。』不忘其親，所由生也。春秋之義，母以子貴。昔高皇帝追尊太上昭靈夫人為昭靈皇后，孝和皇帝改葬其母梁貴人，尊號曰恭懷皇后，孝愍皇帝亦改葬其母王夫人，尊號曰靈懷皇后。今皇思夫人宜有尊號，以慰寒泉之思，輒與恭等案諡法，宜曰昭烈皇后。《詩》曰：『谷則異室，死則同穴。』故昭烈皇后宜與大行皇帝合葬，臣請太尉告宗廟，布露天下，具禮儀別奏。",
       "annotations": [
         {
+          "id": "shu.4.p2.h1",
+          "type": "person",
+          "at": 198,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "gonghuailianggui",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p2.h2",
+          "type": "person",
+          "at": 219,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "wangrong",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p2.h3",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "ganhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p2.a1",
           "type": "pei",
           "at": 271,
           "length": 0,
           "text": "《禮》云：上古無合葬，中古後因時方有。"
+        },
+        {
+          "id": "shu.4.p2.h4",
+          "type": "person",
+          "at": 274,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "ganhuanghou",
+          "via": "llm"
         }
       ]
     },
@@ -53,11 +179,74 @@
       "text": "先主穆皇后，陳留人也。兄吳壹，少孤，壹父素與劉焉有舊，是以舉家隨焉入蜀。焉有異志，而聞善相者相后當大貴。焉時將子瑁自隨，遂為瑁納后。瑁死，后寡居。先主既定益州，而孫夫人還吳，群下勸先主聘后，先主疑與瑁同族，法正進曰：「論其親疏，何與晉文之於子圉乎？」於是納后為夫人。建安二十四年，立為漢中王后。章武元年夏五月，策曰：「朕承天命，奉至尊，臨萬國。今以后為皇后，遣使持節丞相亮授璽綬，承宗廟，母天下，皇后其敬之哉！」建興元年五月，後主即位，尊后為皇太后，稱長樂宮。壹官至車騎將軍，封縣侯。延熙八年，后薨，合葬惠陵。",
       "annotations": [
         {
+          "id": "shu.4.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p3.h8",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p3.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "劉焉",
+          "person_id": "liuyan_shu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.4.p3.h3",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.4.p3.a1",
           "type": "pei",
           "at": 87,
           "length": 0,
           "text": "《漢晉春秋》云：先主入益州，吳遣迎孫夫人。夫人欲將太子歸吳，諸葛亮使趙雲勒兵斷江留太子，乃得止。"
+        },
+        {
+          "id": "shu.4.p3.h4",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p3.h5",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p3.h6",
+          "type": "person",
+          "at": 103,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
         },
         {
           "id": "shu.4.p3.a2",
@@ -80,6 +269,15 @@
           "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.4.p3.h9",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "王后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p3.t2",
           "type": "temporal",
           "at": 147,
@@ -95,6 +293,24 @@
           "reasoning": "原文「章武元年夏五月」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.4.p3.h10",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p3.h11",
+          "type": "person",
+          "at": 198,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p3.t3",
           "type": "temporal",
           "at": 206,
@@ -108,6 +324,24 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "原文「建興元年五月」直接出现年号；解析為 AD 223"
+        },
+        {
+          "id": "shu.4.p3.h7",
+          "type": "person",
+          "at": 213,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p3.h12",
+          "type": "person",
+          "at": 222,
+          "length": 2,
+          "text": "太后",
+          "person_id": "muhuanghou_shu",
+          "via": "llm"
         },
         {
           "id": "shu.4.p3.t4",
@@ -136,6 +370,33 @@
       "text": "後主敬哀皇后，車騎將軍張飛長女也。章武元年，納為太子妃。建興元年，立為皇后。十五年薨，葬南陵。",
       "annotations": [
         {
+          "id": "shu.4.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p4.h4",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "jingaihuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "shu.4.p4.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
           "id": "shu.4.p4.t1",
           "type": "temporal",
           "at": 17,
@@ -149,6 +410,15 @@
           "reasoning": "原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.4.p4.h3",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liushan",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p4.t2",
           "type": "temporal",
           "at": 28,
@@ -160,6 +430,15 @@
           "era": "建興",
           "era_year": 1,
           "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.4.p4.h5",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "jingaihuanghou",
+          "via": "llm"
         },
         {
           "id": "shu.4.p4.t3",
@@ -180,6 +459,24 @@
       "id": "shu.4.p5",
       "text": "後主張皇后，前后敬哀之妹也。建興十五年，入為貴人。延熙元年春正月，策曰：「朕統承大業，君臨天下，奉郊廟社稷。今以貴人為皇后，使行丞相事左將軍向朗持節授璽綬。勉脩中饋，恪肅禋祀，皇后其敬之哉！」咸熙元年，隨後主遷於洛陽。",
       "annotations": [
+        {
+          "id": "shu.4.p5.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p5.h4",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "houzhuhuanghou",
+          "via": "llm"
+        },
         {
           "id": "shu.4.p5.t1",
           "type": "temporal",
@@ -209,6 +506,24 @@
           "reasoning": "原文「延熙元年春正月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.4.p5.h2",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "向朗",
+          "person_id": "xianglang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.4.p5.h3",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.4.p5.a1",
           "type": "pei",
           "at": 109,
@@ -221,6 +536,24 @@
       "id": "shu.4.p6",
       "text": "劉永字公壽，先主子，後主庶弟也。章武元年六月，使司徒靖立永為魯王，策曰：「小子永，受茲青土。朕承天序，繼統大業，遵脩稽古，建爾國家，封於東土，奄有龜蒙，世為籓輔。嗚呼，恭朕之詔！惟彼魯邦，一變適道，風化存焉。人之好德，世茲懿美。王其秉心率禮，綏爾士民，是饗是宜，其戒之哉！」建興八年，改封為甘陵王。初，永憎宦人黃皓，皓既信任用事，譖構永於後主，後主稍疏外永，至不得朝見者十餘年。咸熙元年，永東遷洛陽，拜奉車都尉，封為鄉侯。",
       "annotations": [
+        {
+          "id": "shu.4.p6.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p6.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
         {
           "id": "shu.4.p6.t1",
           "type": "temporal",
@@ -248,6 +581,24 @@
           "era": "建興",
           "era_year": 8,
           "reasoning": "原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.4.p6.h3",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p6.h4",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -255,6 +606,15 @@
       "id": "shu.4.p7",
       "text": "劉理字奉孝，亦後主庶弟也，與永異母。章武元年六月，使司徒靖立理為梁王，策曰：「小子理，朕統承漢序，祗順天命，遵脩典秩，建爾於東，為漢籓輔。惟彼梁土，畿甸之邦，民狎教化，易導以禮。往悉乃心，懷保黎庶，以永爾國，王其敬之哉！」建興八年，改封理為安平王。延熙七年卒，諡曰悼王。子哀王胤嗣，十九年卒。子殤王承嗣，二十年卒。景耀四年詔曰：「安平王，先帝所命。三世早夭，國嗣頹絕，朕用傷悼。其以武邑侯輯襲王位。」輯，理子也，咸熙元年，東遷洛陽，拜奉車都尉，封鄉侯。",
       "annotations": [
+        {
+          "id": "shu.4.p7.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
         {
           "id": "shu.4.p7.t1",
           "type": "temporal",
@@ -316,6 +676,24 @@
       "text": "後主太子璿，字文衡。母王貴人，本敬哀張皇后侍人也。延熙元年正月策曰：「在昔帝王，繼體立嗣，副貳國統，古今常道。今以璿為皇太子，昭顯祖宗之威，命使行丞相事左將軍朗持節授印緩。其勉脩茂質，祗恪道義，諮詢典禮，敬友師傅，斟酌眾善，翼成爾德，可不務脩以自勗哉！」時年十五。景耀六年冬，蜀亡。咸熙元年正月，鍾會作亂於成都，璿為亂兵所害。",
       "annotations": [
         {
+          "id": "shu.4.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.4.p8.h3",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p8.t1",
           "type": "temporal",
           "at": 25,
@@ -331,6 +709,15 @@
           "reasoning": "原文「延熙元年正月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.4.p8.h4",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
+        },
+        {
           "id": "shu.4.p8.t2",
           "type": "temporal",
           "at": 132,
@@ -344,6 +731,15 @@
           "reasoning": "原文「景耀六年」直接出现年号；解析為 AD 263"
         },
         {
+          "id": "shu.4.p8.h2",
+          "type": "person",
+          "at": 148,
+          "length": 2,
+          "text": "鍾會",
+          "person_id": "zhonghui",
+          "via": "primary"
+        },
+        {
           "id": "shu.4.p8.a1",
           "type": "pei",
           "at": 163,
@@ -355,11 +751,6 @@
     {
       "id": "shu.4.p9",
       "text": "評曰：《易》稱有夫婦然後有父子，夫人倫之始，恩紀之隆，莫尚於此矣。是故紀錄，以究一國之體焉。",
-      "annotations": []
-    },
-    {
-      "id": "shu.4.p10",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
       "annotations": []
     }
   ]

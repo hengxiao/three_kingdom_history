@@ -1,0 +1,60 @@
+{
+  "id": "duqiong",
+  "primary_name": "杜瓊",
+  "courtesy_name": "伯瑜",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.12",
+      "title": "蜀書·二杜周許孟來尹李譙郤傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p20",
+        "at": 25,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "杜瓊",
+        "snippet": "何彥英名宗，蜀郡郫人也。事廣漢任安學，精究安術，與杜瓊同師而名問過之。劉璋時，為犍為太守。先主定益州，領牧，闢為從事祭酒。後援引圖、讖，勸先主即尊號。踐阼之後，遷為大鴻臚。建興中卒…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p26",
+        "at": 114,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "杜瓊",
+        "snippet": "…別駕從事趙莋、治中從事楊洪、從事祭酒何宗、議曹從事杜瓊、勸學從事張爽、尹默、譙周等上言："
+      },
+      {
+        "chapter_id": "shu.5",
+        "chapter_title": "蜀書·諸葛亮傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.5.p18",
+        "at": 125,
+        "data_url": "data/sanguozhi/shu/05.json",
+        "matched": "杜瓊",
+        "snippet": "…行命謚，所以光昭將來，刊載不朽。令使使持節左中郎將杜瓊，贈君丞相武鄉侯印綬，謚君為忠武侯。魂而有靈，嘉茲寵榮。嗚呼哀哉！嗚呼哀哉！"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

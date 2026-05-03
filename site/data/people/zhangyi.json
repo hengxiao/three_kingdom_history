@@ -1,0 +1,83 @@
+{
+  "id": "zhangyi",
+  "primary_name": "張嶷",
+  "courtesy_name": "伯岐",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.13",
+      "title": "蜀書·黃李呂馬王張傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/13.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p37",
+        "at": 39,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "張嶷",
+        "snippet": "…太守不敢之郡，寄治安定縣，去郡八縣餘里。漢主以巴西張嶷為越巂太守，嶷招慰新附，誅討強猾，蠻夷畏服，郡界悉平，復還舊治。"
+      },
+      {
+        "chapter_id": "zztj.76",
+        "chapter_title": "魏紀八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.76.p25",
+        "at": 124,
+        "data_url": "data/zztj/zztj/76.json",
+        "matched": "張嶷",
+        "snippet": "…也。」漢侍中諸葛瞻，亮之子也；恪再攻淮南，越巂太守張嶷與瞻書曰：「東主初崩，帝實幼弱，太傅受寄托之重，亦何容易！親有周公之才，猶有管、蔡流言之變，霍光受任，亦有燕、蓋、上官逆亂之謀…"
+      },
+      {
+        "chapter_id": "zztj.76",
+        "chapter_title": "魏紀八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.76.p42",
+        "at": 27,
+        "data_url": "data/zztj/zztj/76.json",
+        "matched": "張嶷",
+        "snippet": "…維自鍬道進拔河間、臨洮。將軍徐質與戰，殺其蕩寇將軍張嶷，漢兵乃還。"
+      },
+      {
+        "chapter_id": "zztj.76",
+        "chapter_title": "魏紀八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.76.p5",
+        "at": 56,
+        "data_url": "data/zztj/zztj/76.json",
+        "matched": "張嶷",
+        "snippet": "…醉，循起刺禕，殺之。禕資性泛愛，不疑於人。越巂太守張嶷嘗以書戒之日：「昔岑彭率師，來歙杖節，鹹見害於刺客。今明將軍位尊權重，待信新附太過，宜鑒前事，少以為警。」禕不從，故及禍。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p19",
+        "at": 9,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "張嶷",
+        "snippet": "三年春，使越巂太守張嶷平定越巂郡。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 5
+}

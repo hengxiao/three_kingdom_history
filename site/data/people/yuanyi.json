@@ -1,0 +1,61 @@
+{
+  "id": "yuanyi",
+  "primary_name": "袁遺",
+  "courtesy_name": "伯業",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.74",
+      "title": "袁紹劉表列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/74.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p66",
+        "at": 112,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "袁遺",
+        "snippet": "…留太守張邈、邈弟廣陵太守超、東郡太守橋瑁、山陽太守袁遺、濟北相鮑信與曹操俱屯酸棗，後將軍袁術屯魯陽，眾名數萬。豪傑多歸心袁紹者，鮑信獨謂曹操曰：「夫略不世出，能撥亂反正者，君也。苟…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p61",
+        "at": 13,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "袁遺",
+        "snippet": "揚州刺史汝南陳溫卒，袁紹使袁遺領揚州；袁術擊破之。遺走至沛，為兵所殺。術以下邳陳瑀為揚州刺史。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p6",
+        "at": 66,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "袁遺",
+        "snippet": "…勃海太守袁紹、陳留太守張邈、東郡太守橋瑁、山陽太守袁遺、濟北相鮑信同時俱起兵，衆各數萬，推紹爲盟主。太祖行奮武將軍。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

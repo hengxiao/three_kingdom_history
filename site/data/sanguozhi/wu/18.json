@@ -11,45 +11,357 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷63",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 19,
+  "n_segments": 18,
   "segments": [
     {
       "id": "wu.18.p1",
       "text": "吳範劉惇趙達",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "吳範",
+          "person_id": "wufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "劉惇",
+          "person_id": "liudun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p2",
       "text": "吳範字文則，會稽上虞人也。以治曆數知風氣聞於郡中。舉有道，詣京都，世亂不行。會孫權起於東南，範委身服事，每有災祥，輒推數言狀。其術多效，遂以顯名。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "吳範",
+          "person_id": "wufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p2.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p3",
       "text": "初，權在吳，欲討黃祖。範曰：「今茲少利，不如明年。明年戊子，荊州劉表亦身死國亡。」權遂征祖，卒不能克。明年，軍出，行及尋陽，範見風氣，因詣船賀，催兵急行，至即破祖，祖得夜亡。權恐失之，範曰：「未遠，必生禽祖。」至五更中，果得之。劉表竟死，荊州分割。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p3.h1",
+          "type": "person",
+          "at": 2,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p3.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p3.h3",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p3.h4",
+          "type": "person",
+          "at": 87,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p3.h5",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p4",
       "text": "及壬辰歲，範又白言：「歲在甲午，劉備當得益州。」後呂岱從蜀還，遇之白帝，說備部衆離落，死亡且半，事必不克。權以難範，範曰：「臣所言者天道也，而岱所見者人事耳。」備卒得蜀。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p4.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p4.h2",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p4.h3",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.18.p4.h4",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p4.h5",
+          "type": "person",
+          "at": 80,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.18.p5",
       "text": "權與呂蒙謀襲關羽，議之近臣，多曰不可。權以問範，範曰：「得之。」後羽在麥城，使使請降。權問範曰：「竟當降否？」範曰：「彼有走氣，言降詐耳。」權使潘璋邀其徑路，覘候者還，白羽已去。範曰：「雖去不免。」問其期，曰：「明日日中。」權立表下漏以待之。及中不至，權問其故，範曰：「時尚未正中也。」頃之，有風動帷，範拊手曰：「羽至矣。」須臾，外稱萬歲，傳言得羽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p5.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p5.h3",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p5.h4",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h5",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.18.p5.h6",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h7",
+          "type": "person",
+          "at": 70,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h8",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p5.h9",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.18.p5.h10",
+          "type": "person",
+          "at": 112,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h11",
+          "type": "person",
+          "at": 114,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h12",
+          "type": "person",
+          "at": 126,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p5.h13",
+          "type": "person",
+          "at": 157,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.18.p5.h14",
+          "type": "person",
+          "at": 173,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.18.p6",
       "text": "後權與魏爲好，範曰：「以風氣言之，彼以貌來，其實有謀，宜爲之備。」劉備盛兵西陵，範曰：「後當和親。」終皆如言。其占驗明審如此。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p6.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p6.h2",
+          "type": "person",
+          "at": 30,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.18.p6.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p7",
       "text": "權以範爲騎都尉，領太史令，數從訪問，欲知其決。範祕惜其術，不以至要語權。權由是恨之。",
       "annotations": [
+        {
+          "id": "wu.18.p7.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p7.h2",
+          "type": "person",
+          "at": 34,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p7.h3",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.18.p7.a1",
           "type": "pei",
@@ -62,12 +374,94 @@
     {
       "id": "wu.18.p8",
       "text": "初，權爲將軍時，範嘗白言江南有王氣，亥子之間有大福慶。權曰：「若終如言，以君爲侯。」及立爲吳王，範時侍宴，曰：「昔在吳中，嘗言此事，大王識之邪？」權曰：「有之。」因呼左右，以侯綬帶範。範知權欲以厭當前言，輒手推不受。及後論功行封，以範爲都亭侯，詔臨當出，權恚其愛道於己也，削除其名。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p8.h1",
+          "type": "person",
+          "at": 2,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p8.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p8.h3",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p8.h4",
+          "type": "person",
+          "at": 94,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p8.h5",
+          "type": "person",
+          "at": 127,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.18.p9",
       "text": "範爲人剛直，頗好自稱，然與親故交接有終始。素與魏滕同邑相善。滕嘗有罪，權責怒甚嚴，敢有諫者死，範謂滕曰：「與汝偕死。」滕曰：「死而無益，何用死爲？」範曰：「安能慮此坐觀汝邪？」乃髡頭自縛詣門下，使鈴下以聞。鈴下不敢，曰：「必死，不敢白。」範曰：「汝有子邪？」曰：「有。」曰：「使汝爲吳範死，子以屬我。」鈴下曰：「諾。」乃排閤入。言未卒，權大怒，欲便投以戟。逡巡走出，範因突入，叩頭流血，言與涕並。良久，權意釋，乃免滕。滕見範謝曰：「父母能生長我，不能免我於死。丈夫相知，如汝足矣，何用多爲！」",
       "annotations": [
+        {
+          "id": "wu.18.p9.h1",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p9.h2",
+          "type": "person",
+          "at": 141,
+          "length": 2,
+          "text": "吳範",
+          "person_id": "wufan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p9.h3",
+          "type": "person",
+          "at": 168,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p9.h4",
+          "type": "person",
+          "at": 201,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.18.p9.a1",
           "type": "pei",
@@ -95,6 +489,24 @@
           "reasoning": "原文「黃武五年」直接出现年号；解析為 AD 226"
         },
         {
+          "id": "wu.18.p10.h1",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.18.p10.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "吳範",
+          "person_id": "wufan",
+          "via": "primary"
+        },
+        {
           "id": "wu.18.p10.a1",
           "type": "pei",
           "at": 56,
@@ -106,12 +518,50 @@
     {
       "id": "wu.18.p11",
       "text": "劉惇字子仁，平原人也。遭亂避地，客游廬陵，事孫輔。以明天官達占數顯於南土。每有水旱寇賊，皆先時處期，無不中者。輔異焉，以爲軍師，軍中咸敬事之，號曰神明。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉惇",
+          "person_id": "liudun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p11.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫輔",
+          "person_id": "sunfu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p12",
       "text": "建安中，孫權在豫章，時有星變，以問惇，惇曰：「災在丹楊。」權曰：「何如？」曰：「客勝主人，到某日當得問。」是時邊鴻作亂，卒如惇言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p12.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p12.h2",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wu.18.p13",
@@ -126,12 +576,40 @@
     {
       "id": "wu.18.p15",
       "text": "達寶惜其術，自闞澤、殷禮皆名儒善士，親屈節就學，達祕而不告，太史丞公孫滕少師事達，勤苦累年，達許敎之者有年數矣，臨當喻語而輒復止。滕他日齎酒具，候顏色，拜跪而請。達曰：「吾先人得此術，欲圖爲帝王師，至仕來三世，不過太史郎，誠不欲復傳之。且此術微妙，頭乘尾除，一算之法，父子不相語。然以子篤好不倦，今真以相授矣。」飲酒數行，達起取素書兩眷，大如手指，達曰：「當寫讀此，則自解也。吾久廢，不復省之。今欲思論一過，數日當以相與。」滕如期往，至乃陽求索書，驚言失之，云：「女婿昨來，必是渠所竊。」遂從此絕。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.18.p15.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "闞澤",
+          "person_id": "kanze",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.18.p16",
       "text": "初，孫權行師征伐，每令達有所推步，皆如其言。權問其法，達終不語，由此見薄，祿位不至。",
       "annotations": [
+        {
+          "id": "wu.18.p16.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.18.p16.h2",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
         {
           "id": "wu.18.p16.a1",
           "type": "pei",
@@ -145,6 +623,15 @@
       "id": "wu.18.p17",
       "text": "達常笑謂諸星氣風術者曰：「當迴算帷幕，不出戶牖以知天道，而反晝夜暴露以望氣祥，不亦難乎！」閒居無爲，引算自校，乃歎曰：「吾算訖盡某年月日，其終矣。」達妻數見達效，聞而哭泣。達欲弭妻意，乃更步算，言：「向者謬誤耳，尚未也。」後如期死。權聞達有書，求之不得，乃錄問其女，及發棺無所得，法術絕焉。",
       "annotations": [
+        {
+          "id": "wu.18.p17.h1",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.18.p17.a1",
           "type": "pei",
@@ -166,11 +653,6 @@
           "text": "孫盛曰：夫玄覽未然，逆鑒來事，雖裨竈、梓慎其猶病諸，況術之下此者乎？吳史書達知東南當有王氣，故輕舉濟江。魏承漢緒，受命中畿，達不能豫覩兆萌，而流竄吳越。又不知吝術之鄙，見薄於時，安在其能逆覩天道而審帝王之符瑞哉？昔聖王觀天地之文，以畫八卦之象，故亹亹成於蓍策，變化形乎六爻，是以三易雖殊，卦繇理一，安有迴轉一籌，可以鈎深測隱，意對逆占，而能遂知來物者乎？流俗好異，妄設神奇，不幸之中，仲尼所棄，是以君子志其大者，無所取諸。臣松之以爲盛云「君子志其大者，無所取諸」，故評家之旨，非新聲也。其餘所譏，則皆爲非理。自中原酷亂，至于建安，數十年間，生民殆盡，比至小康，皆百死之餘耳。江左雖有兵革，不能如中國之甚也，焉知達不算其安危，知禍有多少，利在東南，以全其身乎？而責不知魏氏將興，流播吳越，在京房之籌，猶不能自免刑戮，況達但以祕術見薄，在悔吝之間乎！古之道術，蓋非一方，探賾之功，豈惟六爻，苟得其要，則可以易而知之矣，迴轉一籌，胡足怪哉？達之推算，窮其要妙以知幽測隱，何愧于古！而以裨、梓限之，謂達爲妄，非篤論也。《抱樸子》曰：時有葛仙公者，每飲酒醉，常入人家門前陂水中臥，竟日乃出。曾從吳主別，到洌州，還遇大風，百官船多沒，仙公船亦沉淪，吳主甚悵恨。明日使人鈎求公船，而登高以望焉。久之，見公步從水上來，衣履不沾，而有酒色。既見而言曰：「臣昨侍從而伍子胥見請，暫過設酒，忽忽不得，即委之。」又有姚光者，有火術。吳主身臨試之，積荻數千束，使光坐其上，又以數千束荻裹之，因猛風而燔之。荻了盡，謂光當以化爲燼，而光端坐灰中，振衣而起，把一卷書。吳主取其書視之，不能解也。又曰：吳景帝有疾，求覡視者，得一人。景帝欲試之，乃殺鵝而埋於苑中，架小屋，施牀几，以婦人屐履服物著其上，乃使覡視之。告曰：「若能說此冢中鬼婦人形狀者，當加賞而即信矣。」竟日盡夕無言，帝推問之急，乃曰：「實不見有鬼，但見一頭白鵝立墓上，所以不即白之，疑是鬼神變化作此相，當候其真形而定。無復移易，不知何故，不敢不以實上聞。」景帝乃厚賜之。然則鵝死亦有鬼也。葛洪《神仙傳》曰：仙人介象，字元則，會稽人，有諸方術。吳主聞之，徵象到武昌，甚敬貴之，稱爲介君，爲起宅，以御帳給之，賜遺前後累千金，從象學蔽形之術。試還後宮，及出殿門，莫有見者。又使象作變化，種瓜菜百果，皆立生可食。吳主共論鱠魚何者最美，象曰：「鯔魚爲上。」吳主曰：「論近道魚耳，此出海中，安可得邪？」象曰：「可得耳。」乃令人於殿庭中作方埳，汲水滿之，幷求鈎。象起餌之，垂綸於埳中。須臾，果得鯔魚。吳主驚喜，問象曰：「可食不？」象曰：「故爲陛下取以作生鱠，安敢取不可食之物！」乃使厨下切之。吳主曰：「聞蜀使來，得蜀薑作韲甚好，恨爾時無此。」象曰：「蜀薑豈不易得，願差所使者，幷付直。」吳主指左右一人，以錢五十付之。象書一符，以著青竹杖中，使行人閉目騎杖，杖止，便買薑訖，復閉目。此人承其言騎杖，須臾止，已至成都，不知是何處，問人，人言是蜀市中，乃買薑。于時吳使張溫先在蜀，既於市中相識，甚驚，便作書寄其家。此人買薑畢，捉書負薑，騎杖閉目，須臾已還到吳，厨下切鱠適了。臣松之以爲葛洪所記，近爲惑衆，其書文頗行世，故撮取數事，載之篇末也。神仙之術，詎可測量，臣之臆斷，以爲惑衆，所謂夏蟲不知冷冰耳。"
         }
       ]
-    },
-    {
-      "id": "wu.18.p19",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

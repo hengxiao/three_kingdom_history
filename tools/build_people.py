@@ -1,18 +1,19 @@
 """Build site/data/people.json + per-person JSON from tools/people.yaml.
 
-Schema mirrors the timeline pipeline: walk every chapter (sanguozhi, houhanshu,
-zztj), substring-search each person's `primary_name` and `aliases`, and emit:
+Reads person annotations produced by `tools.extract_persons` from each
+chapter's annotations YAML. Mentions are 1-per-(chapter, segment) where any
+person annotation for the target person id appears.
 
     site/data/people.json           ← directory of all persons (sorted by n_mentions desc)
     site/data/people/<id>.json      ← per-person: bio chapters + grouped mentions
 
 Per `tools/people.yaml`:
   - `aliases` are high-confidence search patterns (mostly the unique 字 form).
+  - `given_name` is the single-character name; matched only after primary
+    appears in the same segment, with `given_name_blockers` filtering compound
+    words. (Both happen at extract time.)
   - `other_names` are display-only; not searched, since they collide across
     people (e.g. 太祖 in 魏书 = 曹操 but in 吳书 = 孫權).
-
-Each mention records which exact alias matched so a reviewer can spot the
-occasional false-positive without having to reread the source.
 """
 from __future__ import annotations
 
@@ -34,7 +35,7 @@ CONFIG_PATH_DEFAULT = Path(__file__).resolve().parent / "people.yaml"
 
 @dataclass
 class ChapterIndex:
-    """One chapter loaded into memory: segments + frontmatter, ready for substring scans."""
+    """One chapter loaded into memory: segments + person annotations from the YAML."""
     chapter_id: str           # "wei.1" / "hhs.8" / "zztj.56"
     work: str                 # "sanguozhi" | "houhanshu" | "zztj"
     book: str                 # "wei"|"shu"|"wu"|"hhs"|"zztj"
@@ -42,6 +43,9 @@ class ChapterIndex:
     book_title: str
     chapter_title: str
     segments: list            # list of Segment objects (id + text)
+    person_anns: list = field(default_factory=list)
+    """Each ann: {person_id, anchor, at, length, text, via}. Loaded from
+    annotations/<work>/<book>/<NN>.yaml — populated by tools.extract_persons."""
 
 
 def load_config(path: Path) -> list[dict]:
@@ -81,19 +85,41 @@ def _walk_text_files(repo_root: Path) -> Iterable[tuple[str, str, int, Path]]:
             yield ("zztj", "zztj", int(f.stem), f)
 
 
+def _annotations_yaml_for(work: str, book: str, juan: int, repo_root: Path) -> Path:
+    """Mirror the per-work `annotations_path` resolvers without importing all of them."""
+    if work == "sanguozhi":
+        return repo_root / "annotations" / "sanguozhi" / book / f"{juan:02d}.yaml"
+    if work == "houhanshu":
+        return repo_root / "annotations" / "houhanshu" / f"{juan:02d}.yaml"
+    if work == "zztj":
+        return repo_root / "annotations" / "zztj" / f"{juan:03d}.yaml"
+    raise ValueError(f"unknown work: {work}")
+
+
+def _load_person_annotations(yaml_path: Path) -> list[dict]:
+    if not yaml_path.exists():
+        return []
+    doc = yaml.safe_load(yaml_path.read_text(encoding="utf-8")) or {}
+    return [a for a in (doc.get("annotations") or []) if a.get("type") == "person"]
+
+
 def load_all_chapters(repo_root: Path) -> dict[str, ChapterIndex]:
-    """Parse every chapter once and return {chapter_id: ChapterIndex}."""
+    """Parse every chapter and return {chapter_id: ChapterIndex} with person annotations attached."""
     out: dict[str, ChapterIndex] = {}
     for work, book, juan, path in _walk_text_files(repo_root):
         parsed = parse_file(path)
         fm = parsed.frontmatter
         chapter_id = f"{book}.{juan}"
+        person_anns = _load_person_annotations(
+            _annotations_yaml_for(work, book, juan, repo_root)
+        )
         out[chapter_id] = ChapterIndex(
             chapter_id=chapter_id,
             work=work, book=book, juan=juan,
             book_title=fm.get("book_title", book),
             chapter_title=fm.get("title", ""),
             segments=list(parsed.segments),
+            person_anns=person_anns,
         )
     return out
 
@@ -115,43 +141,44 @@ def find_mentions_for_person(
     *,
     skip_chapter_ids: set[str],
 ) -> list[dict]:
-    """Return one mention per (chapter, segment) where any search pattern hits.
+    """Return one mention per (chapter, segment) where a person annotation hits.
 
-    Per-segment dedup: even if a segment matches both `primary_name` and an alias,
-    we record one mention noting the longest matched form.
+    Per-segment dedup: if a segment has multiple annotations for this person
+    (e.g., 曹操 + 操), record one mention pointing at the FIRST annotation, with
+    `matched` set to the longest annotation's surface (most specific form).
     """
-    patterns: list[str] = [person["primary_name"]] + list(person.get("aliases") or [])
-    # Match longer patterns first so we record the most specific form when several apply.
-    patterns.sort(key=len, reverse=True)
+    pid = person["id"]
+    seg_text_by_id = {seg.id: seg.text for ch in chapters.values() for seg in ch.segments}
 
-    out: list[dict] = []
+    # Group annotations by (chapter_id, anchor)
+    by_seg: dict[tuple[str, str], list[dict]] = {}
     for chapter_id, ch in chapters.items():
         if chapter_id in skip_chapter_ids:
             continue
-        for seg in ch.segments:
-            best_at = -1
-            best_pat = None
-            for pat in patterns:
-                pos = seg.text.find(pat)
-                if pos == -1:
-                    continue
-                # Earliest position with longest pattern (we already sorted by length desc).
-                if best_at == -1 or pos < best_at:
-                    best_at = pos
-                    best_pat = pat
-            if best_at == -1:
+        for ann in ch.person_anns:
+            if ann.get("person_id") != pid:
                 continue
-            out.append({
-                "chapter_id": chapter_id,
-                "chapter_title": ch.chapter_title,
-                "book_title": ch.book_title,
-                "work": ch.work,
-                "anchor": seg.id,
-                "at": best_at,
-                "data_url": _chapter_data_url(ch.work, ch.book, ch.juan),
-                "matched": best_pat,
-                "snippet": _make_snippet(seg.text, best_at),
-            })
+            by_seg.setdefault((chapter_id, ann["anchor"]), []).append(ann)
+
+    out: list[dict] = []
+    for (chapter_id, anchor), anns in by_seg.items():
+        ch = chapters[chapter_id]
+        anns.sort(key=lambda a: a["at"])
+        first = anns[0]
+        # Pick the longest surface as the recorded matched form (e.g., 曹操 over 操).
+        longest = max(anns, key=lambda a: a.get("length", 0))
+        seg_text = seg_text_by_id.get(anchor, "")
+        out.append({
+            "chapter_id": chapter_id,
+            "chapter_title": ch.chapter_title,
+            "book_title": ch.book_title,
+            "work": ch.work,
+            "anchor": anchor,
+            "at": first["at"],
+            "data_url": _chapter_data_url(ch.work, ch.book, ch.juan),
+            "matched": longest.get("text", ""),
+            "snippet": _make_snippet(seg_text, first["at"]) if seg_text else "",
+        })
     return out
 
 
@@ -185,6 +212,7 @@ def build_one_person(person: dict, chapters: dict[str, ChapterIndex]) -> dict:
         "id": person["id"],
         "primary_name": person["primary_name"],
         "courtesy_name": person.get("courtesy_name"),
+        "given_name": person.get("given_name"),
         "aliases": list(person.get("aliases") or []),
         "other_names": list(person.get("other_names") or []),
         "birth_ad": person.get("birth_ad"),

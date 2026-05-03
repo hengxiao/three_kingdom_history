@@ -1,0 +1,38 @@
+{
+  "id": "luji",
+  "primary_name": "陸績",
+  "courtesy_name": "公紀",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.12",
+      "title": "吳書·虞陆张骆陆吾朱传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.7",
+        "chapter_title": "吳書·張顧諸葛歩傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.7.p15",
+        "at": 18,
+        "data_url": "data/sanguozhi/wu/07.json",
+        "matched": "陸績",
+        "snippet": "邵字孝則，博覽書傳，好樂人倫。少與舅陸績齊名，而陸遜、張敦、卜靜等皆亞焉。自州郡庶幾及四方人士，往來相見，或言議而去，或結厚而別，風聲流聞，遠近稱之。權妻以策女。年二…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

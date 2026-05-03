@@ -1,0 +1,38 @@
+{
+  "id": "lvqian",
+  "primary_name": "呂虔",
+  "courtesy_name": "子恪",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p17",
+        "at": 227,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "呂虔",
+        "snippet": "…餘年，不應州郡之命，母終，毀瘁，杖而後起。徐州刺史呂虔檄為別駕，委以州事，州界清靜，政化大行。時人歌之曰：「海沂之康，實賴王祥；邦國不空，別駕之功！」"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

@@ -2,9 +2,41 @@ chapter: wei.19
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷19
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 35a446fc08007a1055ff4576e37411b0fab3baded2a90a9e953b40e1770fb088
 annotations:
+- id: wei.19.p2.h1
+  anchor: wei.19.p2
+  at: 40
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p2.h2
+  anchor: wei.19.p2
+  at: 128
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p2.h3
+  anchor: wei.19.p2
+  at: 152
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p2.h4
+  anchor: wei.19.p2
+  at: 191
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.19.p2.t1
   anchor: wei.19.p2
   at: 196
@@ -29,24 +61,108 @@ annotations:
   era: 建安
   era_year: 23
   reasoning: 承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218
+- id: wei.19.p3.h1
+  anchor: wei.19.p3
+  at: 28
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p3.h2
+  anchor: wei.19.p3
+  at: 96
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
 - id: wei.19.p3.a1
   anchor: wei.19.p3
   at: 159
   length: 0
   type: pei
   text: 臣松之案桑乾縣屬代郡，今北虜居之，號為索干之都。
+- id: wei.19.p3.h3
+  anchor: wei.19.p3
+  at: 334
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p3
+  at: 353
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「彰自代過鄴，太子謂彰曰」此時太子即曹丕（建安二十三、四年）。
+  id: wei.19.p3.h5
+- anchor: wei.19.p3
+  at: 388
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「如太子言」續指曹丕。
+  id: wei.19.p3.h6
+- id: wei.19.p3.h4
+  anchor: wei.19.p3
+  at: 397
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.19.p3.a2
   anchor: wei.19.p3
   at: 416
   length: 0
   type: pei
   text: 《魏略》曰：太祖在漢中，而劉備栖於山頭，使劉封下挑戰。太祖罵曰：『賣履舍兒，長使假子拒汝公乎！待呼我黃鬚來，令擊之。』乃召彰。彰晨夜進道，西到長安而太祖已還，從漢中而歸。彰鬚黃，故以呼之。
+- id: wei.19.p4.h1
+  anchor: wei.19.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p4.h2
+  anchor: wei.19.p4
+  at: 17
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p4.h3
+  anchor: wei.19.p4
+  at: 33
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.19.p4.a1
   anchor: wei.19.p4
   at: 37
   length: 0
   type: pei
   text: 《魏略》曰：彰至，謂臨菑侯植曰：『先王召我者，欲立汝也。』植曰：『不可。不見袁氏兄弟乎！』
+- id: wei.19.p4.h4
+  anchor: wei.19.p4
+  at: 37
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.19.p4.a2
   anchor: wei.19.p4
   at: 50
@@ -149,6 +265,30 @@ annotations:
   length: 0
   type: pei
   text: 楷，泰始初為崇化少府，見《百官名》。
+- id: wei.19.p5.h1
+  anchor: wei.19.p5
+  at: 33
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p5.h2
+  anchor: wei.19.p5
+  at: 85
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p5.h3
+  anchor: wei.19.p5
+  at: 108
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.19.p5.a1
   anchor: wei.19.p5
   at: 114
@@ -167,12 +307,270 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211（回溯前事，不推進章節時間軸）
+- id: wei.19.p6.h1
+  anchor: wei.19.p6
+  at: 21
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p6.h2
+  anchor: wei.19.p6
+  at: 24
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.19.p6.h3
+  anchor: wei.19.p6
+  at: 90
+  length: 2
+  type: person
+  person_id: yangxiu
+  text: 楊脩
+  via: primary
+- id: wei.19.p6.h4
+  anchor: wei.19.p6
+  at: 98
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p6
+  at: 105
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太祖狐疑，幾為太子者數矣」立嗣之爭，最終立曹丕為太子。
+  id: wei.19.p6.h6
+- id: wei.19.p6.h5
+  anchor: wei.19.p6
+  at: 128
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.19.p7.h1
+  anchor: wei.19.p7
+  at: 31
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p7.h2
+  anchor: wei.19.p7
+  at: 190
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p7.h3
+  anchor: wei.19.p7
+  at: 200
+  length: 2
+  type: person
+  person_id: yangxiu
+  text: 楊脩
+  via: primary
+- id: wei.19.p7.h4
+  anchor: wei.19.p7
+  at: 235
+  length: 2
+  type: person
+  person_id: yangxiu
+  text: 楊脩
+  via: primary
+- anchor: wei.19.p7
+  at: 295
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「自魏太子已下，並爭與交好」楊脩在建安末，魏太子即曹丕。
+  id: wei.19.p7.h5
+- id: wei.19.p10.h1
+  anchor: wei.19.p10
+  at: 97
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p10
+  at: 101
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太子立，遂有天下」太祖崩後曹丕嗣立。
+  id: wei.19.p10.h9
+- anchor: wei.19.p10
+  at: 120
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「脩以所得王髦劍奉太子」太子即曹丕。
+  id: wei.19.p10.h10
+- anchor: wei.19.p10
+  at: 123
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子常服之」續指曹丕。
+  id: wei.19.p10.h11
+- id: wei.19.p10.h2
+  anchor: wei.19.p10
+  at: 207
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.19.p10.h3
+  anchor: wei.19.p10
+  at: 342
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p10
+  at: 360
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 《世語》「太子患之」即丁儀等欲立植，曹丕憂之。
+  id: wei.19.p10.h12
+- id: wei.19.p10.h4
+  anchor: wei.19.p10
+  at: 383
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p10
+  at: 391
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子懼，告質」續指曹丕。
+  id: wei.19.p10.h13
+- id: wei.19.p10.h5
+  anchor: wei.19.p10
+  at: 453
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p10.h6
+  anchor: wei.19.p10
+  at: 490
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p10.h7
+  anchor: wei.19.p10
+  at: 520
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.19.p10.h8
+  anchor: wei.19.p10
+  at: 531
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- anchor: wei.19.p10
+  at: 534
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「太祖遣太子及植各出鄴城一門」太子即曹丕。
+  id: wei.19.p10.h14
+- anchor: wei.19.p10
+  at: 558
+  length: 2
+  type: person
+  person_id: caopi
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太子至門」續指曹丕。
+  id: wei.19.p10.h15
+- id: wei.19.p11.h1
+  anchor: wei.19.p11
+  at: 5
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: wei.19.p11.h2
+  anchor: wei.19.p11
+  at: 8
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wei.19.p11.h3
+  anchor: wei.19.p11
+  at: 13
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.19.p11.a1
   anchor: wei.19.p11
   at: 54
   length: 0
   type: pei
   text: 《魏氏春秋》曰：植將行，太子飲焉，偪而醉之。王召植，植不能受王命，故王怒也。
+- id: wei.19.p12.h1
+  anchor: wei.19.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.19.p12.a1
   anchor: wei.19.p12
   at: 17
@@ -191,6 +589,16 @@ annotations:
   era: 黃初
   era_year: 2
   reasoning: 原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
+- anchor: wei.19.p13
+  at: 36
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 黃初二年「帝以太后故，貶爵安鄉侯」太后即文帝母卞太后，roster未列。
+  id: wei.19.p13.h1
 - id: wei.19.p13.a1
   anchor: wei.19.p13
   at: 46
@@ -287,6 +695,26 @@ annotations:
   era: 正始
   era_year: 2
   reasoning: 承前文年號「正始」推得，「二年」 = 正始2年 = AD 241
+- anchor: wei.19.p18
+  at: 161
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 曹植太和二年自試疏「正值陛下升平之際」上明帝，陛下即曹叡。
+  id: wei.19.p18.h3
+- anchor: wei.19.p18
+  at: 372
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「今陛下以聖明統世」續指曹叡。
+  id: wei.19.p18.h4
 - id: wei.19.p18.a1
   anchor: wei.19.p18
   at: 516
@@ -299,6 +727,32 @@ annotations:
   length: 0
   type: pei
   text: 固
+- id: wei.19.p18.h1
+  anchor: wei.19.p18
+  at: 699
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- anchor: wei.19.p18
+  at: 758
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「若使陛下出不世之詔」續指曹叡。
+  id: wei.19.p18.h5
+- id: wei.19.p18.h2
+  anchor: wei.19.p18
+  at: 989
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
 - id: wei.19.p18.a3
   anchor: wei.19.p18
   at: 1143
@@ -311,6 +765,16 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：楚莊掩絕纓之罪，事亦顯，故不書。秦穆公有赦盜馬事，趙則未聞。蓋以秦亦趙姓，故互文以避上『秦』字也。
+- anchor: wei.19.p18
+  at: 1394
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「敢陳聞於陛下者」續指曹叡。
+  id: wei.19.p18.h6
 - id: wei.19.p19.t1
   anchor: wei.19.p19
   at: 0
@@ -335,6 +799,164 @@ annotations:
   era: 正始
   era_year: 5
   reasoning: 承前文年號「正始」推得，「五年」 = 正始5年 = AD 244
+- anchor: wei.19.p20
+  at: 245
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 太和五年曹植求存問親戚疏「伏惟陛下資帝唐欽明之德」上明帝，陛下即曹叡。
+  id: wei.19.p20.h1
+- anchor: wei.19.p20
+  at: 465
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「願陛下沛然垂詔」續指曹叡。
+  id: wei.19.p20.h2
+- anchor: wei.19.p20
+  at: 562
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「及觀陛下之所拔授」續指曹叡。
+  id: wei.19.p20.h3
+- anchor: wei.19.p20
+  at: 841
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「實在陛下」續指曹叡。
+  id: wei.19.p20.h4
+- anchor: wei.19.p20
+  at: 980
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「至於欲使陛下崇光被時雍之美」續指曹叡。
+  id: wei.19.p20.h5
+- anchor: wei.19.p20
+  at: 1027
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「冀陛下儻發天聰」續指曹叡。
+  id: wei.19.p20.h6
+- anchor: wei.19.p22
+  at: 268
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 曹植審舉疏「安足為陛下言哉」上明帝，陛下即曹叡。
+  id: wei.19.p22.h2
+- anchor: wei.19.p22
+  at: 381
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「陛下體天真之淑聖」續指曹叡。
+  id: wei.19.p22.h3
+- anchor: wei.19.p22
+  at: 546
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「臣伏惟陛下遠覽姬文二虢之援」續指曹叡。
+  id: wei.19.p22.h4
+- anchor: wei.19.p22
+  at: 667
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「陛下可得雍容都城」續指曹叡。
+  id: wei.19.p22.h5
+- id: wei.19.p22.h1
+  anchor: wei.19.p22
+  at: 781
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- anchor: wei.19.p22
+  at: 885
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「陛下將復勞玉躬」續指曹叡。
+  id: wei.19.p22.h6
+- anchor: wei.19.p22
+  at: 1092
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「唯陛下少留意焉」續指曹叡。
+  id: wei.19.p22.h7
+- anchor: wei.19.p22
+  at: 1246
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「唯陛下察之」續指曹叡。
+  id: wei.19.p22.h8
+- anchor: wei.19.p22
+  at: 1338
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「今臣與陛下踐冰履炭」續指曹叡。
+  id: wei.19.p22.h9
+- anchor: wei.19.p22
+  at: 1363
+  length: 2
+  type: person
+  person_id: caorui
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏「豈得離陛下哉」續指曹叡。
+  id: wei.19.p22.h10
 - id: wei.19.p23.a1
   anchor: wei.19.p23
   at: 7

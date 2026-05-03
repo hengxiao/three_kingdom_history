@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷20",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 48,
@@ -19,17 +19,109 @@
     {
       "id": "wei.20.p1",
       "text": "武帝諸子豐愍王昂相殤王鑠鄧哀王沖彭城王據燕王宇沛穆王林中山恭王衮濟陽懷王玹陳留恭王峻范陽閔王矩趙王幹臨邑殤公子上楚王彪剛殤公子勤谷城殤公子乘郿戴公子整靈殤公子京樊安公均廣宗殤公子棘東平靈王徽樂陵王茂文帝諸子贊哀王協北海悼王蕤東武陽懷王鑑東海定王霖元城哀王禮邯鄲懷王邕淸河悼王貢廣平哀王儼",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "武帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p1.h2",
+          "type": "person",
+          "at": 20,
+          "length": 3,
+          "text": "燕王宇",
+          "person_id": "caoyu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p1.h3",
+          "type": "person",
+          "at": 56,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p1.h4",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p2",
       "text": "武皇帝二十五男：卞皇后生文皇帝、任城威王彰、陳思王植、蕭懷王熊；劉夫人生豐愍王昂、相殤王鑠；環夫人生鄧哀王衝、彭城王據、燕王宇；杜夫人生沛穆王林、中山恭王衮；秦夫人生濟陽懷王玹、陳留恭王峻；尹夫人生范陽閔王矩；王昭儀生趙王幹；孫姬生臨邑殤公子上、楚王彪、剛殤公子勤；李姬生谷城殤公子乘、郿戴公子整、靈殤公子京；周姬生樊安公均；劉姬生廣宗殤公子棘；宋姬生東平靈王徽；趙姬生樂陵王茂。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p2.h5",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bianhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.20.p2.h2",
+          "type": "person",
+          "at": 12,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p2.h3",
+          "type": "person",
+          "at": 60,
+          "length": 3,
+          "text": "燕王宇",
+          "person_id": "caoyu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p2.h4",
+          "type": "person",
+          "at": 123,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p3",
       "text": "豐愍王昂字子脩。弱冠舉孝廉。隨太祖南征，爲張繡所害。無子。黃初二年追封，諡曰豐悼公。三年，以樊安公均子琬奉昂後，封中都公。其年徙封長子公。五年，追加昂號曰豐悼王。太和三年改昂諡曰愍王。嘉平六年，以琬襲昂爵爲豐王。正元、景元中，累增邑，幷前二千七百戸。琬薨，諡曰恭王。子廉嗣。",
       "annotations": [
+        {
+          "id": "wei.20.p3.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.20.p3.t1",
           "type": "temporal",
@@ -173,11 +265,83 @@
       "text": "鄧哀王沖字倉舒。少聰察岐嶷，生五六歳，智意所及，有若成人之智。時孫權曾致巨象，太祖欲知其斤重，訪之群下，咸莫能出其理。沖曰：「置象大船之上，而刻其水痕所至，稱物以載之，則校可知矣。」太祖大悅，卽施行焉。時軍國多事，用刑嚴重。太祖馬鞍在庫，而爲鼠所齧，庫吏懼必死，議欲面縛首罪，猶懼不免。沖謂曰：「待三日中，然後自歸。」沖於是以刀穿單衣，如鼠齧者，謬爲失意，貌有愁色。太祖問之，沖對曰：「世俗以爲鼠齧衣者，其主不吉。今單衣見齧，是以憂戚。」太祖曰：「此妄言耳，無所苦也。」俄而庫吏以齧鞍聞，太祖笑曰：「兒衣在側，尙齧，況鞍縣柱乎？」一無所問。沖仁愛識達，皆此類也。凡應罪戮，而爲沖微所辨理，賴以濟宥者，前後數十。太祖數對群臣稱述，有欲傳後意。年十三，建安十三年疾病，太祖親爲請命。及亡，哀甚。文帝寛喩太祖，太祖曰：「此我之不幸，而汝曹之幸也。」言則流涕，爲聘甄氏亡女與合葬，贈騎都尉印綬，命宛侯據子琮奉沖後。二十二年，封琮爲鄧侯。",
       "annotations": [
         {
+          "id": "wei.20.p5.h1",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.20.p5.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h3",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h4",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h5",
+          "type": "person",
+          "at": 183,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h6",
+          "type": "person",
+          "at": 219,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h7",
+          "type": "person",
+          "at": 244,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.20.p5.a1",
           "type": "pei",
           "at": 305,
           "length": 0,
           "text": "《魏書》曰：沖毎見當刑者，輒探睹其冤枉之情而微理之。及勤勞之吏，以過誤觸罪，常爲太祖陳説，宜寛宥之。辨察仁愛，與性倶生，容貌姿美，有殊於衆，故特見寵異。臣松之以「容貌姿美」一類之言，而分以爲三，亦敍屬之一病也。"
+        },
+        {
+          "id": "wei.20.p5.h8",
+          "type": "person",
+          "at": 305,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p5.t1",
@@ -191,6 +355,42 @@
           "era": "建安",
           "era_year": 13,
           "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p5.h9",
+          "type": "person",
+          "at": 332,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h10",
+          "type": "person",
+          "at": 345,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h11",
+          "type": "person",
+          "at": 349,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p5.h12",
+          "type": "person",
+          "at": 352,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p5.a2",
@@ -349,6 +549,15 @@
           "reasoning": "「其年」 = 当前年 正元3年 (AD 256)"
         },
         {
+          "id": "wei.20.p7.h1",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.20.p7.t5",
           "type": "temporal",
           "at": 146,
@@ -400,6 +609,15 @@
       "id": "wei.20.p8",
       "text": "燕王宇字彭祖。建安十六年，封都鄕侯。二十二年，改封魯陽侯。黃初二年，進爵爲公。三年，爲下邳王。五年，改封單父縣。太和六年，改封燕王。明帝少與宇同止，常愛異之。及卽位，寵賜與諸王殊。靑龍三年，徴入朝。景初元年，還鄴。二年夏，復徴詣京都。冬十二月，明帝疾篤，拜宇爲大將軍，屬以後事。受署四日，宇深固讓；帝意亦變，遂免宇官。三年夏，還鄴。景初、正元、景元中，累增邑，幷前五千五百戸。常道鄕公奐，宇之子，入繼大宗。",
       "annotations": [
+        {
+          "id": "wei.20.p8.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "燕王宇",
+          "person_id": "caoyu",
+          "via": "alias"
+        },
         {
           "id": "wei.20.p8.t1",
           "type": "temporal",
@@ -453,6 +671,15 @@
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.20.p8.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.20.p8.t5",
           "type": "temporal",
           "at": 99,
@@ -492,6 +719,15 @@
           "month_chinese": "冬十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 正元2年 (AD 255)，月份「冬十二月」"
+        },
+        {
+          "id": "wei.20.p8.h3",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p8.t8",
@@ -712,6 +948,15 @@
           "era": "建安",
           "era_year": 16,
           "reasoning": "原文「建安十六年」直接出现年号；解析為 AD 211（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p12.h1",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p12.t2",
@@ -958,13 +1203,59 @@
           "era": "太和",
           "era_year": 6,
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p15.h1",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p15.h2",
+          "type": "person",
+          "at": 91,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p15.h3",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p15.h4",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.20.p16",
       "text": "易稱『開國承家，小人勿用』，詩著『大車惟塵』之誡。自太祖受命創業，深睹治亂之源，鑑存亡之機，初封諸侯，訓以恭愼之至言，輔以天下之端士，常稱馬援之遺誡，重諸侯賓客交通之禁，乃使與犯妖惡同。夫豈以此薄骨肉哉？徒欲使子弟無過失之愆，士民無傷害之悔耳。髙祖踐阼，祗愼萬機，申著諸侯不朝之令。朕感詩人常棣之作，嘉采菽之義，亦縁詔文曰『若有詔得詣京都』，故命諸王以朝聘之禮。而楚、中山幷犯交通之禁，趙宗、戴捷咸伏其辜。近東平王復使屬官毆壽張吏，有司舉奏，朕裁削縣。（令）有司以曹纂、王喬等因九族時節，集會王家，或非其時，皆違禁防。朕惟王幼少有恭順之素，加受先帝顧命，欲崇恩禮，延乎後嗣，況近在王之身乎？且自非聖人，孰能無過？已詔有司宥王之失。古人有言：『戒愼乎其所不睹，恐懼乎其所弗聞，莫見乎隱，莫顯乎微，故君子愼其獨焉。』叔父茲率先聖之典，以纂乃先帝之遺命，戰戰兢兢，靖恭厥位，稱朕意焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p16.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p17",
@@ -994,6 +1285,15 @@
       "id": "wei.20.p19",
       "text": "楚王彪字朱虎。建安二十一年，封壽春侯。黃初二年，進爵，徙封汝陽公。三年，封弋陽王。其年徙封呉王。五年，改封壽春縣。七年，徙封白馬。太和五年冬，朝京都。六年，改封楚。初，彪來朝，犯禁，〔靑龍〕元年，爲有司所奏，詔削縣三，戸千五百。二年，大赦，復所削縣。景初三年，增戸五百，幷前三千戸。嘉平元年，兗州刺史令狐愚與太尉王凌謀迎彪都許昌。語在《凌傳》。乃遣傅及侍御史就國案驗，收治諸相連及者。廷尉請徴彪治罪。於是依漢燕王旦故事，使兼廷尉大鴻臚持節賜彪璽書切責之，使自圖焉。彪乃自殺。妃及諸子皆免爲庶人，徙平原。彪之官屬以下及監國謁者，坐知情無輔導之義，皆伏誅。國除爲淮南郡。",
       "annotations": [
+        {
+          "id": "wei.20.p19.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
+        },
         {
           "id": "wei.20.p19.t1",
           "type": "temporal",
@@ -1112,6 +1412,15 @@
           "reasoning": "原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.20.p19.h2",
+          "type": "person",
+          "at": 156,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
           "id": "wei.20.p19.a1",
           "type": "pei",
           "at": 232,
@@ -1136,6 +1445,15 @@
           "era": "正元",
           "era_year": 1,
           "reasoning": "原文「正元元年」直接出现年号；解析為 AD 254（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p20.h1",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
         },
         {
           "id": "wei.20.p20.t2",
@@ -1538,6 +1856,24 @@
           "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.20.p28.h1",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p28.h2",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.20.p28.t3",
           "type": "temporal",
           "at": 72,
@@ -1605,7 +1941,35 @@
     {
       "id": "wei.20.p31",
       "text": "文皇帝九男：甄氏皇后生明帝，李貴人生贊哀王協，潘淑媛生北海悼王蕤，朱淑媛生東武陽懷王鑑，仇昭儀生東海定王霖，徐姬生元城哀王禮，蘇姬生邯鄲懷王邕，張姬生淸河悼王貢，宋姬生廣平哀王儼。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p31.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "文皇帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p31.h3",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhenhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wei.20.p31.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p32",
@@ -1681,6 +2045,15 @@
           "era": "黃初",
           "era_year": 7,
           "reasoning": "原文「黃初七年」直接出现年号；解析為 AD 226（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p33.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p33.t2",
@@ -1784,6 +2157,15 @@
           "era": "黃初",
           "era_year": 3,
           "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p35.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         },
         {
           "id": "wei.20.p35.t2",
@@ -2042,22 +2424,89 @@
     {
       "id": "wei.20.p45",
       "text": "自開辟以來，其興立功勛，未有若漢祖之易也。夫伐深根者難爲功，摧枯朽者易爲力，理勢然也。漢監秦之失，封殖子弟，及諸呂擅權，圖危劉氏，而天下所以不傾動，百姓所以不易心者，徒以諸侯強大，盤石膠固，東牟、硃虚受命於内，齊、代、呉、楚作衞於外故也。向使髙祖踵亡秦之法，忽先王之制，則天下已傳，非劉氏有也。然髙祖封建，地過古制，大者跨州兼郡，小者連城數十，上下無別，權侔京室，故有呉、楚七國之患。賈誼曰：『諸侯強盛，長亂起奸。夫欲天下之治安，莫若衆建諸侯而少其力，令海内之勢，若身之使臂，臂之使指，則下無背叛之心，上無誅伐之事。』文帝不從。至於孝景，猥用晁錯之計，削黜諸侯，親者怨恨，疎者震恐，呉、楚倡謀，五國從風。兆發髙帝，衅鍾文、景，由寛之過制，急之不漸故也。所謂末大必折，尾大難掉。尾同於體，猶或不從，況乎非體之尾，其可掉哉？武帝從主父之策，下推恩之令，自是之後，齊分爲七，趙分爲六，淮南三割，梁、代五分，遂以陵遲，子孫微弱，衣食租稅，不預政事，或以酎金免削，或以無後國除。至於成帝，王氏擅朝。劉向諫曰：『臣聞公族者，國之枝葉；枝葉落則本根無所庇廕。方今同姓疎遠，母黨專政，排擯宗室，孤弱公族，非所以保守社稷，安固國嗣也。』其言深切，多所稱引，成帝雖悲傷嘆息而不能用。至於哀、平，異姓秉權，假周公之事，而爲田常之亂，髙拱而竊天位，一朝而臣四海。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p45.h1",
+          "type": "person",
+          "at": 259,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p45.h2",
+          "type": "person",
+          "at": 360,
+          "length": 2,
+          "text": "武帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p46",
       "text": "漢宗室王侯，解印釋紱，貢奉社稷，猶懼不得爲臣妾，或乃爲之符命，頌莽恩德，豈不哀哉！由斯言之，非宗子獨忠孝於惠、文之間，而叛逆於哀、平之際也，徒權輕勢弱，不能有定耳。賴光武皇帝挺不世之姿，禽王莽於已成，紹漢嗣於旣絶，斯豈非宗子之力也？而曾不監秦之失策，襲周之舊制，踵王國之法，而徼倖無疆之期。至於桓、靈，閹竪執衡，朝無死難之臣，外無同憂之國，君孤立於上，臣弄權於下，本末不能相御，身首不能相使。由是天下鼎沸，姦凶幷爭，宗廟焚爲灰燼，宮室變爲榛藪，居九州之地，而身無所安處，悲夫！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p46.h1",
+          "type": "person",
+          "at": 84,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p47",
       "text": "魏太祖武皇帝躬聖明之資，兼神武之略，恥王綱之廢絶，愍漢室之傾覆，龍飛譙、沛，鳳翔兗、豫，掃除凶逆，翦滅鯨鯢，迎帝西京，定都潁邑，德動天地，義感人神。漢氏奉天，禪位大魏。大魏之興，於今二十有四年矣，觀五代之存亡而不用其長策，睹前車之傾覆而不改於轍迹；子弟王空虚之地，君有不使之民，宗室竄於閭閻，不聞邦國之政，權均匹夫，勢齊凡庶；内無深根不拔之固，外無盤石宗盟之助，非所以安社稷，爲萬世之業也。且今之州牧、郡守，古之方伯、諸侯，皆跨有千里之土，兼軍武之任，或比國數人，或兄弟幷據；而宗室子弟曾無一人間厠其間，與相維持，非所以強幹弱枝，備萬一之虞也。今之用賢，或超爲名都之主，或爲偏師之帥，而宗室有文者必限小縣之宰，有武者必置百人之上，使夫廉髙之士，畢志於衡軛之内，才能之人，恥與非類爲伍，非所以勸進賢能褒異宗室之禮也。夫泉竭則流涸，根朽則葉枯；枝繁者廕根，條落者本孤。故語曰『百足之蟲，至死不殭』，以扶之者衆也。此言雖小，可以譬大。且墉基不可倉卒而成，威名不可一朝而立，皆爲之有漸，建之有素。譬之種樹，久則深固其本根，茂盛其枝葉，若造次徙於山林之中，植於宮闕之下，雖壅之以黑墳，暖之以春日，猶不救於枯槁，而何暇繁育哉？夫樹猶親戚，土猶士民，建置不久，則輕下慢上，平居猶懼其離叛，危急將若之何？是以聖王安而不逸，以慮危也，存而設備，以懼亡也。故疾風卒至而無摧拔之憂，天下有變而無傾危之患矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p47.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.20.p47.h2",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "武皇帝",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.20.p48",
       "text": "冏，中常侍兄叔興之後，少帝族祖也。是時天子幼稚，冏冀以此論感悟曹爽，爽不能納。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.20.p48.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "少帝",
+          "person_id": "liubian",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p48.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

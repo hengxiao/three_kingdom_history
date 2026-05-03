@@ -1,0 +1,107 @@
+{
+  "id": "dongtaihou",
+  "primary_name": "董太后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "永樂太后"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 189,
+  "brief": "漢靈帝母（孝仁皇后），與何皇后爭權",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.10",
+      "title": "皇后紀（下）",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/10.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p18",
+        "at": 31,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "皇后",
+        "snippet": "…丑，赦天下。帝迎董貴人於河間。三月，乙巳，尊為孝仁皇后，居永樂宮，拜其兄寵為執金吾，兄子重為五官中郎將。"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p38",
+        "at": 61,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "太后",
+        "snippet": "…，以大鴻臚梁國橋玄為司空。九月，執金吾董寵坐矯永樂太后屬請，下獄死。冬，鬱林太守谷永以恩信招降烏滸人十餘萬，皆內屬，受冠帶，開置七縣。涼州刺史扶風孟佗遣從事任涉將敦煌兵五百人，與戊…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.72",
+        "chapter_title": "董卓列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.72.p10",
+        "at": 361,
+        "data_url": "data/houhanshu/hhs/72.json",
+        "matched": "太后",
+        "snippet": "…為弘農王。」乃立陳留王，是為獻帝。又議太后蹙迫永樂太后，至令憂死，逆婦姑之禮，無孝順之節，遷於永安宮，遂以弒崩。"
+      },
+      {
+        "chapter_id": "hhs.72",
+        "chapter_title": "董卓列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.72.p9",
+        "at": 73,
+        "data_url": "data/houhanshu/hhs/72.json",
+        "matched": "太后",
+        "snippet": "…辭對；與陳留王語，遂及禍亂之事。卓以王為賢，且為董太后所養，卓自以與太后同族，有廢立意。"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p19",
+        "at": 14,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "皇后",
+        "snippet": "三月乙巳，尊慎園董貴人爲孝仁皇后。"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p273",
+        "at": 118,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "皇后",
+        "snippet": "…獄死。五月辛巳，票騎將軍董重下獄死。六月辛亥，孝仁皇后董氏崩。"
+      },
+      {
+        "chapter_id": "hhs.8",
+        "chapter_title": "孝靈帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.8.p276",
+        "at": 5,
+        "data_url": "data/houhanshu/hhs/08.json",
+        "matched": "皇后",
+        "snippet": "庚寅，孝仁皇后歸葬河閒慎陵。"
+      }
+    ]
+  },
+  "n_mentions": 7
+}

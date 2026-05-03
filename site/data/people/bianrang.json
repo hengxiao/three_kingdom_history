@@ -1,0 +1,84 @@
+{
+  "id": "bianrang",
+  "primary_name": "邊讓",
+  "courtesy_name": "文禮",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.80",
+      "title": "巻八十上·文苑列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/80.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p13",
+        "at": 51,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "邊讓",
+        "snippet": "…大恨。邈畏操終為紹殺己也，心不自安。前九江太守陳留邊讓嘗譏議操，操聞而殺之，並其妻子。讓素有才名，由是兗州士大夫皆恐懼。陳宮性剛直壯烈，內亦自疑，乃與從事中郎許汜、王楷及邈弟超共謀…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.23",
+        "chapter_title": "魏書·和常楊杜趙裴傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.23.p12",
+        "at": 17,
+        "data_url": "data/sanguozhi/wei/23.json",
+        "matched": "邊讓",
+        "snippet": "楊俊字季才，河內獲嘉人也。受學陳留邊讓，讓器異之。俊以兵亂方起，而河內處四達之衢，必爲戰場，乃扶持老弱詣京、密山間，同行者百餘家。俊振濟貧乏，通共有無。宗族知故爲人…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.68",
+        "chapter_title": "郭符許列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.68.p15",
+        "at": 16,
+        "data_url": "data/houhanshu/hhs/68.json",
+        "matched": "邊讓",
+        "snippet": "謝甄字子微，汝南召陵人也。與陳留邊讓並善談論，俱有盛名。每共候林宗，未甞不連日達夜。林宗謂門人曰：「二子英才有餘，而並不入道，惜乎！」甄後不拘細行，爲時所毀。讓以…"
+      },
+      {
+        "chapter_id": "hhs.70",
+        "chapter_title": "鄭孔荀列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.70.p22",
+        "at": 218,
+        "data_url": "data/houhanshu/hhs/70.json",
+        "matched": "邊讓",
+        "snippet": "…讞之。詔書竟坐襃焉。融由是顯名，與平原陶丘洪、陳留邊讓齊聲稱。州郡禮命，皆不就。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p127",
+        "at": 214,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "邊讓",
+        "snippet": "…扈，肆行酷烈，割剝元元，殘賢害善。[九]故九江太守邊讓，英才鑈逸，以直言正色，論不阿諂，身被梟懸之戮，妻孥受灰滅之咎。自是士林憤痛，人怨天怒，一夫奮臂，舉州同聲，故躬破於徐方，地奪…"
+      }
+    ]
+  },
+  "n_mentions": 5
+}

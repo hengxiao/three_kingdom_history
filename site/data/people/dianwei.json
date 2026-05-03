@@ -1,0 +1,61 @@
+{
+  "id": "dianwei",
+  "primary_name": "典韋",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 197,
+  "brief": "曹操親衛猛將，宛城戰死",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p27",
+        "at": 54,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "典韋",
+        "snippet": "…，自旦至日，數十合，相持甚急。操募人陷陣，司馬陳留典韋將應募者進當之，布弓弩亂髮，矢至如雨。韋不視，謂等人曰：「虜來十步，乃白之。」等人曰：「十步矣。」又曰：「五步乃白。」等人懼，…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p41",
+        "at": 70,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "典韋",
+        "snippet": "…而疑懼，襲擊操軍，殺操長子昂。操中流矢，敗走，校尉典韋與繡力戰，左右死傷略盡，韋被數十創。繡兵前搏之，韋雙挾兩人擊殺之，瞋目大罵而死。操收散兵，還住舞陰。繡率騎來追，操擊破之，繡走…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p9",
+        "at": 167,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "典韋",
+        "snippet": "…、執金吾臧霸、破虜將軍李典、立義將軍龐德、武猛校尉典韋於太祖廟庭。冬十二月，倭國女王俾彌呼遣使奉獻。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

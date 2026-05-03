@@ -11,21 +11,120 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷38",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 26,
+  "n_segments": 25,
   "segments": [
     {
       "id": "shu.8.p1",
       "text": "許靖字文休，汝南平輿人。少與從弟劭俱知名，並有人倫臧否之稱，而私情不協。劭為郡功曹，排擯靖不得齒敘，以馬磨自給。颍川劉翊為汝南太守，乃舉靖計吏，察孝廉，除尚書郎，典選舉。靈帝崩，董卓秉政，以漢陽周毖為吏部尚書，與靖共謀議，進退天下之士，沙汰穢濁，顯拔幽滯。進用颍川荀爽、韓融、陳紀等為公、卿、郡守，拜尚書韓馥為冀州牧，侍中劉岱為兗州剌史，颍川張咨為南陽太守，陳留孔伷為豫州剌史，東郡張邈為陳留太守，而遷靖巴郡太守，不就，補御史中丞。馥等到官，各舉兵還向京都，欲以誅卓。卓怒毖曰︰「諸君言當拔用善士，卓從諸君計，不欲違天下人心。而諸君所用人，至官之日，還來相圖。卓何用查負！」叱毖令出，于外斬之。靖從兄陳相玚，又與伷合規，靖懼誅，奔伷。伷卒，依揚州剌史陳祎。祎死，吳郡都尉許貢、會稽太守王朗素與靖有舊，故往保焉。靖收恤親裡，經紀振贍，出于仁濃。",
       "annotations": [
         {
+          "id": "shu.8.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p1.h2",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
+          "id": "shu.8.p1.h3",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p1.h4",
+          "type": "person",
+          "at": 135,
+          "length": 2,
+          "text": "韓融",
+          "person_id": "hanrong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p1.h5",
+          "type": "person",
+          "at": 181,
+          "length": 2,
+          "text": "孔伷",
+          "person_id": "kongzhou",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p1.h6",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "張邈",
+          "person_id": "zhangmiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p1.h7",
+          "type": "person",
+          "at": 232,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p1.h8",
+          "type": "person",
+          "at": 234,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p1.h9",
+          "type": "person",
+          "at": 249,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p1.h10",
+          "type": "person",
+          "at": 280,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
           "id": "shu.8.p1.a1",
           "type": "pei",
           "at": 317,
           "length": 0,
           "text": "蜀記云：靖後自表曰：「黨賊求生，情所不忍；守官自危，死不成義。竊念古人當難詭常，權以濟其道。」"
+        },
+        {
+          "id": "shu.8.p1.h11",
+          "type": "person",
+          "at": 342,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
         }
       ]
     },
@@ -33,6 +132,33 @@
       "id": "shu.8.p2",
       "text": "孫策東渡江，皆走交州以避其難，靖身坐崖邊，先載附從，疏親悉發，乃從后去，當時見者莫不嘆息。既至交阯，交阯太守士燮濃加敬待。陳國袁徽以寄寓交州，徽與尚書令荀彧書曰︰「許文休英才偉士，智略足以計事。自流宕已來，與群士相隨，每有患急，常先人后已，與九族中外同其飢寒流。其紀綱同類，仁恕惻隱，皆有效事，不能複一二陳之耳。」巨鹿張翔銜王命使交部，乘勢募靖，欲與誓要，靖拒而不許。靖與曹公書曰︰",
       "annotations": [
+        {
+          "id": "shu.8.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p2.h2",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "士燮",
+          "person_id": "shixie",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p2.h3",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "荀彧",
+          "person_id": "xunyu",
+          "via": "primary"
+        },
         {
           "id": "shu.8.p2.a1",
           "type": "pei",
@@ -46,6 +172,24 @@
       "id": "shu.8.p3",
       "text": "世路戎夷，禍亂遂合，駑怯偷生，自竄蠻貊，成闊十年，吉凶禮廢，昔在會稽，得所貽書，辭旨款密，久要不忘。迫于袁術方命圮族，扇動群逆，津涂四塞，雖縣心北風，欲行靡由。正禮師退，術兵前進，會稽傾覆，景興失據，三江五湖，皆為虜庭。臨時困厄，無所控告，便與袁沛、鄧子孝等浮涉滄海，南至交州。經歷東甌、閩、越之國，行經萬里，不見漢地，漂薄風波，絕糧茹草，飢殍荐臻，死者大半。既濟南海，與領守兒孝德相見，知足下忠義奮發，整飭元戎，西迎大駕，巡省中岳。承此休問，且悲且憙，即與袁沛及徐元賢複共嚴裝，欲北上荊州。會蒼梧諸縣夷、越蜂起，州府傾覆，道路阻絕，元賢被害，老弱並殺。靖尋循渚崖五千餘里，複遇疾癘，伯母隕命，並及群從，自諸妻子，一時略盡。複相扶侍，前到此郡，計為兵害及病亡者，十遺一二。生民之艱，辛苦之基，豈可具陳哉﹗懼卒顛仆，永為亡虜，憂瘁慘慘，忘寢與食。欲附奉朝貢使，自獲濟通，歸死闕庭，而荊州水陸無津，交部驛使斷絕。欲上益州，複有峻防，故官長吏，一不得入。前令交阯太守士威彥，深相分托于益州兄弟，又靖亦自與書，辛苦懇惻，而複寂寞，未有報應。雖仰瞻光靈，延頸企踵，何由假翼自致哉？",
       "annotations": [
+        {
+          "id": "shu.8.p3.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p3.h2",
+          "type": "person",
+          "at": 85,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name"
+        },
         {
           "id": "shu.8.p3.a1",
           "type": "pei",
@@ -82,6 +226,15 @@
       "id": "shu.8.p7",
       "text": "後劉璋遂使使招靖，靖來入蜀。璋以靖為巴郡、廣漢太守。南陽宋仲子于荊州與蜀郡太守王商書曰︰「文休倜儻瑰瑋，有當世之具，足下當以為指南。」建安十六年，轉在蜀郡。十九年，先主克蜀，以靖為左將軍長史，先主為漢中王，靖為太傅。及即尊號，策靖曰︰「聯獲奉洪業，君臨萬國，夙宵惶惶，懼不能綏。百姓不親，五品不遜，汝作司徒，其敬敷五教，在寬。君其勖哉﹗秉德無怠，稱聯意焉。」",
       "annotations": [
+        {
+          "id": "shu.8.p7.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
         {
           "id": "shu.8.p7.a1",
           "type": "pei",
@@ -121,6 +274,33 @@
           "era": "建安",
           "era_year": 19,
           "reasoning": "承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214"
+        },
+        {
+          "id": "shu.8.p7.h2",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p7.h3",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p7.h4",
+          "type": "person",
+          "at": 113,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -128,6 +308,15 @@
       "id": "shu.8.p8",
       "text": "靖雖年逾七十，愛樂人物，誘納后進，清談不倦。丞相諸葛亮皆為之拜。章武二年卒。子欽，先靖夭沒。欽子游，景耀中為尚書。始靖兄事颍川陳紀，與陳郡袁渙、平原華歆、東海王朗等親善，歆、朗及紀子群，魏初為公輔大臣，咸與靖書，申陳舊好，情義款至，文多故不載。",
       "annotations": [
+        {
+          "id": "shu.8.p8.h1",
+          "type": "person",
+          "at": 24,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
         {
           "id": "shu.8.p8.t1",
           "type": "temporal",
@@ -140,6 +329,33 @@
           "era": "章武",
           "era_year": 2,
           "reasoning": "原文「章武二年」直接出现年号；解析為 AD 222"
+        },
+        {
+          "id": "shu.8.p8.h2",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "袁渙",
+          "person_id": "yuanhuan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p8.h3",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "華歆",
+          "person_id": "huaxin",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p8.h4",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
         },
         {
           "id": "shu.8.p8.a1",
@@ -155,11 +371,56 @@
       "text": "麋竺字子仲，東海朐人也。祖世貨殖，僮客萬人，貲產鉅億。后徐州牧陶謙辟為別駕從事。謙卒，竺奉謙遺命，迎先主于小沛。建安元年，呂布乘先主之出拒袁術，襲下邳，虜先主妻子。先主轉軍廣陵海西，竺于是進妹于先主為夫人，奴客二千，金銀貨幣以助軍資，于時困匱，賴此複振。后曹公表竺領嬴郡太守，竺弟芳為彭城相，皆去官，隨先主周旋。先主將適荊州，遣竺先與劉表相聞，以竺為左將軍從事中郎。益州既平，拜為安漢將軍，班在軍師將軍之右。竺雍容敦雅，而干翮非所長。是以待之以上賓之禮，未嘗有所統御。然賞賜優寵，無與為比。",
       "annotations": [
         {
+          "id": "shu.8.p9.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
           "id": "shu.8.p9.a1",
           "type": "pei",
           "at": 27,
           "length": 0,
           "text": "《搜神記》曰：竺嘗從洛歸，未達家數十里，路傍見一婦人，從竺求寄載。行可數里，婦謝去，謂竺曰：「我天使也，當往燒東海麋竺家，感君見載，故以相語。」竺因私請之，婦曰：「不可得不燒。如此，君可馳去，我當緩行，日中火當發。」竺乃還家，遽出財物，日中而火大發。"
+        },
+        {
+          "id": "shu.8.p9.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p9.h3",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p9.h4",
+          "type": "person",
+          "at": 45,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p9.h5",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
         },
         {
           "id": "shu.8.p9.t1",
@@ -175,29 +436,246 @@
           "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "shu.8.p9.h6",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "呂布",
+          "person_id": "lvbu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p9.h7",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h8",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "袁術",
+          "person_id": "yuanshu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p9.h9",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h10",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h11",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h12",
+          "type": "person",
+          "at": 130,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
           "id": "shu.8.p9.a2",
           "type": "pei",
           "at": 138,
           "length": 0,
           "text": "曹公集載公表曰：「泰山郡界廣遠，舊多輕悍，權時之宜，可分五縣為嬴郡，揀選清廉以為守將。偏將軍麋竺，素履忠貞，文武昭烈，請以竺領嬴郡太守，撫慰吏民。」"
+        },
+        {
+          "id": "shu.8.p9.h13",
+          "type": "person",
+          "at": 151,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h14",
+          "type": "person",
+          "at": 156,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p9.h15",
+          "type": "person",
+          "at": 167,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "shu.8.p10",
       "text": "芳為南郡太守，與關羽共事，而私好攜貳，叛迎孫權，羽因覆敗。竺面縛請罪，先主慰諭以兄弟罪不相及，崇待如初。竺慚恚發病，歲餘卒。子威，官至虎賁中郎將。威子照，虎騎監。自竺至照，皆便弓馬，善射御云。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p10.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p10.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p10.h3",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p10.h4",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "shu.8.p11",
       "text": "孫乾字公佑，北海人也。先主領徐州，辟為從事，后隨從周旋。先主之背曹公，遣乾自結袁紹，將適荊州，乾又與麋竺俱使劉表，皆如意指。后表與袁尚書，說其兄弟分爭之變，曰︰「每與劉左將軍、孫公佑共論此事，未嘗不痛心入骨，相為悲傷也。」其見重如此。先主定益州，乾自從事中郎為秉忠將軍，見禮次麋竺，與簡雍同等。頃之，卒。",
       "annotations": [
         {
+          "id": "shu.8.p11.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫乾",
+          "person_id": "sunqian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p11.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.8.p11.a1",
           "type": "pei",
           "at": 22,
           "length": 0,
           "text": "鄭玄傳云：玄薦乾於州。乾被辟命，玄所舉也。"
+        },
+        {
+          "id": "shu.8.p11.h3",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p11.h4",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p11.h5",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p11.h6",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p11.h7",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p11.h8",
+          "type": "person",
+          "at": 117,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p11.h9",
+          "type": "person",
+          "at": 138,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p11.h10",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
         }
       ]
     },
@@ -205,6 +683,141 @@
       "id": "shu.8.p12",
       "text": "簡雍字憲和，涿郡人也。少與先主有舊，隨從周旋。先主至荊州，雍與麋竺、孫乾同爲從事中郎，常爲談客，往來使命。先主入益州，劉璋見雍，甚愛之。後先主圍成都，遣雍往說璋，璋遂與雍同輿而載，出城歸命。先主拜雍爲昭德將軍。優游風儀，性簡傲跌宕，在先主坐席，猶箕踞傾倚，威儀不肅，自縱適；諸葛亮已下則獨擅一榻，項枕卧語，無所爲屈。時天旱禁酒，釀者有刑。吏於人家索得釀具，論者欲令與作酒者同罰。雍與先主游觀，見一男女行道，謂先主曰：「彼人欲行淫，何以不縛？」先主曰：「卿何以知之？」雍對曰：「彼有其具，與欲釀者同。」先主大笑，而原欲釀者。雍之滑稽，皆此類也。",
       "annotations": [
+        {
+          "id": "shu.8.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p12.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h3",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h4",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p12.h5",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "孫乾",
+          "person_id": "sunqian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p12.h6",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h7",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p12.h8",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h9",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h10",
+          "type": "person",
+          "at": 117,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h11",
+          "type": "person",
+          "at": 137,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p12.h12",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h13",
+          "type": "person",
+          "at": 204,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h14",
+          "type": "person",
+          "at": 221,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p12.h15",
+          "type": "person",
+          "at": 250,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
         {
           "id": "shu.8.p12.a1",
           "type": "pei",
@@ -217,17 +830,172 @@
     {
       "id": "shu.8.p13",
       "text": "伊籍字伯機，山陽人。少依邑人鎮南將軍劉表。先主之在荊州，籍常往來自托。表卒，遂隨先主南渡江，從入益州。益州既定，以籍為左將軍從事中郎，見待亞于簡雍、孫乾等。遣東使于吳，孫權聞其才辨，欲逆折以辭。籍適入拜，權曰︰「勞事無道之君乎？」籍即對曰︰「一拜一起，未足為勞。」籍之機捷，類皆如此，權甚異之。后遷昭文將軍，與諸葛亮、法正、劉巴、李嚴共造《蜀科》；《蜀科》之製，由此五人焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p13.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p13.h3",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p13.h4",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.8.p13.h5",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h6",
+          "type": "person",
+          "at": 74,
+          "length": 2,
+          "text": "孫乾",
+          "person_id": "sunqian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h7",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h8",
+          "type": "person",
+          "at": 102,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p13.h9",
+          "type": "person",
+          "at": 142,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.8.p13.h10",
+          "type": "person",
+          "at": 155,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h11",
+          "type": "person",
+          "at": 159,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h12",
+          "type": "person",
+          "at": 162,
+          "length": 2,
+          "text": "劉巴",
+          "person_id": "liuba",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p13.h13",
+          "type": "person",
+          "at": 165,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.8.p14",
       "text": "秦宓字子敕，廣漢綿竹人也。少有才學，州郡辟命，輒稱疾不往。奏記州牧劉焉，荐儒士任定祖曰︰",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p14.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "秦宓",
+          "person_id": "qinmi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p14.h2",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "劉焉",
+          "person_id": "liuyan_shu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.8.p15",
       "text": "昔百里、蹇叔以耆艾而定策，甘羅、子奇以童冠而立功，故《書》美黃發，而《易》稱顏淵，固知選士用能，不拘長幼，明矣。乃者以來，海內察舉，率多英俊而遺舊齒，眾論不齊，異同相伴，此乃承平之翔步，非亂世之急務也。夫欲救危撫亂，修己以安人，則宜卓犖超倫，與時殊趣，震驚鄰國，駭動四方，上當天心，下合人意；天人既和，內省不疚，雖遭凶亂，何憂何懼﹗昔楚葉公好龍，神龍下之，好偽徹天，何況于真？今處士任安，仁義直道，流名四遠；如今見察，則一州斯服。昔湯舉伊芳尹，不仁者遠，何武貢二龔，雙名竹帛，故貪尋常之高而忽萬仞之嵩，樂面前之飾而忘天下之譽，斯誠往古之所重慎也。甫欲鑿石索玉，剖蚌求珠，今乃隨、和炳然，有如皎日，複何疑哉﹗誠知晝不操燭，日有余光，但愚情區區，貪陳所見。」",
       "annotations": [
+        {
+          "id": "shu.8.p15.h1",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.8.p15.h2",
+          "type": "person",
+          "at": 191,
+          "length": 2,
+          "text": "任安",
+          "person_id": "renan",
+          "via": "primary"
+        },
         {
           "id": "shu.8.p15.a1",
           "type": "pei",
@@ -240,28 +1008,103 @@
     {
       "id": "shu.8.p16",
       "text": "劉璋時，宓同郡王商為治中從事，與宓書曰︰「貧賤困苦，亦何時可以終身﹗卞和炫玉以耀世，宜一來，與州尊相見。」宓答書曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p16.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.8.p17",
       "text": "昔堯優許由，非不弘也，洗其兩耳；楚聘莊周，非不廣也，執竿罔顧。《易》曰‘確乎其不可拔’，夫何炫之有？且以國君之賢，子為良輔，不以是時建蕭、張之策，未足為智也。仆得曝背乎隴畝之中，誦顏氏之簞瓢，詠原憲之蓬戶，時翱翔于林澤，與沮、溺等儔，聽玄猿之悲吟，察鶴鳴于九皋，安身為樂，無憂為福，處空虛之名，居不靈之龜，知我者希，則我貴矣。斯乃仆得志之秋也，何困苦之戚焉﹗」后商為嚴君平、李弘立祠，宓與書曰︰「疾病伏匿，甫知足下為嚴、李立祠，可謂濃黨勤類者也。觀嚴文章，冠冒天下，由、夷逸操，山岳不移，使揚子不嘆，固自昭明。如李仲元不遭《法言》，令名必淪，其無虎豹之文故也，可謂攀龍附鳳者矣。如揚子雲潛心著述，有補于世，泥幡不滓，行參聖師，于今海內，談詠厥辭。邦有斯人，以耀四遠，怪子替茲，不立祠堂。蜀本無學士，文翁遣相如東受七經，還教吏民，于是蜀學比于齊、魯。故《地裡志》曰︰‘文翁倡其教，相如為之師。’漢家得士，盛于其世；仲舒之徒，不達封禪，相如製其禮。夫能製禮造樂，移風易俗，非禮所秩有益于世者乎﹗雖有王孫之累，猶孔子大齊桓之霸，公羊賢叔術之讓。仆亦善長卿之化，宜立祠堂，速定其銘。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p17.h1",
+          "type": "person",
+          "at": 71,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.8.p17.h2",
+          "type": "person",
+          "at": 465,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "shu.8.p18",
       "text": "先是，李權從宓借《戰國策》，宓曰︰「戰國從橫，用之何為？」權曰︰「仲尼、嚴平，會聚眾書，以成《春秋》、《指歸》之文，故海以合流為大，君子以博識為弘。」宓報曰︰",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.8.p18.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.8.p18.h2",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.8.p18.h3",
+          "type": "person",
+          "at": 29,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "shu.8.p19",
       "text": "書非史記周圖，仲尼不采，道非虛無自然，嚴平不演。海以受淤，歲一蕩清；君子博識，非禮不視。今戰國反覆儀、秦之術，殺人自生，亡人自存，經之所疾。故孔子發憤作《春秋》。大乎居正，複製《孝經》，廣陳德行。杜漸防萌，預有所抑，是以老氏絕禍于未萌，豈不信邪﹗成湯大聖，睹野魚而有獵逐之失，定公賢者，見女樂而棄朝事，若此輩類，焉可勝陳。道家法曰︰‘不見所欲，使心不亂。’是故天地貞觀，日月貞明，其直如矢，君子所覆。《洪范》記災，發于言貌，何戰國之譎權乎哉﹗",
       "annotations": [
         {
+          "id": "shu.8.p19.h1",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "術",
+          "person_id": "yuanshu",
+          "via": "given_name_carry"
+        },
+        {
           "id": "shu.8.p19.a1",
           "type": "pei",
           "at": 151,
           "length": 0,
           "text": "臣松之案：書傳魯定公無善可稱。宓謂之賢者，淺學所未達也。"
+        },
+        {
+          "id": "shu.8.p19.h2",
+          "type": "person",
+          "at": 217,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -289,6 +1132,15 @@
       "id": "shu.8.p21",
       "text": "先主既定益州，廣漢太守夏侯纂請宓為師友祭酒，領五官掾，稱曰仲父。宓稱疾，臥在第舍，纂將功曹古朴，主簿王普，廚膳即宓第宴談，宓臥如故。纂問朴曰︰「至於貴州養生之具，實絕餘州矣，不知士人何如餘州也？」朴對曰︰「乃自先漢以來，其爵位者或不如餘州耳，至於著作為世師式，不負于餘州也。嚴君平見黃、老作《指歸》，揚雄見《易》作《太言》，見《論語》作《法言》，司馬相如主武帝製封禪之文，于今天下所共聞也。」纂曰︰「仲父何如？」宓以簿擊頰，曰︰",
       "annotations": [
+        {
+          "id": "shu.8.p21.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
         {
           "id": "shu.8.p21.a1",
           "type": "pei",
@@ -335,6 +1187,15 @@
       "text": "益州辟宓為從事祭酒。先主既稱尊號，將東征吳，宓陳天時必無其利，坐下獄幽閉，然後貸出。建興二年，丞相亮領益州牧，選宓迎為別駕，尋拜左中郎將、長水校尉。吳遣使張溫來聘，百官皆往餞焉。眾人皆集而宓未往，亮累遣使促之，溫曰︰「彼何人也？」亮曰︰「益州學士也。」及至，溫問曰︰「君學乎？」宓曰︰「五尺童子皆學，何必小人﹗」溫複問曰︰「天有頭乎？」宓曰︰「有之。」溫曰︰「在何方也？」宓曰︰「在西方。《詩》曰︰『乃眷西顧。』以此推之，頭在西方。」溫曰︰「天有耳乎？」宓曰︰「天處高而聽卑，《詩》云︰『鶴鳴于九皋，聲聞于天。』若其無耳，何以聽之？」溫曰︰「天有足乎？」宓曰︰「有。《詩》云︰『天步艱難，之子不猶。』若其無足，何以步之？」溫曰︰「天有姓乎？」宓曰︰「有。」溫曰︰「何姓？」宓曰︰「姓劉。」溫曰︰「何以知之？」答曰︰「天子姓劉，故以此知之。」溫曰︰「日生于東乎？」宓曰︰「雖生于東而沒于西。」答問如響，應聲而出，于是溫大敬服。宓之文辯，皆此類也。遷大司農，四年卒。初宓見帝系之文，五帝皆同一族，宓辨其不然之本。又論皇帝王霸（養）[豢]龍之說，甚有道理，譙允南少時數往咨訪，紀錄其言于《春秋然否論》，文多故不載。",
       "annotations": [
         {
+          "id": "shu.8.p24.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.8.p24.t1",
           "type": "temporal",
           "at": 42,
@@ -346,6 +1207,15 @@
           "era": "建興",
           "era_year": 2,
           "reasoning": "原文「建興二年」直接出现年号；解析為 AD 224"
+        },
+        {
+          "id": "shu.8.p24.h2",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
         }
       ]
     },
@@ -354,18 +1224,67 @@
       "text": "評曰︰許靖夙有名節，既以篤濃為稱，又以人物為意，雖行事舉動，未悉允當，蔣濟以為「大較廊廟器」也。麋竺、孫乾、簡雍、伊藉，皆雍容風議，見禮于世。秦宓始慕肥遁之高，而無若愚之實。然專對有余，文藻壯美，可謂一時之才士矣。",
       "annotations": [
         {
+          "id": "shu.8.p25.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "許靖",
+          "person_id": "xujing",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p25.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        },
+        {
           "id": "shu.8.p25.a1",
           "type": "pei",
           "at": 48,
           "length": 0,
           "text": "《萬機論》論許子將曰：許文休者，大較廊廟器也，而子將貶之。若實不貴之，是不明也；誠令知之，蓋善人也。"
+        },
+        {
+          "id": "shu.8.p25.h3",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "麋竺",
+          "person_id": "mizhu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p25.h4",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "孫乾",
+          "person_id": "sunqian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p25.h5",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "簡雍",
+          "person_id": "jianyong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.8.p25.h6",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "秦宓",
+          "person_id": "qinmi",
+          "via": "primary"
         }
       ]
-    },
-    {
-      "id": "shu.8.p26",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

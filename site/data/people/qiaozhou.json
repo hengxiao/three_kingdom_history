@@ -1,0 +1,116 @@
+{
+  "id": "qiaozhou",
+  "primary_name": "譙周",
+  "courtesy_name": "允南",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.12",
+      "title": "蜀書·二杜周許孟來尹李譙郤傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/12.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p13",
+        "at": 18,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "譙周",
+        "snippet": "漢主數出遊觀，增廣聲樂。太子家令巴西譙周上疏諫曰：「昔王莽之敗，豪傑並起以爭神器，才智之士思望所歸，未必以其勢之廣狹，惟其德之薄厚也。於時更始、公孫述等多已廣大，然莫…"
+      },
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p28",
+        "at": 17,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "譙周",
+        "snippet": "是時，維數出兵，蜀人愁苦。中散大夫譙周作《仇國論》以諷之曰：「或問往古能以弱勝強者，其術如何？曰：吾聞之，處大無患者常多慢，處小有憂者常思善；多慢則生亂，思善則生治…"
+      },
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p29",
+        "at": 91,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "譙周",
+        "snippet": "…為南中七郡，阻險斗絕，易以自守，宜可奔南。光祿大夫譙周以為：「自古以來，無寄他國為天子者，今若入吳國，亦當臣服。且治政不殊，則大能吞小，此數之自然也。由此言之，則魏能並吳，吳不能並…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p13",
+        "at": 84,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "譙周",
+        "snippet": "…疾廢頓，韜無行見捐，戲經紀振卹，恩好如初。又時人謂譙周無當世才，少歸敬者，唯戲重之，嘗稱曰：「吾等後世，終自不如此長兒也。」有識以此貴戲。"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p26",
+        "at": 127,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "譙周",
+        "snippet": "…、從事祭酒何宗、議曹從事杜瓊、勸學從事張爽、尹默、譙周等上言："
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p41",
+        "at": 93,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "譙周",
+        "snippet": "…元為炎興。冬，鄧艾破衛將軍諸葛瞻於綿竹。用光祿大夫譙周策，降於艾，奉書曰："
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p42",
+        "at": 207,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "譙周",
+        "snippet": "…，宰輔伊、周，含覆藏疾。謹遣私署侍中張紹、光祿大夫譙周、駙馬都尉鄧良奉繼印綬，請命告誠，敬輸忠款，存亡敕賜，惟所裁之。輿櫬在近，不復縷陳。"
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p45",
+        "at": 49,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "譙周",
+        "snippet": "…都尉封侯者五十餘人。尚書令樊建、侍中張紹、光祿大夫譙周、秘書令卻正、殿中督張通並封列侯。公泰始七年薨於洛陽。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 8
+}

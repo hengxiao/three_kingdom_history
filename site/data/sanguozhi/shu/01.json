@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷31",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 11,
@@ -19,7 +19,17 @@
     {
       "id": "shu.1.p1",
       "text": "劉焉字君郎，江夏竟陵人也，漢魯恭王之後裔，章帝元和中徙封竟陵，支庶家焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.1.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "劉焉",
+          "person_id": "liuyan_shu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.1.p2",
@@ -31,6 +41,15 @@
           "at": 22,
           "length": 0,
           "text": "臣松之案：祝公，司徒祝恬也。"
+        },
+        {
+          "id": "shu.1.p2.h1",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
@@ -86,11 +105,47 @@
       "text": "焉意漸盛，造作乘輿車具千馀乘。荊州牧劉表表上焉有似子夏在西河疑聖人之論。時焉子範為左中郎將，誕治書御史，璋為奉車都尉，皆從獻帝在長安，惟（小）子別部司馬瑁素隨焉。獻帝使璋曉諭焉，焉留璋不遣。時征西將軍馬騰屯郿而反，焉及範與騰通謀，引兵襲長安。範謀洩，奔槐里，騰敗，退還涼州，範應時見殺，於是收誕行刑。議郎河南龐羲與焉通家，乃募將焉諸孫入蜀。",
       "annotations": [
         {
+          "id": "shu.1.p5.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.1.p5.h2",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.1.p5.h3",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
+        },
+        {
           "id": "shu.1.p5.a1",
           "type": "pei",
           "at": 67,
           "length": 0,
           "text": "《英雄記》曰：範（聞）父焉為益州牧，董卓所徵發，皆不至。收范兄弟三人，鎖械於郿塢，為陰獄以系之。"
+        },
+        {
+          "id": "shu.1.p5.h4",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
         },
         {
           "id": "shu.1.p5.a2",
@@ -124,6 +179,15 @@
           "era": "興平",
           "era_year": 1,
           "reasoning": "原文「興平元年」直接出现年号；解析為 AD 194"
+        },
+        {
+          "id": "shu.1.p6.h1",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
         },
         {
           "id": "shu.1.p6.a1",
@@ -166,11 +230,92 @@
           "text": "臣松之案：魏台訪「物故」之義，高堂隆答曰：「聞之先師：物，無也；故，事也；言無復所能於事也。」"
         },
         {
+          "id": "shu.1.p8.h1",
+          "type": "person",
+          "at": 99,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.1.p8.a2",
           "type": "pei",
           "at": 141,
           "length": 0,
           "text": "《漢書春秋》曰：張松見曹公，曹公方自矜伐，不存錄松。松歸，乃勸璋自絕。習鑿齒曰：昔齊桓一矜其功而叛者九國，曹操暫自驕伐而天下三分，皆勤之於數十年之內而棄之於俯仰之頃，豈不惜乎！是以君子勞謙日昃，慮以下人，功高而居之以讓，勢尊而守之以卑。情近於物，故雖貴而人不厭其重；德洽群生，故業廣而天下愈欣其慶。夫然，故能有其富貴，保其功業，隆顯當時，傳福百世，何驕矜之有哉！君子是以知曹操之不能遂兼天下者也。"
+        },
+        {
+          "id": "shu.1.p8.h2",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "shu.1.p8.h3",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h4",
+          "type": "person",
+          "at": 188,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h5",
+          "type": "person",
+          "at": 256,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "shu.1.p8.h6",
+          "type": "person",
+          "at": 259,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h7",
+          "type": "person",
+          "at": 298,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h8",
+          "type": "person",
+          "at": 301,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h9",
+          "type": "person",
+          "at": 308,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
         },
         {
           "id": "shu.1.p8.a3",
@@ -213,6 +358,24 @@
           "reasoning": "原文「建安十六年」直接出现年号；解析為 AD 211"
         },
         {
+          "id": "shu.1.p8.h10",
+          "type": "person",
+          "at": 364,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p8.h11",
+          "type": "person",
+          "at": 385,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.1.p8.a5",
           "type": "pei",
           "at": 398,
@@ -239,6 +402,15 @@
           "reasoning": "「明年」 = 当前年 建安16年 (AD 211) 之次年 = AD 212"
         },
         {
+          "id": "shu.1.p9.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.1.p9.t2",
           "type": "temporal",
           "at": 19,
@@ -250,6 +422,33 @@
           "era": "建安",
           "era_year": 19,
           "reasoning": "承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214"
+        },
+        {
+          "id": "shu.1.p9.h2",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p9.h3",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.1.p9.h4",
+          "type": "person",
+          "at": 140,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
         }
       ]
     },
@@ -258,11 +457,47 @@
       "text": "璋卒，南中豪率雍闓據益郡反，附於吳。權復以璋子闡為益州刺史，處交、益界首。丞相諸葛亮平南土，闡還吳，為御史中丞。初，璋長子循妻，龐羲女也。先主定蜀，羲為左將軍司馬，璋時從羲啟留循，先主以為奉車中郎將。是以璋二子之後，分在吳、蜀。",
       "annotations": [
         {
+          "id": "shu.1.p10.h1",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.1.p10.h2",
+          "type": "person",
+          "at": 39,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
           "id": "shu.1.p10.a1",
           "type": "pei",
           "at": 56,
           "length": 0,
           "text": "《吳書》曰：闡一名緯，為人恭恪，輕財愛義，有仁讓之風，後疾終於家。"
+        },
+        {
+          "id": "shu.1.p10.h3",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.1.p10.h4",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -276,6 +511,15 @@
           "at": 18,
           "length": 0,
           "text": "孔衍《漢魏春秋》曰：許負，河內溫縣之婦人，漢高祖封為明雌亭侯。臣松之以為今東人呼母為負，衍以許負為婦人，如為有似，然漢高祖時封皆列侯，未有鄉亭之爵，疑此封為不然。"
+        },
+        {
+          "id": "shu.1.p11.h1",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "劉焉",
+          "person_id": "liuyan_shu",
+          "via": "primary"
         },
         {
           "id": "shu.1.p11.a2",

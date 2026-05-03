@@ -14,7 +14,7 @@
     "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 107,
+  "n_segments": 106,
   "segments": [
     {
       "id": "zztj.75.p1",
@@ -68,13 +68,32 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 正始7年 (AD 246)，月份「二月」"
+        },
+        {
+          "id": "zztj.75.p5.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p6",
       "text": "幽州刺史毌丘儉以高句驪王位宮數為侵叛，督諸軍討之；位宮敗走，儉遂屠丸都，斬獲首虜以千數。句驪之臣得來數諫位宮，位宮不從，得來歎曰：「立見此地將生蓬蒿。」遂不食而死。儉令諸軍不壞其墓，不伐其樹，得其妻子皆放遣之。位宮單將妻子逃竄，儉引軍還。未幾，復擊之，位宮遂奔買溝。儉遣玄菟太守王頎追之，過沃沮千有餘里，至肅慎氏南界，刻石紀功而還，所誅、納八千餘口。論功受賞，侯者百餘人。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p6.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p7",
@@ -94,13 +113,95 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 正始7年 (AD 246)，月份「九月」"
+        },
+        {
+          "id": "zztj.75.p7.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p7.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p7.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p7.h4",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p7.h5",
+          "type": "person",
+          "at": 79,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p7.h6",
+          "type": "person",
+          "at": 92,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p8",
       "text": "漢大赦，大司農河南孟光於眾中責費禕曰：「夫赦者，偏枯之物，非明世所宜有也。衰敝窮極，必不得已，然後乃可權而行之耳。今主上仁賢，百僚稱職，何有旦夕之急，而數施非常之恩，以惠奸宄之惡乎！」禕但顧謝，踧□而已。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p8.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "孟光",
+          "person_id": "mengguang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p8.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p8.h3",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "主上",
+          "person_id": "caofang",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.75.p9",
@@ -110,7 +211,17 @@
     {
       "id": "zztj.75.p10",
       "text": "陳壽評曰：諸葛亮為政，軍旅數興而赦不妄下，不亦卓乎？",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p10.h1",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p11",
@@ -120,12 +231,50 @@
     {
       "id": "zztj.75.p12",
       "text": "漢主以涼州刺史姜維為衛將軍，與大將軍費禕並錄尚書事。汶山平康夷反，維討平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p12.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p12.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p13",
       "text": "漢主數出遊觀，增廣聲樂。太子家令巴西譙周上疏諫曰：「昔王莽之敗，豪傑並起以爭神器，才智之士思望所歸，未必以其勢之廣狹，惟其德之薄厚也。於時更始、公孫述等多已廣大，然莫不快情恣欲，怠於為善。世祖初入河北，馮異等勸之曰：『當行人所不能為者。』遂務理冤獄，崇節儉，北州歌歎，聲布四遠。於是鄧禹自南陽追之，吳漢、寇恂素未之識，舉兵助之，其餘望風慕德，邳肜、耿純、劉植之徒，至於輿病繼棺，襁負而至，不可勝數，故能以弱為強而成帝業。及在洛陽，嘗欲小出，銚期進諫，即時還車。及穎川盜起，寇恂請世祖身往臨賊，聞言即行。故非急務，欲小出不敢；至於急務，欲自安不為；帝者之欲善也如此！故《傳》曰：『百姓不徒附』，誠以德先之也。今漢遭厄運，天下三分，雄哲之士思望之時也。臣願陛下復行人所不能為者，以副人望。且承事宗廟，所以率民尊上也，今四時之祀或有不臨，而池苑之觀或有仍出，臣之愚滯，私不自安。夫憂責在身者，不暇盡樂，先帝之志，堂構未成，誠非盡樂之時。願省減樂官、後宮，凡所增造，但奉修先帝所施，下為子孫節儉之教。」漢主不聽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p13.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "譙周",
+          "person_id": "qiaozhou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p13.h2",
+          "type": "person",
+          "at": 326,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "liushan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.75.p14",
@@ -164,6 +313,15 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "年承前文 正始8年 (AD 247)，月份「正月」"
+        },
+        {
+          "id": "zztj.75.p15.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
         }
       ]
     },
@@ -191,7 +349,26 @@
     {
       "id": "zztj.75.p17",
       "text": "時尚書何晏等朋附曹爽，好變改法度。太尉蔣濟上疏曰：「昔大舜佐治，戒在比周；周公輔政，慎於其朋。夫為國法度，惟命世大才，乃能張其綱維以垂於後，豈中下之吏所宜改易哉！終無益於治，適足傷民。宜使文武之臣，各守其職，率以清平，則和氣祥瑞可感而致也！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p17.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p17.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p18",
@@ -238,7 +415,17 @@
     {
       "id": "zztj.75.p20",
       "text": "吳丞相步騭卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p20.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p21",
@@ -273,13 +460,68 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 正始8年 (AD 247)，月份「十二月」"
+        },
+        {
+          "id": "zztj.75.p21.h1",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "zztj.75.p22",
       "text": "吳主大發眾集建業，揚聲欲入寇。揚州刺史諸葛誕使安豐太守王基策之，基曰：「今陸遜等已死，孫權年老，內無賢嗣，中無謀主。權自出則懼內釁卒起，癰疽發潰；遣將則舊將已盡，新將未信。此不過欲補衣定支黨，還自保護耳。」已而吳果不出。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p22.h1",
+          "type": "person",
+          "at": 19,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p22.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p22.h3",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p22.h4",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p22.h5",
+          "type": "person",
+          "at": 58,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.75.p23",
@@ -297,6 +539,24 @@
           "era": "正始",
           "era_year": 8,
           "reasoning": "「是歲」 = 当前年 正始8年 (AD 247)"
+        },
+        {
+          "id": "zztj.75.p23.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p23.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
         }
       ]
     },
@@ -339,6 +599,15 @@
           "reasoning": "年承前文 正始9年 (AD 248)，月份「二月」"
         },
         {
+          "id": "zztj.75.p25.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "劉放",
+          "person_id": "liufang",
+          "via": "primary"
+        },
+        {
           "id": "zztj.75.p25.t2",
           "type": "temporal",
           "at": 20,
@@ -373,6 +642,24 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 正始9年 (AD 248)，月份「四月」"
+        },
+        {
+          "id": "zztj.75.p26.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "高柔",
+          "person_id": "gaorou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p26.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
         }
       ]
     },
@@ -394,6 +681,24 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 正始9年 (AD 248)，月份「五月」"
+        },
+        {
+          "id": "zztj.75.p27.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p27.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
         }
       ]
     },
@@ -415,13 +720,32 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 正始9年 (AD 248)，月份「九月」"
+        },
+        {
+          "id": "zztj.75.p28.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p29",
       "text": "陪陵夷反，漢車騎將軍鄧芝討平之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p29.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "鄧芝",
+          "person_id": "dengzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p30",
@@ -431,7 +755,17 @@
     {
       "id": "zztj.75.p31",
       "text": "初，清河、平原爭界，八年不能決。冀州刺史孫禮請天府所藏烈祖封平原時圖以決之。爽信清河之訴，雲圖不可用，禮上疏自辨，辭頗剛切。爽大怒，劾禮怨望，結刑五歲。久之，復為并州刺史，往見太傅懿，有忿色而無言。懿曰：「卿得并州少邪？恚理分界失分乎？」禮曰：「何明公言之乖也！禮雖不德，豈以官位往事為意邪！本謂明公齊蹤伊、呂，匡輔魏室，上報明帝之托，下建萬世之勳。今社稷將危，天下凶凶，此禮之所以不悅也！」因涕泣橫流。懿曰：「且止，忍不可忍！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p31.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "孫禮",
+          "person_id": "sunli",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p32",
@@ -442,6 +776,15 @@
       "id": "zztj.75.p33",
       "text": "何晏聞平原管輅明於術數，請與相見。十二月，丙戌，輅往詣晏，晏與之論《易》。時鄧颺在坐，謂輅曰：「君自謂善《易》，而語初不及《易》中辭義，何也？」輅曰：「夫善《易》者不言《易》也。」晏含笑贊之曰：「可謂要言不煩也！」因謂輅曰：「試為作一卦，知位當至三公不？」又問：「連夢見青蠅數十，來集鼻上，驅之不去，何也？」輅曰：「昔元、凱輔舜，周公佐周，皆以和惠謙恭，享有多福，此非卜筮所能明也。今君侯位尊勢重，而懷德者鮮，畏威者眾，殆非小心求福之道也。又，鼻者天中之山，『高而不危，所以長守貴。』今青蠅臭惡而集之，位峻者顛，輕豪者亡，不可不深思也！願君侯裒多益寡，非禮不履，然後三公可至，青蠅可驅也。」颺曰：「此老生之常譚。」輅曰：「夫老生者見不生，常譚者見不譚。」輅還邑捨，具以語其舅。舅責輅言太切至，輅曰：「與死人語，何所畏邪！」舅大怒，以輅為狂。",
       "annotations": [
+        {
+          "id": "zztj.75.p33.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "管輅",
+          "person_id": "guanlu",
+          "via": "primary"
+        },
         {
           "id": "zztj.75.p33.t1",
           "type": "temporal",
@@ -467,7 +810,17 @@
     {
       "id": "zztj.75.p35",
       "text": "太傅懿陰與其子中護軍師、散騎常侍昭謀誅曹爽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p35.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p36",
@@ -506,6 +859,60 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "年承前文 嘉平元年 (AD 249)，月份「正月」"
+        },
+        {
+          "id": "zztj.75.p37.h1",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "高柔",
+          "person_id": "gaorou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p37.h2",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "王觀",
+          "person_id": "wangguan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p37.h3",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p37.h4",
+          "type": "person",
+          "at": 158,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p37.h5",
+          "type": "person",
+          "at": 285,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p37.h6",
+          "type": "person",
+          "at": 302,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caofang",
+          "via": "llm"
         }
       ]
     },
@@ -517,7 +924,17 @@
     {
       "id": "zztj.75.p39",
       "text": "初，爽以桓范鄉里老宿，於九卿中特禮之，然不甚親也。及懿起兵，以太后令召范，欲使行中領軍。范欲應命，其子止之曰：「車駕在外，不如南出。」范乃出。至平昌城門，城門已閉。門候司蕃，故范舉吏也，范舉手中版以示之，矯曰：「有詔召我，卿促開門！」蕃欲求見詔書，范呵之曰：「卿非我故吏邪？何以敢爾！」乃開之。范出城，顧謂蕃曰：「太傅圖逆，卿從我去！」蕃徒行不能及，遂避側。懿謂蔣濟曰：「智囊往矣！」濟曰：「范則智矣，然駑馬戀棧豆，爽必不能用也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p39.h1",
+          "type": "person",
+          "at": 181,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p40",
@@ -558,7 +975,17 @@
     {
       "id": "zztj.75.p44",
       "text": "魯芝將出，呼參軍辛敞欲與俱去。敞，毘之子也，其姊憲英為太常羊耽妻，敞與之謀曰：「天子在外，太傅閉城門，人云將不利國家，於事可得爾乎？」憲英曰：「以吾度之，太傅此舉，不過以誅曹爽耳。」敞曰：「然則事就乎？」憲英曰：「得無殆就！爽之才非太傅之偶也。」敞曰：「然則敞可以無出乎？」憲英曰：「安可以不出！職守，人之大義也。凡人在難，猶或恤之；為人執鞭而棄其事，不祥莫大焉。且為人任，為人死，親暱之職也，從眾而已。」敞遂出。事定之後，敞歎曰：「吾不謀於姊，幾不獲於義。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p44.h1",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p45",
@@ -568,7 +995,17 @@
     {
       "id": "zztj.75.p46",
       "text": "爽從弟文叔妻夏侯令女，早寡而無子，其父文寧欲嫁之；令女刀截兩耳以自誓，居常依爽。爽誅，其家上書絕昏，強迎以歸，復將嫁之；令女竊入寢室，引刀自斷其鼻，其家驚惋，謂之曰：「人生世間，如輕塵棲弱草耳，何至自苦乃爾！且夫家夷滅已盡，守此欲誰為哉！」令女曰：「吾聞仁者不以盛衰改節，義者不以存亡易心。曹氏前盛之時，尚欲保終，況今衰亡，何忍棄之！此禽獸不行，吾豈為乎！」司馬懿聞而賢之，聽使乞子字養為曹氏後。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p46.h1",
+          "type": "person",
+          "at": 179,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p47",
@@ -578,32 +1015,146 @@
     {
       "id": "zztj.75.p48",
       "text": "選部郎劉陶，曄之子也，少有口辯，鄧颺之徒稱之以為伊、呂。陶嘗謂傅玄是「仲尼不聖。何以知之？智者於群愚，如弄一丸於掌中；而不能得天下，何以為聖！」玄不復難，但語之曰：「天下之變無常也，今見卿窮。」及曹爽敗，陶退居裡捨，乃謝其言之過。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p48.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "劉陶",
+          "person_id": "liutao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p48.h2",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p49",
       "text": "管輅之舅謂輅曰：「爾前何以知何、鄧之敗？」輅曰：「鄧之行步，筋不束骨，脈不制肉，起立傾倚，若無手足，此為鬼躁。何之視候則魂不守宅，血不華色，精爽煙浮，容若槁木，此為鬼幽。二者皆非遐福之象也。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p49.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "管輅",
+          "person_id": "guanlu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p50",
       "text": "何晏性自喜，粉白不去手，行步顧影。尤好老、莊之書，與夏侯玄、荀粲及山陽王弼之徒，競為清談，祖尚虛無，謂《六經》為聖人糟粕。由是天下士大夫爭慕效之，遂成風流，不可複製焉。粲，彧之子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p50.h1",
+          "type": "person",
+          "at": 26,
+          "length": 3,
+          "text": "夏侯玄",
+          "person_id": "xiahouxuan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p51",
       "text": "丁未，以太傅懿為丞相，加九錫，懿固辭不受。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p51.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p51.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.75.p52",
       "text": "初，右將軍夏侯霸為曹爽所厚，以其父淵死於蜀，常切齒有報仇之志，為討蜀護軍，屯於隴西，統屬征西。征西將軍夏侯玄，霸之從子，爽之外弟也。爽既誅，司馬懿召玄詣京師，以雍州刺史郭淮代之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p52.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p52.h2",
+          "type": "person",
+          "at": 51,
+          "length": 3,
+          "text": "夏侯玄",
+          "person_id": "xiahouxuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p52.h3",
+          "type": "person",
+          "at": 70,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p52.h4",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p53",
       "text": "霸素與淮不葉，以為禍必相及，大懼，遂奔漢。漢主謂曰：「卿父自遇害於行間耳，非我先人之手刃也。」遇之甚厚。姜維問於霸曰：「司馬懿既得彼政，當復有征伐之志不？」霸曰：「彼方營立家門，未遑外事。有鐘士季者，其人雖少，若管朝政，吳、蜀之憂也。」士季者，鐘繇之子尚書郎會也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p53.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p53.h2",
+          "type": "person",
+          "at": 60,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p54",
@@ -623,6 +1174,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 嘉平元年 (AD 249)，月份「三月」"
+        },
+        {
+          "id": "zztj.75.p54.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
         }
       ]
     },
@@ -650,12 +1210,103 @@
     {
       "id": "zztj.75.p56",
       "text": "曹爽之在伊南也，昌陵景侯蔣濟與之書，言太傅之旨，不過免官而已。爽誅，濟進封都鄉侯，上疏固辭，不許。濟病其言之失，遂發病，丙子，卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p56.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p56.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "蔣濟",
+          "person_id": "jiangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p57",
       "text": "秋，漢衛將軍姜維寇雍州，依麴山築二城，使牙門將句安、李歆等守之，聚羌胡質任，侵逼諸郡。征西將軍郭淮與雍州刺史陳泰御之。泰曰：「麴城雖固，去蜀險遠，當須運糧；羌夷患維勞役，必未肯附。今圍而取之，可不血刃而拔其城；雖其有救，山道阻險，非行兵之地也。」淮乃使泰率討蜀護軍徐質、南安太守鄧艾進兵圍麴城，斷其運道及城外流水。安等挑戰，不許，將士困窘，分糧聚雪以引日月。維引兵救之，出自牛頭山，與泰相對。泰曰：「兵法貴在不戰而屈人。今絕牛頭，維無反道，則我之禽也。」敕諸軍各堅壘勿與戰，遣使白淮，使淮趣牛頭截其還路。淮從之，進軍洮水。維懼，遁走，安等孤絕，遂降。淮因西擊諸羌。鄧艾曰：「賊去未遠，或能復還，宜分諸軍以備不虞。」於是留艾屯白水北。三日，維遣其將廖化自白水南向艾結營。艾謂諸將曰：「維今卒還，吾軍人少，法當來渡；而不作橋，此維使化持吾令不得還，維必自東襲取洮城。」洮城在水北，去艾屯六十里，艾即夜潛軍徑到。維果來渡，而艾先至據城，得以不敗，漢軍遂還。兗州刺史令狐愚，司空王凌之甥也，屯於平阿，甥舅並典重兵，專淮南之任。凌與愚陰謀，以帝闇弱，制於強臣，聞楚王彪有智勇，欲共立之，迎都許昌。九月，愚遣其將張式至白馬，與楚王相聞。凌又遣舍人勞精詣洛陽，語其子廣。廣曰：「凡舉大事，應本人情。曹爽以驕奢失民，何平叔虛華不治，丁、畢、桓、鄧雖並有宿望，皆專競於世。加變易朝典，政令數改，所存雖高而事不下接，民習於舊，眾莫之從，故雖勢傾四海，聲震天下，同日斬戮，名士減半，而百姓安之。莫之或哀，失民故也。今司馬懿情雖難量，事未有逆，而擢用賢能，廣樹勝己，修先朝之政令，副眾心之所求。爽之所以為惡者，彼莫不必改，夙夜菲懈，以恤民為先，父子兄弟，並握兵要，未易亡也。」凌不從。",
       "annotations": [
+        {
+          "id": "zztj.75.p57.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h2",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h3",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h4",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h5",
+          "type": "person",
+          "at": 282,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h6",
+          "type": "person",
+          "at": 323,
+          "length": 2,
+          "text": "廖化",
+          "person_id": "liaohua",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h7",
+          "type": "person",
+          "at": 435,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h8",
+          "type": "person",
+          "at": 476,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
+        },
         {
           "id": "zztj.75.p57.t1",
           "type": "temporal",
@@ -670,6 +1321,24 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 嘉平元年 (AD 249)，月份「九月」"
+        },
+        {
+          "id": "zztj.75.p57.h9",
+          "type": "person",
+          "at": 542,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p57.h10",
+          "type": "person",
+          "at": 647,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
         }
       ]
     },
@@ -712,13 +1381,41 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 嘉平元年 (AD 249)，月份「十二月」"
+        },
+        {
+          "id": "zztj.75.p59.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p59.h2",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "孫禮",
+          "person_id": "sunli",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p60",
       "text": "光祿大夫徐邈卒。邈以清節著名，盧欽嘗著書稱邈曰：「徐公志高行潔，才博氣猛，其施之也，高而不狷，潔而不介，博而守約，猛而能寬。聖人以清為難，而徐公之所易也。」或問欽：「徐公當武帝之時，人以為通；自為涼州刺史，及還京師，人以為介，何也？」欽答曰：「往者毛孝先、崔季珪用事，貴清素之士，於時皆變易車服以求名高，而徐公不改其常，故人以為通。比來天下奢靡，轉相倣傚，而徐公雅尚自若，不與俗同，故前日之通，乃今日之介也。是世人之無常而徐公之有常也。」欽，毓之子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p60.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "徐邈",
+          "person_id": "xumiao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p61",
@@ -757,18 +1454,101 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 嘉平2年 (AD 250)，月份「五月」"
+        },
+        {
+          "id": "zztj.75.p62.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p63",
       "text": "初，會稽潘夫人有寵於吳主，生少子亮，吳主愛之。全公主既與太子和有隙，欲豫自結，數稱亮美，以其夫之兄子尚女妻之。吳主以魯王霸結朋黨以害其兄，心亦惡之，謂侍中孫峻曰：「子弟不睦，臣下分部，將有袁氏之敗，為天下笑。若使一人立者，安得不亂乎！」遂有廢和立亮之意，然猶沉吟者歷年。峻，靜之曾孫也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p63.h2",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p63.h1",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p64",
       "text": "秋，吳主遂幽太子和。驃騎將軍朱據諫曰：「太子，國之本根。加以雅性仁孝，天下歸心。昔晉獻用驪姬而申生不存，漢武信江充而戾太子冤死，臣竊懼太子不堪其憂，雖立思子之宮，無所復及矣！」吳主不聽。據與尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和；吳主登白爵觀，見，甚惡之，敕據、晃等「無事匆匆」。無難督陳正、五營督陳象各上書切諫，據、晃亦固諫不已；吳主大怒，族誅正、象。牽據、晃入殿，據、晃猶口諫，叩頭流血，辭氣不撓。吳主杖之各一百，左遷據為新都郡丞，晃斥歸田裡，群司坐諫誅放者以十數。遂廢太子和為庶人，徙故鄣，賜魯王霸死。殺楊竺，流其屍於江，又誅全寄、吳安、孫奇，皆以其黨霸譖和故也。初，楊竺少獲聲名，而陸遜謂之終敗，勸竺兄穆令與之別族。及竺敗，穆以數諫戒竺得免死。朱據未至官，中書令孫弘以詔書追賜死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p64.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p64.h3",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p64.h4",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p64.h5",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p64.h6",
+          "type": "person",
+          "at": 239,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p64.h1",
+          "type": "person",
+          "at": 297,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p65",
@@ -809,13 +1589,32 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 嘉平2年 (AD 250)，月份「十一月」"
+        },
+        {
+          "id": "zztj.75.p66.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "孫禮",
+          "person_id": "sunli",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p67",
       "text": "吳主立子亮為太子。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p67.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.75.p68",
@@ -846,12 +1645,50 @@
     {
       "id": "zztj.75.p70",
       "text": "征南將軍王昶上言：「孫權流放良臣，適庶分爭，可乘釁擊吳。」朝廷從之，遣新城太守南陽州泰襲巫、秭歸，荊州刺史王基向夷陵，昶向江陵。昶引竹絲亙為橋，渡水擊之，吳大將施績，夜遁入江陵。昶欲引致平地與戰，乃先遣五軍案大道發還，使吳望見而喜；又以所獲鎧馬甲首環城以怒之，設伏兵以待之。績果來追，昶與戰，大破之，斬其將鐘離茂、許旻。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p70.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p70.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p70.h3",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p71",
       "text": "漢姜維復寇西平，不克。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p71.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p72",
@@ -890,6 +1727,15 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「正月」"
+        },
+        {
+          "id": "zztj.75.p73.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
         }
       ]
     },
@@ -932,18 +1778,145 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「四月」"
+        },
+        {
+          "id": "zztj.75.p75.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p76",
       "text": "太尉王凌聞吳人塞塗水，欲因此發兵，大嚴諸軍，表求討賊：詔報不聽。凌遣將軍楊弘以廢立事告兗州刺史黃華，華、弘連名以白司馬懿，懿將中軍乘水道討凌，先下赦赦凌罪，又為書諭凌，已而大軍掩至百尺。凌自知勢窮，乃乘船單出迎懿，遣掾王彧謝罪，送印綬、節鉞。懿軍到丘頭，凌面縛水次，懿承詔遣主簿解其縛。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p76.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p76.h2",
+          "type": "person",
+          "at": 57,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p76.h3",
+          "type": "person",
+          "at": 61,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.75.p76.h4",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.75.p76.h5",
+          "type": "person",
+          "at": 121,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.75.p76.h6",
+          "type": "person",
+          "at": 133,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "zztj.75.p77",
       "text": "凌既蒙赦，加恃舊好，不復自疑，逕乘小船欲趨懿。懿使人逆止之，住船淮中，相去十餘丈。凌知見外，乃遙謂懿曰：「卿直以折簡召我，我當敢不至邪，而乃引軍來乎！」懿曰：「以卿非肯逐折簡者故也。」凌曰：「卿負我！」懿曰：「我寧負卿，不負國家！」遂遣步騎六百送凌西詣京師，凌試索棺釘以觀懿意，懿命給之。五月，甲寅，凌行到項，遂飲藥死。",
       "annotations": [
+        {
+          "id": "zztj.75.p77.h1",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h2",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h3",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h4",
+          "type": "person",
+          "at": 76,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h5",
+          "type": "person",
+          "at": 101,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h6",
+          "type": "person",
+          "at": 136,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p77.h7",
+          "type": "person",
+          "at": 139,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
         {
           "id": "zztj.75.p77.t1",
           "type": "temporal",
@@ -964,7 +1937,26 @@
     {
       "id": "zztj.75.p78",
       "text": "懿進至壽春，張式等皆自首。懿窮治其事，諸相連者悉夷三族。發凌、愚塚，剖棺暴屍於所近市三日，燒其印綬、朝服，親土埋之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p78.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p78.h2",
+          "type": "person",
+          "at": 13,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.75.p79",
@@ -974,12 +1966,41 @@
     {
       "id": "zztj.75.p80",
       "text": "愚在兗州，辟山陽單固為別駕，與治中楊康並為愚腹心。及愚卒，康應司徒辟，至洛陽，露愚陰事，愚由是敗。懿至壽春，見單固，問曰：「令狐反乎？」曰：「無有。」楊康白事，事與固連，遂收捕固及家屬皆系廷尉，考實數十，固固雲無有。懿錄楊康，與固對相詰，固辭窮，乃罵康曰：「老傭！既負使君，又滅我族，顧汝當活邪！」康初自冀封侯，後以辭頗參錯，亦並斬之。臨刑，俱出獄，固又罵康曰：「老奴！汝死自分耳。若令死者有知，汝何面目以行地下乎！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p80.h1",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.75.p80.h2",
+          "type": "person",
+          "at": 108,
+          "length": 1,
+          "text": "懿",
+          "person_id": "simayi",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "zztj.75.p81",
       "text": "詔以揚州刺史諸葛誕為鎮東將軍，都督揚州諸軍事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p81.h1",
+          "type": "person",
+          "at": 6,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p82",
@@ -1004,6 +2025,15 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「六月」"
+        },
+        {
+          "id": "zztj.75.p83.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "楚王彪",
+          "person_id": "caobiao_chuwang",
+          "via": "alias"
         }
       ]
     },
@@ -1051,13 +2081,41 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「八月」"
+        },
+        {
+          "id": "zztj.75.p86.h1",
+          "type": "person",
+          "at": 11,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p87",
       "text": "初，南匈奴自謂其先本漢室之甥，因冒姓劉氏。太祖留單于呼廚泉之鄴，分其眾為五部，居并州境內。左賢王豹，單于於扶羅之子也，為左部帥，部族最強。城陽太守鄧艾上言：「單于在內，羌夷失統，合散無主。今單于之尊日疏而外土之威日重，則胡虜不可不深備也。聞劉豹部有叛胡，可因叛割為二國，以分其勢。去卑功顯前朝而子不繼業，宜加其子顯號，使居雁門。離國弱寇，追錄舊勳，此御邊長計也。」又陳「羌胡與民同處者，宜以漸出之，使居民表，以崇廉恥之教，塞奸宄之路。」司馬師皆從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p87.h1",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p87.h2",
+          "type": "person",
+          "at": 218,
+          "length": 3,
+          "text": "司馬師",
+          "person_id": "simashi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p88",
@@ -1068,6 +2126,15 @@
       "id": "zztj.75.p89",
       "text": "是時，吳主頗寤太子和之無罪，冬，十一月，吳主祀南郊還，得風疾，欲召和還；全公主及侍中孫峻、中書令孫弘固爭之，乃止。吳主以太子亮幼少，議所付託，孫峻薦大將軍諸葛恪可付大事。吳主嫌恪剛很自用，峻曰：「當今朝臣之才，無及恪者。」乃召恪於武昌。恪將行，上大將軍呂岱戒之曰：「世方多難，子每事必十思。」恪曰：「昔季文子三思而後行，夫子曰：『再思可矣。』今君令恪十思，明恪之劣也！」岱無以答，時鹹謂之失言。",
       "annotations": [
+        {
+          "id": "zztj.75.p89.h5",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
         {
           "id": "zztj.75.p89.t1",
           "type": "temporal",
@@ -1082,18 +2149,101 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「十一月」"
+        },
+        {
+          "id": "zztj.75.p89.h1",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p89.h6",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p89.h2",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p89.h3",
+          "type": "person",
+          "at": 77,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p89.h4",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p90",
       "text": "虞喜論曰：夫托以天下，至重也；以人臣行主威，至難也。兼二至而管萬機，能勝之者鮮矣。呂侯，國之元耆，志度經遠，甫以十思戒之，而便以示劣見拒；此元遜之疏，機神不俱者也！若因十思之義，廣咨當世之務，聞善速於雷動，從諫急於風移，豈得殞首殿堂，死於凶豎之刃！世人奇其英辯，造次可觀，而哂呂侯無對為陋，不思安危終始之慮，是樂春藻之繁華，而忘秋實之甘口也。昔魏人伐蜀，蜀人御之，精嚴垂發，而費禕方與來敏對棋，意無厭倦。敏以為必能辦賊，言其明略內定，貌無憂色也。況長寧以為君子臨事而懼，好謀而成，蜀為蕞爾之國，而方向大敵，所規所圖，唯守與戰，何可矜己有餘，晏然無戚！斯乃禕性之寬簡，不防細微，卒為降人郭循所害，豈非兆見於彼而禍成於此哉！往聞長寧之甄文偉，今睹元遜之逆呂侯，二事體同，皆足以為世鑒也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p90.h1",
+          "type": "person",
+          "at": 188,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p90.h2",
+          "type": "person",
+          "at": 192,
+          "length": 2,
+          "text": "來敏",
+          "person_id": "laimin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p91",
       "text": "恪至建業，見吳主於臥內，受詔床下，以大將軍領太子太傅，孫弘領少傅；詔有司諸事一統於恪，惟殺生大事，然後以聞。為制群官百司拜揖之儀，各有品序。又以會稽太守北海滕胤為太常。胤，吳主婿也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p91.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p91.h1",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p92",
@@ -1119,7 +2269,17 @@
     {
       "id": "zztj.75.p93",
       "text": "漢費禕還成都，望氣者云：「都邑無宰相位。」乃復北屯漢壽。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p93.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "費禕",
+          "person_id": "feiyi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p94",
@@ -1137,6 +2297,15 @@
           "era": "嘉平",
           "era_year": 3,
           "reasoning": "「是歲」 = 当前年 嘉平3年 (AD 251)"
+        },
+        {
+          "id": "zztj.75.p94.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "呂乂",
+          "person_id": "lvyi",
+          "via": "primary"
         }
       ]
     },
@@ -1177,13 +2346,32 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "年承前文 嘉平4年 (AD 252)，月份「正月」"
+        },
+        {
+          "id": "zztj.75.p96.h1",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "司馬師",
+          "person_id": "simashi",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p97",
       "text": "吳主立故太子和為南陽王，使居長沙；仲姬子奮為齊王，居武昌；王夫人子休為琅邪王，居虎林。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p97.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.75.p98",
@@ -1221,6 +2409,33 @@
       "text": "吳主病困，召諸葛恪、孫弘、滕胤及將軍呂據、侍中孫峻入臥內，屬以後事。夏，四月，〔乙未〕，吳主殂。孫弘素與諸葛恪不平，懼為恪所治，秘不發喪，欲矯詔誅恪。孫峻以告恪，恪請弘咨事，於坐中殺之。乃發喪。謚吳主曰大皇帝。〔丁酉〕，太子亮即位，大赦，改元建興。閏月，以諸葛恪為太傅，滕胤為衛將軍，呂岱為大司馬。恪乃命罷視聽，息校官，原逋責，除關稅，崇恩澤，眾莫不悅。恪每出入，百姓延頸思見其狀。",
       "annotations": [
         {
+          "id": "zztj.75.p101.h1",
+          "type": "person",
+          "at": 6,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h3",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
           "id": "zztj.75.p101.t1",
           "type": "temporal",
           "at": 36,
@@ -1234,6 +2449,60 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 嘉平4年 (AD 252)，月份「四月」"
+        },
+        {
+          "id": "zztj.75.p101.h4",
+          "type": "person",
+          "at": 52,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h5",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h9",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.75.p101.h6",
+          "type": "person",
+          "at": 128,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h7",
+          "type": "person",
+          "at": 135,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p101.h8",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
         }
       ]
     },
@@ -1266,7 +2535,44 @@
     {
       "id": "zztj.75.p104",
       "text": "鎮東將軍諸葛誕言於大將軍師曰：「今因吳內侵，使文舒逼江陵，仲恭向武昌，以羈吳之上流；然後簡精卒攻其兩城，比救至，可大獲也。」是時征南大將軍王昶、征東將軍胡遵、鎮南將軍毋丘儉等各獻征吳之計。朝廷以三征計異，詔問尚書傅嘏。嘏對曰：「議者或欲泛舟徑濟，橫行江表；或欲四道並進，攻其城壘；或欲大佃疆場，觀釁而動；誠皆取賊之常計也。然自治兵以來，出入三載，非掩襲之軍也。賊之為寇，幾六十年矣，君臣相保，吉凶共患，又喪其元帥，上下憂危，設令列船津要，堅城據險，橫行之計，其殆難捷。今邊壤之守，與賊相遠，賊設羅落，又特重密，間諜不行，耳目無聞。夫軍無耳目，校察未詳，而舉大眾以臨巨險，此為希幸徼功，先戰而後求勝，非全軍之長策也。唯有進軍大佃，最差完牢；可詔昶、遵等擇地居險，審所錯置，及令三方一時前守。奪其肥壤，使還□脊土，一也；兵出民表，寇鈔不犯，二也；招懷近路，降附日至，三也；羅落遠設，間構不來，四也；賊退其守，羅落必淺，佃作易立，五也；坐食積穀，士不運輸，六也；釁隙時聞，討襲速決，七也；凡此七者，軍事之急務也。不據則賊擅便資，據之則利歸於國，不可不察也。夫屯壘相逼，形勢已交，智勇得陳，巧拙得用，策之而知得失之計，角之而知有餘不足，虜之情偽，將焉所逃！夫以小敵大，則役煩力竭；以貧敵富，則斂重財匱。故曰：『敵逸能勞之，飽能饑之』，此之謂也。」司馬師不從。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p104.h1",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p104.h2",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p104.h3",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "傅嘏",
+          "person_id": "fugu",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p104.h4",
+          "type": "person",
+          "at": 569,
+          "length": 3,
+          "text": "司馬師",
+          "person_id": "simashi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.75.p105",
@@ -1288,6 +2594,15 @@
           "reasoning": "年承前文 嘉平4年 (AD 252)，月份「十一月」"
         },
         {
+          "id": "zztj.75.p105.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
           "id": "zztj.75.p105.t2",
           "type": "temporal",
           "at": 13,
@@ -1301,18 +2616,68 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 嘉平4年 (AD 252)，月份「十二月」"
+        },
+        {
+          "id": "zztj.75.p105.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p105.h3",
+          "type": "person",
+          "at": 33,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p105.h4",
+          "type": "person",
+          "at": 98,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p105.h5",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.75.p105.h6",
+          "type": "person",
+          "at": 361,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.75.p106",
       "text": "初，漢姜維寇西平，獲中郎將郭循，漢人以為左將軍。循欲刺漢主，不得親近，每因上壽，且拜且前，為左右所遏，事輒不果。",
-      "annotations": []
-    },
-    {
-      "id": "zztj.75.p107",
-      "text": "此北宋作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p106.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

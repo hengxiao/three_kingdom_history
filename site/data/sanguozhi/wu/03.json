@@ -11,20 +11,66 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷48",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 47,
+  "n_segments": 46,
   "segments": [
     {
       "id": "wu.3.p1",
       "text": "孫亮孫休孫皓",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.3.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p1.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p1.h3",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.3.p2",
       "text": "孫亮字子明，權少子也。權春秋高，而亮最少，故尤留意。姊全公主嘗譖太子和子母，心不自安，因倚權意，欲豫自結，數稱述全尚女，勸爲亮納。赤烏十三年，和廢，權遂立亮爲太子，以全氏爲妃。",
       "annotations": [
+        {
+          "id": "wu.3.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p2.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
         {
           "id": "wu.3.p2.t1",
           "type": "temporal",
@@ -37,6 +83,15 @@
           "era": "赤烏",
           "era_year": 13,
           "reasoning": "原文「赤烏十三年」直接出现年号；解析為 AD 250"
+        },
+        {
+          "id": "wu.3.p2.h3",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
         }
       ]
     },
@@ -58,6 +113,51 @@
           "reasoning": "原文「太元元年」直接出现年号；解析為 AD 251"
         },
         {
+          "id": "wu.3.p3.h6",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "panhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p3.h1",
+          "type": "person",
+          "at": 25,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p3.h3",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p3.h2",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p3.h4",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p3.t2",
           "type": "temporal",
           "at": 51,
@@ -71,6 +171,15 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "「明年四月」 = 当前年 太元元年 (AD 251) 之次年 = AD 252"
+        },
+        {
+          "id": "wu.3.p3.h5",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
         },
         {
           "id": "wu.3.p3.t3",
@@ -91,6 +200,15 @@
       "id": "wu.3.p4",
       "text": "閏月，以恪爲帝太傅，胤爲衞將軍領尚書事，上大將軍呂岱爲大司馬，諸文武在位皆進爵班賞，宂官加等。冬十月，太傅恪率軍遏巢湖，城東興，使將軍全端守西城，都尉留略守東城。十二月朔丙申，大風雷電，魏使將軍諸葛誕、胡遵等步騎七萬圍東興，將軍王昶攻南郡，毌丘儉向武昌。甲寅，恪以大兵赴敵。戊午，兵及東興，交戰，大破魏軍，殺將軍韓綜、桓嘉等。是月，雷雨，天災武昌端門；改作端門，又災內殿。",
       "annotations": [
+        {
+          "id": "wu.3.p4.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
         {
           "id": "wu.3.p4.t1",
           "type": "temporal",
@@ -129,6 +247,33 @@
           "reasoning": "年承前文 太元2年 (AD 252)，月份「十二月」"
         },
         {
+          "id": "wu.3.p4.h2",
+          "type": "person",
+          "at": 97,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p4.h3",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p4.h4",
+          "type": "person",
+          "at": 120,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p4.a2",
           "type": "pei",
           "at": 186,
@@ -155,6 +300,24 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「太元」推得，「二年春正月」 = 太元2年 = AD 252"
+        },
+        {
+          "id": "wu.3.p5.h3",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "quanhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p5.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         },
         {
           "id": "wu.3.p5.t2",
@@ -230,6 +393,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 太元2年 (AD 252)，月份「冬十月」"
+        },
+        {
+          "id": "wu.3.p5.h2",
+          "type": "person",
+          "at": 87,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
         },
         {
           "id": "wu.3.p5.t7",
@@ -318,6 +490,24 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「五鳳」推得，「二年春正月」 = 五鳳2年 = AD 255"
+        },
+        {
+          "id": "wu.3.p7.h1",
+          "type": "person",
+          "at": 11,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p7.h2",
+          "type": "person",
+          "at": 93,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
         },
         {
           "id": "wu.3.p7.t2",
@@ -451,6 +641,33 @@
           "reasoning": "年承前文 太平元年 (AD 256)，月份「九月」"
         },
         {
+          "id": "wu.3.p8.h1",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p8.h2",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p8.h3",
+          "type": "person",
+          "at": 161,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p8.t4",
           "type": "temporal",
           "at": 193,
@@ -464,6 +681,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 太平元年 (AD 256)，月份「冬十月」"
+        },
+        {
+          "id": "wu.3.p8.h4",
+          "type": "person",
+          "at": 203,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
         },
         {
           "id": "wu.3.p8.t5",
@@ -560,6 +786,15 @@
           "reasoning": "年承前文 太平2年 (AD 257)，月份「五月」"
         },
         {
+          "id": "wu.3.p10.h1",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p10.t2",
           "type": "temporal",
           "at": 49,
@@ -590,6 +825,15 @@
           "reasoning": "年承前文 太平2年 (AD 257)，月份「秋七月」"
         },
         {
+          "id": "wu.3.p10.h2",
+          "type": "person",
+          "at": 120,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p10.t4",
           "type": "temporal",
           "at": 131,
@@ -603,6 +847,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 太平2年 (AD 257)，月份「八月」"
+        },
+        {
+          "id": "wu.3.p10.h3",
+          "type": "person",
+          "at": 167,
+          "length": 3,
+          "text": "鍾離牧",
+          "person_id": "zhonglimu",
+          "via": "primary"
         },
         {
           "id": "wu.3.p10.t5",
@@ -671,6 +924,15 @@
           "reasoning": "承前文年號「太平」推得，「三年春正月」 = 太平3年 = AD 258"
         },
         {
+          "id": "wu.3.p11.h1",
+          "type": "person",
+          "at": 6,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p11.t2",
           "type": "temporal",
           "at": 13,
@@ -737,6 +999,15 @@
       "text": "孫休字子烈，權第六子。年十三，從中書郎射慈、郎中盛冲受學。太元二年正月，封琅邪王，居虎林。四月，權薨，休弟亮承統，諸葛恪秉政，不欲諸王在濵江兵馬之地，徙休於丹楊郡。太守李衡數以事侵休，休上書乞徙他郡，詔徙會稽。居數歲，夢乘龍上天，顧不見尾，覺而異之。孫亮廢，己未，孫綝使宗正孫楷與中書郎董朝迎休。休初聞問，意疑，楷、朝具述綝等所以奉迎本意，留一日二夜，遂發。十月戊寅，行至曲阿，有老公干休叩頭曰：「事乆變生，天下喁喁，願陛下速行。」休善之，是日進及布塞亭。武衞將軍恩行丞相事，率百僚以乘輿法駕迎於永昌亭，築宮，以武帳爲便殿，設御座。己卯，休至，望便殿止住，使孫楷先見恩。楷還，休乘輦進，羣臣再拜稱臣。休升便殿，謙不即御坐，止東廂。戶曹尚書前即階下讚奏，丞相奉璽符。休三讓，羣臣三請。休曰：「將相諸侯咸推寡人，寡人敢不承受璽符。」羣臣以次奉引，休就乘輿，百官陪位，綝以兵千人迎於半野，拜于道側，休下車荅拜。即日，御正殿，大赦，改元。是歲，於魏甘露三年也。",
       "annotations": [
         {
+          "id": "wu.3.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p12.t1",
           "type": "temporal",
           "at": 29,
@@ -767,6 +1038,33 @@
           "reasoning": "年承前文 太平3年 (AD 258)，月份「四月」"
         },
         {
+          "id": "wu.3.p12.h2",
+          "type": "person",
+          "at": 57,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p12.h3",
+          "type": "person",
+          "at": 125,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p12.h4",
+          "type": "person",
+          "at": 132,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p12.t3",
           "type": "temporal",
           "at": 179,
@@ -780,6 +1078,15 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 太平3年 (AD 258)，月份「十月」"
+        },
+        {
+          "id": "wu.3.p12.h5",
+          "type": "person",
+          "at": 210,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunxiu",
+          "via": "llm"
         },
         {
           "id": "wu.3.p12.t4",
@@ -821,6 +1128,15 @@
           "at": 172,
           "length": 0,
           "text": "《襄陽記》曰：衡字叔平，本襄陽卒家子也，漢末入吳爲武昌庶民。聞羊衜有人物之鑒，往干之，衜曰：「多事之世，尚書劇曹郎才也。」是時校事呂壹操弄權柄，大臣畏偪，莫有敢言，衜曰：「非李衡無能困之者。」遂共薦爲郎。權引見，衡口陳壹姦短數千言，權有愧色。數月，壹被誅，而衡大見顯擢。後常爲諸葛恪司馬，幹恪府事。恪被誅，求爲丹楊太守。時孫休在郡治，衡數以法繩之。妻習氏每諫衡，衡不從。會休立，衡憂懼，謂妻曰：「不用卿言，以至於此。」遂欲奔魏。妻曰：「不可。君本庶民耳，先帝相拔過重，旣數作無禮，而復逆自猜嫌，逃叛求活，以此北歸，何面見中國人乎？」衡曰：「計何所出？」妻曰：「琅邪王素好善慕名，方欲自顯於天下，終不以私嫌殺君明矣。可自囚詣獄，表列前失，顯求受罪。如此，乃當逆見優饒，非但直活而已。」衡從之，果得無患，又加威遠將軍，援以棨戟。衡每欲治家，妻輙不聽，後密遣客十人於武陵龍陽汎洲上作宅，種甘橘千株。臨死，勑兒曰：「汝母惡我治家，故窮如是。然吾州里有千頭木奴，不責汝衣食，歲上一匹絹，亦可足用耳。」衡亡後二十餘日，兒以白母，母曰：「此當是種甘橘也，汝家失十戶客來七八年，必汝父遣爲宅。汝父恒稱太史公言，『江陵千樹橘，當封君家』。吾荅曰：『且人患無德義，不患不富，若貴而能貧，方好耳，用此何爲！』」吳末，衡甘橘成，歲得絹數千匹，家道殷足。晉咸康中，其宅止枯樹猶在。"
+        },
+        {
+          "id": "wu.3.p13.h1",
+          "type": "person",
+          "at": 176,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
         },
         {
           "id": "wu.3.p13.a2",
@@ -1064,6 +1380,24 @@
           "reasoning": "年承前文 永安5年 (AD 262)，月份「八月」"
         },
         {
+          "id": "wu.3.p19.h4",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhuhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p19.h3",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunwan",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p19.a1",
           "type": "pei",
           "at": 61,
@@ -1084,6 +1418,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 永安5年 (AD 262)，月份「冬十月」"
+        },
+        {
+          "id": "wu.3.p19.h1",
+          "type": "person",
+          "at": 69,
+          "length": 3,
+          "text": "濮陽興",
+          "person_id": "puyangxing",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p19.h2",
+          "type": "person",
+          "at": 167,
+          "length": 2,
+          "text": "韋曜",
+          "person_id": "weiyao",
+          "via": "primary"
         },
         {
           "id": "wu.3.p19.t5",
@@ -1155,6 +1507,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 永安6年 (AD 263)，月份「冬十月」"
+        },
+        {
+          "id": "wu.3.p20.h1",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p20.h2",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "劉禪",
+          "person_id": "liushan",
+          "via": "primary"
         },
         {
           "id": "wu.3.p20.a1",
@@ -1250,6 +1620,51 @@
       "text": "孫皓字元宗，權孫，和子也，一名彭祖，字皓宗。孫休立，封皓爲烏程侯，遣就國。西湖民景養相皓當大貴，皓陰喜而不敢泄。休薨，是時蜀初亡，而交阯攜叛，國內震懼，貪得長君。左典軍萬彧昔爲烏程令，與皓相善，稱皓才識明斷，是長沙桓王之疇也，又加之好學，奉遵法度，屢言之於丞相濮陽興、左將軍張布。興、布說休妃太后朱，欲以皓爲嗣。朱曰：「我寡婦人，安知社稷之慮，苟吳國無損，宗廟有賴可矣。」於是遂迎立皓，時年二十三。改元，大赦。是歲，於魏咸熙元年也。",
       "annotations": [
         {
+          "id": "wu.3.p22.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p22.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p22.h3",
+          "type": "person",
+          "at": 105,
+          "length": 4,
+          "text": "長沙桓王",
+          "person_id": "sunce",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.3.p22.h4",
+          "type": "person",
+          "at": 130,
+          "length": 3,
+          "text": "濮陽興",
+          "person_id": "puyangxing",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p22.h5",
+          "type": "person",
+          "at": 146,
+          "length": 2,
+          "text": "太后",
+          "person_id": "zhuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p22.t1",
           "type": "temporal",
           "at": 205,
@@ -1269,6 +1684,15 @@
       "text": "元興元年八月，以上大將軍施績、大將軍丁奉爲左右大司馬，張布爲驃騎將軍，加侍中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴驕盈，多忌諱，好酒色，大小失望。興、布竊悔之。或以譖皓，十一月，誅興、布。十二月，孫休葬定陵。封后父滕牧爲高密侯，舅何洪等三人皆列侯。是歲，魏置交阯太守之郡。晉文帝爲魏相國，遣昔吳壽春城降將徐紹、孫彧銜命齎書，陳事勢利害，以申喻皓。",
       "annotations": [
         {
+          "id": "wu.3.p23.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p23.t1",
           "type": "temporal",
           "at": 50,
@@ -1284,6 +1708,24 @@
           "reasoning": "年承前文 永安7年 (AD 264)，月份「九月」"
         },
         {
+          "id": "wu.3.p23.h4",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "太后",
+          "person_id": "zhuhuanghou",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p23.h5",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "zhuhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p23.t2",
           "type": "temporal",
           "at": 77,
@@ -1297,6 +1739,24 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 永安7年 (AD 264)，月份「十月」"
+        },
+        {
+          "id": "wu.3.p23.h3",
+          "type": "person",
+          "at": 82,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunwan",
+          "via": "llm"
+        },
+        {
+          "id": "wu.3.p23.h6",
+          "type": "person",
+          "at": 107,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "tenghuanghou",
+          "via": "llm"
         },
         {
           "id": "wu.3.p23.a1",
@@ -1334,6 +1794,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 永安7年 (AD 264)，月份「十二月」"
+        },
+        {
+          "id": "wu.3.p23.h2",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "孫休",
+          "person_id": "sunxiu",
+          "via": "primary"
         },
         {
           "id": "wu.3.p23.a2",
@@ -1494,6 +1963,15 @@
           "text": "《吳錄》曰：儼字子節，吳人也。弱冠知名，歷顯位，以博聞多識，拜大鴻臚。使于晉，皓謂儼曰：「今南北通好，以君爲有出境之才，故相屈行。」對曰：「皇皇者華，蒙其榮耀，無古人延譽之美，磨厲鋒鍔，思不辱命。」旣至，車騎將軍賈充、尚書令裴秀、侍中荀勗等欲傲以所不知而不能屈。尚書僕射羊祜、尚書何楨並結縞帶之好。"
         },
         {
+          "id": "wu.3.p25.h1",
+          "type": "person",
+          "at": 68,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p25.t2",
           "type": "temporal",
           "at": 227,
@@ -1507,6 +1985,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 寶鼎元年 (AD 266)，月份「八月」"
+        },
+        {
+          "id": "wu.3.p25.h2",
+          "type": "person",
+          "at": 246,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
         },
         {
           "id": "wu.3.p25.t3",
@@ -1529,6 +2016,15 @@
           "at": 279,
           "length": 0,
           "text": "《吳錄》曰：永安今武康縣也。"
+        },
+        {
+          "id": "wu.3.p25.h3",
+          "type": "person",
+          "at": 292,
+          "length": 2,
+          "text": "孫和",
+          "person_id": "sunhe",
+          "via": "primary"
         },
         {
           "id": "wu.3.p25.a3",
@@ -1672,6 +2168,15 @@
           "reasoning": "年承前文 寶鼎3年 (AD 268)，月份「秋九月」"
         },
         {
+          "id": "wu.3.p27.h1",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p27.t3",
           "type": "temporal",
           "at": 40,
@@ -1706,6 +2211,15 @@
           "reasoning": "原文「建衡元年春正月」直接出现年号；解析為 AD 269"
         },
         {
+          "id": "wu.3.p28.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunjin",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p28.t2",
           "type": "temporal",
           "at": 23,
@@ -1734,6 +2248,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建衡元年 (AD 269)，月份「十一月」"
+        },
+        {
+          "id": "wu.3.p28.h1",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
         }
       ]
     },
@@ -1834,6 +2357,15 @@
           "reasoning": "承前文年號「建衡」推得，「三年春正月」 = 建衡3年 = AD 271"
         },
         {
+          "id": "wu.3.p30.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "華覈",
+          "person_id": "huahe",
+          "via": "primary"
+        },
+        {
           "id": "wu.3.p30.a1",
           "type": "pei",
           "at": 35,
@@ -1859,6 +2391,15 @@
           "at": 62,
           "length": 0,
           "text": "《漢晉春秋》曰：初霍弋遣楊稷、毛炅等戍，與之誓曰：「若賊圍城，未百日而降者，家屬誅；若過百日而城沒者，刺史受其罪。」稷等日未滿而糧盡，乞降於璜。璜不許，而給糧使守。吳人並諫，璜曰：「霍弋已死，無能來者，可須其糧盡，然後乃受，使彼來無罪，而我取有義，內訓吾民，外懷鄰國，不亦可乎！」稷、炅糧盡，救不至，乃納之。華陽國志曰：稷，犍爲人。炅，建寧人。稷等城中食盡，死亡者半，將軍王約反降，吳人得入城，獲稷、炅，皆囚之。孫皓使送稷下都，稷至合浦，歐血死。晉追贈交州刺史。初，毛炅與吳軍戰，殺前部督脩則。陶璜等以炅壯勇，欲赦之。而則子允固求殺炅，炅亦不爲璜等屈，璜等怒，靣縛炅詰之，曰：「晉兵賊！」炅厲聲曰：「吳狗，何等爲賊？」吳人生剖其腹，允割其心肝，罵曰：「庸復作賊？」炅猶罵不止，曰：「尚欲斬汝孫皓，汝父何死狗也！」乃斬之。晉武帝聞而哀矜，即詔使炅長子襲爵，餘三子皆關內侯。此與漢晉春秋所說不同。"
+        },
+        {
+          "id": "wu.3.p30.h2",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
         },
         {
           "id": "wu.3.p30.a3",
@@ -2274,6 +2815,24 @@
           "reasoning": "年承前文 天紀4年 (AD 280)，月份「四月」"
         },
         {
+          "id": "wu.3.p45.h1",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "孫皓",
+          "person_id": "sunhao_2",
+          "via": "primary"
+        },
+        {
+          "id": "wu.3.p45.h2",
+          "type": "person",
+          "at": 138,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunjin",
+          "via": "llm"
+        },
+        {
           "id": "wu.3.p45.a2",
           "type": "pei",
           "at": 155,
@@ -2292,12 +2851,17 @@
     {
       "id": "wu.3.p46",
       "text": "評曰：孫亮童孺而無賢輔，其替位不終，必然之勢也。休以舊愛宿恩，任用興、布，不能拔進良才，改絃易張，雖志善好學，何益救亂乎？又使旣廢之亮不得其死，友于之義薄矣。皓之淫刑所濫，隕斃流黜者，蓋不可勝數。是以羣下人人惴恐，皆日日以兾，朝不謀夕。其熒惑、巫祝，交致祥瑞，以爲至急。昔舜、禹躬稼，至聖之德，猶或矢誓衆臣，予違女弼，或拜昌言，常若不及。況皓凶頑，肆行殘暴，忠諫者誅，讒諛者進，虐用其民，窮淫極侈，宜腰首分離，以謝百姓。旣蒙不死之詔，復加歸命之寵，豈非曠蕩之恩，過厚之澤也哉！",
-      "annotations": []
-    },
-    {
-      "id": "wu.3.p47",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.3.p46.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

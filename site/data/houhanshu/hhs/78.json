@@ -29,7 +29,17 @@
     {
       "id": "hhs.78.p3",
       "text": "中兴之初，宦官悉用阉人，不复杂调他士。至永平中，始置员数，中常侍四人，小黄門十人。和帝即祚幼弱，而窦宪兄弟专总权威，内外臣僚，莫由亲接，所与居者，唯庵宦而已。故鄭众得专谋禁中，终除大憝，遂享分土之封，超登宫卿之位。于是中官始盛焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p3.h1",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p4",
@@ -44,12 +54,32 @@
     {
       "id": "hhs.78.p6",
       "text": "鄭众字季产，南陽犨人也。为人谨敏有心几。永平中，初给事太子家。肃宗即位，拜小黄門，迁中常侍。和帝初，加位钩盾令。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p6.h1",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p7",
       "text": "時窦太后秉政，后兄大将军宪等并窃威权，朝臣上下莫不附之，而众独一心王室，不事豪党，帝亲信焉。及宪兄弟图作不轨，众遂首谋诛之，以功迁大长秋。策勋班赏，每辞多受少。由是常与议事。中官用权，自众始焉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p7.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太后",
+          "person_id": "zhangdedouhh",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p8",
@@ -67,6 +97,15 @@
           "era": "永初",
           "era_year": 1,
           "reasoning": "原文「永初元年」直接出现年号；解析為 AD 107"
+        },
+        {
+          "id": "hhs.78.p8.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "dengsui",
+          "via": "llm"
         }
       ]
     },
@@ -88,6 +127,15 @@
           "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114"
         },
         {
+          "id": "hhs.78.p9.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.78.p9.t2",
           "type": "temporal",
           "at": 24,
@@ -105,7 +153,17 @@
     {
       "id": "hhs.78.p10",
       "text": "蔡伦字敬仲，桂陽人也。以永平末始给事宫掖，建初中，为小黄門。及和帝即位，转中常侍，豫参帷幄。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p10.h1",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "和帝",
+          "person_id": "hehan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p11",
@@ -149,6 +207,15 @@
           "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.78.p13.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
           "id": "hhs.78.p13.t2",
           "type": "temporal",
           "at": 32,
@@ -160,23 +227,98 @@
           "era": "延熹",
           "era_year": 4,
           "reasoning": "承前文年號「延熹」推得，「四年」 = 延熹4年 = AD 161"
+        },
+        {
+          "id": "hhs.78.p13.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "劉珍",
+          "person_id": "liuzhen",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "hhs.78.p14",
       "text": "伦初受窦后讽旨，诬陷安帝祖母宋贵人。及太后崩，安帝始亲万机，敕使自致廷尉。伦耻受辱，乃沐浴整衣冠，饮药而死。國除。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p14.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.78.p14.h3",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p14.h2",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p15",
       "text": "孙程字稚卿，涿郡新城人也。安帝時，为中黄門，给事长乐宫。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p15.h1",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p16",
       "text": "時邓太后临朝，帝不亲政事。小黄門李閏与帝乳母王聖常共谮太后兄执金吾悝等，言欲废帝，立平原王翼，帝每忿惧。及太后崩，遂诛邓氏而废平原王，封閏雍乡侯；又小黄門江京以谗谄进，初迎帝于邸，以功封都乡侯，食邑各三百户。閏、京并迁中常侍，江京兼大长秋，与中常侍樊丰、黄門令劉安、钩盾令陳达及王聖、聖女伯荣扇动内外，竞为侈虐。又帝舅大将军耿宝、皇后兄大鸿胪阎显更相阿党，遂枉殺太尉杨震，废皇太子为济陰王。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p16.h2",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p16.h3",
+          "type": "person",
+          "at": 165,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "yanji",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p16.h1",
+          "type": "person",
+          "at": 188,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p17",
@@ -215,6 +357,33 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 延熹5年 (AD 162)，月份「十月」"
+        },
+        {
+          "id": "hhs.78.p18.h1",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p18.h2",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p18.h3",
+          "type": "person",
+          "at": 126,
+          "length": 2,
+          "text": "太后",
+          "person_id": "yanji",
+          "via": "llm"
         },
         {
           "id": "hhs.78.p18.t2",
@@ -340,7 +509,17 @@
     {
       "id": "hhs.78.p26",
       "text": "初，帝见废，监太子家小黄門籍建、傅高梵、长秋长趙熹、丞良贺、药长夏珍皆以无过获罪，建等坐徙朔方。及帝即位，并擢为中常侍。梵坐臧罪，减死一等。建后封东乡侯，三百户。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p26.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p27",
@@ -350,7 +529,44 @@
     {
       "id": "hhs.78.p28",
       "text": "曹騰字季兴，沛國谯人也。安帝時，除黄門从官。顺帝在东官，邓太后以腾年少谨厚，使侍皇太子書，特见亲爱。及帝即位，腾为小黄門，迁中常侍。桓帝得立，腾与长乐太仆州辅等七人，以定策功，皆封亭侯，腾为费亭侯，迁大长秋，加位特进。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p28.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "安帝",
+          "person_id": "anhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.78.p28.h4",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "太后",
+          "person_id": "dengsui",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p28.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "太子",
+          "person_id": "shunhan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p28.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p29",
@@ -365,17 +581,55 @@
     {
       "id": "hhs.78.p31",
       "text": "嵩靈帝時货赂中官及输西园钱一亿万，故位至太尉。及子操起兵，不肯相随，乃与少子疾避乱琅邪，为徐州刺史陶谦所殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p31.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p32",
       "text": "单超，河南人；徐璜，下邳良城人；具瑗，魏郡元城人；左悺，河南平陰人；唐衡，颍川郾人也。桓帝初，超、璜、瑗为中常侍，悺、衡为小黄門史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p32.h1",
+          "type": "person",
+          "at": 43,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p33",
       "text": "初，梁冀两妹为顺、桓二帝皇后，冀代父商为大将军，再世权威，威振天下。冀自诛太尉李固、杜乔等，骄横益甚，皇后乘势忌恣，多所鸩毒，上下钳口，莫有言者。帝逼畏久，恒怀不平，恐言泄，不敢谋之。延熹二年，皇后崩，帝因如厕，独呼衡问：“左右与外舍不相得者皆谁乎？”衡对曰：“单超、左悺前诣河南尹不疑，礼敬小简，不疑收其兄弟送洛陽狱，二人诣門谢，乃得解。徐璜、具瑗常私忿疾外舍放横，口不敢道。”于是帝呼超、悺入室，谓曰：“梁将军兄弟专固國朝，迫胁外内，公卿以下从其风旨。今欲诛之，于常侍意何如？”超等对曰：“诚國奸贼，当诛日久。臣等弱劣，未知聖意何如耳。”帝曰：“审然者，常侍密图之。”对曰：“图之不难，但恐陛下复中狐疑。”帝曰：“奸臣胁國，当伏其罪，何疑乎！”于是更召璜、瑗等五人，遂定其议，帝啮超臂出血为盟，于是超收冀及宗亲党与悉诛之。悺、衡迁中常侍。封超新丰侯，二万户，璜武原侯，瑗东武陽侯，各万五千户，赐钱各千五百万；悺上蔡侯，衡汝陽侯，各万三千户，赐钱各千三百万。五人同日封，故世谓之“五侯”。又封小黄門劉普、趙忠等八人为乡侯。自是权归宦官，朝廷日乱矣。",
       "annotations": [
+        {
+          "id": "hhs.78.p33.h1",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "李固",
+          "person_id": "ligu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.78.p33.h3",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangnvying",
+          "via": "llm"
+        },
         {
           "id": "hhs.78.p33.t1",
           "type": "temporal",
@@ -388,6 +642,24 @@
           "era": "延熹",
           "era_year": 2,
           "reasoning": "原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.78.p33.h4",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "liangnvying",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p33.h2",
+          "type": "person",
+          "at": 297,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "huanhan",
+          "via": "llm"
         }
       ]
     },
@@ -461,7 +733,17 @@
     {
       "id": "hhs.78.p39",
       "text": "侯览者，山陽防东人。桓帝初为中常侍，以佞猾进，倚势贪放，受纳货遗以巨万计。延熹中，连岁征伐，府帑空虚，乃假百官奉禄，王侯租锐。览亦上缣五千匹，赐爵关内侯。又托以与议诛梁冀功，进封高乡侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p39.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p40",
@@ -476,7 +758,26 @@
     {
       "id": "hhs.78.p42",
       "text": "建宁二年，丧母还家，大起茔冢。督邮張俭因举奏览贪侈奢纵，前后请夺人宅三百八十一所，田百一十八顷。起立第宅十有六区，皆有高楼池苑，堂阁相望，饰以绮画丹漆之属，制度重深，僭类宫省。又豫作寿冢，石椁双阙，高庑百尺，破人居室，发掘坟墓。虏夺良人，妻略妇子，及诸罪衅，请诛之。而览伺候遮截，章竟不上。俭遂破览冢宅，藉没资财，具言罪状。又奏览母生時交通宾客，干乱郡國。复不得御。览遂诬俭为钩党，及故长乐少府李膺、太仆杜密等，皆夷灭之。遂代曹节领长乐太仆。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p42.h1",
+          "type": "person",
+          "at": 197,
+          "length": 2,
+          "text": "李膺",
+          "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.78.p42.h2",
+          "type": "person",
+          "at": 202,
+          "length": 2,
+          "text": "杜密",
+          "person_id": "dumi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.78.p43",
@@ -500,12 +801,50 @@
     {
       "id": "hhs.78.p44",
       "text": "曹节字汉丰，南陽新野人也。其本魏郡人，世吏二千石。顺帝初，以西园骑迁小黄門。桓帝時，迁中常侍，奉車都尉。建宁元年，持节将中黄門虎贲羽林千人，北迎靈帝，陪乘入宫。及即位，以定策封长安乡侯，六百户。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p44.h1",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.78.p44.h2",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p45",
       "text": "時，窦太后临朝，后父大将军武与太傅陳蕃谋诛中官，节与长乐五官史硃瑀、从官史共普、張亮、中黄門王尊、长乐谒者腾是等十七人，共矫詔以长乐食监王甫为黄門令，将兵诛武、蕃等，事已具《蕃》、《武傳》。节迁长乐卫尉，封育陽侯，增邑三千户；甫迁中常侍，黄門令如故；瑀封都乡侯，千五百户；普、亮等五人各三百户；余十一人皆为关内侯，岁食租二千斛。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p45.h2",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p45.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.78.p46",
@@ -542,13 +881,41 @@
           "era": "熹平",
           "era_year": 1,
           "reasoning": "原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.78.p47.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p47.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "hhs.78.p48",
       "text": "节遂与王甫等诬奏桓帝弟勃海王悝谋反，诛之。以功封者十二人。甫封冠军侯。节亦增邑四千六百户，并前七千六百户。父兄子弟皆为公卿列校、牧守令长，布满天下。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p48.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p49",
@@ -577,7 +944,80 @@
     {
       "id": "hhs.78.p51",
       "text": "臣聞理國得贤則安，失贤則危，故舜有臣五人而天下理，汤举伊尹不仁者远。陛下即位之初，未能万机，皇太后念在抚育，权時摄政，故中常侍苏康、管霸应時诛殄。太傅陳蕃、大将军窦武考其党与，志清朝政。华容侯硃瑀知事觉露，祸及其身，遂兴造逆谋，作乱王室，撞蹋省闼，执夺玺绶，迫胁陛下，聚会群臣，离间骨肉母子之恩，遂诛蕃、武及尹勋等。因共割裂城社，自相封赏。父子兄弟被蒙尊荣，素所亲厚布在州郡，或登九列，或据三司。不惟禄重位尊之责，而苟营私門，多蓄财货，缮修第舍，连里竟巷。盗取御水以作鱼钓，車馬服玩拟于天家。群公卿士杜口吞声，莫敢有言。州牧郡守承顺风旨，辟召选举，释贤取愚。故虫蝗为之生，夷寇为之起。天意愤盈，积十余年。故频岁日食于上，地震于下，所以谴戒人主，欲令觉悟，诛鉏无状。昔高宗以雉雊之变，故获中兴之功。近者神祇启悟陛下，发赫斯之怒，故王甫父子应時馘截，路人士女莫不称善，若除父母之仇。诚怪陛下复忍孽臣之类，不悉殄灭。昔秦信趙高，以危其國；吴使刑人，身遘其祸。虞公抱宝牵馬，鲁昭见逐乾侯，以不用宫之奇、子家驹以至灭辱。今以不忍之恩，赦夷族之罪，奸谋一成，悔亦何及！臣为郎十五年，皆耳目聞见，瑀之所为，诚皇后所不复赦。愿陛下留漏刻之聽，裁省臣表，埽灭丑类，以答天怒。与瑀考验，有不如言，愿受汤镬之诛，妻子并徙，以绝妄言之路。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p51.h2",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h7",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "太后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h1",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.78.p51.h3",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h4",
+          "type": "person",
+          "at": 354,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h5",
+          "type": "person",
+          "at": 391,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h8",
+          "type": "person",
+          "at": 497,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "doumiao",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p51.h6",
+          "type": "person",
+          "at": 505,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p52",
@@ -601,12 +1041,50 @@
     {
       "id": "hhs.78.p53",
       "text": "吕强字汉盛，河南成皋人也。少以宦者为小黄門，再迁中常侍。为人清忠奉公。靈帝時，例封宦者，以强为都乡侯。强辞让恳恻，固不敢当，帝乃聽之。因上疏陳事曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p53.h1",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p54",
       "text": "臣聞诸侯上象四七，下裂王土，高祖重约非功臣不侯，所以重天爵明劝戒也。伏聞中常侍曹节、王甫、張让等，及侍中许相，并为列侯。节等宦官祐薄，品卑人贱，谗谄媚主，佞邪徼宠，放毒人物，疾妒忠良，有趙高之祸，未被轘裂之诛，掩朝廷之明，成私树之党。而陛下不悟，妄授茅土，开國承家，小人是用。又并及家人，重金兼紫，相继为蕃辅。受國重恩，不念尔祖，述修厥德，而交结邪党，下比群佞。陛下或其琐才，特蒙恩泽。又授位乖越，贤才不升，素餐私幸，必加荣擢。陰陽乖刺，稼穑荒蔬，人用不康，罔不由兹。臣诚知封事已行，言之无逮，所以冒死干触陳愚忠者，实愿陛下损改既谬，从此一止。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p54.h1",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p54.h2",
+          "type": "person",
+          "at": 181,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p54.h3",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p55",
@@ -616,12 +1094,68 @@
     {
       "id": "hhs.78.p56",
       "text": "又承詔書，当于河间故國起解渎之馆。陛下龍飞即位，虽从籓國，然处九天之高，岂宜有顾恋之意。且河间疏远，解渎邈绝，而当劳民单力，未见其便。又今外戚四姓贵幸之家，及中官公族无功德者，造起馆舍，凡有万数，楼阁连接，丹青素垩，雕刻之饰，不可单言。丧葬逾制，奢丽过礼，竞相放效，莫肯矫拂。《穀梁傳》曰：“财尽則怨，力尽則怼。”《尸子》曰：“君如杅，民如水，杅方則水方，杅圆則水圆。”上之化下，犹风之靡草。今上无去奢之俭，下有纵欲之敝，至使禽兽食民之甘，木土衣民之帛。昔师旷谏晋平公曰：“梁柱衣绣，民无褐衣；池有弃酒，士有渴死；厩馬秣粟，民有饥色。近臣不敢谏，远臣不得暢。”此之谓也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p56.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p57",
       "text": "又聞前召议郎蔡邕对问于金商門，而令中常侍曹节、王甫等以詔書喻旨。邕不敢怀道迷國，而切言极对，毁刺贵臣，讥呵竖宦。陛下不密其言，至令宣露，群邪项领，膏脣拭舌，竞欲咀嚼，造作飞条。陛下回受诽谤，致邕刑罪，室家徙放，老幼流离，岂不负忠臣哉！今群臣皆以邕为戒，上畏不测之难，下惧剑客之害，臣知朝廷不复得聞忠言矣。故太尉段熲，武勇冠世，习于边事，垂发服戎，功成皓首，历事二主，勋烈独昭。陛下既已式序，位登台司，而为司隶校尉陽球所见诬胁，一身既毙，而妻子远播。天下惆怅，功臣失望。宜征邕更授任，反颎家属，則忠卢路开，众怨以弭矣。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p57.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.78.p57.h3",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p57.h4",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p57.h2",
+          "type": "person",
+          "at": 155,
+          "length": 2,
+          "text": "段熲",
+          "person_id": "duanjiong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.78.p57.h5",
+          "type": "person",
+          "at": 188,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p58",
@@ -636,7 +1170,26 @@
     {
       "id": "hhs.78.p60",
       "text": "天下之财，莫不生之陰陽，归之陛下。归之陛下，岂有公私？而今中尚方敛诸郡之宝，中御府积天下之缯，西园引司农之臧，中厩聚太仆之馬，而所输之府，辄有导行之财。调广民困，费多献少，奸吏因其利，百姓受其敝。又阿媚之臣，好献其私，容谄姑息，自此而进。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p60.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        },
+        {
+          "id": "hhs.78.p60.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p61",
@@ -646,7 +1199,17 @@
     {
       "id": "hhs.78.p62",
       "text": "夫立言无显过之咎，明镜无见玼之尤。如恶立言以记过，則不当學也；不欲明镜之见玼，則不当照也。愿陛下详思臣言，不以记过见玼为责。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p62.h1",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "linghan",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "hhs.78.p63",
@@ -670,7 +1233,17 @@
     {
       "id": "hhs.78.p64",
       "text": "時，宦者济陰丁肃、下邳徐衍、南陽郭耽、汝陽李巡、北海趙祐等五人称为清忠，皆在里巷，不争威权。巡以为诸博士试甲乙科，争弟高下，更相告言，至有行赂定兰台漆書經字，以合其私文者，乃白帝，与诸儒共刻《五經》文于石，于是詔蔡邕等正其文字。自后《五經》一定，争者用息。趙祐博學多览，著作校書，诸儒称之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p64.h1",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "蔡邕",
+          "person_id": "caiyong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.78.p65",
@@ -681,6 +1254,15 @@
       "id": "hhs.78.p66",
       "text": "張让者，颎川人；趙忠者，安平人也。少皆给事者中，桓帝時为小黄門。忠以与诛梁冀功封都乡侯。延熹八年，黜为关内侯，食本县租千斛。斋",
       "annotations": [
+        {
+          "id": "hhs.78.p66.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        },
         {
           "id": "hhs.78.p66.t1",
           "type": "temporal",
@@ -699,7 +1281,17 @@
     {
       "id": "hhs.78.p67",
       "text": "靈帝時，让、忠并迁中常侍，封列侯，与曹节、王甫等相为表里。节死后，忠领大长秋。让有监奴典任家事，交通货赂，威形喧赫。扶风人孟佗，资产饶赡，与奴朋结，倾谒馈问，无所遗爱。奴咸德之，问佗曰：“君何所欲？力能办也。”曰：“吾望汝曹为我一拜耳。”時宾客求谒让者，車恒数百千两，佗時指让，后至，不得进，监奴乃率诸仓头迎拜于路，遂共轝車入門。宾客咸惊，谓佗善于让，皆争以珍玩赂之。佗分以遗让，让大喜，遂以佗为凉州刺史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p67.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p68",
@@ -733,7 +1325,17 @@
     {
       "id": "hhs.78.p71",
       "text": "又造万金堂于西园，引司农金钱缯帛，仞积其中。又还河间买田宅，起第观。帝本侯家，宿贫，每叹桓帝不能作家居，故聚为私臧，复寄小黄門常侍钱各数千万。常云：“張常侍是我公，趙常侍是我母。”宦者得志，无所惮畏，并起第宅，拟則宫室。帝常登永安候台，宦官恐其望见居外，乃使中大人尚但谏曰：“天子不当登高，登高則百姓虚散。。”自是不敢复升台榭。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p71.h1",
+          "type": "person",
+          "at": 44,
+          "length": 2,
+          "text": "桓帝",
+          "person_id": "huanhan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.78.p72",
@@ -770,6 +1372,15 @@
           "era": "中平",
           "era_year": 6,
           "reasoning": "承前文年號「中平」推得，「六年」 = 中平6年 = AD 189"
+        },
+        {
+          "id": "hhs.78.p73.h1",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "liubian",
+          "via": "llm"
         }
       ]
     },

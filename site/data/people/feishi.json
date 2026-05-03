@@ -1,0 +1,49 @@
+{
+  "id": "feishi",
+  "primary_name": "費詩",
+  "courtesy_name": "公舉",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.11",
+      "title": "蜀書·霍王向張楊費傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/11.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p30",
+        "at": 162,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "費詩",
+        "snippet": "…軍，黃忠為後將軍，餘皆進位有差。遣益州前部司馬犍為費詩即授關羽印授，羽聞黃忠位與己並，怒曰：「大丈夫終不與老兵同列！」不肯受拜。詩謂羽曰：「夫立王業者，所用非一。昔蕭、曹與高祖少小…"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p35",
+        "at": 46,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "費詩",
+        "snippet": "…曰孝愍皇帝。群下競言符瑞，勸漢中王稱尊號。前部司馬費詩上疏曰：「殿下以曹操父子逼主篡位，故乃羈旅萬里，糾合士眾，將以討賊。今大敵未克而先自立，恐人心疑惑。昔高祖與楚約，先破秦者王之…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

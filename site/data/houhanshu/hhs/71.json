@@ -21,11 +21,38 @@
       "text": "皇甫嵩字義真，安定朝那人，度遼將軍規之兄子也。父節，鴈門太守。嵩少有文武志介，好詩書，習弓馬。初舉孝廉、茂才。太尉陳蕃、大將軍竇武連辟，並不到。靈帝公車徵為議郎，遷北地太守。",
       "annotations": [
         {
+          "id": "hhs.71.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "皇甫嵩",
+          "person_id": "huangfusong",
+          "via": "primary"
+        },
+        {
           "id": "hhs.71.p1.a1",
           "type": "lixian",
           "at": 55,
           "length": 0,
           "text": "《續漢書》曰：「舉孝廉為郎中，遷霸陵、臨汾令，以父喪遂去官。」"
+        },
+        {
+          "id": "hhs.71.p1.h2",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "陳蕃",
+          "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p1.h3",
+          "type": "person",
+          "at": 72,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
@@ -76,6 +103,15 @@
           "reasoning": "年承前文 中平元年 (AD 184)，月份「三月」"
         },
         {
+          "id": "hhs.71.p2.h1",
+          "type": "person",
+          "at": 282,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
+        },
+        {
           "id": "hhs.71.p2.a3",
           "type": "lixian",
           "at": 364,
@@ -124,6 +160,24 @@
           "text": "苣音巨。說文云：「束葦燒之。」"
         },
         {
+          "id": "hhs.71.p3.h1",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p3.h2",
+          "type": "person",
+          "at": 163,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
           "id": "hhs.71.p3.a4",
           "type": "lixian",
           "at": 221,
@@ -136,6 +190,24 @@
       "id": "hhs.71.p4",
       "text": "又進擊東郡黃巾卜己於倉亭，生禽卜己，斬首七千餘級。時北中郎將盧植及東中郎將董卓討張角，並無功而還，乃詔嵩進兵討之。嵩與角弟梁戰於廣宗。梁衆精勇，嵩不能克。明日，乃閉營休士，以觀其變。知賊意稍懈，乃潛夜勒兵，雞鳴馳赴其陳，戰至晡時，大破之，斬梁，獲首三萬級，赴河死者五萬許人，焚燒車重三萬餘兩，悉虜其婦子，繫獲甚衆。角先已病死，乃剖棺戮屍，傳首京師。",
       "annotations": [
+        {
+          "id": "hhs.71.p4.h1",
+          "type": "person",
+          "at": 30,
+          "length": 2,
+          "text": "盧植",
+          "person_id": "luzhi",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p4.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
         {
           "id": "hhs.71.p4.a1",
           "type": "lixian",
@@ -200,6 +272,15 @@
           "at": 46,
           "length": 0,
           "text": "前書，項羽使武涉說韓信，信曰：「漢王解衣衣我，推食食我，背之不祥。」又蒯通說信，令信背漢，參分天下，鼎足而立。信曰：「漢王遇我厚，豈可背之哉？」後信謀反，為呂後所執，歎曰：「吾不用蒯通計，為女子所詐，豈非天哉！」"
+        },
+        {
+          "id": "hhs.71.p8.h1",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "主上",
+          "person_id": "linghan",
+          "via": "llm"
         },
         {
           "id": "hhs.71.p8.a2",
@@ -292,6 +373,33 @@
           "era": "中平",
           "era_year": 5,
           "reasoning": "承前文年號「中平」推得，「五年」 = 中平5年 = AD 188"
+        },
+        {
+          "id": "hhs.71.p11.h1",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p11.h2",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p11.h3",
+          "type": "person",
+          "at": 47,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
         }
       ]
     },
@@ -320,6 +428,15 @@
       "text": "王國圍陳倉，自冬迄春，八十餘日，城堅守固，竟不能拔。賊衆疲敝，果自解去。嵩進兵擊之。卓曰：「不可。兵法，窮寇勿迫，歸衆勿追。今我追國，是迫歸衆，追窮寇也。困獸猶鬭，蜂蠆有毒，況大衆乎！」",
       "annotations": [
         {
+          "id": "hhs.71.p13.h1",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
           "id": "hhs.71.p13.a1",
           "type": "lixian",
           "at": 62,
@@ -338,12 +455,32 @@
     {
       "id": "hhs.71.p14",
       "text": "嵩曰：「不然。前吾不擊，避其銳也。今而擊之，待其衰也。所擊疲師，非歸衆也。國衆且走，莫有鬭志。以整擊亂，非窮寇也。」遂獨進擊之，使卓為後拒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p14.h1",
+          "type": "person",
+          "at": 65,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "hhs.71.p15",
       "text": "連戰大破之，斬首萬餘級，國走而死。卓大籩恨，由是忌嵩。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p15.h1",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "hhs.71.p16",
@@ -363,6 +500,24 @@
           "reasoning": "「明年」 = 当前年 中平5年 (AD 188) 之次年 = AD 189"
         },
         {
+          "id": "hhs.71.p16.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p16.h2",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
           "id": "hhs.71.p16.a1",
           "type": "lixian",
           "at": 25,
@@ -370,11 +525,47 @@
           "text": "酈音歷。"
         },
         {
+          "id": "hhs.71.p16.h3",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p16.h4",
+          "type": "person",
+          "at": 71,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
           "id": "hhs.71.p16.a2",
           "type": "lixian",
           "at": 165,
           "length": 0,
           "text": "《春秋左氏傳》曰：「稟命則不威，專命則不孝。」"
+        },
+        {
+          "id": "hhs.71.p16.h5",
+          "type": "person",
+          "at": 188,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p16.h6",
+          "type": "person",
+          "at": 190,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
         },
         {
           "id": "hhs.71.p16.t2",
@@ -388,6 +579,24 @@
           "era": "初平",
           "era_year": 1,
           "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190"
+        },
+        {
+          "id": "hhs.71.p16.h7",
+          "type": "person",
+          "at": 243,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p16.h8",
+          "type": "person",
+          "at": 285,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
         }
       ]
     },
@@ -396,11 +605,47 @@
       "text": "嵩子堅壽與卓素善，自長安亡走洛陽，歸投於卓。卓方置酒歡會，堅壽直前質讓，責以大義，叩頭流涕。坐者感動，皆離席請之。卓乃起，牽與共坐。",
       "annotations": [
         {
+          "id": "hhs.71.p17.h1",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.71.p17.h2",
+          "type": "person",
+          "at": 20,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.71.p17.h3",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
           "id": "hhs.71.p17.a1",
           "type": "lixian",
           "at": 41,
           "length": 0,
           "text": "質，正也。"
+        },
+        {
+          "id": "hhs.71.p17.h4",
+          "type": "person",
+          "at": 57,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -408,6 +653,24 @@
       "id": "hhs.71.p18",
       "text": "使免嵩囚，復拜嵩議郎，遷御史中丞。及卓還長安，公卿百官迎謁道次。卓風令御史中丞已下皆拜以屈嵩，既而扺手言曰：「義真犕未乎？」嵩笑而謝之，卓乃解釋。",
       "annotations": [
+        {
+          "id": "hhs.71.p18.h1",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "hhs.71.p18.h2",
+          "type": "person",
+          "at": 32,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
         {
           "id": "hhs.71.p18.a1",
           "type": "lixian",
@@ -423,6 +686,15 @@
           "text": "犕音服。《說文》曰：「犕牛乘馬。」「犕」，即古「服」字也，今河朔人猶有此言，音備。"
         },
         {
+          "id": "hhs.71.p18.h3",
+          "type": "person",
+          "at": 68,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
           "id": "hhs.71.p18.a3",
           "type": "lixian",
           "at": 73,
@@ -435,6 +707,15 @@
       "id": "hhs.71.p19",
       "text": "及卓被誅，以嵩為征西將軍，又遷車騎將軍。其年秋，拜太尉，冬，以流星策免。復拜光祿大夫，遷太常。尋李傕作亂，嵩亦病卒，贈驃騎將軍印綬，拜家一人為郎。",
       "annotations": [
+        {
+          "id": "hhs.71.p19.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
         {
           "id": "hhs.71.p19.t1",
           "type": "temporal",
@@ -541,7 +822,17 @@
     {
       "id": "hhs.71.p26",
       "text": "及黃巾起，公卿多薦儁有才略，拜為右中郎將，持節，與左中郎將皇甫嵩討穎川、汝南、陳國諸賊，悉破平之。嵩乃上言其狀，而以功歸儁，於是進封西鄉侯，遷鎮賊中郎將。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p26.h1",
+          "type": "person",
+          "at": 29,
+          "length": 3,
+          "text": "皇甫嵩",
+          "person_id": "huangfusong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.71.p27",
@@ -583,11 +874,29 @@
           "reasoning": "年承前文 初平元年 (AD 190)，月份「八月」"
         },
         {
+          "id": "hhs.71.p28.h1",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
+        },
+        {
           "id": "hhs.71.p28.a1",
           "type": "lixian",
           "at": 98,
           "length": 0,
           "text": "《史記》曰：白起，郿人也，善用兵，事秦昭王為大良造。攻魏，拔之。後五年，攻趙，拔光狼城。後七年，攻楚，拔鄢、鄧五城。明年，拔郢，燒夷陵，遂東至竟陵。樂毅，趙人也，賢而好兵，燕昭王以為亞卿，後為上將軍。伐齊，入臨淄，靚齊五歲，下齊七十餘城。"
+        },
+        {
+          "id": "hhs.71.p28.h2",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "靈帝",
+          "person_id": "linghan",
+          "via": "alias"
         }
       ]
     },
@@ -664,12 +973,68 @@
     {
       "id": "hhs.71.p33",
       "text": "燕後漸寇河內，逼近京師，於是出儁為河內太守，將家兵擊却之。其後諸賊多為袁紹所定，事在紹傳。復拜儁為光祿大夫，轉屯騎，尋拜城門校尉、河南尹。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p33.h1",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p33.h2",
+          "type": "person",
+          "at": 42,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "hhs.71.p34",
       "text": "時董卓擅政，以儁宿將，外甚親納而心實忌之。及關東兵盛，卓懼，數請公卿會議，徙都長安，儁輒止之。卓雖惡儁異己，然貪其名重，乃表遷太僕，以為己副。使者拜，儁辭不肯受。因曰：「國家西遷，必孤天下之望，以成山東之釁，臣不見其可也。」使者詰曰：「召君受拜而君拒之，不問徙事而君陳之，其故何也？」儁曰：「副相國，非臣所堪也；遷都計，非事所急也。辭所不堪，言所非急，臣之宜也。」使者曰：「遷都之事，不聞其計，就有未露，何所承受？」儁曰：「相國董卓具為臣說，所以知耳。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p34.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p34.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p34.h3",
+          "type": "person",
+          "at": 47,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p34.h4",
+          "type": "person",
+          "at": 214,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.71.p35",
@@ -679,18 +1044,118 @@
     {
       "id": "hhs.71.p36",
       "text": "卓後入關，留儁守洛陽，而儁與山東諸將通謀為內應。既而懼為卓所襲，乃棄官奔荊州。卓以弘農楊懿為河南尹，守洛陽。儁聞，復進兵還洛，懿走。儁以河南殘破無所資，乃東屯中牟，移書州郡，請師討卓。徐州刺史陶謙遣精兵三千，餘州郡稍有所給，謙乃上儁行車騎將軍。董卓聞之，使其將李傕、郭汜等數萬人屯河南拒儁。儁逆擊，為傕、汜所破。儁自知不敵，留關下不敢復前。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.71.p36.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p36.h2",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p36.h3",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p36.h4",
+          "type": "person",
+          "at": 90,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p36.h5",
+          "type": "person",
+          "at": 96,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p36.h6",
+          "type": "person",
+          "at": 112,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p36.h7",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "hhs.71.p37",
       "text": "及董卓被誅，傕、汜作亂，儁時猶在中牟。陶謙以儁名臣，數有戰功，可委以大事，乃與諸豪桀共推儁為太師，因移檄牧伯，同討李傕等，奉迎天子。乃奏記於儁曰：「徐州刺史陶謙、前楊州刺史周干、琅邪相陰德、東海相劉馗、彭城相汲廉、北海相孔融、沛相袁忠、太山太守應劭、汝南太守徐璆、前九江太守服虔、博士鄭玄等，敢言之行車騎將軍河南尹莫府：國家既遭董卓，重以李傕、郭汜之禍，幼主劫執，忠良殘敝，長安隔絕，不知吉凶。是以臨官尹人，搢紳有識，莫不憂懼，以為自非明哲雄霸之士，曷能克濟禍亂！自起兵已來，於茲三年，州郡轉相顧望，未有奮擊之功，而互爭私變，更相疑惑。謙等並共諮諏，議消國難。僉曰：『將軍君侯，既文且武，應運而出，凡百君子，靡不顒顒。』故相率厲，簡選精悍，堪能深入，直指咸陽，多持資糧，足支半歲，謹同心腹，委之元帥。」會李傕用太尉周忠、尚書賈詡策，征儁入朝。軍吏皆憚入關，欲應陶謙等。儁曰：「以君召臣，義不俟駕，況天子詔乎！且傕、汜小豎，樊稠庸兒，無他遠略，又埶力相敵，變難必作。吾乘其閒，大事可濟。」遂辭謙議而就傕征，復為太僕，謙等遂罷。",
       "annotations": [
         {
+          "id": "hhs.71.p37.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p37.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p37.h3",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
           "id": "hhs.71.p37.a1",
           "type": "lixian",
           "at": 101,
           "length": 0,
           "text": "馗音巨眉反。"
+        },
+        {
+          "id": "hhs.71.p37.h4",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
         },
         {
           "id": "hhs.71.p37.a2",
@@ -700,11 +1165,65 @@
           "text": "蔡質《典職儀》曰；「諸州刺史上郡並列卿府，言『敢言之』。」"
         },
         {
+          "id": "hhs.71.p37.h5",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p37.h6",
+          "type": "person",
+          "at": 268,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p37.h7",
+          "type": "person",
+          "at": 362,
+          "length": 2,
+          "text": "賈詡",
+          "person_id": "jiaxu",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p37.h8",
+          "type": "person",
+          "at": 380,
+          "length": 2,
+          "text": "陶謙",
+          "person_id": "taoqian",
+          "via": "primary"
+        },
+        {
           "id": "hhs.71.p37.a3",
           "type": "lixian",
           "at": 398,
           "length": 0,
           "text": "《論語》曰：「君命召，不俟駕行矣。」俟，待也。"
+        },
+        {
+          "id": "hhs.71.p37.h9",
+          "type": "person",
+          "at": 445,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
+        },
+        {
+          "id": "hhs.71.p37.h10",
+          "type": "person",
+          "at": 457,
+          "length": 1,
+          "text": "謙",
+          "person_id": "taoqian",
+          "via": "given_name"
         }
       ]
     },
@@ -735,6 +1254,15 @@
           "resolution": "next_year",
           "year_ad": 194,
           "reasoning": "「明年」 = 当前年 初平4年 (AD 193) 之次年 = AD 194（跨年號邊界，新年號未明）"
+        },
+        {
+          "id": "hhs.71.p38.h1",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "獻帝",
+          "person_id": "xianhan",
+          "via": "alias"
         }
       ]
     },
@@ -752,6 +1280,15 @@
       "id": "hhs.71.p41",
       "text": "論曰：皇甫嵩、朱儁並以上將之略，受脤倉卒之時。及其功成師克，威聲滿天下。值弱主蒙塵，獷賊放命，斯誠葉公投袂之幾，翟義鞠旅之日，故梁衍獻規，山東連盟，而捨格天之大業，蹈匹夫之小諒，卒狼狽虎口，為智士笑。豈天之長斯亂也？何智勇之不終甚乎！前史晉平原華嶠，稱其父光祿大夫表，每言其祖魏太尉歆稱「時人說皇甫嵩之不伐，汝豫之戰，歸功朱儁，張角之捷，本之於盧植，收名斂策，而己不有焉。蓋功名者，世之所甚重也。誠能不爭天下之所甚重，則怨禍不深矣」。如皇甫公之赴履危亂，而能終以歸全者，其致不亦貴乎！故顏子願不伐善為先，斯亦行身之要與！",
       "annotations": [
+        {
+          "id": "hhs.71.p41.h1",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "皇甫嵩",
+          "person_id": "huangfusong",
+          "via": "primary"
+        },
         {
           "id": "hhs.71.p41.a1",
           "type": "lixian",
@@ -786,6 +1323,24 @@
           "at": 142,
           "length": 0,
           "text": "《三國志》曰：「歆字子魚。」"
+        },
+        {
+          "id": "hhs.71.p41.h2",
+          "type": "person",
+          "at": 147,
+          "length": 3,
+          "text": "皇甫嵩",
+          "person_id": "huangfusong",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.71.p41.h3",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "盧植",
+          "person_id": "luzhi",
+          "via": "primary"
         },
         {
           "id": "hhs.71.p41.a6",

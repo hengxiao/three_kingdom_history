@@ -1,0 +1,60 @@
+{
+  "id": "qianzhao",
+  "primary_name": "牽招",
+  "courtesy_name": "子經",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.26",
+      "title": "魏書·滿田牽郭傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/26.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.64",
+        "chapter_title": "漢紀五十六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.64.p10",
+        "at": 1242,
+        "data_url": "data/zztj/zztj/64.json",
+        "matched": "牽招",
+        "snippet": "…月，詔以操領冀州牧；操讓還兗州。初，袁尚遣從事安平牽招至上黨督軍糧，未還，尚走中山，招說高幹以并州迎尚，並力觀變，幹不從。招乃東詣曹操，操復以為冀州從事。又辟崔琰為別駕，操謂琰曰：…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p18",
+        "at": 357,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "牽招",
+        "snippet": "…，其勢然也。」操梟尚首，令三軍：「敢有哭之者斬！」牽招獨設祭悲哭，操義之，舉為茂才。時天寒且旱，二百里無水，軍又乏食，殺馬數千匹以為糧，鑿地入三十餘丈方得水。既還，科問前諫者，眾莫…"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p64",
+        "at": 173,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "牽招",
+        "snippet": "…、右北平、漁陽塞外，道遠，故不為邊患。帝以平虜校尉牽招為護鮮卑校尉，南陽太守田豫為護烏桓校尉，使鎮撫之。"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

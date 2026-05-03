@@ -11,7 +11,7 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷22",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
   "n_segments": 55,
@@ -26,11 +26,173 @@
       "text": "桓階字伯緒，長沙臨湘人也。仕郡功曹。太守孫堅舉階孝廉，除尚書郎。父喪還鄉里。會堅擊劉表戰死，階冒難詣表乞堅喪，表義而與之。後太祖與袁紹相拒於官渡，表舉州以應紹。階說其太守張羡曰：「夫舉事而不本於義，未有不敗者也。故齊桓率諸侯以尊周，晉文逐叔帶以納王。今袁氏反此，而劉牧應之，取禍之道也。明府必欲立功明義，全福遠禍，不宜與之同也。」羡曰：「然則何向而可？」階曰：「曹公雖弱，仗義而起，救朝廷之危，奉王命而討有罪，孰敢不服？今若舉四郡保三江以待其來，而爲之内應，不亦可乎！」羡曰：「善。」乃舉長沙及旁三郡以拒表，遣使詣太祖。太祖大悦。會紹與太祖連戰，軍未得南。而表急攻羡，羡病死。城陷，階遂自匿。久之，劉表辟爲從事祭酒，欲妻以妻妹蔡氏。階自陳已結婚，拒而不受，因辭疾告退。",
       "annotations": [
         {
+          "id": "wei.22.p2.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "桓階",
+          "person_id": "huanjie",
+          "via": "primary"
+        },
+        {
           "id": "wei.22.p2.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "魏书曰：阶祖父超，父胜，皆历典州郡。胜为尚书，著名南方。"
+        },
+        {
+          "id": "wei.22.p2.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "孫堅",
+          "person_id": "sunjian",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p2.h3",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h4",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p2.h5",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h6",
+          "type": "person",
+          "at": 52,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h7",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h8",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p2.h9",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p2.h10",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h11",
+          "type": "person",
+          "at": 78,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h12",
+          "type": "person",
+          "at": 252,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h13",
+          "type": "person",
+          "at": 257,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p2.h14",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p2.h15",
+          "type": "person",
+          "at": 266,
+          "length": 1,
+          "text": "紹",
+          "person_id": "yuanshao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h16",
+          "type": "person",
+          "at": 268,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p2.h17",
+          "type": "person",
+          "at": 279,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p2.h18",
+          "type": "person",
+          "at": 299,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
         }
       ]
     },
@@ -39,11 +201,110 @@
       "text": "太祖定荆州，聞其爲張羡謀也，異之，辟爲丞相掾主簿，遷趙郡太守。魏國初建，爲虎賁中郎將侍中。時太子未定，而臨菑侯植有寵。階數陳文帝德優齒長，宜爲儲副，公規密諫，前後懇至。又毛玠、徐奕以剛蹇少黨，而爲西曹掾丁儀所不善，儀屢言其短，賴階左右以自全保。其將順匡救，多此類也。遷尚書，典選舉。曹仁爲關羽所圍，太祖遣徐晃救之，不解。太祖欲自南征，以问羣下。羣下皆謂：「王不亟行，今敗矣。」階獨曰：「大王以仁等爲足以料事勢不也？」曰：「能。」「大王恐二人遺力邪？」曰：「不。」「然則何爲自往？」曰：「吾恐虏众多，而晃等勢不便耳。」階曰：「今仁等处重圍之中而守死无贰者，诚以大王遠爲之勢也。夫居万死之地，必有死争之心；内怀死争，外有强救，大王案六軍以示餘力，何忧於敗而欲自往？」太祖善其言，驻軍於摩陂。贼遂退。",
       "annotations": [
         {
+          "id": "wei.22.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p3.h11",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p3.h2",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.22.p3.a1",
           "type": "pei",
           "at": 84,
           "length": 0,
           "text": "魏书称阶谏曰：“今太子仁冠群子，名昭海内，仁圣达节，天下莫不闻；而大王甫以植而问臣，臣诚惑之。”於是太祖知阶笃於守正，深益重焉。"
+        },
+        {
+          "id": "wei.22.p3.h3",
+          "type": "person",
+          "at": 85,
+          "length": 2,
+          "text": "毛玠",
+          "person_id": "maojie",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p3.h4",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "徐奕",
+          "person_id": "xuyi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p3.h5",
+          "type": "person",
+          "at": 141,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p3.h6",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p3.h7",
+          "type": "person",
+          "at": 149,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p3.h8",
+          "type": "person",
+          "at": 152,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p3.h9",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p3.h10",
+          "type": "person",
+          "at": 331,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -51,6 +312,15 @@
       "id": "wei.22.p4",
       "text": "文帝践阼，遷尚書令，封高鄉亭侯，加侍中。階疾病，帝自臨省，謂曰：「吾方讬六尺之孤，寄天下之命於卿。勉之！」徙封安乐鄉侯，邑六百户，又赐階三子爵關内侯，祐以嗣子不封，病卒，又追赠關内侯。後階疾笃，遣使者即拜太常，薨，帝爲之流涕，谥曰贞侯。子嘉嗣。以階弟纂爲散骑侍郎，赐爵關内侯。嘉尚升遷亭公主，會嘉平中，以乐安太守與吴戰於东關，軍敗，没，谥曰壮侯。子翊嗣。",
       "annotations": [
+        {
+          "id": "wei.22.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.22.p4.a1",
           "type": "pei",
@@ -65,18 +335,91 @@
       "text": "陳羣字長文，颍川许昌（人）也。祖父寔，父纪，叔父谌，皆有盛名。羣爲兒時，寔常奇異之，謂宗人父老曰：「此兒必兴吾宗。」鲁國孔融高才倨傲，年在纪、羣之间，先與纪友，後與羣交，更爲纪拜，由是显名。劉备臨豫州，辟羣爲别驾。時陶谦病死，徐州迎备，备欲往，羣說备曰：「袁术尚强，今东，必與之争。吕布若袭將軍之後，將軍雖得徐州，事必无成。」备遂东，與袁术戰。布果袭下邳，遣兵助术，大破备軍，备恨不用羣言。舉茂才，除柘令，不行，随纪避難徐州。属吕布破，太祖辟羣爲司空西曹掾属。時有荐乐安王模、下邳周逵者，太祖辟之。羣封還教，以爲模、逵秽德，终必敗，太祖不听。後模、逵皆坐奸宄诛，太祖以谢羣。羣荐广陵陳矫、丹阳戴乾，太祖皆用之。後吴人叛，乾忠義死難，矫遂爲名臣，世以羣爲知人。除萧、赞、長平令，父卒去官。後以司徒掾舉高第，爲治書侍御史，转参丞相軍事。魏國既建，遷爲御史中丞。",
       "annotations": [
         {
+          "id": "wei.22.p5.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "陳羣",
+          "person_id": "chenqun",
+          "via": "alias"
+        },
+        {
           "id": "wei.22.p5.a1",
           "type": "pei",
           "at": 31,
           "length": 0,
           "text": "寔字仲弓、纪字元方，谌字季方。《魏书》曰：寔德冠当时，纪、谌并名重於世。寔为太丘长，遭党锢，隐居荆山，远近宗师之。灵帝崩，何进辅政，引用天下名士，徵寔，欲以为参军，以老病，遂不屈节，谌为司空掾，早卒。纪历位平原相、侍中、大鸿胪，著书数十篇，世谓之陈子。寔之亡也，司空荀爽、太仆令韩融并制缌麻，执子孙礼。四方至者车数千乘，自太原郭泰等无不造门。《傅子》曰：寔亡，天下致吊，会其葬者三万人，制缞麻者以百数。先贤行状曰：大将军何进遣属吊祠，谥曰文范先生。于时，寔、纪高名并著，而谌又配之，世号曰三君。每宰府辟命，率皆同时，羔雁成群，丞掾交至。豫州百姓皆图画寔、纪、谌之形象。"
+        },
+        {
+          "id": "wei.22.p5.h2",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "孔融",
+          "person_id": "kongrong",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p5.h3",
+          "type": "person",
+          "at": 218,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p5.h4",
+          "type": "person",
+          "at": 244,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p5.h5",
+          "type": "person",
+          "at": 266,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p5.h6",
+          "type": "person",
+          "at": 281,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p5.h7",
+          "type": "person",
+          "at": 299,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
     {
       "id": "wei.22.p6",
       "text": "時太祖议复肉刑，令曰：「安得通理君子达於古今者，使平斯事乎！昔陳鸿胪以爲死刑有可加於仁恩者，正謂此也。御史中丞能申其父之论乎？」羣对曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p6.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p7",
@@ -86,12 +429,77 @@
     {
       "id": "wei.22.p8",
       "text": "時锺繇與羣议同，王朗及议者多以爲未可行。太祖深善繇、羣言，以軍事未罢，顾众议，故且寝。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p8.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p8.h2",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p9",
       "text": "羣转爲侍中，领丞相东西曹掾。在朝无適无莫，雅杖名義，不以非道假人。文帝在东宫，深敬器焉，待以交友之礼，常叹曰：「自吾有回，门人日以亲。」及即王位，封羣昌武亭侯，徙爲尚書。制九品官人之法，羣所建也。及践阼，遷尚書仆射，加侍中，徙尚書令，进爵颖鄉侯。帝征孫权，至广陵，使羣领中领軍。帝還，假节，都督水軍。還许昌，以羣爲镇軍大將軍，领中护軍，录尚書事。帝寝疾，羣與曹真、司马宣王等并受遺诏辅政。明帝即位，进封颍阴侯，增邑五百，并前千三百户，與征东大將軍曹休、中軍大將軍曹真、抚軍大將軍司马宣王并开府。顷之，爲司空，故录尚書事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p9.h1",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p9.h2",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p9.h3",
+          "type": "person",
+          "at": 194,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p9.h4",
+          "type": "person",
+          "at": 223,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p9.h5",
+          "type": "person",
+          "at": 231,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p10",
@@ -101,12 +509,41 @@
     {
       "id": "wei.22.p11",
       "text": "诗称‘仪刑文王，万邦作孚’；又曰‘刑于寡妻，至于兄弟，以御于家邦’。道自近始，而化洽於天下。自丧乱已来，干戈未戢，百姓不识王教之本，惧其陵迟巳甚。陛下当盛魏之隆，荷二祖之业，天下想望至治，唯有以崇德布化，惠恤黎庶，则兆民幸甚。夫臣下雷同，是非相蔽，国之大患也。若不和睦则有雠党，有雠党则毁誉无端，毁誉无端则真伪失实，不可不深防备，有以绝其源流。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p11.h1",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.22.p12",
       "text": "太和中，曹真表欲數道伐蜀，從斜谷入。羣以爲「太祖昔到阳平攻張鲁，多收豆麦以益軍粮，鲁未下而食犹乏。今既无所因，且斜谷阻险，難以进退，转运必见钞截，多留兵守要，則损戰士，不可不熟虑也」。帝從羣议。真复表從子午道。羣又陳其不便，并言軍事用度之计。诏以羣议下真，真据之遂行。會霖雨积日，羣又以爲宜诏真還，帝從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p12.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "曹真",
+          "person_id": "caozhen",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p12.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p13",
@@ -116,7 +553,17 @@
     {
       "id": "wei.22.p14",
       "text": "长短有命，存亡有分。故圣人制礼，或抑或致，以求厥中。防墓有不脩之俭，嬴、博有不归之魂。夫大人动合天地，垂之无穷，又大德不逾闲，动为师表故也。八岁下殇，礼所不备，况未期月，而以成人礼送之，加为制服，举朝素衣，朝夕哭临，自古已来，未有此比。而乃复自往视陵，亲临祖载。原陛下抑割无益有损之事，但悉听群臣送葬，乞车驾不行，此万国之至望也。闻车驾欲幸摩陂，实到许昌，二宫上下，皆悉俱东，举朝大小，莫不惊怪。或言欲以避衰，或言欲於便处移殿舍，或不知何故。臣以为吉凶有命，祸福由人，移徙求安，则亦无益。若必当移避，缮治金墉城西宫，及孟津别宫，皆可权时分止。可无举宫暴露野次，废损盛节蚕农之要。又贼地闻之，以为大衰。加所烦费，不可计量。且（由）吉士贤人，当盛衰，处安危，秉道信命，非徙其家以宁，乡邑从其风化，无恐惧之心。况乃帝王万国之主，静则天下安，动则天下扰；行止动静，岂可轻脱哉？",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p14.h1",
+          "type": "person",
+          "at": 132,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.22.p15",
@@ -133,6 +580,24 @@
           "at": 43,
           "length": 0,
           "text": "臣松之案：《汉书地理志》云：元始二年，天下户口最盛，汝南郡为大郡，有三十餘万户。则文、景之时不能如是多也。案《晋太康三年地记》，晋户有三百七十七万，吴、蜀户不能居半。以此言之，魏虽始承丧乱，方晋亦当无乃大殊。长文之言，於是为过。"
+        },
+        {
+          "id": "wei.22.p16.h1",
+          "type": "person",
+          "at": 138,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p16.h2",
+          "type": "person",
+          "at": 168,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
         }
       ]
     },
@@ -151,6 +616,15 @@
           "at": 57,
           "length": 0,
           "text": "孙盛曰：周礼，天子之宫，有斫蹐之制。然质文之饰，与时推移。汉承周、秦之弊，宜敦简约之化，而何崇饰宫室，示侈后嗣。此乃武帝千门万户所以大兴，岂无所复增之谓邪？况乃魏氏方有吴、蜀之难，四海罹涂炭之艰，而述萧何之过议，以为令轨，岂不惑於大道而昧得失之辨哉？使百代之君，眩於奢俭之中，何之由矣。诗云：“斯言之玷，不可为也。”其斯之谓乎！"
+        },
+        {
+          "id": "wei.22.p18.h1",
+          "type": "person",
+          "at": 137,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -164,6 +638,42 @@
       "text": "初，太祖時，劉廙坐弟與魏讽謀反，当诛。羣言之太祖，太祖曰：「廙，名臣也，吾亦欲赦之。」乃复位。廙深德羣，羣曰：「夫议刑爲國，非爲私也；且自明主之意，吾何知焉？」其弘博不伐，皆此類也。青龙四年薨，谥曰靖侯。子泰嗣。帝追思羣功德，分羣户邑，封一子列侯。",
       "annotations": [
         {
+          "id": "wei.22.p20.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p20.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "劉廙",
+          "person_id": "liuyi",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p20.h3",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p20.h4",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.22.p20.a1",
           "type": "pei",
           "at": 124,
@@ -175,7 +685,26 @@
     {
       "id": "wei.22.p21",
       "text": "泰字玄伯。青龙中，除散骑侍郎。正始中，徙游擊將軍，爲并州刺史，加振威將軍，使持节，护匈奴中郎將，怀柔夷民，甚有威惠。京邑贵人多寄宝货，因泰市奴婢，泰皆挂之於壁，不发其封，及徵爲尚書，悉以還之。嘉平初，代郭淮爲雍州刺史，加奋威將軍。蜀大將軍姜维率众依麹山筑二城，使牙门將句安、李歆等守之，聚羌胡质任等寇偪諸郡。征西將軍郭淮與泰謀所以御之，泰曰：「麹城雖固，去蜀险遠，当须运粮。羌夷患维劳役，必未肯附。今圍而取之，可不血刃而拔其城；雖其有救，山道阻险，非行兵之地也。」淮從泰计，使泰率討蜀护軍徐质、南安太守邓艾等进兵圍之，断其运道及城外流水。安等挑戰，不许，將士困窘，分粮聚雪以稽日月。维果來救，出自牛头山，與泰相对。泰曰：「兵法贵在不戰而屈人。今绝牛头，维无反道，則我之禽也。」敕諸軍各堅垒勿與戰，遣使白淮，欲自南渡白水，循水而东，使淮趣牛头，截其還路，可并取维，不惟安等而已。淮善其策，进率諸軍軍洮水。维惧，遁走，安等孤县，遂皆降。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p21.h1",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p21.h2",
+          "type": "person",
+          "at": 158,
+          "length": 2,
+          "text": "郭淮",
+          "person_id": "guohuai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p22",
@@ -203,12 +732,32 @@
     {
       "id": "wei.22.p25",
       "text": "初，泰聞经见圍，以州軍將士素皆一心，加得保城，非维所能卒倾。表上进軍晨夜速到還。众议以经奔北，城不足自固，维若断凉州之道，兼四郡民夷，据關、陇之险，敢能没经軍而屠陇右。宜须大兵四集，乃致攻討。大將軍司马文王曰：「昔諸葛亮常有此志，卒亦不能。事大謀遠，非维所任也。且城非仓卒所拔，而粮少爲急，征西速救，得上策矣。」泰每以一方有事，辄以虚声扰动天下，故希简白上事，驿書不过六百里。司马文王语荀顗曰：「玄伯沈勇能断，荷方伯之重，救將陷之城，而不求益兵，又希简上事，必能办贼故也。都督大將，不当尔邪！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p25.h1",
+          "type": "person",
+          "at": 107,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p26",
       "text": "後徵泰爲尚書右仆射，典選舉，加侍中光禄大夫。吴大將孫峻出淮、泗。以泰爲镇軍將軍，假节都督淮北諸軍事，诏徐州监軍已下受泰节度。峻退，軍還，转爲左仆射。諸葛诞作乱寿春，司马文王率六軍軍丘头，泰总署行台。司马景王、文王皆與泰亲友，及沛國武陔亦與泰善。文王问陔曰：「玄伯何如其父司空也？」陔曰：「通雅博暢，能以天下声教爲己任者，不如也；明统简至，立功立事，过之。」泰前後以功增邑二千六百户，赐子弟一人亭侯，二人關内侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p26.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p27",
@@ -246,18 +795,73 @@
     {
       "id": "wei.22.p28",
       "text": "陳矫字季弼，广陵东阳人也。避乱江东及东城，辭孫策、袁术之命，還本郡。太守陳登请爲功曹，使矫詣许，謂曰：「许下论议，待吾不足；足下相爲观察，還以见诲。」矫還曰：「聞遠近之论，颇謂明府骄而自矜。」登曰：「夫闺门雍穆，有德有行，吾敬陳元方兄弟；渊清玉絜，有礼有法，吾敬华子鱼；清脩疾恶，有识有義，吾敬趙元达；博聞强记，奇逸卓荦，吾敬孔文舉；雄姿杰出，有王霸之略，吾敬劉玄德：所敬如此，何骄之有！餘子琐琐，亦焉足录哉？」登雅意如此，而深敬友矫。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p28.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p28.h2",
+          "type": "person",
+          "at": 180,
+          "length": 3,
+          "text": "劉玄德",
+          "person_id": "liubei",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p29",
       "text": "郡爲孫权所圍於匡奇，登令矫求救於太祖。矫說太祖曰：「鄙郡雖小，形便之國也，若蒙救援，使爲外籓，則吴人剉謀，徐方永安，武声遠震，仁爱滂流，未從之國，望风景附，崇德养威，此王业也。」太祖奇矫，欲留之。矫辭曰：「本國倒县，本奔走告急，纵无申胥之效，敢忘弘演之義乎？」太祖乃遣赴救。吴軍既退，登多设间伏，勒兵追奔，大破之。",
       "annotations": [
         {
+          "id": "wei.22.p29.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p29.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p29.h3",
+          "type": "person",
+          "at": 89,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
           "id": "wei.22.p29.a1",
           "type": "pei",
           "at": 130,
           "length": 0,
           "text": "刘向《新序》曰：齐桓公求婚於卫，卫不与，而嫁於许。卫为狄所伐，桓公不救，至於国灭君死。懿公尸为狄人所食，惟有肝在。懿公有臣曰弘演，適使反，致命於肝曰：“君为其内，臣为其外。”乃刳腹内肝而死。齐桓公曰：“卫有臣若此而尚灭，寡人无有，亡无日矣！”乃救卫，定其君。"
+        },
+        {
+          "id": "wei.22.p29.h4",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
         }
       ]
     },
@@ -265,6 +869,114 @@
       "id": "wei.22.p30",
       "text": "太祖辟矫爲司空掾属，除相令，征南長史，彭城、乐陵太守，魏郡西部都尉。曲周民父病，以牛祷，县結正弃市。矫曰：「此孝子也。」表赦之。遷魏郡太守。時系囚千數，至有历年，矫以爲周有三典之制，汉约三章之法，今惜轻重之理，而忽久系之患，可謂谬矣。悉自览罪状，一時论决。大軍东征，入爲丞相長史。軍還，复爲魏郡，转西曹属。從征汉中，還爲尚書。行前未到鄴，太祖崩洛阳，羣臣拘常，以爲太子即位，当须诏命。矫曰：「王薨于外，天下惶惧。太子宜割哀即位，以系遠近之望。且又爱子在侧，彼此生变，則社稷危矣。」即具官备礼，一日皆办。明旦，以王後令，策太子即位，大赦荡然。文帝曰：「陳季弼臨大节，明略过人，信一時之俊杰也。」帝既践阼，转署吏部，封高陵亭侯，遷尚書令。明帝即位，进爵东鄉侯，邑六百户。车驾尝卒至尚書门，矫跪问帝曰：「陛下欲何之？」帝曰：「欲案行文書耳。」矫曰：「此自臣职分，非陛下所宜臨也。若臣不称其职，則请就黜退。陛下宜還。」帝惭，回车而反。其亮直如此。加侍中光禄大夫，遷司徒。景初元年薨，谥曰贞侯。",
       "annotations": [
+        {
+          "id": "wei.22.p30.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p30.h2",
+          "type": "person",
+          "at": 169,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p30.h7",
+          "type": "person",
+          "at": 182,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h8",
+          "type": "person",
+          "at": 206,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h3",
+          "type": "person",
+          "at": 259,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.22.p30.h9",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h4",
+          "type": "person",
+          "at": 270,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p30.h5",
+          "type": "person",
+          "at": 317,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p30.h10",
+          "type": "person",
+          "at": 349,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h11",
+          "type": "person",
+          "at": 379,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h12",
+          "type": "person",
+          "at": 399,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p30.h6",
+          "type": "person",
+          "at": 414,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
         {
           "id": "wei.22.p30.a1",
           "type": "pei",
@@ -299,6 +1011,15 @@
       "text": "子本嗣，历位郡守、九卿。所在操纲领，舉大体，能使羣下自尽。有统御之才，不亲小事，不读法律而得廷尉之称，優於司马岐等，精练文理。遷镇北將軍，假节都督河北諸軍事。薨，子粲嗣。本弟骞，咸熙中爲车骑將軍。",
       "annotations": [
         {
+          "id": "wei.22.p31.h1",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wei.22.p31.a1",
           "type": "pei",
           "at": 98,
@@ -323,12 +1044,86 @@
     {
       "id": "wei.22.p33",
       "text": "徐宣字宝堅，广陵海西人也。避乱江东，又辭孫策之命，還本郡。與陳矫并爲纲纪，二人齊名而私好不协，然俱见器於太守陳登，與登并心於太祖。海西、淮浦二县民作乱，都尉卫弥、令梁习夜奔宣家，密送免之。太祖遣督軍扈质來討贼，以兵少不进。宣潜见责之，示以形勢，质乃进破贼。太祖辟爲司空掾属，除东缗、发干令，遷齊郡太守，入爲门下督，從到寿春。會马超作乱，大軍西征，太祖见官属曰：「今当遠征，而此方未定，以爲後忧，宜得清公大德以镇统之。」乃以宣爲左护軍，留统諸軍。還，爲丞相东曹掾，出爲魏郡太守。太祖崩洛阳，羣臣入殿中发哀。或言可易諸城守，用谯、沛人。宣厉声曰：「今者遠近一统，人怀效节，何必谯、沛，而沮宿卫者心。」文帝聞曰：「所謂社稷之臣也。」帝既践阼，爲御史中丞，赐爵關内侯，徙城门校尉，旬月遷司隶校尉，转散骑常侍。從至广陵，六軍乘舟，风浪暴起，帝船回倒，宣病在後，陵波而前，羣寮莫先至者。帝壮之，遷尚書。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p33.h1",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p33.h2",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p33.h3",
+          "type": "person",
+          "at": 94,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p33.h4",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p33.h5",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p33.h6",
+          "type": "person",
+          "at": 238,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p33.h7",
+          "type": "person",
+          "at": 298,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p34",
       "text": "明帝即位，封津阳亭侯，邑二百户。中领軍桓范荐宣曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p34.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p35",
@@ -340,6 +1135,24 @@
           "at": 49,
           "length": 0,
           "text": "《吕氏春秋》曰：昔晋文公将与楚人战於城濮，召咎犯而问曰：“楚众我寡，奈何而可？”咎犯对曰：“臣闻繁礼之君，不足於文，繁战之君，不足於诈，君亦诈之而已。”文公以咎犯言告雍季，雍季曰：“竭泽而渔，岂不得鱼，而明年无鱼。焚薮而田，岂不得兽，而明年无兽。诈伪之道，虽今偷可，后将无复，非长术也。”文公用咎犯之言，而败楚人於城濮。反而为赏，雍季在上。左右谏曰：“城濮之功，咎犯之谋也。君用其言而后其身，或者不可乎！”文公曰：“雍季之言，百代之利也；咎犯之言，一时之务也。焉有以一时之务，先百代之砾乎？”"
+        },
+        {
+          "id": "wei.22.p35.h1",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "高祖",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p35.h2",
+          "type": "person",
+          "at": 79,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -364,6 +1177,15 @@
           "era": "青龍",
           "era_year": 4,
           "reasoning": "原文「青龍四年」直接出现年号；解析為 AD 236（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.22.p37.h1",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -371,6 +1193,42 @@
       "id": "wei.22.p38",
       "text": "卫臻字公振，陳留襄邑人也。父兹，有大节，不應三公之辟。太祖之初至陳留，兹曰：「平天下者，必此人也。」太祖亦異之，數詣兹议大事。從討董卓，戰于荥阳而卒。太祖每涉郡境，辄遣使祠焉。",
       "annotations": [
+        {
+          "id": "wei.22.p38.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p38.h2",
+          "type": "person",
+          "at": 50,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p38.h3",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p38.h4",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
         {
           "id": "wei.22.p38.a1",
           "type": "pei",
@@ -383,22 +1241,170 @@
     {
       "id": "wei.22.p39",
       "text": "夏侯惇爲陳留太守，舉臻计吏，命妇出宴，臻以爲「末世之俗，非礼之正」。惇怒，执臻，既而赦之。後爲汉黄门侍郎。东郡硃越謀反，引臻。太祖令曰：「孤與卿君同共舉事，加钦令问。始聞越言，固自不信。及得荀令君書，具亮忠诚。」會奉诏命，聘贵人于魏，因表留臻参丞相軍事。追录臻父旧勋，赐爵關内侯，转爲户曹掾。文帝即王位，爲散骑常侍。及践阼，封安國亭侯。時羣臣并颂魏德，多抑损前朝。臻獨明禅授之義，称扬汉美。帝數目臻曰：「天下之珍，当與山阳共之。」遷尚書，转侍中吏部尚書。帝幸广陵，行中领軍，從。征軍大將軍曹休表得降贼辭，「孫权已在濡须口」。臻曰：「权恃長江，未敢抗衡，此必畏怖伪辭耳。」考核降者，果守將诈所作也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p39.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "夏侯惇",
+          "person_id": "xiahoudun",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p39.h2",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p39.h3",
+          "type": "person",
+          "at": 101,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wei.22.p39.h4",
+          "type": "person",
+          "at": 146,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p39.h5",
+          "type": "person",
+          "at": 244,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p40",
       "text": "明帝即位，进封康鄉侯，後转爲右仆射，典選舉，如前加侍中。中护軍蒋济遺臻書曰：「汉祖遇亡虏爲上將，周武拔渔父爲太师；布衣厮养，可登王公，何必守文，试而後用？」臻答曰：「古人遺智慧而任度量，须考绩而加黜陟；今子同牧野於成、康，喻断蛇於文、景，好不经之舉，开拔奇之津，將使天下驰骋而起矣。」諸葛亮寇天水，臻奏：「宜遣奇兵入散關，绝其粮道。」乃以臻爲征蜀將軍，假节督諸軍事，到長安，亮退。還，复职，加光禄大夫。是時，帝方隆意於殿舍，臻數切諫。及殿中监擅收兰台令史，臻奏案之。诏曰：「殿舍不成，吾所留心，卿推之何？」臻上疏曰：「古制侵官之法，非恶其勤事也，诚以所益者小，所堕者大也。臣每察校事，類皆如此，惧羣司將遂越职，以至陵迟矣。」亮又出斜谷；征南上：「硃然等軍已过荆城。」臻曰：「然，吴之骁將，必下從权，且爲勢以缀征南耳。」权果召然入居巢，进攻合肥。帝欲自东征，臻曰：「权外示應亮，内实观望。且合肥城固，不足爲虑。车驾可无亲征，以省六軍之费。」帝到寻阳而权竟退。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p40.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p40.h2",
+          "type": "person",
+          "at": 142,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p40.h3",
+          "type": "person",
+          "at": 187,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p40.h4",
+          "type": "person",
+          "at": 312,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "wei.22.p40.h5",
+          "type": "person",
+          "at": 386,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "wei.22.p41",
       "text": "幽州刺史毌丘俭上疏曰：「陛下即位已來，未有可書。吴、蜀恃险，未可卒平，聊可以此方无用之士克定辽东。」臻曰：「俭所陳皆戰國细术，非王者之事也。吴频岁称兵，寇乱边境，而犹案甲养士，未果寻致討者，诚以百姓疲劳故也。且渊生長海表，相承三世，外抚戎夷，内脩戰射，而俭欲以偏軍長驱，朝至夕卷，知其妄矣。」俭行軍遂不利。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p41.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "wei.22.p42",
       "text": "臻遷爲司空，徙司徒。正始中，进爵長垣侯，邑千户，封一子列侯。初，太祖久不立太子，而方奇贵臨菑侯。丁儀等爲之羽翼，劝臻自結，臻以大義拒之。及文帝即位，东海王霖有寵，帝问臻：「平原侯何如？」臻称明德美而终不言。曹爽辅政，使夏侯玄宣指，欲引臻入守尚書令，及爲弟求婚，皆不许。固乞逊位。诏曰：「昔干木偃息，義压强秦；留侯颐神，不忘楚事。谠言嘉謀，望不吝焉。」赐宅一区，位特进，秩如三司。薨，追赠太尉，谥曰敬侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p42.h1",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p42.h5",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wei.22.p42.h2",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p42.h3",
+          "type": "person",
+          "at": 103,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p42.h4",
+          "type": "person",
+          "at": 109,
+          "length": 3,
+          "text": "夏侯玄",
+          "person_id": "xiahouxuan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p43",
@@ -423,13 +1429,50 @@
           "at": 20,
           "length": 0,
           "text": "续汉书曰：植字子幹。少事马融，与郑玄同门相友。植刚毅有大节，常喟然有济世之志，不苟合取容，不应州郡命召。建宁中，徵博士，出补九江太守，以病去官。作尚书章句、礼记解诂。稍迁侍中、尚书。张角起，以植为北中郎将征角，失利抵罪。顷之，复以为尚书。张让劫少帝奔小平津，植手剑责数让等，让等皆放兵，垂泣谢罪，遂自杀。董卓议欲废帝，众莫敢对，植独正言，语在《卓传》。植以老病去位，隐居上谷军都山，初平三年卒。太祖北征柳城，过涿郡，令告太守曰：“故北中郎将卢植，名著海内，学为儒宗，士之楷模，乃国之桢幹也。昔武王入殷，封商容之闾，郑丧子产而仲尼陨涕。孤到此州，嘉其餘风。春秋之义，贤者之后，有异於人。敬遣丞掾脩坟墓，并致薄醊，以彰厥德。”植有四子，毓最小。"
+        },
+        {
+          "id": "wei.22.p44.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p44.h2",
+          "type": "person",
+          "at": 40,
+          "length": 3,
+          "text": "公孫瓚",
+          "person_id": "gongsunzan",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wei.22.p45",
       "text": "文帝爲五官將，召毓署门下贼曹。崔琰舉爲冀州主簿。時天下草创，多逋逃，故重士亡法，罪及妻子。亡士妻白等，始適夫家數日，未與夫相见，大理奏弃巿。毓驳之曰：",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p45.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wei.22.p45.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "崔琰",
+          "person_id": "cuiyan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p46",
@@ -439,12 +1482,32 @@
     {
       "id": "wei.22.p47",
       "text": "太祖曰：「毓执之是也。又引经典有意，使孤叹息。」由是爲丞相法曹议令史，转西曹议令史。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p47.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "太祖",
+          "person_id": "caocao",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p48",
       "text": "魏國既建，爲吏部郎。文帝践阼，徙黄门侍郎，出爲济阴相，梁、谯二郡太守。帝以谯旧鄉，故大徙民充之，以爲屯田。而谯土地墝瘠，百姓穷困，毓愍之，上表徙民於梁國就沃衍，失帝意。雖听毓所表，心犹恨之，遂左遷毓，使將徙民爲睢阳典农校尉。毓心在利民，躬自臨视，择居美田，百姓賴之。遷安平、广平太守，所在有惠化。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p48.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "文帝",
+          "person_id": "caopi",
+          "via": "chapter_alias"
+        }
+      ]
     },
     {
       "id": "wei.22.p49",
@@ -462,6 +1525,24 @@
           "era": "青龍",
           "era_year": 2,
           "reasoning": "原文「青龍二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.22.p49.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "劉劭",
+          "person_id": "liushao",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p49.h2",
+          "type": "person",
+          "at": 129,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caorui",
+          "via": "llm"
         }
       ]
     },
@@ -478,12 +1559,40 @@
     {
       "id": "wei.22.p52",
       "text": "帝納其言，即诏作考课法。會司徒缺，毓舉处士管宁，帝不能用。更问其次，毓对曰：「敦笃至行，則太中大夫韩暨；亮直清方，則司隶校尉崔林；贞固纯粹，則太常常林。」帝乃用暨。毓於人及選舉，先舉性行，而後言才。黄门李丰尝以问毓，毓曰：「才所以爲善也，故大才成大善，小才成小善。今称之有才而不能爲善，是才不中器也。」丰等服其言。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p52.h1",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "崔林",
+          "person_id": "cuilin",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p52.h2",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "常林",
+          "person_id": "changlin",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wei.22.p53",
       "text": "齊王即位，赐爵關内侯。時曹爽秉权，將树其黨，徙毓仆射，以侍中何晏代毓。顷之，出毓爲廷尉，司隶毕轨又枉奏免官，众论多讼之，乃以毓爲光禄勋。爽等见收，太傅司马宣王使毓行司隶校尉，治其狱。复爲吏部尚書，加奉车都尉，封高乐亭侯，转爲仆射，故典選舉，加光禄大夫。高贵鄉公即位，进封大梁鄉侯。封一子（高）亭侯。毌丘俭作乱，大將軍司马景王出征，毓纲纪後事，加侍中。正元三年，疾病，逊位。遷爲司空，固推骠骑將軍王昶、光禄大夫王观、司隶校尉王祥。诏使使者即授印绶，进爵封容城侯，邑二千三百户。甘露二年薨，谥曰成侯。孫籓嗣。",
       "annotations": [
+        {
+          "id": "wei.22.p53.h1",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
         {
           "id": "wei.22.p53.t1",
           "type": "temporal",
@@ -496,6 +1605,15 @@
           "era": "正元",
           "era_year": 3,
           "reasoning": "原文「正元三年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.22.p53.h2",
+          "type": "person",
+          "at": 197,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         },
         {
           "id": "wei.22.p53.t2",
@@ -528,7 +1646,26 @@
     {
       "id": "wei.22.p55",
       "text": "评曰：桓階识睹成敗，才周当世。陳羣动仗名義，有清流雅望；泰弘济简至，允克堂构矣。魏世事统台阁，重内轻外，故八座尚書，即古六卿之任也。陳、徐、卫、卢，久居斯位，矫、宣剛断骨鲠，臻、毓規鉴清理，咸不忝厥职云。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wei.22.p55.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "桓階",
+          "person_id": "huanjie",
+          "via": "primary"
+        },
+        {
+          "id": "wei.22.p55.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "陳羣",
+          "person_id": "chenqun",
+          "via": "alias"
+        }
+      ]
     }
   ]
 }

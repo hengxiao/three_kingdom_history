@@ -1,0 +1,49 @@
+{
+  "id": "guoyuan",
+  "primary_name": "國淵",
+  "courtesy_name": "子尼",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.11",
+      "title": "魏書·袁張涼國田王邴管傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/11.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p27",
+        "at": 204,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "國淵",
+        "snippet": "…昱參丕軍事，門下督廣陵徐宣為左護軍，留統諸軍，樂安國淵為居府長史，統留事。"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p39",
+        "at": 295,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "國淵",
+        "snippet": "…計，又善處人父子之間。」故事：破賊文書，以一為十。國淵上首級，皆如其實數，操問其故，淵曰：「夫征討外寇，多其斬獲之數者，欲以大武功，聳民聽也。河間在封域之內，銀等叛逆，雖克捷有功，…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

@@ -2,51 +2,637 @@ chapter: shu.5
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷35
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 3492cccf796d37196cd69a7a80b5060b536e14bb8877d91bbf61bf9652187ad0
 annotations:
+- id: shu.5.p1.h1
+  anchor: shu.5.p1
+  at: 0
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.5.p1.h2
+  anchor: shu.5.p1
+  at: 40
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p1.h3
+  anchor: shu.5.p1
+  at: 48
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: shu.5.p1.h4
+  anchor: shu.5.p1
+  at: 59
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p1.h5
+  anchor: shu.5.p1
+  at: 61
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p1.h6
+  anchor: shu.5.p1
+  at: 83
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: shu.5.p1.a1
   anchor: shu.5.p1
   at: 92
   length: 0
   type: pei
   text: 《獻帝春秋》曰：初，豫章太守周術病卒，劉表上諸葛玄為豫章太守，治南昌。漢朝聞周術死，遣朱皓代玄。皓從揚州刺史劉繇求兵擊玄，玄退屯西城，皓入南昌。建安二年正月，西城民反，殺玄，送首詣繇。此書所云，與本傳不同。
+- id: shu.5.p1.h7
+  anchor: shu.5.p1
+  at: 95
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.5.p1.a2
   anchor: shu.5.p1
   at: 109
   length: 0
   type: pei
   text: 《漢晉春秋》曰：亮家于南陽之鄧縣，在襄陽城西二十里，號曰隆中。
+- id: shu.5.p1.h8
+  anchor: shu.5.p1
+  at: 145
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.5.p1.a3
   anchor: shu.5.p1
   at: 154
   length: 0
   type: pei
   text: 按《崔氏譜》：州平，太尉烈子，均之弟也。《魏略》曰：亮在荊州，以建安初與潁川石廣元、徐元直、汝南孟公威等俱游學，三人務於精熟，而亮獨觀其大略。每晨夜從容，常抱膝長嘯，而謂三人曰：「卿三人仕進可至刺史郡守也。」三人問其所至，亮但笑而不言。後公威思鄉里，欲北歸，亮謂之曰：「中國饒士大夫，遨遊何必故鄉邪！」臣松之以為《魏略》此言，謂諸葛亮為公威計者可也，若謂兼為己言，可謂未達其心矣。老氏稱知人者智，自知者明，凡在賢達之流，固必兼而有焉。以諸葛亮之鑒識，豈不能自審其分乎？夫其高吟俟時，情見乎言，志氣所存，既已定於其始矣。若使游步中華，騁其龍光，豈夫多士所能沈翳哉！委質魏氏，展其器能，誠非陳長文、司馬仲達所能頡頏，而況於餘哉！苟不患功業不就，道之不行，雖志恢宇宙而終不北向者，蓋以權御已移，漢祚將傾，方將翊贊宗傑，以興微繼絕克復為己任故也。豈其區區利在邊鄙而已乎！此相如所謂「鵾鵬已翔於遼廓，而羅者猶視於藪澤」者矣。公威名建，在魏亦貴達。
+- id: shu.5.p2.h1
+  anchor: shu.5.p2
+  at: 1
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h2
+  anchor: shu.5.p2
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h3
+  anchor: shu.5.p2
+  at: 13
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h4
+  anchor: shu.5.p2
+  at: 19
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h5
+  anchor: shu.5.p2
+  at: 24
+  length: 4
+  type: person
+  person_id: zhugeliang
+  text: 諸葛孔明
+  via: alias
 - id: shu.5.p2.a1
   anchor: shu.5.p2
   at: 43
   length: 0
   type: pei
   text: 《襄陽記》曰：劉備訪世事於司馬德操。德操曰：「儒生俗士，豈識時務？識時務者在乎俊傑。此間自有伏龍、鳳雛。」備問為誰，曰：「諸葛孔明、龐士元也。」
+- id: shu.5.p2.h6
+  anchor: shu.5.p2
+  at: 43
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h7
+  anchor: shu.5.p2
+  at: 81
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h8
+  anchor: shu.5.p2
+  at: 85
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- anchor: shu.5.p2
+  at: 110
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 主上
+  via: llm
+  confidence: 0.95
+  reasoning: 建安十二年隆中對劉備自言「漢室傾頹，姦臣竊命，主上蒙塵」，主上指當時受曹操挾制之漢獻帝。
+  id: shu.5.p2.h27
+- id: shu.5.p2.h9
+  anchor: shu.5.p2
+  at: 132
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: shu.5.p2.h10
+  anchor: shu.5.p2
+  at: 165
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p2.h11
+  anchor: shu.5.p2
+  at: 171
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: shu.5.p2.h12
+  anchor: shu.5.p2
+  at: 191
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.5.p2.h13
+  anchor: shu.5.p2
+  at: 195
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: shu.5.p2.h14
+  anchor: shu.5.p2
+  at: 206
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p2.h15
+  anchor: shu.5.p2
+  at: 210
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: shu.5.p2.h16
+  anchor: shu.5.p2
+  at: 230
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p2.h17
+  anchor: shu.5.p2
+  at: 254
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p2.h18
+  anchor: shu.5.p2
+  at: 366
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.5.p2.h19
+  anchor: shu.5.p2
+  at: 445
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p2.h20
+  anchor: shu.5.p2
+  at: 520
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h21
+  anchor: shu.5.p2
+  at: 531
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p2.h22
+  anchor: shu.5.p2
+  at: 537
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.5.p2.h23
+  anchor: shu.5.p2
+  at: 540
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.5.p2.h24
+  anchor: shu.5.p2
+  at: 546
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p2.h25
+  anchor: shu.5.p2
+  at: 574
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: shu.5.p2.h26
+  anchor: shu.5.p2
+  at: 576
+  length: 1
+  type: person
+  person_id: zhangfei
+  text: 飛
+  via: given_name
 - id: shu.5.p2.a2
   anchor: shu.5.p2
   at: 580
   length: 0
   type: pei
   text: 《魏略》曰：劉備屯於樊城。是時曹公方定河北，亮知荊州次當受敵，而劉表性緩，不曉軍事。亮乃北行見備，備與亮非舊，又以其年少，以諸生意待之。坐集既畢，眾賓皆去，而亮獨留，備亦不問其所欲言。備性好結毦，時適有人以髦牛尾與備者，備因手自結之。亮乃進曰：「明將軍當復有遠志，但結毦而已邪！」備知亮非常人也，乃投毦而答曰：「是何言與！我聊以忘憂耳。」亮遂言曰：「將軍度劉鎮南孰與曹公邪？」備曰：「不及。」亮又曰：「將軍自度何如也？」備曰：「亦不如。」曰：「今皆不及，而將軍之眾不過數千人，以此待敵，得無非計乎！」備曰：「我亦愁之，當若之何？」亮曰：「今荊州非少人也，而著籍者寡，平居發調，則人心不悅；可語鎮南，令國中凡有游戶，皆使自實，因錄以益眾可也。」備從其計，故眾遂強。備由此知亮有英略，乃以上客禮之。九州春秋所言亦如之。臣松之以為亮表云「先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮臣以當世之事」，則非亮先詣備，明矣。雖聞見異辭，各生彼此，然乖背至是，亦良為可怪。
+- id: shu.5.p3.h1
+  anchor: shu.5.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.5.p3.h2
+  anchor: shu.5.p3
+  at: 9
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h3
+  anchor: shu.5.p3
+  at: 11
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.5.p3.h4
+  anchor: shu.5.p3
+  at: 32
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h5
+  anchor: shu.5.p3
+  at: 37
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: shu.5.p3.h6
+  anchor: shu.5.p3
+  at: 39
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h7
+  anchor: shu.5.p3
+  at: 52
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h8
+  anchor: shu.5.p3
+  at: 75
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h9
+  anchor: shu.5.p3
+  at: 107
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h10
+  anchor: shu.5.p3
+  at: 158
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.5.p3.h11
+  anchor: shu.5.p3
+  at: 173
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p3.h12
+  anchor: shu.5.p3
+  at: 186
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p3.h13
+  anchor: shu.5.p3
+  at: 206
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.5.p3.a1
   anchor: shu.5.p3
   at: 263
   length: 0
   type: pei
   text: 《魏略》曰：庶先名福，本單家子，少好任俠擊劍。中平末，嘗為人報讎，白堊突面，被髪而走，為吏所得，問其姓字，閉口不言。吏乃於車上立柱維磔之，擊鼓以令於市鄽，莫敢識者，而其黨伍共篡解之，得脫。於是感激，棄其刀戟，更疏巾單衣，折節學問。始詣精舍，諸生聞其前作賊，不肯與共止。福乃卑躬早起，常獨掃除，動靜先意，聽習經業，義理精熟。遂與同郡石韜相親愛。初平中，中州兵起，乃與韜南客荊州，到，又與諸葛亮特相善。及荊州內附，孔明與劉備相隨去，福與韜俱來北。至黃初中，韜仕歷郡守、典農校尉，福至右中郎將、御史中丞。逮大和中，諸葛亮出隴右，聞元直、廣元仕財如此，嘆曰：「魏殊多士邪！何彼二人不見用乎？」庶後數年病卒，有碑在彭城，今猶存焉。
+- id: shu.5.p4.h1
+  anchor: shu.5.p4
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p4.h2
+  anchor: shu.5.p4
+  at: 7
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p4.h3
+  anchor: shu.5.p4
+  at: 27
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.5.p4.h4
+  anchor: shu.5.p4
+  at: 39
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p4.h5
+  anchor: shu.5.p4
+  at: 41
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.5.p4.h6
+  anchor: shu.5.p4
+  at: 69
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.5.p4.h7
+  anchor: shu.5.p4
+  at: 77
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p4.h8
+  anchor: shu.5.p4
+  at: 191
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.5.p4.h9
+  anchor: shu.5.p4
+  at: 211
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p4.h10
+  anchor: shu.5.p4
+  at: 275
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.5.p4.h11
+  anchor: shu.5.p4
+  at: 313
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.5.p4.h12
+  anchor: shu.5.p4
+  at: 333
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p4.h13
+  anchor: shu.5.p4
+  at: 352
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.5.p4.h14
+  anchor: shu.5.p4
+  at: 374
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: shu.5.p4.h15
+  anchor: shu.5.p4
+  at: 452
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p4.h16
+  anchor: shu.5.p4
+  at: 487
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p4.h17
+  anchor: shu.5.p4
+  at: 492
+  length: 1
+  type: person
+  person_id: caocao
+  text: 操
+  via: given_name
+- id: shu.5.p4.h18
+  anchor: shu.5.p4
+  at: 528
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: shu.5.p4.h19
+  anchor: shu.5.p4
+  at: 534
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: shu.5.p4.h20
+  anchor: shu.5.p4
+  at: 537
+  length: 2
+  type: person
+  person_id: chengpu
+  text: 程普
+  via: primary
+- id: shu.5.p4.h21
+  anchor: shu.5.p4
+  at: 540
+  length: 2
+  type: person
+  person_id: lusu
+  text: 魯肅
+  via: primary
+- id: shu.5.p4.h22
+  anchor: shu.5.p4
+  at: 549
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p4.h23
+  anchor: shu.5.p4
+  at: 551
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.5.p4.a1
   anchor: shu.5.p4
   at: 560
   length: 0
   type: pei
   text: 袁子曰：張子布薦亮於孫權，亮不肯留。人問其故，曰：「孫將軍可謂人主，然觀其度，能賢亮而不能盡亮，吾是以不留。」臣松之以為袁孝尼著文立論，甚重諸葛之為人，至如此言則失之殊遠。觀亮君臣相遇，可謂希世一時，終始以分，誰能間之？寧有中違斷金，甫懷擇主，設使權盡其量，便當翻然去就乎？葛生行己，豈其然哉！關羽為曹公所獲，遇之甚厚，可謂能盡其用矣，猶義不背本，曾謂孔明之不若雲長乎！
+- id: shu.5.p4.h24
+  anchor: shu.5.p4
+  at: 572
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p4.h25
+  anchor: shu.5.p4
+  at: 580
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p4.a2
   anchor: shu.5.p4
   at: 611
@@ -65,6 +651,182 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211
+- id: shu.5.p5.h1
+  anchor: shu.5.p5
+  at: 9
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
+- id: shu.5.p5.h2
+  anchor: shu.5.p5
+  at: 12
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
+- id: shu.5.p5.h3
+  anchor: shu.5.p5
+  at: 15
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h4
+  anchor: shu.5.p5
+  at: 23
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h5
+  anchor: shu.5.p5
+  at: 25
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: shu.5.p5.h6
+  anchor: shu.5.p5
+  at: 31
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h7
+  anchor: shu.5.p5
+  at: 40
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h8
+  anchor: shu.5.p5
+  at: 42
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
+- id: shu.5.p5.h9
+  anchor: shu.5.p5
+  at: 45
+  length: 2
+  type: person
+  person_id: zhaoyun
+  text: 趙雲
+  via: primary
+- id: shu.5.p5.h10
+  anchor: shu.5.p5
+  at: 59
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h11
+  anchor: shu.5.p5
+  at: 71
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h12
+  anchor: shu.5.p5
+  at: 85
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h13
+  anchor: shu.5.p5
+  at: 90
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h14
+  anchor: shu.5.p5
+  at: 110
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h15
+  anchor: shu.5.p5
+  at: 116
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h16
+  anchor: shu.5.p5
+  at: 121
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h17
+  anchor: shu.5.p5
+  at: 222
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: shu.5.p5.h18
+  anchor: shu.5.p5
+  at: 261
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p5.h19
+  anchor: shu.5.p5
+  at: 270
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h20
+  anchor: shu.5.p5
+  at: 313
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h21
+  anchor: shu.5.p5
+  at: 343
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p5.h22
+  anchor: shu.5.p5
+  at: 355
+  length: 2
+  type: person
+  person_id: zhangfei
+  text: 張飛
+  via: primary
 - id: shu.5.p5.a1
   anchor: shu.5.p5
   at: 366
@@ -83,6 +845,62 @@ annotations:
   era: 章武
   era_year: 3
   reasoning: 原文「章武三年」直接出现年号；解析為 AD 223
+- id: shu.5.p6.h1
+  anchor: shu.5.p6
+  at: 6
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p6.h2
+  anchor: shu.5.p6
+  at: 15
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p6.h3
+  anchor: shu.5.p6
+  at: 26
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p6.h4
+  anchor: shu.5.p6
+  at: 34
+  length: 2
+  type: person
+  person_id: caopi
+  text: 曹丕
+  via: primary
+- id: shu.5.p6.h5
+  anchor: shu.5.p6
+  at: 67
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p6.h6
+  anchor: shu.5.p6
+  at: 93
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.5.p6.h7
+  anchor: shu.5.p6
+  at: 99
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
 - id: shu.5.p6.a1
   anchor: shu.5.p6
   at: 117
@@ -101,6 +919,30 @@ annotations:
   era: 建興
   era_year: 1
   reasoning: 原文「建興元年」直接出现年号；解析為 AD 223
+- id: shu.5.p7.h1
+  anchor: shu.5.p7
+  at: 6
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p7.h2
+  anchor: shu.5.p7
+  at: 34
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p7.h3
+  anchor: shu.5.p7
+  at: 46
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p7.a1
   anchor: shu.5.p7
   at: 75
@@ -119,6 +961,14 @@ annotations:
   era: 建興
   era_year: 3
   reasoning: 承前文年號「建興」推得，「三年」 = 建興3年 = AD 225
+- id: shu.5.p8.h1
+  anchor: shu.5.p8
+  at: 4
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p8.a1
   anchor: shu.5.p8
   at: 10
@@ -143,6 +993,62 @@ annotations:
   era: 建興
   era_year: 5
   reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
+- anchor: shu.5.p9
+  at: 65
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》上書後主，「欲報之於陛下也」陛下即後主劉禪。
+  id: shu.5.p9.h3
+- anchor: shu.5.p9
+  at: 152
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「以昭陛下平明之理」續指後主劉禪。
+  id: shu.5.p9.h4
+- id: shu.5.p9.h1
+  anchor: shu.5.p9
+  at: 180
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.5.p9.h2
+  anchor: shu.5.p9
+  at: 183
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- anchor: shu.5.p9
+  at: 205
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「先帝簡拔以遺陛下」續指後主劉禪。
+  id: shu.5.p9.h5
+- anchor: shu.5.p9
+  at: 392
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「願陛下親之信之」續指後主劉禪。
+  id: shu.5.p9.h6
 - id: shu.5.p10.a1
   anchor: shu.5.p10
   at: 100
@@ -169,6 +1075,44 @@ annotations:
   length: 0
   type: pei
   text: 漢書地理志曰：瀘惟水出牂牁郡句町县。
+- anchor: shu.5.p10
+  at: 203
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「報先帝而忠陛下之職分」陛下即劉禪。
+  id: shu.5.p10.h1
+- anchor: shu.5.p11
+  at: 24
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「願陛下託臣以討賊興復之效」陛下即劉禪。
+  id: shu.5.p11.h2
+- anchor: shu.5.p11
+  at: 78
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.98
+  reasoning: 《出師表》「陛下亦宜自謀」陛下即劉禪。
+  id: shu.5.p11.h3
+- id: shu.5.p11.h1
+  anchor: shu.5.p11
+  at: 117
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: shu.5.p12.a1
   anchor: shu.5.p12
   at: 8
@@ -187,24 +1131,160 @@ annotations:
   era: 建興
   era_year: 6
   reasoning: 承前文年號「建興」推得，「六年」 = 建興6年 = AD 228
+- id: shu.5.p13.h1
+  anchor: shu.5.p13
+  at: 14
+  length: 2
+  type: person
+  person_id: zhaoyun
+  text: 趙雲
+  via: primary
+- id: shu.5.p13.h2
+  anchor: shu.5.p13
+  at: 17
+  length: 2
+  type: person
+  person_id: dengzhi
+  text: 鄧芝
+  via: primary
+- id: shu.5.p13.h3
+  anchor: shu.5.p13
+  at: 31
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: shu.5.p13.h4
+  anchor: shu.5.p13
+  at: 38
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p13.h5
+  anchor: shu.5.p13
+  at: 73
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p13.a1
   anchor: shu.5.p13
   at: 80
   length: 0
   type: pei
   text: 《魏略》曰：始，國家以蜀中惟有劉備。備既死，數歲寂然無聲，是以略無備預；而卒聞亮出，朝野恐懼，隴右、祁山尤甚，故三郡同時應亮。
+- id: shu.5.p13.h6
+  anchor: shu.5.p13
+  at: 89
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.5.p13.h7
+  anchor: shu.5.p13
+  at: 92
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p13.h8
+  anchor: shu.5.p13
+  at: 94
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p13.h9
+  anchor: shu.5.p13
+  at: 113
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p13.h10
+  anchor: shu.5.p13
+  at: 124
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.5.p13.h11
+  anchor: shu.5.p13
+  at: 129
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p13.a2
   anchor: shu.5.p13
   at: 142
   length: 0
   type: pei
   text: 郭沖《四事》曰：亮出祁山，隴西、南安二郡應時降，圍天水，拔冀城，虜姜維，驅略士女數千人還蜀。人皆賀亮，亮顏色愀然有戚容，謝曰：「普天之下，莫非漢民，國家威力未舉，使百姓困於豺狼之吻。一夫有死，皆亮之罪，以此相賀，能不為愧。」於是蜀人咸知亮有吞魏之志，非惟拓境而已。◇難曰：亮有吞魏之志久矣，不始於此眾人方知也，且於時師出無成，傷缺而反者眾，三郡歸降而不能有。姜維，天水之匹夫耳，獲之則於魏何損？拔西縣千家，不補街亭所喪，以何為功，而蜀人相賀乎？
+- id: shu.5.p13.h12
+  anchor: shu.5.p13
+  at: 247
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p13.a3
   anchor: shu.5.p13
   at: 264
   length: 0
   type: pei
   text: 《漢晉春秋》曰：或勸亮更發兵者，亮曰：「大軍在祁山、箕谷，皆多於賊，而不能破賊、為賊所破者，則此病不在兵少也，在一人耳。今欲減兵省將，明罰思過，校變通之道於將來；若不能然者，雖兵多何益！自今已後，諸有忠慮於國，但勤攻吾之闕，則事可定，賊可死，功可蹻足而待矣。」於是考微勞，甄烈壯，引咎責躬，布所失於天下，厲兵講武，以為後圖，戎士簡練，民忘其敗矣。亮聞孫權破曹休，魏兵東下，關中虛弱。十一月，上言曰：先帝慮漢、賊不兩立，王業不偏安，故託臣以討賊也。以先帝之明，量臣之才，故知臣伐賊才弱敵強也；然不伐賊，王業亦亡，惟坐待亡，孰與伐之？是故託臣而弗疑也。臣受命之日，寢不安席，食不甘味，思惟北征，宜先入南，故五月渡瀘，深入不毛，並日而食。臣非不自惜也，顧王業不得偏全於蜀都，故冒危難以奉先帝之遺意也，而議者謂為非計。今賊適疲於西，又務於東，兵法乘勞，此進趨之時也。謹陳其事如左：高帝明並日月，謀臣淵深，然涉險被創，危然後安。今陛下未及高帝，謀臣不如良、平，而欲以長計取勝，坐定天下，此臣之未解一也。劉繇、王朗各據州郡，論安言計，動引聖人，群疑滿腹，眾難塞胸，今歲不戰，明年不徵，使孫策坐大，遂並江東，此臣之未解二也。曹操智計殊絕於人，其用兵也，彷彿孫、吳，然困於南陽，險於烏巢，危於祁連，偪於黎陽，幾敗北山，殆死潼關，然後偽定一時耳，況臣才弱，而欲以不危而定之，此臣之未解三也。曹操五攻昌霸不下，四越巢湖不成，任用李服而李服圖之，委夏侯而夏侯敗亡，先帝每稱操為能，猶有此失，況臣駑下，何能必勝？此臣之未解四也。自臣到漢中，中間期年耳，然喪趙雲、陽群、馬玉、閻芝、丁立、白壽、劉郃、鄧銅等及曲長屯將七十餘人，突將無前。賨、叟、青羌散騎、武騎一千餘人，此皆數十年之內所糾合四方之精銳，非一州之所有，若復數年，則損三分之二也，當何以圖敵？此臣之未解五也。今民窮兵疲，而事不可息，事不可息，則住與行勞費正等，而不及今圖之，欲以一州之地與賊持久，此臣之未解六也。夫難平者，事也。昔先帝敗軍於楚，當此時，曹操拊手，謂天下以定。然後先帝東連吳、越，西取巴、蜀，舉兵北征，夏侯授首，此操之失計而漢事將成也。然後吳更違盟，關羽毀敗，秭歸蹉跌，曹丕稱帝。凡事如是，難可逆見。臣鞠躬儘力，死而後已，至於成敗利鈍，非臣之明所能逆睹也。於是有散關之役。此表，亮集所無，出張儼《默記》。
+- id: shu.5.p14.h1
+  anchor: shu.5.p14
+  at: 2
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p14.h2
+  anchor: shu.5.p14
+  at: 12
+  length: 2
+  type: person
+  person_id: caozhen
+  text: 曹真
+  via: primary
+- id: shu.5.p14.h3
+  anchor: shu.5.p14
+  at: 17
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p14.h4
+  anchor: shu.5.p14
+  at: 31
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p14.h5
+  anchor: shu.5.p14
+  at: 33
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p14.t1
   anchor: shu.5.p14
   at: 43
@@ -217,6 +1297,38 @@ annotations:
   era: 建興
   era_year: 7
   reasoning: 承前文年號「建興」推得，「七年」 = 建興7年 = AD 229
+- id: shu.5.p14.h6
+  anchor: shu.5.p14
+  at: 46
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p14.h7
+  anchor: shu.5.p14
+  at: 62
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: shu.5.p14.h8
+  anchor: shu.5.p14
+  at: 70
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p14.h9
+  anchor: shu.5.p14
+  at: 88
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p14.t2
   anchor: shu.5.p14
   at: 122
@@ -229,6 +1341,14 @@ annotations:
   era: 建興
   era_year: 6
   reasoning: 「前年」 = 当前年 建興7年 (AD 229) 之前一年 = AD 228（往回引述，章節時間軸不變）
+- id: shu.5.p14.h10
+  anchor: shu.5.p14
+  at: 137
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
 - id: shu.5.p14.a1
   anchor: shu.5.p14
   at: 212
@@ -247,12 +1367,28 @@ annotations:
   era: 建興
   era_year: 9
   reasoning: 承前文年號「建興」推得，「九年」 = 建興9年 = AD 231
+- id: shu.5.p15.h1
+  anchor: shu.5.p15
+  at: 3
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p15.a1
   anchor: shu.5.p15
   at: 14
   length: 0
   type: pei
   text: 《漢晉春秋》曰：亮圍祁山，招鮮卑軻比能，比能等至故北地石城以應亮。於是魏大司馬曹真有疾，司馬宣王自荊州入朝，魏明帝曰：「西方事重，非君莫可付者。」乃使西屯長安，督張郃、費曜、戴陵、郭淮等。宣王使曜、陵留精兵四千守上邽，餘眾悉出，西救祁山。郃欲分兵駐雍、郿，宣王曰：「料前軍能獨當之者，將軍言是也；若不能當而分為前後，此楚之三軍所以為黥布禽也。」遂進。亮分兵留攻，自逆宣王於上邽。郭淮、費曜等徼亮，亮破之，因大芟刈其麥，與宣王遇於上邽之東，斂兵依險，軍不得交，亮引而還。宣王尋亮至於鹵城。張郃曰：「彼遠來逆我，請戰不得，謂我利在不戰，欲以長計制之也。且祁山知大軍以在近，人情自固，可止屯於此，分為奇兵，示出其後，不宜進前而不敢偪，坐失民望也。今亮縣軍食少，亦行去矣。」宣王不從，故尋亮。既至，又登山掘營，不肯戰。賈栩、魏平數請戰，因曰：「公畏蜀如虎，奈天下笑何！」宣王病之。諸將咸請戰。五月辛巳，乃使張郃攻無當監何平於南圍，自案中道向亮。亮使魏延、高翔、吳班赴拒，大破之，獲甲首三千級，玄鎧五千領，角弩三千一百張，宣王還保營。
+- id: shu.5.p15.h2
+  anchor: shu.5.p15
+  at: 22
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
 - id: shu.5.p15.a2
   anchor: shu.5.p15
   at: 31
@@ -271,6 +1407,22 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
+- id: shu.5.p16.h1
+  anchor: shu.5.p16
+  at: 5
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p16.h2
+  anchor: shu.5.p16
+  at: 36
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p16.a1
   anchor: shu.5.p16
   at: 84
@@ -289,6 +1441,14 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 「其年」 = 当前年 建興12年 (AD 234)
+- id: shu.5.p16.h3
+  anchor: shu.5.p16
+  at: 95
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p16.a2
   anchor: shu.5.p16
   at: 109
@@ -301,12 +1461,78 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：楊儀等整軍而出，百姓奔告宣王，宣王追焉。姜維令儀反旗鳴鼓，若將向宣王者，宣王乃退，不敢偪。於是儀結陳而去，入谷然後發喪。宣王之退也，百姓為之諺曰：「死諸葛走生仲達。」或以告宣王，宣王曰：「吾能料生，不便料死也。」
+- id: shu.5.p17.h1
+  anchor: shu.5.p17
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p18.h1
+  anchor: shu.5.p18
+  at: 125
+  length: 2
+  type: person
+  person_id: duqiong
+  text: 杜瓊
+  via: primary
+- id: shu.5.p19.h1
+  anchor: shu.5.p19
+  at: 2
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p19.h2
+  anchor: shu.5.p19
+  at: 4
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: shu.5.p19.h3
+  anchor: shu.5.p19
+  at: 5
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- anchor: shu.5.p19
+  at: 86
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.97
+  reasoning: 亮自述家事表「以負陛下」上於後主劉禪。
+  id: shu.5.p19.h4
+- id: shu.5.p20.h1
+  anchor: shu.5.p20
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p20.a1
   anchor: shu.5.p20
   at: 38
   length: 0
   type: pei
   text: 《魏氏春秋》曰：亮作八務、七戒、六恐、五懼，皆有條章，以訓厲臣子。又損益連弩，謂之元戎，以鐵為矢，矢長八寸，一弩十矢俱發。《亮集》載作木牛流馬法曰：「木牛者，方腹曲頭，一腳四足，頭入領中，舌著於腹。載多而行少，宜可大用，不可小使；特行者數十里，群行者二十里也。曲者為牛頭，雙者為牛腳，橫者為牛領，轉者為牛足，覆者為牛背，方者為牛腹，垂者為牛舌，曲者為牛肋，刻者為牛齒，立者為牛角，細者為牛鞅，攝者為牛鞦軸。牛仰雙轅，人行六尺，牛行四步。載一歲糧，日行二十里，而人不大勞。流馬尺寸之數，肋長三尺五寸，廣三寸，厚二寸二分，左右同。前軸孔分墨去頭四寸，徑中二寸。前腳孔分墨二寸，去前軸孔四寸五分，廣一寸。前杠孔去前腳孔分墨二寸七分，孔長二寸，廣一寸。後軸孔去前杠分墨一尺五分，大小與前同。後腳孔分墨去後軸孔三寸五分，大小與前同。後杠孔去後腳孔分墨二寸七分，後載剋去後杠孔分墨四寸五分。前杠長一尺八寸，廣二寸，厚一寸五分。後杠與等版方囊二枚，厚八分，長二尺七寸，高一尺六寸五分，廣一尺六寸，每枚受米二斛三斗。從上杠孔去肋下七寸，前後同。上杠孔去下杠孔分墨一尺三寸，孔長一寸五分，廣七分，八孔同。前後四腳，廣二寸，厚一寸五分。形制如象，靬長四寸，徑面四寸三分。孔徑中三腳杠，長二尺一寸，廣一寸五分，厚一寸四分，同杠耳。」
+- id: shu.5.p20.h2
+  anchor: shu.5.p20
+  at: 38
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p21.t1
   anchor: shu.5.p21
   at: 0
@@ -319,24 +1545,360 @@ annotations:
   era: 景耀
   era_year: 6
   reasoning: 原文「景耀六年」直接出现年号；解析為 AD 263
+- id: shu.5.p21.h1
+  anchor: shu.5.p21
+  at: 8
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p21.a1
   anchor: shu.5.p21
   at: 15
   length: 0
   type: pei
   text: 《襄陽記》曰：亮初亡，所在各求為立廟，朝議以禮秩不聽，百姓遂因時節私祭之於道陌上。言事者或以為可聽立廟於成都者，後主不從。步兵校尉習隆、中書郎向充等共上表曰：「臣聞周人懷召伯之德，甘棠為之不伐；越王思范蠡之功，鑄金以存其像。自漢興以來，小善小德而圖形立廟者多矣。況亮德范遐邇，勛蓋季世，王室之不壞，實斯人是賴，而蒸嘗止於私門，廟像闕而莫立，使百姓巷祭，戎夷野祀，非所以存德念功，述追在昔者也。今若盡順民心，則瀆而無典，建之京師，又偪宗廟，此聖懷所以惟疑也。臣愚以為宜因近其墓，立之於沔陽，使所親屬以時賜祭，凡其臣故吏欲奉祠者，皆限至廟。斷其私祀，以崇正禮。」於是始從之。
+- id: shu.5.p21.h2
+  anchor: shu.5.p21
+  at: 32
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p21.h3
+  anchor: shu.5.p21
+  at: 42
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p21.h4
+  anchor: shu.5.p21
+  at: 52
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p21.h5
+  anchor: shu.5.p21
+  at: 63
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p21.a2
   anchor: shu.5.p21
   at: 70
   length: 0
   type: pei
   text: 《襄陽記》曰：黃承彥者，高爽開列，為沔南名士，謂諸葛孔明曰：「聞君擇婦；身有醜女，黃頭黑色，而才堪相配。」孔明許，即載送之。時人以為笑樂，鄉里為之諺曰：「莫作孔明擇婦，正得阿承醜女。」
+- id: shu.5.p27.h1
+  anchor: shu.5.p27
+  at: 6
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p32.h1
+  anchor: shu.5.p32
+  at: 43
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.5.p32.h2
+  anchor: shu.5.p32
+  at: 49
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.5.p33.h1
+  anchor: shu.5.p33
+  at: 0
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h2
+  anchor: shu.5.p33
+  at: 56
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: shu.5.p33.h3
+  anchor: shu.5.p33
+  at: 59
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h4
+  anchor: shu.5.p33
+  at: 67
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h5
+  anchor: shu.5.p33
+  at: 74
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h6
+  anchor: shu.5.p33
+  at: 77
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h7
+  anchor: shu.5.p33
+  at: 111
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h8
+  anchor: shu.5.p33
+  at: 123
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h9
+  anchor: shu.5.p33
+  at: 137
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p33.h10
+  anchor: shu.5.p33
+  at: 145
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.5.p33.h11
+  anchor: shu.5.p33
+  at: 150
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h12
+  anchor: shu.5.p33
+  at: 154
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h13
+  anchor: shu.5.p33
+  at: 170
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h14
+  anchor: shu.5.p33
+  at: 172
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h15
+  anchor: shu.5.p33
+  at: 197
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h16
+  anchor: shu.5.p33
+  at: 210
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h17
+  anchor: shu.5.p33
+  at: 217
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h18
+  anchor: shu.5.p33
+  at: 223
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p33.h19
+  anchor: shu.5.p33
+  at: 234
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: shu.5.p33.h20
+  anchor: shu.5.p33
+  at: 248
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p34.h1
+  anchor: shu.5.p34
+  at: 5
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p34.h2
+  anchor: shu.5.p34
+  at: 71
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p34.h3
+  anchor: shu.5.p34
+  at: 157
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p35.h1
+  anchor: shu.5.p35
+  at: 6
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p35.h2
+  anchor: shu.5.p35
+  at: 49
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p35.h3
+  anchor: shu.5.p35
+  at: 114
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p35.h4
+  anchor: shu.5.p35
+  at: 187
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p37.h1
+  anchor: shu.5.p37
+  at: 5
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p37.h2
+  anchor: shu.5.p37
+  at: 47
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p37.h3
+  anchor: shu.5.p37
+  at: 59
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p37.h4
+  anchor: shu.5.p37
+  at: 66
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p37.h5
+  anchor: shu.5.p37
+  at: 88
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p37.a1
   anchor: shu.5.p37
   at: 93
   length: 0
   type: pei
   text: 亮與兄瑾書曰：「喬本當還成都，今諸將子弟皆得傳運，思惟宜同榮辱。今使喬督五六百兵，與諸子弟傳於谷中。」書在亮集。
+- id: shu.5.p37.h6
+  anchor: shu.5.p37
+  at: 126
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: shu.5.p37.h7
+  anchor: shu.5.p37
+  at: 140
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p38.t1
   anchor: shu.5.p38
   at: 5
@@ -349,6 +1911,14 @@ annotations:
   era: 建興
   era_year: 12
   reasoning: 原文「建興十二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）
+- id: shu.5.p38.h1
+  anchor: shu.5.p38
+  at: 11
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p38.t2
   anchor: shu.5.p38
   at: 60
@@ -359,6 +1929,14 @@ annotations:
   resolution: next_year
   year_ad: 264
   reasoning: 「明年」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）
+- id: shu.5.p38.h2
+  anchor: shu.5.p38
+  at: 103
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p38.t3
   anchor: shu.5.p38
   at: 157
@@ -371,6 +1949,14 @@ annotations:
   era: 景耀
   era_year: 4
   reasoning: 原文「景耀四年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）
+- id: shu.5.p38.h3
+  anchor: shu.5.p38
+  at: 196
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: shu.5.p38.a1
   anchor: shu.5.p38
   at: 296
@@ -383,12 +1969,76 @@ annotations:
   length: 0
   type: pei
   text: 案《諸葛氏譜》云：京字行宗。《晉泰始起居注》載詔曰：「諸葛亮在蜀，盡其心力，其子瞻臨難而死義，天下之善一也。」其孫京，隨才署吏，後為郿令。尚書僕射山濤《啟事》曰：「郿令諸葛京，祖父亮，遇漢亂分隔，父子在蜀，雖不達天命，要為盡心所事。京治郿自復有稱，臣以為宜以補東宮舍人，以明事人之理，副梁、益之論。」京位至江州刺史。
+- id: shu.5.p39.h1
+  anchor: shu.5.p39
+  at: 6
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p39.h2
+  anchor: shu.5.p39
+  at: 13
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.5.p39.h3
+  anchor: shu.5.p39
+  at: 44
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.5.p39.a1
   anchor: shu.5.p39
   at: 81
   length: 0
   type: pei
   text: 案《晉百官表》：董厥字龔襲，亦義陽人。建字長元。
+- id: shu.5.p39.h4
+  anchor: shu.5.p39
+  at: 97
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.5.p39.h5
+  anchor: shu.5.p39
+  at: 107
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.5.p39.h6
+  anchor: shu.5.p39
+  at: 109
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: shu.5.p39.h7
+  anchor: shu.5.p39
+  at: 119
+  length: 2
+  type: person
+  person_id: zongyu
+  text: 宗預
+  via: primary
+- id: shu.5.p39.h8
+  anchor: shu.5.p39
+  at: 161
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: shu.5.p39.a2
   anchor: shu.5.p39
   at: 188
@@ -411,3 +2061,19 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：樊建為給事中，晉武帝問諸葛亮之治國，建對曰：「聞惡必改，而不矜過，賞罰之信，足感神明。」帝曰：「善哉！使我得此人以自輔，豈有今日之勞乎！」建稽首曰：「臣竊聞天下之論，皆謂鄧艾見枉，陛下知而不理，此豈馮唐之所謂『雖得頗、牧而不能用』者乎！」帝笑曰：「吾方欲明之，卿言起我意。」於是發詔治艾焉。
+- id: shu.5.p40.h1
+  anchor: shu.5.p40
+  at: 3
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.5.p40.h2
+  anchor: shu.5.p40
+  at: 25
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry

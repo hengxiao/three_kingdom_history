@@ -2,15 +2,151 @@ chapter: wei.26
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷26
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: a999e29ef85c70f4c50bd22a0b39e61aecef35577435db37eeef519827757531
 annotations:
+- id: wei.26.p1.h1
+  anchor: wei.26.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: wei.26.p1.h2
+  anchor: wei.26.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.26.p1.h3
+  anchor: wei.26.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: qianzhao
+  text: 牽招
+  via: primary
+- id: wei.26.p1.h4
+  anchor: wei.26.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
+- id: wei.26.p2.h1
+  anchor: wei.26.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: wei.26.p3.h1
+  anchor: wei.26.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p3.h2
+  anchor: wei.26.p3
+  at: 28
+  length: 2
+  type: person
+  person_id: caohong
+  text: 曹洪
+  via: primary
+- id: wei.26.p3.h3
+  anchor: wei.26.p3
+  at: 61
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p3.h4
+  anchor: wei.26.p3
+  at: 64
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p3.h5
+  anchor: wei.26.p3
+  at: 82
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p3.h6
+  anchor: wei.26.p3
+  at: 109
+  length: 2
+  type: person
+  person_id: xunyu
+  text: 荀彧
+  via: primary
+- id: wei.26.p3.h7
+  anchor: wei.26.p3
+  at: 114
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: wei.26.p3.h8
+  anchor: wei.26.p3
+  at: 149
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p3.h9
+  anchor: wei.26.p3
+  at: 201
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.26.p3.a1
   anchor: wei.26.p3
   at: 232
   length: 0
   type: pei
   text: 臣松之以爲楊公積德之門，身爲名臣，縱有愆負，猶宜保祐，況淫刑所濫，而可加其楚掠乎？若理應考訊，荀、孔二賢豈其妄有相請屬哉？寵以此爲能，酷吏之用心耳。雖有後善，何解前虐？
+- id: wei.26.p4.h1
+  anchor: wei.26.p4
+  at: 1
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.26.p4.h2
+  anchor: wei.26.p4
+  at: 11
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.26.p4.h3
+  anchor: wei.26.p4
+  at: 30
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.26.p5.t1
   anchor: wei.26.p5
   at: 0
@@ -23,6 +159,110 @@ annotations:
   era: 建安
   era_year: 13
   reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208
+- id: wei.26.p5.h1
+  anchor: wei.26.p5
+  at: 7
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p5.h2
+  anchor: wei.26.p5
+  at: 29
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.26.p5.h3
+  anchor: wei.26.p5
+  at: 52
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wei.26.p5.h4
+  anchor: wei.26.p5
+  at: 64
+  length: 2
+  type: person
+  person_id: caoren
+  text: 曹仁
+  via: primary
+- id: wei.26.p5.h5
+  anchor: wei.26.p5
+  at: 76
+  length: 2
+  type: person
+  person_id: yujin
+  text: 于禁
+  via: primary
+- id: wei.26.p5.h6
+  anchor: wei.26.p5
+  at: 86
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h7
+  anchor: wei.26.p5
+  at: 90
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h8
+  anchor: wei.26.p5
+  at: 129
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h9
+  anchor: wei.26.p5
+  at: 165
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h10
+  anchor: wei.26.p5
+  at: 184
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h11
+  anchor: wei.26.p5
+  at: 244
+  length: 2
+  type: person
+  person_id: xuhuang
+  text: 徐晃
+  via: primary
+- id: wei.26.p5.h12
+  anchor: wei.26.p5
+  at: 256
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wei.26.p5.h13
+  anchor: wei.26.p5
+  at: 267
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.26.p5.t2
   anchor: wei.26.p5
   at: 376
@@ -47,6 +287,14 @@ annotations:
   era: 黃初
   era_year: 5
   reasoning: 承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224
+- id: wei.26.p6.h1
+  anchor: wei.26.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.26.p6.t1
   anchor: wei.26.p6
   at: 11
@@ -71,6 +319,38 @@ annotations:
   era: 太和
   era_year: 3
   reasoning: 承前文年號「太和」推得，「三年」 = 太和3年 = AD 229
+- id: wei.26.p6.h2
+  anchor: wei.26.p6
+  at: 41
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.26.p6.h3
+  anchor: wei.26.p6
+  at: 59
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.26.p6.h4
+  anchor: wei.26.p6
+  at: 69
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wei.26.p6.h5
+  anchor: wei.26.p6
+  at: 91
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
 - id: wei.26.p6.t3
   anchor: wei.26.p6
   at: 194
@@ -95,6 +375,22 @@ annotations:
   era: 太和
   era_year: 4
   reasoning: 承前文年號「太和」推得，「四年」 = 太和4年 = AD 230
+- id: wei.26.p6.h6
+  anchor: wei.26.p6
+  at: 278
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.26.p6.h7
+  anchor: wei.26.p6
+  at: 355
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wei.26.p6.t5
   anchor: wei.26.p6
   at: 371
@@ -107,6 +403,14 @@ annotations:
   era: 太和
   era_year: 5
   reasoning: 「明年」 = 当前年 太和4年 (AD 230) 之次年 = AD 231
+- id: wei.26.p6.h8
+  anchor: wei.26.p6
+  at: 582
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.26.p6.a1
   anchor: wei.26.p6
   at: 600
@@ -125,6 +429,22 @@ annotations:
   era: 太和
   era_year: 6
   reasoning: 「明年」 = 当前年 太和5年 (AD 231) 之次年 = AD 232
+- id: wei.26.p6.h9
+  anchor: wei.26.p6
+  at: 659
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wei.26.p6.h10
+  anchor: wei.26.p6
+  at: 747
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wei.26.p7.t1
   anchor: wei.26.p7
   at: 0
@@ -137,6 +457,14 @@ annotations:
   era: 青龍
   era_year: 1
   reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233
+- id: wei.26.p7.h1
+  anchor: wei.26.p7
+  at: 115
+  length: 2
+  type: person
+  person_id: jiangji
+  text: 蔣濟
+  via: primary
 - id: wei.26.p7.t2
   anchor: wei.26.p7
   at: 284
@@ -149,6 +477,30 @@ annotations:
   era: 青龍
   era_year: 1
   reasoning: 「其年」 = 当前年 青龍元年 (AD 233)
+- id: wei.26.p7.h2
+  anchor: wei.26.p7
+  at: 287
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.26.p7.h3
+  anchor: wei.26.p7
+  at: 317
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.26.p7.h4
+  anchor: wei.26.p7
+  at: 379
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.26.p7.t3
   anchor: wei.26.p7
   at: 406
@@ -161,6 +513,22 @@ annotations:
   era: 青龍
   era_year: 2
   reasoning: 「明年」 = 当前年 青龍元年 (AD 233) 之次年 = AD 234
+- id: wei.26.p7.h5
+  anchor: wei.26.p7
+  at: 409
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wei.26.p7.h6
+  anchor: wei.26.p7
+  at: 457
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.26.p7.t4
   anchor: wei.26.p7
   at: 469
@@ -173,6 +541,14 @@ annotations:
   era: 青龍
   era_year: 3
   reasoning: 承前文年號「青龍」推得，「三年」 = 青龍3年 = AD 235
+- id: wei.26.p7.h7
+  anchor: wei.26.p7
+  at: 473
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wei.26.p7.t5
   anchor: wei.26.p7
   at: 485
@@ -217,12 +593,164 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：偉字公衡。偉子長武，有寵風，年二十四，爲大將軍掾。高貴鄉公之難，以掾守閶闔掖門，司馬文王弟安陽亭侯幹欲入。幹妃，偉妹也。長武謂幹曰：「此門近，公且來，無有入者，可從東掖門。」幹遂從之。文王問幹入何遲，幹言其故。參軍王羨亦不得入，恨之。旣而羨因王左右啟王，滿掾斷門不內人，宜推劾。壽春之役，偉從文王至許，以疾不進。子從，求還省疾，事定乃從歸，由此內見恨。收長武考死杖下，偉免爲庶人。時人冤之。偉弟子奮，晉元康中至尚書令、司隷校尉。寵、偉、長武、奮，皆長八尺。荀綽《冀州記》曰：奮性清平，有識檢。《晉諸公贊》曰：奮體量通雅，有寵風也。
+- id: wei.26.p9.h1
+  anchor: wei.26.p9
+  at: 0
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.26.p9.h2
+  anchor: wei.26.p9
+  at: 13
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.26.p9.h3
+  anchor: wei.26.p9
+  at: 17
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.26.p9.h4
+  anchor: wei.26.p9
+  at: 30
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p9.h5
+  anchor: wei.26.p9
+  at: 32
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p9.h6
+  anchor: wei.26.p9
+  at: 37
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p9.h7
+  anchor: wei.26.p9
+  at: 51
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p10.h1
+  anchor: wei.26.p10
+  at: 0
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.26.p10.h2
+  anchor: wei.26.p10
+  at: 10
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.26.p10.h3
+  anchor: wei.26.p10
+  at: 15
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.26.p10.h4
+  anchor: wei.26.p10
+  at: 18
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.26.p10.h5
+  anchor: wei.26.p10
+  at: 98
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.26.p10.h6
+  anchor: wei.26.p10
+  at: 111
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.26.p10.h7
+  anchor: wei.26.p10
+  at: 188
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p12.h1
+  anchor: wei.26.p12
+  at: 105
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p13.h1
+  anchor: wei.26.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.26.p13.h2
+  anchor: wei.26.p13
+  at: 25
+  length: 2
+  type: person
+  person_id: qianzhao
+  text: 牽招
+  via: primary
 - id: wei.26.p14.a1
   anchor: wei.26.p14
   at: 31
   length: 0
   type: pei
   text: 臣松之案：曁字休先，熒陽人，事見〈劉曄傳〉。曁子肇，晉荊州刺史。山濤啟事稱肇有才能。肇子潭字道元，次歆字公嗣，潭子彧字長文，次經字仲武，皆見《潘岳集》。
+- id: wei.26.p15.h1
+  anchor: wei.26.p15
+  at: 1
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.26.p15.h2
+  anchor: wei.26.p15
+  at: 15
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
 - id: wei.26.p16.a1
   anchor: wei.26.p16
   at: 151
@@ -253,6 +781,54 @@ annotations:
   length: 0
   type: pei
   text: 徐邈傳
+- id: wei.26.p18.h1
+  anchor: wei.26.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: qianzhao
+  text: 牽招
+  via: primary
+- id: wei.26.p19.h1
+  anchor: wei.26.p19
+  at: 3
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.26.p19.h2
+  anchor: wei.26.p19
+  at: 19
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.26.p19.h3
+  anchor: wei.26.p19
+  at: 31
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.26.p19.h4
+  anchor: wei.26.p19
+  at: 41
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.26.p19.h5
+  anchor: wei.26.p19
+  at: 46
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.26.p19.t1
   anchor: wei.26.p19
   at: 50
@@ -265,6 +841,94 @@ annotations:
   era: 建安
   era_year: 9
   reasoning: 原文「建安九年」直接出现年号；解析為 AD 204（回溯前事，不推進章節時間軸）
+- id: wei.26.p19.h6
+  anchor: wei.26.p19
+  at: 55
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p19.h7
+  anchor: wei.26.p19
+  at: 163
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p19.h8
+  anchor: wei.26.p19
+  at: 166
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p20.h1
+  anchor: wei.26.p20
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p20.h2
+  anchor: wei.26.p20
+  at: 18
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p20.h3
+  anchor: wei.26.p20
+  at: 241
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
+- id: wei.26.p21.h1
+  anchor: wei.26.p21
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p21.h2
+  anchor: wei.26.p21
+  at: 56
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p21.h3
+  anchor: wei.26.p21
+  at: 71
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p22.h1
+  anchor: wei.26.p22
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.26.p24.h1
+  anchor: wei.26.p24
+  at: 0
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.26.p24.t1
   anchor: wei.26.p24
   at: 11
@@ -277,18 +941,162 @@ annotations:
   era: 太和
   era_year: 2
   reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- id: wei.26.p24.h2
+  anchor: wei.26.p24
+  at: 21
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.26.p24.h3
+  anchor: wei.26.p24
+  at: 182
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wei.26.p24.h4
+  anchor: wei.26.p24
+  at: 217
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wei.26.p24.h5
+  anchor: wei.26.p24
+  at: 397
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.26.p25.h1
+  anchor: wei.26.p25
+  at: 22
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
 - id: wei.26.p25.a1
   anchor: wei.26.p25
   at: 51
   length: 0
   type: pei
   text: 案《晉書》：弘後爲揚州、涼州刺史，以果烈死事於邊。嘉子秀，字成叔。荀綽《冀州記》曰：秀有儁才，性豪俠有氣，弱冠得美名。於太康中爲衞瓘、崔洪、石崇等所提攜，以新安令博士爲司空從事中郎。與帝舅黃門侍郎王愷素相輕侮。愷諷司隷荀愷，令都官誣奏秀夜在道中載高平國守士田興妻。秀即表訴被誣陷之由，論愷穢行，文辭尤厲。于時朝臣雖多證明，秀名譽由是而損。後張華請爲長史，稍遷至尚書。河間王以秀爲平北將軍，假節，在馮翊遇害。世人玩其辭賦，惜其材幹。
+- id: wei.26.p26.h1
+  anchor: wei.26.p26
+  at: 0
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary
 - id: wei.26.p26.a1
   anchor: wei.26.p26
   at: 13
   length: 0
   type: pei
   text: 案〈郭氏譜〉：淮祖全，大司農；父縕，鴈門太守。
+- id: wei.26.p26.h2
+  anchor: wei.26.p26
+  at: 26
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.26.p26.h3
+  anchor: wei.26.p26
+  at: 57
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p26.h4
+  anchor: wei.26.p26
+  at: 66
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
+- id: wei.26.p26.h5
+  anchor: wei.26.p26
+  at: 70
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.26.p26.h6
+  anchor: wei.26.p26
+  at: 111
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: wei.26.p26.h7
+  anchor: wei.26.p26
+  at: 126
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p26.h8
+  anchor: wei.26.p26
+  at: 142
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p26.h9
+  anchor: wei.26.p26
+  at: 191
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p26.h10
+  anchor: wei.26.p26
+  at: 200
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.26.p26.h11
+  anchor: wei.26.p26
+  at: 219
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.26.p26.h12
+  anchor: wei.26.p26
+  at: 235
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.26.p26.h13
+  anchor: wei.26.p26
+  at: 265
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
 - id: wei.26.p27.t1
   anchor: wei.26.p27
   at: 0
@@ -301,6 +1109,14 @@ annotations:
   era: 黃初
   era_year: 1
   reasoning: 原文「黃初元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
+- id: wei.26.p27.h1
+  anchor: wei.26.p27
+  at: 8
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.26.p28.t1
   anchor: wei.26.p28
   at: 0
@@ -313,6 +1129,22 @@ annotations:
   era: 太和
   era_year: 2
   reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- id: wei.26.p28.h1
+  anchor: wei.26.p28
+  at: 7
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wei.26.p28.h2
+  anchor: wei.26.p28
+  at: 30
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
 - id: wei.26.p28.t2
   anchor: wei.26.p28
   at: 62
@@ -337,6 +1169,46 @@ annotations:
   era: 青龍
   era_year: 2
   reasoning: 原文「青龍二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）
+- id: wei.26.p28.h3
+  anchor: wei.26.p28
+  at: 121
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wei.26.p28.h4
+  anchor: wei.26.p28
+  at: 146
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wei.26.p28.h5
+  anchor: wei.26.p28
+  at: 169
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wei.26.p28.h6
+  anchor: wei.26.p28
+  at: 229
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: wei.26.p28.h7
+  anchor: wei.26.p28
+  at: 276
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wei.26.p29.t1
   anchor: wei.26.p29
   at: 0
@@ -349,6 +1221,14 @@ annotations:
   era: 正始
   era_year: 1
   reasoning: 原文「正始元年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）
+- id: wei.26.p29.h1
+  anchor: wei.26.p29
+  at: 7
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
 - id: wei.26.p30.t1
   anchor: wei.26.p30
   at: 0
@@ -361,6 +1241,30 @@ annotations:
   era: 嘉平
   era_year: 5
   reasoning: 承前文年號「嘉平」推得，「五年」 = 嘉平5年 = AD 253
+- id: wei.26.p30.h1
+  anchor: wei.26.p30
+  at: 3
+  length: 3
+  type: person
+  person_id: xiahouxuan
+  text: 夏侯玄
+  via: primary
+- id: wei.26.p30.h2
+  anchor: wei.26.p30
+  at: 307
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: wei.26.p30.h3
+  anchor: wei.26.p30
+  at: 329
+  length: 2
+  type: person
+  person_id: liaohua
+  text: 廖化
+  via: primary
 - id: wei.26.p31.t1
   anchor: wei.26.p31
   at: 0
@@ -397,6 +1301,14 @@ annotations:
   era: 嘉平
   era_year: 2
   reasoning: 承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250
+- id: wei.26.p31.h1
+  anchor: wei.26.p31
+  at: 99
+  length: 2
+  type: person
+  person_id: liaohua
+  text: 廖化
+  via: primary
 - id: wei.26.p31.a1
   anchor: wei.26.p31
   at: 167
@@ -421,3 +1333,35 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：淮弟配，字仲南，有重名，位至城陽太守。裴秀、賈充皆配女壻。子展，字泰舒。有器度幹用，歷職著績，終於太僕。次弟豫，字泰寧，相國參軍，知名，早卒。女適王衍。配弟鎮，字季南，謁者僕射。鎮子弈，字泰業。山濤啟事稱弈高簡有雅量，歷位雍州刺史、尚書。
+- id: wei.26.p32.h1
+  anchor: wei.26.p32
+  at: 3
+  length: 2
+  type: person
+  person_id: manchong
+  text: 滿寵
+  via: primary
+- id: wei.26.p32.h2
+  anchor: wei.26.p32
+  at: 15
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
+- id: wei.26.p32.h3
+  anchor: wei.26.p32
+  at: 27
+  length: 2
+  type: person
+  person_id: qianzhao
+  text: 牽招
+  via: primary
+- id: wei.26.p32.h4
+  anchor: wei.26.p32
+  at: 39
+  length: 2
+  type: person
+  person_id: guohuai
+  text: 郭淮
+  via: primary

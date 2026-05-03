@@ -1,0 +1,49 @@
+{
+  "id": "liushao",
+  "primary_name": "劉劭",
+  "courtesy_name": "孔才",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.21",
+      "title": "魏書·王衞二劉傅傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/21.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.22",
+        "chapter_title": "魏書·桓二陈徐卫卢传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.22.p49",
+        "at": 17,
+        "data_url": "data/sanguozhi/wei/22.json",
+        "matched": "劉劭",
+        "snippet": "青龍二年，入爲侍中。先是，散骑常侍劉劭受诏定律，未就。毓上论古今科律之意，以爲法宜一正，不宜有两端，使奸吏得容情。及侍中高堂隆數以宫室事切諫，帝不悦，毓进曰：「臣聞…"
+      },
+      {
+        "chapter_id": "wei.24",
+        "chapter_title": "魏書·韓崔高孫王傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.24.p8",
+        "at": 4,
+        "data_url": "data/sanguozhi/wei/24.json",
+        "matched": "劉劭",
+        "snippet": "散騎常侍劉劭作考課論，制下百僚。林議曰：「案周官考課，其文備矣，自康王以下，遂以陵遲，此即考課之法存乎其人也。及漢之季，其失豈在乎佐吏之職…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

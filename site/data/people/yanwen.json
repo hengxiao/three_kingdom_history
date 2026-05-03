@@ -1,0 +1,50 @@
+{
+  "id": "yanwen",
+  "primary_name": "閻溫",
+  "courtesy_name": "伯儉",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.18",
+      "title": "魏書·二李臧文吕许典二庞阎传",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/18.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p60",
+        "at": 152,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "閻溫",
+        "snippet": "…人，攻冀城，自正月至八月，救兵不至。刺史韋康遣別駕閻溫出，告急於夏侯淵，外圍數重，溫夜從水中潛出。明日，超兵見其跡，遣追獲之。超載溫詣城下，使告城中云：「東方無救。」溫向城大呼曰：…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.25",
+        "chapter_title": "魏書·辛毗楊阜高堂隆傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.25.p11",
+        "at": 218,
+        "data_url": "data/sanguozhi/wei/25.json",
+        "matched": "閻溫",
+        "snippet": "…營，與超接戰，自正月至八月拒守而救兵不至。州遣別駕閻溫循水潛出求救，爲超所殺，於是刺史、太守失色，始有降超之計。阜流涕諫曰：「阜等率父兄子弟以義相勵，有死無二；田單之守，不固於此也…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

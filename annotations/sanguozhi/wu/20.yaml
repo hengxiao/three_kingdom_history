@@ -2,9 +2,73 @@ chapter: wu.20
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷65
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 6617d7056e4f96694220c44ed2b311f0ba93f357542b76da547811e1e16a9dc2
 annotations:
+- id: wu.20.p1.h1
+  anchor: wu.20.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- id: wu.20.p1.h2
+  anchor: wu.20.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: wu.20.p1.h3
+  anchor: wu.20.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
+- id: wu.20.p1.h4
+  anchor: wu.20.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
+- id: wu.20.p2.h1
+  anchor: wu.20.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- id: wu.20.p2.h2
+  anchor: wu.20.p2
+  at: 30
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.20.p2.h3
+  anchor: wu.20.p2
+  at: 36
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
+- id: wu.20.p3.h1
+  anchor: wu.20.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.20.p4.t1
   anchor: wu.20.p4
   at: 0
@@ -23,18 +87,300 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：皓用巫史之言，谓建业宫不利，乃西巡武昌，仍有迁都之意，恐群臣不从，乃大请会，赐将吏。问蕃“射不主皮，为力不同科，其义云何”？蕃思惟未答，即於殿上斩蕃。出登来山，使亲近将（跳）蕃首，作虎跳狼争咋齧之，头皆碎坏，欲以示威，使众不敢犯也。此与本传不同。吴录曰：皓每於会，因酒酣，辄令侍臣嘲谑公卿，以为笑乐。万彧既为左丞相，蕃嘲彧曰：“鱼潜於渊，出水煦沫。何则？物有本性，不可横处非分也。彧出自谿谷，羊质虎皮，虚受光赫之宠，跨越三九之位，犬马犹能识养，将何以报厚施乎！”彧曰：“唐虞之朝无谬举之才，造父之门无驽蹇之质，蕃上诬明选，下讪桢幹，何伤於日月，適多见其不知量耳。”臣松之按本传云丁忠使晋还，皓为大会，於会中杀蕃，检忠从北还在此年之春，彧时尚未为丞相，至秋乃为相耳。吴录所言为乖互不同。
+- id: wu.20.p5.h1
+  anchor: wu.20.p5
+  at: 2
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
+- id: wu.20.p5.h2
+  anchor: wu.20.p5
+  at: 11
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- anchor: wu.20.p5
+  at: 63
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 陸凱上疏為王蕃鳴冤，「陛下忿其苦辭」對孫皓（皓殺王蕃事）。
+  id: wu.20.p5.h3
+- id: wu.20.p6.h1
+  anchor: wu.20.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: wu.20.p6.h2
+  anchor: wu.20.p6
+  at: 12
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.20.p6.h3
+  anchor: wu.20.p6
+  at: 21
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wu.20.p6.h4
+  anchor: wu.20.p6
+  at: 27
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- id: wu.20.p6.h5
+  anchor: wu.20.p6
+  at: 153
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
+- anchor: wu.20.p8
+  at: 115
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 樓玄事，疏中對孫皓「陛下既垂意博古」。
+  id: wu.20.p8.h2
+- id: wu.20.p8.h1
+  anchor: wu.20.p8
+  at: 182
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- anchor: wu.20.p8
+  at: 236
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 同疏對孫皓「乞陛下赦玄前愆」。
+  id: wu.20.p8.h3
 - id: wu.20.p9.a1
   anchor: wu.20.p9
   at: 87
   length: 0
   type: pei
   text: 江表傳曰：皓遣將張奕追賜玄鴆，奕以玄賢者，不忍即宣詔致藥，玄陰知之，謂奕曰：「當早告玄，玄何惜邪？」即服藥死。臣松之以玄之清高，必不以安危易操，无緣驟拜張奕，以虧其節。且祸機既發，豈百拜所免？江表傳所言，於理為長。
+- id: wu.20.p10.h1
+  anchor: wu.20.p10
+  at: 0
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
 - id: wu.20.p10.a1
   anchor: wu.20.p10
   at: 13
   length: 0
   type: pei
   text: 《吳書》曰：邵，賀齊之孫，景之子。
+- id: wu.20.p10.h2
+  anchor: wu.20.p10
+  at: 13
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.20.p10.h3
+  anchor: wu.20.p10
+  at: 35
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- anchor: wu.20.p10
+  at: 51
+  length: 2
+  type: person
+  person_id: sunjin
+  text: 太子
+  via: llm
+  confidence: 0.7
+  reasoning: 「領太子太傅」— 賀邵在孫皓朝為太子太傅；皓太子為孫瑾（建衡元年立），roster 無，置 null。
+  id: wu.20.p10.h4
+- anchor: wu.20.p11
+  at: 41
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 賀邵諫疏對孫皓「陛下以至德淑姿」。
+  id: wu.20.p11.h1
+- anchor: wu.20.p11
+  at: 194
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「陛下處九天之上」。
+  id: wu.20.p11.h2
+- anchor: wu.20.p12
+  at: 77
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 賀邵諫疏對孫皓「至於陛下，嚴刑法以禁直辭」。
+  id: wu.20.p12.h2
+- anchor: wu.20.p12
+  at: 122
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「而陛下求之如忘」。
+  id: wu.20.p12.h3
+- id: wu.20.p12.h1
+  anchor: wu.20.p12
+  at: 137
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- anchor: wu.20.p12
+  at: 191
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「陛下猥發雷霆」。
+  id: wu.20.p12.h4
+- anchor: wu.20.p13
+  at: 29
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 賀邵言何定事疏對孫皓「而陛下愛其佞媚」。
+  id: wu.20.p13.h1
+- anchor: wu.20.p13
+  at: 264
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「願陛下上懼皇天譴告之誚」。
+  id: wu.20.p13.h2
+- anchor: wu.20.p14
+  at: 28
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同段對孫皓「陛下昔韜神光」。
+  id: wu.20.p14.h1
+- anchor: wu.20.p14
+  at: 260
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同段對孫皓「願陛下寬賦除煩」。
+  id: wu.20.p14.h2
+- anchor: wu.20.p15
+  at: 11
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 賀邵疏對孫皓「陛下不恃己之威德」。
+  id: wu.20.p15.h2
+- id: wu.20.p15.h1
+  anchor: wu.20.p15
+  at: 53
+  length: 3
+  type: person
+  person_id: sunquan
+  text: 大皇帝
+  via: chapter_alias
+- anchor: wu.20.p15
+  at: 94
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「至於陛下，陛下宜勉崇德器」第一個。
+  id: wu.20.p15.h3
+- anchor: wu.20.p15
+  at: 97
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓，第二個「陛下」承前。
+  id: wu.20.p15.h4
+- anchor: wu.20.p15
+  at: 290
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 同疏對孫皓「願陛下遠考前事」。
+  id: wu.20.p15.h5
+- id: wu.20.p16.h1
+  anchor: wu.20.p16
+  at: 24
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
 - id: wu.20.p16.t1
   anchor: wu.20.p16
   at: 104
@@ -65,12 +411,72 @@ annotations:
   length: 0
   type: pei
   text: 邵子循，字彦先。虞预《晋书》曰：循丁家祸，流放海滨，吴平，还乡里。节操高厉，童齔不群，言行举动，必以礼让。好学博闻，尤善三礼。举秀子，除阳羡、武康令。顾荣、陆机、陆云表荐循曰：“伏见吴兴武康令贺循德量邃茂，才鉴清远，服膺道素，风操凝峻，历践三城，刑政肃穆，守职下县，编名凡萃，出自新邦，朝无知己，恪居遐外，志不自营，年时倏忽，而邈无阶绪，实州党愚智所为怅然。臣等并以凡才，累授饰进，被服恩泽，忝豫朝末，知良士后时，而守局无言，惧有蔽贤之咎，是以不胜愚管，谨冒死表闻。”久之，召为太子舍人。石冰破扬州，循亦合众，事平，杜门不出。陈敏作乱，以循为丹杨内史，循称疾固辞，敏不敢逼。于时江东豪右无不受敏爵位，惟循与同郡硃诞不挂贼网。后除吴国内史，不就。元皇帝为镇东将军，请循为军司马，帝为晋王，以循为中书令，固让不受，转太常，领太子太傅。时朝廷初建，动有疑议，宗庙制度皆循所定，朝野谘询，为一时儒宗。年六十，太興二年卒。追赠司空，谥曰穆。循诸所著论，并传於世。子隰，临海太守。
+- id: wu.20.p17.h1
+  anchor: wu.20.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
 - id: wu.20.p17.a1
   anchor: wu.20.p17
   at: 13
   length: 0
   type: pei
   text: 裴松之曰：曜本名昭，史爲晉諱，改之。
+- anchor: wu.20.p17
+  at: 37
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「遷太子中庶子。時蔡穎亦在東宮」— 韋曜為太子中庶子，下文明點「太子和」，太子即孫和。
+  id: wu.20.p17.h2
+- anchor: wu.20.p17
+  at: 56
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子和以為無益」— 文中明點「和」，即孫和。
+  id: wu.20.p17.h3
+- id: wu.20.p22.h1
+  anchor: wu.20.p22
+  at: 10
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.20.p22.h2
+  anchor: wu.20.p22
+  at: 15
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.20.p22.h3
+  anchor: wu.20.p22
+  at: 45
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.20.p23.h1
+  anchor: wu.20.p23
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.20.p23.t1
   anchor: wu.20.p23
   at: 332
@@ -95,6 +501,50 @@ annotations:
   era: 鳳凰
   era_year: 2
   reasoning: 原文「鳳凰二年」直接出现年号；解析為 AD 273（回溯前事，不推進章節時間軸）
+- anchor: wu.20.p27
+  at: 61
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 華覈為韋曜上疏（孫皓鳳凰二年），對孫皓「敷宣陛下大舜之美」。
+  id: wu.20.p27.h1
+- id: wu.20.p28.h1
+  anchor: wu.20.p28
+  at: 106
+  length: 2
+  type: person
+  person_id: liuzhen
+  text: 劉珍
+  via: primary
+- id: wu.20.p31.h1
+  anchor: wu.20.p31
+  at: 0
+  length: 2
+  type: person
+  person_id: huahe
+  text: 華覈
+  via: primary
+- anchor: wu.20.p31
+  at: 140
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 華覈報蜀亡疏（炎興元年/263），對孫皓「陛下聖仁」。
+  id: wu.20.p31.h2
+- id: wu.20.p32.h1
+  anchor: wu.20.p32
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.20.p32.t1
   anchor: wu.20.p32
   at: 11
@@ -107,6 +557,14 @@ annotations:
   era: 寶鼎
   era_year: 2
   reasoning: 原文「寶鼎二年」直接出现年号；解析為 AD 267（回溯前事，不推進章節時間軸）
+- id: wu.20.p34.h1
+  anchor: wu.20.p34
+  at: 121
+  length: 3
+  type: person
+  person_id: sunquan
+  text: 大皇帝
+  via: chapter_alias
 - id: wu.20.p35.t1
   anchor: wu.20.p35
   at: 340
@@ -121,6 +579,16 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 天冊元年 (AD 275)，月份「六月」
+- anchor: wu.20.p37
+  at: 160
+  length: 2
+  type: person
+  person_id: sunhao
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 華覈論農儲疏對孫皓「不能為陛下計明矣」。
+  id: wu.20.p37.h1
 - id: wu.20.p43.t1
   anchor: wu.20.p43
   at: 34
@@ -133,3 +601,43 @@ annotations:
   era: 天冊
   era_year: 1
   reasoning: 原文「天冊元年」直接出现年号；解析為 AD 275
+- id: wu.20.p44.h1
+  anchor: wu.20.p44
+  at: 7
+  length: 2
+  type: person
+  person_id: wangfan
+  text: 王蕃
+  via: primary
+- id: wu.20.p44.h2
+  anchor: wu.20.p44
+  at: 19
+  length: 2
+  type: person
+  person_id: louxuan
+  text: 樓玄
+  via: primary
+- id: wu.20.p44.h3
+  anchor: wu.20.p44
+  at: 31
+  length: 2
+  type: person
+  person_id: heshao
+  text: 賀邵
+  via: primary
+- id: wu.20.p44.h4
+  anchor: wu.20.p44
+  at: 43
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
+- id: wu.20.p44.h5
+  anchor: wu.20.p44
+  at: 97
+  length: 2
+  type: person
+  person_id: huahe
+  text: 華覈
+  via: primary

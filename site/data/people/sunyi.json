@@ -1,0 +1,38 @@
+{
+  "id": "sunyi",
+  "primary_name": "孫翊",
+  "courtesy_name": "叔弼",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.6",
+      "title": "吳書·宗室傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.64",
+        "chapter_title": "漢紀五十六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.64.p10",
+        "at": 2046,
+        "data_url": "data/zztj/zztj/64.json",
+        "matched": "孫翊",
+        "snippet": "…遼東之使，罷所嚴騎。丹楊大都督媯覽、郡丞戴員殺太守孫翊。將軍孫河屯京城，馳赴宛陵，覽、員復殺之；遣人迎揚州刺史劉馥，令往歷陽，以丹楊應之。覽入居軍府中，欲逼取翊妻徐氏。徐氏紿之曰：…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

@@ -1,0 +1,38 @@
+{
+  "id": "yishi",
+  "primary_name": "翊世",
+  "courtesy_name": "季明",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.57",
+      "title": "杜欒劉李劉謝列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/57.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.61",
+        "chapter_title": "左周黃列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.61.p34",
+        "at": 32,
+        "data_url": "data/houhanshu/hhs/61.json",
+        "matched": "翊世",
+        "snippet": "…天，不旋日。』惟陛下留神裁察。」因召見舉及尚書令成翊世、僕射黃瓊，問以得失。舉等並對以為宜慎官人，去斥貪污，離遠佞邪，循文帝之儉，尊孝明之教，則時雨必應。帝曰：「百官貪污佞邪者為誰…"
+      }
+    ]
+  },
+  "n_mentions": 1
+}

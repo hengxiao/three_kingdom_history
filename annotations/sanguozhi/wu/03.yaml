@@ -2,9 +2,51 @@ chapter: wu.3
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷48
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 8074c3122dfebb5998eeb442750cbe6eb7e19c3eed69ff763bfcf52a84114469
 annotations:
+- id: wu.3.p1.h1
+  anchor: wu.3.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.3.p1.h2
+  anchor: wu.3.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.3.p1.h3
+  anchor: wu.3.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wu.3.p2.h1
+  anchor: wu.3.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- anchor: wu.3.p2
+  at: 32
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「姊全公主嘗譖太子和子母」— 文中明點「和」，太子即孫和。
+  id: wu.3.p2.h2
 - id: wu.3.p2.t1
   anchor: wu.3.p2
   at: 65
@@ -17,6 +59,16 @@ annotations:
   era: 赤烏
   era_year: 13
   reasoning: 原文「赤烏十三年」直接出现年号；解析為 AD 250
+- anchor: wu.3.p2
+  at: 79
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「立亮爲太子」— 赤烏十三年立孫亮為太子。
+  id: wu.3.p2.h3
 - id: wu.3.p3.t1
   anchor: wu.3.p3
   at: 0
@@ -29,6 +81,52 @@ annotations:
   era: 太元
   era_year: 1
   reasoning: 原文「太元元年」直接出现年号；解析為 AD 251
+- anchor: wu.3.p3
+  at: 12
+  length: 2
+  type: person
+  person_id: panhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「亮母潘氏立爲皇后」— 即潘皇后；roster 無，置 null。
+  id: wu.3.p3.h6
+- id: wu.3.p3.h1
+  anchor: wu.3.p3
+  at: 25
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- anchor: wu.3.p3
+  at: 29
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「諸葛恪爲太子太傅」— 太元元年諸葛恪領太子太傅，太子即孫亮。
+  id: wu.3.p3.h3
+- id: wu.3.p3.h2
+  anchor: wu.3.p3
+  at: 38
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- anchor: wu.3.p3
+  at: 48
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「並受詔輔太子」承前句仍指孫亮。
+  id: wu.3.p3.h4
 - id: wu.3.p3.t2
   anchor: wu.3.p3
   at: 51
@@ -43,6 +141,16 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 「明年四月」 = 当前年 太元元年 (AD 251) 之次年 = AD 252
+- anchor: wu.3.p3
+  at: 59
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子即尊號」— 神鳳元年孫權崩後孫亮即位。
+  id: wu.3.p3.h5
 - id: wu.3.p3.t3
   anchor: wu.3.p3
   at: 70
@@ -55,6 +163,14 @@ annotations:
   era: 太元
   era_year: 2
   reasoning: 「是歲」 = 当前年 太元2年 (AD 252)
+- id: wu.3.p4.h1
+  anchor: wu.3.p4
+  at: 24
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.3.p4.t1
   anchor: wu.3.p4
   at: 47
@@ -89,6 +205,30 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太元2年 (AD 252)，月份「十二月」
+- id: wu.3.p4.h2
+  anchor: wu.3.p4
+  at: 97
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wu.3.p4.h3
+  anchor: wu.3.p4
+  at: 114
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
+- id: wu.3.p4.h4
+  anchor: wu.3.p4
+  at: 120
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wu.3.p4.a2
   anchor: wu.3.p4
   at: 186
@@ -109,6 +249,24 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「太元」推得，「二年春正月」 = 太元2年 = AD 252
+- anchor: wu.3.p5
+  at: 9
+  length: 2
+  type: person
+  person_id: quanhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立皇后全氏」— 建興二年立全皇后（孫亮全皇后）；roster 無。
+  id: wu.3.p5.h3
+- id: wu.3.p5.h1
+  anchor: wu.3.p5
+  at: 20
+  length: 2
+  type: person
+  person_id: wangchang
+  text: 王昶
+  via: primary
 - id: wu.3.p5.t2
   anchor: wu.3.p5
   at: 26
@@ -179,6 +337,14 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 太元2年 (AD 252)，月份「冬十月」
+- id: wu.3.p5.h2
+  anchor: wu.3.p5
+  at: 87
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
 - id: wu.3.p5.t7
   anchor: wu.3.p5
   at: 111
@@ -249,6 +415,22 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「五鳳」推得，「二年春正月」 = 五鳳2年 = AD 255
+- id: wu.3.p7.h1
+  anchor: wu.3.p7
+  at: 11
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
+- id: wu.3.p7.h2
+  anchor: wu.3.p7
+  at: 93
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wu.3.p7.t2
   anchor: wu.3.p7
   at: 105
@@ -365,6 +547,30 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 太平元年 (AD 256)，月份「九月」
+- id: wu.3.p8.h1
+  anchor: wu.3.p8
+  at: 115
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.3.p8.h2
+  anchor: wu.3.p8
+  at: 139
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- id: wu.3.p8.h3
+  anchor: wu.3.p8
+  at: 161
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.3.p8.t4
   anchor: wu.3.p8
   at: 193
@@ -379,6 +585,14 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 太平元年 (AD 256)，月份「冬十月」
+- id: wu.3.p8.h4
+  anchor: wu.3.p8
+  at: 203
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: wu.3.p8.t5
   anchor: wu.3.p8
   at: 254
@@ -455,6 +669,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 太平2年 (AD 257)，月份「五月」
+- id: wu.3.p10.h1
+  anchor: wu.3.p10
+  at: 9
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wu.3.p10.t2
   anchor: wu.3.p10
   at: 49
@@ -483,6 +705,14 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 太平2年 (AD 257)，月份「秋七月」
+- id: wu.3.p10.h2
+  anchor: wu.3.p10
+  at: 120
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: wu.3.p10.t4
   anchor: wu.3.p10
   at: 131
@@ -497,6 +727,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 太平2年 (AD 257)，月份「八月」
+- id: wu.3.p10.h3
+  anchor: wu.3.p10
+  at: 167
+  length: 3
+  type: person
+  person_id: zhonglimu
+  text: 鍾離牧
+  via: primary
 - id: wu.3.p10.t5
   anchor: wu.3.p10
   at: 189
@@ -553,6 +791,14 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「太平」推得，「三年春正月」 = 太平3年 = AD 258
+- id: wu.3.p11.h1
+  anchor: wu.3.p11
+  at: 6
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wu.3.p11.t2
   anchor: wu.3.p11
   at: 13
@@ -609,6 +855,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 太平3年 (AD 258)，月份「九月」
+- id: wu.3.p12.h1
+  anchor: wu.3.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
 - id: wu.3.p12.t1
   anchor: wu.3.p12
   at: 29
@@ -637,6 +891,30 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 太平3年 (AD 258)，月份「四月」
+- id: wu.3.p12.h2
+  anchor: wu.3.p12
+  at: 57
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.3.p12.h3
+  anchor: wu.3.p12
+  at: 125
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.3.p12.h4
+  anchor: wu.3.p12
+  at: 132
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wu.3.p12.t3
   anchor: wu.3.p12
   at: 179
@@ -651,6 +929,16 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 太平3年 (AD 258)，月份「十月」
+- anchor: wu.3.p12
+  at: 210
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 永安元年老公叩頭「願陛下速行」中陛下即將即位的孫休。
+  id: wu.3.p12.h5
 - id: wu.3.p12.t4
   anchor: wu.3.p12
   at: 415
@@ -683,6 +971,14 @@ annotations:
   length: 0
   type: pei
   text: 《襄陽記》曰：衡字叔平，本襄陽卒家子也，漢末入吳爲武昌庶民。聞羊衜有人物之鑒，往干之，衜曰：「多事之世，尚書劇曹郎才也。」是時校事呂壹操弄權柄，大臣畏偪，莫有敢言，衜曰：「非李衡無能困之者。」遂共薦爲郎。權引見，衡口陳壹姦短數千言，權有愧色。數月，壹被誅，而衡大見顯擢。後常爲諸葛恪司馬，幹恪府事。恪被誅，求爲丹楊太守。時孫休在郡治，衡數以法繩之。妻習氏每諫衡，衡不從。會休立，衡憂懼，謂妻曰：「不用卿言，以至於此。」遂欲奔魏。妻曰：「不可。君本庶民耳，先帝相拔過重，旣數作無禮，而復逆自猜嫌，逃叛求活，以此北歸，何面見中國人乎？」衡曰：「計何所出？」妻曰：「琅邪王素好善慕名，方欲自顯於天下，終不以私嫌殺君明矣。可自囚詣獄，表列前失，顯求受罪。如此，乃當逆見優饒，非但直活而已。」衡從之，果得無患，又加威遠將軍，援以棨戟。衡每欲治家，妻輙不聽，後密遣客十人於武陵龍陽汎洲上作宅，種甘橘千株。臨死，勑兒曰：「汝母惡我治家，故窮如是。然吾州里有千頭木奴，不責汝衣食，歲上一匹絹，亦可足用耳。」衡亡後二十餘日，兒以白母，母曰：「此當是種甘橘也，汝家失十戶客來七八年，必汝父遣爲宅。汝父恒稱太史公言，『江陵千樹橘，當封君家』。吾荅曰：『且人患無德義，不患不富，若貴而能貧，方好耳，用此何爲！』」吳末，衡甘橘成，歲得絹數千匹，家道殷足。晉咸康中，其宅止枯樹猶在。
+- id: wu.3.p13.h1
+  anchor: wu.3.p13
+  at: 176
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.3.p13.a2
   anchor: wu.3.p13
   at: 195
@@ -873,6 +1169,26 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 永安5年 (AD 262)，月份「八月」
+- anchor: wu.3.p19
+  at: 43
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立皇后朱氏」— 即孫休朱皇后；roster 無，置 null。
+  id: wu.3.p19.h4
+- anchor: wu.3.p19
+  at: 55
+  length: 2
+  type: person
+  person_id: sunwan
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 「立子𩅦爲太子」— 永安五年孫休立子孫𩅦為太子；roster 無孫𩅦，置 null。
+  id: wu.3.p19.h3
 - id: wu.3.p19.a1
   anchor: wu.3.p19
   at: 61
@@ -893,6 +1209,22 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 永安5年 (AD 262)，月份「冬十月」
+- id: wu.3.p19.h1
+  anchor: wu.3.p19
+  at: 69
+  length: 3
+  type: person
+  person_id: puyangxing
+  text: 濮陽興
+  via: primary
+- id: wu.3.p19.h2
+  anchor: wu.3.p19
+  at: 167
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
 - id: wu.3.p19.t5
   anchor: wu.3.p19
   at: 611
@@ -953,6 +1285,22 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 永安6年 (AD 263)，月份「冬十月」
+- id: wu.3.p20.h1
+  anchor: wu.3.p20
+  at: 110
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
+- id: wu.3.p20.h2
+  anchor: wu.3.p20
+  at: 154
+  length: 2
+  type: person
+  person_id: liushan
+  text: 劉禪
+  via: primary
 - id: wu.3.p20.a1
   anchor: wu.3.p20
   at: 204
@@ -1027,6 +1375,48 @@ annotations:
   length: 0
   type: pei
   text: 葛洪《抱朴子》曰：吳景帝時，戍將於廣陵掘諸冢，取版以治城，所壞甚多。後發一大冢，內有重閤，戶扇皆樞轉可開閉，四周爲徼道通車，其高可以乘馬。又鑄銅爲人數十枚，長五尺，皆大冠朱衣，執劒列侍靈座，皆刻銅人背後石壁，言殿中將軍，或言侍郎、常侍。似公王之冢。破其棺，棺中有人，髮已班白，衣冠鮮明，面體如生人。棺中雲母厚尺許，以白玉璧三十枚藉尸。兵人輩共舉出死人，以倚冢壁。有一玉長一尺許，形似冬瓜，從死人懷中透出墮地。兩耳及鼻孔中，皆有黃金如棗許大，此則骸骨有假物而不朽之効也。
+- id: wu.3.p22.h1
+  anchor: wu.3.p22
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wu.3.p22.h2
+  anchor: wu.3.p22
+  at: 22
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.3.p22.h3
+  anchor: wu.3.p22
+  at: 105
+  length: 4
+  type: person
+  person_id: sunce
+  text: 長沙桓王
+  via: chapter_alias
+- id: wu.3.p22.h4
+  anchor: wu.3.p22
+  at: 130
+  length: 3
+  type: person
+  person_id: puyangxing
+  text: 濮陽興
+  via: primary
+- anchor: wu.3.p22
+  at: 146
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「休妃太后朱」— 即孫休妃朱皇后進尊為太后（皓初）；roster 無。
+  id: wu.3.p22.h5
 - id: wu.3.p22.t1
   anchor: wu.3.p22
   at: 205
@@ -1039,6 +1429,14 @@ annotations:
   era: 永安
   era_year: 7
   reasoning: 「是歲」 = 当前年 永安7年 (AD 264)
+- id: wu.3.p23.h1
+  anchor: wu.3.p23
+  at: 18
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: wu.3.p23.t1
   anchor: wu.3.p23
   at: 50
@@ -1053,6 +1451,26 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 永安7年 (AD 264)，月份「九月」
+- anchor: wu.3.p23
+  at: 54
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「貶太后爲景皇后」— 即朱太后被貶；roster 無。
+  id: wu.3.p23.h4
+- anchor: wu.3.p23
+  at: 58
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「貶太后爲景皇后」— 即朱氏貶降後之景皇后封號；roster 無。
+  id: wu.3.p23.h5
 - id: wu.3.p23.t2
   anchor: wu.3.p23
   at: 77
@@ -1067,6 +1485,26 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 永安7年 (AD 264)，月份「十月」
+- anchor: wu.3.p23
+  at: 82
+  length: 2
+  type: person
+  person_id: sunwan
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 「封休太子𩅦爲豫章王」— 即孫休太子孫𩅦；roster 無，置 null。
+  id: wu.3.p23.h3
+- anchor: wu.3.p23
+  at: 107
+  length: 2
+  type: person
+  person_id: tenghuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立皇后滕氏」— 即孫皓滕皇后；roster 無。
+  id: wu.3.p23.h6
 - id: wu.3.p23.a1
   anchor: wu.3.p23
   at: 112
@@ -1101,6 +1539,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 永安7年 (AD 264)，月份「十二月」
+- id: wu.3.p23.h2
+  anchor: wu.3.p23
+  at: 160
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
 - id: wu.3.p23.a2
   anchor: wu.3.p23
   at: 176
@@ -1235,6 +1681,14 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：儼字子節，吳人也。弱冠知名，歷顯位，以博聞多識，拜大鴻臚。使于晉，皓謂儼曰：「今南北通好，以君爲有出境之才，故相屈行。」對曰：「皇皇者華，蒙其榮耀，無古人延譽之美，磨厲鋒鍔，思不辱命。」旣至，車騎將軍賈充、尚書令裴秀、侍中荀勗等欲傲以所不知而不能屈。尚書僕射羊祜、尚書何楨並結縞帶之好。
+- id: wu.3.p25.h1
+  anchor: wu.3.p25
+  at: 68
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: wu.3.p25.t2
   anchor: wu.3.p25
   at: 227
@@ -1249,6 +1703,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 寶鼎元年 (AD 266)，月份「八月」
+- id: wu.3.p25.h2
+  anchor: wu.3.p25
+  at: 246
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: wu.3.p25.t3
   anchor: wu.3.p25
   at: 262
@@ -1269,6 +1731,14 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：永安今武康縣也。
+- id: wu.3.p25.h3
+  anchor: wu.3.p25
+  at: 292
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
 - id: wu.3.p25.a3
   anchor: wu.3.p25
   at: 338
@@ -1387,6 +1857,14 @@ annotations:
   month_chinese: 秋九月
   month_ordinal: 9
   reasoning: 年承前文 寶鼎3年 (AD 268)，月份「秋九月」
+- id: wu.3.p27.h1
+  anchor: wu.3.p27
+  at: 34
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: wu.3.p27.t3
   anchor: wu.3.p27
   at: 40
@@ -1413,6 +1891,16 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 原文「建衡元年春正月」直接出现年号；解析為 AD 269
+- anchor: wu.3.p28
+  at: 12
+  length: 2
+  type: person
+  person_id: sunjin
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 「立子瑾爲太子」— 建衡元年立孫皓子孫瑾為太子；roster 無孫瑾，置 null。
+  id: wu.3.p28.h2
 - id: wu.3.p28.t2
   anchor: wu.3.p28
   at: 23
@@ -1441,6 +1929,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 建衡元年 (AD 269)，月份「十一月」
+- id: wu.3.p28.h1
+  anchor: wu.3.p28
+  at: 40
+  length: 2
+  type: person
+  person_id: lukai
+  text: 陸凱
+  via: primary
 - id: wu.3.p29.t1
   anchor: wu.3.p29
   at: 0
@@ -1521,6 +2017,14 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「建衡」推得，「三年春正月」 = 建衡3年 = AD 271
+- id: wu.3.p30.h1
+  anchor: wu.3.p30
+  at: 26
+  length: 2
+  type: person
+  person_id: huahe
+  text: 華覈
+  via: primary
 - id: wu.3.p30.a1
   anchor: wu.3.p30
   at: 35
@@ -1545,6 +2049,14 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：初霍弋遣楊稷、毛炅等戍，與之誓曰：「若賊圍城，未百日而降者，家屬誅；若過百日而城沒者，刺史受其罪。」稷等日未滿而糧盡，乞降於璜。璜不許，而給糧使守。吳人並諫，璜曰：「霍弋已死，無能來者，可須其糧盡，然後乃受，使彼來無罪，而我取有義，內訓吾民，外懷鄰國，不亦可乎！」稷、炅糧盡，救不至，乃納之。華陽國志曰：稷，犍爲人。炅，建寧人。稷等城中食盡，死亡者半，將軍王約反降，吳人得入城，獲稷、炅，皆囚之。孫皓使送稷下都，稷至合浦，歐血死。晉追贈交州刺史。初，毛炅與吳軍戰，殺前部督脩則。陶璜等以炅壯勇，欲赦之。而則子允固求殺炅，炅亦不爲璜等屈，璜等怒，靣縛炅詰之，曰：「晉兵賊！」炅厲聲曰：「吳狗，何等爲賊？」吳人生剖其腹，允割其心肝，罵曰：「庸復作賊？」炅猶罵不止，曰：「尚欲斬汝孫皓，汝父何死狗也！」乃斬之。晉武帝聞而哀矜，即詔使炅長子襲爵，餘三子皆關內侯。此與漢晉春秋所說不同。
+- id: wu.3.p30.h2
+  anchor: wu.3.p30
+  at: 98
+  length: 2
+  type: person
+  person_id: dingfeng
+  text: 丁奉
+  via: primary
 - id: wu.3.p30.a3
   anchor: wu.3.p30
   at: 107
@@ -1839,6 +2351,24 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 天紀4年 (AD 280)，月份「四月」
+- id: wu.3.p45.h1
+  anchor: wu.3.p45
+  at: 69
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- anchor: wu.3.p45
+  at: 138
+  length: 2
+  type: person
+  person_id: sunjin
+  text: 太子
+  via: llm
+  confidence: 0.85
+  reasoning: 「皓太子瑾」— 即孫瑾；roster 無，置 null。
+  id: wu.3.p45.h2
 - id: wu.3.p45.a2
   anchor: wu.3.p45
   at: 155
@@ -1851,3 +2381,11 @@ annotations:
   length: 0
   type: pei
   text: 《吳錄》曰：皓以四年十二月死，時年四十二，葬河南縣界。
+- id: wu.3.p46.h1
+  anchor: wu.3.p46
+  at: 3
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary

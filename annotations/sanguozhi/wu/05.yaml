@@ -2,21 +2,197 @@ chapter: wu.5
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷50
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 2ddbe1892e1576a8df170fd79e8d2f8958fb7b1774d7e7119e78b486e4619444
 annotations:
+- id: wu.5.p2.h1
+  anchor: wu.5.p2
+  at: 7
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
+- id: wu.5.p2.h2
+  anchor: wu.5.p2
+  at: 31
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: wu.5.p2.h3
+  anchor: wu.5.p2
+  at: 47
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: wu.5.p2.h4
+  anchor: wu.5.p2
+  at: 55
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
 - id: wu.5.p2.a1
   anchor: wu.5.p2
   at: 100
   length: 0
   type: pei
   text: 《搜神記》曰：初，夫人孕而夢月入其懷，既而生策。及權在孕，又夢日入其懷，以告堅曰：「昔妊策，夢月入我懷，今也又夢日入我懷，何也？」堅曰：「日月者陰陽之精，極貴之象，吾子孫其興乎！」
+- id: wu.5.p3.h1
+  anchor: wu.5.p3
+  at: 3
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name_carry
+- id: wu.5.p3.h2
+  anchor: wu.5.p3
+  at: 14
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wu.5.p3.h3
+  anchor: wu.5.p3
+  at: 36
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.5.p3.h4
+  anchor: wu.5.p3
+  at: 42
+  length: 2
+  type: person
+  person_id: lvfan
+  text: 呂範
+  via: primary
+- id: wu.5.p3.h5
+  anchor: wu.5.p3
+  at: 73
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h6
+  anchor: wu.5.p3
+  at: 75
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h7
+  anchor: wu.5.p3
+  at: 85
+  length: 2
+  type: person
+  person_id: sunbi
+  text: 孫賁
+  via: primary
+- id: wu.5.p3.h8
+  anchor: wu.5.p3
+  at: 110
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.5.p3.h9
+  anchor: wu.5.p3
+  at: 139
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.5.p3.h10
+  anchor: wu.5.p3
+  at: 148
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h11
+  anchor: wu.5.p3
+  at: 150
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h12
+  anchor: wu.5.p3
+  at: 153
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.5.p3.h13
+  anchor: wu.5.p3
+  at: 168
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h14
+  anchor: wu.5.p3
+  at: 173
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.5.p3.h15
+  anchor: wu.5.p3
+  at: 177
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h16
+  anchor: wu.5.p3
+  at: 179
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wu.5.p3.h17
+  anchor: wu.5.p3
+  at: 204
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.5.p3.a1
   anchor: wu.5.p3
   at: 220
   length: 0
   type: pei
   text: 音普。
+- id: wu.5.p4.h1
+  anchor: wu.5.p4
+  at: 1
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.5.p4.a1
   anchor: wu.5.p4
   at: 19
@@ -35,6 +211,14 @@ annotations:
   era: 建安
   era_year: 7
   reasoning: 原文「建安七年」直接出现年号；解析為 AD 202
+- id: wu.5.p4.h2
+  anchor: wu.5.p4
+  at: 29
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
 - id: wu.5.p4.a2
   anchor: wu.5.p4
   at: 43
@@ -59,36 +243,280 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：權徵荊州，拜奮吳郡都督，以鎮東方。《吳書》曰：祺與張溫、顧譚友善，權令關平辭訟事。
+- id: wu.5.p5.h1
+  anchor: wu.5.p5
+  at: 52
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- id: wu.5.p6.h1
+  anchor: wu.5.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
 - id: wu.5.p6.a1
   anchor: wu.5.p6
   at: 25
   length: 0
   type: pei
   text: 煚子承撰《後漢書》，稱煚幼以仁孝為行，明達有令才。煚弟貞，履蹈法度，篤學尚義，舉孝廉，建昌長，卒官。
+- id: wu.5.p6.h2
+  anchor: wu.5.p6
+  at: 25
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p6.h3
+  anchor: wu.5.p6
+  at: 30
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p6.h4
+  anchor: wu.5.p6
+  at: 42
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.5.p6.a2
   anchor: wu.5.p6
   at: 104
   length: 0
   type: pei
   text: 《會稽典錄》曰：承字偉平，博學洽聞，嘗所知見，終身不忘。子崇揚威將軍，崇弟勗吳郡太守，竝知名。
+- id: wu.5.p7.h1
+  anchor: wu.5.p7
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
+- id: wu.5.p7.h2
+  anchor: wu.5.p7
+  at: 19
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p7.h3
+  anchor: wu.5.p7
+  at: 21
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name_carry
+- id: wu.5.p7.h4
+  anchor: wu.5.p7
+  at: 25
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name_carry
+- id: wu.5.p7.h5
+  anchor: wu.5.p7
+  at: 49
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name_carry
+- id: wu.5.p7.h6
+  anchor: wu.5.p7
+  at: 60
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name_carry
+- id: wu.5.p7.h7
+  anchor: wu.5.p7
+  at: 64
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
 - id: wu.5.p7.a1
   anchor: wu.5.p7
   at: 143
   length: 0
   type: pei
   text: 泭音敷。郭璞注《方言》曰：「泭，水中簰也。」
+- id: wu.5.p7.h8
+  anchor: wu.5.p7
+  at: 146
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.5.p7.h9
+  anchor: wu.5.p7
+  at: 148
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.5.p7.h10
+  anchor: wu.5.p7
+  at: 175
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.5.p7.a2
   anchor: wu.5.p7
   at: 199
   length: 0
   type: pei
   text: 《江表傳》曰：初，袁術遣從弟胤為丹楊，策令琨討而代之。會景還，以景前在（仕）丹楊，寬仁得眾，吏民所思，而琨手下兵多，策嫌其太重，且方攻伐，宜得琨眾，乃復用景，召琨還吳。
+- id: wu.5.p7.h11
+  anchor: wu.5.p7
+  at: 216
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wu.5.p8.h1
+  anchor: wu.5.p8
+  at: 36
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.5.p8.h2
+  anchor: wu.5.p8
+  at: 55
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.5.p8
+  at: 66
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「登爲太子」— 即孫登立為太子，徐夫人傳。
+  id: wu.5.p8.h4
+- id: wu.5.p8.h3
+  anchor: wu.5.p8
+  at: 78
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.5.p9.h1
+  anchor: wu.5.p9
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
+- id: wu.5.p9.h2
+  anchor: wu.5.p9
+  at: 35
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.5.p9.h3
+  anchor: wu.5.p9
+  at: 51
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p9.h4
+  anchor: wu.5.p9
+  at: 73
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: wu.5.p9.h5
+  anchor: wu.5.p9
+  at: 80
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
 - id: wu.5.p9.a1
   anchor: wu.5.p9
   at: 102
   length: 0
   type: pei
   text: 《吳曆》曰：纂先尚權中女，早卒，故又以小虎為繼室。
+- id: wu.5.p10.h1
+  anchor: wu.5.p10
+  at: 18
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.5.p10.h2
+  anchor: wu.5.p10
+  at: 38
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.5.p10
+  at: 51
+  length: 2
+  type: person
+  person_id: bulianshi
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「宮內皆稱皇后」— 步夫人事，雖未授名號宮內稱皇后；roster 無步皇后。
+  id: wu.5.p10.h5
+- id: wu.5.p10.h3
+  anchor: wu.5.p10
+  at: 68
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.5.p10.h4
+  anchor: wu.5.p10
+  at: 82
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.5.p11.t1
   anchor: wu.5.p11
   at: 1
@@ -101,12 +529,106 @@ annotations:
   era: 赤烏
   era_year: 1
   reasoning: 原文「赤烏元年」直接出现年号；解析為 AD 238
+- anchor: wu.5.p11
+  at: 16
+  length: 2
+  type: person
+  person_id: bulianshi
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 策命「嗚呼皇后」— 即追授步夫人為皇后；roster 無。
+  id: wu.5.p11.h2
+- id: wu.5.p11.h1
+  anchor: wu.5.p11
+  at: 173
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.5.p12.h1
+  anchor: wu.5.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
 - id: wu.5.p12.a1
   anchor: wu.5.p12
   at: 12
   length: 0
   type: pei
   text: 《吳書》曰：夫人父名盧九。
+- anchor: wu.5.p12
+  at: 44
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「和立為太子」— 文中明點「和」，即孫和。
+  id: wu.5.p12.h5
+- id: wu.5.p12.h2
+  anchor: wu.5.p12
+  at: 47
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p12.h3
+  anchor: wu.5.p12
+  at: 70
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p12.h4
+  anchor: wu.5.p12
+  at: 81
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p13.h1
+  anchor: wu.5.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
+- anchor: wu.5.p13
+  at: 32
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「及和為太子」— 文中明點「和」，即孫和。
+  id: wu.5.p13.h2
+- id: wu.5.p14.h1
+  anchor: wu.5.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 吳主
+  via: chapter_alias
+- id: wu.5.p14.h2
+  anchor: wu.5.p14
+  at: 31
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.5.p14.t1
   anchor: wu.5.p14
   at: 70
@@ -119,6 +641,24 @@ annotations:
   era: 赤烏
   era_year: 13
   reasoning: 原文「赤烏十三年」直接出现年号；解析為 AD 250
+- anchor: wu.5.p14
+  at: 79
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「亮立為太子」— 文中明點「亮」，即孫亮。
+  id: wu.5.p14.h7
+- id: wu.5.p14.h3
+  anchor: wu.5.p14
+  at: 90
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.5.p14.t2
   anchor: wu.5.p14
   at: 95
@@ -131,24 +671,184 @@ annotations:
   era: 赤烏
   era_year: 14
   reasoning: 「明年」 = 当前年 赤烏13年 (AD 250) 之次年 = AD 251
+- anchor: wu.5.p14
+  at: 102
+  length: 2
+  type: person
+  person_id: panhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立夫人為皇后」— 即潘皇后；roster 無。
+  id: wu.5.p14.h8
 - id: wu.5.p14.a1
   anchor: wu.5.p14
   at: 125
   length: 0
   type: pei
   text: 《吳錄》曰：袁夫人者，袁術女也，有節行而無子。權數以諸姬子與養之，輒不育。及步夫人薨，權欲立之。夫人自以無子，固辭不受。
+- id: wu.5.p14.h4
+  anchor: wu.5.p14
+  at: 125
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p14.h5
+  anchor: wu.5.p14
+  at: 184
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p14.h6
+  anchor: wu.5.p14
+  at: 193
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.5.p15.h1
+  anchor: wu.5.p15
+  at: 0
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.5.p15.h2
+  anchor: wu.5.p15
+  at: 43
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
+- id: wu.5.p15.h3
+  anchor: wu.5.p15
+  at: 51
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.5.p15
+  at: 70
+  length: 2
+  type: person
+  person_id: quanhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「夫人立為皇后」— 即孫亮全皇后；roster 無。
+  id: wu.5.p15.h7
+- id: wu.5.p15.h4
+  anchor: wu.5.p15
+  at: 87
+  length: 2
+  type: person
+  person_id: tengyin
+  text: 滕胤
+  via: primary
+- id: wu.5.p15.h5
+  anchor: wu.5.p15
+  at: 151
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
+- id: wu.5.p15.h6
+  anchor: wu.5.p15
+  at: 195
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wu.5.p15.a1
   anchor: wu.5.p15
   at: 234
   length: 0
   type: pei
   text: 《吳錄》曰：亮妻惠解有容色，居候官，吳平乃歸，永寧中卒。
+- id: wu.5.p16.h1
+  anchor: wu.5.p16
+  at: 0
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
 - id: wu.5.p16.a1
   anchor: wu.5.p16
   at: 18
   length: 0
   type: pei
   text: 臣松之以為休妻其甥，事同漢惠。荀悅譏之已當，故不復廣言。
+- id: wu.5.p16.h2
+  anchor: wu.5.p16
+  at: 22
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.5.p16.h3
+  anchor: wu.5.p16
+  at: 45
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
+- id: wu.5.p16.h4
+  anchor: wu.5.p16
+  at: 72
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
+- anchor: wu.5.p16
+  at: 75
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「初，孫和為太子時」— 文中明點「孫和」。
+  id: wu.5.p16.h8
+- anchor: wu.5.p16
+  at: 89
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「欲廢太子」承前句指孫和。
+  id: wu.5.p16.h9
+- id: wu.5.p16.h5
+  anchor: wu.5.p16
+  at: 165
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.5.p16.h6
+  anchor: wu.5.p16
+  at: 217
+  length: 2
+  type: person
+  person_id: sunchen
+  text: 孫綝
+  via: primary
 - id: wu.5.p16.t1
   anchor: wu.5.p16
   at: 230
@@ -161,6 +861,44 @@ annotations:
   era: 永安
   era_year: 5
   reasoning: 原文「永安五年」直接出现年号；解析為 AD 262
+- anchor: wu.5.p16
+  at: 239
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立夫人為皇后」— 即孫休朱皇后；roster 無。
+  id: wu.5.p16.h11
+- anchor: wu.5.p16
+  at: 252
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「群臣尊夫人為皇太后」— 即孫休朱皇后進尊為皇太后；roster 無。
+  id: wu.5.p16.h10
+- id: wu.5.p16.h7
+  anchor: wu.5.p16
+  at: 255
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- anchor: wu.5.p16
+  at: 265
+  length: 2
+  type: person
+  person_id: zhuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「貶為景皇后」— 朱氏被貶為景皇后；roster 無。
+  id: wu.5.p16.h12
 - id: wu.5.p16.t2
   anchor: wu.5.p16
   at: 273
@@ -181,18 +919,122 @@ annotations:
   length: 0
   type: pei
   text: 《搜神記》曰：孫峻殺朱主，埋於石子岡。歸命即位，將欲改葬之。塚墓相亞，不可識別，而宮人頗識主亡時所著衣服，乃使兩巫各住一處以伺其靈，使察鑑之，不得相近。久時，二人俱白：見一女人年可三十餘，上著青錦束頭，紫白袷裳，丹綈絲履，從石子岡上半岡，而以手抑膝長太息，小住須臾，進一塚上便住，徘徊良久，奄然不見。二人之言，不謀而同，於是開塚，衣服如之。
+- id: wu.5.p17.h1
+  anchor: wu.5.p17
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 孫和
+  via: primary
+- id: wu.5.p17.h2
+  anchor: wu.5.p17
+  at: 19
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.5.p17.h3
+  anchor: wu.5.p17
+  at: 34
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.5.p17.h4
+  anchor: wu.5.p17
+  at: 54
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- anchor: wu.5.p17
+  at: 67
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子和既廢」— 文中明點「和」，即孫和。
+  id: wu.5.p17.h7
+- id: wu.5.p17.h5
+  anchor: wu.5.p17
+  at: 83
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.5.p17.h6
+  anchor: wu.5.p17
+  at: 88
+  length: 2
+  type: person
+  person_id: sunjun
+  text: 孫峻
+  via: primary
 - id: wu.5.p17.a1
   anchor: wu.5.p17
   at: 167
   length: 0
   type: pei
   text: 《吳錄》曰：皓初尊和為昭獻皇帝，俄改曰文皇帝。
+- anchor: wu.5.p17
+  at: 172
+  length: 2
+  type: person
+  person_id: heji
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「何姬為昭獻皇后」— 即孫皓母追尊；roster 無。
+  id: wu.5.p17.h9
+- anchor: wu.5.p17
+  at: 186
+  length: 2
+  type: person
+  person_id: heji
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「進為皇太后」— 即孫皓母何姬進為皇太后；roster 無。
+  id: wu.5.p17.h8
 - id: wu.5.p17.a2
   anchor: wu.5.p17
   at: 268
   length: 0
   type: pei
   text: 《江表傳》曰：皓以張布女為美人，有寵，皓問曰：「汝父所在？」答曰：「賊以殺之。」皓大怒，棒殺之。後思其顏色，使巧工刻木作美人形象，恆置座側。問左右：「布復有女否？」答曰：「布大女適故衛尉馮朝子純。」即奪純妻入宮，大有寵，拜為左夫人，晝夜與夫人房宴，不聽朝政，使尚方以金作華燧、步搖、假髻以千數。令宮人著以相撲，朝成夕敗，輒出更作，工匠因緣偷盜，府藏為空。會夫人死，皓哀愍思念，葬於苑中，大作塚，使工匠刻柏作木人，內塚中以為兵衛，以金銀珍玩之物送葬，不可稱計。已葬之後，皓治喪於內，半年不出。國人見葬太奢麗，皆謂皓已死，所葬者是也。皓舅子何都顏狀似皓，云都代立。臨海太守奚熙信訛言，舉兵欲還誅都，都叔父植時為備海督，擊殺熙，夷三族，訛言乃息，而人心猶疑。
+- id: wu.5.p18.h1
+  anchor: wu.5.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- id: wu.5.p18.h2
+  anchor: wu.5.p18
+  at: 31
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- anchor: wu.5.p18
+  at: 69
+  length: 2
+  type: person
+  person_id: tenghuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「立為皇后」— 即孫皓滕皇后；roster 無。
+  id: wu.5.p18.h3
 - id: wu.5.p18.a1
   anchor: wu.5.p18
   at: 212
@@ -211,3 +1053,11 @@ annotations:
   era: 天紀
   era_year: 4
   reasoning: 原文「天紀四年」直接出现年号；解析為 AD 280
+- id: wu.5.p19.h1
+  anchor: wu.5.p19
+  at: 53
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary

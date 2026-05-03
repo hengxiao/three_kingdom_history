@@ -1,0 +1,49 @@
+{
+  "id": "liushu",
+  "primary_name": "劉淑",
+  "courtesy_name": "仲承",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.67",
+      "title": "黨錮列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/67.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p14",
+        "at": 2630,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "劉淑",
+        "snippet": "…瑜、屯騎校尉馮述，皆夷其族。宦官又譖虎賁中郎將河間劉淑、故尚書會稽魏朗，云與武等通謀，皆自殺。遷皇太后於南宮，徙武家屬於日南；自公卿以下嘗為蕃、武所舉者及門生故吏，皆免官禁錮。議郎…"
+      },
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 51,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "劉淑",
+        "snippet": "…之者唯恐不及，更共相標榜，為之稱號：以竇武、陳蕃、劉淑為三君，君者，言一世之所宗也；李膺、荀翌、杜宻、王暢、劉祐、魏朗、趙典、朱㝢為八俊，俊者，言人之英也；郭泰、范滂、尹勳、巴肅及…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

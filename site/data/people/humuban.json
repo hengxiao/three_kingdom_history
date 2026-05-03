@@ -1,0 +1,95 @@
+{
+  "id": "humuban",
+  "primary_name": "胡母班",
+  "courtesy_name": "季友",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.74",
+      "title": "袁紹劉表列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/74.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.56",
+        "chapter_title": "漢紀四十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.56.p25",
+        "at": 218,
+        "data_url": "data/zztj/zztj/56.json",
+        "matched": "胡母班",
+        "snippet": "…導人追宗者也；度尚及東平張邈、王孝、東郡劉儒、泰山胡母班、陳留秦周、魯國蕃向、東萊王章為八廚，廚者，言能以財救人者也。及陳、竇用事，復舉拔膺等；陳、竇誅，膺等復廢。宦官疾惡膺等，每…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.6",
+        "chapter_title": "魏書·董二袁劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.6.p18",
+        "at": 230,
+        "data_url": "data/sanguozhi/wei/06.json",
+        "matched": "胡母班",
+        "snippet": "…：「此吾心也。」即表授爲監軍、奮威將軍。卓遣執金吾胡母班、將作大匠吳脩齎詔書喻紹，紹使河內太守王匡殺之。卓聞紹得關東，乃悉誅紹宗族太傅隗等。當是時，豪俠多附紹，皆思爲之報，州郡鋒起…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.60",
+        "chapter_title": "馬融列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.60.p98",
+        "at": 69,
+        "data_url": "data/houhanshu/hhs/60.json",
+        "matched": "胡母班",
+        "snippet": "…李奇為州書佐，[120]及營護故河南尹羊陟、侍御史胡母班，合不為用致怨之狀。[121]臣征營怖悸，肝膽塗地，不知死命所在。竊自尋案，實屬宛、奇，不及陟、班。凡休假小吏，非結恨之本。…"
+      },
+      {
+        "chapter_id": "hhs.67",
+        "chapter_title": "黨錮列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.67.p11",
+        "at": 106,
+        "data_url": "data/houhanshu/hhs/67.json",
+        "matched": "胡母班",
+        "snippet": "…及者，言其能導人追宗者也。度尚、張邈、王考、劉儒、胡母班、秦周、蕃向、王章爲「八廚」。廚者，言能以財救人者也。"
+      },
+      {
+        "chapter_id": "hhs.67",
+        "chapter_title": "黨錮列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.67.p16",
+        "at": 98,
+        "data_url": "data/houhanshu/hhs/67.json",
+        "matched": "胡母班",
+        "snippet": "…、度尚、郭林宗別有傳。荀翌附祖淑傳。張邈附呂布傳。胡母班附袁紹傳。王考字文祖，東平壽張人，冀州刺史；秦周字平王，陳留平丘人，北海相；蕃向字嘉景，魯國人，郎中；王璋字伯儀，東萊曲城人…"
+      },
+      {
+        "chapter_id": "hhs.9",
+        "chapter_title": "孝獻帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.9.p4",
+        "at": 223,
+        "data_url": "data/houhanshu/hhs/09.json",
+        "matched": "胡母班",
+        "snippet": "…，光祿大夫种拂爲司空。大鴻臚韓融、少府陰脩、執金吾胡母班、將作大匠吳脩、越騎校尉王瓌安集關東，後將軍袁術、河內太守王匡各執而殺之，唯韓融獲免。董卓壞五銖錢，更鑄小錢。冬十一月庚戌，…"
+      }
+    ]
+  },
+  "n_mentions": 6
+}

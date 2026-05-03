@@ -2,7 +2,7 @@ chapter: wei.30
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷30
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: d33e656baa8788918efbbd02ed3e29e641e9b6708cefd5f54c4eb89da78775f1
 annotations:
 - id: wei.30.p1.a1
@@ -11,6 +11,30 @@ annotations:
   length: 0
   type: pei
   text: 漢
+- id: wei.30.p1.h1
+  anchor: wei.30.p1
+  at: 242
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.30.p1.h2
+  anchor: wei.30.p1
+  at: 307
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p1.h3
+  anchor: wei.30.p1
+  at: 405
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
 - id: wei.30.p1.a2
   anchor: wei.30.p1
   at: 466
@@ -29,12 +53,132 @@ annotations:
   era: 建武
   era_year: 25
   reasoning: 原文「建武二十五年」直接出现年号；解析為 AD 49
+- id: wei.30.p2.h1
+  anchor: wei.30.p2
+  at: 1275
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
+- id: wei.30.p2.h2
+  anchor: wei.30.p2
+  at: 1392
+  length: 2
+  type: person
+  person_id: shunhan
+  text: 順帝
+  via: alias
+- id: wei.30.p3.h1
+  anchor: wei.30.p3
+  at: 137
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: wei.30.p3.h2
+  anchor: wei.30.p3
+  at: 142
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: wei.30.p3.h3
+  anchor: wei.30.p3
+  at: 195
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.30.p3.h4
+  anchor: wei.30.p3
+  at: 198
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.30.p3.h5
+  anchor: wei.30.p3
+  at: 211
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.30.p3.h6
+  anchor: wei.30.p3
+  at: 217
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.30.p3.h7
+  anchor: wei.30.p3
+  at: 219
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.30.p3.h8
+  anchor: wei.30.p3
+  at: 224
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.30.p3.a1
   anchor: wei.30.p3
   at: 231
   length: 0
   type: pei
   text: 難
+- id: wei.30.p3.h9
+  anchor: wei.30.p3
+  at: 253
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.30.p3.h10
+  anchor: wei.30.p3
+  at: 306
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.30.p3.h11
+  anchor: wei.30.p3
+  at: 452
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.30.p4.h1
+  anchor: wei.30.p4
+  at: 69
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.30.p4.h2
+  anchor: wei.30.p4
+  at: 96
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.30.p4.t1
   anchor: wei.30.p4
   at: 132
@@ -47,6 +191,22 @@ annotations:
   era: 建安
   era_year: 11
   reasoning: 原文「建安十一年」直接出现年号；解析為 AD 206
+- id: wei.30.p4.h3
+  anchor: wei.30.p4
+  at: 138
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p4.h4
+  anchor: wei.30.p4
+  at: 180
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.30.p4.t2
   anchor: wei.30.p4
   at: 303
@@ -59,12 +219,44 @@ annotations:
   era: 景初
   era_year: 1
   reasoning: 原文「景初元年」直接出现年号；解析為 AD 237
+- id: wei.30.p4.h5
+  anchor: wei.30.p4
+  at: 314
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.30.p5.a1
   anchor: wei.30.p5
   at: 2
   length: 0
   type: pei
   text: 《魏書》曰：鮮卑亦東胡之餘也，別保鮮卑山，因號焉。其言語習俗與烏丸同。其地東接遼水，西當西城。常以季春大會，作樂水上，嫁女娶婦，髠頭飲宴。其獸異於中國者，野馬、羱羊、端牛。端牛角爲弓，世謂之角端者也。又有貂、豽、鼲子，皮毛柔蠕，故天下以爲名裘。鮮卑自爲冒頓所破，遠竄遼東塞外，不與餘國爭衡，未有名通於漢，而自與烏丸相接。至光武時，南北單于更相攻伐，匈奴損耗，而鮮卑遂盛。建武三十年，鮮卑大人於仇賁率種人詣闕朝貢，封於仇賁爲王。永平中，祭肜爲遼東太守，誘賂鮮卑，使斬叛烏丸欽志賁等首，於是鮮卑自燉煌、酒泉以東邑落大人，皆詣遼東受賞賜，青、徐二州給錢，歲二億七千萬以爲常。和帝時，鮮卑大都護校尉廆帥部衆從烏丸校尉任常擊叛者，封校尉廆爲率衆王。殤帝延平中，鮮卑乃東入塞，殺漁陽太守張顯。安帝時，鮮卑大人燕荔陽入朝，漢賜鮮卑王印綬，赤車參駕，止烏丸校尉所治寗下。通胡市，築南北兩部質宮，受邑落質者二十部。是後或反或降，或與匈奴、烏丸相攻擊。安帝末，發緣邊步騎二萬餘人，屯列衝要。後鮮卑八九千騎穿代郡及馬城塞入害長吏，漢遣度遼將軍鄧遵、中郎將馬續出塞追破之。鮮卑大人烏倫、其至鞬等七千餘人詣遵降，封烏倫爲王，其至鞬爲侯，賜采帛。遵去後，其至鞬復反，圍烏丸校尉於馬城，度遼將軍耿夔及幽州刺史救解之。其至鞬遂盛，控弦數萬騎，數道入塞，趣五原寧貊，攻匈奴南單于，殺左奧鞬日逐王。順帝時，復入塞，殺代郡太守。漢遣黎陽營兵屯中山，緣邊郡兵屯塞下，調五營弩帥令教戰射，南單于將步騎萬餘人助漢擊却之。後烏丸校尉耿曄將率衆王出塞擊鮮卑，多斬首虜，於是鮮卑三萬餘落詣遼東降。匈奴及北單于遁逃後，餘種十餘萬落詣遼東雜處，皆自號鮮卑兵。投鹿侯從匈奴軍三年，其妻在家，有子。投鹿侯歸，怪欲殺之。妻言：「嘗晝行聞雷震，仰天視而雹入其口，因吞之，遂姙身，十月而產，此子必有奇異，且長之。」投鹿侯固不信。妻乃語家，令收養焉，號檀石槐，長大勇健，智畧絕衆。年十四五，異部大人卜賁邑鈔取其外家牛羊，檀石槐策騎追擊，所向無前，悉還得所亡。由是部落畏服，施法禁，平曲直，莫敢犯者，遂推以爲大人。檀石槐旣立，乃爲庭於高柳北三百餘里彈汗山啜仇水上，東西部大人皆歸焉。兵馬甚盛，南鈔漢邊，北拒丁令，東却夫餘，西擊烏孫，盡據匈奴故地，東西萬二千餘里，南北七千餘里，罔羅山川、水澤、鹽池甚廣。漢患之，桓帝時使匈奴中郎將張奐征之，不克。乃更遣使者齎印綬，即封檀石槐爲王，欲與和親。檀石槐拒不肯受，寇鈔滋甚。乃分其地爲中東西三部。從右北平以東至遼，東接夫餘、濊貊爲東部，二十餘邑，其大人曰彌加、闕機、素利、槐頭。從右北平以西至上谷爲中部，十餘邑，其大人曰柯最、闕居、慕容等，爲大帥。從上谷以西至燉煌，西接烏孫爲西部，二十餘邑，其大人曰置鞬落羅、曰律推演、宴荔游等，皆爲大帥，而制屬檀石槐。至靈帝時，大鈔畧幽、并二州。緣邊諸郡無歲不被其毒。熹平六年，遣護烏丸校尉夏育，破鮮卑中郎將田晏，匈奴中郎將臧旻與南單于出鴈門塞，三道並進，徑二千餘里征之。檀石槐帥部衆逆擊，旻等敗走，兵馬還者什一而己。鮮卑衆日多，田畜射獵，不足給食。後檀石槐乃案行烏侯秦水，廣袤數百里，停不流，中有魚而不能得。聞汗人善捕魚，於是檀石槐東擊汗國，得千餘家，徙置烏侯秦水上，使捕魚以助糧。至于今，烏侯秦水上有汗人數百戶。檀石槐年四十五死，子和連代立。和連材力不及父，而貪淫，斷法不平，衆叛者半。靈帝末年數爲寇鈔，攻北地，北地庶人善弩射者射中和連，和連即死。其子騫曼小，兄子魁頭代立。魁頭旣立後，騫曼長大，與魁頭爭國，衆遂離散。魁頭死，弟步度根代立。自檀石槐死後，諸大人遂世相襲也。
+- id: wei.30.p5.h1
+  anchor: wei.30.p5
+  at: 32
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p6.h1
+  anchor: wei.30.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.30.p6.h2
+  anchor: wei.30.p6
+  at: 5
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
 - id: wei.30.p6.t1
   anchor: wei.30.p6
   at: 158
@@ -77,6 +269,14 @@ annotations:
   era: 黃初
   era_year: 5
   reasoning: 原文「黃初五年」直接出现年号；解析為 AD 224（回溯前事，不推進章節時間軸）
+- id: wei.30.p6.h3
+  anchor: wei.30.p6
+  at: 197
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.30.p6.t2
   anchor: wei.30.p6
   at: 222
@@ -89,6 +289,38 @@ annotations:
   era: 青龍
   era_year: 1
   reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）
+- id: wei.30.p7.h1
+  anchor: wei.30.p7
+  at: 36
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.30.p7.h2
+  anchor: wei.30.p7
+  at: 103
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p7.h3
+  anchor: wei.30.p7
+  at: 144
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p7.h4
+  anchor: wei.30.p7
+  at: 187
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.30.p7.t1
   anchor: wei.30.p7
   at: 198
@@ -113,6 +345,14 @@ annotations:
   era: 景初
   era_year: 2
   reasoning: 「明年」 = 当前年 景初元年 (AD 237) 之次年 = AD 238
+- id: wei.30.p7.h5
+  anchor: wei.30.p7
+  at: 292
+  length: 2
+  type: person
+  person_id: tianyu
+  text: 田豫
+  via: primary
 - id: wei.30.p8.t1
   anchor: wei.30.p8
   at: 0
@@ -137,6 +377,22 @@ annotations:
   era: 青龍
   era_year: 1
   reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）
+- id: wei.30.p9.h1
+  anchor: wei.30.p9
+  at: 57
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.30.p9.h2
+  anchor: wei.30.p9
+  at: 93
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.30.p9.t1
   anchor: wei.30.p9
   at: 116
@@ -149,6 +405,14 @@ annotations:
   era: 太和
   era_year: 2
   reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
+- id: wei.30.p10.h1
+  anchor: wei.30.p10
+  at: 60
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name_carry
 - id: wei.30.p11.t1
   anchor: wei.30.p11
   at: 196
@@ -177,6 +441,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 景初2年 (AD 238)，月份「五月」
+- id: wei.30.p12.h1
+  anchor: wei.30.p12
+  at: 128
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.30.p12.a1
   anchor: wei.30.p12
   at: 309
@@ -211,6 +483,22 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 景初2年 (AD 238)，月份「十月」
+- id: wei.30.p14.h1
+  anchor: wei.30.p14
+  at: 146
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.30.p16.h1
+  anchor: wei.30.p16
+  at: 49
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: wei.30.p16.t1
   anchor: wei.30.p16
   at: 51
@@ -247,12 +535,36 @@ annotations:
   era: 正始
   era_year: 3
   reasoning: 原文「正始三年」直接出现年号；解析為 AD 242
+- id: wei.30.p18.h1
+  anchor: wei.30.p18
+  at: 167
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.30.p18.a1
   anchor: wei.30.p18
   at: 175
   length: 0
   type: pei
   text: 儉傳
+- id: wei.30.p19.h1
+  anchor: wei.30.p19
+  at: 102
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.30.p21.h1
+  anchor: wei.30.p21
+  at: 0
+  length: 3
+  type: person
+  person_id: guanqiujian
+  text: 毌丘儉
+  via: primary
 - id: wei.30.p21.t1
   anchor: wei.30.p21
   at: 181
@@ -267,6 +579,14 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 正始3年 (AD 242)，月份「七月」
+- id: wei.30.p23.h1
+  anchor: wei.30.p23
+  at: 121
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
 - id: wei.30.p23.t1
   anchor: wei.30.p23
   at: 373
@@ -305,6 +625,14 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：其子及親留在國者，因冒姓韓氏。准王海中，不與朝鮮相往來。
+- id: wei.30.p26.h1
+  anchor: wei.30.p26
+  at: 721
+  length: 2
+  type: person
+  person_id: anhan
+  text: 安帝
+  via: alias
 - id: wei.30.p26.t1
   anchor: wei.30.p26
   at: 723
@@ -317,6 +645,14 @@ annotations:
   era: 延光
   era_year: 4
   reasoning: 原文「延光四年」直接出现年号；解析為 AD 125（回溯前事，不推進章節時間軸）
+- id: wei.30.p27.h1
+  anchor: wei.30.p27
+  at: 81
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.30.p28.t1
   anchor: wei.30.p28
   at: 201
@@ -415,6 +751,30 @@ annotations:
   era: 正始
   era_year: 1
   reasoning: 原文「正始元年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）
+- id: wei.30.p36.h1
+  anchor: wei.30.p36
+  at: 153
+  length: 2
+  type: person
+  person_id: machao
+  text: 馬超
+  via: primary
+- id: wei.30.p36.h2
+  anchor: wei.30.p36
+  at: 158
+  length: 1
+  type: person
+  person_id: machao
+  text: 超
+  via: given_name
+- id: wei.30.p36.h3
+  anchor: wei.30.p36
+  at: 166
+  length: 3
+  type: person
+  person_id: xiahouyuan
+  text: 夏侯淵
+  via: primary
 - id: wei.30.p36.t1
   anchor: wei.30.p36
   at: 665
@@ -443,6 +803,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 正始6年 (AD 245)，月份「二月」
+- id: wei.30.p39.h1
+  anchor: wei.30.p39
+  at: 154
+  length: 2
+  type: person
+  person_id: wangping
+  text: 王平
+  via: primary
 - id: wei.30.p39.t1
   anchor: wei.30.p39
   at: 495

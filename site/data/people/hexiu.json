@@ -1,0 +1,93 @@
+{
+  "id": "hexiu",
+  "primary_name": "何休",
+  "courtesy_name": "邵公",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.79",
+      "title": "儒林列传",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/79.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.57",
+        "chapter_title": "杜欒劉李劉謝列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.57.p46",
+        "at": 23,
+        "data_url": "data/houhanshu/hhs/57.json",
+        "matched": "何休",
+        "snippet": "注[五]公羊傳曰：「其言梁亡何？魚爛而亡也。」何休曰：「魚爛，從中發潰爛也。」"
+      },
+      {
+        "chapter_id": "hhs.63",
+        "chapter_title": "李杜列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.63.p113",
+        "at": 24,
+        "data_url": "data/houhanshu/hhs/63.json",
+        "matched": "何休",
+        "snippet": "注[一]孽音魚列反。公羊傳曰：「臣僕庶孽之事。」何休注云：「孽，賤子也，猶樹之有孽生也。」"
+      },
+      {
+        "chapter_id": "hhs.63",
+        "chapter_title": "李杜列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.63.p15",
+        "at": 35,
+        "data_url": "data/houhanshu/hhs/63.json",
+        "matched": "何休",
+        "snippet": "…宋殺其大夫，何以不名？宋三世無大夫，三世內娶也。」何休注云：「內娶，娶大夫女也。言無大夫者三世，禮不臣妻之父母，國內皆臣，無娶道，故絕去大夫名，正其義也。」椒房者，皇后所居，以椒泥…"
+      },
+      {
+        "chapter_id": "hhs.63",
+        "chapter_title": "李杜列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.63.p32",
+        "at": 61,
+        "data_url": "data/houhanshu/hhs/63.json",
+        "matched": "何休",
+        "snippet": "…。何以稱字？□之也。曷為□之？為其與[公]盟也。」何休注云：「春秋王魯，托隱公為受命王，因儀父先與隱公盟，假以見□賞義。」"
+      },
+      {
+        "chapter_id": "hhs.64",
+        "chapter_title": "吳延史盧趙列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.64.p26",
+        "at": 58,
+        "data_url": "data/houhanshu/hhs/64.json",
+        "matched": "何休",
+        "snippet": "…乃息。刑竟歸田裡，稱病閉門不出。數為公卿所薦，議郎何休又訟弼有干國之器，宜登台相，征拜議郎。侯覽等惡之。光和中，出為彭城相，會病卒。裴瑜位至尚書。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p145",
+        "at": 77,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "何休",
+        "snippet": "…敢言，道路以目。」周書曰：「賢哲鉗口，小人鼓舌。」何休注公羊傳曰：「柑，以木銜其口也。」「鉗」或作「柑」，音渠廉反。"
+      }
+    ]
+  },
+  "n_mentions": 6
+}

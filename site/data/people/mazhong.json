@@ -1,0 +1,105 @@
+{
+  "id": "mazhong",
+  "primary_name": "馬忠",
+  "courtesy_name": "德信",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.13",
+      "title": "蜀書·黃李呂馬王張傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/13.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p44",
+        "at": 173,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "馬忠",
+        "snippet": "…才十餘騎。權先使朱然、潘璋斷其徑路。十二月，璋司馬馬忠獲羽及其子平於章鄉，斬之，遂定荊州。"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p44",
+        "at": 44,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "馬忠",
+        "snippet": "…斬雍闓及高定。使庲降督益州李恢由益州入，門下督巴西馬忠由牂柯入，擊破諸縣，復與亮合。孟獲收闓餘眾以拒亮。獲素為夷、漢所服，亮募生致之，既得，使觀於營陳之間，問曰：「此軍何如？」獲曰…"
+      },
+      {
+        "chapter_id": "zztj.72",
+        "chapter_title": "魏紀四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.72.p61",
+        "at": 37,
+        "data_url": "data/zztj/zztj/72.json",
+        "matched": "馬忠",
+        "snippet": "…[7]，用法嚴峻，南夷豪帥劉冑叛。丞相亮以參軍巴西馬忠代翼，召翼令還。其人謂翼宜速歸即罪。翼曰：「不然，吾以蠻夷蠢動，不稱職，故還耳。然代人未至，吾方臨戰場，當運糧積穀，為滅賊之資…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p6",
+        "at": 190,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "馬忠",
+        "snippet": "…黜退之故而廢公家之務乎？」於是統攝不懈，代到乃發。馬忠因其成基以破殄冑，丞相亮聞而善之。亮出武功，以翼為前軍都督，領扶風太守。亮卒，拜前領軍，追論討劉冑功，賜爵關內侯。延熙元年，入…"
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p12",
+        "at": 35,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "馬忠",
+        "snippet": "…米，集於斜谷口，治斜谷邸閣。是歲，南夷劉冑反，將軍馬忠破平之。"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p51",
+        "at": 27,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "馬忠",
+        "snippet": "…關羽，璋與朱然斷羽走道，到臨沮，住夾石。璋部下司馬馬忠禽羽，并羽子平、都督趙累等。權即分宜都巫、秭歸二縣爲固陵郡，拜璋爲太守、振威將軍，封溧陽侯。甘寧卒，又并其軍。劉備出夷陵，璋與…"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p17",
+        "at": 257,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "馬忠",
+        "snippet": "…尚十餘騎。權先使朱然、潘璋斷其徑路。十二月，璋司馬馬忠獲羽及其子平、都督趙累等於章鄉，遂定荊州。是歳大疫，盡除荊州民租稅。曹公表權爲驃騎將軍，假節領荊州牧，封南昌侯。權遣校尉梁寓奉…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 7
+}

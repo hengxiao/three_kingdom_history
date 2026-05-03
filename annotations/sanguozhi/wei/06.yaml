@@ -2,39 +2,187 @@ chapter: wei.6
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷06
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 70fe14895090399917ea6144736e995ed32064e8a32394ae78e7ad119a64d3fa
 annotations:
+- id: wei.6.p1.h1
+  anchor: wei.6.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: wei.6.p1.a1
   anchor: wei.6.p1
   at: 13
   length: 0
   type: pei
   text: 《英雄記》曰：卓父君雅，由微官爲潁川綸氏尉。有三子：長子擢，字孟高，早卒；次即卓；卓弟旻字叔穎。
+- id: wei.6.p1.h2
+  anchor: wei.6.p1
+  at: 45
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p1.h3
+  anchor: wei.6.p1
+  at: 77
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.6.p1.a2
   anchor: wei.6.p1
   at: 79
   length: 0
   type: pei
   text: 《吳書》曰：郡召卓爲吏，使監領盜賊。胡甞出鈔，多虜民人，涼州刺史成就辟卓爲從事，使領兵騎討捕，大破之，斬獲千計。并州刺史段熲薦卓公府，司徒袁隗辟爲掾。
+- id: wei.6.p1.h4
+  anchor: wei.6.p1
+  at: 79
+  length: 3
+  type: person
+  person_id: huanhan
+  text: 漢桓帝
+  via: primary
+- id: wei.6.p1.h5
+  anchor: wei.6.p1
+  at: 95
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p1.h6
+  anchor: wei.6.p1
+  at: 124
+  length: 2
+  type: person
+  person_id: zhanghuan
+  text: 張奐
+  via: primary
+- id: wei.6.p1.h7
+  anchor: wei.6.p1
+  at: 142
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.6.p1.a3
   anchor: wei.6.p1
   at: 183
   length: 0
   type: pei
   text: 《英雄記》曰：卓數討羌、胡，前後百餘戰。
+- id: wei.6.p1.h8
+  anchor: wei.6.p1
+  at: 234
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p1.h9
+  anchor: wei.6.p1
+  at: 299
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
 - id: wei.6.p1.a4
   anchor: wei.6.p1
   at: 327
   length: 0
   type: pei
   text: 《靈帝紀》曰：中平五年，徵卓爲少府，勑以營吏士屬左將軍皇甫嵩，詣行在所。卓上言：「涼州擾亂，鯨鯢未滅，此臣奮發效命之秋。吏士踊躍，戀恩念報，各遮臣車，辭聲懇惻，未得即路也。輙且行前將軍事，盡心慰卹，効力行陣。」六年，以卓爲并州牧，又勑以吏兵屬皇甫嵩。卓復上言：「臣掌戎十年，士卒大小相狎彌久，戀臣畜養之恩，樂爲國家奮一旦之命，乞將之州，效力邊陲。」卓再違詔勑，會爲何進所召。
+- id: wei.6.p2.h1
+  anchor: wei.6.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: wei.6.p2.h2
+  anchor: wei.6.p2
+  at: 4
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: wei.6.p2.h3
+  anchor: wei.6.p2
+  at: 12
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: wei.6.p2.h4
+  anchor: wei.6.p2
+  at: 19
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- anchor: wei.6.p2
+  at: 27
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「太后不從」— 即靈帝崩後何太后不從何進誅宦官之議；roster 無 hetaihou，置 null。
+  id: wei.6.p2.h12
+- id: wei.6.p2.h5
+  anchor: wei.6.p2
+  at: 35
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- anchor: wei.6.p2
+  at: 102
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.9
+  reasoning: 「欲以脅迫太后」— 何進召董卓欲脅何太后；roster 無。
+  id: wei.6.p2.h13
+- id: wei.6.p2.h6
+  anchor: wei.6.p2
+  at: 105
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p2.a1
   anchor: wei.6.p2
   at: 112
   length: 0
   type: pei
   text: 《續漢書》曰：進字遂高，南陽人，太后異母兄也。進本屠家子，父曰真。真死後，進以妹倚黃門得入掖庭，有寵，光和三年立爲皇后，進由是貴幸。中平元年，黃巾起，拜進大將軍。《典略》載卓表曰：「臣伏惟天下所以有逆不止者，各由黃門常侍張讓等侮慢天常，操擅王命，父子兄弟並據州郡，一書出門，便獲千金，京畿諸郡數百萬膏腴美田皆屬讓等，至使怨氣上蒸，妖賊蠭起。臣前奉詔討於扶羅，將士饑乏，不肯渡河，皆言欲詣京師先誅閹豎以除民害，從臺閣求乞資直。臣隨慰撫，以至新安。臣聞揚湯止沸，不如滅火去薪，潰癕雖痛，勝於養肉，及溺呼船，悔之無及。」
+- id: wei.6.p2.h7
+  anchor: wei.6.p2
+  at: 125
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p2.a2
   anchor: wei.6.p2
   at: 139
@@ -47,30 +195,240 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》云：苗，太后之同母兄，先嫁朱氏之子。進部曲將吳匡，素怨苗不與進同心，又疑其與宦官通謀，乃令軍中曰：「殺大將軍者，車騎也。」遂引兵與卓弟旻共攻殺苗於朱爵闕下。
+- id: wei.6.p2.h8
+  anchor: wei.6.p2
+  at: 164
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p2.h9
+  anchor: wei.6.p2
+  at: 166
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p2.h10
+  anchor: wei.6.p2
+  at: 169
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.6.p2.h11
+  anchor: wei.6.p2
+  at: 189
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p2.a4
   anchor: wei.6.p2
   at: 191
   length: 0
   type: pei
   text: 《九州春秋》曰：卓初入洛陽，步騎不過三千，自嫌兵少，不爲遠近所服；率四五日，輙夜遣兵出四城門，明日陳旌鼓而入，宣言云「西兵復入至洛中」。人不覺，謂卓兵不可勝數。
+- id: wei.6.p3.h1
+  anchor: wei.6.p3
+  at: 22
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p3.h2
+  anchor: wei.6.p3
+  at: 26
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p3.h3
+  anchor: wei.6.p3
+  at: 59
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p3.h4
+  anchor: wei.6.p3
+  at: 61
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p4.h1
+  anchor: wei.6.p4
+  at: 14
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p4.h2
+  anchor: wei.6.p4
+  at: 33
+  length: 3
+  type: person
+  person_id: liubian
+  text: 弘農王
+  via: alias
+- anchor: wei.6.p4
+  at: 43
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「殺王及何太后」— 董卓鴆殺弘農王（劉辯）及何太后；roster 無。
+  id: wei.6.p4.h9
+- id: wei.6.p4.h3
+  anchor: wei.6.p4
+  at: 47
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: wei.6.p4.h4
+  anchor: wei.6.p4
+  at: 57
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
 - id: wei.6.p4.a1
   anchor: wei.6.p4
   at: 60
   length: 0
   type: pei
   text: 《獻帝紀》曰：卓謀廢帝，會羣臣於朝堂，議曰：「大者天地，其次君臣，所以爲治。今皇帝闇弱，不可以奉宗廟，爲天下主。欲以依伊尹、霍光故事，立陳留王，何如？」尚書盧植曰：「案尚書太甲旣立不明，伊尹放之桐宮。昌邑王立二十七日，罪過千餘，故霍光廢之。今上富於春秋，行未有失，非前事之比也。」卓怒，罷坐，欲誅植，侍中蔡邕勸之，得免。九月甲戌，卓復大會羣臣曰：「太后逼迫永樂太后，令以憂死，逆婦姑之禮，無孝順之節。天子幼質，軟弱不君。昔伊尹放太甲，霍光廢昌邑，著在典籍，僉以爲善。今太后宜如太甲，皇帝宜如昌邑。陳留王仁孝，宜即尊皇祚。」《獻帝起居注》載策曰：「孝靈皇帝不究高宗眉壽之祚，早棄臣子。皇帝承紹，海內側望，而帝天姿輕佻，威儀不恪，在喪慢惰，衰如故焉；凶德旣彰，淫穢發聞，損辱神器，忝汙宗廟。皇太后教無母儀，統政荒亂。永樂太后暴崩，衆論惑焉。三綱之道，天地之紀，而乃有闕，罪之大者。陳留王恊，聖德偉茂，規矩邈然，豐下兊上，有堯圖之表；居喪哀戚，言不及邪，岐嶷之性，有周成之懿。休聲美稱，天下所聞，宜承洪業，爲萬世統，可以承宗廟。廢皇帝爲弘農王。皇太后還政。」尚書讀冊畢，羣臣莫有言，尚書丁宮曰：「天禍漢室，喪亂弘多。昔祭仲廢忽立突，春秋大其權。今大臣量宜爲社稷計，誠合天人，請稱萬歲。」卓以太后見廢，故公卿以下不布服，會葬，素衣而已。
+- id: wei.6.p4.h5
+  anchor: wei.6.p4
+  at: 60
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p4.h6
+  anchor: wei.6.p4
+  at: 81
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p4.h7
+  anchor: wei.6.p4
+  at: 94
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p4.h8
+  anchor: wei.6.p4
+  at: 130
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p4.a2
   anchor: wei.6.p4
   at: 156
   length: 0
   type: pei
   text: 《魏書》曰：卓所願無極，語賔客曰：「我相，貴無上也。」《英雄記》曰：卓欲震威，侍御史擾龍宗詣卓白事，不解劒，立撾殺之，京師震動。發何苗棺，出其尸，枝解節棄於道邊。又收苗母舞陽君殺之，棄尸於苑枳落中，不復收斂。
+- id: wei.6.p5.h1
+  anchor: wei.6.p5
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p5.h2
+  anchor: wei.6.p5
+  at: 28
+  length: 2
+  type: person
+  person_id: kongzhou
+  text: 孔伷
+  via: primary
+- id: wei.6.p5.h3
+  anchor: wei.6.p5
+  at: 34
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
+- id: wei.6.p5.h4
+  anchor: wei.6.p5
+  at: 54
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p5.h5
+  anchor: wei.6.p5
+  at: 56
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p5.a1
   anchor: wei.6.p5
   at: 75
   length: 0
   type: pei
   text: 《英雄記》曰：毖字仲遠，武威人。瓊字德瑜，汝南人。謝承《後漢書》曰：伍孚字德瑜，少有大節，爲郡門下書佐。其本邑長有罪，太守使孚出教，就曹下督郵收之。孚不肯受教，伏地仰諫曰：「君雖不君，臣不可不臣，明府柰何令孚受教，勑外収本邑長乎？更乞授他吏。」太守奇而聽之。後大將軍何進辟爲東曹屬，稍遷侍中、河南尹、越騎校尉。董卓作亂，百僚震慄。孚著小鎧，於朝服裏挾佩刀見卓，欲伺便刺殺之。語闋辭去，卓送至閤中，孚因出刀刺之。卓多力，退郤不中，即収孚。卓曰：「卿欲反邪？」孚大言曰：「汝非吾君，吾非汝臣，何反之有？汝亂國篡主，罪盈惡大，今是吾死日，故來誅姦賊耳，恨不車裂汝於市朝以謝天下。」遂殺孚。謝承記孚字及本郡，則與瓊同，而致死事乃與孚異也，不知孚爲瓊之別名，爲別有伍孚也？蓋未詳之。
+- id: wei.6.p6.h1
+  anchor: wei.6.p6
+  at: 4
+  length: 2
+  type: person
+  person_id: wangkuang
+  text: 王匡
+  via: primary
+- id: wei.6.p6.h2
+  anchor: wei.6.p6
+  at: 18
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h3
+  anchor: wei.6.p6
+  at: 20
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h4
+  anchor: wei.6.p6
+  at: 58
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p6.t1
   anchor: wei.6.p6
   at: 72
@@ -91,18 +449,58 @@ annotations:
   length: 0
   type: pei
   text: 華嶠《漢書》曰：卓欲遷都長安，召公卿以下大議。司徒楊彪曰：「昔盤庚五遷，殷民胥怨，故作三篇以曉天下之民。今海內安穩，無故移都，恐百姓驚動，麋沸蟻聚爲亂。」卓曰：「關中肥饒，故秦得并吞六國。今徙西京，設令關東豪彊敢有動者，以我彊兵踧之，可使詣滄海。」彪曰：「海內動之甚易，安之甚難。又長安宮室壞敗，不可卒復。」卓曰：「武帝時居杜陵南山下，有成瓦窑數千處，引涼州材木東下以作宮室，爲功不難。」卓意不得，便作色曰：「公欲沮我計邪？邊章、韓約有書來，欲令朝廷必徙都。若大兵來下，我不能復相救，公便可與袁氏西行。」彪曰：「西方自彪道徑也，顧未知天下何如耳！」議罷。卓勑司隷校尉宣璠以災異劾奏，因策免彪。《續漢書》曰：太尉黃琬、司徒楊彪、司空荀爽俱詣卓，卓言：「昔高祖都關中，十一世後中興，更都洛陽。從光武至今復十一世，案石苞室讖，宜復還都長安。」坐中皆驚愕，無敢應者。彪曰：「遷都改制，天下大事，皆當因民之心，隨時之宜。昔盤庚五遷，殷民胥怨，故作三篇以曉之。往者王莽篡逆，變亂五常，更始赤眉之時，焚燒長安，殘害百姓，民人流亡，百無一在。光武受命，更都洛邑，此其宜也。今方建立聖主，光隆漢祚，而無故捐宮廟，棄園陵，恐百姓驚愕，不解此意，必麋沸蟻聚以致擾亂。石苞室讖，妖邪之書，豈可信用？」卓作色曰：「楊公欲沮國家計邪？關東方亂，所在賊起。崤函險固，國之重防。又隴右取材，功夫不難。杜陵南山下有孝武故陶處，作塼瓦，一朝可辦。宮室官府，蓋何足言！百姓小民，何足與議。若有前郤，我以大兵驅之，豈得自在。」百寮恐怖失色。琬謂卓曰：「此大事。楊公之語，得無重思！」卓罷坐，即日令司隷奏彪及琬，皆免官。大駕即西。卓部兵燒洛陽城外面百里。又自將兵燒南北宮及宗廟、府庫、民家，城內埽地殄盡。又收諸富室，以罪惡沒入其財物；無辜而死者，不可勝計。《獻帝紀》曰：卓獲山東兵，以豬膏塗布十餘匹，用纏其身，然後燒之，先從足起。獲袁紹豫州從事李延，煑殺之。卓所愛胡，恃寵放縱，爲司隷校尉趙謙所殺。卓大怒曰：「我愛狗，尚不欲令人呵之，而況人乎！」乃召司隷都官撾殺之。
+- id: wei.6.p6.h5
+  anchor: wei.6.p6
+  at: 104
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p6.a2
   anchor: wei.6.p6
   at: 138
   length: 0
   type: pei
   text: 《魏書》曰：言其逼天子也。《獻帝紀》曰：卓旣爲太師，復欲稱尚父，以問蔡邕。邕曰：「昔武王受命，太公爲師，輔佐周室，以伐無道，是以天下尊之，稱爲尚父。今公之功德誠爲巍巍，宜須關東悉定，車駕東還，然後議之。」乃止。京師地震，卓又問邕。邕對曰：「地動陰盛，大臣踰制之所致也。公乘青蓋車，遠近以爲非宜。」卓從之，更乘金華皂蓋車也。
+- id: wei.6.p6.h6
+  anchor: wei.6.p6
+  at: 138
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p6.a3
   anchor: wei.6.p6
   at: 172
   length: 0
   type: pei
   text: 《英雄記》曰：卓侍妾懷抱中子，皆封侯，弄以金紫。孫女名白，時尚未笄，封爲渭陽君。於郿城東起壇，從廣二丈餘，高五六尺，使白乘軒金華青蓋車，都尉、中郎將、刺史二千石在郿者，各令乘軒簪筆，爲白導從，之壇上，使兄子璜爲使者授印綬。
+- id: wei.6.p6.h7
+  anchor: wei.6.p6
+  at: 175
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h8
+  anchor: wei.6.p6
+  at: 182
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h9
+  anchor: wei.6.p6
+  at: 197
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p6.a4
   anchor: wei.6.p6
   at: 202
@@ -121,6 +519,54 @@ annotations:
   length: 0
   type: pei
   text: 橫音光。
+- id: wei.6.p6.h10
+  anchor: wei.6.p6
+  at: 257
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h11
+  anchor: wei.6.p6
+  at: 316
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h12
+  anchor: wei.6.p6
+  at: 339
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: wei.6.p6.h13
+  anchor: wei.6.p6
+  at: 349
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h14
+  anchor: wei.6.p6
+  at: 351
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p6.h15
+  anchor: wei.6.p6
+  at: 371
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
 - id: wei.6.p6.a7
   anchor: wei.6.p6
   at: 381
@@ -147,36 +593,260 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 承前文年號「初平」推得，「三年四月」 = 初平3年 = AD 192
+- id: wei.6.p7.h1
+  anchor: wei.6.p7
+  at: 7
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: wei.6.p7.h2
+  anchor: wei.6.p7
+  at: 14
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
+- id: wei.6.p7.h3
+  anchor: wei.6.p7
+  at: 18
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h4
+  anchor: wei.6.p7
+  at: 20
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.6.p7.h5
+  anchor: wei.6.p7
+  at: 25
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h6
+  anchor: wei.6.p7
+  at: 43
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.6.p7.h7
+  anchor: wei.6.p7
+  at: 69
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.6.p7.h8
+  anchor: wei.6.p7
+  at: 74
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h9
+  anchor: wei.6.p7
+  at: 80
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h10
+  anchor: wei.6.p7
+  at: 82
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h11
+  anchor: wei.6.p7
+  at: 85
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.6.p7.h12
+  anchor: wei.6.p7
+  at: 89
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: wei.6.p7.h13
+  anchor: wei.6.p7
+  at: 98
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h14
+  anchor: wei.6.p7
+  at: 110
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p7.h15
+  anchor: wei.6.p7
+  at: 113
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: wei.6.p7.a1
   anchor: wei.6.p7
   at: 129
   length: 0
   type: pei
   text: 《英雄記》曰：時有謠言曰：「千里草，何青青，十日卜，猶不生。」又作董逃之歌。又有道士書布爲「呂」字以示卓，卓不知其爲呂布也。卓當入會，陳列步騎，自營至宮，朝服導引行其中。馬躓不前，卓心怪欲止，布勸使行，乃衷甲而入。卓旣死，當時日月清淨，微風不起。旻、璜等及宗族老弱悉在郿，皆還，爲其羣下所斫射。卓母年九十，走至塢門曰「乞脫我死」，即斬首。袁氏門生故吏改殯諸袁死於郿者，斂聚董氏尸於其側而焚之。暴卓尸於市。卓素肥，膏流浸地，草爲之丹。守尸吏暝以爲大炷，置卓臍中以爲燈，光明達旦，如是積日。後卓故部曲收所燒者灰，并以一棺棺之，葬於郿。卓塢中金有二三萬斤，銀八九萬斤，珠玉錦綺奇玩雜物皆山崇阜積，不可知數。
+- id: wei.6.p7.h16
+  anchor: wei.6.p7
+  at: 141
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p7.a2
   anchor: wei.6.p7
   at: 148
   length: 0
   type: pei
   text: 謝承《後漢書》曰：蔡邕在王允坐，聞卓死，有歎惜之音。允責邕曰：「卓，國之大賊，殺主殘臣，天地所不祐，人神所同疾。君爲王臣，世受漢恩，國主危難，曾不倒戈，卓受天誅，而更嗟痛乎？」便使收付廷尉。邕謝允曰：「雖以不忠，猶識大義，古今安危，耳所厭聞，口所常玩，豈當背國而向卓也？狂瞽之詞，謬出患入，願黥首爲刑以繼漢史。」公卿惜邕才，咸共諫允。允曰：「昔武帝不殺司馬遷，使作謗書，流於後世。方今國祚中衰，戎馬在郊，不可令佞臣執筆在幼主左右，後令吾徒並受謗議。」遂殺邕。臣松之以爲蔡邕雖爲卓所親任，情必不黨。寧不知卓之姦凶，爲天下所毒，聞其死亡，理無歎惜。縱復令然，不應反言於王允之坐。斯殆謝承之妄記也。史遷紀傳，博有奇功於世，而云王允謂孝武應早殺遷，此非識者之言。但遷爲不隱孝武之失，直書其事耳，何謗之有乎？王允之忠正，可謂內省不疚者矣，旣無懼於謗，且欲殺邕，當論邕應死與不，豈可慮其謗己而枉戮善人哉！此皆誣罔不通之甚者。張璠《漢紀》曰：初，蔡邕以言事見徙，名聞天下，義動志士。及還，內寵惡之。邕恐，乃亡命海濵，往來依太山羊氏，積十年。卓爲太尉，辟爲掾，以高第爲侍御史治書，三日中遂至尚書。後遷巴東太守，卓上留拜侍中，至長安爲左中郎將。卓重其才，厚遇之。每有朝廷事，常令邕具草。及允將殺邕，時名士多爲之言，允悔欲止，而邕已死。
+- id: wei.6.p8.h1
+  anchor: wei.6.p8
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p8.h2
+  anchor: wei.6.p8
+  at: 37
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p8.h3
+  anchor: wei.6.p8
+  at: 40
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.6.p8.h4
+  anchor: wei.6.p8
+  at: 68
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: wei.6.p8.a1
   anchor: wei.6.p8
   at: 72
   length: 0
   type: pei
   text: 《魏書》曰：輔恇怯失守，不能自安。常把辟兵符，以鈇鑕致其旁，欲以自彊。見客，先使相者相之，知有反氣與不，又筮知吉凶，然後乃見之。中郎將董越來就輔，輔使筮之，得兊下離上，筮者曰：「火勝金，外謀內之卦也。」即時殺越。《獻帝紀》云：筮人常爲越所鞭，故因此以報之。
+- id: wei.6.p9.h1
+  anchor: wei.6.p9
+  at: 44
+  length: 2
+  type: person
+  person_id: jiaxu
+  text: 賈詡
+  via: primary
 - id: wei.6.p9.a1
   anchor: wei.6.p9
   at: 70
   length: 0
   type: pei
   text: 《九州春秋》曰：傕等在陝，皆恐怖，急擁兵自守。胡文才、楊整脩皆涼州大人，而司徒王允素所不善也。及李傕之叛，允乃呼文才、整脩使東解釋之，不假借以溫顏，謂曰：「關東鼠子欲何爲邪？卿往呼之。」於是二人往，實召兵而還。
+- id: wei.6.p9.h2
+  anchor: wei.6.p9
+  at: 71
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p9.h3
+  anchor: wei.6.p9
+  at: 96
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.6.p9.h4
+  anchor: wei.6.p9
+  at: 101
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.6.p9.h5
+  anchor: wei.6.p9
+  at: 127
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p9.h6
+  anchor: wei.6.p9
+  at: 131
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
 - id: wei.6.p9.a2
   anchor: wei.6.p9
   at: 136
   length: 0
   type: pei
   text: 張璠《漢紀》曰：布兵敗，住馬青瑣門外，謂允曰：「公可以去。」允曰：「安國家，吾之上願也，若不獲，則奉身以死。朝廷幼主恃我而已，臨難苟免，吾不爲也。努力謝關東諸公，以國家爲念。」傕、汜入長安城，屯南宮掖門，殺太僕魯馗、大鴻臚周奐、城門校尉崔烈、越騎校尉王頎。吏民死者不可勝數。司徒王允扶天子上宣平城門避兵，傕等於城門下拜，伏地叩頭。帝謂傕等曰：「卿無作威福，而乃放兵縱橫，欲何爲乎？」傕等曰：「董卓忠於陛下，而無故爲呂布所殺。臣等爲卓報讎，弗敢爲逆也。請事竟，詣廷尉受罪。」允窮逼出見傕，傕誅允及妻子宗族十餘人。長安城中男女大小莫不流涕。允字子師，太原祁人也。少有大節，郭泰見而奇之，曰：「王生一日千里，王佐之才也。」泰雖先達，遂與定交。三公並辟，歷豫州刺史，辟荀爽、孔融爲從事，遷河南尹、尚書令。及爲司徒，其所以扶持王室，甚得大臣之節，自天子以下，皆倚賴焉。卓亦推信之，委以朝廷。華嶠曰：夫士以正立，以謀濟，以義成，若王允之推董卓而分其權，伺其間而弊其罪。當此之時，天下之難解矣，本之皆主於忠義也，故推卓不爲失正，分權不爲不義，伺閒不爲狙詐，是以謀濟義成，而歸於正也。
+- id: wei.6.p9.h7
+  anchor: wei.6.p9
+  at: 137
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p9.h8
+  anchor: wei.6.p9
+  at: 146
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p9.a3
   anchor: wei.6.p9
   at: 208
@@ -243,24 +913,74 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝紀》曰：時尚書令士孫瑞爲亂兵所害。《三輔決錄注》曰：瑞字君榮，扶風人，世爲學門。瑞少傳家業，博達無所不通，仕歷顯位。卓旣誅，遷大司農，爲三老。每三公缺，瑞常在選中。太尉周忠、皇甫嵩，司徒淳于嘉、趙溫，司空楊彪、張喜等爲公，皆辭拜讓瑞。天子都許，追論瑞功，封子萌澹津亭侯。萌字文始，亦有才學，與王粲善。臨當就國，粲作詩以贈萌，萌有荅，在粲集中。
+- anchor: wei.6.p12
+  at: 185
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.85
+  reasoning: 「唯皇后貴人從」— 興平末漢獻帝出奔，從者唯伏皇后與貴人；roster 無伏皇后。
+  id: wei.6.p12.h3
 - id: wei.6.p12.a3
   anchor: wei.6.p12
   at: 201
   length: 0
   type: pei
   text: 《獻帝紀》曰：初，議者欲令天子浮河東下，太尉楊彪曰：「臣弘農人，從此已東有三十六灘，非萬乘所當從也。」劉艾曰：「臣前爲陝令，知其危險，有師猶有傾覆，況今無師，太尉謀是也。」乃止。及當北渡，使李樂具船。天子步行趨河岸，岸高不得下，董承等謀欲以馬羈相續以繫帝腰。時中宮僕伏德扶中宮，一手持十匹絹，乃取德絹連續爲輦。行軍校尉尚弘多力，令弘居前負帝，乃得下登船。其餘不得渡者甚衆，復遣船收諸不得渡者，皆爭攀船，船上人以刃櫟斷其指，舟中之指可掬。
+- id: wei.6.p12.h1
+  anchor: wei.6.p12
+  at: 225
+  length: 2
+  type: person
+  person_id: hanrong
+  text: 韓融
+  via: primary
 - id: wei.6.p12.a4
   anchor: wei.6.p12
   at: 308
   length: 0
   type: pei
   text: 《魏書》曰：乘輿時居棘籬中，門戶無關閉。天子與羣臣會，兵士伏籬上觀，互相鎮壓以爲笑。諸將專權，或擅笞殺尚書。司隷校尉出入，民兵抵擲之。諸將或遣婢詣省閤，或自齎酒啖，過天子飲，侍中不通，喧呼罵詈，遂不能止。又競表拜諸營壁民爲部曲，求其禮遺。醫師、走卒皆爲校尉，御史刻印不供，乃以錐畫，示有文字，或不時得也。
+- id: wei.6.p12.h2
+  anchor: wei.6.p12
+  at: 344
+  length: 2
+  type: person
+  person_id: zhangyang
+  text: 張楊
+  via: primary
+- id: wei.6.p13.h1
+  anchor: wei.6.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p13.h2
+  anchor: wei.6.p13
+  at: 29
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
 - id: wei.6.p13.a1
   anchor: wei.6.p13
   at: 34
   length: 0
   type: pei
   text: 《英雄記》曰：備誘奉與相見，因於坐上執之。暹失奉勢，孤，時欲走還并州，爲杼秋屯帥張宣所邀殺。
+- id: wei.6.p13.h3
+  anchor: wei.6.p13
+  at: 37
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p13.t1
   anchor: wei.6.p13
   at: 44
@@ -291,96 +1011,728 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211
+- id: wei.6.p13.h4
+  anchor: wei.6.p13
+  at: 163
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p13.h5
+  anchor: wei.6.p13
+  at: 215
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p14.h1
+  anchor: wei.6.p14
+  at: 0
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p14.h2
+  anchor: wei.6.p14
+  at: 13
+  length: 2
+  type: person
+  person_id: caopi
+  text: 高祖
+  via: chapter_alias
 - id: wei.6.p14.a1
   anchor: wei.6.p14
   at: 41
   length: 0
   type: pei
   text: 華嶠《漢書》曰：安字邵公，好學有威重。明帝時爲楚郡太守，治楚王獄，所申理者四百餘家，皆蒙全濟，安遂爲名臣。章帝時至司徒，生蜀郡太守京。京弟敞爲司空。京子陽，太尉。陽四子：長子平，平弟成，左中郎將，並早卒；成弟逢，逢弟隗，皆爲公。《魏書》曰：自安以下，皆博愛容衆，無所揀擇；賔客入其門，無賢愚皆得所欲，爲天下所歸。紹即逢之庶子，術異母兄也，出後成爲子。《英雄記》曰：成字文開，壯健有部分，貴戚權豪自大將軍梁冀以下皆與結好，言無不從。故京師爲作諺曰：「事不諧，問文開。」
+- id: wei.6.p14.h3
+  anchor: wei.6.p14
+  at: 41
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p14.h4
+  anchor: wei.6.p14
+  at: 59
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p14.a2
   anchor: wei.6.p14
   at: 76
   length: 0
   type: pei
   text: 《英雄記》曰：紹生而父死，二公愛之。幼使爲郎，弱冠除濮陽長，有清名。遭母喪，服竟，又追行父服，凡在冢廬六年。禮畢，隱居洛陽，不妄通賔客，非海內知名，不得相見。又好游俠，與張孟卓、何伯求、吳子卿、許子遠、伍德瑜等皆爲奔走之友。不應辟命。中常侍趙忠謂諸黃門曰：「袁本初坐作聲價，不應呼召而養死士，不知此兒欲何所爲乎？」紹叔父隗聞之，責數紹曰：「汝且破我家！」紹於是乃起應大將軍之命。臣松之案：《魏書》云「紹，逢之庶子，出後伯父成」。如此記所言，則似實成所生。夫人追服所生，禮無其文，況於所後而可以行之！二書未詳孰是。
+- id: wei.6.p15.h1
+  anchor: wei.6.p15
+  at: 0
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- anchor: wei.6.p15
+  at: 4
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「太后兄大將軍何進」— 即何太后；roster 無。
+  id: wei.6.p15.h9
+- id: wei.6.p15.h2
+  anchor: wei.6.p15
+  at: 10
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: wei.6.p15.h3
+  anchor: wei.6.p15
+  at: 13
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p15.a1
   anchor: wei.6.p15
   at: 20
   length: 0
   type: pei
   text: 《續漢書》曰：紹使客張津說進曰：「黃門、常侍秉權日久，又永樂太后與諸常侍專通財利，將軍宜整頓天下，爲海內除患。」進以爲然，遂與紹結謀。
+- anchor: wei.6.p15
+  at: 20
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「太后不從」— 何太后；roster 無。
+  id: wei.6.p15.h10
+- id: wei.6.p15.h4
+  anchor: wei.6.p15
+  at: 27
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- anchor: wei.6.p15
+  at: 33
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「欲以脅太后」— 何太后；roster 無。
+  id: wei.6.p15.h11
+- id: wei.6.p15.h5
+  anchor: wei.6.p15
+  at: 55
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p15.h6
+  anchor: wei.6.p15
+  at: 76
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p15.h7
+  anchor: wei.6.p15
+  at: 92
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- anchor: wei.6.p15
+  at: 131
+  length: 2
+  type: person
+  person_id: hetaihou
+  text: 太后
+  via: llm
+  confidence: 0.92
+  reasoning: 「中常侍段珪等矯太后命」— 矯何太后詔；roster 無。
+  id: wei.6.p15.h12
 - id: wei.6.p15.a2
   anchor: wei.6.p15
   at: 148
   length: 0
   type: pei
   text: 《九州春秋》曰：初紹說進曰：「黃門、常侍累世太盛，威服海內，前竇武欲誅之而反爲所害，但坐言語漏泄，以五營士爲兵故耳。五營士生長京師，服畏中人，而竇氏反用其鋒，遂果叛走歸黃門，是以自取破滅。今將軍以元舅之尊，二府並領勁兵，其部曲將吏皆英雄名士，樂盡死力，事在掌握，天贊其時也。今爲天下誅除貪穢，功勳顯著，垂名後世，雖周之申伯，何足道哉？今大行在前殿，將軍以詔書領兵衞守，可勿入宮。」進納其言，後更狐疑。紹懼進之改變，脅進曰：「今交搆已成，形勢已露，將軍何爲不早決之？事留變生，後機禍至。」進不從，遂敗。
+- id: wei.6.p15.h8
+  anchor: wei.6.p15
+  at: 187
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h1
+  anchor: wei.6.p16
+  at: 0
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.6.p16.h2
+  anchor: wei.6.p16
+  at: 3
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h3
+  anchor: wei.6.p16
+  at: 17
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h4
+  anchor: wei.6.p16
+  at: 25
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h5
+  anchor: wei.6.p16
+  at: 45
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p16.h6
+  anchor: wei.6.p16
+  at: 58
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p16.a1
   anchor: wei.6.p16
   at: 69
   length: 0
   type: pei
   text: 《獻帝春秋》曰：卓欲廢帝，謂紹曰：「皇帝沖闇，非萬乘之主。陳留王猶勝，今欲立之。人有小智，大或癡，亦知復何如，爲當且爾；卿不見靈帝乎？念此令人憤毒！」紹曰：「漢家君天下四百許年，恩澤深渥，兆民戴之來久。今帝雖幼沖，未有不善宣聞天下，公欲廢適立庶，恐衆不從公議也。」卓謂紹曰：「豎子！天下事豈不決我？我今爲之，誰敢不從？爾謂董卓刀爲不利乎！」紹曰：「天下健者，豈唯董公？」引佩刀橫揖而出。臣松之以爲紹于時與卓未搆嫌隙，故卓與之諮謀。若但以言議不同，便罵爲豎子，而有推刃之心，及紹復荅，屈彊爲甚，卓又安能容忍而不加害乎？且如紹此言，進非亮正，退違詭遜，而顯其競爽之旨，以觸哮闞之鋒，有志功業者，理豈然哉！此語，妄之甚矣。
+- id: wei.6.p16.h7
+  anchor: wei.6.p16
+  at: 69
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h8
+  anchor: wei.6.p16
+  at: 102
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p16.h9
+  anchor: wei.6.p16
+  at: 109
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h10
+  anchor: wei.6.p16
+  at: 113
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p16.h11
+  anchor: wei.6.p16
+  at: 129
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h12
+  anchor: wei.6.p16
+  at: 209
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p16.h13
+  anchor: wei.6.p16
+  at: 221
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p16.h14
+  anchor: wei.6.p16
+  at: 228
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p17.h1
+  anchor: wei.6.p17
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p17.h2
+  anchor: wei.6.p17
+  at: 11
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p17.h3
+  anchor: wei.6.p17
+  at: 18
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p17.h4
+  anchor: wei.6.p17
+  at: 39
+  length: 2
+  type: person
+  person_id: liuyu
+  text: 劉虞
+  via: primary
+- id: wei.6.p17.h5
+  anchor: wei.6.p17
+  at: 49
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: wei.6.p17.h6
+  anchor: wei.6.p17
+  at: 51
+  length: 1
+  type: person
+  person_id: liuyu
+  text: 虞
+  via: given_name
+- id: wei.6.p17.h7
+  anchor: wei.6.p17
+  at: 63
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.6.p17.h8
+  anchor: wei.6.p17
+  at: 69
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.6.p17.h9
+  anchor: wei.6.p17
+  at: 79
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: wei.6.p17.a1
   anchor: wei.6.p17
   at: 94
   length: 0
   type: pei
   text: 《英雄記》曰：逢紀說紹曰：「將軍舉大事而仰人資給，不據一州，無以自全。」紹荅云：「冀州兵彊，吾士饑乏，設不能辦，無所容立。」紀曰：「可與公孫瓚相聞，導使來南，擊取冀州。公孫必至而馥懼矣，因使說利害，爲陳禍福，馥必遜讓。於此之際，可據其位。」紹從其言而瓚果來。
+- id: wei.6.p17.h10
+  anchor: wei.6.p17
+  at: 95
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: wei.6.p17.h11
+  anchor: wei.6.p17
+  at: 100
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p17.h12
+  anchor: wei.6.p17
+  at: 127
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.6.p17.h13
+  anchor: wei.6.p17
+  at: 277
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.6.p17.h14
+  anchor: wei.6.p17
+  at: 334
+  length: 2
+  type: person
+  person_id: gengwu
+  text: 耿武
+  via: primary
+- id: wei.6.p17.h15
+  anchor: wei.6.p17
+  at: 339
+  length: 2
+  type: person
+  person_id: minchun
+  text: 閔純
+  via: primary
+- id: wei.6.p17.h16
+  anchor: wei.6.p17
+  at: 366
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p17.h17
+  anchor: wei.6.p17
+  at: 464
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.6.p17.a2
   anchor: wei.6.p17
   at: 466
   length: 0
   type: pei
   text: 《九州春秋》曰：馥遣都督從事趙浮、程奐將彊弩萬張屯河陽。浮等聞馥欲以冀州與紹，自孟津馳東下。時紹尚在朝歌清水口，浮等從後來，船數百艘，衆萬餘人，整兵鼓夜過紹營，紹甚惡之。浮等到，謂馥曰：「袁本初軍無斗糧，各己離散，雖有張楊、於扶羅新附，未肯爲用，不足敵也。小從事等請自以見兵拒之，旬日之間，必土崩瓦解；明將軍但當開閤高枕，何憂何懼！」馥不從，乃避位，出居趙忠故舍。遣子齎冀州印綬於黎陽與紹。
+- id: wei.6.p17.h18
+  anchor: wei.6.p17
+  at: 466
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
 - id: wei.6.p18.a1
   anchor: wei.6.p18
   at: 4
   length: 0
   type: pei
   text: 沮音葅。
+- id: wei.6.p18.h1
+  anchor: wei.6.p18
+  at: 5
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h2
+  anchor: wei.6.p18
+  at: 40
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.6.p18.h3
+  anchor: wei.6.p18
+  at: 202
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p18.a2
   anchor: wei.6.p18
   at: 225
   length: 0
   type: pei
   text: 《獻帝傳》曰：沮授，廣平人，少有大志，多權略。仕州別駕，舉茂才，歷二縣令，又爲韓馥別駕，表拜騎都尉。袁紹得冀州，又辟焉。《英雄記》曰：是時年號初平，紹字本初，自以爲年與字合，必能克平禍亂。
+- id: wei.6.p18.h4
+  anchor: wei.6.p18
+  at: 225
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p18.h5
+  anchor: wei.6.p18
+  at: 230
+  length: 3
+  type: person
+  person_id: humuban
+  text: 胡母班
+  via: primary
+- id: wei.6.p18.h6
+  anchor: wei.6.p18
+  at: 244
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h7
+  anchor: wei.6.p18
+  at: 246
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h8
+  anchor: wei.6.p18
+  at: 252
+  length: 2
+  type: person
+  person_id: wangkuang
+  text: 王匡
+  via: primary
 - id: wei.6.p18.a3
   anchor: wei.6.p18
   at: 257
   length: 0
   type: pei
   text: 《漢末名士錄》曰：班字季皮，太山人，少與山陽度尚、東平張邈等八人並輕財赴義，振濟人士，世謂之八廚。謝承《後漢書》曰：班，王匡之妹夫，董卓使班奉詔到河內，解釋義兵。匡受袁紹旨，收班繫獄，欲殺之以徇軍。班與匡書云：「自古已來，未有下土諸侯舉兵向京師者。劉向傳曰『擲鼠忌器』，器猶忌之，況卓今處宮闕之內，以天子爲藩屏，幼主在宮，如何可討？僕與太傅馬公、太僕趙岐、少府陰脩俱受詔命。關東諸郡雖實嫉卓，猶以銜奉王命，不敢玷辱。而足下獨囚僕於獄，欲以釁鼓，此悖暴無道之甚者也。僕與董卓有何親戚，義豈同惡？而足下張虎狼之口，吐長蛇之毒，恚卓遷怒，何甚酷哉！死，人之所難，然恥爲狂夫所害。若亡者有靈，當訴足下於皇天。夫婚姻者禍福之機，今日著矣。曩爲一體，今爲血讎。亡人子二人，則君之甥，身沒之後，慎勿令臨僕尸骸也。」匡得書，抱班二子而泣。班遂死於獄。班甞見太山府君及河伯，事在《搜神記》，語多不載。
+- id: wei.6.p18.h9
+  anchor: wei.6.p18
+  at: 257
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p18.h10
+  anchor: wei.6.p18
+  at: 259
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h11
+  anchor: wei.6.p18
+  at: 267
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h12
+  anchor: wei.6.p18
+  at: 283
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h13
+  anchor: wei.6.p18
+  at: 307
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p18.h14
+  anchor: wei.6.p18
+  at: 313
+  length: 2
+  type: person
+  person_id: zhangmiao
+  text: 張邈
+  via: primary
 - id: wei.6.p18.a4
   anchor: wei.6.p18
   at: 316
   length: 0
   type: pei
   text: 《英雄記》曰：紹以河內朱漢爲都官從事。漢先時爲馥所不禮，內懷怨恨，且欲邀迎紹意，擅發城郭兵圍守馥第，拔刃登屋。馥走上樓，收得馥大兒，槌折兩脚。紹亦立收漢，殺之。馥猶憂怖，故報紹索去。
+- id: wei.6.p18.h15
+  anchor: wei.6.p18
+  at: 317
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p18.a5
   anchor: wei.6.p18
   at: 351
   length: 0
   type: pei
   text: 《英雄記》曰：公孫瓚擊青州黃巾賊，大破之，還屯廣宗，改易守令，冀州長吏無不望風響應，開門受之。紹自往征瓚，合戰於界橋南二十里。瓚步兵三萬餘人爲方陣，騎爲兩翼，左右各五千餘匹，白馬義從爲中堅，亦分作兩校，左射右，右射左，旌旗鎧甲，光照天地。紹令麴義以八百兵爲先登，彊弩千張夾承之，紹自以步兵數萬結陣於後。義久在涼州，曉習羌鬬，兵皆驍銳。瓚見其兵少，便放騎欲陵蹈之。義兵皆伏楯下不動，未至數十步，乃同時俱起，揚塵大叫，直前衝突，彊弩雷發，所中必倒，臨陣斬瓚所署冀州刺史嚴綱甲首千餘級。瓚軍敗績，步騎奔走，不復還營。義追至界橋；瓚殿兵還戰橋上，義復破之，遂到瓚營，拔其牙門，營中餘衆皆復散走。紹在後，未到橋十數里，下馬發鞍，見瓚已破，不爲設備，惟帳下彊弩數十張，大戟士百餘人自隨。瓚部迸騎二千餘匹卒至，便圍紹數重，弓矢雨下。別駕從事田豐扶紹欲郤入空垣，紹以兜鍪撲地曰：「大丈夫當前鬬死，而入牆間，豈可得活乎？」彊弩乃亂發，多所殺傷。瓚騎不知是紹，亦稍引郤；會麴義來迎，乃散去。瓚每與虜戰，常乘白馬，追不虛發，數獲戎捷，虜相告云「當避白馬」。因虜所忌，簡其白馬數千匹，選騎射之士，號爲白馬義從；一曰胡夷健者常乘白馬，瓚有健騎數千，多乘白馬，故以號焉。紹旣破瓚，引軍南到薄落津，方與賔客諸將共會，聞魏郡兵反，與黑山賊于毒共覆鄴城，遂殺太守栗成。賊十餘部，衆數萬人，聚會鄴中。坐上諸客有家在鄴者，皆憂怖失色，或起啼泣，紹容皃不變，自若也。賊陶升者，故內黃小吏也，有善心，獨將部衆踰西城入，閉守州門，不內他賊，以車載紹家及諸衣冠在州內者，身自扞衞，送到斥丘乃還。紹到，遂屯斥丘，以陶升爲建義中郎將。乃引軍入朝歌鹿場山蒼巖谷討于毒，圍攻五日，破之，斬毒及長安所署冀州牧壺壽。遂尋山北行，薄擊諸賊左髭丈八等，皆斬之。又擊劉石、青牛角、黃龍、左校、郭大賢、李大目、于氐根等，皆屠其屯壁，奔走得脫，斬首數萬級。紹復還屯鄴。初平四年，天子使太傅馬日磾、太僕趙岐和解關東。岐別詣河北，紹出迎於百里上，拜奉帝命。岐住紹營，移書告瓚。瓚遣使具與紹書曰：「趙太僕以周召之德，銜命來征，宣揚朝恩，示以和睦，曠若開雲見日，何喜如之？昔賈復、寇恂亦爭士卒，欲相危害，遇光武之寬，親俱陛見，同輿共出，時人以爲榮。自省邊鄙，得與將軍共同此福，此誠將軍之眷，而瓚之幸也。」麴義後恃功而驕恣，紹乃殺之。
+- id: wei.6.p19.h1
+  anchor: wei.6.p19
+  at: 7
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h2
+  anchor: wei.6.p19
+  at: 15
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h3
+  anchor: wei.6.p19
+  at: 27
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h4
+  anchor: wei.6.p19
+  at: 34
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p19.a1
   anchor: wei.6.p19
   at: 38
   length: 0
   type: pei
   text: 《獻帝傳》云：沮授說紹曰：「將軍累葉輔弼，世濟忠義。今朝廷播越，宗廟毀壞，觀諸州郡外託義兵，內圖相滅，未有存主卹民者。且今州城粗定，宜迎大駕，安宮鄴都，挾天子而令諸侯，畜士馬以討不庭，誰能禦之！」紹恱，將從之。郭圖、淳于瓊曰：「漢室陵遲，爲日久矣，今欲興之，不亦難乎！且今英雄據有州郡，衆動萬計，所謂秦失其鹿，先得者王。若迎天子以自近，動輙表聞，從之則權輕，違之則拒命，非計之善者也。」授曰：「今迎朝廷，至義也，又於時宜大計也，若不早圖，必有先人者也。夫權不失機，功在速捷，將軍其圖之！」紹弗能用。案此書稱郭圖之計，則與本傳違也。
+- id: wei.6.p19.h5
+  anchor: wei.6.p19
+  at: 39
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p19.h6
+  anchor: wei.6.p19
+  at: 57
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h7
+  anchor: wei.6.p19
+  at: 62
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p19.h8
+  anchor: wei.6.p19
+  at: 75
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p19.h9
+  anchor: wei.6.p19
+  at: 83
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p19.a2
   anchor: wei.6.p19
   at: 98
   length: 0
   type: pei
   text: 《獻帝春秋》曰：紹恥班在太祖下，怒曰：「曹操當死數矣，我輒救存之，今乃背恩，挾天子以令我乎！」太祖聞，而以大將軍讓於紹。
+- id: wei.6.p19.h10
+  anchor: wei.6.p19
+  at: 98
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h11
+  anchor: wei.6.p19
+  at: 109
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name_carry
 - id: wei.6.p19.a3
   anchor: wei.6.p19
   at: 118
   length: 0
   type: pei
   text: 《典略》曰：自此紹貢御希慢，私使主薄耿苞密白曰：「赤德衰盡，袁爲黃胤，宜順天意。」紹以苞密白事示軍府將吏。議者咸以苞爲妖妄宜誅，紹乃殺苞以自解。《九州春秋》曰：紹延徵北海鄭玄而不禮，趙融聞之曰：「賢人者，君子之望也。不禮賢，是失君子之望也。夫有爲之君，不敢失萬民之歡心，況於君子乎？失君子之望，難乎以有爲也。」《英雄記》載太祖作董卓歌，辭云：「德行不虧缺，變故自難常。鄭康成行酒，伏地氣絕，郭景圖命盡於園桑。」如此之文，則玄無病而卒。餘書不見，故載錄之。
+- id: wei.6.p19.h12
+  anchor: wei.6.p19
+  at: 129
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p19.h13
+  anchor: wei.6.p19
+  at: 138
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p19.a4
   anchor: wei.6.p19
   at: 157
@@ -393,6 +1745,62 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：紹步卒五萬，騎八千。孫盛評曰：案魏武謂崔琰曰「昨案貴州戶籍，可得三十萬衆」。由此推之，但冀州勝兵已如此，況兼幽、并及青州乎？紹之大舉，必悉師而起，十萬近之矣。《獻帝傳》曰：紹將南師，沮授、田豐諫曰：「師出歷年，百姓疲弊，倉庾無積，賦役方殷，此國之深憂也。宜先遣使獻捷天子，務農逸民；若不得通，乃表曹氏隔我王路，然後進屯黎陽，漸營河南，益作舟船，繕治器械，分遣精騎，鈔其邊鄙，令彼不得安，我取其逸。三年之中，事可坐定也。」審配、郭圖曰：「兵書之法，十圍五攻，敵則能戰。今以明公之神武，跨河朔之彊衆，以伐曹氏。譬若覆手，今不時取，後難圖也。」授曰：「蓋救亂誅暴，謂之義兵；恃衆憑彊，謂之驕兵。兵義無敵，驕者先滅。曹氏迎天子安宮許都，今舉兵南向，於義則違。且廟勝之策，不在彊弱。曹氏法令旣行，士卒精練，非公孫瓚坐受圍者也。今棄萬安之術，而興無名之兵，竊爲公懼之！」圖等曰：「武王伐紂，不曰不義，況兵加曹氏而云無名！且公師武臣竭力，將士憤怒，人思自騁，而不及時早定大業，慮之失也。夫天與弗取，反受其咎，此越之所以霸，吳之所以亡也。監軍之計，計在持牢，而非見時知機之變也。」紹從之。圖等因是譖授「監統內外，威震三軍，若其浸盛，何以制之？夫臣與主不同者昌，主與臣同者亡，此黃石之所忌也。且御衆於外，不宜知內。」紹疑焉。乃分監軍爲三都督，使授及郭圖、淳于瓊各典一軍，遂合而南。
+- id: wei.6.p20.h1
+  anchor: wei.6.p20
+  at: 3
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p20.h2
+  anchor: wei.6.p20
+  at: 6
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p20.h3
+  anchor: wei.6.p20
+  at: 12
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.6.p20.h4
+  anchor: wei.6.p20
+  at: 15
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p20.h5
+  anchor: wei.6.p20
+  at: 18
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.6.p20.h6
+  anchor: wei.6.p20
+  at: 30
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p20.h7
+  anchor: wei.6.p20
+  at: 36
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p20.t1
   anchor: wei.6.p20
   at: 50
@@ -405,60 +1813,548 @@ annotations:
   era: 建安
   era_year: 5
   reasoning: 原文「建安五年」直接出现年号；解析為 AD 200（回溯前事，不推進章節時間軸）
+- id: wei.6.p20.h8
+  anchor: wei.6.p20
+  at: 55
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p20.h9
+  anchor: wei.6.p20
+  at: 60
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.6.p20.h10
+  anchor: wei.6.p20
+  at: 65
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p20.h11
+  anchor: wei.6.p20
+  at: 67
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p20.h12
+  anchor: wei.6.p20
+  at: 71
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p20.h13
+  anchor: wei.6.p20
+  at: 109
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p20.h14
+  anchor: wei.6.p20
+  at: 115
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.6.p20.h15
+  anchor: wei.6.p20
+  at: 117
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.6.p20.h16
+  anchor: wei.6.p20
+  at: 119
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p20.a1
   anchor: wei.6.p20
   at: 121
   length: 0
   type: pei
   text: 《魏氏春秋》載紹檄州郡文曰：「蓋聞明主圖危以制變，忠臣慮難以立權。曩者彊秦弱主，趙高執柄，專制朝命，威福由己，終有望夷之禍，汙辱至今。及臻呂后，祿、產專政，擅斷萬機，決事省禁，下陵上替，海內寒心。於是絳侯、朱虛興威奮怒，誅夷逆亂，尊立太宗，故能道化興隆，光明顯融，此則大臣立權之明表也。司空曹操，祖父騰，故中常侍，與左悺、徐璜並作妖孽，饕餮放橫，傷化虐民。父嵩，乞匄攜養，因贓假位，輿金輦璧，輸貨權門，竊盜鼎司，傾覆重器。操贅閹遺醜，本無令德，僄狡鋒俠，好亂樂禍。幕府昔統鷹揚，掃夷凶逆。續遇董卓侵官暴國，於是提劒揮鼓，發命東夏，方收羅英雄，棄瑕錄用，故遂與操參咨策略，謂其鷹犬之才，爪牙可任。至乃愚佻短慮，輕進易退，傷夷折衂，數喪師徒。幕府輙復分兵命銳，脩完補輯，表行東郡太守、兖州刺史，被以虎文，授以偏師，獎蹙威柄，冀獲秦師一克之報。而操遂乘資跋扈，肆行酷裂，割剥元元，殘賢害善。故九江太守邊讓，英才俊逸，天下知名，以直言正色，論不阿諂，身被梟縣之戮，妻孥受灰滅之咎。自是士林憤痛，民怨彌重，一夫奮臂，舉州同聲，故躬破於徐方，地奪於呂布，仿偟東裔，蹈據無所。幕府唯彊幹弱枝之義，且不登叛人之黨，故復援旌擐甲，席卷赴征，金鼓響震，布衆破沮，拯其死亡之患，復其方伯之任，是則幕府無德於兖土之民，而有大造於操也。後會鑾駕東反，羣虜亂政。時冀州方有北鄙之警，匪遑離局，故使從事中郎徐勛就發遣操，使繕脩郊廟，翼衞幼主。而便放志專行，脅遷省禁，卑侮王官，敗法亂紀，坐召三臺，專制朝政，爵賞由心，刑戮在口，所愛光五宗，所惡滅三族，羣談者蒙顯誅，腹議者蒙隱戮，道路以目，百寮鉗口，尚書記朝會，公卿充員品而已。故太尉楊彪，歷典三司，享國極位，操因睚眥，被以非罪，榜楚并兼，五毒俱至，觸情放慝，不顧憲章。又議郎趙彥，忠諫直言，議有可納，故聖朝含聽，改容加錫，操欲迷奪時權，杜絕言路，擅收立殺，不俟報聞。又梁孝王，先帝母弟，墳陵尊顯，松栢桑梓，猶宜恭肅，而操率將校吏士親臨發掘，破棺裸尸，略取金寶，至令聖朝流涕，士民傷懷。又署發丘中郎將、摸金校尉，所過墮突，無骸不露。身處三公之官，而行桀虜之態，殄國虐民，毒流人鬼。加其細政苛慘，科防互設，繒繳充蹊，坑穽塞路，舉手挂網羅，動足蹈機陷，是以兖、豫有無聊之民，帝都有吁嗟之怨。歷觀古今書籍，所載貪殘虐烈無道之臣，於操爲甚。幕府方詰外姦，未及整訓，加意含覆，冀可彌縫。而操豺狼野心，潛苞禍謀，乃欲撓折棟梁，孤弱漢室，除滅中正，專爲梟雄。往歲伐鼓北征，討公孫瓚，彊禦桀逆，拒圍一年。操因其未破，陰交書命，欲託助王師，以相掩襲，故引兵造河，方舟北濟。會其行人發路，瓚亦梟夷，故使鋒芒挫縮，厥圖不果。屯據敖倉，阻河爲固，乃欲以螳蜋之斧，禦隆車之隧。幕府奉漢威靈，折衝宇宙，長戟百萬，胡騎千羣，奮中黃、育、獲之材，騁良弓勁弩之勢，并州越太行，青州涉濟、漯，大軍汎黃河以角其前，荊州下宛、葉而掎其後，雷震虎步，並集虜庭，若舉炎火以焫飛蓬，覆滄海而沃熛炭，有何不消滅者哉？當今漢道陵遲，綱弛紀絕。操以精兵七百，圍守宮闕，外稱陪衞，內以拘執，懼其篡逆之禍，因斯而作。乃忠臣肝腦塗地之秋，烈士立功之會也，可不勗哉！」此陳琳之辭。
+- id: wei.6.p21.h1
+  anchor: wei.6.p21
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h2
+  anchor: wei.6.p21
+  at: 20
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h3
+  anchor: wei.6.p21
+  at: 37
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h4
+  anchor: wei.6.p21
+  at: 41
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p21.a1
   anchor: wei.6.p21
   at: 54
   length: 0
   type: pei
   text: 《獻帝傳》曰：紹臨發，沮授會其宗族，散資財以與之曰：「夫勢在則威無不加，勢亡則不保一身，哀哉！」其弟宗曰：「曹公士馬不敵，君何懼焉！」授曰：「以曹兖州之明略，又挾天子以爲資，我雖克公孫，衆實疲弊，而將驕主忲，軍之破敗，在此舉也。揚雄有言，『六國蚩蚩，爲嬴弱姬』，今之謂也。」
+- id: wei.6.p21.h5
+  anchor: wei.6.p21
+  at: 54
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h6
+  anchor: wei.6.p21
+  at: 64
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p21.h7
+  anchor: wei.6.p21
+  at: 72
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h8
+  anchor: wei.6.p21
+  at: 85
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h9
+  anchor: wei.6.p21
+  at: 89
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p21.a2
   anchor: wei.6.p21
   at: 94
   length: 0
   type: pei
   text: 《獻帝傳》曰：紹將濟河，沮授諫曰：「勝負變化，不可不詳。今宜留屯延津，分兵官渡，若其克獲，還迎不晚，設其有難，衆弗可還。」紹弗從。授臨濟歎曰：「上盈其志，下務其功，悠悠黃河，吾其反乎？」遂以疾辭。紹恨之，乃省其所部兵屬郭圖。
+- id: wei.6.p21.h10
+  anchor: wei.6.p21
+  at: 94
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h11
+  anchor: wei.6.p21
+  at: 153
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h12
+  anchor: wei.6.p21
+  at: 169
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h13
+  anchor: wei.6.p21
+  at: 178
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h14
+  anchor: wei.6.p21
+  at: 201
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h15
+  anchor: wei.6.p21
+  at: 210
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h16
+  anchor: wei.6.p21
+  at: 216
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p21.a3
   anchor: wei.6.p21
   at: 224
   length: 0
   type: pei
   text: 《魏氏春秋》曰：以古有矢石，又傳言「旝動而鼓」，說文曰「旝，發石也」，於是造發石車。
+- id: wei.6.p21.h17
+  anchor: wei.6.p21
+  at: 224
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h18
+  anchor: wei.6.p21
+  at: 231
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h19
+  anchor: wei.6.p21
+  at: 235
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h20
+  anchor: wei.6.p21
+  at: 253
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h21
+  anchor: wei.6.p21
+  at: 266
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h22
+  anchor: wei.6.p21
+  at: 269
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h23
+  anchor: wei.6.p21
+  at: 283
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h24
+  anchor: wei.6.p21
+  at: 290
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h25
+  anchor: wei.6.p21
+  at: 309
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h26
+  anchor: wei.6.p21
+  at: 332
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h27
+  anchor: wei.6.p21
+  at: 343
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h28
+  anchor: wei.6.p21
+  at: 349
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h29
+  anchor: wei.6.p21
+  at: 353
+  length: 2
+  type: person
+  person_id: caohong
+  text: 曹洪
+  via: primary
+- id: wei.6.p21.h30
+  anchor: wei.6.p21
+  at: 370
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h31
+  anchor: wei.6.p21
+  at: 387
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p21.h32
+  anchor: wei.6.p21
+  at: 395
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h33
+  anchor: wei.6.p21
+  at: 400
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: wei.6.p21.h34
+  anchor: wei.6.p21
+  at: 408
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h35
+  anchor: wei.6.p21
+  at: 413
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p21.a4
   anchor: wei.6.p21
   at: 431
   length: 0
   type: pei
   text: 張璠《漢紀》云：殺紹卒凡八萬人。
+- id: wei.6.p21.h36
+  anchor: wei.6.p21
+  at: 435
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p21.h37
+  anchor: wei.6.p21
+  at: 444
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p21.a5
   anchor: wei.6.p21
   at: 447
   length: 0
   type: pei
   text: 《獻帝傳》云：授大呼曰：「授不降也，爲軍所執耳！」太祖與之有舊，逆謂授曰：「分野殊異，遂用圮絕，不圖今日乃相禽也！」授對曰：「冀州失策，以取奔北。授智力俱困，宜其見禽耳。」太祖曰：「本初無謀，不用君計，今喪亂過紀，國家未定，當相與圖之。」授曰：「叔父、母、弟，縣命袁氏，若蒙公靈，速死爲福。」太祖歎曰：「孤早相得，天下不足慮。」
+- id: wei.6.p21.h38
+  anchor: wei.6.p21
+  at: 447
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p22.h1
+  anchor: wei.6.p22
+  at: 2
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p22.h2
+  anchor: wei.6.p22
+  at: 10
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p22.h3
+  anchor: wei.6.p22
+  at: 158
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p22.h4
+  anchor: wei.6.p22
+  at: 166
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p22.h5
+  anchor: wei.6.p22
+  at: 179
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p22.h6
+  anchor: wei.6.p22
+  at: 219
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p22.a1
   anchor: wei.6.p22
   at: 245
   length: 0
   type: pei
   text: 《先賢行狀》曰：豐字元皓，鉅鹿人，或云勃海人。豐天姿瓌傑，權略多奇，少喪親，居喪盡哀，日月雖過，笑不至矧。博覽多識，名重州黨。初辟太尉府，舉茂才，遷侍御史。閹宦擅朝，英賢被害，豐乃棄官歸家。袁紹起義，卑辭厚幣以招致豐，豐以王室多難，志存匡救，乃應紹命，以爲別駕。勸紹迎天子，紹不納。紹後用豐謀，以平公孫瓚。逢紀憚豐亮直，數讒之於紹，紹遂忌豐。紹軍之敗也，土崩奔北，師徒略盡，軍皆拊膺而泣曰：「向令田豐在此，不至於是也。」紹謂逢紀曰：「冀州人聞吾軍敗，皆當念吾，唯田別駕前諫止吾，與衆不同，吾亦慙見之。」紀復曰：「豐聞將軍之退，拊手大笑，喜其言之中也。」紹於是有害豐之意。初，太祖聞豐不從戎，喜曰：「紹必敗矣。」及紹奔遁，復曰：「向使紹用田別駕計，尚未可知也。」孫盛曰：觀田豐、沮授之謀，雖良、平何以過之？故君貴審才，臣尚量主；君用忠良，則霸王之業隆，臣奉闇后，則覆亡之禍至：存亡榮辱，常必由茲。豐知紹將敗，敗則己必死，甘冒虎口以盡忠規，烈士之於所事，慮不存己。夫諸侯之臣，義有去就，況豐與紹非純臣乎！詩云「逝將去汝，適彼樂土」，言去亂邦，就有道可也。
+- id: wei.6.p22.h7
+  anchor: wei.6.p22
+  at: 245
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p23.h1
+  anchor: wei.6.p23
+  at: 7
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p24.h1
+  anchor: wei.6.p24
+  at: 0
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p24.a1
   anchor: wei.6.p24
   at: 17
   length: 0
   type: pei
   text: 《典論》曰：譚長而惠，尚少而美。紹妻劉氏愛尚，數稱其才，紹亦奇其皃，欲以爲後，未顯而紹死。劉氏性酷妬，紹死，僵尸未殯，寵妾五人，劉盡殺之。以爲死者有知，當復見紹於地下，乃髠頭墨靣以毀其形。尚又爲盡殺死者之家。
+- id: wei.6.p24.h2
+  anchor: wei.6.p24
+  at: 67
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p24.h3
+  anchor: wei.6.p24
+  at: 75
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p24.h4
+  anchor: wei.6.p24
+  at: 100
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p24.a2
   anchor: wei.6.p24
   at: 143
   length: 0
   type: pei
   text: 《英雄記》曰：紀字元圖。初，紹去董卓出奔，與許攸及紀俱詣冀州，紹以紀聦達有計策，甚親信之，與共舉事。後審配任用，與紀不睦。或有讒配於紹，紹問紀，紀稱「配天性烈直，古人之節，不宜疑之」。紹曰：「君不惡之邪？」紀荅曰：「先日所爭者私情，今所陳者國事。」紹善之，卒不廢配。配由是更與紀爲親善。
+- id: wei.6.p24.h5
+  anchor: wei.6.p24
+  at: 143
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p24.h6
+  anchor: wei.6.p24
+  at: 185
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p24.t1
   anchor: wei.6.p24
   at: 194
@@ -487,6 +2383,46 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 建安16年 (AD 211)，月份「九月」
+- id: wei.6.p24.h7
+  anchor: wei.6.p24
+  at: 215
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p24.h8
+  anchor: wei.6.p24
+  at: 242
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p24.h9
+  anchor: wei.6.p24
+  at: 276
+  length: 2
+  type: person
+  person_id: xinpi
+  text: 辛毗
+  via: primary
+- id: wei.6.p24.h10
+  anchor: wei.6.p24
+  at: 279
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p24.h11
+  anchor: wei.6.p24
+  at: 284
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p24.t3
   anchor: wei.6.p24
   at: 291
@@ -507,6 +2443,78 @@ annotations:
   length: 0
   type: pei
   text: 《魏氏春秋》載劉表遺譚書曰：「天篤降害，禍難殷流，尊公殂殞，四海悼心。賢胤承統，遐邇屬望，咸欲展布旅力，以投盟主，雖亡之日，猶存之願也。何寤青蠅飛於干旍，無極游於二壘，使股肱分爲二體，背膂絕爲異身！昔三王五伯，下及戰國，父子相殘，蓋有之矣；然或欲以成王業，或欲以定伯功，或欲以顯宗主，或欲以固冢嗣，未有棄親即異，抏其本根，而能崇業濟功，垂祚後世者也。若齊襄復九世之讎，士匄卒荀偃之事，是故春秋美其義，君子稱其信。夫伯游之恨於齊，未若太公之忿曹；宣子之承業，未若仁君之繼統也。且君子之違難不適讎國，豈可忘先君之怨，棄至親之好，爲萬世之戒，遺同盟之恥哉！冀州不弟之慠，旣已然矣；仁君當降志辱身，以匡國爲務；雖見憎於夫人，未若鄭莊之於姜氏，兄弟之嫌，未若重華之於象傲也。然莊公有大隧之樂，象受有鼻之封。願棄捐前忿，遠思舊義，復爲母子昆弟如初。」又遺尚書曰：「知變起辛、郭，禍結同生，追閼伯、實沈之蹤，忘常棣死喪之義，親尋干戈，僵尸流血，聞之哽咽，雖存若亡。昔軒轅有涿鹿之戰，周武有商、奄之師，皆所以翦除穢害而定王業，非彊弱之事爭，喜怒之忿也。故雖滅親不爲尤，誅兄不傷義。今二君初承洪業，纂繼前軌，進有國家傾危之慮，退有先公遺恨之負，當唯義是務，唯國是康。何者？金木水火以剛柔相濟，然後克得其和，能爲民用。今青州天性峭急，迷於曲直。仁君度數弘廣，綽然有餘，當以大包小，以優容劣，先除曹操以卒先公之恨，事定之後，乃議曲直之計，不亦善乎！若留神遠圖，克己復禮，當振斾長驅，共獎王室，若迷而不反，違而無改，則胡夷將有誚讓之言，況我同盟，復能戮力爲君之役哉？此韓盧、東郭自困於前而遺田父之獲者也。憤踊鶴望，冀聞和同之聲。若其泰也，則袁族其與漢升降乎！如其否也，則同盟永無望矣。」譚、尚盡不從。《漢晉春秋》載審配獻書於譚曰：「春秋之義，國君死社稷，忠臣死王命。苟有圖危宗廟，敗亂國家，王綱典律，親踈一也。是以周公垂泣而蔽管、蔡之獄，季友歔欷而行鍼叔之鴆。何則？義重人輕，事不得已也。昔衞靈公廢蒯聵而立輙，蒯聵爲不道，入戚以篡，衞師伐之。春秋傳曰：『以石曼姑之義，爲可以拒之。』是以蒯聵終獲叛逆之罪，而曼姑永享忠臣之名。父子猶然，豈況兄弟乎！昔先公廢絀將軍以續賢兄，立我將軍以爲適嗣，上告祖靈，下書譜牒，先公謂將軍爲兄子，將軍謂先公爲叔父，海內遠近，誰不備聞？且先公即世之日，我將軍斬衰居廬，而將軍齋于堊室，出入之分，於斯益明。是時凶臣逢紀，妄畫蛇足，曲辭諂媚，交亂懿親，將軍奮赫然之怒，誅不旋時，我將軍亦奉命承旨，加以淫刑。自是之後，癰疽破潰，骨肉無絲髮之嫌，自疑之臣，皆保生全之福。故悉遣彊胡，簡命名將，料整器械，選擇戰士，殫府庫之財，竭食土之實，其所以供奉將軍，何求而不備？君臣相率，共衞旌麾，戰爲鴈行，賦爲幣主，雖傾倉覆庫，翦剥民物，上下欣戴，莫敢告勞。何則？推戀戀忠赤之情，盡家家肝腦之計，脣齒輔車，不相爲賜。謂爲將軍心合意同，混齊一體，必當并威偶勢，禦寇寧家。何圖凶險讒慝之人，造飾無端，誘導姦利，至令將軍翻然改圖，忘孝友之仁，聽豺狼之謀，誣先公廢立之言，違近者在喪之位，悖紀綱之理，不顧逆順之節，橫易冀州之主，欲當先公之繼。遂放兵鈔撥，屠城殺吏，交尸盈原，裸民滿野，或有髠𩮜髮膚，割截支體，冤魂痛於幽冥，創痍號於草棘。又乃圖獲鄴城，許賜秦、胡財物婦女，豫有分界。或聞告令吏士云：『孤雖有老母，輙使身體完具而已。』聞此言者，莫不驚愕失氣，悼心揮涕，使太夫人憂哀憤懣於堂室，我州君臣士友假寐悲歎，無所措其手足；念欲靜師拱默以聽執事之圖，則懼違春秋死命之節，貽太夫人不測之患，隕先公高世之業。且三軍憤慨，人懷私怒，我將軍辭不獲已，以及館陶之役。是時外爲禦難，內實乞罪，旣不見赦，而屠各二三其心，臨陣叛戾。我將軍進退無功，首尾受敵，引軍奔避，不敢告辭。亦謂將軍當少垂親親之仁，貺以緩追之惠，而乃尋蹤躡軌，無所逃命。困獸必鬬，以干嚴行，而將軍師旅土崩瓦解，此非人力，乃天意也。是後又望將軍改往修來，克己復禮，追還孔懷如初之愛；而縱情肆怒，趣破家門，企踵鶴立，連結外讎，散鋒於火，播增毒螫，烽煙相望，涉血千里，遺城厄民，引領悲怨，雖欲勿救，惡得已哉！故遂引軍東轅，保正疆埸，雖近郊壘，未侵境域，然望旌麾，能不永歎？配等備先公家臣，奉廢立之命。而圖等干國亂家，禮有常刑。故奮弊州之賦，以除將軍之疾，若乃天啟于心，早行其誅，則我將軍匍匐悲號於將軍股掌之上，配等亦袒躬布體以待斧鉞之刑。若必不悛，有以國斃，圖頭不縣，軍不旋踵。願將軍詳度事宜，錫以環玦。」《典略》曰：譚得書悵然，登城而泣。旣劫於郭圖，亦以兵鋒累交，遂戰不解。
+- id: wei.6.p24.h12
+  anchor: wei.6.p24
+  at: 299
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p24.h13
+  anchor: wei.6.p24
+  at: 319
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h1
+  anchor: wei.6.p25
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h2
+  anchor: wei.6.p25
+  at: 34
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h3
+  anchor: wei.6.p25
+  at: 71
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h4
+  anchor: wei.6.p25
+  at: 74
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h5
+  anchor: wei.6.p25
+  at: 104
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h6
+  anchor: wei.6.p25
+  at: 137
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h7
+  anchor: wei.6.p25
+  at: 171
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p25.t1
   anchor: wei.6.p25
   at: 191
@@ -535,12 +2543,52 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 建安16年 (AD 211)，月份「八月」
+- id: wei.6.p25.h8
+  anchor: wei.6.p25
+  at: 268
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h9
+  anchor: wei.6.p25
+  at: 288
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p25.h10
+  anchor: wei.6.p25
+  at: 381
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p25.a1
   anchor: wei.6.p25
   at: 417
   length: 0
   type: pei
   text: 《先賢行狀》曰：配字正南，魏郡人，少忠烈慷慨，有不可犯之節。袁紹領冀州，委以腹心之任，以爲治中別駕，并總幕府。初，譚之去，皆呼辛毗、郭圖家得出，而辛評家獨被收。及配兄子開城門內兵，時配在城東南角樓上，望見太祖兵入，忿辛、郭壞敗冀州，乃遣人馳詣鄴獄，指殺仲治家。是時，辛毗在軍，聞門開，馳走詣獄，欲解其兄家，兄家已死。是日生縛配，將詣帳下，辛毗等逆以馬鞭擊其頭，罵之曰：「奴，汝今日真死矣！」配顧曰：「狗輩，正由汝曹破我冀州，恨不得殺汝也！且汝今日能殺生我邪？」有頃，公引見，謂配：「知誰開卿城門？」配曰：「不知也。」曰：「自卿子榮耳。」配曰：「小兒不足用乃至此！」公復謂曰：「曩日孤之行圍，何弩之多也？」配曰：「恨其少耳！」公曰：「卿忠於袁氏父子，亦自不得不爾也。」有意欲活之。配旣無撓辭，而辛毗等號哭不已，乃殺之。初，冀州人張子謙先降，素與配不善，笑謂配曰：「正南，卿竟何如我？」配厲聲曰：「汝爲降虜，審配爲忠臣，雖死，豈若汝生邪！」臨行刑，叱持兵者令北向，曰：「我君在北。」樂資《山陽公載記》及袁暐《獻帝春秋》並云太祖兵入城，審配戰於門中，旣敗，逃于井中，於井獲之。臣松之以爲配一代之烈士，袁氏之死臣，豈當數窮之日，方逃身於井，此之難信，誠爲易了。不知資、暐之徒竟爲何人，未能識別然否，而輕弄翰墨，妄生異端，以行其書。如此之類，正足以誣罔視聽，疑誤後生矣。寔史籍之罪人，達學之所不取者也。
+- id: wei.6.p26.h1
+  anchor: wei.6.p26
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p26.h2
+  anchor: wei.6.p26
+  at: 41
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p26.t1
   anchor: wei.6.p26
   at: 62
@@ -555,6 +2603,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 建安16年 (AD 211)，月份「十二月」
+- id: wei.6.p26.h3
+  anchor: wei.6.p26
+  at: 66
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p26.t2
   anchor: wei.6.p26
   at: 88
@@ -569,6 +2625,22 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 承前文年號「建安」推得，「十年正月」 = 建安10年 = AD 205
+- id: wei.6.p26.h4
+  anchor: wei.6.p26
+  at: 288
+  length: 2
+  type: person
+  person_id: yuejin
+  text: 樂進
+  via: primary
+- id: wei.6.p26.h5
+  anchor: wei.6.p26
+  at: 291
+  length: 2
+  type: person
+  person_id: lidian
+  text: 李典
+  via: primary
 - id: wei.6.p26.t3
   anchor: wei.6.p26
   at: 299
@@ -581,6 +2653,14 @@ annotations:
   era: 建安
   era_year: 11
   reasoning: 承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206
+- id: wei.6.p26.h6
+  anchor: wei.6.p26
+  at: 303
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p26.a1
   anchor: wei.6.p26
   at: 353
@@ -599,36 +2679,252 @@ annotations:
   era: 建安
   era_year: 12
   reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
+- id: wei.6.p26.h7
+  anchor: wei.6.p26
+  at: 357
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p26.a2
   anchor: wei.6.p26
   at: 393
   length: 0
   type: pei
   text: 《典略》曰：尚爲人有勇力，欲奪取康衆，與熙謀曰：「今到，康必相見，欲與兄手擊之，有遼東猶可以自廣也。」康亦心計曰：「今不取熙、尚，無以爲說於國家。」乃先置其精勇於廄中，然後請熙、尚。熙、尚入，康伏兵出，皆縛之，坐於凍地。尚寒，求席，熙曰：「頭顱方行萬里，何席之爲！」遂斬首。譚字顯思。熙字顯弈。尚字顯甫。《吳書》曰：尚有弟名買，與尚俱走遼東。《曹瞞傳》云：買，尚兄子。未詳。
+- id: wei.6.p26.h8
+  anchor: wei.6.p26
+  at: 393
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p26.a3
   anchor: wei.6.p26
   at: 409
   length: 0
   type: pei
   text: 《先賢行狀》曰：珩字子佩，代郡人，清粹有雅量。少喪父母，奉養兄姊，宗族稱孝悌焉。
+- id: wei.6.p27.h1
+  anchor: wei.6.p27
+  at: 0
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.6.p27.h2
+  anchor: wei.6.p27
+  at: 11
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p27.h3
+  anchor: wei.6.p27
+  at: 48
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wei.6.p27.h4
+  anchor: wei.6.p27
+  at: 56
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h5
+  anchor: wei.6.p27
+  at: 62
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h6
+  anchor: wei.6.p27
+  at: 65
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: wei.6.p27.h7
+  anchor: wei.6.p27
+  at: 79
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: wei.6.p27.h8
+  anchor: wei.6.p27
+  at: 89
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h9
+  anchor: wei.6.p27
+  at: 104
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h10
+  anchor: wei.6.p27
+  at: 122
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p27.h11
+  anchor: wei.6.p27
+  at: 128
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.6.p27.h12
+  anchor: wei.6.p27
+  at: 135
+  length: 3
+  type: person
+  person_id: gongsunzan
+  text: 公孫瓚
+  via: primary
+- id: wei.6.p27.h13
+  anchor: wei.6.p27
+  at: 139
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p27.h14
+  anchor: wei.6.p27
+  at: 141
+  length: 1
+  type: person
+  person_id: gongsunzan
+  text: 瓚
+  via: given_name
+- id: wei.6.p27.h15
+  anchor: wei.6.p27
+  at: 147
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: wei.6.p27.a1
   anchor: wei.6.p27
   at: 163
   length: 0
   type: pei
   text: 《吳書》曰：時議者以靈帝失道，使天下叛亂，少帝幼弱，爲賊臣所立，又不識母氏所出。幽州牧劉虞宿有德望，紹等欲立之以安當時，使人報術。術觀漢室衰陵，陰懷異志，故外託公義以拒紹。紹復與術書曰：「前與韓文節共建永世之道，欲海內見再興之主。今西名有幼君，無血脉之屬，公卿以下皆媚事卓，安可復信！但當使兵往屯關要，皆自蹙死於西。東立聖君，太平可冀，如何有疑！又室家見戮，不念子胥，可復北靣乎？違天不祥，願詳思之。」術荅曰：「聖主聦叡，有周成之質。賊卓因危亂之際，威服百寮，此乃漢家小厄之會。亂尚未厭，復欲興之。乃云今主『無血脉之屬』，豈不誣乎！先人以來，弈世相承，忠義爲先。太傅公仁慈惻隱，雖知賊卓必爲禍害，以信徇義，不忍去也。門戶滅絕，死亡流漫，幸蒙遠近來相赴助，不因此時上討國賊，下刷家恥，而圖於此，非所聞也。又曰『室家見戮，可復北靣』，此卓所爲，豈國家哉？君命，天也，天不可讎，況非君命乎！慺慺赤心，志在滅卓，不識其他。」
+- id: wei.6.p27.h16
+  anchor: wei.6.p27
+  at: 169
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p27.h17
+  anchor: wei.6.p27
+  at: 172
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
+- id: wei.6.p27.h18
+  anchor: wei.6.p27
+  at: 178
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h19
+  anchor: wei.6.p27
+  at: 181
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
 - id: wei.6.p27.a2
   anchor: wei.6.p27
   at: 201
   length: 0
   type: pei
   text: 臣松之案《英雄記》：「陳溫字元悌，汝南人。先爲楊州刺史，自病死。袁紹遣袁遺領州，敗散，奔沛國，爲兵所殺。袁術更用陳瑀爲楊州。瑀字公瑋，下邳人。瑀旣領州，而術敗於封丘，南向壽春，瑀拒術不納。術退保陰陵，更合軍攻瑀，瑀懼走歸下邳。」如此，則溫不爲術所殺，與本傳不同。
+- id: wei.6.p27.h20
+  anchor: wei.6.p27
+  at: 221
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h21
+  anchor: wei.6.p27
+  at: 226
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p27.h22
+  anchor: wei.6.p27
+  at: 252
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
 - id: wei.6.p27.a3
   anchor: wei.6.p27
   at: 263
   length: 0
   type: pei
   text: 《三輔決錄注》曰：日磾字翁叔，馬融之族子。少傳融業，以才學進。與楊彪、盧植、蔡邕等典校中書，歷位九卿，遂登台輔。《獻帝春秋》曰：術從日磾借節觀之，因奪不還，備軍中千餘人，使促辟之。日磾謂術曰：「卿家先世諸公，辟士云何，而言促之，謂公府掾可劫得乎！」從術求去，而術留之不遣；旣以失節屈辱，憂恚而死。
+- id: wei.6.p28.h1
+  anchor: wei.6.p28
+  at: 16
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p28.h2
+  anchor: wei.6.p28
+  at: 118
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p28.h3
+  anchor: wei.6.p28
+  at: 252
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
 - id: wei.6.p29.t1
   anchor: wei.6.p29
   at: 0
@@ -641,6 +2937,22 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 原文「興平二年」直接出现年号；解析為 AD 195（回溯前事，不推進章節時間軸）
+- id: wei.6.p29.h1
+  anchor: wei.6.p29
+  at: 13
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p29.h2
+  anchor: wei.6.p29
+  at: 128
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
 - id: wei.6.p29.a1
   anchor: wei.6.p29
   at: 147
@@ -653,48 +2965,440 @@ annotations:
   length: 0
   type: pei
   text: 《九州春秋》曰：司隷馮方女，國色也，避亂楊州，術登城見而恱之，遂納焉，甚愛幸。諸婦害其寵，語之曰：「將軍貴人有志節，當時時涕泣憂愁，必長見敬重。」馮氏以爲然，後見術輙垂涕，術果以有心志，益哀之。諸婦人因共絞殺，懸之厠梁，術誠以爲不得志而死，乃厚加殯斂。
+- id: wei.6.p29.h3
+  anchor: wei.6.p29
+  at: 201
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p29.h4
+  anchor: wei.6.p29
+  at: 204
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: wei.6.p29.h5
+  anchor: wei.6.p29
+  at: 211
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p29.h6
+  anchor: wei.6.p29
+  at: 246
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name_carry
 - id: wei.6.p29.a3
   anchor: wei.6.p29
   at: 261
   length: 0
   type: pei
   text: 《魏書》曰：術歸帝號於紹曰：「漢之失天下久矣，天子提挈，政在家門，豪雄角逐，分裂疆宇，此與周之末年七國分勢無異，卒彊者兼之耳。加袁氏受命當王，符瑞炳然。今君擁有四州，民戶百萬，以彊則無與比大，論德則無與比高。曹操欲扶衰拯弱，安能續絕命救已滅乎？」紹陰然之。《吳書》曰：術旣爲雷薄等所拒，留住三日，士衆絕糧，乃還至江亭，去壽春八十里。問廚下，尚有麥屑三十斛。時盛暑，欲得蜜漿，又無蜜。坐櫺牀上，歎息良久，乃大咤曰：「袁術至於此乎！」因頓伏牀下，嘔血斗餘，遂死。
+- id: wei.6.p29.h7
+  anchor: wei.6.p29
+  at: 264
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p29.h8
+  anchor: wei.6.p29
+  at: 274
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wei.6.p29.h9
+  anchor: wei.6.p29
+  at: 284
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name_carry
+- id: wei.6.p29.h10
+  anchor: wei.6.p29
+  at: 287
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.6.p29.h11
+  anchor: wei.6.p29
+  at: 302
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wei.6.p30.h1
+  anchor: wei.6.p30
+  at: 0
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
 - id: wei.6.p30.a1
   anchor: wei.6.p30
   at: 21
   length: 0
   type: pei
   text: 張璠《漢紀》曰：表與同郡人張隱、薛郁、王訪、宣靖、公緒恭、劉祇、田林爲八交，或謂之八顧。《漢末名士錄》云：表與汝南陳翔字仲麟、范滂字孟愽、魯國孔昱字世元、勃海苑康字仲真、山陽檀敷字文友、張儉字元節、南陽岑晊字公孝爲八友。謝承《漢書》曰：表受學於同郡王暢。暢爲南陽太守，行過乎儉。表時年十七，進諫曰：「奢不僭上，儉不逼下，蓋中庸之道，是故蘧伯玉恥獨爲君子。府君若不師孔聖之明訓，而慕夷齊之末操，無乃皎然自遺於世！」暢荅曰：「以約失之者鮮矣。且以矯俗也。」
+- id: wei.6.p30.h2
+  anchor: wei.6.p30
+  at: 42
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- id: wei.6.p30.h3
+  anchor: wei.6.p30
+  at: 62
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
 - id: wei.6.p30.a2
   anchor: wei.6.p30
   at: 70
   length: 0
   type: pei
   text: 司馬彪《戰略》曰：劉表之初爲荊州也，江南宗賊盛，袁術屯魯陽，盡有南陽之衆。吳人蘇代領長沙太守，具羽爲華容長，各阻兵作亂。表初到，單馬入宜城，而延中廬人蒯良、蒯越、襄陽人蔡瑁與謀。表曰：「宗賊甚盛，而衆不附，袁術因之，禍今至矣！吾欲徵兵，恐不集，其策安出？」良曰：「衆不附者，仁不足也，附而不治者，義不足也；苟仁義之道行，百姓歸之如水之趣下，何患所至之不從而問興兵與策乎？」表顧問越，越曰：「治平者先仁義，治亂者先權謀。兵不在多，在得人也。袁術勇而無斷，蘇代、具羽皆武人，不足慮。宗賊帥多貪暴，爲下所患。越有所素養者，使示之以利，必以衆來。君誅其無道，撫而用之。一州之人，有樂存之心，聞君盛德，必襁負而至矣。兵集衆附，南據江陵，北守襄陽，荊州八郡可傳檄而定。術等雖至，無能爲也。」表曰：「子柔之言，雍季之論也。異度之計，臼犯之謀也。」遂使越遣人誘宗賊，至者五十五人，皆斬之。襲取其衆，或即授部曲。唯江夏賊張虎、陳生擁衆據襄陽，表乃使越與龐季單騎往說降之，江南遂悉平。
+- id: wei.6.p31.h1
+  anchor: wei.6.p31
+  at: 0
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: wei.6.p31.h2
+  anchor: wei.6.p31
+  at: 9
+  length: 2
+  type: person
+  person_id: sunjian
+  text: 孫堅
+  via: primary
+- id: wei.6.p31.h3
+  anchor: wei.6.p31
+  at: 17
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h4
+  anchor: wei.6.p31
+  at: 21
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: wei.6.p31.h5
+  anchor: wei.6.p31
+  at: 23
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h6
+  anchor: wei.6.p31
+  at: 25
+  length: 1
+  type: person
+  person_id: sunjian
+  text: 堅
+  via: given_name
+- id: wei.6.p31.h7
+  anchor: wei.6.p31
+  at: 36
+  length: 1
+  type: person
+  person_id: yuanshu
+  text: 術
+  via: given_name
+- id: wei.6.p31.h8
+  anchor: wei.6.p31
+  at: 41
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h9
+  anchor: wei.6.p31
+  at: 54
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h10
+  anchor: wei.6.p31
+  at: 60
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h11
+  anchor: wei.6.p31
+  at: 84
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h12
+  anchor: wei.6.p31
+  at: 94
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p31.h13
+  anchor: wei.6.p31
+  at: 104
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h14
+  anchor: wei.6.p31
+  at: 106
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.6.p31.a1
   anchor: wei.6.p31
   at: 110
   length: 0
   type: pei
   text: 《漢晉春秋》曰：表荅羲曰：「內不失貢職，外不背盟主，此天下之達義也。治中獨何怪乎？」
+- id: wei.6.p31.h15
+  anchor: wei.6.p31
+  at: 117
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h16
+  anchor: wei.6.p31
+  at: 204
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.6.p31.a2
   anchor: wei.6.p31
   at: 206
   length: 0
   type: pei
   text: 《英雄記》曰：張羨，南陽人。先作零陵、桂陽長，甚得江、湘間心，然性屈彊不順。表薄其爲人，不甚禮也。羨由是懷恨，遂叛表焉。
+- id: wei.6.p31.h17
+  anchor: wei.6.p31
+  at: 206
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p31.h18
+  anchor: wei.6.p31
+  at: 226
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.6.p31.a3
   anchor: wei.6.p31
   at: 255
   length: 0
   type: pei
   text: 《英雄記》曰：州界羣寇旣盡，表乃開立學官，博求儒士，使綦毋闓、宋忠等撰五經章句，謂之後定。
+- id: wei.6.p32.h1
+  anchor: wei.6.p32
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p32.h2
+  anchor: wei.6.p32
+  at: 3
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p32.h3
+  anchor: wei.6.p32
+  at: 12
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p32.h4
+  anchor: wei.6.p32
+  at: 18
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h5
+  anchor: wei.6.p32
+  at: 28
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p32.h6
+  anchor: wei.6.p32
+  at: 166
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p32.h7
+  anchor: wei.6.p32
+  at: 224
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wei.6.p32.h8
+  anchor: wei.6.p32
+  at: 228
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h9
+  anchor: wei.6.p32
+  at: 235
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h10
+  anchor: wei.6.p32
+  at: 237
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h11
+  anchor: wei.6.p32
+  at: 245
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p32.h12
+  anchor: wei.6.p32
+  at: 257
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p32.h13
+  anchor: wei.6.p32
+  at: 263
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h14
+  anchor: wei.6.p32
+  at: 269
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p32.h15
+  anchor: wei.6.p32
+  at: 274
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p32.a1
   anchor: wei.6.p32
   at: 301
   length: 0
   type: pei
   text: 《傅子》曰：初表謂嵩曰：「今天下大亂，未知所定，曹公擁天子都許，君爲我觀其釁。」嵩對曰：「聖達節，次守節。嵩，守節者也。夫事君爲君，君臣名定，以死守之；今策名委質，唯將軍所命，雖赴湯蹈火，死無辭也。以嵩觀之，曹公至明，必濟天下。將軍能上順天子，下歸曹公，必享百世之利，楚國實受其祐，使嵩可也；設計未定，嵩使京師，天子假嵩一官，則天子之臣，而將軍之故吏耳。在君爲君，則嵩守天子之命，義不得復爲將軍死也。唯將軍重思，無負嵩。」表遂使之，果如所言，天子拜嵩侍中，遷零陵太守，還稱朝廷、曹公之德也。表以爲懷貳，大會寮屬數百人，陳兵見嵩，盛怒，持節將斬之，數曰：「韓嵩敢懷貳邪！」衆皆恐，欲令嵩謝。嵩不動，謂表曰：「將軍負嵩，嵩不負將軍！」具陳前言。表怒不已，其妻蔡氏諫之曰：「韓嵩，楚國之望也；且其言直，誅之無辭。」表乃弗誅而囚之。
+- id: wei.6.p32.h16
+  anchor: wei.6.p32
+  at: 301
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p33.h1
+  anchor: wei.6.p33
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p33.h2
+  anchor: wei.6.p33
+  at: 3
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p33.h3
+  anchor: wei.6.p33
+  at: 5
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.6.p33.a1
   anchor: wei.6.p33
   at: 15
@@ -713,18 +3417,122 @@ annotations:
   era: 建安
   era_year: 13
   reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208
+- id: wei.6.p33.h4
+  anchor: wei.6.p33
+  at: 21
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p33.h5
+  anchor: wei.6.p33
+  at: 24
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p33.h6
+  anchor: wei.6.p33
+  at: 29
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wei.6.p34.h1
+  anchor: wei.6.p34
+  at: 2
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wei.6.p34.a1
   anchor: wei.6.p34
   at: 52
   length: 0
   type: pei
   text: 《典論》曰：表疾病，琦還省疾。琦性慈孝，瑁、允恐琦見表，父子相感，更有託後之意，謂曰：「將軍命君撫臨江夏，爲國東藩，其任至重；今釋衆而來，必見譴怒，傷親之歡心以增其疾，非孝敬也。」遂遏于戶外，使不得見，琦流涕而去。
+- id: wei.6.p34.h2
+  anchor: wei.6.p34
+  at: 65
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p34.h3
+  anchor: wei.6.p34
+  at: 145
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p34.h4
+  anchor: wei.6.p34
+  at: 182
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p34.h5
+  anchor: wei.6.p34
+  at: 202
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p34.h6
+  anchor: wei.6.p34
+  at: 227
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wei.6.p34.h7
+  anchor: wei.6.p34
+  at: 236
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
+- id: wei.6.p34.h8
+  anchor: wei.6.p34
+  at: 251
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.6.p34.h9
+  anchor: wei.6.p34
+  at: 263
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name
 - id: wei.6.p34.a2
   anchor: wei.6.p34
   at: 269
   length: 0
   type: pei
   text: 《傅子》曰：巽字公悌，瓌偉博達，有知人鑒。辟公府，拜尚書郎，後客荊州，以說劉琮之功，賜爵關內侯。文帝時爲侍中，太和中卒，巽在荊州，目龐統爲半英雄，證裴潛終以清行顯；統遂附劉備，見待次於諸葛亮，潛位至尚書令，並有名德。及在魏朝，魏諷以才智聞，巽謂之必反，卒如其言。巽弟子嘏，別有傳。《漢晉春秋》曰：王威說劉琮曰：「曹操得將軍旣降，劉備已走，必懈弛無備，輕行單進；若給威奇兵數千，徼之於險，操可獲也。獲操即威震四海，坐而虎步，中夏雖廣，可傳檄而定，非徒收一勝之功，保守今日而已。此難遇之機，不可失也。」琮不納。《搜神記》曰：建安初，荊州童謠曰：「八九年間始欲衰，至十三年無孑遺。」言自中平以來，荊州獨全，及劉表爲牧，民又豐樂，至建安八年九年當始衰。始衰者，謂劉表妻死，諸將並零落也。十三年無孑遺者，表當又死，因以喪破也。是時，華容有女子忽啼呼云：「荊州將有大喪。」言語過差，縣以爲妖言，繫獄月餘，忽於獄中哭曰：「劉荊州今日死。」華谷去州數百里，即遣馬吏驗視，而劉表果死，縣乃出之。續又歌吟曰：「不意李立爲貴人。」後無幾，太祖平荊州，以涿郡李立字建賢爲荊州刺史。
+- id: wei.6.p35.h1
+  anchor: wei.6.p35
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.6.p35.a1
   anchor: wei.6.p35
   at: 14
@@ -755,15 +3563,71 @@ annotations:
   length: 0
   type: pei
   text: 《零陵先賢傳》曰：先字始宗，博學彊記，尤好黃老言，明習漢家典故。爲劉表別駕，奉章詣許，見太祖。時賔客並會，太祖問先：「劉牧如何郊天也？」先對曰：「劉牧託漢室肺腑，處牧伯之位，而遭王道未平，羣凶塞路，抱玉帛而無所聘頫，脩章表而不獲達御，是以郊天祀地，昭告赤誠。」太祖曰：「羣凶爲誰？」先曰：「舉目皆是。」太祖曰：「今孤有熊羆之士，步騎十萬，奉辭伐罪，誰敢不服？」先曰：「漢道陵遲，羣生憔悴，旣無忠義之士翼戴天子，綏寧海內，使萬邦歸德，而阻兵安忍，曰莫己若，即蚩尤、智伯復見於今也。」太祖嘿然。拜先武陵太守。荊州平，先始爲漢尚書，後爲魏國尚書令。先甥同郡周不疑，字元直，零陵人。先賢傳稱不疑幼有異才，聦明敏達，太祖欲以女妻之，不疑不敢當。太祖愛子倉舒，夙有才智，謂可與不疑爲儔。及倉舒卒，太祖心忌不疑，欲除之。文帝諫以爲不可，太祖曰：「此人非汝所能駕御也。」乃遣刺客殺之。摯虞文章志曰：不疑死時年十七，著文論四首。《世語》曰：表死後八十餘年，至晉太康中，表冢見發。表及妻身形如生，芬香聞數里。
+- id: wei.6.p36.h1
+  anchor: wei.6.p36
+  at: 3
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: wei.6.p36.a1
   anchor: wei.6.p36
   at: 27
   length: 0
   type: pei
   text: 《英雄記》曰：昔大人見臨洮而銅人鑄，臨洮生卓而銅人毀；世有卓而大亂作，大亂作而卓身滅，抑有以也。
+- id: wei.6.p36.h2
+  anchor: wei.6.p36
+  at: 27
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
 - id: wei.6.p36.a2
   anchor: wei.6.p36
   at: 44
   length: 0
   type: pei
   text: 臣松之以爲桀、紂無道，秦、莽縱虐，皆多歷年所，然後衆惡乃著。董卓自竊權柄，至于隕斃，計其日月，未盈三周，而禍崇山岳，毒流四海。其殘賊之性，實豺狼不若。「書契未有」，斯言爲當。但評旣曰「賊忍」，又云「不仁」，賊忍，不仁，於辭爲重。袁術無毫芒之功，纖介之善，而猖狂于時，妄自尊立，固義夫之所扼腕，人鬼之所同疾。雖復恭儉節用，而猶必覆亡不暇，而評但云「奢淫不終」，未足見其大惡。
+- id: wei.6.p36.h3
+  anchor: wei.6.p36
+  at: 44
+  length: 2
+  type: person
+  person_id: yuanshao
+  text: 袁紹
+  via: primary
+- id: wei.6.p36.h4
+  anchor: wei.6.p36
+  at: 47
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wei.6.p36.h5
+  anchor: wei.6.p36
+  at: 62
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: wei.6.p36.h6
+  anchor: wei.6.p36
+  at: 68
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name
+- id: wei.6.p36.h7
+  anchor: wei.6.p36
+  at: 142
+  length: 1
+  type: person
+  person_id: yuanshao
+  text: 紹
+  via: given_name

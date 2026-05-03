@@ -1,0 +1,94 @@
+{
+  "id": "huzhi",
+  "primary_name": "胡質",
+  "courtesy_name": "文德",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.27",
+      "title": "魏書·徐胡二王傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/27.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p39",
+        "at": 319,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "胡質",
+        "snippet": "…王凌、揚州刺史孫禮與全琮戰於芍陂，琮敗走。荊州刺史胡質以輕兵救樊，或曰：「賊盛，不可迫。」質曰：「樊城卑兵少，故當進軍為之外援，不然，危矣。」遂勒兵臨圍，城中乃安。"
+      },
+      {
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p57",
+        "at": 34,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "胡質",
+        "snippet": "…雍州，依麴山築二城，使牙門將句安、李歆等守之，聚羌胡質任，侵逼諸郡。征西將軍郭淮與雍州刺史陳泰御之。泰曰：「麴城雖固，去蜀險遠，當須運糧；羌夷患維勞役，必未肯附。今圍而取之，可不血…"
+      },
+      {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p25",
+        "at": 323,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "胡質",
+        "snippet": "…使奮武將軍監青州諸軍事石苞督兗州刺史州泰、徐州刺史胡質等簡銳卒為遊軍，以備外寇。泰擊破朱異於陽淵，異走，泰追之，殺傷二千人。"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.15",
+        "chapter_title": "魏書·劉司馬梁張溫賈傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.15.p31",
+        "at": 30,
+        "data_url": "data/sanguozhi/wei/15.json",
+        "matched": "胡質",
+        "snippet": "…王崇率眾降。太和二年，帝使逵督前將軍满宠、東莞太守胡質等四軍，從西陽直向東關，曹休從皖，司馬宣王從江陵。逵至五將山，休更表贼有请降者，求深入应之。詔宣王驻軍，逵東與休合進。逵度贼無…"
+      },
+      {
+        "chapter_id": "wei.3",
+        "chapter_title": "魏書·明帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.3.p35",
+        "at": 31,
+        "data_url": "data/sanguozhi/wei/03.json",
+        "matched": "胡質",
+        "snippet": "…司徒陳矯薨。孫權遣將朱然等二萬人圍江夏郡，荊州刺史胡質等擊之，然退走。初，權遣使浮海與高句驪通，欲襲遼東。遣幽州刺史毌丘儉率諸軍及鮮卑、烏丸屯遼東南界，璽書徵公孫淵。淵發兵反，儉進…"
+      },
+      {
+        "chapter_id": "wu.11",
+        "chapter_title": "吳書·三朱吕範傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.11.p12",
+        "at": 14,
+        "data_url": "data/sanguozhi/wu/11.json",
+        "matched": "胡質",
+        "snippet": "赤烏五年，征柤中，魏將蒲忠、胡質各將數千人，忠要遮險隘。圖斷然後，質為忠繼援。時然所督兵將先四出，聞問不暇收合，便將帳下見兵八百人逆掩。忠戰不利，質等皆退。〈…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 6
+}

@@ -1,0 +1,50 @@
+{
+  "id": "yangjun",
+  "primary_name": "楊俊",
+  "courtesy_name": "季才",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.23",
+      "title": "魏書·和常楊杜趙裴傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/23.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p6",
+        "at": 307,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "楊俊",
+        "snippet": "…刺史未有如習者。習乃貢達名士，避地州界者河內常林、楊俊、王象、荀緯及太原王凌之徒，操悉以為縣長，後皆顯名於世。初，山陽仲長統遊學至并州，過高幹，幹善遇之，訪以世事。統謂幹曰：「君有…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.12",
+        "chapter_title": "魏書·崔毛徐何邢鮑司馬傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.12.p19",
+        "at": 14,
+        "data_url": "data/sanguozhi/wei/12.json",
+        "matched": "楊俊",
+        "snippet": "太祖征漢中，魏讽等謀反，中尉楊俊左遷。太祖歎曰：『讽所以敢生亂心，以吾爪牙之臣無遏奸防謀者故也。安得如諸葛丰者，使代俊乎！』桓階曰：『徐奕其人也。』太祖乃以奕…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 2
+}

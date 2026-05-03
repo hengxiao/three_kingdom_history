@@ -2,51 +2,179 @@ chapter: shu.9
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷39
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 2541b1f4b6719e23e155639455fcfc3ef6122017a50e8278a6968a0ae0fc0c94
 annotations:
+- id: shu.9.p1.h1
+  anchor: shu.9.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: donghe
+  text: 董和
+  via: primary
+- id: shu.9.p1.h2
+  anchor: shu.9.p1
+  at: 35
+  length: 2
+  type: person
+  person_id: liuzhang
+  text: 劉璋
+  via: primary
 - id: shu.9.p1.a1
   anchor: shu.9.p1
   at: 42
   length: 0
   type: pei
   text: 音髀。
+- id: shu.9.p2.h1
+  anchor: shu.9.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p2.h2
+  anchor: shu.9.p2
+  at: 19
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p2.h3
+  anchor: shu.9.p2
+  at: 75
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p2.h4
+  anchor: shu.9.p2
+  at: 193
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.9.p2.a1
   anchor: shu.9.p2
   at: 290
   length: 0
   type: pei
   text: 偉度者，姓胡，名濟，義陽人。為亮主簿，有忠藎之效，故見褒述。亮卒，為中典軍，統諸軍，封成陽亭侯，遷中監軍前將軍，督漢中，假節領兗州刺史，至右驃騎將軍。濟弟博，歷長水校尉尚書。
+- id: shu.9.p3.h1
+  anchor: shu.9.p3
+  at: 0
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
 - id: shu.9.p3.a1
   anchor: shu.9.p3
   at: 17
   length: 0
   type: pei
   text: 零陵先賢傳曰：巴祖父曜，蒼梧太守。父祥，江夏太守、蕩寇將軍。時孫堅舉兵討董卓，以南陽太守張諮不給軍糧，殺之。祥與同心，南陽士民由此怨祥，舉兵攻之，與戰，敗亡。劉表亦素不善祥，拘巴，欲殺之，數遣祥故所親信人密詐謂巴曰：「劉牧欲相危害，可相隨逃之。」如此再三，巴輒不應。具以報表，表乃不殺巴。年十八，郡署戶曹史主記主簿。劉先（主）欲遣週不疑就巴學，巴答曰：「昔遊荊北，時涉師門，記問之學，不足紀名，內無楊朱守靜之術，外無墨翟務時之風，猶天之南箕，虛而不用。賜書乃欲令賢甥摧鸞鳳之艷，遊燕雀之宇，將何以啟明之哉？愧於‘有若無，實若虛’，何以堪之！」
+- id: shu.9.p3.h2
+  anchor: shu.9.p3
+  at: 20
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: shu.9.p3.h3
+  anchor: shu.9.p3
+  at: 34
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name
+- id: shu.9.p3.h4
+  anchor: shu.9.p3
+  at: 43
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p3.a2
   anchor: shu.9.p3
   at: 84
   length: 0
   type: pei
   text: 零陵先賢傳曰：曹公敗於烏林，還北時，欲遣桓階，階辭不如巴。巴謂曹公曰：「劉備據荊州，不可也。」公曰：「備如相圖，孤以六軍繼之也。」
+- id: shu.9.p3.h5
+  anchor: shu.9.p3
+  at: 85
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p3.a3
   anchor: shu.9.p3
   at: 104
   length: 0
   type: pei
   text: 零陵先賢傳云：巴往零陵，事不成，欲遊交州，道還京師。時諸葛亮在臨烝，巴與亮書曰：「乘危歷險，到值思義之民，自與之眾，承天之心，順物之性，非餘身謀所能勸動。若道窮數盡，將託命於滄海，不復顧荊州矣。」亮追謂曰：「劉公雄才蓋世，據有荊土，莫不歸德，天人去就，已可知矣。足下欲何之？」巴曰：「受命而來，不成當還，此其宜也。足下何言邪！」
+- id: shu.9.p3.h6
+  anchor: shu.9.p3
+  at: 104
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p4.a1
   anchor: shu.9.p4
   at: 8
   length: 0
   type: pei
   text: 零陵先賢傳曰：巴入交阯，更姓為張。與交阯太守士燮計議不合，乃由牂牁道去。為益州郡所拘留，太守欲殺之。主簿曰：「此非常人，不可殺也。」主簿請自送至州，見益州牧劉璋，璋父焉昔為巴父祥所舉孝廉，見巴驚喜，每大事輒以諮訪。臣松之案：劉焉在漢靈帝時已經宗正太常，出為益州牧，祥始以孫堅作長沙時為江夏太守，不得舉焉為孝廉，明也。
+- id: shu.9.p4.h1
+  anchor: shu.9.p4
+  at: 10
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p4.h2
+  anchor: shu.9.p4
+  at: 22
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p4.a2
   anchor: shu.9.p4
   at: 27
   length: 0
   type: pei
   text: 零陵先賢傳曰：璋遣法正迎劉備，巴諫曰：「備，雄人也，入必為害，不可內也。」既入，巴复諫曰：「若使備討張魯，是放虎於山林也。」璋不聽。巴閉門稱疾。備攻成都，令軍中曰：「其有害巴者，誅及三族。」及得巴，甚喜。
+- id: shu.9.p4.h3
+  anchor: shu.9.p4
+  at: 28
+  length: 4
+  type: person
+  person_id: zhugeliang
+  text: 諸葛孔明
+  via: alias
+- id: shu.9.p4.h4
+  anchor: shu.9.p4
+  at: 37
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p4.a3
   anchor: shu.9.p4
   at: 48
@@ -65,12 +193,36 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
+- id: shu.9.p5.h1
+  anchor: shu.9.p5
+  at: 7
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p5.h2
+  anchor: shu.9.p5
+  at: 21
+  length: 2
+  type: person
+  person_id: fazheng
+  text: 法正
+  via: primary
 - id: shu.9.p5.a1
   anchor: shu.9.p5
   at: 67
   length: 0
   type: pei
   text: 零陵先賢傳曰：是時中夏人情未一，聞備在蜀，四方延頸。而備銳意欲即真，巴以為如此示天下不廣，且欲緩之。與主簿雍茂諫備，備以他事殺茂，由是遠人不復至矣。
+- id: shu.9.p5.h3
+  anchor: shu.9.p5
+  at: 67
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p5.t2
   anchor: shu.9.p5
   at: 98
@@ -83,18 +235,170 @@ annotations:
   era: 章武
   era_year: 2
   reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
+- id: shu.9.p5.h4
+  anchor: shu.9.p5
+  at: 112
+  length: 2
+  type: person
+  person_id: chenqun
+  text: 陳群
+  via: primary
+- id: shu.9.p5.h5
+  anchor: shu.9.p5
+  at: 117
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: shu.9.p5.a2
   anchor: shu.9.p5
   at: 139
   length: 0
   type: pei
   text: 零陵先賢傳曰：輔吳將軍張昭嘗對孫權論巴褊阨，不當拒張飛太甚。權曰：「若令子初隨世沈浮，容悅玄德，交非其人，何足稱為高士乎？」
+- id: shu.9.p6.h1
+  anchor: shu.9.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: maliang
+  text: 馬良
+  via: primary
+- id: shu.9.p6.h2
+  anchor: shu.9.p6
+  at: 54
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p6.h3
+  anchor: shu.9.p6
+  at: 66
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p6.h4
+  anchor: shu.9.p6
+  at: 71
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p6.h5
+  anchor: shu.9.p6
+  at: 85
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.9.p6.a1
   anchor: shu.9.p6
   at: 118
   length: 0
   type: pei
   text: 臣松之以為良蓋與亮結為兄弟，或相與有親；亮年長，良故呼亮為尊兄耳。
+- id: shu.9.p6.h6
+  anchor: shu.9.p6
+  at: 210
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p7.h1
+  anchor: shu.9.p7
+  at: 7
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.9.p7.h2
+  anchor: shu.9.p7
+  at: 31
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.9.p7.h3
+  anchor: shu.9.p7
+  at: 53
+  length: 2
+  type: person
+  person_id: maliang
+  text: 馬良
+  via: primary
+- id: shu.9.p8.h1
+  anchor: shu.9.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p8.h2
+  anchor: shu.9.p8
+  at: 44
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p8.h3
+  anchor: shu.9.p8
+  at: 57
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p8.h4
+  anchor: shu.9.p8
+  at: 82
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p8.h5
+  anchor: shu.9.p8
+  at: 111
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p8.h6
+  anchor: shu.9.p8
+  at: 119
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p8.h7
+  anchor: shu.9.p8
+  at: 124
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p8.h8
+  anchor: shu.9.p8
+  at: 146
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.9.p8.a1
   anchor: shu.9.p8
   at: 169
@@ -113,12 +417,84 @@ annotations:
   era: 建興
   era_year: 6
   reasoning: 原文「建興六年」直接出现年号；解析為 AD 228
+- id: shu.9.p8.h9
+  anchor: shu.9.p8
+  at: 174
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p8.h10
+  anchor: shu.9.p8
+  at: 185
+  length: 2
+  type: person
+  person_id: weiyan
+  text: 魏延
+  via: primary
+- id: shu.9.p8.h11
+  anchor: shu.9.p8
+  at: 205
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p8.h12
+  anchor: shu.9.p8
+  at: 220
+  length: 2
+  type: person
+  person_id: zhanghe
+  text: 張郃
+  via: primary
+- id: shu.9.p8.h13
+  anchor: shu.9.p8
+  at: 237
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p8.h14
+  anchor: shu.9.p8
+  at: 255
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
 - id: shu.9.p8.a2
   anchor: shu.9.p8
   at: 275
   length: 0
   type: pei
   text: 襄陽記曰：謖臨終與亮書曰：「明公視謖猶子，謖視明公猶父，原深惟殛鯀興禹之義，使平生之交不虧於此，謖雖死無恨於黃壤也。」於時十萬之眾為之垂涕。亮自臨祭，待其遺孤若平生。蔣琬後詣漢中，謂亮曰：「昔楚殺得臣，然後文公喜可知也。天下未定而戮智計之士，豈不惜乎！」亮流涕曰：「孫武所以能製勝於天下者，用法明也。是以楊乾亂法，魏絳戮其僕。四海分裂，兵交方始，若復廢法，何用討賊邪！」習鑿齒曰：諸葛亮之不能兼上國也，豈不宜哉！夫晉人規林父之後濟，故廢法而收功；楚成闇得臣之益己，故殺之以重敗。今蜀僻陋一方，才少上國，而殺其俊傑，退收駑下之用，明法勝才，不師三敗之道，將以成業，不亦難乎！且先主誡謖之不可大用，豈不謂其非才也？亮受誡而不獲奉承，明謖之難廢也。為天下宰匠，欲大收物之力，而不量才節任，隨器付業；知之大過，則違明主之誡，裁之失中，即殺有益之人，難乎其可與言智者也。
+- id: shu.9.p9.h1
+  anchor: shu.9.p9
+  at: 0
+  length: 2
+  type: person
+  person_id: chenzhen
+  text: 陳震
+  via: primary
+- id: shu.9.p9.h2
+  anchor: shu.9.p9
+  at: 11
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p9.h3
+  anchor: shu.9.p9
+  at: 28
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
 - id: shu.9.p9.t1
   anchor: shu.9.p9
   at: 61
@@ -143,6 +519,38 @@ annotations:
   era: 建興
   era_year: 7
   reasoning: 承前文年號「建興」推得，「七年」 = 建興7年 = AD 229
+- id: shu.9.p9.h4
+  anchor: shu.9.p9
+  at: 84
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: shu.9.p9.h5
+  anchor: shu.9.p9
+  at: 97
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: shu.9.p9.h6
+  anchor: shu.9.p9
+  at: 101
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p11.h1
+  anchor: shu.9.p11
+  at: 5
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: shu.9.p12.t1
   anchor: shu.9.p12
   at: 0
@@ -155,12 +563,176 @@ annotations:
   era: 建興
   era_year: 9
   reasoning: 承前文年號「建興」推得，「九年」 = 建興9年 = AD 231
+- id: shu.9.p12.h1
+  anchor: shu.9.p12
+  at: 12
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p12.h2
+  anchor: shu.9.p12
+  at: 18
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.9.p12.h3
+  anchor: shu.9.p12
+  at: 23
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: shu.9.p13.h1
+  anchor: shu.9.p13
+  at: 0
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: shu.9.p13.h2
+  anchor: shu.9.p13
+  at: 16
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- anchor: shu.9.p13
+  at: 19
+  length: 2
+  type: person
+  person_id: liushan
+  text: 太子
+  via: llm
+  confidence: 0.92
+  reasoning: 「先主立太子，允以選為舍人」即先主章武立太子劉禪事。
+  id: shu.9.p13.h15
+- id: shu.9.p13.h3
+  anchor: shu.9.p13
+  at: 33
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p13.h4
+  anchor: shu.9.p13
+  at: 46
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.9.p13.h5
+  anchor: shu.9.p13
+  at: 56
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p13.h6
+  anchor: shu.9.p13
+  at: 73
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
+- id: shu.9.p13.h7
+  anchor: shu.9.p13
+  at: 94
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.9.p13.h8
+  anchor: shu.9.p13
+  at: 99
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- anchor: shu.9.p13
+  at: 109
+  length: 2
+  type: person
+  person_id: liushan
+  text: 陛下
+  via: llm
+  confidence: 0.95
+  reasoning: 諸葛亮《出師表》引文「先帝簡拔以遺陛下」上於後主劉禪。
+  id: shu.9.p13.h16
+- id: shu.9.p13.h9
+  anchor: shu.9.p13
+  at: 176
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name_carry
 - id: shu.9.p13.a1
   anchor: shu.9.p13
   at: 215
   length: 0
   type: pei
   text: 楚國先賢傳曰：攸之，南陽人，以器業知名於時。
+- id: shu.9.p13.h10
+  anchor: shu.9.p13
+  at: 240
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p13.h11
+  anchor: shu.9.p13
+  at: 283
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p13.h12
+  anchor: shu.9.p13
+  at: 293
+  length: 2
+  type: person
+  person_id: jiangwan
+  text: 蔣琬
+  via: primary
+- id: shu.9.p13.h13
+  anchor: shu.9.p13
+  at: 305
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.9.p13.h14
+  anchor: shu.9.p13
+  at: 340
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p14.h1
+  anchor: shu.9.p14
+  at: 6
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
 - id: shu.9.p14.a1
   anchor: shu.9.p14
   at: 124
@@ -191,6 +763,14 @@ annotations:
   era: 延熙
   era_year: 7
   reasoning: 承前文年號「延熙」推得，「七年」 = 延熙7年 = AD 244
+- id: shu.9.p14.h2
+  anchor: shu.9.p14
+  at: 150
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
 - id: shu.9.p14.t3
   anchor: shu.9.p14
   at: 155
@@ -209,6 +789,54 @@ annotations:
   length: 0
   type: pei
   text: 《華陽國志》曰：時蜀人以諸葛亮、蔣琬、費禕及允為四相，一號四英也。
+- id: shu.9.p15.h1
+  anchor: shu.9.p15
+  at: 60
+  length: 2
+  type: person
+  person_id: dengai
+  text: 鄧艾
+  via: primary
+- id: shu.9.p16.h1
+  anchor: shu.9.p16
+  at: 9
+  length: 2
+  type: person
+  person_id: xujing
+  text: 許靖
+  via: primary
+- id: shu.9.p16.h2
+  anchor: shu.9.p16
+  at: 51
+  length: 2
+  type: person
+  person_id: feiyi
+  text: 費禕
+  via: primary
+- id: shu.9.p16.h3
+  anchor: shu.9.p16
+  at: 64
+  length: 2
+  type: person
+  person_id: lvyi
+  text: 呂乂
+  via: primary
+- id: shu.9.p16.h4
+  anchor: shu.9.p16
+  at: 87
+  length: 2
+  type: person
+  person_id: jiangwei
+  text: 姜維
+  via: primary
+- id: shu.9.p16.h5
+  anchor: shu.9.p16
+  at: 122
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: shu.9.p16.t1
   anchor: shu.9.p16
   at: 127
@@ -221,12 +849,100 @@ annotations:
   era: 景耀
   era_year: 1
   reasoning: 原文「景耀元年」直接出现年号；解析為 AD 258
+- id: shu.9.p16.h6
+  anchor: shu.9.p16
+  at: 133
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
+- id: shu.9.p16.h7
+  anchor: shu.9.p16
+  at: 227
+  length: 2
+  type: person
+  person_id: liushan
+  text: 後主
+  via: chapter_alias
 - id: shu.9.p17.a1
   anchor: shu.9.p17
   at: 10
   length: 0
   type: pei
   text: 臣松之以為陳群子泰，陸遜子抗，傳皆以子系父，不別載姓，及王肅、杜恕、張承、顧劭之流，莫不皆然，惟董允獨否，未詳其意，當以允名位優重，事蹟逾父故邪？夏侯玄、陳表並有騂角之美，而亦如泰者，《魏書》總名此卷云《諸夏侯曹傳》，故不復稍加品藻。陳武與表俱至偏將軍，以位不相過故也。
+- id: shu.9.p18.h1
+  anchor: shu.9.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: lvyi
+  text: 呂乂
+  via: primary
+- id: shu.9.p18.h2
+  anchor: shu.9.p18
+  at: 20
+  length: 2
+  type: person
+  person_id: liuyan_shu
+  text: 劉焉
+  via: primary
+- id: shu.9.p18.h3
+  anchor: shu.9.p18
+  at: 48
+  length: 2
+  type: person
+  person_id: liubei
+  text: 先主
+  via: chapter_alias
+- id: shu.9.p18.h4
+  anchor: shu.9.p18
+  at: 69
+  length: 2
+  type: person
+  person_id: wanglian
+  text: 王連
+  via: primary
+- id: shu.9.p18.h5
+  anchor: shu.9.p18
+  at: 126
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: shu.9.p18.h6
+  anchor: shu.9.p18
+  at: 152
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p18.h7
+  anchor: shu.9.p18
+  at: 181
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p18.h8
+  anchor: shu.9.p18
+  at: 207
+  length: 1
+  type: person
+  person_id: zhugeliang
+  text: 亮
+  via: given_name
+- id: shu.9.p18.h9
+  anchor: shu.9.p18
+  at: 262
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
 - id: shu.9.p18.t1
   anchor: shu.9.p18
   at: 331
@@ -239,3 +955,51 @@ annotations:
   era: 延熙
   era_year: 14
   reasoning: 原文「延熙十四年」直接出现年号；解析為 AD 251（回溯前事，不推進章節時間軸）
+- id: shu.9.p20.h1
+  anchor: shu.9.p20
+  at: 3
+  length: 2
+  type: person
+  person_id: donghe
+  text: 董和
+  via: primary
+- id: shu.9.p20.h2
+  anchor: shu.9.p20
+  at: 11
+  length: 2
+  type: person
+  person_id: liuba
+  text: 劉巴
+  via: primary
+- id: shu.9.p20.h3
+  anchor: shu.9.p20
+  at: 19
+  length: 2
+  type: person
+  person_id: maliang
+  text: 馬良
+  via: primary
+- id: shu.9.p20.h4
+  anchor: shu.9.p20
+  at: 29
+  length: 2
+  type: person
+  person_id: chenzhen
+  text: 陳震
+  via: primary
+- id: shu.9.p20.h5
+  anchor: shu.9.p20
+  at: 39
+  length: 2
+  type: person
+  person_id: dongyun
+  text: 董允
+  via: primary
+- id: shu.9.p20.h6
+  anchor: shu.9.p20
+  at: 56
+  length: 2
+  type: person
+  person_id: lvyi
+  text: 呂乂
+  via: primary

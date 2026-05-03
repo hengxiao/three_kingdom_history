@@ -11,15 +11,34 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷60",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 48,
+  "n_segments": 47,
   "segments": [
     {
       "id": "wu.15.p1",
       "text": "贺齐全琮吕岱周鲂鍾離牧",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p1.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p1.h2",
+          "type": "person",
+          "at": 8,
+          "length": 3,
+          "text": "鍾離牧",
+          "person_id": "zhonglimu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p2",
@@ -44,6 +63,33 @@
           "era": "建安",
           "era_year": 1,
           "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196"
+        },
+        {
+          "id": "wu.15.p2.h1",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p2.h2",
+          "type": "person",
+          "at": 153,
+          "length": 2,
+          "text": "王朗",
+          "person_id": "wanglang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p2.h3",
+          "type": "person",
+          "at": 169,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
         }
       ]
     },
@@ -175,6 +221,15 @@
           "reasoning": "承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215"
         },
         {
+          "id": "wu.15.p7.h1",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
           "id": "wu.15.p7.a1",
           "type": "pei",
           "at": 34,
@@ -199,13 +254,32 @@
           "era": "建安",
           "era_year": 21,
           "reasoning": "承前文年號「建安」推得，「二十一年」 = 建安21年 = AD 216"
+        },
+        {
+          "id": "wu.15.p8.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "wu.15.p9",
       "text": "黃武初，魏使曹休來伐。齊以道遠後至，因住新市為拒。會洞口諸軍遭風流溺，所亡中分，將士失色，賴齊未濟，偏軍獨全，諸將倚以為勢。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p9.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p10",
@@ -245,11 +319,74 @@
       "text": "全琮字子璜，吳郡錢唐人也。父柔，漢靈帝時舉孝廉。補尚書郎右丞，董卓之亂，棄官歸。州辟別駕從事，詔書就拜會稽東部都尉。孫策到吳，柔舉兵先附，策表柔為丹楊都尉。孫權為車騎將軍，以柔為長史，徙桂陽太守。柔嘗使琮齎米數千斛到吳，有所市易。琮至，皆散用，空船而還。柔大怒，琮頓首曰：“愚以所市非急，而士大夫方有倒縣之患，故便振贍，不及啟報。”柔更以奇之。是時中州士人避亂而南，依琮居者以百數，琮傾家給濟，與共有無，遂顯名遠近。後權以為奮威校尉，授兵數千人，使討山越。因開募召，得精兵萬餘人，出屯牛渚，稍遷偏將軍。",
       "annotations": [
         {
+          "id": "wu.15.p12.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p12.h2",
+          "type": "person",
+          "at": 16,
+          "length": 3,
+          "text": "漢靈帝",
+          "person_id": "linghan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p12.h3",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p12.h4",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "孫策",
+          "person_id": "sunce",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p12.h5",
+          "type": "person",
+          "at": 69,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p12.h6",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
           "id": "wu.15.p12.a1",
           "type": "pei",
           "at": 172,
           "length": 0,
           "text": "徐众评曰：礼，子事父无私财，又不敢私施，所以避尊上也。弃命专财而以邀名，未尽父子之礼。臣松之以为子路问“闻斯行诸？”子曰“有父兄在”。琮辄散父财，诚非子道，然士类县命，忧在朝夕，权其轻重，以先人急，斯亦冯暖市义、汲黯振救之类，全谓邀名，或负其心。"
+        },
+        {
+          "id": "wu.15.p12.h7",
+          "type": "person",
+          "at": 209,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
         }
       ]
     },
@@ -269,6 +406,69 @@
           "era": "建安",
           "era_year": 24,
           "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219"
+        },
+        {
+          "id": "wu.15.p13.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p13.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p13.h3",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p13.h4",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p13.h5",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p13.h6",
+          "type": "person",
+          "at": 52,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p13.h7",
+          "type": "person",
+          "at": 54,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -288,6 +488,24 @@
           "era": "黃武",
           "era_year": 1,
           "reasoning": "原文「黃武元年」直接出现年号；解析為 AD 222"
+        },
+        {
+          "id": "wu.15.p14.h1",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p14.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
         },
         {
           "id": "wu.15.p14.t2",
@@ -316,11 +534,56 @@
           "reasoning": "承前文年號「黃武」推得，「七年」 = 黃武7年 = AD 228"
         },
         {
+          "id": "wu.15.p14.h3",
+          "type": "person",
+          "at": 99,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p14.h4",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p14.h5",
+          "type": "person",
+          "at": 113,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p14.h6",
+          "type": "person",
+          "at": 142,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.15.p14.a1",
           "type": "pei",
           "at": 158,
           "length": 0,
           "text": "吴录曰：琮时治富春。"
+        },
+        {
+          "id": "wu.15.p14.h7",
+          "type": "person",
+          "at": 178,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.15.p14.a2",
@@ -386,6 +649,33 @@
           "era": "赤烏",
           "era_year": 9,
           "reasoning": "原文「赤烏九年」直接出现年号；解析為 AD 246"
+        },
+        {
+          "id": "wu.15.p16.h1",
+          "type": "person",
+          "at": 36,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p16.h2",
+          "type": "person",
+          "at": 138,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p16.h3",
+          "type": "person",
+          "at": 158,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -407,6 +697,15 @@
           "reasoning": "承前文年號「赤烏」推得，「十二年」 = 赤烏12年 = AD 249"
         },
         {
+          "id": "wu.15.p17.h1",
+          "type": "person",
+          "at": 47,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
           "id": "wu.15.p17.a1",
           "type": "pei",
           "at": 92,
@@ -419,6 +718,60 @@
       "id": "wu.15.p18",
       "text": "呂岱字定公，廣陵海陵人也，為郡縣吏，避亂南渡。孫權統事，岱詣幕府，出守吳丞。權親斷諸縣倉庫及囚系，長丞皆見，岱處法應問，甚稱權意，召署錄事，出補余姚長，召募精健，得千餘人。會稽東冶五縣賊呂合、秦狼等為亂，權以岱為督軍校尉，與將軍蔣欽等將兵討之，遂擒合、狼，五縣平定，拜昭信中郎將。",
       "annotations": [
+        {
+          "id": "wu.15.p18.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p18.h2",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p18.h3",
+          "type": "person",
+          "at": 38,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p18.h4",
+          "type": "person",
+          "at": 62,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p18.h5",
+          "type": "person",
+          "at": 102,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p18.h6",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "蔣欽",
+          "person_id": "jiangqin",
+          "via": "primary"
+        },
         {
           "id": "wu.15.p18.a1",
           "type": "pei",
@@ -444,6 +797,42 @@
           "era": "建安",
           "era_year": 20,
           "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.15.p19.h1",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p19.h2",
+          "type": "person",
+          "at": 77,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p19.h3",
+          "type": "person",
+          "at": 95,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p19.h4",
+          "type": "person",
+          "at": 101,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
         }
       ]
     },
@@ -463,13 +852,68 @@
           "era": "延康",
           "era_year": 1,
           "reasoning": "原文「延康元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.15.p20.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p20.h2",
+          "type": "person",
+          "at": 79,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wu.15.p21",
       "text": "交阯太守士燮卒，權以燮子徽為安遠將軍，領九真太守，以校尉陳時代燮。岱表分海南三郡為交州，以將軍戴良為刺史，海東四郡為廣州，岱自為刺史。遣良與時南入，而徽不承命，舉兵戍海口以拒良等。岱於是上疏請討徽罪，督兵三千人晨夜浮海。或謂岱曰：\"徽藉累世之恩，為一州所附，未易輕也。\"岱曰：\"今徽雖懷逆計，未虞吾之卒至，若我潛軍輕舉，掩其無備，破之必也。稽留不速，使得生心，嬰城固守，七郡百蠻，雲合響應，雖有智者，誰能圖之?\"遂行，過合浦，與良俱進。徽聞岱至，果大震怖，不知所出，即率兄弟六人肉袒迎岱。岱皆斬送其首，徽大將甘醴，桓治等率吏民攻岱，岱奮擊大破之，進封番禺侯。於是除廣州，復為交州如故。岱既定交州，復進討九真，斬獲以萬數。又遣從事南宣國化，暨徼外扶南、林邑、堂明諸王，各遣使奉貢。權嘉其功，進拜鎮南將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p21.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "士燮",
+          "person_id": "shixie",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p21.h2",
+          "type": "person",
+          "at": 8,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p21.h3",
+          "type": "person",
+          "at": 163,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p21.h4",
+          "type": "person",
+          "at": 339,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.15.p22",
@@ -509,6 +953,24 @@
           "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wu.15.p22.h1",
+          "type": "person",
+          "at": 44,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p22.h2",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
           "id": "wu.15.p22.t3",
           "type": "temporal",
           "at": 62,
@@ -520,18 +982,56 @@
           "era": "赤烏",
           "era_year": 4,
           "reasoning": "承前文年號「赤烏」推得，「四年」 = 赤烏4年 = AD 241"
+        },
+        {
+          "id": "wu.15.p22.h3",
+          "type": "person",
+          "at": 93,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wu.15.p23",
       "text": "權詔岱曰：“厲負險作亂，自致梟首；桓兇狡反覆，已降復叛。前後討伐，歷年不禽，非君規略，誰能梟之？忠武之節，於是益者。元惡既除，大小震懾，其餘細類，掃地族矣。自今巳去，國家永無南顧之虞，三郡晏然，無怵惕之驚。又得惡民以供賦役，重用歎息。賞不逾月，國之常典，制度所宜，君其裁之。”",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p23.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.15.p24",
       "text": "潘濬卒，岱代浚領荊州文書，與陸遜井在武昌，故督蒲圻。頃之，廖式作亂。攻圍城邑，零陵、蒼梧、鬱林諸郡騷擾，岱自表輒行，星夜兼路。權遣使追拜岱交州牧，及遣諸將唐咨等駱驛相繼，攻討一年破之，斬式及遣諸所偽署臨賀太守費楊等，並其支黨，郡縣悉平，復還武昌。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p24.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p24.h2",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.15.p25",
@@ -541,17 +1041,101 @@
     {
       "id": "wu.15.p26",
       "text": "昔旦奭翼同，《二南》作歌，今則足下與陸子也。忠勤相先，勞謙相讓，功以權成，化與道合，君子歎其德，小人悅其美。加以文書鞅掌，賓客終日，罷不捨事，勞不言倦。又知上馬輒自超乘，不由跨躡，如此足下過廉頗也。何其事事決也。《周易》有之，禮言恭，德言盛，足下何有盡此美耶！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p26.h1",
+          "type": "person",
+          "at": 34,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "wu.15.p27",
       "text": "及陸遜卒，諸葛恪代遜，權乃分武昌為兩部，岱督右部，自武昌上至蒲圻。遷上大將軍，拜子凱副軍校尉，監兵蒲圻，孫亮即位，拜大司馬。岱清身奉公，所在可述。初在交州，歷年不餉家，妻子饑乏。權聞之歎息，以讓群臣曰：“呂岱出身萬里，為國勤事，家門內困，而孤不早知。股肱耳目，其責安在？”於是加賜錢米布絹，歲有常限。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p27.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p27.h2",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p27.h3",
+          "type": "person",
+          "at": 9,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.15.p27.h4",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p27.h5",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "孫亮",
+          "person_id": "sunliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p27.h6",
+          "type": "person",
+          "at": 89,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.15.p27.h7",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p28",
       "text": "始，岱親近吳郡徐原，慷慨有才志，岱知其可成，賜巾褠，與共言論，後遂薦拔，官至侍御史。原性忠壯，好直言，岱時有得失，原輒諫諍，又公論之，人或以告岱，岱歎曰：\"是我所以貴德淵者也。\"及原死，岱哭之甚哀。曰：“德淵，呂岱之益友，今不幸，岱復於何聞過？”談者美之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p28.h1",
+          "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p29",
@@ -575,7 +1159,35 @@
     {
       "id": "wu.15.p30",
       "text": "周魴字子魚，吳郡陽羨人也。少好學，舉孝廉，為寧國長，轉在懷安。錢唐大帥彭式等蟻聚為寇，以魴為錢唐侯相，旬月之間，斬式首及其支黨，遷丹楊西部都尉。黃武中。鄱陽大帥彭綺作亂，攻沒屬城，乃以魴為鄱陽太守，與胡綜戮力攻討，遂生禽綺，送詣武昌，加昭義校尉。被命密求山中舊族名帥為北敵所聞知者，令譎挑魏大司馬揚州牧曹休。魴答，恐民帥小丑不足仗任，事或漏洩，不能致休，乞遣親人賫箋七條以誘休。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p30.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "周魴",
+          "person_id": "zhoufang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p30.h2",
+          "type": "person",
+          "at": 100,
+          "length": 2,
+          "text": "胡綜",
+          "person_id": "huzong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p30.h3",
+          "type": "person",
+          "at": 151,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p31",
@@ -590,7 +1202,89 @@
     {
       "id": "wu.15.p33",
       "text": "其三曰：\"魴所代故太守廣陵王靖，往者亦以郡民為變，以見譴責，靖勤自陳釋，而終不解，因立密計，欲北歸命，不幸事露，誅及嬰孩。魴既目見靖事，且觀東主一所非薄，嫿不復厚，雖或暫捨，終見翦除。今又令魴領郡者，是欲責後效，必殺魴之趣也。雖尚視息，憂惕焦灼，未知軀命，竟在何時。人居世間，猶白駒過隙，而常抱危怖，其可言乎!惟當陳愚，重自披盡，懼以卑賤，未能採納。願明使君少垂詳察，忖度其言。今此郡民，雖外名降首，而故在山草，看伺空隙，欲復為亂。為亂之日，魴命訖矣。東主頃者潛部分諸將，圖欲北進。呂范、孫韶等入淮，全琮、朱桓趨合肥，諸葛瑾、步騭、朱然到襄陽。陸議、潘璋等討梅敷。東主中營自掩石陽，別遣從孫奐治安陸城，修立邸閣，輦貲運糧，以為軍儲，又命諸葛亮進指關西，江邊諸將無復在者，才留三千所兵守武昌耳。若明使君以萬兵從皖南首江渚，魴便從此率厲吏民，以為內應。此方諸郡，前後舉事，垂成而敗者，由無外援使其然耳；若北軍臨境，傳檄屬城，思詠之民，誰不企踵?願明使君上觀天時，下察人事，中參蓍龜，則足昭往言之不虛也。\"",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p33.h1",
+          "type": "person",
+          "at": 244,
+          "length": 2,
+          "text": "孫韶",
+          "person_id": "sunshao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h2",
+          "type": "person",
+          "at": 250,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h3",
+          "type": "person",
+          "at": 253,
+          "length": 2,
+          "text": "朱桓",
+          "person_id": "zhuhuan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h4",
+          "type": "person",
+          "at": 259,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h5",
+          "type": "person",
+          "at": 263,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h6",
+          "type": "person",
+          "at": 266,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h7",
+          "type": "person",
+          "at": 275,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h8",
+          "type": "person",
+          "at": 294,
+          "length": 2,
+          "text": "孫奐",
+          "person_id": "sunhuan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p33.h9",
+          "type": "person",
+          "at": 318,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p34",
@@ -641,7 +1335,17 @@
     {
       "id": "wu.15.p40",
       "text": "休果信魴，帥步騎十萬，輜重滿道，逕來入皖。魴亦合眾，隨陸遜橫截休，休幅裂瓦解，斬獲萬計。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p40.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.15.p41",
@@ -660,6 +1364,24 @@
           "at": 115,
           "length": 0,
           "text": "臣松之案：孙亮太平二年始立临川郡，是时未有临川。"
+        },
+        {
+          "id": "wu.15.p41.h1",
+          "type": "person",
+          "at": 115,
+          "length": 2,
+          "text": "吾粲",
+          "person_id": "wucan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p41.h2",
+          "type": "person",
+          "at": 172,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         }
       ]
     },
@@ -680,6 +1402,15 @@
       "id": "wu.15.p43",
       "text": "鍾離牧字子幹，會稽山陰人，漢魯相意七世孫也。少爰居永興，躬自墾田，種稻二十餘畝。臨熟，縣民有識認之。牧曰：“本以田荒，故墾之耳。”遂以稻與縣人。縣長聞之，召民繋獄，欲繩以法，牧為之請。長曰：“君慕承宮，自行義事，僕為民主，當以法率下，何得寢公憲而從君邪？”牧曰：“此是郡界，緣君意顧，故來蹔住。今以少稻而殺此民，何心復留？”遂出裝，還山陰，長自往止之，為釋繋民。民慚懼，率妻子舂所取稻得六十斛米，送還牧，牧閉門不受。民輸置道旁，莫有取者。牧由此發名。",
       "annotations": [
+        {
+          "id": "wu.15.p43.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "鍾離牧",
+          "person_id": "zhonglimu",
+          "via": "primary"
+        },
         {
           "id": "wu.15.p43.a1",
           "type": "pei",
@@ -719,6 +1450,15 @@
           "era": "赤烏",
           "era_year": 5,
           "reasoning": "原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wu.15.p44.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
         },
         {
           "id": "wu.15.p44.a1",
@@ -771,12 +1511,44 @@
     {
       "id": "wu.15.p47",
       "text": "評曰：山越好為叛亂，難安易動，是以孫權不遑外御，卑詞魏氏。凡此諸臣，皆克寧內難，綏靜邦域者也。呂岱清恪在公；周魴譎略多奇；鐘離牧蹈長者之規；全琮有當世之才，貴重於時，然不檢姦子，獲譏毀名云。",
-      "annotations": []
-    },
-    {
-      "id": "wu.15.p48",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.15.p47.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p47.h2",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p47.h3",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "周魴",
+          "person_id": "zhoufang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.15.p47.h4",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        }
+      ]
     }
   ]
 }

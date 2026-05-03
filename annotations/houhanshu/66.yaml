@@ -5,6 +5,14 @@ source:
   retrieved: '2026-05-03'
   sha256: 3dc8e197b2ecb5b18b3a72f58fe8cb16f063c410ad8ec3229bff4072653c9cad
 annotations:
+- id: hhs.66.p1.h1
+  anchor: hhs.66.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.66.p2.a1
   anchor: hhs.66.p2
   at: 34
@@ -17,12 +25,28 @@ annotations:
   length: 0
   type: lixian
   text: 投，棄也。傳謂符也，音丁戀反。
+- id: hhs.66.p3.h1
+  anchor: hhs.66.p3
+  at: 2
+  length: 2
+  type: person
+  person_id: ligu
+  text: 李固
+  via: primary
 - id: hhs.66.p3.a1
   anchor: hhs.66.p3
   at: 20
   length: 0
   type: lixian
   text: 續漢志曰，樂安本名千乘，和帝更名也。
+- id: hhs.66.p3.h2
+  anchor: hhs.66.p3
+  at: 21
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.66.p3.a2
   anchor: hhs.66.p3
   at: 61
@@ -53,18 +77,54 @@ annotations:
   length: 0
   type: lixian
   text: 尚書曰：「若保赤子，唯人其康乂。」
+- anchor: hhs.66.p6
+  at: 36
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 陳蕃延熹中駁羌討論奏，「陛下赤子」即桓帝時事，對應 huanhan。
+  id: hhs.66.p6.h1
 - id: hhs.66.p7.a1
   anchor: hhs.66.p7
   at: 46
   length: 0
   type: lixian
   text: 蕃喪妻，鄉人畢至，唯許子將不往，曰：「仲舉性峻，峻則少通，故不造也。」
+- id: hhs.66.p8.h1
+  anchor: hhs.66.p8
+  at: 9
+  length: 2
+  type: person
+  person_id: liyun
+  text: 李雲
+  via: primary
+- id: hhs.66.p8.h2
+  anchor: hhs.66.p8
+  at: 15
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.66.p9.a1
   anchor: hhs.66.p9
   at: 101
   length: 0
   type: lixian
   text: 上象四七，謂二十八宿各主諸侯之分野，故曰下應分土，言皆以輔王室也。
+- anchor: hhs.66.p10
+  at: 14
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 陳蕃延熹中諫桓帝采女奢費，「陛下從是而止」即奏桓帝，對應 huanhan。
+  id: hhs.66.p10.h1
 - id: hhs.66.p10.a1
   anchor: hhs.66.p10
   at: 63
@@ -83,6 +143,16 @@ annotations:
   length: 0
   type: lixian
   text: 公羊傳曰：「西宮災。」何休注云：「時僖公為齊桓所脅，以齊媵為嫡，楚女廢居西宮，而不見恤，悲愁怨曠所生。」
+- anchor: hhs.66.p11
+  at: 12
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「陛下宜采求失得」即奏桓帝，對應 huanhan。
+  id: hhs.66.p11.h1
 - id: hhs.66.p11.a1
   anchor: hhs.66.p11
   at: 36
@@ -119,6 +189,16 @@ annotations:
   length: 0
   type: lixian
   text: 尚書無逸篇之言。
+- anchor: hhs.66.p12
+  at: 167
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 延熹六年陳蕃諫桓帝廣成校獵，「陛下焦心毀顏」即奏桓帝，對應 huanhan。
+  id: hhs.66.p12.h1
 - id: hhs.66.p12.a4
   anchor: hhs.66.p12
   at: 322
@@ -143,12 +223,28 @@ annotations:
   length: 0
   type: lixian
   text: 詩大雅也。言成王令德，不過誤，不遺失，循用舊典文章，謂周公之禮法也。
+- id: hhs.66.p13.h1
+  anchor: hhs.66.p13
+  at: 120
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.66.p14.a1
   anchor: hhs.66.p14
   at: 36
   length: 0
   type: lixian
   text: 音古本反。
+- id: hhs.66.p14.h1
+  anchor: hhs.66.p14
+  at: 39
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.66.p14.a2
   anchor: hhs.66.p14
   at: 278
@@ -161,6 +257,16 @@ annotations:
   length: 0
   type: lixian
   text: 公羊傳莊公四年，公及齊人狩於郜，譏其與讎狩也。僖公二十年，新作南門，譏其奢也。故曰「小惡必書」也。
+- anchor: hhs.66.p14
+  at: 353
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 陳蕃為李膺等諫桓帝救黨人，「陛下超從列侯，繼承天位」即桓帝由蠡吾侯入繼，對應 huanhan。
+  id: hhs.66.p14.h2
 - id: hhs.66.p14.a4
   anchor: hhs.66.p14
   at: 365
@@ -173,6 +279,16 @@ annotations:
   length: 0
   type: lixian
   text: 五侯謂胤、讓、淑、忠、戟五人，與冀同時誅。事見冀傳也。
+- anchor: hhs.66.p14
+  at: 546
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「至於陛下，有何悁悁」即奏桓帝，對應 huanhan。
+  id: hhs.66.p14.h3
 - id: hhs.66.p14.a6
   anchor: hhs.66.p14
   at: 554
@@ -185,12 +301,32 @@ annotations:
   length: 0
   type: lixian
   text: 文帝時，太中大夫鄧通愛幸，居上旁有怠嫚禮。氶相申屠嘉入朝，因見之，為檄召通。通至，嘉曰：「通小臣，戲殿上，大不敬，當斬。」通頓首，首盡出血。文帝使使召通，而謝丞相曰「吾弄臣，君釋之」也。湖陽公主蒼頭白日殺人，匿主家，吏追不得。公主出，宣駐車叩馬，以刀畫地數主。主言於帝，帝賜宣錢三十萬。語見董宣傳。
+- anchor: hhs.66.p14
+  at: 742
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「陛下深宜割塞近習」即奏桓帝，對應 huanhan。
+  id: hhs.66.p14.h4
 - id: hhs.66.p14.a8
   anchor: hhs.66.p14
   at: 774
   length: 0
   type: lixian
   text: 宣帝五日一聽事，自丞相已下，各敷奏其言。
+- anchor: hhs.66.p14
+  at: 806
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「陛下雖厭毒臣言」即奏桓帝，對應 huanhan。
+  id: hhs.66.p14.h5
 - id: hhs.66.p15.a1
   anchor: hhs.66.p15
   at: 9
@@ -209,6 +345,14 @@ annotations:
   era: 延熹
   era_year: 9
   reasoning: 承前文年號「延熹」推得，「九年」 = 延熹9年 = AD 166
+- id: hhs.66.p16.h1
+  anchor: hhs.66.p16
+  at: 3
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
 - id: hhs.66.p16.a1
   anchor: hhs.66.p16
   at: 67
@@ -221,6 +365,22 @@ annotations:
   length: 0
   type: lixian
   text: 前書曰「君為元首，臣為股肱，明其一體相須而成」也。
+- id: hhs.66.p16.h2
+  anchor: hhs.66.p16
+  at: 101
+  length: 2
+  type: person
+  person_id: liying
+  text: 李膺
+  via: primary
+- id: hhs.66.p16.h3
+  anchor: hhs.66.p16
+  at: 106
+  length: 2
+  type: person
+  person_id: dumi
+  text: 杜密
+  via: primary
 - id: hhs.66.p16.a3
   anchor: hhs.66.p16
   at: 174
@@ -233,6 +393,16 @@ annotations:
   length: 0
   type: lixian
   text: 史記武王克殷，命畢公表商容之閭，閎夭封比干之墓也。
+- anchor: hhs.66.p16
+  at: 186
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 延熹九年陳蕃為李膺等諫桓帝，「今陛下臨政」即桓帝親政，對應 huanhan。
+  id: hhs.66.p16.h4
 - id: hhs.66.p16.a5
   anchor: hhs.66.p16
   at: 217
@@ -263,6 +433,16 @@ annotations:
   length: 0
   type: lixian
   text: 春秋感精符曰：「魯哀公政亂，絕無日食，天不譴告也。」
+- anchor: hhs.66.p16
+  at: 456
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 陛下
+  via: llm
+  confidence: 0.92
+  reasoning: 同段「以悟陛下」即奏桓帝，對應 huanhan。
+  id: hhs.66.p16.h5
 - id: hhs.66.p16.a10
   anchor: hhs.66.p16
   at: 514
@@ -287,6 +467,14 @@ annotations:
   length: 0
   type: lixian
   text: 前書谷永曰「臣聞天生蒸人，不能相持，為立王者以統理之*(故)*」也。
+- id: hhs.66.p18.h1
+  anchor: hhs.66.p18
+  at: 41
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.66.p18.a2
   anchor: hhs.66.p18
   at: 104
@@ -299,12 +487,38 @@ annotations:
   length: 0
   type: lixian
   text: 詩國風曰：「誰謂荼苦，其甘如薺。」周頌曰：「未堪家多難，予又集於蓼。」
+- id: hhs.66.p19.h1
+  anchor: hhs.66.p19
+  at: 0
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
+- anchor: hhs.66.p19
+  at: 6
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「靈帝即位，竇太后復優詔」即桓思竇妙以太后名義詔，未列 roster。
+  id: hhs.66.p19.h4
 - id: hhs.66.p19.a1
   anchor: hhs.66.p19
   at: 38
   length: 0
   type: lixian
   text: 詩大雅曰：「無言不讎，無德不報。」
+- id: hhs.66.p19.h2
+  anchor: hhs.66.p19
+  at: 40
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.66.p19.a2
   anchor: hhs.66.p19
   at: 53
@@ -335,18 +549,96 @@ annotations:
   length: 0
   type: lixian
   text: 詩小雅曰「受爵不讓，至於已斯亡。」注云：「爵祿不以相讓，故怨禍及之」也。
+- anchor: hhs.66.p19
+  at: 238
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 陳蕃讓封表「顧惟陛下哀臣朽老」即奏靈帝，對應 linghan。
+  id: hhs.66.p19.h3
 - id: hhs.66.p19.a7
   anchor: hhs.66.p19
   at: 251
   length: 0
   type: lixian
   text: 論語孔子曰：「及其老也，血氣既衰，戒之在得。」注云：「得，貪也。」
+- anchor: hhs.66.p19
+  at: 252
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「竇太后不許」延續即竇太后竇妙，未列 roster。
+  id: hhs.66.p19.h5
+- id: hhs.66.p20.h1
+  anchor: hhs.66.p20
+  at: 2
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- anchor: hhs.66.p20
+  at: 12
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 皇后
+  via: llm
+  confidence: 0.92
+  reasoning: 「桓帝欲立所幸田貴人為皇后」指桓帝欲立田氏（未成），後立竇妙，無對應 roster。
+  id: hhs.66.p20.h3
+- anchor: hhs.66.p20
+  at: 102
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 「旦夕在太后側」即竇太后竇妙臨朝後，未列 roster。
+  id: hhs.66.p20.h4
 - id: hhs.66.p20.a1
   anchor: hhs.66.p20
   at: 106
   length: 0
   type: lixian
   text: 嬈音乃了反。
+- anchor: hhs.66.p20
+  at: 122
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「諂事太后」延續即竇太后竇妙，未列 roster。
+  id: hhs.66.p20.h5
+- anchor: hhs.66.p20
+  at: 125
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太后信之」延續即竇太后竇妙，未列 roster。
+  id: hhs.66.p20.h6
+- anchor: hhs.66.p20
+  at: 177
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「德於太后」延續即竇太后竇妙，未列 roster。
+  id: hhs.66.p20.h7
 - id: hhs.66.p20.a2
   anchor: hhs.66.p20
   at: 287
@@ -359,6 +651,26 @@ annotations:
   length: 0
   type: lixian
   text: 前書劉向上書論王鳳曰「稱譽者登進，忤恨者誅傷」也。
+- anchor: hhs.66.p20
+  at: 322
+  length: 2
+  type: person
+  person_id: linghan
+  text: 陛下
+  via: llm
+  confidence: 0.9
+  reasoning: 陳蕃奏靈帝「陛下前始攝位」即靈帝建寧初登位，對應 linghan。
+  id: hhs.66.p20.h2
+- anchor: hhs.66.p20
+  at: 416
+  length: 2
+  type: person
+  person_id: doumiao
+  text: 太后
+  via: llm
+  confidence: 0.95
+  reasoning: 同段「太后不納」延續即竇太后竇妙，未列 roster。
+  id: hhs.66.p20.h8
 - id: hhs.66.p21.a1
   anchor: hhs.66.p21
   at: 79
@@ -377,6 +689,22 @@ annotations:
   length: 0
   type: lixian
   text: 銍，縣，屬沛郡。
+- id: hhs.66.p24.h1
+  anchor: hhs.66.p24
+  at: 34
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
+- id: hhs.66.p25.h1
+  anchor: hhs.66.p25
+  at: 10
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.66.p25.a1
   anchor: hhs.66.p25
   at: 45
@@ -401,6 +729,14 @@ annotations:
   length: 0
   type: lixian
   text: 懍懍，有風采之貌也。
+- id: hhs.66.p26.h1
+  anchor: hhs.66.p26
+  at: 0
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
 - id: hhs.66.p26.a1
   anchor: hhs.66.p26
   at: 12
@@ -413,6 +749,14 @@ annotations:
   length: 0
   type: lixian
   text: 史記曰，田光謂燕太子丹曰：「臣聞驥壯盛之時，一日千里；至其老也，駑馬先之。」
+- id: hhs.66.p27.h1
+  anchor: hhs.66.p27
+  at: 47
+  length: 2
+  type: person
+  person_id: huanhan
+  text: 桓帝
+  via: alias
 - id: hhs.66.p29.t1
   anchor: hhs.66.p29
   at: 39
@@ -425,6 +769,30 @@ annotations:
   era: 中平
   era_year: 1
   reasoning: 原文「中平元年」直接出现年号；解析為 AD 184
+- id: hhs.66.p29.h1
+  anchor: hhs.66.p29
+  at: 61
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
+- id: hhs.66.p29.h2
+  anchor: hhs.66.p29
+  at: 89
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
+- id: hhs.66.p29.h3
+  anchor: hhs.66.p29
+  at: 136
+  length: 2
+  type: person
+  person_id: linghan
+  text: 靈帝
+  via: alias
 - id: hhs.66.p29.a1
   anchor: hhs.66.p29
   at: 166
@@ -475,6 +843,14 @@ annotations:
   length: 0
   type: lixian
   text: 深計謂令自死。
+- id: hhs.66.p30.h1
+  anchor: hhs.66.p30
+  at: 151
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
 - id: hhs.66.p30.a3
   anchor: hhs.66.p30
   at: 194
@@ -523,6 +899,22 @@ annotations:
   length: 0
   type: lixian
   text: 轉側猶去來也。
+- id: hhs.66.p31.h1
+  anchor: hhs.66.p31
+  at: 14
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary
+- id: hhs.66.p31.h2
+  anchor: hhs.66.p31
+  at: 39
+  length: 2
+  type: person
+  person_id: xianhan
+  text: 獻帝
+  via: alias
 - id: hhs.66.p32.t1
   anchor: hhs.66.p32
   at: 0
@@ -535,6 +927,70 @@ annotations:
   era: 初平
   era_year: 1
   reasoning: 原文「初平元年」直接出现年号；解析為 AD 190
+- id: hhs.66.p32.h1
+  anchor: hhs.66.p32
+  at: 20
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p32.h2
+  anchor: hhs.66.p32
+  at: 84
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p33.h1
+  anchor: hhs.66.p33
+  at: 11
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p34.h1
+  anchor: hhs.66.p34
+  at: 2
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p34.h2
+  anchor: hhs.66.p34
+  at: 50
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
+- id: hhs.66.p34.h3
+  anchor: hhs.66.p34
+  at: 69
+  length: 2
+  type: person
+  person_id: yuanshu
+  text: 袁術
+  via: primary
+- id: hhs.66.p34.h4
+  anchor: hhs.66.p34
+  at: 79
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p34.h5
+  anchor: hhs.66.p34
+  at: 90
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.66.p35.t1
   anchor: hhs.66.p35
   at: 0
@@ -547,6 +1003,22 @@ annotations:
   era: 初平
   era_year: 2
   reasoning: 承前文年號「初平」推得，「二年」 = 初平2年 = AD 191
+- id: hhs.66.p35.h1
+  anchor: hhs.66.p35
+  at: 3
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p35.h2
+  anchor: hhs.66.p35
+  at: 31
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
 - id: hhs.66.p35.a1
   anchor: hhs.66.p35
   at: 74
@@ -565,6 +1037,14 @@ annotations:
   era: 初平
   era_year: 3
   reasoning: 承前文年號「初平」推得，「三年」 = 初平3年 = AD 192
+- id: hhs.66.p36.h1
+  anchor: hhs.66.p36
+  at: 13
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
 - id: hhs.66.p36.a1
   anchor: hhs.66.p36
   at: 29
@@ -577,18 +1057,154 @@ annotations:
   length: 0
   type: lixian
   text: 執法，星名。史記曰「太微南四星曰執法」也。
+- id: hhs.66.p36.h2
+  anchor: hhs.66.p36
+  at: 99
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p36.h3
+  anchor: hhs.66.p36
+  at: 101
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.66.p36.h4
+  anchor: hhs.66.p36
+  at: 110
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p36.h5
+  anchor: hhs.66.p36
+  at: 114
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.66.p36.h6
+  anchor: hhs.66.p36
+  at: 123
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
 - id: hhs.66.p36.a3
   anchor: hhs.66.p36
   at: 126
   length: 0
   type: lixian
   text: 帝時疾愈，故入賀也。
+- id: hhs.66.p37.h1
+  anchor: hhs.66.p37
+  at: 4
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p37.h2
+  anchor: hhs.66.p37
+  at: 8
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.66.p37.h3
+  anchor: hhs.66.p37
+  at: 59
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.66.p37.h4
+  anchor: hhs.66.p37
+  at: 64
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name_carry
+- id: hhs.66.p37.h5
+  anchor: hhs.66.p37
+  at: 83
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: hhs.66.p37.h6
+  anchor: hhs.66.p37
+  at: 91
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.66.p38.a1
   anchor: hhs.66.p38
   at: 7
   length: 0
   type: lixian
   text: 稜，威稜也，力登反。
+- id: hhs.66.p38.h1
+  anchor: hhs.66.p38
+  at: 9
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p38.h2
+  anchor: hhs.66.p38
+  at: 20
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.66.p39.h1
+  anchor: hhs.66.p39
+  at: 0
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p39.h2
+  anchor: hhs.66.p39
+  at: 222
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.66.p39.h3
+  anchor: hhs.66.p39
+  at: 258
+  length: 2
+  type: person
+  person_id: lvbu
+  text: 呂布
+  via: primary
+- id: hhs.66.p39.h4
+  anchor: hhs.66.p39
+  at: 263
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
 - id: hhs.66.p39.a1
   anchor: hhs.66.p39
   at: 271
@@ -601,12 +1217,44 @@ annotations:
   length: 0
   type: lixian
   text: 朝廷謂天子也。
+- id: hhs.66.p40.h1
+  anchor: hhs.66.p40
+  at: 13
+  length: 2
+  type: person
+  person_id: wanghong
+  text: 王宏
+  via: primary
+- id: hhs.66.p40.h2
+  anchor: hhs.66.p40
+  at: 128
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p41.h1
+  anchor: hhs.66.p41
+  at: 64
+  length: 2
+  type: person
+  person_id: zhaojian
+  text: 趙戩
+  via: primary
 - id: hhs.66.p41.a1
   anchor: hhs.66.p41
   at: 71
   length: 0
   type: lixian
   text: 戩音翦。
+- id: hhs.66.p42.h1
+  anchor: hhs.66.p42
+  at: 0
+  length: 2
+  type: person
+  person_id: wanghong
+  text: 王宏
+  via: primary
 - id: hhs.66.p42.a1
   anchor: hhs.66.p42
   at: 87
@@ -619,6 +1267,30 @@ annotations:
   length: 0
   type: lixian
   text: 豎者，言賤劣如僮豎。
+- id: hhs.66.p44.h1
+  anchor: hhs.66.p44
+  at: 0
+  length: 3
+  type: person
+  person_id: shisunrui
+  text: 士孫瑞
+  via: primary
+- id: hhs.66.p44.h2
+  anchor: hhs.66.p44
+  at: 22
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p44.h3
+  anchor: hhs.66.p44
+  at: 59
+  length: 3
+  type: person
+  person_id: huangfusong
+  text: 皇甫嵩
+  via: primary
 - id: hhs.66.p44.t1
   anchor: hhs.66.p44
   at: 68
@@ -631,18 +1303,98 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
+- id: hhs.66.p45.h1
+  anchor: hhs.66.p45
+  at: 0
+  length: 2
+  type: person
+  person_id: zhaojian
+  text: 趙戩
+  via: primary
+- id: hhs.66.p45.h2
+  anchor: hhs.66.p45
+  at: 28
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: hhs.66.p45.h3
+  anchor: hhs.66.p45
+  at: 49
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.66.p45.h4
+  anchor: hhs.66.p45
+  at: 69
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.66.p45.h5
+  anchor: hhs.66.p45
+  at: 86
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: hhs.66.p45.h6
+  anchor: hhs.66.p45
+  at: 93
+  length: 2
+  type: person
+  person_id: caocao
+  text: 曹操
+  via: primary
 - id: hhs.66.p45.a1
   anchor: hhs.66.p45
   at: 123
   length: 0
   type: lixian
   text: 鐘繇字符常，魏太祖時為相國。
+- id: hhs.66.p46.h1
+  anchor: hhs.66.p46
+  at: 15
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.66.p46.h2
+  anchor: hhs.66.p46
+  at: 19
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
 - id: hhs.66.p46.a1
   anchor: hhs.66.p46
   at: 45
   length: 0
   type: lixian
   text: 莊子曰：「斯所謂帝之懸解。」懸解喻安泰也。
+- id: hhs.66.p46.h3
+  anchor: hhs.66.p46
+  at: 67
+  length: 1
+  type: person
+  person_id: dongzhuo
+  text: 卓
+  via: given_name
+- id: hhs.66.p47.h1
+  anchor: hhs.66.p47
+  at: 3
+  length: 2
+  type: person
+  person_id: chenfan
+  text: 陳蕃
+  via: primary
 - id: hhs.66.p47.a1
   anchor: hhs.66.p47
   at: 23
@@ -667,6 +1419,38 @@ annotations:
   length: 0
   type: lixian
   text: 誅卓為工，被殺為拙也。
+- id: hhs.66.p52.h1
+  anchor: hhs.66.p52
+  at: 43
+  length: 2
+  type: person
+  person_id: marong
+  text: 馬融
+  via: primary
+- id: hhs.66.p57.h1
+  anchor: hhs.66.p57
+  at: 21
+  length: 2
+  type: person
+  person_id: wangyun
+  text: 王允
+  via: primary
+- id: hhs.66.p58.h1
+  anchor: hhs.66.p58
+  at: 36
+  length: 2
+  type: person
+  person_id: cenzhi
+  text: 岑晊
+  via: primary
+- id: hhs.66.p74.h1
+  anchor: hhs.66.p74
+  at: 44
+  length: 2
+  type: person
+  person_id: huangqiong
+  text: 黃瓊
+  via: primary
 - id: hhs.66.p75.t1
   anchor: hhs.66.p75
   at: 7
@@ -715,3 +1499,11 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 原文「中平元年冬十二月」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
+- id: hhs.66.p77.h1
+  anchor: hhs.66.p77
+  at: 30
+  length: 2
+  type: person
+  person_id: hejin
+  text: 何進
+  via: primary

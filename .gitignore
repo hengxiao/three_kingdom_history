@@ -5,3 +5,9 @@ __pycache__/
 .coverage
 *.egg-info/
 .DS_Store
+
+# Scratch I/O for the Tier 2 LLM disambiguation pipeline. The accepted
+# decisions are committed as `via: llm` entries in annotations/; the raw
+# input/output JSON is reproducible via `tools.find_ambiguous_persons` +
+# subagents, so we don't track the working files.
+site/data/llm/

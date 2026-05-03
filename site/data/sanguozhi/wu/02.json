@@ -11,15 +11,33 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷47",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 65,
+  "n_segments": 64,
   "segments": [
     {
       "id": "wu.2.p1",
       "text": "孫權，字仲謀。兄策旣定諸郡，時權年十五，以爲陽羨長。郡察孝廉，州舉茂才，行奉義校尉。漢以策遠修職貢，遣使者劉琬加錫命。琬語人曰：「吾觀孫氏兄弟雖各才秀明達，然皆祿祚不終。惟中弟孝廉，形貌奇偉，骨體不恆，有大貴之表，年又最壽。爾試識之。」",
       "annotations": [
+        {
+          "id": "wu.2.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p1.h2",
+          "type": "person",
+          "at": 15,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
         {
           "id": "wu.2.p1.a1",
           "type": "pei",
@@ -60,11 +78,146 @@
           "reasoning": "承前文年號「建安」推得，「五年」 = 建安5年 = AD 200"
         },
         {
+          "id": "wu.2.p2.h1",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p2.h2",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p2.h3",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h4",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p2.a1",
           "type": "pei",
           "at": 84,
           "length": 0,
           "text": "臣松之按《禮記》曾子問子夏曰：『三年之喪，金革之事無避也者，禮與？初有司與？』孔子曰：『吾聞諸老摐曰，昔者魯公伯禽有爲爲之也。』鄭玄注曰：『周人卒哭而致事。時有徐戎作難，伯禽卒哭而徵之，急王事也。』昭所云『伯禽不師』，蓋謂此也。"
+        },
+        {
+          "id": "wu.2.p2.h5",
+          "type": "person",
+          "at": 125,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p2.h6",
+          "type": "person",
+          "at": 199,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h7",
+          "type": "person",
+          "at": 202,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h8",
+          "type": "person",
+          "at": 206,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p2.h9",
+          "type": "person",
+          "at": 225,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p2.h10",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h11",
+          "type": "person",
+          "at": 260,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h12",
+          "type": "person",
+          "at": 263,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h13",
+          "type": "person",
+          "at": 266,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h14",
+          "type": "person",
+          "at": 283,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p2.h15",
+          "type": "person",
+          "at": 286,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
         },
         {
           "id": "wu.2.p2.a2",
@@ -91,6 +244,15 @@
           "era": "建安",
           "era_year": 7,
           "reasoning": "承前文年號「建安」推得，「七年」 = 建安7年 = AD 202"
+        },
+        {
+          "id": "wu.2.p3.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -110,6 +272,69 @@
           "era": "建安",
           "era_year": 8,
           "reasoning": "承前文年號「建安」推得，「八年」 = 建安8年 = AD 203"
+        },
+        {
+          "id": "wu.2.p4.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p4.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p4.h3",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p4.h4",
+          "type": "person",
+          "at": 47,
+          "length": 3,
+          "text": "太史慈",
+          "person_id": "taishici",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p4.h5",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "韓當",
+          "person_id": "handang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p4.h6",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "周泰",
+          "person_id": "zhoutai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p4.h7",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
         }
       ]
     },
@@ -129,6 +354,24 @@
           "era": "建安",
           "era_year": 9,
           "reasoning": "承前文年號「建安」推得，「九年」 = 建安9年 = AD 204"
+        },
+        {
+          "id": "wu.2.p5.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p5.h2",
+          "type": "person",
+          "at": 19,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p5.a1",
@@ -155,6 +398,15 @@
           "era": "建安",
           "era_year": 10,
           "reasoning": "承前文年號「建安」推得，「十年」 = 建安10年 = AD 205"
+        },
+        {
+          "id": "wu.2.p6.h1",
+          "type": "person",
+          "at": 3,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -195,6 +447,33 @@
           "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         },
         {
+          "id": "wu.2.p8.h1",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h2",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h3",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "董襲",
+          "person_id": "dongxi",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p8.a1",
           "type": "pei",
           "at": 79,
@@ -216,11 +495,299 @@
           "text": "吳錄曰：晉改休陽爲海寧。"
         },
         {
+          "id": "wu.2.p8.h4",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h5",
+          "type": "person",
+          "at": 110,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h6",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h7",
+          "type": "person",
+          "at": 125,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h8",
+          "type": "person",
+          "at": 137,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h9",
+          "type": "person",
+          "at": 145,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h10",
+          "type": "person",
+          "at": 152,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h11",
+          "type": "person",
+          "at": 159,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h12",
+          "type": "person",
+          "at": 167,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h13",
+          "type": "person",
+          "at": 174,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h14",
+          "type": "person",
+          "at": 178,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h15",
+          "type": "person",
+          "at": 180,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h16",
+          "type": "person",
+          "at": 182,
+          "length": 2,
+          "text": "周瑜",
+          "person_id": "zhouyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h17",
+          "type": "person",
+          "at": 185,
+          "length": 2,
+          "text": "程普",
+          "person_id": "chengpu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h18",
+          "type": "person",
+          "at": 196,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h19",
+          "type": "person",
+          "at": 215,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p8.a4",
           "type": "pei",
           "at": 219,
           "length": 0,
           "text": "《江表傳》載曹公與權書曰：「近者奉辭伐罪，旄麾南指，劉琮束手。今治水軍八十萬眾，方與將軍會獵於吳。」權得書以示群臣，莫不鄉震失色。"
+        },
+        {
+          "id": "wu.2.p8.h20",
+          "type": "person",
+          "at": 220,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h21",
+          "type": "person",
+          "at": 222,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h22",
+          "type": "person",
+          "at": 230,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h23",
+          "type": "person",
+          "at": 233,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h24",
+          "type": "person",
+          "at": 247,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h25",
+          "type": "person",
+          "at": 280,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h26",
+          "type": "person",
+          "at": 282,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p8.h27",
+          "type": "person",
+          "at": 297,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h28",
+          "type": "person",
+          "at": 300,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h29",
+          "type": "person",
+          "at": 307,
+          "length": 2,
+          "text": "樂進",
+          "person_id": "yuejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h30",
+          "type": "person",
+          "at": 314,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h31",
+          "type": "person",
+          "at": 327,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h32",
+          "type": "person",
+          "at": 349,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h33",
+          "type": "person",
+          "at": 358,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p8.h34",
+          "type": "person",
+          "at": 372,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p8.h35",
+          "type": "person",
+          "at": 400,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -240,6 +807,69 @@
           "era": "建安",
           "era_year": 14,
           "reasoning": "承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209"
+        },
+        {
+          "id": "wu.2.p9.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p9.h2",
+          "type": "person",
+          "at": 23,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p9.h3",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "瑜",
+          "person_id": "zhouyu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p9.h4",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p9.h5",
+          "type": "person",
+          "at": 34,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p9.h6",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p9.h7",
+          "type": "person",
+          "at": 47,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
         }
       ]
     },
@@ -259,6 +889,15 @@
           "era": "建安",
           "era_year": 15,
           "reasoning": "承前文年號「建安」推得，「十五年」 = 建安15年 = AD 210"
+        },
+        {
+          "id": "wu.2.p10.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
         }
       ]
     },
@@ -278,6 +917,15 @@
           "era": "建安",
           "era_year": 16,
           "reasoning": "承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211"
+        },
+        {
+          "id": "wu.2.p11.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p11.t2",
@@ -314,11 +962,47 @@
           "reasoning": "承前文年號「建安」推得，「十八年正月」 = 建安18年 = AD 213"
         },
         {
+          "id": "wu.2.p12.h1",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p12.h2",
+          "type": "person",
+          "at": 22,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p12.h3",
+          "type": "person",
+          "at": 28,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p12.a1",
           "type": "pei",
           "at": 33,
           "length": 0,
           "text": "《吳歷》曰：曹公出濡須，作油船，夜渡洲上。權以水軍圍取，得三千餘人，其沒溺者亦數千人。權數挑戰，公堅守不出。權乃自來，乘輕船，從灞須口入公軍。諸將皆以爲是挑戰者，欲擊之。公曰：「此必孫權欲身見吾軍部伍也。」敕軍中皆精嚴，弓弩不得妄發。權行五六里，回還作鼓吹。公見舟船器仗軍伍整肅，喟然嘆曰：「生子當如孫仲謀，劉景升兒子若豚犬耳！」權爲箋與曹公，説：「春水方生，公宜速去。」別紙言：「足下不死，孤不得安。」曹公語諸將曰：「孫權不欺孤。」乃徹軍還。魏略曰：權乘大船來觀軍，公使弓弩亂發，箭著其船，船偏重將覆，權因回船，復以一面受箭，箭均船平，乃還。"
+        },
+        {
+          "id": "wu.2.p12.h4",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -342,11 +1026,344 @@
           "reasoning": "承前文年號「建安」推得，「十九年五月」 = 建安19年 = AD 214"
         },
         {
+          "id": "wu.2.p13.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "董和",
+          "person_id": "donghe",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h3",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h4",
+          "type": "person",
+          "at": 43,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h5",
+          "type": "person",
+          "at": 45,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h6",
+          "type": "person",
+          "at": 52,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h7",
+          "type": "person",
+          "at": 62,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h8",
+          "type": "person",
+          "at": 89,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h9",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h10",
+          "type": "person",
+          "at": 122,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h11",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h12",
+          "type": "person",
+          "at": 157,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p13.a1",
           "type": "pei",
           "at": 165,
           "length": 0,
           "text": "巴丘今曰巴陵。"
+        },
+        {
+          "id": "wu.2.p13.h13",
+          "type": "person",
+          "at": 167,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h14",
+          "type": "person",
+          "at": 170,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h15",
+          "type": "person",
+          "at": 181,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h16",
+          "type": "person",
+          "at": 200,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h17",
+          "type": "person",
+          "at": 206,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h18",
+          "type": "person",
+          "at": 216,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h19",
+          "type": "person",
+          "at": 219,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h20",
+          "type": "person",
+          "at": 224,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h21",
+          "type": "person",
+          "at": 226,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h22",
+          "type": "person",
+          "at": 248,
+          "length": 2,
+          "text": "孫皎",
+          "person_id": "sunjiao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h23",
+          "type": "person",
+          "at": 251,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h24",
+          "type": "person",
+          "at": 254,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h25",
+          "type": "person",
+          "at": 261,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h26",
+          "type": "person",
+          "at": 276,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h27",
+          "type": "person",
+          "at": 287,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h28",
+          "type": "person",
+          "at": 289,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h29",
+          "type": "person",
+          "at": 315,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h30",
+          "type": "person",
+          "at": 328,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h31",
+          "type": "person",
+          "at": 330,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p13.h32",
+          "type": "person",
+          "at": 339,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h33",
+          "type": "person",
+          "at": 364,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h34",
+          "type": "person",
+          "at": 369,
+          "length": 2,
+          "text": "甘寧",
+          "person_id": "ganning",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h35",
+          "type": "person",
+          "at": 378,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p13.h36",
+          "type": "person",
+          "at": 388,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p13.h37",
+          "type": "person",
+          "at": 390,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p13.a2",
@@ -392,6 +1409,15 @@
           "era": "建安",
           "era_year": 22,
           "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wu.2.p15.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -415,11 +1441,29 @@
           "reasoning": "承前文年號「建安」推得，「二十三年十月」 = 建安23年 = AD 218"
         },
         {
+          "id": "wu.2.p16.h1",
+          "type": "person",
+          "at": 7,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p16.a1",
           "type": "pei",
           "at": 21,
           "length": 0,
           "text": "庱音攄陵反。"
+        },
+        {
+          "id": "wu.2.p16.h2",
+          "type": "person",
+          "at": 27,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -441,6 +1485,240 @@
           "reasoning": "承前文年號「建安」推得，「二十四年」 = 建安24年 = AD 219"
         },
         {
+          "id": "wu.2.p17.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h3",
+          "type": "person",
+          "at": 20,
+          "length": 2,
+          "text": "于禁",
+          "person_id": "yujin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h4",
+          "type": "person",
+          "at": 31,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h5",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h6",
+          "type": "person",
+          "at": 56,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h7",
+          "type": "person",
+          "at": 73,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h8",
+          "type": "person",
+          "at": 82,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h9",
+          "type": "person",
+          "at": 84,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h10",
+          "type": "person",
+          "at": 93,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h11",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h12",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h13",
+          "type": "person",
+          "at": 105,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h14",
+          "type": "person",
+          "at": 115,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h15",
+          "type": "person",
+          "at": 117,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h16",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h17",
+          "type": "person",
+          "at": 133,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h18",
+          "type": "person",
+          "at": 148,
+          "length": 1,
+          "text": "蒙",
+          "person_id": "lvmeng",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h19",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h20",
+          "type": "person",
+          "at": 190,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h21",
+          "type": "person",
+          "at": 193,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h22",
+          "type": "person",
+          "at": 204,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h23",
+          "type": "person",
+          "at": 209,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h24",
+          "type": "person",
+          "at": 237,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h25",
+          "type": "person",
+          "at": 240,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h26",
+          "type": "person",
+          "at": 243,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p17.t2",
           "type": "temporal",
           "at": 250,
@@ -454,6 +1732,51 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 建安24年 (AD 219)，月份「十二月」"
+        },
+        {
+          "id": "wu.2.p17.h27",
+          "type": "person",
+          "at": 257,
+          "length": 2,
+          "text": "馬忠",
+          "person_id": "mazhong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p17.h28",
+          "type": "person",
+          "at": 260,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p17.h29",
+          "type": "person",
+          "at": 295,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h30",
+          "type": "person",
+          "at": 296,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p17.h31",
+          "type": "person",
+          "at": 315,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p17.a1",
@@ -484,6 +1807,24 @@
           "reasoning": "承前文年號「建安」推得，「二十五年春正月」 = 建安25年 = AD 220"
         },
         {
+          "id": "wu.2.p18.h2",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
+          "id": "wu.2.p18.h1",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "張儉",
+          "person_id": "zhangjian",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p18.a1",
           "type": "pei",
           "at": 50,
@@ -512,11 +1853,29 @@
           "reasoning": "承前文年號「建安」推得，「二年四月」 = 建安2年 = AD 197"
         },
         {
+          "id": "wu.2.p19.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p19.a1",
           "type": "pei",
           "at": 12,
           "length": 0,
           "text": "《魏略》曰：權聞魏文帝受禪而劉備稱帝，乃呼問知星者，己分野中星氣何如，遂有僭意。而以位次尚少，無以威眾，又欲先卑而後踞之，爲卑則可以假寵，後踞則必致討，致討然後可以怒眾，眾怒然後可以自大，故深絶蜀而專事魏。"
+        },
+        {
+          "id": "wu.2.p19.h2",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p19.t2",
@@ -549,6 +1908,42 @@
           "reasoning": "年承前文 建安2年 (AD 197)，月份「八月」"
         },
         {
+          "id": "wu.2.p19.h3",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p19.h4",
+          "type": "person",
+          "at": 164,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p19.h5",
+          "type": "person",
+          "at": 210,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p19.h6",
+          "type": "person",
+          "at": 218,
+          "length": 2,
+          "text": "于禁",
+          "person_id": "yujin",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p19.t4",
           "type": "temporal",
           "at": 223,
@@ -564,11 +1959,47 @@
           "reasoning": "年承前文 建安2年 (AD 197)，月份「十一月」"
         },
         {
+          "id": "wu.2.p19.h7",
+          "type": "person",
+          "at": 229,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p19.h8",
+          "type": "person",
+          "at": 285,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name"
+        },
+        {
           "id": "wu.2.p19.a2",
           "type": "pei",
           "at": 396,
           "length": 0,
           "text": "禹貢曰：沱、潛旣道，注曰：「水自江出爲沱，漢爲潛。」"
+        },
+        {
+          "id": "wu.2.p19.h9",
+          "type": "person",
+          "at": 425,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p19.h10",
+          "type": "person",
+          "at": 768,
+          "length": 1,
+          "text": "肅",
+          "person_id": "lusu",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p19.a3",
@@ -584,6 +2015,78 @@
       "text": "是歳，劉備師軍來伐，至巫山、秭歸，使使誘導武陵蠻夷，假與印傳，許之封賞。於是諸縣及五谿民皆反爲蜀。權以陸遜爲督，督朱然、潘璋等以拒之。遣都尉趙咨使魏。魏帝問曰：「吳王何等主也?」咨對曰：「聰明仁智，雄略之主也。」帝問其狀，咨曰：「納魯肅於凡品，是其聰也；拔呂蒙於行陳，是其明也；獲於禁而不害，是其仁也；取荊州而兵不血刃，是其智也；據三州虎視於天下，是其雄也；屈身於陛下，是其略也。」帝欲封權子登，權以登年幼，上書辭封，重遣西曹掾沈珩陳謝，並獻方物。立登爲王太子。",
       "annotations": [
         {
+          "id": "wu.2.p20.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h2",
+          "type": "person",
+          "at": 49,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p20.h3",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h4",
+          "type": "person",
+          "at": 57,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h5",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h6",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "魯肅",
+          "person_id": "lusu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h7",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "呂蒙",
+          "person_id": "lvmeng",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p20.h11",
+          "type": "person",
+          "at": 182,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caopi",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p20.a1",
           "type": "pei",
           "at": 191,
@@ -591,11 +2094,38 @@
           "text": "吳書曰：咨字德度，南陽人，博聞多識，應對辯捷，權爲吳王，擢中大夫，使魏。魏文帝善之，嘲咨曰：「吳王頗知學乎？」答曰：「吳王浮江萬艘，帶甲百萬，任賢使能，志存經略，雖有餘間，博覽書傳歷史，藉采奇異，不效諸生尋章摘句而已。」帝曰：「吳可征不？」咨對曰：「大國有征伐之兵，小國有備御之固。」又曰：「吳難魏不？」咨曰：「帶甲百萬，江、漢爲池，何難之有？」又曰：「吳如大夫者幾人？」咨曰：「聰明特達者八九十人，如臣之比，車載斗量，不可勝數。」咨頻載使北，人敬異。權聞而嘉之，拜騎都尉。咨言曰：「觀北方終不能守盟，今日之計，朝廷承漢四百之際，應東南之運，宜改年號，正服色，以應天順民。」權納之。"
         },
         {
+          "id": "wu.2.p20.h8",
+          "type": "person",
+          "at": 194,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p20.h9",
+          "type": "person",
+          "at": 198,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p20.a2",
           "type": "pei",
           "at": 224,
           "length": 0,
           "text": "吳書曰：珩字仲山，吳郡人，少綜經藝，尤善春秋內、外傳。權以珩有智謀，能專對，乃使至魏。魏文帝問曰：「吳嫌魏東向乎？」珩曰：「不嫌。」曰：「何以？」曰：「信恃舊盟，言歸於好，是以不嫌。若魏渝盟，自有豫備。」又問：「聞太子當來，寧然乎？」珩曰：「臣在東朝，朝不坐，宴不與，若此之議，無所聞也。」文帝善之，乃引珩自近，談語終日。珩隨事響應，無所屈服。珩還言曰：「臣密參侍中劉曄，數爲賊設奸計，終不久愨。臣聞兵家舊論，不恃敵之不我犯，恃我之不可犯，今爲朝廷慮之。且當省息他役，惟務農桑以廣軍資；脩繕舟車，增作戰具，令皆兼盈；撫養兵民，使各得其所；攬延英俊，奬勵將士，則天下可圖矣。」以奉使有稱，封永安鄉侯，官至少府。"
+        },
+        {
+          "id": "wu.2.p20.h10",
+          "type": "person",
+          "at": 228,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
         },
         {
           "id": "wu.2.p20.a3",
@@ -626,6 +2156,15 @@
           "reasoning": "原文「黃武元年春正月」直接出现年号；解析為 AD 222"
         },
         {
+          "id": "wu.2.p21.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p21.t2",
           "type": "temporal",
           "at": 29,
@@ -639,6 +2178,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 黃武元年 (AD 222)，月份「三月」"
+        },
+        {
+          "id": "wu.2.p21.h2",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name"
         },
         {
           "id": "wu.2.p21.t3",
@@ -656,6 +2204,15 @@
           "reasoning": "年承前文 黃武元年 (AD 222)，月份「正月」"
         },
         {
+          "id": "wu.2.p21.h3",
+          "type": "person",
+          "at": 86,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p21.a1",
           "type": "pei",
           "at": 96,
@@ -668,6 +2225,42 @@
       "id": "wu.2.p22",
       "text": "初權外託事魏，而誠心不款。魏欲遣待中辛毗、尚書桓階往與盟誓，並征任子，權辭讓不受。秋九月，魏乃命曹休、張遼、臧霸出洞口，曹仁出濡須，曹眞、夏侯尚、張郃、徐晃圍南郡。權遣呂範等督五軍，以舟軍拒休等，諸葛瑾、潘璋、楊粲救南郡，朱桓以濡須督拒仁。時揚、越蠻夷多未平集，內難未弭，故權卑辭上書，求自改厲，「若罪在難除，必不見置，當奉還土地民人。乞寄命交州，以終餘年。」",
       "annotations": [
+        {
+          "id": "wu.2.p22.h1",
+          "type": "person",
+          "at": 1,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p22.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "辛毗",
+          "person_id": "xinpi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h3",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "桓階",
+          "person_id": "huanjie",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h4",
+          "type": "person",
+          "at": 35,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.2.p22.t1",
           "type": "temporal",
@@ -682,6 +2275,123 @@
           "month_chinese": "秋九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 黃武元年 (AD 222)，月份「秋九月」"
+        },
+        {
+          "id": "wu.2.p22.h5",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h6",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "張遼",
+          "person_id": "zhangliao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h7",
+          "type": "person",
+          "at": 54,
+          "length": 2,
+          "text": "臧霸",
+          "person_id": "zangba",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h8",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h9",
+          "type": "person",
+          "at": 69,
+          "length": 3,
+          "text": "夏侯尚",
+          "person_id": "xiahoushang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h10",
+          "type": "person",
+          "at": 73,
+          "length": 2,
+          "text": "張郃",
+          "person_id": "zhanghe",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h11",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "徐晃",
+          "person_id": "xuhuang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h12",
+          "type": "person",
+          "at": 82,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p22.h13",
+          "type": "person",
+          "at": 84,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h14",
+          "type": "person",
+          "at": 98,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h15",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "潘璋",
+          "person_id": "panzhang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h16",
+          "type": "person",
+          "at": 111,
+          "length": 2,
+          "text": "朱桓",
+          "person_id": "zhuhuan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p22.h17",
+          "type": "person",
+          "at": 137,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -689,6 +2399,15 @@
       "id": "wu.2.p23",
       "text": "文帝報曰：「君生於擾攘之際，本有從橫之志，降身奉國，以享茲祚。自君策名已來，貢獻盈路。討備之功，國朝仰成。埋而掘之，古人之所恥。朕之與君，大義已定，豈樂勞師遠臨江漢？廊廟之議，王者所不得專；三公上君過失，皆有本末、朕以不明。雖有曾母投杼之疑，猶冀言者不信，以爲國福。故先遣使者犒勞，又遣尚書、侍中踐修前言，以定任子。君遂設辭，不欲使進，議者怪之。又前都尉浩周勸君遣子，乃實朝臣交謀，以此卜君，君果有辭，外引隗囂遣子不終，內喩竇融守忠而已。世殊時異，人各有心。浩周之還，口陳指麾，益令議者發明眾嫌，終始之本，無所據杖，故遂俛仰從群臣議。今省上事，款誠深至，心用慨然，淒愴動容。即日下詔，敕諸軍但深溝髙壘，不得妄進。若君必效忠節，以解疑議，登身朝到，夕召兵還。此言之誠，有如大江！」",
       "annotations": [
+        {
+          "id": "wu.2.p23.h1",
+          "type": "person",
+          "at": 44,
+          "length": 1,
+          "text": "備",
+          "person_id": "liubei",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.2.p23.a1",
           "type": "pei",
@@ -717,6 +2436,15 @@
       "text": "權遂改年，臨江拒守。冬十一月，大風。呂範等兵溺死者數千，餘軍還江南。曹休使臧霸以輕船五百、敢死萬人襲攻徐陵，燒攻城車，殺略數千人。將軍全琮、徐盛追斬魏將尹盧。殺獲數百。十二月，權使太中大夫鄭泉聘劉備於白帝，始復通也。然猶與魏文帝相往來，至後年乃絶。是歳，改夷陵爲西陵。",
       "annotations": [
         {
+          "id": "wu.2.p24.h1",
+          "type": "person",
+          "at": 0,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p24.t1",
           "type": "temporal",
           "at": 10,
@@ -732,6 +2460,51 @@
           "reasoning": "年承前文 黃武元年 (AD 222)，月份「冬十一月」"
         },
         {
+          "id": "wu.2.p24.h2",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p24.h3",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p24.h4",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "臧霸",
+          "person_id": "zangba",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p24.h5",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p24.h6",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "徐盛",
+          "person_id": "xusheng",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p24.t2",
           "type": "temporal",
           "at": 84,
@@ -745,6 +2518,24 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 黃武元年 (AD 222)，月份「十二月」"
+        },
+        {
+          "id": "wu.2.p24.h7",
+          "type": "person",
+          "at": 88,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p24.h8",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
         },
         {
           "id": "wu.2.p24.a1",
@@ -797,6 +2588,24 @@
           "reasoning": "年承前文 黃武2年 (AD 223)，月份「三月」"
         },
         {
+          "id": "wu.2.p25.h1",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "曹仁",
+          "person_id": "caoren",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p25.h2",
+          "type": "person",
+          "at": 71,
+          "length": 2,
+          "text": "朱桓",
+          "person_id": "zhuhuan",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p25.t3",
           "type": "temporal",
           "at": 98,
@@ -812,11 +2621,38 @@
           "reasoning": "年承前文 黃武2年 (AD 223)，月份「夏四月」"
         },
         {
+          "id": "wu.2.p25.h3",
+          "type": "person",
+          "at": 102,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p25.h4",
+          "type": "person",
+          "at": 110,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p25.a2",
           "type": "pei",
           "at": 114,
           "length": 0,
           "text": "《江表傳》曰：權辭讓曰：「漢家堙替，不能存救，亦何心而競乎？」群臣稱天命符瑞，固重以請。權未之許，而謂將相曰：「往年孤以玄德方嚮西鄙，故先命陸遜選眾以待之。聞北部分，欲以助孤，孤內嫌其有挾，若不受其拜，是相折辱而趣其速發，便當與西俱至，二處受敵，於孤爲劇，故自抑按，就其封王。低屈之趣，諸君似未之盡，今故以此相解耳。」"
+        },
+        {
+          "id": "wu.2.p25.h5",
+          "type": "person",
+          "at": 114,
+          "length": 2,
+          "text": "劉備",
+          "person_id": "liubei",
+          "via": "primary"
         },
         {
           "id": "wu.2.p25.a3",
@@ -856,6 +2692,15 @@
           "reasoning": "年承前文 黃武2年 (AD 223)，月份「六月」"
         },
         {
+          "id": "wu.2.p25.h6",
+          "type": "person",
+          "at": 166,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p25.t6",
           "type": "temporal",
           "at": 189,
@@ -869,6 +2714,15 @@
           "month_chinese": "冬十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 黃武2年 (AD 223)，月份「冬十一月」"
+        },
+        {
+          "id": "wu.2.p25.h7",
+          "type": "person",
+          "at": 199,
+          "length": 2,
+          "text": "鄧芝",
+          "person_id": "dengzhi",
+          "via": "primary"
         },
         {
           "id": "wu.2.p25.a4",
@@ -895,6 +2749,15 @@
           "era": "黃武",
           "era_year": 3,
           "reasoning": "承前文年號「黃武」推得，「三年」 = 黃武3年 = AD 224"
+        },
+        {
+          "id": "wu.2.p26.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "張溫",
+          "person_id": "zhangwen",
+          "via": "primary"
         },
         {
           "id": "wu.2.p26.t2",
@@ -977,6 +2840,15 @@
           "reasoning": "年承前文 黃武4年 (AD 225)，月份「六月」"
         },
         {
+          "id": "wu.2.p27.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "顧雍",
+          "person_id": "guyong",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p27.a2",
           "type": "pei",
           "at": 24,
@@ -1025,6 +2897,24 @@
           "reasoning": "承前文年號「黃武」推得，「五年」 = 黃武5年 = AD 226"
         },
         {
+          "id": "wu.2.p28.h1",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p28.h2",
+          "type": "person",
+          "at": 75,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p28.t2",
           "type": "temporal",
           "at": 118,
@@ -1040,11 +2930,29 @@
           "reasoning": "年承前文 黃武5年 (AD 226)，月份「秋七月」"
         },
         {
+          "id": "wu.2.p28.h3",
+          "type": "person",
+          "at": 122,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p28.a1",
           "type": "pei",
           "at": 161,
           "length": 0,
           "text": "吳錄曰：郡治富春也。"
+        },
+        {
+          "id": "wu.2.p28.h4",
+          "type": "person",
+          "at": 162,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
         },
         {
           "id": "wu.2.p28.t3",
@@ -1060,6 +2968,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 黃武5年 (AD 226)，月份「冬十月」"
+        },
+        {
+          "id": "wu.2.p28.h5",
+          "type": "person",
+          "at": 177,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p28.h6",
+          "type": "person",
+          "at": 220,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -1072,6 +2998,24 @@
       "id": "wu.2.p30",
       "text": "於是令有司盡寫科條，使郎中褚逢齎以就遜及諸葛瑾，意所不安，令損益之。是歳，分交州置廣州。俄復舊。",
       "annotations": [
+        {
+          "id": "wu.2.p30.h1",
+          "type": "person",
+          "at": 18,
+          "length": 1,
+          "text": "遜",
+          "person_id": "luxun",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p30.h2",
+          "type": "person",
+          "at": 20,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
         {
           "id": "wu.2.p30.a1",
           "type": "pei",
@@ -1099,6 +3043,15 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「黃武」推得，「六年春正月」 = 黃武6年 = AD 227"
+        },
+        {
+          "id": "wu.2.p31.h1",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "韓當",
+          "person_id": "handang",
+          "via": "primary"
         }
       ]
     },
@@ -1137,6 +3090,24 @@
           "reasoning": "年承前文 黃武7年 (AD 228)，月份「夏五月」"
         },
         {
+          "id": "wu.2.p32.h1",
+          "type": "person",
+          "at": 26,
+          "length": 2,
+          "text": "周魴",
+          "person_id": "zhoufang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p32.h2",
+          "type": "person",
+          "at": 34,
+          "length": 2,
+          "text": "曹休",
+          "person_id": "caoxiu",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p32.t3",
           "type": "temporal",
           "at": 37,
@@ -1150,6 +3121,33 @@
           "month_chinese": "秋八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 黃武7年 (AD 228)，月份「秋八月」"
+        },
+        {
+          "id": "wu.2.p32.h3",
+          "type": "person",
+          "at": 41,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p32.h4",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p32.h5",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "呂範",
+          "person_id": "lvfan",
+          "via": "primary"
         },
         {
           "id": "wu.2.p32.a1",
@@ -1178,6 +3176,15 @@
           "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
+          "id": "wu.2.p33.h1",
+          "type": "person",
+          "at": 12,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p33.t2",
           "type": "temporal",
           "at": 17,
@@ -1198,6 +3205,60 @@
           "at": 45,
           "length": 0,
           "text": "《吳錄》載權告天文曰：「皇帝臣權敢用玄牡昭告於皇皇后帝：漢享國二十有四世，歷年四百三十有四，行氣數終，祿祚運盡，普天弛絶，率土分崩。孼臣曹丕遂奪神器，丕子叡繼世作慝，淫名亂制。權生於東南，遭値期運，承乾秉戎，志在平世，奉辭行罰，舉足爲民。群臣將相，州郡百城，執事之人，咸以爲天意已去於漢，漢氏已絶祀於天，皇帝位虛，郊祀無主。休徵嘉瑞，前後雜沓，歷數在躬，不得不受。權畏天命，不敢不從，謹擇元日，登壇燎祭，即皇帝位。惟爾有神饗之，左右有吳，永終天祿。」"
+        },
+        {
+          "id": "wu.2.p33.h2",
+          "type": "person",
+          "at": 60,
+          "length": 1,
+          "text": "堅",
+          "person_id": "sunjian",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p33.h3",
+          "type": "person",
+          "at": 62,
+          "length": 4,
+          "text": "武烈皇帝",
+          "person_id": "sunjian",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.2.p33.h4",
+          "type": "person",
+          "at": 81,
+          "length": 1,
+          "text": "策",
+          "person_id": "sunce",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p33.h5",
+          "type": "person",
+          "at": 83,
+          "length": 4,
+          "text": "長沙桓王",
+          "person_id": "sunce",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "wu.2.p33.h6",
+          "type": "person",
+          "at": 90,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
+        },
+        {
+          "id": "wu.2.p33.h7",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
         }
       ]
     },
@@ -1241,13 +3302,77 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 黃龍元年 (AD 229)，月份「六月」"
+        },
+        {
+          "id": "wu.2.p34.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "陳震",
+          "person_id": "chenzhen",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p34.h2",
+          "type": "person",
+          "at": 55,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p34.h3",
+          "type": "person",
+          "at": 59,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
     {
       "id": "wu.2.p35",
       "text": "天降喪亂，皇綱失敘，逆臣乘釁，劫奪國柄，始於董卓，終於曹操，窮兇極惡，以覆四海。至令九州幅裂，普天無統，民神痛怨，靡所戾止。及操子丕，桀逆遺醜，薦作奸回，偷取天位。而睿麽麼，尋丕兇跡，阻兵盜土，未伏厥誅。昔共工亂象而髙辛行師，三苗干度虞舜征焉。今日滅曹，禽其徒黨，非蜀漢與東吳，將復誰任?夫討惡翦暴，必聲其罪。宜先分裂，奪其土地，使士民之心，各知所歸。是以《春秋》晉侯伐衞。先分其田以畀宋人，斯其義也。且古建大事，必先盟誓，故《周禮》有司盟之官，《尚書》有告誓之文，漢之與吳，雖信由中。然分土裂境，宜有盟約。諸葛亮德威遠著，翼戴本國，典戎在外，信感陰陽。誠動天地，重復結盟，廣誠約誓，使東西士民咸共聞知。故立壇殺牲，昭告神明，再歃加書，副之天府，天髙聽下，靈威棐湛，司愼司盟，群神群祀，莫不臨之。自今日漢、吳旣盟之後，戮力一心，同討魏賊，救危恤患，分災共慶，好惡齊之，無或攜貳。若有害漢，則吳伐之；若有害吳，則漢伐之。各守分士，無相侵犯。傳之後葉，克終若始。凡百之約，皆如載書，信言不艷，實居於好。有渝此盟，創禍先亂，違貳不協，慆慢天命，明神上帝是討是督，山川百神是糾是殛，俾墜其師，無克祚國。於爾大神，其明鑒之！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.2.p35.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "董卓",
+          "person_id": "dongzhuo",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p35.h2",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p35.h3",
+          "type": "person",
+          "at": 63,
+          "length": 1,
+          "text": "操",
+          "person_id": "caocao",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p35.h4",
+          "type": "person",
+          "at": 254,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.2.p36",
@@ -1267,6 +3392,33 @@
           "month_chinese": "秋九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 黃龍元年 (AD 229)，月份「秋九月」"
+        },
+        {
+          "id": "wu.2.p36.h1",
+          "type": "person",
+          "at": 4,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p36.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p36.h3",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
         }
       ]
     },
@@ -1326,6 +3478,15 @@
           "reasoning": "年承前文 黃龍3年 (AD 231)，月份「冬十月」"
         },
         {
+          "id": "wu.2.p38.h1",
+          "type": "person",
+          "at": 87,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p38.t3",
           "type": "temporal",
           "at": 114,
@@ -1377,6 +3538,15 @@
           "reasoning": "年承前文 嘉禾元年 (AD 232)，月份「三月」"
         },
         {
+          "id": "wu.2.p39.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "裴潛",
+          "person_id": "peiqian",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p39.t3",
           "type": "temporal",
           "at": 33,
@@ -1392,6 +3562,15 @@
           "reasoning": "年承前文 嘉禾元年 (AD 232)，月份「秋九月」"
         },
         {
+          "id": "wu.2.p39.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "田豫",
+          "person_id": "tianyu",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p39.t4",
           "type": "temporal",
           "at": 50,
@@ -1405,6 +3584,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 嘉禾元年 (AD 232)，月份「冬十月」"
+        },
+        {
+          "id": "wu.2.p39.h3",
+          "type": "person",
+          "at": 76,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p39.h4",
+          "type": "person",
+          "at": 83,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p39.a1",
@@ -1457,6 +3654,15 @@
           "text": "《江表傳》載權詔曰：「故魏使持節車騎將軍遼東太守平樂侯：天地失序，皇極不建，元惡大憝，作害於民，海內分崩，群生堙滅，雖周餘黎民，靡有孑遺，方之今日，亂有甚焉。朕受歷數，君臨萬國，夙夜戰戰，念在弭難，若涉淵水，罔知攸濟。是以把旄仗鉞，翦除凶虐，自東徂西，靡遑寧處，苟力所及，民無災害。雖賊虜遺種，未伏辜誅，猶繫囚枯木，待時而斃。惟將軍天姿特達，兼包文武，觀時睹變，審於去就，逾越險阻，顯致赤心，肇建大計，爲天下先，元勛巨績，侔於古人。雖昔竇融背棄隴右，卒佔河西，以定光武，休名美實，豈復是過？欽嘉雅尚，朕實欣之。自古聖帝明王，建化垂統，以爵褒德，以祿報功；功大者祿厚，德盛者禮崇。故周公有夾輔之勞，太師有鷹揚之功，幷啓土宇，兼受備物。今將軍規萬年之計，建不世之略，絶僭逆之虜，順天人之肅，濟成洪業，功無與比，齊魯之事，奚足言哉！詩不云乎，『無言不讎，無德不報』。今以幽、靑二州十七郡七十縣，封君爲燕王，使持節守太常張彌授君璽綬策書、金虎符第一至第五、竹使符第一至第十。錫君玄土，苴以白茅，爰契爾龜，用錫冢社。方有戎事，典統兵馬，以大將軍曲蓋麾幢，督幽州、靑州牧遼東太守如故。今加君九錫，其敬聽後命。以君三世相承，保綏一方，寧集四郡，訓及異俗，民夷安業，無或攜貳，是用錫君大輅、戎輅、玄牡二駟。君務在勸農，嗇人成功，倉庫盈積，官民俱豐，是用錫君衮冕之服，赤舄副焉。君正化以德，敬下以禮，敦義崇謙，內外咸和，是用錫君軒縣之樂。君宣導休風，懷保邊遠，遠人回面，莫不影附，是用錫君硃戸以居，君運其才略，官方任賢，顯直錯枉，群善必舉，是用錫君虎賁之士百人。君戎馬整齊，威震遐方，糾虔天刑，彰厥有罪，是用錫君鈇鉞各一。君文和於內，武信於外，禽討逆節，折衝掩難，是用錫君彤弓一、彤矢百、玈弓十、玈矢千。君忠勤有效，温恭爲德，明允篤誠，感於朕心，是用錫君秬鬯一卣，珪瓚副焉。欽哉！敬茲訓典，寅亮天工，相我國家，永終爾休。」"
         },
         {
+          "id": "wu.2.p40.h1",
+          "type": "person",
+          "at": 337,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p40.a2",
           "type": "pei",
           "at": 342,
@@ -1464,11 +3670,38 @@
           "text": "臣松以爲權愎諫違眾，信淵意了，非有攻伐之規，重複之慮。宣達錫命，乃用萬人，是何不愛其民，昏虐之甚乎？此役也，非惟闇塞，實爲無道。"
         },
         {
+          "id": "wu.2.p40.h2",
+          "type": "person",
+          "at": 359,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p40.a3",
           "type": "pei",
           "at": 368,
           "length": 0,
           "text": "《江表傳》載權怒曰：「朕年六十，世事難易，靡所不嘗，近爲鼠子所前卻，令人氣涌如山。不自載鼠子頭以擲於海，無顔復臨萬國。就令顛沛，不以爲恨。」"
+        },
+        {
+          "id": "wu.2.p40.h3",
+          "type": "person",
+          "at": 372,
+          "length": 2,
+          "text": "薛綜",
+          "person_id": "xuezong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p40.h4",
+          "type": "person",
+          "at": 383,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p40.a4",
@@ -1514,6 +3747,96 @@
           "reasoning": "年承前文 嘉禾3年 (AD 234)，月份「夏五月」"
         },
         {
+          "id": "wu.2.p41.h1",
+          "type": "person",
+          "at": 40,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p41.h2",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p41.h3",
+          "type": "person",
+          "at": 45,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p41.h4",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "孫韶",
+          "person_id": "sunshao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p41.h5",
+          "type": "person",
+          "at": 69,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p41.h6",
+          "type": "person",
+          "at": 83,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p41.h7",
+          "type": "person",
+          "at": 90,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p41.h8",
+          "type": "person",
+          "at": 110,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p41.h9",
+          "type": "person",
+          "at": 124,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p41.h10",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "孫韶",
+          "person_id": "sunshao",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p41.t3",
           "type": "temporal",
           "at": 133,
@@ -1527,6 +3850,15 @@
           "month_chinese": "秋八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 嘉禾3年 (AD 234)，月份「秋八月」"
+        },
+        {
+          "id": "wu.2.p41.h11",
+          "type": "person",
+          "at": 138,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
         },
         {
           "id": "wu.2.p41.t4",
@@ -1578,6 +3910,15 @@
           "reasoning": "承前文年號「嘉禾」推得，「四年」 = 嘉禾4年 = AD 235"
         },
         {
+          "id": "wu.2.p42.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p42.t2",
           "type": "temporal",
           "at": 11,
@@ -1591,6 +3932,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 嘉禾4年 (AD 235)，月份「秋七月」"
+        },
+        {
+          "id": "wu.2.p42.h2",
+          "type": "person",
+          "at": 33,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -1625,6 +3975,24 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 嘉禾5年 (AD 236)，月份「二月」"
+        },
+        {
+          "id": "wu.2.p43.h1",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "張昭",
+          "person_id": "zhangzhao",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p43.h2",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "吾粲",
+          "person_id": "wucan",
+          "via": "primary"
         },
         {
           "id": "wu.2.p43.t3",
@@ -1687,12 +4055,40 @@
     {
       "id": "wu.2.p46",
       "text": "顧譚議，以爲「奔喪立科，輕則不足以禁孝子之情，重則本非應死之罪，雖嚴刑益設，違奪必少。若偶有犯者，加其刑則恩所不忍，有減則法廢不行。愚以爲長吏在遠，苟不告語，勢不得知。比選代之間，若有傳者，必加大辟，則長吏無廢職之負，孝子無犯重之刑。」將軍胡綜議，以爲「喪紀之禮，雖有典制，苟無其時，所不得行。方今戎事軍國異容，而長吏遭喪，知有科禁，公敢干突，苟念聞憂不奔之恥，不計爲臣犯禁之罪，此由科防本輕所致。忠節在國，孝道立家，出身爲臣，焉得兼之?故爲忠臣不得爲孝子。宜定科文，示以大辟。若故違犯，有罪無赦。以殺止殺，行之一人，其後必絶。」丞相雍奏從大辟。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.2.p46.h1",
+          "type": "person",
+          "at": 120,
+          "length": 2,
+          "text": "胡綜",
+          "person_id": "huzong",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.2.p47",
       "text": "其後吳令孟宗喪母奔赴，已而自拘於武昌以聽刑。陸遜陳其素行，因爲之請，權乃減宗一等，後不得以爲比，因此遂絶。二月，陸遜討彭旦等，其年，皆破之。冬十月，遣衞將軍全琮襲六安，不克。諸葛恪平山越事畢，北屯廬江。",
       "annotations": [
+        {
+          "id": "wu.2.p47.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p47.h2",
+          "type": "person",
+          "at": 34,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
         {
           "id": "wu.2.p47.t1",
           "type": "temporal",
@@ -1707,6 +4103,15 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 嘉禾6年 (AD 237)，月份「二月」"
+        },
+        {
+          "id": "wu.2.p47.h3",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         },
         {
           "id": "wu.2.p47.t2",
@@ -1735,6 +4140,24 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 嘉禾6年 (AD 237)，月份「冬十月」"
+        },
+        {
+          "id": "wu.2.p47.h4",
+          "type": "person",
+          "at": 78,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p47.h5",
+          "type": "person",
+          "at": 87,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
         }
       ]
     },
@@ -1756,6 +4179,15 @@
           "reasoning": "原文「赤烏元年」直接出现年号；解析為 AD 238"
         },
         {
+          "id": "wu.2.p48.h1",
+          "type": "person",
+          "at": 14,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p48.t2",
           "type": "temporal",
           "at": 27,
@@ -1769,6 +4201,87 @@
           "month_chinese": "秋八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 赤烏元年 (AD 238)，月份「秋八月」"
+        },
+        {
+          "id": "wu.2.p48.h10",
+          "type": "person",
+          "at": 156,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "bulianshi",
+          "via": "llm"
+        },
+        {
+          "id": "wu.2.p48.h2",
+          "type": "person",
+          "at": 161,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p48.h9",
+          "type": "person",
+          "at": 179,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
+        },
+        {
+          "id": "wu.2.p48.h3",
+          "type": "person",
+          "at": 185,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p48.h4",
+          "type": "person",
+          "at": 206,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p48.h5",
+          "type": "person",
+          "at": 242,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p48.h6",
+          "type": "person",
+          "at": 246,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p48.h7",
+          "type": "person",
+          "at": 249,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p48.h8",
+          "type": "person",
+          "at": 252,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
         }
       ]
     },
@@ -1847,6 +4360,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 赤烏2年 (AD 239)，月份「冬十月」"
+        },
+        {
+          "id": "wu.2.p50.h1",
+          "type": "person",
+          "at": 122,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
         }
       ]
     },
@@ -1936,6 +4458,42 @@
           "reasoning": "年承前文 赤烏4年 (AD 241)，月份「夏四月」"
         },
         {
+          "id": "wu.2.p52.h1",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p52.h2",
+          "type": "person",
+          "at": 54,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p52.h3",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p52.h4",
+          "type": "person",
+          "at": 96,
+          "length": 3,
+          "text": "諸葛瑾",
+          "person_id": "zhugejin",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p52.a1",
           "type": "pei",
           "at": 103,
@@ -1956,6 +4514,15 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 赤烏4年 (AD 241)，月份「五月」"
+        },
+        {
+          "id": "wu.2.p52.h6",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sundeng",
+          "via": "llm"
         },
         {
           "id": "wu.2.p52.t4",
@@ -1986,6 +4553,15 @@
           "month_chinese": "秋八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 赤烏4年 (AD 241)，月份「秋八月」"
+        },
+        {
+          "id": "wu.2.p52.h5",
+          "type": "person",
+          "at": 143,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         }
       ]
     },
@@ -2007,6 +4583,15 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「赤烏」推得，「五年春正月」 = 赤烏5年 = AD 242"
+        },
+        {
+          "id": "wu.2.p53.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
         },
         {
           "id": "wu.2.p53.t2",
@@ -2054,6 +4639,15 @@
           "reasoning": "年承前文 赤烏5年 (AD 242)，月份「秋七月」"
         },
         {
+          "id": "wu.2.p53.h1",
+          "type": "person",
+          "at": 128,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p53.t5",
           "type": "temporal",
           "at": 157,
@@ -2090,6 +4684,15 @@
           "reasoning": "承前文年號「赤烏」推得，「六年春正月」 = 赤烏6年 = AD 243"
         },
         {
+          "id": "wu.2.p54.h1",
+          "type": "person",
+          "at": 13,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p54.t2",
           "type": "temporal",
           "at": 32,
@@ -2105,6 +4708,15 @@
           "reasoning": "年承前文 赤烏6年 (AD 243)，月份「冬十一月」"
         },
         {
+          "id": "wu.2.p54.h2",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "顧雍",
+          "person_id": "guyong",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p54.t3",
           "type": "temporal",
           "at": 43,
@@ -2118,6 +4730,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 赤烏6年 (AD 243)，月份「十二月」"
+        },
+        {
+          "id": "wu.2.p54.h3",
+          "type": "person",
+          "at": 73,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
         }
       ]
     },
@@ -2139,6 +4760,78 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「赤烏」推得，「七年春正月」 = 赤烏7年 = AD 244"
+        },
+        {
+          "id": "wu.2.p55.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h2",
+          "type": "person",
+          "at": 29,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h3",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h4",
+          "type": "person",
+          "at": 67,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h5",
+          "type": "person",
+          "at": 74,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h6",
+          "type": "person",
+          "at": 116,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "wu.2.p55.h7",
+          "type": "person",
+          "at": 147,
+          "length": 3,
+          "text": "司馬懿",
+          "person_id": "simayi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p55.h8",
+          "type": "person",
+          "at": 263,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p55.a1",
@@ -2167,6 +4860,15 @@
           "month_chinese": "春二月",
           "month_ordinal": 2,
           "reasoning": "承前文年號「赤烏」推得，「八年春二月」 = 赤烏8年 = AD 245"
+        },
+        {
+          "id": "wu.2.p56.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "陸遜",
+          "person_id": "luxun",
+          "via": "primary"
         },
         {
           "id": "wu.2.p56.t2",
@@ -2227,6 +4929,15 @@
           "reasoning": "承前文年號「赤烏」推得，「九年春二月」 = 赤烏9年 = AD 246"
         },
         {
+          "id": "wu.2.p57.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p57.t2",
           "type": "temporal",
           "at": 22,
@@ -2257,6 +4968,51 @@
           "reasoning": "年承前文 赤烏9年 (AD 246)，月份「秋九月」"
         },
         {
+          "id": "wu.2.p57.h2",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p57.h3",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p57.h4",
+          "type": "person",
+          "at": 59,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p57.h5",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p57.h6",
+          "type": "person",
+          "at": 81,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p57.a1",
           "type": "pei",
           "at": 89,
@@ -2285,6 +5041,15 @@
           "reasoning": "承前文年號「赤烏」推得，「十年春正月」 = 赤烏10年 = AD 247"
         },
         {
+          "id": "wu.2.p58.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "全琮",
+          "person_id": "quancong",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p58.a1",
           "type": "pei",
           "at": 14,
@@ -2305,6 +5070,15 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 赤烏10年 (AD 247)，月份「二月」"
+        },
+        {
+          "id": "wu.2.p58.h2",
+          "type": "person",
+          "at": 17,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p58.t3",
@@ -2344,6 +5118,15 @@
           "reasoning": "年承前文 赤烏10年 (AD 247)，月份「夏五月」"
         },
         {
+          "id": "wu.2.p58.h3",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "步騭",
+          "person_id": "buzhi",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p58.t5",
           "type": "temporal",
           "at": 50,
@@ -2378,6 +5161,15 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「赤烏」推得，「十一年春正月」 = 赤烏11年 = AD 248"
+        },
+        {
+          "id": "wu.2.p59.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
         },
         {
           "id": "wu.2.p59.t2",
@@ -2475,6 +5267,15 @@
           "reasoning": "承前文年號「赤烏」推得，「十二年春三月」 = 赤烏12年 = AD 249"
         },
         {
+          "id": "wu.2.p60.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "朱然",
+          "person_id": "zhuran",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p60.t2",
           "type": "temporal",
           "at": 15,
@@ -2548,6 +5349,15 @@
           "reasoning": "年承前文 赤烏13年 (AD 250)，月份「八月」"
         },
         {
+          "id": "wu.2.p61.h5",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p61.t4",
           "type": "temporal",
           "at": 75,
@@ -2561,6 +5371,15 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 赤烏13年 (AD 250)，月份「冬十月」"
+        },
+        {
+          "id": "wu.2.p61.h1",
+          "type": "person",
+          "at": 90,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p61.t5",
@@ -2578,6 +5397,15 @@
           "reasoning": "年承前文 赤烏13年 (AD 250)，月份「十一月」"
         },
         {
+          "id": "wu.2.p61.h6",
+          "type": "person",
+          "at": 118,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p61.t6",
           "type": "temporal",
           "at": 136,
@@ -2591,6 +5419,33 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 赤烏13年 (AD 250)，月份「十二月」"
+        },
+        {
+          "id": "wu.2.p61.h2",
+          "type": "person",
+          "at": 144,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p61.h3",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "wu.2.p61.h4",
+          "type": "person",
+          "at": 166,
+          "length": 2,
+          "text": "陸凱",
+          "person_id": "lukai",
+          "via": "primary"
         },
         {
           "id": "wu.2.p61.a1",
@@ -2621,6 +5476,15 @@
           "reasoning": "原文「太元元年夏五月」直接出现年号；解析為 AD 251"
         },
         {
+          "id": "wu.2.p62.h4",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "panhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p62.a1",
           "type": "pei",
           "at": 34,
@@ -2641,6 +5505,15 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 太元元年 (AD 251)，月份「秋七月」"
+        },
+        {
+          "id": "wu.2.p62.h1",
+          "type": "person",
+          "at": 133,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
         },
         {
           "id": "wu.2.p62.a2",
@@ -2680,6 +5553,15 @@
           "reasoning": "年承前文 太元元年 (AD 251)，月份「冬十一月」"
         },
         {
+          "id": "wu.2.p62.h2",
+          "type": "person",
+          "at": 207,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
           "id": "wu.2.p62.a3",
           "type": "pei",
           "at": 216,
@@ -2700,6 +5582,15 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 太元元年 (AD 251)，月份「十二月」"
+        },
+        {
+          "id": "wu.2.p62.h3",
+          "type": "person",
+          "at": 229,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunliang",
+          "via": "llm"
         }
       ]
     },
@@ -2723,6 +5614,15 @@
           "reasoning": "承前文年號「太元」推得，「二年春正月」 = 太元2年 = AD 252"
         },
         {
+          "id": "wu.2.p63.h3",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "太子",
+          "person_id": "sunhe",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p63.t2",
           "type": "temporal",
           "at": 41,
@@ -2738,6 +5638,15 @@
           "reasoning": "年承前文 太元2年 (AD 252)，月份「二月」"
         },
         {
+          "id": "wu.2.p63.h4",
+          "type": "person",
+          "at": 53,
+          "length": 2,
+          "text": "皇后",
+          "person_id": "panhuanghou",
+          "via": "llm"
+        },
+        {
           "id": "wu.2.p63.t3",
           "type": "temporal",
           "at": 73,
@@ -2751,6 +5660,24 @@
           "month_chinese": "夏四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 太元2年 (AD 252)，月份「夏四月」"
+        },
+        {
+          "id": "wu.2.p63.h1",
+          "type": "person",
+          "at": 77,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        },
+        {
+          "id": "wu.2.p63.h2",
+          "type": "person",
+          "at": 88,
+          "length": 3,
+          "text": "大皇帝",
+          "person_id": "sunquan",
+          "via": "chapter_alias"
         },
         {
           "id": "wu.2.p63.t4",
@@ -2781,6 +5708,15 @@
       "text": "評曰：「孫權屈身忍辱，任才尚計，有勾踐之奇，英人之傑矣。故能自擅江表，成鼎峙之業。然性多嫌忌，果於殺戮，暨臻末年，彌以滋甚。至於讒說殄行，胤嗣廢斃，豈所謂賜厥孫謀以燕冀於者哉?其後葉陵遲，遂致覆國，未必不由此也。」",
       "annotations": [
         {
+          "id": "wu.2.p64.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
           "id": "wu.2.p64.a1",
           "type": "pei",
           "at": 74,
@@ -2795,11 +5731,6 @@
           "text": "臣松之以爲孫權橫廢無罪之子，雖爲兆亂，然國之傾覆，自由暴皓。若權不廢和，皓爲世適，終至滅亡，有何異哉？此則喪國由於昏虐，不在於廢黜也。設使亮保國祚，休不早死，則皓不得立。皓不得立，則吳不亡矣。"
         }
       ]
-    },
-    {
-      "id": "wu.2.p65",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

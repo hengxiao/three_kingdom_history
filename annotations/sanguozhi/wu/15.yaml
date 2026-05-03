@@ -2,9 +2,25 @@ chapter: wu.15
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷60
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 7e7a42a057a56cda7c3b030205ffb9fb2e6c7f40d70f56ac883b5c95eebd127c
 annotations:
+- id: wu.15.p1.h1
+  anchor: wu.15.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.15.p1.h2
+  anchor: wu.15.p1
+  at: 8
+  length: 3
+  type: person
+  person_id: zhonglimu
+  text: 鍾離牧
+  via: primary
 - id: wu.15.p2.a1
   anchor: wu.15.p2
   at: 13
@@ -23,6 +39,30 @@ annotations:
   era: 建安
   era_year: 1
   reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
+- id: wu.15.p2.h1
+  anchor: wu.15.p2
+  at: 142
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.15.p2.h2
+  anchor: wu.15.p2
+  at: 153
+  length: 2
+  type: person
+  person_id: wanglang
+  text: 王朗
+  via: primary
+- id: wu.15.p2.h3
+  anchor: wu.15.p2
+  at: 169
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.15.p3.t1
   anchor: wu.15.p3
   at: 28
@@ -113,6 +153,14 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215
+- id: wu.15.p7.h1
+  anchor: wu.15.p7
+  at: 16
+  length: 2
+  type: person
+  person_id: xusheng
+  text: 徐盛
+  via: primary
 - id: wu.15.p7.a1
   anchor: wu.15.p7
   at: 34
@@ -131,6 +179,22 @@ annotations:
   era: 建安
   era_year: 21
   reasoning: 承前文年號「建安」推得，「二十一年」 = 建安21年 = AD 216
+- id: wu.15.p8.h1
+  anchor: wu.15.p8
+  at: 37
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.15.p9.h1
+  anchor: wu.15.p9
+  at: 6
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
 - id: wu.15.p11.t1
   anchor: wu.15.p11
   at: 43
@@ -151,12 +215,68 @@ annotations:
   length: 0
   type: pei
   text: 《会稽典录》曰：景为灭贼校尉，御众严而有恩，兵器精饰，为当时冠绝，早卒。达颇任气，多所犯迕，故虽有征战之劳，而爵位不至，然轻财贵义，胆烈过人。子质，位至虎牙将军。景子邵，别有传。
+- id: wu.15.p12.h1
+  anchor: wu.15.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.15.p12.h2
+  anchor: wu.15.p12
+  at: 16
+  length: 3
+  type: person
+  person_id: linghan
+  text: 漢靈帝
+  via: primary
+- id: wu.15.p12.h3
+  anchor: wu.15.p12
+  at: 31
+  length: 2
+  type: person
+  person_id: dongzhuo
+  text: 董卓
+  via: primary
+- id: wu.15.p12.h4
+  anchor: wu.15.p12
+  at: 58
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.15.p12.h5
+  anchor: wu.15.p12
+  at: 69
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
+- id: wu.15.p12.h6
+  anchor: wu.15.p12
+  at: 78
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wu.15.p12.a1
   anchor: wu.15.p12
   at: 172
   length: 0
   type: pei
   text: 徐众评曰：礼，子事父无私财，又不敢私施，所以避尊上也。弃命专财而以邀名，未尽父子之礼。臣松之以为子路问“闻斯行诸？”子曰“有父兄在”。琮辄散父财，诚非子道，然士类县命，忧在朝夕，权其轻重，以先人急，斯亦冯暖市义、汲黯振救之类，全谓邀名，或负其心。
+- id: wu.15.p12.h7
+  anchor: wu.15.p12
+  at: 209
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.15.p13.t1
   anchor: wu.15.p13
   at: 0
@@ -169,6 +289,62 @@ annotations:
   era: 建安
   era_year: 24
   reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
+- id: wu.15.p13.h1
+  anchor: wu.15.p13
+  at: 7
+  length: 2
+  type: person
+  person_id: liubei
+  text: 劉備
+  via: primary
+- id: wu.15.p13.h2
+  anchor: wu.15.p13
+  at: 10
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wu.15.p13.h3
+  anchor: wu.15.p13
+  at: 22
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wu.15.p13.h4
+  anchor: wu.15.p13
+  at: 28
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p13.h5
+  anchor: wu.15.p13
+  at: 32
+  length: 2
+  type: person
+  person_id: lvmeng
+  text: 呂蒙
+  via: primary
+- id: wu.15.p13.h6
+  anchor: wu.15.p13
+  at: 52
+  length: 1
+  type: person
+  person_id: guanyu
+  text: 羽
+  via: given_name
+- id: wu.15.p13.h7
+  anchor: wu.15.p13
+  at: 54
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.15.p14.t1
   anchor: wu.15.p14
   at: 0
@@ -181,6 +357,22 @@ annotations:
   era: 黃武
   era_year: 1
   reasoning: 原文「黃武元年」直接出现年号；解析為 AD 222
+- id: wu.15.p14.h1
+  anchor: wu.15.p14
+  at: 14
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p14.h2
+  anchor: wu.15.p14
+  at: 16
+  length: 2
+  type: person
+  person_id: lvfan
+  text: 呂範
+  via: primary
 - id: wu.15.p14.t2
   anchor: wu.15.p14
   at: 85
@@ -205,12 +397,52 @@ annotations:
   era: 黃武
   era_year: 7
   reasoning: 承前文年號「黃武」推得，「七年」 = 黃武7年 = AD 228
+- id: wu.15.p14.h3
+  anchor: wu.15.p14
+  at: 99
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p14.h4
+  anchor: wu.15.p14
+  at: 110
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.15.p14.h5
+  anchor: wu.15.p14
+  at: 113
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wu.15.p14.h6
+  anchor: wu.15.p14
+  at: 142
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.15.p14.a1
   anchor: wu.15.p14
   at: 158
   length: 0
   type: pei
   text: 吴录曰：琮时治富春。
+- id: wu.15.p14.h7
+  anchor: wu.15.p14
+  at: 178
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.15.p14.a2
   anchor: wu.15.p14
   at: 190
@@ -259,6 +491,30 @@ annotations:
   era: 赤烏
   era_year: 9
   reasoning: 原文「赤烏九年」直接出现年号；解析為 AD 246
+- id: wu.15.p16.h1
+  anchor: wu.15.p16
+  at: 36
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p16.h2
+  anchor: wu.15.p16
+  at: 138
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p16.h3
+  anchor: wu.15.p16
+  at: 158
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.15.p17.t1
   anchor: wu.15.p17
   at: 31
@@ -271,12 +527,68 @@ annotations:
   era: 赤烏
   era_year: 12
   reasoning: 承前文年號「赤烏」推得，「十二年」 = 赤烏12年 = AD 249
+- id: wu.15.p17.h1
+  anchor: wu.15.p17
+  at: 47
+  length: 3
+  type: person
+  person_id: zhugedan
+  text: 諸葛誕
+  via: primary
 - id: wu.15.p17.a1
   anchor: wu.15.p17
   at: 92
   length: 0
   type: pei
   text: 吴书曰：琮长子绪，幼知名，奉朝请，出授兵，稍迁扬武将军、牛渚督。孙亮即位，迁镇北将军。东关之役，绪与丁奉建议引兵先出，以破魏军，封一子亭侯，年四十四卒。次子寄，坐阿党鲁王霸赐死。小子吴，孙权外孙，封都乡侯。
+- id: wu.15.p18.h1
+  anchor: wu.15.p18
+  at: 0
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.15.p18.h2
+  anchor: wu.15.p18
+  at: 23
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.15.p18.h3
+  anchor: wu.15.p18
+  at: 38
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.15.p18.h4
+  anchor: wu.15.p18
+  at: 62
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.15.p18.h5
+  anchor: wu.15.p18
+  at: 102
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.15.p18.h6
+  anchor: wu.15.p18
+  at: 114
+  length: 2
+  type: person
+  person_id: jiangqin
+  text: 蔣欽
+  via: primary
 - id: wu.15.p18.a1
   anchor: wu.15.p18
   at: 140
@@ -295,6 +607,38 @@ annotations:
   era: 建安
   era_year: 20
   reasoning: 原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）
+- id: wu.15.p19.h1
+  anchor: wu.15.p19
+  at: 56
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p19.h2
+  anchor: wu.15.p19
+  at: 77
+  length: 2
+  type: person
+  person_id: guanyu
+  text: 關羽
+  via: primary
+- id: wu.15.p19.h3
+  anchor: wu.15.p19
+  at: 95
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p19.h4
+  anchor: wu.15.p19
+  at: 101
+  length: 2
+  type: person
+  person_id: lusu
+  text: 魯肅
+  via: primary
 - id: wu.15.p20.t1
   anchor: wu.15.p20
   at: 0
@@ -307,6 +651,54 @@ annotations:
   era: 延康
   era_year: 1
   reasoning: 原文「延康元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
+- id: wu.15.p20.h1
+  anchor: wu.15.p20
+  at: 6
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.15.p20.h2
+  anchor: wu.15.p20
+  at: 79
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p21.h1
+  anchor: wu.15.p21
+  at: 4
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: wu.15.p21.h2
+  anchor: wu.15.p21
+  at: 8
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p21.h3
+  anchor: wu.15.p21
+  at: 163
+  length: 1
+  type: person
+  person_id: liubei
+  text: 備
+  via: given_name_carry
+- id: wu.15.p21.h4
+  anchor: wu.15.p21
+  at: 339
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.15.p22.t1
   anchor: wu.15.p22
   at: 0
@@ -337,6 +729,22 @@ annotations:
   era: 嘉禾
   era_year: 3
   reasoning: 原文「嘉禾三年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）
+- id: wu.15.p22.h1
+  anchor: wu.15.p22
+  at: 44
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p22.h2
+  anchor: wu.15.p22
+  at: 48
+  length: 2
+  type: person
+  person_id: panzhang
+  text: 潘璋
+  via: primary
 - id: wu.15.p22.t3
   anchor: wu.15.p22
   at: 62
@@ -349,6 +757,110 @@ annotations:
   era: 赤烏
   era_year: 4
   reasoning: 承前文年號「赤烏」推得，「四年」 = 赤烏4年 = AD 241
+- id: wu.15.p22.h3
+  anchor: wu.15.p22
+  at: 93
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p23.h1
+  anchor: wu.15.p23
+  at: 0
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p24.h1
+  anchor: wu.15.p24
+  at: 14
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.15.p24.h2
+  anchor: wu.15.p24
+  at: 63
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p26.h1
+  anchor: wu.15.p26
+  at: 34
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p27.h1
+  anchor: wu.15.p27
+  at: 1
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.15.p27.h2
+  anchor: wu.15.p27
+  at: 5
+  length: 3
+  type: person
+  person_id: zhugeke
+  text: 諸葛恪
+  via: primary
+- id: wu.15.p27.h3
+  anchor: wu.15.p27
+  at: 9
+  length: 1
+  type: person
+  person_id: luxun
+  text: 遜
+  via: given_name
+- id: wu.15.p27.h4
+  anchor: wu.15.p27
+  at: 11
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p27.h5
+  anchor: wu.15.p27
+  at: 52
+  length: 2
+  type: person
+  person_id: sunliang
+  text: 孫亮
+  via: primary
+- id: wu.15.p27.h6
+  anchor: wu.15.p27
+  at: 89
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.15.p27.h7
+  anchor: wu.15.p27
+  at: 102
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.15.p28.h1
+  anchor: wu.15.p28
+  at: 105
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.15.p29.t1
   anchor: wu.15.p29
   at: 0
@@ -361,6 +873,102 @@ annotations:
   era: 太平
   era_year: 1
   reasoning: 原文「太平元年」直接出现年号；解析為 AD 256
+- id: wu.15.p30.h1
+  anchor: wu.15.p30
+  at: 0
+  length: 2
+  type: person
+  person_id: zhoufang
+  text: 周魴
+  via: primary
+- id: wu.15.p30.h2
+  anchor: wu.15.p30
+  at: 100
+  length: 2
+  type: person
+  person_id: huzong
+  text: 胡綜
+  via: primary
+- id: wu.15.p30.h3
+  anchor: wu.15.p30
+  at: 151
+  length: 2
+  type: person
+  person_id: caoxiu
+  text: 曹休
+  via: primary
+- id: wu.15.p33.h1
+  anchor: wu.15.p33
+  at: 244
+  length: 2
+  type: person
+  person_id: sunshao
+  text: 孫韶
+  via: primary
+- id: wu.15.p33.h2
+  anchor: wu.15.p33
+  at: 250
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary
+- id: wu.15.p33.h3
+  anchor: wu.15.p33
+  at: 253
+  length: 2
+  type: person
+  person_id: zhuhuan
+  text: 朱桓
+  via: primary
+- id: wu.15.p33.h4
+  anchor: wu.15.p33
+  at: 259
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: wu.15.p33.h5
+  anchor: wu.15.p33
+  at: 263
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.15.p33.h6
+  anchor: wu.15.p33
+  at: 266
+  length: 2
+  type: person
+  person_id: zhuran
+  text: 朱然
+  via: primary
+- id: wu.15.p33.h7
+  anchor: wu.15.p33
+  at: 275
+  length: 2
+  type: person
+  person_id: panzhang
+  text: 潘璋
+  via: primary
+- id: wu.15.p33.h8
+  anchor: wu.15.p33
+  at: 294
+  length: 2
+  type: person
+  person_id: sunhuan
+  text: 孫奐
+  via: primary
+- id: wu.15.p33.h9
+  anchor: wu.15.p33
+  at: 318
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
 - id: wu.15.p36.t1
   anchor: wu.15.p36
   at: 193
@@ -375,6 +983,14 @@ annotations:
   month_chinese: 一月
   month_ordinal: 1
   reasoning: 年承前文 太平元年 (AD 256)，月份「一月」
+- id: wu.15.p40.h1
+  anchor: wu.15.p40
+  at: 27
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
 - id: wu.15.p41.a1
   anchor: wu.15.p41
   at: 96
@@ -387,12 +1003,36 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：孙亮太平二年始立临川郡，是时未有临川。
+- id: wu.15.p41.h1
+  anchor: wu.15.p41
+  at: 115
+  length: 2
+  type: person
+  person_id: wucan
+  text: 吾粲
+  via: primary
+- id: wu.15.p41.h2
+  anchor: wu.15.p41
+  at: 172
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
 - id: wu.15.p42.a1
   anchor: wu.15.p42
   at: 40
   length: 0
   type: pei
   text: 虞预《晋书》曰：处入晋，为御史中丞，多所弹纠，不避强御。齐万年反，以处为建威将军，西征，众寡不敌，处临陈慷慨，奋不顾身，遂死於战场，追赠平西将军。处子玘、札，皆有才力，中兴之初，并见宠任。其诸子侄悉处列位，为扬土豪右，而札凶淫放恣，为百姓所苦。泰宁中，王敦诛之，灭其族。
+- id: wu.15.p43.h1
+  anchor: wu.15.p43
+  at: 0
+  length: 3
+  type: person
+  person_id: zhonglimu
+  text: 鍾離牧
+  via: primary
 - id: wu.15.p43.a1
   anchor: wu.15.p43
   at: 22
@@ -423,6 +1063,16 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
+- anchor: wu.15.p44
+  at: 9
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.92
+  reasoning: 「赤烏五年，從郎中補太子輔義都尉」— 赤烏五年立孫和為太子，故太子即孫和。
+  id: wu.15.p44.h1
 - id: wu.15.p44.a1
   anchor: wu.15.p44
   at: 22
@@ -453,3 +1103,35 @@ annotations:
   length: 0
   type: pei
   text: 会稽典录曰：牧次子盛，亦履恭让，为尚书郎。弟徇领兵为将，拜偏将军，戍西陵，与监军使者唐盛论地形势，谓宜城、信陵为建平援，若不先城，敌将先入。盛以施绩、留平，智略名将，屡经於彼，無云當城之者，不然徇计。后半年，晋果遣将脩信陵城。晋军平吴，徇领水军督，临陈战死。
+- id: wu.15.p47.h1
+  anchor: wu.15.p47
+  at: 17
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.15.p47.h2
+  anchor: wu.15.p47
+  at: 47
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.15.p47.h3
+  anchor: wu.15.p47
+  at: 54
+  length: 2
+  type: person
+  person_id: zhoufang
+  text: 周魴
+  via: primary
+- id: wu.15.p47.h4
+  anchor: wu.15.p47
+  at: 70
+  length: 2
+  type: person
+  person_id: quancong
+  text: 全琮
+  via: primary

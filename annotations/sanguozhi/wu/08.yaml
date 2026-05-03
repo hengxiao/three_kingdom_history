@@ -2,9 +2,49 @@ chapter: wu.8
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷53
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: 603a4eda0fba2011f3c6b2e258de935372aa670828d4073eeeb31d18e2007fe0
 annotations:
+- id: wu.8.p1.h1
+  anchor: wu.8.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: yanjun
+  text: 嚴畯
+  via: primary
+- id: wu.8.p1.h2
+  anchor: wu.8.p1
+  at: 4
+  length: 2
+  type: person
+  person_id: chengbing
+  text: 程秉
+  via: primary
+- id: wu.8.p1.h3
+  anchor: wu.8.p1
+  at: 6
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
+- id: wu.8.p1.h4
+  anchor: wu.8.p1
+  at: 8
+  length: 2
+  type: person
+  person_id: xuezong
+  text: 薛綜
+  via: primary
+- id: wu.8.p2.h1
+  anchor: wu.8.p2
+  at: 0
+  length: 2
+  type: person
+  person_id: zhanghong
+  text: 張紘
+  via: primary
 - id: wu.8.p2.a1
   anchor: wu.8.p2
   at: 16
@@ -17,12 +57,28 @@ annotations:
   length: 0
   type: pei
   text: 吳書曰：大將軍何進、太尉硃俊、司空荀爽三府辟為掾，皆稱疾不就。
+- id: wu.8.p2.h2
+  anchor: wu.8.p2
+  at: 37
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
 - id: wu.8.p2.a3
   anchor: wu.8.p2
   at: 54
   length: 0
   type: pei
   text: 吳書曰：纮與張昭並與參謀，常令一人居守，一人從征討，後呂布襲取徐州，因為之牧，不欲令纮與策從事。追舉茂才，移書發遣纮。纮心惡布，恥為之屈。策亦重惜纮，欲以自輔。答記不遣，曰：「海產明珠，所在為寶，楚雖有才，晉實用之。英偉君子，所遊見珍，何必本州哉？」
+- id: wu.8.p2.h3
+  anchor: wu.8.p2
+  at: 59
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name
 - id: wu.8.p3.t1
   anchor: wu.8.p3
   at: 0
@@ -35,12 +91,36 @@ annotations:
   era: 建安
   era_year: 4
   reasoning: 原文「建安四年」直接出现年号；解析為 AD 199
+- id: wu.8.p3.h1
+  anchor: wu.8.p3
+  at: 5
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
+- id: wu.8.p3.h2
+  anchor: wu.8.p3
+  at: 22
+  length: 2
+  type: person
+  person_id: kongrong
+  text: 孔融
+  via: primary
 - id: wu.8.p3.a1
   anchor: wu.8.p3
   at: 30
   length: 0
   type: pei
   text: 吳書曰：纮至，與在朝公卿及知舊述策材略絕異，平定三郡，風行草偃，加以忠敬款誠，乃心王室。時曹公為司空，欲加恩厚，以悅遠人，至乃優文褒崇，改號加封，辟纮為掾，舉高第，補侍御吏，後以纮為九江太守。纮心戀舊恩，思還反命，以疾固辭。
+- id: wu.8.p3.h3
+  anchor: wu.8.p3
+  at: 33
+  length: 1
+  type: person
+  person_id: sunce
+  text: 策
+  via: given_name_carry
 - id: wu.8.p3.a2
   anchor: wu.8.p3
   at: 115
@@ -95,24 +175,212 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》（曰）稱尚有俊才。
+- id: wu.8.p5.h1
+  anchor: wu.8.p5
+  at: 27
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
 - id: wu.8.p5.a4
   anchor: wu.8.p5
   at: 135
   length: 0
   type: pei
   text: 環氏《吳紀》曰：皓嘗問：「詩云『汎彼栢舟』，惟栢中舟乎？」尚對曰：「詩言『檜楫松舟』，則松亦中舟也。」又問：「鳥之大者惟鶴，小者惟雀乎？」尚對曰：「大者有禿鶖，小者有鷦鷯。」皓性忌勝己，而尚談論每出其表，積以致恨。後問：「孤飲酒以方誰？」尚對曰：「陛下有百觚之量。」皓云：「尚知孔丘之不王，而以孤方之！」因此發怒收尚。尚書岑昬率公卿已下百餘人，詣宮叩頭請，尚罪得減死。
+- id: wu.8.p5.h2
+  anchor: wu.8.p5
+  at: 172
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.8.p6.h1
+  anchor: wu.8.p6
+  at: 0
+  length: 2
+  type: person
+  person_id: yanjun
+  text: 嚴畯
+  via: primary
+- id: wu.8.p6.h2
+  anchor: wu.8.p6
+  at: 41
+  length: 3
+  type: person
+  person_id: zhugejin
+  text: 諸葛瑾
+  via: primary
+- id: wu.8.p6.h3
+  anchor: wu.8.p6
+  at: 45
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.8.p6.h4
+  anchor: wu.8.p6
+  at: 73
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
+- id: wu.8.p6.h5
+  anchor: wu.8.p6
+  at: 78
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.8.p6.h6
+  anchor: wu.8.p6
+  at: 81
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h7
+  anchor: wu.8.p6
+  at: 98
+  length: 2
+  type: person
+  person_id: lusu
+  text: 魯肅
+  via: primary
+- id: wu.8.p6.h8
+  anchor: wu.8.p6
+  at: 102
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h9
+  anchor: wu.8.p6
+  at: 106
+  length: 1
+  type: person
+  person_id: lusu
+  text: 肅
+  via: given_name
 - id: wu.8.p6.a1
   anchor: wu.8.p6
   at: 163
   length: 0
   type: pei
   text: 志林曰：權又試畯騎，上馬墮鞍。
+- id: wu.8.p6.h10
+  anchor: wu.8.p6
+  at: 163
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h11
+  anchor: wu.8.p6
+  at: 176
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h12
+  anchor: wu.8.p6
+  at: 198
+  length: 3
+  type: person
+  person_id: zhugeliang
+  text: 諸葛亮
+  via: primary
+- id: wu.8.p6.h13
+  anchor: wu.8.p6
+  at: 238
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h14
+  anchor: wu.8.p6
+  at: 265
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h15
+  anchor: wu.8.p6
+  at: 285
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p6.h16
+  anchor: wu.8.p6
+  at: 287
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.8.p6.a2
   anchor: wu.8.p6
   at: 311
   length: 0
   type: pei
   text: 吳書曰：晙時年七十八，二子凱、爽。凱官至昇平少府。
+- anchor: wu.8.p7
+  at: 57
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「太子登遊處」— 文中明點「登」，即孫登。
+  id: wu.8.p7.h1
+- id: wu.8.p8.h1
+  anchor: wu.8.p8
+  at: 0
+  length: 2
+  type: person
+  person_id: chengbing
+  text: 程秉
+  via: primary
+- id: wu.8.p8.h2
+  anchor: wu.8.p8
+  at: 38
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: wu.8.p8.h3
+  anchor: wu.8.p8
+  at: 45
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.8.p8
+  at: 60
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 程秉拜太子太傅，黃武初太子為孫登。
+  id: wu.8.p8.h7
 - id: wu.8.p8.t1
   anchor: wu.8.p8
   at: 65
@@ -125,12 +393,72 @@ annotations:
   era: 黃武
   era_year: 4
   reasoning: 原文「黃武四年」直接出现年号；解析為 AD 225
+- id: wu.8.p8.h4
+  anchor: wu.8.p8
+  at: 70
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.8.p8
+  at: 72
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「權為太子登娉周瑜女」— 文中明點「登」。
+  id: wu.8.p8.h8
+- id: wu.8.p8.h5
+  anchor: wu.8.p8
+  at: 76
+  length: 2
+  type: person
+  person_id: zhouyu
+  text: 周瑜
+  via: primary
+- id: wu.8.p8.h6
+  anchor: wu.8.p8
+  at: 90
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.8.p8
+  at: 160
+  length: 2
+  type: person
+  person_id: sundeng
+  text: 太子
+  via: llm
+  confidence: 0.97
+  reasoning: 「願太子尊禮教於閨房」— 對孫登進說，太子即孫登。
+  id: wu.8.p8.h9
 - id: wu.8.p9.a1
   anchor: wu.8.p9
   at: 19
   length: 0
   type: pei
   text: 吳錄曰：崇字子和，治《易》《春秋左氏傳》，兼善內術。本姓李，遭亂更姓，遂隱於會稽，躬耕以求其志。好尚者從學，所教不過數人輒止，欲令其業必有成也。所交結如丞相步騭等，咸親焉。嚴畯薦崇行足以厲俗，學足以為師。初見太子登，以疾賜不拜。東宮官僚皆從諮詢。太子數訪以異聞。年七十而卒。
+- id: wu.8.p10.h1
+  anchor: wu.8.p10
+  at: 0
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
+- id: wu.8.p10.h2
+  anchor: wu.8.p10
+  at: 82
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
 - id: wu.8.p10.t1
   anchor: wu.8.p10
   at: 120
@@ -143,6 +471,48 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242
+- anchor: wu.8.p10
+  at: 126
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.95
+  reasoning: 「赤烏五年，拜太子太傅」— 即孫和為太子。
+  id: wu.8.p10.h8
+- id: wu.8.p10.h3
+  anchor: wu.8.p10
+  at: 264
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p10.h4
+  anchor: wu.8.p10
+  at: 301
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p10.h5
+  anchor: wu.8.p10
+  at: 339
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p10.h6
+  anchor: wu.8.p10
+  at: 361
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
 - id: wu.8.p10.a1
   anchor: wu.8.p10
   at: 409
@@ -161,6 +531,46 @@ annotations:
   era: 赤烏
   era_year: 6
   reasoning: 承前文年號「赤烏」推得，「六年」 = 赤烏6年 = AD 243
+- id: wu.8.p10.h7
+  anchor: wu.8.p10
+  at: 414
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name
+- id: wu.8.p11.h1
+  anchor: wu.8.p11
+  at: 43
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.8.p11.h2
+  anchor: wu.8.p11
+  at: 54
+  length: 2
+  type: person
+  person_id: luxun
+  text: 陸遜
+  via: primary
+- id: wu.8.p11.h3
+  anchor: wu.8.p11
+  at: 57
+  length: 2
+  type: person
+  person_id: zhangwen
+  text: 張溫
+  via: primary
+- id: wu.8.p11.h4
+  anchor: wu.8.p11
+  at: 60
+  length: 2
+  type: person
+  person_id: luotong
+  text: 駱統
+  via: primary
 - id: wu.8.p11.t1
   anchor: wu.8.p11
   at: 67
@@ -179,12 +589,60 @@ annotations:
   length: 0
   type: pei
   text: 吳錄曰：固字子正，卒時年七十餘矣。
+- id: wu.8.p12.h1
+  anchor: wu.8.p12
+  at: 0
+  length: 2
+  type: person
+  person_id: xuezong
+  text: 薛綜
+  via: primary
 - id: wu.8.p12.a1
   anchor: wu.8.p12
   at: 13
   length: 0
   type: pei
   text: 吳錄曰：其先齊孟嘗君封於薛。秦滅六國，而失其祀，子孫分散。漢祖定天下，過齊，求孟嘗後，得其孫陵、國二人，欲復其封。陵、國兄弟相推，莫適受，乃去之竹邑，因家焉，故遂氏薛。自國至綜，世典州郡，為著姓。綜少明經，善屬文，有秀才。
+- id: wu.8.p12.h2
+  anchor: wu.8.p12
+  at: 27
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: wu.8.p12.h3
+  anchor: wu.8.p12
+  at: 31
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wu.8.p13.h1
+  anchor: wu.8.p13
+  at: 8
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.8.p13.h2
+  anchor: wu.8.p13
+  at: 46
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.8.p13.h3
+  anchor: wu.8.p13
+  at: 51
+  length: 2
+  type: person
+  person_id: kanze
+  text: 闞澤
+  via: primary
 - id: wu.8.p13.a1
   anchor: wu.8.p13
   at: 101
@@ -197,6 +655,14 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：費禕聘於吳，陛見，公卿待臣皆在坐。酒酣，禕與諸葛恪相對嘲難，言及吳、蜀。禕問曰：「蜀字云何？」恪曰：「有水者濁，無水者蜀。橫目苟身，蟲入其腹。」禕復問：「吳字云何？」恪曰：「無口者天，有口者吴，下臨滄海，天子帝都。」與本傳不同。
+- id: wu.8.p13.h4
+  anchor: wu.8.p13
+  at: 165
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
 - id: wu.8.p14.t1
   anchor: wu.8.p14
   at: 244
@@ -211,6 +677,62 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 赤烏6年 (AD 243)，月份「八月」
+- id: wu.8.p15.h1
+  anchor: wu.8.p15
+  at: 221
+  length: 2
+  type: person
+  person_id: huanggai
+  text: 黃蓋
+  via: primary
+- id: wu.8.p15.h2
+  anchor: wu.8.p15
+  at: 323
+  length: 2
+  type: person
+  person_id: shixie
+  text: 士燮
+  via: primary
+- id: wu.8.p15.h3
+  anchor: wu.8.p15
+  at: 414
+  length: 2
+  type: person
+  person_id: liubiao
+  text: 劉表
+  via: primary
+- id: wu.8.p16.h1
+  anchor: wu.8.p16
+  at: 37
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
+- id: wu.8.p16.h2
+  anchor: wu.8.p16
+  at: 77
+  length: 2
+  type: person
+  person_id: buzhi
+  text: 步騭
+  via: primary
+- id: wu.8.p16.h3
+  anchor: wu.8.p16
+  at: 111
+  length: 2
+  type: person
+  person_id: lvdai
+  text: 呂岱
+  via: primary
+- id: wu.8.p16.h4
+  anchor: wu.8.p16
+  at: 180
+  length: 1
+  type: person
+  person_id: liubiao
+  text: 表
+  via: given_name_carry
 - id: wu.8.p17.t1
   anchor: wu.8.p17
   at: 0
@@ -223,6 +745,32 @@ annotations:
   era: 黃龍
   era_year: 3
   reasoning: 原文「黃龍三年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）
+- id: wu.8.p17.h1
+  anchor: wu.8.p17
+  at: 61
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- anchor: wu.8.p18
+  at: 482
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 陛下
+  via: llm
+  confidence: 0.93
+  reasoning: 薛綜諫征遼東疏（嘉禾元年/二年），對孫權「惟陛下抑雷霆之威」。
+  id: wu.8.p18.h1
+- id: wu.8.p19.h1
+  anchor: wu.8.p19
+  at: 6
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.8.p20.t1
   anchor: wu.8.p20
   at: 0
@@ -237,6 +785,22 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 赤烏6年 (AD 243)，月份「正月」
+- id: wu.8.p20.h1
+  anchor: wu.8.p20
+  at: 5
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
+- id: wu.8.p20.h2
+  anchor: wu.8.p20
+  at: 30
+  length: 1
+  type: person
+  person_id: sunquan
+  text: 權
+  via: given_name_carry
 - id: wu.8.p20.t2
   anchor: wu.8.p20
   at: 60
@@ -261,6 +825,16 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 承前文年號「赤烏」推得，「五年」 = 赤烏5年 = AD 242
+- anchor: wu.8.p20
+  at: 75
+  length: 2
+  type: person
+  person_id: sunhe
+  text: 太子
+  via: llm
+  confidence: 0.92
+  reasoning: 「赤烏五年，為太子少傅」— 即孫和為太子，薛綜為少傅。
+  id: wu.8.p20.h3
 - id: wu.8.p20.a1
   anchor: wu.8.p20
   at: 86
@@ -285,6 +859,32 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：孫休時，珝為五宮中郎將，遣至蜀求馬。及還，休問蜀政得失，對曰：「主闇而不知其過，臣下容身以求免罪，入其朝不聞正言，經其野民皆菜色。臣聞燕雀處堂，子母相樂，自以為安也，突決棟焚，而燕雀怡然不知禍之將及，其是之謂乎！」
+- id: wu.8.p22.h1
+  anchor: wu.8.p22
+  at: 16
+  length: 2
+  type: person
+  person_id: sunxiu
+  text: 孫休
+  via: primary
+- id: wu.8.p22.h2
+  anchor: wu.8.p22
+  at: 36
+  length: 2
+  type: person
+  person_id: sunhao_2
+  text: 孫皓
+  via: primary
+- anchor: wu.8.p22
+  at: 53
+  length: 2
+  type: person
+  person_id: sunjin
+  text: 太子
+  via: llm
+  confidence: 0.7
+  reasoning: 孫皓建衡元年立太子瑾，「立太子」即孫瑾；roster 無孫瑾，置 null。
+  id: wu.8.p22.h3
 - id: wu.8.p22.t1
   anchor: wu.8.p22
   at: 61
@@ -309,6 +909,46 @@ annotations:
   era: 建衡
   era_year: 3
   reasoning: 「是歲」 = 当前年 建衡3年 (AD 271)
+- id: wu.8.p24.h1
+  anchor: wu.8.p24
+  at: 65
+  length: 2
+  type: person
+  person_id: huahe
+  text: 華覈
+  via: primary
+- id: wu.8.p25.h1
+  anchor: wu.8.p25
+  at: 57
+  length: 3
+  type: person
+  person_id: sunquan
+  text: 大皇帝
+  via: chapter_alias
+- id: wu.8.p25.h2
+  anchor: wu.8.p25
+  at: 100
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: wu.8.p25.h3
+  anchor: wu.8.p25
+  at: 106
+  length: 2
+  type: person
+  person_id: weiyao
+  text: 韋曜
+  via: primary
+- id: wu.8.p25.h4
+  anchor: wu.8.p25
+  at: 202
+  length: 3
+  type: person
+  person_id: sunquan
+  text: 大皇帝
+  via: chapter_alias
 - id: wu.8.p27.t1
   anchor: wu.8.p27
   at: 0
@@ -333,3 +973,35 @@ annotations:
   length: 0
   type: pei
   text: 王隱《晉書》曰：瑩子兼，字令長，清素有器宇，資望故如上國，不似吳人。歷位二宮丞相長史。元帝踐阼，累遷丹楊尹、尚書，又為太子少傅。自綜至兼，三世傅東宮。
+- id: wu.8.p28.h1
+  anchor: wu.8.p28
+  at: 3
+  length: 2
+  type: person
+  person_id: zhanghong
+  text: 張紘
+  via: primary
+- id: wu.8.p28.h2
+  anchor: wu.8.p28
+  at: 15
+  length: 2
+  type: person
+  person_id: sunce
+  text: 孫策
+  via: primary
+- id: wu.8.p28.h3
+  anchor: wu.8.p28
+  at: 21
+  length: 2
+  type: person
+  person_id: zhangzhao
+  text: 張昭
+  via: primary
+- id: wu.8.p28.h4
+  anchor: wu.8.p28
+  at: 55
+  length: 2
+  type: person
+  person_id: xuezong
+  text: 薛綜
+  via: primary

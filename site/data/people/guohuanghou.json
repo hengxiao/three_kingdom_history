@@ -1,0 +1,73 @@
+{
+  "id": "guohuanghou",
+  "primary_name": "郭皇后",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "郭氏"
+  ],
+  "other_names": [],
+  "birth_ad": 184,
+  "death_ad": 235,
+  "brief": "曹丕皇后，魏文德郭皇后",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.5",
+      "title": "魏書·后妃傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/05.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.2",
+        "chapter_title": "魏書·文帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.2.p26",
+        "at": 79,
+        "data_url": "data/sanguozhi/wei/02.json",
+        "matched": "皇后",
+        "snippet": "…爵；以此詔傳後世，若有背違，天下共誅之。」庚子，立皇后郭氏。賜天下男子爵人二級；鰥寡篤癃及貧不能自存者賜穀。"
+      },
+      {
+        "chapter_id": "wei.2",
+        "chapter_title": "魏書·文帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.2.p27",
+        "at": 491,
+        "data_url": "data/sanguozhi/wei/02.json",
+        "matched": "皇后",
+        "snippet": "…哉！禍由乎厚葬封樹。『桑、霍爲我戒』，不亦明乎？其皇后及貴人以下，不隨王之國者，有終沒皆葬澗西，前又以表其處矣。蓋舜葬蒼梧，二妃不從，延陵葬子，遠在嬴、博，魂而有靈，無不之也，一澗…"
+      },
+      {
+        "chapter_id": "wei.25",
+        "chapter_title": "魏書·辛毗楊阜高堂隆傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.25.p49",
+        "at": 149,
+        "data_url": "data/sanguozhi/wei/25.json",
+        "matched": "皇后",
+        "snippet": "…太子不恱，然自後游出差簡。黃初中，文帝將立郭貴嬪爲皇后，潛上疏諫，語在。明帝時，衆役並興，戚屬疏斥，潛上疏曰："
+      },
+      {
+        "chapter_id": "wei.3",
+        "chapter_title": "魏書·明帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.3.p1",
+        "at": 102,
+        "data_url": "data/sanguozhi/wei/03.json",
+        "matched": "皇后",
+        "snippet": "…皇太子。丁巳，即皇帝位，大赦。尊皇太后曰太皇太后，皇后曰皇太后。諸臣封爵各有差。癸未，追謚母甄夫人曰文昭皇后。壬辰，立皇弟蕤爲陽平王。"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 4
+}

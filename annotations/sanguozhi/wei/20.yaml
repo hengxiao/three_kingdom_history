@@ -2,9 +2,91 @@ chapter: wei.20
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/三國志/卷20
-  retrieved: '2026-05-01'
+  retrieved: '2026-05-03'
   sha256: e67444a1ea00fd830519c4883c108fe4cb2b2cf853b63a1927be33b823006d20
 annotations:
+- id: wei.20.p1.h1
+  anchor: wei.20.p1
+  at: 0
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.20.p1.h2
+  anchor: wei.20.p1
+  at: 20
+  length: 3
+  type: person
+  person_id: caoyu
+  text: 燕王宇
+  via: alias
+- id: wei.20.p1.h3
+  anchor: wei.20.p1
+  at: 56
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
+- id: wei.20.p1.h4
+  anchor: wei.20.p1
+  at: 99
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.20.p2.h1
+  anchor: wei.20.p2
+  at: 0
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- anchor: wei.20.p2
+  at: 9
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「卞皇后生文皇帝、任城威王彰、陳思王植……」卞皇后即曹操妻、文帝母，roster未列。
+  id: wei.20.p2.h5
+- id: wei.20.p2.h2
+  anchor: wei.20.p2
+  at: 12
+  length: 3
+  type: person
+  person_id: caopi
+  text: 文皇帝
+  via: chapter_alias
+- id: wei.20.p2.h3
+  anchor: wei.20.p2
+  at: 60
+  length: 3
+  type: person
+  person_id: caoyu
+  text: 燕王宇
+  via: alias
+- id: wei.20.p2.h4
+  anchor: wei.20.p2
+  at: 123
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
+- id: wei.20.p3.h1
+  anchor: wei.20.p3
+  at: 15
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.20.p3.t1
   anchor: wei.20.p3
   at: 29
@@ -125,12 +207,76 @@ annotations:
   era: 正元
   era_year: 2
   reasoning: 原文「正元二年」直接出现年号；解析為 AD 255
+- id: wei.20.p5.h1
+  anchor: wei.20.p5
+  at: 32
+  length: 2
+  type: person
+  person_id: sunquan
+  text: 孫權
+  via: primary
+- id: wei.20.p5.h2
+  anchor: wei.20.p5
+  at: 39
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h3
+  anchor: wei.20.p5
+  at: 91
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h4
+  anchor: wei.20.p5
+  at: 112
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h5
+  anchor: wei.20.p5
+  at: 183
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h6
+  anchor: wei.20.p5
+  at: 219
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h7
+  anchor: wei.20.p5
+  at: 244
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.20.p5.a1
   anchor: wei.20.p5
   at: 305
   length: 0
   type: pei
   text: 《魏書》曰：沖毎見當刑者，輒探睹其冤枉之情而微理之。及勤勞之吏，以過誤觸罪，常爲太祖陳説，宜寛宥之。辨察仁愛，與性倶生，容貌姿美，有殊於衆，故特見寵異。臣松之以「容貌姿美」一類之言，而分以爲三，亦敍屬之一病也。
+- id: wei.20.p5.h8
+  anchor: wei.20.p5
+  at: 305
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.20.p5.t1
   anchor: wei.20.p5
   at: 324
@@ -143,6 +289,38 @@ annotations:
   era: 建安
   era_year: 13
   reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208（回溯前事，不推進章節時間軸）
+- id: wei.20.p5.h9
+  anchor: wei.20.p5
+  at: 332
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h10
+  anchor: wei.20.p5
+  at: 345
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.20.p5.h11
+  anchor: wei.20.p5
+  at: 349
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p5.h12
+  anchor: wei.20.p5
+  at: 352
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.20.p5.a2
   anchor: wei.20.p5
   at: 371
@@ -275,6 +453,14 @@ annotations:
   era: 正元
   era_year: 3
   reasoning: 「其年」 = 当前年 正元3年 (AD 256)
+- id: wei.20.p7.h1
+  anchor: wei.20.p7
+  at: 50
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.20.p7.t5
   anchor: wei.20.p7
   at: 146
@@ -317,6 +503,14 @@ annotations:
   era: 正元
   era_year: 3
   reasoning: 承前文年號「正元」推得，「三年」 = 正元3年 = AD 256
+- id: wei.20.p8.h1
+  anchor: wei.20.p8
+  at: 0
+  length: 3
+  type: person
+  person_id: caoyu
+  text: 燕王宇
+  via: alias
 - id: wei.20.p8.t1
   anchor: wei.20.p8
   at: 7
@@ -365,6 +559,14 @@ annotations:
   era: 太和
   era_year: 6
   reasoning: 原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
+- id: wei.20.p8.h2
+  anchor: wei.20.p8
+  at: 66
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.20.p8.t5
   anchor: wei.20.p8
   at: 99
@@ -403,6 +605,14 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 年承前文 正元2年 (AD 255)，月份「冬十二月」
+- id: wei.20.p8.h3
+  anchor: wei.20.p8
+  at: 122
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.20.p8.t8
   anchor: wei.20.p8
   at: 159
@@ -583,6 +793,14 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211（回溯前事，不推進章節時間軸）
+- id: wei.20.p12.h1
+  anchor: wei.20.p12
+  at: 43
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.20.p12.t2
   anchor: wei.20.p12
   at: 54
@@ -793,6 +1011,46 @@ annotations:
   era: 太和
   era_year: 6
   reasoning: 原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
+- id: wei.20.p15.h1
+  anchor: wei.20.p15
+  at: 87
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p15.h2
+  anchor: wei.20.p15
+  at: 91
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.20.p15.h3
+  anchor: wei.20.p15
+  at: 101
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.20.p15.h4
+  anchor: wei.20.p15
+  at: 112
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
+- id: wei.20.p16.h1
+  anchor: wei.20.p16
+  at: 26
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
 - id: wei.20.p18.t1
   anchor: wei.20.p18
   at: 10
@@ -805,6 +1063,14 @@ annotations:
   era: 太和
   era_year: 5
   reasoning: 原文「太和五年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）
+- id: wei.20.p19.h1
+  anchor: wei.20.p19
+  at: 0
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
 - id: wei.20.p19.t1
   anchor: wei.20.p19
   at: 7
@@ -913,6 +1179,14 @@ annotations:
   era: 嘉平
   era_year: 1
   reasoning: 原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）
+- id: wei.20.p19.h2
+  anchor: wei.20.p19
+  at: 156
+  length: 2
+  type: person
+  person_id: wangling
+  text: 王凌
+  via: primary
 - id: wei.20.p19.a1
   anchor: wei.20.p19
   at: 232
@@ -931,6 +1205,14 @@ annotations:
   era: 正元
   era_year: 1
   reasoning: 原文「正元元年」直接出现年号；解析為 AD 254（回溯前事，不推進章節時間軸）
+- id: wei.20.p20.h1
+  anchor: wei.20.p20
+  at: 9
+  length: 3
+  type: person
+  person_id: caobiao_chuwang
+  text: 楚王彪
+  via: alias
 - id: wei.20.p20.t2
   anchor: wei.20.p20
   at: 59
@@ -1255,6 +1537,22 @@ annotations:
   era: 黃初
   era_year: 3
   reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
+- id: wei.20.p28.h1
+  anchor: wei.20.p28
+  at: 59
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p28.h2
+  anchor: wei.20.p28
+  at: 63
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
 - id: wei.20.p28.t3
   anchor: wei.20.p28
   at: 72
@@ -1303,6 +1601,32 @@ annotations:
   era: 景元
   era_year: 5
   reasoning: 承前文年號「景元」推得，「五年」 = 景元5年 = AD 264
+- id: wei.20.p31.h1
+  anchor: wei.20.p31
+  at: 0
+  length: 3
+  type: person
+  person_id: caopi
+  text: 文皇帝
+  via: chapter_alias
+- anchor: wei.20.p31
+  at: 8
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 皇后
+  via: llm
+  confidence: 0.95
+  reasoning: 「甄氏皇后生明帝」即文帝皇后、文昭甄皇后，roster未列。
+  id: wei.20.p31.h3
+- id: wei.20.p31.h2
+  anchor: wei.20.p31
+  at: 11
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.20.p32.t1
   anchor: wei.20.p32
   at: 8
@@ -1363,6 +1687,14 @@ annotations:
   era: 黃初
   era_year: 7
   reasoning: 原文「黃初七年」直接出现年号；解析為 AD 226（回溯前事，不推進章節時間軸）
+- id: wei.20.p33.h1
+  anchor: wei.20.p33
+  at: 11
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.20.p33.t2
   anchor: wei.20.p33
   at: 23
@@ -1447,6 +1779,14 @@ annotations:
   era: 黃初
   era_year: 3
   reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
+- id: wei.20.p35.h1
+  anchor: wei.20.p35
+  at: 25
+  length: 2
+  type: person
+  person_id: caorui
+  text: 明帝
+  via: chapter_alias
 - id: wei.20.p35.t2
   anchor: wei.20.p35
   at: 65
@@ -1633,3 +1973,59 @@ annotations:
   length: 0
   type: pei
   text: 《袁子》曰：魏興，承大亂之後，民人損減，不可則以古始。於是封建侯王，皆使寄地，空名而無其實。王國使有老兵百餘人，以衞其國。雖有王侯之號，而乃儕爲匹夫。縣隔千里之外，無朝聘之儀，鄰國無會同之制。諸侯遊獵不得過三十里，又爲設防輔監國之官以伺察之。王侯皆思爲布衣而不能得。旣違宗國籓屛之義，又虧親戚骨肉之恩。
+- id: wei.20.p45.h1
+  anchor: wei.20.p45
+  at: 259
+  length: 2
+  type: person
+  person_id: caopi
+  text: 文帝
+  via: chapter_alias
+- id: wei.20.p45.h2
+  anchor: wei.20.p45
+  at: 360
+  length: 2
+  type: person
+  person_id: caocao
+  text: 武帝
+  via: chapter_alias
+- id: wei.20.p46.h1
+  anchor: wei.20.p46
+  at: 84
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- id: wei.20.p47.h1
+  anchor: wei.20.p47
+  at: 1
+  length: 2
+  type: person
+  person_id: caocao
+  text: 太祖
+  via: chapter_alias
+- id: wei.20.p47.h2
+  anchor: wei.20.p47
+  at: 3
+  length: 3
+  type: person
+  person_id: caocao
+  text: 武皇帝
+  via: chapter_alias
+- id: wei.20.p48.h1
+  anchor: wei.20.p48
+  at: 11
+  length: 2
+  type: person
+  person_id: liubian
+  text: 少帝
+  via: alias
+- id: wei.20.p48.h2
+  anchor: wei.20.p48
+  at: 31
+  length: 2
+  type: person
+  person_id: caoshuang
+  text: 曹爽
+  via: primary

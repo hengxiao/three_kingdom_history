@@ -1,0 +1,83 @@
+{
+  "id": "donghe",
+  "primary_name": "董和",
+  "courtesy_name": "幼宰",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.9",
+      "title": "蜀書·董劉馬陳董呂傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/09.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p10",
+        "at": 2,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "董和",
+        "snippet": "初，董和在郡，清儉公直，為民夷所愛信，蜀中推為循吏，故備舉而用之。備之自新野奔江南也，荊楚群士從之如雲，而劉巴獨北詣魏公操。操闢為掾，…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p9",
+        "at": 57,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "董和",
+        "snippet": "…益州牧，以軍師中郎將諸葛亮為軍師將軍，益州太守南郡董和為掌軍中郎將，並置左將軍府事，偏將軍馬超為平西將軍，軍議校尉法正為蜀郡太守、揚武將軍，裨將軍南陽黃忠為討虜將軍，從事中郎麋竺為…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.13",
+        "chapter_title": "蜀書·黃李呂馬王張傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.13.p4",
+        "at": 41,
+        "data_url": "data/sanguozhi/shu/13.json",
+        "matched": "董和",
+        "snippet": "…郵，姑夫爨習為建伶令，有違犯之事，恢坐習免官。太守董和以習方土大姓，寢而不許。後貢恢於州，涉道末至，聞先主自葭萌還攻劉璋。恢知璋之必敗，先主必成也，乃託名郡使，北詣先主，遇於綿竹。…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p16",
+        "at": 99,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "董和",
+        "snippet": "…關羽、張飛、馬超為爪牙，許靖、麋竺、簡雍為賓友。及董和、黃權、李嚴等本璋之所授用也，吳壹、費觀等又璋之婚親也，彭羕又璋之所排擯也，劉巴者宿昔之所忌恨也，皆處之顯任，盡其器能。有誌之…"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p13",
+        "at": 27,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "董和",
+        "snippet": "…年五月，權征皖城。閏月，克之。獲廬江太守朱光及參軍董和，男女數萬口。是歳劉備定蜀。權以備已得益州，令諸葛瑾從求荊州諸郡。備不許，曰：「吾方圖涼州，涼州定，乃盡以荊州與吳耳。」權曰：…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 5
+}

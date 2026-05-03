@@ -11,20 +11,174 @@
   "source": {
     "id": "wikisource",
     "url": "https://zh.wikisource.org/wiki/三國志/卷41",
-    "retrieved": "2026-05-01"
+    "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 19,
+  "n_segments": 18,
   "segments": [
     {
       "id": "shu.11.p1",
       "text": "霍峻字仲邈，南郡枝江人也。兄篤於鄉里合部曲數百人，篤卒，荊州牧劉表令峻攝其眾。表卒，峻率眾歸先主，先主以峻為中郎將。先主自葭萌南還襲劉璋，留峻守葭萌城。張魯遣將楊帛誘峻，求共守城，峻曰：「小人頭可得，城不可得。」帛乃退去。後璋將扶禁、向存等帥萬餘人由閬水上，攻圍攻峻，且一年，不能下。峻城中兵才數百人，伺其怠隙，選精銳出擊，大破之，即斬存首。先主定蜀，嘉峻之功，乃分廣漢為梓潼郡，以峻為梓潼太守、裨將軍。在官三年，年四十卒，還葬成都。先主甚悼惜，乃詔諸葛亮曰：「峻既佳士，加有功於國，欲行爵。」遂親率群僚臨會弔祭，因留宿墓上，當時榮之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p1.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "霍峻",
+          "person_id": "huojun",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p1.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p1.h3",
+          "type": "person",
+          "at": 39,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p1.h4",
+          "type": "person",
+          "at": 46,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p1.h5",
+          "type": "person",
+          "at": 49,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p1.h6",
+          "type": "person",
+          "at": 58,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p1.h7",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p1.h8",
+          "type": "person",
+          "at": 171,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p1.h9",
+          "type": "person",
+          "at": 217,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p1.h10",
+          "type": "person",
+          "at": 225,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "shu.11.p2",
       "text": "子弋，字紹先，先主末年為太子舍人。後主踐阼，除謁者。丞相諸葛亮北駐漢中，請為記室，使與子喬共周旋游處。亮卒，為黃門侍郎。後主立太子璿，以弋為中庶子，璿好騎射，出入無度，弋援引古義，盡言規諫，甚得切磋之體。後為參軍庲降屯副貳都督，又轉護軍，統事如前。時永昌郡夷獠恃險不賓，數為寇害，乃以弋領永昌太守，率偏軍討之，遂斬其豪帥，破壞邑落，郡界寧靜。遷監軍、翊軍將軍，領建寧太守，還統南郡事。景耀六年，進號安南將軍。是歲，蜀並於魏，弋與巴東領軍襄陽羅憲各保全一方，舉以內附，咸因仍前任，寵待有加。",
       "annotations": [
+        {
+          "id": "shu.11.p2.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p2.h6",
+          "type": "person",
+          "at": 12,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liushan",
+          "via": "llm"
+        },
+        {
+          "id": "shu.11.p2.h2",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p2.h3",
+          "type": "person",
+          "at": 28,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p2.h4",
+          "type": "person",
+          "at": 51,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p2.h5",
+          "type": "person",
+          "at": 60,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p2.h7",
+          "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
+        },
         {
           "id": "shu.11.p2.t1",
           "type": "temporal",
@@ -65,6 +219,51 @@
       "text": "王連字文儀，南陽人也。劉璋時入蜀為梓潼令。先主起事葭萌，進軍來南，連閉城不降，先主義之，不強逼也。及成都既平，以連為什邡令，轉在廣都，所居有績。遷司鹽校尉，較鹽鐵之利，利入甚多，有裨國用，於是簡取良才以為官屬，若呂乂、杜祺、劉干，終皆至大官，自連所拔也。遷蜀郡太守、興業將軍，領鹽府如故。建興元年，拜屯騎校尉，領丞相長史，封平陽亭侯。時南方諸郡不賓，諸葛亮將自征之，連諫以為「此不毛之地，疫癘之鄉，不宜以一國之望，冒險而行」。亮慮諸將才不及己，意欲必往而連言輒懇至，故停留者久之。會連卒。子山嗣，官至江陽太守。",
       "annotations": [
         {
+          "id": "shu.11.p3.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "王連",
+          "person_id": "wanglian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p3.h2",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p3.h3",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p3.h4",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p3.h5",
+          "type": "person",
+          "at": 106,
+          "length": 2,
+          "text": "呂乂",
+          "person_id": "lvyi",
+          "via": "primary"
+        },
+        {
           "id": "shu.11.p3.t1",
           "type": "temporal",
           "at": 144,
@@ -76,6 +275,24 @@
           "era": "建興",
           "era_year": 1,
           "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.11.p3.h6",
+          "type": "person",
+          "at": 175,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p3.h7",
+          "type": "person",
+          "at": 213,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
         }
       ]
     },
@@ -84,11 +301,65 @@
       "text": "向朗字巨達，襄陽宜城人也。荊州牧劉表以為臨沮長。表卒，歸先主。先主定江南，使朗督秭歸、夷道、巫（山）、夷陵四縣軍民事。蜀既平，以朗為巴西太守，頃之轉任，又徙房陵。后主践阼，为步兵校尉，代王连领丞相长史。丞相亮南征，朗留统后事。五年，隨亮漢中。朗素與馬謖善，謖逃亡，朗知情不舉，亮恨之，免官還成都。數年，為光祿勳，亮卒後徒左將軍，追論舊功，封顯明亭侯，位特進。初，朗少時雖涉獵文學，然不治素檢，以吏能稱。自去長史，優遊無事垂三十年，乃更潛心典籍，孜孜不倦。年逾八十，猶手自校書，刊定謬誤，積聚篇卷，於時最多。開門接賓，誘納後進，但講論古義，不干時事，以是見稱。上自執政，下及童冠，皆敬重焉。延熙十年卒。子條嗣，景耀中為御史中丞。",
       "annotations": [
         {
+          "id": "shu.11.p4.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "向朗",
+          "person_id": "xianglang",
+          "via": "primary"
+        },
+        {
           "id": "shu.11.p4.a1",
           "type": "pei",
           "at": 13,
           "length": 0,
           "text": "《襄阳记》曰：朗少师事司马德操，与徐元直、韩德高、庞士元皆亲善。"
+        },
+        {
+          "id": "shu.11.p4.h2",
+          "type": "person",
+          "at": 16,
+          "length": 2,
+          "text": "劉表",
+          "person_id": "liubiao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p4.h3",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p4.h4",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p4.h5",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p4.h6",
+          "type": "person",
+          "at": 103,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         },
         {
           "id": "shu.11.p4.t1",
@@ -102,6 +373,33 @@
           "era": "景耀",
           "era_year": 5,
           "reasoning": "承前文年號「景耀」推得，「五年」 = 景耀5年 = AD 262"
+        },
+        {
+          "id": "shu.11.p4.h7",
+          "type": "person",
+          "at": 117,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p4.h8",
+          "type": "person",
+          "at": 138,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p4.h9",
+          "type": "person",
+          "at": 156,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         },
         {
           "id": "shu.11.p4.a2",
@@ -144,6 +442,15 @@
       "text": "朗兄子寵，先主時為牙門將。秭歸之敗，寵營特完。建興元年封都亭侯，後為中部督，典宿衛兵。諸葛亮當北行，表與後主曰：「將軍向寵，性行淑均，曉暢軍事，試用於昔，先帝稱之曰能，是以眾論舉寵為督。愚以為營中之事，悉以咨之，必能使行陳和睦，優劣得所也。」遷中領軍。延熙三年，征漢嘉蠻夷，遇害。寵弟充，歷射聲校尉、尚書。",
       "annotations": [
         {
+          "id": "shu.11.p5.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
           "id": "shu.11.p5.t1",
           "type": "temporal",
           "at": 23,
@@ -155,6 +462,33 @@
           "era": "建興",
           "era_year": 1,
           "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.11.p5.h2",
+          "type": "person",
+          "at": 43,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p5.h3",
+          "type": "person",
+          "at": 50,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p5.h4",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
         },
         {
           "id": "shu.11.p5.t2",
@@ -181,17 +515,208 @@
     {
       "id": "shu.11.p6",
       "text": "張裔字君嗣，蜀郡成都人也。治《公羊春秋》，博涉《史》、《漢》。汝南許文休入蜀，謂裔干裡敏捷，是中夏鍾元常之倫也。劉璋時，舉孝廉，為魚復長，還州署從事，領帳下司馬。張飛自荊州由墊江入，璋授裔兵，拒張飛於德陽陌下，軍敗，還成都。為璋奉使詣先主，先主許以禮其君而安其人也，裔還，城門乃開。先主以裔巴郡太守，還為司金中郎將，典作農戰之器。先是，益州郡殺太守正昂，耆率雍闓恩信著於南土，使命周旋，遠通孫權。乃以裔為益州太守，逕往至郡。闓遂趑趄不賓，假鬼教曰：「張府君如瓠壺，外雖澤而內實粗，不足殺，令縛與吳。」於是遂送裔於權。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p6.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "張裔",
+          "person_id": "zhangyi_2",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p6.h2",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p6.h3",
+          "type": "person",
+          "at": 81,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p6.h4",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "張飛",
+          "person_id": "zhangfei",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p6.h5",
+          "type": "person",
+          "at": 117,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p6.h6",
+          "type": "person",
+          "at": 120,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p6.h7",
+          "type": "person",
+          "at": 141,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p6.h8",
+          "type": "person",
+          "at": 195,
+          "length": 2,
+          "text": "孫權",
+          "person_id": "sunquan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p6.h9",
+          "type": "person",
+          "at": 256,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "shu.11.p7",
       "text": "會先主薨，諸葛亮遣鄧芝使吳，亮令芝言次可從權請裔。裔自至吳數年，流徒伏匿，權未之知也，故許芝遣裔。裔臨發，權乃引見。問裔曰：「蜀卓氏寡女，亡奔司馬相如，貴土風俗何以乃爾乎？」裔對曰：「愚以為卓氏之寡女，猶賢於買臣之妻。」權又謂裔曰：「君還，必用事西朝，終不作田父子閭裡也，將何以報我？」裔對曰：「裔負罪而歸，將委命有司。若蒙僥倖得全首領，五十八已前父母之年也，自此已後大王之賜也。」權言笑歡悅，有器裔之色。裔出閣，深悔不能陽愚，即便就船，倍道兼行。權果追之，裔已入永安界數十里，追者不能及。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p7.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p7.h2",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p7.h3",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "鄧芝",
+          "person_id": "dengzhi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p7.h4",
+          "type": "person",
+          "at": 14,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p7.h5",
+          "type": "person",
+          "at": 21,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p7.h6",
+          "type": "person",
+          "at": 37,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p7.h7",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p7.h8",
+          "type": "person",
+          "at": 110,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p7.h9",
+          "type": "person",
+          "at": 191,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p7.h10",
+          "type": "person",
+          "at": 224,
+          "length": 1,
+          "text": "權",
+          "person_id": "sunquan",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "shu.11.p8",
       "text": "既至蜀，丞相亮以為參軍，署府事，又領益州治中從事。亮出駐漢中，裔以射聲校尉領留府長史，常稱曰：「公賞不遺遠，罰不阿近，爵不可以無功取，刑不可以貴勢免，此賢愚之所以僉忘其身者也。」其明年，北詣亮諮事，送者數百，車乘盈路，裔還書與所親曰：「近者涉道，晝夜接客，不得寧息，人自敬丞相長史，男子張君嗣附之，疲倦欲死。」其談啁流速，皆此類也。少與犍為楊恭友善，恭早死，遺孤未數歲，裔迎留，與分屋而居，事恭母如母。恭之子息長大，為之娶婦，買田宅產業，使立門戶。撫恤故舊，振贍衰宗，行義甚至。加輔漢將軍，領長史如故。建興八年卒。子毣嗣，歷三郡守、監軍。毣郁，太子中庶子。",
       "annotations": [
+        {
+          "id": "shu.11.p8.h1",
+          "type": "person",
+          "at": 6,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p8.h2",
+          "type": "person",
+          "at": 25,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
         {
           "id": "shu.11.p8.t1",
           "type": "temporal",
@@ -204,6 +729,15 @@
           "era": "景耀",
           "era_year": 6,
           "reasoning": "「明年」 = 当前年 景耀5年 (AD 262) 之次年 = AD 263"
+        },
+        {
+          "id": "shu.11.p8.h3",
+          "type": "person",
+          "at": 95,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         },
         {
           "id": "shu.11.p8.a1",
@@ -231,18 +765,172 @@
           "at": 261,
           "length": 0,
           "text": "毣音忙角反，见《字林》，曰“毣，思貌也”。"
+        },
+        {
+          "id": "shu.11.p8.h4",
+          "type": "person",
+          "at": 272,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liuxuan",
+          "via": "llm"
         }
       ]
     },
     {
       "id": "shu.11.p9",
       "text": "楊洪字季休，犍為武陽人也。劉璋時歷部諸郡。先主定蜀，太守李嚴命為功曹。嚴欲徒郡治捨，洪固諫不聽，遂辭功曹，請退。嚴（欲）薦洪於州，為（蜀部從事）[部蜀從事]。先主爭漢中，急書發兵，軍師將軍諸葛亮以問洪，洪曰：「漢中則益州咽喉，存亡之機會，若無漢中則無蜀矣，此家門之禍也。方今之事，男子當戰，女子當運，發兵何疑？」時蜀郡太守法正從先主北行，亮於是表洪領蜀郡太守，眾事皆辦，遂使即真。頃之，轉為益州治中從事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p9.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "楊洪",
+          "person_id": "yanghong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p9.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p9.h3",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p9.h4",
+          "type": "person",
+          "at": 28,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p9.h5",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p9.h6",
+          "type": "person",
+          "at": 94,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p9.h7",
+          "type": "person",
+          "at": 161,
+          "length": 2,
+          "text": "法正",
+          "person_id": "fazheng",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p9.h8",
+          "type": "person",
+          "at": 164,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p9.h9",
+          "type": "person",
+          "at": 169,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p9.h10",
+          "type": "person",
+          "at": 172,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        }
+      ]
     },
     {
       "id": "shu.11.p10",
       "text": "先主既稱尊號，征吳不克，還住永安。漢嘉太守黃元素為諸葛亮所不善，聞先主疾病，懼有後患，舉郡反，燒臨邛城。時亮東行省疾，成都單虛，是以元益無所憚。洪即啟太子，遣其親兵，使將軍陳曶、鄭綽討元。眾議以為元若不能圍成都，當由越囗據南中。洪曰：「元素信凶暴，無他恩信，何能辦此？不過乘水東下，冀主上平安，面縛歸死；如其有異，奔吳求活耳。敕曶、綽但於南安峽口遮即便得矣。」曶、綽承洪言，果生獲元。洪建興元年賜爵關內侯，復為蜀郡太守、忠節將軍，後為越騎校尉，領郡如故。",
       "annotations": [
+        {
+          "id": "shu.11.p10.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p10.h2",
+          "type": "person",
+          "at": 25,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p10.h3",
+          "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p10.h4",
+          "type": "person",
+          "at": 53,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p10.h5",
+          "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "太子",
+          "person_id": "liushan",
+          "via": "llm"
+        },
+        {
+          "id": "shu.11.p10.h6",
+          "type": "person",
+          "at": 142,
+          "length": 2,
+          "text": "主上",
+          "person_id": "liushan",
+          "via": "llm"
+        },
         {
           "id": "shu.11.p10.t1",
           "type": "temporal",
@@ -274,6 +962,51 @@
           "era": "景耀",
           "era_year": 5,
           "reasoning": "承前文年號「景耀」推得，「五年」 = 景耀5年 = AD 262"
+        },
+        {
+          "id": "shu.11.p11.h1",
+          "type": "person",
+          "at": 5,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p11.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "張裔",
+          "person_id": "zhangyi_2",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p11.h3",
+          "type": "person",
+          "at": 62,
+          "length": 2,
+          "text": "向朗",
+          "person_id": "xianglang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p11.h4",
+          "type": "person",
+          "at": 146,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p11.h5",
+          "type": "person",
+          "at": 226,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
         }
       ]
     },
@@ -281,6 +1014,15 @@
       "id": "shu.11.p12",
       "text": "洪少不好學問，而忠清款亮，憂公如家，事繼母至孝。六年卒官。始洪為李嚴功曹，嚴未（至）[去]犍為而洪已為蜀郡。",
       "annotations": [
+        {
+          "id": "shu.11.p12.h1",
+          "type": "person",
+          "at": 11,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name_carry"
+        },
         {
           "id": "shu.11.p12.t1",
           "type": "temporal",
@@ -293,6 +1035,15 @@
           "era": "景耀",
           "era_year": 6,
           "reasoning": "承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263"
+        },
+        {
+          "id": "shu.11.p12.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
         }
       ]
     },
@@ -300,6 +1051,15 @@
       "id": "shu.11.p13",
       "text": "洪迎門下書佐何祗，有才策功干，舉郡吏，數年為廣漢太守，時洪亦尚在蜀郡。是以西土咸服諸葛亮能盡時人之器用也。",
       "annotations": [
+        {
+          "id": "shu.11.p13.h1",
+          "type": "person",
+          "at": 41,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
         {
           "id": "shu.11.p13.a1",
           "type": "pei",
@@ -312,12 +1072,139 @@
     {
       "id": "shu.11.p14",
       "text": "費詩字公舉，犍為南安人也。劉璋時為綿竹令，先主攻綿竹時，詩先舉城降。成都既定，先主領益州牧，以詩為督軍從事，出為牂牁太守，還為州前部司馬。先主為漢中王，遣詩拜關羽為前將軍，羽聞黃忠為後將軍，（羽）怒曰：「大丈夫終不與老兵同列！」不肯受拜。詩謂羽曰：「夫立王業者，所用非一。昔蕭、曹與高祖少小親舊，而陳、韓亡命後主，論其班列，韓最居上，未聞蕭、曹以此為怨。今（漢王）[漢中王]以一時之功隆崇於漢升，然意之輕重，寧當與君侯齊乎！且王與君侯臂猶一體，同休等戚，禍福共之，愚為君侯不宜計官號之高下、爵祿之多少為意也。僕一介之使，銜命之人，君侯不受拜，如是便還，但相為惜此舉動，恐有後悔耳！」羽大感悟，遂即受拜。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p14.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "費詩",
+          "person_id": "feishi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p14.h2",
+          "type": "person",
+          "at": 13,
+          "length": 2,
+          "text": "劉璋",
+          "person_id": "liuzhang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p14.h3",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p14.h4",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p14.h5",
+          "type": "person",
+          "at": 69,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p14.h6",
+          "type": "person",
+          "at": 79,
+          "length": 2,
+          "text": "關羽",
+          "person_id": "guanyu",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p14.h7",
+          "type": "person",
+          "at": 86,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p14.h8",
+          "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "黃忠",
+          "person_id": "huangzhong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p14.h9",
+          "type": "person",
+          "at": 96,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p14.h10",
+          "type": "person",
+          "at": 121,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p14.h11",
+          "type": "person",
+          "at": 154,
+          "length": 2,
+          "text": "後主",
+          "person_id": "liushan",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p14.h12",
+          "type": "person",
+          "at": 291,
+          "length": 1,
+          "text": "羽",
+          "person_id": "guanyu",
+          "via": "given_name"
+        }
+      ]
     },
     {
       "id": "shu.11.p15",
       "text": "後群臣議欲推漢中王稱尊號，詩上疏曰：「殿下以曹操父子逼主篡位，故乃羈旅萬里，糾合士眾，將以討賊。今天敵未克，而先主自立，恐人心疑惑。昔高祖與楚約，先破秦者王。及屠咸陽，獲子嬰，猶懷推讓，況今殿下未出門庭，便欲自立邪！愚臣誠不為殿下取也。」由是忤指，左遷部永昌從事。",
       "annotations": [
+        {
+          "id": "shu.11.p15.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "曹操",
+          "person_id": "caocao",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p15.h2",
+          "type": "person",
+          "at": 55,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
         {
           "id": "shu.11.p15.a1",
           "type": "pei",
@@ -343,6 +1230,141 @@
           "era": "建興",
           "era_year": 3,
           "reasoning": "原文「建興三年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.11.p16.h1",
+          "type": "person",
+          "at": 6,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p16.h2",
+          "type": "person",
+          "at": 24,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h3",
+          "type": "person",
+          "at": 26,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h4",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p16.h5",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p16.h6",
+          "type": "person",
+          "at": 86,
+          "length": 3,
+          "text": "諸葛亮",
+          "person_id": "zhugeliang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p16.h7",
+          "type": "person",
+          "at": 118,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h8",
+          "type": "person",
+          "at": 159,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p16.h9",
+          "type": "person",
+          "at": 174,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h10",
+          "type": "person",
+          "at": 180,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h11",
+          "type": "person",
+          "at": 269,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        },
+        {
+          "id": "shu.11.p16.h12",
+          "type": "person",
+          "at": 300,
+          "length": 1,
+          "text": "表",
+          "person_id": "liubiao",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "shu.11.p16.h13",
+          "type": "person",
+          "at": 324,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h14",
+          "type": "person",
+          "at": 351,
+          "length": 1,
+          "text": "亮",
+          "person_id": "zhugeliang",
+          "via": "given_name"
+        },
+        {
+          "id": "shu.11.p16.h15",
+          "type": "person",
+          "at": 367,
+          "length": 2,
+          "text": "蔣琬",
+          "person_id": "jiangwan",
+          "via": "primary"
         }
       ]
     },
@@ -350,6 +1372,15 @@
       "id": "shu.11.p17",
       "text": "王沖者，廣漢人也。為牙門將，統屬江州李嚴。為嚴所疾，懼罪降魏。魏以沖為樂陵太守。",
       "annotations": [
+        {
+          "id": "shu.11.p17.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "李嚴",
+          "person_id": "liyan",
+          "via": "primary"
+        },
         {
           "id": "shu.11.p17.a1",
           "type": "pei",
@@ -362,12 +1393,71 @@
     {
       "id": "shu.11.p18",
       "text": "評曰：霍峻孤城不傾，王連固節不移，向朗好學不倦，張裔肤敏應極，楊洪乃心忠公，費詩率意而言，皆有可紀焉。以先主之廣濟，諸葛之準繩，詩吐直言，猶用凌遲，况庸後乎哉！",
-      "annotations": []
-    },
-    {
-      "id": "shu.11.p19",
-      "text": "此作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "shu.11.p18.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "霍峻",
+          "person_id": "huojun",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h2",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "王連",
+          "person_id": "wanglian",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h3",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "向朗",
+          "person_id": "xianglang",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h4",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "張裔",
+          "person_id": "zhangyi_2",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h5",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "楊洪",
+          "person_id": "yanghong",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h6",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "費詩",
+          "person_id": "feishi",
+          "via": "primary"
+        },
+        {
+          "id": "shu.11.p18.h7",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "先主",
+          "person_id": "liubei",
+          "via": "chapter_alias"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "id": "dukui",
+  "primary_name": "杜夔",
+  "courtesy_name": "公良",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.29",
+      "title": "魏書·方技傳",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/29.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p38",
+        "at": 51,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "杜夔",
+        "snippet": "…之者以千數。表乃起立學校，講明經術，命故雅樂郎河南杜夔作雅樂。樂備，表欲庭觀之。夔曰：「今將軍號不為天子，合樂而庭作之，無乃不可乎！」表乃止。"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

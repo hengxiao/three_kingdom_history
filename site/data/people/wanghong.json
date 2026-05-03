@@ -1,0 +1,38 @@
+{
+  "id": "wanghong",
+  "primary_name": "王宏",
+  "courtesy_name": "長文",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.66",
+      "title": "陳王列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/66.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p45",
+        "at": 14,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "王宏",
+        "snippet": "初，王允以同郡宋翼為左馮翊，王宏為右扶風，傕等欲殺允，恐二郡為患，乃先徵翼、宏。宏遣使謂翼曰：「郭汜、李傕以我二人在外，故未危王公。今日就徵，明日俱族，計將安…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

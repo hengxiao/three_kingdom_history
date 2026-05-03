@@ -14,7 +14,7 @@
     "retrieved": "2026-05-03"
   },
   "parse_warnings": [],
-  "n_segments": 81,
+  "n_segments": 80,
   "segments": [
     {
       "id": "zztj.77.p1",
@@ -39,7 +39,17 @@
     {
       "id": "zztj.77.p5",
       "text": "春，正月，漢姜維進位大將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p5.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p6",
@@ -64,47 +74,218 @@
     {
       "id": "zztj.77.p10",
       "text": "姜維在鐘提，議者多以為維力已竭，未能更出。安西將軍鄧艾曰：「洮西之敗，非小失也，士卒彫殘，倉廩空虛，百姓流離。今以策言之，彼有乘勝之勢，我有虛弱之實，一也。彼上下相習，五兵犀利，我將易兵新，器仗未復，二也。彼以船行，吾以陸軍，勞逸不同，三也。狄道、隴西、南安、祁山各當有守，彼專為一，我分為四，四也。從南安、隴西因食羌谷，若趣祁山，熟麥千頃，為之外倉，五也。賊有黠計，其來必矣。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p10.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p10.h2",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p11",
       "text": "秋，七月，姜維復率眾出祁山，聞鄧艾已有備，乃回，從董亭趣南安；艾據武城山以拒之。維與艾爭險不克，其夜，渡渭東行，緣山趣上邽。艾與戰於段谷，大破之。以艾為鎮西將軍，都督隴右諸軍事。維與其鎮西大將軍胡濟期會上邽，濟失期，不至，故敗，士卒星散，死者甚眾，蜀人由是怨維。維上書謝，求自貶黜；乃以衛將軍行大將軍事。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p11.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p11.h2",
+          "type": "person",
+          "at": 15,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p12",
       "text": "八月，庚午，詔司馬昭加號大都督，奏事不名，假黃鉞。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p12.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p13",
       "text": "癸酉，以太尉司馬孚為太傅。九月，以司徒高柔為太尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p13.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "高柔",
+          "person_id": "gaorou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p14",
       "text": "文欽說吳人以伐魏之利，孫峻使欽與驃騎將軍呂擾及車騎將軍劉纂、鎮南將軍朱異、前將軍唐咨自江都入淮、泗，以圖青、徐。峻餞之於石頭，遇暴疾，以後事付從父弟偏將軍綝。丁亥，峻卒。吳人以綝為侍中、武衛將軍、都督中外諸軍事，召呂據等還。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p14.h1",
+          "type": "person",
+          "at": 11,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p15",
       "text": "己丑，吳大司馬呂岱卒，年九十六。始岱親近吳郡徐原，慷慨有才志，岱知其可成，賜巾韝，與共言論，後遂薦拔，官至侍御史。原性忠壯，好直言。岱時有得失，原輒諫爭，又公論之。人或以告岱，岱歎曰：「是我所以貴德淵者也！」及原死，岱哭之甚哀，曰：「徐德淵，呂岱之益友，今不幸，岱復於何聞過！」談者美之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p15.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p15.h2",
+          "type": "person",
+          "at": 121,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p16",
       "text": "呂據聞孫綝代孫峻輔政，大怒，與諸督將連名共表薦滕胤為丞相；綝更以胤為大司馬，代呂岱駐武昌。據引兵還，使人報胤，欲共廢綝。冬，十月，丁未，綝遣從兄憲將兵逆據於江都，使中使敕文欽、劉纂、唐咨等共擊取據，又遣侍中左將軍華融、中書丞丁晏告喻胤宜速去意。胤自以禍及，因留融、晏、勒兵自衛，召典軍楊崇、將軍孫咨，告以綝為亂，迫融等使作書難綝。綝不聽，表言胤反，許將軍劉丞以封爵，使率兵騎攻圍胤。胤又劫融等使詐為詔發兵，融等不從，皆殺之。或勸胤引兵至蒼龍門：「將士見公出，必委絲林就公。」時夜已半，胤恃與據期，又難舉兵向宮，乃約令部曲，說呂侯兵已在近道，故皆為胤盡死，無離散者。胤顏色不變，談笑如常。時大風，比曉，據不至，綝兵大會，遂殺胤及將士數十人，夷胤三族。己酉，大赦，改元太平。或勸呂據奔魏者，據曰：「吾恥為叛臣。」遂自殺。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p16.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p16.h2",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p16.h3",
+          "type": "person",
+          "at": 23,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p16.h4",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "呂岱",
+          "person_id": "lvdai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p17",
       "text": "以司空鄭沖為司徒，左僕射盧毓為司空。毓固讓驃騎將軍王昶、光祿大夫王觀、司隸校尉琅邪王祥，詔不許。祥性至孝，繼母朱氏遇之無道，祥愈恭謹。朱氏子覽，年數歲，每見祥被楚撻，輒涕泣抱持母；母以非理使祥，覽輒與祥俱往。及長，娶妻，母虐使祥妻，覽妻亦趨而共之。母患之，為之少止。祥漸有時譽，母深疾之，密使鴆祥。覽知之，逕起取酒，祥爭而不與，母遽奪反之。自後，母賜祥饌，覽輒先嘗。母懼覽致斃，遂止。漢末遭亂，祥隱居三十餘年，不應州郡之命，母終，毀瘁，杖而後起。徐州刺史呂虔檄為別駕，委以州事，州界清靜，政化大行。時人歌之曰：「海沂之康，實賴王祥；邦國不空，別駕之功！」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p17.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p17.h2",
+          "type": "person",
+          "at": 32,
+          "length": 2,
+          "text": "王觀",
+          "person_id": "wangguan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p17.h3",
+          "type": "person",
+          "at": 227,
+          "length": 2,
+          "text": "呂虔",
+          "person_id": "lvqian",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p18",
       "text": "十一月，吳孫綝遷大將軍。綝負貴倨傲，多行無禮。峻從弟憲嘗與誅諸葛恪，峻厚遇之，官至右將軍、無難督，平九官事。綝遇憲薄於峻時，憲怒，與將軍王惇謀殺綝。事洩，綝殺惇，憲服藥死。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p18.h1",
+          "type": "person",
+          "at": 5,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p18.h2",
+          "type": "person",
+          "at": 30,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p19",
@@ -119,42 +300,275 @@
     {
       "id": "zztj.77.p21",
       "text": "夏，四月，吳主臨正殿，大赦，始親政事。孫綝表奏，多見難問，又科兵子弟十八已下，十五以上三千餘人，選大將子弟年少有勇力者，使將之，日於苑中教習，曰：「吾立此軍，欲與之俱長。」又數出中書視大帝時舊事，問左右侍臣曰：「先帝數有特製，今大將軍問事，但令我書可邪？」嘗食生梅，使黃門至中藏取蜜，蜜中有鼠矢；召問藏吏，藏吏叩頭。吳主曰：「黃門從爾求蜜邪？」吏曰：「向求，實不敢與。」黃門不服。吳主令破鼠矢，矢中燥，因大笑，謂左右曰：「若矢先在蜜中，中外當俱濕；今外濕裡燥，此必黃門所為也。」詰之，果服，左右莫不驚悚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p21.h1",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p22",
       "text": "征東大將軍諸葛誕素與夏侯玄、鄧颺等友善，玄等死，王凌、毌丘儉相繼誅滅，誕內不自安，乃傾帑藏振施，曲赦有罪，以收眾心，畜養揚州輕俠數千人以為死士。因吳人欲向徐堨，請十萬眾以守壽春，又求臨淮築城以備吳寇。司馬昭初秉政，長史賈充請遣參佐慰勞四征，且觀其志。昭遣充至淮南，充見誕，論說時事，因曰：「洛中諸賢，皆願禪代，君以為如何？」誕厲聲曰：「卿非賈豫州子乎？世受魏恩，豈可欲以社稷輸人乎！右洛中有難，吾當死之。」充默然。還，言於昭曰：「諸葛誕再在揚州，得士眾心。今召之，必不來，然反疾而禍小；不召，則反遲而禍大；不如召之。」昭從之。甲子，詔以誕為司空，召赴京師。誕得詔書，愈恐，疑揚州刺史樂綝間己，遂殺綝，斂淮南及淮北郡縣屯田口十餘萬官兵，揚州新附勝兵者四五萬人，聚谷足一年食，為閉門自守之計。遣長史吳綱將小子靚至吳，稱臣請救，並請以牙門子弟為質。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p22.h1",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p22.h2",
+          "type": "person",
+          "at": 10,
+          "length": 3,
+          "text": "夏侯玄",
+          "person_id": "xiahouxuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p22.h3",
+          "type": "person",
+          "at": 24,
+          "length": 2,
+          "text": "王凌",
+          "person_id": "wangling",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p22.h4",
+          "type": "person",
+          "at": 27,
+          "length": 3,
+          "text": "毌丘儉",
+          "person_id": "guanqiujian",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p22.h5",
+          "type": "person",
+          "at": 100,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p22.h6",
+          "type": "person",
+          "at": 215,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p23",
       "text": "吳滕胤、呂據之妻，皆夏口督孫壹之妹也。六月，孫綝使鎮南將軍朱異自虎林將兵襲壹。異至武昌，壹將部曲來奔。乙巳，詔拜壹車騎將軍、交州牧，封吳侯，開府辟召，儀同三司，袞冕赤舄，事從豐厚。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p23.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p23.h2",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p24",
       "text": "司馬昭奉帝及太后討諸葛誕。吳綱至吳，吳人大喜，使將軍全懌、全端、唐咨、王祚將三萬眾，與文欽同救誕；以誕為左都護、假節、大司徒、驃騎將軍、青州牧，封壽春侯。懌，琮之子；端，其從子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p24.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p24.h2",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p25",
       "text": "六月，甲子，車駕次項，司馬昭督諸軍二十六萬進屯丘頭，以鎮南將軍王基行鎮東將軍、都督揚豫諸軍事，與安東將軍陳騫等圍壽春。基始至，圍城未合，文欽、全懌等從城東北因山乘險，得將其眾突入城。昭敕基斂軍堅壁。基累求進討，會吳朱異率三萬人進屯安豐，為文欽外勢，詔基引諸軍轉據北山。基謂諸將曰：「今圍壘轉固，兵馬向集，但當精修守備，以待越逸，而更移兵守險，使得放縱，雖有智者，不能善其後矣！」遂守便宜，上疏曰：「今與賊家對敵，當不動如山，若遷移依險，人心搖蕩，於勢大損。諸軍並據深溝高壘，眾心皆定，不可傾動，此御兵之要也。」書奏，報聽。於是基等四面合圍，表裡再重，塹壘甚峻。文欽等數出犯圍，逆擊，走之。司馬昭又使奮武將軍監青州諸軍事石苞督兗州刺史州泰、徐州刺史胡質等簡銳卒為遊軍，以備外寇。泰擊破朱異於陽淵，異走，泰追之，殺傷二千人。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p25.h1",
+          "type": "person",
+          "at": 11,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p25.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p25.h3",
+          "type": "person",
+          "at": 294,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p25.h4",
+          "type": "person",
+          "at": 323,
+          "length": 2,
+          "text": "胡質",
+          "person_id": "huzhi",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p26",
       "text": "秋，七月，吳大將軍綝大發卒出屯鑊裡，復遣朱異帥將軍丁奉、黎斐等五人前解壽春之圍。異留輜重於都陸，進屯黎漿，石苞、州泰又擊破之。太山太守胡烈以奇兵五千襲都陸，盡焚異資糧，異將餘兵，食葛葉，走歸孫綝。綝使異更死戰，異以士卒乏食，不從綝命。綝怒，九月，己巳，綝斬異於鑊裡。辛未，引兵還建業，綝既不能拔出諸葛誕，而喪敗士眾，自戮名將，由是吳人莫不怨之。司馬昭曰：「異不得至壽春，非其罪也，而吳人殺之，欲以謝壽春而堅誕意，使其猶望救耳。今當堅圍，備其越逸，而多方以誤之。」乃縱反間，揚言「吳救方至，大軍乏食，分遣羸疾就谷淮北，勢不能久」。誕等益寬恣食，俄而城中乏糧，外救不至。將軍蔣班、焦彝，皆誕腹心謀主也，言於誕曰：「朱異等以大眾來而不能進，孫綝殺異而歸江東，外以發兵為名，內實坐須成敗。今宜及眾心尚固，士卒思用，並力決死，攻其一面，雖不能盡克，猶有可全者；空坐守死，無為也。」文欽曰：「公今舉十餘萬之眾歸命於吳，而欽與全端等皆同居死地，父兄子弟盡在江表，就孫綝不欲來，主上及其親戚豈肯聽乎！且中國無歲無事，軍民並疲，今守我一年，內變將起，奈何捨此，欲乘危徼幸乎！」班、彝固勸之，欽怒。誕欲殺班、彝，二人懼，十一月，棄誕逾城來降。全懌兄子輝、儀在建業，與其家內爭訟，攜其母將部曲數十家來奔。於是懌與兄子靖及全端弟翩、緝皆將兵在壽春城中，司馬昭用黃門侍郎鐘會策，密為輝、儀作書，使輝、儀所親信繼入城告懌等，說「吳中怒懌等不能拔壽春，欲盡誅諸將家，故逃來歸命」。十二月，懌等率其眾數千人開門出降，城中震懼，不知所為。詔拜懌平東將軍，封臨湘侯；端等封拜各有差。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p26.h1",
+          "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h2",
+          "type": "person",
+          "at": 95,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h3",
+          "type": "person",
+          "at": 148,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h4",
+          "type": "person",
+          "at": 172,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h5",
+          "type": "person",
+          "at": 317,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h6",
+          "type": "person",
+          "at": 425,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p26.h7",
+          "type": "person",
+          "at": 564,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p27",
       "text": "漢姜維聞魏分關中兵以赴淮南，欲乘虛向秦川，率數萬人出駱谷，至沈嶺。時長城積穀甚多，而守兵少，征西將軍都督雍、涼諸軍事司馬望及安西將軍鄧艾進兵據之，以拒維。維壁於芒水，數挑戰，望、艾不應。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p27.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p27.h2",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "鄧艾",
+          "person_id": "dengai",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p28",
       "text": "是時，維數出兵，蜀人愁苦。中散大夫譙周作《仇國論》以諷之曰：「或問往古能以弱勝強者，其術如何？曰：吾聞之，處大無患者常多慢，處小有憂者常思善；多慢則生亂，思善則生治，理之常也。故周文養民，以少取多，勾踐恤眾，以弱斃強，此其術也。或曰：曩者，項強漢弱，相與戰爭，項羽與漢約分鴻溝，各歸息民，張良以為民志既定，則難動也，率兵追羽，終斃項氏。豈必由文王之事乎？曰：當商、周之際，王侯世尊，君臣久固，民習所專；深根者難拔，據固者難遷。當此之時，雖漢祖安能杖劍鞭馬而取天下乎！及秦罷侯置守之後，民疲秦役，天下土崩，或歲改主，或月易公，鳥驚獸駭，莫知所從，於是豪強並爭，虎裂狼分，疾搏者獲多，遲後者見吞。今我與彼皆傳國易世矣，既非秦末鼎沸之時，實有六國並據之勢，故可為文王，難為漢祖。夫民之疲勞，則騷擾之兆生，上慢下暴，則瓦解之形起。諺曰：『射幸數跌，不如審發。』是故智者不為小利移目，不為意似改步，時可而後動，數合而後舉，故湯、武之師不再戰而克，誠重民勞而度時審也。如遂極武黷征，土崩勢生，不幸遇難，雖有智者，將不能謀之矣。」",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p28.h1",
+          "type": "person",
+          "at": 17,
+          "length": 2,
+          "text": "譙周",
+          "person_id": "qiaozhou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p29",
@@ -195,6 +609,33 @@
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「正月」"
         },
         {
+          "id": "zztj.77.p30.h1",
+          "type": "person",
+          "at": 8,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p30.h2",
+          "type": "person",
+          "at": 225,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p30.h3",
+          "type": "person",
+          "at": 336,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
           "id": "zztj.77.p30.t2",
           "type": "temporal",
           "at": 374,
@@ -214,27 +655,131 @@
     {
       "id": "zztj.77.p31",
       "text": "司馬昭初圍壽春，王基、石苞等皆欲急攻之，昭以為「壽春城固而眾多，攻之必力屈；若有外寇，表裡受敵，此危道也。今三叛相聚於孤城之中，天其或者使同就戮，吾當以全策縻之。但堅守三面，若吳賊陸道而來，軍糧必少；吾以遊兵輕騎絕其轉輸，可不戰而破也。吳賊破，欽等必成擒矣！」乃命諸軍按甲以守之，卒不煩攻而破。議者又以為「淮南仍為叛逆，吳兵室家在江南，不可縱，宜悉坑之。」昭曰：「古之用兵，全國為上，戮其元惡而已。吳兵就得亡還，適可以示中國之大度耳。」一無所殺，分佈三河近郡以安處之。拜唐咨安遠將軍，其餘裨將，鹹假位號，眾皆悅服，其淮南將士吏民為誕所脅略者，皆赦之。聽文鴦兄弟收斂父喪。給其車牛，致葬舊墓。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p31.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p31.h2",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p32",
       "text": "昭遺王基書曰：「初議者云云，求移者甚眾，時未臨履，亦謂宜然。將軍深算利害，獨秉固志，上違詔命，下拒眾議，終至制敵禽賊，雖古人所述，不是過也。」昭欲遣諸軍輕兵深入，招迎唐咨等子弟，因釁有滅吳之勢。王基諫曰：「昔諸葛恪乘東關之勝，竭江表之兵以圍新城，城既不拔，而眾死者太半。姜維因洮西之利，輕兵深入，糧餉不繼，軍覆上邽。夫大捷之後，上下輕敵，輕敵則慮難不深。今賊新敗於外，又內患未弭，是其修備設慮之時也。且兵出逾年，人有歸志，今俘馘十萬，罪人斯得，自歷代征伐，未有全兵獨克如今之盛者也。武皇帝克袁紹於官渡，自以所獲已多，不復追奔，懼挫威也。」昭乃止，以基為征東將軍、都督揚州諸軍事，進封東武侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p32.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p32.h2",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p32.h3",
+          "type": "person",
+          "at": 104,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p32.h4",
+          "type": "person",
+          "at": 135,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p32.h5",
+          "type": "person",
+          "at": 245,
+          "length": 2,
+          "text": "袁紹",
+          "person_id": "yuanshao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p33",
       "text": "══習鑿齒曰：君子謂司馬大將軍於是役也，可謂能以德攻矣。夫建業者異道，各有所尚而不能兼併也。故窮武之雄，斃於不仁；存義之國，喪於懦退。今一征而禽三叛，大虜吳眾，席捲淮浦，俘馘十萬，可謂壯矣。而未及安坐，賞王基之功；種惠吳人，結異類之情；寵鴦葬欽，忘疇昔之隙；不咎誕眾，使揚土懷愧。功高而人樂其成，業廣而敵懷其德。武昭既敷，文算又洽，推此道也，天下其孰能當之哉！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p33.h1",
+          "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p34",
       "text": "司馬昭之克壽春，鐘會謀畫居多；昭親待日隆，委以腹心之任，時人比之子房。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p34.h1",
+          "type": "person",
+          "at": 0,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p35",
       "text": "漢姜維聞諸葛誕死，退還成都，復拜大將軍。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p35.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p35.h2",
+          "type": "person",
+          "at": 4,
+          "length": 3,
+          "text": "諸葛誕",
+          "person_id": "zhugedan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p36",
@@ -254,6 +799,15 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「五月」"
+        },
+        {
+          "id": "zztj.77.p36.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
         }
       ]
     },
@@ -296,6 +850,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「八月」"
+        },
+        {
+          "id": "zztj.77.p38.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         }
       ]
     },
@@ -307,12 +870,41 @@
     {
       "id": "zztj.77.p40",
       "text": "吳孫綝以吳主親覽政事，多所難問，甚懼；返自鑊裡，遂稱疾不朝，使弟威遠將軍據入倉龍門宿衛，武衛將軍恩、偏將軍干、長水校尉闓分屯諸營，欲以自固。吳主惡之，乃推朱公主死意，全公主懼曰：「我實不知，皆朱據二子熊、損所白。」是時熊為虎林督、損為外部督，吳主皆殺之。損妻，即孫峻妹也。綝諫，不從，由是益懼。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p40.h1",
+          "type": "person",
+          "at": 1,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p40.h2",
+          "type": "person",
+          "at": 131,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p41",
       "text": "吳主陰與全公主及將軍劉丞謀誅綝。全后父尚為太常、衛將軍，吳主謂尚子黃門侍郎紀曰：「孫綝專勢，輕小於孤。孤前敕之使速上岸，為唐咨等作援，而留湖中不上岸一步；又委罪於朱異，擅殺功臣，不先表聞；築第橋南，不復朝見。此為自在，無復所畏，不可久忍，今規取之。卿父作中軍都督，使密嚴整士馬，孤當自出臨橋，率宿衛虎騎、左右無難一時圍之，作版詔敕絲林所領皆解散，不得舉手。正爾，自當得之；卿去，但當使密耳！卿宣詔卿父，勿令卿母知之；女人既不曉大事，且綝同堂姊，邂逅漏洩，誤孤非小也！」紀承詔以告尚。尚無遠慮，以語紀母，母使人密語綝。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p41.h1",
+          "type": "person",
+          "at": 41,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p42",
@@ -332,6 +924,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「九月」"
+        },
+        {
+          "id": "zztj.77.p42.h1",
+          "type": "person",
+          "at": 168,
+          "length": 2,
+          "text": "少帝",
+          "person_id": "liubian",
+          "via": "alias"
         }
       ]
     },
@@ -353,13 +954,41 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「十月」"
+        },
+        {
+          "id": "zztj.77.p43.h2",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunxiu",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.77.p43.h1",
+          "type": "person",
+          "at": 56,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.77.p44",
       "text": "綝命弟恩行丞相事，率百僚以乘輿法駕迎琅邪王於永昌亭。築宮，以武帳為便殿，設御坐。己卯，王至便殿，止東廂。孫恩奉上璽符，王三讓，乃受。群臣以次奉引，王就乘輿，百官陪位。綝以兵千人迎於半野，拜於道側；王下車答拜。即日，御正殿，大赦，改元永安。孫綝稱「草莽臣」，詣闕上書，上印綬、節鉞，求避賢路。吳主引見慰諭，下詔以綝為丞相、荊州牧，增邑五縣；以恩為御史大夫、衛將軍、中軍督，封縣侯。孫據、干、闓皆拜將軍，封侯。又以長水校尉張布為輔義將軍，封永康侯。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p44.h1",
+          "type": "person",
+          "at": 119,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p45",
@@ -379,12 +1008,41 @@
     {
       "id": "zztj.77.p48",
       "text": "孫綝奉牛酒詣吳主，吳主不受，繼詣左將軍張布。酒酣，出怨言曰：「初廢少主時，多勸吾自為之者。吾以陛下賢明，故迎之。帝非我不立，今上禮見拒，是與凡臣無異，當復改圖耳。」布以告吳主，吳主銜之，恐其有變，數加賞賜。戊戌，吳主詔曰：「大將軍掌中外諸軍事，事統煩多，其加衛將軍、御史大夫恩侍中，與大將軍分省諸事。」或有告綝懷怨悔上，欲圖反者，吳主執以付綝，綝殺之，由是益懼，因孟宗求出屯武昌；吳主許之。綝盡敕所督中營精兵萬餘人，皆令裝載，又取武庫兵器，吳主咸令給與。綝求中書兩郎典知荊州諸軍事，主者奏中書不應外出，吳主特聽之。其所請求，一無違者。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p48.h1",
+          "type": "person",
+          "at": 0,
+          "length": 2,
+          "text": "孫綝",
+          "person_id": "sunchen",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p48.h2",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "sunxiu",
+          "via": "llm"
+        }
+      ]
     },
     {
       "id": "zztj.77.p49",
       "text": "將軍魏邈說吳主曰：「綝居外，必有變。」武衛士施朔又告綝謀反。吳主將討綝，密問輔義將軍張布，布曰：「左將軍丁奉，雖不能吏書，而計略過人，能斷大事。」吳主召奉告之，且問以計畫。奉曰：「丞相兄弟支黨甚盛，恐人心不同，不可卒制；可因臘會有陛兵以誅之。」吳主從之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p49.h1",
+          "type": "person",
+          "at": 52,
+          "length": 2,
+          "text": "丁奉",
+          "person_id": "dingfeng",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p50",
@@ -404,18 +1062,101 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「十二月」"
+        },
+        {
+          "id": "zztj.77.p50.h1",
+          "type": "person",
+          "at": 173,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p50.h2",
+          "type": "person",
+          "at": 263,
+          "length": 2,
+          "text": "孫峻",
+          "person_id": "sunjun",
+          "via": "primary"
         }
       ]
     },
     {
       "id": "zztj.77.p51",
       "text": "己巳，吳主以張布為中軍督。改葬諸葛恪、滕胤、呂據等，其罹恪等事遠徒者，一切召還。朝臣有乞為諸葛恪立碑者，吳主詔曰：「盛夏出軍，士卒傷損，無尺寸之功，不可謂能；受托孤之任，死於豎子之手，不可謂智。」遂寢。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p51.h1",
+          "type": "person",
+          "at": 15,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p51.h2",
+          "type": "person",
+          "at": 19,
+          "length": 2,
+          "text": "滕胤",
+          "person_id": "tengyin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p51.h3",
+          "type": "person",
+          "at": 45,
+          "length": 3,
+          "text": "諸葛恪",
+          "person_id": "zhugeke",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p52",
       "text": "初，漢昭烈留魏延鎮漢中，皆實兵諸圍以御外敵，敵若來攻，使不得入。及興勢之役，王平捍拒曹爽，皆承此制。及姜維用事，建議以為「錯守諸圍，適可禦敵，不獲大利。不若使聞敵至，諸圍皆斂兵聚谷，退就漢、樂二城，聽敵入平，重關頭鎮守以捍之，令遊軍旁出以伺其虛。敵攻關不克，野無散谷，千里運糧，自然疲乏；引退之日，然後諸城並出，與遊軍並力搏之，此殄敵之術也。」於是漢主令督漢中胡濟卻住漢壽，監軍王含守樂城，護軍蔣斌守漢城。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p52.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "魏延",
+          "person_id": "weiyan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p52.h2",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "王平",
+          "person_id": "wangping",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p52.h3",
+          "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "曹爽",
+          "person_id": "caoshuang",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p52.h4",
+          "type": "person",
+          "at": 51,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p53",
@@ -454,6 +1195,15 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "年承前文 甘露4年 (AD 259)，月份「正月」"
+        },
+        {
+          "id": "zztj.77.p54.h1",
+          "type": "person",
+          "at": 82,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
         }
       ]
     },
@@ -475,6 +1225,15 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 甘露4年 (AD 259)，月份「六月」"
+        },
+        {
+          "id": "zztj.77.p55.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "王昶",
+          "person_id": "wangchang",
+          "via": "primary"
         }
       ]
     },
@@ -482,6 +1241,15 @@
       "id": "zztj.77.p56",
       "text": "漢主封其子諶為北地王，恂為新興王，虔為上黨王。尚書令陳祗以巧佞有寵於漢主，姜維雖位在祗上，而多率眾在外，希親朝政，權任不及祗。秋，八月，丙子，祗卒；漢主以僕射義陽董厥為尚書令，尚書諸葛瞻為僕射。",
       "annotations": [
+        {
+          "id": "zztj.77.p56.h1",
+          "type": "person",
+          "at": 37,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
+        },
         {
           "id": "zztj.77.p56.t1",
           "type": "temporal",
@@ -536,6 +1304,15 @@
           "era": "甘露",
           "era_year": 4,
           "reasoning": "「是歲」 = 当前年 甘露4年 (AD 259)"
+        },
+        {
+          "id": "zztj.77.p58.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
         }
       ]
     },
@@ -618,6 +1395,33 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 景元元年 (AD 260)，月份「五月」"
+        },
+        {
+          "id": "zztj.77.p62.h1",
+          "type": "person",
+          "at": 40,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p62.h2",
+          "type": "person",
+          "at": 139,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caomao",
+          "via": "llm"
+        },
+        {
+          "id": "zztj.77.p62.h3",
+          "type": "person",
+          "at": 402,
+          "length": 2,
+          "text": "陛下",
+          "person_id": "caomao",
+          "via": "llm"
         }
       ]
     },
@@ -629,7 +1433,17 @@
     {
       "id": "zztj.77.p64",
       "text": "太后下令，罪狀高貴鄉公，廢為庶人，葬以民禮。收王經及其家屬付廷尉。經謝其母，母顏色不變，笑而應曰：「人誰不死，正恐不得其所」以此並命，何恨之有！」及就誅，故吏向雄哭，哀動一市。王沈以功封安平侯。庚寅，太傅孚等上言，請以王禮葬高貴鄉公，太后許之。使中護軍司馬炎迎燕王宇之子常道鄉公璜於鄴，以為明帝嗣。炎，昭之子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p64.h1",
+          "type": "person",
+          "at": 130,
+          "length": 3,
+          "text": "燕王宇",
+          "person_id": "caoyu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.77.p65",
@@ -639,7 +1453,17 @@
     {
       "id": "zztj.77.p66",
       "text": "癸卿，司馬昭固讓相國、晉公、九錫之命，太后詔許之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p66.h1",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p67",
@@ -670,17 +1494,47 @@
     {
       "id": "zztj.77.p69",
       "text": "丙辰，詔進司馬昭爵位九錫如前，昭固讓，乃止。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p69.h1",
+          "type": "person",
+          "at": 5,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p70",
       "text": "癸亥，以尚書左僕射王觀為司空。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p70.h1",
+          "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "王觀",
+          "person_id": "wangguan",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p71",
       "text": "吳都尉嚴密建議作浦裡塘，群臣皆以為難；唯衛將軍陳留濮陽興以為可成，遂會諸軍民就作，功費不可勝數，士卒多死亡，民大愁怨。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.77.p71.h1",
+          "type": "person",
+          "at": 25,
+          "length": 3,
+          "text": "濮陽興",
+          "person_id": "puyangxing",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.77.p72",
@@ -700,6 +1554,15 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 景元元年 (AD 260)，月份「十月」"
+        },
+        {
+          "id": "zztj.77.p72.h1",
+          "type": "person",
+          "at": 66,
+          "length": 2,
+          "text": "王觀",
+          "person_id": "wangguan",
+          "via": "primary"
         }
       ]
     },
@@ -787,6 +1650,33 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 景元2年 (AD 261)，月份「三月」"
+        },
+        {
+          "id": "zztj.77.p77.h1",
+          "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "王基",
+          "person_id": "wangji",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p77.h2",
+          "type": "person",
+          "at": 85,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p77.h3",
+          "type": "person",
+          "at": 175,
+          "length": 2,
+          "text": "姜維",
+          "person_id": "jiangwei",
+          "via": "primary"
         }
       ]
     },
@@ -808,6 +1698,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 景元2年 (AD 261)，月份「八月」"
+        },
+        {
+          "id": "zztj.77.p78.h1",
+          "type": "person",
+          "at": 10,
+          "length": 3,
+          "text": "司馬昭",
+          "person_id": "simazhao",
+          "via": "primary"
         }
       ]
     },
@@ -829,6 +1728,15 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 景元2年 (AD 261)，月份「十月」"
+        },
+        {
+          "id": "zztj.77.p79.h1",
+          "type": "person",
+          "at": 80,
+          "length": 2,
+          "text": "郤正",
+          "person_id": "xizheng",
+          "via": "primary"
         }
       ]
     },
@@ -850,11 +1758,6 @@
           "reasoning": "「是歲」 = 当前年 景元2年 (AD 261)"
         }
       ]
-    },
-    {
-      "id": "zztj.77.p81",
-      "text": "此北宋作品在全世界都属于公有领域，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。",
-      "annotations": []
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": "liuxiu",
+  "primary_name": "漢光武帝",
+  "courtesy_name": "文叔",
+  "given_name": null,
+  "aliases": [
+    "光武帝",
+    "光武",
+    "劉秀"
+  ],
+  "other_names": [],
+  "birth_ad": -5,
+  "death_ad": 57,
+  "brief": "東漢開國皇帝",
+  "bio_chapters": [],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.80",
+        "chapter_title": "巻八十上·文苑列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.80.p10",
+        "at": 14,
+        "data_url": "data/houhanshu/hhs/80.json",
+        "matched": "主上",
+        "snippet": "今天下新定，矢石之勤始瘳，而主上方以邊垂爲憂，忿葭萌之不柔，未遑於論都而遺思雍州也。方躬勞聖思，以率海内，厲撫名將，略地疆外，信威於徴伐，展武乎荒裔。若夫文身…"
+      },
+      {
+        "chapter_id": "hhs.80",
+        "chapter_title": "巻八十上·文苑列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.80.p3",
+        "at": 181,
+        "data_url": "data/houhanshu/hhs/80.json",
+        "matched": "主上",
+        "snippet": "…墝埆。臣不敢有所據。竊見司馬相如、楊子雲作辭賦以諷主上，臣誠慕之，伏作書一篇，名曰《論都》，謹幷封奏如左。"
+      }
+    ]
+  },
+  "n_mentions": 2
+}

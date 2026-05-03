@@ -1,0 +1,60 @@
+{
+  "id": "shiyi",
+  "primary_name": "是儀",
+  "courtesy_name": "子羽",
+  "given_name": null,
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": null,
+  "brief": "",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.17",
+      "title": "吳書·是仪胡综传",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/17.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.72",
+        "chapter_title": "魏紀四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.72.p79",
+        "at": 55,
+        "data_url": "data/zztj/zztj/72.json",
+        "matched": "是儀",
+        "snippet": "…姜維令儀反旗鳴鼓，若將向懿者，懿斂軍退，不敢逼。於是儀結陳而去，入谷然後發喪。百姓為之諺曰：「死諸葛走生仲達。」懿聞之，笑曰：「吾能料生，不能料死故也。」懿案行亮之營壘處所，歎曰：…"
+      },
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p15",
+        "at": 116,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "是儀",
+        "snippet": "…嘉，繫獄驗問。時同坐人皆怖畏壹，並言聞之。侍中北海是儀獨雲無聞，遂見窮詰累日，詔旨轉厲，群臣為之屏息。儀曰：「今刀鋸已在臣頸，臣何敢為嘉隱諱，自取夷滅，為不忠之鬼！厄以聞知當有本末…"
+      },
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p50",
+        "at": 33,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "是儀",
+        "snippet": "…為魯王。霸，和母弟也，寵愛崇特，與和無殊。尚書僕射是儀領魯王傅，上疏諫曰：「臣竊以為魯王天挺懿德，兼資文武，當今之宜，宜鎮四方，為國籓輔。宣揚德美，廣耀威靈，乃國家之良規，海內所瞻…"
+      }
+    ],
+    "sanguozhi": [],
+    "houhanshu": []
+  },
+  "n_mentions": 3
+}

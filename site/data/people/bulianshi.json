@@ -1,0 +1,41 @@
+{
+  "id": "bulianshi",
+  "primary_name": "步練師",
+  "courtesy_name": null,
+  "given_name": null,
+  "aliases": [
+    "步皇后",
+    "步夫人"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 238,
+  "brief": "孫權寵妃，追諡皇后",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.5",
+      "title": "吳書·妃嬪傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/05.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p48",
+        "at": 156,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "皇后",
+        "snippet": "…爲近事旣嘉，親見又明也。」於是改年。步夫人卒，追贈皇后。初，權信任校事呂壹，壹性苛慘，用法深刻。太子登數諫，權不納，大臣由是莫敢言。後壹姦罪發露伏誅，權引咎責躬，乃使中書郎袁禮告謝…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 1
+}

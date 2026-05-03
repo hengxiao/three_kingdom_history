@@ -24,7 +24,12 @@ def _stamp_segments_sha256(text: str) -> str:
 
 
 def _seed_repo(tmp_path: Path) -> Path:
-    """One sanguozhi chapter + one zztj chapter, mentioning two people in different mixes."""
+    """One sanguozhi chapter + one zztj chapter, mentioning two people in different mixes.
+
+    Also seeds the corresponding annotations YAML files with the person
+    annotations we'd expect from `tools.extract_persons` — build_people now
+    reads those annotations rather than running its own substring search.
+    """
     sg_text = (
         "---\n"
         "work: sanguozhi\nwork_title: 三國志\nbook: wei\nbook_title: 魏書\n"
@@ -58,6 +63,35 @@ def _seed_repo(tmp_path: Path) -> Path:
     zz_path = tmp_path / "texts" / "zztj" / "060.md"
     zz_path.parent.mkdir(parents=True)
     zz_path.write_text(zz_text, encoding="utf-8")
+
+    # Seed annotation YAMLs to mimic what extract_persons would produce.
+    sg_ann_path = tmp_path / "annotations" / "sanguozhi" / "wei" / "01.yaml"
+    sg_ann_path.parent.mkdir(parents=True)
+    sg_ann_path.write_text(yaml.safe_dump({
+        "chapter": "wei.1",
+        "annotations": [
+            # wei.1.p1 mentions 曹操 (alias 孟德 also present in '字孟德').
+            {"id": "wei.1.p1.h1", "anchor": "wei.1.p1", "at": 8, "length": 1,
+             "type": "person", "person_id": "caocao", "text": "操", "via": "given_name"},
+            # 'wei.1.p2 mentions 董卓 at offset 0.
+            {"id": "wei.1.p2.h1", "anchor": "wei.1.p2", "at": 0, "length": 2,
+             "type": "person", "person_id": "dongzhuo", "text": "董卓", "via": "primary"},
+        ],
+    }, allow_unicode=True, sort_keys=False), encoding="utf-8")
+
+    zz_ann_path = tmp_path / "annotations" / "zztj" / "060.yaml"
+    zz_ann_path.parent.mkdir(parents=True)
+    zz_ann_path.write_text(yaml.safe_dump({
+        "chapter": "zztj.60",
+        "annotations": [
+            # zztj.60.p1 mentions 董卓 at offset 5.
+            {"id": "zztj.60.p1.h1", "anchor": "zztj.60.p1", "at": 5, "length": 2,
+             "type": "person", "person_id": "dongzhuo", "text": "董卓", "via": "primary"},
+            # zztj.60.p2 mentions 曹操 at offset 11.
+            {"id": "zztj.60.p2.h1", "anchor": "zztj.60.p2", "at": 11, "length": 2,
+             "type": "person", "person_id": "caocao", "text": "曹操", "via": "primary"},
+        ],
+    }, allow_unicode=True, sort_keys=False), encoding="utf-8")
     return tmp_path
 
 
