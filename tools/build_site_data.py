@@ -37,8 +37,16 @@ from tools.batch_fetch_hhs import (
     derive_paths as derive_paths_hhs,
     load_config as load_config_hhs,
 )
+from tools.batch_fetch_zztj import (
+    BOOK as ZZTJ_BOOK,
+    BOOK_TITLE as ZZTJ_BOOK_TITLE,
+    CONFIG_PATH_DEFAULT as ZZTJ_CONFIG,
+    derive_paths as derive_paths_zztj,
+    load_config as load_config_zztj,
+)
 from tools.extract_annotations import annotations_path as annotations_path_sanguozhi
 from tools.extract_annotations_hhs import annotations_path as annotations_path_hhs
+from tools.extract_dates_zztj import annotations_path as annotations_path_zztj
 from tools.segment import parse_file
 
 
@@ -85,6 +93,17 @@ WORKS: list[WorkSpec] = [
         book_titles={HHS_BOOK: HHS_BOOK_TITLE},
         book_order=[HHS_BOOK],
         book_for_entry=lambda e: HHS_BOOK,
+    ),
+    WorkSpec(
+        work_id="zztj",
+        work_title="資治通鑑",
+        config_path=ZZTJ_CONFIG,
+        load_config=load_config_zztj,
+        derive_paths=derive_paths_zztj,
+        annotations_path=annotations_path_zztj,
+        book_titles={ZZTJ_BOOK: ZZTJ_BOOK_TITLE},
+        book_order=[ZZTJ_BOOK],
+        book_for_entry=lambda e: ZZTJ_BOOK,
     ),
 ]
 

@@ -121,9 +121,12 @@ def _segments_for_chapter(chapter_id: str, repo_root: Path) -> dict[str, int] | 
     if not m:
         return None
     book, juan = m.group(1), int(m.group(2))
-    # Layout differs by work: sanguozhi nests by book, 后汉书 is flat under houhanshu/.
+    # Layout differs by work: sanguozhi nests by book, 后汉书 is flat under houhanshu/,
+    # 资治通鉴 is flat under zztj/ with three-digit padded filenames.
     if book == "hhs":
         text_path = repo_root / "texts" / "houhanshu" / f"{juan:02d}.md"
+    elif book == "zztj":
+        text_path = repo_root / "texts" / "zztj" / f"{juan:03d}.md"
     else:
         text_path = repo_root / "texts" / "sanguozhi" / book / f"{juan:02d}.md"
     if not text_path.exists():

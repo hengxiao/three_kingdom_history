@@ -362,6 +362,7 @@ def _normalize_title_hhs(raw: str) -> str:
 
 
 _HHS_TITLE_KEYWORDS = ("帝紀", "本紀", "皇后紀", "列傳", "列传", "志第", "紀第", "傳第", "传第")
+_ZZTJ_TITLE_KEYWORDS = ("漢紀", "魏紀", "晉紀", "後漢紀")
 
 
 def _extract_title(html: str, *, work: str = "sanguozhi") -> str:
@@ -375,6 +376,11 @@ def _extract_title(html: str, *, work: str = "sanguozhi") -> str:
         if work == "houhanshu":
             if not any(kw in cand_canon for kw in _HHS_TITLE_KEYWORDS):
                 continue
+            return _normalize_title_hhs(cand)
+        if work == "zztj":
+            if not any(kw in cand_canon for kw in _ZZTJ_TITLE_KEYWORDS):
+                continue
+            # Same family as 后汉书 (strip 卷N prefix; keep <X紀N> as title)
             return _normalize_title_hhs(cand)
         # default: sanguozhi
         if not any(book in cand_canon for book in ("魏書", "蜀書", "吳書")):
@@ -392,6 +398,17 @@ def parse_wikisource_html(html: str, *, work: str = "sanguozhi") -> WSChapter:
 
     bm = _BODY_RE.search(html)
     body = bm.group(1) if bm else html
+
+    if work == "zztj":
+        # 资治通鉴 wikisource pages put each year header (e.g.
+        # 「建寧元年（戊申，公元一六八年）」) inside <h2>, <h3>, or <pre> depending on the
+        # editor's chosen template. Normalize all of them to <p> so the temporal
+        # walker sees the absolute reign-year refs that subsequent <p> blocks
+        # then inherit from. Short headers like "目录"/"校刊記" pass through but
+        # are dropped later by the _has_min_han filter.
+        for tag in ("h2", "h3", "h4", "pre"):
+            body = re.sub(rf"<{tag}([^>]*)>(.*?)</{tag}>",
+                          r"<p\1>\2</p>", body, flags=re.DOTALL)
 
     p_texts: list[str] = []
     for pm in _P_TAG_RE.finditer(body):

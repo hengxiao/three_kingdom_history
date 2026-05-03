@@ -51,6 +51,8 @@ def _chapter_data_url(work: str, book: str, juan: int) -> str:
 def _text_path_for(work: str, book: str, juan: int, *, repo_root: Path) -> Path:
     if work == "houhanshu":
         return repo_root / "texts" / "houhanshu" / f"{juan:02d}.md"
+    if work == "zztj":
+        return repo_root / "texts" / "zztj" / f"{juan:03d}.md"
     return repo_root / "texts" / "sanguozhi" / book / f"{juan:02d}.md"
 
 
@@ -69,6 +71,11 @@ def _annotation_files(repo_root: Path) -> Iterable[tuple[str, str, int, Path]]:
         for f in sorted(hhs_root.glob("*.yaml")):
             juan = int(f.stem)
             yield ("houhanshu", "hhs", juan, f)
+    zztj_root = repo_root / "annotations" / "zztj"
+    if zztj_root.exists():
+        for f in sorted(zztj_root.glob("*.yaml")):
+            juan = int(f.stem)
+            yield ("zztj", "zztj", juan, f)
 
 
 def _make_snippet(seg_text: str, at: int, *, before: int = 25, after: int = 65) -> str:

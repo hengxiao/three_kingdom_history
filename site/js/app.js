@@ -100,7 +100,7 @@ async function renderChapter(book, juan) {
 }
 
 function bookTitleFromId(id) {
-  return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書" }[id] || id;
+  return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書", zztj: "資治通鑑" }[id] || id;
 }
 
 function renderChapterHTML(ch) {

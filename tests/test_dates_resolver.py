@@ -217,6 +217,22 @@ def test_post_guangwu_han_eras_resolve_in_hhs(era_name, era_year, expected_ad):
     assert to_ad(era, era_year) == expected_ad
 
 
+def test_backward_absolute_ref_is_flashback_does_not_move_state():
+    """In 编年体 + bio-style works, an absolute ref to an earlier year is a flashback —
+    emit it correctly, but don't drag subsequent bare-month/year refs back with it."""
+    state = TimelineState()
+    # State opens at AD 227 via h3-derived header.
+    _, state = resolve_segment("太和元年", book="zztj", state=state)
+    assert state.year_ad == 227
+    # Body paragraph references 建安二十四年 (AD 219) as flashback.
+    matches, state2 = resolve_segment("初，建安二十四年，太祖薨于洛陽。其後事多……", book="zztj", state=state)
+    assert any(m.year_ad == 219 for m in matches)  # the flashback annotation IS emitted
+    assert state2.year_ad == 227                    # but state stays at 227
+    # Subsequent 二月 inherits 227, NOT 219.
+    matches3, _ = resolve_segment("二月，吳使來。", book="zztj", state=state2)
+    assert matches3[0].year_ad == 227 and matches3[0].month_ordinal == 2
+
+
 def test_yongxi_alt_form_resolves_too():
     """沖帝在位的 145 年，史書同時有 永熹/永憙 兩寫法。"""
     for name in ("永熹", "永憙"):

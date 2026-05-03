@@ -111,6 +111,10 @@ ERAS: tuple[Era, ...] = (
     Era("天冊", 275, 275, "wu"),
     Era("天璽", 276, 276, "wu"),
     Era("天紀", 277, 280, "wu"),
+    # 西晉 (only the eras up through 三国 unification at 太康元年 = 280 — 资治通鉴 reaches that)
+    Era("泰始", 265, 274, "jin"),    # 晉武帝
+    Era("咸寧", 275, 279, "jin"),
+    Era("太康", 280, 289, "jin"),
 )
 
 _DIGITS = {"元": 1, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
@@ -155,7 +159,18 @@ _ERA_INDEX: dict[str, list[Era]] = {}
 for _e in ERAS:
     _ERA_INDEX.setdefault(_e.name, []).append(_e)
 
-_DYNASTY_FOR_BOOK = {"wei": "wei", "shu": "shu", "wu": "wu", "hhs": "han"}
+_DYNASTY_FOR_BOOK = {"wei": "wei", "shu": "shu", "wu": "wu", "hhs": "han", "zztj": "zztj"}
+
+# Per-book set of accepted dynasty contexts for era resolution. 三国志 and 后汉书
+# books each have a "home" dynasty + 漢; 资治通鉴 spans every relevant dynasty
+# because it's编年 chronicle of all of them.
+_ACCEPTED_DYNASTIES_FOR_BOOK = {
+    "wei": {"wei", "han"},
+    "shu": {"shu", "han"},
+    "wu": {"wu", "han"},
+    "hhs": {"han"},
+    "zztj": {"han", "wei", "shu", "wu", "jin"},
+}
 
 
 def resolve_era(era_name: str, era_year: int, *, book: str) -> Optional[Era]:
@@ -167,10 +182,9 @@ def resolve_era(era_name: str, era_year: int, *, book: str) -> Optional[Era]:
     candidates = _ERA_INDEX.get(era_name, [])
     if not candidates or era_year < 1:
         return None
-    own = _DYNASTY_FOR_BOOK.get(book)
-    if not own:
+    accepted = _ACCEPTED_DYNASTIES_FOR_BOOK.get(book)
+    if accepted is None:
         return None
-    accepted = {own, "han"}
     matching = [c for c in candidates if c.dynasty in accepted]
     matching = [c for c in matching if era_year <= (c.end_ad - c.start_ad + 1)]
     if len(matching) != 1:
@@ -362,6 +376,14 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
         if kind == "absolute":
             d = info["match"]
             out.append(d)
+            # 编年体 (e.g. 资治通鉴) reads strictly forward — an in-text absolute
+            # ref to an earlier year is a flashback for context, not a state move.
+            # Bio-style works (sanguozhi/houhanshu) can also do this, e.g. an obituary
+            # paragraph that references early career years; the same backward-only
+            # guard avoids polluting subsequent paragraphs' state. We still emit
+            # the annotation at the flashback's actual year_ad.
+            if (state.year_ad is not None and d.year_ad < state.year_ad):
+                continue
             state = TimelineState(era=d.era, era_year=d.era_year, year_ad=d.year_ad)
             continue
 
