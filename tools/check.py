@@ -28,7 +28,7 @@ KNOWN_SOURCE_IDS = {"wikisource", "ctext", "zhonghua1959", "bona", "wuying"}
 
 REQUIRED_ANNOTATIONS_FILE_FIELDS = ("chapter", "source", "annotations")
 REQUIRED_ANNOTATION_FIELDS = ("id", "anchor", "at", "length", "type", "text")
-ALLOWED_ANNOTATION_TYPES = {"pei", "chen", "editor", "crossref", "temporal"}
+ALLOWED_ANNOTATION_TYPES = {"pei", "lixian", "chen", "editor", "crossref", "temporal"}
 REQUIRED_TEMPORAL_FIELDS = ("year_ad",)
 ALLOWED_TEMPORAL_RESOLUTIONS = {
     "absolute", "bare_year", "bare_month", "this_year", "next_year", "prev_year",
@@ -120,8 +120,12 @@ def _segments_for_chapter(chapter_id: str, repo_root: Path) -> dict[str, int] | 
     m = _CHAPTER_ID_RE.match(chapter_id)
     if not m:
         return None
-    book, juan_str = m.group(1), int(m.group(2))
-    text_path = repo_root / "texts" / "sanguozhi" / book / f"{juan_str:02d}.md"
+    book, juan = m.group(1), int(m.group(2))
+    # Layout differs by work: sanguozhi nests by book, 后汉书 is flat under houhanshu/.
+    if book == "hhs":
+        text_path = repo_root / "texts" / "houhanshu" / f"{juan:02d}.md"
+    else:
+        text_path = repo_root / "texts" / "sanguozhi" / book / f"{juan:02d}.md"
     if not text_path.exists():
         return None
     try:

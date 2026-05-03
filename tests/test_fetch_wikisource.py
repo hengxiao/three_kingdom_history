@@ -166,6 +166,23 @@ def test_split_main_when_paragraph_is_pure_annotation():
 # ---------- title normalization ----------
 
 @pytest.mark.parametrize("raw,expected", [
+    ("卷八·帝紀第八　孝靈皇帝", "孝靈皇帝"),
+    ("卷九·帝紀第九 孝獻帝", "孝獻帝"),
+    ("皇后紀第十下", "皇后紀"),
+    ("馬融列傳 第五十上", "馬融列傳"),
+    ("蔡邕列傳 第五十下", "蔡邕列傳"),
+    ("董卓列傳 第六十二", "董卓列傳"),
+    ("袁紹劉表列傳　第六十四下", "袁紹劉表列傳"),
+    ("卷七十 鄭孔荀列傳 第六十", "鄭孔荀列傳"),
+    ("卷八十下·文苑列傳第七十下", "文苑列傳"),
+    ("卷七十九上·儒林列传第六十九上", "儒林列传"),
+])
+def test_normalize_title_hhs(raw, expected):
+    from tools.fetch_wikisource import _normalize_title_hhs
+    assert _normalize_title_hhs(raw) == expected
+
+
+@pytest.mark.parametrize("raw,expected", [
     ("魏書·后妃傳", "魏書·后妃傳"),
     ("《吳書》·妃嬪傳", "吳書·妃嬪傳"),
     ("蜀書四 二主妃子傳", "蜀書·二主妃子傳"),

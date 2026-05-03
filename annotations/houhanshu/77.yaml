@@ -1,0 +1,42 @@
+chapter: hhs.77
+source:
+  id: wikisource
+  url: https://zh.wikisource.org/wiki/後漢書/卷77
+  retrieved: '2026-05-03'
+  sha256: 76277171c88f35e2d5e831eb07d557ee883e0e828afa94f981c4ecd48e6f9ff5
+annotations:
+- id: hhs.77.p30.t1
+  anchor: hhs.77.p30
+  at: 46
+  length: 4
+  type: temporal
+  text: 光和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 179
+  era: 光和
+  era_year: 2
+- id: hhs.77.p32.t1
+  anchor: hhs.77.p32
+  at: 208
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 179
+  era: 光和
+  era_year: 2
+  month_chinese: 一月
+  month_ordinal: 1
+- id: hhs.77.p34.t1
+  anchor: hhs.77.p34
+  at: 190
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 182
+  era: 光和
+  era_year: 5

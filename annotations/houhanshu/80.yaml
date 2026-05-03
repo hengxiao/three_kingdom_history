@@ -1,0 +1,29 @@
+chapter: hhs.80
+source:
+  id: wikisource
+  url: https://zh.wikisource.org/wiki/後漢書/卷80上
+  retrieved: '2026-05-03'
+  sha256: 6e74be150edfdfeed6494b4c1bcbb421dc3e8bb2f3bc1d287d5c34fbf00ddb0c
+annotations:
+- id: hhs.80.p73.t1
+  anchor: hhs.80.p73
+  at: 0
+  length: 4
+  type: temporal
+  text: 光和元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 178
+  era: 光和
+  era_year: 1
+- id: hhs.80.p101.t1
+  anchor: hhs.80.p101
+  at: 45
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 183
+  era: 光和
+  era_year: 6

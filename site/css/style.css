@@ -81,15 +81,22 @@ footer {
 }
 
 /* ---------- index page ---------- */
-.book-section {
+.work-section {
   margin-bottom: 44px;
 }
-.book-section h2 {
-  margin: 0 0 12px;
+.work-title {
+  margin: 0 0 14px;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 4px;
   color: var(--accent);
-  font-size: 20px;
+  font-size: 22px;
+  letter-spacing: 0.08em;
+}
+.book-section { margin-bottom: 22px; }
+.book-title {
+  margin: 14px 0 8px;
+  font-size: 16px;
+  color: var(--muted);
 }
 .chapter-list {
   display: grid;
@@ -237,7 +244,7 @@ footer {
 }
 
 body.hide-pei .pei-ref,
-body.hide-pei .note-pei { display: none; }
+body.hide-pei .note-commentary { display: none; }
 
 body.hide-temporal .temporal { background: transparent; color: inherit; }
 body.hide-temporal .temporal-ad,
@@ -245,8 +252,8 @@ body.hide-temporal .note-temporal { display: none; }
 
 /* Hide the notes container when nothing is left to show. */
 body.hide-pei.hide-temporal .notes { display: none; }
-body.hide-pei .notes:has(.note-pei):not(:has(.note-temporal)) { display: none; }
-body.hide-temporal .notes:has(.note-temporal):not(:has(.note-pei)) { display: none; }
+body.hide-pei .notes:has(.note-commentary):not(:has(.note-temporal)) { display: none; }
+body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { display: none; }
 
 .error {
   border: 1px solid var(--warn);

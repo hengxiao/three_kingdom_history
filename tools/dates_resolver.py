@@ -126,7 +126,7 @@ _ERA_INDEX: dict[str, list[Era]] = {}
 for _e in ERAS:
     _ERA_INDEX.setdefault(_e.name, []).append(_e)
 
-_DYNASTY_FOR_BOOK = {"wei": "wei", "shu": "shu", "wu": "wu"}
+_DYNASTY_FOR_BOOK = {"wei": "wei", "shu": "shu", "wu": "wu", "hhs": "han"}
 
 
 def resolve_era(era_name: str, era_year: int, *, book: str) -> Optional[Era]:

@@ -49,8 +49,10 @@ _TITLE_NORMALIZE_RE = re.compile(
     rf"^(魏書|蜀書|吳書)[{_ORDINAL_CHARS}]*\s*[{_DOT_CHARS}\s]+\s*(.+?)(?:\s*第[{_ORDINAL_CHARS}]+)?$"
 )
 _VOLUME_PREFIX_RE = re.compile(rf"^卷[{_ORDINAL_CHARS}]+[\s{_DOT_CHARS}]+")
+# Wikisource has rendered both `class="mw-parser-output"` (older 三國志 pages) and
+# `class="mw-content-ltr mw-parser-output"` (newer 後漢書 pages); accept both.
 _BODY_RE = re.compile(
-    r'<div class="mw-parser-output"[^>]*>(.*?)(?:<div class="printfooter"|<div id="catlinks")',
+    r'<div class="[^"]*\bmw-parser-output\b[^"]*"[^>]*>(.*?)(?:<div class="printfooter"|<div id="catlinks")',
     re.DOTALL,
 )
 _P_TAG_RE = re.compile(r"<p\b[^>]*>(.*?)</p>", re.DOTALL)
@@ -249,7 +251,7 @@ def _process_paragraphs_lenient(p_texts: list[str]) -> list[tuple[str, list[WSAn
 
 
 def _normalize_title(raw: str) -> str:
-    """Normalize Wikisource header title to '<book>·<chapter>' form."""
+    """Normalize Wikisource header title to '<book>·<chapter>' form (sanguozhi)."""
     s = raw.replace("《", "").replace("》", "").strip()
     s = s.replace("呉", "吳").replace("吴", "吳")  # Japanese / simplified → traditional
     s = _VOLUME_PREFIX_RE.sub("", s)              # strip leading "卷N " (e.g. "卷四十九 吳書...")
@@ -257,15 +259,42 @@ def _normalize_title(raw: str) -> str:
     return f"{m.group(1)}·{m.group(2)}" if m else s
 
 
-def _extract_title(html: str) -> str:
+_HHS_VOLUME_PREFIX_RE = re.compile(rf"^卷[{_ORDINAL_CHARS}]+[上中下]?[·•・‧\s　]+")
+_HHS_CATEGORY_PREFIX_RE = re.compile(rf"^(帝紀|本紀|皇后紀)第[{_ORDINAL_CHARS}]+[上中下]?[\s　]+")
+_HHS_TRAILING_ORDINAL_RE = re.compile(rf"\s*第[{_ORDINAL_CHARS}]+[上中下]?\s*$")
+
+
+def _normalize_title_hhs(raw: str) -> str:
+    """Normalize a Wikisource 後漢書 header into a clean chapter title.
+
+    Strips the leading 卷N(上|下)?(·| ) prefix, the trailing 第N(上|中|下)? ordinal,
+    and a leading "<category>第N "  block (so e.g. 帝紀第八　孝靈皇帝 → 孝靈皇帝).
+    Other forms — 列傳 with the surname/name before, e.g. 馬融列傳 — are left as-is
+    after the trailing-ordinal strip.
+    """
+    s = raw.replace("《", "").replace("》", "").strip()
+    s = _HHS_VOLUME_PREFIX_RE.sub("", s)
+    s = _HHS_CATEGORY_PREFIX_RE.sub("", s)
+    s = _HHS_TRAILING_ORDINAL_RE.sub("", s)
+    return s.strip()
+
+
+_HHS_TITLE_KEYWORDS = ("帝紀", "本紀", "皇后紀", "列傳", "列传", "志第", "紀第", "傳第", "传第")
+
+
+def _extract_title(html: str, *, work: str = "sanguozhi") -> str:
+    """Find the first wikisource-header line that names a chapter, normalized for `work`."""
     for m in _TITLE_CANDIDATE_RE.finditer(html):
-        # Strip nested HTML (e.g. <b>...</b> wrapping the chapter name) and collapse whitespace.
         cand = unescape(_TAG_RE.sub("", m.group(1)))
         cand = re.sub(r"\s+", " ", cand).strip()
         if not cand:
             continue
-        # Canonicalize alt-form book names so the candidate filter sees the standard.
         cand_canon = cand.replace("呉", "吳").replace("吴", "吳")
+        if work == "houhanshu":
+            if not any(kw in cand_canon for kw in _HHS_TITLE_KEYWORDS):
+                continue
+            return _normalize_title_hhs(cand)
+        # default: sanguozhi
         if not any(book in cand_canon for book in ("魏書", "蜀書", "吳書")):
             continue
         normalized = _normalize_title(cand)
@@ -275,9 +304,9 @@ def _extract_title(html: str) -> str:
     return ""
 
 
-def parse_wikisource_html(html: str) -> WSChapter:
+def parse_wikisource_html(html: str, *, work: str = "sanguozhi") -> WSChapter:
     """Extract canonical title + paragraphs (annotations stripped) from a Wikisource page."""
-    title = _extract_title(html)
+    title = _extract_title(html, work=work)
 
     bm = _BODY_RE.search(html)
     body = bm.group(1) if bm else html

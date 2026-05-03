@@ -27,26 +27,47 @@ function setBreadcrumbs(parts) {
 
 /* ---------- INDEX PAGE ---------- */
 
+// Cached at first load: book_id → { work_id, title, chapters[…with data_url] }.
+// Used to derive the chapter-JSON URL for arbitrary `#/chapter/<book>/<juan>` links.
+let INDEX_CACHE = null;
+
+async function loadIndex() {
+  if (!INDEX_CACHE) INDEX_CACHE = await loadJSON(`${DATA_BASE}/index.json`);
+  return INDEX_CACHE;
+}
+
 async function renderIndex() {
-  setBreadcrumbs([{ label: "三國志", href: "#/" }]);
+  setBreadcrumbs([{ label: "目錄", href: "#/" }]);
   const main = $("#content");
   main.innerHTML = "載入目錄中…";
   try {
-    const idx = await loadJSON(`${DATA_BASE}/index.json`);
-    const html = idx.books.map(book => {
-      const items = book.chapters.map(ch => `
-        <li>
-          <a href="#/chapter/${book.id}/${ch.juan}">
-            <span class="chapter-title">${escapeHTML(`卷${ch.juan}　${ch.title}`)}</span>
-            <span class="chapter-meta">${ch.n_segments} 段 · 裴注 ${ch.n_pei} · 時間錨點 ${ch.n_temporal}</span>
-          </a>
-        </li>`).join("");
-      return `
-        <section class="book-section">
-          <h2>${escapeHTML(book.title)}（共 ${book.chapters.length} 卷）</h2>
-          <ul class="chapter-list">${items}</ul>
-        </section>`;
-    }).join("");
+    const idx = await loadIndex();
+    // Group books by work_id to render each work as its own section.
+    const byWork = new Map();
+    for (const book of idx.books) {
+      const wid = book.work_id || "sanguozhi";
+      if (!byWork.has(wid)) byWork.set(wid, { work_id: wid, work_title: book.work_title || wid, books: [] });
+      byWork.get(wid).books.push(book);
+    }
+    const html = [...byWork.values()].map(work => `
+      <section class="work-section">
+        <h2 class="work-title">${escapeHTML(work.work_title)}</h2>
+        ${work.books.map(book => {
+          const items = book.chapters.map(ch => `
+            <li>
+              <a href="#/chapter/${book.id}/${ch.juan}">
+                <span class="chapter-title">${escapeHTML(`卷${ch.juan}　${ch.title}`)}</span>
+                <span class="chapter-meta">${ch.n_segments} 段 · 注 ${ch.n_pei} · 時間 ${ch.n_temporal}</span>
+              </a>
+            </li>`).join("");
+          // For multi-book works (sanguozhi), title each book; for single-book (hhs), skip the
+          // redundant book heading.
+          const heading = work.books.length > 1
+            ? `<h3 class="book-title">${escapeHTML(book.title)}（共 ${book.chapters.length} 卷）</h3>`
+            : "";
+          return `<div class="book-section">${heading}<ul class="chapter-list">${items}</ul></div>`;
+        }).join("")}
+      </section>`).join("");
     main.innerHTML = html || `<div class="error">目錄為空。請先生成數據。</div>`;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
@@ -56,15 +77,22 @@ async function renderIndex() {
 /* ---------- CHAPTER PAGE ---------- */
 
 async function renderChapter(book, juan) {
-  const nn = String(juan).padStart(2, "0");
+  // Look up the precomputed data_url from the index.
+  const idx = await loadIndex();
+  const bookEntry = idx.books.find(b => b.id === book);
+  const chapterEntry = bookEntry && bookEntry.chapters.find(c => Number(c.juan) === Number(juan));
+  const dataUrl = chapterEntry
+    ? chapterEntry.data_url
+    : `${DATA_BASE}/${bookEntry?.work_id || "sanguozhi"}/${book}/${String(juan).padStart(2, "0")}.json`;
+
   setBreadcrumbs([
-    { label: "三國志", href: "#/" },
+    { label: "目錄", href: "#/" },
     { label: `${bookTitleFromId(book)}卷${juan}`, href: `#/chapter/${book}/${juan}` },
   ]);
   const main = $("#content");
   main.innerHTML = "載入章節中…";
   try {
-    const ch = await loadJSON(`${DATA_BASE}/sanguozhi/${book}/${nn}.json`);
+    const ch = await loadJSON(dataUrl);
     main.innerHTML = renderChapterHTML(ch);
   } catch (err) {
     main.innerHTML = `<div class="error">載入章節失敗：${escapeHTML(err.message)}</div>`;
@@ -72,7 +100,7 @@ async function renderChapter(book, juan) {
 }
 
 function bookTitleFromId(id) {
-  return { wei: "魏書", shu: "蜀書", wu: "吳書" }[id] || id;
+  return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書" }[id] || id;
 }
 
 function renderChapterHTML(ch) {
@@ -171,11 +199,11 @@ function renderSegmentText(seg) {
   }
   if (pos < text.length) out += escapeHTML(text.slice(pos));
 
-  // 注解块: pei 列表 + temporal 列表（如有）
+  // 注解块: 注 列表 (pei + lixian) + temporal 列表（如有）
   let notesHTML = "";
   if (peis.length || temporals.length) {
     const peiItems = peis.map((a, i) => `
-      <li class="note-item note-pei" id="${a.id}-note">
+      <li class="note-item note-commentary note-${a.type}" id="${a.id}-note">
         <span class="note-marker">[${i + 1}]</span>
         <span class="note-text">${escapeHTML(a.text)}</span>
       </li>`).join("");

@@ -1,16 +1,18 @@
 {
-  "work": "sanguozhi",
-  "work_title": "三國志",
   "generated_by": "tools/build_site_data.py",
   "books": [
     {
       "id": "wei",
       "title": "魏書",
+      "work_id": "sanguozhi",
+      "work_title": "三國志",
       "chapters": [
         {
           "id": "wei.1",
           "juan": 1,
           "title": "魏書·武帝紀",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/01.json",
           "n_segments": 124,
           "n_pei": 117,
           "n_temporal": 152
@@ -19,6 +21,8 @@
           "id": "wei.2",
           "juan": 2,
           "title": "魏書·文帝紀",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/02.json",
           "n_segments": 41,
           "n_pei": 44,
           "n_temporal": 72
@@ -27,6 +31,8 @@
           "id": "wei.3",
           "juan": 3,
           "title": "魏書·明帝紀",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/03.json",
           "n_segments": 43,
           "n_pei": 37,
           "n_temporal": 105
@@ -35,6 +41,8 @@
           "id": "wei.4",
           "juan": 4,
           "title": "魏書·三少帝紀",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/04.json",
           "n_segments": 84,
           "n_pei": 33,
           "n_temporal": 167
@@ -43,6 +51,8 @@
           "id": "wei.5",
           "juan": 5,
           "title": "魏書·后妃傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/05.json",
           "n_segments": 23,
           "n_pei": 19,
           "n_temporal": 32
@@ -51,6 +61,8 @@
           "id": "wei.6",
           "juan": 6,
           "title": "魏書·董二袁劉傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/06.json",
           "n_segments": 37,
           "n_pei": 90,
           "n_temporal": 21
@@ -59,6 +71,8 @@
           "id": "wei.7",
           "juan": 7,
           "title": "魏書·呂布臧洪傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/07.json",
           "n_segments": 23,
           "n_pei": 25,
           "n_temporal": 7
@@ -67,6 +81,8 @@
           "id": "wei.8",
           "juan": 8,
           "title": "魏書·二公孫陶四張傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/08.json",
           "n_segments": 45,
           "n_pei": 45,
           "n_temporal": 19
@@ -75,6 +91,8 @@
           "id": "wei.9",
           "juan": 9,
           "title": "魏書·諸夏侯曹傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/09.json",
           "n_segments": 42,
           "n_pei": 49,
           "n_temporal": 25
@@ -83,6 +101,8 @@
           "id": "wei.10",
           "juan": 10,
           "title": "魏書·荀彧荀攸賈詡傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/10.json",
           "n_segments": 42,
           "n_pei": 38,
           "n_temporal": 19
@@ -91,6 +111,8 @@
           "id": "wei.11",
           "juan": 11,
           "title": "魏書·袁張涼國田王邴管傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/11.json",
           "n_segments": 38,
           "n_pei": 44,
           "n_temporal": 17
@@ -99,6 +121,8 @@
           "id": "wei.12",
           "juan": 12,
           "title": "魏書·崔毛徐何邢鮑司馬傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/12.json",
           "n_segments": 49,
           "n_pei": 26,
           "n_temporal": 13
@@ -107,6 +131,8 @@
           "id": "wei.13",
           "juan": 13,
           "title": "魏書·鍾繇華歆王朗傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/13.json",
           "n_segments": 29,
           "n_pei": 39,
           "n_temporal": 14
@@ -115,6 +141,8 @@
           "id": "wei.14",
           "juan": 14,
           "title": "魏書·程郭董劉蔣劉傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/14.json",
           "n_segments": 90,
           "n_pei": 41,
           "n_temporal": 28
@@ -123,6 +151,8 @@
           "id": "wei.15",
           "juan": 15,
           "title": "魏書·劉司馬梁張溫賈傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/15.json",
           "n_segments": 34,
           "n_pei": 26,
           "n_temporal": 9
@@ -131,6 +161,8 @@
           "id": "wei.16",
           "juan": 16,
           "title": "魏書·任苏杜郑仓传",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/16.json",
           "n_segments": 42,
           "n_pei": 33,
           "n_temporal": 7
@@ -139,6 +171,8 @@
           "id": "wei.17",
           "juan": 17,
           "title": "魏書·張樂于張徐傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/17.json",
           "n_segments": 22,
           "n_pei": 12,
           "n_temporal": 8
@@ -147,6 +181,8 @@
           "id": "wei.18",
           "juan": 18,
           "title": "魏書·二李臧文吕许典二庞阎传",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/18.json",
           "n_segments": 32,
           "n_pei": 16,
           "n_temporal": 1
@@ -155,6 +191,8 @@
           "id": "wei.19",
           "juan": 19,
           "title": "魏書·任城陳蕭王傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/19.json",
           "n_segments": 29,
           "n_pei": 19,
           "n_temporal": 31
@@ -163,6 +201,8 @@
           "id": "wei.20",
           "juan": 20,
           "title": "魏書·武文世王公傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/20.json",
           "n_segments": 48,
           "n_pei": 11,
           "n_temporal": 178
@@ -171,6 +211,8 @@
           "id": "wei.21",
           "juan": 21,
           "title": "魏書·王衞二劉傅傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/21.json",
           "n_segments": 41,
           "n_pei": 53,
           "n_temporal": 6
@@ -179,6 +221,8 @@
           "id": "wei.22",
           "juan": 22,
           "title": "魏書·桓二陈徐卫卢传",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/22.json",
           "n_segments": 55,
           "n_pei": 20,
           "n_temporal": 7
@@ -187,6 +231,8 @@
           "id": "wei.23",
           "juan": 23,
           "title": "魏書·和常楊杜趙裴傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/23.json",
           "n_segments": 29,
           "n_pei": 18,
           "n_temporal": 6
@@ -195,6 +241,8 @@
           "id": "wei.24",
           "juan": 24,
           "title": "魏書·韓崔高孫王傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/24.json",
           "n_segments": 36,
           "n_pei": 16,
           "n_temporal": 10
@@ -203,6 +251,8 @@
           "id": "wei.25",
           "juan": 25,
           "title": "魏書·辛毗楊阜高堂隆傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/25.json",
           "n_segments": 53,
           "n_pei": 12,
           "n_temporal": 10
@@ -211,6 +261,8 @@
           "id": "wei.26",
           "juan": 26,
           "title": "魏書·滿田牽郭傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/26.json",
           "n_segments": 33,
           "n_pei": 11,
           "n_temporal": 33
@@ -219,6 +271,8 @@
           "id": "wei.27",
           "juan": 27,
           "title": "魏書·徐胡二王傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/27.json",
           "n_segments": 31,
           "n_pei": 16,
           "n_temporal": 13
@@ -227,6 +281,8 @@
           "id": "wei.28",
           "juan": 28,
           "title": "魏書·王、毌丘、諸葛、鄧、鍾傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/28.json",
           "n_segments": 67,
           "n_pei": 49,
           "n_temporal": 33
@@ -235,6 +291,8 @@
           "id": "wei.29",
           "juan": 29,
           "title": "魏書·方技傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/29.json",
           "n_segments": 52,
           "n_pei": 25,
           "n_temporal": 17
@@ -243,6 +301,8 @@
           "id": "wei.30",
           "juan": 30,
           "title": "魏書·烏丸鮮卑東夷傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wei/30.json",
           "n_segments": 43,
           "n_pei": 11,
           "n_temporal": 42
@@ -252,11 +312,15 @@
     {
       "id": "shu",
       "title": "蜀書",
+      "work_id": "sanguozhi",
+      "work_title": "三國志",
       "chapters": [
         {
           "id": "shu.1",
           "juan": 1,
           "title": "蜀書·劉二牧傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/01.json",
           "n_segments": 11,
           "n_pei": 20,
           "n_temporal": 7
@@ -265,6 +329,8 @@
           "id": "shu.2",
           "juan": 2,
           "title": "蜀書·先主傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/02.json",
           "n_segments": 38,
           "n_pei": 46,
           "n_temporal": 30
@@ -273,6 +339,8 @@
           "id": "shu.3",
           "juan": 3,
           "title": "蜀書·後主傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/03.json",
           "n_segments": 46,
           "n_pei": 14,
           "n_temporal": 72
@@ -281,6 +349,8 @@
           "id": "shu.4",
           "juan": 4,
           "title": "蜀書·二主妃子傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/04.json",
           "n_segments": 10,
           "n_pei": 6,
           "n_temporal": 24
@@ -289,6 +359,8 @@
           "id": "shu.5",
           "juan": 5,
           "title": "蜀書·諸葛亮傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/05.json",
           "n_segments": 41,
           "n_pei": 34,
           "n_temporal": 21
@@ -297,6 +369,8 @@
           "id": "shu.6",
           "juan": 6,
           "title": "蜀書·關張馬黃趙傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/06.json",
           "n_segments": 19,
           "n_pei": 22,
           "n_temporal": 14
@@ -305,6 +379,8 @@
           "id": "shu.7",
           "juan": 7,
           "title": "蜀書·龐統法正傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/07.json",
           "n_segments": 10,
           "n_pei": 13,
           "n_temporal": 1
@@ -313,6 +389,8 @@
           "id": "shu.8",
           "juan": 8,
           "title": "蜀書·許糜孫簡伊秦傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/08.json",
           "n_segments": 26,
           "n_pei": 20,
           "n_temporal": 6
@@ -321,6 +399,8 @@
           "id": "shu.9",
           "juan": 9,
           "title": "蜀書·董劉馬陳董呂傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/09.json",
           "n_segments": 21,
           "n_pei": 17,
           "n_temporal": 12
@@ -329,6 +409,8 @@
           "id": "shu.10",
           "juan": 10,
           "title": "蜀書·劉彭廖李劉魏楊傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/10.json",
           "n_segments": 29,
           "n_pei": 17,
           "n_temporal": 25
@@ -337,6 +419,8 @@
           "id": "shu.11",
           "juan": 11,
           "title": "蜀書·霍王向張楊費傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/11.json",
           "n_segments": 19,
           "n_pei": 11,
           "n_temporal": 13
@@ -345,6 +429,8 @@
           "id": "shu.12",
           "juan": 12,
           "title": "蜀書·二杜周許孟來尹李譙郤傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/12.json",
           "n_segments": 46,
           "n_pei": 28,
           "n_temporal": 16
@@ -353,6 +439,8 @@
           "id": "shu.13",
           "juan": 13,
           "title": "蜀書·黃李呂馬王張傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/13.json",
           "n_segments": 28,
           "n_pei": 18,
           "n_temporal": 27
@@ -361,6 +449,8 @@
           "id": "shu.14",
           "juan": 14,
           "title": "蜀書·蔣琬費禕姜維傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/14.json",
           "n_segments": 25,
           "n_pei": 19,
           "n_temporal": 28
@@ -369,6 +459,8 @@
           "id": "shu.15",
           "juan": 15,
           "title": "蜀書·鄧張宗楊傳",
+          "category": null,
+          "data_url": "data/sanguozhi/shu/15.json",
           "n_segments": 34,
           "n_pei": 14,
           "n_temporal": 30
@@ -378,11 +470,15 @@
     {
       "id": "wu",
       "title": "吳書",
+      "work_id": "sanguozhi",
+      "work_title": "三國志",
       "chapters": [
         {
           "id": "wu.1",
           "juan": 1,
           "title": "吳書·孫破虜討逆傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/01.json",
           "n_segments": 21,
           "n_pei": 36,
           "n_temporal": 7
@@ -391,6 +487,8 @@
           "id": "wu.2",
           "juan": 2,
           "title": "吳書·吳主傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/02.json",
           "n_segments": 65,
           "n_pei": 62,
           "n_temporal": 137
@@ -399,6 +497,8 @@
           "id": "wu.3",
           "juan": 3,
           "title": "吳書·三嗣主傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/03.json",
           "n_segments": 47,
           "n_pei": 42,
           "n_temporal": 122
@@ -407,6 +507,8 @@
           "id": "wu.4",
           "juan": 4,
           "title": "吳書·劉繇太史慈士燮傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/04.json",
           "n_segments": 21,
           "n_pei": 15,
           "n_temporal": 3
@@ -415,6 +517,8 @@
           "id": "wu.5",
           "juan": 5,
           "title": "吳書·妃嬪傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/05.json",
           "n_segments": 20,
           "n_pei": 18,
           "n_temporal": 8
@@ -423,6 +527,8 @@
           "id": "wu.6",
           "juan": 6,
           "title": "吳書·宗室傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/06.json",
           "n_segments": 21,
           "n_pei": 22,
           "n_temporal": 20
@@ -431,6 +537,8 @@
           "id": "wu.7",
           "juan": 7,
           "title": "吳書·張顧諸葛歩傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/07.json",
           "n_segments": 46,
           "n_pei": 39,
           "n_temporal": 19
@@ -439,6 +547,8 @@
           "id": "wu.8",
           "juan": 8,
           "title": "吳書·張嚴程闞薛傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/08.json",
           "n_segments": 29,
           "n_pei": 24,
           "n_temporal": 16
@@ -447,6 +557,8 @@
           "id": "wu.9",
           "juan": 9,
           "title": "吳書·周瑜、魯肅、吕蒙傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/09.json",
           "n_segments": 42,
           "n_pei": 23,
           "n_temporal": 10
@@ -455,6 +567,8 @@
           "id": "wu.10",
           "juan": 10,
           "title": "吳書·十二虎臣傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/10.json",
           "n_segments": 61,
           "n_pei": 21,
           "n_temporal": 16
@@ -463,6 +577,8 @@
           "id": "wu.11",
           "juan": 11,
           "title": "吳書·三朱吕範傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/11.json",
           "n_segments": 30,
           "n_pei": 14,
           "n_temporal": 36
@@ -471,6 +587,8 @@
           "id": "wu.12",
           "juan": 12,
           "title": "吳書·虞陆张骆陆吾朱传",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/12.json",
           "n_segments": 43,
           "n_pei": 23,
           "n_temporal": 6
@@ -479,6 +597,8 @@
           "id": "wu.13",
           "juan": 13,
           "title": "吳書·陆逊传",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/13.json",
           "n_segments": 48,
           "n_pei": 14,
           "n_temporal": 20
@@ -487,6 +607,8 @@
           "id": "wu.14",
           "juan": 14,
           "title": "吳書·吳主五子傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/14.json",
           "n_segments": 21,
           "n_pei": 16,
           "n_temporal": 20
@@ -495,6 +617,8 @@
           "id": "wu.15",
           "juan": 15,
           "title": "吳書·贺全吕周钟离传",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/15.json",
           "n_segments": 48,
           "n_pei": 22,
           "n_temporal": 29
@@ -503,6 +627,8 @@
           "id": "wu.16",
           "juan": 16,
           "title": "吳書·潘浚陆凯传",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/16.json",
           "n_segments": 34,
           "n_pei": 9,
           "n_temporal": 12
@@ -511,6 +637,8 @@
           "id": "wu.17",
           "juan": 17,
           "title": "吳書·是仪胡综传",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/17.json",
           "n_segments": 21,
           "n_pei": 4,
           "n_temporal": 3
@@ -519,6 +647,8 @@
           "id": "wu.18",
           "juan": 18,
           "title": "吳書·吳範劉惇趙達傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/18.json",
           "n_segments": 19,
           "n_pei": 6,
           "n_temporal": 1
@@ -527,6 +657,8 @@
           "id": "wu.19",
           "juan": 19,
           "title": "吳書·諸葛滕二孫濮陽傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/19.json",
           "n_segments": 46,
           "n_pei": 22,
           "n_temporal": 16
@@ -535,9 +667,279 @@
           "id": "wu.20",
           "juan": 20,
           "title": "吳書·王樓賀韋華傳",
+          "category": null,
+          "data_url": "data/sanguozhi/wu/20.json",
           "n_segments": 45,
           "n_pei": 5,
           "n_temporal": 10
+        }
+      ]
+    },
+    {
+      "id": "hhs",
+      "title": "後漢書",
+      "work_id": "houhanshu",
+      "work_title": "後漢書",
+      "chapters": [
+        {
+          "id": "hhs.8",
+          "juan": 8,
+          "title": "孝靈帝紀",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/08.json",
+          "n_segments": 284,
+          "n_pei": 113,
+          "n_temporal": 184
+        },
+        {
+          "id": "hhs.9",
+          "juan": 9,
+          "title": "孝獻帝紀",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/09.json",
+          "n_segments": 38,
+          "n_pei": 87,
+          "n_temporal": 147
+        },
+        {
+          "id": "hhs.10",
+          "juan": 10,
+          "title": "皇后紀（下）",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/10.json",
+          "n_segments": 79,
+          "n_pei": 148,
+          "n_temporal": 71
+        },
+        {
+          "id": "hhs.57",
+          "juan": 57,
+          "title": "杜欒劉李劉謝列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/57.json",
+          "n_segments": 158,
+          "n_pei": 3,
+          "n_temporal": 18
+        },
+        {
+          "id": "hhs.58",
+          "juan": 58,
+          "title": "虞傅蓋臧列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/58.json",
+          "n_segments": 198,
+          "n_pei": 0,
+          "n_temporal": 8
+        },
+        {
+          "id": "hhs.60",
+          "juan": 60,
+          "title": "馬融列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/60.json",
+          "n_segments": 210,
+          "n_pei": 1,
+          "n_temporal": 16
+        },
+        {
+          "id": "hhs.61",
+          "juan": 61,
+          "title": "左周黃列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/61.json",
+          "n_segments": 156,
+          "n_pei": 0,
+          "n_temporal": 16
+        },
+        {
+          "id": "hhs.62",
+          "juan": 62,
+          "title": "荀韓鍾陳列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/62.json",
+          "n_segments": 39,
+          "n_pei": 39,
+          "n_temporal": 4
+        },
+        {
+          "id": "hhs.63",
+          "juan": 63,
+          "title": "李杜列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/63.json",
+          "n_segments": 165,
+          "n_pei": 2,
+          "n_temporal": 0
+        },
+        {
+          "id": "hhs.64",
+          "juan": 64,
+          "title": "吳延史盧趙列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/64.json",
+          "n_segments": 208,
+          "n_pei": 0,
+          "n_temporal": 17
+        },
+        {
+          "id": "hhs.65",
+          "juan": 65,
+          "title": "皇甫張段列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/65.json",
+          "n_segments": 98,
+          "n_pei": 0,
+          "n_temporal": 33
+        },
+        {
+          "id": "hhs.66",
+          "juan": 66,
+          "title": "陳王列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/66.json",
+          "n_segments": 154,
+          "n_pei": 0,
+          "n_temporal": 20
+        },
+        {
+          "id": "hhs.67",
+          "juan": 67,
+          "title": "黨錮列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/67.json",
+          "n_segments": 163,
+          "n_pei": 144,
+          "n_temporal": 18
+        },
+        {
+          "id": "hhs.68",
+          "juan": 68,
+          "title": "郭符許列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/68.json",
+          "n_segments": 49,
+          "n_pei": 51,
+          "n_temporal": 2
+        },
+        {
+          "id": "hhs.69",
+          "juan": 69,
+          "title": "竇何列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/69.json",
+          "n_segments": 35,
+          "n_pei": 0,
+          "n_temporal": 11
+        },
+        {
+          "id": "hhs.70",
+          "juan": 70,
+          "title": "鄭孔荀列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/70.json",
+          "n_segments": 57,
+          "n_pei": 234,
+          "n_temporal": 15
+        },
+        {
+          "id": "hhs.71",
+          "juan": 71,
+          "title": "皇甫嵩朱儁列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/71.json",
+          "n_segments": 42,
+          "n_pei": 56,
+          "n_temporal": 16
+        },
+        {
+          "id": "hhs.72",
+          "juan": 72,
+          "title": "董卓列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/72.json",
+          "n_segments": 46,
+          "n_pei": 139,
+          "n_temporal": 20
+        },
+        {
+          "id": "hhs.73",
+          "juan": 73,
+          "title": "劉虞公孫瓚陶謙列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/73.json",
+          "n_segments": 111,
+          "n_pei": 0,
+          "n_temporal": 14
+        },
+        {
+          "id": "hhs.74",
+          "juan": 74,
+          "title": "袁紹劉表列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/74.json",
+          "n_segments": 318,
+          "n_pei": 103,
+          "n_temporal": 42
+        },
+        {
+          "id": "hhs.75",
+          "juan": 75,
+          "title": "劉焉袁術呂布列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/75.json",
+          "n_segments": 91,
+          "n_pei": 1,
+          "n_temporal": 22
+        },
+        {
+          "id": "hhs.76",
+          "juan": 76,
+          "title": "循吏列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/76.json",
+          "n_segments": 70,
+          "n_pei": 11,
+          "n_temporal": 6
+        },
+        {
+          "id": "hhs.77",
+          "juan": 77,
+          "title": "酷吏列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/77.json",
+          "n_segments": 36,
+          "n_pei": 0,
+          "n_temporal": 3
+        },
+        {
+          "id": "hhs.78",
+          "juan": 78,
+          "title": "宦者列传",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/78.json",
+          "n_segments": 75,
+          "n_pei": 0,
+          "n_temporal": 28
+        },
+        {
+          "id": "hhs.79",
+          "juan": 79,
+          "title": "儒林列传",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/79.json",
+          "n_segments": 128,
+          "n_pei": 0,
+          "n_temporal": 39
+        },
+        {
+          "id": "hhs.80",
+          "juan": 80,
+          "title": "巻八十上·文苑列傳",
+          "category": null,
+          "data_url": "data/houhanshu/hhs/80.json",
+          "n_segments": 118,
+          "n_pei": 0,
+          "n_temporal": 2
         }
       ]
     }

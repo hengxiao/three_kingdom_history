@@ -1,0 +1,34 @@
+# 后汉书 卷 from 灵帝期 onwards. Wikisource URLs: /後漢書/卷N (no zero-pad).
+# `parts` lists which 上/下 split pages to fetch when the chapter is paginated;
+# fetched HTMLs are concatenated paragraph-by-paragraph into a single chapter.
+# When `parts` is omitted, /卷N alone is fetched.
+
+# 本紀
+- { juan: 8,  category: benji,    title: 孝靈帝紀 }
+- { juan: 9,  category: benji,    title: 孝獻帝紀 }
+- { juan: 10, category: benji,    parts: ["下"], title: 皇后紀（下） }   # 卷10上是光武~章帝期皇后；只取下篇
+
+# 列傳
+- { juan: 57, category: liezhuan }
+- { juan: 58, category: liezhuan }
+- { juan: 60, category: liezhuan, parts: ["上","下"] }    # 馬融蔡邕列傳
+- { juan: 61, category: liezhuan }
+- { juan: 62, category: liezhuan }
+- { juan: 63, category: liezhuan }
+- { juan: 64, category: liezhuan }
+- { juan: 65, category: liezhuan }
+- { juan: 66, category: liezhuan }
+- { juan: 67, category: liezhuan }                       # 党錮列傳
+- { juan: 68, category: liezhuan }
+- { juan: 69, category: liezhuan }                       # 竇何列傳
+- { juan: 70, category: liezhuan }                       # 鄭孔荀列傳
+- { juan: 71, category: liezhuan }                       # 皇甫嵩朱儁列傳
+- { juan: 72, category: liezhuan }                       # 董卓列傳
+- { juan: 73, category: liezhuan }                       # 劉虞公孫瓚陶謙列傳
+- { juan: 74, category: liezhuan, parts: ["上","下"] }    # 袁紹劉表列傳
+- { juan: 75, category: liezhuan }                       # 劉焉袁術呂布列傳
+- { juan: 76, category: liezhuan }                       # 循吏列傳
+- { juan: 77, category: liezhuan }                       # 酷吏列傳
+- { juan: 78, category: liezhuan }                       # 宦者列傳
+- { juan: 79, category: liezhuan, parts: ["上","下"] }    # 儒林列傳
+- { juan: 80, category: liezhuan, parts: ["上","下"] }    # 文苑列傳
