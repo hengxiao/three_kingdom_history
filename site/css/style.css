@@ -172,6 +172,17 @@ footer {
   word-spacing: -0.05em;
 }
 
+/* The temporal-link wraps both the surface highlight AND the AD badge so that
+   a click on either jumps to the timeline year. The link itself is invisible —
+   styling is on the inner spans. */
+.temporal-link,
+.temporal-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.temporal-link:hover .temporal { filter: brightness(0.95); }
+.temporal-link:hover .temporal-ad { filter: brightness(0.95); }
+
 /* temporal: highlight surface text + show AD inline */
 .temporal {
   background: var(--temporal-bg);

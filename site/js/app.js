@@ -187,11 +187,19 @@ function renderSegmentText(seg) {
       pos = ev.pos;
     }
     if (ev.kind === "temp_open") {
-      const cls = ev.ann.kind === "relative" ? "temporal temporal--relative" : "temporal";
-      out += `<span class="${cls}" data-resolution="${escapeAttr(ev.ann.resolution || "absolute")}" title="${escapeAttr(temporalTitle(ev.ann))}">`;
+      const isRel = ev.ann.kind === "relative";
+      const cls = isRel ? "temporal temporal--relative" : "temporal";
+      const tooltip = escapeAttr(temporalTitle(ev.ann) + " — 點擊跳到時間軸");
+      const href = ev.ann.year_ad != null ? `#/timeline/${ev.ann.year_ad}` : "";
+      // The wrapping anchor lets a click on either the highlighted surface OR
+      // the trailing AD badge jump to that year on the timeline. Open emits
+      // the anchor + the surface-wrapping span; close closes both, after
+      // emitting the AD badge.
+      out += `<a class="temporal-link" href="${href}" title="${tooltip}"><span class="${cls}" data-resolution="${escapeAttr(ev.ann.resolution || "absolute")}">`;
     } else if (ev.kind === "temp_close") {
-      const cls = ev.ann.kind === "relative" ? "temporal-ad temporal-ad--relative" : "temporal-ad";
-      out += `</span><span class="${cls}" title="${escapeAttr(temporalTitle(ev.ann))}">${formatAD(ev.ann)}</span>`;
+      const isRel = ev.ann.kind === "relative";
+      const adCls = isRel ? "temporal-ad temporal-ad--relative" : "temporal-ad";
+      out += `</span><span class="${adCls}">${formatAD(ev.ann)}</span></a>`;
     } else if (ev.kind === "pei_marker") {
       const n = peiNum.get(ev.ann.id);
       out += `<sup class="pei-ref" data-ann="${escapeAttr(ev.ann.id)}"><a href="#${ev.ann.id}-note">[${n}]</a></sup>`;
@@ -441,7 +449,9 @@ function bindClicks() {
       return;
     }
     // (3) tap on the 正文 (narrow only) — toggle the segment's notes.
-    if (NARROW_MQ.matches) {
+    // Skip when the tap landed on a real link (e.g. a temporal-link inside the
+    // text); the link's own navigation should not also toggle the notes.
+    if (NARROW_MQ.matches && !e.target.closest("a")) {
       const segText = e.target.closest(".seg-text");
       if (segText) {
         const seg = segText.closest(".segment");
