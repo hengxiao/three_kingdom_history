@@ -109,12 +109,62 @@
     {
       "id": "hhs.77.p19",
       "text": "永元五年，復徵為御史中丞。諸竇雖誅，而夏陽侯瓌猶尚在朝。䊸疾之，乃上疏曰：「臣聯臧文仲之事君也，見有禮於君者，事之如孝子之養父母，見無禮於君者，誅之如鷹鸇之逐鳥雀。案夏陽侯瓌，本出輕薄，志在邪僻，學無經術，而妄構講舍，外招儒徒，實會姦桀。輕忽天威，侮慢王室，又造作巡狩封禪上書，惑眾不道，當伏誅戮，而主者營私，不為國計。夫涓流雖寡，浸成江河；爝火雖微，卒能燎野，履霜有漸，可不懲革？宜尋呂產專竊之亂，永惟王莽篡逆之禍，上安社稷之計，下解萬夫之惑。」會瓌歸國，䊸遷司隸校尉。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.77.p19.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "永元五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 93,
+          "era": "永元",
+          "era_year": 5
+        }
+      ]
     },
     {
       "id": "hhs.77.p20",
       "text": "六年夏，旱，車駕自幸洛陽錄囚徒，二人被掠生蟲，坐左轉騎都尉。七年，遷將作大匠。九年，卒於官。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.77.p20.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 94,
+          "era": "永元",
+          "era_year": 6
+        },
+        {
+          "id": "hhs.77.p20.t2",
+          "type": "temporal",
+          "at": 30,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 95,
+          "era": "永元",
+          "era_year": 7
+        },
+        {
+          "id": "hhs.77.p20.t3",
+          "type": "temporal",
+          "at": 39,
+          "length": 2,
+          "text": "九年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 97,
+          "era": "永元",
+          "era_year": 9
+        }
+      ]
     },
     {
       "id": "hhs.77.p21",
@@ -139,7 +189,44 @@
     {
       "id": "hhs.77.p25",
       "text": "視事四年，徵，再遷陳相。縣人彭氏舊豪縱，造起大舍，高樓臨道。昌每出行縣，彭氏婦人輒陞樓而觀。昌不喜，遂敕收付獄，案殺之。又遷為河內太守，又再遷潁川太守。永和五年，徵拜將作大匠。漢安元年，進補大司農，左轉太中大夫，卒於官。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.77.p25.t1",
+          "type": "temporal",
+          "at": 2,
+          "length": 2,
+          "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 92,
+          "era": "永元",
+          "era_year": 4
+        },
+        {
+          "id": "hhs.77.p25.t2",
+          "type": "temporal",
+          "at": 76,
+          "length": 4,
+          "text": "永和五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 140,
+          "era": "永和",
+          "era_year": 5
+        },
+        {
+          "id": "hhs.77.p25.t3",
+          "type": "temporal",
+          "at": 88,
+          "length": 4,
+          "text": "漢安元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 142,
+          "era": "漢安",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.77.p26",

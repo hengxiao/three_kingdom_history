@@ -399,13 +399,13 @@
         {
           "id": "hhs.67.p17.t1",
           "type": "temporal",
-          "at": 62,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 185,
-          "era": "中平",
+          "at": 60,
+          "length": 4,
+          "text": "永興二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 154,
+          "era": "永興",
           "era_year": 2
         }
       ]
@@ -476,13 +476,13 @@
         {
           "id": "hhs.67.p21.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 185,
-          "era": "中平",
+          "at": 0,
+          "length": 4,
+          "text": "永壽二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 156,
+          "era": "永壽",
           "era_year": 2
         }
       ]

@@ -34,7 +34,62 @@
     {
       "id": "hhs.80.p4",
       "text": "皇帝以建武十八年二月甲辰，昇輿洛邑，巡於西岳。推天時，順斗極，排閶闔，入函谷，觀厄於崤、黽，圖險於隴、蜀。其三月丁酉，行至長安。經營宮室，傷愍舊京，即詔京兆，乃命扶風，齋肅致敬，告覲園陵。凄然有懷祖之思，喟乎以思諸夏之隆。遂天旋雲遊，造舟於渭，北𣃚涇流。千乘方轂，萬騎駢羅，衍陳於岐、梁，東橫乎大河。瘞後土，禮B723郊。其歳四月，反於洛都。明年，有詔復函谷關，作大駕宮、六王邸、髙車廄於長安。修理東都城門，橋涇、渭，往往繕離觀。東臨霸、滻，西望昆明，北登長平，規龍首，撫未央，覛平樂，儀建章。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p4.t1",
+          "type": "temporal",
+          "at": 3,
+          "length": 7,
+          "text": "建武十八年二月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 42,
+          "era": "建武",
+          "era_year": 18,
+          "month_chinese": "二月",
+          "month_ordinal": 2
+        },
+        {
+          "id": "hhs.80.p4.t2",
+          "type": "temporal",
+          "at": 54,
+          "length": 2,
+          "text": "三月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 42,
+          "era": "建武",
+          "era_year": 18,
+          "month_chinese": "三月",
+          "month_ordinal": 3
+        },
+        {
+          "id": "hhs.80.p4.t3",
+          "type": "temporal",
+          "at": 163,
+          "length": 2,
+          "text": "四月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 42,
+          "era": "建武",
+          "era_year": 18,
+          "month_chinese": "四月",
+          "month_ordinal": 4
+        },
+        {
+          "id": "hhs.80.p4.t4",
+          "type": "temporal",
+          "at": 171,
+          "length": 2,
+          "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 43,
+          "era": "建武",
+          "era_year": 19
+        }
+      ]
     },
     {
       "id": "hhs.80.p5",
@@ -84,7 +139,20 @@
     {
       "id": "hhs.80.p14",
       "text": "女弟適扶風馬氏。建初三年，車騎將軍馬防撃西羌，請篤爲從事中郎，戰沒於射姑山。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p14.t1",
+          "type": "temporal",
+          "at": 8,
+          "length": 4,
+          "text": "建初三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 78,
+          "era": "建初",
+          "era_year": 3
+        }
+      ]
     },
     {
       "id": "hhs.80.p15",
@@ -179,7 +247,20 @@
     {
       "id": "hhs.80.p33",
       "text": "永元元年，車騎將軍竇憲，復請毅爲主記室，崔駰爲主簿。及憲遷大將軍，復以毅爲司馬，班固爲中護軍。憲府文章之盛，冠於當世。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p33.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "永元元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 89,
+          "era": "永元",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.80.p34",
@@ -194,22 +275,86 @@
     {
       "id": "hhs.80.p36",
       "text": "初除郎中，元和元年，肅宗詔香詣東觀，讀所未嘗見書。香後告休，及歸京師，時千乘王冠，帝會中山邸，乃詔香殿下，顧謂諸王曰：「此『天下無雙江夏黃童』者也。」左右莫不改觀。後召詣安福殿言政事，拜尙書郎，數陳得失，賞賚增加。常獨止宿臺上，晝夜不離省闥，帝聞善之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p36.t1",
+          "type": "temporal",
+          "at": 5,
+          "length": 4,
+          "text": "元和元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 84,
+          "era": "元和",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.80.p37",
       "text": "永元四年，拜左丞。功滿當遷，和帝留，增秩。六年，累遷尙書令。後以爲東郡太守，香上疎讓曰：「臣江淮孤賤，愚F8D5小生，經學行能，無可算録。遭値太平，先人餘福，得以弱冠特蒙徴用，連階累任，遂極臺閣。訖無纖介稱，報恩效死，誠不意悟。卒被非望，顯拜近郡，尊位千里。臣聞量能授官，則職無廢事；因勞施爵，則賢愚得宜。臣香小醜，少爲諸生，典郡從政，固非所堪。誠恐F8D5頓，孤忝聖恩。又惟機密端首，至爲尊要，復非臣香所當久奉。承詔驚惶，不知所裁。臣香年在方剛，適可驅使。願乞餘恩，留備冗官，賜以督責小職，任之宮臺煩事，以畢臣香螻蟻小志，誠瞑目至願，土灰極榮。」帝亦惜香干用，久習舊事，復留爲尙書令，增秩二千石，賜錢三十萬。是後遂管樞機，甚見親重，而香亦ECF3勤物務，憂公如家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p37.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "永元四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 92,
+          "era": "永元",
+          "era_year": 4
+        },
+        {
+          "id": "hhs.80.p37.t2",
+          "type": "temporal",
+          "at": 21,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 94,
+          "era": "永元",
+          "era_year": 6
+        }
+      ]
     },
     {
       "id": "hhs.80.p38",
       "text": "十二年，東平淸河奏訞言卿仲遼等，所連及且千人。香料別據奏，全活甚衆。毎郡國疑罪，輒務求輕科，愛惜人命，毎存憂濟。又曉習邊事，均量軍政，皆得事宜。帝知其精勤，數加恩賞。疾病存問，賜醫藥。在位多所薦達，寵遇甚盛，議者譏其過幸。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p38.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 100,
+          "era": "永元",
+          "era_year": 12
+        }
+      ]
     },
     {
       "id": "hhs.80.p39",
       "text": "延平元年，遷魏郡太守。郡舊有内外園田，常與人分種，收谷歳數千斛。香曰：「《田令》『商者不農』，《王制》『仕者不耕』，伐冰食祿之人，不與百姓爭利。」乃悉以賦人，課令耕種。時被水年肌，乃分奉祿及所得賞賜班贍貧者，於是豐富之家各出義谷，助官稟貸，荒民獲全。後坐水潦事免，數月，卒於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p39.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "延平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 106,
+          "era": "延平",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.80.p40",
@@ -219,7 +364,20 @@
     {
       "id": "hhs.80.p41",
       "text": "劉毅，北海敬王子也。初封平望侯，永元中，坐事奪爵。毅少有文辯稱。元初元年，上《漢德論》幷《憲論》十二篇。時，劉珍、鄧耽、尹兌、馬融共上書稱其美，安帝嘉之，賜錢三萬，拜議郎。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p41.t1",
+          "type": "temporal",
+          "at": 32,
+          "length": 4,
+          "text": "元初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 114,
+          "era": "元初",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.80.p42",
@@ -244,7 +402,42 @@
     {
       "id": "hhs.80.p46",
       "text": "劉珍字秋孫，一名寶，南陽蔡陽人也。少好學。永初中，爲謁者僕射。鄧太後詔，使與校書劉騊駼、馬融及《五經》博士，校定東觀《五觀》、諸子傳記、百家藝術，整齊脱誤，是正文字。永寧元年，太後又詔珍與騊駼作建武已來名臣傳，遷侍中、越騎校尉。延光四年，拜宗正。明年，轉衞尉，卒官。著誄、頌、連珠凡七篇。又撰《釋名》三十篇，以辯萬物之稱號雲。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.80.p46.t1",
+          "type": "temporal",
+          "at": 83,
+          "length": 4,
+          "text": "永寧元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 120,
+          "era": "永寧",
+          "era_year": 1
+        },
+        {
+          "id": "hhs.80.p46.t2",
+          "type": "temporal",
+          "at": 114,
+          "length": 4,
+          "text": "延光四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 125,
+          "era": "延光",
+          "era_year": 4
+        },
+        {
+          "id": "hhs.80.p46.t3",
+          "type": "temporal",
+          "at": 123,
+          "length": 2,
+          "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 126
+        }
+      ]
     },
     {
       "id": "hhs.80.p47",

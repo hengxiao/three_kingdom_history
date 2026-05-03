@@ -250,14 +250,14 @@ annotations:
   era_year: 2
 - id: wu.11.p16.t3
   anchor: wu.11.p16
-  at: 136
-  length: 4
+  at: 138
+  length: 2
   type: temporal
-  text: 元興元年
-  kind: absolute
-  resolution: absolute
-  year_ad: 264
-  era: 元興
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 256
+  era: 太平
   era_year: 1
 - id: wu.11.p16.t4
   anchor: wu.11.p16

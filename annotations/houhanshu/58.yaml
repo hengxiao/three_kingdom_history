@@ -23,6 +23,17 @@ annotations:
   length: 0
   type: lixian
   text: 漢官儀曰：「修字伯游，襄城人也。」
+- id: hhs.58.p5.t1
+  anchor: hhs.58.p5
+  at: 0
+  length: 4
+  type: temporal
+  text: 永初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 110
+  era: 永初
+  era_year: 4
 - id: hhs.58.p7.a1
   anchor: hhs.58.p7
   at: 15
@@ -143,6 +154,17 @@ annotations:
   length: 0
   type: lixian
   text: 續漢書曰：「詡始到，谷石千，鹽石八千，見戶萬三千。視事三歲，米石八十，鹽石四百，流人還歸，郡戶數萬，人足家給，一郡無事」。
+- id: hhs.58.p16.t1
+  anchor: hhs.58.p16
+  at: 0
+  length: 4
+  type: temporal
+  text: 永建元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 126
+  era: 永建
+  era_year: 1
 - id: hhs.58.p16.a1
   anchor: hhs.58.p16
   at: 97
@@ -197,6 +219,17 @@ annotations:
   length: 0
   type: lixian
   text: 阿母，宋娥也。
+- id: hhs.58.p19.t1
+  anchor: hhs.58.p19
+  at: 44
+  length: 2
+  type: temporal
+  text: 元年
+  kind: relative
+  resolution: bare_year
+  year_ad: 126
+  era: 永建
+  era_year: 1
 - id: hhs.58.p19.a1
   anchor: hhs.58.p19
   at: 108

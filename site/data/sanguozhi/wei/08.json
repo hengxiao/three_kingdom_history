@@ -580,13 +580,13 @@
         {
           "id": "wei.8.p33.t1",
           "type": "temporal",
-          "at": 44,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
+          "at": 42,
+          "length": 4,
+          "text": "建光元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 121,
+          "era": "建光",
           "era_year": 1
         },
         {
@@ -597,8 +597,8 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
-          "era": "景初",
+          "year_ad": 121,
+          "era": "建光",
           "era_year": 1,
           "month_chinese": "三月",
           "month_ordinal": 3
@@ -622,8 +622,8 @@
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 238,
-          "era": "景初",
+          "year_ad": 122,
+          "era": "建光",
           "era_year": 2
         },
         {
@@ -634,8 +634,8 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 238,
-          "era": "景初",
+          "year_ad": 122,
+          "era": "建光",
           "era_year": 2,
           "month_chinese": "六月",
           "month_ordinal": 6
@@ -655,8 +655,8 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 238,
-          "era": "景初",
+          "year_ad": 122,
+          "era": "建光",
           "era_year": 2,
           "month_chinese": "八月",
           "month_ordinal": 8

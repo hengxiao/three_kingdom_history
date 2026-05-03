@@ -137,18 +137,62 @@ annotations:
   length: 0
   type: lixian
   text: 文帝、宣帝也。文帝遭呂氏難，故亦云中興。
+- id: hhs.61.p10.t1
+  anchor: hhs.61.p10
+  at: 0
+  length: 4
+  type: temporal
+  text: 永建三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 128
+  era: 永建
+  era_year: 3
+- id: hhs.61.p10.t2
+  anchor: hhs.61.p10
+  at: 20
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 129
+  era: 永建
+  era_year: 4
 - id: hhs.61.p10.a1
   anchor: hhs.61.p10
   at: 47
   length: 0
   type: lixian
   text: 天鏡經曰：「大水自平地出，破山殺人，其國有兵。」
+- id: hhs.61.p12.t1
+  anchor: hhs.61.p12
+  at: 20
+  length: 4
+  type: temporal
+  text: 陽嘉元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 132
+  era: 陽嘉
+  era_year: 1
 - id: hhs.61.p13.a1
   anchor: hhs.61.p13
   at: 82
   length: 0
   type: lixian
   text: 儒有一家之學，故稱家*[法]*。
+- id: hhs.61.p13.t1
+  anchor: hhs.61.p13
+  at: 146
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 133
+  era: 陽嘉
+  era_year: 2
 - id: hhs.61.p13.a2
   anchor: hhs.61.p13
   at: 157
@@ -161,6 +205,17 @@ annotations:
   length: 0
   type: lixian
   text: 解見順帝紀。
+- id: hhs.61.p16.t1
+  anchor: hhs.61.p16
+  at: 111
+  length: 4
+  type: temporal
+  text: 永建二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 127
+  era: 永建
+  era_year: 2
 - id: hhs.61.p20.a1
   anchor: hhs.61.p20
   at: 60
@@ -173,12 +228,58 @@ annotations:
   length: 0
   type: lixian
   text: 韓厥，韓獻子也。國語曰：「趙宣子舉獻子於靈公，以為司馬。河曲之役，宣子使人以其乘車干行，獻子執而戮之。宣子皆告諸大夫曰：『可賀我矣。吾舉厥也而中吾，乃今知免於罪矣。』」
+- id: hhs.61.p21.t1
+  anchor: hhs.61.p21
+  at: 97
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 128
+  era: 永建
+  era_year: 3
+- id: hhs.61.p21.t2
+  anchor: hhs.61.p21
+  at: 109
+  length: 4
+  type: temporal
+  text: 永和三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 138
+  era: 永和
+  era_year: 3
+- id: hhs.61.p23.t1
+  anchor: hhs.61.p23
+  at: 11
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 139
+  era: 永和
+  era_year: 4
 - id: hhs.61.p23.a1
   anchor: hhs.61.p23
   at: 127
   length: 0
   type: lixian
   text: 鄭武姜生莊公及共叔段，愛叔段，謀殺莊公。公誓之曰：「不及黃泉，無相見也。」既而悔之。穎考叔為穎谷封人，曰：「若掘地及泉，隧而相見，其誰曰不然！」公從之，遂為母子如初。事見左傳。茅焦事，解見蘇竟傳也。
+- id: hhs.61.p23.t2
+  anchor: hhs.61.p23
+  at: 212
+  length: 4
+  type: temporal
+  text: 明年正月
+  kind: relative
+  resolution: next_year
+  year_ad: 140
+  era: 永和
+  era_year: 5
+  month_chinese: 正月
+  month_ordinal: 1
 - id: hhs.61.p24.a1
   anchor: hhs.61.p24
   at: 7
@@ -215,12 +316,47 @@ annotations:
   length: 0
   type: lixian
   text: 新序曰：「晉文公反國，介子推無爵，遂去而之介山之上。文公求之不得，乃焚其山，推遂不出而焚死。」事具耿恭傳。龍，星，木之位也，春見東方。
+- id: hhs.61.p26.t1
+  anchor: hhs.61.p26
+  at: 50
+  length: 2
+  type: temporal
+  text: 一月
+  kind: relative
+  resolution: bare_month
+  year_ad: 140
+  era: 永和
+  era_year: 5
+  month_chinese: 一月
+  month_ordinal: 1
 - id: hhs.61.p26.a2
   anchor: hhs.61.p26
   at: 114
   length: 0
   type: lixian
   text: 其事見桓譚新論及汝南先賢傳也。
+- id: hhs.61.p28.t1
+  anchor: hhs.61.p28
+  at: 6
+  length: 4
+  type: temporal
+  text: 陽嘉三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 134
+  era: 陽嘉
+  era_year: 3
+- id: hhs.61.p28.t2
+  anchor: hhs.61.p28
+  at: 46
+  length: 2
+  type: temporal
+  text: 是歲
+  kind: relative
+  resolution: this_year
+  year_ad: 134
+  era: 陽嘉
+  era_year: 3
 - id: hhs.61.p28.a1
   anchor: hhs.61.p28
   at: 119
@@ -287,6 +423,17 @@ annotations:
   length: 0
   type: lixian
   text: 別音彼列反。
+- id: hhs.61.p38.t1
+  anchor: hhs.61.p38
+  at: 0
+  length: 4
+  type: temporal
+  text: 永和元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 136
+  era: 永和
+  era_year: 1
 - id: hhs.61.p38.a1
   anchor: hhs.61.p38
   at: 84
@@ -305,6 +452,19 @@ annotations:
   length: 0
   type: lixian
   text: 子猛，周景王之子。子野，魯襄公之子。春秋經書「王子猛卒」。杜元凱注云：「未即位，故不言崩。」又曰：「秋九月癸巳，子野卒。」注曰：「不書葬，未成君也。」
+- id: hhs.61.p39.t1
+  anchor: hhs.61.p39
+  at: 29
+  length: 4
+  type: temporal
+  text: 六年三月
+  kind: relative
+  resolution: bare_year
+  year_ad: 141
+  era: 永和
+  era_year: 6
+  month_chinese: 三月
+  month_ordinal: 3
 - id: hhs.61.p39.a1
   anchor: hhs.61.p39
   at: 48
@@ -341,6 +501,17 @@ annotations:
   length: 0
   type: lixian
   text: 左氏傳：「從祀先公。」杜預云：「從，順也。先公，閔公、僖公也。將正二公之位，親盡，故通言先公也。」
+- id: hhs.61.p47.t1
+  anchor: hhs.61.p47
+  at: 0
+  length: 4
+  type: temporal
+  text: 建和三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 149
+  era: 建和
+  era_year: 3
 - id: hhs.61.p47.a1
   anchor: hhs.61.p47
   at: 61
@@ -497,14 +668,14 @@ annotations:
   text: 干卦象曰「天行健，君子以自強不息」也。
 - id: hhs.61.p59.t1
   anchor: hhs.61.p59
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 元嘉元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 151
+  era: 元嘉
   era_year: 1
 - id: hhs.61.p59.a1
   anchor: hhs.61.p59
@@ -526,14 +697,14 @@ annotations:
   text: 高祖為泗上亭長，蕭何佐之，後拜何為相國，益封五千戶。霍光廢昌邑王，立宣帝，後益封光萬七千戶。
 - id: hhs.61.p60.t1
   anchor: hhs.61.p60
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 永興元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 153
+  era: 永興
   era_year: 1
 - id: hhs.61.p60.t2
   anchor: hhs.61.p60
@@ -681,14 +852,14 @@ annotations:
   era_year: 7
 - id: hhs.61.p66.t1
   anchor: hhs.61.p66
-  at: 27
-  length: 4
+  at: 25
+  length: 6
   type: temporal
-  text: 元年正月
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 建和元年正月
+  kind: absolute
+  resolution: absolute
+  year_ad: 147
+  era: 建和
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1

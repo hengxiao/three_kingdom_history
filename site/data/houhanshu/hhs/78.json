@@ -54,7 +54,20 @@
     {
       "id": "hhs.78.p8",
       "text": "十四年，帝念众功美，封为鄛乡侯，食邑千五百户。永初元年，和熹皇后益封三百户。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p8.t1",
+          "type": "temporal",
+          "at": 23,
+          "length": 4,
+          "text": "永初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 107,
+          "era": "永初",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.78.p9",
@@ -62,6 +75,18 @@
       "annotations": [
         {
           "id": "hhs.78.p9.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "元初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 114,
+          "era": "元初",
+          "era_year": 1
+        },
+        {
+          "id": "hhs.78.p9.t2",
           "type": "temporal",
           "at": 24,
           "length": 4,
@@ -82,7 +107,20 @@
     {
       "id": "hhs.78.p11",
       "text": "伦有才學，尽心敦慎，数犯严颜，匡弼得失。每至休沐，辄闭門绝宾，暴体田野。后加位尚方令。永元九年，监作秘剑及诸器械，莫不精工坚密，为后世法。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.78.p11.t1",
+          "type": "temporal",
+          "at": 43,
+          "length": 4,
+          "text": "永元九年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 97,
+          "era": "永元",
+          "era_year": 9
+        }
+      ]
     },
     {
       "id": "hhs.78.p12",
@@ -96,8 +134,8 @@
           "text": "元年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "year_ad": 89,
+          "era": "永元",
           "era_year": 1
         }
       ]
@@ -109,13 +147,13 @@
         {
           "id": "hhs.78.p13.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 0,
+          "length": 4,
+          "text": "元初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 114,
+          "era": "元初",
           "era_year": 1
         },
         {
@@ -126,8 +164,8 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 161,
-          "era": "延熹",
+          "year_ad": 117,
+          "era": "元初",
           "era_year": 4
         }
       ]
@@ -159,8 +197,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 162,
-          "era": "延熹",
+          "year_ad": 118,
+          "era": "元初",
           "era_year": 5
         }
       ]
@@ -177,8 +215,8 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 162,
-          "era": "延熹",
+          "year_ad": 118,
+          "era": "元初",
           "era_year": 5,
           "month_chinese": "十月",
           "month_ordinal": 10
@@ -191,8 +229,8 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 162,
-          "era": "延熹",
+          "year_ad": 118,
+          "era": "元初",
           "era_year": 5,
           "month_chinese": "十一月",
           "month_ordinal": 11
@@ -221,13 +259,13 @@
         {
           "id": "hhs.78.p22.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 0,
+          "length": 4,
+          "text": "永建元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 126,
+          "era": "永建",
           "era_year": 1
         }
       ]
@@ -244,20 +282,20 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 160,
-          "era": "延熹",
+          "year_ad": 128,
+          "era": "永建",
           "era_year": 3
         },
         {
           "id": "hhs.78.p23.t2",
           "type": "temporal",
-          "at": 37,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 35,
+          "length": 4,
+          "text": "陽嘉元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 132,
+          "era": "陽嘉",
           "era_year": 1
         }
       ]
@@ -274,8 +312,8 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 161,
-          "era": "延熹",
+          "year_ad": 135,
+          "era": "陽嘉",
           "era_year": 4
         }
       ]
@@ -287,13 +325,13 @@
         {
           "id": "hhs.78.p25.t1",
           "type": "temporal",
-          "at": 85,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 159,
-          "era": "延熹",
+          "at": 83,
+          "length": 4,
+          "text": "永和二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 137,
+          "era": "永和",
           "era_year": 2
         }
       ]

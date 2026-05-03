@@ -24,7 +24,32 @@
     {
       "id": "hhs.79.p2",
       "text": "建武五年，乃修起太學，稽式古典，笾豆干戚之容，备之于列，服方領习矩步者，委它乎其中。中元元年，初建三雍。明帝即位，親行其禮。天子始冠通天，衣日月，备法物之驾，盛清道之仪，坐明堂而朝群后，登靈台以望云物，袒割辟雍之上，尊养三老五更。飨射禮毕，帝正坐自講，諸儒执經問难于前，冠带缙绅之人，圜桥门而觀听者盖億萬计。其后复爲功臣子孫、四姓末属别立校舍，搜选高能以受其業，自期门羽林之士，悉令通《孝經》章句，匈奴亦遣子入學。濟濟乎，洋洋乎，盛于永平矣！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p2.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "建武五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 29,
+          "era": "建武",
+          "era_year": 5
+        },
+        {
+          "id": "hhs.79.p2.t2",
+          "type": "temporal",
+          "at": 42,
+          "length": 4,
+          "text": "中元元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 56,
+          "era": "中元",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.79.p3",
@@ -32,6 +57,18 @@
       "annotations": [
         {
           "id": "hhs.79.p3.t1",
+          "type": "temporal",
+          "at": 289,
+          "length": 4,
+          "text": "本初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 146,
+          "era": "本初",
+          "era_year": 1
+        },
+        {
+          "id": "hhs.79.p3.t2",
           "type": "temporal",
           "at": 416,
           "length": 4,
@@ -76,13 +113,13 @@
         {
           "id": "hhs.79.p9.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 176,
-          "era": "熹平",
+          "at": 0,
+          "length": 4,
+          "text": "建武五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 29,
+          "era": "建武",
           "era_year": 5
         }
       ]
@@ -99,9 +136,57 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 174,
-          "era": "熹平",
+          "year_ad": 27,
+          "era": "建武",
           "era_year": 3
+        },
+        {
+          "id": "hhs.79.p10.t2",
+          "type": "temporal",
+          "at": 41,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 46,
+          "era": "建武",
+          "era_year": 22
+        },
+        {
+          "id": "hhs.79.p10.t3",
+          "type": "temporal",
+          "at": 146,
+          "length": 4,
+          "text": "二十七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 51,
+          "era": "建武",
+          "era_year": 27
+        },
+        {
+          "id": "hhs.79.p10.t4",
+          "type": "temporal",
+          "at": 156,
+          "length": 3,
+          "text": "三十年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 54,
+          "era": "建武",
+          "era_year": 30
+        },
+        {
+          "id": "hhs.79.p10.t5",
+          "type": "temporal",
+          "at": 181,
+          "length": 4,
+          "text": "中元二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 57,
+          "era": "中元",
+          "era_year": 2
         }
       ]
     },
@@ -243,13 +328,13 @@
         {
           "id": "hhs.79.p27.t1",
           "type": "temporal",
-          "at": 77,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 200,
-          "era": "建安",
+          "at": 75,
+          "length": 4,
+          "text": "建武五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 29,
+          "era": "建武",
           "era_year": 5
         },
         {
@@ -260,8 +345,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 201,
-          "era": "建安",
+          "year_ad": 30,
+          "era": "建武",
           "era_year": 6
         },
         {
@@ -272,8 +357,8 @@
           "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 204,
-          "era": "建安",
+          "year_ad": 33,
+          "era": "建武",
           "era_year": 9
         }
       ]
@@ -310,13 +395,13 @@
         {
           "id": "hhs.79.p33.t1",
           "type": "temporal",
-          "at": 18,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 197,
-          "era": "建安",
+          "at": 16,
+          "length": 4,
+          "text": "建武二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 26,
+          "era": "建武",
           "era_year": 2
         }
       ]
@@ -371,13 +456,13 @@
         {
           "id": "hhs.79.p40.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
+          "at": 0,
+          "length": 4,
+          "text": "建武二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 26,
+          "era": "建武",
           "era_year": 2
         }
       ]
@@ -399,14 +484,26 @@
         {
           "id": "hhs.79.p43.t1",
           "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "五年",
+          "at": 7,
+          "length": 4,
+          "text": "永平五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 62,
+          "era": "永平",
+          "era_year": 5
+        },
+        {
+          "id": "hhs.79.p43.t2",
+          "type": "temporal",
+          "at": 68,
+          "length": 3,
+          "text": "十一年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 182,
-          "era": "光和",
-          "era_year": 5
+          "year_ad": 68,
+          "era": "永平",
+          "era_year": 11
         }
       ]
     },
@@ -452,13 +549,13 @@
         {
           "id": "hhs.79.p51.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
+          "at": 0,
+          "length": 4,
+          "text": "元和二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 85,
+          "era": "元和",
           "era_year": 2
         }
       ]
@@ -475,8 +572,8 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 180,
-          "era": "光和",
+          "year_ad": 86,
+          "era": "元和",
           "era_year": 3
         }
       ]
@@ -493,13 +590,13 @@
         {
           "id": "hhs.79.p54.t1",
           "type": "temporal",
-          "at": 22,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 178,
-          "era": "光和",
+          "at": 20,
+          "length": 4,
+          "text": "延光元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 122,
+          "era": "延光",
           "era_year": 1
         },
         {
@@ -510,8 +607,8 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 180,
-          "era": "光和",
+          "year_ad": 124,
+          "era": "延光",
           "era_year": 3
         }
       ]
@@ -519,7 +616,32 @@
     {
       "id": "hhs.79.p55",
       "text": "初，平帝時王莽秉政，乃封孔子后孔均爲褒成侯，追谥孔子爲褒成宣尼。及莽敗，失國。建武十三年，世祖复封均子志爲褒成侯。志卒，子損嗣。永元四年，徙封褒亭侯。損卒，子曜嗣。曜卒，子完嗣。世世相傳，至献帝初，國絕。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p55.t1",
+          "type": "temporal",
+          "at": 39,
+          "length": 5,
+          "text": "建武十三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 37,
+          "era": "建武",
+          "era_year": 13
+        },
+        {
+          "id": "hhs.79.p55.t2",
+          "type": "temporal",
+          "at": 64,
+          "length": 4,
+          "text": "永元四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 92,
+          "era": "永元",
+          "era_year": 4
+        }
+      ]
     },
     {
       "id": "hhs.79.p56",
@@ -538,9 +660,9 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 180,
-          "era": "光和",
-          "era_year": 3
+          "year_ad": 92,
+          "era": "永元",
+          "era_year": 4
         }
       ]
     },
@@ -556,13 +678,13 @@
         {
           "id": "hhs.79.p59.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
+          "at": 0,
+          "length": 4,
+          "text": "陽嘉二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 133,
+          "era": "陽嘉",
           "era_year": 2
         }
       ]
@@ -585,7 +707,32 @@
     {
       "id": "hhs.79.p63",
       "text": "詡以父任為郎中，世傳《魯詩》。以信行清操知名。王莽篡位，父子稱盲，逃，不仕莽世。光武即位，大司空宋弘薦詡，徵為郎，除符離長。去官，後徵為博士。建武十一年，拜大司農。在朝以方正稱。十三年，卒官，賜錢及塚田。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p63.t1",
+          "type": "temporal",
+          "at": 71,
+          "length": 5,
+          "text": "建武十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 35,
+          "era": "建武",
+          "era_year": 11
+        },
+        {
+          "id": "hhs.79.p63.t2",
+          "type": "temporal",
+          "at": 89,
+          "length": 3,
+          "text": "十三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 37,
+          "era": "建武",
+          "era_year": 13
+        }
+      ]
     },
     {
       "id": "hhs.79.p64",
@@ -599,13 +746,13 @@
         {
           "id": "hhs.79.p65.t1",
           "type": "temporal",
-          "at": 44,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 182,
-          "era": "光和",
+          "at": 42,
+          "length": 4,
+          "text": "永平五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 62,
+          "era": "永平",
           "era_year": 5
         }
       ]
@@ -613,7 +760,20 @@
     {
       "id": "hhs.79.p66",
       "text": "顯宗以咸有師傅恩，而素清苦，常特賞賜珍玩束帛，奉祿增於諸卿，咸皆散與諸生之貧者。病篤、帝親輦駕臨視。八年，年七十二，卒於官。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p66.t1",
+          "type": "temporal",
+          "at": 50,
+          "length": 2,
+          "text": "八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 65,
+          "era": "永平",
+          "era_year": 8
+        }
+      ]
     },
     {
       "id": "hhs.79.p67",
@@ -627,13 +787,37 @@
         {
           "id": "hhs.79.p68.t1",
           "type": "temporal",
-          "at": 115,
-          "length": 2,
-          "text": "四年",
+          "at": 94,
+          "length": 3,
+          "text": "十三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 181,
-          "era": "光和",
+          "year_ad": 70,
+          "era": "永平",
+          "era_year": 13
+        },
+        {
+          "id": "hhs.79.p68.t2",
+          "type": "temporal",
+          "at": 103,
+          "length": 3,
+          "text": "十八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 75,
+          "era": "永平",
+          "era_year": 18
+        },
+        {
+          "id": "hhs.79.p68.t3",
+          "type": "temporal",
+          "at": 113,
+          "length": 4,
+          "text": "建初四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 79,
+          "era": "建初",
           "era_year": 4
         }
       ]
@@ -650,8 +834,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 182,
-          "era": "光和",
+          "year_ad": 80,
+          "era": "建初",
           "era_year": 5
         }
       ]
@@ -668,37 +852,49 @@
         {
           "id": "hhs.79.p71.t1",
           "type": "temporal",
-          "at": 23,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 181,
-          "era": "光和",
+          "at": 21,
+          "length": 4,
+          "text": "建武四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 28,
+          "era": "建武",
           "era_year": 4
         },
         {
           "id": "hhs.79.p71.t2",
           "type": "temporal",
-          "at": 89,
-          "length": 2,
-          "text": "二年",
+          "at": 32,
+          "length": 3,
+          "text": "十三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
-          "era_year": 2
+          "year_ad": 37,
+          "era": "建武",
+          "era_year": 13
         },
         {
           "id": "hhs.79.p71.t3",
+          "type": "temporal",
+          "at": 87,
+          "length": 4,
+          "text": "永平二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 59,
+          "era": "永平",
+          "era_year": 2
+        },
+        {
+          "id": "hhs.79.p71.t4",
           "type": "temporal",
           "at": 99,
           "length": 2,
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 181,
-          "era": "光和",
+          "year_ad": 61,
+          "era": "永平",
           "era_year": 4
         }
       ]
@@ -710,25 +906,49 @@
         {
           "id": "hhs.79.p72.t1",
           "type": "temporal",
-          "at": 63,
+          "at": 25,
           "length": 2,
-          "text": "二年",
+          "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
-          "era_year": 2
+          "year_ad": 66,
+          "era": "永平",
+          "era_year": 9
         },
         {
           "id": "hhs.79.p72.t2",
           "type": "temporal",
-          "at": 85,
-          "length": 2,
-          "text": "元年",
+          "at": 45,
+          "length": 3,
+          "text": "十五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 178,
-          "era": "光和",
+          "year_ad": 72,
+          "era": "永平",
+          "era_year": 15
+        },
+        {
+          "id": "hhs.79.p72.t3",
+          "type": "temporal",
+          "at": 61,
+          "length": 4,
+          "text": "建初二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 77,
+          "era": "建初",
+          "era_year": 2
+        },
+        {
+          "id": "hhs.79.p72.t4",
+          "type": "temporal",
+          "at": 83,
+          "length": 4,
+          "text": "元和元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 84,
+          "era": "元和",
           "era_year": 1
         }
       ]
@@ -770,37 +990,37 @@
         {
           "id": "hhs.79.p79.t1",
           "type": "temporal",
-          "at": 45,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 178,
-          "era": "光和",
+          "at": 43,
+          "length": 4,
+          "text": "建初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 76,
+          "era": "建初",
           "era_year": 1
         },
         {
           "id": "hhs.79.p79.t2",
           "type": "temporal",
-          "at": 96,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
+          "at": 94,
+          "length": 4,
+          "text": "元和二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 85,
+          "era": "元和",
           "era_year": 2
         },
         {
           "id": "hhs.79.p79.t3",
           "type": "temporal",
-          "at": 107,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 179,
-          "era": "光和",
+          "at": 105,
+          "length": 4,
+          "text": "章和二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 88,
+          "era": "章和",
           "era_year": 2
         }
       ]
@@ -892,14 +1112,38 @@
         {
           "id": "hhs.79.p96.t1",
           "type": "temporal",
-          "at": 88,
+          "at": 60,
+          "length": 4,
+          "text": "中元元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 56,
+          "era": "中元",
+          "era_year": 1
+        },
+        {
+          "id": "hhs.79.p96.t2",
+          "type": "temporal",
+          "at": 86,
+          "length": 4,
+          "text": "永平五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 62,
+          "era": "永平",
+          "era_year": 5
+        },
+        {
+          "id": "hhs.79.p96.t3",
+          "type": "temporal",
+          "at": 97,
           "length": 2,
-          "text": "五年",
+          "text": "十年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 182,
-          "era": "光和",
-          "era_year": 5
+          "year_ad": 67,
+          "era": "永平",
+          "era_year": 10
         }
       ]
     },
@@ -916,17 +1160,68 @@
     {
       "id": "hhs.79.p99",
       "text": "建武中，仕郡縣。公正廉潔，奉祿不及妻子，皆以供賓客。及為長吏，所在有跡，為吏人所敬仰。喜分明去就。嘗為縣令，謁府，趨步遲緩，門亭長譴堪禦吏，堪便解印綬去，不之官。後復仕為左馮翊，坐遇下促急，司隸校尉舉奏免官。數月，徵為侍御史，再遷尚書令。永平十一年，拜光祿勳。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p99.t1",
+          "type": "temporal",
+          "at": 119,
+          "length": 5,
+          "text": "永平十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 68,
+          "era": "永平",
+          "era_year": 11
+        }
+      ]
     },
     {
       "id": "hhs.79.p100",
       "text": "堪清廉，果於從政，數有直言，多見納用。十八年，以病乞身，為侍中騎都尉，卒於官。堪行類於澤，故京師號曰「二稺」。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p100.t1",
+          "type": "temporal",
+          "at": 19,
+          "length": 3,
+          "text": "十八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 75,
+          "era": "永平",
+          "era_year": 18
+        }
+      ]
     },
     {
       "id": "hhs.79.p101",
       "text": "十二年，以澤行司徒事，如真。澤性簡，忽威儀，頗失宰相之望。數月，復為太常。清潔循行，盡敬宗廟。常臥疾齋宮，其妻哀澤老病，窺問所苦。澤大怒，以妻干犯齋禁，遂收送詔獄謝罪。當世疑其脆激。時人為之語曰：「生世不諧，作太常妻，一歲三百六十日，三百五十九日齋。」十八年，拜侍中騎都尉。後數為三老五更。建初中致仕，卒於家。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p101.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 3,
+          "text": "十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 69,
+          "era": "永平",
+          "era_year": 12
+        },
+        {
+          "id": "hhs.79.p101.t2",
+          "type": "temporal",
+          "at": 126,
+          "length": 3,
+          "text": "十八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 75,
+          "era": "永平",
+          "era_year": 18
+        }
+      ]
     },
     {
       "id": "hhs.79.p102",
@@ -950,14 +1245,50 @@
         {
           "id": "hhs.79.p105.t1",
           "type": "temporal",
-          "at": 105,
-          "length": 2,
-          "text": "五年",
+          "at": 83,
+          "length": 3,
+          "text": "十六年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 182,
-          "era": "光和",
+          "year_ad": 73,
+          "era": "永平",
+          "era_year": 16
+        },
+        {
+          "id": "hhs.79.p105.t2",
+          "type": "temporal",
+          "at": 92,
+          "length": 3,
+          "text": "十八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 75,
+          "era": "永平",
+          "era_year": 18
+        },
+        {
+          "id": "hhs.79.p105.t3",
+          "type": "temporal",
+          "at": 103,
+          "length": 4,
+          "text": "建初五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 80,
+          "era": "建初",
           "era_year": 5
+        },
+        {
+          "id": "hhs.79.p105.t4",
+          "type": "temporal",
+          "at": 147,
+          "length": 5,
+          "text": "永元十二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 100,
+          "era": "永元",
+          "era_year": 12
         }
       ]
     },
@@ -968,13 +1299,13 @@
         {
           "id": "hhs.79.p106.t1",
           "type": "temporal",
-          "at": 74,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 180,
-          "era": "光和",
+          "at": 72,
+          "length": 4,
+          "text": "建初三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 78,
+          "era": "建初",
           "era_year": 3
         }
       ]
@@ -1011,13 +1342,13 @@
         {
           "id": "hhs.79.p112.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 178,
-          "era": "光和",
+          "at": 0,
+          "length": 4,
+          "text": "建初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 76,
+          "era": "建初",
           "era_year": 1
         },
         {
@@ -1028,8 +1359,8 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 181,
-          "era": "光和",
+          "year_ad": 79,
+          "era": "建初",
           "era_year": 4
         }
       ]
@@ -1056,8 +1387,8 @@
           "text": "七年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 184,
-          "era": "光和",
+          "year_ad": 82,
+          "era": "建初",
           "era_year": 7
         }
       ]

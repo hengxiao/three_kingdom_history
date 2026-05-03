@@ -5,6 +5,37 @@ source:
   retrieved: '2026-05-03'
   sha256: 344dedd6288999c9ba75d776ad35a432b0749bb715e96f69bf7cd0b542604419
 annotations:
+- id: hhs.57.p2.t1
+  anchor: hhs.57.p2
+  at: 12
+  length: 4
+  type: temporal
+  text: 永初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 107
+  era: 永初
+  era_year: 1
+- id: hhs.57.p6.t1
+  anchor: hhs.57.p6
+  at: 163
+  length: 2
+  type: temporal
+  text: 七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 113
+  era: 永初
+  era_year: 7
+- id: hhs.57.p52.t1
+  anchor: hhs.57.p52
+  at: 217
+  length: 2
+  type: temporal
+  text: 明年
+  kind: relative
+  resolution: next_year
+  year_ad: 114
 - id: hhs.57.p60.t1
   anchor: hhs.57.p60
   at: 28
@@ -104,14 +135,14 @@ annotations:
   era_year: 2
 - id: hhs.57.p126.t1
   anchor: hhs.57.p126
-  at: 35
-  length: 5
+  at: 33
+  length: 7
   type: temporal
-  text: 二年十二月
-  kind: relative
-  resolution: bare_year
-  year_ad: 191
-  era: 初平
+  text: 永初二年十二月
+  kind: absolute
+  resolution: absolute
+  year_ad: 108
+  era: 永初
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12

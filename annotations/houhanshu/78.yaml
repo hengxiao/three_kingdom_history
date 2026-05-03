@@ -5,7 +5,29 @@ source:
   retrieved: '2026-05-03'
   sha256: bd8dcf7fbd57a843013409c3c47bfa1bb15f89658c082a7b8192cccb18a4d96a
 annotations:
+- id: hhs.78.p8.t1
+  anchor: hhs.78.p8
+  at: 23
+  length: 4
+  type: temporal
+  text: 永初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 107
+  era: 永初
+  era_year: 1
 - id: hhs.78.p9.t1
+  anchor: hhs.78.p9
+  at: 0
+  length: 4
+  type: temporal
+  text: 元初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 114
+  era: 元初
+  era_year: 1
+- id: hhs.78.p9.t2
   anchor: hhs.78.p9
   at: 24
   length: 4
@@ -16,6 +38,17 @@ annotations:
   year_ad: 159
   era: 延熹
   era_year: 2
+- id: hhs.78.p11.t1
+  anchor: hhs.78.p11
+  at: 43
+  length: 4
+  type: temporal
+  text: 永元九年
+  kind: absolute
+  resolution: absolute
+  year_ad: 97
+  era: 永元
+  era_year: 9
 - id: hhs.78.p12.t1
   anchor: hhs.78.p12
   at: 55
@@ -24,19 +57,19 @@ annotations:
   text: 元年
   kind: relative
   resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  year_ad: 89
+  era: 永元
   era_year: 1
 - id: hhs.78.p13.t1
   anchor: hhs.78.p13
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 元初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 114
+  era: 元初
   era_year: 1
 - id: hhs.78.p13.t2
   anchor: hhs.78.p13
@@ -46,8 +79,8 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 161
-  era: 延熹
+  year_ad: 117
+  era: 元初
   era_year: 4
 - id: hhs.78.p17.t1
   anchor: hhs.78.p17
@@ -57,8 +90,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 162
-  era: 延熹
+  year_ad: 118
+  era: 元初
   era_year: 5
 - id: hhs.78.p18.t1
   anchor: hhs.78.p18
@@ -68,8 +101,8 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 162
-  era: 延熹
+  year_ad: 118
+  era: 元初
   era_year: 5
   month_chinese: 十月
   month_ordinal: 10
@@ -81,21 +114,21 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 162
-  era: 延熹
+  year_ad: 118
+  era: 元初
   era_year: 5
   month_chinese: 十一月
   month_ordinal: 11
 - id: hhs.78.p22.t1
   anchor: hhs.78.p22
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 永建元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 126
+  era: 永建
   era_year: 1
 - id: hhs.78.p23.t1
   anchor: hhs.78.p23
@@ -105,19 +138,19 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 160
-  era: 延熹
+  year_ad: 128
+  era: 永建
   era_year: 3
 - id: hhs.78.p23.t2
   anchor: hhs.78.p23
-  at: 37
-  length: 2
+  at: 35
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 158
-  era: 延熹
+  text: 陽嘉元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 132
+  era: 陽嘉
   era_year: 1
 - id: hhs.78.p24.t1
   anchor: hhs.78.p24
@@ -127,19 +160,19 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 161
-  era: 延熹
+  year_ad: 135
+  era: 陽嘉
   era_year: 4
 - id: hhs.78.p25.t1
   anchor: hhs.78.p25
-  at: 85
-  length: 2
+  at: 83
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 159
-  era: 延熹
+  text: 永和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 137
+  era: 永和
   era_year: 2
 - id: hhs.78.p33.t1
   anchor: hhs.78.p33

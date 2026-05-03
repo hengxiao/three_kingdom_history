@@ -226,6 +226,30 @@
       "text": "永建三年，京師、漢陽地皆震裂，水泉湧出。四年，司、冀復有大水。雄推較□異，以為下人有逆上之征，又上疏言：「宜密為備，以俟不虞。」尋而青、冀、楊州盜賊連發，數年之閒，海內擾亂。其後天下大赦，賊雖頗解，而官猶無備，流叛之餘，數月復起。雄與僕射郭虔共上疏，以為「寇賊連年，死亡太半，一人犯法，舉宗腢亡。宜及其尚微，開令改悔。若告黨與者，聽除其罪；",
       "annotations": [
         {
+          "id": "hhs.61.p10.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "永建三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 128,
+          "era": "永建",
+          "era_year": 3
+        },
+        {
+          "id": "hhs.61.p10.t2",
+          "type": "temporal",
+          "at": 20,
+          "length": 2,
+          "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 129,
+          "era": "永建",
+          "era_year": 4
+        },
+        {
           "id": "hhs.61.p10.a1",
           "type": "lixian",
           "at": 47,
@@ -242,7 +266,20 @@
     {
       "id": "hhs.61.p12",
       "text": "又上言：「宜崇經術，繕修太學。」帝從之。陽嘉元年，太學新成，詔試明經者補弟子，增甲乙之科，員各十人。除京師及郡國耆儒年六十以上為郎、舍人、諸王國郎者百三十八人。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.61.p12.t1",
+          "type": "temporal",
+          "at": 20,
+          "length": 4,
+          "text": "陽嘉元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 132,
+          "era": "陽嘉",
+          "era_year": 1
+        }
+      ]
     },
     {
       "id": "hhs.61.p13",
@@ -254,6 +291,18 @@
           "at": 82,
           "length": 0,
           "text": "儒有一家之學，故稱家*[法]*。"
+        },
+        {
+          "id": "hhs.61.p13.t1",
+          "type": "temporal",
+          "at": 146,
+          "length": 2,
+          "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 133,
+          "era": "陽嘉",
+          "era_year": 2
         },
         {
           "id": "hhs.61.p13.a2",
@@ -285,7 +334,20 @@
     {
       "id": "hhs.61.p16",
       "text": "初，帝廢為濟陰王，乳母宋娥與黃門孫程等共議立帝，帝后以娥前有謀，遂封為山陽君，邑五千戶。又封大將軍梁商子冀襄邑侯。雄上封事曰：「夫裂土封侯，王制所重。高皇帝約，非劉氏不王，非有功不侯。孝安皇帝封江京、王聖等，遂致地震之異。永建二年，封陰謀之功，又有日食之變。數術之士，鹹歸咎於封爵。今青州饑虛，盜賊未息，民有乏絕，上求稟貸。陛下干干勞思，以濟民為務。宜循古法，寧靜無為，以求天意，以消□異。誠不宜追錄小恩，虧失大典。」帝不聽。雄復諫曰：「臣聞人君莫不好忠正而惡讒諛，然而歷世之患，莫不以忠正得罪，讒諛蒙幸者，蓋聽忠難，從諛易也。夫刑罪，人情之所甚惡；",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.61.p16.t1",
+          "type": "temporal",
+          "at": 111,
+          "length": 4,
+          "text": "永建二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 127,
+          "era": "永建",
+          "era_year": 2
+        }
+      ]
     },
     {
       "id": "hhs.61.p17",
@@ -325,6 +387,30 @@
           "at": 97,
           "length": 0,
           "text": "韓厥，韓獻子也。國語曰：「趙宣子舉獻子於靈公，以為司馬。河曲之役，宣子使人以其乘車干行，獻子執而戮之。宣子皆告諸大夫曰：『可賀我矣。吾舉厥也而中吾，乃今知免於罪矣。』」"
+        },
+        {
+          "id": "hhs.61.p21.t1",
+          "type": "temporal",
+          "at": 97,
+          "length": 2,
+          "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 128,
+          "era": "永建",
+          "era_year": 3
+        },
+        {
+          "id": "hhs.61.p21.t2",
+          "type": "temporal",
+          "at": 109,
+          "length": 4,
+          "text": "永和三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 138,
+          "era": "永和",
+          "era_year": 3
         }
       ]
     },
@@ -338,11 +424,37 @@
       "text": "延*(熹)**[光]*四年，辟司徒李合府。時宦者孫程等既立順帝，誅滅諸閻，議郎陳禪以為閻太后與帝無母子恩，宜徙別館，絕朝見。腢臣議者鹹以為宜。舉謂合曰：「昔鄭武姜謀殺嚴公，嚴公誓之黃泉；秦始皇怨母失行，久而隔絕，後感穎考叔、茅焦之言，循復子道。書傳美之。今諸閻新誅，太后幽在離宮，若悲愁生疾，一日不虞，主上將何以令於天下？如從禪議，後世歸咎明公。宜密表朝廷，令奉太后，率厲腢臣，朝覲如舊，以厭天心，以荅人望。」合即上疏陳之。明年正月，帝乃朝於東宮，太后由此以安。",
       "annotations": [
         {
+          "id": "hhs.61.p23.t1",
+          "type": "temporal",
+          "at": 11,
+          "length": 2,
+          "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 139,
+          "era": "永和",
+          "era_year": 4
+        },
+        {
           "id": "hhs.61.p23.a1",
           "type": "lixian",
           "at": 127,
           "length": 0,
           "text": "鄭武姜生莊公及共叔段，愛叔段，謀殺莊公。公誓之曰：「不及黃泉，無相見也。」既而悔之。穎考叔為穎谷封人，曰：「若掘地及泉，隧而相見，其誰曰不然！」公從之，遂為母子如初。事見左傳。茅焦事，解見蘇竟傳也。"
+        },
+        {
+          "id": "hhs.61.p23.t2",
+          "type": "temporal",
+          "at": 212,
+          "length": 4,
+          "text": "明年正月",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 140,
+          "era": "永和",
+          "era_year": 5,
+          "month_chinese": "正月",
+          "month_ordinal": 1
         }
       ]
     },
@@ -405,6 +517,20 @@
           "text": "新序曰：「晉文公反國，介子推無爵，遂去而之介山之上。文公求之不得，乃焚其山，推遂不出而焚死。」事具耿恭傳。龍，星，木之位也，春見東方。"
         },
         {
+          "id": "hhs.61.p26.t1",
+          "type": "temporal",
+          "at": 50,
+          "length": 2,
+          "text": "一月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 140,
+          "era": "永和",
+          "era_year": 5,
+          "month_chinese": "一月",
+          "month_ordinal": 1
+        },
+        {
           "id": "hhs.61.p26.a2",
           "type": "lixian",
           "at": 114,
@@ -422,6 +548,30 @@
       "id": "hhs.61.p28",
       "text": "轉冀州刺史。陽嘉三年，司隸校尉左雄薦舉，征拜尚書。舉與僕射黃瓊同心輔政，名重朝廷，左右憚之。是歲河南、三輔大旱，五穀□傷，天子親自露坐德陽殿東廂請雨，又下司隸、河南禱祀河神、名山、大澤。詔書以舉才學優深，特下策問曰：「朕以不德，仰承三統，夙興夜寐，思協大中。頃年以來，旱□屢應，稼穡焦枯，民食困乏。五品不訓，王澤未流，腢司素餐，據非其位。審所貶黜，變復之征，厥□何由？分別具對，勿有所諱。」舉對曰：「臣聞易稱『天尊地卑，乾坤以定』。二儀交構，乃生萬物，萬物之中，以人為貴。",
       "annotations": [
+        {
+          "id": "hhs.61.p28.t1",
+          "type": "temporal",
+          "at": 6,
+          "length": 4,
+          "text": "陽嘉三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 134,
+          "era": "陽嘉",
+          "era_year": 3
+        },
+        {
+          "id": "hhs.61.p28.t2",
+          "type": "temporal",
+          "at": 46,
+          "length": 2,
+          "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 134,
+          "era": "陽嘉",
+          "era_year": 3
+        },
         {
           "id": "hhs.61.p28.a1",
           "type": "lixian",
@@ -554,6 +704,18 @@
       "text": "永和元年，□異數見，省內惡之，詔召公、卿、中二千石、尚書詣顯親殿，問曰：「言事者多雲，昔周公攝天子事，及薨，成王欲以公禮葬之，天為動變。及更葬以天子之禮，即有反風之應。北鄉侯親為天子而葬以王禮，故數有□異，宜加尊謚，列於昭穆。」腢臣議者多謂宜如詔旨，舉獨對曰：「昔周公有請命之應，隆太平之功，故皇天動威，以章聖德。北鄉侯本非正統，奸臣所立，立不踰歲，年號未改，皇天不佑，大命夭昏。春秋王子猛不稱崩，魯子野不書葬。今北鄉侯無它功德，以王禮葬之，於事已崇，不宜稱謚。□眚之來，弗由此也。」於是司徒黃尚、太常桓焉等七十人同舉議，帝從之。尚字伯河，南郡人也，少歷顯位，亦以政事稱。",
       "annotations": [
         {
+          "id": "hhs.61.p38.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "永和元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 136,
+          "era": "永和",
+          "era_year": 1
+        },
+        {
           "id": "hhs.61.p38.a1",
           "type": "lixian",
           "at": 84,
@@ -580,6 +742,20 @@
       "id": "hhs.61.p39",
       "text": "舉出為蜀郡太守，坐事免。大將軍梁商表為從事中郎，甚敬重焉。六年三月上巳日，商大會賓客，燕於洛水，舉時稱疾不往。商與親暱酣飲極歡，及酒闌倡罷，繼以□露之歌，坐中聞者，皆為掩涕。太僕張種時亦在焉，會還，以事告舉。舉歎曰：「此所謂哀樂失時，非其所也。殃將及乎！」商至秋果薨。商疾篤，帝親臨幸，問以遺言。對曰：「人之將死，其言也善。臣從事中郎周舉，清高忠正，可重任也。」由是拜舉諫議大夫。",
       "annotations": [
+        {
+          "id": "hhs.61.p39.t1",
+          "type": "temporal",
+          "at": 29,
+          "length": 4,
+          "text": "六年三月",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 141,
+          "era": "永和",
+          "era_year": 6,
+          "month_chinese": "三月",
+          "month_ordinal": 3
+        },
         {
           "id": "hhs.61.p39.a1",
           "type": "lixian",
@@ -665,6 +841,18 @@
       "id": "hhs.61.p47",
       "text": "建和三年卒。朝廷以舉清公亮直，方欲以為宰相，深痛惜之。乃詔告光祿勳、汝南太守曰：「昔在前世，求賢如渴，封墓軾閭，以光賢哲。故公叔見誄，翁歸蒙述，所以昭忠厲俗，作范後昆。故光祿大夫周舉，性侔夷、魚，忠踰隨、管，前授牧守，及還納言，出入京輦，有欽哉之績，在禁闈有密靜之風。予錄乃勳，用登九列。方欲式序百官，亮協三事，不永夙終，用乖遠圖。朝廷愍悼，良為愴然。詩不雲乎：『肇敏戎功，用錫爾祉。』其令將大夫以下到喪發日復會吊。加賜錢十萬，以旌委蛇素絲之節焉。」子勰。",
       "annotations": [
+        {
+          "id": "hhs.61.p47.t1",
+          "type": "temporal",
+          "at": 0,
+          "length": 4,
+          "text": "建和三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 149,
+          "era": "建和",
+          "era_year": 3
+        },
         {
           "id": "hhs.61.p47.a1",
           "type": "lixian",
@@ -914,13 +1102,13 @@
         {
           "id": "hhs.61.p59.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 0,
+          "length": 4,
+          "text": "元嘉元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 151,
+          "era": "元嘉",
           "era_year": 1
         },
         {
@@ -953,13 +1141,13 @@
         {
           "id": "hhs.61.p60.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 0,
+          "length": 4,
+          "text": "永興元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 153,
+          "era": "永興",
           "era_year": 1
         },
         {
@@ -1163,13 +1351,13 @@
         {
           "id": "hhs.61.p66.t1",
           "type": "temporal",
-          "at": 27,
-          "length": 4,
-          "text": "元年正月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 158,
-          "era": "延熹",
+          "at": 25,
+          "length": 6,
+          "text": "建和元年正月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 147,
+          "era": "建和",
           "era_year": 1,
           "month_chinese": "正月",
           "month_ordinal": 1

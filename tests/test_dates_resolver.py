@@ -200,6 +200,31 @@ def test_jianxing_in_wu_book_picks_wu_era():
     assert dates[0].year_ad == 252
 
 
+# ---------- post-光武 mid-late 漢 eras (added for 后汉书 coverage) ----------
+
+@pytest.mark.parametrize("era_name,era_year,expected_ad", [
+    ("建武", 1, 25),       # 光武帝即位
+    ("永平", 1, 58),       # 明帝
+    ("永和", 1, 136),      # 順帝
+    ("建和", 1, 147),      # 桓帝
+    ("永興", 1, 153),      # 桓帝（漢, 与西晉 304 同名 — for hhs picks han）
+    ("永壽", 4, 158),      # 桓帝末年
+    ("漢安", 2, 143),
+])
+def test_post_guangwu_han_eras_resolve_in_hhs(era_name, era_year, expected_ad):
+    era = resolve_era(era_name, era_year, book="hhs")
+    assert era is not None and era.dynasty == "han"
+    assert to_ad(era, era_year) == expected_ad
+
+
+def test_yongxi_alt_form_resolves_too():
+    """沖帝在位的 145 年，史書同時有 永熹/永憙 兩寫法。"""
+    for name in ("永熹", "永憙"):
+        era = resolve_era(name, 1, book="hhs")
+        assert era is not None
+        assert to_ad(era, 1) == 145
+
+
 # ---------- resolve_segment: state-aware (phase 2) ----------
 
 def test_resolve_segment_handles_absolute_only():

@@ -5,7 +5,40 @@ source:
   retrieved: '2026-05-03'
   sha256: 847e9bff71d715681ee007aac819f3941dd4e01852290caa15e910220cb34794
 annotations:
+- id: hhs.79.p2.t1
+  anchor: hhs.79.p2
+  at: 0
+  length: 4
+  type: temporal
+  text: 建武五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 29
+  era: 建武
+  era_year: 5
+- id: hhs.79.p2.t2
+  anchor: hhs.79.p2
+  at: 42
+  length: 4
+  type: temporal
+  text: 中元元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 56
+  era: 中元
+  era_year: 1
 - id: hhs.79.p3.t1
+  anchor: hhs.79.p3
+  at: 289
+  length: 4
+  type: temporal
+  text: 本初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 146
+  era: 本初
+  era_year: 1
+- id: hhs.79.p3.t2
   anchor: hhs.79.p3
   at: 416
   length: 4
@@ -18,14 +51,14 @@ annotations:
   era_year: 4
 - id: hhs.79.p9.t1
   anchor: hhs.79.p9
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 176
-  era: 熹平
+  text: 建武五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 29
+  era: 建武
   era_year: 5
 - id: hhs.79.p10.t1
   anchor: hhs.79.p10
@@ -35,9 +68,53 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 174
-  era: 熹平
+  year_ad: 27
+  era: 建武
   era_year: 3
+- id: hhs.79.p10.t2
+  anchor: hhs.79.p10
+  at: 41
+  length: 4
+  type: temporal
+  text: 二十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 46
+  era: 建武
+  era_year: 22
+- id: hhs.79.p10.t3
+  anchor: hhs.79.p10
+  at: 146
+  length: 4
+  type: temporal
+  text: 二十七年
+  kind: relative
+  resolution: bare_year
+  year_ad: 51
+  era: 建武
+  era_year: 27
+- id: hhs.79.p10.t4
+  anchor: hhs.79.p10
+  at: 156
+  length: 3
+  type: temporal
+  text: 三十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 54
+  era: 建武
+  era_year: 30
+- id: hhs.79.p10.t5
+  anchor: hhs.79.p10
+  at: 181
+  length: 4
+  type: temporal
+  text: 中元二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 57
+  era: 中元
+  era_year: 2
 - id: hhs.79.p14.t1
   anchor: hhs.79.p14
   at: 138
@@ -84,14 +161,14 @@ annotations:
   era_year: 18
 - id: hhs.79.p27.t1
   anchor: hhs.79.p27
-  at: 77
-  length: 2
+  at: 75
+  length: 4
   type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 200
-  era: 建安
+  text: 建武五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 29
+  era: 建武
   era_year: 5
 - id: hhs.79.p27.t2
   anchor: hhs.79.p27
@@ -101,8 +178,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 201
-  era: 建安
+  year_ad: 30
+  era: 建武
   era_year: 6
 - id: hhs.79.p27.t3
   anchor: hhs.79.p27
@@ -112,19 +189,19 @@ annotations:
   text: 九年
   kind: relative
   resolution: bare_year
-  year_ad: 204
-  era: 建安
+  year_ad: 33
+  era: 建武
   era_year: 9
 - id: hhs.79.p33.t1
   anchor: hhs.79.p33
-  at: 18
-  length: 2
+  at: 16
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 197
-  era: 建安
+  text: 建武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 26
+  era: 建武
   era_year: 2
 - id: hhs.79.p38.t1
   anchor: hhs.79.p38
@@ -139,36 +216,47 @@ annotations:
   era_year: 7
 - id: hhs.79.p40.t1
   anchor: hhs.79.p40
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 179
-  era: 光和
+  text: 建武二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 26
+  era: 建武
   era_year: 2
 - id: hhs.79.p43.t1
   anchor: hhs.79.p43
-  at: 9
-  length: 2
+  at: 7
+  length: 4
   type: temporal
-  text: 五年
+  text: 永平五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 62
+  era: 永平
+  era_year: 5
+- id: hhs.79.p43.t2
+  anchor: hhs.79.p43
+  at: 68
+  length: 3
+  type: temporal
+  text: 十一年
   kind: relative
   resolution: bare_year
-  year_ad: 182
-  era: 光和
-  era_year: 5
+  year_ad: 68
+  era: 永平
+  era_year: 11
 - id: hhs.79.p51.t1
   anchor: hhs.79.p51
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 179
-  era: 光和
+  text: 元和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 85
+  era: 元和
   era_year: 2
 - id: hhs.79.p52.t1
   anchor: hhs.79.p52
@@ -178,19 +266,19 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 180
-  era: 光和
+  year_ad: 86
+  era: 元和
   era_year: 3
 - id: hhs.79.p54.t1
   anchor: hhs.79.p54
-  at: 22
-  length: 2
+  at: 20
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 178
-  era: 光和
+  text: 延光元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 122
+  era: 延光
   era_year: 1
 - id: hhs.79.p54.t2
   anchor: hhs.79.p54
@@ -200,9 +288,31 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 180
-  era: 光和
+  year_ad: 124
+  era: 延光
   era_year: 3
+- id: hhs.79.p55.t1
+  anchor: hhs.79.p55
+  at: 39
+  length: 5
+  type: temporal
+  text: 建武十三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 37
+  era: 建武
+  era_year: 13
+- id: hhs.79.p55.t2
+  anchor: hhs.79.p55
+  at: 64
+  length: 4
+  type: temporal
+  text: 永元四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 92
+  era: 永元
+  era_year: 4
 - id: hhs.79.p57.t1
   anchor: hhs.79.p57
   at: 12
@@ -211,41 +321,96 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 180
-  era: 光和
-  era_year: 3
+  year_ad: 92
+  era: 永元
+  era_year: 4
 - id: hhs.79.p59.t1
   anchor: hhs.79.p59
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 二年
+  text: 陽嘉二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 133
+  era: 陽嘉
+  era_year: 2
+- id: hhs.79.p63.t1
+  anchor: hhs.79.p63
+  at: 71
+  length: 5
+  type: temporal
+  text: 建武十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 35
+  era: 建武
+  era_year: 11
+- id: hhs.79.p63.t2
+  anchor: hhs.79.p63
+  at: 89
+  length: 3
+  type: temporal
+  text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 179
-  era: 光和
-  era_year: 2
+  year_ad: 37
+  era: 建武
+  era_year: 13
 - id: hhs.79.p65.t1
   anchor: hhs.79.p65
-  at: 44
+  at: 42
+  length: 4
+  type: temporal
+  text: 永平五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 62
+  era: 永平
+  era_year: 5
+- id: hhs.79.p66.t1
+  anchor: hhs.79.p66
+  at: 50
   length: 2
   type: temporal
-  text: 五年
+  text: 八年
   kind: relative
   resolution: bare_year
-  year_ad: 182
-  era: 光和
-  era_year: 5
+  year_ad: 65
+  era: 永平
+  era_year: 8
 - id: hhs.79.p68.t1
   anchor: hhs.79.p68
-  at: 115
-  length: 2
+  at: 94
+  length: 3
   type: temporal
-  text: 四年
+  text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 181
-  era: 光和
+  year_ad: 70
+  era: 永平
+  era_year: 13
+- id: hhs.79.p68.t2
+  anchor: hhs.79.p68
+  at: 103
+  length: 3
+  type: temporal
+  text: 十八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 75
+  era: 永平
+  era_year: 18
+- id: hhs.79.p68.t3
+  anchor: hhs.79.p68
+  at: 113
+  length: 4
+  type: temporal
+  text: 建初四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 79
+  era: 建初
   era_year: 4
 - id: hhs.79.p69.t1
   anchor: hhs.79.p69
@@ -255,32 +420,43 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 182
-  era: 光和
+  year_ad: 80
+  era: 建初
   era_year: 5
 - id: hhs.79.p71.t1
   anchor: hhs.79.p71
-  at: 23
-  length: 2
+  at: 21
+  length: 4
   type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 181
-  era: 光和
+  text: 建武四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 28
+  era: 建武
   era_year: 4
 - id: hhs.79.p71.t2
   anchor: hhs.79.p71
-  at: 89
-  length: 2
+  at: 32
+  length: 3
   type: temporal
-  text: 二年
+  text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 179
-  era: 光和
-  era_year: 2
+  year_ad: 37
+  era: 建武
+  era_year: 13
 - id: hhs.79.p71.t3
+  anchor: hhs.79.p71
+  at: 87
+  length: 4
+  type: temporal
+  text: 永平二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 59
+  era: 永平
+  era_year: 2
+- id: hhs.79.p71.t4
   anchor: hhs.79.p71
   at: 99
   length: 2
@@ -288,107 +464,228 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 181
-  era: 光和
+  year_ad: 61
+  era: 永平
   era_year: 4
 - id: hhs.79.p72.t1
   anchor: hhs.79.p72
-  at: 63
+  at: 25
   length: 2
   type: temporal
-  text: 二年
+  text: 九年
   kind: relative
   resolution: bare_year
-  year_ad: 179
-  era: 光和
-  era_year: 2
+  year_ad: 66
+  era: 永平
+  era_year: 9
 - id: hhs.79.p72.t2
   anchor: hhs.79.p72
-  at: 85
-  length: 2
+  at: 45
+  length: 3
   type: temporal
-  text: 元年
+  text: 十五年
   kind: relative
   resolution: bare_year
-  year_ad: 178
-  era: 光和
+  year_ad: 72
+  era: 永平
+  era_year: 15
+- id: hhs.79.p72.t3
+  anchor: hhs.79.p72
+  at: 61
+  length: 4
+  type: temporal
+  text: 建初二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 77
+  era: 建初
+  era_year: 2
+- id: hhs.79.p72.t4
+  anchor: hhs.79.p72
+  at: 83
+  length: 4
+  type: temporal
+  text: 元和元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 84
+  era: 元和
   era_year: 1
 - id: hhs.79.p79.t1
   anchor: hhs.79.p79
-  at: 45
-  length: 2
+  at: 43
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 178
-  era: 光和
+  text: 建初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 76
+  era: 建初
   era_year: 1
 - id: hhs.79.p79.t2
   anchor: hhs.79.p79
-  at: 96
-  length: 2
+  at: 94
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 179
-  era: 光和
+  text: 元和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 85
+  era: 元和
   era_year: 2
 - id: hhs.79.p79.t3
   anchor: hhs.79.p79
-  at: 107
-  length: 2
+  at: 105
+  length: 4
   type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 179
-  era: 光和
+  text: 章和二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 88
+  era: 章和
   era_year: 2
 - id: hhs.79.p96.t1
   anchor: hhs.79.p96
-  at: 88
+  at: 60
+  length: 4
+  type: temporal
+  text: 中元元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 56
+  era: 中元
+  era_year: 1
+- id: hhs.79.p96.t2
+  anchor: hhs.79.p96
+  at: 86
+  length: 4
+  type: temporal
+  text: 永平五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 62
+  era: 永平
+  era_year: 5
+- id: hhs.79.p96.t3
+  anchor: hhs.79.p96
+  at: 97
   length: 2
   type: temporal
-  text: 五年
+  text: 十年
   kind: relative
   resolution: bare_year
-  year_ad: 182
-  era: 光和
-  era_year: 5
+  year_ad: 67
+  era: 永平
+  era_year: 10
+- id: hhs.79.p99.t1
+  anchor: hhs.79.p99
+  at: 119
+  length: 5
+  type: temporal
+  text: 永平十一年
+  kind: absolute
+  resolution: absolute
+  year_ad: 68
+  era: 永平
+  era_year: 11
+- id: hhs.79.p100.t1
+  anchor: hhs.79.p100
+  at: 19
+  length: 3
+  type: temporal
+  text: 十八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 75
+  era: 永平
+  era_year: 18
+- id: hhs.79.p101.t1
+  anchor: hhs.79.p101
+  at: 0
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 69
+  era: 永平
+  era_year: 12
+- id: hhs.79.p101.t2
+  anchor: hhs.79.p101
+  at: 126
+  length: 3
+  type: temporal
+  text: 十八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 75
+  era: 永平
+  era_year: 18
 - id: hhs.79.p105.t1
   anchor: hhs.79.p105
-  at: 105
-  length: 2
+  at: 83
+  length: 3
   type: temporal
-  text: 五年
+  text: 十六年
   kind: relative
   resolution: bare_year
-  year_ad: 182
-  era: 光和
+  year_ad: 73
+  era: 永平
+  era_year: 16
+- id: hhs.79.p105.t2
+  anchor: hhs.79.p105
+  at: 92
+  length: 3
+  type: temporal
+  text: 十八年
+  kind: relative
+  resolution: bare_year
+  year_ad: 75
+  era: 永平
+  era_year: 18
+- id: hhs.79.p105.t3
+  anchor: hhs.79.p105
+  at: 103
+  length: 4
+  type: temporal
+  text: 建初五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 80
+  era: 建初
   era_year: 5
+- id: hhs.79.p105.t4
+  anchor: hhs.79.p105
+  at: 147
+  length: 5
+  type: temporal
+  text: 永元十二年
+  kind: absolute
+  resolution: absolute
+  year_ad: 100
+  era: 永元
+  era_year: 12
 - id: hhs.79.p106.t1
   anchor: hhs.79.p106
-  at: 74
-  length: 2
+  at: 72
+  length: 4
   type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 180
-  era: 光和
+  text: 建初三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 78
+  era: 建初
   era_year: 3
 - id: hhs.79.p112.t1
   anchor: hhs.79.p112
-  at: 2
-  length: 2
+  at: 0
+  length: 4
   type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 178
-  era: 光和
+  text: 建初元年
+  kind: absolute
+  resolution: absolute
+  year_ad: 76
+  era: 建初
   era_year: 1
 - id: hhs.79.p112.t2
   anchor: hhs.79.p112
@@ -398,8 +695,8 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 181
-  era: 光和
+  year_ad: 79
+  era: 建初
   era_year: 4
 - id: hhs.79.p115.t1
   anchor: hhs.79.p115
@@ -409,8 +706,8 @@ annotations:
   text: 七年
   kind: relative
   resolution: bare_year
-  year_ad: 184
-  era: 光和
+  year_ad: 82
+  era: 建初
   era_year: 7
 - id: hhs.79.p116.t1
   anchor: hhs.79.p116

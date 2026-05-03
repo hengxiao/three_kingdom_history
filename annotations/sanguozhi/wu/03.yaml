@@ -983,14 +983,14 @@ annotations:
   era_year: 1
 - id: wu.3.p23.t1
   anchor: wu.3.p23
-  at: 0
-  length: 6
+  at: 2
+  length: 4
   type: temporal
-  text: 元興元年八月
-  kind: absolute
-  resolution: absolute
-  year_ad: 264
-  era: 元興
+  text: 元年八月
+  kind: relative
+  resolution: bare_year
+  year_ad: 258
+  era: 永安
   era_year: 1
   month_chinese: 八月
   month_ordinal: 8
@@ -1002,8 +1002,8 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 264
-  era: 元興
+  year_ad: 258
+  era: 永安
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
@@ -1015,8 +1015,8 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 264
-  era: 元興
+  year_ad: 258
+  era: 永安
   era_year: 1
   month_chinese: 十月
   month_ordinal: 10
@@ -1034,8 +1034,8 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 264
-  era: 元興
+  year_ad: 258
+  era: 永安
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
@@ -1047,8 +1047,8 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 264
-  era: 元興
+  year_ad: 258
+  era: 永安
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
@@ -1066,8 +1066,8 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 264
-  era: 元興
+  year_ad: 258
+  era: 永安
   era_year: 1
 - id: wu.3.p23.a3
   anchor: wu.3.p23

@@ -17,6 +17,17 @@ annotations:
   length: 0
   type: pei
   text: 漢
+- id: wei.30.p2.t1
+  anchor: wei.30.p2
+  at: 1122
+  length: 6
+  type: temporal
+  text: 建武二十五年
+  kind: absolute
+  resolution: absolute
+  year_ad: 49
+  era: 建武
+  era_year: 25
 - id: wei.30.p3.a1
   anchor: wei.30.p3
   at: 231
@@ -353,14 +364,14 @@ annotations:
   era_year: 3
 - id: wei.30.p26.t2
   anchor: wei.30.p26
-  at: 725
-  length: 2
+  at: 723
+  length: 4
   type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 243
-  era: 正始
+  text: 延光四年
+  kind: absolute
+  resolution: absolute
+  year_ad: 125
+  era: 延光
   era_year: 4
 - id: wei.30.p28.t1
   anchor: wei.30.p28
@@ -370,8 +381,8 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 243
-  era: 正始
+  year_ad: 125
+  era: 延光
   era_year: 4
   month_chinese: 五月
   month_ordinal: 5
@@ -383,8 +394,8 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 243
-  era: 正始
+  year_ad: 125
+  era: 延光
   era_year: 4
   month_chinese: 十月
   month_ordinal: 10
@@ -414,8 +425,8 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 243
-  era: 正始
+  year_ad: 125
+  era: 延光
   era_year: 4
   month_chinese: 一月
   month_ordinal: 1
@@ -427,8 +438,8 @@ annotations:
   text: 一年
   kind: relative
   resolution: bare_year
-  year_ad: 240
-  era: 正始
+  year_ad: 122
+  era: 延光
   era_year: 1
 - id: wei.30.p35.t1
   anchor: wei.30.p35
@@ -537,14 +548,14 @@ annotations:
   month_ordinal: 2
 - id: wei.30.p39.t1
   anchor: wei.30.p39
-  at: 497
-  length: 2
+  at: 495
+  length: 4
   type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 242
-  era: 正始
+  text: 陽嘉三年
+  kind: absolute
+  resolution: absolute
+  year_ad: 134
+  era: 陽嘉
   era_year: 3
 - id: wei.30.p40.t1
   anchor: wei.30.p40
@@ -554,8 +565,8 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 242
-  era: 正始
+  year_ad: 134
+  era: 陽嘉
   era_year: 3
   month_chinese: 一月
   month_ordinal: 1
