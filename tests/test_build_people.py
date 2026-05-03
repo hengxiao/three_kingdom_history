@@ -177,6 +177,25 @@ def test_build_one_person_emits_bio_chapters_with_data_url(tmp_path):
 
 # ---------- build_index_dict ----------
 
+def test_build_index_dict_emits_flat_name_index_longest_first():
+    persons = [
+        {"id": "z", "primary_name": "諸葛亮", "aliases": ["諸葛孔明", "孔明"],
+         "n_mentions": 1, "bio_chapters": [], "brief": "", "birth_ad": None, "death_ad": None},
+        {"id": "c", "primary_name": "曹操", "aliases": [],
+         "n_mentions": 2, "bio_chapters": [], "brief": "", "birth_ad": None, "death_ad": None},
+    ]
+    idx = build_index_dict(persons)
+    names = [n for n, _ in idx["name_index"]]
+    # Longest-first ordering so "諸葛孔明" matches before "諸葛亮" or "孔明".
+    assert names.index("諸葛孔明") < names.index("諸葛亮")
+    assert names.index("諸葛亮") < names.index("孔明")
+    # Every name → correct person id.
+    by_name = dict(idx["name_index"])
+    assert by_name["諸葛亮"] == "z"
+    assert by_name["孔明"] == "z"
+    assert by_name["曹操"] == "c"
+
+
 def test_build_index_dict_sorts_by_mention_count_desc(tmp_path):
     persons = [
         {"id": "a", "primary_name": "A", "n_mentions": 5,

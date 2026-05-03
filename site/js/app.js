@@ -25,6 +25,65 @@ function setBreadcrumbs(parts) {
   }).join('<span class="sep">›</span>');
 }
 
+/* ---------- name index (people-name → id, used to wrap name links inline) ---------- */
+
+let NAME_INDEX_CACHE = null;
+async function getNameIndex() {
+  if (NAME_INDEX_CACHE !== null) return NAME_INDEX_CACHE;
+  try {
+    const idx = await loadJSON(`${DATA_BASE}/people.json`);
+    NAME_INDEX_CACHE = idx.name_index || [];
+  } catch {
+    NAME_INDEX_CACHE = [];
+  }
+  return NAME_INDEX_CACHE;
+}
+
+// Find non-overlapping person-name spans in `text`. `excludeRanges` is a list of
+// [start, end) pairs (e.g. temporal surface positions) that the matcher must
+// not enter.
+function findPersonSpans(text, nameIndex, excludeRanges = []) {
+  const spans = [];
+  let pos = 0;
+  while (pos < text.length) {
+    let inExcluded = false;
+    for (const [s, e] of excludeRanges) {
+      if (s <= pos && pos < e) { inExcluded = true; pos = e; break; }
+    }
+    if (inExcluded) continue;
+    let matched = null;
+    for (const [name] of nameIndex) {
+      if (text.startsWith(name, pos)) { matched = name; break; }
+    }
+    if (!matched) { pos++; continue; }
+    const id = nameIndex.find(([n]) => n === matched)[1];
+    const end = pos + matched.length;
+    let crossesExcluded = false;
+    for (const [s, e] of excludeRanges) {
+      if (pos < e && end > s) { crossesExcluded = true; break; }
+    }
+    if (!crossesExcluded) spans.push({ at: pos, end, id, name: matched });
+    pos = end;
+  }
+  return spans;
+}
+
+// Render plain text with person-name occurrences wrapped in <a class="person-link">.
+function wrapPersonNames(text, nameIndex) {
+  if (!nameIndex || nameIndex.length === 0) return escapeHTML(text);
+  const spans = findPersonSpans(text, nameIndex);
+  if (spans.length === 0) return escapeHTML(text);
+  let out = "";
+  let pos = 0;
+  for (const sp of spans) {
+    if (sp.at > pos) out += escapeHTML(text.slice(pos, sp.at));
+    out += `<a class="person-link" href="#/people/${escapeAttr(sp.id)}">${escapeHTML(sp.name)}</a>`;
+    pos = sp.end;
+  }
+  if (pos < text.length) out += escapeHTML(text.slice(pos));
+  return out;
+}
+
 /* ---------- INDEX PAGE ---------- */
 
 // Cached at first load: book_id → { work_id, title, chapters[…with data_url] }.
@@ -92,8 +151,8 @@ async function renderChapter(book, juan) {
   const main = $("#content");
   main.innerHTML = "載入章節中…";
   try {
-    const ch = await loadJSON(dataUrl);
-    main.innerHTML = renderChapterHTML(ch);
+    const [ch, nameIndex] = await Promise.all([loadJSON(dataUrl), getNameIndex()]);
+    main.innerHTML = renderChapterHTML(ch, nameIndex);
   } catch (err) {
     main.innerHTML = `<div class="error">載入章節失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -103,7 +162,7 @@ function bookTitleFromId(id) {
   return { wei: "魏書", shu: "蜀書", wu: "吳書", hhs: "後漢書", zztj: "資治通鑑" }[id] || id;
 }
 
-function renderChapterHTML(ch) {
+function renderChapterHTML(ch, nameIndex) {
   const warns = (ch.parse_warnings && ch.parse_warnings.length) ? `
     <div class="parse-warnings">
       <strong>解析警告</strong>（多半因 Wikisource 標記不平衡，已盡力恢復）：
@@ -111,7 +170,7 @@ function renderChapterHTML(ch) {
     </div>` : "";
 
   const segments = ch.segments.map(s => {
-    const r = renderSegmentText(s);
+    const r = renderSegmentText(s, nameIndex);
     return `
     <div class="segment" id="${s.id}">
       <div class="seg-id"><a href="#/chapter/${ch.book}/${ch.juan}#${s.id}" title="複製鏈接">${escapeHTML(s.id.split('.').slice(-1)[0])}</a></div>
@@ -159,9 +218,8 @@ function renderChapterNav(ch) {
  *
  * Returns { textHTML, notesHTML }.
  */
-function renderSegmentText(seg) {
+function renderSegmentText(seg, nameIndex) {
   const text = seg.text;
-  // Collect pei + temporal in document order to assign stable display numbers.
   const peis = seg.annotations.filter(a => a.type !== "temporal");
   const temporals = seg.annotations.filter(a => a.type === "temporal");
   const peiNum = new Map();
@@ -169,13 +227,24 @@ function renderSegmentText(seg) {
   const tempNum = new Map();
   temporals.forEach((a, i) => tempNum.set(a.id, i + 1));
 
-  const events = []; // { pos, prio, kind, ann }
+  // Person-name spans, excluding any that fall inside a temporal surface (otherwise
+  // we'd nest <a> tags — temporal anchors already wrap their range).
+  const tempRanges = temporals.map(a => [a.at, a.at + a.length]);
+  const personSpans = nameIndex && nameIndex.length
+    ? findPersonSpans(text, nameIndex, tempRanges)
+    : [];
+
+  const events = [];
   for (const a of temporals) {
     events.push({ pos: a.at, prio: 0, kind: "temp_open", ann: a });
-    events.push({ pos: a.at + a.length, prio: 1, kind: "temp_close", ann: a });
+    events.push({ pos: a.at + a.length, prio: 5, kind: "temp_close", ann: a });
+  }
+  for (const sp of personSpans) {
+    events.push({ pos: sp.at, prio: 1, kind: "person_open", span: sp });
+    events.push({ pos: sp.end, prio: 4, kind: "person_close", span: sp });
   }
   for (const a of peis) {
-    events.push({ pos: a.at, prio: 2, kind: "pei_marker", ann: a });
+    events.push({ pos: a.at, prio: 3, kind: "pei_marker", ann: a });
   }
   events.sort((a, b) => a.pos - b.pos || a.prio - b.prio);
 
@@ -191,18 +260,21 @@ function renderSegmentText(seg) {
       const cls = isRel ? "temporal temporal--relative" : "temporal";
       const tooltip = escapeAttr(temporalTitle(ev.ann) + " — 點擊跳到時間軸");
       const href = ev.ann.year_ad != null ? `#/timeline/${ev.ann.year_ad}` : "";
-      // The wrapping anchor lets a click on either the highlighted surface OR
-      // the trailing AD badge jump to that year on the timeline. Open emits
-      // the anchor + the surface-wrapping span; close closes both, after
-      // emitting the AD badge.
       out += `<a class="temporal-link" href="${href}" title="${tooltip}"><span class="${cls}" data-resolution="${escapeAttr(ev.ann.resolution || "absolute")}">`;
     } else if (ev.kind === "temp_close") {
       const isRel = ev.ann.kind === "relative";
       const adCls = isRel ? "temporal-ad temporal-ad--relative" : "temporal-ad";
       out += `</span><span class="${adCls}">${formatAD(ev.ann)}</span></a>`;
+    } else if (ev.kind === "person_open") {
+      out += `<a class="person-link" href="#/people/${escapeAttr(ev.span.id)}">`;
+    } else if (ev.kind === "person_close") {
+      out += `</a>`;
     } else if (ev.kind === "pei_marker") {
       const n = peiNum.get(ev.ann.id);
-      out += `<sup class="pei-ref" data-ann="${escapeAttr(ev.ann.id)}"><a href="#${ev.ann.id}-note">[${n}]</a></sup>`;
+      // Plain <sup> with data-anchor — no nested <a> so it can sit inside the
+      // surrounding person-link / temporal-link without producing invalid HTML.
+      // The delegated click handler intercepts the click and scrolls to the note.
+      out += `<sup class="pei-ref" data-anchor="${escapeAttr(ev.ann.id)}-note" tabindex="0" role="button" aria-label="跳到注${n}">[${n}]</sup>`;
     }
   }
   if (pos < text.length) out += escapeHTML(text.slice(pos));
@@ -289,7 +361,7 @@ async function renderTimelineYear(year) {
   const main = $("#content");
   main.innerHTML = "載入年份中…";
   try {
-    const tl = await loadTimeline();
+    const [tl, nameIndex] = await Promise.all([loadTimeline(), getNameIndex()]);
     const y = tl.years.find(x => Number(x.year_ad) === Number(year));
     if (!y) {
       main.innerHTML = `<div class="error">公元 ${year} 年沒有時間錨點。</div>`;
@@ -319,7 +391,7 @@ async function renderTimelineYear(year) {
                       data-anchor="${escapeAttr(e.anchor)}"
                       data-data-url="${escapeAttr(e.data_url)}"
                       data-snippet-original="${escapeAttr(e.snippet)}"
-                      aria-expanded="false">${escapeHTML(e.snippet)}</button>
+                      aria-expanded="false">${wrapPersonNames(e.snippet, nameIndex)}</button>
             </li>`).join("")
         }</ul>
       </section>`).join("");
@@ -406,7 +478,10 @@ async function renderPersonPage(id) {
   const main = $("#content");
   main.innerHTML = "載入人物中…";
   try {
-    const p = await loadJSON(`${DATA_BASE}/people/${id}.json`);
+    const [p, nameIndex] = await Promise.all([
+      loadJSON(`${DATA_BASE}/people/${id}.json`),
+      getNameIndex(),
+    ]);
     setBreadcrumbs([
       { label: "目錄", href: "#/" },
       { label: "人物志", href: "#/people" },
@@ -452,7 +527,7 @@ async function renderPersonPage(id) {
                         data-data-url="${escapeAttr(m.data_url)}"
                         data-snippet-original="${escapeAttr(m.snippet)}"
                         aria-expanded="false"
-                        title="匹配：${escapeAttr(m.matched)}">${escapeHTML(m.snippet)}</button>
+                        title="匹配：${escapeAttr(m.matched)}">${wrapPersonNames(m.snippet, nameIndex)}</button>
               </li>`).join("")
           }</ul>
         </div>`).join("");
@@ -548,43 +623,48 @@ async function fetchAndCacheChapter(url) {
 }
 
 async function toggleSnippet(btn) {
+  const nameIndex = await getNameIndex();
   const expanded = btn.getAttribute("aria-expanded") === "true";
   if (expanded) {
-    btn.textContent = btn.dataset.snippetOriginal;
+    btn.innerHTML = wrapPersonNames(btn.dataset.snippetOriginal, nameIndex);
     btn.setAttribute("aria-expanded", "false");
     return;
   }
-  const previous = btn.textContent;
   btn.textContent = "載入中…";
   try {
     const ch = await fetchAndCacheChapter(btn.dataset.dataUrl);
     const seg = ch.segments.find(s => s.id === btn.dataset.anchor);
-    btn.textContent = seg ? seg.text : previous;
+    btn.innerHTML = seg
+      ? wrapPersonNames(seg.text, nameIndex)
+      : wrapPersonNames(btn.dataset.snippetOriginal, nameIndex);
     btn.setAttribute("aria-expanded", "true");
   } catch (err) {
-    btn.textContent = previous;
+    btn.innerHTML = wrapPersonNames(btn.dataset.snippetOriginal, nameIndex);
   }
 }
 
 function bindClicks() {
   $("#content").addEventListener("click", e => {
     // (1) timeline snippet click — expand inline (no navigation).
-    const snippetBtn = e.target.closest(".event-snippet");
-    if (snippetBtn) {
-      e.preventDefault();
-      toggleSnippet(snippetBtn);
-      return;
+    // Important: snippet detection runs BEFORE the person-link check below,
+    // because a tap on a person link inside an expanded snippet should navigate.
+    if (e.target.closest("a") === null) {
+      const snippetBtn = e.target.closest(".event-snippet");
+      if (snippetBtn) {
+        e.preventDefault();
+        toggleSnippet(snippetBtn);
+        return;
+      }
     }
     // (2) tap on a 裴注 marker [N] — scroll and flash the matching note.
-    const ref = e.target.closest(".pei-ref a");
+    const ref = e.target.closest(".pei-ref");
     if (ref) {
       e.preventDefault();
+      e.stopPropagation();   // don't bubble up to a wrapping person-link
       const seg = ref.closest(".segment");
-      // On narrow, the notes block is collapsed by default — reveal it first
-      // so scrollIntoView has a visible target.
       if (seg) seg.classList.add("notes-revealed");
-      const id = ref.getAttribute("href").replace(/^#/, "");
-      const note = document.getElementById(id);
+      const id = ref.dataset.anchor;
+      const note = id && document.getElementById(id);
       if (note) {
         note.scrollIntoView({ behavior: "smooth", block: "center" });
         note.classList.add("note-flash");
@@ -593,8 +673,6 @@ function bindClicks() {
       return;
     }
     // (3) tap on the 正文 (narrow only) — toggle the segment's notes.
-    // Skip when the tap landed on a real link (e.g. a temporal-link inside the
-    // text); the link's own navigation should not also toggle the notes.
     if (NARROW_MQ.matches && !e.target.closest("a")) {
       const segText = e.target.closest(".seg-text");
       if (segText) {

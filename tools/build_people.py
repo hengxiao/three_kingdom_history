@@ -210,7 +210,25 @@ def build_index_dict(persons: list[dict]) -> dict:
             "n_mentions": p["n_mentions"],
         })
     rows.sort(key=lambda r: (-r["n_mentions"], r["id"]))
-    return {"generated_by": "tools/build_people.py", "people": rows}
+
+    # Flat name → person_id table for the site to wire person-name links into
+    # any rendered text. Same conservative pattern set as the search index
+    # (primary_name + aliases only; other_names stays display-only).
+    # Sorted longest-first so e.g. "諸葛亮" matches before something shorter would.
+    name_pairs: list[tuple[str, str]] = []
+    seen_names: set[str] = set()
+    for p in persons:
+        for name in [p["primary_name"]] + list(p.get("aliases") or []):
+            if not name or name in seen_names:
+                continue
+            seen_names.add(name)
+            name_pairs.append((name, p["id"]))
+    name_pairs.sort(key=lambda x: -len(x[0]))
+    return {
+        "generated_by": "tools/build_people.py",
+        "people": rows,
+        "name_index": [[name, pid] for name, pid in name_pairs],
+    }
 
 
 def write_all(*, repo_root: Path = REPO_ROOT_DEFAULT,
