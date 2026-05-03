@@ -106,9 +106,13 @@ def _strip_annotation_for_site(a: dict) -> dict:
         "text": a.get("text", ""),
     }
     if a["type"] == "temporal":
-        out["era"] = a.get("era")
-        out["era_year"] = a.get("era_year")
+        out["kind"] = a.get("kind", "absolute")
+        out["resolution"] = a.get("resolution", "absolute")
         out["year_ad"] = a.get("year_ad")
+        if a.get("era") is not None:
+            out["era"] = a["era"]
+        if a.get("era_year") is not None:
+            out["era_year"] = a["era_year"]
         if "month_chinese" in a:
             out["month_chinese"] = a["month_chinese"]
         if "month_ordinal" in a:

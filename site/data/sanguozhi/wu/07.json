@@ -111,9 +111,11 @@
           "at": 37,
           "length": 4,
           "text": "嘉禾五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 236,
           "era": "嘉禾",
-          "era_year": 5,
-          "year_ad": 236
+          "era_year": 5
         },
         {
           "id": "wu.7.p8.a1",
@@ -146,9 +148,11 @@
           "at": 186,
           "length": 4,
           "text": "赤烏七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 244,
           "era": "赤烏",
-          "era_year": 7,
-          "year_ad": 244
+          "era_year": 7
         },
         {
           "id": "wu.7.p10.a2",
@@ -209,9 +213,11 @@
           "at": 0,
           "length": 4,
           "text": "黃武四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 225,
           "era": "黃武",
-          "era_year": 4,
-          "year_ad": 225
+          "era_year": 4
         },
         {
           "id": "wu.7.p13.a1",
@@ -239,9 +245,11 @@
           "at": 12,
           "length": 4,
           "text": "赤烏六年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 243,
           "era": "赤烏",
-          "era_year": 6,
-          "year_ad": 243
+          "era_year": 6
         },
         {
           "id": "wu.7.p14.t2",
@@ -249,9 +257,11 @@
           "at": 105,
           "length": 4,
           "text": "永安元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 258,
           "era": "永安",
-          "era_year": 1,
-          "year_ad": 258
+          "era_year": 1
         },
         {
           "id": "wu.7.p14.a1",
@@ -286,9 +296,11 @@
           "at": 319,
           "length": 2,
           "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 262,
           "era": "永安",
-          "era_year": 5,
-          "year_ad": 262
+          "era_year": 5
         }
       ]
     },
@@ -339,9 +351,11 @@
           "at": 212,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 259,
           "era": "永安",
-          "era_year": 2,
-          "year_ad": 259
+          "era_year": 2
         }
       ]
     },
@@ -367,9 +381,11 @@
           "at": 64,
           "length": 5,
           "text": "建安二十年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 215,
           "era": "建安",
-          "era_year": 20,
-          "year_ad": 215
+          "era_year": 20
         }
       ]
     },
@@ -402,9 +418,11 @@
           "at": 227,
           "length": 4,
           "text": "黃武元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 222,
           "era": "黃武",
-          "era_year": 1,
-          "year_ad": 222
+          "era_year": 1
         },
         {
           "id": "wu.7.p23.a3",
@@ -457,9 +475,11 @@
           "at": 81,
           "length": 4,
           "text": "赤烏四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 241,
           "era": "赤烏",
-          "era_year": 4,
-          "year_ad": 241
+          "era_year": 4
         }
       ]
     },
@@ -547,9 +567,11 @@
           "at": 29,
           "length": 5,
           "text": "建安十五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 210,
           "era": "建安",
-          "era_year": 15,
-          "year_ad": 210
+          "era_year": 15
         },
         {
           "id": "wu.7.p30.t2",
@@ -557,9 +579,11 @@
           "at": 69,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 16,
-          "year_ad": 211
+          "era_year": 16
         }
       ]
     },
@@ -573,9 +597,11 @@
           "at": 0,
           "length": 4,
           "text": "延康元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 220,
           "era": "延康",
-          "era_year": 1,
-          "year_ad": 220
+          "era_year": 1
         },
         {
           "id": "wu.7.p31.t2",
@@ -583,9 +609,11 @@
           "at": 76,
           "length": 4,
           "text": "黃武二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "黃武",
-          "era_year": 2,
-          "year_ad": 223
+          "era_year": 2
         },
         {
           "id": "wu.7.p31.t3",
@@ -593,9 +621,11 @@
           "at": 96,
           "length": 2,
           "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
           "era": "黃武",
-          "era_year": 5,
-          "year_ad": 226
+          "era_year": 5
         }
       ]
     },
@@ -637,9 +667,11 @@
           "at": 89,
           "length": 6,
           "text": "嘉禾六年五月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 237,
           "era": "嘉禾",
           "era_year": 6,
-          "year_ad": 237,
           "month_chinese": "五月",
           "month_ordinal": 5
         },
@@ -649,9 +681,11 @@
           "at": 99,
           "length": 6,
           "text": "赤烏二年正月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 239,
           "era": "赤烏",
           "era_year": 2,
-          "year_ad": 239,
           "month_chinese": "正月",
           "month_ordinal": 1
         }
@@ -690,9 +724,11 @@
           "at": 0,
           "length": 4,
           "text": "赤烏九年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 246,
           "era": "赤烏",
-          "era_year": 9,
-          "year_ad": 246
+          "era_year": 9
         }
       ]
     },
@@ -706,9 +742,11 @@
           "at": 54,
           "length": 2,
           "text": "元年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 238,
           "era": "赤烏",
-          "era_year": 1,
-          "year_ad": 238
+          "era_year": 1
         }
       ]
     },

@@ -79,9 +79,11 @@
           "at": 0,
           "length": 4,
           "text": "青龍二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 234,
           "era": "青龍",
-          "era_year": 2,
-          "year_ad": 234
+          "era_year": 2
         },
         {
           "id": "wei.25.p9.t2",
@@ -89,9 +91,11 @@
           "at": 36,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 234,
           "era": "青龍",
-          "era_year": 2,
-          "year_ad": 234
+          "era_year": 2
         },
         {
           "id": "wei.25.p9.a1",
@@ -132,9 +136,11 @@
           "at": 201,
           "length": 2,
           "text": "正月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 234,
           "era": "青龍",
           "era_year": 2,
-          "year_ad": 234,
           "month_chinese": "正月",
           "month_ordinal": 1
         },
@@ -144,9 +150,11 @@
           "at": 204,
           "length": 2,
           "text": "八月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 234,
           "era": "青龍",
           "era_year": 2,
-          "year_ad": 234,
           "month_chinese": "八月",
           "month_ordinal": 8
         }
@@ -238,9 +246,11 @@
           "at": 0,
           "length": 5,
           "text": "建安十八年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 18,
-          "year_ad": 213
+          "era_year": 18
         },
         {
           "id": "wei.25.p24.a1",
@@ -271,9 +281,11 @@
           "at": 143,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         }
       ]
     },
@@ -307,9 +319,11 @@
           "at": 0,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         }
       ]
     },
@@ -323,9 +337,11 @@
           "at": 340,
           "length": 7,
           "text": "青龍五年春三月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 237,
           "era": "青龍",
           "era_year": 5,
-          "year_ad": 237,
           "month_chinese": "春三月",
           "month_ordinal": 3
         },
@@ -335,9 +351,11 @@
           "at": 348,
           "length": 4,
           "text": "景初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 237,
           "era": "景初",
-          "era_year": 1,
-          "year_ad": 237
+          "era_year": 1
         },
         {
           "id": "wei.25.p33.t3",
@@ -345,9 +363,11 @@
           "at": 353,
           "length": 3,
           "text": "夏四月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 237,
           "era": "景初",
           "era_year": 1,
-          "year_ad": 237,
           "month_chinese": "夏四月",
           "month_ordinal": 4
         }

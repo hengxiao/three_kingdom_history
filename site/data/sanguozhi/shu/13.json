@@ -56,9 +56,11 @@
           "at": 92,
           "length": 5,
           "text": "蜀延熙二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 239,
           "era": "延熙",
-          "era_year": 2,
-          "year_ad": 239
+          "era_year": 2
         },
         {
           "id": "shu.13.p3.a1",
@@ -73,9 +75,11 @@
           "at": 110,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 240,
           "era": "延熙",
-          "era_year": 3,
-          "year_ad": 240
+          "era_year": 3
         }
       ]
     },
@@ -96,9 +100,11 @@
           "at": 187,
           "length": 4,
           "text": "章武元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 221,
           "era": "章武",
-          "era_year": 1,
-          "year_ad": 221
+          "era_year": 1
         },
         {
           "id": "shu.13.p4.a2",
@@ -124,9 +130,11 @@
           "at": 82,
           "length": 4,
           "text": "建興七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 229,
           "era": "建興",
-          "era_year": 7,
-          "year_ad": 229
+          "era_year": 7
         },
         {
           "id": "shu.13.p6.t2",
@@ -134,9 +142,11 @@
           "at": 116,
           "length": 2,
           "text": "九年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 231,
           "era": "建興",
-          "era_year": 9,
-          "year_ad": 231
+          "era_year": 9
         }
       ]
     },
@@ -186,9 +196,11 @@
           "at": 122,
           "length": 4,
           "text": "建興元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "建興",
-          "era_year": 1,
-          "year_ad": 223
+          "era_year": 1
         },
         {
           "id": "shu.13.p11.t2",
@@ -196,9 +208,11 @@
           "at": 139,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
           "era": "建興",
-          "era_year": 3,
-          "year_ad": 225
+          "era_year": 3
         },
         {
           "id": "shu.13.p11.t3",
@@ -206,9 +220,11 @@
           "at": 175,
           "length": 2,
           "text": "八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 230,
           "era": "建興",
-          "era_year": 8,
-          "year_ad": 230
+          "era_year": 8
         },
         {
           "id": "shu.13.p11.t4",
@@ -216,9 +232,11 @@
           "at": 203,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 231,
           "era": "建興",
-          "era_year": 9,
-          "year_ad": 231
+          "era_year": 9
         },
         {
           "id": "shu.13.p11.t5",
@@ -226,9 +244,11 @@
           "at": 237,
           "length": 3,
           "text": "十一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 233,
           "era": "建興",
-          "era_year": 11,
-          "year_ad": 233
+          "era_year": 11
         },
         {
           "id": "shu.13.p11.t6",
@@ -236,9 +256,11 @@
           "at": 374,
           "length": 4,
           "text": "延熙五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 242,
           "era": "延熙",
-          "era_year": 5,
-          "year_ad": 242
+          "era_year": 5
         },
         {
           "id": "shu.13.p11.t7",
@@ -246,9 +268,11 @@
           "at": 406,
           "length": 2,
           "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 244,
           "era": "延熙",
-          "era_year": 7,
-          "year_ad": 244
+          "era_year": 7
         },
         {
           "id": "shu.13.p11.t8",
@@ -256,9 +280,11 @@
           "at": 438,
           "length": 3,
           "text": "十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 249,
           "era": "延熙",
-          "era_year": 12,
-          "year_ad": 249
+          "era_year": 12
         },
         {
           "id": "shu.13.p11.a1",
@@ -286,9 +312,11 @@
           "at": 60,
           "length": 4,
           "text": "建興六年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 228,
           "era": "建興",
-          "era_year": 6,
-          "year_ad": 228
+          "era_year": 6
         },
         {
           "id": "shu.13.p12.t2",
@@ -296,9 +324,11 @@
           "at": 203,
           "length": 2,
           "text": "九年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 231,
           "era": "建興",
-          "era_year": 9,
-          "year_ad": 231
+          "era_year": 9
         }
       ]
     },
@@ -312,9 +342,11 @@
           "at": 0,
           "length": 3,
           "text": "十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 234,
           "era": "建興",
-          "era_year": 12,
-          "year_ad": 234
+          "era_year": 12
         },
         {
           "id": "shu.13.p13.t2",
@@ -322,9 +354,11 @@
           "at": 58,
           "length": 3,
           "text": "十五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 237,
           "era": "建興",
-          "era_year": 15,
-          "year_ad": 237
+          "era_year": 15
         },
         {
           "id": "shu.13.p13.t3",
@@ -332,9 +366,11 @@
           "at": 74,
           "length": 4,
           "text": "延熙元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 238,
           "era": "延熙",
-          "era_year": 1,
-          "year_ad": 238
+          "era_year": 1
         },
         {
           "id": "shu.13.p13.t4",
@@ -342,9 +378,11 @@
           "at": 100,
           "length": 2,
           "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 243,
           "era": "延熙",
-          "era_year": 6,
-          "year_ad": 243
+          "era_year": 6
         }
       ]
     },
@@ -358,9 +396,11 @@
           "at": 0,
           "length": 2,
           "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 244,
           "era": "延熙",
-          "era_year": 7,
-          "year_ad": 244
+          "era_year": 7
         }
       ]
     },
@@ -374,9 +414,11 @@
           "at": 106,
           "length": 3,
           "text": "十一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 248,
           "era": "延熙",
-          "era_year": 11,
-          "year_ad": 248
+          "era_year": 11
         }
       ]
     },
@@ -417,9 +459,11 @@
           "at": 93,
           "length": 4,
           "text": "建興五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 227,
           "era": "建興",
-          "era_year": 5,
-          "year_ad": 227
+          "era_year": 5
         },
         {
           "id": "shu.13.p17.a2",
@@ -440,9 +484,11 @@
           "at": 0,
           "length": 3,
           "text": "十四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 236,
           "era": "建興",
-          "era_year": 14,
-          "year_ad": 236
+          "era_year": 14
         }
       ]
     },
@@ -456,9 +502,11 @@
           "at": 145,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
           "era": "建興",
-          "era_year": 3,
-          "year_ad": 225
+          "era_year": 3
         }
       ]
     },
@@ -502,9 +550,11 @@
           "at": 2,
           "length": 3,
           "text": "十五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 237,
           "era": "建興",
-          "era_year": 15,
-          "year_ad": 237
+          "era_year": 15
         },
         {
           "id": "shu.13.p26.a1",
@@ -519,9 +569,11 @@
           "at": 99,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 237,
           "era": "建興",
-          "era_year": 15,
-          "year_ad": 237
+          "era_year": 15
         },
         {
           "id": "shu.13.p26.t3",
@@ -529,9 +581,11 @@
           "at": 101,
           "length": 5,
           "text": "延熙十七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 254,
           "era": "延熙",
-          "era_year": 17,
-          "year_ad": 254
+          "era_year": 17
         },
         {
           "id": "shu.13.p26.a2",

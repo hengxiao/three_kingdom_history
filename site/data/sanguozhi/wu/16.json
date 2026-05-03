@@ -77,9 +77,11 @@
           "at": 0,
           "length": 4,
           "text": "赤烏二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 239,
           "era": "赤烏",
-          "era_year": 2,
-          "year_ad": 239
+          "era_year": 2
         },
         {
           "id": "wu.16.p4.a1",
@@ -100,9 +102,11 @@
           "at": 96,
           "length": 4,
           "text": "五鳳二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 255,
           "era": "五鳳",
-          "era_year": 2,
-          "year_ad": 255
+          "era_year": 2
         },
         {
           "id": "wu.16.p5.t2",
@@ -110,9 +114,11 @@
           "at": 234,
           "length": 4,
           "text": "寶鼎元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 266,
           "era": "寶鼎",
-          "era_year": 1,
-          "year_ad": 266
+          "era_year": 1
         }
       ]
     },
@@ -156,9 +162,11 @@
           "at": 4,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 268,
           "era": "寶鼎",
-          "era_year": 3,
-          "year_ad": 268
+          "era_year": 3
         },
         {
           "id": "wu.16.p12.t2",
@@ -166,9 +174,11 @@
           "at": 17,
           "length": 2,
           "text": "一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 266,
           "era": "寶鼎",
-          "era_year": 1,
-          "year_ad": 266
+          "era_year": 1
         }
       ]
     },
@@ -197,9 +207,11 @@
           "at": 0,
           "length": 4,
           "text": "建衡元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 269,
           "era": "建衡",
-          "era_year": 1,
-          "year_ad": 269
+          "era_year": 1
         }
       ]
     },
@@ -218,9 +230,11 @@
           "at": 61,
           "length": 7,
           "text": "寶鼎元年十二月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 266,
           "era": "寶鼎",
           "era_year": 1,
-          "year_ad": 266,
           "month_chinese": "十二月",
           "month_ordinal": 12
         },
@@ -296,9 +310,11 @@
           "at": 628,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 268,
           "era": "寶鼎",
-          "era_year": 3,
-          "year_ad": 268
+          "era_year": 3
         }
       ]
     },
@@ -319,9 +335,11 @@
           "at": 80,
           "length": 5,
           "text": "赤烏十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 248,
           "era": "赤烏",
-          "era_year": 11,
-          "year_ad": 248
+          "era_year": 11
         }
       ]
     },
@@ -335,9 +353,11 @@
           "at": 0,
           "length": 4,
           "text": "永安元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 258,
           "era": "永安",
-          "era_year": 1,
-          "year_ad": 258
+          "era_year": 1
         }
       ]
     },
@@ -356,9 +376,11 @@
           "at": 19,
           "length": 2,
           "text": "元年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 258,
           "era": "永安",
-          "era_year": 1,
-          "year_ad": 258
+          "era_year": 1
         },
         {
           "id": "wu.16.p32.t2",
@@ -366,9 +388,11 @@
           "at": 31,
           "length": 4,
           "text": "天紀二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 278,
           "era": "天紀",
-          "era_year": 2,
-          "year_ad": 278
+          "era_year": 2
         }
       ]
     },

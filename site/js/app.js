@@ -159,9 +159,11 @@ function renderSegmentText(seg) {
       pos = ev.pos;
     }
     if (ev.kind === "temp_open") {
-      out += `<span class="temporal" title="${escapeAttr(temporalTitle(ev.ann))}">`;
+      const cls = ev.ann.kind === "relative" ? "temporal temporal--relative" : "temporal";
+      out += `<span class="${cls}" data-resolution="${escapeAttr(ev.ann.resolution || "absolute")}" title="${escapeAttr(temporalTitle(ev.ann))}">`;
     } else if (ev.kind === "temp_close") {
-      out += `</span><span class="temporal-ad" title="${escapeAttr(temporalTitle(ev.ann))}">${formatAD(ev.ann)}</span>`;
+      const cls = ev.ann.kind === "relative" ? "temporal-ad temporal-ad--relative" : "temporal-ad";
+      out += `</span><span class="${cls}" title="${escapeAttr(temporalTitle(ev.ann))}">${formatAD(ev.ann)}</span>`;
     } else if (ev.kind === "pei_marker") {
       const n = peiNum.get(ev.ann.id);
       out += `<sup class="pei-ref" data-ann="${escapeAttr(ev.ann.id)}"><a href="#${ev.ann.id}-note">[${n}]</a></sup>`;
@@ -190,7 +192,9 @@ function renderSegmentText(seg) {
 
 function temporalTitle(a) {
   const month = a.month_chinese ? `（${a.month_chinese}）` : "";
-  return `${a.era}${a.era_year === 1 ? "元" : a.era_year}年${month} = 公元 ${a.year_ad} 年`;
+  const eraStr = a.era ? `${a.era}${a.era_year === 1 ? "元" : a.era_year}年${month}` : a.text;
+  const tail = a.kind === "relative" ? `（相對：${a.resolution || ""}）` : "";
+  return `${eraStr} = 公元 ${a.year_ad} 年 ${tail}`.trim();
 }
 
 function formatAD(a) {

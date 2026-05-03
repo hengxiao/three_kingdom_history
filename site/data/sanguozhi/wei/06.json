@@ -129,9 +129,11 @@
           "at": 72,
           "length": 6,
           "text": "初平元年二月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 190,
           "era": "初平",
           "era_year": 1,
-          "year_ad": 190,
           "month_chinese": "二月",
           "month_ordinal": 2
         },
@@ -203,9 +205,11 @@
           "at": 0,
           "length": 4,
           "text": "三年四月",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 192,
           "era": "初平",
           "era_year": 3,
-          "year_ad": 192,
           "month_chinese": "四月",
           "month_ordinal": 4
         },
@@ -275,9 +279,11 @@
           "at": 0,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 192,
           "era": "初平",
-          "era_year": 3,
-          "year_ad": 192
+          "era_year": 3
         },
         {
           "id": "wei.6.p10.t2",
@@ -285,9 +291,11 @@
           "at": 144,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 191,
           "era": "初平",
-          "era_year": 2,
-          "year_ad": 191
+          "era_year": 2
         },
         {
           "id": "wei.6.p10.a1",
@@ -390,9 +398,11 @@
           "at": 44,
           "length": 4,
           "text": "建安二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 197,
           "era": "建安",
-          "era_year": 2,
-          "year_ad": 197
+          "era_year": 2
         },
         {
           "id": "wei.6.p13.a2",
@@ -407,9 +417,11 @@
           "at": 148,
           "length": 3,
           "text": "十六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 16,
-          "year_ad": 211
+          "era_year": 16
         }
       ]
     },
@@ -483,9 +495,11 @@
           "at": 363,
           "length": 2,
           "text": "十年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 205,
           "era": "建安",
-          "era_year": 10,
-          "year_ad": 205
+          "era_year": 10
         },
         {
           "id": "wei.6.p17.a2",
@@ -588,9 +602,11 @@
           "at": 50,
           "length": 4,
           "text": "建安五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 5,
-          "year_ad": 200
+          "era_year": 5
         },
         {
           "id": "wei.6.p20.a1",
@@ -652,9 +668,11 @@
           "at": 124,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 197,
           "era": "建安",
-          "era_year": 2,
-          "year_ad": 197
+          "era_year": 2
         },
         {
           "id": "wei.6.p22.a1",
@@ -675,9 +693,11 @@
           "at": 20,
           "length": 2,
           "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 202,
           "era": "建安",
-          "era_year": 7,
-          "year_ad": 202
+          "era_year": 7
         }
       ]
     },
@@ -705,9 +725,11 @@
           "at": 194,
           "length": 2,
           "text": "二月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "二月",
           "month_ordinal": 2
         },
@@ -717,9 +739,11 @@
           "at": 197,
           "length": 2,
           "text": "九月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "九月",
           "month_ordinal": 9
         },
@@ -729,9 +753,11 @@
           "at": 291,
           "length": 2,
           "text": "十月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "十月",
           "month_ordinal": 10
         },
@@ -754,9 +780,11 @@
           "at": 191,
           "length": 2,
           "text": "五月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "五月",
           "month_ordinal": 5
         },
@@ -766,9 +794,11 @@
           "at": 194,
           "length": 2,
           "text": "八月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "八月",
           "month_ordinal": 8
         },
@@ -791,9 +821,11 @@
           "at": 62,
           "length": 3,
           "text": "十二月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 202,
           "era": "建安",
           "era_year": 7,
-          "year_ad": 202,
           "month_chinese": "十二月",
           "month_ordinal": 12
         },
@@ -803,9 +835,11 @@
           "at": 88,
           "length": 4,
           "text": "十年正月",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 205,
           "era": "建安",
           "era_year": 10,
-          "year_ad": 205,
           "month_chinese": "正月",
           "month_ordinal": 1
         },
@@ -815,9 +849,11 @@
           "at": 299,
           "length": 3,
           "text": "十一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 206,
           "era": "建安",
-          "era_year": 11,
-          "year_ad": 206
+          "era_year": 11
         },
         {
           "id": "wei.6.p26.a1",
@@ -832,9 +868,11 @@
           "at": 353,
           "length": 3,
           "text": "十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 207,
           "era": "建安",
-          "era_year": 12,
-          "year_ad": 207
+          "era_year": 12
         },
         {
           "id": "wei.6.p26.a2",
@@ -894,9 +932,11 @@
           "at": 0,
           "length": 4,
           "text": "興平二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 195,
           "era": "興平",
-          "era_year": 2,
-          "year_ad": 195
+          "era_year": 2
         },
         {
           "id": "wei.6.p29.a1",
@@ -998,9 +1038,11 @@
           "at": 15,
           "length": 5,
           "text": "建安十三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 208,
           "era": "建安",
-          "era_year": 13,
-          "year_ad": 208
+          "era_year": 13
         }
       ]
     },

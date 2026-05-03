@@ -48,9 +48,11 @@
           "at": 111,
           "length": 4,
           "text": "黃初七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 7,
-          "year_ad": 226
+          "era_year": 7
         }
       ]
     },
@@ -71,9 +73,11 @@
           "at": 72,
           "length": 4,
           "text": "景初二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 2,
-          "year_ad": 238
+          "era_year": 2
         },
         {
           "id": "wei.24.p4.t2",
@@ -81,9 +85,11 @@
           "at": 129,
           "length": 3,
           "text": "夏四月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 238,
           "era": "景初",
           "era_year": 2,
-          "year_ad": 238,
           "month_chinese": "夏四月",
           "month_ordinal": 4
         },
@@ -148,9 +154,11 @@
           "at": 0,
           "length": 4,
           "text": "景初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 237,
           "era": "景初",
-          "era_year": 1,
-          "year_ad": 237
+          "era_year": 1
         },
         {
           "id": "wei.24.p9.a1",
@@ -184,9 +192,11 @@
           "at": 13,
           "length": 4,
           "text": "正始五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 244,
           "era": "正始",
-          "era_year": 5,
-          "year_ad": 244
+          "era_year": 5
         },
         {
           "id": "wei.24.p11.a1",
@@ -227,9 +237,11 @@
           "at": 156,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 3,
-          "year_ad": 242
+          "era_year": 3
         }
       ]
     },
@@ -266,9 +278,11 @@
           "at": 250,
           "length": 2,
           "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 4,
-          "year_ad": 243
+          "era_year": 4
         }
       ]
     },
@@ -343,9 +357,11 @@
           "at": 116,
           "length": 4,
           "text": "景元四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 263,
           "era": "景元",
-          "era_year": 4,
-          "year_ad": 263
+          "era_year": 4
         },
         {
           "id": "wei.24.p27.a1",
@@ -376,9 +392,11 @@
           "at": 49,
           "length": 2,
           "text": "一月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 263,
           "era": "景元",
           "era_year": 4,
-          "year_ad": 263,
           "month_chinese": "一月",
           "month_ordinal": 1
         }
@@ -404,9 +422,11 @@
           "at": 258,
           "length": 4,
           "text": "嘉平二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2,
-          "year_ad": 250
+          "era_year": 2
         }
       ]
     },

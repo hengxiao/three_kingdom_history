@@ -35,9 +35,11 @@
           "at": 289,
           "length": 4,
           "text": "建安三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         }
       ]
     },
@@ -78,9 +80,11 @@
           "at": 0,
           "length": 2,
           "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 5,
-          "year_ad": 200
+          "era_year": 5
         },
         {
           "id": "wu.9.p4.a1",
@@ -101,9 +105,11 @@
           "at": 0,
           "length": 3,
           "text": "十一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 206,
           "era": "建安",
-          "era_year": 11,
-          "year_ad": 206
+          "era_year": 11
         },
         {
           "id": "wu.9.p5.t2",
@@ -111,9 +117,11 @@
           "at": 63,
           "length": 3,
           "text": "十三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 208,
           "era": "建安",
-          "era_year": 13,
-          "year_ad": 208
+          "era_year": 13
         },
         {
           "id": "wu.9.p5.t3",
@@ -121,9 +129,11 @@
           "at": 80,
           "length": 2,
           "text": "其年",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 208,
           "era": "建安",
-          "era_year": 13,
-          "year_ad": 208
+          "era_year": 13
         }
       ]
     },
@@ -219,9 +229,11 @@
           "at": 55,
           "length": 4,
           "text": "黃龍元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1,
-          "year_ad": 229
+          "era_year": 1
         },
         {
           "id": "wu.9.p13.t2",
@@ -229,9 +241,11 @@
           "at": 73,
           "length": 4,
           "text": "赤烏二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 239,
           "era": "赤烏",
-          "era_year": 2,
-          "year_ad": 239
+          "era_year": 2
         }
       ]
     },
@@ -347,9 +361,11 @@
           "at": 6,
           "length": 6,
           "text": "建安二十二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 217,
           "era": "建安",
-          "era_year": 22,
-          "year_ad": 217
+          "era_year": 22
         },
         {
           "id": "wu.9.p25.a1",
@@ -364,9 +380,11 @@
           "at": 122,
           "length": 4,
           "text": "鳳凰三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 274,
           "era": "鳳凰",
-          "era_year": 3,
-          "year_ad": 274
+          "era_year": 3
         }
       ]
     },
@@ -385,9 +403,11 @@
           "at": 0,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 274,
           "era": "鳳凰",
-          "era_year": 3,
-          "year_ad": 274
+          "era_year": 3
         }
       ]
     },

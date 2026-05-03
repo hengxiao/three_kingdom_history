@@ -38,9 +38,11 @@
           "at": 0,
           "length": 4,
           "text": "正始元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 240,
           "era": "正始",
-          "era_year": 1,
-          "year_ad": 240
+          "era_year": 1
         },
         {
           "id": "wei.27.p4.t2",
@@ -48,9 +50,11 @@
           "at": 77,
           "length": 4,
           "text": "嘉平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1,
-          "year_ad": 249
+          "era_year": 1
         },
         {
           "id": "wei.27.p4.t3",
@@ -58,9 +62,11 @@
           "at": 108,
           "length": 2,
           "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6,
-          "year_ad": 254
+          "era_year": 6
         }
       ]
     },
@@ -130,9 +136,11 @@
           "at": 18,
           "length": 4,
           "text": "嘉平二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2,
-          "year_ad": 250
+          "era_year": 2
         },
         {
           "id": "wei.27.p10.t2",
@@ -140,9 +148,11 @@
           "at": 64,
           "length": 2,
           "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6,
-          "year_ad": 254
+          "era_year": 6
         },
         {
           "id": "wei.27.p10.a1",
@@ -255,9 +265,11 @@
           "at": 0,
           "length": 4,
           "text": "青龍四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 236,
           "era": "青龍",
-          "era_year": 4,
-          "year_ad": 236
+          "era_year": 4
         }
       ]
     },
@@ -276,9 +288,11 @@
           "at": 0,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 234,
           "era": "青龍",
-          "era_year": 2,
-          "year_ad": 234
+          "era_year": 2
         },
         {
           "id": "wei.27.p18.t2",
@@ -286,9 +300,11 @@
           "at": 392,
           "length": 4,
           "text": "甘露四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 4,
-          "year_ad": 259
+          "era_year": 4
         }
       ]
     },
@@ -330,9 +346,11 @@
           "at": 0,
           "length": 2,
           "text": "其年",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 4,
-          "year_ad": 259
+          "era_year": 4
         }
       ]
     },
@@ -361,9 +379,11 @@
           "at": 0,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 4,
-          "year_ad": 259
+          "era_year": 4
         },
         {
           "id": "wei.27.p27.t2",
@@ -371,9 +391,11 @@
           "at": 31,
           "length": 4,
           "text": "甘露四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 4,
-          "year_ad": 259
+          "era_year": 4
         }
       ]
     },
@@ -387,9 +409,11 @@
           "at": 0,
           "length": 4,
           "text": "景元二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 261,
           "era": "景元",
-          "era_year": 2,
-          "year_ad": 261
+          "era_year": 2
         },
         {
           "id": "wei.27.p28.a1",
@@ -410,9 +434,11 @@
           "at": 0,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 261,
           "era": "景元",
-          "era_year": 2,
-          "year_ad": 261
+          "era_year": 2
         }
       ]
     },

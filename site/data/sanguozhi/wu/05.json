@@ -61,9 +61,11 @@
           "at": 19,
           "length": 4,
           "text": "建安七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 202,
           "era": "建安",
-          "era_year": 7,
-          "year_ad": 202
+          "era_year": 7
         },
         {
           "id": "wu.5.p4.a2",
@@ -84,9 +86,11 @@
           "at": 0,
           "length": 2,
           "text": "八年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 203,
           "era": "建安",
-          "era_year": 8,
-          "year_ad": 203
+          "era_year": 8
         },
         {
           "id": "wu.5.p5.a1",
@@ -170,9 +174,11 @@
           "at": 1,
           "length": 4,
           "text": "赤烏元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 238,
           "era": "赤烏",
-          "era_year": 1,
-          "year_ad": 238
+          "era_year": 1
         }
       ]
     },
@@ -204,9 +210,11 @@
           "at": 70,
           "length": 5,
           "text": "赤烏十三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 250,
           "era": "赤烏",
-          "era_year": 13,
-          "year_ad": 250
+          "era_year": 13
         },
         {
           "id": "wu.5.p14.t2",
@@ -214,9 +222,11 @@
           "at": 95,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 251,
           "era": "赤烏",
-          "era_year": 14,
-          "year_ad": 251
+          "era_year": 14
         },
         {
           "id": "wu.5.p14.a1",
@@ -257,9 +267,11 @@
           "at": 230,
           "length": 4,
           "text": "永安五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 262,
           "era": "永安",
-          "era_year": 5,
-          "year_ad": 262
+          "era_year": 5
         },
         {
           "id": "wu.5.p16.t2",
@@ -267,9 +279,11 @@
           "at": 273,
           "length": 6,
           "text": "甘露元年七月",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 265,
           "era": "甘露",
           "era_year": 1,
-          "year_ad": 265,
           "month_chinese": "七月",
           "month_ordinal": 7
         },
@@ -319,9 +333,11 @@
           "at": 212,
           "length": 4,
           "text": "天紀四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 280,
           "era": "天紀",
-          "era_year": 4,
-          "year_ad": 280
+          "era_year": 4
         }
       ]
     },

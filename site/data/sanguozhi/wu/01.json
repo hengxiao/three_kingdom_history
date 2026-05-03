@@ -43,9 +43,11 @@
           "at": 205,
           "length": 4,
           "text": "熹平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 172,
           "era": "熹平",
-          "era_year": 1,
-          "year_ad": 172
+          "era_year": 1
         },
         {
           "id": "wu.1.p2.a2",
@@ -66,9 +68,11 @@
           "at": 0,
           "length": 4,
           "text": "中平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 184,
           "era": "中平",
-          "era_year": 1,
-          "year_ad": 184
+          "era_year": 1
         },
         {
           "id": "wu.1.p3.t2",
@@ -76,9 +80,11 @@
           "at": 45,
           "length": 2,
           "text": "三月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 184,
           "era": "中平",
           "era_year": 1,
-          "year_ad": 184,
           "month_chinese": "三月",
           "month_ordinal": 3
         },
@@ -115,9 +121,11 @@
           "at": 20,
           "length": 4,
           "text": "中平三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 186,
           "era": "中平",
-          "era_year": 3,
-          "year_ad": 186
+          "era_year": 3
         },
         {
           "id": "wu.1.p4.a1",
@@ -233,9 +241,11 @@
           "at": 0,
           "length": 4,
           "text": "初平三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 192,
           "era": "初平",
-          "era_year": 3,
-          "year_ad": 192
+          "era_year": 3
         },
         {
           "id": "wu.1.p8.a1",
@@ -289,9 +299,11 @@
           "at": 48,
           "length": 4,
           "text": "興平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 194,
           "era": "興平",
-          "era_year": 1,
-          "year_ad": 194
+          "era_year": 1
         },
         {
           "id": "wu.1.p11.a1",
@@ -405,9 +417,11 @@
           "at": 0,
           "length": 4,
           "text": "建安五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 5,
-          "year_ad": 200
+          "era_year": 5
         },
         {
           "id": "wu.1.p17.a1",

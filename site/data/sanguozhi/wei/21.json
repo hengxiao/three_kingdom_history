@@ -75,9 +75,11 @@
           "at": 157,
           "length": 6,
           "text": "建安二十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 216,
           "era": "建安",
-          "era_year": 21,
-          "year_ad": 216
+          "era_year": 21
         },
         {
           "id": "wei.21.p4.t2",
@@ -85,9 +87,11 @@
           "at": 168,
           "length": 4,
           "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
           "era": "建安",
-          "era_year": 22,
-          "year_ad": 217
+          "era_year": 22
         },
         {
           "id": "wei.21.p4.a2",
@@ -173,9 +177,11 @@
           "at": 2,
           "length": 3,
           "text": "十七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 17,
-          "year_ad": 212
+          "era_year": 17
         },
         {
           "id": "wei.21.p9.t2",
@@ -183,9 +189,11 @@
           "at": 14,
           "length": 4,
           "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
           "era": "建安",
-          "era_year": 22,
-          "year_ad": 217
+          "era_year": 22
         },
         {
           "id": "wei.21.p9.a1",
@@ -427,9 +435,11 @@
           "at": 16,
           "length": 4,
           "text": "黃初二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 2,
-          "year_ad": 221
+          "era_year": 2
         },
         {
           "id": "wei.21.p27.a1",
@@ -622,9 +632,11 @@
           "at": 40,
           "length": 4,
           "text": "正元二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 255,
           "era": "正元",
-          "era_year": 2,
-          "year_ad": 255
+          "era_year": 2
         },
         {
           "id": "wei.21.p40.a2",

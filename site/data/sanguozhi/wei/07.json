@@ -101,9 +101,11 @@
           "at": 44,
           "length": 4,
           "text": "興平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 194,
           "era": "興平",
-          "era_year": 1,
-          "year_ad": 194
+          "era_year": 1
         },
         {
           "id": "wei.7.p6.t2",
@@ -111,9 +113,11 @@
           "at": 285,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 195,
           "era": "興平",
-          "era_year": 2,
-          "year_ad": 195
+          "era_year": 2
         }
       ]
     },
@@ -191,9 +195,11 @@
           "at": 0,
           "length": 4,
           "text": "建安三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         },
         {
           "id": "wei.7.p12.a1",
@@ -215,9 +221,11 @@
           "at": 151,
           "length": 2,
           "text": "三月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 198,
           "era": "建安",
           "era_year": 3,
-          "year_ad": 198,
           "month_chinese": "三月",
           "month_ordinal": 3
         },
@@ -313,9 +321,11 @@
           "at": 76,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 197,
           "era": "建安",
-          "era_year": 2,
-          "year_ad": 197
+          "era_year": 2
         }
       ]
     },
@@ -348,9 +358,11 @@
           "at": 1114,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         },
         {
           "id": "wei.7.p19.t2",
@@ -358,9 +370,11 @@
           "at": 1121,
           "length": 2,
           "text": "一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 196,
           "era": "建安",
-          "era_year": 1,
-          "year_ad": 196
+          "era_year": 1
         }
       ]
     },

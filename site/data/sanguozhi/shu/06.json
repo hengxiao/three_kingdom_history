@@ -43,9 +43,11 @@
           "at": 0,
           "length": 4,
           "text": "建安五年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 5,
-          "year_ad": 200
+          "era_year": 5
         },
         {
           "id": "shu.6.p2.a1",
@@ -91,9 +93,11 @@
           "at": 0,
           "length": 4,
           "text": "二十四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 219,
           "era": "建安",
-          "era_year": 24,
-          "year_ad": 219
+          "era_year": 24
         },
         {
           "id": "shu.6.p5.t2",
@@ -101,9 +105,11 @@
           "at": 23,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 219,
           "era": "建安",
-          "era_year": 24,
-          "year_ad": 219
+          "era_year": 24
         },
         {
           "id": "shu.6.p5.a1",
@@ -171,9 +177,11 @@
           "at": 134,
           "length": 4,
           "text": "章武元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 221,
           "era": "章武",
-          "era_year": 1,
-          "year_ad": 221
+          "era_year": 1
         }
       ]
     },
@@ -192,9 +200,11 @@
           "at": 34,
           "length": 4,
           "text": "初平三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 192,
           "era": "初平",
-          "era_year": 3,
-          "year_ad": 192
+          "era_year": 3
         },
         {
           "id": "shu.6.p10.a1",
@@ -255,9 +265,11 @@
           "at": 17,
           "length": 4,
           "text": "章武元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 221,
           "era": "章武",
-          "era_year": 1,
-          "year_ad": 221
+          "era_year": 1
         }
       ]
     },
@@ -271,9 +283,11 @@
           "at": 0,
           "length": 2,
           "text": "二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 222,
           "era": "章武",
-          "era_year": 2,
-          "year_ad": 222
+          "era_year": 2
         },
         {
           "id": "shu.6.p14.a1",
@@ -294,9 +308,11 @@
           "at": 113,
           "length": 6,
           "text": "建安二十四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 219,
           "era": "建安",
-          "era_year": 24,
-          "year_ad": 219
+          "era_year": 24
         },
         {
           "id": "shu.6.p15.t2",
@@ -304,9 +320,11 @@
           "at": 173,
           "length": 2,
           "text": "是歲",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 219,
           "era": "建安",
-          "era_year": 24,
-          "year_ad": 219
+          "era_year": 24
         },
         {
           "id": "shu.6.p15.t3",
@@ -314,9 +332,11 @@
           "at": 279,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 220,
           "era": "建安",
-          "era_year": 25,
-          "year_ad": 220
+          "era_year": 25
         }
       ]
     },
@@ -357,9 +377,11 @@
           "at": 67,
           "length": 4,
           "text": "建興元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "建興",
-          "era_year": 1,
-          "year_ad": 223
+          "era_year": 1
         },
         {
           "id": "shu.6.p17.t2",
@@ -367,9 +389,11 @@
           "at": 94,
           "length": 2,
           "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 227,
           "era": "建興",
-          "era_year": 5,
-          "year_ad": 227
+          "era_year": 5
         },
         {
           "id": "shu.6.p17.t3",
@@ -377,9 +401,11 @@
           "at": 105,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 228,
           "era": "建興",
-          "era_year": 6,
-          "year_ad": 228
+          "era_year": 6
         },
         {
           "id": "shu.6.p17.a2",
@@ -394,9 +420,11 @@
           "at": 177,
           "length": 2,
           "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 229,
           "era": "建興",
-          "era_year": 7,
-          "year_ad": 229
+          "era_year": 7
         },
         {
           "id": "shu.6.p17.a3",

@@ -91,6 +91,9 @@ def test_temporal_annotation_carries_year_ad(tmp_path):
     assert t["era"] == "建安"
     assert t["era_year"] == 5
     assert t["month_ordinal"] == 1
+    # Site JSON also carries kind/resolution for the renderer to differentiate.
+    assert t["kind"] in {"absolute", "relative"}
+    assert t["resolution"]
 
 
 def test_pei_annotation_carries_text_and_position(tmp_path):

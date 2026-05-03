@@ -237,9 +237,11 @@
           "at": 0,
           "length": 4,
           "text": "建安二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 197,
           "era": "建安",
-          "era_year": 2,
-          "year_ad": 197
+          "era_year": 2
         },
         {
           "id": "wei.12.p21.t2",
@@ -247,9 +249,11 @@
           "at": 23,
           "length": 2,
           "text": "明年",
+          "kind": "relative",
+          "resolution": "next_year",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         },
         {
           "id": "wei.12.p21.a1",
@@ -287,9 +291,11 @@
           "at": 159,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 198,
           "era": "建安",
-          "era_year": 3,
-          "year_ad": 198
+          "era_year": 3
         }
       ]
     },
@@ -344,9 +350,11 @@
           "at": 39,
           "length": 2,
           "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 5,
-          "year_ad": 200
+          "era_year": 5
         }
       ]
     },
@@ -365,9 +373,11 @@
           "at": 30,
           "length": 4,
           "text": "黃初四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "黃初",
-          "era_year": 4,
-          "year_ad": 223
+          "era_year": 4
         },
         {
           "id": "wei.12.p32.a1",
@@ -395,9 +405,11 @@
           "at": 92,
           "length": 5,
           "text": "建安十七年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 17,
-          "year_ad": 212
+          "era_year": 17
         },
         {
           "id": "wei.12.p33.a2",
@@ -425,9 +437,11 @@
           "at": 0,
           "length": 4,
           "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
           "era": "建安",
-          "era_year": 22,
-          "year_ad": 217
+          "era_year": 22
         },
         {
           "id": "wei.12.p34.t2",
@@ -435,9 +449,11 @@
           "at": 137,
           "length": 4,
           "text": "延康元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 220,
           "era": "延康",
-          "era_year": 1,
-          "year_ad": 220
+          "era_year": 1
         }
       ]
     },
@@ -456,9 +472,11 @@
           "at": 0,
           "length": 4,
           "text": "黃初四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "黃初",
-          "era_year": 4,
-          "year_ad": 223
+          "era_year": 4
         },
         {
           "id": "wei.12.p36.t2",
@@ -466,9 +484,11 @@
           "at": 51,
           "length": 2,
           "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
           "era": "黃初",
-          "era_year": 6,
-          "year_ad": 225
+          "era_year": 6
         }
       ]
     },
@@ -543,9 +563,11 @@
           "at": 20,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 222,
           "era": "黃初",
-          "era_year": 3,
-          "year_ad": 222
+          "era_year": 3
         },
         {
           "id": "wei.12.p46.t2",
@@ -553,9 +575,11 @@
           "at": 215,
           "length": 2,
           "text": "正月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 222,
           "era": "黃初",
           "era_year": 3,
-          "year_ad": 222,
           "month_chinese": "正月",
           "month_ordinal": 1
         },
@@ -565,9 +589,11 @@
           "at": 235,
           "length": 2,
           "text": "十月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 222,
           "era": "黃初",
           "era_year": 3,
-          "year_ad": 222,
           "month_chinese": "十月",
           "month_ordinal": 10
         }

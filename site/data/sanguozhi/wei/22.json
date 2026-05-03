@@ -217,9 +217,11 @@
           "at": 0,
           "length": 4,
           "text": "景元元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 260,
           "era": "景元",
-          "era_year": 1,
-          "year_ad": 260
+          "era_year": 1
         },
         {
           "id": "wei.22.p27.a1",
@@ -272,9 +274,11 @@
           "at": 431,
           "length": 4,
           "text": "景初元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 237,
           "era": "景初",
-          "era_year": 1,
-          "year_ad": 237
+          "era_year": 1
         },
         {
           "id": "wei.22.p30.a2",
@@ -349,9 +353,11 @@
           "at": 0,
           "length": 4,
           "text": "青龍四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 236,
           "era": "青龍",
-          "era_year": 4,
-          "year_ad": 236
+          "era_year": 4
         }
       ]
     },
@@ -444,9 +450,11 @@
           "at": 0,
           "length": 4,
           "text": "青龍二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 234,
           "era": "青龍",
-          "era_year": 2,
-          "year_ad": 234
+          "era_year": 2
         },
         {
           "id": "wei.22.p49.t2",
@@ -454,9 +462,11 @@
           "at": 138,
           "length": 2,
           "text": "三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 235,
           "era": "青龍",
-          "era_year": 3,
-          "year_ad": 235
+          "era_year": 3
         }
       ]
     },
@@ -485,9 +495,11 @@
           "at": 175,
           "length": 4,
           "text": "正元三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 256,
           "era": "正元",
-          "era_year": 3,
-          "year_ad": 256
+          "era_year": 3
         },
         {
           "id": "wei.22.p53.t2",
@@ -495,9 +507,11 @@
           "at": 237,
           "length": 4,
           "text": "甘露二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 257,
           "era": "甘露",
-          "era_year": 2,
-          "year_ad": 257
+          "era_year": 2
         }
       ]
     },

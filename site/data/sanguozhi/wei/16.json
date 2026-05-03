@@ -46,9 +46,11 @@
           "at": 49,
           "length": 4,
           "text": "建安九年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 204,
           "era": "建安",
-          "era_year": 9,
-          "year_ad": 204
+          "era_year": 9
         }
       ]
     },
@@ -113,9 +115,11 @@
           "at": 181,
           "length": 4,
           "text": "黃初四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 223,
           "era": "黃初",
-          "era_year": 4,
-          "year_ad": 223
+          "era_year": 4
         },
         {
           "id": "wei.16.p9.a1",
@@ -143,9 +147,11 @@
           "at": 69,
           "length": 2,
           "text": "其年",
+          "kind": "relative",
+          "resolution": "this_year",
+          "year_ad": 223,
           "era": "黃初",
-          "era_year": 4,
-          "year_ad": 223
+          "era_year": 4
         },
         {
           "id": "wei.16.p10.a2",
@@ -180,9 +186,11 @@
           "at": 325,
           "length": 2,
           "text": "一月",
+          "kind": "relative",
+          "resolution": "bare_month",
+          "year_ad": 223,
           "era": "黃初",
           "era_year": 4,
-          "year_ad": 223,
           "month_chinese": "一月",
           "month_ordinal": 1
         },
@@ -399,9 +407,11 @@
           "at": 182,
           "length": 4,
           "text": "嘉平元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1,
-          "year_ad": 249
+          "era_year": 1
         },
         {
           "id": "wei.16.p31.a1",
@@ -429,9 +439,11 @@
           "at": 125,
           "length": 2,
           "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 252,
           "era": "嘉平",
-          "era_year": 4,
-          "year_ad": 252
+          "era_year": 4
         }
       ]
     },
@@ -445,9 +457,11 @@
           "at": 0,
           "length": 4,
           "text": "甘露二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 257,
           "era": "甘露",
-          "era_year": 2,
-          "year_ad": 257
+          "era_year": 2
         },
         {
           "id": "wei.16.p33.a1",

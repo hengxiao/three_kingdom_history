@@ -163,6 +163,12 @@ footer {
   border-radius: 2px;
   padding: 0 1px;
 }
+/* relative refs (裸年/裸月/是歲/明年/去年) are inferred — show subtler. */
+.temporal--relative {
+  background: transparent;
+  border-bottom: 1px dashed var(--temporal);
+  border-radius: 0;
+}
 .temporal-ad {
   display: inline-block;
   font-size: 0.7em;
@@ -176,6 +182,10 @@ footer {
   line-height: 1.4;
   white-space: nowrap;
   font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+.temporal-ad--relative {
+  background: transparent;
+  border-style: dashed;
 }
 
 /* 裴注 inline marker in 正文 — small superscript jumping to the notes block. */

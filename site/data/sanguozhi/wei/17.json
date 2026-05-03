@@ -53,9 +53,11 @@
           "at": 411,
           "length": 6,
           "text": "建安二十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 216,
           "era": "建安",
-          "era_year": 21,
-          "year_ad": 216
+          "era_year": 21
         }
       ]
     },
@@ -76,9 +78,11 @@
           "at": 168,
           "length": 4,
           "text": "黃初二年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 2,
-          "year_ad": 221
+          "era_year": 2
         },
         {
           "id": "wei.17.p5.t2",
@@ -86,9 +90,11 @@
           "at": 403,
           "length": 2,
           "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
           "era": "黃初",
-          "era_year": 6,
-          "year_ad": 225
+          "era_year": 6
         }
       ]
     },
@@ -102,9 +108,11 @@
           "at": 221,
           "length": 5,
           "text": "建安十一年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 206,
           "era": "建安",
-          "era_year": 11,
-          "year_ad": 206
+          "era_year": 11
         }
       ]
     },
@@ -118,9 +126,11 @@
           "at": 205,
           "length": 6,
           "text": "建安二十三年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 218,
           "era": "建安",
-          "era_year": 23,
-          "year_ad": 218
+          "era_year": 23
         }
       ]
     },
@@ -152,9 +162,11 @@
           "at": 0,
           "length": 6,
           "text": "建安二十四年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 219,
           "era": "建安",
-          "era_year": 24,
-          "year_ad": 219
+          "era_year": 24
         },
         {
           "id": "wei.17.p10.a1",
@@ -243,9 +255,11 @@
           "at": 313,
           "length": 3,
           "text": "十五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 210,
           "era": "建安",
-          "era_year": 15,
-          "year_ad": 210
+          "era_year": 15
         },
         {
           "id": "wei.17.p17.a2",
@@ -276,9 +290,11 @@
           "at": 70,
           "length": 4,
           "text": "太和元年",
+          "kind": "absolute",
+          "resolution": "absolute",
+          "year_ad": 227,
           "era": "太和",
-          "era_year": 1,
-          "year_ad": 227
+          "era_year": 1
         }
       ]
     },
