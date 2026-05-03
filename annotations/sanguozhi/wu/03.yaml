@@ -16,6 +16,7 @@ annotations:
   year_ad: 250
   era: 赤烏
   era_year: 13
+  reasoning: 原文「赤烏十三年」直接出现年号；解析為 AD 250
 - id: wu.3.p3.t1
   anchor: wu.3.p3
   at: 0
@@ -27,6 +28,7 @@ annotations:
   year_ad: 251
   era: 太元
   era_year: 1
+  reasoning: 原文「太元元年」直接出现年号；解析為 AD 251
 - id: wu.3.p3.t2
   anchor: wu.3.p3
   at: 51
@@ -40,6 +42,7 @@ annotations:
   era_year: 2
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 「明年四月」 = 当前年 太元元年 (AD 251) 之次年 = AD 252
 - id: wu.3.p3.t3
   anchor: wu.3.p3
   at: 70
@@ -51,6 +54,7 @@ annotations:
   year_ad: 252
   era: 太元
   era_year: 2
+  reasoning: 「是歲」 = 当前年 太元2年 (AD 252)
 - id: wu.3.p4.t1
   anchor: wu.3.p4
   at: 47
@@ -64,6 +68,7 @@ annotations:
   era_year: 2
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 太元2年 (AD 252)，月份「冬十月」
 - id: wu.3.p4.a1
   anchor: wu.3.p4
   at: 60
@@ -83,6 +88,7 @@ annotations:
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太元2年 (AD 252)，月份「十二月」
 - id: wu.3.p4.a2
   anchor: wu.3.p4
   at: 186
@@ -102,6 +108,7 @@ annotations:
   era_year: 2
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「太元」推得，「二年春正月」 = 太元2年 = AD 252
 - id: wu.3.p5.t2
   anchor: wu.3.p5
   at: 26
@@ -115,6 +122,7 @@ annotations:
   era_year: 2
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 太元2年 (AD 252)，月份「二月」
 - id: wu.3.p5.t3
   anchor: wu.3.p5
   at: 40
@@ -128,6 +136,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 太元2年 (AD 252)，月份「三月」
 - id: wu.3.p5.t4
   anchor: wu.3.p5
   at: 49
@@ -141,6 +150,7 @@ annotations:
   era_year: 2
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 年承前文 太元2年 (AD 252)，月份「夏四月」
 - id: wu.3.p5.t5
   anchor: wu.3.p5
   at: 67
@@ -154,6 +164,7 @@ annotations:
   era_year: 2
   month_chinese: 秋八月
   month_ordinal: 8
+  reasoning: 年承前文 太元2年 (AD 252)，月份「秋八月」
 - id: wu.3.p5.t6
   anchor: wu.3.p5
   at: 76
@@ -167,6 +178,7 @@ annotations:
   era_year: 2
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 太元2年 (AD 252)，月份「冬十月」
 - id: wu.3.p5.t7
   anchor: wu.3.p5
   at: 111
@@ -180,6 +192,7 @@ annotations:
   era_year: 2
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 太元2年 (AD 252)，月份「十一月」
 - id: wu.3.p5.t8
   anchor: wu.3.p5
   at: 124
@@ -189,6 +202,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 253
+  reasoning: 「明年」 = 当前年 太元2年 (AD 252) 之次年 = AD 253（跨年號邊界，新年號未明）
 - id: wu.3.p6.t1
   anchor: wu.3.p6
   at: 0
@@ -200,6 +214,7 @@ annotations:
   year_ad: 254
   era: 五鳳
   era_year: 1
+  reasoning: 原文「五鳳元年」直接出现年号；解析為 AD 254
 - id: wu.3.p6.t2
   anchor: wu.3.p6
   at: 24
@@ -213,6 +228,7 @@ annotations:
   era_year: 1
   month_chinese: 冬十一月
   month_ordinal: 11
+  reasoning: 年承前文 五鳳元年 (AD 254)，月份「冬十一月」
 - id: wu.3.p6.a1
   anchor: wu.3.p6
   at: 36
@@ -232,6 +248,7 @@ annotations:
   era_year: 2
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「五鳳」推得，「二年春正月」 = 五鳳2年 = AD 255
 - id: wu.3.p7.t2
   anchor: wu.3.p7
   at: 105
@@ -245,6 +262,7 @@ annotations:
   era_year: 2
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 五鳳2年 (AD 255)，月份「二月」
 - id: wu.3.p7.t3
   anchor: wu.3.p7
   at: 154
@@ -258,6 +276,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 五鳳2年 (AD 255)，月份「三月」
 - id: wu.3.p7.t4
   anchor: wu.3.p7
   at: 171
@@ -271,6 +290,7 @@ annotations:
   era_year: 2
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 五鳳2年 (AD 255)，月份「秋七月」
 - id: wu.3.p7.t5
   anchor: wu.3.p7
   at: 240
@@ -282,6 +302,7 @@ annotations:
   year_ad: 255
   era: 五鳳
   era_year: 2
+  reasoning: 「是歲」 = 当前年 五鳳2年 (AD 255)
 - id: wu.3.p7.t6
   anchor: wu.3.p7
   at: 245
@@ -295,6 +316,7 @@ annotations:
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 五鳳2年 (AD 255)，月份「十二月」
 - id: wu.3.p8.t1
   anchor: wu.3.p8
   at: 0
@@ -308,6 +330,7 @@ annotations:
   era_year: 1
   month_chinese: 春二月
   month_ordinal: 2
+  reasoning: 原文「太平元年春二月」直接出现年号；解析為 AD 256
 - id: wu.3.p8.a1
   anchor: wu.3.p8
   at: 5
@@ -327,6 +350,7 @@ annotations:
   era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太平元年 (AD 256)，月份「八月」
 - id: wu.3.p8.t3
   anchor: wu.3.p8
   at: 64
@@ -340,6 +364,7 @@ annotations:
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 太平元年 (AD 256)，月份「九月」
 - id: wu.3.p8.t4
   anchor: wu.3.p8
   at: 193
@@ -353,6 +378,7 @@ annotations:
   era_year: 1
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 太平元年 (AD 256)，月份「冬十月」
 - id: wu.3.p8.t5
   anchor: wu.3.p8
   at: 254
@@ -366,6 +392,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 太平元年 (AD 256)，月份「十一月」
 - id: wu.3.p8.t6
   anchor: wu.3.p8
   at: 297
@@ -379,6 +406,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太平元年 (AD 256)，月份「十二月」
 - id: wu.3.p9.t1
   anchor: wu.3.p9
   at: 0
@@ -392,6 +420,7 @@ annotations:
   era_year: 2
   month_chinese: 春二月
   month_ordinal: 2
+  reasoning: 承前文年號「太平」推得，「二年春二月」 = 太平2年 = AD 257
 - id: wu.3.p9.t2
   anchor: wu.3.p9
   at: 57
@@ -405,6 +434,7 @@ annotations:
   era_year: 2
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 年承前文 太平2年 (AD 257)，月份「夏四月」
 - id: wu.3.p9.a1
   anchor: wu.3.p9
   at: 144
@@ -424,6 +454,7 @@ annotations:
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 太平2年 (AD 257)，月份「五月」
 - id: wu.3.p10.t2
   anchor: wu.3.p10
   at: 49
@@ -437,6 +468,7 @@ annotations:
   era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 太平2年 (AD 257)，月份「六月」
 - id: wu.3.p10.t3
   anchor: wu.3.p10
   at: 88
@@ -450,6 +482,7 @@ annotations:
   era_year: 2
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 太平2年 (AD 257)，月份「秋七月」
 - id: wu.3.p10.t4
   anchor: wu.3.p10
   at: 131
@@ -463,6 +496,7 @@ annotations:
   era_year: 2
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太平2年 (AD 257)，月份「八月」
 - id: wu.3.p10.t5
   anchor: wu.3.p10
   at: 189
@@ -476,6 +510,7 @@ annotations:
   era_year: 2
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 太平2年 (AD 257)，月份「九月」
 - id: wu.3.p10.t6
   anchor: wu.3.p10
   at: 218
@@ -489,6 +524,7 @@ annotations:
   era_year: 2
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 太平2年 (AD 257)，月份「十一月」
 - id: wu.3.p10.t7
   anchor: wu.3.p10
   at: 234
@@ -502,6 +538,7 @@ annotations:
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太平2年 (AD 257)，月份「十二月」
 - id: wu.3.p11.t1
   anchor: wu.3.p11
   at: 0
@@ -515,6 +552,7 @@ annotations:
   era_year: 3
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「太平」推得，「三年春正月」 = 太平3年 = AD 258
 - id: wu.3.p11.t2
   anchor: wu.3.p11
   at: 13
@@ -528,6 +566,7 @@ annotations:
   era_year: 3
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 太平3年 (AD 258)，月份「三月」
 - id: wu.3.p11.t3
   anchor: wu.3.p11
   at: 38
@@ -541,6 +580,7 @@ annotations:
   era_year: 3
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 太平3年 (AD 258)，月份「秋七月」
 - id: wu.3.p11.t4
   anchor: wu.3.p11
   at: 60
@@ -554,6 +594,7 @@ annotations:
   era_year: 3
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太平3年 (AD 258)，月份「八月」
 - id: wu.3.p11.t5
   anchor: wu.3.p11
   at: 91
@@ -567,6 +608,7 @@ annotations:
   era_year: 3
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 太平3年 (AD 258)，月份「九月」
 - id: wu.3.p12.t1
   anchor: wu.3.p12
   at: 29
@@ -580,6 +622,7 @@ annotations:
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 原文「太元二年正月」直接出现年号；解析為 AD 252（回溯前事，不推進章節時間軸）
 - id: wu.3.p12.t2
   anchor: wu.3.p12
   at: 45
@@ -588,11 +631,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 252
-  era: 太元
-  era_year: 2
+  year_ad: 258
+  era: 太平
+  era_year: 3
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 太平3年 (AD 258)，月份「四月」
 - id: wu.3.p12.t3
   anchor: wu.3.p12
   at: 179
@@ -601,11 +645,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 252
-  era: 太元
-  era_year: 2
+  year_ad: 258
+  era: 太平
+  era_year: 3
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 太平3年 (AD 258)，月份「十月」
 - id: wu.3.p12.t4
   anchor: wu.3.p12
   at: 415
@@ -614,9 +659,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 252
-  era: 太元
-  era_year: 2
+  year_ad: 258
+  era: 太平
+  era_year: 3
+  reasoning: 「是歲」 = 当前年 太平3年 (AD 258)
 - id: wu.3.p13.t1
   anchor: wu.3.p13
   at: 0
@@ -630,6 +676,7 @@ annotations:
   era_year: 1
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 原文「永安元年冬十月」直接出现年号；解析為 AD 258
 - id: wu.3.p13.a1
   anchor: wu.3.p13
   at: 172
@@ -655,6 +702,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 永安元年 (AD 258)，月份「十一月」
 - id: wu.3.p14.t2
   anchor: wu.3.p14
   at: 315
@@ -668,6 +716,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 永安元年 (AD 258)，月份「十二月」
 - id: wu.3.p16.t1
   anchor: wu.3.p16
   at: 0
@@ -681,6 +730,7 @@ annotations:
   era_year: 2
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「永安」推得，「二年春正月」 = 永安2年 = AD 259
 - id: wu.3.p16.t2
   anchor: wu.3.p16
   at: 9
@@ -694,6 +744,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 永安2年 (AD 259)，月份「三月」
 - id: wu.3.p17.t1
   anchor: wu.3.p17
   at: 0
@@ -707,6 +758,7 @@ annotations:
   era_year: 3
   month_chinese: 春三月
   month_ordinal: 3
+  reasoning: 承前文年號「永安」推得，「三年春三月」 = 永安3年 = AD 260
 - id: wu.3.p17.a1
   anchor: wu.3.p17
   at: 80
@@ -732,6 +784,7 @@ annotations:
   era_year: 4
   month_chinese: 夏五月
   month_ordinal: 5
+  reasoning: 承前文年號「永安」推得，「四年夏五月」 = 永安4年 = AD 261
 - id: wu.3.p18.t2
   anchor: wu.3.p18
   at: 14
@@ -745,6 +798,7 @@ annotations:
   era_year: 4
   month_chinese: 秋八月
   month_ordinal: 8
+  reasoning: 年承前文 永安4年 (AD 261)，月份「秋八月」
 - id: wu.3.p18.a1
   anchor: wu.3.p18
   at: 50
@@ -764,6 +818,7 @@ annotations:
   era_year: 4
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 永安4年 (AD 261)，月份「九月」
 - id: wu.3.p18.t4
   anchor: wu.3.p18
   at: 60
@@ -775,6 +830,7 @@ annotations:
   year_ad: 261
   era: 永安
   era_year: 4
+  reasoning: 「是歲」 = 当前年 永安4年 (AD 261)
 - id: wu.3.p19.t1
   anchor: wu.3.p19
   at: 0
@@ -788,6 +844,7 @@ annotations:
   era_year: 5
   month_chinese: 春二月
   month_ordinal: 2
+  reasoning: 承前文年號「永安」推得，「五年春二月」 = 永安5年 = AD 262
 - id: wu.3.p19.t2
   anchor: wu.3.p19
   at: 13
@@ -801,6 +858,7 @@ annotations:
   era_year: 5
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 永安5年 (AD 262)，月份「秋七月」
 - id: wu.3.p19.t3
   anchor: wu.3.p19
   at: 24
@@ -814,6 +872,7 @@ annotations:
   era_year: 5
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 永安5年 (AD 262)，月份「八月」
 - id: wu.3.p19.a1
   anchor: wu.3.p19
   at: 61
@@ -833,6 +892,7 @@ annotations:
   era_year: 5
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 永安5年 (AD 262)，月份「冬十月」
 - id: wu.3.p19.t5
   anchor: wu.3.p19
   at: 611
@@ -844,6 +904,7 @@ annotations:
   year_ad: 262
   era: 永安
   era_year: 5
+  reasoning: 「是歲」 = 当前年 永安5年 (AD 262)
 - id: wu.3.p19.a2
   anchor: wu.3.p19
   at: 626
@@ -863,6 +924,7 @@ annotations:
   era_year: 6
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 承前文年號「永安」推得，「六年夏四月」 = 永安6年 = AD 263
 - id: wu.3.p20.t2
   anchor: wu.3.p20
   at: 13
@@ -876,6 +938,7 @@ annotations:
   era_year: 6
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 永安6年 (AD 263)，月份「五月」
 - id: wu.3.p20.t3
   anchor: wu.3.p20
   at: 72
@@ -889,6 +952,7 @@ annotations:
   era_year: 6
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 永安6年 (AD 263)，月份「冬十月」
 - id: wu.3.p20.a1
   anchor: wu.3.p20
   at: 204
@@ -908,6 +972,7 @@ annotations:
   era_year: 7
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「永安」推得，「七年春正月」 = 永安7年 = AD 264
 - id: wu.3.p21.t2
   anchor: wu.3.p21
   at: 9
@@ -921,6 +986,7 @@ annotations:
   era_year: 7
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 永安7年 (AD 264)，月份「二月」
 - id: wu.3.p21.t3
   anchor: wu.3.p21
   at: 47
@@ -934,6 +1000,7 @@ annotations:
   era_year: 7
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 年承前文 永安7年 (AD 264)，月份「夏四月」
 - id: wu.3.p21.t4
   anchor: wu.3.p21
   at: 91
@@ -947,6 +1014,7 @@ annotations:
   era_year: 7
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 永安7年 (AD 264)，月份「秋七月」
 - id: wu.3.p21.a1
   anchor: wu.3.p21
   at: 180
@@ -970,31 +1038,8 @@ annotations:
   year_ad: 264
   era: 永安
   era_year: 7
-- id: wu.3.p22.t2
-  anchor: wu.3.p22
-  at: 212
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 258
-  era: 永安
-  era_year: 1
+  reasoning: 「是歲」 = 当前年 永安7年 (AD 264)
 - id: wu.3.p23.t1
-  anchor: wu.3.p23
-  at: 2
-  length: 4
-  type: temporal
-  text: 元年八月
-  kind: relative
-  resolution: bare_year
-  year_ad: 258
-  era: 永安
-  era_year: 1
-  month_chinese: 八月
-  month_ordinal: 8
-- id: wu.3.p23.t2
   anchor: wu.3.p23
   at: 50
   length: 2
@@ -1002,12 +1047,13 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 258
+  year_ad: 264
   era: 永安
-  era_year: 1
+  era_year: 7
   month_chinese: 九月
   month_ordinal: 9
-- id: wu.3.p23.t3
+  reasoning: 年承前文 永安7年 (AD 264)，月份「九月」
+- id: wu.3.p23.t2
   anchor: wu.3.p23
   at: 77
   length: 2
@@ -1015,18 +1061,19 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 258
+  year_ad: 264
   era: 永安
-  era_year: 1
+  era_year: 7
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 永安7年 (AD 264)，月份「十月」
 - id: wu.3.p23.a1
   anchor: wu.3.p23
   at: 112
   length: 0
   type: pei
   text: 《江表傳》曰：皓初立，發優詔，恤士民，開倉廩，振貧乏，科出宮女以配無妻，禽獸擾於苑者皆放之。當時翕然稱爲明主。
-- id: wu.3.p23.t4
+- id: wu.3.p23.t3
   anchor: wu.3.p23
   at: 147
   length: 3
@@ -1034,12 +1081,13 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 258
+  year_ad: 264
   era: 永安
-  era_year: 1
+  era_year: 7
   month_chinese: 十一月
   month_ordinal: 11
-- id: wu.3.p23.t5
+  reasoning: 年承前文 永安7年 (AD 264)，月份「十一月」
+- id: wu.3.p23.t4
   anchor: wu.3.p23
   at: 156
   length: 3
@@ -1047,18 +1095,19 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 258
+  year_ad: 264
   era: 永安
-  era_year: 1
+  era_year: 7
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 永安7年 (AD 264)，月份「十二月」
 - id: wu.3.p23.a2
   anchor: wu.3.p23
   at: 176
   length: 0
   type: pei
   text: 《吳歷》曰：牧本名密，避丁密，改名牧，丁密避牧，改名爲固。
-- id: wu.3.p23.t6
+- id: wu.3.p23.t5
   anchor: wu.3.p23
   at: 186
   length: 2
@@ -1066,9 +1115,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 258
+  year_ad: 264
   era: 永安
-  era_year: 1
+  era_year: 7
+  reasoning: 「是歲」 = 当前年 永安7年 (AD 264)
 - id: wu.3.p23.a3
   anchor: wu.3.p23
   at: 235
@@ -1088,6 +1138,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 原文「甘露元年三月」直接出现年号；解析為 AD 265
 - id: wu.3.p24.a1
   anchor: wu.3.p24
   at: 102
@@ -1107,6 +1158,7 @@ annotations:
   era_year: 1
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 年承前文 甘露元年 (AD 265)，月份「夏四月」
 - id: wu.3.p24.t3
   anchor: wu.3.p24
   at: 150
@@ -1120,6 +1172,7 @@ annotations:
   era_year: 1
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 甘露元年 (AD 265)，月份「秋七月」
 - id: wu.3.p24.t4
   anchor: wu.3.p24
   at: 207
@@ -1133,6 +1186,7 @@ annotations:
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 甘露元年 (AD 265)，月份「九月」
 - id: wu.3.p24.t5
   anchor: wu.3.p24
   at: 252
@@ -1146,6 +1200,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 甘露元年 (AD 265)，月份「十一月」
 - id: wu.3.p24.t6
   anchor: wu.3.p24
   at: 288
@@ -1159,6 +1214,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 甘露元年 (AD 265)，月份「十二月」
 - id: wu.3.p25.t1
   anchor: wu.3.p25
   at: 0
@@ -1172,6 +1228,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 原文「寶鼎元年正月」直接出现年号；解析為 AD 266
 - id: wu.3.p25.a1
   anchor: wu.3.p25
   at: 35
@@ -1191,6 +1248,7 @@ annotations:
   era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 寶鼎元年 (AD 266)，月份「八月」
 - id: wu.3.p25.t3
   anchor: wu.3.p25
   at: 262
@@ -1204,6 +1262,7 @@ annotations:
   era_year: 1
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 寶鼎元年 (AD 266)，月份「冬十月」
 - id: wu.3.p25.a2
   anchor: wu.3.p25
   at: 279
@@ -1235,6 +1294,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 寶鼎元年 (AD 266)，月份「十二月」
 - id: wu.3.p26.t1
   anchor: wu.3.p26
   at: 0
@@ -1246,6 +1306,7 @@ annotations:
   year_ad: 267
   era: 寶鼎
   era_year: 2
+  reasoning: 承前文年號「寶鼎」推得，「二年」 = 寶鼎2年 = AD 267
 - id: wu.3.p26.t2
   anchor: wu.3.p26
   at: 17
@@ -1259,6 +1320,7 @@ annotations:
   era_year: 2
   month_chinese: 夏六月
   month_ordinal: 6
+  reasoning: 年承前文 寶鼎2年 (AD 267)，月份「夏六月」
 - id: wu.3.p26.a1
   anchor: wu.3.p26
   at: 26
@@ -1278,6 +1340,7 @@ annotations:
   era_year: 2
   month_chinese: 冬十二月
   month_ordinal: 12
+  reasoning: 年承前文 寶鼎2年 (AD 267)，月份「冬十二月」
 - id: wu.3.p26.t4
   anchor: wu.3.p26
   at: 36
@@ -1289,6 +1352,7 @@ annotations:
   year_ad: 267
   era: 寶鼎
   era_year: 2
+  reasoning: 「是歲」 = 当前年 寶鼎2年 (AD 267)
 - id: wu.3.p27.t1
   anchor: wu.3.p27
   at: 0
@@ -1302,6 +1366,7 @@ annotations:
   era_year: 3
   month_chinese: 春二月
   month_ordinal: 2
+  reasoning: 承前文年號「寶鼎」推得，「三年春二月」 = 寶鼎3年 = AD 268
 - id: wu.3.p27.a1
   anchor: wu.3.p27
   at: 25
@@ -1321,6 +1386,7 @@ annotations:
   era_year: 3
   month_chinese: 秋九月
   month_ordinal: 9
+  reasoning: 年承前文 寶鼎3年 (AD 268)，月份「秋九月」
 - id: wu.3.p27.t3
   anchor: wu.3.p27
   at: 40
@@ -1332,6 +1398,7 @@ annotations:
   year_ad: 268
   era: 寶鼎
   era_year: 3
+  reasoning: 「是歲」 = 当前年 寶鼎3年 (AD 268)
 - id: wu.3.p28.t1
   anchor: wu.3.p28
   at: 0
@@ -1345,6 +1412,7 @@ annotations:
   era_year: 1
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 原文「建衡元年春正月」直接出现年号；解析為 AD 269
 - id: wu.3.p28.t2
   anchor: wu.3.p28
   at: 23
@@ -1358,6 +1426,7 @@ annotations:
   era_year: 1
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 建衡元年 (AD 269)，月份「冬十月」
 - id: wu.3.p28.t3
   anchor: wu.3.p28
   at: 33
@@ -1371,6 +1440,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建衡元年 (AD 269)，月份「十一月」
 - id: wu.3.p29.t1
   anchor: wu.3.p29
   at: 0
@@ -1382,6 +1452,7 @@ annotations:
   year_ad: 270
   era: 建衡
   era_year: 2
+  reasoning: 承前文年號「建衡」推得，「二年」 = 建衡2年 = AD 270
 - id: wu.3.p29.t2
   anchor: wu.3.p29
   at: 30
@@ -1395,6 +1466,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建衡2年 (AD 270)，月份「三月」
 - id: wu.3.p29.t3
   anchor: wu.3.p29
   at: 46
@@ -1408,6 +1480,7 @@ annotations:
   era_year: 2
   month_chinese: 夏四月
   month_ordinal: 4
+  reasoning: 年承前文 建衡2年 (AD 270)，月份「夏四月」
 - id: wu.3.p29.t4
   anchor: wu.3.p29
   at: 93
@@ -1421,6 +1494,7 @@ annotations:
   era_year: 2
   month_chinese: 秋九月
   month_ordinal: 9
+  reasoning: 年承前文 建衡2年 (AD 270)，月份「秋九月」
 - id: wu.3.p29.t5
   anchor: wu.3.p29
   at: 116
@@ -1432,6 +1506,7 @@ annotations:
   year_ad: 270
   era: 建衡
   era_year: 2
+  reasoning: 「是歲」 = 当前年 建衡2年 (AD 270)
 - id: wu.3.p30.t1
   anchor: wu.3.p30
   at: 0
@@ -1445,6 +1520,7 @@ annotations:
   era_year: 3
   month_chinese: 春正月
   month_ordinal: 1
+  reasoning: 承前文年號「建衡」推得，「三年春正月」 = 建衡3年 = AD 271
 - id: wu.3.p30.a1
   anchor: wu.3.p30
   at: 35
@@ -1462,6 +1538,7 @@ annotations:
   year_ad: 271
   era: 建衡
   era_year: 3
+  reasoning: 「是歲」 = 当前年 建衡3年 (AD 271)
 - id: wu.3.p30.a2
   anchor: wu.3.p30
   at: 62
@@ -1483,6 +1560,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 272
+  reasoning: 「明年」 = 当前年 建衡3年 (AD 271) 之次年 = AD 272（跨年號邊界，新年號未明）
 - id: wu.3.p31.t1
   anchor: wu.3.p31
   at: 55
@@ -1492,6 +1570,7 @@ annotations:
   kind: relative
   resolution: this_year
   year_ad: 272
+  reasoning: 「是歲」 = 当前年 AD 272
 - id: wu.3.p31.a1
   anchor: wu.3.p31
   at: 75
@@ -1515,6 +1594,7 @@ annotations:
   year_ad: 272
   month_chinese: 秋九月
   month_ordinal: 9
+  reasoning: 年承前文 AD 272，月份「秋九月」
 - id: wu.3.p32.t2
   anchor: wu.3.p32
   at: 127
@@ -1524,6 +1604,7 @@ annotations:
   kind: relative
   resolution: this_year
   year_ad: 272
+  reasoning: 「是歲」 = 当前年 AD 272
 - id: wu.3.p33.a1
   anchor: wu.3.p33
   at: 54
@@ -1541,6 +1622,7 @@ annotations:
   year_ad: 272
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 年承前文 AD 272，月份「秋七月」
 - id: wu.3.p33.t2
   anchor: wu.3.p33
   at: 121
@@ -1550,6 +1632,7 @@ annotations:
   kind: relative
   resolution: this_year
   year_ad: 272
+  reasoning: 「是歲」 = 当前年 AD 272
 - id: wu.3.p34.t1
   anchor: wu.3.p34
   at: 0
@@ -1561,6 +1644,7 @@ annotations:
   year_ad: 275
   era: 天冊
   era_year: 1
+  reasoning: 原文「天冊元年」直接出现年号；解析為 AD 275
 - id: wu.3.p35.t1
   anchor: wu.3.p35
   at: 0
@@ -1572,6 +1656,7 @@ annotations:
   year_ad: 276
   era: 天璽
   era_year: 1
+  reasoning: 原文「天璽元年」直接出现年号；解析為 AD 276
 - id: wu.3.p35.a1
   anchor: wu.3.p35
   at: 115
@@ -1591,6 +1676,7 @@ annotations:
   era_year: 1
   month_chinese: 秋八月
   month_ordinal: 8
+  reasoning: 年承前文 天璽元年 (AD 276)，月份「秋八月」
 - id: wu.3.p35.a2
   anchor: wu.3.p35
   at: 172
@@ -1606,6 +1692,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 277
+  reasoning: 「明年」 = 当前年 天璽元年 (AD 276) 之次年 = AD 277（跨年號邊界，新年號未明）
 - id: wu.3.p36.t1
   anchor: wu.3.p36
   at: 0
@@ -1617,6 +1704,7 @@ annotations:
   year_ad: 277
   era: 天紀
   era_year: 1
+  reasoning: 原文「天紀元年」直接出现年号；解析為 AD 277
 - id: wu.3.p36.t2
   anchor: wu.3.p36
   at: 51
@@ -1628,6 +1716,7 @@ annotations:
   year_ad: 277
   era: 天紀
   era_year: 1
+  reasoning: 「是歲」 = 当前年 天紀元年 (AD 277)
 - id: wu.3.p36.a1
   anchor: wu.3.p36
   at: 61
@@ -1647,6 +1736,7 @@ annotations:
   era_year: 2
   month_chinese: 秋七月
   month_ordinal: 7
+  reasoning: 承前文年號「天紀」推得，「二年秋七月」 = 天紀2年 = AD 278
 - id: wu.3.p38.t1
   anchor: wu.3.p38
   at: 0
@@ -1658,6 +1748,7 @@ annotations:
   year_ad: 279
   era: 天紀
   era_year: 3
+  reasoning: 承前文年號「天紀」推得，「三年」 = 天紀3年 = AD 279
 - id: wu.3.p38.a1
   anchor: wu.3.p38
   at: 155
@@ -1677,6 +1768,7 @@ annotations:
   era_year: 3
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 天紀3年 (AD 279)，月份「八月」
 - id: wu.3.p41.a1
   anchor: wu.3.p41
   at: 169
@@ -1694,6 +1786,7 @@ annotations:
   year_ad: 280
   era: 天紀
   era_year: 4
+  reasoning: 承前文年號「天紀」推得，「四年」 = 天紀4年 = AD 280
 - id: wu.3.p42.a1
   anchor: wu.3.p42
   at: 64
@@ -1713,6 +1806,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 天紀4年 (AD 280)，月份「三月」
 - id: wu.3.p43.a1
   anchor: wu.3.p43
   at: 26
@@ -1733,30 +1827,18 @@ annotations:
   text: 《晉陽秋》曰：濬收其圖籍，領州四，郡四十三，縣三百一十三，戶五十二萬三千，吏三萬二千，兵二十三萬，男女口二百三十萬，米穀二百八十萬斛，舟船五千餘艘，後宮五千餘人。
 - id: wu.3.p45.t1
   anchor: wu.3.p45
-  at: 49
-  length: 4
-  type: temporal
-  text: 元年五月
-  kind: relative
-  resolution: bare_year
-  year_ad: 277
-  era: 天紀
-  era_year: 1
-  month_chinese: 五月
-  month_ordinal: 5
-- id: wu.3.p45.t2
-  anchor: wu.3.p45
   at: 60
   length: 2
   type: temporal
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 277
+  year_ad: 280
   era: 天紀
-  era_year: 1
+  era_year: 4
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 天紀4年 (AD 280)，月份「四月」
 - id: wu.3.p45.a2
   anchor: wu.3.p45
   at: 155

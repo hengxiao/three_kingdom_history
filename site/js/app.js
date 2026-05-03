@@ -218,7 +218,10 @@ function renderSegmentText(seg) {
     const tempItems = temporals.map((a, i) => `
       <li class="note-item note-temporal">
         <span class="note-marker">時${i + 1}</span>
-        <span class="note-text">${escapeHTML(a.text)} = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}</span>
+        <span class="note-text">
+          ${escapeHTML(a.text)} = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}
+          ${a.reasoning ? `<span class="note-reasoning">推理：${escapeHTML(a.reasoning)}</span>` : ""}
+        </span>
       </li>`).join("");
     notesHTML = `<ul class="notes">${peiItems}${tempItems}</ul>`;
   }
@@ -230,7 +233,8 @@ function temporalTitle(a) {
   const month = a.month_chinese ? `（${a.month_chinese}）` : "";
   const eraStr = a.era ? `${a.era}${a.era_year === 1 ? "元" : a.era_year}年${month}` : a.text;
   const tail = a.kind === "relative" ? `（相對：${a.resolution || ""}）` : "";
-  return `${eraStr} = 公元 ${a.year_ad} 年 ${tail}`.trim();
+  const head = `${eraStr} = 公元 ${a.year_ad} 年 ${tail}`.trim();
+  return a.reasoning ? `${head}\n推理：${a.reasoning}` : head;
 }
 
 function formatAD(a) {

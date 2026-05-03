@@ -73,7 +73,8 @@
           "resolution": "absolute",
           "year_ad": 110,
           "era": "永初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「永初四年」直接出现年号；解析為 AD 110"
         }
       ]
     },
@@ -287,7 +288,8 @@
           "resolution": "absolute",
           "year_ad": 126,
           "era": "永建",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永建元年」直接出现年号；解析為 AD 126"
         },
         {
           "id": "hhs.58.p16.a1",
@@ -370,18 +372,6 @@
       "id": "hhs.58.p19",
       "text": "是時長吏、二千石聽百姓□罰者輸贖，號為「義錢」，托為貧人儲，而守令因以聚斂。詡上疏曰：「元年以來，貧百姓章言長吏受取百萬以上者，匈匈不絕，□罰吏人至數千萬，而三公、刺史少所舉奏。尋永平、章和中，州郡以走卒錢給貸貧人，司空劾案，州及郡縣皆坐免黜。今宜遵前典，蠲除權制。」於是詔書下詡章，切責州郡。□罰輸贖自此而止。",
       "annotations": [
-        {
-          "id": "hhs.58.p19.t1",
-          "type": "temporal",
-          "at": 44,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 126,
-          "era": "永建",
-          "era_year": 1
-        },
         {
           "id": "hhs.58.p19.a1",
           "type": "lixian",
@@ -624,7 +614,8 @@
           "resolution": "absolute",
           "year_ad": 187,
           "era": "中平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「中平四年」直接出现年号；解析為 AD 187"
         },
         {
           "id": "hhs.58.p33.a2",
@@ -766,7 +757,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.58.p40.a1",
@@ -983,7 +975,8 @@
           "resolution": "absolute",
           "year_ad": 172,
           "era": "熹平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.58.p54.a3",
@@ -997,20 +990,7 @@
     {
       "id": "hhs.58.p55",
       "text": "拜旻揚州刺史。旻率丹*(揚)**[陽]*太守陳夤擊昭，破之。昭遂復更屯結，大為人患。旻等進兵，連戰三年，破平之，獲昭父子，斬首數千級。遷旻為使匈奴中郎將。",
-      "annotations": [
-        {
-          "id": "hhs.58.p55.t1",
-          "type": "temporal",
-          "at": 49,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 174,
-          "era": "熹平",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.58.p56",
@@ -1115,18 +1095,6 @@
       "id": "hhs.58.p61",
       "text": "在事二年，袁紹憚其能，徙為東郡太守，都東武陽。時曹操圍張超於雍丘，甚危急。超謂軍吏曰：「今日之事，唯有臧洪必來救我。」或曰：「袁曹方穆，而洪為紹所用，恐不能敗好遠來，違福取禍。」超曰：「子源天下義士，終非背本者也，或見制強力，不相及耳。」洪始聞超圍，及徒跣號泣，並勒所領，將赴其難。自以觿弱，從紹請兵，而紹竟不聽之，超城遂陷，張氏族滅。洪由是怨紹，絕不與通。紹興兵圍之，歷年不下，使洪邑人陳琳以書譬洪，示其禍福，責以恩義。洪荅曰：",
       "annotations": [
-        {
-          "id": "hhs.58.p61.t1",
-          "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 173,
-          "era": "熹平",
-          "era_year": 2
-        },
         {
           "id": "hhs.58.p61.a1",
           "type": "lixian",
@@ -1234,30 +1202,6 @@
           "at": 61,
           "length": 0,
           "text": "左傳雲，公山不狃曰：「君子違不適讎國。」杜預注云：「違，奔亡也。」"
-        },
-        {
-          "id": "hhs.58.p65.t1",
-          "type": "temporal",
-          "at": 87,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 174,
-          "era": "熹平",
-          "era_year": 3
-        },
-        {
-          "id": "hhs.58.p65.t2",
-          "type": "temporal",
-          "at": 93,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 172,
-          "era": "熹平",
-          "era_year": 1
         },
         {
           "id": "hhs.58.p65.a2",

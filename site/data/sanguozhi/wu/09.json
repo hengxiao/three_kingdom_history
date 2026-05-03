@@ -42,7 +42,8 @@
           "resolution": "absolute",
           "year_ad": 198,
           "era": "建安",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建安三年」直接出现年号；解析為 AD 198"
         }
       ]
     },
@@ -87,7 +88,8 @@
           "resolution": "bare_year",
           "year_ad": 200,
           "era": "建安",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「建安」推得，「五年」 = 建安5年 = AD 200"
         },
         {
           "id": "wu.9.p4.a1",
@@ -112,7 +114,8 @@
           "resolution": "bare_year",
           "year_ad": 206,
           "era": "建安",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206"
         },
         {
           "id": "wu.9.p5.t2",
@@ -124,7 +127,8 @@
           "resolution": "bare_year",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         },
         {
           "id": "wu.9.p5.t3",
@@ -136,7 +140,8 @@
           "resolution": "this_year",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "「其年」 = 当前年 建安13年 (AD 208)"
         }
       ]
     },
@@ -236,7 +241,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
           "id": "wu.9.p13.t2",
@@ -248,7 +254,8 @@
           "resolution": "absolute",
           "year_ad": 239,
           "era": "赤烏",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「赤烏二年」直接出现年号；解析為 AD 239"
         }
       ]
     },
@@ -368,7 +375,8 @@
           "resolution": "absolute",
           "year_ad": 217,
           "era": "建安",
-          "era_year": 22
+          "era_year": 22,
+          "reasoning": "原文「建安二十二年」直接出现年号；解析為 AD 217（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.9.p25.a1",
@@ -387,7 +395,8 @@
           "resolution": "absolute",
           "year_ad": 274,
           "era": "鳳凰",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「鳳凰三年」直接出现年号；解析為 AD 274"
         }
       ]
     },
@@ -410,7 +419,8 @@
           "resolution": "this_year",
           "year_ad": 274,
           "era": "鳳凰",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 鳳凰3年 (AD 274)"
         }
       ]
     },

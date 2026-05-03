@@ -58,7 +58,8 @@
           "resolution": "absolute",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208"
         },
         {
           "id": "wei.26.p5.t2",
@@ -70,7 +71,8 @@
           "resolution": "absolute",
           "year_ad": 222,
           "era": "黃初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222"
         },
         {
           "id": "wei.26.p5.t3",
@@ -82,7 +84,8 @@
           "resolution": "bare_year",
           "year_ad": 224,
           "era": "黃初",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
         }
       ]
     },
@@ -100,7 +103,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228"
         },
         {
           "id": "wei.26.p6.t2",
@@ -112,7 +116,8 @@
           "resolution": "bare_year",
           "year_ad": 229,
           "era": "太和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「太和」推得，「三年」 = 太和3年 = AD 229"
         },
         {
           "id": "wei.26.p6.t3",
@@ -124,7 +129,8 @@
           "resolution": "this_year",
           "year_ad": 229,
           "era": "太和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 太和3年 (AD 229)"
         },
         {
           "id": "wei.26.p6.t4",
@@ -136,7 +142,8 @@
           "resolution": "bare_year",
           "year_ad": 230,
           "era": "太和",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「太和」推得，「四年」 = 太和4年 = AD 230"
         },
         {
           "id": "wei.26.p6.t5",
@@ -148,7 +155,8 @@
           "resolution": "next_year",
           "year_ad": 231,
           "era": "太和",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 太和4年 (AD 230) 之次年 = AD 231"
         },
         {
           "id": "wei.26.p6.a1",
@@ -167,7 +175,8 @@
           "resolution": "next_year",
           "year_ad": 232,
           "era": "太和",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "「明年」 = 当前年 太和5年 (AD 231) 之次年 = AD 232"
         }
       ]
     },
@@ -185,7 +194,8 @@
           "resolution": "absolute",
           "year_ad": 233,
           "era": "青龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「青龍元年」直接出现年号；解析為 AD 233"
         },
         {
           "id": "wei.26.p7.t2",
@@ -197,7 +207,8 @@
           "resolution": "this_year",
           "year_ad": 233,
           "era": "青龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "「其年」 = 当前年 青龍元年 (AD 233)"
         },
         {
           "id": "wei.26.p7.t3",
@@ -209,7 +220,8 @@
           "resolution": "next_year",
           "year_ad": 234,
           "era": "青龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 青龍元年 (AD 233) 之次年 = AD 234"
         },
         {
           "id": "wei.26.p7.t4",
@@ -221,7 +233,8 @@
           "resolution": "bare_year",
           "year_ad": 235,
           "era": "青龍",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「青龍」推得，「三年」 = 青龍3年 = AD 235"
         },
         {
           "id": "wei.26.p7.t5",
@@ -235,7 +248,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「八月」"
         }
       ]
     },
@@ -253,7 +267,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "景初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景初二年」直接出现年号；解析為 AD 238"
         },
         {
           "id": "wei.26.p8.t2",
@@ -265,7 +280,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "正始",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「正始三年」直接出现年号；解析為 AD 242"
         },
         {
           "id": "wei.26.p8.a1",
@@ -299,20 +315,7 @@
     {
       "id": "wei.26.p13",
       "text": "文帝初，北狄彊盛，侵擾邊塞，乃使豫持節護烏丸校尉，牽招、解儁并護鮮卑。自高柳以東，濊貊以西，鮮卑數十部，比能、彌加、素利割地統御，各有分界；乃共誓要，皆不得以馬與中國市。豫以戎狄爲一，非中國之利，乃先搆離之，使自爲讎敵，互相攻伐。素利違盟，出馬千匹與官，爲比能所攻，求救於豫。豫恐遂相兼并，爲害滋深，宜救善討惡，示信衆狄。單將銳卒，深入虜庭，胡人衆多，鈔軍前後，斷截歸路。豫乃進軍，去虜十餘里結屯營，多聚牛馬糞然之，從他道引去。胡見煙火不絕，以爲尚在，去，行數十里乃知之。追豫到馬城，圍之十重，豫密嚴，使司馬建旌旗，鳴鼓吹，將步騎從南門出，胡人皆屬目往赴之。豫將精銳自北門出，鼓譟而起，兩頭俱發，出虜不意，虜衆散亂，皆棄弓馬步走，追討二十餘里，僵尸蔽地。又烏丸王骨進桀黠不恭，豫因出塞案行，單將麾下百餘騎入進部。進逆拜，遂使左右斬進，顯其罪惡以令衆。衆皆怖慴不敢動，便以進弟代進。自是胡人破膽，威震沙漠。山賊高艾，衆數千人，寇鈔，爲幽、冀害，豫誘使鮮卑素利部斬艾，傳首京都。封豫長樂亭侯。爲校尉九年，其御夷狄，恒摧抑兼并，乖散彊猾。凡逋亡姦宄，爲胡作計不利官者，豫皆構刺攪離，使凶邪之謀不遂，聚居之類不安。事業未究，而幽州刺史王雄支黨欲令雄領烏丸校尉，毀豫亂邊，爲國生事。遂轉豫爲汝南太守，加殄夷將軍。",
-      "annotations": [
-        {
-          "id": "wei.26.p13.t1",
-          "type": "temporal",
-          "at": 447,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 248,
-          "era": "正始",
-          "era_year": 9
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.26.p14",
@@ -366,7 +369,8 @@
           "resolution": "absolute",
           "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「嘉平六年」直接出现年号；解析為 AD 254"
         },
         {
           "id": "wei.26.p17.a2",
@@ -396,7 +400,8 @@
           "resolution": "absolute",
           "year_ad": 204,
           "era": "建安",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「建安九年」直接出现年号；解析為 AD 204（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -434,7 +439,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -478,19 +484,8 @@
           "resolution": "absolute",
           "year_ad": 220,
           "era": "黃初",
-          "era_year": 1
-        },
-        {
-          "id": "wei.26.p27.t2",
-          "type": "temporal",
-          "at": 139,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 224,
-          "era": "黃初",
-          "era_year": 5
+          "era_year": 1,
+          "reasoning": "原文「黃初元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -508,7 +503,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.26.p28.t2",
@@ -518,9 +514,10 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 231,
-          "era": "太和",
-          "era_year": 5
+          "year_ad": 253,
+          "era": "嘉平",
+          "era_year": 5,
+          "reasoning": "承前文年號「嘉平」推得，「五年」 = 嘉平5年 = AD 253"
         },
         {
           "id": "wei.26.p28.t3",
@@ -532,7 +529,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "青龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「青龍二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -550,7 +548,8 @@
           "resolution": "absolute",
           "year_ad": 240,
           "era": "正始",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「正始元年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -566,33 +565,10 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 244,
-          "era": "正始",
-          "era_year": 5
-        },
-        {
-          "id": "wei.26.p30.t2",
-          "type": "temporal",
-          "at": 38,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 247,
-          "era": "正始",
-          "era_year": 8
-        },
-        {
-          "id": "wei.26.p30.t3",
-          "type": "temporal",
-          "at": 189,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 248,
-          "era": "正始",
-          "era_year": 9
+          "year_ad": 253,
+          "era": "嘉平",
+          "era_year": 5,
+          "reasoning": "承前文年號「嘉平」推得，「五年」 = 嘉平5年 = AD 253"
         }
       ]
     },
@@ -610,7 +586,8 @@
           "resolution": "absolute",
           "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.26.p31.t2",
@@ -620,9 +597,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 249,
+          "year_ad": 253,
           "era": "嘉平",
-          "era_year": 1
+          "era_year": 5,
+          "reasoning": "「是歲」 = 当前年 嘉平5年 (AD 253)"
         },
         {
           "id": "wei.26.p31.t3",
@@ -634,7 +612,8 @@
           "resolution": "bare_year",
           "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250"
         },
         {
           "id": "wei.26.p31.a1",
@@ -653,7 +632,8 @@
           "resolution": "absolute",
           "year_ad": 255,
           "era": "正元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「正元二年」直接出现年号；解析為 AD 255"
         },
         {
           "id": "wei.26.p31.a2",

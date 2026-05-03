@@ -34,6 +34,7 @@ annotations:
   year_ad: 199
   era: 建安
   era_year: 4
+  reasoning: 原文「建安四年」直接出现年号；解析為 AD 199
 - id: wu.8.p3.a1
   anchor: wu.8.p3
   at: 30
@@ -63,6 +64,7 @@ annotations:
   year_ad: 200
   era: 建安
   era_year: 5
+  reasoning: 「明年」 = 当前年 建安4年 (AD 199) 之次年 = AD 200
 - id: wu.8.p4.a1
   anchor: wu.8.p4
   at: 13
@@ -122,6 +124,7 @@ annotations:
   year_ad: 225
   era: 黃武
   era_year: 4
+  reasoning: 原文「黃武四年」直接出现年号；解析為 AD 225
 - id: wu.8.p9.a1
   anchor: wu.8.p9
   at: 19
@@ -139,6 +142,7 @@ annotations:
   year_ad: 242
   era: 赤烏
   era_year: 5
+  reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242
 - id: wu.8.p10.a1
   anchor: wu.8.p10
   at: 409
@@ -156,6 +160,7 @@ annotations:
   year_ad: 243
   era: 赤烏
   era_year: 6
+  reasoning: 承前文年號「赤烏」推得，「六年」 = 赤烏6年 = AD 243
 - id: wu.8.p11.t1
   anchor: wu.8.p11
   at: 67
@@ -167,6 +172,7 @@ annotations:
   year_ad: 225
   era: 黃武
   era_year: 4
+  reasoning: 原文「黃武四年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）
 - id: wu.8.p11.a1
   anchor: wu.8.p11
   at: 78
@@ -199,11 +205,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 225
-  era: 黃武
-  era_year: 4
+  year_ad: 243
+  era: 赤烏
+  era_year: 6
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 赤烏6年 (AD 243)，月份「八月」
 - id: wu.8.p17.t1
   anchor: wu.8.p17
   at: 0
@@ -215,6 +222,7 @@ annotations:
   year_ad: 231
   era: 黃龍
   era_year: 3
+  reasoning: 原文「黃龍三年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）
 - id: wu.8.p20.t1
   anchor: wu.8.p20
   at: 0
@@ -223,11 +231,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 231
-  era: 黃龍
-  era_year: 3
+  year_ad: 243
+  era: 赤烏
+  era_year: 6
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 赤烏6年 (AD 243)，月份「正月」
 - id: wu.8.p20.t2
   anchor: wu.8.p20
   at: 60
@@ -239,6 +248,7 @@ annotations:
   year_ad: 240
   era: 赤烏
   era_year: 3
+  reasoning: 原文「赤烏三年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）
 - id: wu.8.p20.t3
   anchor: wu.8.p20
   at: 71
@@ -250,6 +260,7 @@ annotations:
   year_ad: 242
   era: 赤烏
   era_year: 5
+  reasoning: 承前文年號「赤烏」推得，「五年」 = 赤烏5年 = AD 242
 - id: wu.8.p20.a1
   anchor: wu.8.p20
   at: 86
@@ -267,6 +278,7 @@ annotations:
   year_ad: 243
   era: 赤烏
   era_year: 6
+  reasoning: 承前文年號「赤烏」推得，「六年」 = 赤烏6年 = AD 243
 - id: wu.8.p21.a1
   anchor: wu.8.p21
   at: 19
@@ -284,6 +296,7 @@ annotations:
   year_ad: 271
   era: 建衡
   era_year: 3
+  reasoning: 原文「建衡三年」直接出现年号；解析為 AD 271
 - id: wu.8.p24.t1
   anchor: wu.8.p24
   at: 0
@@ -295,6 +308,7 @@ annotations:
   year_ad: 271
   era: 建衡
   era_year: 3
+  reasoning: 「是歲」 = 当前年 建衡3年 (AD 271)
 - id: wu.8.p27.t1
   anchor: wu.8.p27
   at: 0
@@ -306,23 +320,13 @@ annotations:
   year_ad: 280
   era: 天紀
   era_year: 4
+  reasoning: 原文「天紀四年」直接出现年号；解析為 AD 280
 - id: wu.8.p27.a1
   anchor: wu.8.p27
   at: 60
   length: 0
   type: pei
   text: 干寶《晉紀》曰：武帝從容問瑩曰：「孫皓之所以亡者何也？」瑩對曰：「歸命侯臣皓之君吳也，暱近小人，刑罰妄加，大臣大將，無所親信，人人憂恐，各不自保，危亡之釁，實由於此。」帝遂問吳士存亡者之賢愚，瑩各以狀對。
-- id: wu.8.p27.t2
-  anchor: wu.8.p27
-  at: 62
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 279
-  era: 天紀
-  era_year: 3
 - id: wu.8.p27.a2
   anchor: wu.8.p27
   at: 78

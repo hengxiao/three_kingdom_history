@@ -89,6 +89,8 @@ def build_temporal_annotations(text_path: Path, *, book: str) -> list[dict]:
             if d.month_chinese is not None:
                 entry["month_chinese"] = d.month_chinese
                 entry["month_ordinal"] = d.month_ordinal
+            if d.reasoning is not None:
+                entry["reasoning"] = d.reasoning
             out.append(entry)
     return out
 

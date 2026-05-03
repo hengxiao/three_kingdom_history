@@ -219,6 +219,7 @@ class DateMatch:
     era_year: Optional[int] = None
     month_chinese: Optional[str] = None
     month_ordinal: Optional[int] = None
+    reasoning: Optional[str] = None  # short prose explaining how this ref was resolved (用於 review)
 
 
 @dataclass
@@ -269,6 +270,10 @@ _THIS_YEAR_RE = re.compile(r"是歲|是年|其年")
 _NEXT_YEAR_RE = re.compile(r"明年")
 _PREV_YEAR_RE = re.compile(r"去年|前年")
 _BARE_MONTH_AT_RE = re.compile(r"(?:春|夏|秋|冬)?(?:正|[一二三四五六七八九十]+)月")
+# A bare ordinal-year is taken as a date only at a sentence boundary. Mid-sentence
+# matches like "連戰二年" / "凡七年" / "經三年" / "歷十年" describe DURATIONS, not
+# years, and emitting them as dates poisons the state for subsequent segments.
+_SENTENCE_END_CHARS = "。"
 
 
 def _try_attach_month(text: str, after_pos: int) -> tuple[Optional[str], Optional[int], int]:
@@ -303,9 +308,13 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
     for d in abs_matches:
         candidates.append((d.at, 0, "absolute", {"match": d}))
 
-    # bare year (digits + 年), optional trailing month
+    # bare year (digits + 年), optional trailing month — accepted only at
+    # a sentence boundary so duration phrases like 「連戰二年」 don't masquerade
+    # as date references.
     for m in _BARE_YEAR_RE.finditer(text):
         if in_abs(m.start()):
+            continue
+        if m.start() > 0 and text[m.start() - 1] not in _SENTENCE_END_CHARS:
             continue
         year_int = chinese_to_int(m.group(1))
         if year_int is None or year_int < 1:
@@ -371,18 +380,28 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
 
     candidates.sort(key=lambda c: (c[0], c[1]))
 
+    def _state_anchor_str(s: TimelineState) -> str:
+        if s.era is None or s.era_year is None or s.year_ad is None:
+            return f"AD {s.year_ad}" if s.year_ad else "(無錨)"
+        y = "元" if s.era_year == 1 else str(s.era_year)
+        return f"{s.era.name}{y}年 (AD {s.year_ad})"
+
     out: list[DateMatch] = []
     for at, _, kind, info in candidates:
         if kind == "absolute":
             d = info["match"]
+            backward = (state.year_ad is not None and d.year_ad < state.year_ad)
+            d.reasoning = (
+                f"原文「{d.surface}」直接出现年号；解析為 AD {d.year_ad}"
+                + ("（回溯前事，不推進章節時間軸）" if backward else "")
+            )
             out.append(d)
             # 编年体 (e.g. 资治通鉴) reads strictly forward — an in-text absolute
             # ref to an earlier year is a flashback for context, not a state move.
-            # Bio-style works (sanguozhi/houhanshu) can also do this, e.g. an obituary
-            # paragraph that references early career years; the same backward-only
-            # guard avoids polluting subsequent paragraphs' state. We still emit
-            # the annotation at the flashback's actual year_ad.
-            if (state.year_ad is not None and d.year_ad < state.year_ad):
+            # Bio-style works (sanguozhi/houhanshu) also do this in obituary tails
+            # and biographical lookbacks; the same guard prevents subsequent
+            # bare-month/year refs from being dragged backward.
+            if backward:
                 continue
             state = TimelineState(era=d.era, era_year=d.era_year, year_ad=d.year_ad)
             continue
@@ -395,22 +414,30 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
             if year_int > era_length:
                 continue
             year_ad = state.era.start_ad + year_int - 1
+            yr_str = "元" if year_int == 1 else str(year_int)
+            reasoning = (
+                f"承前文年號「{state.era.name}」推得，「{info['raw_surface']}」"
+                f" = {state.era.name}{yr_str}年 = AD {year_ad}"
+            )
             out.append(DateMatch(
                 at=at, length=info["length"], surface=info["raw_surface"],
                 kind="relative", resolution="bare_year",
                 year_ad=year_ad, era=state.era, era_year=year_int,
                 month_chinese=info.get("month_chinese"),
                 month_ordinal=info.get("month_ordinal"),
+                reasoning=reasoning,
             ))
             state = TimelineState(era=state.era, era_year=year_int, year_ad=year_ad)
 
         elif kind == "this_year":
             if state.year_ad is None:
                 continue
+            reasoning = f"「{info['raw_surface']}」 = 当前年 {_state_anchor_str(state)}"
             out.append(DateMatch(
                 at=at, length=info["length"], surface=info["raw_surface"],
                 kind="relative", resolution="this_year",
                 year_ad=state.year_ad, era=state.era, era_year=state.era_year,
+                reasoning=reasoning,
             ))
 
         elif kind == "next_year":
@@ -423,12 +450,17 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 new_era_year = new_year_ad - new_era.start_ad + 1
             else:
                 new_era = None
+            reasoning = (
+                f"「{info['raw_surface']}」 = 当前年 {_state_anchor_str(state)} 之次年 = AD {new_year_ad}"
+                + ("（跨年號邊界，新年號未明）" if new_era is None else "")
+            )
             out.append(DateMatch(
                 at=at, length=info["length"], surface=info["raw_surface"],
                 kind="relative", resolution="next_year",
                 year_ad=new_year_ad, era=new_era, era_year=new_era_year,
                 month_chinese=info.get("month_chinese"),
                 month_ordinal=info.get("month_ordinal"),
+                reasoning=reasoning,
             ))
             state = TimelineState(era=new_era, era_year=new_era_year, year_ad=new_year_ad)
 
@@ -442,22 +474,31 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 new_era_year = new_year_ad - new_era.start_ad + 1
             else:
                 new_era = None
+            reasoning = (
+                f"「{info['raw_surface']}」 = 当前年 {_state_anchor_str(state)} 之前一年 = AD {new_year_ad}"
+                + "（往回引述，章節時間軸不變）"
+            )
             out.append(DateMatch(
                 at=at, length=info["length"], surface=info["raw_surface"],
                 kind="relative", resolution="prev_year",
                 year_ad=new_year_ad, era=new_era, era_year=new_era_year,
+                reasoning=reasoning,
             ))
             # don't update state; 去年 is a backward reference, not a forward move
 
         elif kind == "bare_month":
             if state.year_ad is None:
                 continue
+            reasoning = (
+                f"年承前文 {_state_anchor_str(state)}，月份「{info['raw_surface']}」"
+            )
             out.append(DateMatch(
                 at=at, length=info["length"], surface=info["raw_surface"],
                 kind="relative", resolution="bare_month",
                 year_ad=state.year_ad, era=state.era, era_year=state.era_year,
                 month_chinese=info["month_chinese"],
                 month_ordinal=info["month_ordinal"],
+                reasoning=reasoning,
             ))
 
     return out, state

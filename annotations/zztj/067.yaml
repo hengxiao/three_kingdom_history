@@ -16,6 +16,7 @@ annotations:
   year_ad: 214
   era: 建安
   era_year: 19
+  reasoning: 原文「建安十九年」直接出现年号；解析為 AD 214
 - id: zztj.67.p5.t1
   anchor: zztj.67.p5
   at: 0
@@ -29,6 +30,7 @@ annotations:
   era_year: 19
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安19年 (AD 214)，月份「三月」
 - id: zztj.67.p6.t1
   anchor: zztj.67.p6
   at: 2
@@ -42,6 +44,7 @@ annotations:
   era_year: 19
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安19年 (AD 214)，月份「四月」
 - id: zztj.67.p6.t2
   anchor: zztj.67.p6
   at: 7
@@ -55,50 +58,7 @@ annotations:
   era_year: 19
   month_chinese: 五月
   month_ordinal: 5
-- id: zztj.67.p8.t1
-  anchor: zztj.67.p8
-  at: 6
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
-- id: zztj.67.p8.t2
-  anchor: zztj.67.p8
-  at: 217
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
-- id: zztj.67.p8.t3
-  anchor: zztj.67.p8
-  at: 252
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
-- id: zztj.67.p12.t1
-  anchor: zztj.67.p12
-  at: 75
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
+  reasoning: 年承前文 建安19年 (AD 214)，月份「五月」
 - id: zztj.67.p16.t1
   anchor: zztj.67.p16
   at: 2
@@ -107,11 +67,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 214
   era: 建安
-  era_year: 1
+  era_year: 19
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安19年 (AD 214)，月份「七月」
 - id: zztj.67.p18.t1
   anchor: zztj.67.p18
   at: 33
@@ -120,11 +81,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 214
   era: 建安
-  era_year: 1
+  era_year: 19
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安19年 (AD 214)，月份「十月」
 - id: zztj.67.p19.t1
   anchor: zztj.67.p19
   at: 204
@@ -133,11 +95,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 214
   era: 建安
-  era_year: 1
+  era_year: 19
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建安19年 (AD 214)，月份「十一月」
 - id: zztj.67.p20.t1
   anchor: zztj.67.p20
   at: 0
@@ -146,11 +109,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 214
   era: 建安
-  era_year: 1
+  era_year: 19
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安19年 (AD 214)，月份「十二月」
 - id: zztj.67.p22.t1
   anchor: zztj.67.p22
   at: 5
@@ -162,6 +126,7 @@ annotations:
   year_ad: 215
   era: 建安
   era_year: 20
+  reasoning: 原文「建安二十年」直接出现年号；解析為 AD 215
 - id: zztj.67.p23.t1
   anchor: zztj.67.p23
   at: 2
@@ -175,6 +140,7 @@ annotations:
   era_year: 20
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安20年 (AD 215)，月份「正月」
 - id: zztj.67.p23.t2
   anchor: zztj.67.p23
   at: 24
@@ -188,6 +154,7 @@ annotations:
   era_year: 20
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安20年 (AD 215)，月份「三月」
 - id: zztj.67.p23.t3
   anchor: zztj.67.p23
   at: 61
@@ -201,6 +168,7 @@ annotations:
   era_year: 20
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安20年 (AD 215)，月份「四月」
 - id: zztj.67.p23.t4
   anchor: zztj.67.p23
   at: 88
@@ -214,6 +182,7 @@ annotations:
   era_year: 20
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安20年 (AD 215)，月份「五月」
 - id: zztj.67.p30.t1
   anchor: zztj.67.p30
   at: 2
@@ -227,6 +196,7 @@ annotations:
   era_year: 20
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安20年 (AD 215)，月份「七月」
 - id: zztj.67.p32.t1
   anchor: zztj.67.p32
   at: 0
@@ -240,6 +210,7 @@ annotations:
   era_year: 20
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安20年 (AD 215)，月份「八月」
 - id: zztj.67.p33.t1
   anchor: zztj.67.p33
   at: 0
@@ -253,6 +224,7 @@ annotations:
   era_year: 20
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安20年 (AD 215)，月份「九月」
 - id: zztj.67.p34.t1
   anchor: zztj.67.p34
   at: 2
@@ -266,6 +238,7 @@ annotations:
   era_year: 20
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安20年 (AD 215)，月份「十月」
 - id: zztj.67.p35.t1
   anchor: zztj.67.p35
   at: 0
@@ -279,6 +252,7 @@ annotations:
   era_year: 20
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建安20年 (AD 215)，月份「十一月」
 - id: zztj.67.p40.t1
   anchor: zztj.67.p40
   at: 5
@@ -290,6 +264,7 @@ annotations:
   year_ad: 216
   era: 建安
   era_year: 21
+  reasoning: 原文「建安二十一年」直接出现年号；解析為 AD 216
 - id: zztj.67.p41.t1
   anchor: zztj.67.p41
   at: 2
@@ -303,6 +278,7 @@ annotations:
   era_year: 21
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安21年 (AD 216)，月份「二月」
 - id: zztj.67.p42.t1
   anchor: zztj.67.p42
   at: 2
@@ -316,6 +292,7 @@ annotations:
   era_year: 21
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安21年 (AD 216)，月份「五月」
 - id: zztj.67.p46.t1
   anchor: zztj.67.p46
   at: 0
@@ -329,6 +306,7 @@ annotations:
   era_year: 21
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安21年 (AD 216)，月份「五月」
 - id: zztj.67.p48.t1
   anchor: zztj.67.p48
   at: 43
@@ -342,6 +320,7 @@ annotations:
   era_year: 21
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安21年 (AD 216)，月份「七月」
 - id: zztj.67.p49.t1
   anchor: zztj.67.p49
   at: 0
@@ -355,6 +334,7 @@ annotations:
   era_year: 21
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安21年 (AD 216)，月份「八月」
 - id: zztj.67.p50.t1
   anchor: zztj.67.p50
   at: 2
@@ -368,6 +348,7 @@ annotations:
   era_year: 21
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安21年 (AD 216)，月份「十月」
 - id: zztj.67.p50.t2
   anchor: zztj.67.p50
   at: 14
@@ -381,3 +362,4 @@ annotations:
   era_year: 21
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建安21年 (AD 216)，月份「十一月」

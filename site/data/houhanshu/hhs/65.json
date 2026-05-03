@@ -35,27 +35,15 @@
           "resolution": "absolute",
           "year_ad": 141,
           "era": "永和",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「永和六年」直接出现年号；解析為 AD 141"
         }
       ]
     },
     {
       "id": "hhs.65.p3",
       "text": "舉規上計掾。其後羌觿大合，攻燒隴西，朝廷患之。規乃上疏求乞自効，曰：「臣比年以來，數陳便宜。羌戎未動，策其將反，馬賢始出，頗知必敗。誤中之言，在可考校。臣每惟賢等擁觿四年，未有成功，懸師之費且百億計，[1]出於平人，回入奸吏。[2]故江湖之人，腢為盜賊，青、徐荒饑，襁負流散。夫羌戎潰叛，不由承平，皆由邊將失於綏御。乘常守安，則君侵暴，苟競小利，則致大害，微勝則虛張首級，軍敗則隱匿不言。軍士勞怨，困於猾吏，進不得快戰以徼功，退不得溫飽以全命，餓死溝渠，暴骨中原。徒見王師之出，不聞振旅之聲。[3]酋豪泣血，驚懼生變。是以安不能久，敗則經年。臣所以搏手叩心而增歎者也。願假臣兩營二郡，[4]屯列坐食之兵五千，出其不意，與護羌校尉趙沖共相首尾。土地山谷，臣所曉習；兵埶巧便，臣已更之。可不煩方寸之印，尺帛之賜，高可以滌患，下可以納降。若謂臣年少官輕，不足用者，凡諸敗將，非官爵之不高，年齒之不邁。[5]臣不勝至誠，沒死自陳。」時帝不能用。",
-      "annotations": [
-        {
-          "id": "hhs.65.p3.t1",
-          "type": "temporal",
-          "at": 83,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 139,
-          "era": "永和",
-          "era_year": 4
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p4",
@@ -91,19 +79,8 @@
           "resolution": "absolute",
           "year_ad": 161,
           "era": "延熹",
-          "era_year": 4
-        },
-        {
-          "id": "hhs.65.p8.t2",
-          "type": "temporal",
-          "at": 244,
-          "length": 2,
-          "text": "十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 167,
-          "era": "延熹",
-          "era_year": 10
+          "era_year": 4,
+          "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161"
         }
       ]
     },
@@ -119,7 +96,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 168
+          "year_ad": 162,
+          "era": "延熹",
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 延熹4年 (AD 161) 之次年 = AD 162"
         }
       ]
     },
@@ -145,7 +125,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 168
+          "year_ad": 162,
+          "era": "延熹",
+          "era_year": 5,
+          "reasoning": "「其年」 = 当前年 延熹5年 (AD 162)"
         }
       ]
     },
@@ -178,7 +161,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167"
         }
       ]
     },
@@ -196,7 +180,8 @@
           "resolution": "absolute",
           "year_ad": 174,
           "era": "熹平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「熹平三年」直接出现年号；解析為 AD 174"
         }
       ]
     },
@@ -229,7 +214,8 @@
           "resolution": "absolute",
           "year_ad": 155,
           "era": "永壽",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永壽元年」直接出现年号；解析為 AD 155（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -257,7 +243,8 @@
           "resolution": "absolute",
           "year_ad": 158,
           "era": "延熹",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熹元年」直接出现年号；解析為 AD 158（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -273,9 +260,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 159,
-          "era": "延熹",
-          "era_year": 2
+          "year_ad": 175,
+          "era": "熹平",
+          "era_year": 4,
+          "reasoning": "「明年」 = 当前年 熹平3年 (AD 174) 之次年 = AD 175"
         },
         {
           "id": "hhs.65.p25.t2",
@@ -285,11 +273,12 @@
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 159,
-          "era": "延熹",
-          "era_year": 2,
+          "year_ad": 175,
+          "era": "熹平",
+          "era_year": 4,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 熹平4年 (AD 175)，月份「二月」"
         },
         {
           "id": "hhs.65.p25.t3",
@@ -299,31 +288,19 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 159,
-          "era": "延熹",
-          "era_year": 2,
+          "year_ad": 175,
+          "era": "熹平",
+          "era_year": 4,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 熹平4年 (AD 175)，月份「五月」"
         }
       ]
     },
     {
       "id": "hhs.65.p26",
       "text": "九年春，徵拜大司農。鮮卑聞奐去，其夏，遂招結南匈奴、烏桓數道入塞，或五六千騎，或三四千騎，寇掠緣邊九郡，殺略百姓。秋，鮮卑復率八九千騎入塞，誘引東羌與共盟詛。於是上郡沈氐、安定先零諸種共寇武威、張掖，緣邊大被其毒。朝廷以為憂，復拜奐為護匈奴中郎將，以九卿秩督幽、并、涼三州及度遼、烏桓二營，[47]兼察刺史、二千石能否，賞賜甚厚。匈奴、烏桓聞奐至，因相率還降，凡二十萬口。奐但誅其首惡，餘皆慰納之。唯鮮卑出塞去。",
-      "annotations": [
-        {
-          "id": "hhs.65.p26.t1",
-          "type": "temporal",
-          "at": 0,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 166,
-          "era": "延熹",
-          "era_year": 9
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p27",
@@ -339,7 +316,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -357,7 +335,8 @@
           "resolution": "absolute",
           "year_ad": 168,
           "era": "建寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -373,9 +352,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
+          "year_ad": 176,
+          "era": "熹平",
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176"
         }
       ]
     },
@@ -396,11 +376,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2,
+          "year_ad": 176,
+          "era": "熹平",
+          "era_year": 5,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 熹平5年 (AD 176)，月份「三月」"
         }
       ]
     },
@@ -433,7 +414,8 @@
           "resolution": "absolute",
           "year_ad": 181,
           "era": "光和",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「光和四年」直接出现年号；解析為 AD 181"
         }
       ]
     },
@@ -476,7 +458,8 @@
           "resolution": "absolute",
           "year_ad": 156,
           "era": "永壽",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永壽二年」直接出现年号；解析為 AD 156（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -499,7 +482,8 @@
           "resolution": "absolute",
           "year_ad": 159,
           "era": "延熹",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -515,9 +499,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 160,
-          "era": "延熹",
-          "era_year": 3
+          "year_ad": 182,
+          "era": "光和",
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 光和4年 (AD 181) 之次年 = AD 182"
         }
       ]
     },
@@ -533,9 +518,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 161,
-          "era": "延熹",
-          "era_year": 4
+          "year_ad": 181,
+          "era": "光和",
+          "era_year": 4,
+          "reasoning": "承前文年號「光和」推得，「四年」 = 光和4年 = AD 181"
         }
       ]
     },
@@ -561,9 +547,10 @@
           "text": "六年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 163,
-          "era": "延熹",
-          "era_year": 6
+          "year_ad": 183,
+          "era": "光和",
+          "era_year": 6,
+          "reasoning": "承前文年號「光和」推得，「六年」 = 光和6年 = AD 183"
         },
         {
           "id": "hhs.65.p48.t2",
@@ -573,29 +560,17 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 164,
-          "era": "延熹",
-          "era_year": 7
+          "year_ad": 184,
+          "era": "光和",
+          "era_year": 7,
+          "reasoning": "「明年」 = 当前年 光和6年 (AD 183) 之次年 = AD 184"
         }
       ]
     },
     {
       "id": "hhs.65.p49",
       "text": "八年春，熲復擊勒姐種，斬首四百餘級，降者二千餘人。夏，進軍擊當煎種於湟中，熲兵敗，被圍三日，用隱士樊志張策，潛師夜出，鳴鼓還戰，大破之，首虜數千人。熲遂窮追，展轉山谷閒，自春及秋，無日不戰，虜遂饑困敗散，北略武威閒。",
-      "annotations": [
-        {
-          "id": "hhs.65.p49.t1",
-          "type": "temporal",
-          "at": 0,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 165,
-          "era": "延熹",
-          "era_year": 8
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p50",
@@ -621,7 +596,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -649,7 +625,8 @@
           "resolution": "absolute",
           "year_ad": 168,
           "era": "建寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -666,20 +643,7 @@
     {
       "id": "hhs.65.p58",
       "text": "時張奐上言：「東羌雖破，余種難盡，熲性輕果，慮負敗難常。宜且以恩降，可無後悔。」詔書下熲。熲復上言：「臣本知東羌雖觿，而剁弱易制，所以比陳愚慮，思為永寧之筭。而中郎將張奐，說虜強難破，宜用招降。聖朝明監，信納瞽言，故臣謀得行，奐計不用。事埶相反，遂懷猜恨。信叛羌之訴，飾潤辭意，雲臣兵累見折磨，[90]又言羌一氣所生，不可誅盡，[91]山谷廣大，不可空靜，血流污野，傷和致災。臣伏念周秦之際，戎狄為害，中興以來，羌寇最盛，誅之不盡，雖降復叛。今先零雜種，累以反覆，攻沒縣邑，剽略人物，發頤露屍，禍及生死，上天震怒，假手行誅。[92]昔邢為無道，衛國伐之，師興而雨。[93]臣動兵涉夏，連獲甘澍，歲時豐稔，人無疵疫。上佔天心，不為災傷；[94]下察人事，觿和師克。[95]自橋門以西，落川以東，故*(宮)**〔官〕*縣邑，更相通屬，非為深險絕域之地，車騎安行，無應折磨。案奐為漢吏，身當武職，駐軍二年，不能平寇，虛欲修文戢戈，招降獷敵，[96]誕辭空說，僭而無征。何以言之？昔先零作寇，趙充國徙令居內，[97]煎當亂邊，馬援遷之三輔，[98]始服終叛，至今為鯁。[99]故遠識之士，以為深憂。今傍郡戶口單少，數為羌所創毒，而欲令降徒與之雜居，是猶種枳棘於良田，養虺蛇於室內也。故臣奉大漢之威，建長久之策，欲絕其本根，不使能殖。[100]本規三歲之費，用五十四億，今適開年，所耗未半，而余寇殘燼，將向殄滅。[101]臣每奉詔書，軍不內御，[102]願卒斯言，一以任臣，臣時量宜，不失權便。」",
-      "annotations": [
-        {
-          "id": "hhs.65.p58.t1",
-          "type": "temporal",
-          "at": 397,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p59",
@@ -693,9 +657,10 @@
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
+          "year_ad": 179,
+          "era": "光和",
+          "era_year": 2,
+          "reasoning": "承前文年號「光和」推得，「二年」 = 光和2年 = AD 179"
         }
       ]
     },
@@ -721,9 +686,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 170,
-          "era": "建寧",
-          "era_year": 3
+          "year_ad": 180,
+          "era": "光和",
+          "era_year": 3,
+          "reasoning": "承前文年號「光和」推得，「三年」 = 光和3年 = AD 180"
         }
       ]
     },
@@ -744,9 +710,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 171,
-          "era": "建寧",
-          "era_year": 4
+          "year_ad": 181,
+          "era": "光和",
+          "era_year": 4,
+          "reasoning": "「明年」 = 当前年 光和3年 (AD 180) 之次年 = AD 181"
         }
       ]
     },
@@ -764,7 +731,8 @@
           "resolution": "absolute",
           "year_ad": 179,
           "era": "光和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「光和二年」直接出现年号；解析為 AD 179（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -844,7 +812,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "原文「建寧二年四月」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.65.p78.t2",
@@ -856,7 +825,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）"
         }
       ]
     },

@@ -140,6 +140,8 @@ def _strip_annotation_for_site(a: dict) -> dict:
             out["month_chinese"] = a["month_chinese"]
         if "month_ordinal" in a:
             out["month_ordinal"] = a["month_ordinal"]
+        if a.get("reasoning"):
+            out["reasoning"] = a["reasoning"]
     return out
 
 

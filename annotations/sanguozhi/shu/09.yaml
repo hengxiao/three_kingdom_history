@@ -64,6 +64,7 @@ annotations:
   year_ad: 219
   era: 建安
   era_year: 24
+  reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
 - id: shu.9.p5.a1
   anchor: shu.9.p5
   at: 67
@@ -81,6 +82,7 @@ annotations:
   year_ad: 222
   era: 章武
   era_year: 2
+  reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
 - id: shu.9.p5.a2
   anchor: shu.9.p5
   at: 139
@@ -110,6 +112,7 @@ annotations:
   year_ad: 228
   era: 建興
   era_year: 6
+  reasoning: 原文「建興六年」直接出现年号；解析為 AD 228
 - id: shu.9.p8.a2
   anchor: shu.9.p8
   at: 275
@@ -127,6 +130,7 @@ annotations:
   year_ad: 225
   era: 建興
   era_year: 3
+  reasoning: 原文「建興三年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）
 - id: shu.9.p9.t2
   anchor: shu.9.p9
   at: 81
@@ -138,6 +142,7 @@ annotations:
   year_ad: 229
   era: 建興
   era_year: 7
+  reasoning: 承前文年號「建興」推得，「七年」 = 建興7年 = AD 229
 - id: shu.9.p12.t1
   anchor: shu.9.p12
   at: 0
@@ -149,17 +154,7 @@ annotations:
   year_ad: 231
   era: 建興
   era_year: 9
-- id: shu.9.p12.t2
-  anchor: shu.9.p12
-  at: 90
-  length: 3
-  type: temporal
-  text: 十三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 235
-  era: 建興
-  era_year: 13
+  reasoning: 承前文年號「建興」推得，「九年」 = 建興9年 = AD 231
 - id: shu.9.p13.a1
   anchor: shu.9.p13
   at: 215
@@ -183,6 +178,7 @@ annotations:
   year_ad: 243
   era: 延熙
   era_year: 6
+  reasoning: 原文「延熙六年」直接出现年号；解析為 AD 243
 - id: shu.9.p14.t2
   anchor: shu.9.p14
   at: 135
@@ -194,6 +190,7 @@ annotations:
   year_ad: 244
   era: 延熙
   era_year: 7
+  reasoning: 承前文年號「延熙」推得，「七年」 = 延熙7年 = AD 244
 - id: shu.9.p14.t3
   anchor: shu.9.p14
   at: 155
@@ -205,6 +202,7 @@ annotations:
   year_ad: 246
   era: 延熙
   era_year: 9
+  reasoning: 承前文年號「延熙」推得，「九年」 = 延熙9年 = AD 246
 - id: shu.9.p14.a2
   anchor: shu.9.p14
   at: 160
@@ -222,6 +220,7 @@ annotations:
   year_ad: 258
   era: 景耀
   era_year: 1
+  reasoning: 原文「景耀元年」直接出现年号；解析為 AD 258
 - id: shu.9.p17.a1
   anchor: shu.9.p17
   at: 10
@@ -239,3 +238,4 @@ annotations:
   year_ad: 251
   era: 延熙
   era_year: 14
+  reasoning: 原文「延熙十四年」直接出现年号；解析為 AD 251（回溯前事，不推進章節時間軸）

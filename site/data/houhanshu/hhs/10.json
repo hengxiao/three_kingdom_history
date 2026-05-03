@@ -55,7 +55,8 @@
           "resolution": "absolute",
           "year_ad": 114,
           "era": "元初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114"
         },
         {
           "id": "hhs.10.p3.t2",
@@ -67,7 +68,8 @@
           "resolution": "bare_year",
           "year_ad": 115,
           "era": "元初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「元初」推得，「二年」 = 元初2年 = AD 115"
         },
         {
           "id": "hhs.10.p3.a1",
@@ -86,7 +88,8 @@
           "resolution": "bare_year",
           "year_ad": 116,
           "era": "元初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「元初」推得，「三年」 = 元初3年 = AD 116"
         },
         {
           "id": "hhs.10.p3.a2",
@@ -105,7 +108,8 @@
           "resolution": "bare_year",
           "year_ad": 117,
           "era": "元初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「元初」推得，「四年」 = 元初4年 = AD 117"
         }
       ]
     },
@@ -123,7 +127,8 @@
           "resolution": "absolute",
           "year_ad": 121,
           "era": "建光",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建光元年」直接出现年号；解析為 AD 121"
         },
         {
           "id": "hhs.10.p4.t2",
@@ -135,7 +140,8 @@
           "resolution": "absolute",
           "year_ad": 122,
           "era": "延光",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延光元年」直接出现年号；解析為 AD 122"
         },
         {
           "id": "hhs.10.p4.a1",
@@ -174,7 +180,8 @@
           "resolution": "bare_year",
           "year_ad": 125,
           "era": "延光",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「延光」推得，「四年」 = 延光4年 = AD 125"
         },
         {
           "id": "hhs.10.p5.a1",
@@ -238,7 +245,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 126
+          "year_ad": 126,
+          "reasoning": "「明年」 = 当前年 延光4年 (AD 125) 之次年 = AD 126（跨年號邊界，新年號未明）"
         }
       ]
     },
@@ -303,7 +311,8 @@
           "resolution": "absolute",
           "year_ad": 128,
           "era": "永建",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「永建三年」直接出现年号；解析為 AD 128"
         },
         {
           "id": "hhs.10.p10.a1",
@@ -342,7 +351,8 @@
           "resolution": "absolute",
           "year_ad": 132,
           "era": "陽嘉",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「陽嘉元年」直接出现年号；解析為 AD 132"
         },
         {
           "id": "hhs.10.p11.a1",
@@ -395,7 +405,8 @@
           "resolution": "absolute",
           "year_ad": 144,
           "era": "建康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建康元年」直接出现年号；解析為 AD 144"
         }
       ]
     },
@@ -426,7 +437,8 @@
           "resolution": "absolute",
           "year_ad": 150,
           "era": "和平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「和平元年」直接出现年号；解析為 AD 150"
         },
         {
           "id": "hhs.10.p14.a1",
@@ -469,7 +481,8 @@
           "resolution": "absolute",
           "year_ad": 175,
           "era": "熹平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「熹平四年」直接出现年号；解析為 AD 175"
         },
         {
           "id": "hhs.10.p17.a1",
@@ -536,7 +549,8 @@
           "resolution": "next_year",
           "year_ad": 176,
           "era": "熹平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176"
         },
         {
           "id": "hhs.10.p18.t2",
@@ -548,7 +562,8 @@
           "resolution": "absolute",
           "year_ad": 150,
           "era": "和平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「和平元年」直接出现年号；解析為 AD 150（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p18.a3",
@@ -567,7 +582,8 @@
           "resolution": "absolute",
           "year_ad": 152,
           "era": "元嘉",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「元嘉二年」直接出现年号；解析為 AD 152（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p18.a4",
@@ -639,7 +655,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 153
+          "year_ad": 177,
+          "era": "熹平",
+          "era_year": 6,
+          "reasoning": "「明年」 = 当前年 熹平5年 (AD 176) 之次年 = AD 177"
         },
         {
           "id": "hhs.10.p19.a3",
@@ -688,7 +707,8 @@
           "era": "建和",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "原文「建和元年六月」直接出现年号；解析為 AD 147（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p19.t3",
@@ -698,11 +718,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 147,
-          "era": "建和",
-          "era_year": 1,
+          "year_ad": 177,
+          "era": "熹平",
+          "era_year": 6,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 熹平6年 (AD 177)，月份「八月」"
         }
       ]
     },
@@ -720,7 +741,8 @@
           "resolution": "absolute",
           "year_ad": 160,
           "era": "延熹",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「延熹三年」直接出现年号；解析為 AD 160（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -743,9 +765,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 161,
-          "era": "延熹",
-          "era_year": 4
+          "year_ad": 178,
+          "era": "熹平",
+          "era_year": 7,
+          "reasoning": "「明年」 = 当前年 熹平6年 (AD 177) 之次年 = AD 178"
         },
         {
           "id": "hhs.10.p21.t2",
@@ -755,9 +778,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 161,
-          "era": "延熹",
-          "era_year": 4
+          "year_ad": 175,
+          "era": "熹平",
+          "era_year": 4,
+          "reasoning": "承前文年號「熹平」推得，「四年」 = 熹平4年 = AD 175"
         },
         {
           "id": "hhs.10.p21.a2",
@@ -773,35 +797,11 @@
       "text": "帝多內幸，博採宮女至五六千人，及駈役從使，復兼倍於此。而后恃尊驕忌，與帝所幸郭貴人更相譖訴。八年，詔廢后，送暴室，以憂死。立七年。葬於北邙。從父河南尹萬世及會皆下獄死。統等亦繫暴室，免官爵，歸本郡，財物沒入縣官。",
       "annotations": [
         {
-          "id": "hhs.10.p22.t1",
-          "type": "temporal",
-          "at": 46,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 165,
-          "era": "延熹",
-          "era_year": 8
-        },
-        {
           "id": "hhs.10.p22.a1",
           "type": "lixian",
           "at": 61,
           "length": 0,
           "text": "《漢官儀》曰：「暴室在掖庭內，丞一人，主宮中婦人疾病者。其皇后、貴人有罪，亦就此室也。」"
-        },
-        {
-          "id": "hhs.10.p22.t2",
-          "type": "temporal",
-          "at": 62,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 164,
-          "era": "延熹",
-          "era_year": 7
         }
       ]
     },
@@ -819,7 +819,8 @@
           "resolution": "absolute",
           "year_ad": 165,
           "era": "延熹",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p23.t2",
@@ -831,7 +832,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -856,7 +858,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "原文「建寧四年十月」直接出现年号；解析為 AD 171（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p25.a1",
@@ -882,19 +885,8 @@
           "resolution": "absolute",
           "year_ad": 172,
           "era": "熹平",
-          "era_year": 1
-        },
-        {
-          "id": "hhs.10.p25.t3",
-          "type": "temporal",
-          "at": 115,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 178,
-          "era": "熹平",
-          "era_year": 7
+          "era_year": 1,
+          "reasoning": "原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -919,7 +911,8 @@
           "resolution": "absolute",
           "year_ad": 168,
           "era": "建寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p26.t2",
@@ -929,9 +922,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
+          "year_ad": 176,
+          "era": "熹平",
+          "era_year": 5,
+          "reasoning": "「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176"
         },
         {
           "id": "hhs.10.p26.a2",
@@ -956,7 +950,8 @@
           "resolution": "absolute",
           "year_ad": 188,
           "era": "中平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「中平五年」直接出现年号；解析為 AD 188"
         },
         {
           "id": "hhs.10.p27.a1",
@@ -1009,7 +1004,8 @@
           "resolution": "absolute",
           "year_ad": 170,
           "era": "建寧",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建寧三年」直接出现年号；解析為 AD 170（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p28.t2",
@@ -1019,9 +1015,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 171,
-          "era": "建寧",
-          "era_year": 4
+          "year_ad": 189,
+          "era": "中平",
+          "era_year": 6,
+          "reasoning": "「明年」 = 当前年 中平5年 (AD 188) 之次年 = AD 189"
         },
         {
           "id": "hhs.10.p28.a1",
@@ -1060,7 +1057,8 @@
           "resolution": "absolute",
           "year_ad": 178,
           "era": "光和",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「光和元年」直接出现年号；解析為 AD 178（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p29.a3",
@@ -1139,7 +1137,8 @@
           "resolution": "absolute",
           "year_ad": 180,
           "era": "光和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p32.t2",
@@ -1149,9 +1148,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 181,
-          "era": "光和",
-          "era_year": 4
+          "year_ad": 190,
+          "reasoning": "「明年」 = 当前年 中平6年 (AD 189) 之次年 = AD 190（跨年號邊界，新年號未明）"
         },
         {
           "id": "hhs.10.p32.a1",
@@ -1159,18 +1157,6 @@
           "at": 47,
           "length": 0,
           "text": "《左傳》曰：「邑姜方娠。」杜預注曰：「懷胎爲娠。」音之刃反，一音身。"
-        },
-        {
-          "id": "hhs.10.p32.t3",
-          "type": "temporal",
-          "at": 71,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 181,
-          "era": "光和",
-          "era_year": 4
         }
       ]
     },
@@ -1201,7 +1187,8 @@
           "resolution": "absolute",
           "year_ad": 189,
           "era": "中平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「中平六年」直接出现年号；解析為 AD 189（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p34.a1",
@@ -1236,7 +1223,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 190
+          "year_ad": 191,
+          "reasoning": "「明年」 = 当前年 AD 190 之次年 = AD 191（跨年號邊界，新年號未明）"
         },
         {
           "id": "hhs.10.p36.a1",
@@ -1290,7 +1278,8 @@
           "era": "初平",
           "era_year": 1,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "原文「初平元年二月」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p38.a1",
@@ -1320,7 +1309,8 @@
           "resolution": "absolute",
           "year_ad": 194,
           "era": "興平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「興平元年」直接出现年号；解析為 AD 194"
         },
         {
           "id": "hhs.10.p40.a1",
@@ -1385,7 +1375,8 @@
           "resolution": "absolute",
           "year_ad": 190,
           "era": "初平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p43.t2",
@@ -1397,7 +1388,8 @@
           "resolution": "absolute",
           "year_ad": 195,
           "era": "興平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「興平二年」直接出现年号；解析為 AD 195"
         },
         {
           "id": "hhs.10.p43.a1",
@@ -1430,7 +1422,8 @@
           "resolution": "absolute",
           "year_ad": 196,
           "era": "建安",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196"
         },
         {
           "id": "hhs.10.p43.t4",
@@ -1442,7 +1435,8 @@
           "resolution": "bare_year",
           "year_ad": 209,
           "era": "建安",
-          "era_year": 14
+          "era_year": 14,
+          "reasoning": "承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209"
         }
       ]
     },
@@ -1463,18 +1457,6 @@
           "at": 162,
           "length": 0,
           "text": "《說文》曰：「𡜟，孕也。」音仁蔭反。"
-        },
-        {
-          "id": "hhs.10.p44.t1",
-          "type": "temporal",
-          "at": 201,
-          "length": 3,
-          "text": "十九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 214,
-          "era": "建安",
-          "era_year": 19
         },
         {
           "id": "hhs.10.p44.a3",
@@ -1510,18 +1492,6 @@
           "at": 355,
           "length": 0,
           "text": "《魏志》曰：「華歆字子魚，平原高唐人。代荀彧爲尚書令。慮字鴻預，山陽高平人。」"
-        },
-        {
-          "id": "hhs.10.p44.t2",
-          "type": "temporal",
-          "at": 461,
-          "length": 3,
-          "text": "二十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 215,
-          "era": "建安",
-          "era_year": 20
         }
       ]
     },
@@ -1546,7 +1516,8 @@
           "resolution": "absolute",
           "year_ad": 213,
           "era": "建安",
-          "era_year": 18
+          "era_year": 18,
+          "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213"
         },
         {
           "id": "hhs.10.p45.a2",
@@ -1565,7 +1536,8 @@
           "resolution": "bare_year",
           "year_ad": 214,
           "era": "建安",
-          "era_year": 19
+          "era_year": 19,
+          "reasoning": "承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214"
         },
         {
           "id": "hhs.10.p45.t3",
@@ -1577,7 +1549,8 @@
           "resolution": "next_year",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "「明年」 = 当前年 建安19年 (AD 214) 之次年 = AD 215"
         },
         {
           "id": "hhs.10.p45.a3",
@@ -1585,30 +1558,6 @@
           "at": 117,
           "length": 0,
           "text": "抵，擲也。軒，闌板也。"
-        },
-        {
-          "id": "hhs.10.p45.t4",
-          "type": "temporal",
-          "at": 142,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 202,
-          "era": "建安",
-          "era_year": 7
-        },
-        {
-          "id": "hhs.10.p45.t5",
-          "type": "temporal",
-          "at": 169,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 196,
-          "era": "建安",
-          "era_year": 1
         }
       ]
     },
@@ -1763,7 +1712,8 @@
           "resolution": "absolute",
           "year_ad": 39,
           "era": "建武",
-          "era_year": 15
+          "era_year": 15,
+          "reasoning": "原文「建武十五年」直接出现年号；解析為 AD 39（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p49.a1",
@@ -1779,18 +1729,6 @@
       "text": "皇女中禮，十五年封涅陽公主，適顯親侯大鴻臚竇固，肅宗尊爲長公主。",
       "annotations": [
         {
-          "id": "hhs.10.p50.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 3,
-          "text": "十五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 39,
-          "era": "建武",
-          "era_year": 15
-        },
-        {
           "id": "hhs.10.p50.a1",
           "type": "lixian",
           "at": 24,
@@ -1802,37 +1740,12 @@
     {
       "id": "hhs.10.p51",
       "text": "皇女紅夫，十五年封館陶公主，適駙馬都尉韓光。光坐與淮陽王延謀反誅。",
-      "annotations": [
-        {
-          "id": "hhs.10.p51.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 3,
-          "text": "十五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 39,
-          "era": "建武",
-          "era_year": 15
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.10.p52",
       "text": "皇女禮劉，十七年封淯陽公主，適陽安侯長樂少府郭璜。璜坐與竇憲謀反誅。",
       "annotations": [
-        {
-          "id": "hhs.10.p52.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 3,
-          "text": "十七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 41,
-          "era": "建武",
-          "era_year": 17
-        },
         {
           "id": "hhs.10.p52.a1",
           "type": "lixian",
@@ -1852,18 +1765,6 @@
           "at": 4,
           "length": 0,
           "text": "「綬」一作「緩」。"
-        },
-        {
-          "id": "hhs.10.p53.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 4,
-          "text": "二十一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 45,
-          "era": "建武",
-          "era_year": 21
         },
         {
           "id": "hhs.10.p53.a2",
@@ -1888,7 +1789,8 @@
           "resolution": "absolute",
           "year_ad": 59,
           "era": "永平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永平二年」直接出现年号；解析為 AD 59（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p54.a1",
@@ -1903,18 +1805,6 @@
       "id": "hhs.10.p55",
       "text": "皇女奴，三年封平陽公主，適大鴻臚馮順。",
       "annotations": [
-        {
-          "id": "hhs.10.p55.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 60,
-          "era": "永平",
-          "era_year": 3
-        },
         {
           "id": "hhs.10.p55.a1",
           "type": "lixian",
@@ -1943,18 +1833,6 @@
           "text": "「迎」或作「延」。"
         },
         {
-          "id": "hhs.10.p56.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 60,
-          "era": "永平",
-          "era_year": 3
-        },
-        {
           "id": "hhs.10.p56.a2",
           "type": "lixian",
           "at": 12,
@@ -1975,18 +1853,6 @@
       "text": "皇女次，二年封平氏公主。",
       "annotations": [
         {
-          "id": "hhs.10.p57.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 59,
-          "era": "永平",
-          "era_year": 2
-        },
-        {
           "id": "hhs.10.p57.a1",
           "type": "lixian",
           "at": 12,
@@ -1999,18 +1865,6 @@
       "id": "hhs.10.p58",
       "text": "皇女致，三年封沁水公主，適高密侯鄧乾。",
       "annotations": [
-        {
-          "id": "hhs.10.p58.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 60,
-          "era": "永平",
-          "era_year": 3
-        },
         {
           "id": "hhs.10.p58.a1",
           "type": "lixian",
@@ -2032,18 +1886,6 @@
       "text": "皇女小姬，十二年封平臯公主，適昌安侯侍中鄧蕃。",
       "annotations": [
         {
-          "id": "hhs.10.p59.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 3,
-          "text": "十二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 69,
-          "era": "永平",
-          "era_year": 12
-        },
-        {
           "id": "hhs.10.p59.a1",
           "type": "lixian",
           "at": 14,
@@ -2064,18 +1906,6 @@
       "text": "皇女仲，十七年封浚儀公主，適軮侯黃門侍郎王度。",
       "annotations": [
         {
-          "id": "hhs.10.p60.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 3,
-          "text": "十七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 74,
-          "era": "永平",
-          "era_year": 17
-        },
-        {
           "id": "hhs.10.p60.a1",
           "type": "lixian",
           "at": 23,
@@ -2088,18 +1918,6 @@
       "id": "hhs.10.p61",
       "text": "皇女惠，十七年封武安公主，適征羌侯世子黃門侍郎來棱，安帝尊爲長公主。",
       "annotations": [
-        {
-          "id": "hhs.10.p61.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 3,
-          "text": "十七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 74,
-          "era": "永平",
-          "era_year": 17
-        },
         {
           "id": "hhs.10.p61.a1",
           "type": "lixian",
@@ -2123,7 +1941,8 @@
           "resolution": "absolute",
           "year_ad": 76,
           "era": "建初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p62.a1",
@@ -2139,18 +1958,6 @@
       "text": "皇女小迎，元年封樂平公主。",
       "annotations": [
         {
-          "id": "hhs.10.p63.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 76,
-          "era": "建初",
-          "era_year": 1
-        },
-        {
           "id": "hhs.10.p63.a1",
           "type": "lixian",
           "at": 13,
@@ -2163,18 +1970,6 @@
       "id": "hhs.10.p64",
       "text": "皇女小民，元年封成安公主。",
       "annotations": [
-        {
-          "id": "hhs.10.p64.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 76,
-          "era": "建初",
-          "era_year": 1
-        },
         {
           "id": "hhs.10.p64.a1",
           "type": "lixian",
@@ -2203,7 +1998,8 @@
           "resolution": "absolute",
           "year_ad": 79,
           "era": "建初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「建初四年」直接出现年号；解析為 AD 79（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -2211,18 +2007,6 @@
       "id": "hhs.10.p67",
       "text": "皇女王，四年封平邑公主，適黃門侍郎馮由。",
       "annotations": [
-        {
-          "id": "hhs.10.p67.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 79,
-          "era": "建初",
-          "era_year": 4
-        },
         {
           "id": "hhs.10.p67.a1",
           "type": "lixian",
@@ -2246,7 +2030,8 @@
           "resolution": "absolute",
           "year_ad": 93,
           "era": "永元",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「永元五年」直接出现年号；解析為 AD 93（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p68.a1",
@@ -2271,7 +2056,8 @@
           "resolution": "absolute",
           "year_ad": 106,
           "era": "延平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延平元年」直接出现年号；解析為 AD 106（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p69.a1",
@@ -2287,18 +2073,6 @@
       "text": "皇女成，元年封共邑公主。",
       "annotations": [
         {
-          "id": "hhs.10.p70.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 106,
-          "era": "延平",
-          "era_year": 1
-        },
-        {
           "id": "hhs.10.p70.a1",
           "type": "lixian",
           "at": 12,
@@ -2311,18 +2085,6 @@
       "id": "hhs.10.p71",
       "text": "皇女利，元年封臨潁公主。適即墨侯侍中賈建。",
       "annotations": [
-        {
-          "id": "hhs.10.p71.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 106,
-          "era": "延平",
-          "era_year": 1
-        },
         {
           "id": "hhs.10.p71.a1",
           "type": "lixian",
@@ -2343,18 +2105,6 @@
       "id": "hhs.10.p72",
       "text": "皇女興，元年封聞喜公主。",
       "annotations": [
-        {
-          "id": "hhs.10.p72.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 106,
-          "era": "延平",
-          "era_year": 1
-        },
         {
           "id": "hhs.10.p72.a1",
           "type": "lixian",
@@ -2378,7 +2128,8 @@
           "resolution": "absolute",
           "year_ad": 138,
           "era": "永和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「永和三年」直接出现年号；解析為 AD 138（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -2386,18 +2137,6 @@
       "id": "hhs.10.p74",
       "text": "皇女成男，三年封冠軍長公主。",
       "annotations": [
-        {
-          "id": "hhs.10.p74.t1",
-          "type": "temporal",
-          "at": 5,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 138,
-          "era": "永和",
-          "era_year": 3
-        },
         {
           "id": "hhs.10.p74.a1",
           "type": "lixian",
@@ -2421,7 +2160,8 @@
           "resolution": "absolute",
           "year_ad": 141,
           "era": "永和",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「永和六年」直接出现年号；解析為 AD 141（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p75.a1",
@@ -2446,7 +2186,8 @@
           "resolution": "absolute",
           "year_ad": 158,
           "era": "延熹",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熹元年」直接出现年号；解析為 AD 158（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.10.p76.a1",
@@ -2462,18 +2203,6 @@
       "text": "皇女堅，七年封潁陰長公主。",
       "annotations": [
         {
-          "id": "hhs.10.p77.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 164,
-          "era": "延熹",
-          "era_year": 7
-        },
-        {
           "id": "hhs.10.p77.a1",
           "type": "lixian",
           "at": 13,
@@ -2485,20 +2214,7 @@
     {
       "id": "hhs.10.p78",
       "text": "皇女脩，九年封陽翟長公主。",
-      "annotations": [
-        {
-          "id": "hhs.10.p78.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 166,
-          "era": "延熹",
-          "era_year": 9
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.10.p79",
@@ -2514,7 +2230,8 @@
           "resolution": "absolute",
           "year_ad": 180,
           "era": "光和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）"
         }
       ]
     }

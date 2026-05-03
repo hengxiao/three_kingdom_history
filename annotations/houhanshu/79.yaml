@@ -16,6 +16,7 @@ annotations:
   year_ad: 29
   era: 建武
   era_year: 5
+  reasoning: 原文「建武五年」直接出现年号；解析為 AD 29
 - id: hhs.79.p2.t2
   anchor: hhs.79.p2
   at: 42
@@ -27,6 +28,7 @@ annotations:
   year_ad: 56
   era: 中元
   era_year: 1
+  reasoning: 原文「中元元年」直接出现年号；解析為 AD 56
 - id: hhs.79.p3.t1
   anchor: hhs.79.p3
   at: 289
@@ -38,6 +40,7 @@ annotations:
   year_ad: 146
   era: 本初
   era_year: 1
+  reasoning: 原文「本初元年」直接出现年号；解析為 AD 146
 - id: hhs.79.p3.t2
   anchor: hhs.79.p3
   at: 416
@@ -49,6 +52,7 @@ annotations:
   year_ad: 175
   era: 熹平
   era_year: 4
+  reasoning: 原文「熹平四年」直接出现年号；解析為 AD 175
 - id: hhs.79.p9.t1
   anchor: hhs.79.p9
   at: 0
@@ -60,51 +64,8 @@ annotations:
   year_ad: 29
   era: 建武
   era_year: 5
+  reasoning: 原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）
 - id: hhs.79.p10.t1
-  anchor: hhs.79.p10
-  at: 20
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 27
-  era: 建武
-  era_year: 3
-- id: hhs.79.p10.t2
-  anchor: hhs.79.p10
-  at: 41
-  length: 4
-  type: temporal
-  text: 二十二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 46
-  era: 建武
-  era_year: 22
-- id: hhs.79.p10.t3
-  anchor: hhs.79.p10
-  at: 146
-  length: 4
-  type: temporal
-  text: 二十七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 51
-  era: 建武
-  era_year: 27
-- id: hhs.79.p10.t4
-  anchor: hhs.79.p10
-  at: 156
-  length: 3
-  type: temporal
-  text: 三十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 54
-  era: 建武
-  era_year: 30
-- id: hhs.79.p10.t5
   anchor: hhs.79.p10
   at: 181
   length: 4
@@ -115,6 +76,7 @@ annotations:
   year_ad: 57
   era: 中元
   era_year: 2
+  reasoning: 原文「中元二年」直接出现年号；解析為 AD 57（回溯前事，不推進章節時間軸）
 - id: hhs.79.p14.t1
   anchor: hhs.79.p14
   at: 138
@@ -126,6 +88,7 @@ annotations:
   year_ad: 202
   era: 建安
   era_year: 7
+  reasoning: 原文「建安七年」直接出现年号；解析為 AD 202
 - id: hhs.79.p18.t1
   anchor: hhs.79.p18
   at: 71
@@ -137,6 +100,7 @@ annotations:
   year_ad: 205
   era: 建安
   era_year: 10
+  reasoning: 承前文年號「建安」推得，「十年」 = 建安10年 = AD 205
 - id: hhs.79.p18.t2
   anchor: hhs.79.p18
   at: 114
@@ -148,17 +112,7 @@ annotations:
   year_ad: 209
   era: 建安
   era_year: 14
-- id: hhs.79.p22.t1
-  anchor: hhs.79.p22
-  at: 66
-  length: 3
-  type: temporal
-  text: 十八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 213
-  era: 建安
-  era_year: 18
+  reasoning: 承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209
 - id: hhs.79.p27.t1
   anchor: hhs.79.p27
   at: 75
@@ -170,6 +124,7 @@ annotations:
   year_ad: 29
   era: 建武
   era_year: 5
+  reasoning: 原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）
 - id: hhs.79.p27.t2
   anchor: hhs.79.p27
   at: 85
@@ -178,9 +133,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 30
-  era: 建武
-  era_year: 6
+  year_ad: 210
+  era: 建安
+  era_year: 15
+  reasoning: 「明年」 = 当前年 建安14年 (AD 209) 之次年 = AD 210
 - id: hhs.79.p27.t3
   anchor: hhs.79.p27
   at: 109
@@ -189,9 +145,10 @@ annotations:
   text: 九年
   kind: relative
   resolution: bare_year
-  year_ad: 33
-  era: 建武
+  year_ad: 204
+  era: 建安
   era_year: 9
+  reasoning: 承前文年號「建安」推得，「九年」 = 建安9年 = AD 204
 - id: hhs.79.p33.t1
   anchor: hhs.79.p33
   at: 16
@@ -203,6 +160,7 @@ annotations:
   year_ad: 26
   era: 建武
   era_year: 2
+  reasoning: 原文「建武二年」直接出现年号；解析為 AD 26（回溯前事，不推進章節時間軸）
 - id: hhs.79.p38.t1
   anchor: hhs.79.p38
   at: 106
@@ -214,6 +172,7 @@ annotations:
   year_ad: 184
   era: 光和
   era_year: 7
+  reasoning: 原文「光和七年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
 - id: hhs.79.p40.t1
   anchor: hhs.79.p40
   at: 0
@@ -225,6 +184,7 @@ annotations:
   year_ad: 26
   era: 建武
   era_year: 2
+  reasoning: 原文「建武二年」直接出现年号；解析為 AD 26（回溯前事，不推進章節時間軸）
 - id: hhs.79.p43.t1
   anchor: hhs.79.p43
   at: 7
@@ -236,17 +196,7 @@ annotations:
   year_ad: 62
   era: 永平
   era_year: 5
-- id: hhs.79.p43.t2
-  anchor: hhs.79.p43
-  at: 68
-  length: 3
-  type: temporal
-  text: 十一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 68
-  era: 永平
-  era_year: 11
+  reasoning: 原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）
 - id: hhs.79.p51.t1
   anchor: hhs.79.p51
   at: 0
@@ -258,17 +208,7 @@ annotations:
   year_ad: 85
   era: 元和
   era_year: 2
-- id: hhs.79.p52.t1
-  anchor: hhs.79.p52
-  at: 60
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 86
-  era: 元和
-  era_year: 3
+  reasoning: 原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）
 - id: hhs.79.p54.t1
   anchor: hhs.79.p54
   at: 20
@@ -280,6 +220,7 @@ annotations:
   year_ad: 122
   era: 延光
   era_year: 1
+  reasoning: 原文「延光元年」直接出现年号；解析為 AD 122（回溯前事，不推進章節時間軸）
 - id: hhs.79.p54.t2
   anchor: hhs.79.p54
   at: 119
@@ -288,9 +229,10 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 124
-  era: 延光
+  year_ad: 198
+  era: 建安
   era_year: 3
+  reasoning: 承前文年號「建安」推得，「三年」 = 建安3年 = AD 198
 - id: hhs.79.p55.t1
   anchor: hhs.79.p55
   at: 39
@@ -302,6 +244,7 @@ annotations:
   year_ad: 37
   era: 建武
   era_year: 13
+  reasoning: 原文「建武十三年」直接出现年号；解析為 AD 37（回溯前事，不推進章節時間軸）
 - id: hhs.79.p55.t2
   anchor: hhs.79.p55
   at: 64
@@ -313,6 +256,7 @@ annotations:
   year_ad: 92
   era: 永元
   era_year: 4
+  reasoning: 原文「永元四年」直接出现年号；解析為 AD 92（回溯前事，不推進章節時間軸）
 - id: hhs.79.p57.t1
   anchor: hhs.79.p57
   at: 12
@@ -321,9 +265,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 92
-  era: 永元
-  era_year: 4
+  year_ad: 198
+  era: 建安
+  era_year: 3
+  reasoning: 「是歲」 = 当前年 建安3年 (AD 198)
 - id: hhs.79.p59.t1
   anchor: hhs.79.p59
   at: 0
@@ -335,6 +280,7 @@ annotations:
   year_ad: 133
   era: 陽嘉
   era_year: 2
+  reasoning: 原文「陽嘉二年」直接出现年号；解析為 AD 133（回溯前事，不推進章節時間軸）
 - id: hhs.79.p63.t1
   anchor: hhs.79.p63
   at: 71
@@ -346,6 +292,7 @@ annotations:
   year_ad: 35
   era: 建武
   era_year: 11
+  reasoning: 原文「建武十一年」直接出现年号；解析為 AD 35（回溯前事，不推進章節時間軸）
 - id: hhs.79.p63.t2
   anchor: hhs.79.p63
   at: 89
@@ -354,9 +301,10 @@ annotations:
   text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 37
-  era: 建武
+  year_ad: 208
+  era: 建安
   era_year: 13
+  reasoning: 承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208
 - id: hhs.79.p65.t1
   anchor: hhs.79.p65
   at: 42
@@ -368,6 +316,7 @@ annotations:
   year_ad: 62
   era: 永平
   era_year: 5
+  reasoning: 原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）
 - id: hhs.79.p66.t1
   anchor: hhs.79.p66
   at: 50
@@ -376,9 +325,10 @@ annotations:
   text: 八年
   kind: relative
   resolution: bare_year
-  year_ad: 65
-  era: 永平
+  year_ad: 203
+  era: 建安
   era_year: 8
+  reasoning: 承前文年號「建安」推得，「八年」 = 建安8年 = AD 203
 - id: hhs.79.p68.t1
   anchor: hhs.79.p68
   at: 94
@@ -387,9 +337,10 @@ annotations:
   text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 70
-  era: 永平
+  year_ad: 208
+  era: 建安
   era_year: 13
+  reasoning: 承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208
 - id: hhs.79.p68.t2
   anchor: hhs.79.p68
   at: 103
@@ -398,9 +349,10 @@ annotations:
   text: 十八年
   kind: relative
   resolution: bare_year
-  year_ad: 75
-  era: 永平
+  year_ad: 213
+  era: 建安
   era_year: 18
+  reasoning: 承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213
 - id: hhs.79.p68.t3
   anchor: hhs.79.p68
   at: 113
@@ -412,6 +364,7 @@ annotations:
   year_ad: 79
   era: 建初
   era_year: 4
+  reasoning: 原文「建初四年」直接出现年号；解析為 AD 79（回溯前事，不推進章節時間軸）
 - id: hhs.79.p69.t1
   anchor: hhs.79.p69
   at: 86
@@ -420,9 +373,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 80
-  era: 建初
-  era_year: 5
+  year_ad: 214
+  era: 建安
+  era_year: 19
+  reasoning: 「明年」 = 当前年 建安18年 (AD 213) 之次年 = AD 214
 - id: hhs.79.p71.t1
   anchor: hhs.79.p71
   at: 21
@@ -434,18 +388,8 @@ annotations:
   year_ad: 28
   era: 建武
   era_year: 4
+  reasoning: 原文「建武四年」直接出现年号；解析為 AD 28（回溯前事，不推進章節時間軸）
 - id: hhs.79.p71.t2
-  anchor: hhs.79.p71
-  at: 32
-  length: 3
-  type: temporal
-  text: 十三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 37
-  era: 建武
-  era_year: 13
-- id: hhs.79.p71.t3
   anchor: hhs.79.p71
   at: 87
   length: 4
@@ -456,7 +400,8 @@ annotations:
   year_ad: 59
   era: 永平
   era_year: 2
-- id: hhs.79.p71.t4
+  reasoning: 原文「永平二年」直接出现年号；解析為 AD 59（回溯前事，不推進章節時間軸）
+- id: hhs.79.p71.t3
   anchor: hhs.79.p71
   at: 99
   length: 2
@@ -464,21 +409,11 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 61
-  era: 永平
+  year_ad: 199
+  era: 建安
   era_year: 4
+  reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
 - id: hhs.79.p72.t1
-  anchor: hhs.79.p72
-  at: 25
-  length: 2
-  type: temporal
-  text: 九年
-  kind: relative
-  resolution: bare_year
-  year_ad: 66
-  era: 永平
-  era_year: 9
-- id: hhs.79.p72.t2
   anchor: hhs.79.p72
   at: 45
   length: 3
@@ -486,10 +421,11 @@ annotations:
   text: 十五年
   kind: relative
   resolution: bare_year
-  year_ad: 72
-  era: 永平
+  year_ad: 210
+  era: 建安
   era_year: 15
-- id: hhs.79.p72.t3
+  reasoning: 承前文年號「建安」推得，「十五年」 = 建安15年 = AD 210
+- id: hhs.79.p72.t2
   anchor: hhs.79.p72
   at: 61
   length: 4
@@ -500,7 +436,8 @@ annotations:
   year_ad: 77
   era: 建初
   era_year: 2
-- id: hhs.79.p72.t4
+  reasoning: 原文「建初二年」直接出现年号；解析為 AD 77（回溯前事，不推進章節時間軸）
+- id: hhs.79.p72.t3
   anchor: hhs.79.p72
   at: 83
   length: 4
@@ -511,6 +448,7 @@ annotations:
   year_ad: 84
   era: 元和
   era_year: 1
+  reasoning: 原文「元和元年」直接出现年号；解析為 AD 84（回溯前事，不推進章節時間軸）
 - id: hhs.79.p79.t1
   anchor: hhs.79.p79
   at: 43
@@ -522,6 +460,7 @@ annotations:
   year_ad: 76
   era: 建初
   era_year: 1
+  reasoning: 原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）
 - id: hhs.79.p79.t2
   anchor: hhs.79.p79
   at: 94
@@ -533,6 +472,7 @@ annotations:
   year_ad: 85
   era: 元和
   era_year: 2
+  reasoning: 原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）
 - id: hhs.79.p79.t3
   anchor: hhs.79.p79
   at: 105
@@ -544,6 +484,31 @@ annotations:
   year_ad: 88
   era: 章和
   era_year: 2
+  reasoning: 原文「章和二年」直接出现年号；解析為 AD 88（回溯前事，不推進章節時間軸）
+- id: hhs.79.p95.t1
+  anchor: hhs.79.p95
+  at: 61
+  length: 3
+  type: temporal
+  text: 十一年
+  kind: relative
+  resolution: bare_year
+  year_ad: 206
+  era: 建安
+  era_year: 11
+  reasoning: 承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206
+- id: hhs.79.p95.t2
+  anchor: hhs.79.p95
+  at: 113
+  length: 3
+  type: temporal
+  text: 二十年
+  kind: relative
+  resolution: bare_year
+  year_ad: 215
+  era: 建安
+  era_year: 20
+  reasoning: 承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215
 - id: hhs.79.p96.t1
   anchor: hhs.79.p96
   at: 60
@@ -555,6 +520,7 @@ annotations:
   year_ad: 56
   era: 中元
   era_year: 1
+  reasoning: 原文「中元元年」直接出现年号；解析為 AD 56（回溯前事，不推進章節時間軸）
 - id: hhs.79.p96.t2
   anchor: hhs.79.p96
   at: 86
@@ -566,6 +532,7 @@ annotations:
   year_ad: 62
   era: 永平
   era_year: 5
+  reasoning: 原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）
 - id: hhs.79.p96.t3
   anchor: hhs.79.p96
   at: 97
@@ -574,9 +541,10 @@ annotations:
   text: 十年
   kind: relative
   resolution: bare_year
-  year_ad: 67
-  era: 永平
+  year_ad: 205
+  era: 建安
   era_year: 10
+  reasoning: 承前文年號「建安」推得，「十年」 = 建安10年 = AD 205
 - id: hhs.79.p99.t1
   anchor: hhs.79.p99
   at: 119
@@ -588,6 +556,7 @@ annotations:
   year_ad: 68
   era: 永平
   era_year: 11
+  reasoning: 原文「永平十一年」直接出现年号；解析為 AD 68（回溯前事，不推進章節時間軸）
 - id: hhs.79.p100.t1
   anchor: hhs.79.p100
   at: 19
@@ -596,9 +565,10 @@ annotations:
   text: 十八年
   kind: relative
   resolution: bare_year
-  year_ad: 75
-  era: 永平
+  year_ad: 213
+  era: 建安
   era_year: 18
+  reasoning: 承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213
 - id: hhs.79.p101.t1
   anchor: hhs.79.p101
   at: 0
@@ -607,20 +577,10 @@ annotations:
   text: 十二年
   kind: relative
   resolution: bare_year
-  year_ad: 69
-  era: 永平
+  year_ad: 207
+  era: 建安
   era_year: 12
-- id: hhs.79.p101.t2
-  anchor: hhs.79.p101
-  at: 126
-  length: 3
-  type: temporal
-  text: 十八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 75
-  era: 永平
-  era_year: 18
+  reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
 - id: hhs.79.p105.t1
   anchor: hhs.79.p105
   at: 83
@@ -629,9 +589,10 @@ annotations:
   text: 十六年
   kind: relative
   resolution: bare_year
-  year_ad: 73
-  era: 永平
+  year_ad: 211
+  era: 建安
   era_year: 16
+  reasoning: 承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211
 - id: hhs.79.p105.t2
   anchor: hhs.79.p105
   at: 92
@@ -640,9 +601,10 @@ annotations:
   text: 十八年
   kind: relative
   resolution: bare_year
-  year_ad: 75
-  era: 永平
+  year_ad: 213
+  era: 建安
   era_year: 18
+  reasoning: 承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213
 - id: hhs.79.p105.t3
   anchor: hhs.79.p105
   at: 103
@@ -654,6 +616,7 @@ annotations:
   year_ad: 80
   era: 建初
   era_year: 5
+  reasoning: 原文「建初五年」直接出现年号；解析為 AD 80（回溯前事，不推進章節時間軸）
 - id: hhs.79.p105.t4
   anchor: hhs.79.p105
   at: 147
@@ -665,6 +628,7 @@ annotations:
   year_ad: 100
   era: 永元
   era_year: 12
+  reasoning: 原文「永元十二年」直接出现年号；解析為 AD 100（回溯前事，不推進章節時間軸）
 - id: hhs.79.p106.t1
   anchor: hhs.79.p106
   at: 72
@@ -676,6 +640,7 @@ annotations:
   year_ad: 78
   era: 建初
   era_year: 3
+  reasoning: 原文「建初三年」直接出现年号；解析為 AD 78（回溯前事，不推進章節時間軸）
 - id: hhs.79.p112.t1
   anchor: hhs.79.p112
   at: 0
@@ -687,6 +652,7 @@ annotations:
   year_ad: 76
   era: 建初
   era_year: 1
+  reasoning: 原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）
 - id: hhs.79.p112.t2
   anchor: hhs.79.p112
   at: 23
@@ -695,20 +661,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 79
-  era: 建初
+  year_ad: 199
+  era: 建安
   era_year: 4
-- id: hhs.79.p115.t1
-  anchor: hhs.79.p115
-  at: 39
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 82
-  era: 建初
-  era_year: 7
+  reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
 - id: hhs.79.p116.t1
   anchor: hhs.79.p116
   at: 51
@@ -720,14 +676,4 @@ annotations:
   year_ad: 182
   era: 光和
   era_year: 5
-- id: hhs.79.p121.t1
-  anchor: hhs.79.p121
-  at: 84
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 180
-  era: 光和
-  era_year: 3
+  reasoning: 原文「光和五年」直接出现年号；解析為 AD 182（回溯前事，不推進章節時間軸）

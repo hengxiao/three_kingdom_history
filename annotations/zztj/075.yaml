@@ -16,6 +16,7 @@ annotations:
   year_ad: 246
   era: 正始
   era_year: 7
+  reasoning: 原文「正始七年」直接出现年号；解析為 AD 246
 - id: zztj.75.p5.t1
   anchor: zztj.75.p5
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 7
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 正始7年 (AD 246)，月份「二月」
 - id: zztj.75.p7.t1
   anchor: zztj.75.p7
   at: 2
@@ -42,6 +44,7 @@ annotations:
   era_year: 7
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 正始7年 (AD 246)，月份「九月」
 - id: zztj.75.p14.t1
   anchor: zztj.75.p14
   at: 5
@@ -53,6 +56,7 @@ annotations:
   year_ad: 247
   era: 正始
   era_year: 8
+  reasoning: 原文「正始八年」直接出现年号；解析為 AD 247
 - id: zztj.75.p15.t1
   anchor: zztj.75.p15
   at: 2
@@ -66,6 +70,7 @@ annotations:
   era_year: 8
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 正始8年 (AD 247)，月份「正月」
 - id: zztj.75.p16.t1
   anchor: zztj.75.p16
   at: 0
@@ -79,6 +84,7 @@ annotations:
   era_year: 8
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 正始8年 (AD 247)，月份「二月」
 - id: zztj.75.p18.t1
   anchor: zztj.75.p18
   at: 98
@@ -92,6 +98,7 @@ annotations:
   era_year: 8
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 正始8年 (AD 247)，月份「三月」
 - id: zztj.75.p19.t1
   anchor: zztj.75.p19
   at: 51
@@ -105,6 +112,7 @@ annotations:
   era_year: 8
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 正始8年 (AD 247)，月份「五月」
 - id: zztj.75.p21.t1
   anchor: zztj.75.p21
   at: 14
@@ -118,6 +126,7 @@ annotations:
   era_year: 8
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 正始8年 (AD 247)，月份「七月」
 - id: zztj.75.p21.t2
   anchor: zztj.75.p21
   at: 62
@@ -131,6 +140,7 @@ annotations:
   era_year: 8
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 正始8年 (AD 247)，月份「十二月」
 - id: zztj.75.p23.t1
   anchor: zztj.75.p23
   at: 0
@@ -142,6 +152,7 @@ annotations:
   year_ad: 247
   era: 正始
   era_year: 8
+  reasoning: 「是歲」 = 当前年 正始8年 (AD 247)
 - id: zztj.75.p24.t1
   anchor: zztj.75.p24
   at: 5
@@ -153,6 +164,7 @@ annotations:
   year_ad: 248
   era: 正始
   era_year: 9
+  reasoning: 原文「正始九年」直接出现年号；解析為 AD 248
 - id: zztj.75.p25.t1
   anchor: zztj.75.p25
   at: 2
@@ -166,6 +178,7 @@ annotations:
   era_year: 9
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 正始9年 (AD 248)，月份「二月」
 - id: zztj.75.p25.t2
   anchor: zztj.75.p25
   at: 20
@@ -179,6 +192,7 @@ annotations:
   era_year: 9
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 正始9年 (AD 248)，月份「三月」
 - id: zztj.75.p26.t1
   anchor: zztj.75.p26
   at: 2
@@ -192,6 +206,7 @@ annotations:
   era_year: 9
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 正始9年 (AD 248)，月份「四月」
 - id: zztj.75.p27.t1
   anchor: zztj.75.p27
   at: 0
@@ -205,6 +220,7 @@ annotations:
   era_year: 9
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 正始9年 (AD 248)，月份「五月」
 - id: zztj.75.p28.t1
   anchor: zztj.75.p28
   at: 2
@@ -218,17 +234,7 @@ annotations:
   era_year: 9
   month_chinese: 九月
   month_ordinal: 9
-- id: zztj.75.p31.t1
-  anchor: zztj.75.p31
-  at: 10
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 247
-  era: 正始
-  era_year: 8
+  reasoning: 年承前文 正始9年 (AD 248)，月份「九月」
 - id: zztj.75.p33.t1
   anchor: zztj.75.p33
   at: 17
@@ -237,11 +243,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 247
+  year_ad: 248
   era: 正始
-  era_year: 8
+  era_year: 9
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 正始9年 (AD 248)，月份「十二月」
 - id: zztj.75.p36.t1
   anchor: zztj.75.p36
   at: 5
@@ -253,6 +260,7 @@ annotations:
   year_ad: 249
   era: 嘉平
   era_year: 1
+  reasoning: 原文「嘉平元年」直接出现年号；解析為 AD 249
 - id: zztj.75.p37.t1
   anchor: zztj.75.p37
   at: 2
@@ -266,6 +274,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「正月」
 - id: zztj.75.p42.t1
   anchor: zztj.75.p42
   at: 71
@@ -279,6 +288,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「三月」
 - id: zztj.75.p54.t1
   anchor: zztj.75.p54
   at: 0
@@ -292,6 +302,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「三月」
 - id: zztj.75.p55.t1
   anchor: zztj.75.p55
   at: 2
@@ -305,6 +316,7 @@ annotations:
   era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「四月」
 - id: zztj.75.p57.t1
   anchor: zztj.75.p57
   at: 493
@@ -318,6 +330,7 @@ annotations:
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「九月」
 - id: zztj.75.p58.t1
   anchor: zztj.75.p58
   at: 2
@@ -331,6 +344,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「十一月」
 - id: zztj.75.p59.t1
   anchor: zztj.75.p59
   at: 0
@@ -344,6 +358,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「十二月」
 - id: zztj.75.p61.t1
   anchor: zztj.75.p61
   at: 5
@@ -355,6 +370,7 @@ annotations:
   year_ad: 250
   era: 嘉平
   era_year: 2
+  reasoning: 原文「嘉平二年」直接出现年号；解析為 AD 250
 - id: zztj.75.p62.t1
   anchor: zztj.75.p62
   at: 2
@@ -368,6 +384,7 @@ annotations:
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 嘉平2年 (AD 250)，月份「五月」
 - id: zztj.75.p65.t1
   anchor: zztj.75.p65
   at: 2
@@ -381,6 +398,7 @@ annotations:
   era_year: 2
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 嘉平2年 (AD 250)，月份「十月」
 - id: zztj.75.p66.t1
   anchor: zztj.75.p66
   at: 0
@@ -394,6 +412,7 @@ annotations:
   era_year: 2
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 嘉平2年 (AD 250)，月份「十一月」
 - id: zztj.75.p69.t1
   anchor: zztj.75.p69
   at: 0
@@ -407,6 +426,7 @@ annotations:
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 嘉平2年 (AD 250)，月份「十二月」
 - id: zztj.75.p72.t1
   anchor: zztj.75.p72
   at: 5
@@ -418,6 +438,7 @@ annotations:
   year_ad: 251
   era: 嘉平
   era_year: 3
+  reasoning: 原文「嘉平三年」直接出现年号；解析為 AD 251
 - id: zztj.75.p73.t1
   anchor: zztj.75.p73
   at: 2
@@ -431,6 +452,7 @@ annotations:
   era_year: 3
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「正月」
 - id: zztj.75.p74.t1
   anchor: zztj.75.p74
   at: 0
@@ -444,6 +466,7 @@ annotations:
   era_year: 3
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「三月」
 - id: zztj.75.p75.t1
   anchor: zztj.75.p75
   at: 2
@@ -457,6 +480,7 @@ annotations:
   era_year: 3
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「四月」
 - id: zztj.75.p77.t1
   anchor: zztj.75.p77
   at: 144
@@ -470,6 +494,7 @@ annotations:
   era_year: 3
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「五月」
 - id: zztj.75.p83.t1
   anchor: zztj.75.p83
   at: 0
@@ -483,6 +508,7 @@ annotations:
   era_year: 3
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「六月」
 - id: zztj.75.p84.t1
   anchor: zztj.75.p84
   at: 2
@@ -496,6 +522,7 @@ annotations:
   era_year: 3
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「七月」
 - id: zztj.75.p86.t1
   anchor: zztj.75.p86
   at: 0
@@ -509,6 +536,7 @@ annotations:
   era_year: 3
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「八月」
 - id: zztj.75.p89.t1
   anchor: zztj.75.p89
   at: 16
@@ -522,6 +550,7 @@ annotations:
   era_year: 3
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「十一月」
 - id: zztj.75.p92.t1
   anchor: zztj.75.p92
   at: 0
@@ -535,6 +564,7 @@ annotations:
   era_year: 3
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 嘉平3年 (AD 251)，月份「十二月」
 - id: zztj.75.p94.t1
   anchor: zztj.75.p94
   at: 0
@@ -546,6 +576,7 @@ annotations:
   year_ad: 251
   era: 嘉平
   era_year: 3
+  reasoning: 「是歲」 = 当前年 嘉平3年 (AD 251)
 - id: zztj.75.p95.t1
   anchor: zztj.75.p95
   at: 5
@@ -557,6 +588,7 @@ annotations:
   year_ad: 252
   era: 嘉平
   era_year: 4
+  reasoning: 原文「嘉平四年」直接出现年号；解析為 AD 252
 - id: zztj.75.p96.t1
   anchor: zztj.75.p96
   at: 2
@@ -570,6 +602,7 @@ annotations:
   era_year: 4
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「正月」
 - id: zztj.75.p98.t1
   anchor: zztj.75.p98
   at: 0
@@ -583,6 +616,7 @@ annotations:
   era_year: 4
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「二月」
 - id: zztj.75.p101.t1
   anchor: zztj.75.p101
   at: 36
@@ -596,6 +630,7 @@ annotations:
   era_year: 4
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「四月」
 - id: zztj.75.p103.t1
   anchor: zztj.75.p103
   at: 35
@@ -609,6 +644,7 @@ annotations:
   era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「十月」
 - id: zztj.75.p105.t1
   anchor: zztj.75.p105
   at: 0
@@ -622,6 +658,7 @@ annotations:
   era_year: 4
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「十一月」
 - id: zztj.75.p105.t2
   anchor: zztj.75.p105
   at: 13
@@ -635,3 +672,4 @@ annotations:
   era_year: 4
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 嘉平4年 (AD 252)，月份「十二月」

@@ -16,17 +16,7 @@ annotations:
   year_ad: 107
   era: 永初
   era_year: 1
-- id: hhs.57.p6.t1
-  anchor: hhs.57.p6
-  at: 163
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 113
-  era: 永初
-  era_year: 7
+  reasoning: 原文「永初元年」直接出现年号；解析為 AD 107
 - id: hhs.57.p52.t1
   anchor: hhs.57.p52
   at: 217
@@ -35,7 +25,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 114
+  year_ad: 108
+  era: 永初
+  era_year: 2
+  reasoning: 「明年」 = 当前年 永初元年 (AD 107) 之次年 = AD 108
 - id: hhs.57.p60.t1
   anchor: hhs.57.p60
   at: 28
@@ -47,6 +40,7 @@ annotations:
   year_ad: 182
   era: 光和
   era_year: 5
+  reasoning: 原文「光和五年」直接出现年号；解析為 AD 182
 - id: hhs.57.p62.t1
   anchor: hhs.57.p62
   at: 2
@@ -58,6 +52,7 @@ annotations:
   year_ad: 159
   era: 延熹
   era_year: 2
+  reasoning: 原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）
 - id: hhs.57.p72.a1
   anchor: hhs.57.p72
   at: 9
@@ -75,6 +70,7 @@ annotations:
   year_ad: 165
   era: 延熹
   era_year: 8
+  reasoning: 原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）
 - id: hhs.57.p93.t1
   anchor: hhs.57.p93
   at: 33
@@ -83,28 +79,18 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 165
-  era: 延熹
-  era_year: 8
+  year_ad: 182
+  era: 光和
+  era_year: 5
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 光和5年 (AD 182)，月份「五月」
 - id: hhs.57.p101.a1
   anchor: hhs.57.p101
   at: 51
   length: 0
   type: lixian
   text: 武傳
-- id: hhs.57.p103.t1
-  anchor: hhs.57.p103
-  at: 17
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 165
-  era: 延熹
-  era_year: 8
 - id: hhs.57.p106.t1
   anchor: hhs.57.p106
   at: 31
@@ -116,6 +102,7 @@ annotations:
   year_ad: 169
   era: 建寧
   era_year: 2
+  reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
 - id: hhs.57.p115.a1
   anchor: hhs.57.p115
   at: 52
@@ -133,6 +120,7 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
+  reasoning: 原文「初平二年」直接出现年号；解析為 AD 191
 - id: hhs.57.p126.t1
   anchor: hhs.57.p126
   at: 33
@@ -146,6 +134,7 @@ annotations:
   era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 原文「永初二年十二月」直接出现年号；解析為 AD 108（回溯前事，不推進章節時間軸）
 - id: hhs.57.p156.t1
   anchor: hhs.57.p156
   at: 7
@@ -157,29 +146,8 @@ annotations:
   year_ad: 169
   era: 建寧
   era_year: 2
+  reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
 - id: hhs.57.p156.t2
-  anchor: hhs.57.p156
-  at: 20
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 169
-  era: 建寧
-  era_year: 2
-- id: hhs.57.p156.t3
-  anchor: hhs.57.p156
-  at: 25
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 170
-  era: 建寧
-  era_year: 3
-- id: hhs.57.p156.t4
   anchor: hhs.57.p156
   at: 41
   length: 6
@@ -192,61 +160,7 @@ annotations:
   era_year: 1
   month_chinese: 五月
   month_ordinal: 5
-- id: hhs.57.p156.t5
-  anchor: hhs.57.p156
-  at: 63
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 169
-  era: 建寧
-  era_year: 2
-- id: hhs.57.p156.t6
-  anchor: hhs.57.p156
-  at: 69
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 168
-  era: 建寧
-  era_year: 1
-- id: hhs.57.p156.t7
-  anchor: hhs.57.p156
-  at: 91
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 168
-  era: 建寧
-  era_year: 1
-- id: hhs.57.p156.t8
-  anchor: hhs.57.p156
-  at: 118
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 168
-  era: 建寧
-  era_year: 1
-- id: hhs.57.p156.t9
-  anchor: hhs.57.p156
-  at: 131
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 170
-  era: 建寧
-  era_year: 3
+  reasoning: 原文「建寧元年五月」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）
 - id: hhs.57.p158.t1
   anchor: hhs.57.p158
   at: 31
@@ -260,3 +174,4 @@ annotations:
   era_year: 2
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 原文「建寧二年四月」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）

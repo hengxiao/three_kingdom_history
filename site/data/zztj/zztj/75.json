@@ -45,7 +45,8 @@
           "resolution": "absolute",
           "year_ad": 246,
           "era": "正始",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「正始七年」直接出现年号；解析為 AD 246"
         }
       ]
     },
@@ -65,7 +66,8 @@
           "era": "正始",
           "era_year": 7,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 正始7年 (AD 246)，月份「二月」"
         }
       ]
     },
@@ -90,7 +92,8 @@
           "era": "正始",
           "era_year": 7,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 正始7年 (AD 246)，月份「九月」"
         }
       ]
     },
@@ -138,7 +141,8 @@
           "resolution": "absolute",
           "year_ad": 247,
           "era": "正始",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "原文「正始八年」直接出现年号；解析為 AD 247"
         }
       ]
     },
@@ -158,7 +162,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「正月」"
         }
       ]
     },
@@ -178,7 +183,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「二月」"
         }
       ]
     },
@@ -203,7 +209,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「三月」"
         }
       ]
     },
@@ -223,7 +230,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「五月」"
         }
       ]
     },
@@ -248,7 +256,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「七月」"
         },
         {
           "id": "zztj.75.p21.t2",
@@ -262,7 +271,8 @@
           "era": "正始",
           "era_year": 8,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 正始8年 (AD 247)，月份「十二月」"
         }
       ]
     },
@@ -285,7 +295,8 @@
           "resolution": "this_year",
           "year_ad": 247,
           "era": "正始",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "「是歲」 = 当前年 正始8年 (AD 247)"
         }
       ]
     },
@@ -303,7 +314,8 @@
           "resolution": "absolute",
           "year_ad": 248,
           "era": "正始",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「正始九年」直接出现年号；解析為 AD 248"
         }
       ]
     },
@@ -323,7 +335,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「二月」"
         },
         {
           "id": "zztj.75.p25.t2",
@@ -337,7 +350,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「三月」"
         }
       ]
     },
@@ -357,7 +371,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「四月」"
         }
       ]
     },
@@ -377,7 +392,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「五月」"
         }
       ]
     },
@@ -397,7 +413,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「九月」"
         }
       ]
     },
@@ -414,20 +431,7 @@
     {
       "id": "zztj.75.p31",
       "text": "初，清河、平原爭界，八年不能決。冀州刺史孫禮請天府所藏烈祖封平原時圖以決之。爽信清河之訴，雲圖不可用，禮上疏自辨，辭頗剛切。爽大怒，劾禮怨望，結刑五歲。久之，復為并州刺史，往見太傅懿，有忿色而無言。懿曰：「卿得并州少邪？恚理分界失分乎？」禮曰：「何明公言之乖也！禮雖不德，豈以官位往事為意邪！本謂明公齊蹤伊、呂，匡輔魏室，上報明帝之托，下建萬世之勳。今社稷將危，天下凶凶，此禮之所以不悅也！」因涕泣橫流。懿曰：「且止，忍不可忍！」",
-      "annotations": [
-        {
-          "id": "zztj.75.p31.t1",
-          "type": "temporal",
-          "at": 10,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 247,
-          "era": "正始",
-          "era_year": 8
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.75.p32",
@@ -446,11 +450,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 247,
+          "year_ad": 248,
           "era": "正始",
-          "era_year": 8,
+          "era_year": 9,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「十二月」"
         }
       ]
     },
@@ -478,7 +483,8 @@
           "resolution": "absolute",
           "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「嘉平元年」直接出现年号；解析為 AD 249"
         }
       ]
     },
@@ -498,7 +504,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「正月」"
         }
       ]
     },
@@ -538,7 +545,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「三月」"
         }
       ]
     },
@@ -613,7 +621,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「三月」"
         }
       ]
     },
@@ -633,7 +642,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「四月」"
         }
       ]
     },
@@ -658,7 +668,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「九月」"
         }
       ]
     },
@@ -678,7 +689,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「十一月」"
         }
       ]
     },
@@ -698,7 +710,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「十二月」"
         }
       ]
     },
@@ -721,7 +734,8 @@
           "resolution": "absolute",
           "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「嘉平二年」直接出现年号；解析為 AD 250"
         }
       ]
     },
@@ -741,7 +755,8 @@
           "era": "嘉平",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 嘉平2年 (AD 250)，月份「五月」"
         }
       ]
     },
@@ -771,7 +786,8 @@
           "era": "嘉平",
           "era_year": 2,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 嘉平2年 (AD 250)，月份「十月」"
         }
       ]
     },
@@ -791,7 +807,8 @@
           "era": "嘉平",
           "era_year": 2,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 嘉平2年 (AD 250)，月份「十一月」"
         }
       ]
     },
@@ -821,7 +838,8 @@
           "era": "嘉平",
           "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 嘉平2年 (AD 250)，月份「十二月」"
         }
       ]
     },
@@ -849,7 +867,8 @@
           "resolution": "absolute",
           "year_ad": 251,
           "era": "嘉平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「嘉平三年」直接出现年号；解析為 AD 251"
         }
       ]
     },
@@ -869,7 +888,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「正月」"
         }
       ]
     },
@@ -889,7 +909,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「三月」"
         }
       ]
     },
@@ -909,7 +930,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「四月」"
         }
       ]
     },
@@ -934,7 +956,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「五月」"
         }
       ]
     },
@@ -979,7 +1002,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「六月」"
         }
       ]
     },
@@ -999,7 +1023,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「七月」"
         }
       ]
     },
@@ -1024,7 +1049,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「八月」"
         }
       ]
     },
@@ -1054,7 +1080,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「十一月」"
         }
       ]
     },
@@ -1084,7 +1111,8 @@
           "era": "嘉平",
           "era_year": 3,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 嘉平3年 (AD 251)，月份「十二月」"
         }
       ]
     },
@@ -1107,7 +1135,8 @@
           "resolution": "this_year",
           "year_ad": 251,
           "era": "嘉平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 嘉平3年 (AD 251)"
         }
       ]
     },
@@ -1125,7 +1154,8 @@
           "resolution": "absolute",
           "year_ad": 252,
           "era": "嘉平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「嘉平四年」直接出现年号；解析為 AD 252"
         }
       ]
     },
@@ -1145,7 +1175,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「正月」"
         }
       ]
     },
@@ -1170,7 +1201,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「二月」"
         }
       ]
     },
@@ -1200,7 +1232,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「四月」"
         }
       ]
     },
@@ -1225,7 +1258,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「十月」"
         }
       ]
     },
@@ -1250,7 +1284,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「十一月」"
         },
         {
           "id": "zztj.75.p105.t2",
@@ -1264,7 +1299,8 @@
           "era": "嘉平",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 嘉平4年 (AD 252)，月份「十二月」"
         }
       ]
     },

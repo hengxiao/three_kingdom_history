@@ -45,7 +45,8 @@
           "resolution": "absolute",
           "year_ad": 209,
           "era": "建安",
-          "era_year": 14
+          "era_year": 14,
+          "reasoning": "原文「建安十四年」直接出现年号；解析為 AD 209"
         }
       ]
     },
@@ -65,7 +66,8 @@
           "era": "建安",
           "era_year": 14,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建安14年 (AD 209)，月份「三月」"
         }
       ]
     },
@@ -90,7 +92,8 @@
           "era": "建安",
           "era_year": 14,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安14年 (AD 209)，月份「七月」"
         }
       ]
     },
@@ -110,7 +113,8 @@
           "era": "建安",
           "era_year": 14,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安14年 (AD 209)，月份「十月」"
         }
       ]
     },
@@ -130,7 +134,8 @@
           "era": "建安",
           "era_year": 14,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安14年 (AD 209)，月份「十二月」"
         }
       ]
     },
@@ -168,7 +173,8 @@
           "resolution": "absolute",
           "year_ad": 210,
           "era": "建安",
-          "era_year": 15
+          "era_year": 15,
+          "reasoning": "原文「建安十五年」直接出现年号；解析為 AD 210"
         }
       ]
     },
@@ -193,7 +199,8 @@
           "era": "建安",
           "era_year": 15,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 建安15年 (AD 210)，月份「二月」"
         }
       ]
     },
@@ -218,19 +225,8 @@
           "era": "建安",
           "era_year": 15,
           "month_chinese": "十二月",
-          "month_ordinal": 12
-        },
-        {
-          "id": "zztj.66.p18.t2",
-          "type": "temporal",
-          "at": 113,
-          "length": 3,
-          "text": "二十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 215,
-          "era": "建安",
-          "era_year": 20
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安15年 (AD 210)，月份「十二月」"
         }
       ]
     },
@@ -278,7 +274,8 @@
           "resolution": "absolute",
           "year_ad": 211,
           "era": "建安",
-          "era_year": 16
+          "era_year": 16,
+          "reasoning": "原文「建安十六年」直接出现年号；解析為 AD 211"
         }
       ]
     },
@@ -294,11 +291,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「正月」"
         }
       ]
     },
@@ -314,11 +312,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「三月」"
         }
       ]
     },
@@ -334,11 +333,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「七月」"
         }
       ]
     },
@@ -354,11 +354,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「八月」"
         },
         {
           "id": "zztj.66.p29.t2",
@@ -368,11 +369,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「九月」"
         }
       ]
     },
@@ -398,11 +400,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「十月」"
         }
       ]
     },
@@ -418,11 +421,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 211,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 16,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安16年 (AD 211)，月份「十二月」"
         }
       ]
     },
@@ -455,7 +459,8 @@
           "resolution": "absolute",
           "year_ad": 212,
           "era": "建安",
-          "era_year": 17
+          "era_year": 17,
+          "reasoning": "原文「建安十七年」直接出现年号；解析為 AD 212"
         }
       ]
     },
@@ -471,11 +476,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「正月」"
         }
       ]
     },
@@ -496,11 +502,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「五月」"
         }
       ]
     },
@@ -516,11 +523,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「六月」"
         },
         {
           "id": "zztj.66.p41.t2",
@@ -530,11 +538,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「七月」"
         }
       ]
     },
@@ -560,11 +569,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「九月」"
         }
       ]
     },
@@ -590,11 +600,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「十月」"
         }
       ]
     },
@@ -615,11 +626,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 212,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 17,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安17年 (AD 212)，月份「十二月」"
         }
       ]
     },
@@ -642,7 +654,8 @@
           "resolution": "absolute",
           "year_ad": 213,
           "era": "建安",
-          "era_year": 18
+          "era_year": 18,
+          "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213"
         }
       ]
     },
@@ -658,11 +671,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「正月」"
         }
       ]
     },
@@ -683,11 +697,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「四月」"
         }
       ]
     },
@@ -708,11 +723,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「五月」"
         }
       ]
     },
@@ -733,11 +749,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「七月」"
         }
       ]
     },
@@ -758,11 +775,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「正月」"
         },
         {
           "id": "zztj.66.p60.t2",
@@ -772,11 +790,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「八月」"
         }
       ]
     },
@@ -797,11 +816,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「九月」"
         }
       ]
     },
@@ -817,11 +837,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 215,
+          "year_ad": 213,
           "era": "建安",
-          "era_year": 20,
+          "era_year": 18,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建安18年 (AD 213)，月份「十一月」"
         }
       ]
     },

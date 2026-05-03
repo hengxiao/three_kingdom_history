@@ -45,7 +45,8 @@
           "resolution": "absolute",
           "year_ad": 240,
           "era": "正始",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「正始元年」直接出现年号；解析為 AD 240"
         },
         {
           "id": "wei.27.p4.t2",
@@ -57,7 +58,8 @@
           "resolution": "absolute",
           "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「嘉平元年」直接出现年号；解析為 AD 249"
         },
         {
           "id": "wei.27.p4.t3",
@@ -69,7 +71,8 @@
           "resolution": "bare_year",
           "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254"
         }
       ]
     },
@@ -143,7 +146,8 @@
           "resolution": "absolute",
           "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「嘉平二年」直接出现年号；解析為 AD 250（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.27.p10.t2",
@@ -155,7 +159,8 @@
           "resolution": "bare_year",
           "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254"
         },
         {
           "id": "wei.27.p10.a1",
@@ -272,7 +277,8 @@
           "resolution": "absolute",
           "year_ad": 236,
           "era": "青龍",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「青龍四年」直接出现年号；解析為 AD 236（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -293,9 +299,10 @@
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 234,
-          "era": "青龍",
-          "era_year": 2
+          "year_ad": 250,
+          "era": "嘉平",
+          "era_year": 2,
+          "reasoning": "承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250"
         },
         {
           "id": "wei.27.p18.t2",
@@ -307,7 +314,8 @@
           "resolution": "absolute",
           "year_ad": 259,
           "era": "甘露",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「甘露四年」直接出现年号；解析為 AD 259"
         }
       ]
     },
@@ -353,7 +361,8 @@
           "resolution": "this_year",
           "year_ad": 259,
           "era": "甘露",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "「其年」 = 当前年 甘露4年 (AD 259)"
         }
       ]
     },
@@ -386,7 +395,8 @@
           "resolution": "this_year",
           "year_ad": 259,
           "era": "甘露",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "「是歲」 = 当前年 甘露4年 (AD 259)"
         },
         {
           "id": "wei.27.p27.t2",
@@ -398,7 +408,8 @@
           "resolution": "absolute",
           "year_ad": 259,
           "era": "甘露",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「甘露四年」直接出现年号；解析為 AD 259"
         }
       ]
     },
@@ -416,7 +427,8 @@
           "resolution": "absolute",
           "year_ad": 261,
           "era": "景元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景元二年」直接出现年号；解析為 AD 261"
         },
         {
           "id": "wei.27.p28.a1",
@@ -441,7 +453,8 @@
           "resolution": "this_year",
           "year_ad": 261,
           "era": "景元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 景元2年 (AD 261)"
         }
       ]
     },

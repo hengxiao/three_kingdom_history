@@ -42,7 +42,8 @@
           "resolution": "absolute",
           "year_ad": 196,
           "era": "建安",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196"
         }
       ]
     },
@@ -60,19 +61,8 @@
           "resolution": "this_year",
           "year_ad": 196,
           "era": "建安",
-          "era_year": 1
-        },
-        {
-          "id": "wu.15.p3.t2",
-          "type": "temporal",
-          "at": 30,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 203,
-          "era": "建安",
-          "era_year": 8
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 建安元年 (AD 196)"
         },
         {
           "id": "wu.15.p3.a1",
@@ -82,7 +72,7 @@
           "text": "音干。"
         },
         {
-          "id": "wu.15.p3.t3",
+          "id": "wu.15.p3.t2",
           "type": "temporal",
           "at": 263,
           "length": 2,
@@ -91,7 +81,8 @@
           "resolution": "bare_year",
           "year_ad": 205,
           "era": "建安",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "承前文年號「建安」推得，「十年」 = 建安10年 = AD 205"
         }
       ]
     },
@@ -109,7 +100,8 @@
           "resolution": "bare_year",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         },
         {
           "id": "wu.15.p4.a1",
@@ -134,7 +126,8 @@
           "resolution": "bare_year",
           "year_ad": 211,
           "era": "建安",
-          "era_year": 16
+          "era_year": 16,
+          "reasoning": "承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211"
         },
         {
           "id": "wu.15.p5.a1",
@@ -159,7 +152,8 @@
           "resolution": "bare_year",
           "year_ad": 213,
           "era": "建安",
-          "era_year": 18
+          "era_year": 18,
+          "reasoning": "承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213"
         }
       ]
     },
@@ -177,7 +171,8 @@
           "resolution": "bare_year",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215"
         },
         {
           "id": "wu.15.p7.a1",
@@ -202,7 +197,8 @@
           "resolution": "bare_year",
           "year_ad": 216,
           "era": "建安",
-          "era_year": 21
+          "era_year": 21,
+          "reasoning": "承前文年號「建安」推得，「二十一年」 = 建安21年 = AD 216"
         }
       ]
     },
@@ -232,19 +228,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "六月",
-          "month_ordinal": 6
-        },
-        {
-          "id": "wu.15.p11.t2",
-          "type": "temporal",
-          "at": 73,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 199,
-          "era": "建安",
-          "era_year": 4
+          "month_ordinal": 6,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「六月」"
         },
         {
           "id": "wu.15.p11.a1",
@@ -282,7 +267,8 @@
           "resolution": "absolute",
           "year_ad": 219,
           "era": "建安",
-          "era_year": 24
+          "era_year": 24,
+          "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219"
         }
       ]
     },
@@ -300,7 +286,8 @@
           "resolution": "absolute",
           "year_ad": 222,
           "era": "黃武",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃武元年」直接出现年号；解析為 AD 222"
         },
         {
           "id": "wu.15.p14.t2",
@@ -312,7 +299,8 @@
           "resolution": "bare_year",
           "year_ad": 225,
           "era": "黃武",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「黃武」推得，「四年」 = 黃武4年 = AD 225"
         },
         {
           "id": "wu.15.p14.t3",
@@ -324,7 +312,8 @@
           "resolution": "bare_year",
           "year_ad": 228,
           "era": "黃武",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "承前文年號「黃武」推得，「七年」 = 黃武7年 = AD 228"
         },
         {
           "id": "wu.15.p14.a1",
@@ -350,7 +339,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
           "id": "wu.15.p14.a3",
@@ -375,7 +365,8 @@
           "resolution": "absolute",
           "year_ad": 233,
           "era": "嘉禾",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「嘉禾二年」直接出现年号；解析為 AD 233"
         }
       ]
     },
@@ -393,7 +384,8 @@
           "resolution": "absolute",
           "year_ad": 246,
           "era": "赤烏",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「赤烏九年」直接出现年号；解析為 AD 246"
         }
       ]
     },
@@ -411,7 +403,8 @@
           "resolution": "bare_year",
           "year_ad": 249,
           "era": "赤烏",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "承前文年號「赤烏」推得，「十二年」 = 赤烏12年 = AD 249"
         },
         {
           "id": "wu.15.p17.a1",
@@ -449,7 +442,8 @@
           "resolution": "absolute",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -467,7 +461,8 @@
           "resolution": "absolute",
           "year_ad": 220,
           "era": "延康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延康元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -490,7 +485,8 @@
           "resolution": "absolute",
           "year_ad": 231,
           "era": "黃龍",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「黃龍三年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.15.p22.a1",
@@ -509,7 +505,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "嘉禾",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.15.p22.t3",
@@ -519,9 +516,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 235,
-          "era": "嘉禾",
-          "era_year": 4
+          "year_ad": 241,
+          "era": "赤烏",
+          "era_year": 4,
+          "reasoning": "承前文年號「赤烏」推得，「四年」 = 赤烏4年 = AD 241"
         }
       ]
     },
@@ -533,20 +531,7 @@
     {
       "id": "wu.15.p24",
       "text": "潘濬卒，岱代浚領荊州文書，與陸遜井在武昌，故督蒲圻。頃之，廖式作亂。攻圍城邑，零陵、蒼梧、鬱林諸郡騷擾，岱自表輒行，星夜兼路。權遣使追拜岱交州牧，及遣諸將唐咨等駱驛相繼，攻討一年破之，斬式及遣諸所偽署臨賀太守費楊等，並其支黨，郡縣悉平，復還武昌。",
-      "annotations": [
-        {
-          "id": "wu.15.p24.t1",
-          "type": "temporal",
-          "at": 87,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 232,
-          "era": "嘉禾",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.15.p25",
@@ -582,7 +567,8 @@
           "resolution": "absolute",
           "year_ad": 256,
           "era": "太平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「太平元年」直接出现年号；解析為 AD 256"
         }
       ]
     },
@@ -632,7 +618,8 @@
           "era": "太平",
           "era_year": 1,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太平元年 (AD 256)，月份「一月」"
         }
       ]
     },
@@ -730,7 +717,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "赤烏",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.15.p44.a1",
@@ -755,7 +743,8 @@
           "resolution": "absolute",
           "year_ad": 263,
           "era": "永安",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「永安六年」直接出现年号；解析為 AD 263"
         },
         {
           "id": "wu.15.p45.a1",

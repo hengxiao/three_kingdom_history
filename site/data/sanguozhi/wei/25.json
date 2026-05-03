@@ -86,7 +86,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "青龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「青龍二年」直接出现年号；解析為 AD 234"
         },
         {
           "id": "wei.25.p9.t2",
@@ -98,7 +99,8 @@
           "resolution": "this_year",
           "year_ad": 234,
           "era": "青龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 青龍2年 (AD 234)"
         },
         {
           "id": "wei.25.p9.a1",
@@ -145,7 +147,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「正月」"
         },
         {
           "id": "wei.25.p11.t2",
@@ -159,7 +162,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「八月」"
         }
       ]
     },
@@ -253,7 +257,8 @@
           "resolution": "absolute",
           "year_ad": 213,
           "era": "建安",
-          "era_year": 18
+          "era_year": 18,
+          "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.25.p24.a1",
@@ -277,20 +282,7 @@
     {
       "id": "wei.25.p27",
       "text": "夫災變之發，皆所以明教誡也，惟率禮脩德，可以勝之。易傳曰：『上不儉，下不節，孽火燒其室。』又曰：『君高其臺，天火爲災。』此人君苟飾宮室，不知百姓空竭，故天應之以旱，火從高殿起也。上天降鑒，故譴告陛下；陛下宜增崇人道，以荅天意。昔太戊有桑穀生於朝，武丁有雊雉登於鼎，皆聞災恐懼，側身脩德，三年之後，遠夷朝貢，故號曰中宗、高宗。此則前代之明鑒也。今案舊占，災火之發，皆以臺榭宮室爲誡。然今宮室之所以充廣者，實由宮人猥多之故。宜簡擇留其淑懿，如周之制，罷省其餘。此則祖乙之所以訓高宗，高宗之所以享遠號也。",
-      "annotations": [
-        {
-          "id": "wei.25.p27.t1",
-          "type": "temporal",
-          "at": 143,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.25.p28",
@@ -324,9 +316,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
+          "year_ad": 234,
+          "era": "青龍",
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 青龍2年 (AD 234)"
         }
       ]
     },
@@ -346,7 +339,8 @@
           "era": "青龍",
           "era_year": 5,
           "month_chinese": "春三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "原文「青龍五年春三月」直接出现年号；解析為 AD 237"
         },
         {
           "id": "wei.25.p33.t2",
@@ -358,7 +352,8 @@
           "resolution": "absolute",
           "year_ad": 237,
           "era": "景初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237"
         },
         {
           "id": "wei.25.p33.t3",
@@ -372,7 +367,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「夏四月」"
         }
       ]
     },

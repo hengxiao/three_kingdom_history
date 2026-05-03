@@ -16,6 +16,7 @@ annotations:
   year_ad: 220
   era: 黃初
   era_year: 1
+  reasoning: 原文「黃初元年」直接出现年号；解析為 AD 220
 - id: zztj.69.p5.t1
   anchor: zztj.69.p5
   at: 3
@@ -29,6 +30,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「正月」
 - id: zztj.69.p7.t1
   anchor: zztj.69.p7
   at: 1
@@ -42,6 +44,7 @@ annotations:
   era_year: 1
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「二月」
 - id: zztj.69.p13.t1
   anchor: zztj.69.p13
   at: 3
@@ -55,6 +58,7 @@ annotations:
   era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「五月」
 - id: zztj.69.p16.t1
   anchor: zztj.69.p16
   at: 2
@@ -68,6 +72,7 @@ annotations:
   era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「六月」
 - id: zztj.69.p17.t1
   anchor: zztj.69.p17
   at: 4
@@ -81,6 +86,7 @@ annotations:
   era_year: 1
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「七月」
 - id: zztj.69.p24.t1
   anchor: zztj.69.p24
   at: 2
@@ -94,6 +100,7 @@ annotations:
   era_year: 1
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十月」
 - id: zztj.69.p25.t1
   anchor: zztj.69.p25
   at: 0
@@ -107,6 +114,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十一月」
 - id: zztj.69.p27.t1
   anchor: zztj.69.p27
   at: 2
@@ -120,17 +128,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
-- id: zztj.69.p31.t1
-  anchor: zztj.69.p31
-  at: 2
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 221
-  era: 黃初
-  era_year: 2
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十二月」
 - id: zztj.69.p32.t1
   anchor: zztj.69.p32
   at: 3
@@ -139,11 +137,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「正月」
 - id: zztj.69.p33.t1
   anchor: zztj.69.p33
   at: 1
@@ -152,11 +151,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「三月」
 - id: zztj.69.p35.t1
   anchor: zztj.69.p35
   at: 169
@@ -165,11 +165,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「四月」
 - id: zztj.69.p37.t1
   anchor: zztj.69.p37
   at: 1
@@ -178,11 +179,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「五月」
 - id: zztj.69.p38.t1
   anchor: zztj.69.p38
   at: 80
@@ -191,11 +193,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「六月」
 - id: zztj.69.p44.t1
   anchor: zztj.69.p44
   at: 4
@@ -204,11 +207,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「七月」
 - id: zztj.69.p48.t1
   anchor: zztj.69.p48
   at: 0
@@ -217,11 +221,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「八月」
 - id: zztj.69.p52.t1
   anchor: zztj.69.p52
   at: 62
@@ -230,11 +235,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十月」
 - id: zztj.69.p54.t1
   anchor: zztj.69.p54
   at: 213
@@ -243,11 +249,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十一月」
 - id: zztj.69.p60.t1
   anchor: zztj.69.p60
   at: 2
@@ -256,22 +263,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 221
+  year_ad: 220
   era: 黃初
-  era_year: 2
+  era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
-- id: zztj.69.p65.t1
-  anchor: zztj.69.p65
-  at: 2
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 222
-  era: 黃初
-  era_year: 3
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十二月」
 - id: zztj.69.p66.t1
   anchor: zztj.69.p66
   at: 3
@@ -280,11 +277,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「正月」
 - id: zztj.69.p69.t1
   anchor: zztj.69.p69
   at: 1
@@ -293,11 +291,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「二月」
 - id: zztj.69.p72.t1
   anchor: zztj.69.p72
   at: 1
@@ -306,11 +305,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「三月」
 - id: zztj.69.p74.t1
   anchor: zztj.69.p74
   at: 3
@@ -319,11 +319,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「四月」
 - id: zztj.69.p76.t1
   anchor: zztj.69.p76
   at: 2
@@ -332,11 +333,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「五月」
 - id: zztj.69.p77.t1
   anchor: zztj.69.p77
   at: 36
@@ -345,11 +347,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「正月」
 - id: zztj.69.p77.t2
   anchor: zztj.69.p77
   at: 44
@@ -358,11 +361,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「六月」
 - id: zztj.69.p84.t1
   anchor: zztj.69.p84
   at: 4
@@ -371,11 +375,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「七月」
 - id: zztj.69.p85.t1
   anchor: zztj.69.p85
   at: 21
@@ -384,11 +389,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「八月」
 - id: zztj.69.p86.t1
   anchor: zztj.69.p86
   at: 2
@@ -397,11 +403,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「九月」
 - id: zztj.69.p89.t1
   anchor: zztj.69.p89
   at: 0
@@ -410,11 +417,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「九月」
 - id: zztj.69.p90.t1
   anchor: zztj.69.p90
   at: 4
@@ -423,11 +431,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十月」
 - id: zztj.69.p92.t1
   anchor: zztj.69.p92
   at: 14
@@ -436,8 +445,9 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 222
+  year_ad: 220
   era: 黃初
-  era_year: 3
+  era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 黃初元年 (AD 220)，月份「十一月」

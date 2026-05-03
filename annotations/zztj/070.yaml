@@ -16,6 +16,7 @@ annotations:
   year_ad: 223
   era: 黃初
   era_year: 4
+  reasoning: 原文「黃初四年」直接出现年号；解析為 AD 223
 - id: zztj.70.p4.t1
   anchor: zztj.70.p4
   at: 3
@@ -29,6 +30,7 @@ annotations:
   era_year: 4
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「正月」
 - id: zztj.70.p5.t1
   anchor: zztj.70.p5
   at: 1
@@ -42,6 +44,7 @@ annotations:
   era_year: 4
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「二月」
 - id: zztj.70.p7.t1
   anchor: zztj.70.p7
   at: 196
@@ -55,6 +58,7 @@ annotations:
   era_year: 4
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「六月」
 - id: zztj.70.p9.t1
   anchor: zztj.70.p9
   at: 0
@@ -68,6 +72,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「三月」
 - id: zztj.70.p13.t1
   anchor: zztj.70.p13
   at: 191
@@ -81,6 +86,7 @@ annotations:
   era_year: 4
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「四月」
 - id: zztj.70.p15.t1
   anchor: zztj.70.p15
   at: 0
@@ -94,17 +100,7 @@ annotations:
   era_year: 4
   month_chinese: 五月
   month_ordinal: 5
-- id: zztj.70.p15.t2
-  anchor: zztj.70.p15
-  at: 141
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 226
-  era: 黃初
-  era_year: 7
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「五月」
 - id: zztj.70.p17.t1
   anchor: zztj.70.p17
   at: 1
@@ -113,11 +109,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 223
   era: 黃初
-  era_year: 7
+  era_year: 4
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「六月」
 - id: zztj.70.p21.t1
   anchor: zztj.70.p21
   at: 4
@@ -126,11 +123,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 223
   era: 黃初
-  era_year: 7
+  era_year: 4
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「八月」
 - id: zztj.70.p22.t1
   anchor: zztj.70.p22
   at: 16
@@ -139,11 +137,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 223
   era: 黃初
-  era_year: 7
+  era_year: 4
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「九月」
 - id: zztj.70.p23.t1
   anchor: zztj.70.p23
   at: 95
@@ -152,11 +151,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 223
   era: 黃初
-  era_year: 7
+  era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初4年 (AD 223)，月份「十月」
 - id: zztj.70.p24.t1
   anchor: zztj.70.p24
   at: 2
@@ -165,9 +165,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 226
+  year_ad: 223
   era: 黃初
-  era_year: 7
+  era_year: 4
+  reasoning: 「是歲」 = 当前年 黃初4年 (AD 223)
 - id: zztj.70.p25.t1
   anchor: zztj.70.p25
   at: 0
@@ -179,6 +180,7 @@ annotations:
   year_ad: 224
   era: 黃初
   era_year: 5
+  reasoning: 原文「黃初五年」直接出现年号；解析為 AD 224
 - id: zztj.70.p26.t1
   anchor: zztj.70.p26
   at: 3
@@ -187,11 +189,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「二月」
 - id: zztj.70.p27.t1
   anchor: zztj.70.p27
   at: 13
@@ -200,11 +203,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「四月」
 - id: zztj.70.p29.t1
   anchor: zztj.70.p29
   at: 3
@@ -213,11 +217,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「七月」
 - id: zztj.70.p29.t2
   anchor: zztj.70.p29
   at: 166
@@ -226,11 +231,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「八月」
 - id: zztj.70.p29.t3
   anchor: zztj.70.p29
   at: 189
@@ -239,11 +245,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「九月」
 - id: zztj.70.p33.t1
   anchor: zztj.70.p33
   at: 3
@@ -252,11 +259,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「十月」
 - id: zztj.70.p34.t1
   anchor: zztj.70.p34
   at: 1
@@ -265,11 +273,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 黃初5年 (AD 224)，月份「十一月」
 - id: zztj.70.p35.t1
   anchor: zztj.70.p35
   at: 53
@@ -278,9 +287,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 226
+  year_ad: 224
   era: 黃初
-  era_year: 7
+  era_year: 5
+  reasoning: 「是歲」 = 当前年 黃初5年 (AD 224)
 - id: zztj.70.p36.t1
   anchor: zztj.70.p36
   at: 0
@@ -292,6 +302,7 @@ annotations:
   year_ad: 225
   era: 黃初
   era_year: 6
+  reasoning: 原文「黃初六年」直接出现年号；解析為 AD 225
 - id: zztj.70.p37.t1
   anchor: zztj.70.p37
   at: 3
@@ -300,11 +311,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「二月」
 - id: zztj.70.p37.t2
   anchor: zztj.70.p37
   at: 51
@@ -313,11 +325,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「三月」
 - id: zztj.70.p40.t1
   anchor: zztj.70.p40
   at: 151
@@ -326,11 +339,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「五月」
 - id: zztj.70.p41.t1
   anchor: zztj.70.p41
   at: 102
@@ -339,11 +353,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「六月」
 - id: zztj.70.p43.t1
   anchor: zztj.70.p43
   at: 3
@@ -352,11 +367,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「七月」
 - id: zztj.70.p46.t1
   anchor: zztj.70.p46
   at: 1
@@ -365,11 +381,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「八月」
 - id: zztj.70.p46.t2
   anchor: zztj.70.p46
   at: 32
@@ -378,11 +395,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「十月」
 - id: zztj.70.p47.t1
   anchor: zztj.70.p47
   at: 2
@@ -391,11 +409,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「十一月」
 - id: zztj.70.p48.t1
   anchor: zztj.70.p48
   at: 2
@@ -404,11 +423,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 226
+  year_ad: 225
   era: 黃初
-  era_year: 7
+  era_year: 6
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 黃初6年 (AD 225)，月份「十二月」
 - id: zztj.70.p49.t1
   anchor: zztj.70.p49
   at: 0
@@ -420,6 +440,7 @@ annotations:
   year_ad: 226
   era: 黃初
   era_year: 7
+  reasoning: 原文「黃初七年」直接出现年号；解析為 AD 226
 - id: zztj.70.p50.t1
   anchor: zztj.70.p50
   at: 3
@@ -433,6 +454,7 @@ annotations:
   era_year: 7
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「正月」
 - id: zztj.70.p55.t1
   anchor: zztj.70.p55
   at: 100
@@ -446,6 +468,7 @@ annotations:
   era_year: 7
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「五月」
 - id: zztj.70.p60.t1
   anchor: zztj.70.p60
   at: 1
@@ -459,6 +482,7 @@ annotations:
   era_year: 7
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「六月」
 - id: zztj.70.p61.t1
   anchor: zztj.70.p61
   at: 12
@@ -472,6 +496,7 @@ annotations:
   era_year: 7
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「八月」
 - id: zztj.70.p65.t1
   anchor: zztj.70.p65
   at: 4
@@ -485,6 +510,7 @@ annotations:
   era_year: 7
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「十月」
 - id: zztj.70.p67.t1
   anchor: zztj.70.p67
   at: 2
@@ -498,6 +524,7 @@ annotations:
   era_year: 7
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 黃初7年 (AD 226)，月份「十二月」
 - id: zztj.70.p68.t1
   anchor: zztj.70.p68
   at: 2
@@ -509,6 +536,7 @@ annotations:
   year_ad: 226
   era: 黃初
   era_year: 7
+  reasoning: 「是歲」 = 当前年 黃初7年 (AD 226)
 - id: zztj.70.p71.t1
   anchor: zztj.70.p71
   at: 0
@@ -520,6 +548,7 @@ annotations:
   year_ad: 227
   era: 太和
   era_year: 1
+  reasoning: 原文「太和元年」直接出现年号；解析為 AD 227
 - id: zztj.70.p74.t1
   anchor: zztj.70.p74
   at: 1
@@ -533,6 +562,7 @@ annotations:
   era_year: 1
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 太和元年 (AD 227)，月份「二月」
 - id: zztj.70.p75.t1
   anchor: zztj.70.p75
   at: 1
@@ -546,17 +576,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
-- id: zztj.70.p79.t1
-  anchor: zztj.70.p79
-  at: 96
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 227
-  era: 太和
-  era_year: 1
+  reasoning: 年承前文 太和元年 (AD 227)，月份「三月」
 - id: zztj.70.p80.t1
   anchor: zztj.70.p80
   at: 25
@@ -570,6 +590,7 @@ annotations:
   era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 太和元年 (AD 227)，月份「五月」
 - id: zztj.70.p83.t1
   anchor: zztj.70.p83
   at: 87
@@ -583,6 +604,7 @@ annotations:
   era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 太和元年 (AD 227)，月份「四月」
 - id: zztj.70.p85.t1
   anchor: zztj.70.p85
   at: 1
@@ -596,6 +618,7 @@ annotations:
   era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 太和元年 (AD 227)，月份「六月」
 - id: zztj.70.p86.t1
   anchor: zztj.70.p86
   at: 3
@@ -609,6 +632,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太和元年 (AD 227)，月份「十二月」
 - id: zztj.70.p88.t1
   anchor: zztj.70.p88
   at: 1
@@ -620,6 +644,7 @@ annotations:
   year_ad: 227
   era: 太和
   era_year: 1
+  reasoning: 「是歲」 = 当前年 太和元年 (AD 227)
 - id: zztj.70.p89.t1
   anchor: zztj.70.p89
   at: 246
@@ -633,3 +658,4 @@ annotations:
   era_year: 1
   month_chinese: 一月
   month_ordinal: 1
+  reasoning: 年承前文 太和元年 (AD 227)，月份「一月」

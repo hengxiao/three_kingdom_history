@@ -32,7 +32,8 @@
           "resolution": "absolute",
           "year_ad": 187,
           "era": "中平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「中平四年」直接出现年号；解析為 AD 187"
         },
         {
           "id": "wei.2.p1.a1",
@@ -51,7 +52,8 @@
           "resolution": "absolute",
           "year_ad": 211,
           "era": "建安",
-          "era_year": 16
+          "era_year": 16,
+          "reasoning": "原文「建安十六年」直接出现年号；解析為 AD 211"
         },
         {
           "id": "wei.2.p1.t3",
@@ -63,7 +65,8 @@
           "resolution": "bare_year",
           "year_ad": 217,
           "era": "建安",
-          "era_year": 22
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
         },
         {
           "id": "wei.2.p1.a2",
@@ -89,7 +92,8 @@
           "resolution": "absolute",
           "year_ad": 220,
           "era": "建安",
-          "era_year": 25
+          "era_year": 25,
+          "reasoning": "原文「建安二十五年」直接出现年号；解析為 AD 220"
         },
         {
           "id": "wei.2.p1.t5",
@@ -101,7 +105,8 @@
           "resolution": "absolute",
           "year_ad": 220,
           "era": "延康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延康元年」直接出现年号；解析為 AD 220"
         }
       ]
     },
@@ -121,7 +126,8 @@
           "era": "延康",
           "era_year": 1,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「延康」推得，「元年二月」 = 延康元年 = AD 220"
         },
         {
           "id": "wei.2.p2.a1",
@@ -146,7 +152,8 @@
           "resolution": "absolute",
           "year_ad": 176,
           "era": "熹平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「漢熹平五年」直接出现年号；解析為 AD 176（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.2.p3.t2",
@@ -156,11 +163,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「三月」"
         },
         {
           "id": "wei.2.p3.a1",
@@ -196,11 +204,12 @@
           "text": "夏四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「夏四月」"
         },
         {
           "id": "wei.2.p5.a1",
@@ -230,11 +239,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「五月」"
         },
         {
           "id": "wei.2.p6.a1",
@@ -277,11 +287,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「六月」"
         },
         {
           "id": "wei.2.p8.a1",
@@ -311,11 +322,12 @@
           "text": "秋七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「秋七月」"
         },
         {
           "id": "wei.2.p9.a1",
@@ -358,11 +370,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「八月」"
         }
       ]
     },
@@ -378,11 +391,12 @@
           "text": "冬十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 176,
-          "era": "熹平",
-          "era_year": 5,
+          "year_ad": 220,
+          "era": "延康",
+          "era_year": 1,
           "month_chinese": "冬十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 延康元年 (AD 220)，月份「冬十一月」"
         },
         {
           "id": "wei.2.p12.a1",
@@ -434,7 +448,8 @@
           "era": "黃初",
           "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "原文「黃初元年十一月」直接出现年号；解析為 AD 220"
         },
         {
           "id": "wei.2.p15.t2",
@@ -448,7 +463,8 @@
           "era": "黃初",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初元年 (AD 220)，月份「十二月」"
         },
         {
           "id": "wei.2.p15.a1",
@@ -473,7 +489,8 @@
           "resolution": "this_year",
           "year_ad": 220,
           "era": "黃初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 黃初元年 (AD 220)"
         }
       ]
     },
@@ -493,7 +510,8 @@
           "era": "黃初",
           "era_year": 2,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「黃初」推得，「二年春正月」 = 黃初2年 = AD 221"
         },
         {
           "id": "wei.2.p17.a1",
@@ -501,18 +519,6 @@
           "at": 43,
           "length": 0,
           "text": "臣松之以爲禮天子以春分朝日，秋分夕月；尋此年正月郊祀，有月無日，乙亥朝日，則有日無月，蓋文之脫也。案明帝朝日夕月，皆如禮文，故知此紀爲誤者也。"
-        },
-        {
-          "id": "wei.2.p17.t2",
-          "type": "temporal",
-          "at": 96,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 220,
-          "era": "黃初",
-          "era_year": 1
         },
         {
           "id": "wei.2.p17.a2",
@@ -547,11 +553,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「三月」"
         },
         {
           "id": "wei.2.p19.t2",
@@ -561,11 +568,12 @@
           "text": "夏四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「夏四月」"
         },
         {
           "id": "wei.2.p19.t3",
@@ -575,11 +583,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「五月」"
         },
         {
           "id": "wei.2.p19.t4",
@@ -589,11 +598,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「六月」"
         },
         {
           "id": "wei.2.p19.a1",
@@ -616,11 +626,12 @@
           "text": "秋八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "秋八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「秋八月」"
         },
         {
           "id": "wei.2.p20.t2",
@@ -630,11 +641,12 @@
           "text": "冬十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「冬十月」"
         },
         {
           "id": "wei.2.p20.a1",
@@ -658,11 +670,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初2年 (AD 221)，月份「十二月」"
         },
         {
           "id": "wei.2.p20.t4",
@@ -672,9 +685,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 220,
+          "year_ad": 221,
           "era": "黃初",
-          "era_year": 1
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 黃初2年 (AD 221)"
         }
       ]
     },
@@ -694,7 +708,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「黃初」推得，「三年春正月」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.2.p21.a1",
@@ -721,7 +736,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「二月」"
         },
         {
           "id": "wei.2.p22.a1",
@@ -748,7 +764,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「三月」"
         },
         {
           "id": "wei.2.p23.t2",
@@ -762,7 +779,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「夏四月」"
         },
         {
           "id": "wei.2.p23.t3",
@@ -776,7 +794,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「五月」"
         }
       ]
     },
@@ -801,7 +820,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「秋七月」"
         },
         {
           "id": "wei.2.p25.t2",
@@ -815,7 +835,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「八月」"
         },
         {
           "id": "wei.2.p25.a1",
@@ -842,7 +863,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「九月」"
         },
         {
           "id": "wei.2.p26.a1",
@@ -869,7 +891,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「冬十月」"
         },
         {
           "id": "wei.2.p27.a1",
@@ -910,7 +933,8 @@
           "era": "黃初",
           "era_year": 3,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 黃初3年 (AD 222)，月份「十一月」"
         },
         {
           "id": "wei.2.p28.t2",
@@ -922,7 +946,8 @@
           "resolution": "this_year",
           "year_ad": 222,
           "era": "黃初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 黃初3年 (AD 222)"
         }
       ]
     },
@@ -942,7 +967,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「黃初」推得，「四年春正月」 = 黃初4年 = AD 223"
         },
         {
           "id": "wei.2.p29.t2",
@@ -956,7 +982,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初4年 (AD 223)，月份「三月」"
         },
         {
           "id": "wei.2.p29.a1",
@@ -983,7 +1010,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "夏五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初4年 (AD 223)，月份「夏五月」"
         },
         {
           "id": "wei.2.p30.a1",
@@ -1010,7 +1038,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 黃初4年 (AD 223)，月份「六月」"
         },
         {
           "id": "wei.2.p31.a1",
@@ -1031,7 +1060,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "秋八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初4年 (AD 223)，月份「秋八月」"
         },
         {
           "id": "wei.2.p31.a2",
@@ -1052,7 +1082,8 @@
           "era": "黃初",
           "era_year": 4,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 黃初4年 (AD 223)，月份「九月」"
         },
         {
           "id": "wei.2.p31.a3",
@@ -1079,7 +1110,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「黃初」推得，「五年春正月」 = 黃初5年 = AD 224"
         },
         {
           "id": "wei.2.p32.t2",
@@ -1093,7 +1125,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「三月」"
         },
         {
           "id": "wei.2.p32.t3",
@@ -1107,7 +1140,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「夏四月」"
         },
         {
           "id": "wei.2.p32.t4",
@@ -1121,7 +1155,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「五月」"
         },
         {
           "id": "wei.2.p32.t5",
@@ -1135,7 +1170,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「秋七月」"
         },
         {
           "id": "wei.2.p32.t6",
@@ -1149,7 +1185,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「八月」"
         },
         {
           "id": "wei.2.p32.t7",
@@ -1163,7 +1200,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「九月」"
         },
         {
           "id": "wei.2.p32.t8",
@@ -1177,7 +1215,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「冬十月」"
         },
         {
           "id": "wei.2.p32.a1",
@@ -1198,7 +1237,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「十一月」"
         }
       ]
     },
@@ -1218,7 +1258,8 @@
           "era": "黃初",
           "era_year": 5,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初5年 (AD 224)，月份「十二月」"
         },
         {
           "id": "wei.2.p33.t2",
@@ -1230,7 +1271,8 @@
           "resolution": "this_year",
           "year_ad": 224,
           "era": "黃初",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "「是歲」 = 当前年 黃初5年 (AD 224)"
         }
       ]
     },
@@ -1250,7 +1292,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "春二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「黃初」推得，「六年春二月」 = 黃初6年 = AD 225"
         },
         {
           "id": "wei.2.p34.a1",
@@ -1271,7 +1314,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「三月」"
         },
         {
           "id": "wei.2.p34.t3",
@@ -1285,7 +1329,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「五月」"
         }
       ]
     },
@@ -1305,7 +1350,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「六月」"
         }
       ]
     },
@@ -1325,7 +1371,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「秋七月」"
         },
         {
           "id": "wei.2.p36.t2",
@@ -1339,7 +1386,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「八月」"
         },
         {
           "id": "wei.2.p36.t3",
@@ -1353,7 +1401,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「九月」"
         },
         {
           "id": "wei.2.p36.t4",
@@ -1367,7 +1416,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「冬十月」"
         },
         {
           "id": "wei.2.p36.a1",
@@ -1386,7 +1436,8 @@
           "resolution": "this_year",
           "year_ad": 225,
           "era": "黃初",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "「是歲」 = 当前年 黃初6年 (AD 225)"
         },
         {
           "id": "wei.2.p36.t6",
@@ -1400,7 +1451,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「十一月」"
         },
         {
           "id": "wei.2.p36.t7",
@@ -1414,7 +1466,8 @@
           "era": "黃初",
           "era_year": 6,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「十二月」"
         }
       ]
     },
@@ -1434,7 +1487,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「黃初」推得，「七年春正月」 = 黃初7年 = AD 226"
         },
         {
           "id": "wei.2.p37.t2",
@@ -1448,7 +1502,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「三月」"
         },
         {
           "id": "wei.2.p37.t3",
@@ -1462,7 +1517,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "夏五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「夏五月」"
         },
         {
           "id": "wei.2.p37.a1",
@@ -1483,7 +1539,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「六月」"
         },
         {
           "id": "wei.2.p37.t5",
@@ -1497,7 +1554,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「七月」"
         }
       ]
     },
@@ -1517,7 +1575,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "原文「黃初七年五月」直接出现年号；解析為 AD 226"
         }
       ]
     },

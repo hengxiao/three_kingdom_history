@@ -16,6 +16,7 @@ annotations:
   year_ad: 265
   era: 泰始
   era_year: 1
+  reasoning: 原文「泰始元年」直接出现年号；解析為 AD 265
 - id: zztj.79.p5.t1
   anchor: zztj.79.p5
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「三月」
 - id: zztj.79.p6.t1
   anchor: zztj.79.p6
   at: 2
@@ -42,6 +44,7 @@ annotations:
   era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「四月」
 - id: zztj.79.p7.t1
   anchor: zztj.79.p7
   at: 0
@@ -55,6 +58,7 @@ annotations:
   era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「五月」
 - id: zztj.79.p8.t1
   anchor: zztj.79.p8
   at: 2
@@ -68,6 +72,7 @@ annotations:
   era_year: 1
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「七月」
 - id: zztj.79.p9.t1
   anchor: zztj.79.p9
   at: 0
@@ -81,6 +86,7 @@ annotations:
   era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「八月」
 - id: zztj.79.p10.t1
   anchor: zztj.79.p10
   at: 0
@@ -94,6 +100,7 @@ annotations:
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「九月」
 - id: zztj.79.p14.t1
   anchor: zztj.79.p14
   at: 0
@@ -107,6 +114,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始元年 (AD 265)，月份「十二月」
 - id: zztj.79.p19.t1
   anchor: zztj.79.p19
   at: 8
@@ -118,6 +126,7 @@ annotations:
   year_ad: 266
   era: 泰始
   era_year: 2
+  reasoning: 原文「泰始二年」直接出现年号；解析為 AD 266
 - id: zztj.79.p20.t1
   anchor: zztj.79.p20
   at: 2
@@ -131,6 +140,7 @@ annotations:
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「正月」
 - id: zztj.79.p24.t1
   anchor: zztj.79.p24
   at: 0
@@ -144,6 +154,7 @@ annotations:
   era_year: 2
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「二月」
 - id: zztj.79.p24.t2
   anchor: zztj.79.p24
   at: 10
@@ -157,6 +168,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「三月」
 - id: zztj.79.p27.t1
   anchor: zztj.79.p27
   at: 2
@@ -170,6 +182,7 @@ annotations:
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「五月」
 - id: zztj.79.p28.t1
   anchor: zztj.79.p28
   at: 0
@@ -183,6 +196,7 @@ annotations:
   era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「六月」
 - id: zztj.79.p29.t1
   anchor: zztj.79.p29
   at: 41
@@ -196,50 +210,7 @@ annotations:
   era_year: 2
   month_chinese: 八月
   month_ordinal: 8
-- id: zztj.79.p30.t1
-  anchor: zztj.79.p30
-  at: 12
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 267
-  era: 泰始
-  era_year: 3
-- id: zztj.79.p31.t1
-  anchor: zztj.79.p31
-  at: 109
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 267
-  era: 泰始
-  era_year: 3
-- id: zztj.79.p32.t1
-  anchor: zztj.79.p32
-  at: 4
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 267
-  era: 泰始
-  era_year: 3
-- id: zztj.79.p34.t1
-  anchor: zztj.79.p34
-  at: 256
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 265
-  era: 泰始
-  era_year: 1
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「八月」
 - id: zztj.79.p35.t1
   anchor: zztj.79.p35
   at: 0
@@ -248,11 +219,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 265
+  year_ad: 266
   era: 泰始
-  era_year: 1
+  era_year: 2
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「九月」
 - id: zztj.79.p37.t1
   anchor: zztj.79.p37
   at: 2
@@ -261,11 +233,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 265
+  year_ad: 266
   era: 泰始
-  era_year: 1
+  era_year: 2
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「十月」
 - id: zztj.79.p39.t1
   anchor: zztj.79.p39
   at: 0
@@ -274,11 +247,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 265
+  year_ad: 266
   era: 泰始
-  era_year: 1
+  era_year: 2
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「十一月」
 - id: zztj.79.p41.t1
   anchor: zztj.79.p41
   at: 0
@@ -287,11 +261,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 265
+  year_ad: 266
   era: 泰始
-  era_year: 1
+  era_year: 2
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始2年 (AD 266)，月份「十二月」
 - id: zztj.79.p42.t1
   anchor: zztj.79.p42
   at: 8
@@ -303,6 +278,7 @@ annotations:
   year_ad: 267
   era: 泰始
   era_year: 3
+  reasoning: 原文「泰始三年」直接出现年号；解析為 AD 267
 - id: zztj.79.p43.t1
   anchor: zztj.79.p43
   at: 2
@@ -316,6 +292,7 @@ annotations:
   era_year: 3
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始3年 (AD 267)，月份「正月」
 - id: zztj.79.p48.t1
   anchor: zztj.79.p48
   at: 2
@@ -329,6 +306,7 @@ annotations:
   era_year: 3
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 泰始3年 (AD 267)，月份「六月」
 - id: zztj.79.p49.t1
   anchor: zztj.79.p49
   at: 2
@@ -342,6 +320,7 @@ annotations:
   era_year: 3
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始3年 (AD 267)，月份「七月」
 - id: zztj.79.p50.t1
   anchor: zztj.79.p50
   at: 0
@@ -355,6 +334,7 @@ annotations:
   era_year: 3
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始3年 (AD 267)，月份「九月」
 - id: zztj.79.p54.t1
   anchor: zztj.79.p54
   at: 8
@@ -366,6 +346,7 @@ annotations:
   year_ad: 268
   era: 泰始
   era_year: 4
+  reasoning: 原文「泰始四年」直接出现年号；解析為 AD 268
 - id: zztj.79.p55.t1
   anchor: zztj.79.p55
   at: 2
@@ -379,6 +360,7 @@ annotations:
   era_year: 4
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「正月」
 - id: zztj.79.p57.t1
   anchor: zztj.79.p57
   at: 0
@@ -392,6 +374,7 @@ annotations:
   era_year: 4
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「二月」
 - id: zztj.79.p58.t1
   anchor: zztj.79.p58
   at: 0
@@ -405,6 +388,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「三月」
 - id: zztj.79.p59.t1
   anchor: zztj.79.p59
   at: 2
@@ -418,17 +402,7 @@ annotations:
   era_year: 4
   month_chinese: 四月
   month_ordinal: 4
-- id: zztj.79.p60.t1
-  anchor: zztj.79.p60
-  at: 112
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 267
-  era: 泰始
-  era_year: 3
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「四月」
 - id: zztj.79.p61.t1
   anchor: zztj.79.p61
   at: 2
@@ -437,11 +411,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 267
+  year_ad: 268
   era: 泰始
-  era_year: 3
+  era_year: 4
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「七月」
 - id: zztj.79.p63.t1
   anchor: zztj.79.p63
   at: 0
@@ -450,11 +425,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 267
+  year_ad: 268
   era: 泰始
-  era_year: 3
+  era_year: 4
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「九月」
 - id: zztj.79.p65.t1
   anchor: zztj.79.p65
   at: 8
@@ -463,11 +439,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 267
+  year_ad: 268
   era: 泰始
-  era_year: 3
+  era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「十月」
 - id: zztj.79.p67.t1
   anchor: zztj.79.p67
   at: 0
@@ -476,11 +453,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 267
+  year_ad: 268
   era: 泰始
-  era_year: 3
+  era_year: 4
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 泰始4年 (AD 268)，月份「十一月」
 - id: zztj.79.p69.t1
   anchor: zztj.79.p69
   at: 8
@@ -492,6 +470,7 @@ annotations:
   year_ad: 269
   era: 泰始
   era_year: 5
+  reasoning: 原文「泰始五年」直接出现年号；解析為 AD 269
 - id: zztj.79.p70.t1
   anchor: zztj.79.p70
   at: 2
@@ -505,6 +484,7 @@ annotations:
   era_year: 5
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始5年 (AD 269)，月份「正月」
 - id: zztj.79.p71.t1
   anchor: zztj.79.p71
   at: 0
@@ -518,17 +498,7 @@ annotations:
   era_year: 5
   month_chinese: 二月
   month_ordinal: 2
-- id: zztj.79.p74.t1
-  anchor: zztj.79.p74
-  at: 64
-  length: 2
-  type: temporal
-  text: 十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 274
-  era: 泰始
-  era_year: 10
+  reasoning: 年承前文 泰始5年 (AD 269)，月份「二月」
 - id: zztj.79.p77.t1
   anchor: zztj.79.p77
   at: 2
@@ -537,11 +507,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 269
   era: 泰始
-  era_year: 10
+  era_year: 5
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始5年 (AD 269)，月份「九月」
 - id: zztj.79.p78.t1
   anchor: zztj.79.p78
   at: 2
@@ -550,11 +521,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 269
   era: 泰始
-  era_year: 10
+  era_year: 5
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 泰始5年 (AD 269)，月份「十月」
 - id: zztj.79.p82.t1
   anchor: zztj.79.p82
   at: 0
@@ -563,11 +535,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 269
   era: 泰始
-  era_year: 10
+  era_year: 5
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始5年 (AD 269)，月份「十二月」
 - id: zztj.79.p83.t1
   anchor: zztj.79.p83
   at: 8
@@ -579,6 +552,7 @@ annotations:
   year_ad: 270
   era: 泰始
   era_year: 6
+  reasoning: 原文「泰始六年」直接出现年号；解析為 AD 270
 - id: zztj.79.p84.t1
   anchor: zztj.79.p84
   at: 2
@@ -587,11 +561,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「正月」
 - id: zztj.79.p86.t1
   anchor: zztj.79.p86
   at: 2
@@ -600,11 +575,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「四月」
 - id: zztj.79.p88.t1
   anchor: zztj.79.p88
   at: 0
@@ -613,11 +589,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「六月」
 - id: zztj.79.p89.t1
   anchor: zztj.79.p89
   at: 2
@@ -626,11 +603,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「七月」
 - id: zztj.79.p91.t1
   anchor: zztj.79.p91
   at: 2
@@ -639,11 +617,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「十一月」
 - id: zztj.79.p92.t1
   anchor: zztj.79.p92
   at: 58
@@ -652,11 +631,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 270
   era: 泰始
-  era_year: 10
+  era_year: 6
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始6年 (AD 270)，月份「十二月」
 - id: zztj.79.p95.t1
   anchor: zztj.79.p95
   at: 8
@@ -668,6 +648,7 @@ annotations:
   year_ad: 271
   era: 泰始
   era_year: 7
+  reasoning: 原文「泰始七年」直接出现年号；解析為 AD 271
 - id: zztj.79.p96.t1
   anchor: zztj.79.p96
   at: 2
@@ -676,11 +657,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「正月」
 - id: zztj.79.p99.t1
   anchor: zztj.79.p99
   at: 0
@@ -689,11 +671,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「三月」
 - id: zztj.79.p100.t1
   anchor: zztj.79.p100
   at: 2
@@ -702,11 +685,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「四月」
 - id: zztj.79.p103.t1
   anchor: zztj.79.p103
   at: 0
@@ -715,11 +699,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「五月」
 - id: zztj.79.p105.t1
   anchor: zztj.79.p105
   at: 261
@@ -728,11 +713,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「七月」
 - id: zztj.79.p107.t1
   anchor: zztj.79.p107
   at: 0
@@ -741,11 +727,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「八月」
 - id: zztj.79.p109.t1
   anchor: zztj.79.p109
   at: 0
@@ -754,11 +741,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「九月」
 - id: zztj.79.p110.t1
   anchor: zztj.79.p110
   at: 2
@@ -767,11 +755,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「十月」
 - id: zztj.79.p111.t1
   anchor: zztj.79.p111
   at: 0
@@ -780,11 +769,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「十一月」
 - id: zztj.79.p113.t1
   anchor: zztj.79.p113
   at: 0
@@ -793,11 +783,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 274
+  year_ad: 271
   era: 泰始
-  era_year: 10
+  era_year: 7
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始7年 (AD 271)，月份「十二月」
 - id: zztj.79.p116.t1
   anchor: zztj.79.p116
   at: 2
@@ -806,7 +797,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
+  reasoning: 「明年」 = 当前年 泰始7年 (AD 271) 之次年 = AD 272
 - id: zztj.79.p117.t1
   anchor: zztj.79.p117
   at: 8
@@ -818,6 +812,7 @@ annotations:
   year_ad: 272
   era: 泰始
   era_year: 8
+  reasoning: 原文「泰始八年」直接出现年号；解析為 AD 272
 - id: zztj.79.p118.t1
   anchor: zztj.79.p118
   at: 2
@@ -826,9 +821,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「正月」
 - id: zztj.79.p119.t1
   anchor: zztj.79.p119
   at: 0
@@ -837,9 +835,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「二月」
 - id: zztj.79.p126.t1
   anchor: zztj.79.p126
   at: 2
@@ -848,9 +849,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「七月」
 - id: zztj.79.p127.t1
   anchor: zztj.79.p127
   at: 0
@@ -859,9 +863,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「八月」
 - id: zztj.79.p127.t2
   anchor: zztj.79.p127
   at: 37
@@ -870,9 +877,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「九月」
 - id: zztj.79.p128.t1
   anchor: zztj.79.p128
   at: 2
@@ -881,9 +891,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「十月」
 - id: zztj.79.p132.t1
   anchor: zztj.79.p132
   at: 0
@@ -892,9 +905,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「十一月」
 - id: zztj.79.p132.t2
   anchor: zztj.79.p132
   at: 136
@@ -903,6 +919,9 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 275
+  year_ad: 272
+  era: 泰始
+  era_year: 8
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 泰始8年 (AD 272)，月份「十二月」

@@ -35,7 +35,8 @@
           "resolution": "absolute",
           "year_ad": 29,
           "era": "建武",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建武五年」直接出现年号；解析為 AD 29"
         },
         {
           "id": "hhs.79.p2.t2",
@@ -47,7 +48,8 @@
           "resolution": "absolute",
           "year_ad": 56,
           "era": "中元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中元元年」直接出现年号；解析為 AD 56"
         }
       ]
     },
@@ -65,7 +67,8 @@
           "resolution": "absolute",
           "year_ad": 146,
           "era": "本初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「本初元年」直接出现年号；解析為 AD 146"
         },
         {
           "id": "hhs.79.p3.t2",
@@ -77,7 +80,8 @@
           "resolution": "absolute",
           "year_ad": 175,
           "era": "熹平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「熹平四年」直接出现年号；解析為 AD 175"
         }
       ]
     },
@@ -120,7 +124,8 @@
           "resolution": "absolute",
           "year_ad": 29,
           "era": "建武",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -131,54 +136,6 @@
         {
           "id": "hhs.79.p10.t1",
           "type": "temporal",
-          "at": 20,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 27,
-          "era": "建武",
-          "era_year": 3
-        },
-        {
-          "id": "hhs.79.p10.t2",
-          "type": "temporal",
-          "at": 41,
-          "length": 4,
-          "text": "二十二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 46,
-          "era": "建武",
-          "era_year": 22
-        },
-        {
-          "id": "hhs.79.p10.t3",
-          "type": "temporal",
-          "at": 146,
-          "length": 4,
-          "text": "二十七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 51,
-          "era": "建武",
-          "era_year": 27
-        },
-        {
-          "id": "hhs.79.p10.t4",
-          "type": "temporal",
-          "at": 156,
-          "length": 3,
-          "text": "三十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 54,
-          "era": "建武",
-          "era_year": 30
-        },
-        {
-          "id": "hhs.79.p10.t5",
-          "type": "temporal",
           "at": 181,
           "length": 4,
           "text": "中元二年",
@@ -186,7 +143,8 @@
           "resolution": "absolute",
           "year_ad": 57,
           "era": "中元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「中元二年」直接出现年号；解析為 AD 57（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -219,7 +177,8 @@
           "resolution": "absolute",
           "year_ad": 202,
           "era": "建安",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「建安七年」直接出现年号；解析為 AD 202"
         }
       ]
     },
@@ -252,7 +211,8 @@
           "resolution": "bare_year",
           "year_ad": 205,
           "era": "建安",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "承前文年號「建安」推得，「十年」 = 建安10年 = AD 205"
         },
         {
           "id": "hhs.79.p18.t2",
@@ -264,7 +224,8 @@
           "resolution": "bare_year",
           "year_ad": 209,
           "era": "建安",
-          "era_year": 14
+          "era_year": 14,
+          "reasoning": "承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209"
         }
       ]
     },
@@ -286,20 +247,7 @@
     {
       "id": "hhs.79.p22",
       "text": "正旦朝贺，百僚毕会，帝令群臣能说經者更相难诘，义有不通，辄夺其席以益通者，憑遂重坐五十余席。故京师爲之语曰：“解經不穷戴侍中。”在职十八年，卒于官，詔賜東园梓器，钱二十萬。",
-      "annotations": [
-        {
-          "id": "hhs.79.p22.t1",
-          "type": "temporal",
-          "at": 66,
-          "length": 3,
-          "text": "十八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 213,
-          "era": "建安",
-          "era_year": 18
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p23",
@@ -335,7 +283,8 @@
           "resolution": "absolute",
           "year_ad": 29,
           "era": "建武",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p27.t2",
@@ -345,9 +294,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 30,
-          "era": "建武",
-          "era_year": 6
+          "year_ad": 210,
+          "era": "建安",
+          "era_year": 15,
+          "reasoning": "「明年」 = 当前年 建安14年 (AD 209) 之次年 = AD 210"
         },
         {
           "id": "hhs.79.p27.t3",
@@ -357,9 +307,10 @@
           "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 33,
-          "era": "建武",
-          "era_year": 9
+          "year_ad": 204,
+          "era": "建安",
+          "era_year": 9,
+          "reasoning": "承前文年號「建安」推得，「九年」 = 建安9年 = AD 204"
         }
       ]
     },
@@ -402,7 +353,8 @@
           "resolution": "absolute",
           "year_ad": 26,
           "era": "建武",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建武二年」直接出现年号；解析為 AD 26（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -440,7 +392,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "光和",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「光和七年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -463,7 +416,8 @@
           "resolution": "absolute",
           "year_ad": 26,
           "era": "建武",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建武二年」直接出现年号；解析為 AD 26（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -491,19 +445,8 @@
           "resolution": "absolute",
           "year_ad": 62,
           "era": "永平",
-          "era_year": 5
-        },
-        {
-          "id": "hhs.79.p43.t2",
-          "type": "temporal",
-          "at": 68,
-          "length": 3,
-          "text": "十一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 68,
-          "era": "永平",
-          "era_year": 11
+          "era_year": 5,
+          "reasoning": "原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -556,27 +499,15 @@
           "resolution": "absolute",
           "year_ad": 85,
           "era": "元和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）"
         }
       ]
     },
     {
       "id": "hhs.79.p52",
       "text": "冬，拜臨晋令，崔駰以《家林》筮之，謂爲不吉，止僖曰：“子盍辞乎？”僖曰：“學不爲人，仕不择官，凶吉由己，而由卜乎？”在县三年，卒官，遺令即葬。",
-      "annotations": [
-        {
-          "id": "hhs.79.p52.t1",
-          "type": "temporal",
-          "at": 60,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 86,
-          "era": "元和",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p53",
@@ -597,7 +528,8 @@
           "resolution": "absolute",
           "year_ad": 122,
           "era": "延光",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延光元年」直接出现年号；解析為 AD 122（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p54.t2",
@@ -607,9 +539,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 124,
-          "era": "延光",
-          "era_year": 3
+          "year_ad": 198,
+          "era": "建安",
+          "era_year": 3,
+          "reasoning": "承前文年號「建安」推得，「三年」 = 建安3年 = AD 198"
         }
       ]
     },
@@ -627,7 +560,8 @@
           "resolution": "absolute",
           "year_ad": 37,
           "era": "建武",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "原文「建武十三年」直接出现年号；解析為 AD 37（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p55.t2",
@@ -639,7 +573,8 @@
           "resolution": "absolute",
           "year_ad": 92,
           "era": "永元",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「永元四年」直接出现年号；解析為 AD 92（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -660,9 +595,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 92,
-          "era": "永元",
-          "era_year": 4
+          "year_ad": 198,
+          "era": "建安",
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 建安3年 (AD 198)"
         }
       ]
     },
@@ -685,7 +621,8 @@
           "resolution": "absolute",
           "year_ad": 133,
           "era": "陽嘉",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「陽嘉二年」直接出现年号；解析為 AD 133（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -718,7 +655,8 @@
           "resolution": "absolute",
           "year_ad": 35,
           "era": "建武",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "原文「建武十一年」直接出现年号；解析為 AD 35（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p63.t2",
@@ -728,9 +666,10 @@
           "text": "十三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 37,
-          "era": "建武",
-          "era_year": 13
+          "year_ad": 208,
+          "era": "建安",
+          "era_year": 13,
+          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         }
       ]
     },
@@ -753,7 +692,8 @@
           "resolution": "absolute",
           "year_ad": 62,
           "era": "永平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -769,9 +709,10 @@
           "text": "八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 65,
-          "era": "永平",
-          "era_year": 8
+          "year_ad": 203,
+          "era": "建安",
+          "era_year": 8,
+          "reasoning": "承前文年號「建安」推得，「八年」 = 建安8年 = AD 203"
         }
       ]
     },
@@ -792,9 +733,10 @@
           "text": "十三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 70,
-          "era": "永平",
-          "era_year": 13
+          "year_ad": 208,
+          "era": "建安",
+          "era_year": 13,
+          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         },
         {
           "id": "hhs.79.p68.t2",
@@ -804,9 +746,10 @@
           "text": "十八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 75,
-          "era": "永平",
-          "era_year": 18
+          "year_ad": 213,
+          "era": "建安",
+          "era_year": 18,
+          "reasoning": "承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213"
         },
         {
           "id": "hhs.79.p68.t3",
@@ -818,7 +761,8 @@
           "resolution": "absolute",
           "year_ad": 79,
           "era": "建初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「建初四年」直接出现年号；解析為 AD 79（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -834,9 +778,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 80,
-          "era": "建初",
-          "era_year": 5
+          "year_ad": 214,
+          "era": "建安",
+          "era_year": 19,
+          "reasoning": "「明年」 = 当前年 建安18年 (AD 213) 之次年 = AD 214"
         }
       ]
     },
@@ -859,22 +804,11 @@
           "resolution": "absolute",
           "year_ad": 28,
           "era": "建武",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「建武四年」直接出现年号；解析為 AD 28（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p71.t2",
-          "type": "temporal",
-          "at": 32,
-          "length": 3,
-          "text": "十三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 37,
-          "era": "建武",
-          "era_year": 13
-        },
-        {
-          "id": "hhs.79.p71.t3",
           "type": "temporal",
           "at": 87,
           "length": 4,
@@ -883,19 +817,21 @@
           "resolution": "absolute",
           "year_ad": 59,
           "era": "永平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永平二年」直接出现年号；解析為 AD 59（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "hhs.79.p71.t4",
+          "id": "hhs.79.p71.t3",
           "type": "temporal",
           "at": 99,
           "length": 2,
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 61,
-          "era": "永平",
-          "era_year": 4
+          "year_ad": 199,
+          "era": "建安",
+          "era_year": 4,
+          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
         }
       ]
     },
@@ -906,29 +842,18 @@
         {
           "id": "hhs.79.p72.t1",
           "type": "temporal",
-          "at": 25,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 66,
-          "era": "永平",
-          "era_year": 9
-        },
-        {
-          "id": "hhs.79.p72.t2",
-          "type": "temporal",
           "at": 45,
           "length": 3,
           "text": "十五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 72,
-          "era": "永平",
-          "era_year": 15
+          "year_ad": 210,
+          "era": "建安",
+          "era_year": 15,
+          "reasoning": "承前文年號「建安」推得，「十五年」 = 建安15年 = AD 210"
         },
         {
-          "id": "hhs.79.p72.t3",
+          "id": "hhs.79.p72.t2",
           "type": "temporal",
           "at": 61,
           "length": 4,
@@ -937,10 +862,11 @@
           "resolution": "absolute",
           "year_ad": 77,
           "era": "建初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建初二年」直接出现年号；解析為 AD 77（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "hhs.79.p72.t4",
+          "id": "hhs.79.p72.t3",
           "type": "temporal",
           "at": 83,
           "length": 4,
@@ -949,7 +875,8 @@
           "resolution": "absolute",
           "year_ad": 84,
           "era": "元和",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「元和元年」直接出现年号；解析為 AD 84（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -997,7 +924,8 @@
           "resolution": "absolute",
           "year_ad": 76,
           "era": "建初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p79.t2",
@@ -1009,7 +937,8 @@
           "resolution": "absolute",
           "year_ad": 85,
           "era": "元和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p79.t3",
@@ -1021,7 +950,8 @@
           "resolution": "absolute",
           "year_ad": 88,
           "era": "章和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「章和二年」直接出现年号；解析為 AD 88（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1103,7 +1033,34 @@
     {
       "id": "hhs.79.p95",
       "text": "丁恭字子然，山陽東緡人也。習《公羊嚴氏春秋》。恭學義精明，教授常數百人，州郡請召不應。建武初，為諫議大夫、博士，封關內侯。十一年，遷少府。諸生自遠方至者，著錄數千人，當世稱為大儒。太常樓望、侍中承宮、長水校尉樊儵等皆受業於恭。二十年，拜侍中祭酒、騎都尉，與侍中劉昆俱在光武左右，每事諮訪焉。卒於官。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p95.t1",
+          "type": "temporal",
+          "at": 61,
+          "length": 3,
+          "text": "十一年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 206,
+          "era": "建安",
+          "era_year": 11,
+          "reasoning": "承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206"
+        },
+        {
+          "id": "hhs.79.p95.t2",
+          "type": "temporal",
+          "at": 113,
+          "length": 3,
+          "text": "二十年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 215,
+          "era": "建安",
+          "era_year": 20,
+          "reasoning": "承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215"
+        }
+      ]
     },
     {
       "id": "hhs.79.p96",
@@ -1119,7 +1076,8 @@
           "resolution": "absolute",
           "year_ad": 56,
           "era": "中元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中元元年」直接出现年号；解析為 AD 56（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p96.t2",
@@ -1131,7 +1089,8 @@
           "resolution": "absolute",
           "year_ad": 62,
           "era": "永平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p96.t3",
@@ -1141,9 +1100,10 @@
           "text": "十年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 67,
-          "era": "永平",
-          "era_year": 10
+          "year_ad": 205,
+          "era": "建安",
+          "era_year": 10,
+          "reasoning": "承前文年號「建安」推得，「十年」 = 建安10年 = AD 205"
         }
       ]
     },
@@ -1171,7 +1131,8 @@
           "resolution": "absolute",
           "year_ad": 68,
           "era": "永平",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "原文「永平十一年」直接出现年号；解析為 AD 68（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1187,9 +1148,10 @@
           "text": "十八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 75,
-          "era": "永平",
-          "era_year": 18
+          "year_ad": 213,
+          "era": "建安",
+          "era_year": 18,
+          "reasoning": "承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213"
         }
       ]
     },
@@ -1205,21 +1167,10 @@
           "text": "十二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 69,
-          "era": "永平",
-          "era_year": 12
-        },
-        {
-          "id": "hhs.79.p101.t2",
-          "type": "temporal",
-          "at": 126,
-          "length": 3,
-          "text": "十八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 75,
-          "era": "永平",
-          "era_year": 18
+          "year_ad": 207,
+          "era": "建安",
+          "era_year": 12,
+          "reasoning": "承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207"
         }
       ]
     },
@@ -1250,9 +1201,10 @@
           "text": "十六年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 73,
-          "era": "永平",
-          "era_year": 16
+          "year_ad": 211,
+          "era": "建安",
+          "era_year": 16,
+          "reasoning": "承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211"
         },
         {
           "id": "hhs.79.p105.t2",
@@ -1262,9 +1214,10 @@
           "text": "十八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 75,
-          "era": "永平",
-          "era_year": 18
+          "year_ad": 213,
+          "era": "建安",
+          "era_year": 18,
+          "reasoning": "承前文年號「建安」推得，「十八年」 = 建安18年 = AD 213"
         },
         {
           "id": "hhs.79.p105.t3",
@@ -1276,7 +1229,8 @@
           "resolution": "absolute",
           "year_ad": 80,
           "era": "建初",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建初五年」直接出现年号；解析為 AD 80（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p105.t4",
@@ -1288,7 +1242,8 @@
           "resolution": "absolute",
           "year_ad": 100,
           "era": "永元",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "原文「永元十二年」直接出现年号；解析為 AD 100（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1306,7 +1261,8 @@
           "resolution": "absolute",
           "year_ad": 78,
           "era": "建初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建初三年」直接出现年号；解析為 AD 78（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1349,7 +1305,8 @@
           "resolution": "absolute",
           "year_ad": 76,
           "era": "建初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.79.p112.t2",
@@ -1359,9 +1316,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 79,
-          "era": "建初",
-          "era_year": 4
+          "year_ad": 199,
+          "era": "建安",
+          "era_year": 4,
+          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
         }
       ]
     },
@@ -1378,20 +1336,7 @@
     {
       "id": "hhs.79.p115",
       "text": "太傅陳蕃辟之，與參政事。蕃敗，休坐廢錮，乃作《春秋公羊解詁》，覃思不窺門，十有七年。又注訓《孝經》、《論語》、風角七分，皆經緯典謨，不與守文同說。又以《春秋》駁漢事六百餘條，妙得《公羊》本意。休善曆算，與其師博士羊弼，追述李育意以難二傳，作《公羊墨守》、《左氏膏肓》、《穀梁廢疾》。",
-      "annotations": [
-        {
-          "id": "hhs.79.p115.t1",
-          "type": "temporal",
-          "at": 39,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 82,
-          "era": "建初",
-          "era_year": 7
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p116",
@@ -1407,7 +1352,8 @@
           "resolution": "absolute",
           "year_ad": 182,
           "era": "光和",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「光和五年」直接出现年号；解析為 AD 182（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1434,20 +1380,7 @@
     {
       "id": "hhs.79.p121",
       "text": "臣聞高祖創業，韓、彭之將征討暴亂，陸賈、叔孫通進說《詩》、《書》。光武中興，吳、耿佐命，範升、衛宏修述舊業，故能文武並用，成長久之計。陛下聖德欽明，同符二祖，勞謙厄運，三年乃讙。今尚父鷹揚，方叔翰飛，王師電鷙，群凶破殄，始有橐弓臥鼓之次，宜得名儒，典綜禮紀。竊見故公車司馬令謝該，體曾、史之淑性，兼商、偃之文學，博通群藝，周覽古今，物來有應，事至不惑，清白異行，敦悅道訓。求之遠近，少有疇匹。若乃巨骨出吳，隼集陳庭，黃能入寢，亥有二首，非夫洽聞者，莫識其端也。雋不疑定北闕之前，夏侯勝辯常陰之驗，然後朝士益重儒術。今該實卓然比跡前列，間以父母老疾，棄官欲歸，道路險塞，無自由致。猥使良才抱朴而逃，逾越山河，沉淪荊楚，所謂往而不反者也。後日當更饋樂以釣由餘，克像以求傅說，豈不煩哉？臣愚以為可推錄所在，召該令還。楚人止孫卿之去國，漢朝追匡衡於平原，尊儒貴學，惜失賢也。",
-      "annotations": [
-        {
-          "id": "hhs.79.p121.t1",
-          "type": "temporal",
-          "at": 84,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 180,
-          "era": "光和",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p122",

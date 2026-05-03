@@ -16,6 +16,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223
 - id: shu.14.p2.t2
   anchor: shu.14.p2
   at: 97
@@ -27,6 +28,7 @@ annotations:
   year_ad: 227
   era: 建興
   era_year: 5
+  reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
 - id: shu.14.p2.t3
   anchor: shu.14.p2
   at: 116
@@ -38,6 +40,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
+  reasoning: 承前文年號「建興」推得，「八年」 = 建興8年 = AD 230
 - id: shu.14.p3.t1
   anchor: shu.14.p3
   at: 92
@@ -49,6 +52,7 @@ annotations:
   year_ad: 238
   era: 延熙
   era_year: 1
+  reasoning: 原文「延熙元年」直接出现年号；解析為 AD 238
 - id: shu.14.p3.t2
   anchor: shu.14.p3
   at: 199
@@ -60,28 +64,7 @@ annotations:
   year_ad: 239
   era: 延熙
   era_year: 2
-- id: shu.14.p6.t1
-  anchor: shu.14.p6
-  at: 19
-  length: 2
-  type: temporal
-  text: 六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 243
-  era: 延熙
-  era_year: 6
-- id: shu.14.p7.t1
-  anchor: shu.14.p7
-  at: 14
-  length: 2
-  type: temporal
-  text: 九年
-  kind: relative
-  resolution: bare_year
-  year_ad: 246
-  era: 延熙
-  era_year: 9
+  reasoning: 「明年」 = 当前年 延熙元年 (AD 238) 之次年 = AD 239
 - id: shu.14.p10.a1
   anchor: shu.14.p10
   at: 12
@@ -111,6 +94,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
+  reasoning: 原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）
 - id: shu.14.p12.a1
   anchor: shu.14.p12
   at: 104
@@ -128,6 +112,7 @@ annotations:
   year_ad: 244
   era: 延熙
   era_year: 7
+  reasoning: 原文「延熙七年」直接出现年号；解析為 AD 244
 - id: shu.14.p13.a1
   anchor: shu.14.p13
   at: 104
@@ -151,17 +136,7 @@ annotations:
   year_ad: 248
   era: 延熙
   era_year: 11
-- id: shu.14.p13.t3
-  anchor: shu.14.p13
-  at: 172
-  length: 3
-  type: temporal
-  text: 十四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 251
-  era: 延熙
-  era_year: 14
+  reasoning: 承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248
 - id: shu.14.p14.t1
   anchor: shu.14.p14
   at: 0
@@ -173,6 +148,7 @@ annotations:
   year_ad: 252
   era: 延熙
   era_year: 15
+  reasoning: 原文「延熙十五年」直接出现年号；解析為 AD 252
 - id: shu.14.p14.t2
   anchor: shu.14.p14
   at: 11
@@ -184,6 +160,7 @@ annotations:
   year_ad: 253
   era: 延熙
   era_year: 16
+  reasoning: 承前文年號「延熙」推得，「十六年」 = 延熙16年 = AD 253
 - id: shu.14.p14.a1
   anchor: shu.14.p14
   at: 63
@@ -207,6 +184,7 @@ annotations:
   year_ad: 228
   era: 建興
   era_year: 6
+  reasoning: 原文「建興六年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
 - id: shu.14.p15.a2
   anchor: shu.14.p15
   at: 222
@@ -227,9 +205,10 @@ annotations:
   text: 十二年
   kind: relative
   resolution: bare_year
-  year_ad: 234
-  era: 建興
+  year_ad: 249
+  era: 延熙
   era_year: 12
+  reasoning: 承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249
 - id: shu.14.p16.t2
   anchor: shu.14.p16
   at: 32
@@ -241,6 +220,7 @@ annotations:
   year_ad: 238
   era: 延熙
   era_year: 1
+  reasoning: 原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
 - id: shu.14.p16.t3
   anchor: shu.14.p16
   at: 67
@@ -252,6 +232,7 @@ annotations:
   year_ad: 243
   era: 延熙
   era_year: 6
+  reasoning: 承前文年號「延熙」推得，「六年」 = 延熙6年 = AD 243
 - id: shu.14.p16.t4
   anchor: shu.14.p16
   at: 83
@@ -263,6 +244,7 @@ annotations:
   year_ad: 247
   era: 延熙
   era_year: 10
+  reasoning: 承前文年號「延熙」推得，「十年」 = 延熙10年 = AD 247
 - id: shu.14.p16.t5
   anchor: shu.14.p16
   at: 103
@@ -274,6 +256,7 @@ annotations:
   year_ad: 247
   era: 延熙
   era_year: 10
+  reasoning: 「是歲」 = 当前年 延熙10年 (AD 247)
 - id: shu.14.p16.t6
   anchor: shu.14.p16
   at: 167
@@ -285,6 +268,7 @@ annotations:
   year_ad: 249
   era: 延熙
   era_year: 12
+  reasoning: 承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249
 - id: shu.14.p16.a1
   anchor: shu.14.p16
   at: 244
@@ -302,6 +286,7 @@ annotations:
   year_ad: 253
   era: 延熙
   era_year: 16
+  reasoning: 承前文年號「延熙」推得，「十六年」 = 延熙16年 = AD 253
 - id: shu.14.p17.t2
   anchor: shu.14.p17
   at: 46
@@ -313,17 +298,7 @@ annotations:
   year_ad: 254
   era: 延熙
   era_year: 17
-- id: shu.14.p17.t3
-  anchor: shu.14.p17
-  at: 116
-  length: 3
-  type: temporal
-  text: 十八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 255
-  era: 延熙
-  era_year: 18
+  reasoning: 「明年」 = 当前年 延熙16年 (AD 253) 之次年 = AD 254
 - id: shu.14.p18.t1
   anchor: shu.14.p18
   at: 0
@@ -335,6 +310,7 @@ annotations:
   year_ad: 256
   era: 延熙
   era_year: 19
+  reasoning: 承前文年號「延熙」推得，「十九年」 = 延熙19年 = AD 256
 - id: shu.14.p19.t1
   anchor: shu.14.p19
   at: 0
@@ -346,6 +322,7 @@ annotations:
   year_ad: 257
   era: 延熙
   era_year: 20
+  reasoning: 承前文年號「延熙」推得，「二十年」 = 延熙20年 = AD 257
 - id: shu.14.p19.t2
   anchor: shu.14.p19
   at: 124
@@ -357,6 +334,7 @@ annotations:
   year_ad: 258
   era: 景耀
   era_year: 1
+  reasoning: 原文「景耀元年」直接出现年号；解析為 AD 258
 - id: shu.14.p21.t1
   anchor: shu.14.p21
   at: 0
@@ -368,6 +346,7 @@ annotations:
   year_ad: 262
   era: 景耀
   era_year: 5
+  reasoning: 承前文年號「景耀」推得，「五年」 = 景耀5年 = AD 262
 - id: shu.14.p21.a1
   anchor: shu.14.p21
   at: 87
@@ -385,6 +364,7 @@ annotations:
   year_ad: 263
   era: 景耀
   era_year: 6
+  reasoning: 承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263
 - id: shu.14.p21.a2
   anchor: shu.14.p21
   at: 289

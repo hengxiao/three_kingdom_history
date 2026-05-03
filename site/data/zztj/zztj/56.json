@@ -30,7 +30,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167"
         }
       ]
     },
@@ -50,7 +51,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「正月」"
         }
       ]
     },
@@ -75,7 +77,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「四月」"
         }
       ]
     },
@@ -95,7 +98,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「五月」"
         }
       ]
     },
@@ -115,7 +119,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「六月」"
         }
       ]
     },
@@ -140,7 +145,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「八月」"
         }
       ]
     },
@@ -160,7 +166,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「六月」"
         }
       ]
     },
@@ -180,7 +187,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「十月」"
         },
         {
           "id": "zztj.56.p10.t2",
@@ -194,7 +202,8 @@
           "era": "永康",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 永康元年 (AD 167)，月份「十二月」"
         }
       ]
     },
@@ -212,7 +221,8 @@
           "resolution": "absolute",
           "year_ad": 168,
           "era": "建寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168"
         }
       ]
     },
@@ -232,7 +242,8 @@
           "era": "建寧",
           "era_year": 1,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「正月」"
         },
         {
           "id": "zztj.56.p12.t2",
@@ -246,19 +257,8 @@
           "era": "建寧",
           "era_year": 1,
           "month_chinese": "二月",
-          "month_ordinal": 2
-        },
-        {
-          "id": "zztj.56.p12.t3",
-          "type": "temporal",
-          "at": 619,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 171,
-          "era": "建寧",
-          "era_year": 4
+          "month_ordinal": 2,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「二月」"
         }
       ]
     },
@@ -279,11 +279,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 171,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 4,
+          "era_year": 1,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「四月」"
         },
         {
           "id": "zztj.56.p14.t2",
@@ -293,11 +294,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 171,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 4,
+          "era_year": 1,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「五月」"
         },
         {
           "id": "zztj.56.p14.t3",
@@ -307,11 +309,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 171,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 4,
+          "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「六月」"
         },
         {
           "id": "zztj.56.p14.t4",
@@ -321,51 +324,42 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 171,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 4,
+          "era_year": 1,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「七月」"
         },
         {
           "id": "zztj.56.p14.t5",
-          "type": "temporal",
-          "at": 833,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
-        },
-        {
-          "id": "zztj.56.p14.t6",
           "type": "temporal",
           "at": 1048,
           "length": 2,
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2,
+          "era_year": 1,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「八月」"
         },
         {
-          "id": "zztj.56.p14.t7",
+          "id": "zztj.56.p14.t6",
           "type": "temporal",
           "at": 1857,
           "length": 2,
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2,
+          "era_year": 1,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「九月」"
         }
       ]
     },
@@ -386,11 +380,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2,
+          "era_year": 1,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「十月」"
         },
         {
           "id": "zztj.56.p16.t2",
@@ -400,11 +395,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2,
+          "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「十一月」"
         },
         {
           "id": "zztj.56.p16.t3",
@@ -414,11 +410,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2,
+          "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建寧元年 (AD 168)，月份「十二月」"
         },
         {
           "id": "zztj.56.p16.t4",
@@ -428,9 +425,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 169,
+          "year_ad": 168,
           "era": "建寧",
-          "era_year": 2
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 建寧元年 (AD 168)"
         }
       ]
     },
@@ -448,7 +446,8 @@
           "resolution": "absolute",
           "year_ad": 169,
           "era": "建寧",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建寧二年」直接出现年号；解析為 AD 169"
         }
       ]
     },
@@ -468,7 +467,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「正月」"
         },
         {
           "id": "zztj.56.p18.t2",
@@ -482,7 +482,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「三月」"
         }
       ]
     },
@@ -502,7 +503,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「四月」"
         },
         {
           "id": "zztj.56.p19.t2",
@@ -516,7 +518,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「三月」"
         }
       ]
     },
@@ -541,7 +544,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「五月」"
         },
         {
           "id": "zztj.56.p21.t2",
@@ -555,7 +559,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「六月」"
         },
         {
           "id": "zztj.56.p21.t3",
@@ -569,7 +574,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「七月」"
         }
       ]
     },
@@ -594,7 +600,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「九月」"
         }
       ]
     },
@@ -624,7 +631,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「十月」"
         }
       ]
     },
@@ -661,20 +669,7 @@
     {
       "id": "zztj.56.p33",
       "text": "初，中常侍張讓父死，歸葬穎川，雖一郡畢至，而名士無往者，讓甚恥之，陳寔獨弔焉。及誅黨人，讓以寔故，多所全宥。南陽何顒，素與陳蕃、李膺善，亦被收捕，乃變名姓匿汝南間，與袁紹為奔走之交，常私入雒陽，從紹計議，為諸名士罹黨事者求救援，設權計，使得逃隱，所全免甚眾。初，太尉袁湯三子，成、逢、隗。成生紹，逢生術。逢、隗皆有名稱，少歷顯官。時中常侍袁赦以逢、隗宰相家，與之同姓，推崇以為外援，故袁氏貴寵於世，富奢甚，不與它公族同。紹壯健有威容，愛士養名，賓客輻湊歸之，輜軿、柴轂，填接街陌。術亦以俠氣聞。逢從兄子閎，少有操行，以耕學為業，逢、隗數饋之，無所受。閎見時方險亂，而家門富盛，常對兄弟歎曰：「吾先公福祚，後世不能以德守之，而競為驕奢，與亂世爭權，此即晉之三郤矣。」及黨事起，閎欲投跡深林，以母老，不宜遠遁，乃築土室四周於庭，不為戶，自牖納飲食。母思閎時，往就視，母去，便自掩閉，兄弟妻子莫得見也。潛身十八年，卒於土室。初，范滂等非訐朝政，自公卿以下皆折節下之，太學生爭慕其風，以為文學將興，處士復用。申屠蟠獨歎曰：「昔戰國之世，處士橫議，列國之王至為擁彗先驅，卒有坑儒燒書之禍，今之謂矣。」乃絕跡於梁、碭之間，因樹為屋，自同傭人。居二年，滂等果罹黨錮之鍋，唯蟠超然免於評論。",
-      "annotations": [
-        {
-          "id": "zztj.56.p33.t1",
-          "type": "temporal",
-          "at": 516,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 169,
-          "era": "建寧",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.56.p34",
@@ -697,7 +692,8 @@
           "era": "建寧",
           "era_year": 2,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建寧2年 (AD 169)，月份「十一月」"
         }
       ]
     },
@@ -715,7 +711,8 @@
           "resolution": "absolute",
           "year_ad": 170,
           "era": "建寧",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建寧三年」直接出现年号；解析為 AD 170"
         }
       ]
     },
@@ -735,7 +732,8 @@
           "era": "建寧",
           "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建寧3年 (AD 170)，月份「三月」"
         }
       ]
     },
@@ -755,7 +753,8 @@
           "era": "建寧",
           "era_year": 3,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建寧3年 (AD 170)，月份「四月」"
         },
         {
           "id": "zztj.56.p38.t2",
@@ -769,7 +768,8 @@
           "era": "建寧",
           "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建寧3年 (AD 170)，月份「七月」"
         },
         {
           "id": "zztj.56.p38.t3",
@@ -783,7 +783,8 @@
           "era": "建寧",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建寧3年 (AD 170)，月份「八月」"
         },
         {
           "id": "zztj.56.p38.t4",
@@ -797,7 +798,8 @@
           "era": "建寧",
           "era_year": 3,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建寧3年 (AD 170)，月份「九月」"
         }
       ]
     },
@@ -815,7 +817,8 @@
           "resolution": "absolute",
           "year_ad": 171,
           "era": "建寧",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「建寧四年」直接出现年号；解析為 AD 171"
         }
       ]
     },
@@ -835,7 +838,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「正月」"
         },
         {
           "id": "zztj.56.p40.t2",
@@ -849,7 +853,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「二月」"
         },
         {
           "id": "zztj.56.p40.t3",
@@ -863,7 +868,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「三月」"
         }
       ]
     },
@@ -883,7 +889,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「四月」"
         }
       ]
     },
@@ -903,7 +910,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「七月」"
         }
       ]
     },
@@ -923,7 +931,8 @@
           "era": "建寧",
           "era_year": 4,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建寧4年 (AD 171)，月份「十月」"
         }
       ]
     },

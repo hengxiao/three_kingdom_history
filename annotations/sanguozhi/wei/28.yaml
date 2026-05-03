@@ -24,6 +24,7 @@ annotations:
   era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 原文「嘉平元年九月」直接出现年号；解析為 AD 249
 - id: wei.28.p4.a1
   anchor: wei.28.p4
   at: 143
@@ -43,6 +44,7 @@ annotations:
   era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 嘉平元年 (AD 249)，月份「十一月」
 - id: wei.28.p4.a2
   anchor: wei.28.p4
   at: 163
@@ -60,23 +62,13 @@ annotations:
   year_ad: 250
   era: 嘉平
   era_year: 2
+  reasoning: 承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250
 - id: wei.28.p5.a1
   anchor: wei.28.p5
   at: 25
   length: 0
   type: pei
   text: 《魏略》曰：凌聞東平民浩詳知星，呼問詳。詳疑凌有所挾，欲悅其意，不言吳當有死喪，而言淮南楚分也，今吳、楚同佔，當有王者興。故凌計遂定。
-- id: wei.28.p5.t2
-  anchor: wei.28.p5
-  at: 25
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 251
-  era: 嘉平
-  era_year: 3
 - id: wei.28.p5.a2
   anchor: wei.28.p5
   at: 218
@@ -115,9 +107,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 252
+  year_ad: 251
   era: 嘉平
-  era_year: 4
+  era_year: 3
+  reasoning: 「明年」 = 当前年 嘉平2年 (AD 250) 之次年 = AD 251
 - id: wei.28.p9.a1
   anchor: wei.28.p9
   at: 53
@@ -141,6 +134,7 @@ annotations:
   year_ad: 254
   era: 嘉平
   era_year: 6
+  reasoning: 承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254
 - id: wei.28.p9.a3
   anchor: wei.28.p9
   at: 190
@@ -160,6 +154,7 @@ annotations:
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 原文「正元二年正月」直接出现年号；解析為 AD 255
 - id: wei.28.p11.a1
   anchor: wei.28.p11
   at: 214
@@ -219,6 +214,7 @@ annotations:
   year_ad: 256
   era: 甘露
   era_year: 1
+  reasoning: 原文「甘露元年」直接出现年号；解析為 AD 256
 - id: wei.28.p18.t2
   anchor: wei.28.p18
   at: 125
@@ -232,23 +228,13 @@ annotations:
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 承前文年號「甘露」推得，「二年五月」 = 甘露2年 = AD 257
 - id: wei.28.p18.a2
   anchor: wei.28.p18
   at: 164
   length: 0
   type: pei
   text: 《世語》曰：司馬文王既秉朝政，長史賈充以為宜遣參佐慰勞四征，於是遣充至壽春。充還啟文王：「誕再在揚州，有威名，民望所歸。今徵，必不來，禍小事淺；不徵，事遲禍大。」乃以為司空。書至，誕曰：「我作公當在王文舒後，今便為司空！不遣使者，健步齎書，使以兵付樂綝，此必綝所為。」乃將左右數百人至揚州，揚州人欲閉門，誕叱曰：「卿非我故吏邪！」徑入，綝逃上樓，就斬之。魏末傳曰：賈充與誕相見，談說時事，因謂誕曰：「洛中諸賢，皆原禪代，君所知也。君以為云何？」誕厲色曰：「卿非賈豫州子？世受魏恩，如何負國，欲以魏室輸人乎？非吾所忍聞。若洛中有難，吾當死之。」充默然。誕既被徵，請諸牙門置酒飲宴，呼牙門從兵，皆賜酒令醉，謂眾人曰：「前作千人鎧仗始成，欲以擊賊，今當還洛，不復得用，欲蹔出，將見人遊戲，須臾還耳；諸君且止。」乃嚴鼓將士七百人出。樂綝聞之，閉州門。誕歷南門宣言曰：「當還洛邑，蹔出遊戲，揚州何為閉門見備？」前至東門，東門复閉，乃使兵緣城攻門，州人悉走，因風放火，焚其府庫，遂殺綝。誕表曰：「臣受國重任，統兵在東。揚州刺史樂綝專詐，說臣與吳交通，又言被詔當代臣位，無狀日久。臣奉國命，以死自立，終無異端。忿綝不忠，輒將步騎七百人，以今月六日討綝，即日斬首，函頭驛馬傳送。若聖朝明臣，臣即魏臣；不明臣，臣即吳臣。不勝發憤有日，謹拜表陳愚，悲感泣血，哽咽斷絕，不知所如，乞朝廷察臣至誠。」臣松之以為魏末傳所言，率皆鄙陋。疑誕表言曲，不至於此也。
-- id: wei.28.p18.t3
-  anchor: wei.28.p18
-  at: 196
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 256
-  era: 甘露
-  era_year: 1
 - id: wei.28.p18.a3
   anchor: wei.28.p18
   at: 219
@@ -263,11 +249,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 256
+  year_ad: 257
   era: 甘露
-  era_year: 1
+  era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 甘露2年 (AD 257)，月份「六月」
 - id: wei.28.p19.a1
   anchor: wei.28.p19
   at: 190
@@ -287,6 +274,7 @@ annotations:
   era_year: 3
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 承前文年號「甘露」推得，「三年正月」 = 甘露3年 = AD 258
 - id: wei.28.p20.a1
   anchor: wei.28.p20
   at: 31
@@ -299,32 +287,6 @@ annotations:
   length: 0
   type: pei
   text: 干寶《晉紀》曰：數百人拱手為列，每斬一人，輒降之，竟不變，至盡，時人比之田橫。吳將於詮曰：「大丈夫受命其主，以兵救人，既不能克，又束手於敵，吾弗取也。」乃免冑冒陳而死。
-- id: wei.28.p21.t1
-  anchor: wei.28.p21
-  at: 85
-  length: 4
-  type: temporal
-  text: 二年五月
-  kind: relative
-  resolution: bare_year
-  year_ad: 257
-  era: 甘露
-  era_year: 2
-  month_chinese: 五月
-  month_ordinal: 5
-- id: wei.28.p21.t2
-  anchor: wei.28.p21
-  at: 91
-  length: 4
-  type: temporal
-  text: 三年二月
-  kind: relative
-  resolution: bare_year
-  year_ad: 258
-  era: 甘露
-  era_year: 3
-  month_chinese: 二月
-  month_ordinal: 2
 - id: wei.28.p21.a1
   anchor: wei.28.p21
   at: 120
@@ -351,17 +313,6 @@ annotations:
   text: 《世語》曰：鄧艾少為襄城典農部民，與石苞皆年十二三。謁者陽翟郭玄信，武帝監軍郭誕元奕之子。建安中，少府吉本起兵許都，玄信坐被刑在家，從典農司馬求人禦，以艾、苞與禦，行十餘里，與語，悅之，謂二人皆當遠至為佐相。艾後為典農功曹，奉使詣宣王，由此見知，遂被拔擢。
 - id: wei.28.p24.t1
   anchor: wei.28.p24
-  at: 233
-  length: 2
-  type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 260
-  era: 甘露
-  era_year: 5
-- id: wei.28.p24.t2
-  anchor: wei.28.p24
   at: 261
   length: 4
   type: temporal
@@ -371,6 +322,7 @@ annotations:
   year_ad: 241
   era: 正始
   era_year: 2
+  reasoning: 原文「正始二年」直接出现年号；解析為 AD 241（回溯前事，不推進章節時間軸）
 - id: wei.28.p25.t1
   anchor: wei.28.p25
   at: 13
@@ -382,6 +334,7 @@ annotations:
   year_ad: 249
   era: 嘉平
   era_year: 1
+  reasoning: 原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）
 - id: wei.28.p30.t1
   anchor: wei.28.p30
   at: 153
@@ -390,9 +343,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 249
-  era: 嘉平
-  era_year: 1
+  year_ad: 258
+  era: 甘露
+  era_year: 3
+  reasoning: 「其年」 = 当前年 甘露3年 (AD 258)
 - id: wei.28.p32.t1
   anchor: wei.28.p32
   at: 67
@@ -404,17 +358,7 @@ annotations:
   year_ad: 256
   era: 甘露
   era_year: 1
-- id: wei.28.p32.t2
-  anchor: wei.28.p32
-  at: 165
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 257
-  era: 甘露
-  era_year: 2
+  reasoning: 原文「甘露元年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）
 - id: wei.28.p33.t1
   anchor: wei.28.p33
   at: 0
@@ -426,6 +370,7 @@ annotations:
   year_ad: 262
   era: 景元
   era_year: 3
+  reasoning: 原文「景元三年」直接出现年号；解析為 AD 262
 - id: wei.28.p33.t2
   anchor: wei.28.p33
   at: 18
@@ -437,6 +382,7 @@ annotations:
   year_ad: 263
   era: 景元
   era_year: 4
+  reasoning: 承前文年號「景元」推得，「四年」 = 景元4年 = AD 263
 - id: wei.28.p34.t1
   anchor: wei.28.p34
   at: 0
@@ -450,6 +396,7 @@ annotations:
   era_year: 4
   month_chinese: 冬十月
   month_ordinal: 10
+  reasoning: 年承前文 景元4年 (AD 263)，月份「冬十月」
 - id: wei.28.p36.t1
   anchor: wei.28.p36
   at: 0
@@ -463,6 +410,7 @@ annotations:
   era_year: 4
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 景元4年 (AD 263)，月份「十二月」
 - id: wei.28.p36.a1
   anchor: wei.28.p36
   at: 133
@@ -487,28 +435,6 @@ annotations:
   length: 0
   type: pei
   text: 荀綽《冀州記》曰：邵起自幹吏，位至衛尉。長子翰，河東太守。中子敞，大司農。少子倩，字君幼，寬厚有器局，勤於當世，歷位冀州刺史、太子右衛率。翰子俞，字世都，清貞貴素，辯於論議，採公孫龍之辭以談微理。少有能名，辟太尉府，稍歷顯位，至侍中中書令，遷為監。臣松之按：蹇彖辭云「蹇利西南，往得中也」，不云「有功」；下云「利見大人，往有功也」。
-- id: wei.28.p41.t1
-  anchor: wei.28.p41
-  at: 2
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 260
-  era: 景元
-  era_year: 1
-- id: wei.28.p41.t2
-  anchor: wei.28.p41
-  at: 103
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 262
-  era: 景元
-  era_year: 3
 - id: wei.28.p44.a1
   anchor: wei.28.p44
   at: 48
@@ -526,6 +452,7 @@ annotations:
   year_ad: 261
   era: 景元
   era_year: 2
+  reasoning: 原文「景元二年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）
 - id: wei.28.p45.a1
   anchor: wei.28.p45
   at: 54
@@ -555,6 +482,7 @@ annotations:
   year_ad: 257
   era: 甘露
   era_year: 2
+  reasoning: 原文「甘露二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
 - id: wei.28.p49.a1
   anchor: wei.28.p49
   at: 45
@@ -572,6 +500,7 @@ annotations:
   year_ad: 262
   era: 景元
   era_year: 3
+  reasoning: 原文「景元三年」直接出现年号；解析為 AD 262（回溯前事，不推進章節時間軸）
 - id: wei.28.p51.t2
   anchor: wei.28.p51
   at: 115
@@ -583,6 +512,7 @@ annotations:
   year_ad: 263
   era: 景元
   era_year: 4
+  reasoning: 承前文年號「景元」推得，「四年」 = 景元4年 = AD 263
 - id: wei.28.p55.a1
   anchor: wei.28.p55
   at: 144
@@ -608,25 +538,13 @@ annotations:
   era_year: 4
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 景元4年 (AD 263)，月份「十二月」
 - id: wei.28.p58.a1
   anchor: wei.28.p58
   at: 21
   length: 0
   type: pei
   text: 《世語》曰：會善效人書，於劍閣要艾章表白事，皆易其言，令辭指悖傲，多自矜伐。又毀文王報書，手作以疑之也。
-- id: wei.28.p58.t1
-  anchor: wei.28.p58
-  at: 351
-  length: 4
-  type: temporal
-  text: 五年正月
-  kind: relative
-  resolution: bare_year
-  year_ad: 264
-  era: 景元
-  era_year: 5
-  month_chinese: 正月
-  month_ordinal: 1
 - id: wei.28.p58.a2
   anchor: wei.28.p58
   at: 547
@@ -645,17 +563,6 @@ annotations:
   length: 0
   type: pei
   text: 《晉諸公贊》曰：胡烈兒名淵，字世元，遵之孫也。遵，安定人，以才兼文武，累居籓鎮，至車騎將軍。子奮，字玄威，亦歷方任。女為晉武帝貴人，有寵。太康中，以奮為尚書僕射，加鎮軍大將軍、開府。弟廣，字宣祖，少府。次烈，字玄武，秦州刺史。次岐，宇玄嶷，并州刺史。廣子喜，涼州刺史。淵小字鷂鴟，時年十八，既殺會救父，名震遠近。後趙王倫篡位，三王興義，倫使淵與張泓將兵禦齊王，屢破齊軍。會成都戰克，淵乃歸降伏法。
-- id: wei.28.p60.t1
-  anchor: wei.28.p60
-  at: 35
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 263
-  era: 景元
-  era_year: 4
 - id: wei.28.p60.a1
   anchor: wei.28.p60
   at: 67

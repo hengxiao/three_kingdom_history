@@ -217,6 +217,63 @@ def test_post_guangwu_han_eras_resolve_in_hhs(era_name, era_year, expected_ad):
     assert to_ad(era, era_year) == expected_ad
 
 
+def test_duration_phrase_not_caught_as_bare_year():
+    """`連戰二年` (fought for 2 years) is a duration mid-sentence, not the second
+    year of the current era. The bare-year sentence-boundary filter must drop it
+    so the next paragraph's 是歲 stays anchored at the actual current year."""
+    state = TimelineState()
+    # Set state to 初平四年 (AD 193).
+    _, state = resolve_segment("初平四年", book="hhs", state=state)
+    assert state.year_ad == 193
+    # A body paragraph with a duration phrase MUST NOT advance state backward.
+    matches, state2 = resolve_segment(
+        "乘勝而南，攻下郡縣，紹復遣兵數萬與揩連戰二年，糧食並盡。",
+        book="hhs", state=state,
+    )
+    assert all(m.resolution != "bare_year" for m in matches), \
+        "「連戰二年」 should not be tagged bare_year"
+    assert state2.year_ad == 193  # 是歲 in the next paragraph would resolve correctly
+    # Subsequent 是歲 still resolves to 193, not 191.
+    matches3, _ = resolve_segment("是歲，瓚破禽劉虞。", book="hhs", state=state2)
+    assert matches3[0].resolution == "this_year"
+    assert matches3[0].year_ad == 193
+
+
+def test_bare_year_at_segment_start_still_resolves():
+    """Sentence-boundary filter must not block legitimate refs at segment start."""
+    _, state = resolve_segment("初平元年春正月", book="hhs")
+    matches, _ = resolve_segment("二年春正月，紹敗。", book="hhs", state=state)
+    assert any(m.resolution == "bare_year" and m.year_ad == 191 for m in matches)
+
+
+def test_bare_year_after_period_still_resolves():
+    """Bare year at start of a new sentence (after 。) is a legitimate date ref."""
+    _, state = resolve_segment("初平元年", book="hhs")
+    matches, _ = resolve_segment("前事既畢。三年，攻鄴。", book="hhs", state=state)
+    bare = [m for m in matches if m.resolution == "bare_year"]
+    assert len(bare) == 1 and bare[0].year_ad == 192
+
+
+def test_reasoning_populated_for_each_resolution_kind():
+    """Every emitted DateMatch carries a `reasoning` string for downstream review."""
+    _, state = resolve_segment("建安五年", book="wei")
+    # bare_year
+    m1, state = resolve_segment("六年，攻鄴。", book="wei", state=state)
+    assert m1[0].reasoning and "建安" in m1[0].reasoning and "AD 201" in m1[0].reasoning
+    # bare_month
+    m2, state = resolve_segment("夏五月，伐袁。", book="wei", state=state)
+    assert m2[0].reasoning and "承前文" in m2[0].reasoning
+    # this_year
+    m3, _ = resolve_segment("是歲，孫策卒。", book="wei", state=state)
+    assert m3[0].reasoning and "当前年" in m3[0].reasoning
+    # next_year
+    m4, _ = resolve_segment("明年，征荊州。", book="wei", state=state)
+    assert m4[0].reasoning and "次年" in m4[0].reasoning
+    # absolute (and reasoning explains it directly)
+    m5, _ = resolve_segment("黃初元年，禪位。", book="wei", state=state)
+    assert m5[0].reasoning and "直接出现" in m5[0].reasoning
+
+
 def test_backward_absolute_ref_is_flashback_does_not_move_state():
     """In 编年体 + bio-style works, an absolute ref to an earlier year is a flashback —
     emit it correctly, but don't drag subsequent bare-month/year refs back with it."""

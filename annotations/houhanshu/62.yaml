@@ -34,6 +34,7 @@ annotations:
   year_ad: 149
   era: 建和
   era_year: 3
+  reasoning: 原文「建和三年」直接出现年号；解析為 AD 149
 - id: hhs.62.p2.a3
   anchor: hhs.62.p2
   at: 145
@@ -81,17 +82,7 @@ annotations:
   year_ad: 166
   era: 延熹
   era_year: 9
-- id: hhs.62.p9.t1
-  anchor: hhs.62.p9
-  at: 60
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 160
-  era: 延熹
-  era_year: 3
+  reasoning: 原文「延熹九年」直接出现年号；解析為 AD 166
 - id: hhs.62.p9.a1
   anchor: hhs.62.p9
   at: 125
@@ -145,6 +136,7 @@ annotations:
   year_ad: 209
   era: 建安
   era_year: 14
+  reasoning: 原文「建安十四年」直接出现年号；解析為 AD 209
 - id: hhs.62.p20.a1
   anchor: hhs.62.p20
   at: 64
@@ -222,6 +214,7 @@ annotations:
   year_ad: 187
   era: 中平
   era_year: 4
+  reasoning: 原文「中平四年」直接出现年号；解析為 AD 187（回溯前事，不推進章節時間軸）
 - id: hhs.62.p31.a2
   anchor: hhs.62.p31
   at: 168

@@ -50,7 +50,8 @@
           "resolution": "absolute",
           "year_ad": 289,
           "era": "太康",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "原文「太康十年」直接出现年号；解析為 AD 289"
         }
       ]
     },
@@ -70,7 +71,8 @@
           "era": "太康",
           "era_year": 10,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「四月」"
         }
       ]
     },
@@ -90,7 +92,8 @@
           "era": "太康",
           "era_year": 10,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「五月」"
         }
       ]
     },
@@ -110,7 +113,8 @@
           "era": "太康",
           "era_year": 10,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十月」"
         }
       ]
     },
@@ -130,7 +134,8 @@
           "era": "太康",
           "era_year": 10,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十一月」"
         }
       ]
     },
@@ -172,20 +177,7 @@
     {
       "id": "zztj.82.p17",
       "text": "世祖武皇帝下永熙元年（庚戌，公元二九零年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p17.t1",
-          "type": "temporal",
-          "at": 8,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 280,
-          "era": "太康",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p18",
@@ -199,11 +191,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「正月」"
         }
       ]
     },
@@ -234,11 +227,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「三月」"
         }
       ]
     },
@@ -254,11 +248,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「四月」"
         }
       ]
     },
@@ -294,31 +289,19 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「五月」"
         }
       ]
     },
     {
       "id": "zztj.82.p29",
       "text": "楊駿自知素無美望，欲依魏明帝即位故事，普進封爵以求媚於眾。左軍將軍傅祗群臣皆增位一等，預喪事者增二等。二千石已上皆封關中侯，復租調一年。散騎常侍石崇、散騎侍郎何攀共上奏，以為：「帝正位東宮二十餘年，今承大業，而班賞行爵，優於泰始革命之初及諸將平吳之功，輕重不稱。且大晉卜世無窮，今之開制，當垂於後，若有爵必進，則數世之後，莫非公侯矣。」不從。",
-      "annotations": [
-        {
-          "id": "zztj.82.p29.t1",
-          "type": "temporal",
-          "at": 65,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 280,
-          "era": "太康",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p30",
@@ -357,11 +340,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「八月」"
         }
       ]
     },
@@ -377,11 +361,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十月」"
         }
       ]
     },
@@ -393,20 +378,7 @@
     {
       "id": "zztj.82.p38",
       "text": "孝惠皇帝上之上元康元年（辛亥，公元二九一年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p38.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 280,
-          "era": "太康",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p39",
@@ -420,11 +392,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「正月」"
         }
       ]
     },
@@ -440,11 +413,12 @@
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「二月」"
         }
       ]
     },
@@ -460,11 +434,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「三月」"
         }
       ]
     },
@@ -530,11 +505,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「六月」"
         }
       ]
     },
@@ -575,11 +551,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「七月」"
         }
       ]
     },
@@ -595,11 +572,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「八月」"
         }
       ]
     },
@@ -615,11 +593,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 280,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 1,
+          "era_year": 10,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「九月」"
         }
       ]
     },
@@ -631,20 +610,7 @@
     {
       "id": "zztj.82.p62",
       "text": "孝惠皇帝上之上元康二年（壬子，公元二九二年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p62.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 281,
-          "era": "太康",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p63",
@@ -658,11 +624,12 @@
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 281,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 2,
+          "era_year": 10,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「二月」"
         }
       ]
     },
@@ -678,31 +645,19 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 281,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 2,
+          "era_year": 10,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「八月」"
         }
       ]
     },
     {
       "id": "zztj.82.p65",
       "text": "孝惠皇帝上之上元康三年（癸丑，公元二九三年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p65.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 282,
-          "era": "太康",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p66",
@@ -716,11 +671,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 282,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 3,
+          "era_year": 10,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「六月」"
         }
       ]
     },
@@ -737,20 +693,7 @@
     {
       "id": "zztj.82.p69",
       "text": "孝惠皇帝上之上元康四年（甲寅，公元二九四年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p69.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 283,
-          "era": "太康",
-          "era_year": 4
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p70",
@@ -764,11 +707,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 283,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 4,
+          "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「正月」"
         }
       ]
     },
@@ -784,11 +728,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 283,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 4,
+          "era_year": 10,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「五月」"
         },
         {
           "id": "zztj.82.p71.t2",
@@ -798,11 +743,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 283,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 4,
+          "era_year": 10,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「八月」"
         }
       ]
     },
@@ -824,20 +770,7 @@
     {
       "id": "zztj.82.p75",
       "text": "孝惠皇帝上之上元康五年（乙卯，公元二九五年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p75.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 284,
-          "era": "太康",
-          "era_year": 5
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p76",
@@ -851,11 +784,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 284,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 5,
+          "era_year": 10,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「六月」"
         }
       ]
     },
@@ -876,11 +810,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 284,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 5,
+          "era_year": 10,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十月」"
         },
         {
           "id": "zztj.82.p78.t2",
@@ -890,11 +825,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 284,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 5,
+          "era_year": 10,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十二月」"
         }
       ]
     },
@@ -906,20 +842,7 @@
     {
       "id": "zztj.82.p80",
       "text": "孝惠皇帝上之上元康六年（丙辰，公元二九六年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p80.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 285,
-          "era": "太康",
-          "era_year": 6
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p81",
@@ -933,11 +856,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 285,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 6,
+          "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「正月」"
         }
       ]
     },
@@ -968,11 +892,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 285,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 6,
+          "era_year": 10,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「八月」"
         },
         {
           "id": "zztj.82.p85.t2",
@@ -982,11 +907,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 285,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 6,
+          "era_year": 10,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十一月」"
         }
       ]
     },
@@ -1002,11 +928,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 285,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 6,
+          "era_year": 10,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「十二月」"
         }
       ]
     },
@@ -1022,29 +949,17 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 285,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 6
+          "era_year": 10,
+          "reasoning": "「是歲」 = 当前年 太康10年 (AD 289)"
         }
       ]
     },
     {
       "id": "zztj.82.p88",
       "text": "孝惠皇帝上之上元康七年（丁巳、公元二九七年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p88.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 286,
-          "era": "太康",
-          "era_year": 7
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p89",
@@ -1058,11 +973,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 286,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 7,
+          "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「正月」"
         }
       ]
     },
@@ -1078,11 +994,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 286,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 7,
+          "era_year": 10,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「七月」"
         }
       ]
     },
@@ -1098,11 +1015,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 286,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 7,
+          "era_year": 10,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「九月」"
         }
       ]
     },
@@ -1129,20 +1047,7 @@
     {
       "id": "zztj.82.p96",
       "text": "孝惠皇帝上之上元康八年（戊午，公元二九八年）",
-      "annotations": [
-        {
-          "id": "zztj.82.p96.t1",
-          "type": "temporal",
-          "at": 9,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 287,
-          "era": "太康",
-          "era_year": 8
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.82.p97",
@@ -1156,11 +1061,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 287,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 8,
+          "era_year": 10,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「三月」"
         }
       ]
     },
@@ -1176,11 +1082,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 287,
+          "year_ad": 289,
           "era": "太康",
-          "era_year": 8,
+          "era_year": 10,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太康10年 (AD 289)，月份「九月」"
         }
       ]
     },

@@ -16,6 +16,7 @@ annotations:
   year_ad: 219
   era: 建安
   era_year: 24
+  reasoning: 原文「建安二十四年」直接出现年号；解析為 AD 219
 - id: shu.10.p2.a1
   anchor: shu.10.p2
   at: 270
@@ -69,6 +70,7 @@ annotations:
   year_ad: 215
   era: 建安
   era_year: 20
+  reasoning: 原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）
 - id: shu.10.p14.t2
   anchor: shu.10.p14
   at: 138
@@ -80,6 +82,7 @@ annotations:
   year_ad: 219
   era: 建安
   era_year: 24
+  reasoning: 承前文年號「建安」推得，「二十四年」 = 建安24年 = AD 219
 - id: shu.10.p17.a1
   anchor: shu.10.p17
   at: 141
@@ -97,6 +100,7 @@ annotations:
   year_ad: 213
   era: 建安
   era_year: 18
+  reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）
 - id: shu.10.p18.t2
   anchor: shu.10.p18
   at: 113
@@ -108,6 +112,7 @@ annotations:
   year_ad: 218
   era: 建安
   era_year: 23
+  reasoning: 承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218
 - id: shu.10.p18.a1
   anchor: shu.10.p18
   at: 131
@@ -125,6 +130,7 @@ annotations:
   year_ad: 222
   era: 章武
   era_year: 2
+  reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
 - id: shu.10.p19.t2
   anchor: shu.10.p19
   at: 19
@@ -136,6 +142,7 @@ annotations:
   year_ad: 223
   era: 章武
   era_year: 3
+  reasoning: 承前文年號「章武」推得，「三年」 = 章武3年 = AD 223
 - id: shu.10.p19.t3
   anchor: shu.10.p19
   at: 58
@@ -147,6 +154,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223
 - id: shu.10.p19.t4
   anchor: shu.10.p19
   at: 76
@@ -158,6 +166,7 @@ annotations:
   year_ad: 226
   era: 建興
   era_year: 4
+  reasoning: 承前文年號「建興」推得，「四年」 = 建興4年 = AD 226
 - id: shu.10.p19.a1
   anchor: shu.10.p19
   at: 179
@@ -175,6 +184,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
+  reasoning: 承前文年號「建興」推得，「八年」 = 建興8年 = AD 230
 - id: shu.10.p19.t6
   anchor: shu.10.p19
   at: 229
@@ -186,6 +196,7 @@ annotations:
   year_ad: 231
   era: 建興
   era_year: 9
+  reasoning: 「明年」 = 当前年 建興8年 (AD 230) 之次年 = AD 231
 - id: shu.10.p20.t1
   anchor: shu.10.p20
   at: 0
@@ -197,6 +208,7 @@ annotations:
   year_ad: 231
   era: 建興
   era_year: 9
+  reasoning: 承前文年號「建興」推得，「九年」 = 建興9年 = AD 231
 - id: shu.10.p20.t2
   anchor: shu.10.p20
   at: 216
@@ -208,6 +220,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
+  reasoning: 「去年」 = 当前年 建興9年 (AD 231) 之前一年 = AD 230（往回引述，章節時間軸不變）
 - id: shu.10.p20.a1
   anchor: shu.10.p20
   at: 368
@@ -231,6 +244,7 @@ annotations:
   year_ad: 234
   era: 建興
   era_year: 12
+  reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
 - id: shu.10.p21.a1
   anchor: shu.10.p21
   at: 34
@@ -254,6 +268,7 @@ annotations:
   year_ad: 232
   era: 建興
   era_year: 10
+  reasoning: 原文「建興十年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
 - id: shu.10.p23.t1
   anchor: shu.10.p23
   at: 6
@@ -267,6 +282,7 @@ annotations:
   era_year: 12
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 承前文年號「建興」推得，「十二年正月」 = 建興12年 = AD 234
 - id: shu.10.p24.t1
   anchor: shu.10.p24
   at: 181
@@ -278,6 +294,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
 - id: shu.10.p24.t2
   anchor: shu.10.p24
   at: 191
@@ -289,17 +306,7 @@ annotations:
   year_ad: 227
   era: 建興
   era_year: 5
-- id: shu.10.p24.t3
-  anchor: shu.10.p24
-  at: 220
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 230
-  era: 建興
-  era_year: 8
+  reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
 - id: shu.10.p25.a1
   anchor: shu.10.p25
   at: 50
@@ -317,6 +324,7 @@ annotations:
   year_ad: 234
   era: 建興
   era_year: 12
+  reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
 - id: shu.10.p26.a1
   anchor: shu.10.p26
   at: 518
@@ -334,6 +342,7 @@ annotations:
   year_ad: 225
   era: 建興
   era_year: 3
+  reasoning: 原文「建興三年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）
 - id: shu.10.p27.t2
   anchor: shu.10.p27
   at: 143
@@ -345,6 +354,7 @@ annotations:
   year_ad: 227
   era: 建興
   era_year: 5
+  reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
 - id: shu.10.p27.t3
   anchor: shu.10.p27
   at: 151
@@ -356,6 +366,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
+  reasoning: 承前文年號「建興」推得，「八年」 = 建興8年 = AD 230
 - id: shu.10.p27.t4
   anchor: shu.10.p27
   at: 232
@@ -367,6 +378,7 @@ annotations:
   year_ad: 234
   era: 建興
   era_year: 12
+  reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
 - id: shu.10.p28.t1
   anchor: shu.10.p28
   at: 152
@@ -378,6 +390,7 @@ annotations:
   year_ad: 235
   era: 建興
   era_year: 13
+  reasoning: 承前文年號「建興」推得，「十三年」 = 建興13年 = AD 235
 - id: shu.10.p28.a1
   anchor: shu.10.p28
   at: 198

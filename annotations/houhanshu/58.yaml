@@ -34,6 +34,7 @@ annotations:
   year_ad: 110
   era: 永初
   era_year: 4
+  reasoning: 原文「永初四年」直接出现年号；解析為 AD 110
 - id: hhs.58.p7.a1
   anchor: hhs.58.p7
   at: 15
@@ -165,6 +166,7 @@ annotations:
   year_ad: 126
   era: 永建
   era_year: 1
+  reasoning: 原文「永建元年」直接出现年号；解析為 AD 126
 - id: hhs.58.p16.a1
   anchor: hhs.58.p16
   at: 97
@@ -219,17 +221,6 @@ annotations:
   length: 0
   type: lixian
   text: 阿母，宋娥也。
-- id: hhs.58.p19.t1
-  anchor: hhs.58.p19
-  at: 44
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 126
-  era: 永建
-  era_year: 1
 - id: hhs.58.p19.a1
   anchor: hhs.58.p19
   at: 108
@@ -373,6 +364,7 @@ annotations:
   year_ad: 187
   era: 中平
   era_year: 4
+  reasoning: 原文「中平四年」直接出现年号；解析為 AD 187
 - id: hhs.58.p33.a2
   anchor: hhs.58.p33
   at: 166
@@ -462,6 +454,7 @@ annotations:
   year_ad: 184
   era: 中平
   era_year: 1
+  reasoning: 原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
 - id: hhs.58.p40.a1
   anchor: hhs.58.p40
   at: 31
@@ -581,23 +574,13 @@ annotations:
   year_ad: 172
   era: 熹平
   era_year: 1
+  reasoning: 原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）
 - id: hhs.58.p54.a3
   anchor: hhs.58.p54
   at: 37
   length: 0
   type: lixian
   text: 謝承書曰：「旻達於從政，為漢良吏，遷匈奴中郎將。還京師，太尉袁逢問其西域諸國土地風俗人物種數，旻具荅言西域本三十六國，後分為五十五，稍散至百餘國。大小，道裡近遠，人數多少，風俗燥濕，山川草木鳥獸異物名種不與中國同者，口陳其狀，手畫地形。逢奇其才，歎息言：『雖班固作西域傳，何以加此乎？』」
-- id: hhs.58.p55.t1
-  anchor: hhs.58.p55
-  at: 49
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 174
-  era: 熹平
-  era_year: 3
 - id: hhs.58.p56.a1
   anchor: hhs.58.p56
   at: 13
@@ -658,17 +641,6 @@ annotations:
   length: 0
   type: lixian
   text: 左傳曰，王子虎盟諸侯於王廷，要言曰「皆□王室，無相害也。有渝此盟，明神殛之，俾墜其師，無克祚國」也。
-- id: hhs.58.p61.t1
-  anchor: hhs.58.p61
-  at: 2
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 173
-  era: 熹平
-  era_year: 2
 - id: hhs.58.p61.a1
   anchor: hhs.58.p61
   at: 211
@@ -741,28 +713,6 @@ annotations:
   length: 0
   type: lixian
   text: 左傳雲，公山不狃曰：「君子違不適讎國。」杜預注云：「違，奔亡也。」
-- id: hhs.58.p65.t1
-  anchor: hhs.58.p65
-  at: 87
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 174
-  era: 熹平
-  era_year: 3
-- id: hhs.58.p65.t2
-  anchor: hhs.58.p65
-  at: 93
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 172
-  era: 熹平
-  era_year: 1
 - id: hhs.58.p65.a2
   anchor: hhs.58.p65
   at: 116

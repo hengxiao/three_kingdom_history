@@ -65,7 +65,8 @@
           "resolution": "absolute",
           "year_ad": 188,
           "era": "中平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「中平五年」直接出现年号；解析為 AD 188"
         }
       ]
     },
@@ -107,20 +108,7 @@
     {
       "id": "hhs.74.p16",
       "text": "注[一]《前書》穎川有周承休侯國，元帝置。元始二年更名邟，音口浪反。",
-      "annotations": [
-        {
-          "id": "hhs.74.p16.t1",
-          "type": "temporal",
-          "at": 23,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 185,
-          "era": "中平",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p17",
@@ -136,7 +124,8 @@
           "resolution": "absolute",
           "year_ad": 190,
           "era": "初平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190"
         }
       ]
     },
@@ -194,7 +183,8 @@
           "resolution": "next_year",
           "year_ad": 191,
           "era": "初平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 初平元年 (AD 190) 之次年 = AD 191"
         }
       ]
     },
@@ -307,7 +297,8 @@
           "resolution": "bare_year",
           "year_ad": 192,
           "era": "初平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「初平」推得，「三年」 = 初平3年 = AD 192"
         }
       ]
     },
@@ -340,7 +331,8 @@
           "resolution": "bare_year",
           "year_ad": 193,
           "era": "初平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「初平」推得，「四年」 = 初平4年 = AD 193"
         }
       ]
     },
@@ -360,7 +352,8 @@
           "era": "初平",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 初平4年 (AD 193)，月份「三月」"
         }
       ]
     },
@@ -380,7 +373,8 @@
           "era": "初平",
           "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 初平4年 (AD 193)，月份「六月」"
         }
       ]
     },
@@ -400,7 +394,8 @@
           "era": "初平",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 初平4年 (AD 193)，月份「三月」"
         },
         {
           "id": "hhs.74.p53.t2",
@@ -414,7 +409,8 @@
           "era": "初平",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 初平4年 (AD 193)，月份「三月」"
         }
       ]
     },
@@ -462,7 +458,8 @@
           "resolution": "absolute",
           "year_ad": 195,
           "era": "興平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「興平二年」直接出现年号；解析為 AD 195"
         }
       ]
     },
@@ -510,7 +507,8 @@
           "resolution": "absolute",
           "year_ad": 196,
           "era": "建安",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196"
         }
       ]
     },
@@ -535,7 +533,8 @@
           "era": "建安",
           "era_year": 1,
           "month_chinese": "夏五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安元年 (AD 196)，月份「夏五月」"
         }
       ]
     },
@@ -718,7 +717,8 @@
           "resolution": "bare_year",
           "year_ad": 197,
           "era": "建安",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「建安」推得，「二年」 = 建安2年 = AD 197"
         }
       ]
     },
@@ -751,7 +751,8 @@
           "resolution": "bare_year",
           "year_ad": 199,
           "era": "建安",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
         },
         {
           "id": "hhs.74.p107.a1",
@@ -836,27 +837,15 @@
           "resolution": "bare_year",
           "year_ad": 200,
           "era": "建安",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「建安」推得，「五年」 = 建安5年 = AD 200"
         }
       ]
     },
     {
       "id": "hhs.74.p121",
       "text": "曹操畏紹過河，乃急擊備，遂破之。備奔紹，紹於是進軍攻許。田豐以既失前幾，不宜便行，諫紹曰：「曹操既破劉備，則許下非復空虛。且操善用兵，變化無方，觿雖少，未可輕也。今不如久持之。將軍據山河之固，擁四州之觿，外結英雄，內修農戰，然後簡其精銳，分為奇兵，[一]乘虛迭出，以擾河南，救右則擊其左，救左則擊其右，使敵疲於奔命，人不得安業，我未勞而彼已困，不及三年，可坐克也。今釋廟勝之策而決成敗於一戰，若不如志，悔無及也。」紹不從。豐強諫忤紹，紹以為沮觿，遂械系之。乃先宣檄曰：",
-      "annotations": [
-        {
-          "id": "hhs.74.p121.t1",
-          "type": "temporal",
-          "at": 174,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p122",
@@ -1024,20 +1013,7 @@
     {
       "id": "hhs.74.p153",
       "text": "歷觀古今書籍所載，貪殘虐烈無道之臣，於操為甚。莫府方詰外奸，未及整訓，加意含覆，冀可彌縫。[一]而操豺狼野心，潛包禍謀，[二]乃欲橈折棟樑，孤弱漢室，[三]除忠害善，專為梟雄。往歲伐鼓北征，討公孫瓚，強禦桀逆，拒圍一年。操因其未破，陰交書命，欲托助王師，以見掩襲，故引兵造河，方舟北濟。會行人發露，瓚亦梟夷，故使鋒芒挫縮，厥圖不果。屯據敖倉，阻河為固，[四]乃欲運螳蜋之斧，御隆車之隧。[五]莫府奉漢威靈，折衝宇宙，長戟百萬，胡騎千腢，奮中黃、育、獲之士，[六]騁良弓勁弩之埶，[七]并州越太行，[八]青州涉濟、漯，[九]大軍泛黃河以角其前，荊州下宛、葉而掎其後。[一０]雷震虎步，並集虜廷，若舉炎火以焚飛蓬，[一一]覆滄海而注熛炭，[一二]有何不消滅者哉？",
-      "annotations": [
-        {
-          "id": "hhs.74.p153.t1",
-          "type": "temporal",
-          "at": 107,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 196,
-          "era": "建安",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p154",
@@ -1212,20 +1188,7 @@
     {
       "id": "hhs.74.p188",
       "text": "注[一]十二年曰紀。",
-      "annotations": [
-        {
-          "id": "hhs.74.p188.t1",
-          "type": "temporal",
-          "at": 4,
-          "length": 3,
-          "text": "十二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 207,
-          "era": "建安",
-          "era_year": 12
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p189",
@@ -1260,20 +1223,7 @@
     {
       "id": "hhs.74.p195",
       "text": "冀州城邑多畔，紹復擊定之。自軍敗後發病，七年夏，薨。[一]未及定嗣，逢紀、審配宿以驕侈為譚所病，辛評、郭圖皆比於譚而與配、紀有隙。觿以譚長，欲立之。配等恐譚立而評等為害，遂矯紹遺命，奉尚為嗣。",
-      "annotations": [
-        {
-          "id": "hhs.74.p195.t1",
-          "type": "temporal",
-          "at": 20,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 202,
-          "era": "建安",
-          "era_year": 7
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p196",
@@ -1562,11 +1512,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 202,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 7,
+          "era_year": 5,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「九月」"
         },
         {
           "id": "hhs.74.p251.t2",
@@ -1576,11 +1527,12 @@
           "text": "明年二月",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 203,
+          "year_ad": 201,
           "era": "建安",
-          "era_year": 8,
+          "era_year": 6,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "「明年二月」 = 当前年 建安5年 (AD 200) 之次年 = AD 201"
         },
         {
           "id": "hhs.74.p251.a1",
@@ -1793,11 +1745,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 203,
+          "year_ad": 201,
           "era": "建安",
-          "era_year": 8,
+          "era_year": 6,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安6年 (AD 201)，月份「十月」"
         },
         {
           "id": "hhs.74.p262.a1",
@@ -1824,7 +1777,8 @@
           "era": "建安",
           "era_year": 9,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "承前文年號「建安」推得，「九年三月」 = 建安9年 = AD 204"
         },
         {
           "id": "hhs.74.p263.a1",
@@ -2037,7 +1991,8 @@
           "era": "建安",
           "era_year": 9,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安9年 (AD 204)，月份「五月」"
         },
         {
           "id": "hhs.74.p274.t2",
@@ -2051,7 +2006,8 @@
           "era": "建安",
           "era_year": 9,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安9年 (AD 204)，月份「八月」"
         },
         {
           "id": "hhs.74.p274.a2",
@@ -2174,7 +2130,8 @@
           "era": "建安",
           "era_year": 9,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安9年 (AD 204)，月份「十二月」"
         },
         {
           "id": "hhs.74.p282.t2",
@@ -2188,7 +2145,8 @@
           "era": "建安",
           "era_year": 10,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "「明年正月」 = 当前年 建安9年 (AD 204) 之次年 = AD 205"
         },
         {
           "id": "hhs.74.p282.a1",
@@ -2267,7 +2225,8 @@
           "resolution": "bare_year",
           "year_ad": 206,
           "era": "建安",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206"
         },
         {
           "id": "hhs.74.p285.a2",
@@ -2312,7 +2271,8 @@
           "resolution": "bare_year",
           "year_ad": 207,
           "era": "建安",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207"
         }
       ]
     },
@@ -2330,7 +2290,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.74.p288.a1",
@@ -2349,7 +2310,8 @@
           "resolution": "absolute",
           "year_ad": 190,
           "era": "初平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.74.p288.a2",
@@ -2374,7 +2336,8 @@
           "resolution": "absolute",
           "year_ad": 204,
           "era": "建安",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「建安九年」直接出现年号；解析為 AD 204（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -2405,7 +2368,8 @@
           "resolution": "absolute",
           "year_ad": 190,
           "era": "初平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.74.p291.a1",
@@ -2479,18 +2443,6 @@
           "at": 8,
           "length": 0,
           "text": ""
-        },
-        {
-          "id": "hhs.74.p294.t1",
-          "type": "temporal",
-          "at": 22,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 192,
-          "era": "初平",
-          "era_year": 3
         }
       ]
     },
@@ -2554,7 +2506,8 @@
           "resolution": "absolute",
           "year_ad": 196,
           "era": "建安",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建安元年」直接出现年号；解析為 AD 196（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -2579,7 +2532,8 @@
           "resolution": "bare_year",
           "year_ad": 198,
           "era": "建安",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「建安」推得，「三年」 = 建安3年 = AD 198"
         },
         {
           "id": "hhs.74.p299.a2",
@@ -2737,7 +2691,8 @@
           "resolution": "bare_year",
           "year_ad": 201,
           "era": "建安",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「建安」推得，「六年」 = 建安6年 = AD 201"
         },
         {
           "id": "hhs.74.p307.t2",
@@ -2749,7 +2704,8 @@
           "resolution": "bare_year",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
         },
         {
           "id": "hhs.74.p307.t3",
@@ -2763,7 +2719,8 @@
           "era": "建安",
           "era_year": 13,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安13年 (AD 208)，月份「八月」"
         },
         {
           "id": "hhs.74.p307.a1",
@@ -2771,18 +2728,6 @@
           "at": 46,
           "length": 0,
           "text": ""
-        },
-        {
-          "id": "hhs.74.p307.t4",
-          "type": "temporal",
-          "at": 50,
-          "length": 3,
-          "text": "二十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 215,
-          "era": "建安",
-          "era_year": 20
         },
         {
           "id": "hhs.74.p307.a2",
@@ -2899,9 +2844,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 216,
+          "year_ad": 209,
           "era": "建安",
-          "era_year": 21
+          "era_year": 14,
+          "reasoning": "「明年」 = 当前年 建安13年 (AD 208) 之次年 = AD 209"
         },
         {
           "id": "hhs.74.p316.a2",

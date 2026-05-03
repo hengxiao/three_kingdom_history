@@ -244,7 +244,8 @@
           "resolution": "absolute",
           "year_ad": 197,
           "era": "建安",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建安二年」直接出现年号；解析為 AD 197"
         },
         {
           "id": "wei.12.p21.t2",
@@ -256,7 +257,8 @@
           "resolution": "next_year",
           "year_ad": 198,
           "era": "建安",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 建安2年 (AD 197) 之次年 = AD 198"
         },
         {
           "id": "wei.12.p21.a1",
@@ -287,20 +289,7 @@
     {
       "id": "wei.12.p24",
       "text": "自喪亂已來，民人失所，今雖小安，然服教日淺。所下新科，皆以明罰敕法，齊一大化也。所領六縣，疆域初定，加以饥馑，若一切齊以科禁，恐或有不從教者。有不從教者不得不誅，則非觀民設教随時之意也。先王辨九服之賦以殊遠近，制三典之刑以平治亂，愚以爲此郡宜依遠域新邦之典，其民間小事，使長吏臨時随宜，上不背正法，下以順百姓之心。比及三年，民安其業，然后齊之以法，則無所不至矣。",
-      "annotations": [
-        {
-          "id": "wei.12.p24.t1",
-          "type": "temporal",
-          "at": 159,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.12.p25",
@@ -346,20 +335,7 @@
     {
       "id": "wei.12.p30",
       "text": "邢顒字子昂，河間鄚人也。舉孝廉，司徒辟，皆不就。易姓字，適右北平，從田畴遊。积五年，而太祖定冀州。顒謂畴曰：『黄巾起來二十餘年，海内鼎沸，百姓流离。今聞曹公法令严。民厌亂矣，亂极則平。请以身先。』遂装還鄉里。田畴曰：『邢顒，民之先觉也。』乃見太祖，求爲鄉导以克柳城。",
-      "annotations": [
-        {
-          "id": "wei.12.p30.t1",
-          "type": "temporal",
-          "at": 39,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 200,
-          "era": "建安",
-          "era_year": 5
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.12.p31",
@@ -380,7 +356,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "黃初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「黃初四年」直接出现年号；解析為 AD 223"
         },
         {
           "id": "wei.12.p32.a1",
@@ -412,7 +389,8 @@
           "resolution": "absolute",
           "year_ad": 212,
           "era": "建安",
-          "era_year": 17
+          "era_year": 17,
+          "reasoning": "原文「建安十七年」直接出现年号；解析為 AD 212（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.12.p33.a2",
@@ -437,18 +415,6 @@
         {
           "id": "wei.12.p34.t1",
           "type": "temporal",
-          "at": 0,
-          "length": 4,
-          "text": "二十二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 217,
-          "era": "建安",
-          "era_year": 22
-        },
-        {
-          "id": "wei.12.p34.t2",
-          "type": "temporal",
           "at": 137,
           "length": 4,
           "text": "延康元年",
@@ -456,7 +422,8 @@
           "resolution": "absolute",
           "year_ad": 220,
           "era": "延康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延康元年」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -479,7 +446,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "黃初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「黃初四年」直接出现年号；解析為 AD 223"
         },
         {
           "id": "wei.12.p36.t2",
@@ -491,7 +459,8 @@
           "resolution": "bare_year",
           "year_ad": 225,
           "era": "黃初",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「黃初」推得，「六年」 = 黃初6年 = AD 225"
         }
       ]
     },
@@ -563,42 +532,32 @@
         {
           "id": "wei.12.p46.t1",
           "type": "temporal",
-          "at": 20,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 222,
-          "era": "黃初",
-          "era_year": 3
-        },
-        {
-          "id": "wei.12.p46.t2",
-          "type": "temporal",
           "at": 215,
           "length": 2,
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 222,
+          "year_ad": 225,
           "era": "黃初",
-          "era_year": 3,
+          "era_year": 6,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「正月」"
         },
         {
-          "id": "wei.12.p46.t3",
+          "id": "wei.12.p46.t2",
           "type": "temporal",
           "at": 235,
           "length": 2,
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 222,
+          "year_ad": 225,
           "era": "黃初",
-          "era_year": 3,
+          "era_year": 6,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初6年 (AD 225)，月份「十月」"
         }
       ]
     },

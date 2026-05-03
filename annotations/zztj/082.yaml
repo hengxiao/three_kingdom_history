@@ -16,6 +16,7 @@ annotations:
   year_ad: 289
   era: 太康
   era_year: 10
+  reasoning: 原文「太康十年」直接出现年号；解析為 AD 289
 - id: zztj.82.p6.t1
   anchor: zztj.82.p6
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 10
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 太康10年 (AD 289)，月份「四月」
 - id: zztj.82.p7.t1
   anchor: zztj.82.p7
   at: 8
@@ -42,6 +44,7 @@ annotations:
   era_year: 10
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 太康10年 (AD 289)，月份「五月」
 - id: zztj.82.p8.t1
   anchor: zztj.82.p8
   at: 2
@@ -55,6 +58,7 @@ annotations:
   era_year: 10
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十月」
 - id: zztj.82.p9.t1
   anchor: zztj.82.p9
   at: 0
@@ -68,17 +72,7 @@ annotations:
   era_year: 10
   month_chinese: 十一月
   month_ordinal: 11
-- id: zztj.82.p17.t1
-  anchor: zztj.82.p17
-  at: 8
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 280
-  era: 太康
-  era_year: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十一月」
 - id: zztj.82.p18.t1
   anchor: zztj.82.p18
   at: 2
@@ -87,11 +81,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
 - id: zztj.82.p22.t1
   anchor: zztj.82.p22
   at: 0
@@ -100,11 +95,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 太康10年 (AD 289)，月份「三月」
 - id: zztj.82.p23.t1
   anchor: zztj.82.p23
   at: 172
@@ -113,11 +109,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 太康10年 (AD 289)，月份「四月」
 - id: zztj.82.p28.t1
   anchor: zztj.82.p28
   at: 0
@@ -126,22 +123,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 五月
   month_ordinal: 5
-- id: zztj.82.p29.t1
-  anchor: zztj.82.p29
-  at: 65
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 280
-  era: 太康
-  era_year: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「五月」
 - id: zztj.82.p35.t1
   anchor: zztj.82.p35
   at: 2
@@ -150,11 +137,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
 - id: zztj.82.p36.t1
   anchor: zztj.82.p36
   at: 2
@@ -163,22 +151,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 十月
   month_ordinal: 10
-- id: zztj.82.p38.t1
-  anchor: zztj.82.p38
-  at: 9
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 280
-  era: 太康
-  era_year: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十月」
 - id: zztj.82.p39.t1
   anchor: zztj.82.p39
   at: 2
@@ -187,11 +165,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
 - id: zztj.82.p40.t1
   anchor: zztj.82.p40
   at: 314
@@ -200,11 +179,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 太康10年 (AD 289)，月份「二月」
 - id: zztj.82.p41.t1
   anchor: zztj.82.p41
   at: 0
@@ -213,11 +193,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 太康10年 (AD 289)，月份「三月」
 - id: zztj.82.p52.t1
   anchor: zztj.82.p52
   at: 174
@@ -226,11 +207,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 太康10年 (AD 289)，月份「六月」
 - id: zztj.82.p58.t1
   anchor: zztj.82.p58
   at: 2
@@ -239,11 +221,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 太康10年 (AD 289)，月份「七月」
 - id: zztj.82.p59.t1
   anchor: zztj.82.p59
   at: 0
@@ -252,11 +235,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
 - id: zztj.82.p60.t1
   anchor: zztj.82.p60
   at: 0
@@ -265,22 +249,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 280
+  year_ad: 289
   era: 太康
-  era_year: 1
+  era_year: 10
   month_chinese: 九月
   month_ordinal: 9
-- id: zztj.82.p62.t1
-  anchor: zztj.82.p62
-  at: 9
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 281
-  era: 太康
-  era_year: 2
+  reasoning: 年承前文 太康10年 (AD 289)，月份「九月」
 - id: zztj.82.p63.t1
   anchor: zztj.82.p63
   at: 2
@@ -289,11 +263,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 281
+  year_ad: 289
   era: 太康
-  era_year: 2
+  era_year: 10
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 太康10年 (AD 289)，月份「二月」
 - id: zztj.82.p64.t1
   anchor: zztj.82.p64
   at: 2
@@ -302,22 +277,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 281
+  year_ad: 289
   era: 太康
-  era_year: 2
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
-- id: zztj.82.p65.t1
-  anchor: zztj.82.p65
-  at: 9
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 282
-  era: 太康
-  era_year: 3
+  reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
 - id: zztj.82.p66.t1
   anchor: zztj.82.p66
   at: 2
@@ -326,22 +291,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 282
+  year_ad: 289
   era: 太康
-  era_year: 3
+  era_year: 10
   month_chinese: 六月
   month_ordinal: 6
-- id: zztj.82.p69.t1
-  anchor: zztj.82.p69
-  at: 9
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 283
-  era: 太康
-  era_year: 4
+  reasoning: 年承前文 太康10年 (AD 289)，月份「六月」
 - id: zztj.82.p70.t1
   anchor: zztj.82.p70
   at: 2
@@ -350,11 +305,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 283
+  year_ad: 289
   era: 太康
-  era_year: 4
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
 - id: zztj.82.p71.t1
   anchor: zztj.82.p71
   at: 2
@@ -363,11 +319,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 283
+  year_ad: 289
   era: 太康
-  era_year: 4
+  era_year: 10
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 太康10年 (AD 289)，月份「五月」
 - id: zztj.82.p71.t2
   anchor: zztj.82.p71
   at: 21
@@ -376,22 +333,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 283
+  year_ad: 289
   era: 太康
-  era_year: 4
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
-- id: zztj.82.p75.t1
-  anchor: zztj.82.p75
-  at: 9
-  length: 2
-  type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 284
-  era: 太康
-  era_year: 5
+  reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
 - id: zztj.82.p76.t1
   anchor: zztj.82.p76
   at: 2
@@ -400,11 +347,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 284
+  year_ad: 289
   era: 太康
-  era_year: 5
+  era_year: 10
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 太康10年 (AD 289)，月份「六月」
 - id: zztj.82.p78.t1
   anchor: zztj.82.p78
   at: 2
@@ -413,11 +361,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 284
+  year_ad: 289
   era: 太康
-  era_year: 5
+  era_year: 10
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十月」
 - id: zztj.82.p78.t2
   anchor: zztj.82.p78
   at: 22
@@ -426,22 +375,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 284
+  year_ad: 289
   era: 太康
-  era_year: 5
+  era_year: 10
   month_chinese: 十二月
   month_ordinal: 12
-- id: zztj.82.p80.t1
-  anchor: zztj.82.p80
-  at: 9
-  length: 2
-  type: temporal
-  text: 六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 285
-  era: 太康
-  era_year: 6
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十二月」
 - id: zztj.82.p81.t1
   anchor: zztj.82.p81
   at: 2
@@ -450,11 +389,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 285
+  year_ad: 289
   era: 太康
-  era_year: 6
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
 - id: zztj.82.p85.t1
   anchor: zztj.82.p85
   at: 2
@@ -463,11 +403,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 285
+  year_ad: 289
   era: 太康
-  era_year: 6
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
 - id: zztj.82.p85.t2
   anchor: zztj.82.p85
   at: 63
@@ -476,11 +417,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 285
+  year_ad: 289
   era: 太康
-  era_year: 6
+  era_year: 10
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十一月」
 - id: zztj.82.p86.t1
   anchor: zztj.82.p86
   at: 97
@@ -489,11 +431,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 285
+  year_ad: 289
   era: 太康
-  era_year: 6
+  era_year: 10
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太康10年 (AD 289)，月份「十二月」
 - id: zztj.82.p87.t1
   anchor: zztj.82.p87
   at: 0
@@ -502,20 +445,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 285
+  year_ad: 289
   era: 太康
-  era_year: 6
-- id: zztj.82.p88.t1
-  anchor: zztj.82.p88
-  at: 9
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 286
-  era: 太康
-  era_year: 7
+  era_year: 10
+  reasoning: 「是歲」 = 当前年 太康10年 (AD 289)
 - id: zztj.82.p89.t1
   anchor: zztj.82.p89
   at: 2
@@ -524,11 +457,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 286
+  year_ad: 289
   era: 太康
-  era_year: 7
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
 - id: zztj.82.p90.t1
   anchor: zztj.82.p90
   at: 2
@@ -537,11 +471,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 286
+  year_ad: 289
   era: 太康
-  era_year: 7
+  era_year: 10
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 太康10年 (AD 289)，月份「七月」
 - id: zztj.82.p91.t1
   anchor: zztj.82.p91
   at: 11
@@ -550,22 +485,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 286
+  year_ad: 289
   era: 太康
-  era_year: 7
+  era_year: 10
   month_chinese: 九月
   month_ordinal: 9
-- id: zztj.82.p96.t1
-  anchor: zztj.82.p96
-  at: 9
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 287
-  era: 太康
-  era_year: 8
+  reasoning: 年承前文 太康10年 (AD 289)，月份「九月」
 - id: zztj.82.p97.t1
   anchor: zztj.82.p97
   at: 2
@@ -574,11 +499,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 287
+  year_ad: 289
   era: 太康
-  era_year: 8
+  era_year: 10
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 太康10年 (AD 289)，月份「三月」
 - id: zztj.82.p98.t1
   anchor: zztj.82.p98
   at: 2
@@ -587,8 +513,9 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 287
+  year_ad: 289
   era: 太康
-  era_year: 8
+  era_year: 10
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 太康10年 (AD 289)，月份「九月」

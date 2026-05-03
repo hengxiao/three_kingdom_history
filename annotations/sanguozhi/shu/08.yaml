@@ -46,6 +46,7 @@ annotations:
   year_ad: 211
   era: 建安
   era_year: 16
+  reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211
 - id: shu.8.p7.a2
   anchor: shu.8.p7
   at: 78
@@ -63,6 +64,7 @@ annotations:
   year_ad: 214
   era: 建安
   era_year: 19
+  reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
 - id: shu.8.p8.t1
   anchor: shu.8.p8
   at: 32
@@ -74,6 +76,7 @@ annotations:
   year_ad: 222
   era: 章武
   era_year: 2
+  reasoning: 原文「章武二年」直接出现年号；解析為 AD 222
 - id: shu.8.p8.a1
   anchor: shu.8.p8
   at: 122
@@ -97,6 +100,7 @@ annotations:
   year_ad: 196
   era: 建安
   era_year: 1
+  reasoning: 原文「建安元年」直接出现年号；解析為 AD 196（回溯前事，不推進章節時間軸）
 - id: shu.8.p9.a2
   anchor: shu.8.p9
   at: 138
@@ -174,17 +178,7 @@ annotations:
   year_ad: 224
   era: 建興
   era_year: 2
-- id: shu.8.p24.t2
-  anchor: shu.8.p24
-  at: 427
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 226
-  era: 建興
-  era_year: 4
+  reasoning: 原文「建興二年」直接出现年号；解析為 AD 224
 - id: shu.8.p25.a1
   anchor: shu.8.p25
   at: 48

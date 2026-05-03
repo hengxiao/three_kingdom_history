@@ -22,6 +22,7 @@ annotations:
   year_ad: 133
   era: 陽嘉
   era_year: 2
+  reasoning: 原文「陽嘉二年」直接出现年号；解析為 AD 133
 - id: hhs.63.p8.t1
   anchor: hhs.63.p8
   at: 9
@@ -33,30 +34,7 @@ annotations:
   year_ad: 133
   era: 陽嘉
   era_year: 2
-- id: hhs.63.p32.t1
-  anchor: hhs.63.p32
-  at: 6
-  length: 4
-  type: temporal
-  text: 元年三月
-  kind: relative
-  resolution: bare_year
-  year_ad: 132
-  era: 陽嘉
-  era_year: 1
-  month_chinese: 三月
-  month_ordinal: 3
-- id: hhs.63.p33.t1
-  anchor: hhs.63.p33
-  at: 8
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 133
-  era: 陽嘉
-  era_year: 2
+  reasoning: 原文「陽嘉二年」直接出现年号；解析為 AD 133
 - id: hhs.63.p57.t1
   anchor: hhs.63.p57
   at: 21
@@ -68,17 +46,7 @@ annotations:
   year_ad: 134
   era: 陽嘉
   era_year: 3
-- id: hhs.63.p59.t1
-  anchor: hhs.63.p59
-  at: 68
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 132
-  era: 陽嘉
-  era_year: 1
+  reasoning: 「明年」 = 当前年 陽嘉2年 (AD 133) 之次年 = AD 134
 - id: hhs.63.p63.t1
   anchor: hhs.63.p63
   at: 44
@@ -87,20 +55,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 132
-  era: 陽嘉
-  era_year: 1
-- id: hhs.63.p65.t1
-  anchor: hhs.63.p65
-  at: 83
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
   year_ad: 134
   era: 陽嘉
   era_year: 3
+  reasoning: 「其年」 = 当前年 陽嘉3年 (AD 134)
 - id: hhs.63.p73.a1
   anchor: hhs.63.p73
   at: 5
@@ -118,28 +76,7 @@ annotations:
   year_ad: 141
   era: 永和
   era_year: 6
-- id: hhs.63.p80.t1
-  anchor: hhs.63.p80
-  at: 11
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 136
-  era: 永和
-  era_year: 1
-- id: hhs.63.p80.t2
-  anchor: hhs.63.p80
-  at: 17
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 136
-  era: 永和
-  era_year: 1
+  reasoning: 原文「永和六年」直接出现年号；解析為 AD 141
 - id: hhs.63.p104.t1
   anchor: hhs.63.p104
   at: 41
@@ -148,20 +85,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 137
-  era: 永和
-  era_year: 2
-- id: hhs.63.p108.t1
-  anchor: hhs.63.p108
-  at: 177
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 137
-  era: 永和
-  era_year: 2
+  year_ad: 142
+  reasoning: 「明年」 = 当前年 永和6年 (AD 141) 之次年 = AD 142（跨年號邊界，新年號未明）
 - id: hhs.63.p110.t1
   anchor: hhs.63.p110
   at: 0
@@ -173,6 +98,7 @@ annotations:
   year_ad: 142
   era: 漢安
   era_year: 1
+  reasoning: 原文「漢安元年」直接出现年号；解析為 AD 142
 - id: hhs.63.p117.t1
   anchor: hhs.63.p117
   at: 5
@@ -184,14 +110,4 @@ annotations:
   year_ad: 147
   era: 建和
   era_year: 1
-- id: hhs.63.p140.t1
-  anchor: hhs.63.p140
-  at: 18
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 149
-  era: 建和
-  era_year: 3
+  reasoning: 原文「建和元年」直接出现年号；解析為 AD 147

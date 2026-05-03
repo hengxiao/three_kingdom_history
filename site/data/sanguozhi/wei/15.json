@@ -47,7 +47,8 @@
           "resolution": "absolute",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208"
         }
       ]
     },
@@ -65,7 +66,8 @@
           "resolution": "absolute",
           "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「嘉平六年」直接出现年号；解析為 AD 254"
         }
       ]
     },
@@ -127,7 +129,8 @@
           "resolution": "absolute",
           "year_ad": 217,
           "era": "建安",
-          "era_year": 22
+          "era_year": 22,
+          "reasoning": "原文「建安二十二年」直接出现年号；解析為 AD 217（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.15.p10.a1",
@@ -177,7 +180,8 @@
           "resolution": "absolute",
           "year_ad": 213,
           "era": "建安",
-          "era_year": 18
+          "era_year": 18,
+          "reasoning": "原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.15.p13.a1",
@@ -196,7 +200,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.15.p13.t3",
@@ -206,9 +211,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 230,
-          "era": "太和",
-          "era_year": 4
+          "year_ad": 252,
+          "era": "嘉平",
+          "era_year": 4,
+          "reasoning": "承前文年號「嘉平」推得，「四年」 = 嘉平4年 = AD 252"
         }
       ]
     },
@@ -315,7 +321,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "黃初",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「黃初四年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -351,7 +358,8 @@
           "resolution": "absolute",
           "year_ad": 219,
           "era": "建安",
-          "era_year": 24
+          "era_year": 24,
+          "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -459,7 +467,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.15.p31.a1",

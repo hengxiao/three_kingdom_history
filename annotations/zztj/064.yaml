@@ -16,17 +16,7 @@ annotations:
   year_ad: 201
   era: 建安
   era_year: 6
-- id: zztj.64.p3.t2
-  anchor: zztj.64.p3
-  at: 17
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
+  reasoning: 原文「建安六年」直接出现年号；解析為 AD 201
 - id: zztj.64.p4.t1
   anchor: zztj.64.p4
   at: 2
@@ -35,11 +25,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 201
   era: 建安
-  era_year: 1
+  era_year: 6
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安6年 (AD 201)，月份「三月」
 - id: zztj.64.p4.t2
   anchor: zztj.64.p4
   at: 95
@@ -48,11 +39,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 201
   era: 建安
-  era_year: 1
+  era_year: 6
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安6年 (AD 201)，月份「四月」
 - id: zztj.64.p4.t3
   anchor: zztj.64.p4
   at: 116
@@ -61,11 +53,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 196
+  year_ad: 201
   era: 建安
-  era_year: 1
+  era_year: 6
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安6年 (AD 201)，月份「九月」
 - id: zztj.64.p5.t1
   anchor: zztj.64.p5
   at: 5
@@ -77,17 +70,7 @@ annotations:
   year_ad: 202
   era: 建安
   era_year: 7
-- id: zztj.64.p5.t2
-  anchor: zztj.64.p5
-  at: 17
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 197
-  era: 建安
-  era_year: 2
+  reasoning: 原文「建安七年」直接出现年号；解析為 AD 202
 - id: zztj.64.p6.t1
   anchor: zztj.64.p6
   at: 2
@@ -96,11 +79,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 197
+  year_ad: 202
   era: 建安
-  era_year: 2
+  era_year: 7
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安7年 (AD 202)，月份「正月」
 - id: zztj.64.p6.t2
   anchor: zztj.64.p6
   at: 50
@@ -109,11 +93,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 197
+  year_ad: 202
   era: 建安
-  era_year: 2
+  era_year: 7
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安7年 (AD 202)，月份「五月」
 - id: zztj.64.p6.t3
   anchor: zztj.64.p6
   at: 315
@@ -122,11 +107,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 197
+  year_ad: 202
   era: 建安
-  era_year: 2
+  era_year: 7
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安7年 (AD 202)，月份「九月」
 - id: zztj.64.p6.t4
   anchor: zztj.64.p6
   at: 1501
@@ -135,11 +121,12 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 197
+  year_ad: 202
   era: 建安
-  era_year: 2
+  era_year: 7
   month_chinese: 一月
   month_ordinal: 1
+  reasoning: 年承前文 建安7年 (AD 202)，月份「一月」
 - id: zztj.64.p7.t1
   anchor: zztj.64.p7
   at: 5
@@ -151,17 +138,7 @@ annotations:
   year_ad: 203
   era: 建安
   era_year: 8
-- id: zztj.64.p7.t2
-  anchor: zztj.64.p7
-  at: 17
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
+  reasoning: 原文「建安八年」直接出现年号；解析為 AD 203
 - id: zztj.64.p8.t1
   anchor: zztj.64.p8
   at: 2
@@ -170,11 +147,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 203
   era: 建安
-  era_year: 3
+  era_year: 8
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安8年 (AD 203)，月份「二月」
 - id: zztj.64.p8.t2
   anchor: zztj.64.p8
   at: 33
@@ -183,11 +161,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 203
   era: 建安
-  era_year: 3
+  era_year: 8
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安8年 (AD 203)，月份「四月」
 - id: zztj.64.p8.t3
   anchor: zztj.64.p8
   at: 127
@@ -196,11 +175,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 203
   era: 建安
-  era_year: 3
+  era_year: 8
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安8年 (AD 203)，月份「五月」
 - id: zztj.64.p8.t4
   anchor: zztj.64.p8
   at: 484
@@ -209,11 +189,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 203
   era: 建安
-  era_year: 3
+  era_year: 8
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安8年 (AD 203)，月份「八月」
 - id: zztj.64.p8.t5
   anchor: zztj.64.p8
   at: 1380
@@ -222,11 +203,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 203
   era: 建安
-  era_year: 3
+  era_year: 8
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安8年 (AD 203)，月份「十月」
 - id: zztj.64.p9.t1
   anchor: zztj.64.p9
   at: 5
@@ -238,17 +220,7 @@ annotations:
   year_ad: 204
   era: 建安
   era_year: 9
-- id: zztj.64.p9.t2
-  anchor: zztj.64.p9
-  at: 17
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 199
-  era: 建安
-  era_year: 4
+  reasoning: 原文「建安九年」直接出现年号；解析為 AD 204
 - id: zztj.64.p10.t1
   anchor: zztj.64.p10
   at: 2
@@ -257,11 +229,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安9年 (AD 204)，月份「正月」
 - id: zztj.64.p10.t2
   anchor: zztj.64.p10
   at: 21
@@ -270,11 +243,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安9年 (AD 204)，月份「二月」
 - id: zztj.64.p10.t3
   anchor: zztj.64.p10
   at: 101
@@ -283,11 +257,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安9年 (AD 204)，月份「四月」
 - id: zztj.64.p10.t4
   anchor: zztj.64.p10
   at: 215
@@ -296,11 +271,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安9年 (AD 204)，月份「五月」
 - id: zztj.64.p10.t5
   anchor: zztj.64.p10
   at: 286
@@ -309,11 +285,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安9年 (AD 204)，月份「七月」
 - id: zztj.64.p10.t6
   anchor: zztj.64.p10
   at: 803
@@ -322,11 +299,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安9年 (AD 204)，月份「八月」
 - id: zztj.64.p10.t7
   anchor: zztj.64.p10
   at: 1216
@@ -335,11 +313,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安9年 (AD 204)，月份「九月」
 - id: zztj.64.p10.t8
   anchor: zztj.64.p10
   at: 1457
@@ -348,11 +327,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安9年 (AD 204)，月份「十月」
 - id: zztj.64.p10.t9
   anchor: zztj.64.p10
   at: 1563
@@ -361,11 +341,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安9年 (AD 204)，月份「十二月」
 - id: zztj.64.p10.t10
   anchor: zztj.64.p10
   at: 1638
@@ -374,9 +355,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 199
+  year_ad: 204
   era: 建安
-  era_year: 4
+  era_year: 9
+  reasoning: 「是歲」 = 当前年 建安9年 (AD 204)
 - id: zztj.64.p11.t1
   anchor: zztj.64.p11
   at: 5
@@ -388,17 +370,7 @@ annotations:
   year_ad: 205
   era: 建安
   era_year: 10
-- id: zztj.64.p11.t2
-  anchor: zztj.64.p11
-  at: 17
-  length: 2
-  type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 200
-  era: 建安
-  era_year: 5
+  reasoning: 原文「建安十年」直接出现年号；解析為 AD 205
 - id: zztj.64.p12.t1
   anchor: zztj.64.p12
   at: 2
@@ -407,11 +379,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 200
+  year_ad: 205
   era: 建安
-  era_year: 5
+  era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安10年 (AD 205)，月份「正月」
 - id: zztj.64.p12.t2
   anchor: zztj.64.p12
   at: 623
@@ -420,11 +393,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 200
+  year_ad: 205
   era: 建安
-  era_year: 5
+  era_year: 10
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安10年 (AD 205)，月份「四月」
 - id: zztj.64.p12.t3
   anchor: zztj.64.p12
   at: 679
@@ -433,11 +407,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 200
+  year_ad: 205
   era: 建安
-  era_year: 5
+  era_year: 10
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安10年 (AD 205)，月份「八月」
 - id: zztj.64.p12.t4
   anchor: zztj.64.p12
   at: 706
@@ -446,11 +421,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 200
+  year_ad: 205
   era: 建安
-  era_year: 5
+  era_year: 10
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安10年 (AD 205)，月份「十月」
 - id: zztj.64.p12.t5
   anchor: zztj.64.p12
   at: 1107
@@ -459,19 +435,9 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 200
+  year_ad: 205
   era: 建安
-  era_year: 5
+  era_year: 10
   month_chinese: 一月
   month_ordinal: 1
-- id: zztj.64.p12.t6
-  anchor: zztj.64.p12
-  at: 1594
-  length: 3
-  type: temporal
-  text: 十六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 211
-  era: 建安
-  era_year: 16
+  reasoning: 年承前文 建安10年 (AD 205)，月份「一月」

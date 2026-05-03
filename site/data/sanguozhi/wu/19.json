@@ -125,7 +125,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
           "id": "wu.19.p14.t2",
@@ -137,7 +138,8 @@
           "resolution": "bare_year",
           "year_ad": 230,
           "era": "黃龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「黃龍」推得，「二年」 = 黃龍2年 = AD 230"
         },
         {
           "id": "wu.19.p14.t3",
@@ -151,7 +153,8 @@
           "era": "建興",
           "era_year": 1,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "原文「建興元年十月」直接出现年号；解析為 AD 252"
         }
       ]
     },
@@ -171,7 +174,8 @@
           "era": "建興",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建興元年 (AD 252)，月份「十二月」"
         },
         {
           "id": "wu.19.p15.t2",
@@ -183,7 +187,8 @@
           "resolution": "next_year",
           "year_ad": 253,
           "era": "建興",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 建興元年 (AD 252) 之次年 = AD 253"
         },
         {
           "id": "wu.19.p15.a1",
@@ -225,7 +230,8 @@
           "era": "建興",
           "era_year": 2,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建興2年 (AD 253)，月份「一月」"
         }
       ]
     },
@@ -245,7 +251,8 @@
           "era": "建興",
           "era_year": 2,
           "month_chinese": "秋八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建興2年 (AD 253)，月份「秋八月」"
         }
       ]
     },
@@ -358,7 +365,8 @@
           "resolution": "absolute",
           "year_ad": 251,
           "era": "太元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「太元元年」直接出现年号；解析為 AD 251（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -396,7 +404,8 @@
           "resolution": "absolute",
           "year_ad": 254,
           "era": "五鳳",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「五鳳元年」直接出现年号；解析為 AD 254"
         }
       ]
     },
@@ -414,7 +423,8 @@
           "resolution": "bare_year",
           "year_ad": 255,
           "era": "五鳳",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「五鳳」推得，「二年」 = 五鳳2年 = AD 255"
         },
         {
           "id": "wu.19.p31.a1",
@@ -433,7 +443,8 @@
           "resolution": "this_year",
           "year_ad": 255,
           "era": "五鳳",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 五鳳2年 (AD 255)"
         }
       ]
     },
@@ -451,7 +462,8 @@
           "resolution": "next_year",
           "year_ad": 256,
           "era": "五鳳",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 五鳳2年 (AD 255) 之次年 = AD 256"
         }
       ]
     },
@@ -549,7 +561,8 @@
           "era": "永安",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "原文「永安元年十二月」直接出现年号；解析為 AD 258"
         }
       ]
     },
@@ -585,7 +598,8 @@
           "resolution": "absolute",
           "year_ad": 260,
           "era": "永安",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「永安三年」直接出现年号；解析為 AD 260"
         },
         {
           "id": "wu.19.p44.t2",
@@ -599,7 +613,8 @@
           "era": "永安",
           "era_year": 7,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "承前文年號「永安」推得，「七年七月」 = 永安7年 = AD 264"
         },
         {
           "id": "wu.19.p44.t3",
@@ -613,7 +628,8 @@
           "era": "永安",
           "era_year": 7,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 永安7年 (AD 264)，月份「十一月」"
         }
       ]
     },

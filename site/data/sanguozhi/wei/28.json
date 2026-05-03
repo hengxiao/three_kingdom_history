@@ -55,7 +55,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "原文「嘉平元年九月」直接出现年号；解析為 AD 249"
         },
         {
           "id": "wei.28.p4.a1",
@@ -76,7 +77,8 @@
           "era": "嘉平",
           "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 嘉平元年 (AD 249)，月份「十一月」"
         },
         {
           "id": "wei.28.p4.a2",
@@ -101,7 +103,8 @@
           "resolution": "bare_year",
           "year_ad": 250,
           "era": "嘉平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250"
         },
         {
           "id": "wei.28.p5.a1",
@@ -109,18 +112,6 @@
           "at": 25,
           "length": 0,
           "text": "《魏略》曰：凌聞東平民浩詳知星，呼問詳。詳疑凌有所挾，欲悅其意，不言吳當有死喪，而言淮南楚分也，今吳、楚同佔，當有王者興。故凌計遂定。"
-        },
-        {
-          "id": "wei.28.p5.t2",
-          "type": "temporal",
-          "at": 25,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 251,
-          "era": "嘉平",
-          "era_year": 3
         },
         {
           "id": "wei.28.p5.a2",
@@ -183,9 +174,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 252,
+          "year_ad": 251,
           "era": "嘉平",
-          "era_year": 4
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 嘉平2年 (AD 250) 之次年 = AD 251"
         }
       ]
     },
@@ -217,7 +209,8 @@
           "resolution": "bare_year",
           "year_ad": 254,
           "era": "嘉平",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254"
         },
         {
           "id": "wei.28.p9.a3",
@@ -249,7 +242,8 @@
           "era": "正元",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "原文「正元二年正月」直接出现年号；解析為 AD 255"
         },
         {
           "id": "wei.28.p11.a1",
@@ -357,7 +351,8 @@
           "resolution": "absolute",
           "year_ad": 256,
           "era": "甘露",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「甘露元年」直接出现年号；解析為 AD 256"
         },
         {
           "id": "wei.28.p18.t2",
@@ -371,7 +366,8 @@
           "era": "甘露",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "承前文年號「甘露」推得，「二年五月」 = 甘露2年 = AD 257"
         },
         {
           "id": "wei.28.p18.a2",
@@ -379,18 +375,6 @@
           "at": 164,
           "length": 0,
           "text": "《世語》曰：司馬文王既秉朝政，長史賈充以為宜遣參佐慰勞四征，於是遣充至壽春。充還啟文王：「誕再在揚州，有威名，民望所歸。今徵，必不來，禍小事淺；不徵，事遲禍大。」乃以為司空。書至，誕曰：「我作公當在王文舒後，今便為司空！不遣使者，健步齎書，使以兵付樂綝，此必綝所為。」乃將左右數百人至揚州，揚州人欲閉門，誕叱曰：「卿非我故吏邪！」徑入，綝逃上樓，就斬之。魏末傳曰：賈充與誕相見，談說時事，因謂誕曰：「洛中諸賢，皆原禪代，君所知也。君以為云何？」誕厲色曰：「卿非賈豫州子？世受魏恩，如何負國，欲以魏室輸人乎？非吾所忍聞。若洛中有難，吾當死之。」充默然。誕既被徵，請諸牙門置酒飲宴，呼牙門從兵，皆賜酒令醉，謂眾人曰：「前作千人鎧仗始成，欲以擊賊，今當還洛，不復得用，欲蹔出，將見人遊戲，須臾還耳；諸君且止。」乃嚴鼓將士七百人出。樂綝聞之，閉州門。誕歷南門宣言曰：「當還洛邑，蹔出遊戲，揚州何為閉門見備？」前至東門，東門复閉，乃使兵緣城攻門，州人悉走，因風放火，焚其府庫，遂殺綝。誕表曰：「臣受國重任，統兵在東。揚州刺史樂綝專詐，說臣與吳交通，又言被詔當代臣位，無狀日久。臣奉國命，以死自立，終無異端。忿綝不忠，輒將步騎七百人，以今月六日討綝，即日斬首，函頭驛馬傳送。若聖朝明臣，臣即魏臣；不明臣，臣即吳臣。不勝發憤有日，謹拜表陳愚，悲感泣血，哽咽斷絕，不知所如，乞朝廷察臣至誠。」臣松之以為魏末傳所言，率皆鄙陋。疑誕表言曲，不至於此也。"
-        },
-        {
-          "id": "wei.28.p18.t3",
-          "type": "temporal",
-          "at": 196,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "甘露",
-          "era_year": 1
         },
         {
           "id": "wei.28.p18.a3",
@@ -413,11 +397,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 256,
+          "year_ad": 257,
           "era": "甘露",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 甘露2年 (AD 257)，月份「六月」"
         },
         {
           "id": "wei.28.p19.a1",
@@ -444,7 +429,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「甘露」推得，「三年正月」 = 甘露3年 = AD 258"
         },
         {
           "id": "wei.28.p20.a1",
@@ -466,34 +452,6 @@
       "id": "wei.28.p21",
       "text": "初圍壽春，議者多欲急攻之，大將軍以為：「城固而眾多，攻之必力屈，若有外寇，表裡受敵，此危道也。今三叛相聚於孤城之中，天其或者將使同就戮，吾當以全策縻之，可坐而制也。」誕以二年五月反，三年二月破滅。六軍按甲，深溝高壘，而誕自困，竟不煩攻而克。及破壽春，議者又以為淮南仍為叛逆，吳兵室家在江南，不可縱，宜悉坑之。大將軍以為古之用兵，全國為上，戮其元惡而已。吳兵就得亡還，適可以示中國之弘耳。一無所殺，分佈三河近郡以安處之。",
       "annotations": [
-        {
-          "id": "wei.28.p21.t1",
-          "type": "temporal",
-          "at": 85,
-          "length": 4,
-          "text": "二年五月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 257,
-          "era": "甘露",
-          "era_year": 2,
-          "month_chinese": "五月",
-          "month_ordinal": 5
-        },
-        {
-          "id": "wei.28.p21.t2",
-          "type": "temporal",
-          "at": 91,
-          "length": 4,
-          "text": "三年二月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 258,
-          "era": "甘露",
-          "era_year": 3,
-          "month_chinese": "二月",
-          "month_ordinal": 2
-        },
         {
           "id": "wei.28.p21.a1",
           "type": "pei",
@@ -543,18 +501,6 @@
         {
           "id": "wei.28.p24.t1",
           "type": "temporal",
-          "at": 233,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "甘露",
-          "era_year": 5
-        },
-        {
-          "id": "wei.28.p24.t2",
-          "type": "temporal",
           "at": 261,
           "length": 4,
           "text": "正始二年",
@@ -562,7 +508,8 @@
           "resolution": "absolute",
           "year_ad": 241,
           "era": "正始",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「正始二年」直接出现年号；解析為 AD 241（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -580,7 +527,8 @@
           "resolution": "absolute",
           "year_ad": 249,
           "era": "嘉平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「嘉平元年」直接出现年号；解析為 AD 249（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -616,9 +564,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 249,
-          "era": "嘉平",
-          "era_year": 1
+          "year_ad": 258,
+          "era": "甘露",
+          "era_year": 3,
+          "reasoning": "「其年」 = 当前年 甘露3年 (AD 258)"
         }
       ]
     },
@@ -641,19 +590,8 @@
           "resolution": "absolute",
           "year_ad": 256,
           "era": "甘露",
-          "era_year": 1
-        },
-        {
-          "id": "wei.28.p32.t2",
-          "type": "temporal",
-          "at": 165,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 257,
-          "era": "甘露",
-          "era_year": 2
+          "era_year": 1,
+          "reasoning": "原文「甘露元年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -671,7 +609,8 @@
           "resolution": "absolute",
           "year_ad": 262,
           "era": "景元",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「景元三年」直接出现年号；解析為 AD 262"
         },
         {
           "id": "wei.28.p33.t2",
@@ -683,7 +622,8 @@
           "resolution": "bare_year",
           "year_ad": 263,
           "era": "景元",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
         }
       ]
     },
@@ -703,7 +643,8 @@
           "era": "景元",
           "era_year": 4,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景元4年 (AD 263)，月份「冬十月」"
         }
       ]
     },
@@ -728,7 +669,8 @@
           "era": "景元",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景元4年 (AD 263)，月份「十二月」"
         },
         {
           "id": "wei.28.p36.a1",
@@ -786,32 +728,7 @@
     {
       "id": "wei.28.p41",
       "text": "泰始元年，晉室踐阼，詔曰：「昔太尉王凌謀廢齊王，而王竟不足以守位。征西將軍鄧艾，矜功失節，實應大辟。然被書之日，罷遣人眾，束手受罪，比於求生遂為惡者，誠復不同。今大赦得還，若無子孫者聽使立後，令祭祀不絕。」三年，議郎段灼上疏理艾曰：",
-      "annotations": [
-        {
-          "id": "wei.28.p41.t1",
-          "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "景元",
-          "era_year": 1
-        },
-        {
-          "id": "wei.28.p41.t2",
-          "type": "temporal",
-          "at": 103,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.28.p42",
@@ -850,7 +767,8 @@
           "resolution": "absolute",
           "year_ad": 261,
           "era": "景元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景元二年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.28.p45.a1",
@@ -906,7 +824,8 @@
           "resolution": "absolute",
           "year_ad": 257,
           "era": "甘露",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「甘露二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.28.p49.a1",
@@ -936,7 +855,8 @@
           "resolution": "absolute",
           "year_ad": 262,
           "era": "景元",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「景元三年」直接出现年号；解析為 AD 262（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.28.p51.t2",
@@ -948,7 +868,8 @@
           "resolution": "bare_year",
           "year_ad": 263,
           "era": "景元",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
         }
       ]
     },
@@ -1008,7 +929,8 @@
           "era": "景元",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景元4年 (AD 263)，月份「十二月」"
         }
       ]
     },
@@ -1022,20 +944,6 @@
           "at": 21,
           "length": 0,
           "text": "《世語》曰：會善效人書，於劍閣要艾章表白事，皆易其言，令辭指悖傲，多自矜伐。又毀文王報書，手作以疑之也。"
-        },
-        {
-          "id": "wei.28.p58.t1",
-          "type": "temporal",
-          "at": 351,
-          "length": 4,
-          "text": "五年正月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 264,
-          "era": "景元",
-          "era_year": 5,
-          "month_chinese": "正月",
-          "month_ordinal": 1
         },
         {
           "id": "wei.28.p58.a2",
@@ -1070,18 +978,6 @@
       "id": "wei.28.p60",
       "text": "初，艾為太尉，會為司徒，皆持節、都督諸軍如故，咸未受命而斃。會兄毓，以四年冬薨，會竟未知問。會兄子邕，隨會與俱死，會所養兄子毅及峻、辿等下獄，當伏誅。司馬文王表天子下詔曰：「峻等祖父繇，三祖之世，極位臺司，佐命立勳，饗食廟庭。父毓，歷職內外，幹事有績。昔楚思子文之治，不滅斗氏之祀；晉錄成宣之忠，用存趙氏之後。以會、邕之罪，而絕繇、毓之類，吾有愍然！峻、辿兄弟特原，有官爵者如故。惟毅及邕息伏法。」或曰，毓曾密啟司馬文王，言會挾術難保，不可專任，故宥峻等云。",
       "annotations": [
-        {
-          "id": "wei.28.p60.t1",
-          "type": "temporal",
-          "at": 35,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
-          "era_year": 4
-        },
         {
           "id": "wei.28.p60.a1",
           "type": "pei",

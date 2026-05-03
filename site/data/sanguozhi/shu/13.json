@@ -63,7 +63,8 @@
           "resolution": "absolute",
           "year_ad": 239,
           "era": "延熙",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「蜀延熙二年」直接出现年号；解析為 AD 239"
         },
         {
           "id": "shu.13.p3.a1",
@@ -82,7 +83,8 @@
           "resolution": "next_year",
           "year_ad": 240,
           "era": "延熙",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 延熙2年 (AD 239) 之次年 = AD 240"
         }
       ]
     },
@@ -107,7 +109,8 @@
           "resolution": "absolute",
           "year_ad": 221,
           "era": "章武",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p4.a2",
@@ -137,19 +140,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "建興",
-          "era_year": 7
-        },
-        {
-          "id": "shu.13.p6.t2",
-          "type": "temporal",
-          "at": 116,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 231,
-          "era": "建興",
-          "era_year": 9
+          "era_year": 7,
+          "reasoning": "原文「建興七年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -203,7 +195,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "建興",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p11.t2",
@@ -213,9 +206,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 225,
-          "era": "建興",
-          "era_year": 3
+          "year_ad": 240,
+          "era": "延熙",
+          "era_year": 3,
+          "reasoning": "承前文年號「延熙」推得，「三年」 = 延熙3年 = AD 240"
         },
         {
           "id": "shu.13.p11.t3",
@@ -225,9 +219,10 @@
           "text": "八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 230,
-          "era": "建興",
-          "era_year": 8
+          "year_ad": 245,
+          "era": "延熙",
+          "era_year": 8,
+          "reasoning": "承前文年號「延熙」推得，「八年」 = 延熙8年 = AD 245"
         },
         {
           "id": "shu.13.p11.t4",
@@ -237,9 +232,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 231,
-          "era": "建興",
-          "era_year": 9
+          "year_ad": 246,
+          "era": "延熙",
+          "era_year": 9,
+          "reasoning": "「明年」 = 当前年 延熙8年 (AD 245) 之次年 = AD 246"
         },
         {
           "id": "shu.13.p11.t5",
@@ -249,9 +245,10 @@
           "text": "十一年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 233,
-          "era": "建興",
-          "era_year": 11
+          "year_ad": 248,
+          "era": "延熙",
+          "era_year": 11,
+          "reasoning": "承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248"
         },
         {
           "id": "shu.13.p11.t6",
@@ -263,7 +260,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "延熙",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「延熙五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p11.t7",
@@ -275,7 +273,8 @@
           "resolution": "bare_year",
           "year_ad": 244,
           "era": "延熙",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "承前文年號「延熙」推得，「七年」 = 延熙7年 = AD 244"
         },
         {
           "id": "shu.13.p11.t8",
@@ -287,7 +286,8 @@
           "resolution": "bare_year",
           "year_ad": 249,
           "era": "延熙",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
         },
         {
           "id": "shu.13.p11.a1",
@@ -319,7 +319,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "建興",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「建興六年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p12.t2",
@@ -329,9 +330,10 @@
           "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 231,
-          "era": "建興",
-          "era_year": 9
+          "year_ad": 246,
+          "era": "延熙",
+          "era_year": 9,
+          "reasoning": "承前文年號「延熙」推得，「九年」 = 延熙9年 = AD 246"
         }
       ]
     },
@@ -347,9 +349,10 @@
           "text": "十二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 234,
-          "era": "建興",
-          "era_year": 12
+          "year_ad": 249,
+          "era": "延熙",
+          "era_year": 12,
+          "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
         },
         {
           "id": "shu.13.p13.t2",
@@ -359,9 +362,10 @@
           "text": "十五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "建興",
-          "era_year": 15
+          "year_ad": 252,
+          "era": "延熙",
+          "era_year": 15,
+          "reasoning": "承前文年號「延熙」推得，「十五年」 = 延熙15年 = AD 252"
         },
         {
           "id": "shu.13.p13.t3",
@@ -373,7 +377,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "延熙",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p13.t4",
@@ -385,7 +390,8 @@
           "resolution": "bare_year",
           "year_ad": 243,
           "era": "延熙",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「延熙」推得，「六年」 = 延熙6年 = AD 243"
         }
       ]
     },
@@ -403,7 +409,8 @@
           "resolution": "bare_year",
           "year_ad": 244,
           "era": "延熙",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "承前文年號「延熙」推得，「七年」 = 延熙7年 = AD 244"
         }
       ]
     },
@@ -421,7 +428,8 @@
           "resolution": "bare_year",
           "year_ad": 248,
           "era": "延熙",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248"
         }
       ]
     },
@@ -466,7 +474,8 @@
           "resolution": "absolute",
           "year_ad": 227,
           "era": "建興",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建興五年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.13.p17.a2",
@@ -489,29 +498,17 @@
           "text": "十四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 236,
-          "era": "建興",
-          "era_year": 14
+          "year_ad": 251,
+          "era": "延熙",
+          "era_year": 14,
+          "reasoning": "承前文年號「延熙」推得，「十四年」 = 延熙14年 = AD 251"
         }
       ]
     },
     {
       "id": "shu.13.p19",
       "text": "蘇祁邑君冬逢、逢弟魄渠等，已降復反。嶷誅逢。逢妻，旄牛王女，嶷以計原之。而渠逃入西徼。渠剛猛捷悍，為諸種深所畏憚，遣所親二人詐降嶷，實取消息。嶷覺之，許以重賞，使為反間，二人遂合謀殺渠。渠死，諸種皆安。又斯都耆帥李求承昔手殺龔祿，嶷求募捕得，數其宿惡而誅之。始嶷以郡郛宇頹壞，更築小塢。在官三年，徙還故郡，繕治城郭，夷種男女莫不致力。』",
-      "annotations": [
-        {
-          "id": "shu.13.p19.t1",
-          "type": "temporal",
-          "at": 145,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 225,
-          "era": "建興",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "shu.13.p20",
@@ -548,18 +545,6 @@
       "text": "在郡十五年，邦域安穆。屢乞求還，乃徵詣成都。夷民戀慕，扶轂泣涕，過旄牛邑，邑君襁負來迎，及追尋至蜀郡界，其督相率隨嶷朝貢者百餘人。嶷至，拜蕩寇將軍，慷慨壯烈，士人咸多貴之。然放蕩少禮，人亦以此譏焉，是歲延熙十七年也。魏狄道長李簡密書請降，衛將軍姜維率嶷等因簡之資以出隴西。既到狄道，簡悉率城中吏民出迎軍。軍前與魏將徐質交鋒，嶷臨陣隕身，然其所殺傷亦過倍。既亡，封長子瑛西鄉侯，次子護雄襲爵。南土越崔巂民夷聞嶷死，無不悲泣，為嶷立廟，四時水旱輒祀之。",
       "annotations": [
         {
-          "id": "shu.13.p26.t1",
-          "type": "temporal",
-          "at": 2,
-          "length": 3,
-          "text": "十五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "建興",
-          "era_year": 15
-        },
-        {
           "id": "shu.13.p26.a1",
           "type": "pei",
           "at": 99,
@@ -567,19 +552,20 @@
           "text": "《益部耆舊傳》曰：時車騎將軍夏侯霸謂嶷曰：「雖與足下疏闊，然託心如舊，宜明此意。」嶷答曰：「僕未知子，子未知我，大道在彼，何云託心乎！原三年之後徐陳斯言。」有識之士以為美談。"
         },
         {
-          "id": "shu.13.p26.t2",
+          "id": "shu.13.p26.t1",
           "type": "temporal",
           "at": 99,
           "length": 2,
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 237,
-          "era": "建興",
-          "era_year": 15
+          "year_ad": 251,
+          "era": "延熙",
+          "era_year": 14,
+          "reasoning": "「是歲」 = 当前年 延熙14年 (AD 251)"
         },
         {
-          "id": "shu.13.p26.t3",
+          "id": "shu.13.p26.t2",
           "type": "temporal",
           "at": 101,
           "length": 5,
@@ -588,7 +574,8 @@
           "resolution": "absolute",
           "year_ad": 254,
           "era": "延熙",
-          "era_year": 17
+          "era_year": 17,
+          "reasoning": "原文「延熙十七年」直接出现年号；解析為 AD 254"
         },
         {
           "id": "shu.13.p26.a2",

@@ -30,6 +30,7 @@ annotations:
   era_year: 24
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 原文「建安二十四年十一月」直接出现年号；解析為 AD 219
 - id: wu.13.p7.a1
   anchor: wu.13.p7
   at: 153
@@ -47,6 +48,7 @@ annotations:
   year_ad: 222
   era: 黃武
   era_year: 1
+  reasoning: 原文「黃武元年」直接出现年号；解析為 AD 222
 - id: wu.13.p8.a1
   anchor: wu.13.p8
   at: 156
@@ -70,6 +72,7 @@ annotations:
   year_ad: 228
   era: 黃武
   era_year: 7
+  reasoning: 承前文年號「黃武」推得，「七年」 = 黃武7年 = AD 228
 - id: wu.13.p15.a1
   anchor: wu.13.p15
   at: 41
@@ -87,6 +90,7 @@ annotations:
   year_ad: 229
   era: 黃龍
   era_year: 1
+  reasoning: 原文「黃龍元年」直接出现年号；解析為 AD 229
 - id: wu.13.p16.t2
   anchor: wu.13.p16
   at: 15
@@ -98,6 +102,7 @@ annotations:
   year_ad: 229
   era: 黃龍
   era_year: 1
+  reasoning: 「是歲」 = 当前年 黃龍元年 (AD 229)
 - id: wu.13.p22.t1
   anchor: wu.13.p22
   at: 0
@@ -109,6 +114,7 @@ annotations:
   year_ad: 236
   era: 嘉禾
   era_year: 5
+  reasoning: 原文「嘉禾五年」直接出现年号；解析為 AD 236
 - id: wu.13.p22.a1
   anchor: wu.13.p22
   at: 339
@@ -144,6 +150,7 @@ annotations:
   year_ad: 237
   era: 嘉禾
   era_year: 6
+  reasoning: 承前文年號「嘉禾」推得，「六年」 = 嘉禾6年 = AD 237
 - id: wu.13.p25.a1
   anchor: wu.13.p25
   at: 18
@@ -161,6 +168,7 @@ annotations:
   year_ad: 244
   era: 赤烏
   era_year: 7
+  reasoning: 原文「赤烏七年」直接出现年号；解析為 AD 244
 - id: wu.13.p31.t1
   anchor: wu.13.p31
   at: 82
@@ -172,6 +180,7 @@ annotations:
   year_ad: 246
   era: 赤烏
   era_year: 9
+  reasoning: 原文「赤烏九年」直接出现年号；解析為 AD 246
 - id: wu.13.p31.t2
   anchor: wu.13.p31
   at: 155
@@ -183,6 +192,7 @@ annotations:
   year_ad: 251
   era: 太元
   era_year: 1
+  reasoning: 原文「太元元年」直接出现年号；解析為 AD 251
 - id: wu.13.p31.t3
   anchor: wu.13.p31
   at: 217
@@ -194,6 +204,7 @@ annotations:
   year_ad: 252
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 252
 - id: wu.13.p31.t4
   anchor: wu.13.p31
   at: 228
@@ -205,6 +216,7 @@ annotations:
   year_ad: 257
   era: 太平
   era_year: 2
+  reasoning: 原文「太平二年」直接出现年号；解析為 AD 257
 - id: wu.13.p31.t5
   anchor: wu.13.p31
   at: 269
@@ -216,6 +228,7 @@ annotations:
   year_ad: 259
   era: 永安
   era_year: 2
+  reasoning: 原文「永安二年」直接出现年号；解析為 AD 259
 - id: wu.13.p31.t6
   anchor: wu.13.p31
   at: 292
@@ -227,6 +240,7 @@ annotations:
   year_ad: 260
   era: 永安
   era_year: 3
+  reasoning: 承前文年號「永安」推得，「三年」 = 永安3年 = AD 260
 - id: wu.13.p31.t7
   anchor: wu.13.p31
   at: 315
@@ -238,17 +252,7 @@ annotations:
   year_ad: 270
   era: 建衡
   era_year: 2
-- id: wu.13.p37.t1
-  anchor: wu.13.p37
-  at: 2
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 269
-  era: 建衡
-  era_year: 1
+  reasoning: 原文「建衡二年」直接出现年号；解析為 AD 270
 - id: wu.13.p38.a1
   anchor: wu.13.p38
   at: 297
@@ -266,6 +270,7 @@ annotations:
   year_ad: 270
   era: 建衡
   era_year: 2
+  reasoning: 承前文年號「建衡」推得，「二年」 = 建衡2年 = AD 270
 - id: wu.13.p44.t1
   anchor: wu.13.p44
   at: 0
@@ -277,6 +282,7 @@ annotations:
   year_ad: 271
   era: 建衡
   era_year: 3
+  reasoning: 承前文年號「建衡」推得，「三年」 = 建衡3年 = AD 271
 - id: wu.13.p46.t1
   anchor: wu.13.p46
   at: 34
@@ -288,6 +294,7 @@ annotations:
   year_ad: 280
   era: 天紀
   era_year: 4
+  reasoning: 原文「天紀四年」直接出现年号；解析為 AD 280
 - id: wu.13.p46.a1
   anchor: wu.13.p46
   at: 110
@@ -307,6 +314,7 @@ annotations:
   era_year: 4
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 天紀4年 (AD 280)，月份「二月」
 - id: wu.13.p46.a2
   anchor: wu.13.p46
   at: 155

@@ -16,6 +16,7 @@ annotations:
   year_ad: 167
   era: 永康
   era_year: 1
+  reasoning: 原文「永康元年」直接出现年号；解析為 AD 167
 - id: zztj.56.p2.t1
   anchor: zztj.56.p2
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 永康元年 (AD 167)，月份「正月」
 - id: zztj.56.p4.t1
   anchor: zztj.56.p4
   at: 2
@@ -42,6 +44,7 @@ annotations:
   era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 永康元年 (AD 167)，月份「四月」
 - id: zztj.56.p5.t1
   anchor: zztj.56.p5
   at: 0
@@ -55,6 +58,7 @@ annotations:
   era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 永康元年 (AD 167)，月份「五月」
 - id: zztj.56.p6.t1
   anchor: zztj.56.p6
   at: 690
@@ -68,6 +72,7 @@ annotations:
   era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 永康元年 (AD 167)，月份「六月」
 - id: zztj.56.p8.t1
   anchor: zztj.56.p8
   at: 2
@@ -81,6 +86,7 @@ annotations:
   era_year: 1
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 永康元年 (AD 167)，月份「八月」
 - id: zztj.56.p9.t1
   anchor: zztj.56.p9
   at: 0
@@ -94,6 +100,7 @@ annotations:
   era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 永康元年 (AD 167)，月份「六月」
 - id: zztj.56.p10.t1
   anchor: zztj.56.p10
   at: 2
@@ -107,6 +114,7 @@ annotations:
   era_year: 1
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 永康元年 (AD 167)，月份「十月」
 - id: zztj.56.p10.t2
   anchor: zztj.56.p10
   at: 130
@@ -120,6 +128,7 @@ annotations:
   era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 永康元年 (AD 167)，月份「十二月」
 - id: zztj.56.p11.t1
   anchor: zztj.56.p11
   at: 7
@@ -131,6 +140,7 @@ annotations:
   year_ad: 168
   era: 建寧
   era_year: 1
+  reasoning: 原文「建寧元年」直接出现年号；解析為 AD 168
 - id: zztj.56.p12.t1
   anchor: zztj.56.p12
   at: 2
@@ -144,6 +154,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「正月」
 - id: zztj.56.p12.t2
   anchor: zztj.56.p12
   at: 166
@@ -157,17 +168,7 @@ annotations:
   era_year: 1
   month_chinese: 二月
   month_ordinal: 2
-- id: zztj.56.p12.t3
-  anchor: zztj.56.p12
-  at: 619
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 171
-  era: 建寧
-  era_year: 4
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「二月」
 - id: zztj.56.p14.t1
   anchor: zztj.56.p14
   at: 2
@@ -176,11 +177,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 171
+  year_ad: 168
   era: 建寧
-  era_year: 4
+  era_year: 1
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「四月」
 - id: zztj.56.p14.t2
   anchor: zztj.56.p14
   at: 31
@@ -189,11 +191,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 171
+  year_ad: 168
   era: 建寧
-  era_year: 4
+  era_year: 1
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「五月」
 - id: zztj.56.p14.t3
   anchor: zztj.56.p14
   at: 54
@@ -202,11 +205,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 171
+  year_ad: 168
   era: 建寧
-  era_year: 4
+  era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「六月」
 - id: zztj.56.p14.t4
   anchor: zztj.56.p14
   at: 437
@@ -215,23 +219,13 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 171
+  year_ad: 168
   era: 建寧
-  era_year: 4
+  era_year: 1
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「七月」
 - id: zztj.56.p14.t5
-  anchor: zztj.56.p14
-  at: 833
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 169
-  era: 建寧
-  era_year: 2
-- id: zztj.56.p14.t6
   anchor: zztj.56.p14
   at: 1048
   length: 2
@@ -239,12 +233,13 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
   month_chinese: 八月
   month_ordinal: 8
-- id: zztj.56.p14.t7
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「八月」
+- id: zztj.56.p14.t6
   anchor: zztj.56.p14
   at: 1857
   length: 2
@@ -252,11 +247,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「九月」
 - id: zztj.56.p16.t1
   anchor: zztj.56.p16
   at: 2
@@ -265,11 +261,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「十月」
 - id: zztj.56.p16.t2
   anchor: zztj.56.p16
   at: 14
@@ -278,11 +275,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「十一月」
 - id: zztj.56.p16.t3
   anchor: zztj.56.p16
   at: 36
@@ -291,11 +289,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建寧元年 (AD 168)，月份「十二月」
 - id: zztj.56.p16.t4
   anchor: zztj.56.p16
   at: 52
@@ -304,9 +303,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 169
+  year_ad: 168
   era: 建寧
-  era_year: 2
+  era_year: 1
+  reasoning: 「是歲」 = 当前年 建寧元年 (AD 168)
 - id: zztj.56.p17.t1
   anchor: zztj.56.p17
   at: 7
@@ -318,6 +318,7 @@ annotations:
   year_ad: 169
   era: 建寧
   era_year: 2
+  reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169
 - id: zztj.56.p18.t1
   anchor: zztj.56.p18
   at: 2
@@ -331,6 +332,7 @@ annotations:
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「正月」
 - id: zztj.56.p18.t2
   anchor: zztj.56.p18
   at: 21
@@ -344,6 +346,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「三月」
 - id: zztj.56.p19.t1
   anchor: zztj.56.p19
   at: 2
@@ -357,6 +360,7 @@ annotations:
   era_year: 2
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「四月」
 - id: zztj.56.p19.t2
   anchor: zztj.56.p19
   at: 228
@@ -370,6 +374,7 @@ annotations:
   era_year: 2
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「三月」
 - id: zztj.56.p21.t1
   anchor: zztj.56.p21
   at: 133
@@ -383,6 +388,7 @@ annotations:
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「五月」
 - id: zztj.56.p21.t2
   anchor: zztj.56.p21
   at: 148
@@ -396,6 +402,7 @@ annotations:
   era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「六月」
 - id: zztj.56.p21.t3
   anchor: zztj.56.p21
   at: 325
@@ -409,6 +416,7 @@ annotations:
   era_year: 2
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「七月」
 - id: zztj.56.p23.t1
   anchor: zztj.56.p23
   at: 0
@@ -422,6 +430,7 @@ annotations:
   era_year: 2
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「九月」
 - id: zztj.56.p26.t1
   anchor: zztj.56.p26
   at: 2
@@ -435,17 +444,7 @@ annotations:
   era_year: 2
   month_chinese: 十月
   month_ordinal: 10
-- id: zztj.56.p33.t1
-  anchor: zztj.56.p33
-  at: 516
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 169
-  era: 建寧
-  era_year: 2
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「十月」
 - id: zztj.56.p35.t1
   anchor: zztj.56.p35
   at: 9
@@ -459,6 +458,7 @@ annotations:
   era_year: 2
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建寧2年 (AD 169)，月份「十一月」
 - id: zztj.56.p36.t1
   anchor: zztj.56.p36
   at: 7
@@ -470,6 +470,7 @@ annotations:
   year_ad: 170
   era: 建寧
   era_year: 3
+  reasoning: 原文「建寧三年」直接出现年号；解析為 AD 170
 - id: zztj.56.p37.t1
   anchor: zztj.56.p37
   at: 2
@@ -483,6 +484,7 @@ annotations:
   era_year: 3
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建寧3年 (AD 170)，月份「三月」
 - id: zztj.56.p38.t1
   anchor: zztj.56.p38
   at: 2
@@ -496,6 +498,7 @@ annotations:
   era_year: 3
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建寧3年 (AD 170)，月份「四月」
 - id: zztj.56.p38.t2
   anchor: zztj.56.p38
   at: 25
@@ -509,6 +512,7 @@ annotations:
   era_year: 3
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建寧3年 (AD 170)，月份「七月」
 - id: zztj.56.p38.t3
   anchor: zztj.56.p38
   at: 34
@@ -522,6 +526,7 @@ annotations:
   era_year: 3
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建寧3年 (AD 170)，月份「八月」
 - id: zztj.56.p38.t4
   anchor: zztj.56.p38
   at: 49
@@ -535,6 +540,7 @@ annotations:
   era_year: 3
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建寧3年 (AD 170)，月份「九月」
 - id: zztj.56.p39.t1
   anchor: zztj.56.p39
   at: 7
@@ -546,6 +552,7 @@ annotations:
   year_ad: 171
   era: 建寧
   era_year: 4
+  reasoning: 原文「建寧四年」直接出现年号；解析為 AD 171
 - id: zztj.56.p40.t1
   anchor: zztj.56.p40
   at: 2
@@ -559,6 +566,7 @@ annotations:
   era_year: 4
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「正月」
 - id: zztj.56.p40.t2
   anchor: zztj.56.p40
   at: 23
@@ -572,6 +580,7 @@ annotations:
   era_year: 4
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「二月」
 - id: zztj.56.p40.t3
   anchor: zztj.56.p40
   at: 32
@@ -585,6 +594,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「三月」
 - id: zztj.56.p41.t1
   anchor: zztj.56.p41
   at: 2
@@ -598,6 +608,7 @@ annotations:
   era_year: 4
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「四月」
 - id: zztj.56.p42.t1
   anchor: zztj.56.p42
   at: 2
@@ -611,6 +622,7 @@ annotations:
   era_year: 4
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「七月」
 - id: zztj.56.p43.t1
   anchor: zztj.56.p43
   at: 2
@@ -624,3 +636,4 @@ annotations:
   era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建寧4年 (AD 171)，月份「十月」

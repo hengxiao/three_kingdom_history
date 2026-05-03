@@ -311,7 +311,8 @@
           "resolution": "absolute",
           "year_ad": 176,
           "era": "熹平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「熹平五年」直接出现年号；解析為 AD 176"
         },
         {
           "id": "hhs.67.p13.a1",
@@ -336,7 +337,8 @@
           "resolution": "absolute",
           "year_ad": 179,
           "era": "光和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「光和二年」直接出现年号；解析為 AD 179"
         },
         {
           "id": "hhs.67.p14.a1",
@@ -368,7 +370,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184"
         },
         {
           "id": "hhs.67.p15.a1",
@@ -406,7 +409,8 @@
           "resolution": "absolute",
           "year_ad": 154,
           "era": "永興",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永興二年」直接出现年号；解析為 AD 154（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -483,7 +487,8 @@
           "resolution": "absolute",
           "year_ad": 156,
           "era": "永壽",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永壽二年」直接出现年号；解析為 AD 156（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -501,7 +506,8 @@
           "resolution": "absolute",
           "year_ad": 159,
           "era": "延熹",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.67.p22.a1",
@@ -815,9 +821,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 160,
-          "era": "延熹",
-          "era_year": 3
+          "year_ad": 185,
+          "era": "中平",
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 中平元年 (AD 184) 之次年 = AD 185"
         }
       ]
     },
@@ -861,7 +868,8 @@
           "resolution": "absolute",
           "year_ad": 161,
           "era": "延熹",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1224,7 +1232,8 @@
           "resolution": "absolute",
           "year_ad": 169,
           "era": "建寧",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.67.p61.a1",
@@ -1357,7 +1366,8 @@
           "resolution": "absolute",
           "year_ad": 165,
           "era": "延熹",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.67.p70.a1",
@@ -1400,7 +1410,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1620,7 +1631,8 @@
           "resolution": "absolute",
           "year_ad": 166,
           "era": "延熹",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「延熹九年」直接出现年号；解析為 AD 166（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1793,7 +1805,8 @@
           "resolution": "absolute",
           "year_ad": 166,
           "era": "延熹",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「延熹九年」直接出现年号；解析為 AD 166（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.67.p109.t2",
@@ -1803,61 +1816,10 @@
           "text": "是年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 166,
-          "era": "延熹",
-          "era_year": 9
-        },
-        {
-          "id": "hhs.67.p109.t3",
-          "type": "temporal",
-          "at": 37,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 166,
-          "era": "延熹",
-          "era_year": 9
-        },
-        {
-          "id": "hhs.67.p109.t4",
-          "type": "temporal",
-          "at": 43,
-          "length": 4,
-          "text": "八年三月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 165,
-          "era": "延熹",
-          "era_year": 8,
-          "month_chinese": "三月",
-          "month_ordinal": 3
-        },
-        {
-          "id": "hhs.67.p109.t5",
-          "type": "temporal",
-          "at": 67,
-          "length": 4,
-          "text": "八年三月",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 165,
-          "era": "延熹",
-          "era_year": 8,
-          "month_chinese": "三月",
-          "month_ordinal": 3
-        },
-        {
-          "id": "hhs.67.p109.t6",
-          "type": "temporal",
-          "at": 101,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 165,
-          "era": "延熹",
-          "era_year": 8
+          "year_ad": 185,
+          "era": "中平",
+          "era_year": 2,
+          "reasoning": "「是年」 = 当前年 中平2年 (AD 185)"
         }
       ]
     },

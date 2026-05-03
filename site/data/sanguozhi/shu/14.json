@@ -35,7 +35,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "建興",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223"
         },
         {
           "id": "shu.14.p2.t2",
@@ -47,7 +48,8 @@
           "resolution": "bare_year",
           "year_ad": 227,
           "era": "建興",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「建興」推得，「五年」 = 建興5年 = AD 227"
         },
         {
           "id": "shu.14.p2.t3",
@@ -59,7 +61,8 @@
           "resolution": "bare_year",
           "year_ad": 230,
           "era": "建興",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "承前文年號「建興」推得，「八年」 = 建興8年 = AD 230"
         }
       ]
     },
@@ -77,7 +80,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "延熙",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熙元年」直接出现年号；解析為 AD 238"
         },
         {
           "id": "shu.14.p3.t2",
@@ -89,7 +93,8 @@
           "resolution": "next_year",
           "year_ad": 239,
           "era": "延熙",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 延熙元年 (AD 238) 之次年 = AD 239"
         }
       ]
     },
@@ -106,38 +111,12 @@
     {
       "id": "shu.14.p6",
       "text": "芟穢弭難，臣職是掌。自臣奉辭漢中，已經六年，臣既闇弱，加嬰疾疢，規方無成，夙夜憂慘。今魏跨帶九州，根蒂滋蔓，平除未易。若東西並力，首尾掎角。雖未能速得如志，且當分裂蠶食，先摧其支黨。然吳期二三，連不克果，俯仰惟艱，實忘寢食。輒與費禕等議，以涼州胡塞之要，進退有資，賊之所惜；且羌、胡乃心思漢如渴。又昔偏軍人羌，郭淮破走，算其長短，以為事首，宜以姜維為涼州刺史。若維征行，銜持河右，臣當帥軍為維鎮繼。今涪水陸四通，惟急是應。若東北有虞，赴之不難。",
-      "annotations": [
-        {
-          "id": "shu.14.p6.t1",
-          "type": "temporal",
-          "at": 19,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 243,
-          "era": "延熙",
-          "era_year": 6
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "shu.14.p7",
       "text": "由是琬遂還住涪。疾轉增劇，至九年卒，謚曰恭。",
-      "annotations": [
-        {
-          "id": "shu.14.p7.t1",
-          "type": "temporal",
-          "at": 14,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 246,
-          "era": "延熙",
-          "era_year": 9
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "shu.14.p8",
@@ -196,7 +175,8 @@
           "resolution": "absolute",
           "year_ad": 230,
           "era": "建興",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.14.p12.a1",
@@ -221,7 +201,8 @@
           "resolution": "absolute",
           "year_ad": 244,
           "era": "延熙",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「延熙七年」直接出现年号；解析為 AD 244"
         },
         {
           "id": "shu.14.p13.a1",
@@ -247,19 +228,8 @@
           "resolution": "bare_year",
           "year_ad": 248,
           "era": "延熙",
-          "era_year": 11
-        },
-        {
-          "id": "shu.14.p13.t3",
-          "type": "temporal",
-          "at": 172,
-          "length": 3,
-          "text": "十四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 251,
-          "era": "延熙",
-          "era_year": 14
+          "era_year": 11,
+          "reasoning": "承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248"
         }
       ]
     },
@@ -277,7 +247,8 @@
           "resolution": "absolute",
           "year_ad": 252,
           "era": "延熙",
-          "era_year": 15
+          "era_year": 15,
+          "reasoning": "原文「延熙十五年」直接出现年号；解析為 AD 252"
         },
         {
           "id": "shu.14.p14.t2",
@@ -289,7 +260,8 @@
           "resolution": "bare_year",
           "year_ad": 253,
           "era": "延熙",
-          "era_year": 16
+          "era_year": 16,
+          "reasoning": "承前文年號「延熙」推得，「十六年」 = 延熙16年 = AD 253"
         },
         {
           "id": "shu.14.p14.a1",
@@ -321,7 +293,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "建興",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「建興六年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.14.p15.a2",
@@ -351,9 +324,10 @@
           "text": "十二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 234,
-          "era": "建興",
-          "era_year": 12
+          "year_ad": 249,
+          "era": "延熙",
+          "era_year": 12,
+          "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
         },
         {
           "id": "shu.14.p16.t2",
@@ -365,7 +339,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "延熙",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "shu.14.p16.t3",
@@ -377,7 +352,8 @@
           "resolution": "bare_year",
           "year_ad": 243,
           "era": "延熙",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「延熙」推得，「六年」 = 延熙6年 = AD 243"
         },
         {
           "id": "shu.14.p16.t4",
@@ -389,7 +365,8 @@
           "resolution": "bare_year",
           "year_ad": 247,
           "era": "延熙",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "承前文年號「延熙」推得，「十年」 = 延熙10年 = AD 247"
         },
         {
           "id": "shu.14.p16.t5",
@@ -401,7 +378,8 @@
           "resolution": "this_year",
           "year_ad": 247,
           "era": "延熙",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "「是歲」 = 当前年 延熙10年 (AD 247)"
         },
         {
           "id": "shu.14.p16.t6",
@@ -413,7 +391,8 @@
           "resolution": "bare_year",
           "year_ad": 249,
           "era": "延熙",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "承前文年號「延熙」推得，「十二年」 = 延熙12年 = AD 249"
         },
         {
           "id": "shu.14.p16.a1",
@@ -438,7 +417,8 @@
           "resolution": "bare_year",
           "year_ad": 253,
           "era": "延熙",
-          "era_year": 16
+          "era_year": 16,
+          "reasoning": "承前文年號「延熙」推得，「十六年」 = 延熙16年 = AD 253"
         },
         {
           "id": "shu.14.p17.t2",
@@ -450,19 +430,8 @@
           "resolution": "next_year",
           "year_ad": 254,
           "era": "延熙",
-          "era_year": 17
-        },
-        {
-          "id": "shu.14.p17.t3",
-          "type": "temporal",
-          "at": 116,
-          "length": 3,
-          "text": "十八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 255,
-          "era": "延熙",
-          "era_year": 18
+          "era_year": 17,
+          "reasoning": "「明年」 = 当前年 延熙16年 (AD 253) 之次年 = AD 254"
         }
       ]
     },
@@ -480,7 +449,8 @@
           "resolution": "bare_year",
           "year_ad": 256,
           "era": "延熙",
-          "era_year": 19
+          "era_year": 19,
+          "reasoning": "承前文年號「延熙」推得，「十九年」 = 延熙19年 = AD 256"
         }
       ]
     },
@@ -498,7 +468,8 @@
           "resolution": "bare_year",
           "year_ad": 257,
           "era": "延熙",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "承前文年號「延熙」推得，「二十年」 = 延熙20年 = AD 257"
         },
         {
           "id": "shu.14.p19.t2",
@@ -510,7 +481,8 @@
           "resolution": "absolute",
           "year_ad": 258,
           "era": "景耀",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景耀元年」直接出现年号；解析為 AD 258"
         }
       ]
     },
@@ -533,7 +505,8 @@
           "resolution": "bare_year",
           "year_ad": 262,
           "era": "景耀",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「景耀」推得，「五年」 = 景耀5年 = AD 262"
         },
         {
           "id": "shu.14.p21.a1",
@@ -552,7 +525,8 @@
           "resolution": "bare_year",
           "year_ad": 263,
           "era": "景耀",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263"
         },
         {
           "id": "shu.14.p21.a2",

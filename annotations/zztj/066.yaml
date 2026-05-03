@@ -16,6 +16,7 @@ annotations:
   year_ad: 209
   era: 建安
   era_year: 14
+  reasoning: 原文「建安十四年」直接出现年号；解析為 AD 209
 - id: zztj.66.p5.t1
   anchor: zztj.66.p5
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 14
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安14年 (AD 209)，月份「三月」
 - id: zztj.66.p7.t1
   anchor: zztj.66.p7
   at: 2
@@ -42,6 +44,7 @@ annotations:
   era_year: 14
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安14年 (AD 209)，月份「七月」
 - id: zztj.66.p8.t1
   anchor: zztj.66.p8
   at: 2
@@ -55,6 +58,7 @@ annotations:
   era_year: 14
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安14年 (AD 209)，月份「十月」
 - id: zztj.66.p9.t1
   anchor: zztj.66.p9
   at: 0
@@ -68,6 +72,7 @@ annotations:
   era_year: 14
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安14年 (AD 209)，月份「十二月」
 - id: zztj.66.p14.t1
   anchor: zztj.66.p14
   at: 5
@@ -79,6 +84,7 @@ annotations:
   year_ad: 210
   era: 建安
   era_year: 15
+  reasoning: 原文「建安十五年」直接出现年号；解析為 AD 210
 - id: zztj.66.p16.t1
   anchor: zztj.66.p16
   at: 0
@@ -92,6 +98,7 @@ annotations:
   era_year: 15
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安15年 (AD 210)，月份「二月」
 - id: zztj.66.p18.t1
   anchor: zztj.66.p18
   at: 0
@@ -105,17 +112,7 @@ annotations:
   era_year: 15
   month_chinese: 十二月
   month_ordinal: 12
-- id: zztj.66.p18.t2
-  anchor: zztj.66.p18
-  at: 113
-  length: 3
-  type: temporal
-  text: 二十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 215
-  era: 建安
-  era_year: 20
+  reasoning: 年承前文 建安15年 (AD 210)，月份「十二月」
 - id: zztj.66.p25.t1
   anchor: zztj.66.p25
   at: 5
@@ -127,6 +124,7 @@ annotations:
   year_ad: 211
   era: 建安
   era_year: 16
+  reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211
 - id: zztj.66.p26.t1
   anchor: zztj.66.p26
   at: 2
@@ -135,11 +133,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安16年 (AD 211)，月份「正月」
 - id: zztj.66.p27.t1
   anchor: zztj.66.p27
   at: 0
@@ -148,11 +147,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安16年 (AD 211)，月份「三月」
 - id: zztj.66.p28.t1
   anchor: zztj.66.p28
   at: 2
@@ -161,11 +161,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安16年 (AD 211)，月份「七月」
 - id: zztj.66.p29.t1
   anchor: zztj.66.p29
   at: 0
@@ -174,11 +175,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安16年 (AD 211)，月份「八月」
 - id: zztj.66.p29.t2
   anchor: zztj.66.p29
   at: 236
@@ -187,11 +189,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安16年 (AD 211)，月份「九月」
 - id: zztj.66.p32.t1
   anchor: zztj.66.p32
   at: 2
@@ -200,11 +203,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安16年 (AD 211)，月份「十月」
 - id: zztj.66.p33.t1
   anchor: zztj.66.p33
   at: 0
@@ -213,11 +217,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 211
   era: 建安
-  era_year: 20
+  era_year: 16
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安16年 (AD 211)，月份「十二月」
 - id: zztj.66.p37.t1
   anchor: zztj.66.p37
   at: 5
@@ -229,6 +234,7 @@ annotations:
   year_ad: 212
   era: 建安
   era_year: 17
+  reasoning: 原文「建安十七年」直接出现年号；解析為 AD 212
 - id: zztj.66.p38.t1
   anchor: zztj.66.p38
   at: 2
@@ -237,11 +243,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安17年 (AD 212)，月份「正月」
 - id: zztj.66.p40.t1
   anchor: zztj.66.p40
   at: 2
@@ -250,11 +257,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安17年 (AD 212)，月份「五月」
 - id: zztj.66.p41.t1
   anchor: zztj.66.p41
   at: 0
@@ -263,11 +271,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 建安17年 (AD 212)，月份「六月」
 - id: zztj.66.p41.t2
   anchor: zztj.66.p41
   at: 14
@@ -276,11 +285,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安17年 (AD 212)，月份「七月」
 - id: zztj.66.p44.t1
   anchor: zztj.66.p44
   at: 0
@@ -289,11 +299,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安17年 (AD 212)，月份「九月」
 - id: zztj.66.p47.t1
   anchor: zztj.66.p47
   at: 2
@@ -302,11 +313,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安17年 (AD 212)，月份「十月」
 - id: zztj.66.p49.t1
   anchor: zztj.66.p49
   at: 0
@@ -315,11 +327,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 212
   era: 建安
-  era_year: 20
+  era_year: 17
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安17年 (AD 212)，月份「十二月」
 - id: zztj.66.p51.t1
   anchor: zztj.66.p51
   at: 5
@@ -331,6 +344,7 @@ annotations:
   year_ad: 213
   era: 建安
   era_year: 18
+  reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213
 - id: zztj.66.p52.t1
   anchor: zztj.66.p52
   at: 2
@@ -339,11 +353,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安18年 (AD 213)，月份「正月」
 - id: zztj.66.p54.t1
   anchor: zztj.66.p54
   at: 2
@@ -352,11 +367,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 建安18年 (AD 213)，月份「四月」
 - id: zztj.66.p56.t1
   anchor: zztj.66.p56
   at: 0
@@ -365,11 +381,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安18年 (AD 213)，月份「五月」
 - id: zztj.66.p58.t1
   anchor: zztj.66.p58
   at: 2
@@ -378,11 +395,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安18年 (AD 213)，月份「七月」
 - id: zztj.66.p60.t1
   anchor: zztj.66.p60
   at: 134
@@ -391,11 +409,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安18年 (AD 213)，月份「正月」
 - id: zztj.66.p60.t2
   anchor: zztj.66.p60
   at: 137
@@ -404,11 +423,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安18年 (AD 213)，月份「八月」
 - id: zztj.66.p62.t1
   anchor: zztj.66.p62
   at: 0
@@ -417,11 +437,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安18年 (AD 213)，月份「九月」
 - id: zztj.66.p63.t1
   anchor: zztj.66.p63
   at: 2
@@ -430,8 +451,9 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 215
+  year_ad: 213
   era: 建安
-  era_year: 20
+  era_year: 18
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建安18年 (AD 213)，月份「十一月」

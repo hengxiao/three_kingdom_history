@@ -224,7 +224,8 @@
           "resolution": "absolute",
           "year_ad": 260,
           "era": "景元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景元元年」直接出现年号；解析為 AD 260"
         },
         {
           "id": "wei.22.p27.a1",
@@ -281,7 +282,8 @@
           "resolution": "absolute",
           "year_ad": 237,
           "era": "景初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.22.p30.a2",
@@ -360,7 +362,8 @@
           "resolution": "absolute",
           "year_ad": 236,
           "era": "青龍",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「青龍四年」直接出现年号；解析為 AD 236（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -457,19 +460,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "青龍",
-          "era_year": 2
-        },
-        {
-          "id": "wei.22.p49.t2",
-          "type": "temporal",
-          "at": 138,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 235,
-          "era": "青龍",
-          "era_year": 3
+          "era_year": 2,
+          "reasoning": "原文「青龍二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -502,7 +494,8 @@
           "resolution": "absolute",
           "year_ad": 256,
           "era": "正元",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「正元三年」直接出现年号；解析為 AD 256（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.22.p53.t2",
@@ -514,7 +507,8 @@
           "resolution": "absolute",
           "year_ad": 257,
           "era": "甘露",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「甘露二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）"
         }
       ]
     },

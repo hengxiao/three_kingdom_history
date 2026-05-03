@@ -50,7 +50,8 @@
           "resolution": "absolute",
           "year_ad": 49,
           "era": "建武",
-          "era_year": 25
+          "era_year": 25,
+          "reasoning": "原文「建武二十五年」直接出现年号；解析為 AD 49"
         }
       ]
     },
@@ -81,7 +82,8 @@
           "resolution": "absolute",
           "year_ad": 206,
           "era": "建安",
-          "era_year": 11
+          "era_year": 11,
+          "reasoning": "原文「建安十一年」直接出现年号；解析為 AD 206"
         },
         {
           "id": "wei.30.p4.t2",
@@ -93,7 +95,8 @@
           "resolution": "absolute",
           "year_ad": 237,
           "era": "景初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237"
         }
       ]
     },
@@ -124,7 +127,8 @@
           "resolution": "absolute",
           "year_ad": 224,
           "era": "黃初",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「黃初五年」直接出现年号；解析為 AD 224（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.30.p6.t2",
@@ -136,7 +140,8 @@
           "resolution": "absolute",
           "year_ad": 233,
           "era": "青龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -154,7 +159,8 @@
           "resolution": "absolute",
           "year_ad": 221,
           "era": "黃初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.30.p7.t2",
@@ -164,21 +170,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 222,
-          "era": "黃初",
-          "era_year": 3
-        },
-        {
-          "id": "wei.30.p7.t3",
-          "type": "temporal",
-          "at": 303,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 224,
-          "era": "黃初",
-          "era_year": 5
+          "year_ad": 238,
+          "era": "景初",
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 景初元年 (AD 237) 之次年 = AD 238"
         }
       ]
     },
@@ -196,7 +191,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.30.p8.t2",
@@ -208,19 +204,8 @@
           "resolution": "absolute",
           "year_ad": 233,
           "era": "青龍",
-          "era_year": 1
-        },
-        {
-          "id": "wei.30.p8.t3",
-          "type": "temporal",
-          "at": 204,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 235,
-          "era": "青龍",
-          "era_year": 3
+          "era_year": 1,
+          "reasoning": "原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -238,7 +223,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "太和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -259,11 +245,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 228,
-          "era": "太和",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「正月」"
         },
         {
           "id": "wei.30.p11.t2",
@@ -273,11 +260,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 228,
-          "era": "太和",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「五月」"
         }
       ]
     },
@@ -306,11 +294,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 228,
-          "era": "太和",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「十月」"
         },
         {
           "id": "wei.30.p13.t2",
@@ -320,11 +309,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 228,
-          "era": "太和",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「十月」"
         }
       ]
     },
@@ -352,7 +342,8 @@
           "resolution": "absolute",
           "year_ad": 169,
           "era": "建寧",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -375,7 +366,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "景初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景初二年」直接出现年号；解析為 AD 238"
         },
         {
           "id": "wei.30.p18.t2",
@@ -387,19 +379,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "正始",
-          "era_year": 3
-        },
-        {
-          "id": "wei.30.p18.t3",
-          "type": "temporal",
-          "at": 159,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 244,
-          "era": "正始",
-          "era_year": 5
+          "era_year": 3,
+          "reasoning": "原文「正始三年」直接出现年号；解析為 AD 242"
         },
         {
           "id": "wei.30.p18.a1",
@@ -413,32 +394,7 @@
     {
       "id": "wei.30.p19",
       "text": "東沃沮在高句麗蓋馬大山之東，濱大海而居。其地形東北狹，西南長，可千里，北與挹婁、夫餘，南與濊貊接。戶五千，無大君王，世世邑落，各有長帥。其言語與句麗大同，時時小異。漢初，燕亡人衛滿王朝鮮，時沃沮皆屬焉。漢武帝元封二年，伐朝鮮，殺滿孫右渠，分其地爲四郡，以沃沮城爲玄菟郡。後爲夷貊所侵，徙郡句麗西北，今所謂玄菟故府是也。沃沮還屬樂浪。漢以土地廣遠，在單單大領之東，分置東部都尉，治不耐城，別主領東七縣，時沃沮亦皆爲縣。漢（光）武六年，省邊郡，都尉由此罷。其後皆以其縣中渠帥爲縣侯，不耐、華麗、沃沮諸縣皆爲侯國。夷狄更相攻伐，唯不耐濊侯至今猶置功曹、主簿諸曹，皆濊民作之。沃沮諸邑落渠帥，皆自稱三老，則故縣國之制也。國小，迫於大國之間，遂臣屬句麗。句麗復置其中大人爲使者，使相主領，又使大加統責其租稅，貊布、魚、鹽、海中食物，千里擔負致之，又送其美女以爲婢妾，遇之如奴僕。",
-      "annotations": [
-        {
-          "id": "wei.30.p19.t1",
-          "type": "temporal",
-          "at": 106,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 241,
-          "era": "正始",
-          "era_year": 2
-        },
-        {
-          "id": "wei.30.p19.t2",
-          "type": "temporal",
-          "at": 213,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 245,
-          "era": "正始",
-          "era_year": 6
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.30.p20",
@@ -457,11 +413,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 245,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 6,
+          "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「七月」"
         }
       ]
     },
@@ -482,11 +439,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 245,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 6,
+          "era_year": 3,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「十月」"
         },
         {
           "id": "wei.30.p23.a1",
@@ -511,19 +469,8 @@
           "resolution": "absolute",
           "year_ad": 245,
           "era": "正始",
-          "era_year": 6
-        },
-        {
-          "id": "wei.30.p24.t2",
-          "type": "temporal",
-          "at": 40,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 247,
-          "era": "正始",
-          "era_year": 8
+          "era_year": 6,
+          "reasoning": "原文「正始六年」直接出现年号；解析為 AD 245"
         }
       ]
     },
@@ -546,18 +493,6 @@
         {
           "id": "wei.30.p26.t1",
           "type": "temporal",
-          "at": 541,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 242,
-          "era": "正始",
-          "era_year": 3
-        },
-        {
-          "id": "wei.30.p26.t2",
-          "type": "temporal",
           "at": 723,
           "length": 4,
           "text": "延光四年",
@@ -565,7 +500,8 @@
           "resolution": "absolute",
           "year_ad": 125,
           "era": "延光",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「延光四年」直接出现年号；解析為 AD 125（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -586,11 +522,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 125,
-          "era": "延光",
-          "era_year": 4,
+          "year_ad": 245,
+          "era": "正始",
+          "era_year": 6,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「五月」"
         },
         {
           "id": "wei.30.p28.t2",
@@ -600,11 +537,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 125,
-          "era": "延光",
-          "era_year": 4,
+          "year_ad": 245,
+          "era": "正始",
+          "era_year": 6,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「十月」"
         }
       ]
     },
@@ -657,11 +595,12 @@
           "text": "一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 125,
-          "era": "延光",
-          "era_year": 4,
+          "year_ad": 245,
+          "era": "正始",
+          "era_year": 6,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「一月」"
         }
       ]
     },
@@ -673,20 +612,7 @@
     {
       "id": "wei.30.p34",
       "text": "其會同坐起，父子男女無别，人性嗜酒。見大人所敬，但搏手以當跪拜。其人壽考，或百年，或八、九十年。其俗，國大人皆四五婦，下户或二三婦。婦人不淫，不妬忌。不盜竊，少諍訟。其犯法，輕者没其妻子，重者滅其門户及宗族尊卑，各有差序，足相臣服。收租賦。有邸閣，國國有市，交易有無，使大倭監之。自女王國以北，特置一大率，檢察諸國，諸國畏憚之。常治伊都國，於國中有如刺史。王遣使詣京都、帶方郡、諸韓國，及郡使倭國，皆臨津搜露，傳送文書、賜遺之物詣女王，不得差錯。下户與大人相逢道路，逡巡入草。傳辭說事，或蹲或跪，兩手據地，爲之恭敬。對應聲曰「噫」，比如「然」「諾」。其國本亦以男子爲王，住七八十年，倭國亂，相攻伐歷年，乃共立一女子爲王，名曰卑彌呼，事鬼道，能惑衆。年已長大，無夫壻，有男弟佐治國。自爲王以來，少有見者。以婢千人自侍，唯有男子一人給飲食，傳辭出入。居處宫室樓觀，城栅嚴設，常有人持兵守衛。女王國東渡海千餘里，復有國，皆倭種。又有侏儒國在其南，人長三四尺，去女王四千餘里，又有裸國、黑齒國，復在其東南，船行一年可至。參問倭地，絕在海中洲島之上，或絕或連，周旋可五千餘里。",
-      "annotations": [
-        {
-          "id": "wei.30.p34.t1",
-          "type": "temporal",
-          "at": 451,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 122,
-          "era": "延光",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.30.p35",
@@ -704,7 +630,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "原文「景初二年六月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wei.30.p35.t2",
@@ -714,9 +641,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 238,
-          "era": "景初",
-          "era_year": 2
+          "year_ad": 245,
+          "era": "正始",
+          "era_year": 6,
+          "reasoning": "「其年」 = 当前年 正始6年 (AD 245)"
         },
         {
           "id": "wei.30.p35.t3",
@@ -728,43 +656,8 @@
           "resolution": "absolute",
           "year_ad": 240,
           "era": "正始",
-          "era_year": 1
-        },
-        {
-          "id": "wei.30.p35.t4",
-          "type": "temporal",
-          "at": 411,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 243,
-          "era": "正始",
-          "era_year": 4
-        },
-        {
-          "id": "wei.30.p35.t5",
-          "type": "temporal",
-          "at": 474,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 245,
-          "era": "正始",
-          "era_year": 6
-        },
-        {
-          "id": "wei.30.p35.t6",
-          "type": "temporal",
-          "at": 492,
-          "length": 2,
-          "text": "八年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 247,
-          "era": "正始",
-          "era_year": 8
+          "era_year": 1,
+          "reasoning": "原文「正始元年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -780,31 +673,19 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 247,
+          "year_ad": 245,
           "era": "正始",
-          "era_year": 8,
+          "era_year": 6,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「六月」"
         }
       ]
     },
     {
       "id": "wei.30.p37",
       "text": "南道西行，且志國、小宛國、精絕國、樓蘭國皆並屬鄯善也。戎盧國、扞彌國、渠勒國、〔皮山國〕皆並屬於寘。罽賓國、大夏國、高附國、天竺國皆並屬大月氏。臨兒國，浮屠經云其國王生浮屠。浮屠，太子也。父曰屑頭邪，母云莫邪。浮屠身服色黃，髮青如青絲，乳青毛，蛉赤如銅。始莫邪夢白象而孕，及生，從母左脅出，生而有結，墮地能行七步。此國在天竺城中。天竺又有神人，名沙律。昔漢哀帝元壽元年，博士弟子景盧受大月氏王使伊存口受浮屠經曰復立者其人也。浮屠所載臨蒲塞、桑門、伯聞、疏問、白疏間、比丘、晨門，皆弟子號也。浮屠所載與中國老子經相出入，蓋以爲老子西出關，過西域之天竺、教胡。浮屠屬弟子別號，合有二十九，不能詳載，故略之如此。車離國一名禮惟特，一名沛隸王，在天竺東南三千餘里，其地卑濕暑熱。其王治沙奇城，有別城數十，人民怯弱，月氏、天竺擊服之。其地東西南北數千里，人民男女皆長一丈八尺，乘象、橐扆以戰，今月氏役稅之。盤越國一名漢越王，在天竺東南數千里，與益部相近，其人小與中國人等，蜀人賈似至焉。",
-      "annotations": [
-        {
-          "id": "wei.30.p37.t1",
-          "type": "temporal",
-          "at": 182,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 240,
-          "era": "正始",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.30.p38",
@@ -818,11 +699,12 @@
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 240,
+          "year_ad": 245,
           "era": "正始",
-          "era_year": 1,
+          "era_year": 6,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「二月」"
         }
       ]
     },
@@ -840,7 +722,8 @@
           "resolution": "absolute",
           "year_ad": 134,
           "era": "陽嘉",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「陽嘉三年」直接出现年号；解析為 AD 134（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -856,11 +739,12 @@
           "text": "一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 134,
-          "era": "陽嘉",
-          "era_year": 3,
+          "year_ad": 245,
+          "era": "正始",
+          "era_year": 6,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「一月」"
         }
       ]
     },

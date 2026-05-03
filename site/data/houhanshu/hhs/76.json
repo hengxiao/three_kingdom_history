@@ -30,7 +30,8 @@
           "resolution": "absolute",
           "year_ad": 37,
           "era": "建武",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "原文「建武十三年」直接出现年号；解析為 AD 37"
         }
       ]
     },
@@ -58,27 +59,15 @@
           "resolution": "absolute",
           "year_ad": 26,
           "era": "建武",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建武二年」直接出现年号；解析為 AD 26（回溯前事，不推進章節時間軸）"
         }
       ]
     },
     {
       "id": "hhs.76.p5",
       "text": "先是，含洭、湞陽，曲江三縣，越之故地，武帝平之，內屬桂陽。民居深山，濱溪谷，習其風土，不出田租。去郡遠者，或且千里。吏事徃來，輒發民乘船，名曰「傳役」。每一吏出，徭及數家，百姓苦之。颯乃鑿山通道五百餘里，列亭傳，置郵驛。於是役省勞息，姦吏杜絕。流民稍還，漸成聚邑，使輸租賦，同之平民。又耒陽縣出鐵石，佗郡民庶常依因聚會，私爲冶鑄，遂招來亡命，多致姦盜。颯乃上起鐵官，罷斥私鑄，歲所增入五百餘萬。颯理恤民事，居官如家，其所施政，莫不合於物宜。視事十年，郡內清理。",
-      "annotations": [
-        {
-          "id": "hhs.76.p5.t1",
-          "type": "temporal",
-          "at": 222,
-          "length": 2,
-          "text": "十年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 34,
-          "era": "建武",
-          "era_year": 10
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.76.p6",
@@ -94,7 +83,8 @@
           "resolution": "bare_year",
           "year_ad": 49,
           "era": "建武",
-          "era_year": 25
+          "era_year": 25,
+          "reasoning": "承前文年號「建武」推得，「二十五年」 = 建武25年 = AD 49"
         }
       ]
     },
@@ -122,7 +112,8 @@
           "resolution": "absolute",
           "year_ad": 23,
           "era": "更始",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「更始元年」直接出现年号；解析為 AD 23（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -143,9 +134,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 23,
-          "era": "更始",
-          "era_year": 1
+          "year_ad": 49,
+          "era": "建武",
+          "era_year": 25,
+          "reasoning": "「是歲」 = 当前年 建武25年 (AD 49)"
         }
       ]
     },
@@ -188,19 +180,8 @@
           "resolution": "absolute",
           "year_ad": 59,
           "era": "永平",
-          "era_year": 2
-        },
-        {
-          "id": "hhs.76.p17.t2",
-          "type": "temporal",
-          "at": 46,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 66,
-          "era": "永平",
-          "era_year": 9
+          "era_year": 2,
+          "reasoning": "原文「永平二年」直接出现年号；解析為 AD 59"
         }
       ]
     },
@@ -223,7 +204,8 @@
           "resolution": "absolute",
           "year_ad": 30,
           "era": "建武",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「建武六年」直接出现年号；解析為 AD 30（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -246,7 +228,8 @@
           "resolution": "absolute",
           "year_ad": 34,
           "era": "建武",
-          "era_year": 10
+          "era_year": 10,
+          "reasoning": "原文「建武十年」直接出现年号；解析為 AD 34（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -264,7 +247,8 @@
           "resolution": "absolute",
           "year_ad": 69,
           "era": "永平",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "原文「永平十二年」直接出现年号；解析為 AD 69"
         },
         {
           "id": "hhs.76.p22.t2",
@@ -276,7 +260,8 @@
           "resolution": "next_year",
           "year_ad": 70,
           "era": "永平",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "「明年」 = 当前年 永平12年 (AD 69) 之次年 = AD 70"
         },
         {
           "id": "hhs.76.p22.t3",
@@ -288,7 +273,8 @@
           "resolution": "bare_year",
           "year_ad": 72,
           "era": "永平",
-          "era_year": 15
+          "era_year": 15,
+          "reasoning": "承前文年號「永平」推得，「十五年」 = 永平15年 = AD 72"
         }
       ]
     },
@@ -306,7 +292,8 @@
           "resolution": "absolute",
           "year_ad": 82,
           "era": "建初",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「建初七年」直接出现年号；解析為 AD 82"
         }
       ]
     },
@@ -324,7 +311,8 @@
           "resolution": "next_year",
           "year_ad": 83,
           "era": "建初",
-          "era_year": 8
+          "era_year": 8,
+          "reasoning": "「明年」 = 当前年 建初7年 (AD 82) 之次年 = AD 83"
         }
       ]
     },
@@ -347,19 +335,8 @@
           "resolution": "absolute",
           "year_ad": 64,
           "era": "永平",
-          "era_year": 7
-        },
-        {
-          "id": "hhs.76.p26.t2",
-          "type": "temporal",
-          "at": 104,
-          "length": 3,
-          "text": "十五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 72,
-          "era": "永平",
-          "era_year": 15
+          "era_year": 7,
+          "reasoning": "原文「永平七年」直接出现年号；解析為 AD 64（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -377,7 +354,8 @@
           "resolution": "absolute",
           "year_ad": 76,
           "era": "建初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.76.p27.t2",
@@ -387,11 +365,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 76,
+          "year_ad": 83,
           "era": "建初",
-          "era_year": 1,
+          "era_year": 8,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建初8年 (AD 83)，月份「八月」"
         }
       ]
     },
@@ -402,18 +381,6 @@
         {
           "id": "hhs.76.p28.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 81,
-          "era": "建初",
-          "era_year": 6
-        },
-        {
-          "id": "hhs.76.p28.t2",
-          "type": "temporal",
           "at": 53,
           "length": 4,
           "text": "章和二年",
@@ -421,7 +388,8 @@
           "resolution": "absolute",
           "year_ad": 88,
           "era": "章和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「章和二年」直接出现年号；解析為 AD 88"
         }
       ]
     },
@@ -449,7 +417,8 @@
           "resolution": "absolute",
           "year_ad": 103,
           "era": "永元",
-          "era_year": 15
+          "era_year": 15,
+          "reasoning": "原文「永元十五年」直接出现年号；解析為 AD 103"
         },
         {
           "id": "hhs.76.p31.t2",
@@ -461,7 +430,8 @@
           "resolution": "absolute",
           "year_ad": 105,
           "era": "元興",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「元興元年」直接出现年号；解析為 AD 105"
         }
       ]
     },
@@ -484,7 +454,8 @@
           "resolution": "absolute",
           "year_ad": 108,
           "era": "永初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永初二年」直接出现年号；解析為 AD 108"
         }
       ]
     },
@@ -521,20 +492,7 @@
     {
       "id": "hhs.76.p40",
       "text": "孟嘗，字伯周，會稽上虞上也。其先三世爲郡吏，並伏節死難。嘗少修操行，仕郡爲戶曹史。上虞有寡婦至孝養姑。姑年老壽終，夫女弟先懷嫌忌，乃誣婦厭苦供養，加鴆其母，列訟縣庭。郡不加尋察，遂結竟其罪。嘗先知枉狀，備言之於太守，太守不爲理。嘗哀泣外門，因謝病去，婦竟冤死。自是郡中連旱二年，禱請無所獲。後太守殷丹到官，訪問其故，嘗詣府具陳寡婦冤誣之事。因曰：「昔東海孝婦，感天致旱；于公一言，甘澤時降。宜戮訟者，以謝冤魂，庶幽枉獲申，時雨可期。」丹從之，即刑訟女而祭婦墓，天應澍雨，穀稼以登。",
-      "annotations": [
-        {
-          "id": "hhs.76.p40.t1",
-          "type": "temporal",
-          "at": 136,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 108,
-          "era": "永初",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.76.p41",
@@ -559,20 +517,7 @@
     {
       "id": "hhs.76.p45",
       "text": "第五訪，字仲謀，京兆長陵人，司空倫之族孫也。少孤貧，常傭耕以養兄嫂。有閒暇，則以學文。仕郡爲功曹，察孝廉，補新都令。政平化行，三年之間，鄰縣歸之，戶口十倍。",
-      "annotations": [
-        {
-          "id": "hhs.76.p45.t1",
-          "type": "temporal",
-          "at": 63,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 109,
-          "era": "永初",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.76.p46",
@@ -592,20 +537,7 @@
     {
       "id": "hhs.76.p49",
       "text": "稍遷雍丘令，以禮讓化之，其無孝義者，皆感悟自革。民有爭訟，矩常引之於前，提耳訓告，以爲忿恚可忍，縣官不可入，使歸更尋思。訟者感之，輒各罷去。其有路得遺者，皆推尋其主。在縣四年，以母憂去官。",
-      "annotations": [
-        {
-          "id": "hhs.76.p49.t1",
-          "type": "temporal",
-          "at": 85,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 110,
-          "era": "永初",
-          "era_year": 4
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.76.p50",
@@ -626,7 +558,8 @@
           "resolution": "absolute",
           "year_ad": 161,
           "era": "延熹",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161"
         }
       ]
     },
@@ -702,7 +635,8 @@
           "resolution": "absolute",
           "year_ad": 161,
           "era": "延熹",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「延熹四年」直接出现年号；解析為 AD 161"
         },
         {
           "id": "hhs.76.p56.t2",
@@ -714,7 +648,8 @@
           "resolution": "absolute",
           "year_ad": 168,
           "era": "建寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168"
         },
         {
           "id": "hhs.76.p56.t3",
@@ -726,7 +661,8 @@
           "resolution": "bare_year",
           "year_ad": 169,
           "era": "建寧",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「建寧」推得，「二年」 = 建寧2年 = AD 169"
         }
       ]
     },
@@ -762,7 +698,8 @@
           "resolution": "absolute",
           "year_ad": 192,
           "era": "初平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「初平三年」直接出现年号；解析為 AD 192"
         }
       ]
     },
@@ -792,7 +729,8 @@
           "era": "初平",
           "era_year": 3,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 初平3年 (AD 192)，月份「一月」"
         }
       ]
     },

@@ -50,7 +50,8 @@
           "resolution": "absolute",
           "year_ad": 199,
           "era": "建安",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「建安四年」直接出现年号；解析為 AD 199"
         }
       ]
     },
@@ -70,7 +71,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「三月」"
         }
       ]
     },
@@ -90,7 +92,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「四月」"
         }
       ]
     },
@@ -115,7 +118,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「六月」"
         }
       ]
     },
@@ -135,7 +139,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「八月」"
         },
         {
           "id": "zztj.63.p10.t2",
@@ -149,7 +154,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「九月」"
         }
       ]
     },
@@ -169,7 +175,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「十一月」"
         }
       ]
     },
@@ -194,7 +201,8 @@
           "era": "建安",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安4年 (AD 199)，月份「十二月」"
         }
       ]
     },
@@ -237,7 +245,8 @@
           "resolution": "absolute",
           "year_ad": 200,
           "era": "建安",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「建安五年」直接出现年号；解析為 AD 200"
         }
       ]
     },
@@ -257,7 +266,8 @@
           "era": "建安",
           "era_year": 5,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「正月」"
         }
       ]
     },
@@ -268,28 +278,17 @@
         {
           "id": "zztj.63.p21.t1",
           "type": "temporal",
-          "at": 143,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        },
-        {
-          "id": "zztj.63.p21.t2",
-          "type": "temporal",
           "at": 208,
           "length": 2,
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「二月」"
         }
       ]
     },
@@ -310,11 +309,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「四月」"
         }
       ]
     },
@@ -350,31 +350,19 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「七月」"
         }
       ]
     },
     {
       "id": "zztj.63.p29",
       "text": "汝南黃巾劉辟等叛曹操應袁紹，紹遣劉備將兵助辟，郡縣多應之。紹遣使拜陽安都尉李通為征南將軍，劉表亦陰招之，通皆拒焉。或勸通從紹，通按劍叱之曰：「曹公明哲，必定天下；紹雖強盛，終為之虜耳。吾以死不貳。」即斬紹使，送印綬詣操。通急錄戶調，朗陵長趙儼見通曰：「方今諸郡並叛，獨陽安懷附，復趣收其綿絹，小人樂亂，無乃不可乎？」通曰：「公與袁紹相持甚急，左右郡縣背叛乃爾，若綿絹不調送，觀聽者必謂我顧望，有所須待也。」儼曰：「誠亦如君慮，然當權其輕重。小緩調，當為君釋此患。」乃書與荀彧曰：「今陽安郡百姓困窮，鄰城並叛，易用傾蕩，乃一方安危之機也。且此郡人執守忠節，在險不貳，以為國家宜垂慰撫。而更急斂綿絹，何以勸善！」彧即白操，悉以綿絹還民，上下歡喜，郡內遂安。通擊群賊瞿恭等，皆破之。遂定淮、汝之地。時操制新科，下州郡，頗增嚴峻，而調綿絹方急。長廣太守何夔言於操曰：「先王辨九服之賦以殊遠近，制三典之刑以平治亂。愚以為此郡宜依遠域新邦之典，其民間小事，使長吏臨時隨宜，上不背正法，下以順百姓之心。比及三年，民安其業，然後乃可齊之以法也。」操從之。",
-      "annotations": [
-        {
-          "id": "zztj.63.p29.t1",
-          "type": "temporal",
-          "at": 446,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.63.p30",
@@ -393,11 +381,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「八月」"
         }
       ]
     },
@@ -413,11 +402,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「九月」"
         }
       ]
     },
@@ -438,11 +428,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「十月」"
         },
         {
           "id": "zztj.63.p34.t2",
@@ -452,11 +443,12 @@
           "text": "一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「一月」"
         }
       ]
     },
@@ -482,11 +474,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 198,
+          "year_ad": 200,
           "era": "建安",
-          "era_year": 3,
+          "era_year": 5,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安5年 (AD 200)，月份「十月」"
         }
       ]
     },

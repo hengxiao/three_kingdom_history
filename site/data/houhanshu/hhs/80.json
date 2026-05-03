@@ -47,7 +47,8 @@
           "era": "建武",
           "era_year": 18,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "原文「建武十八年二月」直接出现年号；解析為 AD 42"
         },
         {
           "id": "hhs.80.p4.t2",
@@ -61,7 +62,8 @@
           "era": "建武",
           "era_year": 18,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建武18年 (AD 42)，月份「三月」"
         },
         {
           "id": "hhs.80.p4.t3",
@@ -75,7 +77,8 @@
           "era": "建武",
           "era_year": 18,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建武18年 (AD 42)，月份「四月」"
         },
         {
           "id": "hhs.80.p4.t4",
@@ -87,7 +90,8 @@
           "resolution": "next_year",
           "year_ad": 43,
           "era": "建武",
-          "era_year": 19
+          "era_year": 19,
+          "reasoning": "「明年」 = 当前年 建武18年 (AD 42) 之次年 = AD 43"
         }
       ]
     },
@@ -150,7 +154,8 @@
           "resolution": "absolute",
           "year_ad": 78,
           "era": "建初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建初三年」直接出现年号；解析為 AD 78"
         }
       ]
     },
@@ -258,7 +263,8 @@
           "resolution": "absolute",
           "year_ad": 89,
           "era": "永元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永元元年」直接出现年号；解析為 AD 89"
         }
       ]
     },
@@ -286,7 +292,8 @@
           "resolution": "absolute",
           "year_ad": 84,
           "era": "元和",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「元和元年」直接出现年号；解析為 AD 84（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -304,7 +311,8 @@
           "resolution": "absolute",
           "year_ad": 92,
           "era": "永元",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「永元四年」直接出现年号；解析為 AD 92"
         },
         {
           "id": "hhs.80.p37.t2",
@@ -316,7 +324,8 @@
           "resolution": "bare_year",
           "year_ad": 94,
           "era": "永元",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「永元」推得，「六年」 = 永元6年 = AD 94"
         }
       ]
     },
@@ -334,7 +343,8 @@
           "resolution": "bare_year",
           "year_ad": 100,
           "era": "永元",
-          "era_year": 12
+          "era_year": 12,
+          "reasoning": "承前文年號「永元」推得，「十二年」 = 永元12年 = AD 100"
         }
       ]
     },
@@ -352,7 +362,8 @@
           "resolution": "absolute",
           "year_ad": 106,
           "era": "延平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延平元年」直接出现年号；解析為 AD 106"
         }
       ]
     },
@@ -375,7 +386,8 @@
           "resolution": "absolute",
           "year_ad": 114,
           "era": "元初",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114"
         }
       ]
     },
@@ -413,7 +425,8 @@
           "resolution": "absolute",
           "year_ad": 120,
           "era": "永寧",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永寧元年」直接出现年号；解析為 AD 120"
         },
         {
           "id": "hhs.80.p46.t2",
@@ -425,7 +438,8 @@
           "resolution": "absolute",
           "year_ad": 125,
           "era": "延光",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「延光四年」直接出现年号；解析為 AD 125"
         },
         {
           "id": "hhs.80.p46.t3",
@@ -435,7 +449,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 126
+          "year_ad": 126,
+          "reasoning": "「明年」 = 当前年 延光4年 (AD 125) 之次年 = AD 126（跨年號邊界，新年號未明）"
         }
       ]
     },
@@ -583,7 +598,8 @@
           "resolution": "absolute",
           "year_ad": 178,
           "era": "光和",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「光和元年」直接出现年号；解析為 AD 178"
         }
       ]
     },
@@ -725,20 +741,7 @@
     {
       "id": "hhs.80.p101",
       "text": "炎後風病慌忽。性至孝，遭母憂，病甚發動。妻始産而驚死，妻家訟之，收繫獄。炎病不能理對，嘉平六年，遂死獄中，時年二十八。尙書盧植爲之誄贊，以昭其懿德。",
-      "annotations": [
-        {
-          "id": "hhs.80.p101.t1",
-          "type": "temporal",
-          "at": 45,
-          "length": 2,
-          "text": "六年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 183,
-          "era": "光和",
-          "era_year": 6
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.80.p102",

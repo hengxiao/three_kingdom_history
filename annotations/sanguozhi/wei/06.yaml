@@ -84,6 +84,7 @@ annotations:
   era_year: 1
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 原文「初平元年二月」直接出现年号；解析為 AD 190
 - id: wei.6.p6.a1
   anchor: wei.6.p6
   at: 104
@@ -145,6 +146,7 @@ annotations:
   era_year: 3
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 承前文年號「初平」推得，「三年四月」 = 初平3年 = AD 192
 - id: wei.6.p7.a1
   anchor: wei.6.p7
   at: 129
@@ -192,17 +194,7 @@ annotations:
   year_ad: 192
   era: 初平
   era_year: 3
-- id: wei.6.p10.t2
-  anchor: wei.6.p10
-  at: 144
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 191
-  era: 初平
-  era_year: 2
+  reasoning: 「是歲」 = 当前年 初平3年 (AD 192)
 - id: wei.6.p10.a1
   anchor: wei.6.p10
   at: 153
@@ -280,6 +272,7 @@ annotations:
   year_ad: 197
   era: 建安
   era_year: 2
+  reasoning: 原文「建安二年」直接出现年号；解析為 AD 197
 - id: wei.6.p13.a2
   anchor: wei.6.p13
   at: 68
@@ -297,6 +290,7 @@ annotations:
   year_ad: 211
   era: 建安
   era_year: 16
+  reasoning: 承前文年號「建安」推得，「十六年」 = 建安16年 = AD 211
 - id: wei.6.p14.a1
   anchor: wei.6.p14
   at: 41
@@ -333,17 +327,6 @@ annotations:
   length: 0
   type: pei
   text: 《英雄記》曰：逢紀說紹曰：「將軍舉大事而仰人資給，不據一州，無以自全。」紹荅云：「冀州兵彊，吾士饑乏，設不能辦，無所容立。」紀曰：「可與公孫瓚相聞，導使來南，擊取冀州。公孫必至而馥懼矣，因使說利害，爲陳禍福，馥必遜讓。於此之際，可據其位。」紹從其言而瓚果來。
-- id: wei.6.p17.t1
-  anchor: wei.6.p17
-  at: 363
-  length: 2
-  type: temporal
-  text: 十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 205
-  era: 建安
-  era_year: 10
 - id: wei.6.p17.a2
   anchor: wei.6.p17
   at: 466
@@ -421,6 +404,7 @@ annotations:
   year_ad: 200
   era: 建安
   era_year: 5
+  reasoning: 原文「建安五年」直接出现年号；解析為 AD 200（回溯前事，不推進章節時間軸）
 - id: wei.6.p20.a1
   anchor: wei.6.p20
   at: 121
@@ -457,34 +441,12 @@ annotations:
   length: 0
   type: pei
   text: 《獻帝傳》云：授大呼曰：「授不降也，爲軍所執耳！」太祖與之有舊，逆謂授曰：「分野殊異，遂用圮絕，不圖今日乃相禽也！」授對曰：「冀州失策，以取奔北。授智力俱困，宜其見禽耳。」太祖曰：「本初無謀，不用君計，今喪亂過紀，國家未定，當相與圖之。」授曰：「叔父、母、弟，縣命袁氏，若蒙公靈，速死爲福。」太祖歎曰：「孤早相得，天下不足慮。」
-- id: wei.6.p22.t1
-  anchor: wei.6.p22
-  at: 124
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 197
-  era: 建安
-  era_year: 2
 - id: wei.6.p22.a1
   anchor: wei.6.p22
   at: 245
   length: 0
   type: pei
   text: 《先賢行狀》曰：豐字元皓，鉅鹿人，或云勃海人。豐天姿瓌傑，權略多奇，少喪親，居喪盡哀，日月雖過，笑不至矧。博覽多識，名重州黨。初辟太尉府，舉茂才，遷侍御史。閹宦擅朝，英賢被害，豐乃棄官歸家。袁紹起義，卑辭厚幣以招致豐，豐以王室多難，志存匡救，乃應紹命，以爲別駕。勸紹迎天子，紹不納。紹後用豐謀，以平公孫瓚。逢紀憚豐亮直，數讒之於紹，紹遂忌豐。紹軍之敗也，土崩奔北，師徒略盡，軍皆拊膺而泣曰：「向令田豐在此，不至於是也。」紹謂逢紀曰：「冀州人聞吾軍敗，皆當念吾，唯田別駕前諫止吾，與衆不同，吾亦慙見之。」紀復曰：「豐聞將軍之退，拊手大笑，喜其言之中也。」紹於是有害豐之意。初，太祖聞豐不從戎，喜曰：「紹必敗矣。」及紹奔遁，復曰：「向使紹用田別駕計，尚未可知也。」孫盛曰：觀田豐、沮授之謀，雖良、平何以過之？故君貴審才，臣尚量主；君用忠良，則霸王之業隆，臣奉闇后，則覆亡之禍至：存亡榮辱，常必由茲。豐知紹將敗，敗則己必死，甘冒虎口以盡忠規，烈士之於所事，慮不存己。夫諸侯之臣，義有去就，況豐與紹非純臣乎！詩云「逝將去汝，適彼樂土」，言去亂邦，就有道可也。
-- id: wei.6.p23.t1
-  anchor: wei.6.p23
-  at: 20
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 202
-  era: 建安
-  era_year: 7
 - id: wei.6.p24.a1
   anchor: wei.6.p24
   at: 17
@@ -505,11 +467,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安16年 (AD 211)，月份「二月」
 - id: wei.6.p24.t2
   anchor: wei.6.p24
   at: 197
@@ -518,11 +481,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安16年 (AD 211)，月份「九月」
 - id: wei.6.p24.t3
   anchor: wei.6.p24
   at: 291
@@ -531,11 +495,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安16年 (AD 211)，月份「十月」
 - id: wei.6.p24.a3
   anchor: wei.6.p24
   at: 297
@@ -550,11 +515,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安16年 (AD 211)，月份「五月」
 - id: wei.6.p25.t2
   anchor: wei.6.p25
   at: 194
@@ -563,11 +529,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安16年 (AD 211)，月份「八月」
 - id: wei.6.p25.a1
   anchor: wei.6.p25
   at: 417
@@ -582,11 +549,12 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 211
   era: 建安
-  era_year: 7
+  era_year: 16
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安16年 (AD 211)，月份「十二月」
 - id: wei.6.p26.t2
   anchor: wei.6.p26
   at: 88
@@ -600,6 +568,7 @@ annotations:
   era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 承前文年號「建安」推得，「十年正月」 = 建安10年 = AD 205
 - id: wei.6.p26.t3
   anchor: wei.6.p26
   at: 299
@@ -611,6 +580,7 @@ annotations:
   year_ad: 206
   era: 建安
   era_year: 11
+  reasoning: 承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206
 - id: wei.6.p26.a1
   anchor: wei.6.p26
   at: 353
@@ -628,6 +598,7 @@ annotations:
   year_ad: 207
   era: 建安
   era_year: 12
+  reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
 - id: wei.6.p26.a2
   anchor: wei.6.p26
   at: 393
@@ -669,6 +640,7 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
+  reasoning: 原文「興平二年」直接出现年号；解析為 AD 195（回溯前事，不推進章節時間軸）
 - id: wei.6.p29.a1
   anchor: wei.6.p29
   at: 147
@@ -740,6 +712,7 @@ annotations:
   year_ad: 208
   era: 建安
   era_year: 13
+  reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208
 - id: wei.6.p34.a1
   anchor: wei.6.p34
   at: 52

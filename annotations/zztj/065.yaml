@@ -16,6 +16,7 @@ annotations:
   year_ad: 206
   era: 建安
   era_year: 11
+  reasoning: 原文「建安十一年」直接出现年号；解析為 AD 206
 - id: zztj.65.p5.t1
   anchor: zztj.65.p5
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 11
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 建安11年 (AD 206)，月份「正月」
 - id: zztj.65.p6.t1
   anchor: zztj.65.p6
   at: 31
@@ -42,6 +44,7 @@ annotations:
   era_year: 11
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安11年 (AD 206)，月份「三月」
 - id: zztj.65.p7.t1
   anchor: zztj.65.p7
   at: 2
@@ -55,6 +58,7 @@ annotations:
   era_year: 11
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安11年 (AD 206)，月份「七月」
 - id: zztj.65.p8.t1
   anchor: zztj.65.p8
   at: 0
@@ -68,6 +72,7 @@ annotations:
   era_year: 11
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安11年 (AD 206)，月份「八月」
 - id: zztj.65.p10.t1
   anchor: zztj.65.p10
   at: 0
@@ -79,6 +84,7 @@ annotations:
   year_ad: 206
   era: 建安
   era_year: 11
+  reasoning: 「是歲」 = 当前年 建安11年 (AD 206)
 - id: zztj.65.p13.t1
   anchor: zztj.65.p13
   at: 5
@@ -90,6 +96,7 @@ annotations:
   year_ad: 207
   era: 建安
   era_year: 12
+  reasoning: 原文「建安十二年」直接出现年号；解析為 AD 207
 - id: zztj.65.p14.t1
   anchor: zztj.65.p14
   at: 2
@@ -103,6 +110,7 @@ annotations:
   era_year: 12
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 建安12年 (AD 207)，月份「二月」
 - id: zztj.65.p14.t2
   anchor: zztj.65.p14
   at: 43
@@ -116,6 +124,7 @@ annotations:
   era_year: 12
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安12年 (AD 207)，月份「三月」
 - id: zztj.65.p18.t1
   anchor: zztj.65.p18
   at: 85
@@ -129,6 +138,7 @@ annotations:
   era_year: 12
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安12年 (AD 207)，月份「八月」
 - id: zztj.65.p18.t2
   anchor: zztj.65.p18
   at: 223
@@ -142,6 +152,7 @@ annotations:
   era_year: 12
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安12年 (AD 207)，月份「九月」
 - id: zztj.65.p19.t1
   anchor: zztj.65.p19
   at: 2
@@ -155,6 +166,7 @@ annotations:
   era_year: 12
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安12年 (AD 207)，月份「十月」
 - id: zztj.65.p21.t1
   anchor: zztj.65.p21
   at: 0
@@ -168,6 +180,7 @@ annotations:
   era_year: 12
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 年承前文 建安12年 (AD 207)，月份「十一月」
 - id: zztj.65.p23.t1
   anchor: zztj.65.p23
   at: 0
@@ -179,6 +192,7 @@ annotations:
   year_ad: 207
   era: 建安
   era_year: 12
+  reasoning: 「是歲」 = 当前年 建安12年 (AD 207)
 - id: zztj.65.p28.t1
   anchor: zztj.65.p28
   at: 5
@@ -190,6 +204,7 @@ annotations:
   year_ad: 208
   era: 建安
   era_year: 13
+  reasoning: 原文「建安十三年」直接出现年号；解析為 AD 208
 - id: zztj.65.p29.t1
   anchor: zztj.65.p29
   at: 2
@@ -203,17 +218,7 @@ annotations:
   era_year: 13
   month_chinese: 正月
   month_ordinal: 1
-- id: zztj.65.p31.t1
-  anchor: zztj.65.p31
-  at: 67
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
+  reasoning: 年承前文 建安13年 (AD 208)，月份「正月」
 - id: zztj.65.p34.t1
   anchor: zztj.65.p34
   at: 2
@@ -222,11 +227,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 建安13年 (AD 208)，月份「六月」
 - id: zztj.65.p38.t1
   anchor: zztj.65.p38
   at: 2
@@ -235,11 +241,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 建安13年 (AD 208)，月份「七月」
 - id: zztj.65.p39.t1
   anchor: zztj.65.p39
   at: 0
@@ -248,11 +255,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安13年 (AD 208)，月份「八月」
 - id: zztj.65.p42.t1
   anchor: zztj.65.p42
   at: 132
@@ -261,11 +269,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安13年 (AD 208)，月份「九月」
 - id: zztj.65.p47.t1
   anchor: zztj.65.p47
   at: 2
@@ -274,11 +283,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安13年 (AD 208)，月份「十月」
 - id: zztj.65.p57.t1
   anchor: zztj.65.p57
   at: 216
@@ -287,19 +297,9 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 198
+  year_ad: 208
   era: 建安
-  era_year: 3
+  era_year: 13
   month_chinese: 十二月
   month_ordinal: 12
-- id: zztj.65.p60.t1
-  anchor: zztj.65.p60
-  at: 36
-  length: 2
-  type: temporal
-  text: 十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 205
-  era: 建安
-  era_year: 10
+  reasoning: 年承前文 建安13年 (AD 208)，月份「十二月」

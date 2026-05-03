@@ -257,6 +257,16 @@ footer {
 }
 .note-temporal .note-marker { color: var(--temporal); }
 .note-temporal .note-text { color: var(--temporal); }
+.note-reasoning {
+  display: block;
+  font-size: 0.85em;
+  color: var(--muted);
+  margin-top: 2px;
+  padding-left: 8px;
+  border-left: 2px solid var(--rule);
+  font-style: normal;
+  line-height: 1.5;
+}
 .note-item:target,
 .note-item.note-flash {
   background: var(--pei-bg);

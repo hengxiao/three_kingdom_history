@@ -70,6 +70,7 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
+  reasoning: 原文「興平元年」直接出现年号；解析為 AD 194
 - id: shu.1.p6.a1
   anchor: shu.1.p6
   at: 96
@@ -123,6 +124,7 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
+  reasoning: 「是歲」 = 当前年 興平元年 (AD 194)
 - id: shu.1.p8.t2
   anchor: shu.1.p8
   at: 333
@@ -134,6 +136,7 @@ annotations:
   year_ad: 211
   era: 建安
   era_year: 16
+  reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211
 - id: shu.1.p8.a5
   anchor: shu.1.p8
   at: 398
@@ -151,6 +154,7 @@ annotations:
   year_ad: 212
   era: 建安
   era_year: 17
+  reasoning: 「明年」 = 当前年 建安16年 (AD 211) 之次年 = AD 212
 - id: shu.1.p9.t2
   anchor: shu.1.p9
   at: 19
@@ -162,28 +166,7 @@ annotations:
   year_ad: 214
   era: 建安
   era_year: 19
-- id: shu.1.p9.t3
-  anchor: shu.1.p9
-  at: 44
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
-- id: shu.1.p9.t4
-  anchor: shu.1.p9
-  at: 79
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
+  reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
 - id: shu.1.p10.a1
   anchor: shu.1.p10
   at: 56

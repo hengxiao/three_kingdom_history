@@ -169,7 +169,8 @@
           "resolution": "absolute",
           "year_ad": 188,
           "era": "中平",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「中平五年」直接出现年号；解析為 AD 188"
         }
       ]
     },
@@ -191,20 +192,7 @@
     {
       "id": "wei.29.p25",
       "text": "朱建平，沛國人也。善相術，於閭巷之間，效驗非一。太祖為魏公，聞之，召為郎。文帝為五官將，坐上會客三十餘人，文帝問己年壽，又令遍相眾賓。建平曰：「將軍當壽八十，至四十時當有小厄，願謹護之。」謂夏侯威曰：「君四十九位為州牧，而當有厄，厄若得過，可年至七十，致位公輔。」謂應璩曰：「君六十二位為常伯，而當有厄，先此一年，當獨見一白狗，而旁人不見也。」謂曹彪曰：「君據藩國，至五十七當厄於兵，宜善防之。」",
-      "annotations": [
-        {
-          "id": "wei.29.p25.t1",
-          "type": "temporal",
-          "at": 154,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 184,
-          "era": "中平",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.29.p26",
@@ -225,7 +213,8 @@
           "resolution": "absolute",
           "year_ad": 226,
           "era": "黃初",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "原文「黃初七年」直接出现年号；解析為 AD 226"
         },
         {
           "id": "wei.29.p27.t2",
@@ -239,19 +228,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "十二月",
-          "month_ordinal": 12
-        },
-        {
-          "id": "wei.29.p27.t3",
-          "type": "temporal",
-          "at": 210,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 220,
-          "era": "黃初",
-          "era_year": 1
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「十二月」"
         }
       ]
     },
@@ -272,11 +250,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「八月」"
         },
         {
           "id": "wei.29.p29.t2",
@@ -286,11 +265,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「八月」"
         }
       ]
     },
@@ -347,11 +327,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「正月」"
         },
         {
           "id": "wei.29.p35.t2",
@@ -361,11 +342,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「八月」"
         },
         {
           "id": "wei.29.p35.a1",
@@ -453,11 +435,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「五月」"
         },
         {
           "id": "wei.29.p41.t2",
@@ -467,11 +450,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
+          "year_ad": 226,
           "era": "黃初",
-          "era_year": 1,
+          "era_year": 7,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「三月」"
         },
         {
           "id": "wei.29.p41.a1",
@@ -527,7 +511,8 @@
           "resolution": "absolute",
           "year_ad": 248,
           "era": "正始",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「正始九年」直接出现年号；解析為 AD 248"
         },
         {
           "id": "wei.29.p45.a1",
@@ -554,7 +539,8 @@
           "era": "正始",
           "era_year": 9,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 正始9年 (AD 248)，月份「十二月」"
         },
         {
           "id": "wei.29.p46.a1",
@@ -645,7 +631,8 @@
           "resolution": "absolute",
           "year_ad": 255,
           "era": "正元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「正元二年」直接出现年号；解析為 AD 255"
         },
         {
           "id": "wei.29.p51.t2",
@@ -657,7 +644,8 @@
           "resolution": "this_year",
           "year_ad": 255,
           "era": "正元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 正元2年 (AD 255)"
         },
         {
           "id": "wei.29.p51.t3",
@@ -671,7 +659,8 @@
           "era": "正元",
           "era_year": 2,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 正元2年 (AD 255)，月份「八月」"
         },
         {
           "id": "wei.29.p51.t4",
@@ -685,7 +674,8 @@
           "era": "正元",
           "era_year": 3,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "「明年二月」 = 当前年 正元2年 (AD 255) 之次年 = AD 256"
         },
         {
           "id": "wei.29.p51.a1",

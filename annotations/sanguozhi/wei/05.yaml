@@ -34,6 +34,7 @@ annotations:
   year_ad: 230
   era: 太和
   era_year: 4
+  reasoning: 原文「太和四年」直接出现年号；解析為 AD 230
 - id: wei.5.p6.t2
   anchor: wei.5.p6
   at: 164
@@ -45,6 +46,7 @@ annotations:
   year_ad: 230
   era: 太和
   era_year: 4
+  reasoning: 「其年」 = 当前年 太和4年 (AD 230)
 - id: wei.5.p6.t3
   anchor: wei.5.p6
   at: 172
@@ -58,6 +60,7 @@ annotations:
   era_year: 4
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 太和4年 (AD 230)，月份「七月」
 - id: wei.5.p7.t1
   anchor: wei.5.p7
   at: 14
@@ -69,6 +72,7 @@ annotations:
   year_ad: 226
   era: 黃初
   era_year: 7
+  reasoning: 原文「黃初七年」直接出现年号；解析為 AD 226（回溯前事，不推進章節時間軸）
 - id: wei.5.p7.a1
   anchor: wei.5.p7
   at: 36
@@ -118,6 +122,7 @@ annotations:
   era_year: 1
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 原文「延康元年正月」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
 - id: wei.5.p10.t2
   anchor: wei.5.p10
   at: 13
@@ -126,11 +131,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 220
-  era: 延康
-  era_year: 1
+  year_ad: 230
+  era: 太和
+  era_year: 4
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 太和4年 (AD 230)，月份「六月」
 - id: wei.5.p10.t3
   anchor: wei.5.p10
   at: 23
@@ -144,19 +150,7 @@ annotations:
   era_year: 1
   month_chinese: 十月
   month_ordinal: 10
-- id: wei.5.p10.t4
-  anchor: wei.5.p10
-  at: 75
-  length: 4
-  type: temporal
-  text: 二年六月
-  kind: relative
-  resolution: bare_year
-  year_ad: 221
-  era: 黃初
-  era_year: 2
-  month_chinese: 六月
-  month_ordinal: 6
+  reasoning: 原文「黃初元年十月」直接出现年号；解析為 AD 220（回溯前事，不推進章節時間軸）
 - id: wei.5.p10.a1
   anchor: wei.5.p10
   at: 89
@@ -182,6 +176,7 @@ annotations:
   era_year: 1
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 原文「太和元年三月」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）
 - id: wei.5.p12.t2
   anchor: wei.5.p12
   at: 34
@@ -190,11 +185,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 227
+  year_ad: 230
   era: 太和
-  era_year: 1
+  era_year: 4
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 太和4年 (AD 230)，月份「四月」
 - id: wei.5.p12.t3
   anchor: wei.5.p12
   at: 136
@@ -208,6 +204,7 @@ annotations:
   era_year: 4
   month_chinese: 十一月
   month_ordinal: 11
+  reasoning: 承前文年號「太和」推得，「四年十一月」 = 太和4年 = AD 230
 - id: wei.5.p12.t4
   anchor: wei.5.p12
   at: 165
@@ -221,6 +218,7 @@ annotations:
   era_year: 4
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 太和4年 (AD 230)，月份「十二月」
 - id: wei.5.p12.t5
   anchor: wei.5.p12
   at: 184
@@ -232,6 +230,7 @@ annotations:
   year_ad: 234
   era: 青龍
   era_year: 2
+  reasoning: 原文「青龍二年」直接出现年号；解析為 AD 234
 - id: wei.5.p12.t6
   anchor: wei.5.p12
   at: 235
@@ -243,6 +242,7 @@ annotations:
   year_ad: 235
   era: 青龍
   era_year: 3
+  reasoning: 承前文年號「青龍」推得，「三年」 = 青龍3年 = AD 235
 - id: wei.5.p12.t7
   anchor: wei.5.p12
   at: 274
@@ -254,6 +254,7 @@ annotations:
   year_ad: 236
   era: 青龍
   era_year: 4
+  reasoning: 承前文年號「青龍」推得，「四年」 = 青龍4年 = AD 236
 - id: wei.5.p13.t1
   anchor: wei.5.p13
   at: 0
@@ -265,6 +266,7 @@ annotations:
   year_ad: 237
   era: 景初
   era_year: 1
+  reasoning: 原文「景初元年」直接出现年号；解析為 AD 237
 - id: wei.5.p14.t1
   anchor: wei.5.p14
   at: 71
@@ -278,6 +280,7 @@ annotations:
   era_year: 3
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 原文「嘉平三年正月」直接出现年号；解析為 AD 251
 - id: wei.5.p14.t2
   anchor: wei.5.p14
   at: 97
@@ -289,6 +292,7 @@ annotations:
   year_ad: 232
   era: 太和
   era_year: 6
+  reasoning: 原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）
 - id: wei.5.p14.a1
   anchor: wei.5.p14
   at: 170
@@ -312,6 +316,7 @@ annotations:
   year_ad: 222
   era: 黃初
   era_year: 3
+  reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
 - id: wei.5.p15.a2
   anchor: wei.5.p15
   at: 375
@@ -332,9 +337,10 @@ annotations:
   text: 五年
   kind: relative
   resolution: bare_year
-  year_ad: 224
-  era: 黃初
+  year_ad: 253
+  era: 嘉平
   era_year: 5
+  reasoning: 承前文年號「嘉平」推得，「五年」 = 嘉平5年 = AD 253
 - id: wei.5.p17.t2
   anchor: wei.5.p17
   at: 96
@@ -343,9 +349,10 @@ annotations:
   text: 六年
   kind: relative
   resolution: bare_year
-  year_ad: 225
-  era: 黃初
+  year_ad: 254
+  era: 嘉平
   era_year: 6
+  reasoning: 承前文年號「嘉平」推得，「六年」 = 嘉平6年 = AD 254
 - id: wei.5.p18.t1
   anchor: wei.5.p18
   at: 17
@@ -357,6 +364,7 @@ annotations:
   year_ad: 230
   era: 太和
   era_year: 4
+  reasoning: 原文「太和四年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）
 - id: wei.5.p18.t2
   anchor: wei.5.p18
   at: 59
@@ -365,9 +373,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 230
-  era: 太和
-  era_year: 4
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
+  reasoning: 「其年」 = 当前年 嘉平6年 (AD 254)
 - id: wei.5.p18.t3
   anchor: wei.5.p18
   at: 157
@@ -379,6 +388,7 @@ annotations:
   year_ad: 235
   era: 青龍
   era_year: 3
+  reasoning: 原文「青龍三年」直接出现年号；解析為 AD 235（回溯前事，不推進章節時間軸）
 - id: wei.5.p18.t4
   anchor: wei.5.p18
   at: 175
@@ -387,11 +397,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 235
-  era: 青龍
-  era_year: 3
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 嘉平6年 (AD 254)，月份「三月」
 - id: wei.5.p18.a1
   anchor: wei.5.p18
   at: 186
@@ -406,9 +417,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 236
-  era: 青龍
+  year_ad: 252
+  era: 嘉平
   era_year: 4
+  reasoning: 承前文年號「嘉平」推得，「四年」 = 嘉平4年 = AD 252
 - id: wei.5.p19.t1
   anchor: wei.5.p19
   at: 51
@@ -420,6 +432,7 @@ annotations:
   year_ad: 227
   era: 太和
   era_year: 1
+  reasoning: 原文「太和元年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）
 - id: wei.5.p20.a1
   anchor: wei.5.p20
   at: 198
@@ -437,6 +450,7 @@ annotations:
   year_ad: 235
   era: 青龍
   era_year: 3
+  reasoning: 原文「青龍三年」直接出现年号；解析為 AD 235（回溯前事，不推進章節時間軸）
 - id: wei.5.p20.t2
   anchor: wei.5.p20
   at: 249
@@ -445,9 +459,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 236
-  era: 青龍
+  year_ad: 252
+  era: 嘉平
   era_year: 4
+  reasoning: 承前文年號「嘉平」推得，「四年」 = 嘉平4年 = AD 252
 - id: wei.5.p21.t1
   anchor: wei.5.p21
   at: 14
@@ -459,6 +474,7 @@ annotations:
   year_ad: 237
   era: 景初
   era_year: 1
+  reasoning: 原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）
 - id: wei.5.p22.a1
   anchor: wei.5.p22
   at: 134
@@ -476,19 +492,7 @@ annotations:
   year_ad: 263
   era: 景元
   era_year: 4
-- id: wei.5.p22.t2
-  anchor: wei.5.p22
-  at: 232
-  length: 4
-  type: temporal
-  text: 五年二月
-  kind: relative
-  resolution: bare_year
-  year_ad: 264
-  era: 景元
-  era_year: 5
-  month_chinese: 二月
-  month_ordinal: 2
+  reasoning: 原文「景元四年」直接出现年号；解析為 AD 263
 - id: wei.5.p22.a2
   anchor: wei.5.p22
   at: 243

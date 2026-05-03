@@ -45,7 +45,8 @@
           "resolution": "absolute",
           "year_ad": 238,
           "era": "景初",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景初二年」直接出现年号；解析為 AD 238"
         }
       ]
     },
@@ -65,19 +66,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
-        },
-        {
-          "id": "zztj.74.p5.t2",
-          "type": "temporal",
-          "at": 221,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
-          "era_year": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「正月」"
         }
       ]
     },
@@ -98,11 +88,12 @@
           "text": "二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「二月」"
         }
       ]
     },
@@ -128,11 +119,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「四月」"
         }
       ]
     },
@@ -148,11 +140,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「六月」"
         },
         {
           "id": "zztj.74.p11.t2",
@@ -162,63 +155,42 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「七月」"
         },
         {
           "id": "zztj.74.p11.t3",
-          "type": "temporal",
-          "at": 321,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
-          "era_year": 1
-        },
-        {
-          "id": "zztj.74.p11.t4",
           "type": "temporal",
           "at": 337,
           "length": 2,
           "text": "一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「一月」"
         },
         {
-          "id": "zztj.74.p11.t5",
-          "type": "temporal",
-          "at": 340,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
-          "era_year": 1
-        },
-        {
-          "id": "zztj.74.p11.t6",
+          "id": "zztj.74.p11.t4",
           "type": "temporal",
           "at": 583,
           "length": 2,
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「八月」"
         }
       ]
     },
@@ -239,11 +211,12 @@
           "text": "九月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「九月」"
         }
       ]
     },
@@ -274,11 +247,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「十一月」"
         }
       ]
     },
@@ -294,11 +268,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 238,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「十二月」"
         }
       ]
     },
@@ -331,7 +306,8 @@
           "resolution": "absolute",
           "year_ad": 239,
           "era": "景初",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「景初三年」直接出现年号；解析為 AD 239"
         }
       ]
     },
@@ -351,7 +327,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「正月」"
         }
       ]
     },
@@ -381,7 +358,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「二月」"
         }
       ]
     },
@@ -401,7 +379,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「三月」"
         }
       ]
     },
@@ -421,7 +400,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「四月」"
         }
       ]
     },
@@ -451,7 +431,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「七月」"
         }
       ]
     },
@@ -471,7 +452,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「十月」"
         },
         {
           "id": "zztj.74.p32.t2",
@@ -485,19 +467,8 @@
           "era": "景初",
           "era_year": 3,
           "month_chinese": "十二月",
-          "month_ordinal": 12
-        },
-        {
-          "id": "zztj.74.p32.t3",
-          "type": "temporal",
-          "at": 147,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
-          "era_year": 1
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「十二月」"
         }
       ]
     },
@@ -518,11 +489,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 237,
+          "year_ad": 239,
           "era": "景初",
-          "era_year": 1,
+          "era_year": 3,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景初3年 (AD 239)，月份「十二月」"
         }
       ]
     },
@@ -545,7 +517,8 @@
           "resolution": "absolute",
           "year_ad": 240,
           "era": "正始",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「正始元年」直接出现年号；解析為 AD 240"
         }
       ]
     },
@@ -568,7 +541,8 @@
           "resolution": "absolute",
           "year_ad": 241,
           "era": "正始",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「正始二年」直接出现年号；解析為 AD 241"
         }
       ]
     },
@@ -588,7 +562,8 @@
           "era": "正始",
           "era_year": 2,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 正始2年 (AD 241)，月份「四月」"
         }
       ]
     },
@@ -608,7 +583,8 @@
           "era": "正始",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始2年 (AD 241)，月份「五月」"
         }
       ]
     },
@@ -628,7 +604,8 @@
           "era": "正始",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 正始2年 (AD 241)，月份「六月」"
         }
       ]
     },
@@ -649,38 +626,15 @@
         {
           "id": "zztj.74.p44.t1",
           "type": "temporal",
-          "at": 171,
-          "length": 2,
-          "text": "七年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 246,
-          "era": "正始",
-          "era_year": 7
-        },
-        {
-          "id": "zztj.74.p44.t2",
-          "type": "temporal",
-          "at": 191,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 244,
-          "era": "正始",
-          "era_year": 5
-        },
-        {
-          "id": "zztj.74.p44.t3",
-          "type": "temporal",
           "at": 213,
           "length": 2,
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 244,
+          "year_ad": 241,
           "era": "正始",
-          "era_year": 5
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 正始2年 (AD 241)"
         }
       ]
     },
@@ -703,7 +657,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "正始",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「正始三年」直接出现年号；解析為 AD 242"
         }
       ]
     },
@@ -719,11 +674,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「正月」"
         }
       ]
     },
@@ -739,11 +695,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「三月」"
         },
         {
           "id": "zztj.74.p48.t2",
@@ -753,11 +710,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「七月」"
         }
       ]
     },
@@ -778,11 +736,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 242,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 正始3年 (AD 242)，月份「八月」"
         }
       ]
     },
@@ -800,7 +759,8 @@
           "resolution": "absolute",
           "year_ad": 243,
           "era": "正始",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「正始四年」直接出现年号；解析為 AD 243"
         }
       ]
     },
@@ -816,11 +776,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始4年 (AD 243)，月份「正月」"
         }
       ]
     },
@@ -836,11 +797,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 正始4年 (AD 243)，月份「四月」"
         }
       ]
     },
@@ -856,11 +818,12 @@
           "text": "五月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始4年 (AD 243)，月份「五月」"
         }
       ]
     },
@@ -876,11 +839,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 正始4年 (AD 243)，月份「十月」"
         }
       ]
     },
@@ -896,11 +860,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 244,
+          "year_ad": 243,
           "era": "正始",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 正始4年 (AD 243)，月份「十一月」"
         }
       ]
     },
@@ -927,32 +892,7 @@
     {
       "id": "zztj.74.p61",
       "text": "宗室曹冏上書曰：「古之王者，必建同姓以明親親，必樹異姓以明賢賢。親親之道專用，則其漸也微弱；賢賢之道偏任，則其敝也劫奪。先聖知其然也，故博求親疏而並用之，故能保其社稷，歷經長久。今魏尊尊之法雖明，親親之道未備，或任而不重，或釋而不任。臣竊惟此，寢不安席，謹撰合所聞，論其成敗曰：昔夏、商、周歷世數十，而秦二世而亡。何則？三代之君與天下共其民，故天下同其憂；秦王獨制其民，故傾危而莫救也。秦觀周之弊，以為小弱見奪，於是廢五等之爵，立郡縣之官，內無宗子以自毘輔，外無諸侯以為籓衛，譬猶芟刈股肱，獨任胸腹。觀者為之寒心，而始皇晏然自以為子孫帝王萬世之業也，豈不悖哉！故漢祖奮三尺之劍，驅烏集之眾，五年之中，遂成帝業。何則？伐深根者難為功，摧枯朽者易為力，理勢然也。漢監秦之失，封殖子弟；及諸呂擅權，圖危劉氏，而天下所以不傾動者，徒以諸侯強大，盤石膠固故也。然高祖封建，地過古制，故賈誼以為欲天下之治安，莫若眾建諸侯而少其力；文帝不從。至於孝景，猥用晁錯之計，削黜諸侯，遂有七國之患。蓋兆發高帝，釁鐘文、景，由寬之過制，急之不漸故也。所謂『末大必折，尾大難掉』，尾同於體，猶或不從，況乎非體之尾，其可掉哉！武帝從主父之策，下推恩之令，自是之後，遂以陵夷，子孫微弱，衣食租稅，不預政事。至於哀、平，王氏秉權，假周公之事而為田常之亂，宗室王侯，或乃為之符命，頌莽恩德，豈不哀哉！由斯言之，非宗子獨忠孝於惠、文之間而叛逆於哀、平之際也，徒權輕勢弱，不能有定耳。賴光武皇帝挺不世之姿，擒王莽於已成，紹漢嗣於既絕，斯豈非宗子之力也！而曾不監秦之失策，襲周之舊制，至於桓、靈，閹宦用事，郡孤立於上，臣弄權於下；由是天下鼎沸，奸宄並爭，宗廟焚為灰燼，宮室變為榛藪。太祖皇帝龍飛鳳翔，掃除凶逆。大魏之興，於今二十有四年矣。觀五代之存亡而不用其長策，睹前車之傾覆而不改於轍跡。子弟王空虛之地，君有不使之民；宗室竄於閭閻，不聞邦國之政；權均匹夫，勢齊凡庶。內無深根不拔之固，外無盤石宗盟之助，非所以安社稷，為萬世之業也。且今之州牧、郡守，古之方伯、諸侯，皆跨有千里之土，兼軍武之任，或比國數人，或兄弟並據；而宗室子弟曾無一人間廁其間，與相維制，非所以強幹弱枝，備萬一之虞也。今之用賢，或超為名都之主，或為偏師之帥；而宗室有文者必限小縣之宰，有武者必致百人之上，非所以勸進賢能、褒異宗室之禮也。語曰：『百足之蟲，至死不僵』，以其扶之者眾也。此言雖小，可以譬大。是以聖王安不忘危，存不忘亡，故天下有變而無傾危之患矣。」冏冀以此論感寤曹爽，爽不能用。",
-      "annotations": [
-        {
-          "id": "zztj.74.p61.t1",
-          "type": "temporal",
-          "at": 295,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 244,
-          "era": "正始",
-          "era_year": 5
-        },
-        {
-          "id": "zztj.74.p61.t2",
-          "type": "temporal",
-          "at": 745,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 243,
-          "era": "正始",
-          "era_year": 4
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.74.p62",
@@ -968,7 +908,8 @@
           "resolution": "absolute",
           "year_ad": 244,
           "era": "正始",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「正始五年」直接出现年号；解析為 AD 244"
         }
       ]
     },
@@ -988,7 +929,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「正月」"
         }
       ]
     },
@@ -1008,7 +950,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「三月」"
         }
       ]
     },
@@ -1033,7 +976,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「四月」"
         }
       ]
     },
@@ -1053,7 +997,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「五月」"
         }
       ]
     },
@@ -1073,7 +1018,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「八月」"
         }
       ]
     },
@@ -1093,7 +1039,8 @@
           "era": "正始",
           "era_year": 5,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「十二月」"
         }
       ]
     },
@@ -1111,7 +1058,8 @@
           "resolution": "this_year",
           "year_ad": 244,
           "era": "正始",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "「是歲」 = 当前年 正始5年 (AD 244)"
         }
       ]
     },
@@ -1129,7 +1077,8 @@
           "resolution": "absolute",
           "year_ad": 245,
           "era": "正始",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「正始六年」直接出现年号；解析為 AD 245"
         }
       ]
     },
@@ -1149,7 +1098,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「正月」"
         }
       ]
     },
@@ -1179,7 +1129,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「六月」"
         }
       ]
     },
@@ -1199,7 +1150,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「七月」"
         }
       ]
     },
@@ -1219,7 +1171,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「八月」"
         }
       ]
     },
@@ -1249,7 +1202,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「十一月」"
         }
       ]
     },
@@ -1269,7 +1223,8 @@
           "era": "正始",
           "era_year": 6,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 正始6年 (AD 245)，月份「十二月」"
         }
       ]
     },

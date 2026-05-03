@@ -46,6 +46,7 @@ annotations:
   year_ad: 216
   era: 建安
   era_year: 21
+  reasoning: 原文「建安二十一年」直接出现年号；解析為 AD 216
 - id: wei.21.p4.t2
   anchor: wei.21.p4
   at: 168
@@ -57,6 +58,7 @@ annotations:
   year_ad: 217
   era: 建安
   era_year: 22
+  reasoning: 承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217
 - id: wei.21.p4.a2
   anchor: wei.21.p4
   at: 199
@@ -99,28 +101,6 @@ annotations:
   length: 0
   type: pei
   text: 《文士傳》曰：楨父名梁，字曼山，一名恭。少有清才，以文學見貴，終於野王令。《典略》曰：文帝嘗賜楨廓落帶，其後師死，欲借取以爲像，因書嘲楨云：「夫物因人爲貴。故在賤者之手，不御至尊之側。今雖取之，勿嫌其不反也。」楨荅曰：「楨聞荊山之璞，曜元后之寶；隨侯之珠，燭衆士之好；南垠之金，登窈窕之首；鼲貂之尾，綴侍臣之幘：此四寶者，伏朽石之下，潛汙泥之中，而揚光千載之上，發彩疇昔之外，亦皆未能初自接於至尊也。夫尊者所服，卑者所脩也；貴者所御，賤者所先也。故夏屋初成而大匠先立其下，嘉禾始熟而農夫先嘗其粒。恨楨所帶，無他妙飾，若實殊異，尚可納也。」楨辭旨巧妙皆如是，由是特爲諸公子所親愛。其後太子嘗請諸文學，酒酣坐歡，命夫人甄氏出拜。坐中衆人咸伏，而楨獨平視。太祖聞之，乃收楨，減死輸作。
-- id: wei.21.p9.t1
-  anchor: wei.21.p9
-  at: 2
-  length: 3
-  type: temporal
-  text: 十七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 212
-  era: 建安
-  era_year: 17
-- id: wei.21.p9.t2
-  anchor: wei.21.p9
-  at: 14
-  length: 4
-  type: temporal
-  text: 二十二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 217
-  era: 建安
-  era_year: 22
 - id: wei.21.p9.a1
   anchor: wei.21.p9
   at: 267
@@ -246,6 +226,7 @@ annotations:
   year_ad: 221
   era: 黃初
   era_year: 2
+  reasoning: 原文「黃初二年」直接出现年号；解析為 AD 221
 - id: wei.21.p27.a1
   anchor: wei.21.p27
   at: 22
@@ -353,6 +334,7 @@ annotations:
   year_ad: 255
   era: 正元
   era_year: 2
+  reasoning: 原文「正元二年」直接出现年号；解析為 AD 255
 - id: wei.21.p40.a2
   anchor: wei.21.p40
   at: 86

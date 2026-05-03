@@ -82,7 +82,8 @@
           "resolution": "absolute",
           "year_ad": 190,
           "era": "初平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「初平元年」直接出现年号；解析為 AD 190"
         }
       ]
     },
@@ -113,7 +114,8 @@
           "resolution": "bare_year",
           "year_ad": 191,
           "era": "初平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "承前文年號「初平」推得，「二年」 = 初平2年 = AD 191"
         },
         {
           "id": "hhs.73.p6.a1",
@@ -203,7 +205,8 @@
           "resolution": "bare_year",
           "year_ad": 193,
           "era": "初平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「初平」推得，「四年」 = 初平4年 = AD 193"
         },
         {
           "id": "hhs.73.p11.a1",
@@ -323,7 +326,8 @@
           "resolution": "absolute",
           "year_ad": 191,
           "era": "初平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「初平二年」直接出现年号；解析為 AD 191（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.73.p22.a1",
@@ -491,18 +495,6 @@
       "text": "乘勝而南，攻下郡縣，遂至平原，乃遣其青州刺史田揩據有齊地。紹復遣兵數萬與揩連戰二年，糧食並盡，士卒疲睏，互掠百姓，野無青草。紹乃遣子譚為青州刺史，揩與戰，敗退還。",
       "annotations": [
         {
-          "id": "hhs.73.p25.t1",
-          "type": "temporal",
-          "at": 39,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 191,
-          "era": "初平",
-          "era_year": 2
-        },
-        {
           "id": "hhs.73.p25.a1",
           "type": "lixian",
           "at": 62,
@@ -523,9 +515,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 191,
+          "year_ad": 193,
           "era": "初平",
-          "era_year": 2
+          "era_year": 4,
+          "reasoning": "「是歲」 = 当前年 初平4年 (AD 193)"
         },
         {
           "id": "hhs.73.p26.a1",
@@ -550,7 +543,8 @@
           "resolution": "absolute",
           "year_ad": 195,
           "era": "興平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「興平二年」直接出现年号；解析為 AD 195"
         },
         {
           "id": "hhs.73.p27.a1",
@@ -595,7 +589,8 @@
           "resolution": "absolute",
           "year_ad": 198,
           "era": "建安",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建安三年」直接出现年号；解析為 AD 198"
         }
       ]
     },
@@ -613,7 +608,8 @@
           "resolution": "bare_year",
           "year_ad": 199,
           "era": "建安",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
         }
       ]
     },
@@ -792,7 +788,8 @@
           "resolution": "absolute",
           "year_ad": 193,
           "era": "初平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「初平四年」直接出现年号；解析為 AD 193（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.73.p41.a2",
@@ -831,7 +828,8 @@
           "resolution": "absolute",
           "year_ad": 194,
           "era": "興平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「興平元年」直接出现年号；解析為 AD 194（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.73.p42.t2",
@@ -841,9 +839,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 194,
-          "era": "興平",
-          "era_year": 1
+          "year_ad": 199,
+          "era": "建安",
+          "era_year": 4,
+          "reasoning": "「是歲」 = 当前年 建安4年 (AD 199)"
         }
       ]
     },

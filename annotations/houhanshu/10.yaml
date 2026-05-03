@@ -28,6 +28,7 @@ annotations:
   year_ad: 114
   era: 元初
   era_year: 1
+  reasoning: 原文「元初元年」直接出现年号；解析為 AD 114
 - id: hhs.10.p3.t2
   anchor: hhs.10.p3
   at: 25
@@ -39,6 +40,7 @@ annotations:
   year_ad: 115
   era: 元初
   era_year: 2
+  reasoning: 承前文年號「元初」推得，「二年」 = 元初2年 = AD 115
 - id: hhs.10.p3.a1
   anchor: hhs.10.p3
   at: 57
@@ -56,6 +58,7 @@ annotations:
   year_ad: 116
   era: 元初
   era_year: 3
+  reasoning: 承前文年號「元初」推得，「三年」 = 元初3年 = AD 116
 - id: hhs.10.p3.a2
   anchor: hhs.10.p3
   at: 78
@@ -73,6 +76,7 @@ annotations:
   year_ad: 117
   era: 元初
   era_year: 4
+  reasoning: 承前文年號「元初」推得，「四年」 = 元初4年 = AD 117
 - id: hhs.10.p4.t1
   anchor: hhs.10.p4
   at: 0
@@ -84,6 +88,7 @@ annotations:
   year_ad: 121
   era: 建光
   era_year: 1
+  reasoning: 原文「建光元年」直接出现年号；解析為 AD 121
 - id: hhs.10.p4.t2
   anchor: hhs.10.p4
   at: 33
@@ -95,6 +100,7 @@ annotations:
   year_ad: 122
   era: 延光
   era_year: 1
+  reasoning: 原文「延光元年」直接出现年号；解析為 AD 122
 - id: hhs.10.p4.a1
   anchor: hhs.10.p4
   at: 46
@@ -124,6 +130,7 @@ annotations:
   year_ad: 125
   era: 延光
   era_year: 4
+  reasoning: 承前文年號「延光」推得，「四年」 = 延光4年 = AD 125
 - id: hhs.10.p5.a1
   anchor: hhs.10.p5
   at: 42
@@ -169,6 +176,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 126
+  reasoning: 「明年」 = 当前年 延光4年 (AD 125) 之次年 = AD 126（跨年號邊界，新年號未明）
 - id: hhs.10.p8.a1
   anchor: hhs.10.p8
   at: 73
@@ -210,6 +218,7 @@ annotations:
   year_ad: 128
   era: 永建
   era_year: 3
+  reasoning: 原文「永建三年」直接出现年号；解析為 AD 128
 - id: hhs.10.p10.a1
   anchor: hhs.10.p10
   at: 69
@@ -239,6 +248,7 @@ annotations:
   year_ad: 132
   era: 陽嘉
   era_year: 1
+  reasoning: 原文「陽嘉元年」直接出现年号；解析為 AD 132
 - id: hhs.10.p11.a1
   anchor: hhs.10.p11
   at: 24
@@ -280,6 +290,7 @@ annotations:
   year_ad: 144
   era: 建康
   era_year: 1
+  reasoning: 原文「建康元年」直接出现年号；解析為 AD 144
 - id: hhs.10.p13.a1
   anchor: hhs.10.p13
   at: 72
@@ -297,6 +308,7 @@ annotations:
   year_ad: 150
   era: 和平
   era_year: 1
+  reasoning: 原文「和平元年」直接出现年号；解析為 AD 150
 - id: hhs.10.p14.a1
   anchor: hhs.10.p14
   at: 69
@@ -320,6 +332,7 @@ annotations:
   year_ad: 175
   era: 熹平
   era_year: 4
+  reasoning: 原文「熹平四年」直接出现年号；解析為 AD 175
 - id: hhs.10.p17.a1
   anchor: hhs.10.p17
   at: 11
@@ -373,6 +386,7 @@ annotations:
   year_ad: 176
   era: 熹平
   era_year: 5
+  reasoning: 「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176
 - id: hhs.10.p18.t2
   anchor: hhs.10.p18
   at: 49
@@ -384,6 +398,7 @@ annotations:
   year_ad: 150
   era: 和平
   era_year: 1
+  reasoning: 原文「和平元年」直接出现年号；解析為 AD 150（回溯前事，不推進章節時間軸）
 - id: hhs.10.p18.a3
   anchor: hhs.10.p18
   at: 114
@@ -401,6 +416,7 @@ annotations:
   year_ad: 152
   era: 元嘉
   era_year: 2
+  reasoning: 原文「元嘉二年」直接出现年号；解析為 AD 152（回溯前事，不推進章節時間軸）
 - id: hhs.10.p18.a4
   anchor: hhs.10.p18
   at: 161
@@ -457,7 +473,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 153
+  year_ad: 177
+  era: 熹平
+  era_year: 6
+  reasoning: 「明年」 = 当前年 熹平5年 (AD 176) 之次年 = AD 177
 - id: hhs.10.p19.a3
   anchor: hhs.10.p19
   at: 80
@@ -501,6 +520,7 @@ annotations:
   era_year: 1
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 原文「建和元年六月」直接出现年号；解析為 AD 147（回溯前事，不推進章節時間軸）
 - id: hhs.10.p19.t3
   anchor: hhs.10.p19
   at: 173
@@ -509,11 +529,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 147
-  era: 建和
-  era_year: 1
+  year_ad: 177
+  era: 熹平
+  era_year: 6
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 熹平6年 (AD 177)，月份「八月」
 - id: hhs.10.p20.t1
   anchor: hhs.10.p20
   at: 108
@@ -525,6 +546,7 @@ annotations:
   year_ad: 160
   era: 延熹
   era_year: 3
+  reasoning: 原文「延熹三年」直接出现年号；解析為 AD 160（回溯前事，不推進章節時間軸）
 - id: hhs.10.p21.a1
   anchor: hhs.10.p21
   at: 89
@@ -539,9 +561,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 161
-  era: 延熹
-  era_year: 4
+  year_ad: 178
+  era: 熹平
+  era_year: 7
+  reasoning: 「明年」 = 当前年 熹平6年 (AD 177) 之次年 = AD 178
 - id: hhs.10.p21.t2
   anchor: hhs.10.p21
   at: 147
@@ -550,43 +573,22 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 161
-  era: 延熹
+  year_ad: 175
+  era: 熹平
   era_year: 4
+  reasoning: 承前文年號「熹平」推得，「四年」 = 熹平4年 = AD 175
 - id: hhs.10.p21.a2
   anchor: hhs.10.p21
   at: 216
   length: 0
   type: lixian
   text: 巨，大也。大萬謂萬萬也。
-- id: hhs.10.p22.t1
-  anchor: hhs.10.p22
-  at: 46
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 165
-  era: 延熹
-  era_year: 8
 - id: hhs.10.p22.a1
   anchor: hhs.10.p22
   at: 61
   length: 0
   type: lixian
   text: 《漢官儀》曰：「暴室在掖庭內，丞一人，主宮中婦人疾病者。其皇后、貴人有罪，亦就此室也。」
-- id: hhs.10.p22.t2
-  anchor: hhs.10.p22
-  at: 62
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 164
-  era: 延熹
-  era_year: 7
 - id: hhs.10.p23.t1
   anchor: hhs.10.p23
   at: 24
@@ -598,6 +600,7 @@ annotations:
   year_ad: 165
   era: 延熹
   era_year: 8
+  reasoning: 原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）
 - id: hhs.10.p23.t2
   anchor: hhs.10.p23
   at: 68
@@ -609,6 +612,7 @@ annotations:
   year_ad: 167
   era: 永康
   era_year: 1
+  reasoning: 原文「永康元年」直接出现年号；解析為 AD 167（回溯前事，不推進章節時間軸）
 - id: hhs.10.p25.t1
   anchor: hhs.10.p25
   at: 16
@@ -622,6 +626,7 @@ annotations:
   era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 原文「建寧四年十月」直接出现年号；解析為 AD 171（回溯前事，不推進章節時間軸）
 - id: hhs.10.p25.a1
   anchor: hhs.10.p25
   at: 42
@@ -645,17 +650,7 @@ annotations:
   year_ad: 172
   era: 熹平
   era_year: 1
-- id: hhs.10.p25.t3
-  anchor: hhs.10.p25
-  at: 115
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 178
-  era: 熹平
-  era_year: 7
+  reasoning: 原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）
 - id: hhs.10.p26.a1
   anchor: hhs.10.p26
   at: 21
@@ -673,6 +668,7 @@ annotations:
   year_ad: 168
   era: 建寧
   era_year: 1
+  reasoning: 原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）
 - id: hhs.10.p26.t2
   anchor: hhs.10.p26
   at: 60
@@ -681,9 +677,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 169
-  era: 建寧
-  era_year: 2
+  year_ad: 176
+  era: 熹平
+  era_year: 5
+  reasoning: 「明年」 = 当前年 熹平4年 (AD 175) 之次年 = AD 176
 - id: hhs.10.p26.a2
   anchor: hhs.10.p26
   at: 98
@@ -701,6 +698,7 @@ annotations:
   year_ad: 188
   era: 中平
   era_year: 5
+  reasoning: 原文「中平五年」直接出现年号；解析為 AD 188
 - id: hhs.10.p27.a1
   anchor: hhs.10.p27
   at: 42
@@ -742,6 +740,7 @@ annotations:
   year_ad: 170
   era: 建寧
   era_year: 3
+  reasoning: 原文「建寧三年」直接出现年号；解析為 AD 170（回溯前事，不推進章節時間軸）
 - id: hhs.10.p28.t2
   anchor: hhs.10.p28
   at: 39
@@ -750,9 +749,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 171
-  era: 建寧
-  era_year: 4
+  year_ad: 189
+  era: 中平
+  era_year: 6
+  reasoning: 「明年」 = 当前年 中平5年 (AD 188) 之次年 = AD 189
 - id: hhs.10.p28.a1
   anchor: hhs.10.p28
   at: 60
@@ -782,6 +782,7 @@ annotations:
   year_ad: 178
   era: 光和
   era_year: 1
+  reasoning: 原文「光和元年」直接出现年号；解析為 AD 178（回溯前事，不推進章節時間軸）
 - id: hhs.10.p29.a3
   anchor: hhs.10.p29
   at: 148
@@ -835,6 +836,7 @@ annotations:
   year_ad: 180
   era: 光和
   era_year: 3
+  reasoning: 原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）
 - id: hhs.10.p32.t2
   anchor: hhs.10.p32
   at: 10
@@ -843,26 +845,14 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 181
-  era: 光和
-  era_year: 4
+  year_ad: 190
+  reasoning: 「明年」 = 当前年 中平6年 (AD 189) 之次年 = AD 190（跨年號邊界，新年號未明）
 - id: hhs.10.p32.a1
   anchor: hhs.10.p32
   at: 47
   length: 0
   type: lixian
   text: 《左傳》曰：「邑姜方娠。」杜預注曰：「懷胎爲娠。」音之刃反，一音身。
-- id: hhs.10.p32.t3
-  anchor: hhs.10.p32
-  at: 71
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 181
-  era: 光和
-  era_year: 4
 - id: hhs.10.p33.a1
   anchor: hhs.10.p33
   at: 36
@@ -880,6 +870,7 @@ annotations:
   year_ad: 189
   era: 中平
   era_year: 6
+  reasoning: 原文「中平六年」直接出现年号；解析為 AD 189（回溯前事，不推進章節時間軸）
 - id: hhs.10.p34.a1
   anchor: hhs.10.p34
   at: 168
@@ -900,7 +891,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 190
+  year_ad: 191
+  reasoning: 「明年」 = 当前年 AD 190 之次年 = AD 191（跨年號邊界，新年號未明）
 - id: hhs.10.p36.a1
   anchor: hhs.10.p36
   at: 143
@@ -938,6 +930,7 @@ annotations:
   era_year: 1
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 原文「初平元年二月」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）
 - id: hhs.10.p38.a1
   anchor: hhs.10.p38
   at: 22
@@ -955,6 +948,7 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
+  reasoning: 原文「興平元年」直接出现年号；解析為 AD 194
 - id: hhs.10.p40.a1
   anchor: hhs.10.p40
   at: 63
@@ -996,6 +990,7 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
+  reasoning: 原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）
 - id: hhs.10.p43.t2
   anchor: hhs.10.p43
   at: 22
@@ -1007,6 +1002,7 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
+  reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
 - id: hhs.10.p43.a1
   anchor: hhs.10.p43
   at: 66
@@ -1036,6 +1032,7 @@ annotations:
   year_ad: 196
   era: 建安
   era_year: 1
+  reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
 - id: hhs.10.p43.t4
   anchor: hhs.10.p43
   at: 169
@@ -1047,6 +1044,7 @@ annotations:
   year_ad: 209
   era: 建安
   era_year: 14
+  reasoning: 承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209
 - id: hhs.10.p44.a1
   anchor: hhs.10.p44
   at: 130
@@ -1059,17 +1057,6 @@ annotations:
   length: 0
   type: lixian
   text: 《說文》曰：「𡜟，孕也。」音仁蔭反。
-- id: hhs.10.p44.t1
-  anchor: hhs.10.p44
-  at: 201
-  length: 3
-  type: temporal
-  text: 十九年
-  kind: relative
-  resolution: bare_year
-  year_ad: 214
-  era: 建安
-  era_year: 19
 - id: hhs.10.p44.a3
   anchor: hhs.10.p44
   at: 246
@@ -1100,17 +1087,6 @@ annotations:
   length: 0
   type: lixian
   text: 《魏志》曰：「華歆字子魚，平原高唐人。代荀彧爲尚書令。慮字鴻預，山陽高平人。」
-- id: hhs.10.p44.t2
-  anchor: hhs.10.p44
-  at: 461
-  length: 3
-  type: temporal
-  text: 二十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 215
-  era: 建安
-  era_year: 20
 - id: hhs.10.p45.a1
   anchor: hhs.10.p45
   at: 8
@@ -1128,6 +1104,7 @@ annotations:
   year_ad: 213
   era: 建安
   era_year: 18
+  reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213
 - id: hhs.10.p45.a2
   anchor: hhs.10.p45
   at: 53
@@ -1145,6 +1122,7 @@ annotations:
   year_ad: 214
   era: 建安
   era_year: 19
+  reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
 - id: hhs.10.p45.t3
   anchor: hhs.10.p45
   at: 70
@@ -1156,34 +1134,13 @@ annotations:
   year_ad: 215
   era: 建安
   era_year: 20
+  reasoning: 「明年」 = 当前年 建安19年 (AD 214) 之次年 = AD 215
 - id: hhs.10.p45.a3
   anchor: hhs.10.p45
   at: 117
   length: 0
   type: lixian
   text: 抵，擲也。軒，闌板也。
-- id: hhs.10.p45.t4
-  anchor: hhs.10.p45
-  at: 142
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 202
-  era: 建安
-  era_year: 7
-- id: hhs.10.p45.t5
-  anchor: hhs.10.p45
-  at: 169
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
 - id: hhs.10.p46.a1
   anchor: hhs.10.p46
   at: 34
@@ -1297,51 +1254,19 @@ annotations:
   year_ad: 39
   era: 建武
   era_year: 15
+  reasoning: 原文「建武十五年」直接出现年号；解析為 AD 39（回溯前事，不推進章節時間軸）
 - id: hhs.10.p49.a1
   anchor: hhs.10.p49
   at: 27
   length: 0
   type: lixian
   text: 舞陽，縣，屬潁川郡。松，梁統之子。其傳云：「尚光武女舞陰公主。」又鄧訓傳：「舞陰公主子梁扈，有罪，訓與交通。」此云舞陽，誤也。
-- id: hhs.10.p50.t1
-  anchor: hhs.10.p50
-  at: 5
-  length: 3
-  type: temporal
-  text: 十五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 39
-  era: 建武
-  era_year: 15
 - id: hhs.10.p50.a1
   anchor: hhs.10.p50
   at: 24
   length: 0
   type: lixian
   text: 涅陽，屬南陽郡。顯親，縣，屬漢陽郡。固，竇融子。
-- id: hhs.10.p51.t1
-  anchor: hhs.10.p51
-  at: 5
-  length: 3
-  type: temporal
-  text: 十五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 39
-  era: 建武
-  era_year: 15
-- id: hhs.10.p52.t1
-  anchor: hhs.10.p52
-  at: 5
-  length: 3
-  type: temporal
-  text: 十七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 41
-  era: 建武
-  era_year: 17
 - id: hhs.10.p52.a1
   anchor: hhs.10.p52
   at: 25
@@ -1354,17 +1279,6 @@ annotations:
   length: 0
   type: lixian
   text: 「綬」一作「緩」。
-- id: hhs.10.p53.t1
-  anchor: hhs.10.p53
-  at: 4
-  length: 4
-  type: temporal
-  text: 二十一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 45
-  era: 建武
-  era_year: 21
 - id: hhs.10.p53.a2
   anchor: hhs.10.p53
   at: 30
@@ -1382,23 +1296,13 @@ annotations:
   year_ad: 59
   era: 永平
   era_year: 2
+  reasoning: 原文「永平二年」直接出现年号；解析為 AD 59（回溯前事，不推進章節時間軸）
 - id: hhs.10.p54.a1
   anchor: hhs.10.p54
   at: 26
   length: 0
   type: lixian
   text: 獲嘉，縣，屬河內郡。楊邑，縣，屬太原郡。柱，馮魴子。
-- id: hhs.10.p55.t1
-  anchor: hhs.10.p55
-  at: 4
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 60
-  era: 永平
-  era_year: 3
 - id: hhs.10.p55.a1
   anchor: hhs.10.p55
   at: 12
@@ -1417,17 +1321,6 @@ annotations:
   length: 0
   type: lixian
   text: 「迎」或作「延」。
-- id: hhs.10.p56.t1
-  anchor: hhs.10.p56
-  at: 4
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 60
-  era: 永平
-  era_year: 3
 - id: hhs.10.p56.a2
   anchor: hhs.10.p56
   at: 12
@@ -1440,34 +1333,12 @@ annotations:
   length: 0
   type: lixian
   text: 牟平，縣，屬東萊郡。襲，耿弇弟舒之子。
-- id: hhs.10.p57.t1
-  anchor: hhs.10.p57
-  at: 4
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 59
-  era: 永平
-  era_year: 2
 - id: hhs.10.p57.a1
   anchor: hhs.10.p57
   at: 12
   length: 0
   type: lixian
   text: 平氏，縣，屬南陽郡。旣不言所適，不顯始終，蓋史闕之也。它皆倣此。
-- id: hhs.10.p58.t1
-  anchor: hhs.10.p58
-  at: 4
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 60
-  era: 永平
-  era_year: 3
 - id: hhs.10.p58.a1
   anchor: hhs.10.p58
   at: 12
@@ -1480,17 +1351,6 @@ annotations:
   length: 0
   type: lixian
   text: 乾，鄧震之子，禹之孫。
-- id: hhs.10.p59.t1
-  anchor: hhs.10.p59
-  at: 5
-  length: 3
-  type: temporal
-  text: 十二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 69
-  era: 永平
-  era_year: 12
 - id: hhs.10.p59.a1
   anchor: hhs.10.p59
   at: 14
@@ -1503,34 +1363,12 @@ annotations:
   length: 0
   type: lixian
   text: 昌安，縣，屬高密國。蕃，鄧襲子，禹之孫也。
-- id: hhs.10.p60.t1
-  anchor: hhs.10.p60
-  at: 4
-  length: 3
-  type: temporal
-  text: 十七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 74
-  era: 永平
-  era_year: 17
 - id: hhs.10.p60.a1
   anchor: hhs.10.p60
   at: 23
   length: 0
   type: lixian
   text: 「軮」，志作「軑」，音忕。師古曰：又音徒系反。軮，縣，屬江夏郡。度，王符子，霸之孫。
-- id: hhs.10.p61.t1
-  anchor: hhs.10.p61
-  at: 4
-  length: 3
-  type: temporal
-  text: 十七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 74
-  era: 永平
-  era_year: 17
 - id: hhs.10.p61.a1
   anchor: hhs.10.p61
   at: 26
@@ -1548,40 +1386,19 @@ annotations:
   year_ad: 76
   era: 建初
   era_year: 1
+  reasoning: 原文「建初元年」直接出现年号；解析為 AD 76（回溯前事，不推進章節時間軸）
 - id: hhs.10.p62.a1
   anchor: hhs.10.p62
   at: 14
   length: 0
   type: lixian
   text: 魯陽，縣，屬南陽郡。
-- id: hhs.10.p63.t1
-  anchor: hhs.10.p63
-  at: 5
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 76
-  era: 建初
-  era_year: 1
 - id: hhs.10.p63.a1
   anchor: hhs.10.p63
   at: 13
   length: 0
   type: lixian
   text: 樂平，太清縣，屬東郡，章帝更名。
-- id: hhs.10.p64.t1
-  anchor: hhs.10.p64
-  at: 5
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 76
-  era: 建初
-  era_year: 1
 - id: hhs.10.p64.a1
   anchor: hhs.10.p64
   at: 13
@@ -1599,17 +1416,7 @@ annotations:
   year_ad: 79
   era: 建初
   era_year: 4
-- id: hhs.10.p67.t1
-  anchor: hhs.10.p67
-  at: 4
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 79
-  era: 建初
-  era_year: 4
+  reasoning: 原文「建初四年」直接出现年号；解析為 AD 79（回溯前事，不推進章節時間軸）
 - id: hhs.10.p67.a1
   anchor: hhs.10.p67
   at: 12
@@ -1627,6 +1434,7 @@ annotations:
   year_ad: 93
   era: 永元
   era_year: 5
+  reasoning: 原文「永元五年」直接出现年号；解析為 AD 93（回溯前事，不推進章節時間軸）
 - id: hhs.10.p68.a1
   anchor: hhs.10.p68
   at: 14
@@ -1644,40 +1452,19 @@ annotations:
   year_ad: 106
   era: 延平
   era_year: 1
+  reasoning: 原文「延平元年」直接出现年号；解析為 AD 106（回溯前事，不推進章節時間軸）
 - id: hhs.10.p69.a1
   anchor: hhs.10.p69
   at: 15
   length: 0
   type: lixian
   text: 脩武，縣，屬河內郡。
-- id: hhs.10.p70.t1
-  anchor: hhs.10.p70
-  at: 4
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 106
-  era: 延平
-  era_year: 1
 - id: hhs.10.p70.a1
   anchor: hhs.10.p70
   at: 12
   length: 0
   type: lixian
   text: 共，縣，屬河內郡。
-- id: hhs.10.p71.t1
-  anchor: hhs.10.p71
-  at: 4
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 106
-  era: 延平
-  era_year: 1
 - id: hhs.10.p71.a1
   anchor: hhs.10.p71
   at: 12
@@ -1690,17 +1477,6 @@ annotations:
   length: 0
   type: lixian
   text: 即墨，縣，屬膠東國。建，賈參子，復之曾孫。
-- id: hhs.10.p72.t1
-  anchor: hhs.10.p72
-  at: 4
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 106
-  era: 延平
-  era_year: 1
 - id: hhs.10.p72.a1
   anchor: hhs.10.p72
   at: 12
@@ -1718,17 +1494,7 @@ annotations:
   year_ad: 138
   era: 永和
   era_year: 3
-- id: hhs.10.p74.t1
-  anchor: hhs.10.p74
-  at: 5
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 138
-  era: 永和
-  era_year: 3
+  reasoning: 原文「永和三年」直接出现年号；解析為 AD 138（回溯前事，不推進章節時間軸）
 - id: hhs.10.p74.a1
   anchor: hhs.10.p74
   at: 14
@@ -1746,6 +1512,7 @@ annotations:
   year_ad: 141
   era: 永和
   era_year: 6
+  reasoning: 原文「永和六年」直接出现年号；解析為 AD 141（回溯前事，不推進章節時間軸）
 - id: hhs.10.p75.a1
   anchor: hhs.10.p75
   at: 15
@@ -1763,40 +1530,19 @@ annotations:
   year_ad: 158
   era: 延熹
   era_year: 1
+  reasoning: 原文「延熹元年」直接出现年号；解析為 AD 158（回溯前事，不推進章節時間軸）
 - id: hhs.10.p76.a1
   anchor: hhs.10.p76
   at: 26
   length: 0
   type: lixian
   text: 完，伏湛五世孫。
-- id: hhs.10.p77.t1
-  anchor: hhs.10.p77
-  at: 4
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 164
-  era: 延熹
-  era_year: 7
 - id: hhs.10.p77.a1
   anchor: hhs.10.p77
   at: 13
   length: 0
   type: lixian
   text: 潁陰，縣，屬潁川郡。
-- id: hhs.10.p78.t1
-  anchor: hhs.10.p78
-  at: 4
-  length: 2
-  type: temporal
-  text: 九年
-  kind: relative
-  resolution: bare_year
-  year_ad: 166
-  era: 延熹
-  era_year: 9
 - id: hhs.10.p79.t1
   anchor: hhs.10.p79
   at: 4
@@ -1808,3 +1554,4 @@ annotations:
   year_ad: 180
   era: 光和
   era_year: 3
+  reasoning: 原文「光和三年」直接出现年号；解析為 AD 180（回溯前事，不推進章節時間軸）

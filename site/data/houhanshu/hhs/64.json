@@ -554,7 +554,8 @@
           "resolution": "absolute",
           "year_ad": 167,
           "era": "永康",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167"
         },
         {
           "id": "hhs.64.p20.a2",
@@ -949,7 +950,8 @@
           "resolution": "absolute",
           "year_ad": 175,
           "era": "熹平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「熹平四年」直接出现年号；解析為 AD 175"
         }
       ]
     },
@@ -1039,7 +1041,8 @@
           "resolution": "absolute",
           "year_ad": 178,
           "era": "光和",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「光和元年」直接出现年号；解析為 AD 178"
         },
         {
           "id": "hhs.64.p33.a2",
@@ -1102,7 +1105,8 @@
           "era": "光和",
           "era_year": 1,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 光和元年 (AD 178)，月份「一月」"
         },
         {
           "id": "hhs.64.p33.a9",
@@ -1134,7 +1138,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184"
         }
       ]
     },
@@ -1152,7 +1157,8 @@
           "resolution": "this_year",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "「其年」 = 当前年 中平元年 (AD 184)"
         }
       ]
     },
@@ -1188,7 +1194,8 @@
           "resolution": "absolute",
           "year_ad": 192,
           "era": "初平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「初平三年」直接出现年号；解析為 AD 192"
         }
       ]
     },
@@ -1322,7 +1329,8 @@
           "resolution": "absolute",
           "year_ad": 154,
           "era": "永興",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永興二年」直接出现年号；解析為 AD 154（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.64.p42.a1",
@@ -1361,7 +1369,8 @@
           "resolution": "absolute",
           "year_ad": 158,
           "era": "延熹",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「延熹元年」直接出现年号；解析為 AD 158（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.64.p43.a3",
@@ -1376,18 +1385,6 @@
       "id": "hhs.64.p44",
       "text": "後諸唐死滅，因赦乃出。三府聞之，同時並辟。九年，乃應司徒胡廣之命。會南匈奴、烏桓、鮮卑反叛，公卿舉岐，擢拜并州刺史。岐欲奏守邊之策，未及上，會坐黨事免，因撰次以為禦寇論。",
       "annotations": [
-        {
-          "id": "hhs.64.p44.t1",
-          "type": "temporal",
-          "at": 21,
-          "length": 2,
-          "text": "九年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 166,
-          "era": "延熹",
-          "era_year": 9
-        },
         {
           "id": "hhs.64.p44.a1",
           "type": "lixian",
@@ -1411,7 +1408,8 @@
           "resolution": "absolute",
           "year_ad": 184,
           "era": "中平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.64.p45.a1",
@@ -1443,20 +1441,7 @@
     {
       "id": "hhs.64.p48",
       "text": "是時袁紹、曹操與公孫瓚爭冀州，紹及操聞岐至，皆自將兵數百里奉迎，岐深陳天子恩德，宜罷兵安人之道，又移書公孫瓚，為言利害。紹等各引兵去，皆與岐期會洛陽，奉迎車駕。岐南到陳留，得篤疾，經涉二年，期者遂不至。",
-      "annotations": [
-        {
-          "id": "hhs.64.p48.t1",
-          "type": "temporal",
-          "at": 92,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 185,
-          "era": "中平",
-          "era_year": 2
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.64.p49",
@@ -1472,7 +1457,8 @@
           "resolution": "absolute",
           "year_ad": 194,
           "era": "興平",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「興平元年」直接出现年号；解析為 AD 194"
         }
       ]
     },
@@ -1495,7 +1481,8 @@
           "resolution": "absolute",
           "year_ad": 201,
           "era": "建安",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "原文「建安六年」直接出现年号；解析為 AD 201"
         },
         {
           "id": "hhs.64.p51.a1",

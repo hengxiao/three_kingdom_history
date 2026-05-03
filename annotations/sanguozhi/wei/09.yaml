@@ -28,6 +28,7 @@ annotations:
   year_ad: 207
   era: 建安
   era_year: 12
+  reasoning: 原文「建安十二年」直接出现年号；解析為 AD 207
 - id: wei.9.p2.t2
   anchor: wei.9.p2
   at: 153
@@ -39,17 +40,7 @@ annotations:
   year_ad: 216
   era: 建安
   era_year: 21
-- id: wei.9.p2.t3
-  anchor: wei.9.p2
-  at: 208
-  length: 4
-  type: temporal
-  text: 二十四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 219
-  era: 建安
-  era_year: 24
+  reasoning: 承前文年號「建安」推得，「二十一年」 = 建安21年 = AD 216
 - id: wei.9.p2.a2
   anchor: wei.9.p2
   at: 249
@@ -97,6 +88,7 @@ annotations:
   year_ad: 209
   era: 建安
   era_year: 14
+  reasoning: 承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209
 - id: wei.9.p6.t1
   anchor: wei.9.p6
   at: 0
@@ -108,6 +100,7 @@ annotations:
   year_ad: 212
   era: 建安
   era_year: 17
+  reasoning: 承前文年號「建安」推得，「十七年」 = 建安17年 = AD 212
 - id: wei.9.p6.t2
   anchor: wei.9.p6
   at: 111
@@ -119,18 +112,8 @@ annotations:
   year_ad: 214
   era: 建安
   era_year: 19
+  reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
 - id: wei.9.p7.t1
-  anchor: wei.9.p7
-  at: 128
-  length: 4
-  type: temporal
-  text: 二十一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 216
-  era: 建安
-  era_year: 21
-- id: wei.9.p7.t2
   anchor: wei.9.p7
   at: 248
   length: 4
@@ -141,7 +124,8 @@ annotations:
   year_ad: 218
   era: 建安
   era_year: 23
-- id: wei.9.p7.t3
+  reasoning: 承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218
+- id: wei.9.p7.t2
   anchor: wei.9.p7
   at: 272
   length: 6
@@ -154,6 +138,7 @@ annotations:
   era_year: 24
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 承前文年號「建安」推得，「二十四年正月」 = 建安24年 = AD 219
 - id: wei.9.p9.a1
   anchor: wei.9.p9
   at: 114
@@ -195,6 +180,7 @@ annotations:
   year_ad: 223
   era: 黃初
   era_year: 4
+  reasoning: 原文「黃初四年」直接出现年号；解析為 AD 223
 - id: wei.9.p15.a1
   anchor: wei.9.p15
   at: 223
@@ -218,6 +204,7 @@ annotations:
   year_ad: 210
   era: 建安
   era_year: 15
+  reasoning: 原文「建安十五年」直接出现年号；解析為 AD 210（回溯前事，不推進章節時間軸）
 - id: wei.9.p16.a2
   anchor: wei.9.p16
   at: 194
@@ -247,6 +234,7 @@ annotations:
   year_ad: 232
   era: 太和
   era_year: 6
+  reasoning: 原文「太和六年」直接出现年号；解析為 AD 232
 - id: wei.9.p19.a1
   anchor: wei.9.p19
   at: 52
@@ -270,6 +258,7 @@ annotations:
   year_ad: 228
   era: 太和
   era_year: 2
+  reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
 - id: wei.9.p19.a3
   anchor: wei.9.p19
   at: 610
@@ -299,6 +288,7 @@ annotations:
   year_ad: 222
   era: 黃初
   era_year: 3
+  reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
 - id: wei.9.p21.t2
   anchor: wei.9.p21
   at: 310
@@ -307,9 +297,10 @@ annotations:
   text: 七年
   kind: relative
   resolution: bare_year
-  year_ad: 226
-  era: 黃初
+  year_ad: 233
+  era: 太和
   era_year: 7
+  reasoning: 承前文年號「太和」推得，「七年」 = 太和7年 = AD 233
 - id: wei.9.p21.a2
   anchor: wei.9.p21
   at: 345
@@ -324,7 +315,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 227
+  year_ad: 234
+  reasoning: 「明年」 = 当前年 太和7年 (AD 233) 之次年 = AD 234（跨年號邊界，新年號未明）
 - id: wei.9.p22.t2
   anchor: wei.9.p22
   at: 221
@@ -333,9 +325,10 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 227
+  year_ad: 234
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 AD 234，月份「八月」
 - id: wei.9.p25.a1
   anchor: wei.9.p25
   at: 0
@@ -353,6 +346,7 @@ annotations:
   year_ad: 244
   era: 正始
   era_year: 5
+  reasoning: 原文「正始五年」直接出现年号；解析為 AD 244
 - id: wei.9.p25.a2
   anchor: wei.9.p25
   at: 223
@@ -382,6 +376,7 @@ annotations:
   year_ad: 248
   era: 正始
   era_year: 9
+  reasoning: 承前文年號「正始」推得，「九年」 = 正始9年 = AD 248
 - id: wei.9.p26.a2
   anchor: wei.9.p26
   at: 427
@@ -401,6 +396,7 @@ annotations:
   era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 承前文年號「正始」推得，「十年正月」 = 正始10年 = AD 249
 - id: wei.9.p27.a1
   anchor: wei.9.p27
   at: 18
@@ -444,6 +440,7 @@ annotations:
   era_year: 10
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 正始10年 (AD 249)，月份「三月」
 - id: wei.9.p29.a1
   anchor: wei.9.p29
   at: 180
@@ -479,6 +476,7 @@ annotations:
   year_ad: 222
   era: 黃初
   era_year: 3
+  reasoning: 原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
 - id: wei.9.p31.t2
   anchor: wei.9.p31
   at: 426
@@ -487,9 +485,10 @@ annotations:
   text: 五年
   kind: relative
   resolution: bare_year
-  year_ad: 224
-  era: 黃初
+  year_ad: 244
+  era: 正始
   era_year: 5
+  reasoning: 承前文年號「正始」推得，「五年」 = 正始5年 = AD 244
 - id: wei.9.p32.t1
   anchor: wei.9.p32
   at: 85
@@ -498,9 +497,10 @@ annotations:
   text: 六年
   kind: relative
   resolution: bare_year
-  year_ad: 225
-  era: 黃初
+  year_ad: 245
+  era: 正始
   era_year: 6
+  reasoning: 承前文年號「正始」推得，「六年」 = 正始6年 = AD 245
 - id: wei.9.p32.a1
   anchor: wei.9.p32
   at: 114
@@ -532,6 +532,7 @@ annotations:
   era_year: 6
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 原文「嘉平六年二月」直接出现年号；解析為 AD 254
 - id: wei.9.p39.a2
   anchor: wei.9.p39
   at: 270

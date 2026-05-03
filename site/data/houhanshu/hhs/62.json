@@ -57,7 +57,8 @@
           "resolution": "absolute",
           "year_ad": 149,
           "era": "建和",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「建和三年」直接出现年号；解析為 AD 149"
         },
         {
           "id": "hhs.62.p2.a3",
@@ -140,7 +141,8 @@
           "resolution": "absolute",
           "year_ad": 166,
           "era": "延熹",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "原文「延熹九年」直接出现年号；解析為 AD 166"
         }
       ]
     },
@@ -153,18 +155,6 @@
       "id": "hhs.62.p9",
       "text": "後遭黨錮，隱於海上，又南遁漢濱，積十餘年，以著述為事，遂稱為碩儒。黨禁解，五府並辟，司空袁逢舉有道，不應。及逢卒，爽制服三年，當世往往化以為俗。時人多不行妻服，雖在親憂猶有弔問喪疾者，又私謚其君父及諸名士，爽皆引據大義，正之經典，雖不悉變，亦頗有改。",
       "annotations": [
-        {
-          "id": "hhs.62.p9.t1",
-          "type": "temporal",
-          "at": 60,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 160,
-          "era": "延熹",
-          "era_year": 3
-        },
         {
           "id": "hhs.62.p9.a1",
           "type": "lixian",
@@ -277,7 +267,8 @@
           "resolution": "absolute",
           "year_ad": 209,
           "era": "建安",
-          "era_year": 14
+          "era_year": 14,
+          "reasoning": "原文「建安十四年」直接出现年号；解析為 AD 209"
         }
       ]
     },
@@ -433,7 +424,8 @@
           "resolution": "absolute",
           "year_ad": 187,
           "era": "中平",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「中平四年」直接出现年号；解析為 AD 187（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "hhs.62.p31.a2",

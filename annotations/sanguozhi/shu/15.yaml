@@ -22,6 +22,7 @@ annotations:
   year_ad: 243
   era: 延熙
   era_year: 6
+  reasoning: 原文「延熙六年」直接出现年号；解析為 AD 243
 - id: shu.15.p3.t2
   anchor: shu.15.p3
   at: 17
@@ -33,23 +34,13 @@ annotations:
   year_ad: 248
   era: 延熙
   era_year: 11
+  reasoning: 承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248
 - id: shu.15.p3.a1
   anchor: shu.15.p3
   at: 48
   length: 0
   type: pei
   text: 《華陽國志》曰：芝徵涪陵，見玄猿緣山。芝性好弩，手自射猿，中之。猿拔其箭，卷木葉塞其創。芝曰：「嘻，吾違物之性，其將死矣！」一曰：芝見猿抱子在樹上，引弩射之，中猿母，其子為拔箭，以木葉塞創。芝乃嘆息，投弩水中，自知當死。
-- id: shu.15.p3.t3
-  anchor: shu.15.p3
-  at: 48
-  length: 3
-  type: temporal
-  text: 十四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 251
-  era: 延熙
-  era_year: 14
 - id: shu.15.p5.a1
   anchor: shu.15.p5
   at: 34
@@ -67,6 +58,7 @@ annotations:
   year_ad: 231
   era: 建興
   era_year: 9
+  reasoning: 原文「建興九年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）
 - id: shu.15.p6.t2
   anchor: shu.15.p6
   at: 249
@@ -78,6 +70,7 @@ annotations:
   year_ad: 238
   era: 延熙
   era_year: 1
+  reasoning: 原文「延熙元年」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
 - id: shu.15.p7.t1
   anchor: shu.15.p7
   at: 0
@@ -89,6 +82,7 @@ annotations:
   year_ad: 255
   era: 延熙
   era_year: 18
+  reasoning: 承前文年號「延熙」推得，「十八年」 = 延熙18年 = AD 255
 - id: shu.15.p7.t2
   anchor: shu.15.p7
   at: 157
@@ -100,6 +94,7 @@ annotations:
   year_ad: 259
   era: 景耀
   era_year: 2
+  reasoning: 原文「景耀二年」直接出现年号；解析為 AD 259
 - id: shu.15.p7.t3
   anchor: shu.15.p7
   at: 175
@@ -111,6 +106,7 @@ annotations:
   year_ad: 263
   era: 景耀
   era_year: 6
+  reasoning: 承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263
 - id: shu.15.p7.t4
   anchor: shu.15.p7
   at: 193
@@ -122,6 +118,7 @@ annotations:
   year_ad: 264
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 「明年正月」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）
 - id: shu.15.p7.a1
   anchor: shu.15.p7
   at: 210
@@ -139,6 +136,7 @@ annotations:
   year_ad: 247
   era: 延熙
   era_year: 10
+  reasoning: 原文「延熙十年」直接出现年号；解析為 AD 247（回溯前事，不推進章節時間軸）
 - id: shu.15.p9.a1
   anchor: shu.15.p9
   at: 71
@@ -162,23 +160,13 @@ annotations:
   year_ad: 258
   era: 景耀
   era_year: 1
+  reasoning: 原文「景耀元年」直接出现年号；解析為 AD 258（回溯前事，不推進章節時間軸）
 - id: shu.15.p10.a1
   anchor: shu.15.p10
   at: 138
   length: 0
   type: pei
   text: 《漢晉春秋》曰：景耀五年，姜維率眾出狄道，廖化曰：「‘兵不戢，必自焚’，伯約之謂也。智不出敵，而力少於寇，用之無厭，何以能立？詩云‘不自我先，不自我後’，今日之事也。」
-- id: shu.15.p11.t1
-  anchor: shu.15.p11
-  at: 2
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 258
-  era: 景耀
-  era_year: 1
 - id: shu.15.p12.t1
   anchor: shu.15.p12
   at: 185
@@ -190,6 +178,7 @@ annotations:
   year_ad: 257
   era: 延熙
   era_year: 20
+  reasoning: 原文「延熙二十年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
 - id: shu.15.p12.t2
   anchor: shu.15.p12
   at: 249
@@ -201,6 +190,7 @@ annotations:
   year_ad: 261
   era: 景耀
   era_year: 4
+  reasoning: 原文「景耀四年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）
 - id: shu.15.p14.a1
   anchor: shu.15.p14
   at: 38
@@ -218,6 +208,7 @@ annotations:
   year_ad: 241
   era: 延熙
   era_year: 4
+  reasoning: 原文「延熙四年」直接出现年号；解析為 AD 241（回溯前事，不推進章節時間軸）
 - id: shu.15.p17.t1
   anchor: shu.15.p17
   at: 61
@@ -229,6 +220,7 @@ annotations:
   year_ad: 222
   era: 章武
   era_year: 2
+  reasoning: 原文「章武二年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
 - id: shu.15.p18.t1
   anchor: shu.15.p18
   at: 28
@@ -240,6 +232,7 @@ annotations:
   year_ad: 213
   era: 建安
   era_year: 18
+  reasoning: 原文「建安十八年」直接出现年号；解析為 AD 213（回溯前事，不推進章節時間軸）
 - id: shu.15.p18.t2
   anchor: shu.15.p18
   at: 75
@@ -251,6 +244,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
 - id: shu.15.p19.a1
   anchor: shu.15.p19
   at: 243
@@ -268,6 +262,7 @@ annotations:
   year_ad: 221
   era: 章武
   era_year: 1
+  reasoning: 原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
 - id: shu.15.p21.t2
   anchor: shu.15.p21
   at: 70
@@ -279,28 +274,7 @@ annotations:
   year_ad: 230
   era: 建興
   era_year: 8
-- id: shu.15.p21.t3
-  anchor: shu.15.p21
-  at: 105
-  length: 3
-  type: temporal
-  text: 十二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 234
-  era: 建興
-  era_year: 12
-- id: shu.15.p21.t4
-  anchor: shu.15.p21
-  at: 140
-  length: 3
-  type: temporal
-  text: 十五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 237
-  era: 建興
-  era_year: 15
+  reasoning: 原文「建興八年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）
 - id: shu.15.p25.a1
   anchor: shu.15.p25
   at: 199
@@ -318,6 +292,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
 - id: shu.15.p26.t2
   anchor: shu.15.p26
   at: 127
@@ -326,9 +301,8 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 223
-  era: 建興
-  era_year: 1
+  year_ad: 264
+  reasoning: 「是歲」 = 当前年 AD 264
 - id: shu.15.p26.a1
   anchor: shu.15.p26
   at: 131
@@ -346,6 +320,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
 - id: shu.15.p27.t2
   anchor: shu.15.p27
   at: 259
@@ -357,6 +332,7 @@ annotations:
   year_ad: 242
   era: 延熙
   era_year: 5
+  reasoning: 原文「延熙五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
 - id: shu.15.p28.t1
   anchor: shu.15.p28
   at: 31
@@ -368,6 +344,7 @@ annotations:
   year_ad: 223
   era: 建興
   era_year: 1
+  reasoning: 原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）
 - id: shu.15.p28.a1
   anchor: shu.15.p28
   at: 90
@@ -385,6 +362,7 @@ annotations:
   year_ad: 222
   era: 章武
   era_year: 2
+  reasoning: 原文「章武二年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）
 - id: shu.15.p29.a1
   anchor: shu.15.p29
   at: 44
@@ -402,6 +380,7 @@ annotations:
   year_ad: 225
   era: 建興
   era_year: 3
+  reasoning: 原文「建興三年」直接出现年号；解析為 AD 225（回溯前事，不推進章節時間軸）
 - id: shu.15.p30.t1
   anchor: shu.15.p30
   at: 130
@@ -413,6 +392,7 @@ annotations:
   year_ad: 263
   era: 景耀
   era_year: 6
+  reasoning: 原文「景耀六年」直接出现年号；解析為 AD 263（回溯前事，不推進章節時間軸）
 - id: shu.15.p30.a1
   anchor: shu.15.p30
   at: 152

@@ -35,7 +35,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
           "id": "wu.14.p2.a1",
@@ -67,7 +68,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "嘉禾",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234"
         }
       ]
     },
@@ -98,7 +100,8 @@
           "resolution": "bare_year",
           "year_ad": 236,
           "era": "嘉禾",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "承前文年號「嘉禾」推得，「五年」 = 嘉禾5年 = AD 236"
         },
         {
           "id": "wu.14.p5.t2",
@@ -110,7 +113,8 @@
           "resolution": "this_year",
           "year_ad": 236,
           "era": "嘉禾",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "「是歲」 = 当前年 嘉禾5年 (AD 236)"
         },
         {
           "id": "wu.14.p5.t3",
@@ -122,7 +126,8 @@
           "resolution": "absolute",
           "year_ad": 241,
           "era": "赤烏",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「赤烏四年」直接出现年号；解析為 AD 241"
         },
         {
           "id": "wu.14.p5.a1",
@@ -147,7 +152,8 @@
           "resolution": "absolute",
           "year_ad": 254,
           "era": "五鳳",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「五鳳元年」直接出现年号；解析為 AD 254"
         },
         {
           "id": "wu.14.p6.a1",
@@ -177,19 +183,8 @@
           "resolution": "absolute",
           "year_ad": 228,
           "era": "黃武",
-          "era_year": 7
-        },
-        {
-          "id": "wu.14.p8.t2",
-          "type": "temporal",
-          "at": 33,
-          "length": 2,
-          "text": "二年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 223,
-          "era": "黃武",
-          "era_year": 2
+          "era_year": 7,
+          "reasoning": "原文「黃武七年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.14.p8.a1",
@@ -199,7 +194,7 @@
           "text": "《吳書》載權詔曰：「期運擾亂，凶邪肆虐，威罰有序，干戈不戢。以慮氣志休懿，武略夙昭，必能爲國佐定大業，故授以上將之位，至以殊特之榮，寵以兵馬之勢，委以偏方之任。外欲威振敵虜，厭難萬里，內欲鎮撫遠近，慰卹將士，誠慮建功立事竭命之秋也。慮其內脩文德，外經武訓，持盈若沖，則滿而不溢。敬慎乃心，無忝所受。」"
         },
         {
-          "id": "wu.14.p8.t3",
+          "id": "wu.14.p8.t2",
           "type": "temporal",
           "at": 287,
           "length": 4,
@@ -208,7 +203,8 @@
           "resolution": "absolute",
           "year_ad": 232,
           "era": "嘉禾",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「嘉禾元年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -226,7 +222,8 @@
           "resolution": "absolute",
           "year_ad": 242,
           "era": "赤烏",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.14.p9.a1",
@@ -285,7 +282,8 @@
           "era": "太元",
           "era_year": 2,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "原文「太元二年正月」直接出现年号；解析為 AD 252（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.14.p12.a1",
@@ -302,11 +300,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 252,
-          "era": "太元",
-          "era_year": 2,
+          "year_ad": 254,
+          "era": "五鳳",
+          "era_year": 1,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 五鳳元年 (AD 254)，月份「四月」"
         }
       ]
     },
@@ -322,9 +321,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 252,
-          "era": "太元",
-          "era_year": 2
+          "year_ad": 254,
+          "era": "五鳳",
+          "era_year": 1,
+          "reasoning": "「其年」 = 当前年 五鳳元年 (AD 254)"
         },
         {
           "id": "wu.14.p13.t2",
@@ -338,7 +338,8 @@
           "era": "寶鼎",
           "era_year": 2,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "原文「寶鼎二年七月」直接出现年号；解析為 AD 267"
         },
         {
           "id": "wu.14.p13.t3",
@@ -352,7 +353,8 @@
           "era": "寶鼎",
           "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 寶鼎2年 (AD 267)，月份「十二月」"
         },
         {
           "id": "wu.14.p13.a1",
@@ -373,20 +375,7 @@
     {
       "id": "wu.14.p14",
       "text": "孫霸字子威，和弟也。和爲太子。霸爲魯王，寵愛崇特，與和無殊。頃之，和、霸不穆之聲聞於權耳，權禁斷往來，假以精學。督軍使者羊衜上疏曰：「臣聞古之有天下者，皆先顯別適庶，封建子弟，所以尊重祖宗，爲國藩表也。二宮拜授，海內稱宜，斯乃大吳興隆之基。頃聞二宮並絕賔客，遠近悚然，大小失望。竊從下風，聽採衆論，咸謂二宮智達英茂，自正名建號，於今三年，德行內著，美稱外昭，西北二隅，乆所服聞。謂陛下當副順遐邇所以歸德，勤命二宮賔延四遠，使異國聞聲，思爲臣妾。今旣未垂意於此，而發明詔，省奪備衞，抑絕賔客，使四方禮敬，不復得通，雖實陛下敦尚古義，欲令二宮專志於學，不復顧慮觀聽小宜，期於溫故博物而已，然非臣下傾企喁喁之至願也。或謂二宮不遵典式，此臣所以寢息不寧。就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，乆將宣流，而西北二隅，去國不遠，異同之語，易以聞達。聞達之日，聲論當興，將謂二宮有不順之愆，不審陛下何以解之？若無以解異國，則亦無以釋境內。境內守疑，異國興謗，非所以育巍巍，鎮社稷也。願陛下早發優詔，使二宮周旋禮命如初，則天清地晏，萬國幸甚矣。」",
-      "annotations": [
-        {
-          "id": "wu.14.p14.t1",
-          "type": "temporal",
-          "at": 166,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 268,
-          "era": "寶鼎",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.14.p15",
@@ -407,7 +396,8 @@
           "resolution": "absolute",
           "year_ad": 257,
           "era": "太平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太平二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -425,7 +415,8 @@
           "resolution": "absolute",
           "year_ad": 252,
           "era": "太元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太元二年」直接出现年号；解析為 AD 252（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -450,7 +441,8 @@
           "resolution": "absolute",
           "year_ad": 258,
           "era": "太平",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「太平三年」直接出现年号；解析為 AD 258（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.14.p18.a2",
@@ -475,7 +467,8 @@
           "resolution": "absolute",
           "year_ad": 270,
           "era": "建衡",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「建衡二年」直接出现年号；解析為 AD 270"
         },
         {
           "id": "wu.14.p19.a1",

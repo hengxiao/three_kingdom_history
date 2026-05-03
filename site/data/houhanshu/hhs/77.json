@@ -120,7 +120,8 @@
           "resolution": "absolute",
           "year_ad": 93,
           "era": "永元",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「永元五年」直接出现年号；解析為 AD 93"
         }
       ]
     },
@@ -138,7 +139,8 @@
           "resolution": "bare_year",
           "year_ad": 94,
           "era": "永元",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「永元」推得，「六年」 = 永元6年 = AD 94"
         },
         {
           "id": "hhs.77.p20.t2",
@@ -150,7 +152,8 @@
           "resolution": "bare_year",
           "year_ad": 95,
           "era": "永元",
-          "era_year": 7
+          "era_year": 7,
+          "reasoning": "承前文年號「永元」推得，「七年」 = 永元7年 = AD 95"
         },
         {
           "id": "hhs.77.p20.t3",
@@ -162,7 +165,8 @@
           "resolution": "bare_year",
           "year_ad": 97,
           "era": "永元",
-          "era_year": 9
+          "era_year": 9,
+          "reasoning": "承前文年號「永元」推得，「九年」 = 永元9年 = AD 97"
         }
       ]
     },
@@ -193,18 +197,6 @@
         {
           "id": "hhs.77.p25.t1",
           "type": "temporal",
-          "at": 2,
-          "length": 2,
-          "text": "四年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 92,
-          "era": "永元",
-          "era_year": 4
-        },
-        {
-          "id": "hhs.77.p25.t2",
-          "type": "temporal",
           "at": 76,
           "length": 4,
           "text": "永和五年",
@@ -212,10 +204,11 @@
           "resolution": "absolute",
           "year_ad": 140,
           "era": "永和",
-          "era_year": 5
+          "era_year": 5,
+          "reasoning": "原文「永和五年」直接出现年号；解析為 AD 140"
         },
         {
-          "id": "hhs.77.p25.t3",
+          "id": "hhs.77.p25.t2",
           "type": "temporal",
           "at": 88,
           "length": 4,
@@ -224,7 +217,8 @@
           "resolution": "absolute",
           "year_ad": 142,
           "era": "漢安",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「漢安元年」直接出现年号；解析為 AD 142"
         }
       ]
     },
@@ -262,7 +256,8 @@
           "resolution": "absolute",
           "year_ad": 179,
           "era": "光和",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「光和二年」直接出现年号；解析為 AD 179"
         }
       ]
     },
@@ -287,7 +282,8 @@
           "era": "光和",
           "era_year": 2,
           "month_chinese": "一月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 光和2年 (AD 179)，月份「一月」"
         }
       ]
     },
@@ -299,20 +295,7 @@
     {
       "id": "hhs.77.p34",
       "text": "王吉者，陳留浚儀人，中常侍甫之養子也。甫在《宦者傳》。吉少好誦讀書傳，喜名聲，而性殘忍。以父秉權寵，年二十餘，為沛相。曉達政事，能斷察疑獄，發起姦伏，多出眾議。課使郡內各舉姦吏豪人諸常有微過酒肉為臧者，雖數十年猶如貶棄，注其名籍。專選剽悍吏，擊斷非法。若有生子不養，即斬其父母，合土棘埋之。凡殺人皆磔屍車上，隨其罪目，宣示屬縣。夏月腐爛，則以繩連其骨，周遍一郡乃止，見者駭懼。視事五年，凡殺萬餘人。其餘慘毒刺刻，不可勝數。郡中惴恐，莫敢自保。及陽球奏甫，乃就收執，死於洛陽獄。",
-      "annotations": [
-        {
-          "id": "hhs.77.p34.t1",
-          "type": "temporal",
-          "at": 190,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 182,
-          "era": "光和",
-          "era_year": 5
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.77.p35",

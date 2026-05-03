@@ -16,17 +16,7 @@ annotations:
   year_ad: 188
   era: 中平
   era_year: 5
-- id: hhs.74.p16.t1
-  anchor: hhs.74.p16
-  at: 23
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 185
-  era: 中平
-  era_year: 2
+  reasoning: 原文「中平五年」直接出现年号；解析為 AD 188
 - id: hhs.74.p17.t1
   anchor: hhs.74.p17
   at: 0
@@ -38,6 +28,7 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
+  reasoning: 原文「初平元年」直接出现年号；解析為 AD 190
 - id: hhs.74.p26.t1
   anchor: hhs.74.p26
   at: 0
@@ -49,6 +40,7 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
+  reasoning: 「明年」 = 当前年 初平元年 (AD 190) 之次年 = AD 191
 - id: hhs.74.p46.t1
   anchor: hhs.74.p46
   at: 22
@@ -60,6 +52,7 @@ annotations:
   year_ad: 192
   era: 初平
   era_year: 3
+  reasoning: 承前文年號「初平」推得，「三年」 = 初平3年 = AD 192
 - id: hhs.74.p50.t1
   anchor: hhs.74.p50
   at: 0
@@ -71,6 +64,7 @@ annotations:
   year_ad: 193
   era: 初平
   era_year: 4
+  reasoning: 承前文年號「初平」推得，「四年」 = 初平4年 = AD 193
 - id: hhs.74.p51.t1
   anchor: hhs.74.p51
   at: 0
@@ -84,6 +78,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 初平4年 (AD 193)，月份「三月」
 - id: hhs.74.p52.t1
   anchor: hhs.74.p52
   at: 18
@@ -97,6 +92,7 @@ annotations:
   era_year: 4
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 初平4年 (AD 193)，月份「六月」
 - id: hhs.74.p53.t1
   anchor: hhs.74.p53
   at: 6
@@ -110,6 +106,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 初平4年 (AD 193)，月份「三月」
 - id: hhs.74.p53.t2
   anchor: hhs.74.p53
   at: 49
@@ -123,6 +120,7 @@ annotations:
   era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 初平4年 (AD 193)，月份「三月」
 - id: hhs.74.p60.t1
   anchor: hhs.74.p60
   at: 0
@@ -134,6 +132,7 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
+  reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
 - id: hhs.74.p67.t1
   anchor: hhs.74.p67
   at: 0
@@ -145,6 +144,7 @@ annotations:
   year_ad: 196
   era: 建安
   era_year: 1
+  reasoning: 原文「建安元年」直接出现年号；解析為 AD 196
 - id: hhs.74.p69.t1
   anchor: hhs.74.p69
   at: 29
@@ -158,6 +158,7 @@ annotations:
   era_year: 1
   month_chinese: 夏五月
   month_ordinal: 5
+  reasoning: 年承前文 建安元年 (AD 196)，月份「夏五月」
 - id: hhs.74.p103.t1
   anchor: hhs.74.p103
   at: 49
@@ -169,6 +170,7 @@ annotations:
   year_ad: 197
   era: 建安
   era_year: 2
+  reasoning: 承前文年號「建安」推得，「二年」 = 建安2年 = AD 197
 - id: hhs.74.p107.t1
   anchor: hhs.74.p107
   at: 119
@@ -180,6 +182,7 @@ annotations:
   year_ad: 199
   era: 建安
   era_year: 4
+  reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
 - id: hhs.74.p107.a1
   anchor: hhs.74.p107
   at: 135
@@ -197,56 +200,13 @@ annotations:
   year_ad: 200
   era: 建安
   era_year: 5
-- id: hhs.74.p121.t1
-  anchor: hhs.74.p121
-  at: 174
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
+  reasoning: 承前文年號「建安」推得，「五年」 = 建安5年 = AD 200
 - id: hhs.74.p137.a1
   anchor: hhs.74.p137
   at: 12
   length: 0
   type: lixian
   text: 班固傳
-- id: hhs.74.p153.t1
-  anchor: hhs.74.p153
-  at: 107
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
-- id: hhs.74.p188.t1
-  anchor: hhs.74.p188
-  at: 4
-  length: 3
-  type: temporal
-  text: 十二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 207
-  era: 建安
-  era_year: 12
-- id: hhs.74.p195.t1
-  anchor: hhs.74.p195
-  at: 20
-  length: 2
-  type: temporal
-  text: 七年
-  kind: relative
-  resolution: bare_year
-  year_ad: 202
-  era: 建安
-  era_year: 7
 - id: hhs.74.p251.t1
   anchor: hhs.74.p251
   at: 1
@@ -255,11 +215,12 @@ annotations:
   text: 九月
   kind: relative
   resolution: bare_month
-  year_ad: 202
+  year_ad: 200
   era: 建安
-  era_year: 7
+  era_year: 5
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 建安5年 (AD 200)，月份「九月」
 - id: hhs.74.p251.t2
   anchor: hhs.74.p251
   at: 4
@@ -268,11 +229,12 @@ annotations:
   text: 明年二月
   kind: relative
   resolution: next_year
-  year_ad: 203
+  year_ad: 201
   era: 建安
-  era_year: 8
+  era_year: 6
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 「明年二月」 = 当前年 建安5年 (AD 200) 之次年 = AD 201
 - id: hhs.74.p251.a1
   anchor: hhs.74.p251
   at: 14
@@ -401,11 +363,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 203
+  year_ad: 201
   era: 建安
-  era_year: 8
+  era_year: 6
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 建安6年 (AD 201)，月份「十月」
 - id: hhs.74.p262.a1
   anchor: hhs.74.p262
   at: 68
@@ -425,6 +388,7 @@ annotations:
   era_year: 9
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 承前文年號「建安」推得，「九年三月」 = 建安9年 = AD 204
 - id: hhs.74.p263.a1
   anchor: hhs.74.p263
   at: 47
@@ -552,6 +516,7 @@ annotations:
   era_year: 9
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 建安9年 (AD 204)，月份「五月」
 - id: hhs.74.p274.t2
   anchor: hhs.74.p274
   at: 113
@@ -565,6 +530,7 @@ annotations:
   era_year: 9
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安9年 (AD 204)，月份「八月」
 - id: hhs.74.p274.a2
   anchor: hhs.74.p274
   at: 152
@@ -632,6 +598,7 @@ annotations:
   era_year: 9
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 建安9年 (AD 204)，月份「十二月」
 - id: hhs.74.p282.t2
   anchor: hhs.74.p282
   at: 35
@@ -645,6 +612,7 @@ annotations:
   era_year: 10
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 「明年正月」 = 当前年 建安9年 (AD 204) 之次年 = AD 205
 - id: hhs.74.p282.a1
   anchor: hhs.74.p282
   at: 72
@@ -698,6 +666,7 @@ annotations:
   year_ad: 206
   era: 建安
   era_year: 11
+  reasoning: 承前文年號「建安」推得，「十一年」 = 建安11年 = AD 206
 - id: hhs.74.p285.a2
   anchor: hhs.74.p285
   at: 66
@@ -727,6 +696,7 @@ annotations:
   year_ad: 207
   era: 建安
   era_year: 12
+  reasoning: 承前文年號「建安」推得，「十二年」 = 建安12年 = AD 207
 - id: hhs.74.p288.t1
   anchor: hhs.74.p288
   at: 21
@@ -738,6 +708,7 @@ annotations:
   year_ad: 184
   era: 中平
   era_year: 1
+  reasoning: 原文「中平元年」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
 - id: hhs.74.p288.a1
   anchor: hhs.74.p288
   at: 114
@@ -755,6 +726,7 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
+  reasoning: 原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）
 - id: hhs.74.p288.a2
   anchor: hhs.74.p288
   at: 150
@@ -772,6 +744,7 @@ annotations:
   year_ad: 204
   era: 建安
   era_year: 9
+  reasoning: 原文「建安九年」直接出现年号；解析為 AD 204（回溯前事，不推進章節時間軸）
 - id: hhs.74.p290.a1
   anchor: hhs.74.p290
   at: 19
@@ -789,6 +762,7 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
+  reasoning: 原文「初平元年」直接出现年号；解析為 AD 190（回溯前事，不推進章節時間軸）
 - id: hhs.74.p291.a1
   anchor: hhs.74.p291
   at: 19
@@ -837,17 +811,6 @@ annotations:
   length: 0
   type: lixian
   text: ''
-- id: hhs.74.p294.t1
-  anchor: hhs.74.p294
-  at: 22
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 192
-  era: 初平
-  era_year: 3
 - id: hhs.74.p295.a1
   anchor: hhs.74.p295
   at: 1
@@ -883,6 +846,7 @@ annotations:
   year_ad: 196
   era: 建安
   era_year: 1
+  reasoning: 原文「建安元年」直接出现年号；解析為 AD 196（回溯前事，不推進章節時間軸）
 - id: hhs.74.p299.a1
   anchor: hhs.74.p299
   at: 16
@@ -900,6 +864,7 @@ annotations:
   year_ad: 198
   era: 建安
   era_year: 3
+  reasoning: 承前文年號「建安」推得，「三年」 = 建安3年 = AD 198
 - id: hhs.74.p299.a2
   anchor: hhs.74.p299
   at: 48
@@ -995,6 +960,7 @@ annotations:
   year_ad: 201
   era: 建安
   era_year: 6
+  reasoning: 承前文年號「建安」推得，「六年」 = 建安6年 = AD 201
 - id: hhs.74.p307.t2
   anchor: hhs.74.p307
   at: 23
@@ -1006,6 +972,7 @@ annotations:
   year_ad: 208
   era: 建安
   era_year: 13
+  reasoning: 承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208
 - id: hhs.74.p307.t3
   anchor: hhs.74.p307
   at: 37
@@ -1019,23 +986,13 @@ annotations:
   era_year: 13
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 建安13年 (AD 208)，月份「八月」
 - id: hhs.74.p307.a1
   anchor: hhs.74.p307
   at: 46
   length: 0
   type: lixian
   text: ''
-- id: hhs.74.p307.t4
-  anchor: hhs.74.p307
-  at: 50
-  length: 3
-  type: temporal
-  text: 二十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 215
-  era: 建安
-  era_year: 20
 - id: hhs.74.p307.a2
   anchor: hhs.74.p307
   at: 60
@@ -1092,9 +1049,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 216
+  year_ad: 209
   era: 建安
-  era_year: 21
+  era_year: 14
+  reasoning: 「明年」 = 当前年 建安13年 (AD 208) 之次年 = AD 209
 - id: hhs.74.p316.a2
   anchor: hhs.74.p316
   at: 22

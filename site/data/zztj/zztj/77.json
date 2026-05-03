@@ -170,7 +170,8 @@
           "resolution": "absolute",
           "year_ad": 258,
           "era": "甘露",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「甘露三年」直接出现年号；解析為 AD 258"
         }
       ]
     },
@@ -190,7 +191,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「正月」"
         },
         {
           "id": "zztj.77.p30.t2",
@@ -204,7 +206,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「二月」"
         }
       ]
     },
@@ -249,7 +252,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「五月」"
         }
       ]
     },
@@ -269,7 +273,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「七月」"
         }
       ]
     },
@@ -289,7 +294,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「八月」"
         }
       ]
     },
@@ -324,19 +330,8 @@
           "era": "甘露",
           "era_year": 3,
           "month_chinese": "九月",
-          "month_ordinal": 9
-        },
-        {
-          "id": "zztj.77.p42.t2",
-          "type": "temporal",
-          "at": 63,
-          "length": 2,
-          "text": "五年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "甘露",
-          "era_year": 5
+          "month_ordinal": 9,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「九月」"
         }
       ]
     },
@@ -352,11 +347,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 258,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「十月」"
         }
       ]
     },
@@ -402,11 +398,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 258,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「十二月」"
         }
       ]
     },
@@ -434,7 +431,8 @@
           "resolution": "absolute",
           "year_ad": 259,
           "era": "甘露",
-          "era_year": 4
+          "era_year": 4,
+          "reasoning": "原文「甘露四年」直接出现年号；解析為 AD 259"
         }
       ]
     },
@@ -450,11 +448,12 @@
           "text": "正月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 甘露4年 (AD 259)，月份「正月」"
         }
       ]
     },
@@ -470,11 +469,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 甘露4年 (AD 259)，月份「六月」"
         }
       ]
     },
@@ -490,11 +490,12 @@
           "text": "八月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 甘露4年 (AD 259)，月份「八月」"
         }
       ]
     },
@@ -510,11 +511,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 甘露4年 (AD 259)，月份「十一月」"
         }
       ]
     },
@@ -530,9 +532,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 260,
+          "year_ad": 259,
           "era": "甘露",
-          "era_year": 5
+          "era_year": 4,
+          "reasoning": "「是歲」 = 当前年 甘露4年 (AD 259)"
         }
       ]
     },
@@ -550,7 +553,8 @@
           "resolution": "absolute",
           "year_ad": 260,
           "era": "景元",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「景元元年」直接出现年号；解析為 AD 260"
         }
       ]
     },
@@ -570,7 +574,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「正月」"
         }
       ]
     },
@@ -590,7 +595,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「四月」"
         }
       ]
     },
@@ -610,7 +616,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「五月」"
         }
       ]
     },
@@ -655,7 +662,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「六月」"
         }
       ]
     },
@@ -690,7 +698,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「十月」"
         }
       ]
     },
@@ -710,7 +719,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「十一月」"
         }
       ]
     },
@@ -730,7 +740,8 @@
           "era": "景元",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景元元年 (AD 260)，月份「十二月」"
         }
       ]
     },
@@ -753,7 +764,8 @@
           "resolution": "absolute",
           "year_ad": 261,
           "era": "景元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「景元二年」直接出现年号；解析為 AD 261"
         }
       ]
     },
@@ -773,7 +785,8 @@
           "era": "景元",
           "era_year": 2,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 景元2年 (AD 261)，月份「三月」"
         }
       ]
     },
@@ -793,7 +806,8 @@
           "era": "景元",
           "era_year": 2,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 景元2年 (AD 261)，月份「八月」"
         }
       ]
     },
@@ -813,7 +827,8 @@
           "era": "景元",
           "era_year": 2,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景元2年 (AD 261)，月份「十月」"
         }
       ]
     },
@@ -831,7 +846,8 @@
           "resolution": "this_year",
           "year_ad": 261,
           "era": "景元",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 景元2年 (AD 261)"
         }
       ]
     },

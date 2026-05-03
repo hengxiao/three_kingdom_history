@@ -100,6 +100,7 @@ annotations:
   year_ad: 163
   era: 延熹
   era_year: 6
+  reasoning: 原文「延熹六年」直接出现年号；解析為 AD 163
 - id: hhs.66.p12.a1
   anchor: hhs.66.p12
   at: 22
@@ -135,6 +136,7 @@ annotations:
   year_ad: 165
   era: 延熹
   era_year: 8
+  reasoning: 承前文年號「延熹」推得，「八年」 = 延熹8年 = AD 165
 - id: hhs.66.p13.a1
   anchor: hhs.66.p13
   at: 80
@@ -206,6 +208,7 @@ annotations:
   year_ad: 166
   era: 延熹
   era_year: 9
+  reasoning: 承前文年號「延熹」推得，「九年」 = 延熹9年 = AD 166
 - id: hhs.66.p16.a1
   anchor: hhs.66.p16
   at: 67
@@ -254,17 +257,6 @@ annotations:
   length: 0
   type: lixian
   text: 論語孔子之言也。
-- id: hhs.66.p16.t2
-  anchor: hhs.66.p16
-  at: 420
-  length: 2
-  type: temporal
-  text: 十年
-  kind: relative
-  resolution: bare_year
-  year_ad: 167
-  era: 延熹
-  era_year: 10
 - id: hhs.66.p16.a9
   anchor: hhs.66.p16
   at: 434
@@ -288,6 +280,7 @@ annotations:
   year_ad: 167
   era: 永康
   era_year: 1
+  reasoning: 原文「永康元年」直接出现年号；解析為 AD 167
 - id: hhs.66.p18.a1
   anchor: hhs.66.p18
   at: 38
@@ -431,6 +424,7 @@ annotations:
   year_ad: 184
   era: 中平
   era_year: 1
+  reasoning: 原文「中平元年」直接出现年号；解析為 AD 184
 - id: hhs.66.p29.a1
   anchor: hhs.66.p29
   at: 166
@@ -448,6 +442,7 @@ annotations:
   year_ad: 185
   era: 中平
   era_year: 2
+  reasoning: 「明年」 = 当前年 中平元年 (AD 184) 之次年 = AD 185
 - id: hhs.66.p29.a2
   anchor: hhs.66.p29
   at: 174
@@ -473,6 +468,7 @@ annotations:
   era_year: 2
   month_chinese: 一月
   month_ordinal: 1
+  reasoning: 年承前文 中平2年 (AD 185)，月份「一月」
 - id: hhs.66.p30.a2
   anchor: hhs.66.p30
   at: 67
@@ -514,6 +510,7 @@ annotations:
   year_ad: 186
   era: 中平
   era_year: 3
+  reasoning: 「明年」 = 当前年 中平2年 (AD 185) 之次年 = AD 186
 - id: hhs.66.p30.a7
   anchor: hhs.66.p30
   at: 347
@@ -537,6 +534,7 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
+  reasoning: 原文「初平元年」直接出现年号；解析為 AD 190
 - id: hhs.66.p35.t1
   anchor: hhs.66.p35
   at: 0
@@ -548,6 +546,7 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
+  reasoning: 承前文年號「初平」推得，「二年」 = 初平2年 = AD 191
 - id: hhs.66.p35.a1
   anchor: hhs.66.p35
   at: 74
@@ -565,6 +564,7 @@ annotations:
   year_ad: 192
   era: 初平
   era_year: 3
+  reasoning: 承前文年號「初平」推得，「三年」 = 初平3年 = AD 192
 - id: hhs.66.p36.a1
   anchor: hhs.66.p36
   at: 29
@@ -630,6 +630,7 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
+  reasoning: 原文「興平二年」直接出现年号；解析為 AD 195
 - id: hhs.66.p45.a1
   anchor: hhs.66.p45
   at: 123
@@ -675,6 +676,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 196
+  reasoning: 「明年」 = 当前年 興平2年 (AD 195) 之次年 = AD 196（跨年號邊界，新年號未明）
 - id: hhs.66.p75.t2
   anchor: hhs.66.p75
   at: 25
@@ -684,6 +686,7 @@ annotations:
   kind: relative
   resolution: next_year
   year_ad: 197
+  reasoning: 「明年」 = 当前年 AD 196 之次年 = AD 197（跨年號邊界，新年號未明）
 - id: hhs.66.p75.t3
   anchor: hhs.66.p75
   at: 54
@@ -697,19 +700,7 @@ annotations:
   era_year: 1
   month_chinese: 二三月
   month_ordinal: null
-- id: hhs.66.p75.t4
-  anchor: hhs.66.p75
-  at: 86
-  length: 4
-  type: temporal
-  text: 元年三月
-  kind: relative
-  resolution: bare_year
-  year_ad: 184
-  era: 中平
-  era_year: 1
-  month_chinese: 三月
-  month_ordinal: 3
+  reasoning: 原文「中平元年二三月」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）
 - id: hhs.66.p77.t1
   anchor: hhs.66.p77
   at: 6
@@ -723,16 +714,4 @@ annotations:
   era_year: 1
   month_chinese: 冬十二月
   month_ordinal: 12
-- id: hhs.66.p77.t2
-  anchor: hhs.66.p77
-  at: 39
-  length: 5
-  type: temporal
-  text: 元年二三月
-  kind: relative
-  resolution: bare_year
-  year_ad: 184
-  era: 中平
-  era_year: 1
-  month_chinese: 二三月
-  month_ordinal: null
+  reasoning: 原文「中平元年冬十二月」直接出现年号；解析為 AD 184（回溯前事，不推進章節時間軸）

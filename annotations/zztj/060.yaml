@@ -16,6 +16,7 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
+  reasoning: 原文「初平二年」直接出现年号；解析為 AD 191
 - id: zztj.60.p5.t1
   anchor: zztj.60.p5
   at: 2
@@ -29,6 +30,7 @@ annotations:
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 初平2年 (AD 191)，月份「正月」
 - id: zztj.60.p7.t1
   anchor: zztj.60.p7
   at: 0
@@ -42,6 +44,7 @@ annotations:
   era_year: 2
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 初平2年 (AD 191)，月份「二月」
 - id: zztj.60.p11.t1
   anchor: zztj.60.p11
   at: 2
@@ -55,6 +58,7 @@ annotations:
   era_year: 2
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 初平2年 (AD 191)，月份「四月」
 - id: zztj.60.p12.t1
   anchor: zztj.60.p12
   at: 0
@@ -68,6 +72,7 @@ annotations:
   era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 初平2年 (AD 191)，月份「六月」
 - id: zztj.60.p13.t1
   anchor: zztj.60.p13
   at: 2
@@ -81,6 +86,7 @@ annotations:
   era_year: 2
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 初平2年 (AD 191)，月份「七月」
 - id: zztj.60.p18.t1
   anchor: zztj.60.p18
   at: 31
@@ -94,6 +100,7 @@ annotations:
   era_year: 2
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 初平2年 (AD 191)，月份「十月」
 - id: zztj.60.p28.t1
   anchor: zztj.60.p28
   at: 5
@@ -105,6 +112,7 @@ annotations:
   year_ad: 192
   era: 初平
   era_year: 3
+  reasoning: 原文「初平三年」直接出现年号；解析為 AD 192
 - id: zztj.60.p29.t1
   anchor: zztj.60.p29
   at: 2
@@ -118,6 +126,7 @@ annotations:
   era_year: 3
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 初平3年 (AD 192)，月份「正月」
 - id: zztj.60.p36.t1
   anchor: zztj.60.p36
   at: 2
@@ -131,6 +140,7 @@ annotations:
   era_year: 3
   month_chinese: 四月
   month_ordinal: 4
+  reasoning: 年承前文 初平3年 (AD 192)，月份「四月」
 - id: zztj.60.p40.t1
   anchor: zztj.60.p40
   at: 0
@@ -144,6 +154,7 @@ annotations:
   era_year: 3
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 初平3年 (AD 192)，月份「五月」
 - id: zztj.60.p43.t1
   anchor: zztj.60.p43
   at: 9
@@ -157,6 +168,7 @@ annotations:
   era_year: 3
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 初平3年 (AD 192)，月份「六月」
 - id: zztj.60.p50.t1
   anchor: zztj.60.p50
   at: 2
@@ -170,6 +182,7 @@ annotations:
   era_year: 3
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 初平3年 (AD 192)，月份「七月」
 - id: zztj.60.p50.t2
   anchor: zztj.60.p50
   at: 23
@@ -183,6 +196,7 @@ annotations:
   era_year: 3
   month_chinese: 八月
   month_ordinal: 8
+  reasoning: 年承前文 初平3年 (AD 192)，月份「八月」
 - id: zztj.60.p52.t1
   anchor: zztj.60.p52
   at: 0
@@ -196,6 +210,7 @@ annotations:
   era_year: 3
   month_chinese: 九月
   month_ordinal: 9
+  reasoning: 年承前文 初平3年 (AD 192)，月份「九月」
 - id: zztj.60.p55.t1
   anchor: zztj.60.p55
   at: 2
@@ -209,6 +224,7 @@ annotations:
   era_year: 3
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 初平3年 (AD 192)，月份「十月」
 - id: zztj.60.p56.t1
   anchor: zztj.60.p56
   at: 0
@@ -222,6 +238,7 @@ annotations:
   era_year: 3
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 初平3年 (AD 192)，月份「十二月」
 - id: zztj.60.p62.t1
   anchor: zztj.60.p62
   at: 5
@@ -233,6 +250,7 @@ annotations:
   year_ad: 193
   era: 初平
   era_year: 4
+  reasoning: 原文「初平四年」直接出现年号；解析為 AD 193
 - id: zztj.60.p63.t1
   anchor: zztj.60.p63
   at: 2
@@ -246,17 +264,7 @@ annotations:
   era_year: 4
   month_chinese: 正月
   month_ordinal: 1
-- id: zztj.60.p66.t1
-  anchor: zztj.60.p66
-  at: 16
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 191
-  era: 初平
-  era_year: 2
+  reasoning: 年承前文 初平4年 (AD 193)，月份「正月」
 - id: zztj.60.p67.t1
   anchor: zztj.60.p67
   at: 0
@@ -265,11 +273,12 @@ annotations:
   text: 三月
   kind: relative
   resolution: bare_month
-  year_ad: 191
+  year_ad: 193
   era: 初平
-  era_year: 2
+  era_year: 4
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 初平4年 (AD 193)，月份「三月」
 - id: zztj.60.p70.t1
   anchor: zztj.60.p70
   at: 0
@@ -278,11 +287,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 191
+  year_ad: 193
   era: 初平
-  era_year: 2
+  era_year: 4
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 年承前文 初平4年 (AD 193)，月份「六月」
 - id: zztj.60.p77.t1
   anchor: zztj.60.p77
   at: 2
@@ -291,11 +301,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 191
+  year_ad: 193
   era: 初平
-  era_year: 2
+  era_year: 4
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 初平4年 (AD 193)，月份「十月」
 - id: zztj.60.p82.t1
   anchor: zztj.60.p82
   at: 0
@@ -304,8 +315,9 @@ annotations:
   text: 十二月
   kind: relative
   resolution: bare_month
-  year_ad: 191
+  year_ad: 193
   era: 初平
-  era_year: 2
+  era_year: 4
   month_chinese: 十二月
   month_ordinal: 12
+  reasoning: 年承前文 初平4年 (AD 193)，月份「十二月」

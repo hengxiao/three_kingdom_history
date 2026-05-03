@@ -128,7 +128,8 @@
           "resolution": "absolute",
           "year_ad": 223,
           "era": "黃武",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「黃武二年」直接出现年号；解析為 AD 223"
         }
       ]
     },
@@ -146,7 +147,8 @@
           "resolution": "this_year",
           "year_ad": 223,
           "era": "黃武",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "「其年」 = 当前年 黃武2年 (AD 223)"
         },
         {
           "id": "wu.10.p11.a1",
@@ -222,7 +224,8 @@
           "resolution": "absolute",
           "year_ad": 230,
           "era": "黃龍",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「黃龍二年」直接出现年号；解析為 AD 230"
         }
       ]
     },
@@ -240,7 +243,8 @@
           "resolution": "absolute",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.10.p20.a1",
@@ -265,7 +269,8 @@
           "resolution": "absolute",
           "year_ad": 229,
           "era": "黃龍",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -283,19 +288,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "嘉禾",
-          "era_year": 3
-        },
-        {
-          "id": "wu.10.p22.t2",
-          "type": "temporal",
-          "at": 542,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 234,
-          "era": "嘉禾",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234"
         }
       ]
     },
@@ -336,7 +330,8 @@
           "resolution": "absolute",
           "year_ad": 208,
           "era": "建安",
-          "era_year": 13
+          "era_year": 13,
+          "reasoning": "原文「建安十三年」直接出现年号；解析為 AD 208（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -422,7 +417,8 @@
           "resolution": "absolute",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215（回溯前事，不推進章節時間軸）"
         },
         {
           "id": "wu.10.p33.a1",
@@ -566,7 +562,8 @@
           "resolution": "absolute",
           "year_ad": 234,
           "era": "嘉禾",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「嘉禾三年」直接出现年号；解析為 AD 234"
         }
       ]
     },
@@ -599,7 +596,8 @@
           "resolution": "absolute",
           "year_ad": 257,
           "era": "太平",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「太平二年」直接出现年号；解析為 AD 257"
         }
       ]
     },
@@ -617,7 +615,8 @@
           "resolution": "absolute",
           "year_ad": 259,
           "era": "永安",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「永安二年」直接出现年号；解析為 AD 259"
         },
         {
           "id": "wu.10.p58.t2",
@@ -629,7 +628,8 @@
           "resolution": "bare_year",
           "year_ad": 263,
           "era": "永安",
-          "era_year": 6
+          "era_year": 6,
+          "reasoning": "承前文年號「永安」推得，「六年」 = 永安6年 = AD 263"
         }
       ]
     },
@@ -647,7 +647,8 @@
           "resolution": "absolute",
           "year_ad": 268,
           "era": "寶鼎",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「寶鼎三年」直接出现年号；解析為 AD 268"
         },
         {
           "id": "wu.10.p59.t2",
@@ -659,7 +660,8 @@
           "resolution": "absolute",
           "year_ad": 269,
           "era": "建衡",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「建衡元年」直接出现年号；解析為 AD 269"
         },
         {
           "id": "wu.10.p59.t3",
@@ -671,7 +673,8 @@
           "resolution": "bare_year",
           "year_ad": 271,
           "era": "建衡",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "承前文年號「建衡」推得，「三年」 = 建衡3年 = AD 271"
         }
       ]
     },

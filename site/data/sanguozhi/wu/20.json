@@ -45,7 +45,8 @@
           "resolution": "absolute",
           "year_ad": 266,
           "era": "甘露",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「甘露二年」直接出现年号；解析為 AD 266"
         },
         {
           "id": "wu.20.p4.a1",
@@ -120,20 +121,7 @@
     {
       "id": "wu.20.p14",
       "text": "《傳》曰：‘國之興也，視民如赤子。其亡也，以民為草芥。’陛下昔韜神光，潛德東夏，以聖哲茂姿，龍飛應天，四海延頸，八方拭目，以成康之化必隆於旦夕也。自登位以來，法禁轉苛，賦調益繁。中宮內豎，分佈州郡，橫興事役，競造奸利。百姓罹杼軸之困，黎民罷無已之求，老幼饑寒，家戶萊色，而所在長吏，迫畏罪負，嚴法峻刑，苦民求辦。是以人力不堪，家戶離散，呼嗟之聲，感傷和氣。又江邊戍兵，遠當以拓土廣境，近當以守界備難，宜特優育，以待有事，而征發賦調，煙至雲集，衣不全裋褐，食不瞻朝夕，出當鋒鏑之難，入抱無聊之戚。是以父子相棄，叛者成行。願陛下寬賦除煩，振恤窮乏，省諸不急，蕩禁約法，則海內樂業，大化普洽。夫民者國之本，食者民之命也，今國無一年之儲。家無經月之畜，而後宮之中坐食者萬有餘人。內有離曠之怨，外有損耗之費。使庫廩空於無用，士民饑於糟糠。",
-      "annotations": [
-        {
-          "id": "wu.20.p14.t1",
-          "type": "temporal",
-          "at": 310,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 265,
-          "era": "甘露",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.20.p15",
@@ -152,9 +140,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 265,
+          "year_ad": 266,
           "era": "甘露",
-          "era_year": 1
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 甘露2年 (AD 266)"
         },
         {
           "id": "wu.20.p16.t2",
@@ -166,7 +155,8 @@
           "resolution": "absolute",
           "year_ad": 275,
           "era": "天冊",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「天冊元年」直接出现年号；解析為 AD 275"
         },
         {
           "id": "wu.20.p16.a1",
@@ -229,7 +219,8 @@
           "resolution": "this_year",
           "year_ad": 275,
           "era": "天冊",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 天冊元年 (AD 275)"
         },
         {
           "id": "wu.20.p23.t2",
@@ -241,7 +232,8 @@
           "resolution": "absolute",
           "year_ad": 273,
           "era": "鳳凰",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「鳳凰二年」直接出现年号；解析為 AD 273（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -299,7 +291,8 @@
           "resolution": "absolute",
           "year_ad": 267,
           "era": "寶鼎",
-          "era_year": 2
+          "era_year": 2,
+          "reasoning": "原文「寶鼎二年」直接出现年号；解析為 AD 267（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -325,11 +318,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 267,
-          "era": "寶鼎",
-          "era_year": 2,
+          "year_ad": 275,
+          "era": "天冊",
+          "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 天冊元年 (AD 275)，月份「六月」"
         }
       ]
     },
@@ -341,20 +335,7 @@
     {
       "id": "wu.20.p37",
       "text": "臣聞先王治國無三年之儲，曰國非其國，安寧之世戒備如此。況敵強大而忽農忘畜。今雖頗種殖，間者大水沉沒，其餘存者當須耘獲。而長吏怖期，上方諸郡，身涉山林，盡力伐材，廢農棄務；士民妻孥羸小，墾殖又薄；若有水旱則永無所獲。州郡見米，當待有事，冗食之眾，仰官供濟。若上下空乏，運漕不供，而北敵犯疆，使周、召更生，良、平復出，不能為陛下計明矣。臣聞君明者臣忠，主聖者臣直，是以悽悽，昧犯天威，乞垂哀省。",
-      "annotations": [
-        {
-          "id": "wu.20.p37.t1",
-          "type": "temporal",
-          "at": 7,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 268,
-          "era": "寶鼎",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.20.p38",
@@ -395,7 +376,8 @@
           "resolution": "absolute",
           "year_ad": 275,
           "era": "天冊",
-          "era_year": 1
+          "era_year": 1,
+          "reasoning": "原文「天冊元年」直接出现年号；解析為 AD 275"
         }
       ]
     },

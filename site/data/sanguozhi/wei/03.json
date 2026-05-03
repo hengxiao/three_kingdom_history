@@ -37,19 +37,8 @@
           "resolution": "absolute",
           "year_ad": 221,
           "era": "黃初",
-          "era_year": 2
-        },
-        {
-          "id": "wei.3.p1.t2",
-          "type": "temporal",
-          "at": 46,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 222,
-          "era": "黃初",
-          "era_year": 3
+          "era_year": 2,
+          "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221"
         },
         {
           "id": "wei.3.p1.a2",
@@ -59,7 +48,7 @@
           "text": "《魏略》曰：文帝以郭后無子，詔使子養帝。帝以母不以道終，意甚不平。後不獲已，乃敬事郭后，旦夕因長御問起居，郭后亦自以無子，遂加慈愛。文帝始以帝不恱，有意欲以他姬子京兆王爲嗣，故久不拜太子。魏末傳曰：帝常從文帝獵，見子母鹿。文帝射殺鹿母，使帝射鹿子，帝不從，曰：「陛下已殺其母，臣不忍復殺其子。」因涕泣。文帝即放弓箭，以此深奇之，而樹立之意定。"
         },
         {
-          "id": "wei.3.p1.t3",
+          "id": "wei.3.p1.t2",
           "type": "temporal",
           "at": 64,
           "length": 5,
@@ -70,7 +59,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "夏五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "承前文年號「黃初」推得，「七年夏五月」 = 黃初7年 = AD 226"
         },
         {
           "id": "wei.3.p1.a3",
@@ -97,7 +87,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「八月」"
         }
       ]
     },
@@ -117,7 +108,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「冬十月」"
         },
         {
           "id": "wei.3.p3.t2",
@@ -131,7 +123,8 @@
           "era": "黃初",
           "era_year": 7,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 黃初7年 (AD 226)，月份「十二月」"
         }
       ]
     },
@@ -151,7 +144,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "原文「太和元年春正月」直接出现年号；解析為 AD 227"
         },
         {
           "id": "wei.3.p4.t2",
@@ -165,7 +159,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「二月」"
         },
         {
           "id": "wei.3.p4.t3",
@@ -179,7 +174,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「夏四月」"
         },
         {
           "id": "wei.3.p4.t4",
@@ -193,7 +189,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "秋八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「秋八月」"
         },
         {
           "id": "wei.3.p4.t5",
@@ -207,7 +204,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「冬十月」"
         },
         {
           "id": "wei.3.p4.t6",
@@ -221,7 +219,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「十一月」"
         },
         {
           "id": "wei.3.p4.t7",
@@ -235,7 +234,8 @@
           "era": "太和",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和元年 (AD 227)，月份「十二月」"
         },
         {
           "id": "wei.3.p4.a1",
@@ -262,7 +262,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「太和」推得，「二年春正月」 = 太和2年 = AD 228"
         },
         {
           "id": "wei.3.p5.a1",
@@ -303,7 +304,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「夏四月」"
         },
         {
           "id": "wei.3.p6.a3",
@@ -324,7 +326,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「五月」"
         },
         {
           "id": "wei.3.p6.t3",
@@ -338,7 +341,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「六月」"
         },
         {
           "id": "wei.3.p6.t4",
@@ -352,7 +356,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "秋九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「秋九月」"
         },
         {
           "id": "wei.3.p6.t5",
@@ -366,7 +371,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「冬十月」"
         },
         {
           "id": "wei.3.p6.t6",
@@ -380,7 +386,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「十一月」"
         },
         {
           "id": "wei.3.p6.t7",
@@ -394,7 +401,8 @@
           "era": "太和",
           "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和2年 (AD 228)，月份「十二月」"
         },
         {
           "id": "wei.3.p6.a4",
@@ -421,7 +429,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "承前文年號「太和」推得，「三年夏四月」 = 太和3年 = AD 229"
         },
         {
           "id": "wei.3.p7.t2",
@@ -435,7 +444,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太和3年 (AD 229)，月份「六月」"
         }
       ]
     },
@@ -455,7 +465,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太和3年 (AD 229)，月份「秋七月」"
         }
       ]
     },
@@ -475,7 +486,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和3年 (AD 229)，月份「冬十月」"
         }
       ]
     },
@@ -495,7 +507,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和3年 (AD 229)，月份「十一月」"
         },
         {
           "id": "wei.3.p10.t2",
@@ -509,7 +522,8 @@
           "era": "太和",
           "era_year": 3,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和3年 (AD 229)，月份「十二月」"
         },
         {
           "id": "wei.3.p10.a1",
@@ -541,7 +555,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "春二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「太和」推得，「四年春二月」 = 太和4年 = AD 230"
         },
         {
           "id": "wei.3.p12.t2",
@@ -555,7 +570,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「夏四月」"
         },
         {
           "id": "wei.3.p12.t3",
@@ -569,7 +585,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「六月」"
         },
         {
           "id": "wei.3.p12.t4",
@@ -583,7 +600,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「秋七月」"
         },
         {
           "id": "wei.3.p12.t5",
@@ -597,7 +615,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「八月」"
         },
         {
           "id": "wei.3.p12.a1",
@@ -618,7 +637,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「九月」"
         },
         {
           "id": "wei.3.p12.t7",
@@ -632,7 +652,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「冬十月」"
         },
         {
           "id": "wei.3.p12.t8",
@@ -646,7 +667,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「十一月」"
         },
         {
           "id": "wei.3.p12.t9",
@@ -660,7 +682,8 @@
           "era": "太和",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和4年 (AD 230)，月份「十二月」"
         }
       ]
     },
@@ -680,7 +703,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「太和」推得，「五年春正月」 = 太和5年 = AD 231"
         },
         {
           "id": "wei.3.p13.t2",
@@ -694,7 +718,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「三月」"
         },
         {
           "id": "wei.3.p13.t3",
@@ -708,7 +733,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「冬十月」"
         },
         {
           "id": "wei.3.p13.t4",
@@ -722,7 +748,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「夏四月」"
         },
         {
           "id": "wei.3.p13.t5",
@@ -736,7 +763,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「秋七月」"
         },
         {
           "id": "wei.3.p13.a1",
@@ -763,7 +791,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「八月」"
         },
         {
           "id": "wei.3.p14.t2",
@@ -777,7 +806,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「十一月」"
         },
         {
           "id": "wei.3.p14.t3",
@@ -791,7 +821,8 @@
           "era": "太和",
           "era_year": 5,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和5年 (AD 231)，月份「十二月」"
         }
       ]
     },
@@ -811,7 +842,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "春二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「太和」推得，「六年春二月」 = 太和6年 = AD 232"
         },
         {
           "id": "wei.3.p15.t2",
@@ -825,7 +857,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「三月」"
         },
         {
           "id": "wei.3.p15.t3",
@@ -839,7 +872,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「夏四月」"
         },
         {
           "id": "wei.3.p15.t4",
@@ -853,7 +887,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「五月」"
         },
         {
           "id": "wei.3.p15.t5",
@@ -867,7 +902,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「秋七月」"
         },
         {
           "id": "wei.3.p15.t6",
@@ -881,7 +917,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「九月」"
         },
         {
           "id": "wei.3.p15.t7",
@@ -895,7 +932,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「冬十月」"
         },
         {
           "id": "wei.3.p15.t8",
@@ -909,7 +947,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「十一月」"
         },
         {
           "id": "wei.3.p15.t9",
@@ -923,7 +962,8 @@
           "era": "太和",
           "era_year": 6,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 太和6年 (AD 232)，月份「十二月」"
         }
       ]
     },
@@ -943,7 +983,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "原文「青龍元年春正月」直接出现年号；解析為 AD 233"
         },
         {
           "id": "wei.3.p16.t2",
@@ -957,7 +998,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「二月」"
         },
         {
           "id": "wei.3.p16.t3",
@@ -971,7 +1013,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「三月」"
         },
         {
           "id": "wei.3.p16.t4",
@@ -985,7 +1028,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "夏五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「夏五月」"
         },
         {
           "id": "wei.3.p16.a1",
@@ -1006,7 +1050,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「六月」"
         }
       ]
     },
@@ -1031,7 +1076,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "秋九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「秋九月」"
         }
       ]
     },
@@ -1051,7 +1097,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「冬十月」"
         },
         {
           "id": "wei.3.p19.a1",
@@ -1078,7 +1125,8 @@
           "era": "青龍",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 青龍元年 (AD 233)，月份「十二月」"
         },
         {
           "id": "wei.3.p20.a1",
@@ -1105,7 +1153,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "春二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「青龍」推得，「二年春二月」 = 青龍2年 = AD 234"
         },
         {
           "id": "wei.3.p21.t2",
@@ -1119,7 +1168,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「三月」"
         },
         {
           "id": "wei.3.p21.t3",
@@ -1133,7 +1183,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「夏四月」"
         },
         {
           "id": "wei.3.p21.a1",
@@ -1173,7 +1224,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「五月」"
         },
         {
           "id": "wei.3.p23.t2",
@@ -1187,7 +1239,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「六月」"
         },
         {
           "id": "wei.3.p23.t3",
@@ -1201,7 +1254,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「秋七月」"
         },
         {
           "id": "wei.3.p23.t4",
@@ -1215,7 +1269,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「八月」"
         }
       ]
     },
@@ -1240,7 +1295,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「冬十月」"
         },
         {
           "id": "wei.3.p25.t2",
@@ -1254,7 +1310,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「十一月」"
         },
         {
           "id": "wei.3.p25.t3",
@@ -1268,7 +1325,8 @@
           "era": "青龍",
           "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 青龍2年 (AD 234)，月份「十二月」"
         }
       ]
     },
@@ -1288,7 +1346,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「青龍」推得，「三年春正月」 = 青龍3年 = AD 235"
         },
         {
           "id": "wei.3.p26.t2",
@@ -1302,7 +1361,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「三月」"
         },
         {
           "id": "wei.3.p26.a1",
@@ -1342,7 +1402,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「秋七月」"
         },
         {
           "id": "wei.3.p28.t2",
@@ -1356,7 +1417,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「八月」"
         },
         {
           "id": "wei.3.p28.t3",
@@ -1370,7 +1432,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「冬十月」"
         },
         {
           "id": "wei.3.p28.t4",
@@ -1384,7 +1447,8 @@
           "era": "青龍",
           "era_year": 3,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 青龍3年 (AD 235)，月份「十一月」"
         },
         {
           "id": "wei.3.p28.a1",
@@ -1411,7 +1475,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "春二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "承前文年號「青龍」推得，「四年春二月」 = 青龍4年 = AD 236"
         },
         {
           "id": "wei.3.p29.t2",
@@ -1425,7 +1490,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「夏四月」"
         },
         {
           "id": "wei.3.p29.t3",
@@ -1439,7 +1505,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「五月」"
         }
       ]
     },
@@ -1459,7 +1526,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「六月」"
         }
       ]
     },
@@ -1479,7 +1547,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「秋七月」"
         },
         {
           "id": "wei.3.p31.t2",
@@ -1493,7 +1562,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「冬十月」"
         },
         {
           "id": "wei.3.p31.t3",
@@ -1507,7 +1577,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「十一月」"
         },
         {
           "id": "wei.3.p31.t4",
@@ -1521,7 +1592,8 @@
           "era": "青龍",
           "era_year": 4,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 青龍4年 (AD 236)，月份「十二月」"
         }
       ]
     },
@@ -1541,7 +1613,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "原文「景初元年春正月」直接出现年号；解析為 AD 237"
         },
         {
           "id": "wei.3.p32.a1",
@@ -1562,7 +1635,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「三月」"
         },
         {
           "id": "wei.3.p32.t3",
@@ -1576,7 +1650,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「夏四月」"
         },
         {
           "id": "wei.3.p32.a2",
@@ -1624,7 +1699,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「五月」"
         },
         {
           "id": "wei.3.p33.t2",
@@ -1638,7 +1714,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「六月」"
         }
       ]
     },
@@ -1671,19 +1748,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "秋七月",
-          "month_ordinal": 7
-        },
-        {
-          "id": "wei.3.p35.t2",
-          "type": "temporal",
-          "at": 202,
-          "length": 2,
-          "text": "元年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 237,
-          "era": "景初",
-          "era_year": 1
+          "month_ordinal": 7,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「秋七月」"
         }
       ]
     },
@@ -1703,7 +1769,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「九月」"
         },
         {
           "id": "wei.3.p36.t2",
@@ -1717,7 +1784,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "冬十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「冬十月」"
         },
         {
           "id": "wei.3.p36.a1",
@@ -1738,7 +1806,8 @@
           "era": "景初",
           "era_year": 1,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景初元年 (AD 237)，月份「十二月」"
         },
         {
           "id": "wei.3.p36.a2",
@@ -1772,7 +1841,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「景初」推得，「二年春正月」 = 景初2年 = AD 238"
         },
         {
           "id": "wei.3.p37.a1",
@@ -1799,7 +1869,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「二月」"
         },
         {
           "id": "wei.3.p38.t2",
@@ -1813,7 +1884,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "夏四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「夏四月」"
         },
         {
           "id": "wei.3.p38.a1",
@@ -1834,7 +1906,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「五月」"
         },
         {
           "id": "wei.3.p38.a2",
@@ -1855,7 +1928,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "六月",
-          "month_ordinal": 6
+          "month_ordinal": 6,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「六月」"
         }
       ]
     },
@@ -1875,7 +1949,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "秋八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「秋八月」"
         },
         {
           "id": "wei.3.p39.a1",
@@ -1902,7 +1977,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "冬十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「冬十一月」"
         }
       ]
     },
@@ -1922,7 +1998,8 @@
           "era": "景初",
           "era_year": 2,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「十二月」"
         },
         {
           "id": "wei.3.p41.a1",
@@ -1947,7 +2024,8 @@
           "resolution": "absolute",
           "year_ad": 235,
           "era": "青龍",
-          "era_year": 3
+          "era_year": 3,
+          "reasoning": "原文「青龍三年」直接出现年号；解析為 AD 235（回溯前事，不推進章節時間軸）"
         }
       ]
     },
@@ -1963,11 +2041,12 @@
           "text": "三年春正月",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 235,
-          "era": "青龍",
+          "year_ad": 239,
+          "era": "景初",
           "era_year": 3,
           "month_chinese": "春正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "承前文年號「景初」推得，「三年春正月」 = 景初3年 = AD 239"
         },
         {
           "id": "wei.3.p43.a1",

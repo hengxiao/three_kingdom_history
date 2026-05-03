@@ -58,6 +58,7 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
+  reasoning: 原文「興平元年」直接出现年号；解析為 AD 194
 - id: wei.7.p6.t2
   anchor: wei.7.p6
   at: 285
@@ -69,6 +70,7 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
+  reasoning: 承前文年號「興平」推得，「二年」 = 興平2年 = AD 195
 - id: wei.7.p7.a1
   anchor: wei.7.p7
   at: 0
@@ -110,6 +112,7 @@ annotations:
   year_ad: 198
   era: 建安
   era_year: 3
+  reasoning: 原文「建安三年」直接出现年号；解析為 AD 198
 - id: wei.7.p12.a1
   anchor: wei.7.p12
   at: 74
@@ -135,6 +138,7 @@ annotations:
   era_year: 3
   month_chinese: 三月
   month_ordinal: 3
+  reasoning: 年承前文 建安3年 (AD 198)，月份「三月」
 - id: wei.7.p12.a3
   anchor: wei.7.p12
   at: 178
@@ -183,17 +187,6 @@ annotations:
   length: 0
   type: pei
   text: 《九州春秋》曰：初平中，焦和為青州刺史。是時英雄並起，黃巾寇暴，和務及同盟，俱入京畿，不暇為民保障，引軍逾河而西。未久而袁、曹二公卓將戰於滎陽，敗績。黃巾遂廣，屠裂城邑。和不能禦，然軍器尚利，戰士尚眾，而耳目偵邏不設，恐動之言妄至，望寇奔走，未嘗接風塵交旗鼓也。欲作陷冰丸沈河，令賊不得渡，禱祈群神，求用兵必利，耆筮常陳於前，巫祝不去於側；入見其清談干雲，出則渾亂，命不可知。州遂蕭條，悉為丘墟也。
-- id: wei.7.p17.t1
-  anchor: wei.7.p17
-  at: 76
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 197
-  era: 建安
-  era_year: 2
 - id: wei.7.p19.a1
   anchor: wei.7.p19
   at: 607
@@ -206,28 +199,6 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：公孫瓚表列紹罪過雲：「紹與故虎牙將軍劉勛首共造兵，勳仍有效，而以小忿枉害於勳，紹罪七也。」疑此是子璜也。
-- id: wei.7.p19.t1
-  anchor: wei.7.p19
-  at: 1114
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 198
-  era: 建安
-  era_year: 3
-- id: wei.7.p19.t2
-  anchor: wei.7.p19
-  at: 1121
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 196
-  era: 建安
-  era_year: 1
 - id: wei.7.p21.a1
   anchor: wei.7.p21
   at: 187

@@ -28,6 +28,7 @@ annotations:
   year_ad: 49
   era: 建武
   era_year: 25
+  reasoning: 原文「建武二十五年」直接出现年号；解析為 AD 49
 - id: wei.30.p3.a1
   anchor: wei.30.p3
   at: 231
@@ -45,6 +46,7 @@ annotations:
   year_ad: 206
   era: 建安
   era_year: 11
+  reasoning: 原文「建安十一年」直接出现年号；解析為 AD 206
 - id: wei.30.p4.t2
   anchor: wei.30.p4
   at: 303
@@ -56,6 +58,7 @@ annotations:
   year_ad: 237
   era: 景初
   era_year: 1
+  reasoning: 原文「景初元年」直接出现年号；解析為 AD 237
 - id: wei.30.p5.a1
   anchor: wei.30.p5
   at: 2
@@ -73,6 +76,7 @@ annotations:
   year_ad: 224
   era: 黃初
   era_year: 5
+  reasoning: 原文「黃初五年」直接出现年号；解析為 AD 224（回溯前事，不推進章節時間軸）
 - id: wei.30.p6.t2
   anchor: wei.30.p6
   at: 222
@@ -84,6 +88,7 @@ annotations:
   year_ad: 233
   era: 青龍
   era_year: 1
+  reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）
 - id: wei.30.p7.t1
   anchor: wei.30.p7
   at: 198
@@ -95,6 +100,7 @@ annotations:
   year_ad: 221
   era: 黃初
   era_year: 2
+  reasoning: 原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
 - id: wei.30.p7.t2
   anchor: wei.30.p7
   at: 223
@@ -103,20 +109,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 222
-  era: 黃初
-  era_year: 3
-- id: wei.30.p7.t3
-  anchor: wei.30.p7
-  at: 303
-  length: 2
-  type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 224
-  era: 黃初
-  era_year: 5
+  year_ad: 238
+  era: 景初
+  era_year: 2
+  reasoning: 「明年」 = 当前年 景初元年 (AD 237) 之次年 = AD 238
 - id: wei.30.p8.t1
   anchor: wei.30.p8
   at: 0
@@ -128,6 +124,7 @@ annotations:
   year_ad: 228
   era: 太和
   era_year: 2
+  reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
 - id: wei.30.p8.t2
   anchor: wei.30.p8
   at: 128
@@ -139,17 +136,7 @@ annotations:
   year_ad: 233
   era: 青龍
   era_year: 1
-- id: wei.30.p8.t3
-  anchor: wei.30.p8
-  at: 204
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 235
-  era: 青龍
-  era_year: 3
+  reasoning: 原文「青龍元年」直接出现年号；解析為 AD 233（回溯前事，不推進章節時間軸）
 - id: wei.30.p9.t1
   anchor: wei.30.p9
   at: 116
@@ -161,6 +148,7 @@ annotations:
   year_ad: 228
   era: 太和
   era_year: 2
+  reasoning: 原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
 - id: wei.30.p11.t1
   anchor: wei.30.p11
   at: 196
@@ -169,11 +157,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 228
-  era: 太和
+  year_ad: 238
+  era: 景初
   era_year: 2
   month_chinese: 正月
   month_ordinal: 1
+  reasoning: 年承前文 景初2年 (AD 238)，月份「正月」
 - id: wei.30.p11.t2
   anchor: wei.30.p11
   at: 529
@@ -182,11 +171,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 228
-  era: 太和
+  year_ad: 238
+  era: 景初
   era_year: 2
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 景初2年 (AD 238)，月份「五月」
 - id: wei.30.p12.a1
   anchor: wei.30.p12
   at: 309
@@ -201,11 +191,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 228
-  era: 太和
+  year_ad: 238
+  era: 景初
   era_year: 2
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 景初2年 (AD 238)，月份「十月」
 - id: wei.30.p13.t2
   anchor: wei.30.p13
   at: 621
@@ -214,11 +205,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 228
-  era: 太和
+  year_ad: 238
+  era: 景初
   era_year: 2
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 景初2年 (AD 238)，月份「十月」
 - id: wei.30.p16.t1
   anchor: wei.30.p16
   at: 51
@@ -230,6 +222,7 @@ annotations:
   year_ad: 169
   era: 建寧
   era_year: 2
+  reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
 - id: wei.30.p18.t1
   anchor: wei.30.p18
   at: 116
@@ -241,6 +234,7 @@ annotations:
   year_ad: 238
   era: 景初
   era_year: 2
+  reasoning: 原文「景初二年」直接出现年号；解析為 AD 238
 - id: wei.30.p18.t2
   anchor: wei.30.p18
   at: 147
@@ -252,45 +246,13 @@ annotations:
   year_ad: 242
   era: 正始
   era_year: 3
-- id: wei.30.p18.t3
-  anchor: wei.30.p18
-  at: 159
-  length: 2
-  type: temporal
-  text: 五年
-  kind: relative
-  resolution: bare_year
-  year_ad: 244
-  era: 正始
-  era_year: 5
+  reasoning: 原文「正始三年」直接出现年号；解析為 AD 242
 - id: wei.30.p18.a1
   anchor: wei.30.p18
   at: 175
   length: 0
   type: pei
   text: 儉傳
-- id: wei.30.p19.t1
-  anchor: wei.30.p19
-  at: 106
-  length: 2
-  type: temporal
-  text: 二年
-  kind: relative
-  resolution: bare_year
-  year_ad: 241
-  era: 正始
-  era_year: 2
-- id: wei.30.p19.t2
-  anchor: wei.30.p19
-  at: 213
-  length: 2
-  type: temporal
-  text: 六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 245
-  era: 正始
-  era_year: 6
 - id: wei.30.p21.t1
   anchor: wei.30.p21
   at: 181
@@ -299,11 +261,12 @@ annotations:
   text: 七月
   kind: relative
   resolution: bare_month
-  year_ad: 245
+  year_ad: 242
   era: 正始
-  era_year: 6
+  era_year: 3
   month_chinese: 七月
   month_ordinal: 7
+  reasoning: 年承前文 正始3年 (AD 242)，月份「七月」
 - id: wei.30.p23.t1
   anchor: wei.30.p23
   at: 373
@@ -312,11 +275,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 245
+  year_ad: 242
   era: 正始
-  era_year: 6
+  era_year: 3
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 正始3年 (AD 242)，月份「十月」
 - id: wei.30.p23.a1
   anchor: wei.30.p23
   at: 481
@@ -334,17 +298,7 @@ annotations:
   year_ad: 245
   era: 正始
   era_year: 6
-- id: wei.30.p24.t2
-  anchor: wei.30.p24
-  at: 40
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 247
-  era: 正始
-  era_year: 8
+  reasoning: 原文「正始六年」直接出现年号；解析為 AD 245
 - id: wei.30.p26.a1
   anchor: wei.30.p26
   at: 363
@@ -352,17 +306,6 @@ annotations:
   type: pei
   text: 《魏略》曰：其子及親留在國者，因冒姓韓氏。准王海中，不與朝鮮相往來。
 - id: wei.30.p26.t1
-  anchor: wei.30.p26
-  at: 541
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 242
-  era: 正始
-  era_year: 3
-- id: wei.30.p26.t2
   anchor: wei.30.p26
   at: 723
   length: 4
@@ -373,6 +316,7 @@ annotations:
   year_ad: 125
   era: 延光
   era_year: 4
+  reasoning: 原文「延光四年」直接出现年号；解析為 AD 125（回溯前事，不推進章節時間軸）
 - id: wei.30.p28.t1
   anchor: wei.30.p28
   at: 201
@@ -381,11 +325,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 125
-  era: 延光
-  era_year: 4
+  year_ad: 245
+  era: 正始
+  era_year: 6
   month_chinese: 五月
   month_ordinal: 5
+  reasoning: 年承前文 正始6年 (AD 245)，月份「五月」
 - id: wei.30.p28.t2
   anchor: wei.30.p28
   at: 251
@@ -394,11 +339,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 125
-  era: 延光
-  era_year: 4
+  year_ad: 245
+  era: 正始
+  era_year: 6
   month_chinese: 十月
   month_ordinal: 10
+  reasoning: 年承前文 正始6年 (AD 245)，月份「十月」
 - id: wei.30.p30.a1
   anchor: wei.30.p30
   at: 113
@@ -425,22 +371,12 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 125
-  era: 延光
-  era_year: 4
+  year_ad: 245
+  era: 正始
+  era_year: 6
   month_chinese: 一月
   month_ordinal: 1
-- id: wei.30.p34.t1
-  anchor: wei.30.p34
-  at: 451
-  length: 2
-  type: temporal
-  text: 一年
-  kind: relative
-  resolution: bare_year
-  year_ad: 122
-  era: 延光
-  era_year: 1
+  reasoning: 年承前文 正始6年 (AD 245)，月份「一月」
 - id: wei.30.p35.t1
   anchor: wei.30.p35
   at: 0
@@ -454,6 +390,7 @@ annotations:
   era_year: 2
   month_chinese: 六月
   month_ordinal: 6
+  reasoning: 原文「景初二年六月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）
 - id: wei.30.p35.t2
   anchor: wei.30.p35
   at: 39
@@ -462,9 +399,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 238
-  era: 景初
-  era_year: 2
+  year_ad: 245
+  era: 正始
+  era_year: 6
+  reasoning: 「其年」 = 当前年 正始6年 (AD 245)
 - id: wei.30.p35.t3
   anchor: wei.30.p35
   at: 352
@@ -476,39 +414,7 @@ annotations:
   year_ad: 240
   era: 正始
   era_year: 1
-- id: wei.30.p35.t4
-  anchor: wei.30.p35
-  at: 411
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 243
-  era: 正始
-  era_year: 4
-- id: wei.30.p35.t5
-  anchor: wei.30.p35
-  at: 474
-  length: 2
-  type: temporal
-  text: 六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 245
-  era: 正始
-  era_year: 6
-- id: wei.30.p35.t6
-  anchor: wei.30.p35
-  at: 492
-  length: 2
-  type: temporal
-  text: 八年
-  kind: relative
-  resolution: bare_year
-  year_ad: 247
-  era: 正始
-  era_year: 8
+  reasoning: 原文「正始元年」直接出现年号；解析為 AD 240（回溯前事，不推進章節時間軸）
 - id: wei.30.p36.t1
   anchor: wei.30.p36
   at: 665
@@ -517,22 +423,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 247
+  year_ad: 245
   era: 正始
-  era_year: 8
+  era_year: 6
   month_chinese: 六月
   month_ordinal: 6
-- id: wei.30.p37.t1
-  anchor: wei.30.p37
-  at: 182
-  length: 2
-  type: temporal
-  text: 元年
-  kind: relative
-  resolution: bare_year
-  year_ad: 240
-  era: 正始
-  era_year: 1
+  reasoning: 年承前文 正始6年 (AD 245)，月份「六月」
 - id: wei.30.p38.t1
   anchor: wei.30.p38
   at: 273
@@ -541,11 +437,12 @@ annotations:
   text: 二月
   kind: relative
   resolution: bare_month
-  year_ad: 240
+  year_ad: 245
   era: 正始
-  era_year: 1
+  era_year: 6
   month_chinese: 二月
   month_ordinal: 2
+  reasoning: 年承前文 正始6年 (AD 245)，月份「二月」
 - id: wei.30.p39.t1
   anchor: wei.30.p39
   at: 495
@@ -557,6 +454,7 @@ annotations:
   year_ad: 134
   era: 陽嘉
   era_year: 3
+  reasoning: 原文「陽嘉三年」直接出现年号；解析為 AD 134（回溯前事，不推進章節時間軸）
 - id: wei.30.p40.t1
   anchor: wei.30.p40
   at: 126
@@ -565,8 +463,9 @@ annotations:
   text: 一月
   kind: relative
   resolution: bare_month
-  year_ad: 134
-  era: 陽嘉
-  era_year: 3
+  year_ad: 245
+  era: 正始
+  era_year: 6
   month_chinese: 一月
   month_ordinal: 1
+  reasoning: 年承前文 正始6年 (AD 245)，月份「一月」

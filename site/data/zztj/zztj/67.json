@@ -40,7 +40,8 @@
           "resolution": "absolute",
           "year_ad": 214,
           "era": "建安",
-          "era_year": 19
+          "era_year": 19,
+          "reasoning": "原文「建安十九年」直接出现年号；解析為 AD 214"
         }
       ]
     },
@@ -65,7 +66,8 @@
           "era": "建安",
           "era_year": 19,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「三月」"
         }
       ]
     },
@@ -85,7 +87,8 @@
           "era": "建安",
           "era_year": 19,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「四月」"
         },
         {
           "id": "zztj.67.p6.t2",
@@ -99,7 +102,8 @@
           "era": "建安",
           "era_year": 19,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「五月」"
         }
       ]
     },
@@ -111,44 +115,7 @@
     {
       "id": "zztj.67.p8",
       "text": "劉備圍雒城且一年，龐統為流矢所中，卒。法正箋與劉璋，為陳形勢強弱，且曰：「左將軍從舉兵以來，舊心依依，實無薄意。愚以為可圖變化，以保尊門。」璋不答。雒城潰，備進圍成都。諸葛亮、張飛、趙雲引兵來會。馬超知張魯不足與計事，又魯將楊昂等數害其能，超內懷於邑。備使建寧督郵李恢往說之，超遂從武都逃入氐中，密書請降於備。使人止超，而潛以兵資之。超到，令引軍屯城北，城中震怖。備圍城數十日，使從事中郎涿郡簡雍入說劉璋。時城中尚有精兵三萬人，穀帛支一年，吏民咸欲死戰。璋言：「父子在州二十餘年，無恩德以加百姓。百姓攻戰三年，肌膏草野者，以璋故也，何心能安！」遂開城，與簡雍同輿出降，群下莫不流涕。備遷璋於公安，盡歸其財物，佩振威將軍印綬。",
-      "annotations": [
-        {
-          "id": "zztj.67.p8.t1",
-          "type": "temporal",
-          "at": 6,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 196,
-          "era": "建安",
-          "era_year": 1
-        },
-        {
-          "id": "zztj.67.p8.t2",
-          "type": "temporal",
-          "at": 217,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 196,
-          "era": "建安",
-          "era_year": 1
-        },
-        {
-          "id": "zztj.67.p8.t3",
-          "type": "temporal",
-          "at": 252,
-          "length": 2,
-          "text": "三年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
-          "era_year": 3
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.67.p9",
@@ -168,20 +135,7 @@
     {
       "id": "zztj.67.p12",
       "text": "備之襲劉璋也，留中郎將南郡霍峻守葭萌城。張魯遣楊昂誘峻求共守城。峻曰：「小人頭可得，城不可得！」昂乃退。後璋將扶禁、向存等帥萬餘人由閬水上，攻圍峻，且一年。峻城中兵才數百人，伺其怠隙，選精銳出擊，大破之，斬存。備既定蜀，乃分廣漢為梓潼郡，以峻為梓潼太守。",
-      "annotations": [
-        {
-          "id": "zztj.67.p12.t1",
-          "type": "temporal",
-          "at": 75,
-          "length": 2,
-          "text": "一年",
-          "kind": "relative",
-          "resolution": "bare_year",
-          "year_ad": 196,
-          "era": "建安",
-          "era_year": 1
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.67.p13",
@@ -210,11 +164,12 @@
           "text": "七月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 196,
+          "year_ad": 214,
           "era": "建安",
-          "era_year": 1,
+          "era_year": 19,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「七月」"
         }
       ]
     },
@@ -235,11 +190,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 196,
+          "year_ad": 214,
           "era": "建安",
-          "era_year": 1,
+          "era_year": 19,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「十月」"
         }
       ]
     },
@@ -255,11 +211,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 196,
+          "year_ad": 214,
           "era": "建安",
-          "era_year": 1,
+          "era_year": 19,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「十一月」"
         }
       ]
     },
@@ -275,11 +232,12 @@
           "text": "十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 196,
+          "year_ad": 214,
           "era": "建安",
-          "era_year": 1,
+          "era_year": 19,
           "month_chinese": "十二月",
-          "month_ordinal": 12
+          "month_ordinal": 12,
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「十二月」"
         }
       ]
     },
@@ -302,7 +260,8 @@
           "resolution": "absolute",
           "year_ad": 215,
           "era": "建安",
-          "era_year": 20
+          "era_year": 20,
+          "reasoning": "原文「建安二十年」直接出现年号；解析為 AD 215"
         }
       ]
     },
@@ -322,7 +281,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "正月",
-          "month_ordinal": 1
+          "month_ordinal": 1,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「正月」"
         },
         {
           "id": "zztj.67.p23.t2",
@@ -336,7 +296,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "三月",
-          "month_ordinal": 3
+          "month_ordinal": 3,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「三月」"
         },
         {
           "id": "zztj.67.p23.t3",
@@ -350,7 +311,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "四月",
-          "month_ordinal": 4
+          "month_ordinal": 4,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「四月」"
         },
         {
           "id": "zztj.67.p23.t4",
@@ -364,7 +326,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「五月」"
         }
       ]
     },
@@ -414,7 +377,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「七月」"
         }
       ]
     },
@@ -439,7 +403,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「八月」"
         }
       ]
     },
@@ -459,7 +424,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "九月",
-          "month_ordinal": 9
+          "month_ordinal": 9,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「九月」"
         }
       ]
     },
@@ -479,7 +445,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「十月」"
         }
       ]
     },
@@ -499,7 +466,8 @@
           "era": "建安",
           "era_year": 20,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建安20年 (AD 215)，月份「十一月」"
         }
       ]
     },
@@ -537,7 +505,8 @@
           "resolution": "absolute",
           "year_ad": 216,
           "era": "建安",
-          "era_year": 21
+          "era_year": 21,
+          "reasoning": "原文「建安二十一年」直接出现年号；解析為 AD 216"
         }
       ]
     },
@@ -557,7 +526,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "二月",
-          "month_ordinal": 2
+          "month_ordinal": 2,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「二月」"
         }
       ]
     },
@@ -577,7 +547,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「五月」"
         }
       ]
     },
@@ -612,7 +583,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "五月",
-          "month_ordinal": 5
+          "month_ordinal": 5,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「五月」"
         }
       ]
     },
@@ -637,7 +609,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "七月",
-          "month_ordinal": 7
+          "month_ordinal": 7,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「七月」"
         }
       ]
     },
@@ -657,7 +630,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "八月",
-          "month_ordinal": 8
+          "month_ordinal": 8,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「八月」"
         }
       ]
     },
@@ -677,7 +651,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "十月",
-          "month_ordinal": 10
+          "month_ordinal": 10,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「十月」"
         },
         {
           "id": "zztj.67.p50.t2",
@@ -691,7 +666,8 @@
           "era": "建安",
           "era_year": 21,
           "month_chinese": "十一月",
-          "month_ordinal": 11
+          "month_ordinal": 11,
+          "reasoning": "年承前文 建安21年 (AD 216)，月份「十一月」"
         }
       ]
     },

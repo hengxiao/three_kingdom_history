@@ -42,6 +42,7 @@ class TemporalRef:
     month_chinese: str | None
     month_ordinal: int | None
     snippet: str               # short string of segment text around the anchor
+    reasoning: str | None      # short prose: "why is this year_ad?" — propagated to UI
 
 
 def _chapter_data_url(work: str, book: str, juan: int) -> str:
@@ -129,6 +130,7 @@ def collect_refs(repo_root: Path = REPO_ROOT_DEFAULT) -> list[TemporalRef]:
                 month_chinese=a.get("month_chinese"),
                 month_ordinal=a.get("month_ordinal"),
                 snippet=_make_snippet(seg_text, at) if seg_text else "",
+                reasoning=a.get("reasoning"),
             ))
     return refs
 
@@ -199,7 +201,7 @@ def _int_to_chinese(n: int) -> str:
 
 
 def _event_dict(e: TemporalRef) -> dict:
-    return {
+    out = {
         "chapter_id": e.chapter_id,
         "chapter_title": e.chapter_title,
         "book_title": e.book_title,
@@ -216,6 +218,9 @@ def _event_dict(e: TemporalRef) -> dict:
         "month_ordinal": e.month_ordinal,
         "snippet": e.snippet,
     }
+    if e.reasoning:
+        out["reasoning"] = e.reasoning
+    return out
 
 
 def write_timeline(repo_root: Path = REPO_ROOT_DEFAULT) -> Path:
