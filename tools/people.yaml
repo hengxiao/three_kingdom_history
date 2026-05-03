@@ -1,0 +1,232 @@
+# 人物志：精选灵帝-三国期间核心人物。
+#
+# 中国史书人名复杂：同一人有姓名/名/字/姓字/官位/爵位/廟號/諡號/小名等多种叫法，
+# 同一叫法又可能指不同的人或随时间变化（如「太祖」在魏书指曹操，吴书指孫權）。
+# 因此 schema 把名号分两类：
+#
+#   aliases       —— 高置信度，自动用作字符串搜索匹配。只放唯一、不歧义、跨章节
+#                    跨语境都指向本人的形式（多数是「姓字」或独特的字）。
+#                    每条 mention 会记录匹配到的具体 alias，便于人工审核假阳。
+#
+#   other_names   —— 仅作展示/记录，不参与自动搜索。涵盖：
+#                      • 廟號/諡號（太祖、武皇帝） — 跨人混用，需上下文
+#                      • 官位/爵位（魏王、丞相）   — 多人共用，且本人不同时期不同
+#                      • 字（孟德） alone           — 易误识为他人字或寻常词组
+#                      • 小名（阿瞞）             — 极少使用，偶尔在裴注
+#                    這些以後可加上下文判別后再升级为 aliases。
+#
+# 后续扩展：新增 entries 用拼音 id 稳定标识；保持 aliases 保守。
+
+- id: caocao
+  primary_name: 曹操
+  courtesy_name: 孟德
+  aliases: []                # 太祖/武帝/武皇帝 在魏书内泛用，搜索易混；暂略
+  birth_ad: 155
+  death_ad: 220
+  brief: 三国魏太祖，挾天子以令諸侯，奠定曹魏基業
+  bio_chapters: [wei.1]      # 武帝紀
+
+- id: caopi
+  primary_name: 曹丕
+  courtesy_name: 子桓
+  birth_ad: 187
+  death_ad: 226
+  brief: 魏文帝，曹魏首位皇帝，220 年代漢稱帝
+  bio_chapters: [wei.2]
+
+- id: caorui
+  primary_name: 曹叡
+  courtesy_name: 元仲
+  birth_ad: 204
+  death_ad: 239
+  brief: 魏明帝，曹丕長子
+  bio_chapters: [wei.3]
+
+- id: liubei
+  primary_name: 劉備
+  courtesy_name: 玄德
+  aliases: [劉玄德]
+  birth_ad: 161
+  death_ad: 223
+  brief: 蜀漢昭烈帝，先主
+  bio_chapters: [shu.2]
+
+- id: liushan
+  primary_name: 劉禪
+  courtesy_name: 公嗣
+  birth_ad: 207
+  death_ad: 271
+  brief: 蜀漢後主，劉備子
+  bio_chapters: [shu.3]
+
+- id: sunjian
+  primary_name: 孫堅
+  courtesy_name: 文臺
+  birth_ad: 155
+  death_ad: 191
+  brief: 吳武烈皇帝，孫氏基業創建者
+  bio_chapters: [wu.1]       # 孫破虜討逆傳上
+
+- id: sunce
+  primary_name: 孫策
+  courtesy_name: 伯符
+  birth_ad: 175
+  death_ad: 200
+  brief: 孫堅長子，奠定江東基業
+  bio_chapters: [wu.1]
+
+- id: sunquan
+  primary_name: 孫權
+  courtesy_name: 仲謀
+  birth_ad: 182
+  death_ad: 252
+  brief: 吳大帝，孫策弟
+  bio_chapters: [wu.2]
+
+- id: zhugeliang
+  primary_name: 諸葛亮
+  courtesy_name: 孔明
+  aliases: [諸葛孔明]
+  birth_ad: 181
+  death_ad: 234
+  brief: 蜀漢丞相，輔佐劉備、劉禪
+  bio_chapters: [shu.5]
+
+- id: simayi
+  primary_name: 司馬懿
+  courtesy_name: 仲達
+  aliases: [司馬仲達]
+  birth_ad: 179
+  death_ad: 251
+  brief: 魏太尉、權臣，司馬氏代魏奠基者
+  bio_chapters: []           # 三国志无司马懿单传，他在 wei.X 多卷间隙出现
+
+- id: zhouyu
+  primary_name: 周瑜
+  courtesy_name: 公瑾
+  birth_ad: 175
+  death_ad: 210
+  brief: 吳大將軍，赤壁之戰主帥
+  bio_chapters: [wu.9]       # 周瑜魯肅呂蒙傳
+
+- id: lusu
+  primary_name: 魯肅
+  courtesy_name: 子敬
+  birth_ad: 172
+  death_ad: 217
+  brief: 吳大都督，主東吳聯劉抗曹之策
+  bio_chapters: [wu.9]
+
+- id: lvmeng
+  primary_name: 呂蒙
+  courtesy_name: 子明
+  birth_ad: 178
+  death_ad: 220
+  brief: 吳將，襲取荊州，俘關羽
+  bio_chapters: [wu.9]
+
+- id: luxun
+  primary_name: 陸遜
+  courtesy_name: 伯言
+  birth_ad: 183
+  death_ad: 245
+  brief: 吳大都督、丞相，夷陵之戰主帥
+  bio_chapters: [wu.13]      # 陸遜傳
+
+- id: guanyu
+  primary_name: 關羽
+  courtesy_name: 雲長
+  aliases: [關雲長]
+  birth_ad: null
+  death_ad: 220
+  brief: 蜀漢前將軍，劉備早年部將
+  bio_chapters: [shu.6]      # 關張馬黃趙傳
+
+- id: zhangfei
+  primary_name: 張飛
+  courtesy_name: 益德
+  aliases: [翼德]            # 益德/翼德 兩傳均見
+  birth_ad: null
+  death_ad: 221
+  brief: 蜀漢車騎將軍，劉備早年部將
+  bio_chapters: [shu.6]
+
+- id: zhaoyun
+  primary_name: 趙雲
+  courtesy_name: 子龍
+  birth_ad: null
+  death_ad: 229
+  brief: 蜀漢翊軍將軍
+  bio_chapters: [shu.6]
+
+- id: machao
+  primary_name: 馬超
+  courtesy_name: 孟起
+  birth_ad: 176
+  death_ad: 222
+  brief: 蜀漢驃騎將軍，西涼軍閥
+  bio_chapters: [shu.6]
+
+- id: lvbu
+  primary_name: 呂布
+  courtesy_name: 奉先
+  birth_ad: null
+  death_ad: 198
+  brief: 漢末群雄，殺董卓後割據徐州
+  bio_chapters: [wei.7, hhs.75]    # 三國志吕布張邈臧洪傳 + 後漢書劉焉袁術呂布列傳
+
+- id: dongzhuo
+  primary_name: 董卓
+  courtesy_name: 仲穎
+  birth_ad: null
+  death_ad: 192
+  brief: 漢末權臣，廢少帝立獻帝，引發群雄混戰
+  bio_chapters: [wei.6, hhs.72]    # 三國志董二袁劉傳 + 後漢書董卓列傳
+
+- id: yuanshao
+  primary_name: 袁紹
+  courtesy_name: 本初
+  birth_ad: null
+  death_ad: 202
+  brief: 河北軍閥，官渡之戰主敗
+  bio_chapters: [wei.6, hhs.74]
+
+- id: yuanshu
+  primary_name: 袁術
+  courtesy_name: 公路
+  birth_ad: null
+  death_ad: 199
+  brief: 漢末群雄，淮南僭號
+  bio_chapters: [wei.6, hhs.75]
+
+- id: liubiao
+  primary_name: 劉表
+  courtesy_name: 景升
+  birth_ad: 142
+  death_ad: 208
+  brief: 荊州牧，東漢末年穩坐荊州
+  bio_chapters: [wei.6, hhs.74]
+
+- id: gongsunzan
+  primary_name: 公孫瓚
+  courtesy_name: 伯珪
+  birth_ad: null
+  death_ad: 199
+  brief: 幽州軍閥，與袁紹爭河北
+  bio_chapters: [hhs.73]
+
+- id: liuyu
+  primary_name: 劉虞
+  courtesy_name: 伯安
+  birth_ad: null
+  death_ad: 193
+  brief: 漢末幽州牧，被公孫瓚所殺
+  bio_chapters: [hhs.73]
+
+- id: taoqian
+  primary_name: 陶謙
+  courtesy_name: 恭祖
+  birth_ad: 132
+  death_ad: 194
+  brief: 徐州牧，與曹操有屠徐之仇
+  bio_chapters: [hhs.73]

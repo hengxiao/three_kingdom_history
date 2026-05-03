@@ -352,6 +352,137 @@ function chapterIdToRoute(chapter_id) {
   return chapter_id.replace(".", "/");
 }
 
+/* ---------- PEOPLE PAGES ---------- */
+
+let PEOPLE_INDEX_CACHE = null;
+async function loadPeopleIndex() {
+  if (!PEOPLE_INDEX_CACHE) PEOPLE_INDEX_CACHE = await loadJSON(`${DATA_BASE}/people.json`);
+  return PEOPLE_INDEX_CACHE;
+}
+
+function dateRange(p) {
+  const b = p.birth_ad, d = p.death_ad;
+  if (b == null && d == null) return "生卒不詳";
+  if (b == null) return `?-${d}`;
+  if (d == null) return `${b}-?`;
+  return `${b}-${d}`;
+}
+
+async function renderPeopleIndex() {
+  setBreadcrumbs([{ label: "目錄", href: "#/" }, { label: "人物志", href: "#/people" }]);
+  const main = $("#content");
+  main.innerHTML = "載入人物志中…";
+  try {
+    const idx = await loadPeopleIndex();
+    const html = `
+      <div class="chapter-header">
+        <h2>人物志</h2>
+        <div class="chapter-sub">${idx.people.length} 人，按提及次數排序</div>
+      </div>
+      <ul class="people-list">${
+        idx.people.map(p => `
+          <li class="person-row">
+            <a href="#/people/${escapeAttr(p.id)}">
+              <span class="person-name">${escapeHTML(p.primary_name)}</span>
+              ${p.courtesy_name ? `<span class="person-courtesy">字${escapeHTML(p.courtesy_name)}</span>` : ""}
+              <span class="person-dates">${dateRange(p)}</span>
+              <span class="person-brief">${escapeHTML(p.brief || "")}</span>
+              <span class="person-counts">本傳 ${p.n_bio_chapters} · 提及 ${p.n_mentions}</span>
+            </a>
+          </li>`).join("")
+      }</ul>`;
+    main.innerHTML = html;
+  } catch (err) {
+    main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
+  }
+}
+
+async function renderPersonPage(id) {
+  setBreadcrumbs([
+    { label: "目錄", href: "#/" },
+    { label: "人物志", href: "#/people" },
+    { label: id, href: `#/people/${id}` },
+  ]);
+  const main = $("#content");
+  main.innerHTML = "載入人物中…";
+  try {
+    const p = await loadJSON(`${DATA_BASE}/people/${id}.json`);
+    setBreadcrumbs([
+      { label: "目錄", href: "#/" },
+      { label: "人物志", href: "#/people" },
+      { label: p.primary_name, href: `#/people/${id}` },
+    ]);
+
+    const bioHTML = p.bio_chapters.length ? `
+      <section class="person-section">
+        <h3>本傳</h3>
+        <ul class="bio-chapter-list">${
+          p.bio_chapters.map(b => `
+            <li><a href="#/chapter/${chapterIdToRoute(b.chapter_id)}">${escapeHTML(b.book_title)} · ${escapeHTML(b.title)} <span class="muted">(${escapeHTML(b.chapter_id)})</span></a></li>
+          `).join("")
+        }</ul>
+      </section>` : `
+      <section class="person-section">
+        <h3>本傳</h3>
+        <p class="muted">三国志 / 后汉书 中無單獨本傳，仅見於他人傳中相關段落。</p>
+      </section>`;
+
+    const workSections = [
+      ["zztj", "資治通鑑提及"],
+      ["sanguozhi", "三國志他卷提及"],
+      ["houhanshu", "後漢書他卷提及"],
+    ].map(([wid, label]) => {
+      const items = p.mentions_by_work[wid] || [];
+      if (!items.length) return "";
+      // Group by chapter
+      const byChapter = new Map();
+      for (const m of items) {
+        if (!byChapter.has(m.chapter_id)) byChapter.set(m.chapter_id, { meta: m, items: [] });
+        byChapter.get(m.chapter_id).items.push(m);
+      }
+      const groups = [...byChapter.values()].map(g => `
+        <div class="person-chapter">
+          <h4><a class="chapter-link" href="#/chapter/${chapterIdToRoute(g.meta.chapter_id)}">${escapeHTML(g.meta.book_title)} · ${escapeHTML(g.meta.chapter_title)} <span class="muted">(${escapeHTML(g.meta.chapter_id)})</span></a></h4>
+          <ul class="person-mention-list">${
+            g.items.map(m => `
+              <li class="person-mention">
+                <button class="event-snippet"
+                        type="button"
+                        data-anchor="${escapeAttr(m.anchor)}"
+                        data-data-url="${escapeAttr(m.data_url)}"
+                        data-snippet-original="${escapeAttr(m.snippet)}"
+                        aria-expanded="false"
+                        title="匹配：${escapeAttr(m.matched)}">${escapeHTML(m.snippet)}</button>
+              </li>`).join("")
+          }</ul>
+        </div>`).join("");
+      return `
+        <section class="person-section">
+          <h3>${label} <span class="muted">(${items.length} 處)</span></h3>
+          ${groups}
+        </section>`;
+    }).filter(Boolean).join("");
+
+    const aliasesStr = p.aliases.length ? p.aliases.join("、") : "無";
+    const otherNamesStr = p.other_names && p.other_names.length ? `<div class="person-other-names">其他名號（待上下文判別后計入）：${escapeHTML(p.other_names.join("、"))}</div>` : "";
+
+    main.innerHTML = `
+      <div class="chapter-header">
+        <h2>${escapeHTML(p.primary_name)}${p.courtesy_name ? ` <span class="muted">字${escapeHTML(p.courtesy_name)}</span>` : ""}</h2>
+        <div class="chapter-sub">
+          ${escapeHTML(dateRange(p))} · ${escapeHTML(p.brief || "")}
+        </div>
+        <div class="person-aliases">搜索別名：${escapeHTML(aliasesStr)}</div>
+        ${otherNamesStr}
+      </div>
+      ${bioHTML}
+      ${workSections || `<section class="person-section"><h3>提及</h3><p class="muted">未在他卷中找到提及。</p></section>`}
+    `;
+  } catch (err) {
+    main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
+  }
+}
+
 /* ---------- ROUTING ---------- */
 
 function parseHash() {
@@ -361,6 +492,9 @@ function parseHash() {
   m = h.match(/^#\/timeline\/(\d+)$/);
   if (m) return { route: "timeline_year", year: parseInt(m[1], 10) };
   if (h === "#/timeline" || h.startsWith("#/timeline/")) return { route: "timeline_index" };
+  m = h.match(/^#\/people\/([a-z0-9_-]+)$/i);
+  if (m) return { route: "person", id: m[1] };
+  if (h === "#/people" || h.startsWith("#/people/")) return { route: "people_index" };
   return { route: "index" };
 }
 
@@ -379,6 +513,12 @@ async function route() {
     window.scrollTo(0, 0);
   } else if (r.route === "timeline_index") {
     await renderTimelineIndex();
+    window.scrollTo(0, 0);
+  } else if (r.route === "person") {
+    await renderPersonPage(r.id);
+    window.scrollTo(0, 0);
+  } else if (r.route === "people_index") {
+    await renderPeopleIndex();
     window.scrollTo(0, 0);
   } else {
     await renderIndex();

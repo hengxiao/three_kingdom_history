@@ -380,6 +380,87 @@ body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { disp
   line-height: inherit;
 }
 .event-snippet:hover { color: var(--fg); }
+
+/* ---------- 人物志 ---------- */
+.people-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.person-row a {
+  display: grid;
+  grid-template-columns: minmax(80px, max-content) minmax(120px, max-content) minmax(80px, max-content) 1fr minmax(140px, max-content);
+  gap: 14px;
+  align-items: baseline;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--rule);
+  color: var(--fg);
+}
+.person-row a:hover { background: var(--temporal-bg); text-decoration: none; }
+.person-name {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--accent);
+}
+.person-courtesy { color: var(--muted); font-size: 0.9em; }
+.person-dates { color: var(--muted); font-family: ui-monospace, monospace; font-size: 0.85em; }
+.person-brief { color: var(--fg); }
+.person-counts {
+  color: var(--muted); font-family: ui-monospace, monospace; font-size: 0.85em;
+  text-align: right;
+}
+@media (max-width: 720px) {
+  .person-row a {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+  .person-counts { text-align: left; }
+}
+
+.person-section {
+  margin: 22px 0;
+}
+.person-section > h3 {
+  margin: 0 0 8px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 3px;
+  font-size: 17px;
+  color: var(--accent);
+}
+.person-aliases, .person-other-names {
+  font-size: 0.9em;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.bio-chapter-list {
+  list-style: none; padding: 0; margin: 4px 0;
+}
+.bio-chapter-list li {
+  padding: 4px 8px;
+  border-left: 3px solid var(--accent);
+  background: var(--pei-bg);
+  margin: 4px 0;
+}
+.person-chapter {
+  margin: 12px 0;
+  padding-left: 8px;
+  border-left: 2px solid var(--rule);
+}
+.person-chapter h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+.person-mention-list {
+  list-style: none; padding: 0; margin: 0;
+}
+.person-mention {
+  padding: 4px 8px;
+  margin: 3px 0;
+  background: rgba(255,255,255,0.5);
+  border-left: 2px solid var(--temporal);
+}
+.person-mention .event-snippet { color: inherit; }
 .event-snippet[aria-expanded="true"] {
   display: block;
   color: var(--fg);

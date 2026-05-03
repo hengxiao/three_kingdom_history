@@ -1,0 +1,523 @@
+{
+  "id": "zhouyu",
+  "primary_name": "周瑜",
+  "courtesy_name": "公瑾",
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": 175,
+  "death_ad": 210,
+  "brief": "吳大將軍，赤壁之戰主帥",
+  "bio_chapters": [
+    {
+      "chapter_id": "wu.9",
+      "title": "吳書·周瑜、魯肅、吕蒙傳",
+      "book_title": "吳書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wu/09.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p34",
+        "at": 51,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "周瑜",
+        "snippet": "…堅從軍於外，留家壽春。策年十餘歲，已交結知名。舒人周瑜與策同年，亦英達夙成。聞策聲問，自舒來造焉，便推結分好，勸策徙居舒；策從之。瑜乃推道南大宅與策，升堂拜母，有無通共。及堅死，策…"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p69",
+        "at": 158,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "周瑜",
+        "snippet": "…兵千餘人、騎數十匹。行收兵，比至歷陽，眾五六千。時周瑜從父尚為丹陽守，瑜將兵迎之，仍助以資糧。策大喜，曰：「吾得卿，諧也！」進攻橫江、當利，皆拔之，樊能、張英敗走。"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p74",
+        "at": 15,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "周瑜",
+        "snippet": "袁術以從弟胤為丹陽太守。周尚、周瑜皆還壽春。"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p82",
+        "at": 70,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "周瑜",
+        "snippet": "…彰取孫賁女；禮辟策弟權、翊；以張紘為侍御史。袁術以周瑜為居巢長，以臨淮魯肅為東城長。瑜、肅知術終無所成，皆棄官渡江從孫策。策以瑜為建威中郎將。肅因家於曲阿。"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p13",
+        "at": 439,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "周瑜",
+        "snippet": "…，策乃分遣從兄賁、輔將八千人屯彭澤，自與領江夏太守周瑜將二萬人襲皖城，克之，得術、勳妻子及部曲三萬餘人；表汝南李術為廬江太守，給兵三千人以守皖城，皆徙所得民東詣吳。勳還至彭澤，孫賁…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p16",
+        "at": 39,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "周瑜",
+        "snippet": "…章太守，孫輔為廬陵太守。會僮芝病，輔遂進屯廬陵，留周瑜鎮巴丘。孫策之克皖城也，撫視袁術妻子；及入豫章，收載劉繇喪，善遇其家。士大夫以是稱之。會稽功曹魏騰嘗策意，策將殺之，眾憂恐，計…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p27",
+        "at": 290,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "周瑜",
+        "snippet": "…昭率僚屬，上表朝廷，下移屬城，中外將校，各令奉職，周瑜自巴丘將兵赴喪，遂留吳，以中護軍與張昭共掌眾事。時策雖有會稽、吳郡、丹楊、豫章、廬江、廬陵，然深險之地，猶未盡從，流寓之士，皆…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p40",
+        "at": 6,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "周瑜",
+        "snippet": "魯肅將北還，周瑜止之，因薦肅於權曰：「肅才宜佐時，當廣求其比以成功業。」權即見肅，與語，悅之。賓退，獨引肅合榻對飲，曰：「今漢室傾危，孤思有桓…"
+      },
+      {
+        "chapter_id": "zztj.64",
+        "chapter_title": "漢紀五十六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.64.p6",
+        "at": 1254,
+        "data_url": "data/zztj/zztj/64.json",
+        "matched": "周瑜",
+        "snippet": "…孫權任子，權召群僚會議，張昭、秦松等猶豫不決。權引周瑜詣吳夫人前定議，瑜曰：「昔楚國初封，不滿百里之地。繼嗣賢能，廣土開境，遂據荊、揚，至於南海，傳業延祚，九百餘年。今將軍承父兄餘…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p31",
+        "at": 167,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "周瑜",
+        "snippet": "…欲去，恐不免；飛乃白祖，以寧為邾長。寧遂亡奔孫權。周瑜、呂蒙共薦達之，權禮異，同於舊臣。寧獻策於權曰：「今漢祚日微，曹操終為篡盜。南荊之地，山川形便，誠國之西勢也。寧觀劉表，慮既不…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p52",
+        "at": 1,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "周瑜",
+        "snippet": "時周瑜受使至番陽，肅勸權召瑜還。瑜至，謂權曰：「操雖托名漢相，其實漢賊也。將軍以神武雄才，兼仗父兄之烈，割據江東，地方數千里，兵精足…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p53",
+        "at": 267,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "周瑜",
+        "snippet": "…誠決，邂逅不如意，便還就孤，孤當與孟德決之。」遂以周瑜、程普為左右督，將兵與備並力逆操；以魯肅為贊軍校尉，助畫方略。"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p56",
+        "at": 289,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "周瑜",
+        "snippet": "…乃得過。羸兵為人馬所蹈藉，陷泥中，死者甚眾。劉備、周瑜水陸並進，追操至南郡。時操軍兼以饑疫，死者太半。操乃留征南將軍曹仁、橫野將軍徐晃守江陵，折衝將軍樂進守襄陽，引軍北還。"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p57",
+        "at": 0,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "周瑜",
+        "snippet": "周瑜、程普將數萬眾，與曹仁隔江未戰。甘寧請先徑進取夷陵，往，即得其城，因入守之。益州將襲肅舉軍降，周瑜表以肅兵益橫野中郎將呂蒙。蒙…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p11",
+        "at": 0,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "周瑜",
+        "snippet": "周瑜攻曹仁歲餘，所殺傷甚眾，仁委城走。權以瑜領南郡太守，屯據江陵；程普領江夏太守，治沙羨；呂范領彭澤太守；呂蒙領尋陽令。劉備表權行…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p12",
+        "at": 10,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "周瑜",
+        "snippet": "曹操密遣九江蔣幹往說周瑜。幹以才辨獨步於江、淮之間，乃布衣葛巾，自托私行詣瑜。瑜出迎之，立謂幹曰：「子翼良苦，遠涉江湖，為曹氏作說客邪？」因延幹，與周…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p19",
+        "at": 12,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "周瑜",
+        "snippet": "劉表故吏士多歸劉備，備以周瑜所給地少，不足以容其眾，乃自詣京見孫權，求都督荊州。瑜上疏於權曰：「劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p20",
+        "at": 0,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "周瑜",
+        "snippet": "周瑜詣京見權曰：「今曹操新政，憂在腹心，未能與將軍連兵相事也。乞與奮威俱進，取蜀而並張魯，因留奮威固守其地，與馬超結援，瑜還與將軍…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p24",
+        "at": 8,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "周瑜",
+        "snippet": "初，劉備在荊州，周瑜、甘寧等數勸孫權取蜀。權遣使謂備曰：「劉璋不武，不能自守，若使曹操得蜀，則荊州危矣。今欲先攻取璋，次取張魯，一統南方，雖有十操…"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p38",
+        "at": 837,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "周瑜",
+        "snippet": "…蒙曰：「若至尊以征虜能，宜用之；以蒙能，宜用蒙。昔周瑜、程普為左右部督，督兵攻江陵，雖事決於瑜，普自恃久將，且俱是督，遂共不睦，幾敗國事，此目前之戒也。」權寤，謝蒙曰：「以卿為大督…"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p46",
+        "at": 127,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "周瑜",
+        "snippet": "…年四十二。權哀痛殊甚，為置守塚三百家。權後與陸遜論周瑜、魯肅及蒙曰：「公瑾雄烈，膽略兼人，遂破孟德，開拓荊州，邈焉寡儔。子敬因公瑾致達於孤，孤與宴語，便及大略帝王之業，此一快也。後…"
+      },
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p33",
+        "at": 33,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "周瑜",
+        "snippet": "…，吳王即皇帝位，大赦，改元黃龍。百官畢會，吳主歸功周瑜。綏遠將軍張昭舉笏欲褒贊功德，未及言，吳主曰：「如張公之計，今已乞食矣。」昭大慚，伏地流汗。吳主追尊父堅為武烈皇帝，〔廟號始祖…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p11",
+        "at": 144,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "周瑜",
+        "snippet": "…眾萬餘人，與俱到夏口。先主遣諸葛亮自結於孫權，權遣周瑜、程普等水軍數萬，與先主并力，與曹公戰於赤壁，大破之，焚其舟船。先主與吳軍水陸並進，追到南郡，時又疾疫，北軍多死，曹公引歸。"
+      },
+      {
+        "chapter_id": "shu.5",
+        "chapter_title": "蜀書·諸葛亮傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.5.p4",
+        "at": 534,
+        "data_url": "data/sanguozhi/shu/05.json",
+        "matched": "周瑜",
+        "snippet": "…，鼎足之形成矣。成敗之機，在於今日。」權大悅，即遣周瑜、程普、魯肅等水軍三萬，隨亮詣先主，并力拒曹公。曹公敗於赤壁，引軍歸鄴。先主遂收江南，以亮為軍師中郎將，使督零陵、桂陽、長沙三…"
+      },
+      {
+        "chapter_id": "shu.7",
+        "chapter_title": "蜀書·龐統法正傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.7.p1",
+        "at": 206,
+        "data_url": "data/sanguozhi/shu/07.json",
+        "matched": "周瑜",
+        "snippet": "…半，而可以崇邁世教，使有志者自勵，不亦可乎？」吳將周瑜助先主取荊州，因領南郡太守。瑜卒，統送喪至吳，吳人多聞其名。及當西還，並會昌門，陸勣、顧劭、全琮皆往。統曰：「陸子可謂駑馬有逸…"
+      },
+      {
+        "chapter_id": "wei.17",
+        "chapter_title": "魏書·張樂于張徐傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.17.p17",
+        "at": 307,
+        "data_url": "data/sanguozhi/wei/17.json",
+        "matched": "周瑜",
+        "snippet": "…中廬、臨沮、宜城賊。又與滿寵討關羽於漢津，與曹仁擊周瑜於江陵。十五年，討太原反者，圍大陵，拔之，斬賊帥商曜。韓遂、馬超等反關右，遣晃屯汾陰以撫河東，賜牛酒，令上先人墓。太祖至潼關，…"
+      },
+      {
+        "chapter_id": "wei.18",
+        "chapter_title": "魏書·二李臧文吕许典二庞阎传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.18.p7",
+        "at": 3,
+        "data_url": "data/sanguozhi/wei/18.json",
+        "matched": "周瑜",
+        "snippet": "劉備與周瑜圍曹仁於江陵，別遣關羽絕北道。通率眾擊之，下馬拔鹿角入圍，且戰且前，以迎仁軍，勇冠諸將。通道得病薨，時年四十二。追增邑二百戶，…"
+      },
+      {
+        "chapter_id": "wei.9",
+        "chapter_title": "魏書·諸夏侯曹傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.9.p13",
+        "at": 21,
+        "data_url": "data/sanguozhi/wei/09.json",
+        "matched": "周瑜",
+        "snippet": "從平荆州，以仁行征南將軍，留屯江陵，拒吴將周瑜。瑜將數萬眾來攻，前鋒數千人始至，仁登城望之，乃募得三百人，遣部曲將牛金逆與挑戰。賊多，金眾少，遂爲所圍。長史陳矫俱在城上，望…"
+      },
+      {
+        "chapter_id": "wu.1",
+        "chapter_title": "吳書·孫破虜討逆傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.1.p10",
+        "at": 19,
+        "data_url": "data/sanguozhi/wu/01.json",
+        "matched": "周瑜",
+        "snippet": "策字伯符。堅初興義兵，策將母徙居舒。與周瑜相友，收合士大夫，江淮間人咸向之。堅薨，還葬曲阿。已乃渡江居江都。"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p10",
+        "at": 106,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "…破黃祖，還討鄱陽，領樂安長，山越畏服。後以中郎將與周瑜等拒破曹公，又與呂蒙襲取南郡，遷偏將軍，領永昌太守。宜都之役，與陸遜、朱然等共攻蜀軍於涿鄉，大破之，徙威烈將軍，封都亭侯。曹真…"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p17",
+        "at": 9,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "從討黃祖有功。後與周瑜、程普拒曹公於赤壁，攻曹仁於南郡。荊州平定，將兵屯岑。曹公出濡須，泰復赴擊，曹公退，留督濡須，拜平虜將軍。時朱然、徐盛等皆在所…"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p29",
+        "at": 5,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "於是歸吳。周瑜、呂蒙皆共薦達，孫權加異，同於舊臣。寧陳計曰：「今漢祚日微，曹操彌憍，終爲篡盜。南荊之地。山陵形便，江川流通，誠是國之西勢也。…"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p30",
+        "at": 2,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "後隨周瑜拒破曹公於烏林。攻曹仁於南郡，未拔，寧建計先徑進取夷陵，往即得其城，因入守之。時手下有數百兵，并所新得，僅滿千人。曹仁乃令五六…"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p38",
+        "at": 95,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "…水軍，而統先搏其城，於是大獲。權以統爲承烈都尉，與周瑜等拒破曹公於烏林，遂攻曹仁，遷爲校尉。雖在軍旅，親賢接士，輕財重義，有國士之風。"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p4",
+        "at": 53,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "…，還過豫章，別討樂安。樂安平定，代太史慈備海昏，與周瑜爲左右督，破曹公於烏林，又進攻南郡，走曹仁。拜裨將軍，領江夏太守，治沙羨，食四縣。"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p5",
+        "at": 27,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "…諸將，普最年長，時人皆呼程公。性好施與，喜士大夫。周瑜卒，代領南郡太守。權分荊州與劉備，普復還領江夏，遷盪寇將軍，卒。權稱尊號，追論普功，封子咨爲亭侯。"
+      },
+      {
+        "chapter_id": "wu.10",
+        "chapter_title": "吳書·十二虎臣傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.10.p8",
+        "at": 28,
+        "data_url": "data/sanguozhi/wu/10.json",
+        "matched": "周瑜",
+        "snippet": "…嚴毅，善於養衆，每所征討，士卒皆爭爲先。建安中，隨周瑜拒曹公於赤壁，建策火攻，語在。拜武鋒中郎將。武陵蠻夷反亂，攻守城邑，乃以蓋領太守。時郡兵才五百人，自以不敵，因開城門，賊半入，…"
+      },
+      {
+        "chapter_id": "wu.11",
+        "chapter_title": "吳書·三朱吕範傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.11.p18",
+        "at": 117,
+        "data_url": "data/sanguozhi/wu/11.json",
+        "matched": "周瑜",
+        "snippet": "…喪於吳。後權復征江夏，範與張昭留守。曹公至赤壁，與周瑜等俱拒破之，拜裨將軍，領彭澤太守，以彭澤、柴桑、歷陽為奉邑。劉備詣京見權，範密請留備。後遷平南將軍，屯柴桑。"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p2",
+        "at": 202,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "周瑜",
+        "snippet": "…，賓旅寄寓之士以安危去就爲意，未有君臣之固。張昭、周瑜等謂權可與共成大業，故委心而服事焉。曹公表權爲討虜將軍，領會稽太守，屯吳，使丞之郡行文書事。待張昭以師傅之禮，而周瑜、程普、呂…"
+      },
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p8",
+        "at": 182,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "周瑜",
+        "snippet": "…因傳權旨，爲陳成敗。備進住夏口，使諸葛亮詣權，權遣周瑜、程普等行。是時曹公新得表眾，形勢甚盛。諸議者皆望風畏懼，多勸權迎之。惟瑜、肅執拒之儀，意與權同。瑜、普爲左右督，各領萬人，與…"
+      },
+      {
+        "chapter_id": "wu.5",
+        "chapter_title": "吳書·妃嬪傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.5.p9",
+        "at": 73,
+        "data_url": "data/sanguozhi/wu/05.json",
+        "matched": "周瑜",
+        "snippet": "…得幸於權，寵冠後庭。生二女，長曰魯班，字大虎，前配周瑜子循，後配全琮。少曰魯育，字小虎，前配朱據，後配劉纂。"
+      },
+      {
+        "chapter_id": "wu.6",
+        "chapter_title": "吳書·宗室傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.6.p3",
+        "at": 69,
+        "data_url": "data/sanguozhi/wu/06.json",
+        "matched": "周瑜",
+        "snippet": "…楊太守，為眾所附，至萬餘人。加綏遠將軍。十一年，與周瑜共討麻、保二屯，破之。後從權拒曹公於濡須，權欲交戰，瑜說權持重，權不從，軍果無功。遷奮威將軍，領郡如故，自溧陽徙屯牛渚。瑜以永…"
+      },
+      {
+        "chapter_id": "wu.6",
+        "chapter_title": "吳書·宗室傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.6.p7",
+        "at": 63,
+        "data_url": "data/sanguozhi/wu/06.json",
+        "matched": "周瑜",
+        "snippet": "…權曰：「若至尊以征虜能，宜用之。以蒙能，宜用蒙。昔周瑜、程普為左右部督，共攻匯陵，雖事決於瑜，普自恃久將，且俱是督，遂共不睦，幾敗國事，此目前之戒也。」權寤，謝蒙曰：「以卿為大督，…"
+      },
+      {
+        "chapter_id": "wu.8",
+        "chapter_title": "吳書·張嚴程闞薛傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.8.p8",
+        "at": 76,
+        "data_url": "data/sanguozhi/wu/08.json",
+        "matched": "周瑜",
+        "snippet": "…以禮徵，秉既到，拜太子太傅。黃武四年，權為太子登娉周瑜女，秉守太常，迎妃於吳，權親幸秉船，深見優禮。既還，秉從容進說登曰：「婚姻人倫之始，王教之基，是以聖王重之，所以率先眾庶，風化…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.9",
+        "chapter_title": "孝獻帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.9.p22",
+        "at": 127,
+        "data_url": "data/houhanshu/hhs/09.json",
+        "matched": "周瑜",
+        "snippet": "…操。冬十月癸未朔，日有食之。曹操以舟師伐孫權，權將周瑜敗之於烏林、赤壁。"
+      }
+    ]
+  },
+  "n_mentions": 45
+}

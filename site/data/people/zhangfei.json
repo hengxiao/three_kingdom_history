@@ -1,0 +1,480 @@
+{
+  "id": "zhangfei",
+  "primary_name": "張飛",
+  "courtesy_name": "益德",
+  "aliases": [
+    "翼德"
+  ],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 221,
+  "brief": "蜀漢車騎將軍，劉備早年部將",
+  "bio_chapters": [
+    {
+      "chapter_id": "shu.6",
+      "title": "蜀書·關張馬黃趙傳",
+      "book_title": "蜀書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/shu/06.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p22",
+        "at": 105,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "張飛",
+        "snippet": "…田楷徇青州有功，因以為平原相。備少與河東關羽、涿郡張飛相友善；以羽、飛為別部司馬，分統部曲。備與二人寢則同床，恩若兄弟，而稠人廣坐，侍立終日，隨備周旋，不避艱險。常山趙雲為本郡將吏…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p9",
+        "at": 15,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "張飛",
+        "snippet": "5袁術攻劉備以爭徐州，備使司馬張飛守下邳，自將拒術於盱眙、淮陰，相持經月，更有勝負。下邳相曹豹，陶謙故將也，與張飛相失，飛殺之，城中乖亂。袁術與呂布書，勸令襲下…"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p26",
+        "at": 449,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "張飛",
+        "snippet": "…室可興矣。」備曰：「善！」於是與亮情好日密。關羽、張飛不悅，備解之曰：「孤之有孔明，猶魚之有水也。願諸君勿復言。」羽、飛乃止。"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p44",
+        "at": 143,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "張飛",
+        "snippet": "…夜行三百餘里，及於當陽之長板。備棄妻子，與諸葛亮、張飛、趙雲等數十騎走，操大獲其人眾輜重。"
+      },
+      {
+        "chapter_id": "zztj.65",
+        "chapter_title": "漢紀五十七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.65.p45",
+        "at": 65,
+        "data_url": "data/zztj/zztj/65.json",
+        "matched": "張飛",
+        "snippet": "…已失老母，方寸亂矣，無益於事，請從此別。」遂詣操。張飛將二十騎拒後，飛據水斷橋，瞋目橫矛曰：「身是張益德也，可來共決死！」操兵無敢近者。或謂備：「趙雲已北走。」備以手戟擿之曰：「子…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p19",
+        "at": 61,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "張飛",
+        "snippet": "…督荊州。瑜上疏於權曰：「劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。愚謂大計宜徙備置吳，盛為築宮室，多其美女玩好，以娛其耳目；分此二人各置一方，使如瑜者得挾與攻戰，大…"
+      },
+      {
+        "chapter_id": "zztj.66",
+        "chapter_title": "漢紀五十八",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.66.p35",
+        "at": 312,
+        "data_url": "data/zztj/zztj/66.json",
+        "matched": "張飛",
+        "snippet": "…。孫權聞備西上，遣舟船迎妹，而夫人欲將備子禪還吳，張飛、趙雲勒兵截江，乃得禪還。"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p25",
+        "at": 39,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "張飛",
+        "snippet": "…蜀，吾當被髪入山，不失信於天下也。」使關羽屯江陵，張飛屯秭歸，諸葛亮據南郡，備自住孱陵，權不得已召瑜還。及備西攻劉璋，權曰：「猾虜，乃敢挾詐如此！」備留關羽守江陵，魯肅與羽鄰界；羽…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p31",
+        "at": 174,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "張飛",
+        "snippet": "…，無不克也。若小緩之，諸葛亮明於治國而為相，關羽、張飛勇冠三軍而為將，蜀民既定，據險守要，則不可犯矣。今不取，必為後憂。」操不從。居七日，蜀降者說「蜀中一日數十驚，守將雖斬之而不能…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p38",
+        "at": 104,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "張飛",
+        "snippet": "…軍徇三巴，欲徙其民於漢中，進軍宕渠。劉備使巴西太守張飛與郃相拒，五十餘日，飛襲擊郃，大破之。郃走還南鄭，備亦還成都。"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p7",
+        "at": 11,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "張飛",
+        "snippet": "諸葛亮留關羽守荊州，與張飛、趙雲將兵溯流克巴東。至江州，破巴郡太守嚴顏，生獲之。飛呵顏曰：「大軍既至，何以不降，而敢拒戰！」顏曰：「卿等無狀，侵奪我州，…"
+      },
+      {
+        "chapter_id": "zztj.67",
+        "chapter_title": "漢紀五十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.67.p8",
+        "at": 88,
+        "data_url": "data/zztj/zztj/67.json",
+        "matched": "張飛",
+        "snippet": "…，以保尊門。」璋不答。雒城潰，備進圍成都。諸葛亮、張飛、趙雲引兵來會。馬超知張魯不足與計事，又魯將楊昂等數害其能，超內懷於邑。備使建寧督郵李恢往說之，超遂從武都逃入氐中，密書請降於…"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p10",
+        "at": 178,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "張飛",
+        "snippet": "…與我，時不可失也。」備善其策，乃率諸將進兵漢中，遣張飛、馬超、吳蘭等屯下辨。魏王操遣都護將軍曹洪拒之。"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p17",
+        "at": 7,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "張飛",
+        "snippet": "曹洪將擊吳蘭，張飛屯固山，聲言欲斷軍後，眾議狐疑。騎都尉曹休曰：「賊實斷道者，當伏兵潛行；今乃先張聲勢，此其不能，明矣。宜及其未集，促擊蘭。蘭破…"
+      },
+      {
+        "chapter_id": "zztj.68",
+        "chapter_title": "漢紀六十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.68.p30",
+        "at": 125,
+        "data_url": "data/zztj/zztj/68.json",
+        "matched": "張飛",
+        "snippet": "…治成都，以許靖為太傅，法正為尚書令，關羽為前將軍，張飛為右將軍，馬超為左將軍，黃忠為後將軍，餘皆進位有差。遣益州前部司馬犍為費詩即授關羽印授，羽聞黃忠位與己並，怒曰：「大丈夫終不與…"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p37",
+        "at": 49,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "張飛",
+        "snippet": "…之妹，故劉璋兄瑁之妻也。立子禪為皇太子。娶車騎將軍張飛女為太子妃。"
+      },
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p43",
+        "at": 6,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "張飛",
+        "snippet": "初，車騎將軍張飛，雄壯威猛亞於關羽；羽善待卒伍而驕於士大夫，飛愛禮君子而不恤軍人。漢主常戒飛曰：「卿刑殺既過差，又日鞭撾健兒而令在左右，此取禍…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.10",
+        "chapter_title": "蜀書·劉彭廖李劉魏楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.10.p1",
+        "at": 75,
+        "data_url": "data/sanguozhi/shu/10.json",
+        "matched": "張飛",
+        "snippet": "…，時封年二十馀，有武藝，氣力過人，將兵俱與諸葛亮、張飛等溯流西上，所在戰克。益州既定，以封為副軍中郎將。"
+      },
+      {
+        "chapter_id": "shu.10",
+        "chapter_title": "蜀書·劉彭廖李劉魏楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.10.p24",
+        "at": 58,
+        "data_url": "data/sanguozhi/shu/10.json",
+        "matched": "張飛",
+        "snippet": "…爲漢中王，遷治成都，當得重將以鎮漢川，眾論以爲必在張飛，飛亦以心自許。先主乃拔延爲督漢中鎮遠將軍，領漢中太守，一軍盡驚。先主大會群臣，問延曰：「今委卿以重任，卿居之欲云何？」延對曰…"
+      },
+      {
+        "chapter_id": "shu.11",
+        "chapter_title": "蜀書·霍王向張楊費傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.11.p6",
+        "at": 81,
+        "data_url": "data/sanguozhi/shu/11.json",
+        "matched": "張飛",
+        "snippet": "…劉璋時，舉孝廉，為魚復長，還州署從事，領帳下司馬。張飛自荊州由墊江入，璋授裔兵，拒張飛於德陽陌下，軍敗，還成都。為璋奉使詣先主，先主許以禮其君而安其人也，裔還，城門乃開。先主以裔巴…"
+      },
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p27",
+        "at": 54,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "張飛",
+        "snippet": "…主定蜀，闢為左將軍屬，後轉州別駕從事，卒。齊為太守張飛功曹。飛貢之先主，為尚書郎。建興中，從事丞相掾，遷廣漢太守，復為（飛）參軍。亮卒，為尚書。勳、齊皆以才幹自顯見；歸信於州黨，不…"
+      },
+      {
+        "chapter_id": "shu.15",
+        "chapter_title": "蜀書·鄧張宗楊傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.15.p8",
+        "at": 18,
+        "data_url": "data/sanguozhi/shu/15.json",
+        "matched": "張飛",
+        "snippet": "宗預字德艷，南陽安眾人也。建安中，隨張飛入蜀。建興初，丞相亮以為主簿，遷參軍右中郎將。及亮卒，吳慮魏或承衰取蜀，增巴丘守兵萬人，一欲以為救援，二欲以事分割也。蜀聞之，…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p11",
+        "at": 72,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…行三百餘里，及於當陽之長坂。先主棄妻子，與諸葛亮、張飛、趙雲等數十騎走，曹公大獲其人眾輜重。先主斜趨漢津，適與羽船會，得濟沔，遇表長子江夏太守琦眾萬餘人，與俱到夏口。先主遣諸葛亮自…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p15",
+        "at": 326,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…率眾降先主。先主軍益強，分遣諸將平下屬縣，諸葛亮、張飛、趙雲等將兵溯流定白帝、江州、江陽，惟關羽留鎮荊州。先主進軍圍雒；時璋子循守城，被攻且一年。"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p16",
+        "at": 77,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…。先主复領益州牧，諸葛亮為股肱，法正為謀主，關羽、張飛、馬超為爪牙，許靖、麋竺、簡雍為賓友。及董和、黃權、李嚴等本璋之所授用也，吳壹、費觀等又璋之婚親也，彭羕又璋之所排擯也，劉巴者…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p17",
+        "at": 175,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…公。曹公使夏侯淵、張郃屯漢中，數數犯暴巴界。先主令張飛進兵宕渠，與郃等戰於瓦口，破郃等，收兵還南鄭。先主亦還成都。"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p21",
+        "at": 78,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…臣諸葛亮、蕩寇將軍漢壽亭侯臣關羽、徵虜將軍新亭侯臣張飛、征西將軍臣黃忠、鎮遠將軍臣賴恭、揚武將軍臣法正、興業將軍臣李嚴等一百二十人上言曰：昔唐堯至聖而四凶在朝，周成仁賢而四國作難，…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p32",
+        "at": 79,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "張飛",
+        "snippet": "…禪為皇太子。六月，以子永為魯王，理為梁王。車騎將軍張飛為其左右所害。初，先主忿孫權之襲關羽，將東征，秋七月，遂帥諸軍伐吳。孫權遣書請和，先主盛怒不許，吳將陸議、李異、劉阿等屯巫、秭…"
+      },
+      {
+        "chapter_id": "shu.3",
+        "chapter_title": "蜀書·後主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.3.p38",
+        "at": 14,
+        "data_url": "data/sanguozhi/shu/03.json",
+        "matched": "張飛",
+        "snippet": "三年秋九月，追諡故將軍關羽、張飛、馬超、龐統、黃忠。"
+      },
+      {
+        "chapter_id": "shu.4",
+        "chapter_title": "蜀書·二主妃子傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.4.p4",
+        "at": 11,
+        "data_url": "data/sanguozhi/shu/04.json",
+        "matched": "張飛",
+        "snippet": "後主敬哀皇后，車騎將軍張飛長女也。章武元年，納為太子妃。建興元年，立為皇后。十五年薨，葬南陵。"
+      },
+      {
+        "chapter_id": "shu.5",
+        "chapter_title": "蜀書·諸葛亮傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.5.p2",
+        "at": 540,
+        "data_url": "data/sanguozhi/shu/05.json",
+        "matched": "張飛",
+        "snippet": "…可興矣。」先主曰：「善！」於是與亮情好日密。關羽、張飛等不悅，先主解之曰：「孤之有孔明，猶魚之有水也。願諸君勿復言。」羽、飛乃止。"
+      },
+      {
+        "chapter_id": "shu.5",
+        "chapter_title": "蜀書·諸葛亮傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.5.p5",
+        "at": 42,
+        "data_url": "data/sanguozhi/shu/05.json",
+        "matched": "張飛",
+        "snippet": "…，使擊張魯。亮與關羽鎮荊州。先主自葭萌還攻璋，亮與張飛、趙雲等率眾泝江，分定郡縣，與先主共圍成都。成都平，以亮為軍師將軍，署左將軍府事。先主外出，亮常鎮守成都，足食足兵。二十六年，…"
+      },
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p108",
+        "at": 3,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "張飛",
+        "snippet": "劉備遣張飛、馬超、吳蘭等屯下辯；遣曹洪拒之。"
+      },
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p110",
+        "at": 16,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "張飛",
+        "snippet": "曹洪破吳蘭，斬其將任夔等。三月，張飛、馬超走漢中，陰平氐強端斬吳蘭，傳其首。"
+      },
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p29",
+        "at": 22,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "張飛",
+        "snippet": "太祖令劉備拒袁術，昭曰：「備勇而志大，關羽、張飛為之羽翼，恐備之心未可得論也！」太祖曰：「吾已許之矣。」備到下邳，殺徐州刺史車冑，反。太祖自征備，徙昭為徐州牧。袁紹遣將顏良攻…"
+      },
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p50",
+        "at": 144,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "張飛",
+        "snippet": "…之，無不克也。若小緩之，諸葛亮明於治而為相，關羽、張飛勇冠三軍而為將，蜀民既定，據險守要，則不可犯矣。今不取，必為後憂。"
+      },
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p7",
+        "at": 78,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "張飛",
+        "snippet": "…威震江表，權雖有謀，不能獨當也。劉備有英名，關羽、張飛皆萬人敵也，權必資之以禦我。難解勢分，備資以成，又不可得而殺也。」權果多與備兵，以禦太祖。是後中夏漸平，太祖拊昱背曰：「兗州之…"
+      },
+      {
+        "chapter_id": "wei.17",
+        "chapter_title": "魏書·張樂于張徐傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.17.p12",
+        "at": 265,
+        "data_url": "data/sanguozhi/wei/17.json",
+        "matched": "張飛",
+        "snippet": "…，降巴東、巴西二郡，徙其民於漢中。進軍宕渠，爲備將張飛所拒，引還南鄭。拜蕩寇將軍。劉備屯陽平，郃屯廣石。備以精卒萬餘，分爲十部，夜急攻郃。郃率親兵搏戰，備不能克。其後備於走馬谷燒都…"
+      },
+      {
+        "chapter_id": "wei.25",
+        "chapter_title": "魏書·辛毗楊阜高堂隆傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.25.p14",
+        "at": 53,
+        "data_url": "data/sanguozhi/wei/25.json",
+        "matched": "張飛",
+        "snippet": "…太守。郡濵蜀漢，阜請依龔遂故事，安之而已。會劉備遣張飛、馬超等從沮道趣下辯，而氐雷定等七部萬餘落反應之。太祖遣都護曹洪禦超等，超等退還。洪置酒大會，令女倡著羅縠之衣，蹋鼓，一坐皆笑…"
+      },
+      {
+        "chapter_id": "wei.9",
+        "chapter_title": "魏書·諸夏侯曹傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.9.p19",
+        "at": 179,
+        "data_url": "data/sanguozhi/wei/09.json",
+        "matched": "張飛",
+        "snippet": "…「汝雖参軍，其實帥也。」洪聞此令，亦委事於休。備遣張飛屯固山，欲斷軍後。眾議狐疑，休曰：「賊實斷道者，當伏兵潜行。今乃先張声勢，此其不能也。宜及其未集，促擊兰，兰破則飛自走矣。」洪…"
+      },
+      {
+        "chapter_id": "wu.9",
+        "chapter_title": "吳書·周瑜、魯肅、吕蒙傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.9.p10",
+        "at": 74,
+        "data_url": "data/sanguozhi/wu/09.json",
+        "matched": "張飛",
+        "snippet": "…備詣京見權，瑜上疏曰：「劉備以梟雄之姿，而有關羽、張飛熊虎之將，必非久屈為人用者。愚謂大計宜徙備置吳，盛為築宮室，多其美女玩好，以娛其耳目，分此二人，各置一方，使如瑜者得挾與攻戰，…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 41
+}

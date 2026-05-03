@@ -37,6 +37,9 @@ jobs:
       - name: Build timeline (annotations/ → site/data/timeline.json)
         run: python -m tools.build_timeline
 
+      - name: Build people index (texts/ → site/data/people*.json)
+        run: python -m tools.build_people
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

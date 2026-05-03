@@ -1,0 +1,148 @@
+{
+  "id": "caopi",
+  "primary_name": "曹丕",
+  "courtesy_name": "子桓",
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": 187,
+  "death_ad": 226,
+  "brief": "魏文帝，曹魏首位皇帝，220 年代漢稱帝",
+  "bio_chapters": [
+    {
+      "chapter_id": "wei.2",
+      "title": "魏書·文帝紀",
+      "book_title": "魏書",
+      "work": "sanguozhi",
+      "data_url": "data/sanguozhi/wei/02.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.69.p82",
+        "at": 123,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "曹丕",
+        "snippet": "…乞復攻之。」吳王以問陸遜。遜與朱然、駱統上言曰：「曹丕大合士眾，外托助國討備，內實有奸心，謹決計輒還。」"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p13",
+        "at": 34,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "曹丕",
+        "snippet": "…亮輔太子，以尚書令李嚴為副。漢主謂亮曰：「君才十倍曹丕，必能安國，終定大事。若嗣子可輔，輔之；如其不才，君可自取。」亮涕泣曰：「臣敢不竭股肱之力，效忠貞之節，繼之以死！」漢主又為詔…"
+      },
+      {
+        "chapter_id": "zztj.70",
+        "chapter_title": "魏紀二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.70.p6",
+        "at": 217,
+        "data_url": "data/zztj/zztj/70.json",
+        "matched": "曹丕",
+        "snippet": "…，北背山陵，以逸待勞，為主制客，此百戰百勝之勢，雖曹丕自來，尚不足憂，況仁等邪！」桓乃偃旗鼓，外示虛弱以誘致仁。仁遣其子泰攻濡須城，分遣將軍常雕、王雙等乘油船別襲中洲。中洲者，桓部…"
+      },
+      {
+        "chapter_id": "zztj.71",
+        "chapter_title": "魏紀三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.71.p26",
+        "at": 751,
+        "data_url": "data/zztj/zztj/71.json",
+        "matched": "曹丕",
+        "snippet": "…計而漢事將成也。然後吳更違盟，關羽毀敗，秭歸蹉跌，曹丕稱帝。凡事如是，難可逆見。臣鞠躬盡力，死而後已，至於成敗利鈍，非臣之明所能逆睹也。」"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.12",
+        "chapter_title": "蜀書·二杜周許孟來尹李譙郤傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.12.p5",
+        "at": 0,
+        "data_url": "data/sanguozhi/shu/12.json",
+        "matched": "曹丕",
+        "snippet": "曹丕篡弒，自立為帝，是猶土龍芻狗之有名也。欲與羣賢因其邪偽，以正道滅之。怪君未有相誨，便欲求還於山野。丕又大興勞役，以向吳、楚。今…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p29",
+        "at": 0,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "曹丕",
+        "snippet": "曹丕篡弒，湮滅漢室，竊據神器，劫迫忠良，酷烈無道。人鬼忿毒，咸思劉氏。今上無天子，海內惶惶，靡所式仰。群下前後上書者八百餘人，咸稱…"
+      },
+      {
+        "chapter_id": "shu.5",
+        "chapter_title": "蜀書·諸葛亮傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.5.p6",
+        "at": 34,
+        "data_url": "data/sanguozhi/shu/05.json",
+        "matched": "曹丕",
+        "snippet": "…永安病篤，召亮於成都，屬以後事，謂亮曰：「君才十倍曹丕，必能安國，終定大事。若嗣子可輔，輔之；如其不才，君可自取。」亮涕泣曰：「臣敢竭股肱之力，效忠貞之節，繼之以死！」先主又為詔敕…"
+      },
+      {
+        "chapter_id": "wu.11",
+        "chapter_title": "吳書·三朱吕範傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.11.p24",
+        "at": 243,
+        "data_url": "data/sanguozhi/wu/11.json",
+        "matched": "曹丕",
+        "snippet": "…北背山陵，以逸待勞，為主制客，此百戰百勝之勢也。雖曹丕自來，尚不足憂，況仁等邪！」桓因偃旗鼓，外示虛弱，以誘致仁。仁果遣其子泰攻濡須城，分遣將軍常雕督諸葛虔、王雙等，乘油船別襲中洲…"
+      },
+      {
+        "chapter_id": "wu.12",
+        "chapter_title": "吳書·虞陆张骆陆吾朱传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.12.p19",
+        "at": 190,
+        "data_url": "data/sanguozhi/wu/12.json",
+        "matched": "曹丕",
+        "snippet": "…人信受其言。特以繞帳、帳下、解煩兵五千人付之。後聞曹丕自出淮、泗，故豫敕溫有急便出。而溫悉內諸將，佈於深山，被命不至。賴丕自退。不然，已往豈可深計，又殷禮者，本占候召，而溫先後乞將…"
+      },
+      {
+        "chapter_id": "wu.13",
+        "chapter_title": "吳書·陆逊传",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.13.p14",
+        "at": 45,
+        "data_url": "data/sanguozhi/wu/13.json",
+        "matched": "曹丕",
+        "snippet": "…備必可禽，乞復攻之。權以問遜，遜與朱然、駱統以為「曹丕大合士眾。外托助國討備，內實有奸心，謹決計輒還」。無幾，魏軍果出，三方受敵也。備尋病亡，子禪襲位，諸葛亮秉政，與權連和。時事所…"
+      },
+      {
+        "chapter_id": "wu.7",
+        "chapter_title": "吳書·張顧諸葛歩傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.7.p25",
+        "at": 41,
+        "data_url": "data/sanguozhi/wu/07.json",
+        "matched": "曹丕",
+        "snippet": "…權亦重之，大事咨訪。又別咨瑾曰：\"近得伯言表，以爲曹丕已死，毒亂之民，當望旌瓦解，而更靜然。聞皆選用忠良，寬刑罰，布恩惠，薄賦省役，以悅民心，其患更深於操時。孤以爲不然。操之所行，…"
+      }
+    ],
+    "houhanshu": []
+  },
+  "n_mentions": 11
+}

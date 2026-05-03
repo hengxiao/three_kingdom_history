@@ -1,0 +1,611 @@
+{
+  "id": "gongsunzan",
+  "primary_name": "公孫瓚",
+  "courtesy_name": "伯珪",
+  "aliases": [],
+  "other_names": [],
+  "birth_ad": null,
+  "death_ad": 199,
+  "brief": "幽州軍閥，與袁紹爭河北",
+  "bio_chapters": [
+    {
+      "chapter_id": "hhs.73",
+      "title": "劉虞公孫瓚陶謙列傳",
+      "book_title": "後漢書",
+      "work": "houhanshu",
+      "data_url": "data/houhanshu/hhs/73.json"
+    }
+  ],
+  "mentions_by_work": {
+    "zztj": [
+      {
+        "chapter_id": "zztj.58",
+        "chapter_title": "漢紀五十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.58.p111",
+        "at": 41,
+        "data_url": "data/zztj/zztj/58.json",
+        "matched": "公孫瓚",
+        "snippet": "…涼州，故中山相漁陽張純請將之，溫不聽，而使涿令遼西公孫瓚將之。軍到薊中，烏桓以牢稟逋縣，多叛還本國。張純忿不得將，乃與同郡故泰山太守張舉及烏桓大人丘力居等連盟，劫略薊中，殺護烏桓校…"
+      },
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p22",
+        "at": 22,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "公孫瓚",
+        "snippet": "張純與丘力居鈔略青、徐、幽、冀四州；詔騎都尉公孫瓚討之。瓚與戰於屬國石門，純等大敗，棄妻子，逾塞走；悉得所略男女。瓚深入無繼，反為丘力居等所圍於遼西管子城，二百餘日，糧盡眾潰…"
+      },
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p26",
+        "at": 76,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "公孫瓚",
+        "snippet": "…舉、純走出塞，餘皆降散。虞上罷諸屯兵，但留降虜校尉公孫瓚，將步騎萬人屯右北平。三月，張純客王政殺純，送首詣虞。公孫瓚志欲掃滅烏桓，而虞欲以恩信招降，由是與瓚有隙。"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p14",
+        "at": 168,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…乏，設不能辦，無所容立。」紀曰：「韓馥庸才，可密要公孫瓚使取冀州，馥必駭懼，因遣辯士為陳禍福，馥迫於倉卒，必肯遜讓。」紹然之，即以書與瓚。瓚遂引兵而至，外托討董卓而陰謀襲馥，馥與戰…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p19",
+        "at": 19,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "青州黃巾寇勃海，眾三十萬，欲與黑山合。公孫瓚率步騎二萬人逆擊於東光南，大破之，斬首三萬餘級。賊棄其輜重，奔走渡河。瓚因其半濟薄之，賊復大破，死者數萬，流血丹水，收得生口…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p20",
+        "at": 74,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…，許兵至俱西，令和為書與虞。虞得書，遣數千騎詣和。公孫瓚知術有異志，止之，虞不聽。瓚恐術聞而怨之，亦遣其從弟越將千騎詣術。而陰教術執和，奪其兵，由是虞、瓚有隙。和逃術來北，復為袁紹…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p21",
+        "at": 115,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…擊昂，走之。袁術遣公孫越助堅攻昂，越為流矢所中死。公孫瓚怒曰：「余弟死，禍起於紹。」遂出軍屯磐河，上疏數紹罪惡，進兵攻紹。冀州諸城多畔紹從瓚。紹懼，以所佩勃海太守印綬授瓚從弟范，遣…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p22",
+        "at": 61,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…膝，顧自見其耳；有大志，少語言，喜怒不形於色。嘗與公孫瓚同師事盧植，由是往依瓚。瓚使備與田楷徇青州有功，因以為平原相。備少與河東關羽、涿郡張飛相友善；以羽、飛為別部司馬，分統部曲。…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p23",
+        "at": 55,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…之，稍稍離散。既與袁紹有隙，各立黨援以相圖謀。術結公孫瓚而紹連劉表，豪桀多附於紹。術怒曰：「群豎不吾從而從吾家奴乎！」又與公孫瓚書曰：「紹非袁氏子。」紹聞大怒。"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p32",
+        "at": 5,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "袁紹自出拒公孫瓚，與瓚戰於界橋南二十里。瓚兵三萬，其鋒甚銳。紹令麴義領精兵八百先登，強弩千張夾承之。瓚輕其兵少，縱騎騰之。義兵伏楯下不動，未…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p33",
+        "at": 132,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…若棄紹近援而求瓚遠助，此假人於越以救溺子之說也。夫公孫瓚非袁紹之敵也，今雖壞紹軍，然終為紹所禽。」岱從之。范方將其騎歸，未至而瓚敗。"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p60",
+        "at": 0,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "公孫瓚復遣兵擊袁紹，至龍水奏，紹擊破之。瓚遂幽州，不敢復出。"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p66",
+        "at": 3,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "袁紹與公孫瓚所置青州刺史田楷連戰二年，士卒疲睏，糧食並盡，互掠百姓，野無青草。紹以其子譚為青州刺史，楷與戰，不勝。會趙岐來和解關東，瓚乃…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p79",
+        "at": 3,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "劉虞與公孫瓚積不相能，瓚數與袁紹相攻，虞禁之，不可，而稍節其稟假。瓚怒，屢違節度，又復侵犯百姓。虞不能制，乃遣驛使奉章陳其暴掠之罪，瓚亦…"
+      },
+      {
+        "chapter_id": "zztj.60",
+        "chapter_title": "漢紀五十二",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.60.p80",
+        "at": 197,
+        "data_url": "data/zztj/zztj/60.json",
+        "matched": "公孫瓚",
+        "snippet": "…還，比至，虞已死，疇謁祭虞墓，陳發章表，哭泣而去。公孫瓚怒，購求獲疇，謂曰：「汝不送章報我，何也？」疇曰：「漢室衰頹，人懷異心，唯劉公不失忠節。章報所言，於將軍未美，恐非所樂聞，故…"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p82",
+        "at": 2,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "公孫瓚",
+        "snippet": "15公孫瓚既殺劉虞，盡有幽州之地，志氣益盛，恃其才力，不恤百姓，記過忘善，睚眥必報。衣冠善士，名在其右者，必以法害之；有材秀者，必抑困…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p43",
+        "at": 489,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "公孫瓚",
+        "snippet": "…曰：「如卿所言，孤何德以堪之！」嘉又曰：「紹方北擊公孫瓚，可因其遠征，東取呂布。若紹為寇，布為之援，此深害也。」彧曰：「不先取呂布，河北未易圖也。」操曰：「然。吾所惑者，又恐紹侵擾…"
+      },
+      {
+        "chapter_id": "zztj.62",
+        "chapter_title": "第六十二卷 漢紀五十四",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.62.p86",
+        "at": 6,
+        "data_url": "data/zztj/zztj/62.json",
+        "matched": "公孫瓚",
+        "snippet": "7袁紹連年攻公孫瓚，不能克，以書諭之，欲相與釋憾連和；瓚不答，而增修守備，謂長史太原關靖曰：「當今四方虎爭，無有能坐吾城下相守經年者明矣，袁本…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p10",
+        "at": 4,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "公孫瓚",
+        "snippet": "袁紹既克公孫瓚，心益驕，貢御稀簡。主薄耿包密白紹，宜應天人，稱尊號。紹以包白事示軍府。僚屬皆言包妖妄，宜誅。紹不得已，殺包以自解。紹簡精兵…"
+      },
+      {
+        "chapter_id": "zztj.63",
+        "chapter_title": "漢紀五十五",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.63.p6",
+        "at": 342,
+        "data_url": "data/zztj/zztj/63.json",
+        "matched": "公孫瓚",
+        "snippet": "…大人難樓、遼東大人蘇僕延、右北平大人烏延等。袁紹攻公孫瓚，蹋頓以烏桓助之。瓚滅，紹承製皆賜蹋頓、難樓、蘇僕延、烏延等單于印綬；又以閻柔得烏桓心，因加寵慰以安北邊。其後難樓、蘇僕延奉…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p2",
+        "at": 123,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "公孫瓚",
+        "snippet": "…，滅吾門也！」年十五，母使行學，與同宗劉德然、遼西公孫瓚俱事故九江太守同郡盧植。德然父元起常資給先主，與德然等。元起妻曰：「各自一家，何能常爾邪！」起曰：「吾宗中有此兒，非常人也。…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p3",
+        "at": 144,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "公孫瓚",
+        "snippet": "…。復去官。後為高唐尉，遷為令。為賊所破，往奔中郎將公孫瓚，瓚表為別部司馬，使與青州刺史田楷以拒冀州牧袁紹。數有戰功，試守平原令，後領平原相。郡民劉平素輕先主，恥為之下，使客刺之。客…"
+      },
+      {
+        "chapter_id": "shu.2",
+        "chapter_title": "蜀書·先主傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.2.p4",
+        "at": 3,
+        "data_url": "data/sanguozhi/shu/02.json",
+        "matched": "公孫瓚",
+        "snippet": "袁紹攻公孫瓚，先主與田楷東屯齊。曹公征徐州，徐州牧陶謙遣使告急於田楷，楷與先主俱救之。時先主自有兵千餘人及幽州烏丸雜胡騎，又略得饑民數千…"
+      },
+      {
+        "chapter_id": "shu.6",
+        "chapter_title": "蜀書·關張馬黃趙傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.6.p16",
+        "at": 15,
+        "data_url": "data/sanguozhi/shu/06.json",
+        "matched": "公孫瓚",
+        "snippet": "趙雲字子龍，常山真定人也。本屬公孫瓚，瓚遣先主為田楷拒袁紹，雲遂隨從，為先主主騎。及先主為曹公所追於當陽長阪，棄妻子南走，雲身抱弱子，即後主也，保護甘夫人，即後…"
+      },
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p19",
+        "at": 11,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "公孫瓚",
+        "snippet": "袁術與紹有隙，術求援於公孫瓚，瓚使劉備屯高唐，單經屯平原，陶謙屯發干，以逼紹。太祖與紹會擊，皆破之。"
+      },
+      {
+        "chapter_id": "wei.1",
+        "chapter_title": "魏書·武帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.1.p43",
+        "at": 6,
+        "data_url": "data/sanguozhi/wei/01.json",
+        "matched": "公孫瓚",
+        "snippet": "是時袁紹旣并公孫瓚，兼四州之地，衆十餘萬，將進軍攻許，諸將以爲不可敵，公曰：「吾知紹之爲人，志大而智小，色厲而膽薄，忌克而少威，兵多而分畫不明…"
+      },
+      {
+        "chapter_id": "wei.11",
+        "chapter_title": "魏書·袁張涼國田王邴管傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.11.p13",
+        "at": 92,
+        "data_url": "data/sanguozhi/wei/11.json",
+        "matched": "公孫瓚",
+        "snippet": "…高其義。三府並辟，皆不就。得報，馳還，未至，虞已為公孫瓚所害。疇至，謁祭虞墓，陳發章表，哭泣而去。瓚聞之大怒，購求獲疇，謂曰：「汝何自哭劉虞墓，而不送章報於我也？」疇荅曰：「漢室衰…"
+      },
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p23",
+        "at": 36,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "公孫瓚",
+        "snippet": "…也。舉孝廉，除癭陶長、柏人令，袁紹以為參軍事。紹逆公孫瓚於界橋，鉅鹿太守李邵及郡冠蓋，以瓚兵強，皆欲屬瓚。紹聞之，使昭領鉅鹿。問：「御以何術？」對曰：「一人之微，不能消眾謀，欲誘致…"
+      },
+      {
+        "chapter_id": "wei.14",
+        "chapter_title": "魏書·程郭董劉蔣劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.14.p3",
+        "at": 24,
+        "data_url": "data/sanguozhi/wei/14.json",
+        "matched": "公孫瓚",
+        "snippet": "初平中，兗州刺史劉岱辟昱，昱不應。是時岱與袁紹、公孫瓚和親，紹令妻子居岱所，瓚亦遣從事范方將騎助岱。後紹與瓚有隙。瓚擊破紹軍，乃遣使語岱，令遣紹妻子，使與紹絕。別敕范方：「若岱不…"
+      },
+      {
+        "chapter_id": "wei.17",
+        "chapter_title": "魏書·張樂于張徐傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.17.p11",
+        "at": 47,
+        "data_url": "data/sanguozhi/wei/17.json",
+        "matched": "公孫瓚",
+        "snippet": "…司馬，屬韓馥。馥敗，以兵歸袁紹。紹以郃爲校尉，使拒公孫瓚。瓚破，郃功多，遷寧國中郎將。太祖與袁紹相拒於官渡，紹遣將淳于瓊等督運屯烏巢，太祖自將急擊之。郃説紹曰：「曹公兵精，往必破瓊…"
+      },
+      {
+        "chapter_id": "wei.22",
+        "chapter_title": "魏書·桓二陈徐卫卢传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.22.p44",
+        "at": 40,
+        "data_url": "data/sanguozhi/wei/22.json",
+        "matched": "公孫瓚",
+        "snippet": "…有名於世。毓十岁而孤，遇本州乱，二兄死難。当袁紹、公孫瓚交兵，幽冀饥荒，养寡嫂孤兄子，以学行见称。"
+      },
+      {
+        "chapter_id": "wei.26",
+        "chapter_title": "魏書·滿田牽郭傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.26.p10",
+        "at": 0,
+        "data_url": "data/sanguozhi/wei/26.json",
+        "matched": "公孫瓚",
+        "snippet": "公孫瓚使豫守東州令，瓚將王門叛瓚，爲袁紹將萬餘人來攻。衆懼欲降。豫登城謂門曰：「卿爲公孫所厚而去，意有所不得已也；今還作賊，乃知卿…"
+      },
+      {
+        "chapter_id": "wei.26",
+        "chapter_title": "魏書·滿田牽郭傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.26.p9",
+        "at": 17,
+        "data_url": "data/sanguozhi/wei/26.json",
+        "matched": "公孫瓚",
+        "snippet": "田豫字國讓，漁陽雍奴人也。劉備之奔公孫瓚也，豫時年少，自託於備，備甚奇之。備爲豫州刺史，豫以母老求歸，備涕泣與別，曰：「恨不與君共成大事也。」"
+      },
+      {
+        "chapter_id": "wei.30",
+        "chapter_title": "魏書·烏丸鮮卑東夷傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.30.p3",
+        "at": 198,
+        "data_url": "data/sanguozhi/wei/30.json",
+        "matched": "公孫瓚",
+        "snippet": "…蹋頓有武略，代立，總攝三王部，衆皆從其教令。袁紹與公孫瓚連戰不決，蹋頓遣使詣紹求和親，助紹擊瓚，破之。紹矯制賜蹋頓、峭王、汗魯王印綬，皆以爲單于。《英雄記》曰：紹遣使即拜烏丸三王爲…"
+      },
+      {
+        "chapter_id": "wei.6",
+        "chapter_title": "魏書·董二袁劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.6.p17",
+        "at": 63,
+        "data_url": "data/sanguozhi/wei/06.json",
+        "matched": "公孫瓚",
+        "snippet": "…牧劉虞爲帝，遣使奉章詣虞，虞不敢受。後馥軍安平，爲公孫瓚所敗。瓚遂引兵入冀州，以討卓爲名，內欲襲馥。馥懷不自安。會卓西入關，紹還軍延津，因馥惶遽，使陳留高幹、頴川荀諶等說馥曰：「公…"
+      },
+      {
+        "chapter_id": "wei.6",
+        "chapter_title": "魏書·董二袁劉傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.6.p27",
+        "at": 135,
+        "data_url": "data/sanguozhi/wei/06.json",
+        "matched": "公孫瓚",
+        "snippet": "…徵斂無度，百姓苦之。旣與紹有隙，又與劉表不平而北連公孫瓚；紹與瓚不和而南連劉表。其兄弟攜貳，舍近交遠如此。引軍入陳留。太祖與紹合擊，大破術軍。術以餘衆奔九江，殺楊州刺史陳溫，領其州…"
+      },
+      {
+        "chapter_id": "wei.7",
+        "chapter_title": "魏書·呂布臧洪傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.7.p17",
+        "at": 12,
+        "data_url": "data/sanguozhi/wei/07.json",
+        "matched": "公孫瓚",
+        "snippet": "超遣洪詣大司馬劉虞謀，值公孫瓚之難，至河間，遇幽、冀二州交兵，使命不達。而袁紹見洪，又奇重之，與結分合好。會青州刺史焦和卒，紹使洪領青州以撫其眾。洪在州二…"
+      },
+      {
+        "chapter_id": "wei.8",
+        "chapter_title": "魏書·二公孫陶四張傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.8.p1",
+        "at": 0,
+        "data_url": "data/sanguozhi/wei/08.json",
+        "matched": "公孫瓚",
+        "snippet": "公孫瓚字伯珪，遼西令支人也。為郡門下書佐。有姿儀，大音聲，侯太守器之，以女妻焉，遣詣涿郡盧植讀經。後復為郡吏。劉太守坐事徵詣廷尉，…"
+      },
+      {
+        "chapter_id": "wei.8",
+        "chapter_title": "魏書·二公孫陶四張傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.8.p37",
+        "at": 251,
+        "data_url": "data/sanguozhi/wei/08.json",
+        "matched": "公孫瓚",
+        "snippet": "…子於長安，天下兵數起，燕遂以其眾與豪傑相結。袁紹與公孫瓚爭冀州，燕遣將杜長等助瓚，與紹戰，為紹所敗，人眾稍散，太祖將定冀州，燕遣使求佐王師，拜平北將軍；率眾詣鄴，封安國亭侯，邑五百…"
+      },
+      {
+        "chapter_id": "wei.8",
+        "chapter_title": "魏書·二公孫陶四張傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.8.p45",
+        "at": 3,
+        "data_url": "data/sanguozhi/wei/08.json",
+        "matched": "公孫瓚",
+        "snippet": "評曰：公孫瓚保京，坐待夷滅。度殘暴而不節，淵仍業以載兇，秪足覆其族也。陶謙昏亂而憂死，張楊授首於臣下，皆擁據州郡，曾匹夫之不若，固無可論…"
+      }
+    ],
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.58",
+        "chapter_title": "虞傅蓋臧列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.58.p60",
+        "at": 5,
+        "data_url": "data/houhanshu/hhs/58.json",
+        "matched": "公孫瓚",
+        "snippet": "時討虜校尉公孫瓚與大司馬劉虞有隙，超乃遣洪詣虞，共謀其難。行至河閒而值幽冀交兵，行塗阻絕，因寓於袁紹。紹見洪，甚奇之，與結友好，以洪領青州刺…"
+      },
+      {
+        "chapter_id": "hhs.64",
+        "chapter_title": "吳延史盧趙列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.64.p48",
+        "at": 8,
+        "data_url": "data/houhanshu/hhs/64.json",
+        "matched": "公孫瓚",
+        "snippet": "是時袁紹、曹操與公孫瓚爭冀州，紹及操聞岐至，皆自將兵數百里奉迎，岐深陳天子恩德，宜罷兵安人之道，又移書公孫瓚，為言利害。紹等各引兵去，皆與岐期會洛…"
+      },
+      {
+        "chapter_id": "hhs.65",
+        "chapter_title": "皇甫張段列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.65.p69",
+        "at": 58,
+        "data_url": "data/houhanshu/hhs/65.json",
+        "matched": "公孫瓚",
+        "snippet": "…作「川」。按：集解引周壽昌說，謂丹野猶赤地也，本書公孫瓚傳有「流血丹水」語，與此同，作「丹」為是。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p107",
+        "at": 124,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…不爾，終為人所禽，雖悔無益也。」紹不從。四年春，擊公孫瓚，遂定幽土，事在。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p109",
+        "at": 428,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…勝之策，不在強弱。[五]曹操法令既行，士卒精練，非公孫瓚坐受圍者也。今□萬安之術，而興無名之師，[六]竊為公懼之。」圖等曰：「武王伐紂，不為不義；況兵加曹操，而雲無名！且公師徒精勇…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p141",
+        "at": 9,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "注[一]北鄙之儆謂公孫瓚攻紹也。左傳曰：「局部也。」杜預注曰：「遠其部曲為離局。」"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p153",
+        "at": 96,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…弱漢室，[三]除忠害善，專為梟雄。往歲伐鼓北征，討公孫瓚，強禦桀逆，拒圍一年。操因其未破，陰交書命，欲托助王師，以見掩襲，故引兵造河，方舟北濟。會行人發露，瓚亦梟夷，故使鋒芒挫縮，…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p26",
+        "at": 69,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…非據一州，無以自立。今冀部強實，而韓馥庸才，可密要公孫瓚將兵南下，馥聞必駭懼。並遣辯士為陳禍福，馥迫於倉卒，必可因據其位。」紹然之，益親紀，即以書與瓚。瓚遂引兵而至，外托*[討]*…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p27",
+        "at": 23,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "紹乃使外甥陳留高干及穎川荀諶等[二]說馥曰：「公孫瓚乘勝來南，而諸郡應之。袁車騎引軍東向，其意未可量也。竊為將軍危之。」馥懼，曰：「然則為之柰何？」"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p28",
+        "at": 215,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…為同盟。當今之計，莫若舉冀州以讓袁氏，必厚德將軍，公孫瓚不能復與之爭矣。是將軍有讓賢之名，而身安於太山也。願勿有疑。」馥素性恇怯，因然其計。馥長史耿武、別駕閔純、騎都尉沮授聞而諫曰…"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p44",
+        "at": 3,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "其冬，公孫瓚大破黃巾，還屯盤河，[一]威震河北，冀州諸城無不望風響應。"
+      },
+      {
+        "chapter_id": "hhs.74",
+        "chapter_title": "袁紹劉表列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.74.p85",
+        "at": 88,
+        "data_url": "data/houhanshu/hhs/74.json",
+        "matched": "公孫瓚",
+        "snippet": "…時輒承製，竊比竇融，以議郎曹操權領兗州牧。[一]會公孫瓚師旅南馳，陸掠北境，臣即星駕席捲，與瓚交鋒。假天之威，每戰輒克。臣備公族子弟，生長京輦，頗聞俎豆，不習干戈；"
+      },
+      {
+        "chapter_id": "hhs.75",
+        "chapter_title": "劉焉袁術呂布列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.75.p23",
+        "at": 81,
+        "data_url": "data/houhanshu/hhs/75.json",
+        "matched": "公孫瓚",
+        "snippet": "…不肯同，積此釁隙遂成。乃各外交黨援，以相圖謀，術結公孫瓚，而紹連劉表。豪桀多附於紹，術怒曰：「群豎不吾從，而從吾家奴乎！」又與公孫瓚書，雲紹非袁氏子，紹聞大怒。初平三年，術遣孫堅擊…"
+      }
+    ]
+  },
+  "n_mentions": 53
+}
