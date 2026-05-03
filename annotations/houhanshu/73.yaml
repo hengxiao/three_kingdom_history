@@ -5,8 +5,38 @@ source:
   retrieved: '2026-05-03'
   sha256: eba78586751e8ab88b439f82ee8bba98b4768c253f211c5bed6c316b2991f5e4
 annotations:
-- id: hhs.73.p9.t1
-  anchor: hhs.73.p9
+- id: hhs.73.p2.a1
+  anchor: hhs.73.p2
+  at: 12
+  length: 0
+  type: lixian
+  text: 謝承書曰：「虞父舒，丹陽太守。虞通五經，東海*(王)*恭*[王]*之後。」
+- id: hhs.73.p3.a1
+  anchor: hhs.73.p3
+  at: 35
+  length: 0
+  type: lixian
+  text: 前書音義曰：「牢，賈直也。」稟，食也。言軍糧不續也。
+- id: hhs.73.p3.a2
+  anchor: hhs.73.p3
+  at: 191
+  length: 0
+  type: lixian
+  text: 肥如，縣，屬遼西郡，故城在今平州。
+- id: hhs.73.p3.a3
+  anchor: hhs.73.p3
+  at: 241
+  length: 0
+  type: lixian
+  text: 峭音七笑反。
+- id: hhs.73.p3.a4
+  anchor: hhs.73.p3
+  at: 368
+  length: 0
+  type: lixian
+  text: 容丘，縣，屬東海郡。
+- id: hhs.73.p4.t1
+  anchor: hhs.73.p4
   at: 21
   length: 4
   type: temporal
@@ -16,8 +46,14 @@ annotations:
   year_ad: 190
   era: 初平
   era_year: 1
-- id: hhs.73.p12.t1
-  anchor: hhs.73.p12
+- id: hhs.73.p5.a1
+  anchor: hhs.73.p5
+  at: 169
+  length: 0
+  type: lixian
+  text: 夙猶舊也。
+- id: hhs.73.p6.t1
+  anchor: hhs.73.p6
   at: 60
   length: 2
   type: temporal
@@ -27,8 +63,50 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
-- id: hhs.73.p24.t1
-  anchor: hhs.73.p24
+- id: hhs.73.p6.a1
+  anchor: hhs.73.p6
+  at: 94
+  length: 0
+  type: lixian
+  text: 時獻帝年十歲。
+- id: hhs.73.p7.a1
+  anchor: hhs.73.p7
+  at: 23
+  length: 0
+  type: lixian
+  text: 左傳曰，周襄王出奔於鄭，魯臧文仲曰：「天子蒙塵於外。」
+- id: hhs.73.p7.a2
+  anchor: hhs.73.p7
+  at: 47
+  length: 0
+  type: lixian
+  text: 說文曰：「曒力，並力也。」左傳曰：「曒力同心。」音力凋反，又音六。
+- id: hhs.73.p8.a1
+  anchor: hhs.73.p8
+  at: 44
+  length: 0
+  type: lixian
+  text: 魏志曰：「疇字子泰，右北平無終人。好讀書，善擊劍。劉虞署為從事。太祖北征烏桓，令疇將觿*(止)**[上]*徐無，出盧龍，歷平剛，登白狼堆。去柳城二百餘里，虜乃驚，太祖與戰，大斬獲，論功封疇。疇上疏自陳，太祖令夏侯惇喻之。疇曰：『豈可賣盧龍塞以易賞祿哉？』」
+- id: hhs.73.p10.a1
+  anchor: hhs.73.p10
+  at: 77
+  length: 0
+  type: lixian
+  text: 黷猶慢也，數也。尚書曰「黷於祭祀」也。
+- id: hhs.73.p10.a2
+  anchor: hhs.73.p10
+  at: 122
+  length: 0
+  type: lixian
+  text: 當音丁浪反。
+- id: hhs.73.p10.a3
+  anchor: hhs.73.p10
+  at: 183
+  length: 0
+  type: lixian
+  text: 京，高丘也，言高築丘壘以備虞焉。解見獻帝紀。
+- id: hhs.73.p11.t1
+  anchor: hhs.73.p11
   at: 11
   length: 2
   type: temporal
@@ -38,8 +116,50 @@ annotations:
   year_ad: 193
   era: 初平
   era_year: 4
-- id: hhs.73.p42.t1
-  anchor: hhs.73.p42
+- id: hhs.73.p11.a1
+  anchor: hhs.73.p11
+  at: 257
+  length: 0
+  type: lixian
+  text: 居庸縣屬上谷郡，有關。
+- id: hhs.73.p12.a1
+  anchor: hhs.73.p12
+  at: 0
+  length: 0
+  type: lixian
+  text: 尾敦，姓名。
+- id: hhs.73.p14.a1
+  anchor: hhs.73.p14
+  at: 14
+  length: 0
+  type: lixian
+  text: 令音力定反。支音巨移反。
+- id: hhs.73.p14.a2
+  anchor: hhs.73.p14
+  at: 46
+  length: 0
+  type: lixian
+  text: 典略曰：「瓚性辯慧，每白事，常兼數曹，無有忘誤。」
+- id: hhs.73.p14.a3
+  anchor: hhs.73.p14
+  at: 57
+  length: 0
+  type: lixian
+  text: 魏志曰：「侯太守妻之以女。」
+- id: hhs.73.p19.a1
+  anchor: hhs.73.p19
+  at: 23
+  length: 0
+  type: lixian
+  text: 賊即邊章等。
+- id: hhs.73.p19.a2
+  anchor: hhs.73.p19
+  at: 94
+  length: 0
+  type: lixian
+  text: 石門，山名，在今營州柳城縣西南。
+- id: hhs.73.p22.t1
+  anchor: hhs.73.p22
   at: 24
   length: 4
   type: temporal
@@ -49,30 +169,134 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
-- id: hhs.73.p57.t1
-  anchor: hhs.73.p57
-  at: 21
-  length: 2
-  type: temporal
-  text: 四年
-  kind: relative
-  resolution: bare_year
-  year_ad: 193
-  era: 初平
-  era_year: 4
-- id: hhs.73.p61.t1
-  anchor: hhs.73.p61
-  at: 14
-  length: 2
-  type: temporal
-  text: 三年
-  kind: relative
-  resolution: bare_year
-  year_ad: 192
-  era: 初平
-  era_year: 3
-- id: hhs.73.p63.t1
-  anchor: hhs.73.p63
+- id: hhs.73.p22.a1
+  anchor: hhs.73.p22
+  at: 68
+  length: 0
+  type: lixian
+  text: 東光，今滄州縣。
+- id: hhs.73.p23.a1
+  anchor: hhs.73.p23
+  at: 74
+  length: 0
+  type: lixian
+  text: 般即爾雅九河鉤盤之河也。其枯河在今滄州樂陵縣東南。
+- id: hhs.73.p23.a2
+  anchor: hhs.73.p23
+  at: 153
+  length: 0
+  type: lixian
+  text: 謂何進也。
+- id: hhs.73.p23.a3
+  anchor: hhs.73.p23
+  at: 186
+  length: 0
+  type: lixian
+  text: 續漢書曰：「何進欲誅中常侍趙忠等，進乃詐令武猛都尉丁原放兵數千人，為賊於河內，稱『黑山伯』，上事以誅忠等為辭，燒平陰、河津莫府人舍，以怖動太后。」
+- id: hhs.73.p23.a4
+  anchor: hhs.73.p23
+  at: 227
+  length: 0
+  type: lixian
+  text: 傳音丁戀反。
+- id: hhs.73.p23.a5
+  anchor: hhs.73.p23
+  at: 290
+  length: 0
+  type: lixian
+  text: 左傳曰：「兩釋累囚。」杜預曰：「累，系也。」前書音義曰：「諸不以罪死曰累。」斃，踣也。董卓恨紹起兵山東，乃誅紹叔父太傅隗，及宗族在京師者，盡誅滅之。
+- id: hhs.73.p23.a6
+  anchor: hhs.73.p23
+  at: 382
+  length: 0
+  type: lixian
+  text: 漢官儀曰：「凡章表皆啟封，其言密事得皁囊。」說文曰：「檢，書署也。」今俗謂之排，其字從「木」。
+- id: hhs.73.p23.a7
+  anchor: hhs.73.p23
+  at: 393
+  length: 0
+  type: lixian
+  text: 亡新，王莽。
+- id: hhs.73.p23.a8
+  anchor: hhs.73.p23
+  at: 403
+  length: 0
+  type: lixian
+  text: 階，梯也。詩曰：「職為亂階。」
+- id: hhs.73.p23.a9
+  anchor: hhs.73.p23
+  at: 417
+  length: 0
+  type: lixian
+  text: 星工，善星者。
+- id: hhs.73.p23.a10
+  anchor: hhs.73.p23
+  at: 521
+  length: 0
+  type: lixian
+  text: 惏音力含反。
+- id: hhs.73.p23.a11
+  anchor: hhs.73.p23
+  at: 551
+  length: 0
+  type: lixian
+  text: 公羊傳曰「桓公幼而貴，隱公長而卑，子以母貴，母以子貴」也。
+- id: hhs.73.p23.a12
+  anchor: hhs.73.p23
+  at: 698
+  length: 0
+  type: lixian
+  text: 春秋：「公會齊侯盟於柯。」公羊傳曰：「齊桓公之信著於天下，自柯之盟始也。」
+- id: hhs.73.p23.a13
+  anchor: hhs.73.p23
+  at: 706
+  length: 0
+  type: lixian
+  text: 踐土，鄭地也。左傳，周襄王出居於鄭，晉文公重耳為踐土之會，率諸侯朝天子，以成霸功。
+- id: hhs.73.p23.a14
+  anchor: hhs.73.p23
+  at: 714
+  length: 0
+  type: lixian
+  text: 菁茅，靈茅，以供祭祀也。左傳曰僖四年，齊桓伐楚，責之曰：「爾貢苞茅不入，王祭不供，無以縮酒，寡人是征。」
+- id: hhs.73.p23.a15
+  anchor: hhs.73.p23
+  at: 723
+  length: 0
+  type: lixian
+  text: 左傳僖二十八年，晉侯伐曹，假道於衞，衞人不許，還自河南濟，侵曹伐衞，責其無禮也。
+- id: hhs.73.p23.a16
+  anchor: hhs.73.p23
+  at: 733
+  length: 0
+  type: lixian
+  text: 闒猶下也。茸，細也。闒音吐盍反。昔音人勇反。
+- id: hhs.73.p23.a17
+  anchor: hhs.73.p23
+  at: 753
+  length: 0
+  type: lixian
+  text: 鈇音方於反。莝，刃也。鉞，斧也。
+- id: hhs.73.p23.a18
+  anchor: hhs.73.p23
+  at: 775
+  length: 0
+  type: lixian
+  text: 尚書：「周公東征，三年，罪人斯得。」
+- id: hhs.73.p24.a1
+  anchor: hhs.73.p24
+  at: 76
+  length: 0
+  type: lixian
+  text: 橋名。解見獻帝紀。
+- id: hhs.73.p24.a2
+  anchor: hhs.73.p24
+  at: 118
+  length: 0
+  type: lixian
+  text: 水在幽州歸義縣界，自易州遒縣界流入。
+- id: hhs.73.p25.t1
+  anchor: hhs.73.p25
   at: 39
   length: 2
   type: temporal
@@ -82,8 +306,14 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
-- id: hhs.73.p67.t1
-  anchor: hhs.73.p67
+- id: hhs.73.p25.a1
+  anchor: hhs.73.p25
+  at: 62
+  length: 0
+  type: lixian
+  text: 左傳齊侯伐魯，語展喜曰：「室如懸罄，野無青草，何恃而不恐？」
+- id: hhs.73.p26.t1
+  anchor: hhs.73.p26
   at: 0
   length: 2
   type: temporal
@@ -93,8 +323,14 @@ annotations:
   year_ad: 191
   era: 初平
   era_year: 2
-- id: hhs.73.p68.t1
-  anchor: hhs.73.p68
+- id: hhs.73.p26.a1
+  anchor: hhs.73.p26
+  at: 68
+  length: 0
+  type: lixian
+  text: 前書易縣屬涿郡，續漢志曰屬河閒。瓚所居易京故城在今幽州歸義縣南十八裡。
+- id: hhs.73.p27.t1
+  anchor: hhs.73.p27
   at: 114
   length: 4
   type: temporal
@@ -104,8 +340,26 @@ annotations:
   year_ad: 195
   era: 興平
   era_year: 2
-- id: hhs.73.p72.t1
-  anchor: hhs.73.p72
+- id: hhs.73.p27.a1
+  anchor: hhs.73.p27
+  at: 125
+  length: 0
+  type: lixian
+  text: 鮑丘，水名也，又名路水，在今幽州漁陽縣。
+- id: hhs.73.p28.a1
+  anchor: hhs.73.p28
+  at: 259
+  length: 0
+  type: lixian
+  text: 九州春秋曰：「瓚曰：『始天下兵起，我謂唾掌而決。』」
+- id: hhs.73.p28.a2
+  anchor: hhs.73.p28
+  at: 304
+  length: 0
+  type: lixian
+  text: 「樐」即「櫓」字，見說文。釋名曰：「櫓，露也。上無覆屋。」
+- id: hhs.73.p29.t1
+  anchor: hhs.73.p29
   at: 0
   length: 4
   type: temporal
@@ -115,8 +369,8 @@ annotations:
   year_ad: 198
   era: 建安
   era_year: 3
-- id: hhs.73.p73.t1
-  anchor: hhs.73.p73
+- id: hhs.73.p30.t1
+  anchor: hhs.73.p30
   at: 0
   length: 2
   type: temporal
@@ -126,9 +380,99 @@ annotations:
   year_ad: 199
   era: 建安
   era_year: 4
-- id: hhs.73.p97.t1
-  anchor: hhs.73.p97
+- id: hhs.73.p32.a1
+  anchor: hhs.73.p32
+  at: 10
+  length: 0
+  type: lixian
+  text: 滀音丑六反，喻急也。
+- id: hhs.73.p32.a2
+  anchor: hhs.73.p32
   at: 34
+  length: 0
+  type: lixian
+  text: 言相感也。
+- id: hhs.73.p32.a3
+  anchor: hhs.73.p32
+  at: 46
+  length: 0
+  type: lixian
+  text: 下濕曰隰。
+- id: hhs.73.p32.a4
+  anchor: hhs.73.p32
+  at: 93
+  length: 0
+  type: lixian
+  text: 獻帝春秋「候者得書，紹使陳琳易其詞」，即此書。
+- id: hhs.73.p33.a1
+  anchor: hhs.73.p33
+  at: 63
+  length: 0
+  type: lixian
+  text: 屠各，胡號。
+- id: hhs.73.p36.a1
+  anchor: hhs.73.p36
+  at: 40
+  length: 0
+  type: lixian
+  text: 前書班固曰：「夫唯大雅，卓爾不腢者，河閒獻王之謂與？」故論引焉。
+- id: hhs.73.p36.a2
+  anchor: hhs.73.p36
+  at: 53
+  length: 0
+  type: lixian
+  text: 牧，養也。易曰：「卑以自牧。」
+- id: hhs.73.p37.a1
+  anchor: hhs.73.p37
+  at: 24
+  length: 0
+  type: lixian
+  text: 糾，收也。
+- id: hhs.73.p37.a2
+  anchor: hhs.73.p37
+  at: 29
+  length: 0
+  type: lixian
+  text: 繕，修也。左傳曰：「繕甲兵。」
+- id: hhs.73.p37.a3
+  anchor: hhs.73.p37
+  at: 57
+  length: 0
+  type: lixian
+  text: 天運猶天命也。人文猶人事也。易曰「觀乎人文，以化成天下」。
+- id: hhs.73.p38.a1
+  anchor: hhs.73.p38
+  at: 11
+  length: 0
+  type: lixian
+  text: 丹陽郡丹陽縣人也。吳書曰：「陶謙父，故余姚長。謙少孤，始以不羈聞於縣中。年十四，猶綴帛為幡，乘竹馬而戲，邑中兒童皆隨之。故倉梧太守同縣甘公出遇之，見其容貌，異而呼之，與語甚悅，許妻以女。甘夫人怒曰：『陶家兒遨戲無度，於何以女許之？』甘公曰：『彼有奇表，長必大成。』遂與之。」
+- id: hhs.73.p38.a2
+  anchor: hhs.73.p38
+  at: 20
+  length: 0
+  type: lixian
+  text: 吳書曰：「陶謙察孝廉，拜尚書郎，除舒令。郡太守張盤，同郡先輩，與謙父友，謙恥為之屈。嘗*[以]*舞屬謙，謙不為起，固強之乃舞，舞又不轉。
+- id: hhs.73.p39.a1
+  anchor: hhs.73.p39
+  at: 78
+  length: 0
+  type: lixian
+  text: 溧陽今宣州縣也。溧音栗。
+- id: hhs.73.p39.a2
+  anchor: hhs.73.p39
+  at: 136
+  length: 0
+  type: lixian
+  text: 謝承書曰：「謙奏昱茂才，遷為太守。」
+- id: hhs.73.p41.a1
+  anchor: hhs.73.p41
+  at: 19
+  length: 0
+  type: lixian
+  text: 縣名，屬東海國，故城在今沂州承縣西南。
+- id: hhs.73.p41.t1
+  anchor: hhs.73.p41
+  at: 31
   length: 4
   type: temporal
   text: 初平四年
@@ -137,8 +481,26 @@ annotations:
   year_ad: 193
   era: 初平
   era_year: 4
-- id: hhs.73.p102.t1
-  anchor: hhs.73.p102
+- id: hhs.73.p41.a2
+  anchor: hhs.73.p41
+  at: 47
+  length: 0
+  type: lixian
+  text: 縣名，屬彭城國，本春秋時偪陽也。楚宣王滅宋，改曰傅陽，故城在今沂州承縣南。
+- id: hhs.73.p41.a3
+  anchor: hhs.73.p41
+  at: 77
+  length: 0
+  type: lixian
+  text: 取慮音秋閭，縣名，屬下邳郡，故城在今泗州下邳縣西南。雎陵，縣，在下邳縣東南。夏丘，縣，屬沛郡，故城今泗州虹縣是。
+- id: hhs.73.p41.a4
+  anchor: hhs.73.p41
+  at: 128
+  length: 0
+  type: lixian
+  text: 殲、盡也。左傳曰：「門官殲焉。」
+- id: hhs.73.p42.t1
+  anchor: hhs.73.p42
   at: 0
   length: 4
   type: temporal
@@ -148,8 +510,8 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
-- id: hhs.73.p102.t2
-  anchor: hhs.73.p102
+- id: hhs.73.p42.t2
+  anchor: hhs.73.p42
   at: 47
   length: 2
   type: temporal
@@ -159,3 +521,33 @@ annotations:
   year_ad: 194
   era: 興平
   era_year: 1
+- id: hhs.73.p43.a1
+  anchor: hhs.73.p43
+  at: 8
+  length: 0
+  type: lixian
+  text: 笮音側格反。
+- id: hhs.73.p44.a1
+  anchor: hhs.73.p44
+  at: 13
+  length: 0
+  type: lixian
+  text: 浮屠，佛也。解見西羌傳。
+- id: hhs.73.p44.a2
+  anchor: hhs.73.p44
+  at: 74
+  length: 0
+  type: lixian
+  text: 獻帝春秋曰：「融敷席方四五里，費以巨萬。」
+- id: hhs.73.p46.a1
+  anchor: hhs.73.p46
+  at: 13
+  length: 0
+  type: lixian
+  text: 勵，勉也。
+- id: hhs.73.p46.a2
+  anchor: hhs.73.p46
+  at: 33
+  length: 0
+  type: lixian
+  text: 趫音去驕反。

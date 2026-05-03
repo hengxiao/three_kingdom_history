@@ -230,6 +230,88 @@ def _process_paragraphs_strict(p_texts: list[str]) -> tuple[list[tuple[str, list
     return paragraphs, warnings
 
 
+_LIXIAN_MARKER_CHARS = "零一二三四五六七八九十百0-9０-９"
+_LIXIAN_MARKER_RE = re.compile(rf"(?<!注)\[([{_LIXIAN_MARKER_CHARS}]+)\]")
+_LIXIAN_ANNOTATION_RE = re.compile(rf"注\[([{_LIXIAN_MARKER_CHARS}]+)\]")
+
+
+def _detect_lixian_bracket_convention(p_texts: list[str]) -> bool:
+    """Detect 后汉书 chapters that use [X] / 注[X] for 李贤注 (no 〈〉 markup).
+
+    Strategy: prefer 〈〉 wherever present; otherwise fall back to bracketed
+    convention as long as at least one `注[X]` block exists.
+    """
+    if any("〈" in t for t in p_texts):
+        return False
+    return any(_LIXIAN_ANNOTATION_RE.search(t) for t in p_texts)
+
+
+def _process_paragraphs_lixian_brackets(p_texts: list[str]) -> list[tuple[str, list[WSAnnotation]]]:
+    """Parse 后汉书 chapters that use the [一] / 注[一] convention.
+
+    The canonical text contains inline markers like [一], [二], … that point at
+    annotations whose content lives later in the same chapter, prefixed with
+    `注[X]<annotation text>`. Each `注[X]` block continues until the next
+    `注[Y]` or the end of its paragraph.
+
+    Markers and annotations are paired in document order (the kth marker → kth
+    annotation). Ordinals are not used for pairing — they only serve as a
+    sanity hint, and when they disagree with the sequential pairing we still
+    take the sequential pair (matches Wikisource's actual practice on these
+    chapters, where ordinals reset across sub-biographies).
+    """
+    # 1) For each paragraph, split into the canonical-with-markers portion (before
+    #    the first `注[X]`) and a sequence of annotation texts.
+    canonicals: list[str] = []   # cleaned canonical text per output paragraph
+    markers: list[tuple[int, int]] = []  # (canonical_paragraph_idx, char_pos_in_clean)
+    annotations_inline: list[str] = []   # ordered list of annotation texts
+
+    for ptext in p_texts:
+        ann_matches = list(_LIXIAN_ANNOTATION_RE.finditer(ptext))
+        if not ann_matches:
+            canonical_part = ptext
+        else:
+            canonical_part = ptext[: ann_matches[0].start()]
+            for i, m in enumerate(ann_matches):
+                start = m.end()
+                end = ann_matches[i + 1].start() if i + 1 < len(ann_matches) else len(ptext)
+                ann_text = ptext[start:end].strip()
+                if ann_text:
+                    annotations_inline.append(ann_text)
+
+        # Strip [X] markers from canonical_part, recording their cleaned positions.
+        clean_chars: list[str] = []
+        local_markers: list[int] = []
+        i = 0
+        while i < len(canonical_part):
+            m = _LIXIAN_MARKER_RE.match(canonical_part, i)
+            if m:
+                local_markers.append(len("".join(clean_chars)))
+                i = m.end()
+            else:
+                clean_chars.append(canonical_part[i])
+                i += 1
+        clean = "".join(clean_chars)
+        if not clean.strip():
+            continue
+        canonical_idx = len(canonicals)
+        canonicals.append(clean)
+        for pos in local_markers:
+            markers.append((canonical_idx, pos))
+
+    # 2) Pair markers with annotations sequentially. Extras on either side are dropped
+    #    (silent — wikisource sometimes has stray markers / extra annotations).
+    paragraphs_anns: list[list[WSAnnotation]] = [[] for _ in canonicals]
+    for k, (canonical_idx, char_pos) in enumerate(markers):
+        if k >= len(annotations_inline):
+            break
+        paragraphs_anns[canonical_idx].append(
+            WSAnnotation(at=char_pos, text=annotations_inline[k])
+        )
+
+    return list(zip(canonicals, paragraphs_anns))
+
+
 def _process_paragraphs_lenient(p_texts: list[str]) -> list[tuple[str, list[WSAnnotation]]]:
     """Fallback for chapters with truly unbalanced brackets in the source data.
 
@@ -320,11 +402,16 @@ def parse_wikisource_html(html: str, *, work: str = "sanguozhi") -> WSChapter:
     if not p_texts:
         raise ValueError("no body paragraphs found — Wikisource layout may have changed")
 
-    try:
-        processed, parse_warnings = _process_paragraphs_strict(p_texts)
-    except ValueError as e:
-        parse_warnings = [f"strict bracket parse failed ({e}); falling back to lenient"]
-        processed = _process_paragraphs_lenient(p_texts)
+    parse_warnings: list[str] = []
+    if work == "houhanshu" and _detect_lixian_bracket_convention(p_texts):
+        # Some 后汉书 chapters mark 李贤注 as 注[一] blocks instead of 〈...〉.
+        processed = _process_paragraphs_lixian_brackets(p_texts)
+    else:
+        try:
+            processed, parse_warnings = _process_paragraphs_strict(p_texts)
+        except ValueError as e:
+            parse_warnings = [f"strict bracket parse failed ({e}); falling back to lenient"]
+            processed = _process_paragraphs_lenient(p_texts)
 
     paragraphs: list[WSParagraph] = []
     for main_text, anns in processed:

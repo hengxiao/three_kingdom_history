@@ -141,6 +141,36 @@ def test_orphan_close_bracket_kept_as_literal():
     assert "〉" in chapter.paragraphs[1].main_text
 
 
+def test_houhanshu_bracketed_marker_convention_extracts_annotations():
+    """Some 后汉书 chapters mark 李贤注 with [一] in canonical + 注[一]<text>; ensure they parse."""
+    html = (
+        '<table class="ws-header"><tr><td align="center">'
+        '<b><a>後漢書</a></b><br />虞傅蓋臧列傳 第四十八</td></tr></table>'
+        '<div class="mw-content-ltr mw-parser-output">'
+        '<p>虞詡字升卿，陳國武平人也。[一]祖父經，為郡縣獄吏。[二]決獄六十年矣。</p>'
+        '<p>注[一]武平故城在今亳州鹿邑縣東北。</p>'
+        '<p>注[二]前書，于定國字曼倩，東海人。其父于公為縣獄吏。</p>'
+        '</div>'
+    )
+    chapter = parse_wikisource_html(html, work="houhanshu")
+    # The first paragraph should have the canonical text (no [一] markers in it) and
+    # two annotations attached at the original marker positions.
+    p = chapter.paragraphs[0]
+    assert p.main_text == "虞詡字升卿，陳國武平人也。祖父經，為郡縣獄吏。決獄六十年矣。"
+    assert len(p.annotations) == 2
+    assert p.annotations[0].text == "武平故城在今亳州鹿邑縣東北。"
+    assert p.annotations[0].at == len("虞詡字升卿，陳國武平人也。")
+    assert p.annotations[1].text == "前書，于定國字曼倩，東海人。其父于公為縣獄吏。"
+    assert p.annotations[1].at == len("虞詡字升卿，陳國武平人也。祖父經，為郡縣獄吏。")
+
+
+def test_houhanshu_brackets_do_not_match_sanguozhi_chapters():
+    """Sanguozhi pages still use 〈...〉 — make sure the hhs heuristic doesn't hijack them."""
+    chapter = parse_wikisource_html(FIXTURE.read_text(encoding="utf-8"), work="sanguozhi")
+    # original sample has 3 paragraphs — verifying we still get them via the 〈〉 pipeline
+    assert len(chapter.paragraphs) == 3
+
+
 def test_strict_unbalanced_close_raises():
     """The strict per-paragraph helper still raises for spot-check tests."""
     from tools.fetch_wikisource import _split_main_and_annotations
