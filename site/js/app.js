@@ -294,15 +294,20 @@ async function renderTimelineYear(year) {
       : "（無年號標籤）";
     const groupsHTML = [...byChapter.values()].map(g => `
       <section class="timeline-chapter">
-        <h3>${escapeHTML(g.meta.book_title)} · ${escapeHTML(g.meta.chapter_title)}
-          <span class="muted">(${escapeHTML(g.meta.chapter_id)})</span></h3>
+        <h3>
+          <a class="chapter-link" href="#/chapter/${chapterIdToRoute(g.meta.chapter_id)}">${escapeHTML(g.meta.book_title)} · ${escapeHTML(g.meta.chapter_title)}</a>
+          <span class="muted">(${escapeHTML(g.meta.chapter_id)})</span>
+        </h3>
         <ul class="timeline-event-list">${
           g.events.map(e => `
             <li class="timeline-event ${e.kind === "relative" ? "relative" : "absolute"}">
-              <a href="#/chapter/${chapterIdToRoute(e.chapter_id)}#${e.anchor}">
-                <span class="event-surface">${escapeHTML(e.surface)}</span>
-                <span class="event-snippet">${escapeHTML(e.snippet)}</span>
-              </a>
+              <span class="event-surface">${escapeHTML(e.surface)}</span>
+              <button class="event-snippet"
+                      type="button"
+                      data-anchor="${escapeAttr(e.anchor)}"
+                      data-data-url="${escapeAttr(e.data_url)}"
+                      data-snippet-original="${escapeAttr(e.snippet)}"
+                      aria-expanded="false">${escapeHTML(e.snippet)}</button>
             </li>`).join("")
         }</ul>
       </section>`).join("");
@@ -373,9 +378,52 @@ async function route() {
 // across all responsive layouts; CSS decides whether the notes block is
 // side-by-side, stacked below, or hidden-until-revealed (narrow).
 const NARROW_MQ = window.matchMedia("(max-width: 600px)");
+
+// Chapter JSON cache for lazy snippet expansion on the timeline.
+const CHAPTER_CACHE = new Map();
+async function fetchAndCacheChapter(url) {
+  if (CHAPTER_CACHE.has(url)) return CHAPTER_CACHE.get(url);
+  const promise = loadJSON(url);
+  CHAPTER_CACHE.set(url, promise);
+  try {
+    const ch = await promise;
+    CHAPTER_CACHE.set(url, ch);   // replace promise with resolved chapter
+    return ch;
+  } catch (err) {
+    CHAPTER_CACHE.delete(url);    // don't cache failures
+    throw err;
+  }
+}
+
+async function toggleSnippet(btn) {
+  const expanded = btn.getAttribute("aria-expanded") === "true";
+  if (expanded) {
+    btn.textContent = btn.dataset.snippetOriginal;
+    btn.setAttribute("aria-expanded", "false");
+    return;
+  }
+  const previous = btn.textContent;
+  btn.textContent = "載入中…";
+  try {
+    const ch = await fetchAndCacheChapter(btn.dataset.dataUrl);
+    const seg = ch.segments.find(s => s.id === btn.dataset.anchor);
+    btn.textContent = seg ? seg.text : previous;
+    btn.setAttribute("aria-expanded", "true");
+  } catch (err) {
+    btn.textContent = previous;
+  }
+}
+
 function bindClicks() {
   $("#content").addEventListener("click", e => {
-    // (1) tap on a 裴注 marker [N] — scroll and flash the matching note.
+    // (1) timeline snippet click — expand inline (no navigation).
+    const snippetBtn = e.target.closest(".event-snippet");
+    if (snippetBtn) {
+      e.preventDefault();
+      toggleSnippet(snippetBtn);
+      return;
+    }
+    // (2) tap on a 裴注 marker [N] — scroll and flash the matching note.
     const ref = e.target.closest(".pei-ref a");
     if (ref) {
       e.preventDefault();
@@ -392,7 +440,7 @@ function bindClicks() {
       }
       return;
     }
-    // (2) tap on the 正文 (narrow only) — toggle the segment's notes.
+    // (3) tap on the 正文 (narrow only) — toggle the segment's notes.
     if (NARROW_MQ.matches) {
       const segText = e.target.closest(".seg-text");
       if (segText) {

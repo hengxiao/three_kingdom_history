@@ -327,16 +327,15 @@ body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { disp
 .timeline-event {
   margin: 4px 0;
 }
-.timeline-event a {
+.timeline-event {
   display: block;
   padding: 6px 10px;
+  margin: 4px 0;
   background: rgba(255,255,255,0.5);
   border-left: 3px solid var(--temporal);
   border-radius: 2px;
-  color: var(--fg);
 }
-.timeline-event a:hover { background: var(--temporal-bg); text-decoration: none; }
-.timeline-event.relative a { border-left-style: dashed; }
+.timeline-event.relative { border-left-style: dashed; }
 .event-surface {
   display: inline-block;
   font-weight: 600;
@@ -344,7 +343,36 @@ body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { disp
   margin-right: 8px;
   font-family: ui-monospace, "SF Mono", Menlo, monospace;
 }
-.event-snippet { color: var(--muted); }
+.event-snippet {
+  /* The snippet is a real <button> for accessibility, but visually it is
+     plain inline text that a click expands into the full segment. */
+  display: inline;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  text-align: start;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 120ms;
+  line-height: inherit;
+}
+.event-snippet:hover { color: var(--fg); }
+.event-snippet[aria-expanded="true"] {
+  display: block;
+  color: var(--fg);
+  margin-top: 4px;
+  background: var(--temporal-bg);
+  padding: 6px 8px;
+  border-radius: 2px;
+}
+.chapter-link {
+  color: var(--accent);
+}
+.chapter-link:hover {
+  text-decoration: underline;
+}
 
 /* ---------- responsive layout ---------- */
 
