@@ -2,7 +2,7 @@ chapter: zztj.70
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷070
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 5ddb6b7263e6231c6029d43e25d69caa90fa7748360de0aeba4a6a11670cfb01
 annotations:
 - id: zztj.70.p3.t1
@@ -181,20 +181,6 @@ annotations:
   person_id: xiahoushang
   text: 夏侯尚
   via: primary
-- id: zztj.70.p7.t1
-  anchor: zztj.70.p7
-  at: 196
-  length: 2
-  type: temporal
-  text: 六月
-  kind: relative
-  resolution: bare_month
-  year_ad: 223
-  era: 黃初
-  era_year: 4
-  month_chinese: 六月
-  month_ordinal: 6
-  reasoning: 年承前文 黃初4年 (AD 223)，月份「六月」
 - id: zztj.70.p8.h1
   anchor: zztj.70.p8
   at: 6
@@ -211,16 +197,6 @@ annotations:
   person_id: dongzhao
   text: 董昭
   via: primary
-- anchor: zztj.70.p8
-  at: 239
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 黃初四年(223)魏文帝在位
-  id: zztj.70.p8.h5
 - id: zztj.70.p8.h3
   anchor: zztj.70.p8
   at: 279
@@ -259,16 +235,6 @@ annotations:
   person_id: jiaxu
   text: 賈詡
   via: primary
-- anchor: zztj.70.p10
-  at: 46
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 黃初四年(223)魏文帝在位
-  id: zztj.70.p10.h8
 - id: zztj.70.p10.h2
   anchor: zztj.70.p10
   at: 90
@@ -349,26 +315,6 @@ annotations:
   person_id: yanghong
   text: 楊洪
   via: primary
-- anchor: zztj.70.p12
-  at: 61
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 蜀漢章武三年(223)劉備病劉禪為太子
-  id: zztj.70.p12.h4
-- anchor: zztj.70.p12
-  at: 122
-  length: 2
-  type: person
-  person_id: liubei
-  text: 主上
-  via: llm
-  confidence: 0.9
-  reasoning: 蜀漢主上指劉備
-  id: zztj.70.p12.h5
 - id: zztj.70.p13.h1
   anchor: zztj.70.p13
   at: 8
@@ -377,16 +323,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name_carry
-- anchor: zztj.70.p13
-  at: 10
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 劉備臨終托孤，太子指劉禪
-  id: zztj.70.p13.h6
 - id: zztj.70.p13.h2
   anchor: zztj.70.p13
   at: 17
@@ -419,16 +355,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name_carry
-- anchor: zztj.70.p13
-  at: 99
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 劉備臨終托孤，太子指劉禪
-  id: zztj.70.p13.h7
 - id: zztj.70.p13.t1
   anchor: zztj.70.p13
   at: 190
@@ -473,36 +399,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初4年 (AD 223)，月份「五月」
-- anchor: zztj.70.p15
-  at: 3
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 太子禪即位
-  id: zztj.70.p15.h6
-- anchor: zztj.70.p15
-  at: 15
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 尊吳皇后為皇太后，蜀漢吳皇后/吳太后不在花名冊
-  id: zztj.70.p15.h8
-- anchor: zztj.70.p15
-  at: 19
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 尊吳皇后為皇太后，蜀漢吳皇后/吳太后不在花名冊
-  id: zztj.70.p15.h7
 - id: zztj.70.p15.h1
   anchor: zztj.70.p15
   at: 33
@@ -673,16 +569,6 @@ annotations:
   person_id: zhugeliang
   text: 諸葛亮
   via: primary
-- anchor: zztj.70.p23
-  at: 16
-  length: 2
-  type: person
-  person_id: liushan
-  text: 主上
-  via: llm
-  confidence: 0.9
-  reasoning: 鄧芝言今主上幼弱指後主劉禪
-  id: zztj.70.p23.h7
 - id: zztj.70.p23.h3
   anchor: zztj.70.p23
   at: 36
@@ -721,16 +607,6 @@ annotations:
   person_id: zhugeliang
   text: 諸葛亮
   via: primary
-- anchor: zztj.70.p23
-  at: 281
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 鄧芝對吳王言魏將求太子內侍，指吳太子孫登
-  id: zztj.70.p23.h6
 - id: zztj.70.p24.t1
   anchor: zztj.70.p24
   at: 0
@@ -913,16 +789,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- anchor: zztj.70.p31
-  at: 66
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 黃初五年(224)魏文帝曹丕親征東吳
-  id: zztj.70.p31.h7
 - id: zztj.70.p31.h2
   anchor: zztj.70.p31
   at: 71
@@ -939,16 +805,6 @@ annotations:
   person_id: liuye
   text: 劉曄
   via: primary
-- anchor: zztj.70.p31
-  at: 105
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 黃初五年(224)魏文帝曹丕親征東吳
-  id: zztj.70.p31.h8
 - id: zztj.70.p31.h4
   anchor: zztj.70.p31
   at: 160
@@ -1193,16 +1049,6 @@ annotations:
   person_id: guyong
   text: 顧雍
   via: primary
-- anchor: zztj.70.p41
-  at: 484
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 吳國臣下諫吳王孫權，陛下指孫權(時為吳王，尚未稱帝但尊稱陛下)
-  id: zztj.70.p41.h3
 - id: zztj.70.p43.t1
   anchor: zztj.70.p43
   at: 2
@@ -1475,26 +1321,6 @@ annotations:
   person_id: luxun
   text: 陸遜
   via: primary
-- anchor: zztj.70.p53
-  at: 3
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.9
-  reasoning: '"帝之為太子也"追述魏文帝曹丕為太子時事'
-  id: zztj.70.p53.h6
-- anchor: zztj.70.p53
-  at: 25
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.9
-  reasoning: '"帝之為太子也"追述魏文帝曹丕為太子時事'
-  id: zztj.70.p53.h7
 - id: zztj.70.p53.h1
   anchor: zztj.70.p53
   at: 205
@@ -1543,17 +1369,15 @@ annotations:
   person_id: caohong
   text: 曹洪
   via: primary
-- anchor: zztj.70.p54
-  at: 59
-  length: 2
+- id: zztj.70.p54.h2
+  anchor: zztj.70.p54
+  at: 58
+  length: 3
   type: person
   person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 魏卞太后(曹操卞夫人)，不在花名冊
-  id: zztj.70.p54.h3
-- id: zztj.70.p54.h2
+  text: 卞太后
+  via: alias
+- id: zztj.70.p54.h3
   anchor: zztj.70.p54
   at: 90
   length: 2
@@ -1561,16 +1385,6 @@ annotations:
   person_id: caohong
   text: 曹洪
   via: primary
-- anchor: zztj.70.p55
-  at: 70
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 曹叡對其父曹丕言陛下，指文帝
-  id: zztj.70.p55.h5
 - id: zztj.70.p55.t1
   anchor: zztj.70.p55
   at: 99
@@ -1585,16 +1399,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初7年 (AD 226)，月份「五月」
-- anchor: zztj.70.p55
-  at: 110
-  length: 2
-  type: person
-  person_id: caorui
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 黃初七年(226)曹丕立曹叡為太子
-  id: zztj.70.p55.h4
 - id: zztj.70.p55.h1
   anchor: zztj.70.p55
   at: 122
@@ -1619,16 +1423,6 @@ annotations:
   person_id: simayi
   text: 司馬懿
   via: primary
-- anchor: zztj.70.p56
-  at: 0
-  length: 2
-  type: person
-  person_id: caorui
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 太子曹叡即位為明帝
-  id: zztj.70.p56.h1
 - id: zztj.70.p57.h1
   anchor: zztj.70.p57
   at: 44
@@ -1645,16 +1439,6 @@ annotations:
   person_id: chenqun
   text: 陳群
   via: primary
-- anchor: zztj.70.p58
-  at: 14
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 追謚甄夫人為文昭皇后，甄氏不在花名冊
-  id: zztj.70.p58.h1
 - id: zztj.70.p60.t1
   anchor: zztj.70.p60
   at: 0
@@ -1875,6 +1659,14 @@ annotations:
   person_id: lvdai
   text: 呂岱
   via: primary
+- id: zztj.70.p70.h1
+  anchor: zztj.70.p70
+  at: 2
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.70.p71.t1
   anchor: zztj.70.p71
   at: 0
@@ -1917,16 +1709,6 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太和元年 (AD 227)，月份「二月」
-- anchor: zztj.70.p74
-  at: 14
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 文昭皇后即甄氏，不在花名冊
-  id: zztj.70.p74.h2
 - id: zztj.70.p74.h1
   anchor: zztj.70.p74
   at: 21
@@ -1965,26 +1747,6 @@ annotations:
   person_id: jiangwan
   text: 蔣琬
   via: primary
-- anchor: zztj.70.p75
-  at: 113
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p75.h3
-- anchor: zztj.70.p76
-  at: 45
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p76.h1
 - id: zztj.70.p77.h1
   anchor: zztj.70.p77
   at: 10
@@ -2001,26 +1763,6 @@ annotations:
   person_id: dongyun
   text: 董允
   via: primary
-- anchor: zztj.70.p77
-  at: 35
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p77.h3
-- anchor: zztj.70.p78
-  at: 83
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p78.h1
 - id: zztj.70.p80.t1
   anchor: zztj.70.p80
   at: 25
@@ -2035,36 +1777,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 太和元年 (AD 227)，月份「五月」
-- anchor: zztj.70.p80
-  at: 87
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p80.h1
-- anchor: zztj.70.p80
-  at: 118
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p80.h2
-- anchor: zztj.70.p80
-  at: 174
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》上後主劉禪
-  id: zztj.70.p80.h3
 - id: zztj.70.p82.h1
   anchor: zztj.70.p82
   at: 2
@@ -2089,16 +1801,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: zztj.70.p82
-  at: 222
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 太和元年孫資對魏明帝曹叡言
-  id: zztj.70.p82.h4
 - id: zztj.70.p83.h1
   anchor: zztj.70.p83
   at: 47
@@ -2157,26 +1859,22 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太和元年 (AD 227)，月份「十二月」
-- anchor: zztj.70.p86
-  at: 14
+- id: zztj.70.p86.h1
+  anchor: zztj.70.p86
+  at: 11
   length: 2
   type: person
   person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 魏明帝立毛皇后，不在花名冊
-  id: zztj.70.p86.h2
-- anchor: zztj.70.p86
-  at: 48
-  length: 2
+  text: 毛氏
+  via: alias
+- id: zztj.70.p86.h2
+  anchor: zztj.70.p86
+  at: 47
+  length: 3
   type: person
   person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 太皇卞太后，不在花名冊
-  id: zztj.70.p86.h1
+  text: 卞太后
+  via: alias
 - id: zztj.70.p88.t1
   anchor: zztj.70.p88
   at: 0

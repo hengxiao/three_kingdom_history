@@ -65,16 +65,6 @@
           "reasoning": "原文「景初三年正月」直接出现年号；解析為 AD 239"
         },
         {
-          "id": "wei.4.p1.h3",
-          "type": "person",
-          "at": 63,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "景初三年明帝病篤立齊王芳為皇太子，太子即指曹芳本人。"
-        },
-        {
           "id": "wei.4.p1.h2",
           "type": "person",
           "at": 88,
@@ -593,6 +583,15 @@
           "reasoning": "年承前文 正始4年 (AD 243)，月份「夏四月」"
         },
         {
+          "id": "wei.4.p9.h1",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
+        },
+        {
           "id": "wei.4.p9.t3",
           "type": "temporal",
           "at": 33,
@@ -623,7 +622,7 @@
           "reasoning": "年承前文 正始4年 (AD 243)，月份「秋七月」"
         },
         {
-          "id": "wei.4.p9.h1",
+          "id": "wei.4.p9.h2",
           "type": "person",
           "at": 54,
           "length": 2,
@@ -632,7 +631,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h2",
+          "id": "wei.4.p9.h3",
           "type": "person",
           "at": 57,
           "length": 2,
@@ -641,7 +640,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h3",
+          "id": "wei.4.p9.h4",
           "type": "person",
           "at": 65,
           "length": 3,
@@ -650,7 +649,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h4",
+          "id": "wei.4.p9.h5",
           "type": "person",
           "at": 71,
           "length": 2,
@@ -659,7 +658,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h5",
+          "id": "wei.4.p9.h6",
           "type": "person",
           "at": 76,
           "length": 2,
@@ -668,7 +667,7 @@
           "via": "alias"
         },
         {
-          "id": "wei.4.p9.h6",
+          "id": "wei.4.p9.h7",
           "type": "person",
           "at": 81,
           "length": 2,
@@ -677,7 +676,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h7",
+          "id": "wei.4.p9.h8",
           "type": "person",
           "at": 88,
           "length": 2,
@@ -686,7 +685,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h8",
+          "id": "wei.4.p9.h9",
           "type": "person",
           "at": 94,
           "length": 2,
@@ -695,7 +694,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h9",
+          "id": "wei.4.p9.h10",
           "type": "person",
           "at": 100,
           "length": 2,
@@ -704,7 +703,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h10",
+          "id": "wei.4.p9.h11",
           "type": "person",
           "at": 106,
           "length": 2,
@@ -713,7 +712,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h11",
+          "id": "wei.4.p9.h12",
           "type": "person",
           "at": 111,
           "length": 2,
@@ -722,7 +721,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h12",
+          "id": "wei.4.p9.h13",
           "type": "person",
           "at": 116,
           "length": 2,
@@ -731,7 +730,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h13",
+          "id": "wei.4.p9.h14",
           "type": "person",
           "at": 123,
           "length": 2,
@@ -740,7 +739,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h14",
+          "id": "wei.4.p9.h15",
           "type": "person",
           "at": 130,
           "length": 3,
@@ -749,7 +748,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h15",
+          "id": "wei.4.p9.h16",
           "type": "person",
           "at": 140,
           "length": 2,
@@ -758,7 +757,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h16",
+          "id": "wei.4.p9.h17",
           "type": "person",
           "at": 146,
           "length": 2,
@@ -767,7 +766,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h17",
+          "id": "wei.4.p9.h18",
           "type": "person",
           "at": 153,
           "length": 2,
@@ -776,7 +775,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h18",
+          "id": "wei.4.p9.h19",
           "type": "person",
           "at": 160,
           "length": 2,
@@ -785,7 +784,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h19",
+          "id": "wei.4.p9.h20",
           "type": "person",
           "at": 167,
           "length": 2,
@@ -794,7 +793,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.4.p9.h20",
+          "id": "wei.4.p9.h21",
           "type": "person",
           "at": 170,
           "length": 2,
@@ -1272,16 +1271,6 @@
           "month_chinese": "冬十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 正始8年 (AD 247)，月份「冬十二月」"
-        },
-        {
-          "id": "wei.4.p15.h1",
-          "type": "person",
-          "at": 335,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "孔晏乂諫疏對齊王曹芳所稱「陛下」。"
         }
       ]
     },
@@ -1721,6 +1710,15 @@
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「秋七月」"
         },
         {
+          "id": "wei.4.p20.h4",
+          "type": "person",
+          "at": 136,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
+        },
+        {
           "id": "wei.4.p20.t8",
           "type": "temporal",
           "at": 207,
@@ -1736,7 +1734,7 @@
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「十一月」"
         },
         {
-          "id": "wei.4.p20.h4",
+          "id": "wei.4.p20.h5",
           "type": "person",
           "at": 221,
           "length": 2,
@@ -1794,16 +1792,6 @@
           "month_chinese": "二月",
           "month_ordinal": 2,
           "reasoning": "年承前文 嘉平4年 (AD 252)，月份「二月」"
-        },
-        {
-          "id": "wei.4.p21.h4",
-          "type": "person",
-          "at": 27,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "houzhuhuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后張氏」— 嘉平四年齊王曹芳立張皇后；roster 無，置 null。"
         },
         {
           "id": "wei.4.p21.t3",
@@ -2076,16 +2064,6 @@
       "text": "庚戌，中書令李豐與皇后父光祿大夫張緝等謀廢易大臣，以太常夏侯玄為大將軍。事覺，諸所連及者皆伏誅。辛亥，大赦。三月，廢皇后張氏。夏四月，立皇后王氏，大赦。五月，封后父奉車都尉王夔為廣明鄉侯、光祿大夫，位特進，妻田氏為宣陽鄉君。秋九月，大將軍司馬景王將謀廢帝，以聞皇太后。甲戌，太后令曰：「皇帝芳春秋已長，不親萬機，耽淫內寵，沈漫女德，日延倡優，縱其醜謔；迎六宮家人留止內房，毀人倫之叙，亂男女之節；恭孝日虧，悖慠滋甚，不可以承天緒，奉宗廟。使兼太尉高柔奉策，用一元大武告于宗廟，遣芳歸藩于齊，以避皇位。」是日遷居別宮，年二十三。使者持節送衞，營齊王宮於河內重門，制度皆如藩國之禮。",
       "annotations": [
         {
-          "id": "wei.4.p26.h3",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "houzhuhuanghou",
-          "via": "llm",
-          "reasoning": "「皇后父光祿大夫張緝」— 即廢張皇后之父；roster 無張皇后，置 null。"
-        },
-        {
           "id": "wei.4.p26.h1",
           "type": "person",
           "at": 28,
@@ -2108,16 +2086,6 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 嘉平6年 (AD 254)，月份「三月」"
-        },
-        {
-          "id": "wei.4.p26.h4",
-          "type": "person",
-          "at": 58,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "houzhuhuanghou",
-          "via": "llm",
-          "reasoning": "「廢皇后張氏」— 即廢張皇后；roster 無，置 null。"
         },
         {
           "id": "wei.4.p26.t2",
@@ -2270,12 +2238,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 254,
-          "era": "嘉平",
-          "era_year": 6,
+          "year_ad": 244,
+          "era": "正始",
+          "era_year": 5,
           "month_chinese": "十月",
           "month_ordinal": 10,
-          "reasoning": "年承前文 嘉平6年 (AD 254)，月份「十月」"
+          "reasoning": "年承前文 正始5年 (AD 244)，月份「十月」"
         },
         {
           "id": "wei.4.p28.a1",
@@ -2415,14 +2383,13 @@
           "reasoning": "年承前文 正元2年 (AD 255)，月份「三月」"
         },
         {
-          "id": "wei.4.p31.h5",
+          "id": "wei.4.p31.h3",
           "type": "person",
-          "at": 43,
+          "at": 45,
           "length": 2,
-          "text": "皇后",
+          "text": "卞氏",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后卞氏」— 正元二年高貴鄉公立卞皇后；roster 無。"
+          "via": "alias"
         },
         {
           "id": "wei.4.p31.t2",
@@ -2440,7 +2407,7 @@
           "reasoning": "年承前文 正元2年 (AD 255)，月份「夏四月」"
         },
         {
-          "id": "wei.4.p31.h3",
+          "id": "wei.4.p31.h4",
           "type": "person",
           "at": 75,
           "length": 2,
@@ -2464,7 +2431,7 @@
           "reasoning": "年承前文 正元2年 (AD 255)，月份「秋七月」"
         },
         {
-          "id": "wei.4.p31.h4",
+          "id": "wei.4.p31.h5",
           "type": "person",
           "at": 105,
           "length": 3,
@@ -2898,6 +2865,15 @@
         {
           "id": "wei.4.p46.h3",
           "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.4.p46.h4",
+          "type": "person",
           "at": 81,
           "length": 2,
           "text": "烈祖",
@@ -2905,7 +2881,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.4.p46.h4",
+          "id": "wei.4.p46.h5",
           "type": "person",
           "at": 83,
           "length": 3,
@@ -2914,7 +2890,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.4.p46.h5",
+          "id": "wei.4.p46.h6",
           "type": "person",
           "at": 136,
           "length": 3,
@@ -3379,6 +3355,15 @@
         {
           "id": "wei.4.p60.h1",
           "type": "person",
+          "at": 12,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
+        },
+        {
+          "id": "wei.4.p60.h2",
+          "type": "person",
           "at": 23,
           "length": 2,
           "text": "明帝",
@@ -3476,12 +3461,12 @@
           "text": "六月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 260,
+          "year_ad": 258,
           "era": "甘露",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "六月",
           "month_ordinal": 6,
-          "reasoning": "年承前文 甘露5年 (AD 260)，月份「六月」"
+          "reasoning": "年承前文 甘露3年 (AD 258)，月份「六月」"
         }
       ]
     },
@@ -3515,6 +3500,15 @@
         },
         {
           "id": "wei.4.p65.h2",
+          "type": "person",
+          "at": 109,
+          "length": 3,
+          "text": "穆皇后",
+          "person_id": "muhuanghou_shu",
+          "via": "primary"
+        },
+        {
+          "id": "wei.4.p65.h3",
           "type": "person",
           "at": 136,
           "length": 2,
@@ -3557,16 +3551,6 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 景元元年 (AD 260)，月份「十一月」"
-        },
-        {
-          "id": "wei.4.p66.h1",
-          "type": "person",
-          "at": 114,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caohuan",
-          "via": "llm",
-          "reasoning": "有司奏議對魏元帝曹奐稱「陛下」（追尊燕王宇本生事）。"
         }
       ]
     },
@@ -3857,12 +3841,11 @@
         {
           "id": "wei.4.p72.h2",
           "type": "person",
-          "at": 34,
+          "at": 36,
           "length": 2,
-          "text": "皇后",
+          "text": "卞氏",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后卞氏」— 景元三年陳留王曹奐立卞皇后；roster 無。"
+          "via": "alias"
         },
         {
           "id": "wei.4.p72.t3",
@@ -4111,6 +4094,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 咸熙元年 (AD 264)，月份「八月」"
+        },
+        {
+          "id": "wei.4.p75.h1",
+          "type": "person",
+          "at": 43,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
         }
       ]
     },
@@ -4147,6 +4139,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 咸熙元年 (AD 264)，月份「九月」"
+        },
+        {
+          "id": "wei.4.p77.h1",
+          "type": "person",
+          "at": 25,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
         }
       ]
     },

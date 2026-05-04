@@ -5,16 +5,14 @@ source:
   retrieved: '2026-05-03'
   sha256: 6e74be150edfdfeed6494b4c1bcbb421dc3e8bb2f3bc1d287d5c34fbf00ddb0c
 annotations:
-- anchor: hhs.80.p3
-  at: 181
+- id: hhs.80.p1.h1
+  anchor: hhs.80.p1
+  at: 83
   length: 2
   type: person
   person_id: liuxiu
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 同篇「作辭賦以諷主上」承前指漢光武帝，未列 roster。
-  id: hhs.80.p3.h1
+  text: 光武
+  via: alias
 - id: hhs.80.p4.t1
   anchor: hhs.80.p4
   at: 3
@@ -69,16 +67,6 @@ annotations:
   era: 建武
   era_year: 19
   reasoning: 「明年」 = 当前年 建武18年 (AD 42) 之次年 = AD 43
-- anchor: hhs.80.p10
-  at: 14
-  length: 2
-  type: person
-  person_id: liuxiu
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 杜篤論都「主上方以邊垂為憂」即光武帝劉秀，未列 roster。
-  id: hhs.80.p10.h1
 - id: hhs.80.p14.t1
   anchor: hhs.80.p14
   at: 8
@@ -91,6 +79,22 @@ annotations:
   era: 建初
   era_year: 3
   reasoning: 原文「建初三年」直接出现年号；解析為 AD 78
+- id: hhs.80.p18.h1
+  anchor: hhs.80.p18
+  at: 65
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.80.p31.h1
+  anchor: hhs.80.p31
+  at: 40
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: hhs.80.p33.t1
   anchor: hhs.80.p33
   at: 0
@@ -231,16 +235,6 @@ annotations:
   person_id: liuzhen
   text: 劉珍
   via: primary
-- anchor: hhs.80.p42
-  at: 85
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 安帝時李尤上書諫「廢太子為濟陰王」即廢劉保（順帝），對應 shunhan。
-  id: hhs.80.p42.h5
 - id: hhs.80.p42.h4
   anchor: hhs.80.p42
   at: 98
@@ -519,16 +513,6 @@ annotations:
   person_id: yangxiu
   text: 楊脩
   via: primary
-- anchor: hhs.80.p111
-  at: 43
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 孔融薦禰衡奏獻帝，「陛下睿聖，纂承基緒，遭遇厄運」即獻帝，對應 xianhan。
-  id: hhs.80.p111.h2
 - id: hhs.80.p111.h1
   anchor: hhs.80.p111
   at: 79

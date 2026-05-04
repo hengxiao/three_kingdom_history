@@ -2,7 +2,7 @@ chapter: zztj.82
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷082
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 41a66aaa380eac83e5d073e40aecf937932ed133205c02092da537bbf1cbb533
 annotations:
 - id: zztj.82.p5.t1
@@ -81,16 +81,6 @@ annotations:
   person_id: wangyun
   text: 王允
   via: primary
-- anchor: zztj.82.p11
-  at: 9
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p11.h2
 - id: zztj.82.p11.h1
   anchor: zztj.82.p11
   at: 26
@@ -99,26 +89,6 @@ annotations:
   person_id: louwang
   text: 樓望
   via: primary
-- anchor: zztj.82.p11
-  at: 89
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p11.h3
-- anchor: zztj.82.p11
-  at: 115
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p11.h4
 - id: zztj.82.p18.t1
   anchor: zztj.82.p18
   at: 2
@@ -147,16 +117,6 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 太康10年 (AD 289)，月份「三月」
-- anchor: zztj.82.p23
-  at: 158
-  length: 2
-  type: person
-  person_id: yangyan
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉武元楊皇后/惠帝賈后皆不在花名冊
-  id: zztj.82.p23.h2
 - id: zztj.82.p23.t1
   anchor: zztj.82.p23
   at: 172
@@ -171,56 +131,6 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 太康10年 (AD 289)，月份「四月」
-- anchor: zztj.82.p23
-  at: 178
-  length: 2
-  type: person
-  person_id: yangyan
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉武元楊皇后/惠帝賈后皆不在花名冊
-  id: zztj.82.p23.h3
-- anchor: zztj.82.p23
-  at: 203
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p23.h1
-- anchor: zztj.82.p24
-  at: 0
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p24.h1
-- anchor: zztj.82.p24
-  at: 14
-  length: 2
-  type: person
-  person_id: yangyan
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉武元楊皇后/惠帝賈后皆不在花名冊
-  id: zztj.82.p24.h2
-- anchor: zztj.82.p24
-  at: 26
-  length: 2
-  type: person
-  person_id: yangyan
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉武元楊皇后/惠帝賈后皆不在花名冊
-  id: zztj.82.p24.h3
 - id: zztj.82.p28.t1
   anchor: zztj.82.p28
   at: 0
@@ -249,86 +159,6 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 太康10年 (AD 289)，月份「八月」
-- anchor: zztj.82.p35
-  at: 15
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h1
-- anchor: zztj.82.p35
-  at: 25
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h2
-- anchor: zztj.82.p35
-  at: 75
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h3
-- anchor: zztj.82.p35
-  at: 97
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h4
-- anchor: zztj.82.p35
-  at: 117
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h5
-- anchor: zztj.82.p35
-  at: 160
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h6
-- anchor: zztj.82.p35
-  at: 188
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h7
-- anchor: zztj.82.p35
-  at: 224
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p35.h8
 - id: zztj.82.p36.t1
   anchor: zztj.82.p36
   at: 2
@@ -357,16 +187,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 太康10年 (AD 289)，月份「正月」
-- anchor: zztj.82.p40
-  at: 6
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p40.h2
 - id: zztj.82.p40.t1
   anchor: zztj.82.p40
   at: 314
@@ -411,16 +231,6 @@ annotations:
   person_id: caoshuang
   text: 曹爽
   via: primary
-- anchor: zztj.82.p42
-  at: 89
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p42.h2
 - id: zztj.82.p44.h1
   anchor: zztj.82.p44
   at: 65
@@ -429,26 +239,6 @@ annotations:
   person_id: zhugedan
   text: 諸葛誕
   via: primary
-- anchor: zztj.82.p46
-  at: 211
-  length: 2
-  type: person
-  person_id: yangyan
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉武元楊皇后/惠帝賈后皆不在花名冊
-  id: zztj.82.p46.h2
-- anchor: zztj.82.p46
-  at: 232
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p46.h1
 - id: zztj.82.p47.h1
   anchor: zztj.82.p47
   at: 24
@@ -465,16 +255,6 @@ annotations:
   person_id: liubian
   text: 弘農王
   via: alias
-- anchor: zztj.82.p52
-  at: 99
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p52.h1
 - id: zztj.82.p52.t1
   anchor: zztj.82.p52
   at: 174
@@ -489,16 +269,6 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 太康10年 (AD 289)，月份「六月」
-- anchor: zztj.82.p54
-  at: 36
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p54.h1
 - id: zztj.82.p58.t1
   anchor: zztj.82.p58
   at: 2
@@ -777,16 +547,6 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 太康10年 (AD 289)，月份「九月」
-- anchor: zztj.82.p91
-  at: 26
-  length: 2
-  type: person
-  person_id: simayu
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 晉太子司馬衷/司馬遹皆不在花名冊
-  id: zztj.82.p91.h1
 - id: zztj.82.p97.t1
   anchor: zztj.82.p97
   at: 2

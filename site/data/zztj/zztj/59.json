@@ -376,12 +376,11 @@
         {
           "id": "zztj.59.p18.h1",
           "type": "person",
-          "at": 17,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平五年(188)所言太后為何太后(靈帝何皇后)，不在花名冊"
+          "at": 15,
+          "length": 4,
+          "text": "永樂太后",
+          "person_id": "dongtaihou",
+          "via": "alias"
         }
       ]
     },
@@ -769,27 +768,34 @@
       "text": "初，帝數失皇子，何皇后生子辯，養於道人史子眇家，號曰「史侯」。王美人生子協，董太后自養之，號曰「董侯」。群臣請立太子。帝以辯輕佻無威儀，欲立協，猶豫未決。會疾篤，屬協於蹇碩。丙辰，帝崩於嘉德殿。碩時在內，欲先誅何進而立協，使人迎進，欲與計事；進即駕往。碩司馬潘隱與進早舊，迎而目之。進驚，馳從儳道歸營，引兵入屯百郡邸，因稱疾不入。戊午，皇子辯即皇帝位，年十四。尊皇后曰皇太后。太后臨朝。赦天下，改元為光熹。封皇弟協為渤海王。協年九歲。以後將軍袁隗為太傅，與大將軍何進參錄尚書事。",
       "annotations": [
         {
-          "id": "zztj.59.p30.h6",
+          "id": "zztj.59.p30.h1",
           "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
+          "at": 8,
+          "length": 3,
+          "text": "何皇后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年指何皇后(靈帝皇后)，不在花名冊"
+          "via": "primary"
+        },
+        {
+          "id": "zztj.59.p30.h2",
+          "type": "person",
+          "at": 31,
+          "length": 3,
+          "text": "王美人",
+          "person_id": "wangrong",
+          "via": "alias"
         },
         {
           "id": "zztj.59.p30.h3",
           "type": "person",
-          "at": 39,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
+          "at": 38,
+          "length": 3,
+          "text": "董太后",
+          "person_id": "dongtaihou",
+          "via": "primary"
         },
         {
-          "id": "zztj.59.p30.h1",
+          "id": "zztj.59.p30.h4",
           "type": "person",
           "at": 105,
           "length": 2,
@@ -798,37 +804,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p30.h7",
-          "type": "person",
-          "at": 181,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年指何皇后(靈帝皇后)，不在花名冊"
-        },
-        {
-          "id": "zztj.59.p30.h4",
-          "type": "person",
-          "at": 185,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p30.h5",
-          "type": "person",
-          "at": 188,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p30.h2",
           "type": "person",
           "at": 231,
           "length": 2,
@@ -868,16 +844,6 @@
           "text": "荀攸",
           "person_id": "xunyou",
           "via": "primary"
-        },
-        {
-          "id": "zztj.59.p31.h4",
-          "type": "person",
-          "at": 208,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         }
       ]
     },
@@ -895,27 +861,25 @@
           "via": "primary"
         },
         {
+          "id": "zztj.59.p32.h2",
+          "type": "person",
+          "at": 24,
+          "length": 3,
+          "text": "董太后",
+          "person_id": "dongtaihou",
+          "via": "primary"
+        },
+        {
           "id": "zztj.59.p32.h3",
           "type": "person",
-          "at": 25,
-          "length": 2,
-          "text": "太后",
+          "at": 34,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
+          "via": "alias"
         },
         {
           "id": "zztj.59.p32.h4",
-          "type": "person",
-          "at": 35,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p32.h2",
           "type": "person",
           "at": 66,
           "length": 2,
@@ -926,12 +890,11 @@
         {
           "id": "zztj.59.p32.h5",
           "type": "person",
-          "at": 77,
-          "length": 2,
-          "text": "太后",
+          "at": 76,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
+          "via": "alias"
         },
         {
           "id": "zztj.59.p32.t1",
@@ -947,16 +910,6 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「五月」"
-        },
-        {
-          "id": "zztj.59.p32.h6",
-          "type": "person",
-          "at": 99,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年指何皇后(靈帝皇后)，不在花名冊"
         },
         {
           "id": "zztj.59.p32.t2",
@@ -1039,36 +992,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p36.h4",
-          "type": "person",
-          "at": 114,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p36.h5",
-          "type": "person",
-          "at": 134,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p36.h6",
-          "type": "person",
-          "at": 189,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p36.h3",
           "type": "person",
           "at": 201,
@@ -1076,36 +999,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name"
-        },
-        {
-          "id": "zztj.59.p36.h7",
-          "type": "person",
-          "at": 227,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p36.h8",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p36.h9",
-          "type": "person",
-          "at": 279,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         }
       ]
     },
@@ -1121,16 +1014,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.59.p37.h3",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         },
         {
           "id": "zztj.59.p37.h2",
@@ -1334,16 +1217,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p39.h16",
-          "type": "person",
-          "at": 300,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p39.h11",
           "type": "person",
           "at": 360,
@@ -1440,16 +1313,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p40.h10",
-          "type": "person",
-          "at": 109,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p40.h6",
           "type": "person",
           "at": 175,
@@ -1475,46 +1338,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name"
-        },
-        {
-          "id": "zztj.59.p40.h11",
-          "type": "person",
-          "at": 251,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p40.h12",
-          "type": "person",
-          "at": 308,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p40.h9",
-          "type": "person",
-          "at": 310,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "中平六年靈帝崩前朝臣上書稱陛下指靈帝"
-        },
-        {
-          "id": "zztj.59.p40.h13",
-          "type": "person",
-          "at": 338,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         }
       ]
     },
@@ -1536,36 +1359,6 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「八月」"
-        },
-        {
-          "id": "zztj.59.p41.h2",
-          "type": "person",
-          "at": 13,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p41.h3",
-          "type": "person",
-          "at": 104,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p41.h4",
-          "type": "person",
-          "at": 139,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         },
         {
           "id": "zztj.59.p41.h1",
@@ -1601,26 +1394,6 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.59.p42.h10",
-          "type": "person",
-          "at": 73,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p42.h11",
-          "type": "person",
-          "at": 93,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p42.h3",
           "type": "person",
           "at": 96,
@@ -1637,26 +1410,6 @@
           "text": "盧植",
           "person_id": "luzhi",
           "via": "primary"
-        },
-        {
-          "id": "zztj.59.p42.h12",
-          "type": "person",
-          "at": 138,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p42.h13",
-          "type": "person",
-          "at": 141,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         },
         {
           "id": "zztj.59.p42.h5",
@@ -1719,16 +1472,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p43.h13",
-          "type": "person",
-          "at": 117,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "中平六年靈帝崩前朝臣上書稱陛下指靈帝"
-        },
-        {
           "id": "zztj.59.p43.h2",
           "type": "person",
           "at": 199,
@@ -1783,17 +1526,16 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.59.p43.h14",
+          "id": "zztj.59.p43.h8",
           "type": "person",
-          "at": 353,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
+          "at": 352,
+          "length": 3,
+          "text": "董太后",
+          "person_id": "dongtaihou",
+          "via": "primary"
         },
         {
-          "id": "zztj.59.p43.h8",
+          "id": "zztj.59.p43.h9",
           "type": "person",
           "at": 358,
           "length": 1,
@@ -1802,17 +1544,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.59.p43.h15",
-          "type": "person",
-          "at": 362,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p43.h9",
+          "id": "zztj.59.p43.h10",
           "type": "person",
           "at": 425,
           "length": 2,
@@ -1821,7 +1553,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p43.h10",
+          "id": "zztj.59.p43.h11",
           "type": "person",
           "at": 430,
           "length": 2,
@@ -1830,7 +1562,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p43.h11",
+          "id": "zztj.59.p43.h12",
           "type": "person",
           "at": 466,
           "length": 1,
@@ -1839,7 +1571,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.59.p43.h12",
+          "id": "zztj.59.p43.h13",
           "type": "person",
           "at": 468,
           "length": 1,
@@ -2154,16 +1886,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p48.h9",
-          "type": "person",
-          "at": 16,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p48.h2",
           "type": "person",
           "at": 20,
@@ -2191,16 +1913,6 @@
           "via": "alias"
         },
         {
-          "id": "zztj.59.p48.h10",
-          "type": "person",
-          "at": 85,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
           "id": "zztj.59.p48.h5",
           "type": "person",
           "at": 100,
@@ -2208,26 +1920,6 @@
           "text": "卓",
           "person_id": "dongzhuo",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.59.p48.h11",
-          "type": "person",
-          "at": 105,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
-        },
-        {
-          "id": "zztj.59.p48.h12",
-          "type": "person",
-          "at": 127,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
         },
         {
           "id": "zztj.59.p48.h6",
@@ -2239,17 +1931,16 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p48.h13",
+          "id": "zztj.59.p48.h7",
           "type": "person",
-          "at": 152,
-          "length": 2,
-          "text": "太后",
+          "at": 151,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年(189)靈帝崩後何皇后稱太后，何太后不在花名冊"
+          "via": "alias"
         },
         {
-          "id": "zztj.59.p48.h7",
+          "id": "zztj.59.p48.h8",
           "type": "person",
           "at": 160,
           "length": 1,
@@ -2258,7 +1949,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p48.h8",
+          "id": "zztj.59.p48.h9",
           "type": "person",
           "at": 171,
           "length": 1,
@@ -2370,16 +2061,6 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「十月」"
-        },
-        {
-          "id": "zztj.59.p55.h1",
-          "type": "person",
-          "at": 11,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年指何皇后(靈帝皇后)，不在花名冊"
         }
       ]
     },
@@ -3039,25 +2720,25 @@
         {
           "id": "zztj.59.p71.h2",
           "type": "person",
-          "at": 158,
-          "length": 1,
-          "text": "卓",
-          "person_id": "dongzhuo",
-          "via": "given_name_carry"
+          "at": 21,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "zztj.59.p71.h3",
           "type": "person",
-          "at": 252,
-          "length": 1,
-          "text": "卓",
-          "person_id": "dongzhuo",
-          "via": "given_name_carry"
+          "at": 100,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "zztj.59.p71.h4",
           "type": "person",
-          "at": 289,
+          "at": 158,
           "length": 1,
           "text": "卓",
           "person_id": "dongzhuo",
@@ -3066,7 +2747,7 @@
         {
           "id": "zztj.59.p71.h5",
           "type": "person",
-          "at": 298,
+          "at": 252,
           "length": 1,
           "text": "卓",
           "person_id": "dongzhuo",
@@ -3074,6 +2755,24 @@
         },
         {
           "id": "zztj.59.p71.h6",
+          "type": "person",
+          "at": 289,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.59.p71.h7",
+          "type": "person",
+          "at": 298,
+          "length": 1,
+          "text": "卓",
+          "person_id": "dongzhuo",
+          "via": "given_name_carry"
+        },
+        {
+          "id": "zztj.59.p71.h8",
           "type": "person",
           "at": 348,
           "length": 1,
@@ -3097,7 +2796,7 @@
           "reasoning": "年承前文 初平元年 (AD 190)，月份「二月」"
         },
         {
-          "id": "zztj.59.p71.h7",
+          "id": "zztj.59.p71.h9",
           "type": "person",
           "at": 367,
           "length": 1,
@@ -3106,7 +2805,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h8",
+          "id": "zztj.59.p71.h10",
           "type": "person",
           "at": 390,
           "length": 2,
@@ -3115,7 +2814,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.59.p71.h9",
+          "id": "zztj.59.p71.h11",
           "type": "person",
           "at": 413,
           "length": 1,
@@ -3124,7 +2823,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h10",
+          "id": "zztj.59.p71.h12",
           "type": "person",
           "at": 419,
           "length": 1,
@@ -3133,7 +2832,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h11",
+          "id": "zztj.59.p71.h13",
           "type": "person",
           "at": 432,
           "length": 1,
@@ -3142,7 +2841,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h12",
+          "id": "zztj.59.p71.h14",
           "type": "person",
           "at": 451,
           "length": 1,
@@ -3151,7 +2850,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h13",
+          "id": "zztj.59.p71.h15",
           "type": "person",
           "at": 453,
           "length": 1,
@@ -3160,7 +2859,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h14",
+          "id": "zztj.59.p71.h16",
           "type": "person",
           "at": 480,
           "length": 1,
@@ -3169,7 +2868,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.59.p71.h15",
+          "id": "zztj.59.p71.h17",
           "type": "person",
           "at": 483,
           "length": 1,

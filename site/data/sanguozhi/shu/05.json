@@ -199,16 +199,6 @@
           "via": "given_name"
         },
         {
-          "id": "shu.5.p2.h27",
-          "type": "person",
-          "at": 110,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "建安十二年隆中對劉備自言「漢室傾頹，姦臣竊命，主上蒙塵」，主上指當時受曹操挾制之漢獻帝。"
-        },
-        {
           "id": "shu.5.p2.h9",
           "type": "person",
           "at": 132,
@@ -1180,26 +1170,6 @@
       "text": "先帝創業未半而中道崩殂，今天下三分，益州疲弊，此誠危急存亡之秋也。然侍衛之臣不懈於內，忠志之士忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣，不宜妄自菲薄，引喻失義，以塞忠諫之路也。宮中府中俱為一體，陟罰臧否，不宜異同。若有作奸犯科及為忠善者，宜付有司論其刑賞，以昭陛下平明之理，不宜偏私，使內外異法也。侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，悉以咨之，然後施行，必能裨補闕漏，有所廣益。將軍向寵，性行淑均，曉暢軍事，試用於昔日，先帝稱之曰能，是以眾議舉寵為督。愚以為營中之事，事無大小，悉以咨之，必能使行陣和睦，優劣得所。親賢臣，遠小人，此先漢所以興隆也﹔親小人，遠賢臣，此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不嘆息痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉貞良死節之臣，願陛下親之信之，則漢室之隆，可計日而待也。",
       "annotations": [
         {
-          "id": "shu.5.p9.h3",
-          "type": "person",
-          "at": 65,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》上書後主，「欲報之於陛下也」陛下即後主劉禪。"
-        },
-        {
-          "id": "shu.5.p9.h4",
-          "type": "person",
-          "at": 152,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「以昭陛下平明之理」續指後主劉禪。"
-        },
-        {
           "id": "shu.5.p9.h1",
           "type": "person",
           "at": 180,
@@ -1216,26 +1186,6 @@
           "text": "董允",
           "person_id": "dongyun",
           "via": "primary"
-        },
-        {
-          "id": "shu.5.p9.h5",
-          "type": "person",
-          "at": 205,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「先帝簡拔以遺陛下」續指後主劉禪。"
-        },
-        {
-          "id": "shu.5.p9.h6",
-          "type": "person",
-          "at": 392,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「願陛下親之信之」續指後主劉禪。"
         }
       ]
     },
@@ -1271,16 +1221,6 @@
           "at": 151,
           "length": 0,
           "text": "漢書地理志曰：瀘惟水出牂牁郡句町县。"
-        },
-        {
-          "id": "shu.5.p10.h1",
-          "type": "person",
-          "at": 203,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「報先帝而忠陛下之職分」陛下即劉禪。"
         }
       ]
     },
@@ -1288,26 +1228,6 @@
       "id": "shu.5.p11",
       "text": "至於斟酌損益，進盡忠言，則攸之、禕、允之任也。願陛下託臣以討賊興復之效﹔不效，則治臣之罪，以告先帝之靈。[若無興德之言，則]責攸之、禕、允等之慢，以彰其咎。陛下亦宜自謀，以諮諏善道，察納雅言，深追先帝遺詔。臣不勝受恩感激，今當遠離，臨表涕零，不知所言。",
       "annotations": [
-        {
-          "id": "shu.5.p11.h2",
-          "type": "person",
-          "at": 24,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「願陛下託臣以討賊興復之效」陛下即劉禪。"
-        },
-        {
-          "id": "shu.5.p11.h3",
-          "type": "person",
-          "at": 78,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "《出師表》「陛下亦宜自謀」陛下即劉禪。"
-        },
         {
           "id": "shu.5.p11.h1",
           "type": "person",
@@ -1800,16 +1720,6 @@
           "text": "後主",
           "person_id": "liushan",
           "via": "chapter_alias"
-        },
-        {
-          "id": "shu.5.p19.h4",
-          "type": "person",
-          "at": 86,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "亮自述家事表「以負陛下」上於後主劉禪。"
         }
       ]
     },
@@ -2382,8 +2292,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 264,
-          "reasoning": "「明年」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）"
+          "year_ad": 235,
+          "era": "建興",
+          "era_year": 13,
+          "reasoning": "「明年」 = 当前年 建興12年 (AD 234) 之次年 = AD 235"
         },
         {
           "id": "shu.5.p38.h2",
@@ -2406,6 +2318,19 @@
           "era": "景耀",
           "era_year": 4,
           "reasoning": "原文「景耀四年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "shu.5.p38.t4",
+          "type": "temporal",
+          "at": 187,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 263,
+          "era": "景耀",
+          "era_year": 6,
+          "reasoning": "承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263"
         },
         {
           "id": "shu.5.p38.h3",
@@ -2530,8 +2455,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 265,
-          "reasoning": "「明年」 = 当前年 AD 264 之次年 = AD 265（跨年號邊界，新年號未明）"
+          "year_ad": 264,
+          "reasoning": "「明年」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）"
         },
         {
           "id": "shu.5.p39.a3",

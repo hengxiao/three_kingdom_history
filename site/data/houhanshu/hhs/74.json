@@ -248,16 +248,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.74.p10.h21",
-          "type": "person",
-          "at": 16,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "靈帝崩袁紹勸何進「脅太后誅諸宦官」即脅何太后，對應 hetaihou。"
-        },
-        {
           "id": "hhs.74.p10.h5",
           "type": "person",
           "at": 24,
@@ -2273,26 +2263,6 @@
           "text": "何進",
           "person_id": "hejin",
           "via": "primary"
-        },
-        {
-          "id": "hhs.74.p71.h2",
-          "type": "person",
-          "at": 137,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "袁紹奏「太后被質」即靈帝崩何進敗後何太后被劫，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.74.p71.h3",
-          "type": "person",
-          "at": 147,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "袁紹奏中「陛下聖德幼沖」既親遭困，按獻帝幼沖即位，對應 xianhan。"
         }
       ]
     },
@@ -2461,16 +2431,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "hhs.74.p82.h4",
-          "type": "person",
-          "at": 63,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "盟詞「幽鴆太后，戮殺弘農」即董卓鴆殺何太后與弘農王劉辯，對應 hetaihou。"
         }
       ]
     },
@@ -2562,16 +2522,6 @@
           "text": "趙岐",
           "person_id": "zhaoqi",
           "via": "primary"
-        },
-        {
-          "id": "hhs.74.p87.h2",
-          "type": "person",
-          "at": 11,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "袁紹奏「太僕趙岐銜命來征」即獻帝遣使，「陛下含弘之施」即獻帝，對應 xianhan。"
         }
       ]
     },
@@ -2598,44 +2548,12 @@
     {
       "id": "hhs.74.p92",
       "text": "又臣所上將校，率皆清英宿德，令名顯達，登鋒履刃，死者過半，勤恪之功，不見書列。而州郡牧守，競盜聲名，懷持二端，優遊顧望，皆列土錫圭，跨州連郡，是以遠近狐疑，議論紛錯者也。臣聞守文之世，德高者位尊；倉卒之時，功多者賞厚。陛下播越非所，洛邑乏祀，海內傷心，志士憤惋。是以忠臣肝腦塗地，肌膚橫分而無悔心者，義之所感故也。今賞加無勞，以攜有德；[一]杜黜忠功，以疑觿望。斯豈腹心之遠圖？將乃讒慝之邪說使之然也？臣爵為通侯，位二千石。殊恩厚德，臣既叨之，豈敢窺覬重禮，以希彤弓玈矢之命哉？[二]誠傷偏裨列校，勤不見紀，盡忠為國，□成重愆。斯蒙恬所以悲號於邊獄，[三]白起歔欷於杜郵也。[四]太傅日磾位為師保，任配東征，而耗亂王命，[五]寵任非所，凡所舉用，皆觿所捐□。而容納其策，以為謀主，令臣骨肉兄弟，還為讎敵，交鋒接刃，構難滋甚。臣雖欲釋甲投戈，事不得已。誠恐陛下日月之明，有所不照，四聰之聽有所不聞，乞下臣章，咨之腢賢，使三槐九棘，議臣罪戾。[六]若以臣今行權為釁，則桓、文當有誅絕之刑；[七]若以觿不討賊為賢，則趙盾可無書弒之貶矣。",
-      "annotations": [
-        {
-          "id": "hhs.74.p92.h1",
-          "type": "person",
-          "at": 109,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "同奏「陛下播越非所」即獻帝西遷，對應 xianhan。"
-        },
-        {
-          "id": "hhs.74.p92.h2",
-          "type": "person",
-          "at": 377,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "同段「誠恐陛下日月之明」即奏獻帝，對應 xianhan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p93",
       "text": "臣雖小人，志守一介。若使得申明本心，不愧先帝，則伏首歐刀，褰衣就鑊，臣之願也。惟陛下垂尸鳩之平，[八]絕邪諂之論，無令愚臣結恨三泉。[九]",
-      "annotations": [
-        {
-          "id": "hhs.74.p93.h1",
-          "type": "person",
-          "at": 40,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "同奏「惟陛下垂尸鳩之平」即奏獻帝，對應 xianhan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.74.p94",

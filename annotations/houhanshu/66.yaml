@@ -77,16 +77,6 @@ annotations:
   length: 0
   type: lixian
   text: 尚書曰：「若保赤子，唯人其康乂。」
-- anchor: hhs.66.p6
-  at: 36
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 陳蕃延熹中駁羌討論奏，「陛下赤子」即桓帝時事，對應 huanhan。
-  id: hhs.66.p6.h1
 - id: hhs.66.p7.a1
   anchor: hhs.66.p7
   at: 46
@@ -115,16 +105,6 @@ annotations:
   length: 0
   type: lixian
   text: 上象四七，謂二十八宿各主諸侯之分野，故曰下應分土，言皆以輔王室也。
-- anchor: hhs.66.p10
-  at: 14
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 陳蕃延熹中諫桓帝采女奢費，「陛下從是而止」即奏桓帝，對應 huanhan。
-  id: hhs.66.p10.h1
 - id: hhs.66.p10.a1
   anchor: hhs.66.p10
   at: 63
@@ -143,16 +123,6 @@ annotations:
   length: 0
   type: lixian
   text: 公羊傳曰：「西宮災。」何休注云：「時僖公為齊桓所脅，以齊媵為嫡，楚女廢居西宮，而不見恤，悲愁怨曠所生。」
-- anchor: hhs.66.p11
-  at: 12
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下宜采求失得」即奏桓帝，對應 huanhan。
-  id: hhs.66.p11.h1
 - id: hhs.66.p11.a1
   anchor: hhs.66.p11
   at: 36
@@ -189,16 +159,6 @@ annotations:
   length: 0
   type: lixian
   text: 尚書無逸篇之言。
-- anchor: hhs.66.p12
-  at: 167
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 延熹六年陳蕃諫桓帝廣成校獵，「陛下焦心毀顏」即奏桓帝，對應 huanhan。
-  id: hhs.66.p12.h1
 - id: hhs.66.p12.a4
   anchor: hhs.66.p12
   at: 322
@@ -257,16 +217,6 @@ annotations:
   length: 0
   type: lixian
   text: 公羊傳莊公四年，公及齊人狩於郜，譏其與讎狩也。僖公二十年，新作南門，譏其奢也。故曰「小惡必書」也。
-- anchor: hhs.66.p14
-  at: 353
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 陳蕃為李膺等諫桓帝救黨人，「陛下超從列侯，繼承天位」即桓帝由蠡吾侯入繼，對應 huanhan。
-  id: hhs.66.p14.h2
 - id: hhs.66.p14.a4
   anchor: hhs.66.p14
   at: 365
@@ -279,54 +229,32 @@ annotations:
   length: 0
   type: lixian
   text: 五侯謂胤、讓、淑、忠、戟五人，與冀同時誅。事見冀傳也。
-- anchor: hhs.66.p14
-  at: 546
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「至於陛下，有何悁悁」即奏桓帝，對應 huanhan。
-  id: hhs.66.p14.h3
 - id: hhs.66.p14.a6
   anchor: hhs.66.p14
   at: 554
   length: 0
   type: lixian
   text: 說文曰：「悁悁，恚忿。」
+- id: hhs.66.p14.h2
+  anchor: hhs.66.p14
+  at: 693
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.66.p14.a7
   anchor: hhs.66.p14
   at: 700
   length: 0
   type: lixian
   text: 文帝時，太中大夫鄧通愛幸，居上旁有怠嫚禮。氶相申屠嘉入朝，因見之，為檄召通。通至，嘉曰：「通小臣，戲殿上，大不敬，當斬。」通頓首，首盡出血。文帝使使召通，而謝丞相曰「吾弄臣，君釋之」也。湖陽公主蒼頭白日殺人，匿主家，吏追不得。公主出，宣駐車叩馬，以刀畫地數主。主言於帝，帝賜宣錢三十萬。語見董宣傳。
-- anchor: hhs.66.p14
-  at: 742
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下深宜割塞近習」即奏桓帝，對應 huanhan。
-  id: hhs.66.p14.h4
 - id: hhs.66.p14.a8
   anchor: hhs.66.p14
   at: 774
   length: 0
   type: lixian
   text: 宣帝五日一聽事，自丞相已下，各敷奏其言。
-- anchor: hhs.66.p14
-  at: 806
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下雖厭毒臣言」即奏桓帝，對應 huanhan。
-  id: hhs.66.p14.h5
 - id: hhs.66.p15.a1
   anchor: hhs.66.p15
   at: 9
@@ -393,16 +321,6 @@ annotations:
   length: 0
   type: lixian
   text: 史記武王克殷，命畢公表商容之閭，閎夭封比干之墓也。
-- anchor: hhs.66.p16
-  at: 186
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 延熹九年陳蕃為李膺等諫桓帝，「今陛下臨政」即桓帝親政，對應 huanhan。
-  id: hhs.66.p16.h4
 - id: hhs.66.p16.a5
   anchor: hhs.66.p16
   at: 217
@@ -433,16 +351,6 @@ annotations:
   length: 0
   type: lixian
   text: 春秋感精符曰：「魯哀公政亂，絕無日食，天不譴告也。」
-- anchor: hhs.66.p16
-  at: 456
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「以悟陛下」即奏桓帝，對應 huanhan。
-  id: hhs.66.p16.h5
 - id: hhs.66.p16.a10
   anchor: hhs.66.p16
   at: 514
@@ -495,16 +403,6 @@ annotations:
   person_id: linghan
   text: 靈帝
   via: alias
-- anchor: hhs.66.p19
-  at: 6
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「靈帝即位，竇太后復優詔」即桓思竇妙以太后名義詔，未列 roster。
-  id: hhs.66.p19.h4
 - id: hhs.66.p19.a1
   anchor: hhs.66.p19
   at: 38
@@ -549,32 +447,12 @@ annotations:
   length: 0
   type: lixian
   text: 詩小雅曰「受爵不讓，至於已斯亡。」注云：「爵祿不以相讓，故怨禍及之」也。
-- anchor: hhs.66.p19
-  at: 238
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 陳蕃讓封表「顧惟陛下哀臣朽老」即奏靈帝，對應 linghan。
-  id: hhs.66.p19.h3
 - id: hhs.66.p19.a7
   anchor: hhs.66.p19
   at: 251
   length: 0
   type: lixian
   text: 論語孔子曰：「及其老也，血氣既衰，戒之在得。」注云：「得，貪也。」
-- anchor: hhs.66.p19
-  at: 252
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「竇太后不許」延續即竇太后竇妙，未列 roster。
-  id: hhs.66.p19.h5
 - id: hhs.66.p20.h1
   anchor: hhs.66.p20
   at: 2
@@ -583,62 +461,28 @@ annotations:
   person_id: huanhan
   text: 桓帝
   via: alias
-- anchor: hhs.66.p20
-  at: 12
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「桓帝欲立所幸田貴人為皇后」指桓帝欲立田氏（未成），後立竇妙，無對應 roster。
-  id: hhs.66.p20.h3
-- anchor: hhs.66.p20
-  at: 102
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「旦夕在太后側」即竇太后竇妙臨朝後，未列 roster。
-  id: hhs.66.p20.h4
 - id: hhs.66.p20.a1
   anchor: hhs.66.p20
   at: 106
   length: 0
   type: lixian
   text: 嬈音乃了反。
-- anchor: hhs.66.p20
-  at: 122
+- id: hhs.66.p20.h2
+  anchor: hhs.66.p20
+  at: 109
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「諂事太后」延續即竇太后竇妙，未列 roster。
-  id: hhs.66.p20.h5
-- anchor: hhs.66.p20
-  at: 125
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: hhs.66.p20.h3
+  anchor: hhs.66.p20
+  at: 261
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后信之」延續即竇太后竇妙，未列 roster。
-  id: hhs.66.p20.h6
-- anchor: hhs.66.p20
-  at: 177
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「德於太后」延續即竇太后竇妙，未列 roster。
-  id: hhs.66.p20.h7
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: hhs.66.p20.a2
   anchor: hhs.66.p20
   at: 287
@@ -651,26 +495,14 @@ annotations:
   length: 0
   type: lixian
   text: 前書劉向上書論王鳳曰「稱譽者登進，忤恨者誅傷」也。
-- anchor: hhs.66.p20
-  at: 322
+- id: hhs.66.p21.h1
+  anchor: hhs.66.p21
+  at: 4
   length: 2
   type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 陳蕃奏靈帝「陛下前始攝位」即靈帝建寧初登位，對應 linghan。
-  id: hhs.66.p20.h2
-- anchor: hhs.66.p20
-  at: 416
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后不納」延續即竇太后竇妙，未列 roster。
-  id: hhs.66.p20.h8
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: hhs.66.p21.a1
   anchor: hhs.66.p21
   at: 79

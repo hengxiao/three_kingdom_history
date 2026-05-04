@@ -2,7 +2,7 @@ chapter: zztj.58
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷058
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 9a0e42a24f725168504701f4e4c2da51fb02b9ba309a941b0cb3376dce9c0867
 annotations:
 - id: zztj.58.p4.t1
@@ -99,26 +99,30 @@ annotations:
   era: 光和
   era_year: 4
   reasoning: 「是歲」 = 当前年 光和4年 (AD 181)
-- anchor: zztj.58.p15
-  at: 57
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
-  id: zztj.58.p15.h1
-- anchor: zztj.58.p16
-  at: 1
-  length: 2
+- id: zztj.58.p16.h1
+  anchor: zztj.58.p16
+  at: 0
+  length: 3
   type: person
   person_id: hetaihou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 光和年間皇后當指何皇后(靈帝何氏)，不在花名冊
-  id: zztj.58.p16.h1
+  text: 何皇后
+  via: primary
+- id: zztj.58.p16.h2
+  anchor: zztj.58.p16
+  at: 9
+  length: 3
+  type: person
+  person_id: wangrong
+  text: 王美人
+  via: alias
+- id: zztj.58.p17.h1
+  anchor: zztj.58.p17
+  at: 6
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.58.p18.t1
   anchor: zztj.58.p18
   at: 0
@@ -267,16 +271,6 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 光和6年 (AD 183)，月份「三月」
-- anchor: zztj.58.p32
-  at: 2
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 光和年間皇后當指何皇后(靈帝何氏)，不在花名冊
-  id: zztj.58.p32.h1
 - id: zztj.58.p36.h1
   anchor: zztj.58.p36
   at: 102
@@ -527,26 +521,6 @@ annotations:
   person_id: fuxie
   text: 傅燮
   via: primary
-- anchor: zztj.58.p52
-  at: 153
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
-  id: zztj.58.p52.h2
-- anchor: zztj.58.p52
-  at: 279
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝
-  id: zztj.58.p52.h3
 - id: zztj.58.p53.t1
   anchor: zztj.58.p53
   at: 10

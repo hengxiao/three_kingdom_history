@@ -615,16 +615,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.11.p9.h5",
-          "type": "person",
-          "at": 389,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「文帝在東宮，茂復為太子太傅」此太子即曹丕（後文帝），故指曹丕。"
-        },
-        {
           "id": "wei.11.p9.a3",
           "type": "pei",
           "at": 402,
@@ -1826,26 +1816,6 @@
           "text": "《尚書·君奭》曰：「耇造德不降，我則鳴鳥不聞，矧曰其有能格。」鄭玄曰：「耇，老也。造，成也。詩云：『小子有造。』老成德之人，不降志與我並在位，則鳴鳥之聲不得聞，況乃曰有能德格於天者乎！言必無也。鳴鳥謂鳳也。」"
         },
         {
-          "id": "wei.11.p28.h6",
-          "type": "person",
-          "at": 545,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "明帝即位徵管寧為光祿勳，寧上疏「橫蒙陛下纂承洪緒」答明帝詔，陛下即曹叡。"
-        },
-        {
-          "id": "wei.11.p28.h7",
-          "type": "person",
-          "at": 576,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「不能仰荅陛下恩養」續指曹叡。"
-        },
-        {
           "id": "wei.11.p28.t2",
           "type": "temporal",
           "at": 629,
@@ -1994,16 +1964,6 @@
           "text": "明皇帝",
           "person_id": "caorui",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wei.11.p32.h6",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "薦寧表云「高祖文皇帝……烈祖明皇帝……陛下踐阼，纂承洪緒」，繼明帝後之新君即齊王曹芳。"
         }
       ]
     },
@@ -2096,10 +2056,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 241,
+          "year_ad": 240,
           "era": "正始",
-          "era_year": 2,
-          "reasoning": "「是歲」 = 当前年 正始2年 (AD 241)"
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 正始元年 (AD 240)"
         }
       ]
     },

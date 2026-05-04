@@ -167,42 +167,12 @@ annotations:
   person_id: xuhuang
   text: 徐晃
   via: primary
-- anchor: shu.10.p3
-  at: 234
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.98
-  reasoning: 孟達致劉封書「自立阿斗為太子已來」即立劉禪為太子，對應 liushan。
-  id: shu.10.p3.h1
 - id: shu.10.p3.a1
   anchor: shu.10.p3
   at: 454
   length: 0
   type: pei
   text: 國語曰：智宣子將以瑤為後，智果曰：「不如霄也。」宣子曰：「霄也佷。」對曰：「霄也佷在面，瑤之賢於人者五，其不逮者一也。美須長大則賢，射禦足力則賢，技藝畢給則賢，巧文辯惠則賢，強毅果敢則賢，如是而甚不仁；以五者賢陵人，而不仁行之，其誰能待之！若果立瑤也。智宗必滅。」不聽。智果別族於太史氏為輔氏。及智氏亡，惟輔果在焉。
-- anchor: shu.10.p3
-  at: 564
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 孟達招降劉封書「加陛下新受禪命，虛心側席」即魏文帝曹丕受漢禪（黃初元年），對應 caopi。
-  id: shu.10.p3.h2
-- anchor: shu.10.p3
-  at: 622
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同信「陛下大軍，金鼓以震」即魏王曹丕大軍，對應 caopi。
-  id: shu.10.p3.h3
 - id: shu.10.p5.a1
   anchor: shu.10.p5
   at: 52
@@ -1273,16 +1243,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 承前文年號「建興」推得，「十二年正月」 = 建興12年 = AD 234
-- anchor: shu.10.p23
-  at: 18
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 建興十二年「琰妻胡氏入賀太后」即蜀漢穆皇后吳氏（時為太后），未列 roster。
-  id: shu.10.p23.h2
 - id: shu.10.p23.h1
   anchor: shu.10.p23
   at: 44

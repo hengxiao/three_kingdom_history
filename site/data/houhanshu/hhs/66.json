@@ -130,16 +130,6 @@
           "at": 29,
           "length": 0,
           "text": "尚書曰：「若保赤子，唯人其康乂。」"
-        },
-        {
-          "id": "hhs.66.p6.h1",
-          "type": "person",
-          "at": 36,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "陳蕃延熹中駁羌討論奏，「陛下赤子」即桓帝時事，對應 huanhan。"
         }
       ]
     },
@@ -198,16 +188,6 @@
       "text": "臣知封事已行，言之無及，誠欲陛下從是而止。又比年收斂，十傷五六，萬人饑寒，不聊生活，而采女數千，食肉衣綺，脂油粉黛，不可貲計。鄙諺言『盜不過五女門』，以女貧家也。今後宮之女，豈不貧國乎！是以傾宮嫁而天下化，楚女悲而西宮災。且聚而不御，必生憂悲之感，以致並隔水旱之困。夫獄以禁止奸違，官以稱才理物。若法虧於平，官失其人，則王道有缺。而令天下之論，皆謂獄由怨起，爵以賄成。",
       "annotations": [
         {
-          "id": "hhs.66.p10.h1",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "陳蕃延熹中諫桓帝采女奢費，「陛下從是而止」即奏桓帝，對應 huanhan。"
-        },
-        {
           "id": "hhs.66.p10.a1",
           "type": "lixian",
           "at": 63,
@@ -234,16 +214,6 @@
       "id": "hhs.66.p11",
       "text": "夫不有臭穢，則蒼蠅不飛。陛下宜采求失得，擇從忠善。尺一選舉，委尚書三公，使襃責誅賞，各有所歸，豈不幸甚！」帝頗納其言，為出宮女五百餘人，但賜鑈爵關內侯，而萬世南鄉侯。",
       "annotations": [
-        {
-          "id": "hhs.66.p11.h1",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「陛下宜采求失得」即奏桓帝，對應 huanhan。"
-        },
         {
           "id": "hhs.66.p11.a1",
           "type": "lixian",
@@ -290,16 +260,6 @@
           "at": 95,
           "length": 0,
           "text": "尚書無逸篇之言。"
-        },
-        {
-          "id": "hhs.66.p12.h1",
-          "type": "person",
-          "at": 167,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "延熹六年陳蕃諫桓帝廣成校獵，「陛下焦心毀顏」即奏桓帝，對應 huanhan。"
         },
         {
           "id": "hhs.66.p12.a4",
@@ -380,16 +340,6 @@
           "text": "公羊傳莊公四年，公及齊人狩於郜，譏其與讎狩也。僖公二十年，新作南門，譏其奢也。故曰「小惡必書」也。"
         },
         {
-          "id": "hhs.66.p14.h2",
-          "type": "person",
-          "at": 353,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "陳蕃為李膺等諫桓帝救黨人，「陛下超從列侯，繼承天位」即桓帝由蠡吾侯入繼，對應 huanhan。"
-        },
-        {
           "id": "hhs.66.p14.a4",
           "type": "lixian",
           "at": 365,
@@ -404,21 +354,20 @@
           "text": "五侯謂胤、讓、淑、忠、戟五人，與冀同時誅。事見冀傳也。"
         },
         {
-          "id": "hhs.66.p14.h3",
-          "type": "person",
-          "at": 546,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「至於陛下，有何悁悁」即奏桓帝，對應 huanhan。"
-        },
-        {
           "id": "hhs.66.p14.a6",
           "type": "lixian",
           "at": 554,
           "length": 0,
           "text": "說文曰：「悁悁，恚忿。」"
+        },
+        {
+          "id": "hhs.66.p14.h2",
+          "type": "person",
+          "at": 693,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "hhs.66.p14.a7",
@@ -428,31 +377,11 @@
           "text": "文帝時，太中大夫鄧通愛幸，居上旁有怠嫚禮。氶相申屠嘉入朝，因見之，為檄召通。通至，嘉曰：「通小臣，戲殿上，大不敬，當斬。」通頓首，首盡出血。文帝使使召通，而謝丞相曰「吾弄臣，君釋之」也。湖陽公主蒼頭白日殺人，匿主家，吏追不得。公主出，宣駐車叩馬，以刀畫地數主。主言於帝，帝賜宣錢三十萬。語見董宣傳。"
         },
         {
-          "id": "hhs.66.p14.h4",
-          "type": "person",
-          "at": 742,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「陛下深宜割塞近習」即奏桓帝，對應 huanhan。"
-        },
-        {
           "id": "hhs.66.p14.a8",
           "type": "lixian",
           "at": 774,
           "length": 0,
           "text": "宣帝五日一聽事，自丞相已下，各敷奏其言。"
-        },
-        {
-          "id": "hhs.66.p14.h5",
-          "type": "person",
-          "at": 806,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「陛下雖厭毒臣言」即奏桓帝，對應 huanhan。"
         }
       ]
     },
@@ -542,16 +471,6 @@
           "text": "史記武王克殷，命畢公表商容之閭，閎夭封比干之墓也。"
         },
         {
-          "id": "hhs.66.p16.h4",
-          "type": "person",
-          "at": 186,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "延熹九年陳蕃為李膺等諫桓帝，「今陛下臨政」即桓帝親政，對應 huanhan。"
-        },
-        {
           "id": "hhs.66.p16.a5",
           "type": "lixian",
           "at": 217,
@@ -585,16 +504,6 @@
           "at": 434,
           "length": 0,
           "text": "春秋感精符曰：「魯哀公政亂，絕無日食，天不譴告也。」"
-        },
-        {
-          "id": "hhs.66.p16.h5",
-          "type": "person",
-          "at": 456,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「以悟陛下」即奏桓帝，對應 huanhan。"
         },
         {
           "id": "hhs.66.p16.a10",
@@ -673,16 +582,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.66.p19.h4",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「靈帝即位，竇太后復優詔」即桓思竇妙以太后名義詔，未列 roster。"
-        },
-        {
           "id": "hhs.66.p19.a1",
           "type": "lixian",
           "at": 38,
@@ -734,31 +633,11 @@
           "text": "詩小雅曰「受爵不讓，至於已斯亡。」注云：「爵祿不以相讓，故怨禍及之」也。"
         },
         {
-          "id": "hhs.66.p19.h3",
-          "type": "person",
-          "at": 238,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "陳蕃讓封表「顧惟陛下哀臣朽老」即奏靈帝，對應 linghan。"
-        },
-        {
           "id": "hhs.66.p19.a7",
           "type": "lixian",
           "at": 251,
           "length": 0,
           "text": "論語孔子曰：「及其老也，血氣既衰，戒之在得。」注云：「得，貪也。」"
-        },
-        {
-          "id": "hhs.66.p19.h5",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「竇太后不許」延續即竇太后竇妙，未列 roster。"
         }
       ]
     },
@@ -776,26 +655,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.66.p20.h3",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「桓帝欲立所幸田貴人為皇后」指桓帝欲立田氏（未成），後立竇妙，無對應 roster。"
-        },
-        {
-          "id": "hhs.66.p20.h4",
-          "type": "person",
-          "at": 102,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「旦夕在太后側」即竇太后竇妙臨朝後，未列 roster。"
-        },
-        {
           "id": "hhs.66.p20.a1",
           "type": "lixian",
           "at": 106,
@@ -803,34 +662,22 @@
           "text": "嬈音乃了反。"
         },
         {
-          "id": "hhs.66.p20.h5",
+          "id": "hhs.66.p20.h2",
           "type": "person",
-          "at": 122,
+          "at": 109,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「諂事太后」延續即竇太后竇妙，未列 roster。"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "hhs.66.p20.h6",
+          "id": "hhs.66.p20.h3",
           "type": "person",
-          "at": 125,
+          "at": 261,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「太后信之」延續即竇太后竇妙，未列 roster。"
-        },
-        {
-          "id": "hhs.66.p20.h7",
-          "type": "person",
-          "at": 177,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「德於太后」延續即竇太后竇妙，未列 roster。"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
           "id": "hhs.66.p20.a2",
@@ -845,26 +692,6 @@
           "at": 299,
           "length": 0,
           "text": "前書劉向上書論王鳳曰「稱譽者登進，忤恨者誅傷」也。"
-        },
-        {
-          "id": "hhs.66.p20.h2",
-          "type": "person",
-          "at": 322,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "陳蕃奏靈帝「陛下前始攝位」即靈帝建寧初登位，對應 linghan。"
-        },
-        {
-          "id": "hhs.66.p20.h8",
-          "type": "person",
-          "at": 416,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「太后不納」延續即竇太后竇妙，未列 roster。"
         }
       ]
     },
@@ -872,6 +699,15 @@
       "id": "hhs.66.p21",
       "text": "及事洩，曹節等矯詔誅武等。蕃時年七十餘，聞難作，將官屬諸生八十餘人，並拔刃突入承明門，攘臂呼曰：「大將軍忠以衛國，黃門反逆，何雲竇氏不道邪王甫時出，與蕃相迕，適聞其言，而讓蕃曰：「先帝新棄天下，山陵未成，竇武何功，兄弟父子，一門三侯？又多取掖庭宮人，作樂飲讌，旬月之閒，貲財億計。大臣若此，是為道邪？公為棟樑，枉橈阿黨，復焉求賊！」遂令收蕃。",
       "annotations": [
+        {
+          "id": "hhs.66.p21.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
         {
           "id": "hhs.66.p21.a1",
           "type": "lixian",

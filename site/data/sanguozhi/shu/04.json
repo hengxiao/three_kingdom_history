@@ -30,17 +30,16 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h10",
+          "id": "shu.4.p1.h2",
           "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "皇后",
+          "at": 2,
+          "length": 3,
+          "text": "甘皇后",
           "person_id": "ganhuanghou",
-          "via": "llm",
-          "reasoning": "「先主甘皇后」傳首即立傳本人甘皇后（後主生母、追諡昭烈皇后），roster未列。"
+          "via": "primary"
         },
         {
-          "id": "shu.4.p1.h2",
+          "id": "shu.4.p1.h3",
           "type": "person",
           "at": 10,
           "length": 2,
@@ -49,7 +48,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h3",
+          "id": "shu.4.p1.h4",
           "type": "person",
           "at": 25,
           "length": 2,
@@ -58,7 +57,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h4",
+          "id": "shu.4.p1.h5",
           "type": "person",
           "at": 38,
           "length": 2,
@@ -67,7 +66,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h5",
+          "id": "shu.4.p1.h6",
           "type": "person",
           "at": 45,
           "length": 2,
@@ -76,7 +75,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h6",
+          "id": "shu.4.p1.h7",
           "type": "person",
           "at": 56,
           "length": 2,
@@ -85,7 +84,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h7",
+          "id": "shu.4.p1.h8",
           "type": "person",
           "at": 72,
           "length": 2,
@@ -94,7 +93,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p1.h8",
+          "id": "shu.4.p1.h9",
           "type": "person",
           "at": 76,
           "length": 2,
@@ -116,7 +115,7 @@
           "reasoning": "原文「章武二年」直接出现年号；解析為 AD 222"
         },
         {
-          "id": "shu.4.p1.h9",
+          "id": "shu.4.p1.h10",
           "type": "person",
           "at": 114,
           "length": 2,
@@ -133,32 +132,20 @@
         {
           "id": "shu.4.p2.h1",
           "type": "person",
-          "at": 198,
-          "length": 2,
-          "text": "皇后",
+          "at": 189,
+          "length": 3,
+          "text": "梁貴人",
           "person_id": "gonghuailianggui",
-          "via": "llm",
-          "reasoning": "同議文引「恭懷皇后」（漢和帝母梁貴人追尊），歷史人物。"
+          "via": "alias"
         },
         {
           "id": "shu.4.p2.h2",
           "type": "person",
-          "at": 219,
-          "length": 2,
-          "text": "皇后",
+          "at": 217,
+          "length": 4,
+          "text": "靈懷皇后",
           "person_id": "wangrong",
-          "via": "llm",
-          "reasoning": "同議文引「靈懷皇后」（漢愍帝母王夫人追尊），歷史人物。"
-        },
-        {
-          "id": "shu.4.p2.h3",
-          "type": "person",
-          "at": 251,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "ganhuanghou",
-          "via": "llm",
-          "reasoning": "「宜曰昭烈皇后」議定甘氏諡號，昭烈皇后即甘皇后，roster未列。"
+          "via": "primary"
         },
         {
           "id": "shu.4.p2.a1",
@@ -166,16 +153,6 @@
           "at": 271,
           "length": 0,
           "text": "《禮》云：上古無合葬，中古後因時方有。"
-        },
-        {
-          "id": "shu.4.p2.h4",
-          "type": "person",
-          "at": 274,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "ganhuanghou",
-          "via": "llm",
-          "reasoning": "「故昭烈皇后宜與大行皇帝合葬」續指甘皇后，roster未列。"
         }
       ]
     },
@@ -193,17 +170,16 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p3.h8",
+          "id": "shu.4.p3.h2",
           "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "皇后",
+          "at": 2,
+          "length": 3,
+          "text": "穆皇后",
           "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "「先主穆皇后」傳目即吳氏穆皇后，roster未列。"
+          "via": "primary"
         },
         {
-          "id": "shu.4.p3.h2",
+          "id": "shu.4.p3.h3",
           "type": "person",
           "at": 22,
           "length": 2,
@@ -212,7 +188,7 @@
           "via": "primary"
         },
         {
-          "id": "shu.4.p3.h3",
+          "id": "shu.4.p3.h4",
           "type": "person",
           "at": 73,
           "length": 2,
@@ -228,7 +204,7 @@
           "text": "《漢晉春秋》云：先主入益州，吳遣迎孫夫人。夫人欲將太子歸吳，諸葛亮使趙雲勒兵斷江留太子，乃得止。"
         },
         {
-          "id": "shu.4.p3.h4",
+          "id": "shu.4.p3.h5",
           "type": "person",
           "at": 90,
           "length": 2,
@@ -237,7 +213,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p3.h5",
+          "id": "shu.4.p3.h6",
           "type": "person",
           "at": 95,
           "length": 2,
@@ -246,7 +222,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p3.h6",
+          "id": "shu.4.p3.h7",
           "type": "person",
           "at": 103,
           "length": 2,
@@ -275,16 +251,6 @@
           "reasoning": "原文「建安二十四年」直接出现年号；解析為 AD 219（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "shu.4.p3.h9",
-          "type": "person",
-          "at": 144,
-          "length": 2,
-          "text": "王后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "「立為漢中王后」即穆皇后吳氏為漢中王后，roster未列。"
-        },
-        {
           "id": "shu.4.p3.t2",
           "type": "temporal",
           "at": 147,
@@ -298,26 +264,6 @@
           "month_chinese": "夏五月",
           "month_ordinal": 5,
           "reasoning": "原文「章武元年夏五月」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "shu.4.p3.h10",
-          "type": "person",
-          "at": 176,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "「今以后為皇后」策立穆皇后吳氏為皇后，roster未列。"
-        },
-        {
-          "id": "shu.4.p3.h11",
-          "type": "person",
-          "at": 198,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "策文末「皇后其敬之哉」續指穆皇后吳氏。"
         },
         {
           "id": "shu.4.p3.t3",
@@ -335,23 +281,13 @@
           "reasoning": "原文「建興元年五月」直接出现年号；解析為 AD 223"
         },
         {
-          "id": "shu.4.p3.h7",
+          "id": "shu.4.p3.h8",
           "type": "person",
           "at": 213,
           "length": 2,
           "text": "後主",
           "person_id": "liushan",
           "via": "chapter_alias"
-        },
-        {
-          "id": "shu.4.p3.h12",
-          "type": "person",
-          "at": 222,
-          "length": 2,
-          "text": "太后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "「尊后為皇太后」即穆皇后吳氏（後主嫡母），roster未列。"
         },
         {
           "id": "shu.4.p3.t4",
@@ -389,17 +325,16 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p4.h4",
+          "id": "shu.4.p4.h2",
           "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "皇后",
+          "at": 2,
+          "length": 4,
+          "text": "敬哀皇后",
           "person_id": "jingaihuanghou",
-          "via": "llm",
-          "reasoning": "「後主敬哀皇后」傳目即張飛長女敬哀皇后，roster未列。"
+          "via": "alias"
         },
         {
-          "id": "shu.4.p4.h2",
+          "id": "shu.4.p4.h3",
           "type": "person",
           "at": 11,
           "length": 2,
@@ -421,16 +356,6 @@
           "reasoning": "原文「章武元年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "shu.4.p4.h3",
-          "type": "person",
-          "at": 24,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "章武元年「納為太子妃」之太子即時為皇太子之劉禪。"
-        },
-        {
           "id": "shu.4.p4.t2",
           "type": "temporal",
           "at": 28,
@@ -444,16 +369,6 @@
           "reasoning": "原文「建興元年」直接出现年号；解析為 AD 223（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "shu.4.p4.h5",
-          "type": "person",
-          "at": 35,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "jingaihuanghou",
-          "via": "llm",
-          "reasoning": "建興元年「立為皇后」即敬哀皇后張氏，roster未列。"
-        },
-        {
           "id": "shu.4.p4.t3",
           "type": "temporal",
           "at": 38,
@@ -461,10 +376,10 @@
           "text": "十五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 252,
-          "era": "延熙",
+          "year_ad": 237,
+          "era": "建興",
           "era_year": 15,
-          "reasoning": "承前文年號「延熙」推得，「十五年」 = 延熙15年 = AD 252"
+          "reasoning": "承前文年號「建興」推得，「十五年」 = 建興15年 = AD 237"
         }
       ]
     },
@@ -476,20 +391,10 @@
           "id": "shu.4.p5.h1",
           "type": "person",
           "at": 0,
-          "length": 2,
-          "text": "後主",
-          "person_id": "liushan",
-          "via": "chapter_alias"
-        },
-        {
-          "id": "shu.4.p5.h4",
-          "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "皇后",
+          "length": 5,
+          "text": "後主張皇后",
           "person_id": "houzhuhuanghou",
-          "via": "llm",
-          "reasoning": "「後主張皇后」傳目即繼后張氏（敬哀之妹），roster未列。"
+          "via": "primary"
         },
         {
           "id": "shu.4.p5.t1",
@@ -699,14 +604,13 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.4.p8.h3",
+          "id": "shu.4.p8.h2",
           "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "「後主太子璿」傳目即後主太子劉璿，roster未列劉璿。"
+          "at": 16,
+          "length": 5,
+          "text": "敬哀張皇后",
+          "person_id": "jingaihuanghou",
+          "via": "primary"
         },
         {
           "id": "shu.4.p8.t1",
@@ -724,16 +628,6 @@
           "reasoning": "原文「延熙元年正月」直接出现年号；解析為 AD 238（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "shu.4.p8.h4",
-          "type": "person",
-          "at": 60,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "策文「今以璿為皇太子」立劉璿為太子，roster未列劉璿。"
-        },
-        {
           "id": "shu.4.p8.t2",
           "type": "temporal",
           "at": 132,
@@ -747,7 +641,7 @@
           "reasoning": "原文「景耀六年」直接出现年号；解析為 AD 263"
         },
         {
-          "id": "shu.4.p8.h2",
+          "id": "shu.4.p8.h3",
           "type": "person",
           "at": 148,
           "length": 2,

@@ -885,16 +885,6 @@ annotations:
   person_id: liushan
   text: 禪
   via: given_name_carry
-- anchor: wei.28.p35
-  at: 81
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「太子奉車」即拜劉禪太子劉璿為奉車都尉，roster 無「劉璿」，置 null。
-  id: wei.28.p35.h4
 - id: wei.28.p35.h3
   anchor: wei.28.p35
   at: 208
@@ -1315,16 +1305,6 @@ annotations:
   person_id: caorui
   text: 明皇帝
   via: chapter_alias
-- anchor: wei.28.p52
-  at: 109
-  length: 2
-  type: person
-  person_id: caohuan
-  text: 主上
-  via: llm
-  confidence: 0.8
-  reasoning: 鍾會檄文「今主上聖德欽明」，景元四年（263）伐蜀時主上即魏陳留王曹奐。
-  id: wei.28.p52.h7
 - id: wei.28.p53.h1
   anchor: wei.28.p53
   at: 31
@@ -1403,16 +1383,6 @@ annotations:
   person_id: liaohua
   text: 廖化
   via: primary
-- anchor: wei.28.p56
-  at: 295
-  length: 2
-  type: person
-  person_id: caohuan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 鍾會等表上表景元中對曹奐稱「陛下」。
-  id: wei.28.p56.h4
 - id: wei.28.p57.a1
   anchor: wei.28.p57
   at: 31

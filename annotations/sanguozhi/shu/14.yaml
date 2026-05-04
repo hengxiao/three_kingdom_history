@@ -273,16 +273,6 @@ annotations:
   person_id: dengai
   text: 鄧艾
   via: primary
-- anchor: shu.14.p8
-  at: 243
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「斌弟顯，為太子僕」太子官名所事即後主太子劉璿，roster未錄。
-  id: shu.14.p8.h3
 - id: shu.14.p9.h1
   anchor: shu.14.p9
   at: 18
@@ -369,16 +359,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.14.p11
-  at: 3
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.93
-  reasoning: 「先主立太子，禕與允為舍人」明指先主章武立太子劉禪。
-  id: shu.14.p11.h10
 - id: shu.14.p11.h2
   anchor: shu.14.p11
   at: 17
@@ -587,16 +567,6 @@ annotations:
   length: 0
   type: pei
   text: 禕别傳曰：恭为尚书郎，显名当世，早卒。
-- anchor: shu.14.p14
-  at: 67
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「禕長女配太子璿為妃」指後主太子劉璿，roster未錄。
-  id: shu.14.p14.h1
 - id: shu.14.p15.h1
   anchor: shu.14.p15
   at: 0
@@ -685,16 +655,6 @@ annotations:
   person_id: jiangwan
   text: 蔣琬
   via: primary
-- anchor: shu.14.p15
-  at: 363
-  length: 2
-  type: person
-  person_id: liushan
-  text: 主上
-  via: llm
-  confidence: 0.92
-  reasoning: 諸葛亮薦姜維書「當遣詣宮，覲見主上」，所覲為當時蜀主後主劉禪。
-  id: shu.14.p15.h9
 - id: shu.14.p15.a3
   anchor: shu.14.p15
   at: 367

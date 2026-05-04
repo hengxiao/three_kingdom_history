@@ -2,7 +2,7 @@ chapter: zztj.75
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷075
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 2a7f8fe063660b7547386341e5067cf2d49679d6ac4d2cb06a552014d3c8fe17
 annotations:
 - id: zztj.75.p4.t1
@@ -125,16 +125,6 @@ annotations:
   person_id: feiyi
   text: 費禕
   via: primary
-- anchor: zztj.75.p8
-  at: 58
-  length: 2
-  type: person
-  person_id: caofang
-  text: 主上
-  via: llm
-  confidence: 0.7
-  reasoning: 主上依國別指劉禪或曹芳
-  id: zztj.75.p8.h3
 - id: zztj.75.p10.h1
   anchor: zztj.75.p10
   at: 5
@@ -167,16 +157,6 @@ annotations:
   person_id: qiaozhou
   text: 譙周
   via: primary
-- anchor: zztj.75.p13
-  at: 326
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.82
-  reasoning: 正始-嘉平年間蜀漢陛下指後主劉禪
-  id: zztj.75.p13.h2
 - id: zztj.75.p14.t1
   anchor: zztj.75.p14
   at: 5
@@ -305,16 +285,6 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 正始8年 (AD 247)，月份「十二月」
-- anchor: zztj.75.p21
-  at: 87
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 正始-嘉平年間魏齊王曹芳在位
-  id: zztj.75.p21.h1
 - id: zztj.75.p22.h1
   anchor: zztj.75.p22
   at: 19
@@ -601,46 +571,6 @@ annotations:
   person_id: wangguan
   text: 王觀
   via: primary
-- anchor: zztj.75.p37
-  at: 119
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 正始-嘉平年間魏齊王曹芳在位
-  id: zztj.75.p37.h3
-- anchor: zztj.75.p37
-  at: 158
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 正始-嘉平年間魏齊王曹芳在位
-  id: zztj.75.p37.h4
-- anchor: zztj.75.p37
-  at: 285
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 正始-嘉平年間魏齊王曹芳在位
-  id: zztj.75.p37.h5
-- anchor: zztj.75.p37
-  at: 302
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 正始-嘉平年間魏齊王曹芳在位
-  id: zztj.75.p37.h6
 - id: zztj.75.p39.h1
   anchor: zztj.75.p39
   at: 181
@@ -1007,17 +937,15 @@ annotations:
   person_id: guohuai
   text: 郭淮
   via: primary
-- anchor: zztj.75.p63
-  at: 28
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p63.h2
 - id: zztj.75.p63.h1
+  anchor: zztj.75.p63
+  at: 4
+  length: 3
+  type: person
+  person_id: panhuanghou
+  text: 潘夫人
+  via: alias
+- id: zztj.75.p63.h2
   anchor: zztj.75.p63
   at: 77
   length: 2
@@ -1025,56 +953,6 @@ annotations:
   person_id: sunjun
   text: 孫峻
   via: primary
-- anchor: zztj.75.p64
-  at: 6
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p64.h2
-- anchor: zztj.75.p64
-  at: 20
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p64.h3
-- anchor: zztj.75.p64
-  at: 59
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p64.h4
-- anchor: zztj.75.p64
-  at: 67
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p64.h5
-- anchor: zztj.75.p64
-  at: 239
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p64.h6
 - id: zztj.75.p64.h1
   anchor: zztj.75.p64
   at: 297
@@ -1119,16 +997,6 @@ annotations:
   person_id: sunli
   text: 孫禮
   via: primary
-- anchor: zztj.75.p67
-  at: 6
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p67.h1
 - id: zztj.75.p69.t1
   anchor: zztj.75.p69
   at: 0
@@ -1403,6 +1271,14 @@ annotations:
   person_id: zhugedan
   text: 諸葛誕
   via: primary
+- id: zztj.75.p82.h1
+  anchor: zztj.75.p82
+  at: 3
+  length: 3
+  type: person
+  person_id: panhuanghou
+  text: 潘夫人
+  via: alias
 - id: zztj.75.p83.t1
   anchor: zztj.75.p83
   at: 0
@@ -1439,6 +1315,14 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 嘉平3年 (AD 251)，月份「七月」
+- id: zztj.75.p84.h1
+  anchor: zztj.75.p84
+  at: 10
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 甄氏
+  via: alias
 - id: zztj.75.p86.t1
   anchor: zztj.75.p86
   at: 0
@@ -1477,16 +1361,6 @@ annotations:
   person_id: simashi
   text: 司馬師
   via: primary
-- anchor: zztj.75.p89
-  at: 7
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p89.h5
 - id: zztj.75.p89.t1
   anchor: zztj.75.p89
   at: 16
@@ -1509,16 +1383,6 @@ annotations:
   person_id: sunjun
   text: 孫峻
   via: primary
-- anchor: zztj.75.p89
-  at: 60
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p89.h6
 - id: zztj.75.p89.h2
   anchor: zztj.75.p89
   at: 71
@@ -1559,16 +1423,6 @@ annotations:
   person_id: laimin
   text: 來敏
   via: primary
-- anchor: zztj.75.p91
-  at: 22
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p91.h2
 - id: zztj.75.p91.h1
   anchor: zztj.75.p91
   at: 78
@@ -1653,16 +1507,6 @@ annotations:
   person_id: simashi
   text: 司馬師
   via: primary
-- anchor: zztj.75.p97
-  at: 4
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p97.h1
 - id: zztj.75.p98.t1
   anchor: zztj.75.p98
   at: 0
@@ -1731,16 +1575,6 @@ annotations:
   person_id: sunjun
   text: 孫峻
   via: primary
-- anchor: zztj.75.p101
-  at: 110
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 吳赤烏年間太子孫和(嘉平二年250被廢)
-  id: zztj.75.p101.h9
 - id: zztj.75.p101.h6
   anchor: zztj.75.p101
   at: 128
@@ -1765,6 +1599,14 @@ annotations:
   person_id: lvdai
   text: 呂岱
   via: primary
+- id: zztj.75.p102.h1
+  anchor: zztj.75.p102
+  at: 160
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: zztj.75.p103.t1
   anchor: zztj.75.p103
   at: 35

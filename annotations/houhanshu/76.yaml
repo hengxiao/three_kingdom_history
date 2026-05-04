@@ -5,6 +5,14 @@ source:
   retrieved: '2026-05-03'
   sha256: 2327e78c3f4059f5c841999d55e26b1aafc5f9aa85fc89b546598cd3a602e443
 annotations:
+- id: hhs.76.p1.h1
+  anchor: hhs.76.p1
+  at: 2
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.76.p1.t1
   anchor: hhs.76.p1
   at: 89
@@ -49,6 +57,14 @@ annotations:
   era: 建武
   era_year: 25
   reasoning: 承前文年號「建武」推得，「二十五年」 = 建武25年 = AD 49
+- id: hhs.76.p6.h1
+  anchor: hhs.76.p6
+  at: 8
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.76.p9.t1
   anchor: hhs.76.p9
   at: 0
@@ -62,6 +78,14 @@ annotations:
   era_year: 1
   reasoning: 原文「更始元年」直接出现年号；解析為 AD 23（回溯前事，不推進章節時間軸）
 - id: hhs.76.p11.h1
+  anchor: hhs.76.p11
+  at: 25
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.76.p11.h2
   anchor: hhs.76.p11
   at: 81
   length: 2
@@ -105,6 +129,14 @@ annotations:
   era: 建武
   era_year: 6
   reasoning: 原文「建武六年」直接出现年号；解析為 AD 30（回溯前事，不推進章節時間軸）
+- id: hhs.76.p19.h1
+  anchor: hhs.76.p19
+  at: 125
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.76.p21.t1
   anchor: hhs.76.p21
   at: 17
@@ -117,6 +149,22 @@ annotations:
   era: 建武
   era_year: 10
   reasoning: 原文「建武十年」直接出现年号；解析為 AD 34（回溯前事，不推進章節時間軸）
+- id: hhs.76.p21.h1
+  anchor: hhs.76.p21
+  at: 75
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.76.p21.h2
+  anchor: hhs.76.p21
+  at: 184
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.76.p22.t1
   anchor: hhs.76.p22
   at: 44
@@ -189,6 +237,18 @@ annotations:
   era: 永平
   era_year: 7
   reasoning: 原文「永平七年」直接出现年号；解析為 AD 64（回溯前事，不推進章節時間軸）
+- id: hhs.76.p26.t2
+  anchor: hhs.76.p26
+  at: 104
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 72
+  era: 永平
+  era_year: 15
+  reasoning: 承前文年號「永平」推得，「十五年」 = 永平15年 = AD 72
 - id: hhs.76.p27.t1
   anchor: hhs.76.p27
   at: 0
@@ -209,12 +269,12 @@ annotations:
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 83
+  year_ad: 76
   era: 建初
-  era_year: 8
+  era_year: 1
   month_chinese: 八月
   month_ordinal: 8
-  reasoning: 年承前文 建初8年 (AD 83)，月份「八月」
+  reasoning: 年承前文 建初元年 (AD 76)，月份「八月」
 - id: hhs.76.p28.t1
   anchor: hhs.76.p28
   at: 53
@@ -271,16 +331,6 @@ annotations:
   era: 永初
   era_year: 2
   reasoning: 原文「永初二年」直接出现年号；解析為 AD 108
-- anchor: hhs.76.p33
-  at: 6
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 永初二年「鄧太后詔」即和熹鄧太后（鄧綏），未列 roster。
-  id: hhs.76.p33.h2
 - id: hhs.76.p33.h1
   anchor: hhs.76.p33
   at: 176

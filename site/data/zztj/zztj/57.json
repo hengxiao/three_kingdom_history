@@ -62,6 +62,15 @@
           "text": "蔡邕",
           "person_id": "caiyong",
           "via": "primary"
+        },
+        {
+          "id": "zztj.57.p2.h2",
+          "type": "person",
+          "at": 54,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
         }
       ]
     },
@@ -147,67 +156,16 @@
       "text": "竇太后母卒於比景，太后憂思感疾，癸巳，崩於雲台。宦者積怨竇氏，以衣車載太后屍置城南市捨，數日，曹節、王甫欲用貴人禮殯。帝曰：「太后親立朕躬，統承大業，豈宜以貴人終乎！」於是發喪成禮。節等欲別葬太后，而以馮貴人配祔。詔公卿大會朝堂，令中常侍趙忠監議。太尉李鹹時病，扶輿而起，搗椒自隨，謂妻子曰：「若皇太后不得配食桓帝，吾不生還矣！」既議，坐者數百人，各瞻望良久，莫肯先言。趙忠曰：「議當時定！」廷尉陳球曰：「皇太后以盛德良家，母臨天下，宜配先帝，是無所疑。」忠笑而言曰：「陳廷尉宜便操筆。」球即下議曰：「皇太后自在椒房，有聰明母儀之德；遭時不造，援立聖明承繼宗廟，功烈至重。先帝晏駕，因遇大獄，遷居空宮，不幸早世，家雖獲罪，事非太后，今若別葬，誠失天下之望。且馮貴人塚嘗被發掘，骸骨暴露，與賊並屍，魂靈污染，且無功於國，何宜上配至尊！」忠省球議，作色俯仰，蚩球曰：「陳廷尉建此議甚健！」球曰：「陳、竇既冤，皇太后無故幽閉，臣常痛心，天下憤歎！今日言之，退而受罪，宿昔之願也！」李鹹曰：「臣本謂宜爾，誠與意合。」於是公卿以下皆從球議。曹節、王甫猶爭，以為：「梁後家犯惡逆，別葬懿陵，武帝黜廢衛後，而以李夫人配食，今竇氏罪深，豈得合葬先帝！」李鹹復上疏曰：「臣伏惟章德竇後虐害恭懷，安思閻後家犯惡逆，而和帝無異葬之議，順朝無貶降之文。至於衛後，孝武皇帝身所廢棄，不可以為比。今長樂太后尊號在身，親嘗稱制，且援立聖明，光隆皇祚。太后以陛下為子，陛下豈得不以太后為母！子無黜母，臣無貶君，宜合葬宣陵，一如舊制。」帝省奏，從之。",
       "annotations": [
         {
-          "id": "zztj.57.p7.h5",
-          "type": "person",
-          "at": 1,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h6",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h7",
-          "type": "person",
-          "at": 35,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h8",
-          "type": "person",
-          "at": 63,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h9",
-          "type": "person",
-          "at": 96,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h10",
-          "type": "person",
-          "at": 149,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
           "id": "zztj.57.p7.h1",
+          "type": "person",
+          "at": 47,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p7.h2",
           "type": "person",
           "at": 155,
           "length": 2,
@@ -216,103 +174,22 @@
           "via": "alias"
         },
         {
-          "id": "zztj.57.p7.h11",
+          "id": "zztj.57.p7.h3",
           "type": "person",
-          "at": 204,
+          "at": 465,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.57.p7.h12",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h13",
-          "type": "person",
-          "at": 313,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h14",
-          "type": "person",
-          "at": 403,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h2",
+          "id": "zztj.57.p7.h4",
           "type": "person",
           "at": 548,
           "length": 2,
           "text": "和帝",
           "person_id": "hehan",
           "via": "alias"
-        },
-        {
-          "id": "zztj.57.p7.h15",
-          "type": "person",
-          "at": 587,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h16",
-          "type": "person",
-          "at": 610,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
-        },
-        {
-          "id": "zztj.57.p7.h3",
-          "type": "person",
-          "at": 613,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "陳球議曰太后以陛下為子，指靈帝(熹平元年172)"
-        },
-        {
-          "id": "zztj.57.p7.h4",
-          "type": "person",
-          "at": 618,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "陳球議曰太后以陛下為子，指靈帝(熹平元年172)"
-        },
-        {
-          "id": "zztj.57.p7.h17",
-          "type": "person",
-          "at": 624,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊"
         }
       ]
     },
@@ -334,16 +211,6 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 熹平元年 (AD 172)，月份「七月」"
-        },
-        {
-          "id": "zztj.57.p8.h1",
-          "type": "person",
-          "at": 11,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "桓思皇后即竇妙(竇太后)，不在花名冊"
         }
       ]
     },
@@ -352,17 +219,16 @@
       "text": "有人書朱雀闕，言：「天下大亂，曹節、王甫幽殺太后，公卿皆尸祿，無忠言者。」詔司隸校尉劉猛逐捕，十日一會。猛以誹書言直，不肯急捕。月餘，主名不立；猛坐左轉諫議大夫，以御史中丞段熲代之。熲乃四出逐捕，及太學游生系者千餘人。節等又使熲以它事奏猛，論輸左校。",
       "annotations": [
         {
-          "id": "zztj.57.p9.h2",
+          "id": "zztj.57.p9.h1",
           "type": "person",
-          "at": 22,
+          "at": 15,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "指被幽殺之竇太后(竇妙)，不在花名冊"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.57.p9.h1",
+          "id": "zztj.57.p9.h2",
           "type": "person",
           "at": 86,
           "length": 2,
@@ -471,6 +337,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 熹平元年 (AD 172)，月份「十一月」"
+        },
+        {
+          "id": "zztj.57.p12.h1",
+          "type": "person",
+          "at": 17,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
         }
       ]
     },
@@ -907,16 +782,6 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 熹平4年 (AD 175)，月份「十一月」"
-        },
-        {
-          "id": "zztj.57.p31.h2",
-          "type": "person",
-          "at": 262,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "熹平二年朝臣議論時稱在位皇帝靈帝為陛下"
         }
       ]
     },
@@ -1248,22 +1113,11 @@
         {
           "id": "zztj.57.p48.h2",
           "type": "person",
-          "at": 297,
+          "at": 452,
           "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對策上書，靈帝為現任皇帝"
-        },
-        {
-          "id": "zztj.57.p48.h3",
-          "type": "person",
-          "at": 620,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "桓思皇后(竇妙)祖載之時"
+          "text": "章帝",
+          "person_id": "liuda",
+          "via": "alias"
         }
       ]
     },
@@ -1511,16 +1365,6 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 光和元年 (AD 178)，月份「七月」"
-        },
-        {
-          "id": "zztj.57.p59.h1",
-          "type": "person",
-          "at": 258,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "楊賜上封事稱在位靈帝為陛下"
         }
       ]
     },
@@ -1540,32 +1384,11 @@
         {
           "id": "zztj.57.p60.h2",
           "type": "person",
-          "at": 380,
+          "at": 486,
           "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕封事，所稱陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p60.h3",
-          "type": "person",
-          "at": 621,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕封事，所稱陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p60.h4",
-          "type": "person",
-          "at": 669,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕封事，所稱陛下指靈帝"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -1644,12 +1467,11 @@
         {
           "id": "zztj.57.p65.h1",
           "type": "person",
-          "at": 1,
-          "length": 2,
-          "text": "皇后",
+          "at": 0,
+          "length": 3,
+          "text": "宋皇后",
           "person_id": "songhuanghou",
-          "via": "llm",
-          "reasoning": "宋皇后被廢，不在花名冊"
+          "via": "primary"
         }
       ]
     },
@@ -1776,16 +1598,6 @@
           "via": "alias"
         },
         {
-          "id": "zztj.57.p72.h4",
-          "type": "person",
-          "at": 168,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "楊奇對靈帝言，陛下指靈帝"
-        },
-        {
           "id": "zztj.57.p72.h3",
           "type": "person",
           "at": 172,
@@ -1878,6 +1690,15 @@
         {
           "id": "zztj.57.p77.h1",
           "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p77.h2",
+          "type": "person",
           "at": 18,
           "length": 2,
           "text": "段熲",
@@ -1893,6 +1714,24 @@
         {
           "id": "zztj.57.p78.h1",
           "type": "person",
+          "at": 9,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p78.h2",
+          "type": "person",
+          "at": 70,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p78.h3",
+          "type": "person",
           "at": 80,
           "length": 2,
           "text": "順帝",
@@ -1900,7 +1739,16 @@
           "via": "alias"
         },
         {
-          "id": "zztj.57.p78.h2",
+          "id": "zztj.57.p78.h4",
+          "type": "person",
+          "at": 93,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p78.h5",
           "type": "person",
           "at": 267,
           "length": 2,
@@ -1930,27 +1778,16 @@
       "text": "於是曹節、朱瑀等權勢復盛。節領尚書令。郎中梁人審忠上書曰：「陛下即位之初，未能萬機，皇太后念在撫育，權時攝政，故中常侍蘇康、管霸應時誅殄。太傅陳蕃、大將軍竇武考其黨與，志清朝政。華容侯朱瑀知事覺露，禍及其身，遂興造逆謀，作亂王室，撞蹋省闥，執奪璽綬，迫脅陛下，聚會群臣，離間骨肉母子之恩，遂誅蕃、武及尹勳等。因共割裂城社，自相封賞，父子兄弟，被蒙尊榮，素所親厚，布在州郡，或登九列，或據三司。不惟祿重位尊之責，而苟營私門，多蓄財貨，繕修第捨，連裡竟巷，盜取御水，以作漁釣，車馬服玩，擬於天家。群公卿士，杜口吞聲，莫敢有言；州牧郡守，承順風旨，辟召選舉，釋賢取愚。故蟲蝗為之生，夷寇為之起，天意憤盈，積十餘年，故頻歲日食於上，地震於下，所以譴戒人主，欲令覺悟，誅金甘無狀。昔高宗以雉雊之變，故獲中興之功；近者神祇啟悟陛下，發赫斯之怒，故王甫父子應時馘截，路人士女莫不稱善，若除父母之仇。誠恐陛下復忍孽臣之類，不悉殄滅。昔秦信趙高，以危其國；吳使刑人，身遘其禍。今以不忍之恩，赦夷族之罪，奸謀一成，悔亦何及！臣為郎十五年，皆耳目聞見，瑀之所為，誠皇天所不復赦。願陛下留漏刻之聽，裁省臣表，掃滅丑類，以答天怒。與瑀考驗，有不如言，願受湯鑊之誅，妻子並徙，以絕妄言之路。」章寢不報。",
       "annotations": [
         {
-          "id": "zztj.57.p79.h3",
-          "type": "person",
-          "at": 30,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "審忠上書言靈帝即位之初事，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p79.h8",
-          "type": "person",
-          "at": 43,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "所指為靈帝即位初臨朝之竇太后(竇妙)"
-        },
-        {
           "id": "zztj.57.p79.h1",
+          "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p79.h2",
           "type": "person",
           "at": 71,
           "length": 2,
@@ -1959,53 +1796,13 @@
           "via": "primary"
         },
         {
-          "id": "zztj.57.p79.h4",
-          "type": "person",
-          "at": 127,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "審忠上書言靈帝即位之初事，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p79.h2",
+          "id": "zztj.57.p79.h3",
           "type": "person",
           "at": 150,
           "length": 2,
           "text": "尹勳",
           "person_id": "yinxun_2",
           "via": "primary"
-        },
-        {
-          "id": "zztj.57.p79.h5",
-          "type": "person",
-          "at": 357,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "審忠上書言靈帝即位之初事，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p79.h6",
-          "type": "person",
-          "at": 394,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "審忠上書言靈帝即位之初事，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p79.h7",
-          "type": "person",
-          "at": 479,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "審忠上書言靈帝即位之初事，陛下指靈帝"
         }
       ]
     },
@@ -2014,27 +1811,16 @@
       "text": "中常侍呂強清忠奉公，帝以眾例封為都鄉侯，強固辭不受，因上疏陳事曰：「臣聞高祖重約，非功臣不侯，所以重天爵、明勸戒也。中常侍曹節等，宦官祐薄，品卑人賤，讒諂媚主，佞邪徼寵，有趙高之禍，未被轘裂之誅。陛下不悟，妄授茅土，開國承家，小人是用，又並及家人，重金兼紫，交結邪黨，下比群佞。陰陽乖剌，稼穡荒蕪，人用不康，罔不由茲。臣誠知封事已行，言之無逮，所以冒死干觸陳愚忠者，實願陛下損改既謬，從此一止。臣又聞後宮采女數千餘人，衣食之費日數百金，比谷雖賤而戶有饑色，案法當貴而今更賤者，由賦發繁數，以解縣官，寒不敢衣，饑不敢食，民有斯厄而莫之恤。宮女無用，填積後庭，天下雖復盡力耕桑，猶不能供。又，前召議郎蔡邕對問於金商門，邕不敢懷道迷國，而切言極對，毀刺貴臣，譏呵宦官。陛下不密其言，至令宣露，群邪項領，膏脣拭舌，競欲咀嚼，造作飛條。陛下回受誹謗，致邕刑罪，室家徙放，老幼流離，豈不負忠臣哉！今群臣皆以邕為戒，上畏不測之難，下懼劍客之害，臣知朝廷不復得聞忠言矣！故太尉段熲，武勇冠世，習於邊事，垂發服戎，功成皓首，歷事二主，勳烈獨昭。陛下既已式序，位登台司，而為司隸校尉陽球所見誣脅，一身既斃，而妻子遠播，天下惆悵，功臣失望。宜征邕更加授任，反熲家屬，則忠貞路開，眾怨以弭矣。」帝知其忠而不能用。",
       "annotations": [
         {
-          "id": "zztj.57.p80.h3",
-          "type": "person",
-          "at": 98,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對靈帝上書，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p80.h4",
-          "type": "person",
-          "at": 185,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對靈帝上書，陛下指靈帝"
-        },
-        {
           "id": "zztj.57.p80.h1",
+          "type": "person",
+          "at": 61,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.57.p80.h2",
           "type": "person",
           "at": 298,
           "length": 2,
@@ -2043,43 +1829,13 @@
           "via": "primary"
         },
         {
-          "id": "zztj.57.p80.h5",
-          "type": "person",
-          "at": 331,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對靈帝上書，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p80.h6",
-          "type": "person",
-          "at": 363,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對靈帝上書，陛下指靈帝"
-        },
-        {
-          "id": "zztj.57.p80.h2",
+          "id": "zztj.57.p80.h3",
           "type": "person",
           "at": 430,
           "length": 2,
           "text": "段熲",
           "person_id": "duanjiong",
           "via": "primary"
-        },
-        {
-          "id": "zztj.57.p80.h7",
-          "type": "person",
-          "at": 463,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕對靈帝上書，陛下指靈帝"
         }
       ]
     },
@@ -2138,7 +1894,17 @@
     {
       "id": "zztj.57.p85",
       "text": "初，司徒劉郃兄侍中鯈與竇武同謀，俱死。永樂少府陳球說郃曰：「公出自宗室，位登台鼎，天下瞻望，社稷鎮衛，豈得雷同，容容無違而已。今曹節等放縱為害，而久在左右，又公兄侍中受害節等，今可表徙衛尉陽球為司隸校尉，以次收節等誅之，政出聖主，天下太平，可翹足而待也！」郃曰：「凶豎多耳目，恐事未會，先受其禍。」尚書劉納曰：「為國棟樑，傾危不持，焉用延彼相邪！」郃許諾，亦與陽球結謀。球小妻，程璜之女，由是節等頗得聞知，乃重賂璜，且脅之。璜懼迫，以球謀告節，節因共白帝曰：「郃與劉納、陳球、陽球交通書疏，謀議不軌。」帝大怒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.57.p85.h1",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.57.p86",
@@ -2286,16 +2052,6 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 光和3年 (AD 180)，月份「十二月」"
-        },
-        {
-          "id": "zztj.57.p96.h1",
-          "type": "person",
-          "at": 13,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "立何皇后(靈帝皇后)，不在花名冊"
         }
       ]
     },

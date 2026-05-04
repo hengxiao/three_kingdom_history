@@ -161,16 +161,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: hhs.74.p10
-  at: 16
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 靈帝崩袁紹勸何進「脅太后誅諸宦官」即脅何太后，對應 hetaihou。
-  id: hhs.74.p10.h21
 - id: hhs.74.p10.h5
   anchor: hhs.74.p10
   at: 24
@@ -1665,26 +1655,6 @@ annotations:
   person_id: hejin
   text: 何進
   via: primary
-- anchor: hhs.74.p71
-  at: 137
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 袁紹奏「太后被質」即靈帝崩何進敗後何太后被劫，對應 hetaihou。
-  id: hhs.74.p71.h2
-- anchor: hhs.74.p71
-  at: 147
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 袁紹奏中「陛下聖德幼沖」既親遭困，按獻帝幼沖即位，對應 xianhan。
-  id: hhs.74.p71.h3
 - id: hhs.74.p74.h1
   anchor: hhs.74.p74
   at: 7
@@ -1781,16 +1751,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: hhs.74.p82
-  at: 63
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 盟詞「幽鴆太后，戮殺弘農」即董卓鴆殺何太后與弘農王劉辯，對應 hetaihou。
-  id: hhs.74.p82.h4
 - id: hhs.74.p85.h1
   anchor: hhs.74.p85
   at: 14
@@ -1847,46 +1807,6 @@ annotations:
   person_id: zhaoqi
   text: 趙岐
   via: primary
-- anchor: hhs.74.p87
-  at: 11
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 袁紹奏「太僕趙岐銜命來征」即獻帝遣使，「陛下含弘之施」即獻帝，對應 xianhan。
-  id: hhs.74.p87.h2
-- anchor: hhs.74.p92
-  at: 109
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同奏「陛下播越非所」即獻帝西遷，對應 xianhan。
-  id: hhs.74.p92.h1
-- anchor: hhs.74.p92
-  at: 377
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「誠恐陛下日月之明」即奏獻帝，對應 xianhan。
-  id: hhs.74.p92.h2
-- anchor: hhs.74.p93
-  at: 40
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同奏「惟陛下垂尸鳩之平」即奏獻帝，對應 xianhan。
-  id: hhs.74.p93.h1
 - id: hhs.74.p98.h1
   anchor: hhs.74.p98
   at: 19

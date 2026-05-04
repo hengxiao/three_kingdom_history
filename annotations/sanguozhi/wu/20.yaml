@@ -103,16 +103,6 @@ annotations:
   person_id: wangfan
   text: 王蕃
   via: primary
-- anchor: wu.20.p5
-  at: 63
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱上疏為王蕃鳴冤，「陛下忿其苦辭」對孫皓（皓殺王蕃事）。
-  id: wu.20.p5.h3
 - id: wu.20.p6.h1
   anchor: wu.20.p6
   at: 0
@@ -153,16 +143,6 @@ annotations:
   person_id: heshao
   text: 賀邵
   via: primary
-- anchor: wu.20.p8
-  at: 115
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 樓玄事，疏中對孫皓「陛下既垂意博古」。
-  id: wu.20.p8.h2
 - id: wu.20.p8.h1
   anchor: wu.20.p8
   at: 182
@@ -171,16 +151,6 @@ annotations:
   person_id: louxuan
   text: 樓玄
   via: primary
-- anchor: wu.20.p8
-  at: 236
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同疏對孫皓「乞陛下赦玄前愆」。
-  id: wu.20.p8.h3
 - id: wu.20.p9.a1
   anchor: wu.20.p9
   at: 87
@@ -217,56 +187,6 @@ annotations:
   person_id: sunhao_2
   text: 孫皓
   via: primary
-- anchor: wu.20.p10
-  at: 51
-  length: 2
-  type: person
-  person_id: sunjin
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「領太子太傅」— 賀邵在孫皓朝為太子太傅；皓太子為孫瑾（建衡元年立），roster 無，置 null。
-  id: wu.20.p10.h4
-- anchor: wu.20.p11
-  at: 41
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 賀邵諫疏對孫皓「陛下以至德淑姿」。
-  id: wu.20.p11.h1
-- anchor: wu.20.p11
-  at: 194
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「陛下處九天之上」。
-  id: wu.20.p11.h2
-- anchor: wu.20.p12
-  at: 77
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 賀邵諫疏對孫皓「至於陛下，嚴刑法以禁直辭」。
-  id: wu.20.p12.h2
-- anchor: wu.20.p12
-  at: 122
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下求之如忘」。
-  id: wu.20.p12.h3
 - id: wu.20.p12.h1
   anchor: wu.20.p12
   at: 137
@@ -275,66 +195,6 @@ annotations:
   person_id: wangfan
   text: 王蕃
   via: primary
-- anchor: wu.20.p12
-  at: 191
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「陛下猥發雷霆」。
-  id: wu.20.p12.h4
-- anchor: wu.20.p13
-  at: 29
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 賀邵言何定事疏對孫皓「而陛下愛其佞媚」。
-  id: wu.20.p13.h1
-- anchor: wu.20.p13
-  at: 264
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下上懼皇天譴告之誚」。
-  id: wu.20.p13.h2
-- anchor: wu.20.p14
-  at: 28
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段對孫皓「陛下昔韜神光」。
-  id: wu.20.p14.h1
-- anchor: wu.20.p14
-  at: 260
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段對孫皓「願陛下寬賦除煩」。
-  id: wu.20.p14.h2
-- anchor: wu.20.p15
-  at: 11
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 賀邵疏對孫皓「陛下不恃己之威德」。
-  id: wu.20.p15.h2
 - id: wu.20.p15.h1
   anchor: wu.20.p15
   at: 53
@@ -343,36 +203,6 @@ annotations:
   person_id: sunquan
   text: 大皇帝
   via: chapter_alias
-- anchor: wu.20.p15
-  at: 94
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「至於陛下，陛下宜勉崇德器」第一個。
-  id: wu.20.p15.h3
-- anchor: wu.20.p15
-  at: 97
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓，第二個「陛下」承前。
-  id: wu.20.p15.h4
-- anchor: wu.20.p15
-  at: 290
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下遠考前事」。
-  id: wu.20.p15.h5
 - id: wu.20.p16.h1
   anchor: wu.20.p16
   at: 24
@@ -425,26 +255,6 @@ annotations:
   length: 0
   type: pei
   text: 裴松之曰：曜本名昭，史爲晉諱，改之。
-- anchor: wu.20.p17
-  at: 37
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「遷太子中庶子。時蔡穎亦在東宮」— 韋曜為太子中庶子，下文明點「太子和」，太子即孫和。
-  id: wu.20.p17.h2
-- anchor: wu.20.p17
-  at: 56
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子和以為無益」— 文中明點「和」，即孫和。
-  id: wu.20.p17.h3
 - id: wu.20.p22.h1
   anchor: wu.20.p22
   at: 10
@@ -501,16 +311,6 @@ annotations:
   era: 鳳凰
   era_year: 2
   reasoning: 原文「鳳凰二年」直接出现年号；解析為 AD 273（回溯前事，不推進章節時間軸）
-- anchor: wu.20.p27
-  at: 61
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 華覈為韋曜上疏（孫皓鳳凰二年），對孫皓「敷宣陛下大舜之美」。
-  id: wu.20.p27.h1
 - id: wu.20.p28.h1
   anchor: wu.20.p28
   at: 106
@@ -527,16 +327,6 @@ annotations:
   person_id: huahe
   text: 華覈
   via: primary
-- anchor: wu.20.p31
-  at: 140
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 華覈報蜀亡疏（炎興元年/263），對孫皓「陛下聖仁」。
-  id: wu.20.p31.h2
 - id: wu.20.p32.h1
   anchor: wu.20.p32
   at: 0
@@ -579,16 +369,6 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 天冊元年 (AD 275)，月份「六月」
-- anchor: wu.20.p37
-  at: 160
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 華覈論農儲疏對孫皓「不能為陛下計明矣」。
-  id: wu.20.p37.h1
 - id: wu.20.p43.t1
   anchor: wu.20.p43
   at: 34

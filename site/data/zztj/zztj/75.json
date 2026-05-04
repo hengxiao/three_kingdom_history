@@ -191,16 +191,6 @@
           "text": "費禕",
           "person_id": "feiyi",
           "via": "primary"
-        },
-        {
-          "id": "zztj.75.p8.h3",
-          "type": "person",
-          "at": 58,
-          "length": 2,
-          "text": "主上",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "主上依國別指劉禪或曹芳"
         }
       ]
     },
@@ -265,16 +255,6 @@
           "text": "譙周",
           "person_id": "qiaozhou",
           "via": "primary"
-        },
-        {
-          "id": "zztj.75.p13.h2",
-          "type": "person",
-          "at": 326,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間蜀漢陛下指後主劉禪"
         }
       ]
     },
@@ -462,16 +442,6 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 正始8年 (AD 247)，月份「十二月」"
-        },
-        {
-          "id": "zztj.75.p21.h1",
-          "type": "person",
-          "at": 87,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間魏齊王曹芳在位"
         }
       ]
     },
@@ -880,46 +850,6 @@
           "text": "王觀",
           "person_id": "wangguan",
           "via": "primary"
-        },
-        {
-          "id": "zztj.75.p37.h3",
-          "type": "person",
-          "at": 119,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間魏齊王曹芳在位"
-        },
-        {
-          "id": "zztj.75.p37.h4",
-          "type": "person",
-          "at": 158,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間魏齊王曹芳在位"
-        },
-        {
-          "id": "zztj.75.p37.h5",
-          "type": "person",
-          "at": 285,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間魏齊王曹芳在位"
-        },
-        {
-          "id": "zztj.75.p37.h6",
-          "type": "person",
-          "at": 302,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正始-嘉平年間魏齊王曹芳在位"
         }
       ]
     },
@@ -1478,17 +1408,16 @@
       "text": "初，會稽潘夫人有寵於吳主，生少子亮，吳主愛之。全公主既與太子和有隙，欲豫自結，數稱亮美，以其夫之兄子尚女妻之。吳主以魯王霸結朋黨以害其兄，心亦惡之，謂侍中孫峻曰：「子弟不睦，臣下分部，將有袁氏之敗，為天下笑。若使一人立者，安得不亂乎！」遂有廢和立亮之意，然猶沉吟者歷年。峻，靜之曾孫也。",
       "annotations": [
         {
-          "id": "zztj.75.p63.h2",
+          "id": "zztj.75.p63.h1",
           "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
+          "at": 4,
+          "length": 3,
+          "text": "潘夫人",
+          "person_id": "panhuanghou",
+          "via": "alias"
         },
         {
-          "id": "zztj.75.p63.h1",
+          "id": "zztj.75.p63.h2",
           "type": "person",
           "at": 77,
           "length": 2,
@@ -1502,56 +1431,6 @@
       "id": "zztj.75.p64",
       "text": "秋，吳主遂幽太子和。驃騎將軍朱據諫曰：「太子，國之本根。加以雅性仁孝，天下歸心。昔晉獻用驪姬而申生不存，漢武信江充而戾太子冤死，臣竊懼太子不堪其憂，雖立思子之宮，無所復及矣！」吳主不聽。據與尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和；吳主登白爵觀，見，甚惡之，敕據、晃等「無事匆匆」。無難督陳正、五營督陳象各上書切諫，據、晃亦固諫不已；吳主大怒，族誅正、象。牽據、晃入殿，據、晃猶口諫，叩頭流血，辭氣不撓。吳主杖之各一百，左遷據為新都郡丞，晃斥歸田裡，群司坐諫誅放者以十數。遂廢太子和為庶人，徙故鄣，賜魯王霸死。殺楊竺，流其屍於江，又誅全寄、吳安、孫奇，皆以其黨霸譖和故也。初，楊竺少獲聲名，而陸遜謂之終敗，勸竺兄穆令與之別族。及竺敗，穆以數諫戒竺得免死。朱據未至官，中書令孫弘以詔書追賜死。",
       "annotations": [
-        {
-          "id": "zztj.75.p64.h2",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
-          "id": "zztj.75.p64.h3",
-          "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
-          "id": "zztj.75.p64.h4",
-          "type": "person",
-          "at": 59,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
-          "id": "zztj.75.p64.h5",
-          "type": "person",
-          "at": 67,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
-          "id": "zztj.75.p64.h6",
-          "type": "person",
-          "at": 239,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
         {
           "id": "zztj.75.p64.h1",
           "type": "person",
@@ -1617,18 +1496,7 @@
     {
       "id": "zztj.75.p67",
       "text": "吳主立子亮為太子。",
-      "annotations": [
-        {
-          "id": "zztj.75.p67.h1",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.75.p68",
@@ -2019,7 +1887,17 @@
     {
       "id": "zztj.75.p82",
       "text": "吳主立潘夫人為皇后，大赦，改元太元。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p82.h1",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "潘夫人",
+          "person_id": "panhuanghou",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.75.p83",
@@ -2069,6 +1947,15 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 嘉平3年 (AD 251)，月份「七月」"
+        },
+        {
+          "id": "zztj.75.p84.h1",
+          "type": "person",
+          "at": 10,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
         }
       ]
     },
@@ -2141,16 +2028,6 @@
       "text": "是時，吳主頗寤太子和之無罪，冬，十一月，吳主祀南郊還，得風疾，欲召和還；全公主及侍中孫峻、中書令孫弘固爭之，乃止。吳主以太子亮幼少，議所付託，孫峻薦大將軍諸葛恪可付大事。吳主嫌恪剛很自用，峻曰：「當今朝臣之才，無及恪者。」乃召恪於武昌。恪將行，上大將軍呂岱戒之曰：「世方多難，子每事必十思。」恪曰：「昔季文子三思而後行，夫子曰：『再思可矣。』今君令恪十思，明恪之劣也！」岱無以答，時鹹謂之失言。",
       "annotations": [
         {
-          "id": "zztj.75.p89.h5",
-          "type": "person",
-          "at": 7,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
           "id": "zztj.75.p89.t1",
           "type": "temporal",
           "at": 16,
@@ -2173,16 +2050,6 @@
           "text": "孫峻",
           "person_id": "sunjun",
           "via": "primary"
-        },
-        {
-          "id": "zztj.75.p89.h6",
-          "type": "person",
-          "at": 60,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
         },
         {
           "id": "zztj.75.p89.h2",
@@ -2241,16 +2108,6 @@
       "id": "zztj.75.p91",
       "text": "恪至建業，見吳主於臥內，受詔床下，以大將軍領太子太傅，孫弘領少傅；詔有司諸事一統於恪，惟殺生大事，然後以聞。為制群官百司拜揖之儀，各有品序。又以會稽太守北海滕胤為太常。胤，吳主婿也。",
       "annotations": [
-        {
-          "id": "zztj.75.p91.h2",
-          "type": "person",
-          "at": 22,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
         {
           "id": "zztj.75.p91.h1",
           "type": "person",
@@ -2378,18 +2235,7 @@
     {
       "id": "zztj.75.p97",
       "text": "吳主立故太子和為南陽王，使居長沙；仲姬子奮為齊王，居武昌；王夫人子休為琅邪王，居虎林。",
-      "annotations": [
-        {
-          "id": "zztj.75.p97.h1",
-          "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.75.p98",
@@ -2487,16 +2333,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.75.p101.h9",
-          "type": "person",
-          "at": 110,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "吳赤烏年間太子孫和(嘉平二年250被廢)"
-        },
-        {
           "id": "zztj.75.p101.h6",
           "type": "person",
           "at": 128,
@@ -2528,7 +2364,17 @@
     {
       "id": "zztj.75.p102",
       "text": "恪不欲諸王處濱江兵馬之地，乃徙齊王奮於豫章，琅邪王休於丹陽。奮不肯徙，又數越法度，恪為箋以遺奮曰：「帝王之尊，與天同位，是以家天下，臣父兄；仇讎有善，不得不舉，親戚有惡，不得不誅，所以承天理物，先國後身，蓋聖人立制，百代不易之道也。昔漢初興，多王子弟，至於太強，輒為不軌，上則幾危社稷，下則骨肉相殘，其後懲戒以為大諱。自光武以來，諸王有制，惟得自娛於宮內，不得臨民，干與政事，其與交通，皆有重禁，遂以全安，各保福祚，此則前世得失之驗也。大行皇帝覽古戒今，防牙遏萌，慮於千載，是以寢疾之日，分遣諸王各早就國，詔策勤渠，科禁嚴峻，其所戒敕，無所不至。誠欲上安宗廟，下全諸王，使百世相承，無凶國害家之悔也。大王宜上惟太伯順父之志，中念河間獻王、東海王強恭順之節，下存前世驕恣荒亂之王以為警戒。而聞頃至武昌以來，多違詔敕，不拘制度，擅發諸將兵治護宮室。又左右常從有罪過者，當以表聞，公付有司；而擅私殺，事不明白。中書楊融，親受詔敕，所當恭肅，乃云『正自不聽禁，當如我何！』聞此之日，小大驚怪，莫不寒心。裡語曰：『明鑒所以照形，古事所以知今。』大王宜深以魯王為戒，改易其行，戰戰兢兢，盡禮朝廷，如此，則無求不得。若棄忘先帝法教，懷輕慢之心，臣下寧負大王，不敢負先帝遺詔；寧為大王所怨疾，豈敢忘尊主之威而令詔敕不行於籓臣邪！向使魯王早納忠直之言，懷驚懼之慮，則享祚無窮，豈有滅亡之禍哉！夫良藥苦口，唯病者能甘之；忠言逆耳，唯達者能受之。今者恪等心婁心婁，欲為大王除危殆於萌芽，廣福慶之基原，是以不自知言至，願蒙三思！」王得箋，懼，遂移南昌。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.75.p102.h1",
+          "type": "person",
+          "at": 160,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.75.p103",

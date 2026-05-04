@@ -48,16 +48,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.3.p1.h5",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "「明皇帝諱叡，字元仲，文帝太子也」— 此處述明帝為曹丕之太子，即曹叡本人。"
-        },
-        {
           "id": "wei.3.p1.h4",
           "type": "person",
           "at": 18,
@@ -109,56 +99,6 @@
           "reasoning": "承前文年號「黃初」推得，「七年夏五月」 = 黃初7年 = AD 226"
         },
         {
-          "id": "wei.3.p1.h6",
-          "type": "person",
-          "at": 78,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "「乃立爲皇太子」— 黃初七年五月曹丕病篤立曹叡為皇太子。"
-        },
-        {
-          "id": "wei.3.p1.h7",
-          "type": "person",
-          "at": 94,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「尊皇太后曰太皇太后」— 即尊曹丕母卞皇太后為太皇太后；卞太后未在 roster，置 null。"
-        },
-        {
-          "id": "wei.3.p1.h8",
-          "type": "person",
-          "at": 99,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「太皇太后」即卞氏被進尊之新銜；roster 無，置 null。"
-        },
-        {
-          "id": "wei.3.p1.h10",
-          "type": "person",
-          "at": 102,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "guohuanghou",
-          "via": "llm",
-          "reasoning": "「皇后曰皇太后」— 皇后即文帝郭皇后（文德郭皇后）；roster 無，置 null。"
-        },
-        {
-          "id": "wei.3.p1.h9",
-          "type": "person",
-          "at": 106,
-          "length": 2,
-          "text": "太后",
-          "person_id": "guohuanghou",
-          "via": "llm",
-          "reasoning": "「皇后曰皇太后」— 即尊文德郭皇后為皇太后；roster 無郭太后，置 null。"
-        },
-        {
           "id": "wei.3.p1.a3",
           "type": "pei",
           "at": 117,
@@ -166,14 +106,13 @@
           "text": "《世語》曰：帝與朝士素不接，即位之後，羣下想聞風采。居數日，獨見侍中劉曄，語盡日。衆人側聽，曄旣出，問「何如」？曄曰：「秦始皇、漢孝武之儔，才具微不及耳。」"
         },
         {
-          "id": "wei.3.p1.h11",
+          "id": "wei.3.p1.h5",
           "type": "person",
-          "at": 129,
-          "length": 2,
-          "text": "皇后",
+          "at": 123,
+          "length": 3,
+          "text": "甄夫人",
           "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "「追謚母甄夫人曰文昭皇后」— 即明帝生母甄氏；roster 無甄皇后，置 null。"
+          "via": "chapter_alias"
         }
       ]
     },
@@ -395,16 +334,6 @@
           "reasoning": "年承前文 太和元年 (AD 227)，月份「二月」"
         },
         {
-          "id": "wei.3.p4.h3",
-          "type": "person",
-          "at": 88,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "「立文昭皇后寢廟於鄴」— 文昭皇后即甄氏；roster 無，置 null。"
-        },
-        {
           "id": "wei.3.p4.t3",
           "type": "temporal",
           "at": 104,
@@ -465,14 +394,13 @@
           "reasoning": "年承前文 太和元年 (AD 227)，月份「十一月」"
         },
         {
-          "id": "wei.3.p4.h4",
+          "id": "wei.3.p4.h3",
           "type": "person",
-          "at": 158,
+          "at": 160,
           "length": 2,
-          "text": "皇后",
+          "text": "毛氏",
           "person_id": "maohuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后毛氏」— 太和元年立明帝毛皇后（明悼毛皇后）；roster 無，置 null。"
+          "via": "alias"
         },
         {
           "id": "wei.3.p4.t7",
@@ -819,12 +747,11 @@
         {
           "id": "wei.3.p7.h2",
           "type": "person",
-          "at": 44,
+          "at": 40,
           "length": 2,
-          "text": "皇后",
+          "text": "吳氏",
           "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "「夫人吳氏曰高皇后」— 追尊高祖大長秋夫人吳氏（曹騰夫人）為高皇后；roster 無，置 null。"
+          "via": "alias"
         }
       ]
     },
@@ -1020,16 +947,6 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「六月」"
-        },
-        {
-          "id": "wei.3.p12.h5",
-          "type": "person",
-          "at": 183,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「太皇太后崩」— 太和四年六月卞太后崩；roster 無，置 null。"
         },
         {
           "id": "wei.3.p12.t4",
@@ -1841,6 +1758,15 @@
         {
           "id": "wei.3.p23.h4",
           "type": "person",
+          "at": 75,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.3.p23.h5",
+          "type": "person",
           "at": 126,
           "length": 1,
           "text": "權",
@@ -1848,7 +1774,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.3.p23.h5",
+          "id": "wei.3.p23.h6",
           "type": "person",
           "at": 153,
           "length": 1,
@@ -1872,7 +1798,7 @@
           "reasoning": "年承前文 青龍2年 (AD 234)，月份「秋七月」"
         },
         {
-          "id": "wei.3.p23.h6",
+          "id": "wei.3.p23.h7",
           "type": "person",
           "at": 172,
           "length": 1,
@@ -1881,7 +1807,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.3.p23.h7",
+          "id": "wei.3.p23.h8",
           "type": "person",
           "at": 195,
           "length": 1,
@@ -1890,7 +1816,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.3.p23.h8",
+          "id": "wei.3.p23.h9",
           "type": "person",
           "at": 215,
           "length": 3,
@@ -1899,7 +1825,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.3.p23.h9",
+          "id": "wei.3.p23.h10",
           "type": "person",
           "at": 235,
           "length": 1,
@@ -1908,7 +1834,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.3.p23.h10",
+          "id": "wei.3.p23.h11",
           "type": "person",
           "at": 238,
           "length": 1,
@@ -2588,12 +2514,11 @@
         {
           "id": "wei.3.p36.h1",
           "type": "person",
-          "at": 58,
+          "at": 60,
           "length": 2,
-          "text": "皇后",
+          "text": "毛氏",
           "person_id": "maohuanghou",
-          "via": "llm",
-          "reasoning": "「皇后毛氏卒」— 景初元年明悼毛皇后卒；roster 無，置 null。"
+          "via": "alias"
         },
         {
           "id": "wei.3.p36.t2",
@@ -2638,16 +2563,6 @@
           "at": 127,
           "length": 0,
           "text": "邔音其己反"
-        },
-        {
-          "id": "wei.3.p36.h2",
-          "type": "person",
-          "at": 146,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "「文昭皇后立廟京都」— 文昭皇后即甄氏；roster 無，置 null。"
         },
         {
           "id": "wei.3.p36.a3",

@@ -98,12 +98,11 @@
         {
           "id": "zztj.61.p7.h1",
           "type": "person",
-          "at": 56,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定"
+          "at": 54,
+          "length": 4,
+          "text": "靈懷皇后",
+          "person_id": "wangrong",
+          "via": "primary"
         }
       ]
     },
@@ -1400,6 +1399,15 @@
         {
           "id": "zztj.61.p34.h2",
           "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "吳氏",
+          "person_id": "muhuanghou_shu",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.61.p34.h3",
+          "type": "person",
           "at": 24,
           "length": 1,
           "text": "堅",
@@ -1407,7 +1415,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p34.h3",
+          "id": "zztj.61.p34.h4",
           "type": "person",
           "at": 49,
           "length": 2,
@@ -1416,7 +1424,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.61.p34.h4",
+          "id": "zztj.61.p34.h5",
           "type": "person",
           "at": 89,
           "length": 1,
@@ -1425,7 +1433,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p34.h5",
+          "id": "zztj.61.p34.h6",
           "type": "person",
           "at": 110,
           "length": 1,
@@ -1835,12 +1843,11 @@
         {
           "id": "zztj.61.p45.h1",
           "type": "person",
-          "at": 24,
+          "at": 21,
           "length": 2,
-          "text": "皇后",
+          "text": "伏氏",
           "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定"
+          "via": "alias"
         }
       ]
     },
@@ -1852,18 +1859,7 @@
     {
       "id": "zztj.61.p47",
       "text": "是日，傕復移乘輿境北塢，使校尉監塢門，內外隔絕，侍臣皆有飢色。帝求米五斗、牛骨五具以賜左右。傕曰：「朝晡上飯，何用米為？」乃以臭牛骨與之。帝大怒，欲詰責之。侍中楊琦諫曰：「傕自知所犯悖逆，欲轉車駕幸池陽黃白城，臣願陛下忍之。」帝乃止。司徒趙溫與傕書曰：「公前屠陷王城，殺戮大臣，今爭睚眥之隙，以成千鈞之仇。朝廷欲令和解，詔命不行，而復欲轉乘輿於黃白城，此誠老夫所不解也。於《易》，一為過，再為涉，三而弗改，滅其頂，凶。不如早共和解。」傕大怒，欲殺溫，其弟應諫之，數日乃止。",
-      "annotations": [
-        {
-          "id": "zztj.61.p47.h1",
-          "type": "person",
-          "at": 107,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "興平年間(194-195)獻帝在位"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.61.p48",
@@ -1877,16 +1873,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "zztj.61.p48.h2",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "興平年間(194-195)獻帝在位"
         }
       ]
     },
@@ -1989,16 +1975,16 @@
         {
           "id": "zztj.61.p51.h9",
           "type": "person",
-          "at": 218,
-          "length": 1,
-          "text": "布",
-          "person_id": "lvbu",
-          "via": "given_name"
+          "at": 67,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "zztj.61.p51.h10",
           "type": "person",
-          "at": 224,
+          "at": 218,
           "length": 1,
           "text": "布",
           "person_id": "lvbu",
@@ -2007,6 +1993,15 @@
         {
           "id": "zztj.61.p51.h11",
           "type": "person",
+          "at": 224,
+          "length": 1,
+          "text": "布",
+          "person_id": "lvbu",
+          "via": "given_name"
+        },
+        {
+          "id": "zztj.61.p51.h12",
+          "type": "person",
           "at": 235,
           "length": 2,
           "text": "袁術",
@@ -2014,7 +2009,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.61.p51.h12",
+          "id": "zztj.61.p51.h13",
           "type": "person",
           "at": 246,
           "length": 1,
@@ -2023,7 +2018,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h13",
+          "id": "zztj.61.p51.h14",
           "type": "person",
           "at": 272,
           "length": 1,
@@ -2032,7 +2027,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h14",
+          "id": "zztj.61.p51.h15",
           "type": "person",
           "at": 335,
           "length": 2,
@@ -2041,7 +2036,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.61.p51.h15",
+          "id": "zztj.61.p51.h16",
           "type": "person",
           "at": 513,
           "length": 1,
@@ -2050,7 +2045,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h16",
+          "id": "zztj.61.p51.h17",
           "type": "person",
           "at": 517,
           "length": 1,
@@ -2059,7 +2054,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h17",
+          "id": "zztj.61.p51.h18",
           "type": "person",
           "at": 532,
           "length": 1,
@@ -2068,7 +2063,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h18",
+          "id": "zztj.61.p51.h19",
           "type": "person",
           "at": 564,
           "length": 1,
@@ -2077,7 +2072,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h19",
+          "id": "zztj.61.p51.h20",
           "type": "person",
           "at": 576,
           "length": 1,
@@ -2086,7 +2081,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h20",
+          "id": "zztj.61.p51.h21",
           "type": "person",
           "at": 621,
           "length": 1,
@@ -2095,7 +2090,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h21",
+          "id": "zztj.61.p51.h22",
           "type": "person",
           "at": 625,
           "length": 1,
@@ -2104,7 +2099,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h22",
+          "id": "zztj.61.p51.h23",
           "type": "person",
           "at": 638,
           "length": 1,
@@ -2113,7 +2108,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.61.p51.h23",
+          "id": "zztj.61.p51.h24",
           "type": "person",
           "at": 641,
           "length": 2,
@@ -2122,7 +2117,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.61.p51.h24",
+          "id": "zztj.61.p51.h25",
           "type": "person",
           "at": 644,
           "length": 2,
@@ -2131,7 +2126,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.61.p51.h25",
+          "id": "zztj.61.p51.h26",
           "type": "person",
           "at": 647,
           "length": 1,
@@ -2431,16 +2426,6 @@
           "text": "賈詡",
           "person_id": "jiaxu",
           "via": "primary"
-        },
-        {
-          "id": "zztj.61.p62.h2",
-          "type": "person",
-          "at": 168,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "興平年間(194-195)獻帝在位"
         }
       ]
     },
@@ -2448,26 +2433,6 @@
       "id": "zztj.61.p63",
       "text": "時殘破之餘，虎賁、羽林不滿百人，傕、汜兵繞營叫呼，吏士失色，各有分散之意。李樂懼，欲令車駕御船過砥柱，出孟津。楊彪以為河道險難，非萬乘所宜乘；乃使李樂夜渡，潛具船，舉火為應。上與公卿步出營，皇后兄伏德扶后，一手挾絹十匹。董承使符節令孫徽從人間斫之，殺旁侍者，血濺後衣。河岸高十餘丈，不得下，乃以絹為輦，使人居前負帝，餘皆匍匐而下，或從上自投，冠幘皆壞。既至河邊，士卒爭赴舟，董承、李樂以戈擊之，手指於舟中可掬。帝乃御船。同濟者，皇后及楊彪以下才數十人，其宮女及吏民不得渡者，皆為兵所掠奪，衣服俱盡，發亦被截，凍死者不可勝計。衛尉士孫瑞為傕所殺。",
       "annotations": [
-        {
-          "id": "zztj.61.p63.h2",
-          "type": "person",
-          "at": 95,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定"
-        },
-        {
-          "id": "zztj.61.p63.h3",
-          "type": "person",
-          "at": 214,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定"
-        },
         {
           "id": "zztj.61.p63.h1",
           "type": "person",

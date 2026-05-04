@@ -41,6 +41,14 @@ annotations:
   length: 0
   type: pei
   text: 漢
+- id: wei.30.p2.h1
+  anchor: wei.30.p2
+  at: 1063
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: wei.30.p2.t1
   anchor: wei.30.p2
   at: 1122
@@ -53,7 +61,7 @@ annotations:
   era: 建武
   era_year: 25
   reasoning: 原文「建武二十五年」直接出现年号；解析為 AD 49
-- id: wei.30.p2.h1
+- id: wei.30.p2.h2
   anchor: wei.30.p2
   at: 1275
   length: 2
@@ -61,7 +69,7 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- id: wei.30.p2.h2
+- id: wei.30.p2.h3
   anchor: wei.30.p2
   at: 1392
   length: 2
@@ -341,10 +349,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 238
-  era: 景初
-  era_year: 2
-  reasoning: 「明年」 = 当前年 景初元年 (AD 237) 之次年 = AD 238
+  year_ad: 222
+  era: 黃初
+  era_year: 3
+  reasoning: 「明年」 = 当前年 黃初2年 (AD 221) 之次年 = AD 222
 - id: wei.30.p7.h5
   anchor: wei.30.p7
   at: 292
@@ -353,6 +361,18 @@ annotations:
   person_id: tianyu
   text: 田豫
   via: primary
+- id: wei.30.p7.t3
+  anchor: wei.30.p7
+  at: 303
+  length: 2
+  type: temporal
+  text: 五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 224
+  era: 黃初
+  era_year: 5
+  reasoning: 承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224
 - id: wei.30.p8.t1
   anchor: wei.30.p8
   at: 0
@@ -421,12 +441,12 @@ annotations:
   text: 正月
   kind: relative
   resolution: bare_month
-  year_ad: 238
+  year_ad: 237
   era: 景初
-  era_year: 2
+  era_year: 1
   month_chinese: 正月
   month_ordinal: 1
-  reasoning: 年承前文 景初2年 (AD 238)，月份「正月」
+  reasoning: 年承前文 景初元年 (AD 237)，月份「正月」
 - id: wei.30.p11.t2
   anchor: wei.30.p11
   at: 529
@@ -435,12 +455,12 @@ annotations:
   text: 五月
   kind: relative
   resolution: bare_month
-  year_ad: 238
+  year_ad: 237
   era: 景初
-  era_year: 2
+  era_year: 1
   month_chinese: 五月
   month_ordinal: 5
-  reasoning: 年承前文 景初2年 (AD 238)，月份「五月」
+  reasoning: 年承前文 景初元年 (AD 237)，月份「五月」
 - id: wei.30.p12.h1
   anchor: wei.30.p12
   at: 128
@@ -463,12 +483,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 238
+  year_ad: 237
   era: 景初
-  era_year: 2
+  era_year: 1
   month_chinese: 十月
   month_ordinal: 10
-  reasoning: 年承前文 景初2年 (AD 238)，月份「十月」
+  reasoning: 年承前文 景初元年 (AD 237)，月份「十月」
 - id: wei.30.p13.t2
   anchor: wei.30.p13
   at: 621
@@ -477,20 +497,20 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 238
+  year_ad: 237
   era: 景初
-  era_year: 2
+  era_year: 1
   month_chinese: 十月
   month_ordinal: 10
-  reasoning: 年承前文 景初2年 (AD 238)，月份「十月」
+  reasoning: 年承前文 景初元年 (AD 237)，月份「十月」
 - id: wei.30.p14.h1
   anchor: wei.30.p14
-  at: 146
-  length: 2
+  at: 144
+  length: 4
   type: person
-  person_id: caocao
-  text: 武帝
-  via: chapter_alias
+  person_id: liuxiu
+  text: 漢光武帝
+  via: primary
 - id: wei.30.p16.h1
   anchor: wei.30.p16
   at: 49
@@ -735,10 +755,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 245
-  era: 正始
-  era_year: 6
-  reasoning: 「其年」 = 当前年 正始6年 (AD 245)
+  year_ad: 238
+  era: 景初
+  era_year: 2
+  reasoning: 「其年」 = 当前年 景初2年 (AD 238)
 - id: wei.30.p35.t3
   anchor: wei.30.p35
   at: 352

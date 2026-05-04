@@ -2,9 +2,17 @@ chapter: zztj.71
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷071
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 72762e8a91a2330428b7fd3cd52c65cc598bc6b629c3835ba911faa157911f53
 annotations:
+- id: zztj.71.p3.h1
+  anchor: zztj.71.p3
+  at: 2
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.71.p4.t1
   anchor: zztj.71.p4
   at: 0
@@ -763,16 +771,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 太和2年 (AD 228)，月份「五月」
-- anchor: zztj.71.p26
-  at: 250
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮後出師表，陛下指後主劉禪
-  id: zztj.71.p26.h14
 - id: zztj.71.p26.h4
   anchor: zztj.71.p26
   at: 289
@@ -1145,16 +1143,6 @@ annotations:
   person_id: sunce
   text: 策
   via: given_name_carry
-- anchor: zztj.71.p33
-  at: 115
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳黃龍元年(229)孫權立孫登為皇太子
-  id: zztj.71.p33.h7
 - id: zztj.71.p33.h4
   anchor: zztj.71.p33
   at: 130
@@ -1163,26 +1151,6 @@ annotations:
   person_id: zhugeke
   text: 諸葛恪
   via: primary
-- anchor: zztj.71.p33
-  at: 134
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳黃龍元年(229)孫權立孫登為皇太子
-  id: zztj.71.p33.h8
-- anchor: zztj.71.p33
-  at: 183
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳黃龍元年(229)孫權立孫登為皇太子
-  id: zztj.71.p33.h9
 - id: zztj.71.p33.h5
   anchor: zztj.71.p33
   at: 188
@@ -1223,36 +1191,6 @@ annotations:
   person_id: zhangzhao
   text: 張昭
   via: primary
-- anchor: zztj.71.p35
-  at: 139
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 吳國國太(孫權母吳氏)，不在花名冊
-  id: zztj.71.p35.h4
-- anchor: zztj.71.p35
-  at: 149
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 張昭對吳大帝孫權言陛下
-  id: zztj.71.p35.h2
-- anchor: zztj.71.p35
-  at: 154
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 張昭對吳大帝孫權言陛下
-  id: zztj.71.p35.h3
 - id: zztj.71.p37.t1
   anchor: zztj.71.p37
   at: 0
@@ -1267,16 +1205,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 太和3年 (AD 229)，月份「六月」
-- anchor: zztj.71.p38
-  at: 21
+- id: zztj.71.p38.h1
+  anchor: zztj.71.p38
+  at: 17
   length: 2
   type: person
   person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 追尊吳氏為高皇后(孫堅之妻吳夫人)，不在花名冊
-  id: zztj.71.p38.h1
+  text: 吳氏
+  via: alias
 - id: zztj.71.p39.t1
   anchor: zztj.71.p39
   at: 2
@@ -1313,16 +1249,6 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 太和3年 (AD 229)，月份「九月」
-- anchor: zztj.71.p40
-  at: 21
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳太子孫登留鎮武昌
-  id: zztj.71.p40.h2
 - id: zztj.71.p40.h1
   anchor: zztj.71.p40
   at: 38
@@ -1331,16 +1257,6 @@ annotations:
   person_id: luxun
   text: 陸遜
   via: primary
-- anchor: zztj.71.p40
-  at: 41
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳太子孫登留鎮武昌
-  id: zztj.71.p40.h3
 - id: zztj.71.p41.h1
   anchor: zztj.71.p41
   at: 2
@@ -1365,16 +1281,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: zztj.71.p42
-  at: 0
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳太子孫登與步騭書
-  id: zztj.71.p42.h2
 - id: zztj.71.p42.h1
   anchor: zztj.71.p42
   at: 7
@@ -1383,16 +1289,6 @@ annotations:
   person_id: buzhi
   text: 步騭
   via: primary
-- anchor: zztj.71.p42
-  at: 115
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 吳太子孫登與步騭書
-  id: zztj.71.p42.h3
 - id: zztj.71.p43.h1
   anchor: zztj.71.p43
   at: 0
@@ -1575,16 +1471,14 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 太和4年 (AD 230)，月份「六月」
-- anchor: zztj.71.p53
-  at: 8
+- id: zztj.71.p53.h1
+  anchor: zztj.71.p53
+  at: 10
   length: 2
   type: person
   person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 魏太皇太后卞氏(武宣皇后)，不在花名冊
-  id: zztj.71.p53.h1
+  text: 卞氏
+  via: alias
 - id: zztj.71.p53.t2
   anchor: zztj.71.p53
   at: 16
@@ -1599,16 +1493,6 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 太和4年 (AD 230)，月份「七月」
-- anchor: zztj.71.p53
-  at: 22
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 魏太皇太后卞氏(武宣皇后)，不在花名冊
-  id: zztj.71.p53.h2
 - id: zztj.71.p54.h1
   anchor: zztj.71.p54
   at: 3
@@ -1663,16 +1547,6 @@ annotations:
   person_id: huaxin
   text: 華歆
   via: primary
-- anchor: zztj.71.p57
-  at: 23
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 太和四年華歆上疏魏明帝
-  id: zztj.71.p57.h2
 - id: zztj.71.p58.h1
   anchor: zztj.71.p58
   at: 2
@@ -1739,16 +1613,6 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太和4年 (AD 230)，月份「十二月」
-- anchor: zztj.71.p62
-  at: 17
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 改葬文昭皇后(甄氏)，不在花名冊
-  id: zztj.71.p62.h1
 - id: zztj.71.p63.h1
   anchor: zztj.71.p63
   at: 13

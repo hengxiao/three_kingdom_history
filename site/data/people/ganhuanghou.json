@@ -22,8 +22,20 @@
   ],
   "mentions_by_work": {
     "zztj": [],
-    "sanguozhi": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.6",
+        "chapter_title": "蜀書·關張馬黃趙傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.6.p16",
+        "at": 74,
+        "data_url": "data/sanguozhi/shu/06.json",
+        "matched": "甘夫人",
+        "snippet": "…於當陽長阪，棄妻子南走，雲身抱弱子，即後主也，保護甘夫人，即後主母也，皆得免難。遷為牙門將軍。先主入蜀，雲留荊州。"
+      }
+    ],
     "houhanshu": []
   },
-  "n_mentions": 0
+  "n_mentions": 1
 }

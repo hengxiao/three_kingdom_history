@@ -72,16 +72,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.14.p2.h5",
-          "type": "person",
-          "at": 47,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「立登爲太子」— 黃武元年立孫登為吳王太子。"
-        },
-        {
           "id": "wu.14.p2.h2",
           "type": "person",
           "at": 67,
@@ -122,16 +112,6 @@
           "reasoning": "原文「黃龍元年」直接出现年号；解析為 AD 229"
         },
         {
-          "id": "wu.14.p2.h6",
-          "type": "person",
-          "at": 236,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「黃龍元年，權稱尊號，登爲皇太子」— 即孫登。"
-        },
-        {
           "id": "wu.14.p2.a1",
           "type": "pei",
           "at": 284,
@@ -159,16 +139,6 @@
           "text": "陸遜",
           "person_id": "luxun",
           "via": "primary"
-        },
-        {
-          "id": "wu.14.p3.h3",
-          "type": "person",
-          "at": 226,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "孫登諫權「天戴陛下」，陛下即吳大帝孫權。"
         },
         {
           "id": "wu.14.p3.h2",
@@ -201,22 +171,11 @@
         {
           "id": "wu.14.p4.h1",
           "type": "person",
-          "at": 68,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「登將拜太子」— 即孫登被立為太子。"
-        },
-        {
-          "id": "wu.14.p4.h2",
-          "type": "person",
-          "at": 83,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「欲立太子，宜先立后」承前句指孫登（亦含禮制論述）。"
+          "at": 28,
+          "length": 3,
+          "text": "步夫人",
+          "person_id": "bulianshi",
+          "via": "alias"
         },
         {
           "id": "wu.14.p4.a1",
@@ -231,36 +190,6 @@
       "id": "wu.14.p5",
       "text": "立凡二十一年，年三十三卒。臨終，上疏曰：「臣以無狀，嬰抱篤疾，自省微劣，懼卒隕斃。臣不自惜，念當委離供養，埋胔后土，長不復奉望宮省，朝覲日月，生無益於國，死貽陛下重慼，以此爲哽結耳。臣聞死生有命，長短自天，周晉、顏回有上智之才，而尚夭折，況臣愚陋，年過其壽，生爲國嗣，沒享榮祚，於臣已多，亦何悲恨哉！方今大事未定，逋寇未討，萬國喁喁，係命陛下，危者望安，亂者仰治。願陛下棄忘臣身，割下流之恩，脩黃老之術，篤養神光，加羞珍膳，廣開神明之慮，以定無窮之業，則率土幸賴，臣死無恨也。皇子和仁孝聦哲，德行清茂，宜早建置，以繫民望。諸葛恪才略博達，器任佐時。張休、顧譚、謝景，皆通敏有識斷，入宜委腹心，出可爲爪牙。范慎、華融矯矯壯節，有國士之風。羊衜辯捷，有專對之材。刁玄優弘，志履道真。裴欽博記，翰采足用。蔣脩、虞翻，志節分明。凡此諸臣，或宜廊廟，或任將帥，皆練時事，明習法令，守信固義，有不可奪之志。此皆陛下日月所照，選置臣宮，得與從事，備知情素，敢以陳聞。臣重惟當今方外多虞，師旅未休，當厲六軍，以圖進取。軍以人爲衆，衆以財爲寶，竊聞郡縣頗有荒殘，民物凋弊，姦亂萌生，是以法令繁滋，刑辟重切。臣聞爲政聽民，律令與時推移，誠宜與將相大臣詳擇時宜，博采衆議，寬刑輕賦，均息力役，以順民望。陸遜忠勤於時，出身憂國，謇謇在公，有匪躬之節。諸葛瑾、步隲、朱然、全琮、朱據、呂岱、吾粲、闞澤、嚴畯、張承、孫怡忠於爲國，通達治體。可令陳上便宜，蠲除苛煩，愛養士馬，撫循百姓。五年之外，十年之內，遠者歸復，近者盡力，兵不血刃，而大事可定也。臣聞『鳥之將死其鳴也哀，人之將死其言也善』，故子囊臨終，遺言戒時，君子以爲忠，豈況臣登，其能已乎？願陛下留意聽采，臣雖死之日，猶生之年也。」旣絕而後書聞，權益以摧感，言則隕涕。是歲，赤烏四年也。謝景時爲豫章太守，不勝哀情，棄官奔赴，拜表自劾。權曰：「君與太子從事，異於他吏。」使中使慰勞，聽復本職，發遣還郡。謚登曰宣太子。",
       "annotations": [
-        {
-          "id": "wu.14.p5.h13",
-          "type": "person",
-          "at": 79,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "孫登臨終上疏對父孫權「死貽陛下重慼」。"
-        },
-        {
-          "id": "wu.14.p5.h14",
-          "type": "person",
-          "at": 169,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「係命陛下」。"
-        },
-        {
-          "id": "wu.14.p5.h15",
-          "type": "person",
-          "at": 183,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「願陛下棄忘臣身」。"
-        },
         {
           "id": "wu.14.p5.h1",
           "type": "person",
@@ -278,16 +207,6 @@
           "text": "虞翻",
           "person_id": "yufan",
           "via": "primary"
-        },
-        {
-          "id": "wu.14.p5.h16",
-          "type": "person",
-          "at": 399,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「此皆陛下日月所照」。"
         },
         {
           "id": "wu.14.p5.h3",
@@ -375,16 +294,6 @@
           "reasoning": "承前文年號「嘉禾」推得，「五年」 = 嘉禾5年 = AD 236"
         },
         {
-          "id": "wu.14.p5.h17",
-          "type": "person",
-          "at": 710,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「願陛下留意聽采」。"
-        },
-        {
           "id": "wu.14.p5.t2",
           "type": "temporal",
           "at": 748,
@@ -409,26 +318,6 @@
           "era": "赤烏",
           "era_year": 4,
           "reasoning": "原文「赤烏四年」直接出现年号；解析為 AD 241"
-        },
-        {
-          "id": "wu.14.p5.h11",
-          "type": "person",
-          "at": 787,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「君與太子從事」— 權對謝景言其與孫登從事。"
-        },
-        {
-          "id": "wu.14.p5.h12",
-          "type": "person",
-          "at": 818,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「謚登曰宣太子」— 即孫登諡號「宣太子」。"
         },
         {
           "id": "wu.14.p5.a1",
@@ -497,16 +386,6 @@
           "reasoning": "原文「黃武七年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wu.14.p8.h1",
-          "type": "person",
-          "at": 154,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "尚書僕射存上疏為建昌侯孫慮請進王號，對孫權「陛下謙光」。"
-        },
-        {
           "id": "wu.14.p8.a1",
           "type": "pei",
           "at": 242,
@@ -564,16 +443,6 @@
           "reasoning": "原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wu.14.p9.h5",
-          "type": "person",
-          "at": 56,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「赤烏五年，立爲太子」— 即立孫和為太子。"
-        },
-        {
           "id": "wu.14.p9.h3",
           "type": "person",
           "at": 64,
@@ -619,16 +488,6 @@
       "id": "wu.14.p11",
       "text": "是後王夫人與全公主有隙。權嘗寢疾，和祠祭於廟，和妃叔父張休居近廟，邀和過所居。全公主使人覘視，因言太子不在廟中，專就妃家計議；又言王夫人見上寢疾，有喜色。權由是發怒，夫人憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不可奪，全寄、楊笁爲魯王霸支黨，譖愬日興。粲遂下獄誅，譚徙交州。權沈吟者歷年，後遂幽閉和。於是驃騎將軍朱據、尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和。權登白爵觀見，甚惡之，勑據、晃等無事忩忩。權欲廢和立亮，無難督陳正、五營督陳象上書，稱引晉獻公殺申生，立奚齊，晉國擾亂，又據、晃固諫不止。權大怒，族誅正、象，據、晃牽入殿，杖一百，竟徙和於故鄣，羣司坐諫誅放者十數。衆咸冤之。",
       "annotations": [
-        {
-          "id": "wu.14.p11.h3",
-          "type": "person",
-          "at": 49,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「太子不在廟中」— 全公主譖太子孫和。"
-        },
         {
           "id": "wu.14.p11.h1",
           "type": "person",
@@ -704,12 +563,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 254,
-          "era": "五鳳",
-          "era_year": 1,
+          "year_ad": 252,
+          "era": "太元",
+          "era_year": 2,
           "month_chinese": "四月",
           "month_ordinal": 4,
-          "reasoning": "年承前文 五鳳元年 (AD 254)，月份「四月」"
+          "reasoning": "年承前文 太元2年 (AD 252)，月份「四月」"
         },
         {
           "id": "wu.14.p12.h1",
@@ -824,84 +683,13 @@
           "text": "孫霸",
           "person_id": "sunba",
           "via": "primary"
-        },
-        {
-          "id": "wu.14.p14.h2",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「和爲太子」— 即孫和為太子，霸為魯王。"
-        },
-        {
-          "id": "wu.14.p14.h3",
-          "type": "person",
-          "at": 190,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "羊衜上疏二宮並絕賓客事，對孫權「謂陛下當副順遐邇」。"
-        },
-        {
-          "id": "wu.14.p14.h4",
-          "type": "person",
-          "at": 258,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「雖實陛下敦尚古義」。"
-        },
-        {
-          "id": "wu.14.p14.h5",
-          "type": "person",
-          "at": 402,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「不審陛下何以解之」。"
-        },
-        {
-          "id": "wu.14.p14.h6",
-          "type": "person",
-          "at": 447,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「願陛下早發優詔」。"
         }
       ]
     },
     {
       "id": "wu.14.p15",
       "text": "時全寄、吳安、孫奇、楊笁等陰共附霸，圖危太子。譖毀旣行，太子以敗，霸亦賜死。流笁屍于江，兄穆以數諫戒笁，得免大辟，猶徙南州。霸賜死後，又誅寄、安、奇等，咸以黨霸搆和故也。",
-      "annotations": [
-        {
-          "id": "wu.14.p15.h1",
-          "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「圖危太子」— 全寄等附霸，所危太子即孫和。"
-        },
-        {
-          "id": "wu.14.p15.h2",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「太子以敗」承前句仍指孫和被廢。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.14.p16",
@@ -928,16 +716,6 @@
           "era": "太平",
           "era_year": 2,
           "reasoning": "原文「太平二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "wu.14.p16.h3",
-          "type": "person",
-          "at": 78,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「亮問侍中刁玄」對話，太平二年（257），刁玄稱「陛下」即吳少主孫亮。"
         },
         {
           "id": "wu.14.p16.h2",
@@ -988,6 +766,15 @@
         {
           "id": "wu.14.p17.h3",
           "type": "person",
+          "at": 195,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wu.14.p17.h4",
+          "type": "person",
           "at": 254,
           "length": 2,
           "text": "袁紹",
@@ -995,7 +782,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.14.p17.h4",
+          "id": "wu.14.p17.h5",
           "type": "person",
           "at": 257,
           "length": 2,
@@ -1004,7 +791,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.14.p17.h5",
+          "id": "wu.14.p17.h6",
           "type": "person",
           "at": 463,
           "length": 1,
@@ -1013,7 +800,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.14.p17.h6",
+          "id": "wu.14.p17.h7",
           "type": "person",
           "at": 484,
           "length": 2,

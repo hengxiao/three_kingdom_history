@@ -19,16 +19,22 @@ annotations:
   length: 0
   type: lixian
   text: 《謚法》曰：「聦明睿智曰獻。」協之字曰合。張璠《記》曰：「靈帝以帝似己，故名曰協。」《帝王紀》曰：「協字伯和。」
-- anchor: hhs.9.p1
-  at: 20
-  length: 2
+- id: hhs.9.p1.h2
+  anchor: hhs.9.p1
+  at: 14
+  length: 3
+  type: person
+  person_id: wangrong
+  text: 王美人
+  via: alias
+- id: hhs.9.p1.h3
+  anchor: hhs.9.p1
+  at: 19
+  length: 3
   type: person
   person_id: hetaihou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「母王美人，爲何皇后所害」即靈帝何皇后害獻帝生母，對應 hetaihou。
-  id: hhs.9.p1.h2
+  text: 何皇后
+  via: primary
 - id: hhs.9.p2.t1
   anchor: hhs.9.p2
   at: 0
@@ -65,16 +71,6 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 中平6年 (AD 189)，月份「九月」
-- anchor: hhs.9.p2
-  at: 41
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 獻帝即位後「遷皇太后於永安宮」即遷何太后，對應 hetaihou。
-  id: hhs.9.p2.h6
 - id: hhs.9.p2.a1
   anchor: hhs.9.p2
   at: 48
@@ -89,16 +85,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: hhs.9.p2
-  at: 67
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.98
-  reasoning: 「董卓殺皇太后何氏」直點何氏，對應 hetaihou。
-  id: hhs.9.p2.h7
 - id: hhs.9.p2.a2
   anchor: hhs.9.p2
   at: 88
@@ -155,16 +141,6 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 中平6年 (AD 189)，月份「冬十月」
-- anchor: hhs.9.p3
-  at: 9
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「葬靈思皇后」即葬何氏靈思皇后，對應 hetaihou。
-  id: hhs.9.p3.h3
 - id: hhs.9.p3.a1
   anchor: hhs.9.p3
   at: 19
@@ -1159,16 +1135,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 興平元年 (AD 194)，月份「二月」
-- anchor: hhs.9.p8
-  at: 43
-  length: 2
+- id: hhs.9.p8.h1
+  anchor: hhs.9.p8
+  at: 41
+  length: 4
   type: person
   person_id: wangrong
-  text: 皇后
-  via: llm
-  confidence: 0.9
-  reasoning: 「追尊謚皇妣王氏爲靈懷皇后」即追尊獻帝生母王榮，未列 roster。
-  id: hhs.9.p8.h4
+  text: 靈懷皇后
+  via: primary
 - id: hhs.9.p8.t3
   anchor: hhs.9.p8
   at: 65
@@ -1317,7 +1291,7 @@ annotations:
   era: 興平
   era_year: 1
   reasoning: 「是歲」 = 当前年 興平元年 (AD 194)
-- id: hhs.9.p8.h1
+- id: hhs.9.p8.h2
   anchor: hhs.9.p8
   at: 448
   length: 2
@@ -1325,7 +1299,7 @@ annotations:
   person_id: yuanshu
   text: 袁術
   via: primary
-- id: hhs.9.p8.h2
+- id: hhs.9.p8.h3
   anchor: hhs.9.p8
   at: 451
   length: 2
@@ -1339,7 +1313,7 @@ annotations:
   length: 0
   type: lixian
   text: 策字伯符，孫堅子。曲阿，今潤州縣。
-- id: hhs.9.p8.h3
+- id: hhs.9.p8.h4
   anchor: hhs.9.p8
   at: 463
   length: 2
@@ -1415,16 +1389,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 興平2年 (AD 195)，月份「夏四月」
-- anchor: hhs.9.p9
-  at: 59
+- id: hhs.9.p9.h1
+  anchor: hhs.9.p9
+  at: 56
   length: 2
   type: person
   person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.98
-  reasoning: 興平二年「立貴人伏氏爲皇后」即立伏壽，對應 fuhuanghou。
-  id: hhs.9.p9.h3
+  text: 伏氏
+  via: alias
 - id: hhs.9.p9.a1
   anchor: hhs.9.p9
   at: 76
@@ -1527,7 +1499,7 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 興平2年 (AD 195)，月份「十一月」
-- id: hhs.9.p9.h1
+- id: hhs.9.p9.h2
   anchor: hhs.9.p9
   at: 296
   length: 3
@@ -1579,7 +1551,7 @@ annotations:
   era: 興平
   era_year: 2
   reasoning: 「是歲」 = 当前年 興平2年 (AD 195)
-- id: hhs.9.p9.h2
+- id: hhs.9.p9.h3
   anchor: hhs.9.p9
   at: 444
   length: 2
@@ -2993,16 +2965,14 @@ annotations:
   person_id: caocao
   text: 曹操
   via: primary
-- anchor: hhs.9.p28
-  at: 56
+- id: hhs.9.p28.h6
+  anchor: hhs.9.p28
+  at: 58
   length: 2
   type: person
   person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.98
-  reasoning: 建安十九年「曹操殺皇后伏氏」直點伏氏，對應 fuhuanghou。
-  id: hhs.9.p28.h6
+  text: 伏氏
+  via: alias
 - id: hhs.9.p28.a2
   anchor: hhs.9.p28
   at: 69
@@ -3023,16 +2993,6 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「建安」推得，「二十年春正月」 = 建安20年 = AD 215
-- anchor: hhs.9.p29
-  at: 15
-  length: 2
-  type: person
-  person_id: caojie_huanghou
-  text: 皇后
-  via: llm
-  confidence: 0.98
-  reasoning: 建安二十年「立貴人曹氏爲皇后」即立曹節，對應 caojie_huanghou。
-  id: hhs.9.p29.h2
 - id: hhs.9.p29.t2
   anchor: hhs.9.p29
   at: 50

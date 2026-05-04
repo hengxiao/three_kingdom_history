@@ -69,18 +69,7 @@
     {
       "id": "hhs.78.p7",
       "text": "時窦太后秉政，后兄大将军宪等并窃威权，朝臣上下莫不附之，而众独一心王室，不事豪党，帝亲信焉。及宪兄弟图作不轨，众遂首谋诛之，以功迁大长秋。策勋班赏，每辞多受少。由是常与议事。中官用权，自众始焉。",
-      "annotations": [
-        {
-          "id": "hhs.78.p7.h1",
-          "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "太后",
-          "person_id": "zhangdedouhh",
-          "via": "llm",
-          "reasoning": "「竇太后秉政」即章德竇皇后於和帝初臨朝，未列 roster。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p8",
@@ -102,12 +91,11 @@
         {
           "id": "hhs.78.p8.h1",
           "type": "person",
-          "at": 30,
-          "length": 2,
-          "text": "皇后",
+          "at": 28,
+          "length": 4,
+          "text": "和熹皇后",
           "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "「和熹皇后益封」即和熹鄧太后鄧綏，永初元年安帝時尚為皇后稱號加封，未列 roster。"
+          "via": "alias"
         }
       ]
     },
@@ -209,16 +197,6 @@
           "reasoning": "原文「元初元年」直接出现年号；解析為 AD 114（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "hhs.78.p13.h2",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "元初元年「鄧太后」即和熹鄧太后鄧綏，未列 roster。"
-        },
-        {
           "id": "hhs.78.p13.t2",
           "type": "temporal",
           "at": 32,
@@ -226,10 +204,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 161,
-          "era": "延熹",
+          "year_ad": 117,
+          "era": "元初",
           "era_year": 4,
-          "reasoning": "承前文年號「延熹」推得，「四年」 = 延熹4年 = AD 161"
+          "reasoning": "承前文年號「元初」推得，「四年」 = 元初4年 = AD 117"
         },
         {
           "id": "hhs.78.p13.h1",
@@ -254,16 +232,6 @@
           "text": "安帝",
           "person_id": "anhan",
           "via": "alias"
-        },
-        {
-          "id": "hhs.78.p14.h3",
-          "type": "person",
-          "at": 19,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "「太后崩，安帝親政」即和熹鄧太后崩，未列 roster。"
         },
         {
           "id": "hhs.78.p14.h2",
@@ -294,38 +262,7 @@
     {
       "id": "hhs.78.p16",
       "text": "時邓太后临朝，帝不亲政事。小黄門李閏与帝乳母王聖常共谮太后兄执金吾悝等，言欲废帝，立平原王翼，帝每忿惧。及太后崩，遂诛邓氏而废平原王，封閏雍乡侯；又小黄門江京以谗谄进，初迎帝于邸，以功封都乡侯，食邑各三百户。閏、京并迁中常侍，江京兼大长秋，与中常侍樊丰、黄門令劉安、钩盾令陳达及王聖、聖女伯荣扇动内外，竞为侈虐。又帝舅大将军耿宝、皇后兄大鸿胪阎显更相阿党，遂枉殺太尉杨震，废皇太子为济陰王。",
-      "annotations": [
-        {
-          "id": "hhs.78.p16.h2",
-          "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "「鄧太后臨朝」即和熹鄧太后鄧綏，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p16.h3",
-          "type": "person",
-          "at": 165,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "yanji",
-          "via": "llm",
-          "reasoning": "「皇后兄大鴻臚閻顯」即安思閻皇后閻姬之兄閻顯，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p16.h1",
-          "type": "person",
-          "at": 188,
-          "length": 2,
-          "text": "太子",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「廢皇太子為濟陰王」即廢劉保（後為順帝），對應 shunhan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p17",
@@ -339,10 +276,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 162,
+          "year_ad": 160,
           "era": "延熹",
-          "era_year": 5,
-          "reasoning": "「明年」 = 当前年 延熹4年 (AD 161) 之次年 = AD 162"
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 延熹2年 (AD 159) 之次年 = AD 160"
         }
       ]
     },
@@ -358,42 +295,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 162,
+          "year_ad": 160,
           "era": "延熹",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "十月",
           "month_ordinal": 10,
-          "reasoning": "年承前文 延熹5年 (AD 162)，月份「十月」"
-        },
-        {
-          "id": "hhs.78.p18.h1",
-          "type": "person",
-          "at": 79,
-          "length": 2,
-          "text": "太子",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「先為太子府史」即先在太子（劉保）府，對應 shunhan。"
-        },
-        {
-          "id": "hhs.78.p18.h2",
-          "type": "person",
-          "at": 85,
-          "length": 2,
-          "text": "太子",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段「自太子之廢」即劉保被廢，對應 shunhan。"
-        },
-        {
-          "id": "hhs.78.p18.h3",
-          "type": "person",
-          "at": 126,
-          "length": 2,
-          "text": "太后",
-          "person_id": "yanji",
-          "via": "llm",
-          "reasoning": "「閻顯白太后」即閻太后閻姬，未列 roster。"
+          "reasoning": "年承前文 延熹3年 (AD 160)，月份「十月」"
         },
         {
           "id": "hhs.78.p18.t2",
@@ -403,12 +310,12 @@
           "text": "十一月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 162,
+          "year_ad": 160,
           "era": "延熹",
-          "era_year": 5,
+          "era_year": 3,
           "month_chinese": "十一月",
           "month_ordinal": 11,
-          "reasoning": "年承前文 延熹5年 (AD 162)，月份「十一月」"
+          "reasoning": "年承前文 延熹3年 (AD 160)，月份「十一月」"
         }
       ]
     },
@@ -519,18 +426,7 @@
     {
       "id": "hhs.78.p26",
       "text": "初，帝见废，监太子家小黄門籍建、傅高梵、长秋长趙熹、丞良贺、药长夏珍皆以无过获罪，建等坐徙朔方。及帝即位，并擢为中常侍。梵坐臧罪，减死一等。建后封东乡侯，三百户。",
-      "annotations": [
-        {
-          "id": "hhs.78.p26.h1",
-          "type": "person",
-          "at": 7,
-          "length": 2,
-          "text": "太子",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「監太子家小黃門」即監順帝（劉保）為太子時家屬，對應 shunhan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p27",
@@ -549,26 +445,6 @@
           "text": "安帝",
           "person_id": "anhan",
           "via": "alias"
-        },
-        {
-          "id": "hhs.78.p28.h4",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "「鄧太后以騰年少謹厚」即和熹鄧太后鄧綏，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p28.h3",
-          "type": "person",
-          "at": 41,
-          "length": 2,
-          "text": "太子",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「使侍皇太子書」即侍順帝為太子時讀書，對應 shunhan。"
         },
         {
           "id": "hhs.78.p28.h2",
@@ -635,16 +511,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.78.p33.h3",
-          "type": "person",
-          "at": 51,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "liangnvying",
-          "via": "llm",
-          "reasoning": "同段「皇后乘勢忌恣」承上指桓帝梁皇后梁女瑩（時桓帝在位），未列 roster。"
-        },
-        {
           "id": "hhs.78.p33.t1",
           "type": "temporal",
           "at": 92,
@@ -656,26 +522,6 @@
           "era": "延熹",
           "era_year": 2,
           "reasoning": "原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "hhs.78.p33.h4",
-          "type": "person",
-          "at": 97,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "liangnvying",
-          "via": "llm",
-          "reasoning": "同段「延熹二年皇后崩」即懿獻梁皇后梁女瑩崩，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p33.h2",
-          "type": "person",
-          "at": 297,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "單超對桓帝言「但恐陛下復中狐疑」即奏桓帝，對應 huanhan。"
         }
       ]
     },
@@ -843,16 +689,6 @@
       "text": "時，窦太后临朝，后父大将军武与太傅陳蕃谋诛中官，节与长乐五官史硃瑀、从官史共普、張亮、中黄門王尊、长乐谒者腾是等十七人，共矫詔以长乐食监王甫为黄門令，将兵诛武、蕃等，事已具《蕃》、《武傳》。节迁长乐卫尉，封育陽侯，增邑三千户；甫迁中常侍，黄門令如故；瑀封都乡侯，千五百户；普、亮等五人各三百户；余十一人皆为关内侯，岁食租二千斛。",
       "annotations": [
         {
-          "id": "hhs.78.p45.h2",
-          "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「竇太后臨朝」即桓思竇皇后竇妙臨朝，未列 roster。"
-        },
-        {
           "id": "hhs.78.p45.h1",
           "type": "person",
           "at": 17,
@@ -898,26 +734,6 @@
           "era": "熹平",
           "era_year": 1,
           "reasoning": "原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "hhs.78.p47.h1",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「熹平元年，竇太后崩」即桓思竇妙崩，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p47.h2",
-          "type": "person",
-          "at": 32,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「幽殺太后」即指竇太后竇妙被幽殺，未列 roster。"
         }
       ]
     },
@@ -965,26 +781,6 @@
       "text": "臣聞理國得贤則安，失贤則危，故舜有臣五人而天下理，汤举伊尹不仁者远。陛下即位之初，未能万机，皇太后念在抚育，权時摄政，故中常侍苏康、管霸应時诛殄。太傅陳蕃、大将军窦武考其党与，志清朝政。华容侯硃瑀知事觉露，祸及其身，遂兴造逆谋，作乱王室，撞蹋省闼，执夺玺绶，迫胁陛下，聚会群臣，离间骨肉母子之恩，遂诛蕃、武及尹勋等。因共割裂城社，自相封赏。父子兄弟被蒙尊荣，素所亲厚布在州郡，或登九列，或据三司。不惟禄重位尊之责，而苟营私門，多蓄财货，缮修第舍，连里竟巷。盗取御水以作鱼钓，車馬服玩拟于天家。群公卿士杜口吞声，莫敢有言。州牧郡守承顺风旨，辟召选举，释贤取愚。故虫蝗为之生，夷寇为之起。天意愤盈，积十余年。故频岁日食于上，地震于下，所以谴戒人主，欲令觉悟，诛鉏无状。昔高宗以雉雊之变，故获中兴之功。近者神祇启悟陛下，发赫斯之怒，故王甫父子应時馘截，路人士女莫不称善，若除父母之仇。诚怪陛下复忍孽臣之类，不悉殄灭。昔秦信趙高，以危其國；吴使刑人，身遘其祸。虞公抱宝牵馬，鲁昭见逐乾侯，以不用宫之奇、子家驹以至灭辱。今以不忍之恩，赦夷族之罪，奸谋一成，悔亦何及！臣为郎十五年，皆耳目聞见，瑀之所为，诚皇后所不复赦。愿陛下留漏刻之聽，裁省臣表，埽灭丑类，以答天怒。与瑀考验，有不如言，愿受汤镬之诛，妻子并徙，以绝妄言之路。",
       "annotations": [
         {
-          "id": "hhs.78.p51.h2",
-          "type": "person",
-          "at": 34,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕奏靈帝「陛下即位之初」即靈帝建寧初，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p51.h7",
-          "type": "person",
-          "at": 47,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "蔡邕奏「皇太后念在撫育，權時攝政」即竇太后竇妙臨朝，未列 roster。"
-        },
-        {
           "id": "hhs.78.p51.h1",
           "type": "person",
           "at": 75,
@@ -992,56 +788,6 @@
           "text": "陳蕃",
           "person_id": "chenfan",
           "via": "primary"
-        },
-        {
-          "id": "hhs.78.p51.h3",
-          "type": "person",
-          "at": 131,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「迫脅陛下」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p51.h4",
-          "type": "person",
-          "at": 354,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「神祇啟悟陛下」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p51.h5",
-          "type": "person",
-          "at": 391,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「誠怪陛下複忍孽臣」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p51.h8",
-          "type": "person",
-          "at": 497,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「誠皇后所不復赦」承前指桓思竇皇后竇妙在天之靈，未列 roster。"
-        },
-        {
-          "id": "hhs.78.p51.h6",
-          "type": "person",
-          "at": 505,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「願陛下留漏刻之聽」即奏靈帝，對應 linghan。"
         }
       ]
     },
@@ -1082,38 +828,7 @@
     {
       "id": "hhs.78.p54",
       "text": "臣聞诸侯上象四七，下裂王土，高祖重约非功臣不侯，所以重天爵明劝戒也。伏聞中常侍曹节、王甫、張让等，及侍中许相，并为列侯。节等宦官祐薄，品卑人贱，谗谄媚主，佞邪徼宠，放毒人物，疾妒忠良，有趙高之祸，未被轘裂之诛，掩朝廷之明，成私树之党。而陛下不悟，妄授茅土，开國承家，小人是用。又并及家人，重金兼紫，相继为蕃辅。受國重恩，不念尔祖，述修厥德，而交结邪党，下比群佞。陛下或其琐才，特蒙恩泽。又授位乖越，贤才不升，素餐私幸，必加荣擢。陰陽乖刺，稼穑荒蔬，人用不康，罔不由兹。臣诚知封事已行，言之无逮，所以冒死干触陳愚忠者，实愿陛下损改既谬，从此一止。",
-      "annotations": [
-        {
-          "id": "hhs.78.p54.h1",
-          "type": "person",
-          "at": 118,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕續奏「陛下不悟」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p54.h2",
-          "type": "person",
-          "at": 181,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下或其瑣才」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p54.h3",
-          "type": "person",
-          "at": 260,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「實願陛下損改既謬」即奏靈帝，對應 linghan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p55",
@@ -1123,18 +838,7 @@
     {
       "id": "hhs.78.p56",
       "text": "又承詔書，当于河间故國起解渎之馆。陛下龍飞即位，虽从籓國，然处九天之高，岂宜有顾恋之意。且河间疏远，解渎邈绝，而当劳民单力，未见其便。又今外戚四姓贵幸之家，及中官公族无功德者，造起馆舍，凡有万数，楼阁连接，丹青素垩，雕刻之饰，不可单言。丧葬逾制，奢丽过礼，竞相放效，莫肯矫拂。《穀梁傳》曰：“财尽則怨，力尽則怼。”《尸子》曰：“君如杅，民如水，杅方則水方，杅圆則水圆。”上之化下，犹风之靡草。今上无去奢之俭，下有纵欲之敝，至使禽兽食民之甘，木土衣民之帛。昔师旷谏晋平公曰：“梁柱衣绣，民无褐衣；池有弃酒，士有渴死；厩馬秣粟，民有饥色。近臣不敢谏，远臣不得暢。”此之谓也。",
-      "annotations": [
-        {
-          "id": "hhs.78.p56.h1",
-          "type": "person",
-          "at": 17,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "「陛下龍飛即位，雖從藩國」即靈帝由解瀆亭侯入繼，對應 linghan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p57",
@@ -1150,26 +854,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.78.p57.h3",
-          "type": "person",
-          "at": 56,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕論段熲「陛下不密其言」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p57.h4",
-          "type": "person",
-          "at": 88,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下回受誹謗」即奏靈帝，對應 linghan。"
-        },
-        {
           "id": "hhs.78.p57.h2",
           "type": "person",
           "at": 155,
@@ -1177,16 +861,6 @@
           "text": "段熲",
           "person_id": "duanjiong",
           "via": "primary"
-        },
-        {
-          "id": "hhs.78.p57.h5",
-          "type": "person",
-          "at": 188,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下既已式序」即奏靈帝，對應 linghan。"
         }
       ]
     },
@@ -1203,28 +877,7 @@
     {
       "id": "hhs.78.p60",
       "text": "天下之财，莫不生之陰陽，归之陛下。归之陛下，岂有公私？而今中尚方敛诸郡之宝，中御府积天下之缯，西园引司农之臧，中厩聚太仆之馬，而所输之府，辄有导行之财。调广民困，费多献少，奸吏因其利，百姓受其敝。又阿媚之臣，好献其私，容谄姑息，自此而进。",
-      "annotations": [
-        {
-          "id": "hhs.78.p60.h1",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕奏「歸之陛下」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.78.p60.h2",
-          "type": "person",
-          "at": 19,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「歸之陛下」即奏靈帝，對應 linghan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p61",
@@ -1234,18 +887,7 @@
     {
       "id": "hhs.78.p62",
       "text": "夫立言无显过之咎，明镜无见玼之尤。如恶立言以记过，則不当學也；不欲明镜之见玼，則不当照也。愿陛下详思臣言，不以记过见玼为责。",
-      "annotations": [
-        {
-          "id": "hhs.78.p62.h1",
-          "type": "person",
-          "at": 46,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「願陛下詳思臣言」即奏靈帝，對應 linghan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.78.p63",
@@ -1408,16 +1050,6 @@
           "era": "中平",
           "era_year": 6,
           "reasoning": "承前文年號「中平」推得，「六年」 = 中平6年 = AD 189"
-        },
-        {
-          "id": "hhs.78.p73.h1",
-          "type": "person",
-          "at": 97,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubian",
-          "via": "llm",
-          "reasoning": "靈帝崩後張讓等劫天子辭曰「惟陛下自愛」即少帝劉辯，對應 liubian。"
         }
       ]
     },

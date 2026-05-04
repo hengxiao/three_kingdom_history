@@ -43,13 +43,21 @@ annotations:
   person_id: sunjian
   text: 堅
   via: given_name_carry
+- id: wu.1.p2.h4
+  anchor: wu.1.p2
+  at: 161
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: wu.1.p2.a1
   anchor: wu.1.p2
   at: 165
   length: 0
   type: pei
   text: 靈帝紀曰：「昌以其父爲越王也。」
-- id: wu.1.p2.h4
+- id: wu.1.p2.h5
   anchor: wu.1.p2
   at: 179
   length: 1
@@ -69,7 +77,7 @@ annotations:
   era: 熹平
   era_year: 1
   reasoning: 原文「熹平元年」直接出现年号；解析為 AD 172
-- id: wu.1.p2.h5
+- id: wu.1.p2.h6
   anchor: wu.1.p2
   at: 223
   length: 1

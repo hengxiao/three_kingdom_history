@@ -220,16 +220,6 @@
           "text": "嚴畯",
           "person_id": "yanjun",
           "via": "primary"
-        },
-        {
-          "id": "wu.7.p5.h3",
-          "type": "person",
-          "at": 109,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "張昭請為孫權誦《孝經》，陛下即吳大帝孫權（黃龍年間）。"
         }
       ]
     },
@@ -245,26 +235,6 @@
           "text": "桓王",
           "person_id": "sunce",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wu.7.p6.h2",
-          "type": "person",
-          "at": 110,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "張昭奏對「以陛下屬老臣」對孫權。"
-        },
-        {
-          "id": "wu.7.p6.h3",
-          "type": "person",
-          "at": 115,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同段「以陛下屬老臣」承前指孫權。"
         }
       ]
     },
@@ -423,16 +393,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.7.p11.h2",
-          "type": "person",
-          "at": 17,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「太子登僚友」— 文中明點「登」，即孫登。"
-        },
-        {
           "id": "wu.7.p11.a1",
           "type": "pei",
           "at": 31,
@@ -520,16 +480,6 @@
           "text": "權",
           "person_id": "sunquan",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wu.7.p13.h9",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "黃武四年顧雍迎母，太子往慶；黃武初太子為孫登。"
         },
         {
           "id": "wu.7.p13.h2",
@@ -711,16 +661,6 @@
           "at": 304,
           "length": 0,
           "text": "礼子基作通语曰：礼字德嗣，弱不好弄，潜识过人。少为郡吏，年十九，守吴县丞。孙权为王，召除郎中。后与张温俱使蜀，诸葛亮甚称叹之。稍迁至零陵太守，卒官。文士传曰：礼子基，无难督，以才学知名，著通语数十篇。有三子。巨字元大，有才器，初为吴偏将军，统家部曲，城夏口，吴平后，为苍梧太守。少子祐，字庆元，吴郡太守。"
-        },
-        {
-          "id": "wu.7.p15.h4",
-          "type": "person",
-          "at": 305,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「粲太子少傅」— 吾粲為太子少傅；吾粲赤烏中為太子少傅，太子為孫和。"
         }
       ]
     },
@@ -736,16 +676,6 @@
           "text": "諸葛恪",
           "person_id": "zhugeke",
           "via": "primary"
-        },
-        {
-          "id": "wu.7.p16.h3",
-          "type": "person",
-          "at": 13,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "顧譚「弱冠與諸葛恪等爲太子四友」— 即孫登東宮四友（黃龍元年）。"
         },
         {
           "id": "wu.7.p16.a1",
@@ -775,34 +705,12 @@
     {
       "id": "wu.7.p17",
       "text": "祖父雍卒數月，拜太常，代雍平尚書事。是時魯王霸有盛寵，與太子和齊衡，譚上疏曰：",
-      "annotations": [
-        {
-          "id": "wu.7.p17.h1",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「魯王霸有盛寵，與太子和齊衡」— 文中明點「和」，即孫和。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.7.p18",
       "text": "臣聞有國有家者，必明嫡庶之端，異尊卑之禮，使高下有差，階級逾邈，如此則骨肉之恩生，覬覦之望絶。昔賈誼陳治安之計，論諸侯之勢，以爲勢重，雖親必有逆節之累，勢輕，雖疏必有保全之祚。故淮南親弟，不終饗國，失之於勢重也。呉芮疏臣，傳祚長沙，得之於勢輕也。昔漢文帝使慎夫人與皇后同席，袁盎退夫人之座，帝有怒色。及盎辨上下之儀，陳人彘之戒，帝既悅怪，夫人亦悟。今臣所陳，非有所偏，誠欲以安太子而便魯王也。",
-      "annotations": [
-        {
-          "id": "wu.7.p18.h1",
-          "type": "person",
-          "at": 188,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「誠欲以安太子而便魯王也」承前段二宮論述指太子孫和。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.7.p19",
@@ -1128,36 +1036,6 @@
           "text": "關羽",
           "person_id": "guanyu",
           "via": "primary"
-        },
-        {
-          "id": "wu.7.p23.h9",
-          "type": "person",
-          "at": 99,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "諸葛瑾與劉備箋（黃武元年夷陵前夕）「試爲陛下論其輕重」中陛下即蜀漢昭烈帝劉備。"
-        },
-        {
-          "id": "wu.7.p23.h10",
-          "type": "person",
-          "at": 111,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "同箋對劉備「陛下若抑威損忿」。"
-        },
-        {
-          "id": "wu.7.p23.h11",
-          "type": "person",
-          "at": 139,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "同箋對劉備「陛下以關羽之親何如先帝」。"
         },
         {
           "id": "wu.7.p23.h6",
@@ -1499,10 +1377,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 259,
-          "era": "永安",
-          "era_year": 2,
-          "reasoning": "「明年」 = 当前年 永安元年 (AD 258) 之次年 = AD 259"
+          "year_ad": 211,
+          "era": "建安",
+          "era_year": 16,
+          "reasoning": "「明年」 = 当前年 建安15年 (AD 210) 之次年 = AD 211"
         },
         {
           "id": "wu.7.p30.h2",
@@ -1607,10 +1485,10 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "永安",
+          "year_ad": 226,
+          "era": "黃武",
           "era_year": 5,
-          "reasoning": "承前文年號「永安」推得，「五年」 = 永安5年 = AD 262"
+          "reasoning": "承前文年號「黃武」推得，「五年」 = 黃武5年 = AD 226"
         }
       ]
     },
@@ -1644,16 +1522,6 @@
           "text": "權",
           "person_id": "sunquan",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wu.7.p32.h8",
-          "type": "person",
-          "at": 45,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「權太子登駐武昌」— 文中明點「登」，即孫登。"
         },
         {
           "id": "wu.7.p32.h4",
@@ -1703,18 +1571,7 @@
     {
       "id": "wu.7.p33",
       "text": "臣聞人君不親小事，百官有司各任其職。故舜命九賢，則無所用心，彈五弦之琴，詠南風之詩，不下堂廟而天下治也。齊桓用管仲，被發載車，齊國既治，又致匡合。近漢高祖攬三傑以興帝業，西楚失雄俊以喪成功，汲黯在朝，淮南寢謀。郅都守邊，匈奴竄跡。故賢人所在，折沖萬里，信國家之利器，祟替之所由也。方今王化未被於漢北，河、洛之濱尚有僭逆之醜，誠攬英雄拔俊任賢之時也。願明太子重以經意，則天下幸甚。",
-      "annotations": [
-        {
-          "id": "wu.7.p33.h1",
-          "type": "person",
-          "at": 176,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "步騭奏勸「願明太子重以經意」— 即所對話的孫登（其書與騭書承前段）。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.7.p34",
@@ -1930,16 +1787,6 @@
           "text": "吾粲",
           "person_id": "wucan",
           "via": "primary"
-        },
-        {
-          "id": "wu.7.p43.h2",
-          "type": "person",
-          "at": 710,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「女配太子，受禮若弔」— 此處奮威將軍張承女嫁太子孫和（為孫和妃）；太子即孫和。"
         }
       ]
     },

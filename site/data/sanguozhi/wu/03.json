@@ -63,16 +63,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.3.p2.h2",
-          "type": "person",
-          "at": 32,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「姊全公主嘗譖太子和子母」— 文中明點「和」，太子即孫和。"
-        },
-        {
           "id": "wu.3.p2.t1",
           "type": "temporal",
           "at": 65,
@@ -84,16 +74,6 @@
           "era": "赤烏",
           "era_year": 13,
           "reasoning": "原文「赤烏十三年」直接出现年号；解析為 AD 250"
-        },
-        {
-          "id": "wu.3.p2.h3",
-          "type": "person",
-          "at": 79,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「立亮爲太子」— 赤烏十三年立孫亮為太子。"
         }
       ]
     },
@@ -115,16 +95,6 @@
           "reasoning": "原文「太元元年」直接出现年号；解析為 AD 251"
         },
         {
-          "id": "wu.3.p3.h6",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "panhuanghou",
-          "via": "llm",
-          "reasoning": "「亮母潘氏立爲皇后」— 即潘皇后；roster 無，置 null。"
-        },
-        {
           "id": "wu.3.p3.h1",
           "type": "person",
           "at": 25,
@@ -134,16 +104,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.3.p3.h3",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「諸葛恪爲太子太傅」— 太元元年諸葛恪領太子太傅，太子即孫亮。"
-        },
-        {
           "id": "wu.3.p3.h2",
           "type": "person",
           "at": 38,
@@ -151,16 +111,6 @@
           "text": "滕胤",
           "person_id": "tengyin",
           "via": "primary"
-        },
-        {
-          "id": "wu.3.p3.h4",
-          "type": "person",
-          "at": 48,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「並受詔輔太子」承前句仍指孫亮。"
         },
         {
           "id": "wu.3.p3.t2",
@@ -176,16 +126,6 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "「明年四月」 = 当前年 太元元年 (AD 251) 之次年 = AD 252"
-        },
-        {
-          "id": "wu.3.p3.h5",
-          "type": "person",
-          "at": 59,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「太子即尊號」— 神鳳元年孫權崩後孫亮即位。"
         },
         {
           "id": "wu.3.p3.t3",
@@ -306,16 +246,6 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「太元」推得，「二年春正月」 = 太元2年 = AD 252"
-        },
-        {
-          "id": "wu.3.p5.h3",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "quanhuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后全氏」— 建興二年立全皇后（孫亮全皇后）；roster 無。"
         },
         {
           "id": "wu.3.p5.h1",
@@ -1037,12 +967,12 @@
           "text": "四月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 258,
-          "era": "太平",
-          "era_year": 3,
+          "year_ad": 252,
+          "era": "太元",
+          "era_year": 2,
           "month_chinese": "四月",
           "month_ordinal": 4,
-          "reasoning": "年承前文 太平3年 (AD 258)，月份「四月」"
+          "reasoning": "年承前文 太元2年 (AD 252)，月份「四月」"
         },
         {
           "id": "wu.3.p12.h2",
@@ -1079,22 +1009,12 @@
           "text": "十月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 258,
-          "era": "太平",
-          "era_year": 3,
+          "year_ad": 252,
+          "era": "太元",
+          "era_year": 2,
           "month_chinese": "十月",
           "month_ordinal": 10,
-          "reasoning": "年承前文 太平3年 (AD 258)，月份「十月」"
-        },
-        {
-          "id": "wu.3.p12.h5",
-          "type": "person",
-          "at": 210,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunxiu",
-          "via": "llm",
-          "reasoning": "永安元年老公叩頭「願陛下速行」中陛下即將即位的孫休。"
+          "reasoning": "年承前文 太元2年 (AD 252)，月份「十月」"
         },
         {
           "id": "wu.3.p12.t4",
@@ -1104,10 +1024,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 258,
-          "era": "太平",
-          "era_year": 3,
-          "reasoning": "「是歲」 = 当前年 太平3年 (AD 258)"
+          "year_ad": 252,
+          "era": "太元",
+          "era_year": 2,
+          "reasoning": "「是歲」 = 当前年 太元2年 (AD 252)"
         }
       ]
     },
@@ -1388,26 +1308,6 @@
           "reasoning": "年承前文 永安5年 (AD 262)，月份「八月」"
         },
         {
-          "id": "wu.3.p19.h4",
-          "type": "person",
-          "at": 43,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后朱氏」— 即孫休朱皇后；roster 無，置 null。"
-        },
-        {
-          "id": "wu.3.p19.h3",
-          "type": "person",
-          "at": 55,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunwan",
-          "via": "llm",
-          "reasoning": "「立子𩅦爲太子」— 永安五年孫休立子孫𩅦為太子；roster 無孫𩅦，置 null。"
-        },
-        {
           "id": "wu.3.p19.a1",
           "type": "pei",
           "at": 61,
@@ -1666,16 +1566,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.3.p22.h5",
-          "type": "person",
-          "at": 146,
-          "length": 2,
-          "text": "太后",
-          "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「休妃太后朱」— 即孫休妃朱皇后進尊為太后（皓初）；roster 無。"
-        },
-        {
           "id": "wu.3.p22.t1",
           "type": "temporal",
           "at": 205,
@@ -1719,24 +1609,13 @@
           "reasoning": "年承前文 永安7年 (AD 264)，月份「九月」"
         },
         {
-          "id": "wu.3.p23.h4",
+          "id": "wu.3.p23.h2",
           "type": "person",
-          "at": 54,
-          "length": 2,
-          "text": "太后",
+          "at": 57,
+          "length": 3,
+          "text": "景皇后",
           "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「貶太后爲景皇后」— 即朱太后被貶；roster 無。"
-        },
-        {
-          "id": "wu.3.p23.h5",
-          "type": "person",
-          "at": 58,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「貶太后爲景皇后」— 即朱氏貶降後之景皇后封號；roster 無。"
+          "via": "alias"
         },
         {
           "id": "wu.3.p23.t2",
@@ -1752,26 +1631,6 @@
           "month_chinese": "十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 永安7年 (AD 264)，月份「十月」"
-        },
-        {
-          "id": "wu.3.p23.h3",
-          "type": "person",
-          "at": 82,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunwan",
-          "via": "llm",
-          "reasoning": "「封休太子𩅦爲豫章王」— 即孫休太子孫𩅦；roster 無，置 null。"
-        },
-        {
-          "id": "wu.3.p23.h6",
-          "type": "person",
-          "at": 107,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "tenghuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后滕氏」— 即孫皓滕皇后；roster 無。"
         },
         {
           "id": "wu.3.p23.a1",
@@ -1811,7 +1670,7 @@
           "reasoning": "年承前文 永安7年 (AD 264)，月份「十二月」"
         },
         {
-          "id": "wu.3.p23.h2",
+          "id": "wu.3.p23.h3",
           "type": "person",
           "at": 160,
           "length": 2,
@@ -2224,16 +2083,6 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "原文「建衡元年春正月」直接出现年号；解析為 AD 269"
-        },
-        {
-          "id": "wu.3.p28.h2",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunjin",
-          "via": "llm",
-          "reasoning": "「立子瑾爲太子」— 建衡元年立孫皓子孫瑾為太子；roster 無孫瑾，置 null。"
         },
         {
           "id": "wu.3.p28.t2",
@@ -2838,16 +2687,6 @@
           "text": "孫皓",
           "person_id": "sunhao_2",
           "via": "primary"
-        },
-        {
-          "id": "wu.3.p45.h2",
-          "type": "person",
-          "at": 138,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunjin",
-          "via": "llm",
-          "reasoning": "「皓太子瑾」— 即孫瑾；roster 無，置 null。"
         },
         {
           "id": "wu.3.p45.a2",

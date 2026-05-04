@@ -234,7 +234,17 @@
     {
       "id": "hhs.70.p6",
       "text": "今山東合謀，州郡連結，人庶相動，非不強盛。然光武以來，中國無警，百姓優逸，忘戰日乆。仲尼有言：『不敎人戰，是謂弃之。』其衆雖多，不能爲害。一也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.70.p6.h1",
+          "type": "person",
+          "at": 22,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.70.p7",
@@ -1261,6 +1271,15 @@
           "via": "given_name"
         },
         {
+          "id": "hhs.70.p33.h3",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
+        },
+        {
           "id": "hhs.70.p33.a1",
           "type": "lixian",
           "at": 30,
@@ -1268,7 +1287,7 @@
           "text": "〈袁紹傳〉，熙，紹之中子也。甄氏，中山無極人，漢太保甄邯後也。父逸，上蔡令。《魏略》曰：「熙出在幽州，甄氏侍姑，及鄴城破，文帝入紹舍，后怖，伏姑膝上。帝令舉頭就視，見其顏色非凡。太祖聞其意，爲迎取之。」"
         },
         {
-          "id": "hhs.70.p33.h3",
+          "id": "hhs.70.p33.h4",
           "type": "person",
           "at": 33,
           "length": 1,
@@ -1284,7 +1303,7 @@
           "text": "妲音丁末反，又音旦。紂之妃，有蘇氏女也。紂用其言，毒虐衆庶。武王剋殷，斬妲己頭，縣之於小白旗，以爲紂之亡由此女也。出列女傳也。"
         },
         {
-          "id": "hhs.70.p33.h4",
+          "id": "hhs.70.p33.h5",
           "type": "person",
           "at": 51,
           "length": 1,
@@ -1293,7 +1312,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.70.p33.h5",
+          "id": "hhs.70.p33.h6",
           "type": "person",
           "at": 78,
           "length": 1,
@@ -1479,6 +1498,15 @@
           "text": "趙惠文王與秦昭王會黽池，歸，拜藺相如爲上卿，位在廉頗右。頗曰；「吾不忍爲之下，必辱之。」相如每朝，常避之。頗聞之，肉袒負荊謝之，相與爲刎頸之友。事見《史記》。"
         },
         {
+          "id": "hhs.70.p34.h6",
+          "type": "person",
+          "at": 291,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
           "id": "hhs.70.p34.a16",
           "type": "lixian",
           "at": 309,
@@ -1486,7 +1514,7 @@
           "text": "公子糾與桓公爭立，管仲射桓公中鉤。後桓公即位，以管仲爲相也。"
         },
         {
-          "id": "hhs.70.p34.h6",
+          "id": "hhs.70.p34.h7",
           "type": "person",
           "at": 312,
           "length": 1,
@@ -2102,10 +2130,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 201,
-          "era": "建安",
-          "era_year": 6,
-          "reasoning": "「明年」 = 当前年 建安5年 (AD 200) 之次年 = AD 201"
+          "year_ad": 192,
+          "era": "初平",
+          "era_year": 3,
+          "reasoning": "「明年」 = 当前年 初平2年 (AD 191) 之次年 = AD 192"
         },
         {
           "id": "hhs.70.p44.h9",
@@ -2337,6 +2365,15 @@
           "text": "高祖距項羽，常留蕭何守關中。"
         },
         {
+          "id": "hhs.70.p46.h4",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
           "id": "hhs.70.p46.a2",
           "type": "lixian",
           "at": 88,
@@ -2344,7 +2381,7 @@
           "text": "曹操初從東郡守鮑信等迎領兖州牧，遂進兵破黃巾等，故能平定山東也。"
         },
         {
-          "id": "hhs.70.p46.h4",
+          "id": "hhs.70.p46.h5",
           "type": "person",
           "at": 150,
           "length": 2,
@@ -2353,7 +2390,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.70.p46.h5",
+          "id": "hhs.70.p46.h6",
           "type": "person",
           "at": 186,
           "length": 1,
@@ -2362,7 +2399,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.70.p46.h6",
+          "id": "hhs.70.p46.h7",
           "type": "person",
           "at": 263,
           "length": 1,
@@ -2371,7 +2408,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "hhs.70.p46.h7",
+          "id": "hhs.70.p46.h8",
           "type": "person",
           "at": 328,
           "length": 1,
@@ -2380,7 +2417,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "hhs.70.p46.h8",
+          "id": "hhs.70.p46.h9",
           "type": "person",
           "at": 338,
           "length": 1,
@@ -2389,7 +2426,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.70.p46.h9",
+          "id": "hhs.70.p46.h10",
           "type": "person",
           "at": 341,
           "length": 1,
@@ -2484,16 +2521,6 @@
           "at": 132,
           "length": 0,
           "text": "鄭玄注《周禮》曰：「軫，輿後橫木也。」"
-        },
-        {
-          "id": "hhs.70.p47.h5",
-          "type": "person",
-          "at": 158,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "建安元年荀彧勸曹操奉迎獻帝，「奉主上以從人望」即奉漢獻帝，對應 xianhan。"
         },
         {
           "id": "hhs.70.p47.h4",

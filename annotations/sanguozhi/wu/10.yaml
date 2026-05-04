@@ -963,16 +963,6 @@ annotations:
   person_id: zhugeke
   text: 諸葛恪
   via: primary
-- anchor: wu.10.p22
-  at: 75
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 「徙太子中庶子」— 陳表為太子中庶子，所侍太子即東宮孫登。
-  id: wu.10.p22.h8
 - id: wu.10.p22.h2
   anchor: wu.10.p22
   at: 248
@@ -1033,16 +1023,6 @@ annotations:
   person_id: luxun
   text: 陸遜
   via: primary
-- anchor: wu.10.p22
-  at: 637
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太子登爲起屋宅」— 文中明點「登」，即孫登。
-  id: wu.10.p22.h9
 - id: wu.10.p23.h1
   anchor: wu.10.p23
   at: 0
@@ -2319,16 +2299,6 @@ annotations:
   person_id: dingfeng
   text: 丁奉
   via: primary
-- anchor: wu.10.p58
-  at: 94
-  length: 2
-  type: person
-  person_id: sunxiu
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 永安初孫休誅孫綝，丁奉對話「有陛下兵以誅之」中「陛下」即吳景帝孫休。
-  id: wu.10.p58.h4
 - id: wu.10.p58.t1
   anchor: wu.10.p58
   at: 134

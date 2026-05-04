@@ -68,16 +68,6 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 景元3年 (AD 262)，月份「八月」"
-        },
-        {
-          "id": "zztj.78.p5.h1",
-          "type": "person",
-          "at": 30,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunwan",
-          "via": "llm",
-          "reasoning": "吳國太子(孫𩅦等)不在花名冊"
         }
       ]
     },
@@ -581,7 +571,17 @@
     {
       "id": "zztj.78.p26",
       "text": "癸卯，立皇后卞氏，昭烈將軍秉之孫也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.78.p26.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "卞氏",
+          "person_id": "bianhuanghou",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.78.p27",
@@ -652,26 +652,6 @@
           "text": "譙周",
           "person_id": "qiaozhou",
           "via": "primary"
-        },
-        {
-          "id": "zztj.78.p29.h2",
-          "type": "person",
-          "at": 285,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caohuan",
-          "via": "llm",
-          "reasoning": "景元年間魏陛下指元帝曹奐(260年立)"
-        },
-        {
-          "id": "zztj.78.p29.h3",
-          "type": "person",
-          "at": 296,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caohuan",
-          "via": "llm",
-          "reasoning": "景元年間魏陛下指元帝曹奐(260年立)"
         }
       ]
     },
@@ -696,26 +676,6 @@
           "text": "姜維",
           "person_id": "jiangwei",
           "via": "primary"
-        },
-        {
-          "id": "zztj.78.p30.h3",
-          "type": "person",
-          "at": 82,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "蜀漢太子劉璿不在花名冊"
-        },
-        {
-          "id": "zztj.78.p30.h4",
-          "type": "person",
-          "at": 154,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "蜀漢太子劉璿不在花名冊"
         }
       ]
     },
@@ -785,16 +745,6 @@
           "text": "華覈",
           "person_id": "huahe",
           "via": "primary"
-        },
-        {
-          "id": "zztj.78.p31.h8",
-          "type": "person",
-          "at": 193,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "263蜀漢亡前陛下指後主劉禪"
         }
       ]
     },
@@ -894,7 +844,17 @@
     {
       "id": "zztj.78.p38",
       "text": "皇太后郭氏殂。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.78.p38.h1",
+          "type": "person",
+          "at": 3,
+          "length": 2,
+          "text": "郭氏",
+          "person_id": "guohuanghou",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.78.p39",
@@ -1119,16 +1079,6 @@
           "text": "劉禪",
           "person_id": "liushan",
           "via": "primary"
-        },
-        {
-          "id": "zztj.78.p47.h3",
-          "type": "person",
-          "at": 36,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "263蜀漢亡前陛下指後主劉禪"
         }
       ]
     },
@@ -1228,7 +1178,17 @@
     {
       "id": "zztj.78.p52",
       "text": "庚申，葬明元皇后。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.78.p52.h1",
+          "type": "person",
+          "at": 4,
+          "length": 4,
+          "text": "明元皇后",
+          "person_id": "guohuanghou_mingyuan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.78.p53",
@@ -1523,21 +1483,6 @@
         {
           "id": "zztj.78.p62.t1",
           "type": "temporal",
-          "at": 5,
-          "length": 2,
-          "text": "六月",
-          "kind": "relative",
-          "resolution": "bare_month",
-          "year_ad": 264,
-          "era": "咸熙",
-          "era_year": 1,
-          "month_chinese": "六月",
-          "month_ordinal": 6,
-          "reasoning": "年承前文 咸熙元年 (AD 264)，月份「六月」"
-        },
-        {
-          "id": "zztj.78.p62.t2",
-          "type": "temporal",
           "at": 92,
           "length": 2,
           "text": "七月",
@@ -1574,6 +1519,15 @@
           "text": "濮陽興",
           "person_id": "puyangxing",
           "via": "primary"
+        },
+        {
+          "id": "zztj.78.p65.h2",
+          "type": "person",
+          "at": 54,
+          "length": 3,
+          "text": "朱皇后",
+          "person_id": "zhuhuanghou",
+          "via": "primary"
         }
       ]
     },
@@ -1600,6 +1554,15 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 咸熙元年 (AD 264)，月份「八月」"
+        },
+        {
+          "id": "zztj.78.p67.h1",
+          "type": "person",
+          "at": 10,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
         }
       ]
     },
@@ -1626,6 +1589,15 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 咸熙元年 (AD 264)，月份「九月」"
+        },
+        {
+          "id": "zztj.78.p69.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
         }
       ]
     },
@@ -1637,7 +1609,17 @@
     {
       "id": "zztj.78.p71",
       "text": "吳主貶朱太后為景皇后，追謚父和曰文皇帝，尊母何氏為太后。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.78.p71.h1",
+          "type": "person",
+          "at": 7,
+          "length": 3,
+          "text": "景皇后",
+          "person_id": "zhuhuanghou",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.78.p72",
@@ -1668,18 +1650,7 @@
     {
       "id": "zztj.78.p74",
       "text": "吳主封太子□及其三弟皆為王，立妃滕氏為皇后。",
-      "annotations": [
-        {
-          "id": "zztj.78.p74.h1",
-          "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunwan",
-          "via": "llm",
-          "reasoning": "吳國太子(孫𩅦等)不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.78.p75",

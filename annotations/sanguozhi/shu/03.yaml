@@ -49,16 +49,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.3.p1
-  at: 31
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.98
-  reasoning: 「先主為漢中王，立為王太子」即立劉禪為王太子，太子即後主本人。
-  id: shu.3.p1.h9
 - id: shu.3.p1.t2
   anchor: shu.3.p1
   at: 44
@@ -73,16 +63,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 原文「章武元年五月」直接出现年号；解析為 AD 221
-- anchor: shu.3.p1
-  at: 58
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.98
-  reasoning: 章武元年策文「太子禪」直呼其名，太子即劉禪。
-  id: shu.3.p1.h10
 - id: shu.3.p1.h5
   anchor: shu.3.p1
   at: 60
@@ -99,16 +79,6 @@ annotations:
   person_id: liushan
   text: 禪
   via: given_name
-- anchor: shu.3.p1
-  at: 99
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.98
-  reasoning: 策文「今以禪為皇太子」續指立劉禪。
-  id: shu.3.p1.h11
 - id: shu.3.p1.a1
   anchor: shu.3.p1
   at: 144
@@ -145,26 +115,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.3.p1
-  at: 175
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.8
-  reasoning: 「尊皇后曰皇太后」皇后指先主穆皇后吳氏，roster未列。
-  id: shu.3.p1.h12
-- anchor: shu.3.p1
-  at: 179
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 太后
-  via: llm
-  confidence: 0.8
-  reasoning: 建興元年尊皇后吳氏為皇太后，太后指穆皇后吳氏，roster未列。
-  id: shu.3.p1.h13
 - id: shu.3.p1.t4
   anchor: shu.3.p1
   at: 188
@@ -221,16 +171,6 @@ annotations:
   era: 建興
   era_year: 1
   reasoning: 「是歲」 = 当前年 建興元年 (AD 223)
-- anchor: shu.3.p2
-  at: 56
-  length: 2
-  type: person
-  person_id: jingaihuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.8
-  reasoning: 建興元年「立皇后張氏」即敬哀皇后張氏（後主原配），roster未列。
-  id: shu.3.p2.h4
 - id: shu.3.p2.h2
   anchor: shu.3.p2
   at: 67
@@ -719,16 +659,6 @@ annotations:
   month_chinese: 夏六月
   month_ordinal: 6
   reasoning: 承前文年號「建興」推得，「十五年夏六月」 = 建興15年 = AD 237
-- anchor: shu.3.p16
-  at: 7
-  length: 2
-  type: person
-  person_id: jingaihuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.8
-  reasoning: 建興十五年「皇后張氏薨」即敬哀皇后，roster未列。
-  id: shu.3.p16.h1
 - id: shu.3.p17.t1
   anchor: shu.3.p17
   at: 0
@@ -743,26 +673,6 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 原文「延熙元年春正月」直接出现年号；解析為 AD 238
-- anchor: shu.3.p17
-  at: 9
-  length: 2
-  type: person
-  person_id: houzhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.8
-  reasoning: 延熙元年「立皇后張氏」即後主繼后張皇后（敬哀之妹），roster未列。
-  id: shu.3.p17.h2
-- anchor: shu.3.p17
-  at: 24
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.8
-  reasoning: 「立子睿為太子」太子當為劉璿（《三國志》本紀作璿/睿異本），roster未列。
-  id: shu.3.p17.h3
 - id: shu.3.p17.t2
   anchor: shu.3.p17
   at: 34
@@ -1009,16 +919,6 @@ annotations:
   month_chinese: 秋八月
   month_ordinal: 8
   reasoning: 承前文年號「延熙」推得，「八年秋八月」 = 延熙8年 = AD 245
-- anchor: shu.3.p23
-  at: 7
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 延熙八年「皇太后薨」即穆皇后吳氏（與蜀本紀shu.4.p3「延熙八年后薨」相合），roster未列。
-  id: shu.3.p23.h2
 - id: shu.3.p23.t2
   anchor: shu.3.p23
   at: 11

@@ -366,16 +366,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "hhs.73.p7.h2",
-          "type": "person",
-          "at": 18,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "劉虞叱袁紹使者「主上蒙塵」即獻帝西遷蒙塵，對應 xianhan。"
-        },
-        {
           "id": "hhs.73.p7.a1",
           "type": "lixian",
           "at": 23,
@@ -1454,16 +1444,6 @@
           "text": "袁紹",
           "person_id": "yuanshao",
           "via": "primary"
-        },
-        {
-          "id": "hhs.73.p23.h44",
-          "type": "person",
-          "at": 143,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "公孫瓚劾袁紹奏「太后承攝，何氏輔朝」即何太后臨朝何進輔朝，對應 hetaihou。"
         },
         {
           "id": "hhs.73.p23.a2",
@@ -2912,10 +2892,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 199,
-          "era": "建安",
-          "era_year": 4,
-          "reasoning": "「是歲」 = 当前年 建安4年 (AD 199)"
+          "year_ad": 194,
+          "era": "興平",
+          "era_year": 1,
+          "reasoning": "「是歲」 = 当前年 興平元年 (AD 194)"
         },
         {
           "id": "hhs.73.p42.h8",

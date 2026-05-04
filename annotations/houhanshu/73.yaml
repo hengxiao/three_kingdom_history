@@ -279,16 +279,6 @@ annotations:
   person_id: liuyu
   text: 虞
   via: given_name_carry
-- anchor: hhs.73.p7
-  at: 18
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 劉虞叱袁紹使者「主上蒙塵」即獻帝西遷蒙塵，對應 xianhan。
-  id: hhs.73.p7.h2
 - id: hhs.73.p7.a1
   anchor: hhs.73.p7
   at: 23
@@ -1163,16 +1153,6 @@ annotations:
   person_id: yuanshao
   text: 袁紹
   via: primary
-- anchor: hhs.73.p23
-  at: 143
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 公孫瓚劾袁紹奏「太后承攝，何氏輔朝」即何太后臨朝何進輔朝，對應 hetaihou。
-  id: hhs.73.p23.h44
 - id: hhs.73.p23.a2
   anchor: hhs.73.p23
   at: 153
@@ -2353,10 +2333,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 199
-  era: 建安
-  era_year: 4
-  reasoning: 「是歲」 = 当前年 建安4年 (AD 199)
+  year_ad: 194
+  era: 興平
+  era_year: 1
+  reasoning: 「是歲」 = 当前年 興平元年 (AD 194)
 - id: hhs.73.p42.h8
   anchor: hhs.73.p42
   at: 50

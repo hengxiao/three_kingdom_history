@@ -626,6 +626,15 @@
         {
           "id": "wu.13.p7.h7",
           "type": "person",
+          "at": 185,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wu.13.p7.h8",
+          "type": "person",
           "at": 254,
           "length": 1,
           "text": "權",
@@ -1032,16 +1041,6 @@
           "text": "曹操",
           "person_id": "caocao",
           "via": "primary"
-        },
-        {
-          "id": "wu.13.p12.h3",
-          "type": "person",
-          "at": 61,
-          "length": 2,
-          "text": "主上",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "陸遜對諸將言「受命主上」即吳王孫權（建安二十四年至黃武中夷陵之戰）。"
         }
       ]
     },
@@ -1472,16 +1471,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.13.p16.h8",
-          "type": "person",
-          "at": 25,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "黃龍元年陸遜輔留鎮太子，太子即孫登（黃龍元年立為皇太子）。"
-        },
-        {
           "id": "wu.13.p16.h2",
           "type": "person",
           "at": 37,
@@ -1489,16 +1478,6 @@
           "text": "遜",
           "person_id": "luxun",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wu.13.p16.h9",
-          "type": "person",
-          "at": 39,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「征遜輔太子」承前句，仍指孫登。"
         },
         {
           "id": "wu.13.p16.h3",
@@ -1590,16 +1569,6 @@
       "text": "臣愚以為四海未定，當須民力，以濟時務。今兵興歷年，見眾損減，陛下憂勞聖慮，忘寢與食，將遠規夷州，以定大事。臣反覆思惟，未見其利，萬里襲取，風波難測，民易水土，必致疾疫，今驅見眾，經涉不毛，欲益更損，欲利反害。又珠崖絕險，民猶禽獸，得其民不足濟事，無其兵不足虧眾。今江東見眾，自足圖事，但當畜力而後動耳。昔桓王創基，兵不一旅，而開大業。陛下承運，拓定江表。臣聞治亂討逆，須兵為威，農桑衣食，民之本業，而干戈未戢，民有饑寒。臣愚以為宜育養士民，寬其祖賦，眾克在和，義以勸勇，則河渭可平，九有一統矣。",
       "annotations": [
         {
-          "id": "wu.13.p19.h2",
-          "type": "person",
-          "at": 30,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "陸遜諫攻夷州疏對孫權「陛下憂勞聖慮」。"
-        },
-        {
           "id": "wu.13.p19.h1",
           "type": "person",
           "at": 152,
@@ -1607,16 +1576,6 @@
           "text": "桓王",
           "person_id": "sunce",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wu.13.p19.h3",
-          "type": "person",
-          "at": 167,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏「陛下承運，拓定江表」對孫權。"
         }
       ]
     },
@@ -1658,26 +1617,6 @@
       "text": "淵憑險恃固，拘留大使，名馬不獻，實可仇忿。蠻夷猾夏，未染王化，鳥竄荒裔，拒逆王師，至令陛下爰赫斯怒，欲勞萬乘泛輕越海，不慮其危而涉不測。方今天下雲擾，群雄虎爭，英豪踴躍，張聲大視。陛下以神武之姿，誕膺期運，破操烏林，敗備西陵，禽羽荊州，斯三虜者當世雄傑。皆摧其鋒。聖化所綏，萬里草偃，方蕩平華夏，總一大猷。今不忍小忿，而發雷霆之怒，違垂堂之戒，輕萬乘之重，此臣之所惑也。臣聞志行萬里者，不中道而輟足；圖四海者，匪懷細以害大。強寇在境，荒服未庭，陛下乘桴遠征，必致窺闟，戚至而憂，悔之無及。若使大事時捷，則淵不討自服；今乃遠惜遼東眾之與馬，奈何獨欲捐江東萬安之本業而不借乎？乞息六師，以威大虜，早定中夏，垂耀將來。",
       "annotations": [
         {
-          "id": "wu.13.p21.h2",
-          "type": "person",
-          "at": 43,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "陸遜諫絕公孫淵與遼東事疏對孫權。"
-        },
-        {
-          "id": "wu.13.p21.h3",
-          "type": "person",
-          "at": 90,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「陛下以神武之姿」。"
-        },
-        {
           "id": "wu.13.p21.h1",
           "type": "person",
           "at": 109,
@@ -1685,16 +1624,6 @@
           "text": "備",
           "person_id": "liubei",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wu.13.p21.h4",
-          "type": "person",
-          "at": 222,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "同疏對孫權「陛下乘桴遠征」。"
         }
       ]
     },
@@ -2087,16 +2016,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.13.p29.h12",
-          "type": "person",
-          "at": 136,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「及太子有不安之儀」— 二宮並闕事，太子即孫和。"
-        },
-        {
           "id": "wu.13.p29.h5",
           "type": "person",
           "at": 144,
@@ -2106,16 +2025,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.13.p29.h13",
-          "type": "person",
-          "at": 150,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「太子正統，宜有磐石之固」承前句指孫和。"
-        },
-        {
           "id": "wu.13.p29.h6",
           "type": "person",
           "at": 222,
@@ -2123,26 +2032,6 @@
           "text": "遜",
           "person_id": "luxun",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wu.13.p29.h14",
-          "type": "person",
-          "at": 238,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「親附太子，枉見流徙」承前句指孫和。"
-        },
-        {
-          "id": "wu.13.p29.h15",
-          "type": "person",
-          "at": 246,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「太子太傅吾粲」即孫和太傅。"
         },
         {
           "id": "wu.13.p29.h7",
@@ -2507,16 +2396,6 @@
           "text": "王蕃",
           "person_id": "wangfan",
           "via": "primary"
-        },
-        {
-          "id": "wu.13.p40.h3",
-          "type": "person",
-          "at": 223,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunhao",
-          "via": "llm",
-          "reasoning": "陸抗上疏言王蕃、樓玄、李勖等被誅殛事，所對「陛下」即吳末帝孫皓。"
         }
       ]
     },
@@ -2571,18 +2450,7 @@
     {
       "id": "wu.13.p45",
       "text": "西陵、建平，國之蕃表，既處下流，受敵二境。若敵泛舟順流，舳艫千里，星奔電邁，俄然行至，非可恃援他部以救倒縣也。此乃社稷安危之機，非徒封疆侵陵小害也。臣父遜昔在西垂陳言，以為西陵國之西門，雖雲易守，亦復易失。若有不守，非但失一郡，則荊州非吳有也。如其有虞，當傾國爭之。臣往在西陵，得涉遜跡，前乞精兵三萬，而（至）者循常，未肯差赴。自步闡以後，益更損耗。今臣所統千里，受敵四處，外御強對，內懷百蠻，而上下見兵財有數萬，羸弊日久，難以待變。臣愚以為諸王幼沖，未統國事，可且立傅相，輔導賢姿，無用兵馬，以妨要務。又黃門豎宦，開立占募，兵民怨役，逋逃入占。乞特詔簡閱，一切料出，以補疆場受敵常處，使臣所部足滿八萬，省息眾務，信其賞罰，雖韓、白復生，無所展巧。若兵不增，此制不改，而欲克諧大事，此臣之所深戚也。若臣死之後，乞以西方為屬。願陛下思覽臣言，則臣死且不朽。",
-      "annotations": [
-        {
-          "id": "wu.13.p45.h1",
-          "type": "person",
-          "at": 363,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunhao",
-          "via": "llm",
-          "reasoning": "陸抗臨終疏對孫皓「願陛下思覽臣言」。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wu.13.p46",

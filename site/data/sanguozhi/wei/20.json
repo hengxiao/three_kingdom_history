@@ -72,17 +72,16 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p2.h5",
+          "id": "wei.20.p2.h2",
           "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
+          "at": 8,
+          "length": 3,
+          "text": "卞皇后",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「卞皇后生文皇帝、任城威王彰、陳思王植……」卞皇后即曹操妻、文帝母，roster未列。"
+          "via": "primary"
         },
         {
-          "id": "wei.20.p2.h2",
+          "id": "wei.20.p2.h3",
           "type": "person",
           "at": 12,
           "length": 3,
@@ -91,7 +90,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p2.h3",
+          "id": "wei.20.p2.h4",
           "type": "person",
           "at": 60,
           "length": 3,
@@ -100,7 +99,7 @@
           "via": "alias"
         },
         {
-          "id": "wei.20.p2.h4",
+          "id": "wei.20.p2.h5",
           "type": "person",
           "at": 123,
           "length": 3,
@@ -228,10 +227,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 254,
-          "era": "嘉平",
-          "era_year": 6,
-          "reasoning": "「其年」 = 当前年 嘉平6年 (AD 254)"
+          "year_ad": 229,
+          "era": "太和",
+          "era_year": 3,
+          "reasoning": "「其年」 = 当前年 太和3年 (AD 229)"
         },
         {
           "id": "wei.20.p4.t3",
@@ -241,10 +240,10 @@
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 250,
-          "era": "嘉平",
+          "year_ad": 228,
+          "era": "太和",
           "era_year": 2,
-          "reasoning": "承前文年號「嘉平」推得，「二年」 = 嘉平2年 = AD 250"
+          "reasoning": "承前文年號「太和」推得，「二年」 = 太和2年 = AD 228"
         },
         {
           "id": "wei.20.p4.t4",
@@ -399,6 +398,28 @@
           "at": 371,
           "length": 0,
           "text": "孫盛曰：春秋之義，立嫡以長不以賢。沖雖存也猶不宜立，況其旣沒，而發斯言乎？詩云：「無易由言。」魏武其易之也。"
+        },
+        {
+          "id": "wei.20.p5.h13",
+          "type": "person",
+          "at": 378,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p5.t2",
+          "type": "temporal",
+          "at": 403,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
         }
       ]
     },
@@ -434,13 +455,26 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.20.p6.t3",
+          "type": "temporal",
+          "at": 34,
+          "length": 2,
+          "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 223,
+          "era": "黃初",
+          "era_year": 4,
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
+        },
+        {
+          "id": "wei.20.p6.t4",
           "type": "temporal",
           "at": 43,
           "length": 4,
@@ -453,7 +487,7 @@
           "reasoning": "原文「太和五年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p6.t4",
+          "id": "wei.20.p6.t5",
           "type": "temporal",
           "at": 56,
           "length": 4,
@@ -466,20 +500,20 @@
           "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p6.t5",
+          "id": "wei.20.p6.t6",
           "type": "temporal",
           "at": 83,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 239,
+          "era": "景初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「景初」推得，「三年」 = 景初3年 = AD 239"
         },
         {
-          "id": "wei.20.p6.t6",
+          "id": "wei.20.p6.t7",
           "type": "temporal",
           "at": 92,
           "length": 4,
@@ -513,6 +547,19 @@
         {
           "id": "wei.20.p7.t2",
           "type": "temporal",
+          "at": 15,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p7.t3",
+          "type": "temporal",
           "at": 25,
           "length": 4,
           "text": "黃初二年",
@@ -524,30 +571,30 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p7.t3",
+          "id": "wei.20.p7.t4",
           "type": "temporal",
           "at": 35,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p7.t4",
+          "id": "wei.20.p7.t5",
           "type": "temporal",
           "at": 43,
           "length": 2,
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "「其年」 = 当前年 正元3年 (AD 256)"
+          "reasoning": "「其年」 = 当前年 黃初3年 (AD 222)"
         },
         {
           "id": "wei.20.p7.h1",
@@ -559,7 +606,29 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p7.t5",
+          "id": "wei.20.p7.t6",
+          "type": "temporal",
+          "at": 78,
+          "length": 2,
+          "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 224,
+          "era": "黃初",
+          "era_year": 5,
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
+        },
+        {
+          "id": "wei.20.p7.h2",
+          "type": "person",
+          "at": 104,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.20.p7.t7",
           "type": "temporal",
           "at": 146,
           "length": 4,
@@ -572,7 +641,7 @@
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p7.t6",
+          "id": "wei.20.p7.t8",
           "type": "temporal",
           "at": 168,
           "length": 4,
@@ -592,17 +661,17 @@
           "text": "《魏書》載璽書曰：「制詔彭城王：有司奏，王遣司馬董和，賫珠玉來到京師中尙方，多作禁物，交通工官，出入近署，逾侈非度，慢令違制，繩王以法。朕用憮然，不寧於心。王以懿親之重，處籓輔之位，典籍日陳於前，勤誦不輟於側。加雅素奉脩，恭肅敬愼，務在蹈道，孜孜不衰，豈忘率意正身，考終厥行哉？若然小疵，或謬於細人，忽不覺悟，以斯爲失耳。書曰：『惟聖罔念作狂，惟狂克念作聖。』古人垂誥，乃至於此，故君子思心無斯須遠道焉。常慮所以累德者而去之，則德明矣；開心所以爲塞者而通之，則心夷矣；愼行所以爲尤者而脩之，則行全矣：三者，王之所能備也。今詔有司宥王，削縣二千戸，以彰八柄與奪之法。昔羲、文作易，著休復之語，仲尼論行，旣過能改。王其改行，茂昭斯義，率意無怠。」"
         },
         {
-          "id": "wei.20.p7.t7",
+          "id": "wei.20.p7.t9",
           "type": "temporal",
           "at": 192,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 239,
+          "era": "景初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「景初」推得，「三年」 = 景初3年 = AD 239"
         }
       ]
     },
@@ -635,6 +704,19 @@
         {
           "id": "wei.20.p8.t2",
           "type": "temporal",
+          "at": 18,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p8.t3",
+          "type": "temporal",
           "at": 29,
           "length": 4,
           "text": "黃初二年",
@@ -646,20 +728,33 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p8.t3",
+          "id": "wei.20.p8.t4",
           "type": "temporal",
           "at": 39,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p8.t4",
+          "id": "wei.20.p8.t5",
+          "type": "temporal",
+          "at": 47,
+          "length": 2,
+          "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 224,
+          "era": "黃初",
+          "era_year": 5,
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
+        },
+        {
+          "id": "wei.20.p8.t6",
           "type": "temporal",
           "at": 56,
           "length": 4,
@@ -681,7 +776,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p8.t5",
+          "id": "wei.20.p8.t7",
           "type": "temporal",
           "at": 99,
           "length": 4,
@@ -694,32 +789,32 @@
           "reasoning": "原文「景初元年」直接出现年号；解析為 AD 237（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p8.t6",
+          "id": "wei.20.p8.t8",
           "type": "temporal",
           "at": 107,
           "length": 2,
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 255,
-          "era": "正元",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
-          "reasoning": "承前文年號「正元」推得，「二年」 = 正元2年 = AD 255"
+          "reasoning": "承前文年號「景初」推得，「二年」 = 景初2年 = AD 238"
         },
         {
-          "id": "wei.20.p8.t7",
+          "id": "wei.20.p8.t9",
           "type": "temporal",
           "at": 117,
           "length": 4,
           "text": "冬十二月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 255,
-          "era": "正元",
+          "year_ad": 238,
+          "era": "景初",
           "era_year": 2,
           "month_chinese": "冬十二月",
           "month_ordinal": 12,
-          "reasoning": "年承前文 正元2年 (AD 255)，月份「冬十二月」"
+          "reasoning": "年承前文 景初2年 (AD 238)，月份「冬十二月」"
         },
         {
           "id": "wei.20.p8.h3",
@@ -731,17 +826,17 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p8.t8",
+          "id": "wei.20.p8.t10",
           "type": "temporal",
           "at": 159,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 239,
+          "era": "景初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「景初」推得，「三年」 = 景初3年 = AD 239"
         }
       ]
     },
@@ -765,6 +860,19 @@
         {
           "id": "wei.20.p9.t2",
           "type": "temporal",
+          "at": 15,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p9.t3",
+          "type": "temporal",
           "at": 24,
           "length": 4,
           "text": "黃初二年",
@@ -776,20 +884,46 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p9.t3",
+          "id": "wei.20.p9.t4",
           "type": "temporal",
           "at": 34,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p9.t4",
+          "id": "wei.20.p9.t5",
+          "type": "temporal",
+          "at": 41,
+          "length": 2,
+          "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 224,
+          "era": "黃初",
+          "era_year": 5,
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
+        },
+        {
+          "id": "wei.20.p9.t6",
+          "type": "temporal",
+          "at": 49,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
+        },
+        {
+          "id": "wei.20.p9.t7",
           "type": "temporal",
           "at": 57,
           "length": 4,
@@ -830,18 +964,31 @@
         {
           "id": "wei.20.p10.t2",
           "type": "temporal",
+          "at": 60,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p10.t3",
+          "type": "temporal",
           "at": 71,
           "length": 2,
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 256,
-          "era": "正元",
-          "era_year": 3,
-          "reasoning": "「其年」 = 当前年 正元3年 (AD 256)"
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "「其年」 = 当前年 建安22年 (AD 217)"
         },
         {
-          "id": "wei.20.p10.t3",
+          "id": "wei.20.p10.t4",
           "type": "temporal",
           "at": 79,
           "length": 4,
@@ -854,33 +1001,46 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p10.t4",
+          "id": "wei.20.p10.t5",
           "type": "temporal",
           "at": 265,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p10.t5",
+          "id": "wei.20.p10.t6",
           "type": "temporal",
           "at": 273,
           "length": 2,
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "「其年」 = 当前年 正元3年 (AD 256)"
+          "reasoning": "「其年」 = 当前年 黃初3年 (AD 222)"
         },
         {
-          "id": "wei.20.p10.t6",
+          "id": "wei.20.p10.t7",
+          "type": "temporal",
+          "at": 366,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
+        },
+        {
+          "id": "wei.20.p10.t8",
           "type": "temporal",
           "at": 374,
           "length": 4,
@@ -891,6 +1051,32 @@
           "era": "太和",
           "era_year": 2,
           "reasoning": "原文「太和二年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p10.t9",
+          "type": "temporal",
+          "at": 401,
+          "length": 2,
+          "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 231,
+          "era": "太和",
+          "era_year": 5,
+          "reasoning": "承前文年號「太和」推得，「五年」 = 太和5年 = AD 231"
+        },
+        {
+          "id": "wei.20.p10.t10",
+          "type": "temporal",
+          "at": 408,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "承前文年號「太和」推得，「六年」 = 太和6年 = AD 232"
         }
       ]
     },
@@ -951,6 +1137,19 @@
           "reasoning": "原文「建安十六年」直接出现年号；解析為 AD 211（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.20.p12.t2",
+          "type": "temporal",
+          "at": 22,
+          "length": 3,
+          "text": "二十年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 215,
+          "era": "建安",
+          "era_year": 20,
+          "reasoning": "承前文年號「建安」推得，「二十年」 = 建安20年 = AD 215"
+        },
+        {
           "id": "wei.20.p12.h1",
           "type": "person",
           "at": 43,
@@ -960,7 +1159,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p12.t2",
+          "id": "wei.20.p12.t3",
           "type": "temporal",
           "at": 54,
           "length": 4,
@@ -973,7 +1172,20 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p12.t3",
+          "id": "wei.20.p12.t4",
+          "type": "temporal",
+          "at": 65,
+          "length": 2,
+          "text": "四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 223,
+          "era": "黃初",
+          "era_year": 4,
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
+        },
+        {
+          "id": "wei.20.p12.t5",
           "type": "temporal",
           "at": 73,
           "length": 4,
@@ -984,6 +1196,19 @@
           "era": "太和",
           "era_year": 4,
           "reasoning": "原文「太和四年」直接出现年号；解析為 AD 230（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p12.t6",
+          "type": "temporal",
+          "at": 88,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "承前文年號「太和」推得，「六年」 = 太和6年 = AD 232"
         }
       ]
     },
@@ -1007,6 +1232,19 @@
         {
           "id": "wei.20.p13.t2",
           "type": "temporal",
+          "at": 19,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p13.t3",
+          "type": "temporal",
           "at": 29,
           "length": 4,
           "text": "黃初二年",
@@ -1018,20 +1256,33 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p13.t3",
+          "id": "wei.20.p13.t4",
           "type": "temporal",
           "at": 39,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 256,
-          "era": "正元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「正元」推得，「三年」 = 正元3年 = AD 256"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p13.t4",
+          "id": "wei.20.p13.t5",
+          "type": "temporal",
+          "at": 47,
+          "length": 2,
+          "text": "五年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 224,
+          "era": "黃初",
+          "era_year": 5,
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
+        },
+        {
+          "id": "wei.20.p13.t6",
           "type": "temporal",
           "at": 56,
           "length": 4,
@@ -1044,7 +1295,7 @@
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p13.t5",
+          "id": "wei.20.p13.t7",
           "type": "temporal",
           "at": 66,
           "length": 4,
@@ -1096,13 +1347,26 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "甘露",
+          "year_ad": 224,
+          "era": "黃初",
           "era_year": 5,
-          "reasoning": "承前文年號「甘露」推得，「五年」 = 甘露5年 = AD 260"
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
         },
         {
           "id": "wei.20.p14.t4",
+          "type": "temporal",
+          "at": 59,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
+        },
+        {
+          "id": "wei.20.p14.t5",
           "type": "temporal",
           "at": 67,
           "length": 4,
@@ -1136,18 +1400,31 @@
         {
           "id": "wei.20.p15.t2",
           "type": "temporal",
+          "at": 15,
+          "length": 4,
+          "text": "二十二年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
+        },
+        {
+          "id": "wei.20.p15.t3",
+          "type": "temporal",
           "at": 26,
           "length": 2,
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 260,
-          "era": "甘露",
-          "era_year": 5,
-          "reasoning": "「其年」 = 当前年 甘露5年 (AD 260)"
+          "year_ad": 217,
+          "era": "建安",
+          "era_year": 22,
+          "reasoning": "「其年」 = 当前年 建安22年 (AD 217)"
         },
         {
-          "id": "wei.20.p15.t3",
+          "id": "wei.20.p15.t4",
           "type": "temporal",
           "at": 34,
           "length": 4,
@@ -1167,33 +1444,46 @@
           "text": "《魏略》曰：幹一名良。良本陳妾子，良生而陳氏死，太祖令王夫人養之。良年五歳而太祖疾困，遺令語太子曰：「此兒三歳亡母，五歳失父，以累汝也。」太子由是親待，隆於諸弟。良年小，常呼文帝爲阿翁，帝謂良曰：「我，汝兄耳。」文帝又愍其如是，毎爲流涕。臣松之案：此傳以母貴賤爲次，不計兄弟之年，故楚王彪年雖大，傳在幹後。尋《朱建平傳》，知彪大幹二十歳。"
         },
         {
-          "id": "wei.20.p15.t4",
+          "id": "wei.20.p15.t5",
           "type": "temporal",
           "at": 47,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 258,
-          "era": "甘露",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「甘露」推得，「三年」 = 甘露3年 = AD 258"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p15.t5",
+          "id": "wei.20.p15.t6",
           "type": "temporal",
           "at": 55,
           "length": 2,
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "甘露",
+          "year_ad": 224,
+          "era": "黃初",
           "era_year": 5,
-          "reasoning": "承前文年號「甘露」推得，「五年」 = 甘露5年 = AD 260"
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
         },
         {
-          "id": "wei.20.p15.t6",
+          "id": "wei.20.p15.t7",
+          "type": "temporal",
+          "at": 64,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
+        },
+        {
+          "id": "wei.20.p15.t8",
           "type": "temporal",
           "at": 72,
           "length": 4,
@@ -1329,10 +1619,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 258,
-          "era": "甘露",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「甘露」推得，「三年」 = 甘露3年 = AD 258"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.20.p19.t4",
@@ -1342,10 +1632,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 258,
-          "era": "甘露",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "「其年」 = 当前年 甘露3年 (AD 258)"
+          "reasoning": "「其年」 = 当前年 黃初3年 (AD 222)"
         },
         {
           "id": "wei.20.p19.t5",
@@ -1355,13 +1645,26 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 260,
-          "era": "甘露",
+          "year_ad": 224,
+          "era": "黃初",
           "era_year": 5,
-          "reasoning": "承前文年號「甘露」推得，「五年」 = 甘露5年 = AD 260"
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
         },
         {
           "id": "wei.20.p19.t6",
+          "type": "temporal",
+          "at": 57,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
+        },
+        {
+          "id": "wei.20.p19.t7",
           "type": "temporal",
           "at": 65,
           "length": 4,
@@ -1374,20 +1677,33 @@
           "reasoning": "原文「太和五年」直接出现年号；解析為 AD 231（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p19.t7",
+          "id": "wei.20.p19.t8",
+          "type": "temporal",
+          "at": 75,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "承前文年號「太和」推得，「六年」 = 太和6年 = AD 232"
+        },
+        {
+          "id": "wei.20.p19.t9",
           "type": "temporal",
           "at": 114,
           "length": 2,
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 257,
-          "era": "甘露",
+          "year_ad": 228,
+          "era": "太和",
           "era_year": 2,
-          "reasoning": "承前文年號「甘露」推得，「二年」 = 甘露2年 = AD 257"
+          "reasoning": "承前文年號「太和」推得，「二年」 = 太和2年 = AD 228"
         },
         {
-          "id": "wei.20.p19.t8",
+          "id": "wei.20.p19.t10",
           "type": "temporal",
           "at": 125,
           "length": 4,
@@ -1400,7 +1716,7 @@
           "reasoning": "原文「景初三年」直接出现年号；解析為 AD 239（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p19.t9",
+          "id": "wei.20.p19.t11",
           "type": "temporal",
           "at": 141,
           "length": 4,
@@ -1536,6 +1852,19 @@
         {
           "id": "wei.20.p23.t2",
           "type": "temporal",
+          "at": 26,
+          "length": 4,
+          "text": "二十三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 218,
+          "era": "建安",
+          "era_year": 23,
+          "reasoning": "承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218"
+        },
+        {
+          "id": "wei.20.p23.t3",
+          "type": "temporal",
           "at": 35,
           "length": 4,
           "text": "黃初二年",
@@ -1547,33 +1876,33 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p23.t3",
+          "id": "wei.20.p23.t4",
           "type": "temporal",
           "at": 59,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p23.t4",
+          "id": "wei.20.p23.t5",
           "type": "temporal",
           "at": 67,
           "length": 2,
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         },
         {
-          "id": "wei.20.p23.t5",
+          "id": "wei.20.p23.t6",
           "type": "temporal",
           "at": 75,
           "length": 4,
@@ -1586,17 +1915,17 @@
           "reasoning": "原文「太和三年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p23.t6",
+          "id": "wei.20.p23.t7",
           "type": "temporal",
           "at": 99,
           "length": 2,
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 230,
+          "era": "太和",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「太和」推得，「四年」 = 太和4年 = AD 230"
         }
       ]
     },
@@ -1639,6 +1968,19 @@
         {
           "id": "wei.20.p25.t2",
           "type": "temporal",
+          "at": 25,
+          "length": 4,
+          "text": "二十四年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 219,
+          "era": "建安",
+          "era_year": 24,
+          "reasoning": "承前文年號「建安」推得，「二十四年」 = 建安24年 = AD 219"
+        },
+        {
+          "id": "wei.20.p25.t3",
+          "type": "temporal",
           "at": 35,
           "length": 4,
           "text": "黃初二年",
@@ -1650,33 +1992,33 @@
           "reasoning": "原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p25.t3",
+          "id": "wei.20.p25.t4",
           "type": "temporal",
           "at": 50,
           "length": 2,
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
-          "id": "wei.20.p25.t4",
+          "id": "wei.20.p25.t5",
           "type": "temporal",
           "at": 59,
           "length": 2,
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         },
         {
-          "id": "wei.20.p25.t5",
+          "id": "wei.20.p25.t6",
           "type": "temporal",
           "at": 68,
           "length": 4,
@@ -1747,10 +2089,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.20.p27.t4",
@@ -1760,10 +2102,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         },
         {
           "id": "wei.20.p27.t5",
@@ -1773,10 +2115,10 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 264,
-          "era": "景元",
+          "year_ad": 224,
+          "era": "黃初",
           "era_year": 5,
-          "reasoning": "承前文年號「景元」推得，「五年」 = 景元5年 = AD 264"
+          "reasoning": "承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224"
         },
         {
           "id": "wei.20.p27.t6",
@@ -1799,10 +2141,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 264,
-          "era": "景元",
-          "era_year": 5,
-          "reasoning": "「其年」 = 当前年 景元5年 (AD 264)"
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "「其年」 = 当前年 太和6年 (AD 232)"
         },
         {
           "id": "wei.20.p27.t8",
@@ -1846,6 +2188,19 @@
         {
           "id": "wei.20.p28.t2",
           "type": "temporal",
+          "at": 17,
+          "length": 4,
+          "text": "二十三年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 218,
+          "era": "建安",
+          "era_year": 23,
+          "reasoning": "承前文年號「建安」推得，「二十三年」 = 建安23年 = AD 218"
+        },
+        {
+          "id": "wei.20.p28.t3",
+          "type": "temporal",
           "at": 28,
           "length": 4,
           "text": "黃初三年",
@@ -1855,6 +2210,19 @@
           "era": "黃初",
           "era_year": 3,
           "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "wei.20.p28.t4",
+          "type": "temporal",
+          "at": 42,
+          "length": 2,
+          "text": "七年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 226,
+          "era": "黃初",
+          "era_year": 7,
+          "reasoning": "承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226"
         },
         {
           "id": "wei.20.p28.h1",
@@ -1875,7 +2243,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p28.t3",
+          "id": "wei.20.p28.t5",
           "type": "temporal",
           "at": 72,
           "length": 4,
@@ -1888,17 +2256,17 @@
           "reasoning": "原文「太和元年」直接出现年号；解析為 AD 227（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p28.t4",
+          "id": "wei.20.p28.t6",
           "type": "temporal",
           "at": 83,
           "length": 2,
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 264,
-          "era": "景元",
-          "era_year": 5,
-          "reasoning": "「其年」 = 当前年 景元5年 (AD 264)"
+          "year_ad": 227,
+          "era": "太和",
+          "era_year": 1,
+          "reasoning": "「其年」 = 当前年 太和元年 (AD 227)"
         }
       ]
     },
@@ -1932,10 +2300,10 @@
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 264,
-          "era": "景元",
+          "year_ad": 244,
+          "era": "正始",
           "era_year": 5,
-          "reasoning": "承前文年號「景元」推得，「五年」 = 景元5年 = AD 264"
+          "reasoning": "承前文年號「正始」推得，「五年」 = 正始5年 = AD 244"
         }
       ]
     },
@@ -1953,17 +2321,16 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p31.h3",
+          "id": "wei.20.p31.h2",
           "type": "person",
-          "at": 8,
+          "at": 6,
           "length": 2,
-          "text": "皇后",
+          "text": "甄氏",
           "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "「甄氏皇后生明帝」即文帝皇后、文昭甄皇后，roster未列。"
+          "via": "alias"
         },
         {
-          "id": "wei.20.p31.h2",
+          "id": "wei.20.p31.h3",
           "type": "person",
           "at": 11,
           "length": 2,
@@ -1998,10 +2365,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 229,
+          "era": "太和",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「太和」推得，「三年」 = 太和3年 = AD 229"
         },
         {
           "id": "wei.20.p32.t3",
@@ -2078,10 +2445,10 @@
           "text": "二年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 261,
-          "era": "景元",
+          "year_ad": 228,
+          "era": "太和",
           "era_year": 2,
-          "reasoning": "承前文年號「景元」推得，「二年」 = 景元2年 = AD 261"
+          "reasoning": "承前文年號「太和」推得，「二年」 = 太和2年 = AD 228"
         },
         {
           "id": "wei.20.p33.t4",
@@ -2136,10 +2503,10 @@
           "text": "其年",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 261,
-          "era": "景元",
-          "era_year": 2,
-          "reasoning": "「其年」 = 当前年 景元2年 (AD 261)"
+          "year_ad": 225,
+          "era": "黃初",
+          "era_year": 6,
+          "reasoning": "「其年」 = 当前年 黃初6年 (AD 225)"
         }
       ]
     },
@@ -2161,6 +2528,19 @@
           "reasoning": "原文「黃初三年」直接出现年号；解析為 AD 222（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "wei.20.p35.t2",
+          "type": "temporal",
+          "at": 16,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
+          "era": "黃初",
+          "era_year": 6,
+          "reasoning": "承前文年號「黃初」推得，「六年」 = 黃初6年 = AD 225"
+        },
+        {
           "id": "wei.20.p35.h1",
           "type": "person",
           "at": 25,
@@ -2170,7 +2550,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.20.p35.t2",
+          "id": "wei.20.p35.t3",
           "type": "temporal",
           "at": 65,
           "length": 4,
@@ -2183,7 +2563,7 @@
           "reasoning": "原文「太和六年」直接出现年号；解析為 AD 232（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p35.t3",
+          "id": "wei.20.p35.t4",
           "type": "temporal",
           "at": 75,
           "length": 4,
@@ -2222,13 +2602,26 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.20.p36.t3",
+          "type": "temporal",
+          "at": 30,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
+          "era": "黃初",
+          "era_year": 6,
+          "reasoning": "承前文年號「黃初」推得，「六年」 = 黃初6年 = AD 225"
+        },
+        {
+          "id": "wei.20.p36.t4",
           "type": "temporal",
           "at": 39,
           "length": 4,
@@ -2241,17 +2634,30 @@
           "reasoning": "原文「太和三年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p36.t4",
+          "id": "wei.20.p36.t5",
           "type": "temporal",
           "at": 45,
           "length": 2,
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 264,
-          "era": "景元",
+          "year_ad": 231,
+          "era": "太和",
           "era_year": 5,
-          "reasoning": "承前文年號「景元」推得，「五年」 = 景元5年 = AD 264"
+          "reasoning": "承前文年號「太和」推得，「五年」 = 太和5年 = AD 231"
+        },
+        {
+          "id": "wei.20.p36.t6",
+          "type": "temporal",
+          "at": 59,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "承前文年號「太和」推得，「六年」 = 太和6年 = AD 232"
         }
       ]
     },
@@ -2280,10 +2686,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 262,
-          "era": "景元",
+          "year_ad": 222,
+          "era": "黃初",
           "era_year": 3,
-          "reasoning": "承前文年號「景元」推得，「三年」 = 景元3年 = AD 262"
+          "reasoning": "承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222"
         },
         {
           "id": "wei.20.p37.t3",
@@ -2293,13 +2699,26 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         },
         {
           "id": "wei.20.p37.t4",
+          "type": "temporal",
+          "at": 38,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 225,
+          "era": "黃初",
+          "era_year": 6,
+          "reasoning": "承前文年號「黃初」推得，「六年」 = 黃初6年 = AD 225"
+        },
+        {
+          "id": "wei.20.p37.t5",
           "type": "temporal",
           "at": 46,
           "length": 4,
@@ -2312,17 +2731,30 @@
           "reasoning": "原文「太和三年」直接出现年号；解析為 AD 229（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "wei.20.p37.t5",
+          "id": "wei.20.p37.t6",
           "type": "temporal",
           "at": 52,
           "length": 2,
           "text": "五年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 264,
-          "era": "景元",
+          "year_ad": 231,
+          "era": "太和",
           "era_year": 5,
-          "reasoning": "承前文年號「景元」推得，「五年」 = 景元5年 = AD 264"
+          "reasoning": "承前文年號「太和」推得，「五年」 = 太和5年 = AD 231"
+        },
+        {
+          "id": "wei.20.p37.t7",
+          "type": "temporal",
+          "at": 66,
+          "length": 2,
+          "text": "六年",
+          "kind": "relative",
+          "resolution": "bare_year",
+          "year_ad": 232,
+          "era": "太和",
+          "era_year": 6,
+          "reasoning": "承前文年號「太和」推得，「六年」 = 太和6年 = AD 232"
         }
       ]
     },
@@ -2351,10 +2783,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         }
       ]
     },
@@ -2383,10 +2815,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 223,
+          "era": "黃初",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「黃初」推得，「四年」 = 黃初4年 = AD 223"
         }
       ]
     },
@@ -2454,11 +2886,11 @@
         {
           "id": "wei.20.p46.h1",
           "type": "person",
-          "at": 84,
-          "length": 3,
-          "text": "武皇帝",
-          "person_id": "caocao",
-          "via": "chapter_alias"
+          "at": 83,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },

@@ -197,18 +197,7 @@
     {
       "id": "zztj.58.p15",
       "text": "帝好為私蓄，收天下之珍貨，每郡國貢獻，先輸中署，名為「導行費」。中常侍呂強上疏諫曰：「天下之財，莫不生之陰陽，歸之陛下，豈有公私！而今中尚方斂諸郡之寶，中御府積天下之繒，西園引司農之藏，中廄聚太僕之馬；而所輸之府，輒有導行之財，調廣民困，費多獻少，奸吏因其利，百姓受其敝。又，阿媚之臣，好獻其私，容諂姑息，自此而進。舊典：選舉委任三府，尚書受奏御而已；受試任用，責以成功，功無可察，然後付之尚書舉劾，請下廷尉覆案虛實，行其罪罰。於是三公每有所選，參議掾屬，咨其行狀，度其器能；然猶有曠職廢官，荒穢不治。今但任尚書，或有詔用，如是，三公得免選舉之負，尚書亦復不坐，責賞無歸，豈肯空自勞苦乎！」書奏，不省。",
-      "annotations": [
-        {
-          "id": "zztj.58.p15.h1",
-          "type": "person",
-          "at": 57,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.58.p16",
@@ -217,19 +206,37 @@
         {
           "id": "zztj.58.p16.h1",
           "type": "person",
-          "at": 1,
-          "length": 2,
-          "text": "皇后",
+          "at": 0,
+          "length": 3,
+          "text": "何皇后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "光和年間皇后當指何皇后(靈帝何氏)，不在花名冊"
+          "via": "primary"
+        },
+        {
+          "id": "zztj.58.p16.h2",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "王美人",
+          "person_id": "wangrong",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "zztj.58.p17",
       "text": "大長秋華容侯曹節卒；中常侍趙忠代領大長秋。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.58.p17.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "zztj.58.p18",
@@ -474,18 +481,7 @@
     {
       "id": "zztj.58.p32",
       "text": "爵號皇后母為舞陽君。",
-      "annotations": [
-        {
-          "id": "zztj.58.p32.h1",
-          "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "光和年間皇后當指何皇后(靈帝何氏)，不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.58.p33",
@@ -873,26 +869,6 @@
           "text": "傅燮",
           "person_id": "fuxie",
           "via": "primary"
-        },
-        {
-          "id": "zztj.58.p52.h2",
-          "type": "person",
-          "at": 153,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝"
-        },
-        {
-          "id": "zztj.58.p52.h3",
-          "type": "person",
-          "at": 279,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "光和-中平年間靈帝在位，朝臣上書所稱陛下指靈帝"
         }
       ]
     },

@@ -36,6 +36,15 @@
       "text": "烈祖明皇帝下景初二年（戊午，公元二三八年）",
       "annotations": [
         {
+          "id": "zztj.74.p4.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p4.t1",
           "type": "temporal",
           "at": 6,
@@ -193,16 +202,6 @@
       "text": "漢主立皇后張氏，前後之妹也。立王貴人子璿為皇太子，瑤為安定王。大司農河南孟光問太子讀書及情性好尚於秘書郎郤正，正曰：「奉親虔恭，夙夜匪解，有古世子之風；接待群僚，舉動出於仁恕。」光曰：「如君所道，皆家戶所有耳；吾今所問，欲知其權略智調何如也。」正曰：「世子之道，在於承志竭歡，既不得妄有施為，智調藏於胸懷，權略應時而發，此之有無，焉可豫知也！」光知正慎宜，不為放談，乃曰：「吾好直言，無所迴避。今天下未定，智意為先，智意自然，不可力強致也。儲君讀書，寧當效吾等竭力博識以待訪問，如博士探策講試以求爵位邪！當務其急者。」正深謂光言為然。正，儉之孫也。",
       "annotations": [
         {
-          "id": "zztj.74.p8.h5",
-          "type": "person",
-          "at": 22,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "景初三年(239)曹叡立曹芳為太子"
-        },
-        {
           "id": "zztj.74.p8.h1",
           "type": "person",
           "at": 36,
@@ -210,16 +209,6 @@
           "text": "孟光",
           "person_id": "mengguang",
           "via": "primary"
-        },
-        {
-          "id": "zztj.74.p8.h6",
-          "type": "person",
-          "at": 39,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "景初三年(239)曹叡立曹芳為太子"
         },
         {
           "id": "zztj.74.p8.h2",
@@ -502,12 +491,20 @@
         {
           "id": "zztj.74.p14.h1",
           "type": "person",
-          "at": 25,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
+          "at": 1,
+          "length": 3,
+          "text": "步夫人",
+          "person_id": "bulianshi",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.74.p14.h2",
+          "type": "person",
+          "at": 65,
+          "length": 3,
+          "text": "步夫人",
+          "person_id": "bulianshi",
+          "via": "alias"
         }
       ]
     },
@@ -515,16 +512,6 @@
       "id": "zztj.74.p15",
       "text": "吳主使中書郎呂壹典校諸官府及州郡文書，壹因此漸作威福，深文巧詆，排陷無辜，毀短大臣，纖介必聞。太子登數諫，吳主不聽，群臣莫敢復言，皆畏之側目。壹誣白故江夏太守刁嘉謗訕國政，吳主怒，收嘉，繫獄驗問。時同坐人皆怖畏壹，並言聞之。侍中北海是儀獨雲無聞，遂見窮詰累日，詔旨轉厲，群臣為之屏息。儀曰：「今刀鋸已在臣頸，臣何敢為嘉隱諱，自取夷滅，為不忠之鬼！厄以聞知當有本末。」據實答問，辭不傾移，吳主遂捨之；嘉亦得免。上大將軍陸遜、太常潘濬憂壹亂國，每言之，輒流涕。壹白丞相顧雍過失，吳主怒，詰責雍。黃門侍郎謝肱語次問壹：「顧公事何如？」壹曰：「不能佳。」肱又問：「若此公免退，誰當代之？」壹未答。肱曰：「得無潘太常得之乎？」壹良久曰：「君語近之也。」肱曰：「潘太常常切齒於君，但道無因耳。今日代顧公，恐明日便擊君矣！」壹大懼，遂解散雍事。潘濬求朝，詣建業，欲盡辭極諫。至，聞太子登已數言之而不見從，濬乃大請百寮，欲因會手刃殺壹，以身當之，為國除患。壹密聞知，稱疾不行。西陵督步騭上疏曰：「顧雍、陸遜、潘濬，志在竭誠，寢食不寧，念欲安國利民，建久長之計，可謂心膂股肱社稷之臣矣。宜各委任，不使他官監其所司，課其殿最。此三臣思慮不到則已，豈敢欺負所天乎！」左將軍朱據部曲應受三萬緡，工王遂詐而受之。壹疑據實取，考問主者，死於杖下；據哀其無辜，厚棺斂之，壹又表據吏為據隱，故厚其殯。吳主數責問據，據無以自明，藉草待罪；數日，典軍吏劉助覺，言王遂所取。吳主大感寤，曰：「朱據見枉，況吏民乎！」乃窮治壹罪，賞助百萬。丞相雍至廷尉斷獄，壹以囚見。雍和顏色問其辭狀，臨出，又謂壹曰：「君意得無慾有所道乎？」壹叩頭無言。時尚書郎懷敘面詈辱壹，雍責敘曰：「官有正法，何至於此！」有司奏壹大辟，或以為宜加焚裂，用彰元惡。吳主以訪中書令會稽闞澤，澤曰：「盛明之世，不宜復有此刑。」吳主從之。",
       "annotations": [
-        {
-          "id": "zztj.74.p15.h8",
-          "type": "person",
-          "at": 47,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
         {
           "id": "zztj.74.p15.h1",
           "type": "person",
@@ -551,16 +538,6 @@
           "text": "顧雍",
           "person_id": "guyong",
           "via": "primary"
-        },
-        {
-          "id": "zztj.74.p15.h9",
-          "type": "person",
-          "at": 383,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
         },
         {
           "id": "zztj.74.p15.h4",
@@ -730,36 +707,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.74.p20.h6",
-          "type": "person",
-          "at": 169,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "景初二年(238)魏明帝在位，陛下指曹叡"
-        },
-        {
-          "id": "zztj.74.p20.h7",
-          "type": "person",
-          "at": 208,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "景初二年(238)魏明帝在位，陛下指曹叡"
-        },
-        {
-          "id": "zztj.74.p20.h8",
-          "type": "person",
-          "at": 431,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "景初二年(238)魏明帝在位，陛下指曹叡"
-        },
-        {
           "id": "zztj.74.p20.h3",
           "type": "person",
           "at": 603,
@@ -889,6 +836,15 @@
       "text": "烈祖明皇帝下景初三年（己未，公元二三九年）",
       "annotations": [
         {
+          "id": "zztj.74.p22.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p22.t1",
           "type": "temporal",
           "at": 6,
@@ -975,16 +931,6 @@
           "text": "懿",
           "person_id": "simayi",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.74.p23.h7",
-          "type": "person",
-          "at": 114,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "景初三年(239)曹叡立曹芳為太子"
         }
       ]
     },
@@ -997,16 +943,6 @@
       "id": "zztj.74.p25",
       "text": "太子即位，年八歲；大赦。尊皇后曰皇太后，加曹爽、司馬懿侍中，假節鉞，都督中外諸軍、錄尚書事。諸所興作宮室之役，皆以遺詔罷之。爽、懿各領兵三千人更宿殿內，爽以懿年位素高，常父事之，每事咨訪，不敢專行。",
       "annotations": [
-        {
-          "id": "zztj.74.p25.h5",
-          "type": "person",
-          "at": 0,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "景初三年(239)曹叡立曹芳為太子"
-        },
         {
           "id": "zztj.74.p25.h1",
           "type": "person",
@@ -1357,6 +1293,15 @@
       "text": "烈祖明皇帝下正始元年（庚申，公元二四零年）",
       "annotations": [
         {
+          "id": "zztj.74.p36.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p36.t1",
           "type": "temporal",
           "at": 6,
@@ -1391,6 +1336,15 @@
       "text": "烈祖明皇帝下正始二年（辛酉，公元二四一年）",
       "annotations": [
         {
+          "id": "zztj.74.p38.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p38.t1",
           "type": "temporal",
           "at": 6,
@@ -1409,16 +1363,6 @@
       "id": "zztj.74.p39",
       "text": "春，吳人將伐魏。零陵太守殷札言於吳主曰：「今天棄曹氏，喪誅累見，虎爭之際而幼童蒞事。陛下身自御戎，取亂侮亡，宜滌荊、揚之地，舉強羸之數，使強者執戟，羸者轉運。西命益州，軍於隴右，授諸葛瑾、朱然大眾，直指襄陽，陸遜、朱桓別征壽春，大駕入淮陽，歷青、徐。襄陽、壽春，困於受敵，長安以西，務御蜀軍，許、洛之眾，勢必分離，掎角並進，民必內應。將帥對向，或失便宜，一軍敗績，則三軍離心。便當秣馬脂車，陵蹈城邑，乘勝逐北，以定華夏。若不悉軍動眾，循前輕舉，則不足大用，易於屢退，民疲威消，時往力竭，非上策也。」吳主不能用。夏，四月，吳全琮略淮南，決芍陂，諸葛恪攻六安，朱然圍樊，諸葛瑾攻柤中。征東將軍王凌、揚州刺史孫禮與全琮戰於芍陂，琮敗走。荊州刺史胡質以輕兵救樊，或曰：「賊盛，不可迫。」質曰：「樊城卑兵少，故當進軍為之外援，不然，危矣。」遂勒兵臨圍，城中乃安。",
       "annotations": [
-        {
-          "id": "zztj.74.p39.h13",
-          "type": "person",
-          "at": 42,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "正始年間吳陛下指孫權"
-        },
         {
           "id": "zztj.74.p39.h1",
           "type": "person",
@@ -1562,16 +1506,6 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 正始2年 (AD 241)，月份「五月」"
-        },
-        {
-          "id": "zztj.74.p40.h1",
-          "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
         }
       ]
     },
@@ -1719,6 +1653,15 @@
       "text": "烈祖明皇帝下正始三年（壬戌，公元二四二年）",
       "annotations": [
         {
+          "id": "zztj.74.p46.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p46.t1",
           "type": "temporal",
           "at": 6,
@@ -1767,16 +1710,6 @@
       "id": "zztj.74.p48",
       "text": "吳主立其子和為太子，大赦。三月，昌邑景侯滿寵卒。秋，七月，乙酉，以領軍將軍蔣濟為太尉。",
       "annotations": [
-        {
-          "id": "zztj.74.p48.h3",
-          "type": "person",
-          "at": 7,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
         {
           "id": "zztj.74.p48.t1",
           "type": "temporal",
@@ -1877,6 +1810,15 @@
       "text": "烈祖明皇帝下正始四年（癸亥，公元二四三年）",
       "annotations": [
         {
+          "id": "zztj.74.p51.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p51.t1",
           "type": "temporal",
           "at": 6,
@@ -1939,6 +1881,15 @@
           "month_chinese": "四月",
           "month_ordinal": 4,
           "reasoning": "年承前文 正始4年 (AD 243)，月份「四月」"
+        },
+        {
+          "id": "zztj.74.p53.h1",
+          "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
         }
       ]
     },
@@ -2135,6 +2086,15 @@
         {
           "id": "zztj.74.p61.h1",
           "type": "person",
+          "at": 624,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.74.p61.h2",
+          "type": "person",
           "at": 1050,
           "length": 2,
           "text": "曹爽",
@@ -2147,6 +2107,15 @@
       "id": "zztj.74.p62",
       "text": "烈祖明皇帝下正始五年（甲子，公元二四四年）",
       "annotations": [
+        {
+          "id": "zztj.74.p62.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
         {
           "id": "zztj.74.p62.t1",
           "type": "temporal",
@@ -2435,6 +2404,15 @@
       "text": "烈祖明皇帝下正始六年（乙丑，公元二四五年）",
       "annotations": [
         {
+          "id": "zztj.74.p71.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
           "id": "zztj.74.p71.t1",
           "type": "temporal",
           "at": 6,
@@ -2484,16 +2462,6 @@
       "text": "吳太子和與魯王同宮，禮秩如一，群臣多以為言，吳主乃命分宮別僚；二子由是有隙。衛將軍全琮遣其子寄事魯王，以書告丞相陸遜，遜報曰：「子弟苟有才，不憂不用，不宜私出以要榮利；若其不佳，終為取禍。且聞二宮勢敵，必有彼此，此古人之厚忌也。」寄果阿附魯王，輕為交構。遜書與琮曰：「卿不師日磾而宿留阿寄，終為足下門戶致禍矣。」琮既不納遜言，更以致隙。魯王曲意交結當時名士。偏將軍朱績以膽力稱，王自至其廨，就之坐，欲與結好。績下地住立，辭而不當。績，然之子也。於是自侍御、賓客，造為二端，仇黨疑貳，滋延大臣，舉國中分。吳主聞之，假以精學，禁斷賓客往來。督軍使者羊道上疏曰：「聞明詔省奪二宮備衛，抑絕賓客，使四方禮敬不復得通，遠近悚然，大小失望。或謂二宮不遵典式，就如所嫌，猶宜補察，密加斟酌，不使遠近得容異言。臣懼積疑成謗，久將宣流，而西北二隅，去國不遠，將謂二宮有順之愆，不審陛下何以解之！」",
       "annotations": [
         {
-          "id": "zztj.74.p73.h6",
-          "type": "person",
-          "at": 1,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
           "id": "zztj.74.p73.h1",
           "type": "person",
           "at": 41,
@@ -2537,16 +2505,6 @@
           "text": "遜",
           "person_id": "luxun",
           "via": "given_name"
-        },
-        {
-          "id": "zztj.74.p73.h7",
-          "type": "person",
-          "at": 381,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "正始年間吳陛下指孫權"
         }
       ]
     },
@@ -2564,96 +2522,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.74.p74.h11",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h12",
-          "type": "person",
-          "at": 54,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h13",
-          "type": "person",
-          "at": 68,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h14",
-          "type": "person",
-          "at": 77,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h15",
-          "type": "person",
-          "at": 87,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h16",
-          "type": "person",
-          "at": 99,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h17",
-          "type": "person",
-          "at": 116,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h18",
-          "type": "person",
-          "at": 160,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
-          "id": "zztj.74.p74.h19",
-          "type": "person",
-          "at": 185,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
           "id": "zztj.74.p74.h2",
           "type": "person",
           "at": 193,
@@ -2661,16 +2529,6 @@
           "text": "陸遜",
           "person_id": "luxun",
           "via": "primary"
-        },
-        {
-          "id": "zztj.74.p74.h20",
-          "type": "person",
-          "at": 201,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
         },
         {
           "id": "zztj.74.p74.h3",
@@ -2682,16 +2540,6 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.74.p74.h21",
-          "type": "person",
-          "at": 468,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
-        },
-        {
           "id": "zztj.74.p74.h4",
           "type": "person",
           "at": 501,
@@ -2699,16 +2547,6 @@
           "text": "全琮",
           "person_id": "quancong",
           "via": "primary"
-        },
-        {
-          "id": "zztj.74.p74.h22",
-          "type": "person",
-          "at": 538,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登(241年卒前)"
         },
         {
           "id": "zztj.74.p74.h5",

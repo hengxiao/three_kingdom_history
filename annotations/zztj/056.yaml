@@ -2,7 +2,7 @@ chapter: zztj.56
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷056
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 2545fb5b48c39508221fa50b0aaac9f27aec76a5242fbeaf7800b1727619f54d
 annotations:
 - id: zztj.56.p1.t1
@@ -75,16 +75,6 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: zztj.56.p6
-  at: 66
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 永康元年（167）竇武上疏稱在位皇帝桓帝為陛下
-  id: zztj.56.p6.h8
 - id: zztj.56.p6.h2
   anchor: zztj.56.p6
   at: 164
@@ -93,26 +83,6 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- anchor: zztj.56.p6
-  at: 202
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 永康元年（167）竇武上疏稱在位皇帝桓帝為陛下
-  id: zztj.56.p6.h9
-- anchor: zztj.56.p6
-  at: 235
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 永康元年（167）竇武上疏稱在位皇帝桓帝為陛下
-  id: zztj.56.p6.h10
 - id: zztj.56.p6.h3
   anchor: zztj.56.p6
   at: 270
@@ -145,26 +115,6 @@ annotations:
   person_id: yuankang
   text: 苑康
   via: primary
-- anchor: zztj.56.p6
-  at: 337
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 永康元年（167）竇武上疏稱在位皇帝桓帝為陛下
-  id: zztj.56.p6.h11
-- anchor: zztj.56.p6
-  at: 453
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 永康元年（167）竇武上疏稱在位皇帝桓帝為陛下
-  id: zztj.56.p6.h12
 - id: zztj.56.p6.h7
   anchor: zztj.56.p6
   at: 667
@@ -291,46 +241,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 永康元年 (AD 167)，月份「十二月」
-- anchor: zztj.56.p10
-  at: 162
+- id: zztj.56.p10.h5
+  anchor: zztj.56.p10
+  at: 299
   length: 2
   type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 桓帝崩後尊竇皇后為皇太后，竇皇后(竇妙)非花名冊中人
-  id: zztj.56.p10.h8
-- anchor: zztj.56.p10
-  at: 166
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p10.h5
-- anchor: zztj.56.p10
-  at: 169
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p10.h6
-- anchor: zztj.56.p10
-  at: 279
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p10.h7
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.56.p11.t1
   anchor: zztj.56.p11
   at: 7
@@ -451,16 +369,6 @@ annotations:
   person_id: zhanghuan
   text: 張奐
   via: primary
-- anchor: zztj.56.p12
-  at: 833
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年竇太后臨朝下詔，竇妙不在花名冊
-  id: zztj.56.p12.h11
 - id: zztj.56.p14.t1
   anchor: zztj.56.p14
   at: 2
@@ -505,13 +413,21 @@ annotations:
   reasoning: 年承前文 建寧元年 (AD 168)，月份「六月」
 - id: zztj.56.p14.h1
   anchor: zztj.56.p14
+  at: 102
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h2
+  anchor: zztj.56.p14
   at: 119
   length: 2
   type: person
   person_id: luzhi
   text: 盧植
   via: primary
-- id: zztj.56.p14.h2
+- id: zztj.56.p14.h3
   anchor: zztj.56.p14
   at: 241
   length: 2
@@ -519,17 +435,7 @@ annotations:
   person_id: marong
   text: 馬融
   via: primary
-- anchor: zztj.56.p14
-  at: 275
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h24
-- id: zztj.56.p14.h3
+- id: zztj.56.p14.h4
   anchor: zztj.56.p14
   at: 278
   length: 2
@@ -537,17 +443,7 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: zztj.56.p14
-  at: 367
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h25
-- id: zztj.56.p14.h4
+- id: zztj.56.p14.h5
   anchor: zztj.56.p14
   at: 387
   length: 2
@@ -569,7 +465,7 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 建寧元年 (AD 168)，月份「七月」
-- id: zztj.56.p14.h5
+- id: zztj.56.p14.h6
   anchor: zztj.56.p14
   at: 466
   length: 2
@@ -577,7 +473,7 @@ annotations:
   person_id: zhanghuan
   text: 張奐
   via: primary
-- id: zztj.56.p14.h6
+- id: zztj.56.p14.h7
   anchor: zztj.56.p14
   at: 482
   length: 2
@@ -585,7 +481,7 @@ annotations:
   person_id: duanjiong
   text: 段熲
   via: primary
-- id: zztj.56.p14.h7
+- id: zztj.56.p14.h8
   anchor: zztj.56.p14
   at: 549
   length: 2
@@ -607,17 +503,7 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 建寧元年 (AD 168)，月份「八月」
-- anchor: zztj.56.p14
-  at: 1068
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h26
-- id: zztj.56.p14.h8
+- id: zztj.56.p14.h9
   anchor: zztj.56.p14
   at: 1074
   length: 2
@@ -625,7 +511,7 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- id: zztj.56.p14.h9
+- id: zztj.56.p14.h10
   anchor: zztj.56.p14
   at: 1113
   length: 2
@@ -633,7 +519,7 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- id: zztj.56.p14.h10
+- id: zztj.56.p14.h11
   anchor: zztj.56.p14
   at: 1119
   length: 2
@@ -641,37 +527,23 @@ annotations:
   person_id: yinxun_2
   text: 尹勳
   via: primary
-- anchor: zztj.56.p14
-  at: 1169
+- id: zztj.56.p14.h12
+  anchor: zztj.56.p14
+  at: 1176
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h27
-- anchor: zztj.56.p14
-  at: 1189
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h13
+  anchor: zztj.56.p14
+  at: 1226
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h28
-- anchor: zztj.56.p14
-  at: 1192
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h29
-- id: zztj.56.p14.h11
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h14
   anchor: zztj.56.p14
   at: 1283
   length: 2
@@ -679,67 +551,23 @@ annotations:
   person_id: yinxun_2
   text: 尹勳
   via: primary
-- anchor: zztj.56.p14
-  at: 1355
+- id: zztj.56.p14.h15
+  anchor: zztj.56.p14
+  at: 1497
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h30
-- anchor: zztj.56.p14
-  at: 1426
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h16
+  anchor: zztj.56.p14
+  at: 1535
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h31
-- anchor: zztj.56.p14
-  at: 1501
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h32
-- anchor: zztj.56.p14
-  at: 1594
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 建寧元年劉瑜上書稱靈帝為陛下
-  id: zztj.56.p14.h23
-- anchor: zztj.56.p14
-  at: 1638
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h33
-- anchor: zztj.56.p14
-  at: 1673
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h34
-- id: zztj.56.p14.h12
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h17
   anchor: zztj.56.p14
   at: 1744
   length: 2
@@ -747,13 +575,21 @@ annotations:
   person_id: liuyou
   text: 劉祐
   via: primary
-- id: zztj.56.p14.h13
+- id: zztj.56.p14.h18
   anchor: zztj.56.p14
   at: 1821
   length: 2
   type: person
   person_id: yinxun_2
   text: 尹勳
+  via: primary
+- id: zztj.56.p14.h19
+  anchor: zztj.56.p14
+  at: 1836
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
   via: primary
 - id: zztj.56.p14.t6
   anchor: zztj.56.p14
@@ -769,7 +605,7 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 建寧元年 (AD 168)，月份「九月」
-- id: zztj.56.p14.h14
+- id: zztj.56.p14.h20
   anchor: zztj.56.p14
   at: 1924
   length: 2
@@ -777,17 +613,15 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: zztj.56.p14
-  at: 1931
+- id: zztj.56.p14.h21
+  anchor: zztj.56.p14
+  at: 1975
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h35
-- id: zztj.56.p14.h15
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h22
   anchor: zztj.56.p14
   at: 2055
   length: 2
@@ -795,17 +629,7 @@ annotations:
   person_id: yinxun_2
   text: 尹勳
   via: primary
-- anchor: zztj.56.p14
-  at: 2084
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h36
-- id: zztj.56.p14.h16
+- id: zztj.56.p14.h23
   anchor: zztj.56.p14
   at: 2185
   length: 2
@@ -813,7 +637,7 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- id: zztj.56.p14.h17
+- id: zztj.56.p14.h24
   anchor: zztj.56.p14
   at: 2407
   length: 2
@@ -821,7 +645,15 @@ annotations:
   person_id: zhanghuan
   text: 張奐
   via: primary
-- id: zztj.56.p14.h18
+- id: zztj.56.p14.h25
+  anchor: zztj.56.p14
+  at: 2414
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h26
   anchor: zztj.56.p14
   at: 2630
   length: 2
@@ -829,7 +661,7 @@ annotations:
   person_id: liushu
   text: 劉淑
   via: primary
-- id: zztj.56.p14.h19
+- id: zztj.56.p14.h27
   anchor: zztj.56.p14
   at: 2638
   length: 2
@@ -837,17 +669,7 @@ annotations:
   person_id: weilang
   text: 魏朗
   via: primary
-- anchor: zztj.56.p14
-  at: 2654
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p14.h37
-- id: zztj.56.p14.h20
+- id: zztj.56.p14.h28
   anchor: zztj.56.p14
   at: 2697
   length: 2
@@ -855,7 +677,23 @@ annotations:
   person_id: basu
   text: 巴肅
   via: primary
-- id: zztj.56.p14.h21
+- id: zztj.56.p14.h29
+  anchor: zztj.56.p14
+  at: 2707
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h30
+  anchor: zztj.56.p14
+  at: 2788
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p14.h31
   anchor: zztj.56.p14
   at: 2917
   length: 2
@@ -863,13 +701,21 @@ annotations:
   person_id: sunfu
   text: 孫輔
   via: primary
-- id: zztj.56.p14.h22
+- id: zztj.56.p14.h32
   anchor: zztj.56.p14
   at: 2951
   length: 2
   type: person
   person_id: zhanghuan
   text: 張奐
+  via: primary
+- id: zztj.56.p14.h33
+  anchor: zztj.56.p14
+  at: 2967
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
   via: primary
 - id: zztj.56.p16.t1
   anchor: zztj.56.p16
@@ -965,16 +811,6 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 建寧2年 (AD 169)，月份「三月」
-- anchor: zztj.56.p18
-  at: 31
-  length: 2
-  type: person
-  person_id: dongtaihou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 靈帝尊母董氏為孝仁皇后(永樂宮董太后)，非花名冊中人
-  id: zztj.56.p18.h1
 - id: zztj.56.p19.t1
   anchor: zztj.56.p19
   at: 2
@@ -1005,16 +841,6 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: zztj.56.p19
-  at: 117
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 指被幽閉南宮之竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p19.h4
 - id: zztj.56.p19.h3
   anchor: zztj.56.p19
   at: 187
@@ -1022,6 +848,14 @@ annotations:
   type: person
   person_id: liying
   text: 李膺
+  via: primary
+- id: zztj.56.p19.h4
+  anchor: zztj.56.p19
+  at: 196
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
   via: primary
 - id: zztj.56.p19.t2
   anchor: zztj.56.p19
@@ -1037,36 +871,6 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 建寧2年 (AD 169)，月份「三月」
-- anchor: zztj.56.p20
-  at: 29
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.7
-  reasoning: 謝弼疏中所論之太后為被幽閉之竇太后(竇妙)
-  id: zztj.56.p20.h6
-- anchor: zztj.56.p20
-  at: 67
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.7
-  reasoning: 謝弼疏中所論之太后為被幽閉之竇太后(竇妙)
-  id: zztj.56.p20.h7
-- anchor: zztj.56.p20
-  at: 87
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 謝弼上封事稱靈帝為陛下，事在建寧二年
-  id: zztj.56.p20.h4
 - id: zztj.56.p20.h1
   anchor: zztj.56.p20
   at: 130
@@ -1075,26 +879,6 @@ annotations:
   person_id: huanhan
   text: 桓帝
   via: alias
-- anchor: zztj.56.p20
-  at: 139
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.7
-  reasoning: 謝弼疏中所論之太后為被幽閉之竇太后(竇妙)
-  id: zztj.56.p20.h8
-- anchor: zztj.56.p20
-  at: 146
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 謝弼上封事稱靈帝為陛下，事在建寧二年
-  id: zztj.56.p20.h5
 - id: zztj.56.p20.h2
   anchor: zztj.56.p20
   at: 219
@@ -1111,16 +895,14 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- anchor: zztj.56.p21
-  at: 88
+- id: zztj.56.p20.h4
+  anchor: zztj.56.p20
+  at: 383
   length: 2
   type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 楊賜上封事，靈帝為現任皇帝
-  id: zztj.56.p21.h2
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.56.p21.t1
   anchor: zztj.56.p21
   at: 133
@@ -1401,13 +1183,21 @@ annotations:
   reasoning: 年承前文 建寧2年 (AD 169)，月份「十月」
 - id: zztj.56.p26.h1
   anchor: zztj.56.p26
+  at: 8
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.56.p26.h2
+  anchor: zztj.56.p26
   at: 27
   length: 2
   type: person
   person_id: liying
   text: 李膺
   via: primary
-- id: zztj.56.p26.h2
+- id: zztj.56.p26.h3
   anchor: zztj.56.p26
   at: 42
   length: 2
@@ -1415,7 +1205,7 @@ annotations:
   person_id: liuru
   text: 劉儒
   via: primary
-- id: zztj.56.p26.h3
+- id: zztj.56.p26.h4
   anchor: zztj.56.p26
   at: 153
   length: 2
@@ -1423,7 +1213,7 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- id: zztj.56.p26.h4
+- id: zztj.56.p26.h5
   anchor: zztj.56.p26
   at: 272
   length: 1
@@ -1533,6 +1323,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 建寧2年 (AD 169)，月份「十一月」
+- id: zztj.56.p35.h1
+  anchor: zztj.56.p35
+  at: 39
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.56.p36.t1
   anchor: zztj.56.p36
   at: 7
@@ -1623,17 +1421,15 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 建寧3年 (AD 170)，月份「九月」
-- anchor: zztj.56.p38
-  at: 61
-  length: 2
+- id: zztj.56.p38.h1
+  anchor: zztj.56.p38
+  at: 59
+  length: 4
   type: person
   person_id: dongtaihou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 永樂太后即董太后(靈帝生母)，非花名冊中人
-  id: zztj.56.p38.h2
-- id: zztj.56.p38.h1
+  text: 永樂太后
+  via: alias
+- id: zztj.56.p38.h2
   anchor: zztj.56.p38
   at: 180
   length: 2
@@ -1723,26 +1519,6 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 建寧4年 (AD 171)，月份「七月」
-- anchor: zztj.56.p42
-  at: 20
-  length: 2
-  type: person
-  person_id: songhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 皇后指宋皇后；太后指竇太后，皆非花名冊中人
-  id: zztj.56.p42.h2
-- anchor: zztj.56.p42
-  at: 62
-  length: 2
-  type: person
-  person_id: songhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 皇后指宋皇后；太后指竇太后，皆非花名冊中人
-  id: zztj.56.p42.h1
 - id: zztj.56.p43.t1
   anchor: zztj.56.p43
   at: 2
@@ -1757,23 +1533,11 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 建寧4年 (AD 171)，月份「十月」
-- anchor: zztj.56.p43
-  at: 13
+- id: zztj.56.p43.h1
+  anchor: zztj.56.p43
+  at: 53
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 南宮太后即竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p43.h1
-- anchor: zztj.56.p43
-  at: 33
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 南宮太后即竇太后(竇妙)，非花名冊中人
-  id: zztj.56.p43.h2
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary

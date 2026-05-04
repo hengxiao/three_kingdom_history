@@ -51,16 +51,6 @@ annotations:
   person_id: zuoxiong
   text: 左雄
   via: primary
-- anchor: hhs.61.p3
-  at: 115
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 「順帝新立」段虞詡薦左雄，「陛下身遭難」指順帝廢為濟陰王事，對應 shunhan。
-  id: hhs.61.p3.h4
 - id: hhs.61.p3.a2
   anchor: hhs.61.p3
   at: 144
@@ -287,22 +277,20 @@ annotations:
   era: 永建
   era_year: 2
   reasoning: 原文「永建二年」直接出现年号；解析為 AD 127（回溯前事，不推進章節時間軸）
-- anchor: hhs.61.p16
-  at: 162
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 左雄諫順帝封宋娥，「陛下」即順帝，對應 shunhan。
-  id: hhs.61.p16.h1
 - id: hhs.61.p20.a1
   anchor: hhs.61.p20
   at: 60
   length: 0
   type: lixian
   text: 禮記曰：「公侯佩山玄玉而朱組綬，大夫佩水蒼玉而緇組綬。」
+- id: hhs.61.p20.h1
+  anchor: hhs.61.p20
+  at: 61
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: hhs.61.p21.h1
   anchor: hhs.61.p21
   at: 4
@@ -365,32 +353,12 @@ annotations:
   person_id: shunhan
   text: 順帝
   via: alias
-- anchor: hhs.61.p23
-  at: 44
-  length: 2
-  type: person
-  person_id: yanji
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「閻太后與帝無母子恩」即閻姬安思皇后，未列 roster。
-  id: hhs.61.p23.h3
 - id: hhs.61.p23.a1
   anchor: hhs.61.p23
   at: 127
   length: 0
   type: lixian
   text: 鄭武姜生莊公及共叔段，愛叔段，謀殺莊公。公誓之曰：「不及黃泉，無相見也。」既而悔之。穎考叔為穎谷封人，曰：「若掘地及泉，隧而相見，其誰曰不然！」公從之，遂為母子如初。事見左傳。茅焦事，解見蘇竟傳也。
-- anchor: hhs.61.p23
-  at: 151
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 主上
-  via: llm
-  confidence: 0.92
-  reasoning: 「主上將何以令於天下」順帝即位之主上，對應 shunhan。
-  id: hhs.61.p23.h2
 - id: hhs.61.p23.t1
   anchor: hhs.61.p23
   at: 212
@@ -441,20 +409,6 @@ annotations:
   length: 0
   type: lixian
   text: 新序曰：「晉文公反國，介子推無爵，遂去而之介山之上。文公求之不得，乃焚其山，推遂不出而焚死。」事具耿恭傳。龍，星，木之位也，春見東方。
-- id: hhs.61.p26.t1
-  anchor: hhs.61.p26
-  at: 50
-  length: 2
-  type: temporal
-  text: 一月
-  kind: relative
-  resolution: bare_month
-  year_ad: 139
-  era: 永和
-  era_year: 4
-  month_chinese: 一月
-  month_ordinal: 1
-  reasoning: 年承前文 永和4年 (AD 139)，月份「一月」
 - id: hhs.61.p26.a2
   anchor: hhs.61.p26
   at: 114
@@ -497,10 +451,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 139
-  era: 永和
-  era_year: 4
-  reasoning: 「是歲」 = 当前年 永和4年 (AD 139)
+  year_ad: 134
+  era: 陽嘉
+  era_year: 3
+  reasoning: 「是歲」 = 当前年 陽嘉3年 (AD 134)
 - id: hhs.61.p28.a1
   anchor: hhs.61.p28
   at: 119
@@ -519,26 +473,14 @@ annotations:
   length: 0
   type: lixian
   text: 五品，五常之教也。書曰：「五品不遜，汝作司徒，敬敷五教在寬。」訓亦遜之義。
-- anchor: hhs.61.p32
-  at: 11
+- id: hhs.61.p32.h1
+  anchor: hhs.61.p32
+  at: 31
   length: 2
   type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 周舉等對策旱災，順帝時事，「陛下」即順帝，對應 shunhan。
-  id: hhs.61.p32.h1
-- anchor: hhs.61.p32
-  at: 82
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「非但陛下行此而已」即奏順帝，對應 shunhan。
-  id: hhs.61.p32.h2
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.61.p32.a1
   anchor: hhs.61.p32
   at: 125
@@ -563,32 +505,12 @@ annotations:
   length: 0
   type: lixian
   text: 解見楊厚傳。
-- anchor: hhs.61.p32
-  at: 181
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「未聞陛下改過之」即奏順帝，對應 shunhan。
-  id: hhs.61.p32.h3
 - id: hhs.61.p33.a1
   anchor: hhs.61.p33
   at: 33
   length: 0
   type: lixian
   text: 晏子春秋之文。
-- anchor: hhs.61.p33
-  at: 33
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段延續對順帝對策，對應 shunhan。
-  id: hhs.61.p33.h1
 - id: hhs.61.p33.a2
   anchor: hhs.61.p33
   at: 59
@@ -601,16 +523,6 @@ annotations:
   length: 0
   type: lixian
   text: 易稽覽圖之文也。解具郎顗傳也。
-- anchor: hhs.61.p34
-  at: 15
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「惟陛下留神裁察」即奏順帝，對應 shunhan。
-  id: hhs.61.p34.h3
 - id: hhs.61.p34.h1
   anchor: hhs.61.p34
   at: 32
@@ -703,16 +615,6 @@ annotations:
   person_id: zhouju
   text: 周舉
   via: primary
-- anchor: hhs.61.p41
-  at: 28
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 周舉於顯親殿對順帝言災變，「陛下初立」即順帝，對應 shunhan。
-  id: hhs.61.p41.h1
 - id: hhs.61.p41.a1
   anchor: hhs.61.p41
   at: 93
@@ -727,16 +629,6 @@ annotations:
   person_id: duqiao
   text: 杜喬
   via: primary
-- anchor: hhs.61.p46
-  at: 2
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「梁太后臨朝」即順烈梁妠崩前臨朝，未列 roster。
-  id: hhs.61.p46.h4
 - id: hhs.61.p46.h1
   anchor: hhs.61.p46
   at: 18
@@ -773,16 +665,6 @@ annotations:
   person_id: shunhan
   text: 順帝
   via: alias
-- anchor: hhs.61.p46
-  at: 186
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后下詔從之」即梁太后梁妠，未列 roster。
-  id: hhs.61.p46.h5
 - id: hhs.61.p47.t1
   anchor: hhs.61.p47
   at: 0
@@ -931,16 +813,6 @@ annotations:
   length: 0
   type: lixian
   text: 蒙，陰闇也。散謂不精明。
-- anchor: hhs.61.p55
-  at: 49
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 「上疏順帝」明點，「陛下宜開石室」即奏順帝，對應 shunhan。
-  id: hhs.61.p55.h2
 - id: hhs.61.p55.a3
   anchor: hhs.61.p55
   at: 60
@@ -985,16 +857,6 @@ annotations:
   length: 0
   type: lixian
   text: 國語曰，宣王即位，不籍千畝。□文公諫曰：「夫人之大事在農，上帝之粢盛於是乎出，故稷為太官。古者太史順時覛土，農祥晨正日月，底於天廟。先時九日，太史告稷曰：『陽氣俱蒸，土膏其動。』稷以告王，王即齋宮，百官御事。王耕一□，班三之，庶人終於千畝。」王弗聽，後師敗績於姜氏之戎。□音扶發反。
-- anchor: hhs.61.p57
-  at: 107
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 黃瓊奏順帝親耕籍田之禮，「陛下」即順帝，對應 shunhan。
-  id: hhs.61.p57.h2
 - id: hhs.61.p57.a2
   anchor: hhs.61.p57
   at: 175
@@ -1097,10 +959,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 161
+  year_ad: 159
   era: 延熹
-  era_year: 4
-  reasoning: 「明年」 = 当前年 延熹3年 (AD 160) 之次年 = AD 161
+  era_year: 2
+  reasoning: 「明年」 = 当前年 延熹元年 (AD 158) 之次年 = AD 159
 - id: hhs.61.p60.a1
   anchor: hhs.61.p60
   at: 115
@@ -1149,6 +1011,14 @@ annotations:
   era: 延熹
   era_year: 7
   reasoning: 承前文年號「延熹」推得，「七年」 = 延熹7年 = AD 164
+- id: hhs.61.p62.h1
+  anchor: hhs.61.p62
+  at: 108
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.61.p62.a1
   anchor: hhs.61.p62
   at: 135
@@ -1161,16 +1031,6 @@ annotations:
   length: 0
   type: lixian
   text: 形，兆也。言未有天下之兆。「畫」或作「書」也。
-- anchor: hhs.61.p62
-  at: 210
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 「陛下初從藩國，爰升帝位」即桓帝由蠡吾侯入承大統，對應 huanhan。
-  id: hhs.61.p62.h1
 - id: hhs.61.p62.a3
   anchor: hhs.61.p62
   at: 292
@@ -1183,16 +1043,6 @@ annotations:
   length: 0
   type: lixian
   text: 法言曰「金口木舌」也。
-- anchor: hhs.61.p63
-  at: 29
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 黃瓊論李固杜喬冤被誅，桓帝時事，「陛下」即桓帝，對應 huanhan。
-  id: hhs.61.p63.h4
 - id: hhs.61.p63.h1
   anchor: hhs.61.p63
   at: 46
@@ -1235,16 +1085,6 @@ annotations:
   length: 0
   type: lixian
   text: 史記曰，孔子將西見趙簡子，至於河而聞竇鳴犢、舜華之死也，臨河而歎曰：「美哉洋洋，丘之不濟此，命也夫！竇鳴犢、舜華，晉之賢大夫也。趙簡子未得志之時，須此兩人而後從政，及其得志而殺之。丘聞刳胎殺夭，則麒麟不至郊藪；涸澤而漁，則蛟龍不合陰陽；覆巢毀卵，則鳳皇不翔。何則？君子諱傷其類也。」事亦見孔子家語文也。
-- anchor: hhs.61.p65
-  at: 113
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段論梁冀誅後封侯不當，桓帝時事，「陛下」即桓帝，對應 huanhan。
-  id: hhs.61.p65.h1
 - id: hhs.61.p65.a2
   anchor: hhs.61.p65
   at: 154
@@ -1295,16 +1135,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「建和元年正月」直接出现年号；解析為 AD 147（回溯前事，不推進章節時間軸）
-- anchor: hhs.61.p66
-  at: 44
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 建和元年（桓帝元年）「太后詔問」即順烈梁妠尚為太后時，未列 roster。
-  id: hhs.61.p66.h1
 - id: hhs.61.p66.a1
   anchor: hhs.61.p66
   at: 154
@@ -1355,6 +1185,14 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name
+- id: hhs.61.p71.h3
+  anchor: hhs.61.p71
+  at: 64
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.61.p72.h1
   anchor: hhs.61.p72
   at: 3

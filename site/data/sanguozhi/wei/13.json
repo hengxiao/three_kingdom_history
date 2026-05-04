@@ -293,16 +293,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.13.p4.h4",
-          "type": "person",
-          "at": 181,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "鍾繇太和中上疏「陛下遠追二祖遺意」，太和為明帝年號，陛下即曹叡。"
-        },
-        {
           "id": "wei.13.p4.h3",
           "type": "person",
           "at": 517,
@@ -746,36 +736,6 @@
           "text": "曹真",
           "person_id": "caozhen",
           "via": "primary"
-        },
-        {
-          "id": "wei.13.p12.h2",
-          "type": "person",
-          "at": 44,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "華歆太和中上疏，陛下即明帝曹叡。"
-        },
-        {
-          "id": "wei.13.p12.h3",
-          "type": "person",
-          "at": 112,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「臣誠願陛下先留心於治道」續指曹叡。"
-        },
-        {
-          "id": "wei.13.p12.h4",
-          "type": "person",
-          "at": 250,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「唯陛下裁察」續指曹叡。"
         }
       ]
     },
@@ -1134,36 +1094,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.13.p20.h5",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "「文昭皇后陵」即明帝生母甄皇后（追諡文昭），roster未列甄皇后。"
-        },
-        {
-          "id": "wei.13.p20.h3",
-          "type": "person",
-          "at": 55,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "明帝即位後王朗上疏「陛下即位已來」即曹叡。"
-        },
-        {
-          "id": "wei.13.p20.h4",
-          "type": "person",
-          "at": 105,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「願陛下重留日昃之聽」續指曹叡。"
-        },
-        {
           "id": "wei.13.p20.a1",
           "type": "pei",
           "at": 166,
@@ -1185,16 +1115,6 @@
       "id": "wei.13.p21",
       "text": "時屢失皇子，而後宮就館者少，朗上疏曰：「昔周文十五而有武王，遂享十子之祚，以廣諸姬之胤。武王旣老而生成王，成王是以鮮於兄弟。此二王者，各樹聖德，無以相過，比其子孫之祚，則不相如。蓋生育有早晚，所產有衆寡也。陛下旣德祚兼彼二聖，春秋高於姬文育武之時矣，而子發未舉於椒蘭之奧房，藩王未繁於掖庭之衆室。以成王爲喻，雖未爲晚，取譬伯邑，則不爲夙。周禮六宮內官百二十人，而諸經常說，咸以十二爲限，至於秦漢之末，或以千百爲數矣。然雖彌猥，而就時於吉館者或甚鮮，明『百斯男』之本，誠在於一意，不但在於務廣也。老臣慺慺，願國家同祚於軒轅之五五，而未及周文之二五，用爲伊邑。且少小常苦被褥泰溫，泰溫則不能便柔膚弱體，是以難可防護，而易用感慨。若常令少小之縕袍，不至於甚厚，則必咸保金石之性，而比壽於南山矣。」帝報曰：「夫忠至者辭篤，愛重者言深。君旣勞思慮，又手筆將順，三復德音，欣然無量。朕繼嗣未立，以爲君憂，欽納至言，思聞良規。」朗著易、春秋、孝經、周官傳，奏議論記，咸傳於世。太和二年薨，謚曰成侯。子肅嗣。初，文帝分朗戶邑，封一子列侯，朗乞封兄子詳。",
       "annotations": [
-        {
-          "id": "wei.13.p21.h2",
-          "type": "person",
-          "at": 103,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "明帝失皇子，朗上疏勸廣後宮，「陛下既德祚兼彼二聖」陛下即曹叡。"
-        },
         {
           "id": "wei.13.p21.a1",
           "type": "pei",
@@ -1258,10 +1178,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 263,
-          "era": "景元",
+          "year_ad": 230,
+          "era": "太和",
           "era_year": 4,
-          "reasoning": "承前文年號「景元」推得，「四年」 = 景元4年 = AD 263"
+          "reasoning": "承前文年號「太和」推得，「四年」 = 太和4年 = AD 230"
         },
         {
           "id": "wei.13.p22.h1",
@@ -1353,36 +1273,6 @@
           "text": "備",
           "person_id": "liubei",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wei.13.p24.h3",
-          "type": "person",
-          "at": 232,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "王肅景初中疏諫宮室之興，陛下即明帝曹叡。"
-        },
-        {
-          "id": "wei.13.p24.h4",
-          "type": "person",
-          "at": 554,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「凡陛下臨時之所行刑」續指曹叡。"
-        },
-        {
-          "id": "wei.13.p24.h5",
-          "type": "person",
-          "at": 588,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同疏「故願陛下下之於吏」續指曹叡。"
         },
         {
           "id": "wei.13.p24.h2",
@@ -1499,10 +1389,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 263,
-          "era": "景元",
-          "era_year": 4,
-          "reasoning": "「是歲」 = 当前年 景元4年 (AD 263)"
+          "year_ad": 254,
+          "era": "嘉平",
+          "era_year": 6,
+          "reasoning": "「是歲」 = 当前年 嘉平6年 (AD 254)"
         },
         {
           "id": "wei.13.p27.t3",
@@ -1512,10 +1402,8 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 264,
-          "era": "景元",
-          "era_year": 5,
-          "reasoning": "「明年」 = 当前年 景元4年 (AD 263) 之次年 = AD 264"
+          "year_ad": 255,
+          "reasoning": "「明年」 = 当前年 嘉平6年 (AD 254) 之次年 = AD 255（跨年號邊界，新年號未明）"
         },
         {
           "id": "wei.13.p27.h1",
@@ -1595,7 +1483,7 @@
           "year_ad": 263,
           "era": "景元",
           "era_year": 4,
-          "reasoning": "原文「景元四年」直接出现年号；解析為 AD 263（回溯前事，不推進章節時間軸）"
+          "reasoning": "原文「景元四年」直接出现年号；解析為 AD 263"
         },
         {
           "id": "wei.13.p27.a1",

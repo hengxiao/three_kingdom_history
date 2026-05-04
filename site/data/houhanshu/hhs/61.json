@@ -84,16 +84,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.61.p3.h4",
-          "type": "person",
-          "at": 115,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「順帝新立」段虞詡薦左雄，「陛下身遭難」指順帝廢為濟陰王事，對應 shunhan。"
-        },
-        {
           "id": "hhs.61.p3.a2",
           "type": "lixian",
           "at": 144,
@@ -425,16 +415,6 @@
           "era": "永建",
           "era_year": 2,
           "reasoning": "原文「永建二年」直接出现年号；解析為 AD 127（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "hhs.61.p16.h1",
-          "type": "person",
-          "at": 162,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "左雄諫順帝封宋娥，「陛下」即順帝，對應 shunhan。"
         }
       ]
     },
@@ -463,6 +443,15 @@
           "at": 60,
           "length": 0,
           "text": "禮記曰：「公侯佩山玄玉而朱組綬，大夫佩水蒼玉而緇組綬。」"
+        },
+        {
+          "id": "hhs.61.p20.h1",
+          "type": "person",
+          "at": 61,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
         }
       ]
     },
@@ -552,31 +541,11 @@
           "via": "alias"
         },
         {
-          "id": "hhs.61.p23.h3",
-          "type": "person",
-          "at": 44,
-          "length": 2,
-          "text": "太后",
-          "person_id": "yanji",
-          "via": "llm",
-          "reasoning": "「閻太后與帝無母子恩」即閻姬安思皇后，未列 roster。"
-        },
-        {
           "id": "hhs.61.p23.a1",
           "type": "lixian",
           "at": 127,
           "length": 0,
           "text": "鄭武姜生莊公及共叔段，愛叔段，謀殺莊公。公誓之曰：「不及黃泉，無相見也。」既而悔之。穎考叔為穎谷封人，曰：「若掘地及泉，隧而相見，其誰曰不然！」公從之，遂為母子如初。事見左傳。茅焦事，解見蘇竟傳也。"
-        },
-        {
-          "id": "hhs.61.p23.h2",
-          "type": "person",
-          "at": 151,
-          "length": 2,
-          "text": "主上",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「主上將何以令於天下」順帝即位之主上，對應 shunhan。"
         },
         {
           "id": "hhs.61.p23.t1",
@@ -654,21 +623,6 @@
           "text": "新序曰：「晉文公反國，介子推無爵，遂去而之介山之上。文公求之不得，乃焚其山，推遂不出而焚死。」事具耿恭傳。龍，星，木之位也，春見東方。"
         },
         {
-          "id": "hhs.61.p26.t1",
-          "type": "temporal",
-          "at": 50,
-          "length": 2,
-          "text": "一月",
-          "kind": "relative",
-          "resolution": "bare_month",
-          "year_ad": 139,
-          "era": "永和",
-          "era_year": 4,
-          "month_chinese": "一月",
-          "month_ordinal": 1,
-          "reasoning": "年承前文 永和4年 (AD 139)，月份「一月」"
-        },
-        {
           "id": "hhs.61.p26.a2",
           "type": "lixian",
           "at": 114,
@@ -725,10 +679,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 139,
-          "era": "永和",
-          "era_year": 4,
-          "reasoning": "「是歲」 = 当前年 永和4年 (AD 139)"
+          "year_ad": 134,
+          "era": "陽嘉",
+          "era_year": 3,
+          "reasoning": "「是歲」 = 当前年 陽嘉3年 (AD 134)"
         },
         {
           "id": "hhs.61.p28.a1",
@@ -775,22 +729,11 @@
         {
           "id": "hhs.61.p32.h1",
           "type": "person",
-          "at": 11,
+          "at": 31,
           "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "周舉等對策旱災，順帝時事，「陛下」即順帝，對應 shunhan。"
-        },
-        {
-          "id": "hhs.61.p32.h2",
-          "type": "person",
-          "at": 82,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段「非但陛下行此而已」即奏順帝，對應 shunhan。"
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "hhs.61.p32.a1",
@@ -819,16 +762,6 @@
           "at": 159,
           "length": 0,
           "text": "解見楊厚傳。"
-        },
-        {
-          "id": "hhs.61.p32.h3",
-          "type": "person",
-          "at": 181,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段「未聞陛下改過之」即奏順帝，對應 shunhan。"
         }
       ]
     },
@@ -842,16 +775,6 @@
           "at": 33,
           "length": 0,
           "text": "晏子春秋之文。"
-        },
-        {
-          "id": "hhs.61.p33.h1",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段延續對順帝對策，對應 shunhan。"
         },
         {
           "id": "hhs.61.p33.a2",
@@ -872,16 +795,6 @@
           "at": 14,
           "length": 0,
           "text": "易稽覽圖之文也。解具郎顗傳也。"
-        },
-        {
-          "id": "hhs.61.p34.h3",
-          "type": "person",
-          "at": 15,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段「惟陛下留神裁察」即奏順帝，對應 shunhan。"
         },
         {
           "id": "hhs.61.p34.h1",
@@ -1026,16 +939,6 @@
       "text": "時連有□異，帝思商言，召舉於顯親殿，問以變眚。舉對曰：「陛下初立，遵修舊典，興化致政，遠近肅然。頃年以來，稍違於前，朝多寵幸，祿不序德。觀天察人，准今方古，誠可危懼。書曰：『僭恆暘若。』夫僭差無度，則言不從而下不正；陽無以制，則上擾下竭。宜密嚴□州郡，察強宗大奸，以時禽討。」",
       "annotations": [
         {
-          "id": "hhs.61.p41.h1",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "周舉於顯親殿對順帝言災變，「陛下初立」即順帝，對應 shunhan。"
-        },
-        {
           "id": "hhs.61.p41.a1",
           "type": "lixian",
           "at": 93,
@@ -1079,16 +982,6 @@
       "text": "及梁太后臨朝，詔以殤帝幼崩，廟次宜在順帝下。太常馬訪奏宜如詔書，諫議大夫呂勃以為應依昭穆之序，先殤帝，後順帝。詔下公卿。舉議曰：「春秋魯閔公無子，庶兄僖公代立，其子文公遂躋僖於閔上。孔子譏之，書曰：『有事於太廟，躋僖公。』傳曰：『逆祀也。』及定公正其序，經曰『從祀先公』，為萬世法也。今殤帝在先，於秩為父，順帝在後，於親為子，先後之義不可改，昭穆之序不可亂。呂勃議是也。」太后下詔從之。遷光祿勳，會遭母憂去職，後拜光祿大夫。",
       "annotations": [
         {
-          "id": "hhs.61.p46.h4",
-          "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "太后",
-          "person_id": "liangna",
-          "via": "llm",
-          "reasoning": "「梁太后臨朝」即順烈梁妠崩前臨朝，未列 roster。"
-        },
-        {
           "id": "hhs.61.p46.h1",
           "type": "person",
           "at": 18,
@@ -1128,16 +1021,6 @@
           "text": "順帝",
           "person_id": "shunhan",
           "via": "alias"
-        },
-        {
-          "id": "hhs.61.p46.h5",
-          "type": "person",
-          "at": 186,
-          "length": 2,
-          "text": "太后",
-          "person_id": "liangna",
-          "via": "llm",
-          "reasoning": "同段「太后下詔從之」即梁太后梁妠，未列 roster。"
         }
       ]
     },
@@ -1361,16 +1244,6 @@
           "text": "蒙，陰闇也。散謂不精明。"
         },
         {
-          "id": "hhs.61.p55.h2",
-          "type": "person",
-          "at": 49,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "「上疏順帝」明點，「陛下宜開石室」即奏順帝，對應 shunhan。"
-        },
-        {
           "id": "hhs.61.p55.a3",
           "type": "lixian",
           "at": 60,
@@ -1431,16 +1304,6 @@
           "at": 105,
           "length": 0,
           "text": "國語曰，宣王即位，不籍千畝。□文公諫曰：「夫人之大事在農，上帝之粢盛於是乎出，故稷為太官。古者太史順時覛土，農祥晨正日月，底於天廟。先時九日，太史告稷曰：『陽氣俱蒸，土膏其動。』稷以告王，王即齋宮，百官御事。王耕一□，班三之，庶人終於千畝。」王弗聽，後師敗績於姜氏之戎。□音扶發反。"
-        },
-        {
-          "id": "hhs.61.p57.h2",
-          "type": "person",
-          "at": 107,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "黃瓊奏順帝親耕籍田之禮，「陛下」即順帝，對應 shunhan。"
         },
         {
           "id": "hhs.61.p57.a2",
@@ -1574,10 +1437,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 161,
+          "year_ad": 159,
           "era": "延熹",
-          "era_year": 4,
-          "reasoning": "「明年」 = 当前年 延熹3年 (AD 160) 之次年 = AD 161"
+          "era_year": 2,
+          "reasoning": "「明年」 = 当前年 延熹元年 (AD 158) 之次年 = AD 159"
         },
         {
           "id": "hhs.61.p60.a1",
@@ -1645,6 +1508,15 @@
       "text": "昔高皇帝應天順民，奮□而王，埽除秦、項，革命創製，降德流祚。至於哀、平，而帝道不綱，秕政日亂，遂使奸佞□朝，外戚專恣。所冠不以仁義為冕，所蹈不以賢佐為力，終至顛蹶，滅絕漢祚。天維陵□，民鬼慘愴，賴皇干眷命，炎德復輝。光武以聖武天挺，繼統興業，創基冰泮之上，立足枳棘之林。擢賢於觿愚之中，畫功於無形之世。崇禮義於交爭，循道化於亂離。是自歷高而不傾，任力危而不跌，興復洪祚，開建中興，光被八極，垂名無窮。至於中葉，盛業漸衰。陛下初從藩國，爰升帝位，天下拭目，謂見太平。而即位以來，未有勝政。諸梁秉權，豎宦充朝，重封累職，傾動朝廷，卿校牧守之選，皆出其門，羽毛齒革、明珠南金之寶，殷滿其室，富擬王府，埶回天地。",
       "annotations": [
         {
+          "id": "hhs.61.p62.h1",
+          "type": "person",
+          "at": 108,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
           "id": "hhs.61.p62.a1",
           "type": "lixian",
           "at": 135,
@@ -1657,16 +1529,6 @@
           "at": 151,
           "length": 0,
           "text": "形，兆也。言未有天下之兆。「畫」或作「書」也。"
-        },
-        {
-          "id": "hhs.61.p62.h1",
-          "type": "person",
-          "at": 210,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "「陛下初從藩國，爰升帝位」即桓帝由蠡吾侯入承大統，對應 huanhan。"
         },
         {
           "id": "hhs.61.p62.a3",
@@ -1687,16 +1549,6 @@
           "at": 28,
           "length": 0,
           "text": "法言曰「金口木舌」也。"
-        },
-        {
-          "id": "hhs.61.p63.h4",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "黃瓊論李固杜喬冤被誅，桓帝時事，「陛下」即桓帝，對應 huanhan。"
         },
         {
           "id": "hhs.61.p63.h1",
@@ -1756,16 +1608,6 @@
           "at": 11,
           "length": 0,
           "text": "史記曰，孔子將西見趙簡子，至於河而聞竇鳴犢、舜華之死也，臨河而歎曰：「美哉洋洋，丘之不濟此，命也夫！竇鳴犢、舜華，晉之賢大夫也。趙簡子未得志之時，須此兩人而後從政，及其得志而殺之。丘聞刳胎殺夭，則麒麟不至郊藪；涸澤而漁，則蛟龍不合陰陽；覆巢毀卵，則鳳皇不翔。何則？君子諱傷其類也。」事亦見孔子家語文也。"
-        },
-        {
-          "id": "hhs.61.p65.h1",
-          "type": "person",
-          "at": 113,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段論梁冀誅後封侯不當，桓帝時事，「陛下」即桓帝，對應 huanhan。"
         },
         {
           "id": "hhs.61.p65.a2",
@@ -1828,16 +1670,6 @@
           "month_chinese": "正月",
           "month_ordinal": 1,
           "reasoning": "原文「建和元年正月」直接出现年号；解析為 AD 147（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "hhs.61.p66.h1",
-          "type": "person",
-          "at": 44,
-          "length": 2,
-          "text": "太后",
-          "person_id": "liangna",
-          "via": "llm",
-          "reasoning": "建和元年（桓帝元年）「太后詔問」即順烈梁妠尚為太后時，未列 roster。"
         },
         {
           "id": "hhs.61.p66.a1",
@@ -1923,6 +1755,15 @@
           "text": "卓",
           "person_id": "dongzhuo",
           "via": "given_name"
+        },
+        {
+          "id": "hhs.61.p71.h3",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },

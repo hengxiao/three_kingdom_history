@@ -21,7 +21,41 @@
     }
   ],
   "mentions_by_work": {
-    "zztj": [],
+    "zztj": [
+      {
+        "chapter_id": "zztj.58",
+        "chapter_title": "漢紀五十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.58.p16",
+        "at": 9,
+        "data_url": "data/zztj/zztj/58.json",
+        "matched": "王美人",
+        "snippet": "何皇后性強忌，後宮王美人生皇子協，后鴆殺美人。帝大怒，欲廢后；諸中官固請，得止。"
+      },
+      {
+        "chapter_id": "zztj.59",
+        "chapter_title": "漢紀五十一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.59.p30",
+        "at": 31,
+        "data_url": "data/zztj/zztj/59.json",
+        "matched": "王美人",
+        "snippet": "…子，何皇后生子辯，養於道人史子眇家，號曰「史侯」。王美人生子協，董太后自養之，號曰「董侯」。群臣請立太子。帝以辯輕佻無威儀，欲立協，猶豫未決。會疾篤，屬協於蹇碩。丙辰，帝崩於嘉德殿…"
+      },
+      {
+        "chapter_id": "zztj.61",
+        "chapter_title": "漢紀五十三",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.61.p7",
+        "at": 54,
+        "data_url": "data/zztj/zztj/61.json",
+        "matched": "靈懷皇后",
+        "snippet": "…宮之選乎！」壬午，三公奏改葬皇妣王夫人，追上尊號曰靈懷皇后。"
+      }
+    ],
     "sanguozhi": [
       {
         "chapter_id": "shu.4",
@@ -29,10 +63,10 @@
         "book_title": "蜀書",
         "work": "sanguozhi",
         "anchor": "shu.4.p2",
-        "at": 219,
+        "at": 217,
         "data_url": "data/sanguozhi/shu/04.json",
-        "matched": "皇后",
-        "snippet": "…號曰恭懷皇后，孝愍皇帝亦改葬其母王夫人，尊號曰靈懷皇后。今皇思夫人宜有尊號，以慰寒泉之思，輒與恭等案諡法，宜曰昭烈皇后。《詩》曰：『谷則異室，死則同穴。』故昭烈皇后宜與大行皇帝合葬…"
+        "matched": "靈懷皇后",
+        "snippet": "…，尊號曰恭懷皇后，孝愍皇帝亦改葬其母王夫人，尊號曰靈懷皇后。今皇思夫人宜有尊號，以慰寒泉之思，輒與恭等案諡法，宜曰昭烈皇后。《詩》曰：『谷則異室，死則同穴。』故昭烈皇后宜與大行皇帝…"
       }
     ],
     "houhanshu": [
@@ -41,13 +75,24 @@
         "chapter_title": "孝獻帝紀",
         "book_title": "後漢書",
         "work": "houhanshu",
-        "anchor": "hhs.9.p8",
-        "at": 43,
+        "anchor": "hhs.9.p1",
+        "at": 14,
         "data_url": "data/houhanshu/hhs/09.json",
-        "matched": "皇后",
-        "snippet": "…平。甲子，帝加元服。二月壬午，追尊謚皇妣王氏爲靈懷皇后，甲申，改葬于文昭陵。丁亥，帝耕于藉田。三月，韓遂、馬騰與郭汜、樊稠戰於長平觀，遂、騰敗績，左中郎將劉範、前益州刺史种劭戰歿。…"
+        "matched": "王美人",
+        "snippet": "孝獻皇帝諱協，靈帝中子也。母王美人，爲何皇后所害。"
+      },
+      {
+        "chapter_id": "hhs.9",
+        "chapter_title": "孝獻帝紀",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.9.p8",
+        "at": 41,
+        "data_url": "data/houhanshu/hhs/09.json",
+        "matched": "靈懷皇后",
+        "snippet": "…元興平。甲子，帝加元服。二月壬午，追尊謚皇妣王氏爲靈懷皇后，甲申，改葬于文昭陵。丁亥，帝耕于藉田。三月，韓遂、馬騰與郭汜、樊稠戰於長平觀，遂、騰敗績，左中郎將劉範、前益州刺史种劭戰…"
       }
     ]
   },
-  "n_mentions": 2
+  "n_mentions": 6
 }

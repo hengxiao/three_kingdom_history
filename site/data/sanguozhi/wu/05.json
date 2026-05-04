@@ -19,7 +19,35 @@
     {
       "id": "wu.5.p1",
       "text": "吳夫人謝夫人徐夫人步夫人王夫人王夫人潘夫人全夫人朱夫人何姬滕夫人",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "wu.5.p1.h1",
+          "type": "person",
+          "at": 9,
+          "length": 3,
+          "text": "步夫人",
+          "person_id": "bulianshi",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p1.h2",
+          "type": "person",
+          "at": 18,
+          "length": 3,
+          "text": "潘夫人",
+          "person_id": "panhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p1.h3",
+          "type": "person",
+          "at": 27,
+          "length": 2,
+          "text": "何姬",
+          "person_id": "heji",
+          "via": "primary"
+        }
+      ]
     },
     {
       "id": "wu.5.p2",
@@ -46,6 +74,15 @@
         {
           "id": "wu.5.p2.h3",
           "type": "person",
+          "at": 42,
+          "length": 2,
+          "text": "吳氏",
+          "person_id": "muhuanghou_shu",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p2.h4",
+          "type": "person",
           "at": 47,
           "length": 1,
           "text": "堅",
@@ -53,7 +90,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p2.h4",
+          "id": "wu.5.p2.h5",
           "type": "person",
           "at": 55,
           "length": 1,
@@ -520,16 +557,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.5.p8.h4",
-          "type": "person",
-          "at": 66,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「登爲太子」— 即孫登立為太子，徐夫人傳。"
-        },
-        {
           "id": "wu.5.p8.h3",
           "type": "person",
           "at": 78,
@@ -556,6 +583,15 @@
         {
           "id": "wu.5.p9.h2",
           "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "步夫人",
+          "person_id": "bulianshi",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p9.h3",
+          "type": "person",
           "at": 35,
           "length": 2,
           "text": "孫策",
@@ -563,7 +599,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p9.h3",
+          "id": "wu.5.p9.h4",
           "type": "person",
           "at": 51,
           "length": 1,
@@ -572,7 +608,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p9.h4",
+          "id": "wu.5.p9.h5",
           "type": "person",
           "at": 73,
           "length": 2,
@@ -581,7 +617,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p9.h5",
+          "id": "wu.5.p9.h6",
           "type": "person",
           "at": 80,
           "length": 2,
@@ -621,16 +657,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.5.p10.h5",
-          "type": "person",
-          "at": 51,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "bulianshi",
-          "via": "llm",
-          "reasoning": "「宮內皆稱皇后」— 步夫人事，雖未授名號宮內稱皇后；roster 無步皇后。"
-        },
-        {
           "id": "wu.5.p10.h3",
           "type": "person",
           "at": 68,
@@ -668,16 +694,6 @@
           "reasoning": "原文「赤烏元年」直接出现年号；解析為 AD 238"
         },
         {
-          "id": "wu.5.p11.h2",
-          "type": "person",
-          "at": 16,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "bulianshi",
-          "via": "llm",
-          "reasoning": "策命「嗚呼皇后」— 即追授步夫人為皇后；roster 無。"
-        },
-        {
           "id": "wu.5.p11.h1",
           "type": "person",
           "at": 173,
@@ -707,16 +723,6 @@
           "at": 12,
           "length": 0,
           "text": "《吳書》曰：夫人父名盧九。"
-        },
-        {
-          "id": "wu.5.p12.h5",
-          "type": "person",
-          "at": 44,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「和立為太子」— 文中明點「和」，即孫和。"
         },
         {
           "id": "wu.5.p12.h2",
@@ -759,16 +765,6 @@
           "text": "吳主",
           "person_id": "sunquan",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wu.5.p13.h2",
-          "type": "person",
-          "at": 32,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「及和為太子」— 文中明點「和」，即孫和。"
         }
       ]
     },
@@ -787,6 +783,15 @@
         },
         {
           "id": "wu.5.p14.h2",
+          "type": "person",
+          "at": 3,
+          "length": 3,
+          "text": "潘夫人",
+          "person_id": "panhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p14.h3",
           "type": "person",
           "at": 31,
           "length": 1,
@@ -808,17 +813,7 @@
           "reasoning": "原文「赤烏十三年」直接出现年号；解析為 AD 250"
         },
         {
-          "id": "wu.5.p14.h7",
-          "type": "person",
-          "at": 79,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunliang",
-          "via": "llm",
-          "reasoning": "「亮立為太子」— 文中明點「亮」，即孫亮。"
-        },
-        {
-          "id": "wu.5.p14.h3",
+          "id": "wu.5.p14.h4",
           "type": "person",
           "at": 90,
           "length": 1,
@@ -840,16 +835,6 @@
           "reasoning": "「明年」 = 当前年 赤烏13年 (AD 250) 之次年 = AD 251"
         },
         {
-          "id": "wu.5.p14.h8",
-          "type": "person",
-          "at": 102,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "panhuanghou",
-          "via": "llm",
-          "reasoning": "「立夫人為皇后」— 即潘皇后；roster 無。"
-        },
-        {
           "id": "wu.5.p14.a1",
           "type": "pei",
           "at": 125,
@@ -857,7 +842,7 @@
           "text": "《吳錄》曰：袁夫人者，袁術女也，有節行而無子。權數以諸姬子與養之，輒不育。及步夫人薨，權欲立之。夫人自以無子，固辭不受。"
         },
         {
-          "id": "wu.5.p14.h4",
+          "id": "wu.5.p14.h5",
           "type": "person",
           "at": 125,
           "length": 1,
@@ -866,7 +851,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p14.h5",
+          "id": "wu.5.p14.h6",
           "type": "person",
           "at": 184,
           "length": 1,
@@ -875,7 +860,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p14.h6",
+          "id": "wu.5.p14.h7",
           "type": "person",
           "at": 193,
           "length": 2,
@@ -901,6 +886,15 @@
         {
           "id": "wu.5.p15.h2",
           "type": "person",
+          "at": 30,
+          "length": 3,
+          "text": "潘夫人",
+          "person_id": "panhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "wu.5.p15.h3",
+          "type": "person",
           "at": 43,
           "length": 2,
           "text": "孫和",
@@ -908,7 +902,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p15.h3",
+          "id": "wu.5.p15.h4",
           "type": "person",
           "at": 51,
           "length": 1,
@@ -917,17 +911,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.5.p15.h7",
-          "type": "person",
-          "at": 70,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "quanhuanghou",
-          "via": "llm",
-          "reasoning": "「夫人立為皇后」— 即孫亮全皇后；roster 無。"
-        },
-        {
-          "id": "wu.5.p15.h4",
+          "id": "wu.5.p15.h5",
           "type": "person",
           "at": 87,
           "length": 2,
@@ -936,7 +920,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p15.h5",
+          "id": "wu.5.p15.h6",
           "type": "person",
           "at": 151,
           "length": 3,
@@ -945,7 +929,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p15.h6",
+          "id": "wu.5.p15.h7",
           "type": "person",
           "at": 195,
           "length": 2,
@@ -1010,26 +994,6 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p16.h8",
-          "type": "person",
-          "at": 75,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「初，孫和為太子時」— 文中明點「孫和」。"
-        },
-        {
-          "id": "wu.5.p16.h9",
-          "type": "person",
-          "at": 89,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「欲廢太子」承前句指孫和。"
-        },
-        {
           "id": "wu.5.p16.h5",
           "type": "person",
           "at": 165,
@@ -1061,26 +1025,6 @@
           "reasoning": "原文「永安五年」直接出现年号；解析為 AD 262"
         },
         {
-          "id": "wu.5.p16.h11",
-          "type": "person",
-          "at": 239,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「立夫人為皇后」— 即孫休朱皇后；roster 無。"
-        },
-        {
-          "id": "wu.5.p16.h10",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "太后",
-          "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「群臣尊夫人為皇太后」— 即孫休朱皇后進尊為皇太后；roster 無。"
-        },
-        {
           "id": "wu.5.p16.h7",
           "type": "person",
           "at": 255,
@@ -1090,14 +1034,13 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p16.h12",
+          "id": "wu.5.p16.h8",
           "type": "person",
-          "at": 265,
-          "length": 2,
-          "text": "皇后",
+          "at": 264,
+          "length": 3,
+          "text": "景皇后",
           "person_id": "zhuhuanghou",
-          "via": "llm",
-          "reasoning": "「貶為景皇后」— 朱氏被貶為景皇后；roster 無。"
+          "via": "alias"
         },
         {
           "id": "wu.5.p16.t2",
@@ -1139,6 +1082,15 @@
         {
           "id": "wu.5.p17.h2",
           "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "何姬",
+          "person_id": "heji",
+          "via": "primary"
+        },
+        {
+          "id": "wu.5.p17.h3",
+          "type": "person",
           "at": 19,
           "length": 2,
           "text": "孫權",
@@ -1146,7 +1098,7 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p17.h3",
+          "id": "wu.5.p17.h4",
           "type": "person",
           "at": 34,
           "length": 1,
@@ -1155,7 +1107,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p17.h4",
+          "id": "wu.5.p17.h5",
           "type": "person",
           "at": 54,
           "length": 1,
@@ -1164,17 +1116,7 @@
           "via": "given_name"
         },
         {
-          "id": "wu.5.p17.h7",
-          "type": "person",
-          "at": 67,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sunhe",
-          "via": "llm",
-          "reasoning": "「太子和既廢」— 文中明點「和」，即孫和。"
-        },
-        {
-          "id": "wu.5.p17.h5",
+          "id": "wu.5.p17.h6",
           "type": "person",
           "at": 83,
           "length": 2,
@@ -1183,12 +1125,21 @@
           "via": "primary"
         },
         {
-          "id": "wu.5.p17.h6",
+          "id": "wu.5.p17.h7",
           "type": "person",
           "at": 88,
           "length": 2,
           "text": "孫峻",
           "person_id": "sunjun",
+          "via": "primary"
+        },
+        {
+          "id": "wu.5.p17.h8",
+          "type": "person",
+          "at": 130,
+          "length": 2,
+          "text": "何姬",
+          "person_id": "heji",
           "via": "primary"
         },
         {
@@ -1201,22 +1152,11 @@
         {
           "id": "wu.5.p17.h9",
           "type": "person",
-          "at": 172,
+          "at": 167,
           "length": 2,
-          "text": "皇后",
+          "text": "何姬",
           "person_id": "heji",
-          "via": "llm",
-          "reasoning": "「何姬為昭獻皇后」— 即孫皓母追尊；roster 無。"
-        },
-        {
-          "id": "wu.5.p17.h8",
-          "type": "person",
-          "at": 186,
-          "length": 2,
-          "text": "太后",
-          "person_id": "heji",
-          "via": "llm",
-          "reasoning": "「進為皇太后」— 即孫皓母何姬進為皇太后；roster 無。"
+          "via": "primary"
         },
         {
           "id": "wu.5.p17.a2",
@@ -1248,16 +1188,6 @@
           "text": "孫休",
           "person_id": "sunxiu",
           "via": "primary"
-        },
-        {
-          "id": "wu.5.p18.h3",
-          "type": "person",
-          "at": 69,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "tenghuanghou",
-          "via": "llm",
-          "reasoning": "「立為皇后」— 即孫皓滕皇后；roster 無。"
         },
         {
           "id": "wu.5.p18.a1",

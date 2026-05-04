@@ -93,16 +93,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: shu.15.p2
-  at: 63
-  length: 2
-  type: person
-  person_id: liushan
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 鄧芝言「今主上幼弱，初在位」，建興元年諸葛亮甫遣使吳，主上即新即位之後主劉禪。
-  id: shu.15.p2.h26
 - id: shu.15.p2.h9
   anchor: shu.15.p2
   at: 82
@@ -989,6 +979,18 @@ annotations:
   person_id: weiyan
   text: 魏延
   via: primary
+- id: shu.15.p21.t3
+  anchor: shu.15.p21
+  at: 105
+  length: 3
+  type: temporal
+  text: 十二年
+  kind: relative
+  resolution: bare_year
+  year_ad: 234
+  era: 建興
+  era_year: 12
+  reasoning: 承前文年號「建興」推得，「十二年」 = 建興12年 = AD 234
 - id: shu.15.p21.h6
   anchor: shu.15.p21
   at: 111
@@ -997,6 +999,18 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name_carry
+- id: shu.15.p21.t4
+  anchor: shu.15.p21
+  at: 140
+  length: 3
+  type: temporal
+  text: 十五年
+  kind: relative
+  resolution: bare_year
+  year_ad: 237
+  era: 建興
+  era_year: 15
+  reasoning: 承前文年號「建興」推得，「十五年」 = 建興15年 = AD 237
 - id: shu.15.p22.h1
   anchor: shu.15.p22
   at: 12
@@ -1175,8 +1189,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 264
-  reasoning: 「是歲」 = 当前年 AD 264
+  year_ad: 223
+  era: 建興
+  era_year: 1
+  reasoning: 「是歲」 = 当前年 建興元年 (AD 223)
 - id: shu.15.p26.a1
   anchor: shu.15.p26
   at: 131

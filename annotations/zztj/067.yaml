@@ -2,7 +2,7 @@ chapter: zztj.67
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷067
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: d05ecb5d697cd0f49def171edffe595911deafe6baaebe62ffa4a17796312cb8
 annotations:
 - id: zztj.67.p3.t1
@@ -1169,13 +1169,21 @@ annotations:
   via: given_name
 - id: zztj.67.p19.h6
   anchor: zztj.67.p19
+  at: 161
+  length: 3
+  type: person
+  person_id: fuhuanghou
+  text: 伏皇后
+  via: primary
+- id: zztj.67.p19.h7
+  anchor: zztj.67.p19
   at: 176
   length: 2
   type: person
   person_id: caocao
   text: 曹操
   via: primary
-- id: zztj.67.p19.h7
+- id: zztj.67.p19.h8
   anchor: zztj.67.p19
   at: 200
   length: 1
@@ -1197,7 +1205,7 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 建安19年 (AD 214)，月份「十一月」
-- id: zztj.67.p19.h8
+- id: zztj.67.p19.h9
   anchor: zztj.67.p19
   at: 228
   length: 2
@@ -1919,16 +1927,6 @@ annotations:
   person_id: lusu
   text: 肅
   via: given_name_carry
-- anchor: zztj.67.p29
-  at: 98
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 建安十九-二十一年(214-216)獻帝在位，主上指獻帝
-  id: zztj.67.p29.h15
 - id: zztj.67.p29.h5
   anchor: zztj.67.p29
   at: 181

@@ -2,7 +2,7 @@ chapter: zztj.68
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷068
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 8abd37dbce7c90b199e0cd9a0173fbdb67f69e64b8de496d2a77f6b400f0a856
 annotations:
 - id: zztj.68.p4.t1
@@ -261,17 +261,23 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 建安22年 (AD 217)，月份「十月」
-- anchor: zztj.68.p8
-  at: 9
+- id: zztj.68.p9.h1
+  anchor: zztj.68.p9
+  at: 21
   length: 2
   type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p8.h1
-- id: zztj.68.p9.h1
+  person_id: bianhuanghou
+  text: 卞氏
+  via: alias
+- id: zztj.68.p9.h2
+  anchor: zztj.68.p9
+  at: 64
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 卞氏
+  via: alias
+- id: zztj.68.p9.h3
   anchor: zztj.68.p9
   at: 160
   length: 2
@@ -279,7 +285,7 @@ annotations:
   person_id: cuiyan
   text: 崔琰
   via: primary
-- id: zztj.68.p9.h2
+- id: zztj.68.p9.h4
   anchor: zztj.68.p9
   at: 214
   length: 2
@@ -287,7 +293,7 @@ annotations:
   person_id: maojie
   text: 毛玠
   via: primary
-- id: zztj.68.p9.h3
+- id: zztj.68.p9.h5
   anchor: zztj.68.p9
   at: 221
   length: 2
@@ -295,7 +301,7 @@ annotations:
   person_id: yuanshao
   text: 袁紹
   via: primary
-- id: zztj.68.p9.h4
+- id: zztj.68.p9.h6
   anchor: zztj.68.p9
   at: 248
   length: 2
@@ -303,7 +309,7 @@ annotations:
   person_id: xingyong
   text: 邢顒
   via: primary
-- id: zztj.68.p9.h5
+- id: zztj.68.p9.h7
   anchor: zztj.68.p9
   at: 280
   length: 2
@@ -311,46 +317,6 @@ annotations:
   person_id: jiaxu
   text: 賈詡
   via: primary
-- anchor: zztj.68.p9
-  at: 537
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p9.h6
-- anchor: zztj.68.p9
-  at: 554
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p9.h7
-- anchor: zztj.68.p9
-  at: 646
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p9.h8
-- anchor: zztj.68.p9
-  at: 681
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p9.h9
 - id: zztj.68.p10.h1
   anchor: zztj.68.p10
   at: 0
@@ -1391,16 +1357,6 @@ annotations:
   person_id: liubei
   text: 劉備
   via: primary
-- anchor: zztj.68.p30
-  at: 69
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p30.h16
 - id: zztj.68.p30.h2
   anchor: zztj.68.p30
   at: 79
@@ -1521,16 +1477,14 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name_carry
-- anchor: zztj.68.p31
-  at: 10
+- id: zztj.68.p31.h2
+  anchor: zztj.68.p31
+  at: 7
   length: 2
   type: person
   person_id: bianhuanghou
-  text: 王后
-  via: llm
-  confidence: 0.85
-  reasoning: 魏王王后即卞氏，不在花名冊
-  id: zztj.68.p31.h2
+  text: 卞氏
+  via: alias
 - id: zztj.68.p32.h1
   anchor: zztj.68.p32
   at: 0
@@ -1799,16 +1753,6 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 建安24年 (AD 219)，月份「九月」
-- anchor: zztj.68.p33
-  at: 94
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.88
-  reasoning: 建安二十二年(217)曹操立曹丕為魏太子，"太子"指曹丕
-  id: zztj.68.p33.h1
 - id: zztj.68.p34.h1
   anchor: zztj.68.p34
   at: 49
@@ -3837,13 +3781,21 @@ annotations:
   via: given_name_carry
 - id: zztj.68.p49.h1
   anchor: zztj.68.p49
+  at: 63
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: zztj.68.p49.h2
+  anchor: zztj.68.p49
   at: 80
   length: 1
   type: person
   person_id: yuanshao
   text: 紹
   via: given_name
-- id: zztj.68.p49.h2
+- id: zztj.68.p49.h3
   anchor: zztj.68.p49
   at: 280
   length: 1
@@ -3851,7 +3803,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- id: zztj.68.p49.h3
+- id: zztj.68.p49.h4
   anchor: zztj.68.p49
   at: 336
   length: 2
@@ -3859,7 +3811,7 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- id: zztj.68.p49.h4
+- id: zztj.68.p49.h5
   anchor: zztj.68.p49
   at: 339
   length: 2
@@ -3867,7 +3819,7 @@ annotations:
   person_id: duqiao
   text: 杜喬
   via: primary
-- id: zztj.68.p49.h5
+- id: zztj.68.p49.h6
   anchor: zztj.68.p49
   at: 342
   length: 2
@@ -3875,7 +3827,7 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- id: zztj.68.p49.h6
+- id: zztj.68.p49.h7
   anchor: zztj.68.p49
   at: 345
   length: 2
@@ -3883,7 +3835,7 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- id: zztj.68.p49.h7
+- id: zztj.68.p49.h8
   anchor: zztj.68.p49
   at: 369
   length: 2
@@ -3891,7 +3843,15 @@ annotations:
   person_id: furong
   text: 符融
   via: primary
-- id: zztj.68.p49.h8
+- id: zztj.68.p49.h9
+  anchor: zztj.68.p49
+  at: 446
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: zztj.68.p49.h10
   anchor: zztj.68.p49
   at: 535
   length: 2
@@ -3899,7 +3859,7 @@ annotations:
   person_id: hejin
   text: 何進
   via: primary
-- id: zztj.68.p49.h9
+- id: zztj.68.p49.h11
   anchor: zztj.68.p49
   at: 540
   length: 2
@@ -3907,7 +3867,7 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- id: zztj.68.p49.h10
+- id: zztj.68.p49.h12
   anchor: zztj.68.p49
   at: 545
   length: 2

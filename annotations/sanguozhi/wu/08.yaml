@@ -337,16 +337,6 @@ annotations:
   length: 0
   type: pei
   text: 吳書曰：晙時年七十八，二子凱、爽。凱官至昇平少府。
-- anchor: wu.8.p7
-  at: 57
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子登遊處」— 文中明點「登」，即孫登。
-  id: wu.8.p7.h1
 - id: wu.8.p8.h1
   anchor: wu.8.p8
   at: 0
@@ -371,16 +361,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.8.p8
-  at: 60
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 程秉拜太子太傅，黃武初太子為孫登。
-  id: wu.8.p8.h7
 - id: wu.8.p8.t1
   anchor: wu.8.p8
   at: 65
@@ -401,16 +381,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.8.p8
-  at: 72
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「權為太子登娉周瑜女」— 文中明點「登」。
-  id: wu.8.p8.h8
 - id: wu.8.p8.h5
   anchor: wu.8.p8
   at: 76
@@ -427,16 +397,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.8.p8
-  at: 160
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「願太子尊禮教於閨房」— 對孫登進說，太子即孫登。
-  id: wu.8.p8.h9
 - id: wu.8.p9.a1
   anchor: wu.8.p9
   at: 19
@@ -471,16 +431,6 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242
-- anchor: wu.8.p10
-  at: 126
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「赤烏五年，拜太子太傅」— 即孫和為太子。
-  id: wu.8.p10.h8
 - id: wu.8.p10.h3
   anchor: wu.8.p10
   at: 264
@@ -753,16 +703,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.8.p18
-  at: 482
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 薛綜諫征遼東疏（嘉禾元年/二年），對孫權「惟陛下抑雷霆之威」。
-  id: wu.8.p18.h1
 - id: wu.8.p19.h1
   anchor: wu.8.p19
   at: 6
@@ -825,16 +765,6 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 承前文年號「赤烏」推得，「五年」 = 赤烏5年 = AD 242
-- anchor: wu.8.p20
-  at: 75
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「赤烏五年，為太子少傅」— 即孫和為太子，薛綜為少傅。
-  id: wu.8.p20.h3
 - id: wu.8.p20.a1
   anchor: wu.8.p20
   at: 86
@@ -875,16 +805,6 @@ annotations:
   person_id: sunhao_2
   text: 孫皓
   via: primary
-- anchor: wu.8.p22
-  at: 53
-  length: 2
-  type: person
-  person_id: sunjin
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 孫皓建衡元年立太子瑾，「立太子」即孫瑾；roster 無孫瑾，置 null。
-  id: wu.8.p22.h3
 - id: wu.8.p22.t1
   anchor: wu.8.p22
   at: 61

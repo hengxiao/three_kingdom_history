@@ -59,16 +59,6 @@ annotations:
   length: 0
   type: pei
   text: 《江表傳》曰：恪少有才名，發藻岐嶷，辯論應機，莫與為對。權見而奇之，謂瑾曰：「藍田生玉，真不虛也。」《吳錄》曰：恪長七尺六寸，少鬚眉，折頞廣額，大口高聲。
-- anchor: wu.19.p2
-  at: 31
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「侍太子登」— 文中明點「登」，即孫登。
-  id: wu.19.p2.h12
 - id: wu.19.p2.h2
   anchor: wu.19.p2
   at: 63
@@ -141,16 +131,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- anchor: wu.19.p2
-  at: 367
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛恪對孫權奏對「夫蜀者陛下之外廄」，蜀通好黃龍年間，陛下即孫權。
-  id: wu.19.p2.h13
 - id: wu.19.p2.a2
   anchor: wu.19.p2
   at: 399
@@ -195,16 +175,6 @@ annotations:
   person_id: xuezong
   text: 薛綜
   via: primary
-- anchor: wu.19.p5
-  at: 173
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 主上
-  via: llm
-  confidence: 0.9
-  reasoning: 嘉禾三年諸葛恪平山越，朝廷下詔褒功；「主上歡然」中主上即孫權。
-  id: wu.19.p5.h1
 - id: wu.19.p6.h1
   anchor: wu.19.p6
   at: 51
@@ -261,26 +231,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.19.p10
-  at: 8
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「權不豫，而太子少」— 太元末諸葛恪受顧命時太子為孫亮（赤烏十三年立）。
-  id: wu.19.p10.h5
-- anchor: wu.19.p10
-  at: 20
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「領太子太傅」承前句指孫亮太傅。
-  id: wu.19.p10.h6
 - id: wu.19.p10.h2
   anchor: wu.19.p10
   at: 34
@@ -327,16 +277,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.19.p12
-  at: 57
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「皇太子以丁酉踐酋號」— 神鳳元年孫權崩後孫亮繼位。
-  id: wu.19.p12.h1
 - id: wu.19.p14.h1
   anchor: wu.19.p14
   at: 2
@@ -499,16 +439,6 @@ annotations:
   person_id: sunjun
   text: 孫峻
   via: primary
-- anchor: wu.19.p22
-  at: 147
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 建興二年（253）孫峻誅恪，「峻當具白主上」中主上即孫亮（時為帝）。
-  id: wu.19.p22.h3
 - id: wu.19.p22.h1
   anchor: wu.19.p22
   at: 212
@@ -565,26 +495,6 @@ annotations:
   person_id: zhugeke
   text: 諸葛恪
   via: primary
-- anchor: wu.19.p25
-  at: 550
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 上疏為諸葛恪請收葬，所對「陛下」即少主孫亮。
-  id: wu.19.p25.h2
-- anchor: wu.19.p25
-  at: 614
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 主上
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「不先請主上」中主上即孫亮。
-  id: wu.19.p25.h3
 - id: wu.19.p26.a1
   anchor: wu.19.p26
   at: 20
@@ -927,46 +837,6 @@ annotations:
   length: 0
   type: pei
   text: 《漢晉春秋》曰：彝，魏尚書令階之弟。《吳錄》曰：晉武帝問薛瑩吳之名臣，瑩對稱彝有忠貞之節。
-- anchor: wu.19.p38
-  at: 14
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 孫綝廢孫亮表「不能輔導陛下」中陛下即少主孫亮（太平三年廢）。
-  id: wu.19.p38.h1
-- anchor: wu.19.p38
-  at: 219
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同表「曾無一言以諫陛下」承前句指孫亮。
-  id: wu.19.p38.h2
-- anchor: wu.19.p39
-  at: 136
-  length: 2
-  type: person
-  person_id: sunxiu
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 孫綝退讓表上書孫休「陛下聖德，纂承大統」即吳景帝孫休。
-  id: wu.19.p39.h1
-- anchor: wu.19.p40
-  at: 44
-  length: 2
-  type: person
-  person_id: sunxiu
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 孫綝怨言「吾以陛下賢明」中陛下即孫休（永安初）。
-  id: wu.19.p40.h2
 - id: wu.19.p40.a1
   anchor: wu.19.p40
   at: 183

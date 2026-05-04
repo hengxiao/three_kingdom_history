@@ -2,7 +2,7 @@ chapter: zztj.81
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷081
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: a812b3cd7681fe72f710d69695188dd315a6f193bf9cdab497e5575e0b243522
 annotations:
 - id: zztj.81.p4.t1
@@ -119,16 +119,6 @@ annotations:
   person_id: sunhao_2
   text: 孫皓
   via: primary
-- anchor: zztj.81.p25
-  at: 101
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 太康元年(280)前後吳陛下指孫皓
-  id: zztj.81.p25.h2
 - id: zztj.81.p26.h1
   anchor: zztj.81.p26
   at: 27
@@ -303,6 +293,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 太康3年 (AD 282)，月份「正月」
+- id: zztj.81.p51.h1
+  anchor: zztj.81.p51
+  at: 208
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: zztj.81.p52.t1
   anchor: zztj.81.p52
   at: 0

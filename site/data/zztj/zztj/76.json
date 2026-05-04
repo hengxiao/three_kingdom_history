@@ -572,16 +572,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.76.p24.h3",
-          "type": "person",
-          "at": 293,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caofang",
-          "via": "llm",
-          "reasoning": "正元元年前後齊王曹芳在位"
-        },
-        {
           "id": "zztj.76.p24.h2",
           "type": "person",
           "at": 411,
@@ -685,6 +675,15 @@
           "text": "諸葛恪",
           "person_id": "zhugeke",
           "via": "primary"
+        },
+        {
+          "id": "zztj.76.p28.h2",
+          "type": "person",
+          "at": 116,
+          "length": 2,
+          "text": "何姬",
+          "person_id": "heji",
+          "via": "primary"
         }
       ]
     },
@@ -784,36 +783,6 @@
           "text": "夏侯玄",
           "person_id": "xiahouxuan",
           "via": "primary"
-        },
-        {
-          "id": "zztj.76.p31.h7",
-          "type": "person",
-          "at": 294,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "正元元年(254)司馬師廢曹芳立曹髦"
-        },
-        {
-          "id": "zztj.76.p31.h8",
-          "type": "person",
-          "at": 303,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "正元元年(254)司馬師廢曹芳立曹髦"
-        },
-        {
-          "id": "zztj.76.p31.h9",
-          "type": "person",
-          "at": 318,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "正元元年(254)司馬師廢曹芳立曹髦"
         }
       ]
     },
@@ -1036,23 +1005,30 @@
     {
       "id": "zztj.76.p40",
       "text": "昭引兵入城，大將軍師乃謀廢帝。甲戌，師以皇太后令召群臣會議，以帝荒淫無度，褻近倡優，不可以承天緒；群臣皆莫敢違。乃奏收帝璽綬，歸籓於齊。使郭芝入白太后，太后方與帝對坐，芝謂帝曰：「大將軍欲廢陛下，立彭城王據！」帝乃起去。太后不悅。芝曰：「太后有子不能教，今大將軍意已成，又勒兵於外以備非常，但當順旨，將復何言！」太后曰：「我欲見大將軍，口有所說。」芝曰：「何可見邪！但當速取璽綬！」太后意折，乃遣傍侍御取璽綬著坐側。芝出報師，師甚喜。又遣使者授帝齊王印綬，使出就西宮。帝與太后垂涕而別，遂乘王車，從太極殿南出，群臣送者數十人，司馬孚悲不自勝，餘多流涕。",
-      "annotations": [
-        {
-          "id": "zztj.76.p40.h1",
-          "type": "person",
-          "at": 95,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "正元元年(254)司馬師廢曹芳立曹髦"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.76.p41",
       "text": "師又使使者請璽綬於太后。太后曰：「彭城王，我之季叔也，今來立，我當何之！且明皇帝當永絕嗣乎？高貴鄉公，文皇帝之長孫，明皇帝之弟子。於禮，小宗有後大宗之義，其詳議之。」丁丑，師更召群臣，以太后令示之，乃定迎高貴鄉公髦於元城。髦者，東海定王霖之子也，時年十四，使太常王肅持節迎之。師又使請璽綬，太后曰：「我見高貴鄉公，小時識之，我自欲以璽綬手授之。」冬，十月，己丑，高貴鄉公至玄武館，群臣奏請捨前殿，公以先帝舊處，避止西廂；群臣又請以法駕迎，公不聽。庚寅，公入於洛陽，群臣迎拜西掖門南，公下輿答拜，儐者請曰：「儀不拜。」公曰：「吾人臣也。」遂答拜。至止車門下輿，左右曰：「舊乘輿入。」公曰：「吾被皇太后征，未知所為。」遂步至太極東堂，見太后。其日，即皇帝位於太極前殿，百僚陪位者皆欣欣焉。大赦，改元。為齊王築宮於河內。",
       "annotations": [
+        {
+          "id": "zztj.76.p41.h1",
+          "type": "person",
+          "at": 37,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.76.p41.h2",
+          "type": "person",
+          "at": 58,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        },
         {
           "id": "zztj.76.p41.t1",
           "type": "temporal",
@@ -1533,6 +1509,15 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 正元2年 (AD 255)，月份「三月」"
+        },
+        {
+          "id": "zztj.76.p58.h1",
+          "type": "person",
+          "at": 6,
+          "length": 2,
+          "text": "卞氏",
+          "person_id": "bianhuanghou",
+          "via": "alias"
         }
       ]
     },

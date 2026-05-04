@@ -126,16 +126,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p6.h8",
-          "type": "person",
-          "at": 66,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年（167）竇武上疏稱在位皇帝桓帝為陛下"
-        },
-        {
           "id": "zztj.56.p6.h2",
           "type": "person",
           "at": 164,
@@ -143,26 +133,6 @@
           "text": "李膺",
           "person_id": "liying",
           "via": "primary"
-        },
-        {
-          "id": "zztj.56.p6.h9",
-          "type": "person",
-          "at": 202,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年（167）竇武上疏稱在位皇帝桓帝為陛下"
-        },
-        {
-          "id": "zztj.56.p6.h10",
-          "type": "person",
-          "at": 235,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年（167）竇武上疏稱在位皇帝桓帝為陛下"
         },
         {
           "id": "zztj.56.p6.h3",
@@ -199,26 +169,6 @@
           "text": "苑康",
           "person_id": "yuankang",
           "via": "primary"
-        },
-        {
-          "id": "zztj.56.p6.h11",
-          "type": "person",
-          "at": 337,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年（167）竇武上疏稱在位皇帝桓帝為陛下"
-        },
-        {
-          "id": "zztj.56.p6.h12",
-          "type": "person",
-          "at": 453,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年（167）竇武上疏稱在位皇帝桓帝為陛下"
         },
         {
           "id": "zztj.56.p6.h7",
@@ -383,44 +333,13 @@
           "reasoning": "年承前文 永康元年 (AD 167)，月份「十二月」"
         },
         {
-          "id": "zztj.56.p10.h8",
-          "type": "person",
-          "at": 162,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "桓帝崩後尊竇皇后為皇太后，竇皇后(竇妙)非花名冊中人"
-        },
-        {
           "id": "zztj.56.p10.h5",
           "type": "person",
-          "at": 166,
+          "at": 299,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p10.h6",
-          "type": "person",
-          "at": 169,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p10.h7",
-          "type": "person",
-          "at": 279,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -566,16 +485,6 @@
           "text": "張奐",
           "person_id": "zhanghuan",
           "via": "primary"
-        },
-        {
-          "id": "zztj.56.p12.h11",
-          "type": "person",
-          "at": 833,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年竇太后臨朝下詔，竇妙不在花名冊"
         }
       ]
     },
@@ -636,6 +545,15 @@
         {
           "id": "zztj.56.p14.h1",
           "type": "person",
+          "at": 102,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h2",
+          "type": "person",
           "at": 119,
           "length": 2,
           "text": "盧植",
@@ -643,7 +561,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h2",
+          "id": "zztj.56.p14.h3",
           "type": "person",
           "at": 241,
           "length": 2,
@@ -652,17 +570,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h24",
-          "type": "person",
-          "at": 275,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h3",
+          "id": "zztj.56.p14.h4",
           "type": "person",
           "at": 278,
           "length": 2,
@@ -671,17 +579,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h25",
-          "type": "person",
-          "at": 367,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h4",
+          "id": "zztj.56.p14.h5",
           "type": "person",
           "at": 387,
           "length": 2,
@@ -705,7 +603,7 @@
           "reasoning": "年承前文 建寧元年 (AD 168)，月份「七月」"
         },
         {
-          "id": "zztj.56.p14.h5",
+          "id": "zztj.56.p14.h6",
           "type": "person",
           "at": 466,
           "length": 2,
@@ -714,7 +612,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h6",
+          "id": "zztj.56.p14.h7",
           "type": "person",
           "at": 482,
           "length": 2,
@@ -723,7 +621,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h7",
+          "id": "zztj.56.p14.h8",
           "type": "person",
           "at": 549,
           "length": 2,
@@ -747,17 +645,7 @@
           "reasoning": "年承前文 建寧元年 (AD 168)，月份「八月」"
         },
         {
-          "id": "zztj.56.p14.h26",
-          "type": "person",
-          "at": 1068,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h8",
+          "id": "zztj.56.p14.h9",
           "type": "person",
           "at": 1074,
           "length": 2,
@@ -766,7 +654,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h9",
+          "id": "zztj.56.p14.h10",
           "type": "person",
           "at": 1113,
           "length": 2,
@@ -775,7 +663,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h10",
+          "id": "zztj.56.p14.h11",
           "type": "person",
           "at": 1119,
           "length": 2,
@@ -784,37 +672,25 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h27",
+          "id": "zztj.56.p14.h12",
           "type": "person",
-          "at": 1169,
+          "at": 1176,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h28",
+          "id": "zztj.56.p14.h13",
           "type": "person",
-          "at": 1189,
+          "at": 1226,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h29",
-          "type": "person",
-          "at": 1192,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h11",
+          "id": "zztj.56.p14.h14",
           "type": "person",
           "at": 1283,
           "length": 2,
@@ -823,67 +699,25 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h30",
+          "id": "zztj.56.p14.h15",
           "type": "person",
-          "at": 1355,
+          "at": 1497,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h31",
+          "id": "zztj.56.p14.h16",
           "type": "person",
-          "at": 1426,
+          "at": 1535,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h32",
-          "type": "person",
-          "at": 1501,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h23",
-          "type": "person",
-          "at": 1594,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "建寧元年劉瑜上書稱靈帝為陛下"
-        },
-        {
-          "id": "zztj.56.p14.h33",
-          "type": "person",
-          "at": 1638,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h34",
-          "type": "person",
-          "at": 1673,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h12",
+          "id": "zztj.56.p14.h17",
           "type": "person",
           "at": 1744,
           "length": 2,
@@ -892,12 +726,21 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h13",
+          "id": "zztj.56.p14.h18",
           "type": "person",
           "at": 1821,
           "length": 2,
           "text": "尹勳",
           "person_id": "yinxun_2",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h19",
+          "type": "person",
+          "at": 1836,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         },
         {
@@ -916,7 +759,7 @@
           "reasoning": "年承前文 建寧元年 (AD 168)，月份「九月」"
         },
         {
-          "id": "zztj.56.p14.h14",
+          "id": "zztj.56.p14.h20",
           "type": "person",
           "at": 1924,
           "length": 2,
@@ -925,17 +768,16 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h35",
+          "id": "zztj.56.p14.h21",
           "type": "person",
-          "at": 1931,
+          "at": 1975,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h15",
+          "id": "zztj.56.p14.h22",
           "type": "person",
           "at": 2055,
           "length": 2,
@@ -944,17 +786,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h36",
-          "type": "person",
-          "at": 2084,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h16",
+          "id": "zztj.56.p14.h23",
           "type": "person",
           "at": 2185,
           "length": 2,
@@ -963,7 +795,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h17",
+          "id": "zztj.56.p14.h24",
           "type": "person",
           "at": 2407,
           "length": 2,
@@ -972,7 +804,16 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h18",
+          "id": "zztj.56.p14.h25",
+          "type": "person",
+          "at": 2414,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h26",
           "type": "person",
           "at": 2630,
           "length": 2,
@@ -981,7 +822,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h19",
+          "id": "zztj.56.p14.h27",
           "type": "person",
           "at": 2638,
           "length": 2,
@@ -990,17 +831,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h37",
-          "type": "person",
-          "at": 2654,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年事變期間皆指竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p14.h20",
+          "id": "zztj.56.p14.h28",
           "type": "person",
           "at": 2697,
           "length": 2,
@@ -1009,7 +840,25 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h21",
+          "id": "zztj.56.p14.h29",
+          "type": "person",
+          "at": 2707,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h30",
+          "type": "person",
+          "at": 2788,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h31",
           "type": "person",
           "at": 2917,
           "length": 2,
@@ -1018,12 +867,21 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p14.h22",
+          "id": "zztj.56.p14.h32",
           "type": "person",
           "at": 2951,
           "length": 2,
           "text": "張奐",
           "person_id": "zhanghuan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p14.h33",
+          "type": "person",
+          "at": 2967,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         }
       ]
@@ -1149,16 +1007,6 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建寧2年 (AD 169)，月份「三月」"
-        },
-        {
-          "id": "zztj.56.p18.h1",
-          "type": "person",
-          "at": 31,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "靈帝尊母董氏為孝仁皇后(永樂宮董太后)，非花名冊中人"
         }
       ]
     },
@@ -1200,22 +1048,21 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p19.h4",
-          "type": "person",
-          "at": 117,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "指被幽閉南宮之竇太后(竇妙)，非花名冊中人"
-        },
-        {
           "id": "zztj.56.p19.h3",
           "type": "person",
           "at": 187,
           "length": 2,
           "text": "李膺",
           "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p19.h4",
+          "type": "person",
+          "at": 196,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         },
         {
@@ -1240,36 +1087,6 @@
       "text": "郎中東郡謝弼上封事曰：「臣聞『惟虺惟蛇，女子之祥』。伏惟皇太后定策宮闥，援立聖明，《書》曰：『父子兄弟，罪不相及』，竇氏之誅，豈宜咎延太后！幽隔空宮，愁感天心，如有霧露之疾，陛下當何面目以見天下！孝和皇帝不絕竇氏之恩，前世以為美談。禮，『為人後者為之子』，今以桓帝為父，豈得不以太后為母哉！願陛下仰慕有虞蒸蒸之化，俯思《凱風》慰母之念。臣又聞『開國承家，小人勿用』。今功臣久外，未蒙爵秩，阿母寵私，乃享大封，大風雨雹，亦由於茲。又，故太傅陳蕃，勤身王室，而見陷群邪，一旦誅滅，其為酷濫，駭動天下；而門生故吏，並離徙錮。蕃身已往，人百何贖！宜還其家屬，解除禁網，夫台宰重器，國命所繫，今之四公，唯司空劉寵斷斷守善，餘皆素餐致寇之人，必有折足覆餗之凶，可因災異，並加罷黜，征故司空王暢、長樂少府李膺並居政事，庶災變可消，國祚惟永。」左右惡其言，出為廣陵府丞，去官，歸家。曹節從子紹為東郡太守，以它罪收弼，掠死於獄。",
       "annotations": [
         {
-          "id": "zztj.56.p20.h6",
-          "type": "person",
-          "at": 29,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "謝弼疏中所論之太后為被幽閉之竇太后(竇妙)"
-        },
-        {
-          "id": "zztj.56.p20.h7",
-          "type": "person",
-          "at": 67,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "謝弼疏中所論之太后為被幽閉之竇太后(竇妙)"
-        },
-        {
-          "id": "zztj.56.p20.h4",
-          "type": "person",
-          "at": 87,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "謝弼上封事稱靈帝為陛下，事在建寧二年"
-        },
-        {
           "id": "zztj.56.p20.h1",
           "type": "person",
           "at": 130,
@@ -1277,26 +1094,6 @@
           "text": "桓帝",
           "person_id": "huanhan",
           "via": "alias"
-        },
-        {
-          "id": "zztj.56.p20.h8",
-          "type": "person",
-          "at": 139,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "謝弼疏中所論之太后為被幽閉之竇太后(竇妙)"
-        },
-        {
-          "id": "zztj.56.p20.h5",
-          "type": "person",
-          "at": 146,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "謝弼上封事稱靈帝為陛下，事在建寧二年"
         },
         {
           "id": "zztj.56.p20.h2",
@@ -1315,6 +1112,15 @@
           "text": "李膺",
           "person_id": "liying",
           "via": "primary"
+        },
+        {
+          "id": "zztj.56.p20.h4",
+          "type": "person",
+          "at": 383,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -1322,16 +1128,6 @@
       "id": "zztj.56.p21",
       "text": "帝以蛇妖問光祿勳楊賜，賜上封事曰：「夫善不妄來，災不空發。王者心有所想，雖未形顏色，而五星以之推移，陰陽為其變度。夫皇極不建，則有龍蛇之孽，《詩》云：『惟虺惟蛇，女子之祥。』惟陛下思乾剛之道，別內外之宜，抑皇甫之權，割艷妻之愛，則蛇變可消，禎祥立應。」賜，秉之子也。五月，太尉聞人襲、司空許栩免；六月，以司徒劉寵為太尉，太常汝南許訓為司徒，太僕長沙劉囂為司空。囂素附諸常侍，故致位公輔。詔遣謁者馮禪說降漢陽散羌。段熲以春農，百姓布野，羌雖暫降，而縣官無廩，必當復為盜賊，不如乘虛放兵，勢必殄滅。熲於是自進營，去羌所屯凡亭山四五十里，遣騎司馬田晏、假司馬夏育將五千人先進，擊破之。羌眾潰東奔，復聚射虎谷，分兵守谷上下門，熲規一舉滅之，不欲復令散走。秋，七月，熲遣千人於西縣結木為柵，廣二十步，長四十里遮之。分遣晏、育等將七千人銜枚夜上西山，結營穿塹，去虜一里許，又遣司馬張愷等將三千人上東山，虜乃覺之。熲因與愷等夾東、西山，縱兵奮擊，破之，追至谷上下門，窮山深谷之中，處處破之，斬其渠帥以下萬九千級。馮禪等所招降四千人，分置安定、漢陽、隴西三郡。於是東羌悉平。熲凡百八十戰，斬三萬八千餘級，獲雜畜四十二萬七千餘頭，費用四十四億，軍士死者四百餘人；更封新豐縣侯，邑萬戶。",
       "annotations": [
-        {
-          "id": "zztj.56.p21.h2",
-          "type": "person",
-          "at": 88,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "楊賜上封事，靈帝為現任皇帝"
-        },
         {
           "id": "zztj.56.p21.t1",
           "type": "temporal",
@@ -1672,6 +1468,15 @@
         {
           "id": "zztj.56.p26.h1",
           "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.56.p26.h2",
+          "type": "person",
           "at": 27,
           "length": 2,
           "text": "李膺",
@@ -1679,7 +1484,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p26.h2",
+          "id": "zztj.56.p26.h3",
           "type": "person",
           "at": 42,
           "length": 2,
@@ -1688,7 +1493,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p26.h3",
+          "id": "zztj.56.p26.h4",
           "type": "person",
           "at": 153,
           "length": 2,
@@ -1697,7 +1502,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.56.p26.h4",
+          "id": "zztj.56.p26.h5",
           "type": "person",
           "at": 272,
           "length": 1,
@@ -1867,6 +1672,15 @@
           "month_chinese": "十一月",
           "month_ordinal": 11,
           "reasoning": "年承前文 建寧2年 (AD 169)，月份「十一月」"
+        },
+        {
+          "id": "zztj.56.p35.h1",
+          "type": "person",
+          "at": 39,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -1984,17 +1798,16 @@
           "reasoning": "年承前文 建寧3年 (AD 170)，月份「九月」"
         },
         {
-          "id": "zztj.56.p38.h2",
+          "id": "zztj.56.p38.h1",
           "type": "person",
-          "at": 61,
-          "length": 2,
-          "text": "太后",
+          "at": 59,
+          "length": 4,
+          "text": "永樂太后",
           "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "永樂太后即董太后(靈帝生母)，非花名冊中人"
+          "via": "alias"
         },
         {
-          "id": "zztj.56.p38.h1",
+          "id": "zztj.56.p38.h2",
           "type": "person",
           "at": 180,
           "length": 2,
@@ -2113,26 +1926,6 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 建寧4年 (AD 171)，月份「七月」"
-        },
-        {
-          "id": "zztj.56.p42.h2",
-          "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "songhuanghou",
-          "via": "llm",
-          "reasoning": "皇后指宋皇后；太后指竇太后，皆非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p42.h1",
-          "type": "person",
-          "at": 62,
-          "length": 2,
-          "text": "太后",
-          "person_id": "songhuanghou",
-          "via": "llm",
-          "reasoning": "皇后指宋皇后；太后指竇太后，皆非花名冊中人"
         }
       ]
     },
@@ -2158,22 +1951,11 @@
         {
           "id": "zztj.56.p43.h1",
           "type": "person",
-          "at": 13,
+          "at": 53,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "南宮太后即竇太后(竇妙)，非花名冊中人"
-        },
-        {
-          "id": "zztj.56.p43.h2",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "南宮太后即竇太后(竇妙)，非花名冊中人"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     }

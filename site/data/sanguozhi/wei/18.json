@@ -783,6 +783,15 @@
         {
           "id": "wei.18.p10.h8",
           "type": "person",
+          "at": 105,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.18.p10.h9",
+          "type": "person",
           "at": 160,
           "length": 2,
           "text": "于禁",
@@ -790,7 +799,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h9",
+          "id": "wei.18.p10.h10",
           "type": "person",
           "at": 167,
           "length": 3,
@@ -799,7 +808,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h10",
+          "id": "wei.18.p10.h11",
           "type": "person",
           "at": 236,
           "length": 2,
@@ -808,7 +817,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h11",
+          "id": "wei.18.p10.h12",
           "type": "person",
           "at": 254,
           "length": 2,
@@ -817,7 +826,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h12",
+          "id": "wei.18.p10.h13",
           "type": "person",
           "at": 270,
           "length": 2,
@@ -826,7 +835,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h13",
+          "id": "wei.18.p10.h14",
           "type": "person",
           "at": 274,
           "length": 1,
@@ -835,7 +844,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.18.p10.h14",
+          "id": "wei.18.p10.h15",
           "type": "person",
           "at": 312,
           "length": 1,
@@ -844,7 +853,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.18.p10.h15",
+          "id": "wei.18.p10.h16",
           "type": "person",
           "at": 388,
           "length": 2,
@@ -853,7 +862,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h16",
+          "id": "wei.18.p10.h17",
           "type": "person",
           "at": 396,
           "length": 2,
@@ -862,7 +871,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.18.p10.h17",
+          "id": "wei.18.p10.h18",
           "type": "person",
           "at": 462,
           "length": 2,
@@ -871,7 +880,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.18.p10.h18",
+          "id": "wei.18.p10.h19",
           "type": "person",
           "at": 465,
           "length": 2,
@@ -880,7 +889,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.18.p10.h19",
+          "id": "wei.18.p10.h20",
           "type": "person",
           "at": 480,
           "length": 1,
@@ -889,7 +898,7 @@
           "via": "given_name"
         },
         {
-          "id": "wei.18.p10.h20",
+          "id": "wei.18.p10.h21",
           "type": "person",
           "at": 484,
           "length": 2,
@@ -898,7 +907,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.18.p10.h21",
+          "id": "wei.18.p10.h22",
           "type": "person",
           "at": 491,
           "length": 3,
@@ -2334,11 +2343,11 @@
         {
           "id": "wei.18.p31.h1",
           "type": "person",
-          "at": 103,
-          "length": 2,
-          "text": "武帝",
-          "person_id": "caocao",
-          "via": "chapter_alias"
+          "at": 102,
+          "length": 3,
+          "text": "晉武帝",
+          "person_id": "simayan",
+          "via": "alias"
         },
         {
           "id": "wei.18.p31.h2",

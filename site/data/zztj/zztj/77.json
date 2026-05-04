@@ -956,16 +956,6 @@
           "reasoning": "年承前文 甘露3年 (AD 258)，月份「十月」"
         },
         {
-          "id": "zztj.77.p43.h2",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunxiu",
-          "via": "llm",
-          "reasoning": "永安元年(258)後吳陛下指孫休"
-        },
-        {
           "id": "zztj.77.p43.h1",
           "type": "person",
           "at": 56,
@@ -1018,16 +1008,6 @@
           "text": "孫綝",
           "person_id": "sunchen",
           "via": "primary"
-        },
-        {
-          "id": "zztj.77.p48.h2",
-          "type": "person",
-          "at": 47,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunxiu",
-          "via": "llm",
-          "reasoning": "永安元年(258)後吳陛下指孫休"
         }
       ]
     },
@@ -1406,26 +1386,6 @@
           "text": "司馬昭",
           "person_id": "simazhao",
           "via": "primary"
-        },
-        {
-          "id": "zztj.77.p62.h2",
-          "type": "person",
-          "at": 139,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "甘露年間魏高貴鄉公曹髦在位"
-        },
-        {
-          "id": "zztj.77.p62.h3",
-          "type": "person",
-          "at": 402,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caomao",
-          "via": "llm",
-          "reasoning": "甘露年間魏高貴鄉公曹髦在位"
         }
       ]
     },
@@ -1440,6 +1400,15 @@
       "annotations": [
         {
           "id": "zztj.77.p64.h1",
+          "type": "person",
+          "at": 126,
+          "length": 3,
+          "text": "司馬炎",
+          "person_id": "simayan",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.77.p64.h2",
           "type": "person",
           "at": 130,
           "length": 3,

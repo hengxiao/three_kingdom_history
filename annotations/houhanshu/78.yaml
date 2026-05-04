@@ -21,16 +21,6 @@ annotations:
   person_id: hehan
   text: 和帝
   via: alias
-- anchor: hhs.78.p7
-  at: 2
-  length: 2
-  type: person
-  person_id: zhangdedouhh
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 「竇太后秉政」即章德竇皇后於和帝初臨朝，未列 roster。
-  id: hhs.78.p7.h1
 - id: hhs.78.p8.t1
   anchor: hhs.78.p8
   at: 23
@@ -43,16 +33,14 @@ annotations:
   era: 永初
   era_year: 1
   reasoning: 原文「永初元年」直接出现年号；解析為 AD 107
-- anchor: hhs.78.p8
-  at: 30
-  length: 2
+- id: hhs.78.p8.h1
+  anchor: hhs.78.p8
+  at: 28
+  length: 4
   type: person
   person_id: dengsui
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「和熹皇后益封」即和熹鄧太后鄧綏，永初元年安帝時尚為皇后稱號加封，未列 roster。
-  id: hhs.78.p8.h1
+  text: 和熹皇后
+  via: alias
 - id: hhs.78.p9.t1
   anchor: hhs.78.p9
   at: 0
@@ -117,16 +105,6 @@ annotations:
   era: 元初
   era_year: 1
   reasoning: 原文「元初元年」直接出现年号；解析為 AD 114（回溯前事，不推進章節時間軸）
-- anchor: hhs.78.p13
-  at: 6
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 元初元年「鄧太后」即和熹鄧太后鄧綏，未列 roster。
-  id: hhs.78.p13.h2
 - id: hhs.78.p13.t2
   anchor: hhs.78.p13
   at: 32
@@ -135,10 +113,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 161
-  era: 延熹
+  year_ad: 117
+  era: 元初
   era_year: 4
-  reasoning: 承前文年號「延熹」推得，「四年」 = 延熹4年 = AD 161
+  reasoning: 承前文年號「元初」推得，「四年」 = 元初4年 = AD 117
 - id: hhs.78.p13.h1
   anchor: hhs.78.p13
   at: 52
@@ -155,16 +133,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.78.p14
-  at: 19
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「太后崩，安帝親政」即和熹鄧太后崩，未列 roster。
-  id: hhs.78.p14.h3
 - id: hhs.78.p14.h2
   anchor: hhs.78.p14
   at: 23
@@ -181,36 +149,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.78.p16
-  at: 2
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「鄧太后臨朝」即和熹鄧太后鄧綏，未列 roster。
-  id: hhs.78.p16.h2
-- anchor: hhs.78.p16
-  at: 165
-  length: 2
-  type: person
-  person_id: yanji
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「皇后兄大鴻臚閻顯」即安思閻皇后閻姬之兄閻顯，未列 roster。
-  id: hhs.78.p16.h3
-- anchor: hhs.78.p16
-  at: 188
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「廢皇太子為濟陰王」即廢劉保（後為順帝），對應 shunhan。
-  id: hhs.78.p16.h1
 - id: hhs.78.p17.t1
   anchor: hhs.78.p17
   at: 0
@@ -219,10 +157,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 162
+  year_ad: 160
   era: 延熹
-  era_year: 5
-  reasoning: 「明年」 = 当前年 延熹4年 (AD 161) 之次年 = AD 162
+  era_year: 3
+  reasoning: 「明年」 = 当前年 延熹2年 (AD 159) 之次年 = AD 160
 - id: hhs.78.p18.t1
   anchor: hhs.78.p18
   at: 0
@@ -231,42 +169,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 162
+  year_ad: 160
   era: 延熹
-  era_year: 5
+  era_year: 3
   month_chinese: 十月
   month_ordinal: 10
-  reasoning: 年承前文 延熹5年 (AD 162)，月份「十月」
-- anchor: hhs.78.p18
-  at: 79
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「先為太子府史」即先在太子（劉保）府，對應 shunhan。
-  id: hhs.78.p18.h1
-- anchor: hhs.78.p18
-  at: 85
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「自太子之廢」即劉保被廢，對應 shunhan。
-  id: hhs.78.p18.h2
-- anchor: hhs.78.p18
-  at: 126
-  length: 2
-  type: person
-  person_id: yanji
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「閻顯白太后」即閻太后閻姬，未列 roster。
-  id: hhs.78.p18.h3
+  reasoning: 年承前文 延熹3年 (AD 160)，月份「十月」
 - id: hhs.78.p18.t2
   anchor: hhs.78.p18
   at: 142
@@ -275,12 +183,12 @@ annotations:
   text: 十一月
   kind: relative
   resolution: bare_month
-  year_ad: 162
+  year_ad: 160
   era: 延熹
-  era_year: 5
+  era_year: 3
   month_chinese: 十一月
   month_ordinal: 11
-  reasoning: 年承前文 延熹5年 (AD 162)，月份「十一月」
+  reasoning: 年承前文 延熹3年 (AD 160)，月份「十一月」
 - id: hhs.78.p22.t1
   anchor: hhs.78.p22
   at: 0
@@ -341,16 +249,6 @@ annotations:
   era: 永和
   era_year: 2
   reasoning: 原文「永和二年」直接出现年号；解析為 AD 137（回溯前事，不推進章節時間軸）
-- anchor: hhs.78.p26
-  at: 7
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「監太子家小黃門」即監順帝（劉保）為太子時家屬，對應 shunhan。
-  id: hhs.78.p26.h1
 - id: hhs.78.p28.h1
   anchor: hhs.78.p28
   at: 12
@@ -359,26 +257,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.78.p28
-  at: 29
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「鄧太后以騰年少謹厚」即和熹鄧太后鄧綏，未列 roster。
-  id: hhs.78.p28.h4
-- anchor: hhs.78.p28
-  at: 41
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「使侍皇太子書」即侍順帝為太子時讀書，對應 shunhan。
-  id: hhs.78.p28.h3
 - id: hhs.78.p28.h2
   anchor: hhs.78.p28
   at: 66
@@ -411,16 +289,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.78.p33
-  at: 51
-  length: 2
-  type: person
-  person_id: liangnvying
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「皇后乘勢忌恣」承上指桓帝梁皇后梁女瑩（時桓帝在位），未列 roster。
-  id: hhs.78.p33.h3
 - id: hhs.78.p33.t1
   anchor: hhs.78.p33
   at: 92
@@ -433,26 +301,6 @@ annotations:
   era: 延熹
   era_year: 2
   reasoning: 原文「延熹二年」直接出现年号；解析為 AD 159（回溯前事，不推進章節時間軸）
-- anchor: hhs.78.p33
-  at: 97
-  length: 2
-  type: person
-  person_id: liangnvying
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「延熹二年皇后崩」即懿獻梁皇后梁女瑩崩，未列 roster。
-  id: hhs.78.p33.h4
-- anchor: hhs.78.p33
-  at: 297
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 單超對桓帝言「但恐陛下復中狐疑」即奏桓帝，對應 huanhan。
-  id: hhs.78.p33.h2
 - id: hhs.78.p34.t1
   anchor: hhs.78.p34
   at: 14
@@ -541,16 +389,6 @@ annotations:
   person_id: linghan
   text: 靈帝
   via: alias
-- anchor: hhs.78.p45
-  at: 3
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「竇太后臨朝」即桓思竇皇后竇妙臨朝，未列 roster。
-  id: hhs.78.p45.h2
 - id: hhs.78.p45.h1
   anchor: hhs.78.p45
   at: 17
@@ -583,26 +421,6 @@ annotations:
   era: 熹平
   era_year: 1
   reasoning: 原文「熹平元年」直接出现年号；解析為 AD 172（回溯前事，不推進章節時間軸）
-- anchor: hhs.78.p47
-  at: 6
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「熹平元年，竇太后崩」即桓思竇妙崩，未列 roster。
-  id: hhs.78.p47.h1
-- anchor: hhs.78.p47
-  at: 32
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「幽殺太后」即指竇太后竇妙被幽殺，未列 roster。
-  id: hhs.78.p47.h2
 - id: hhs.78.p48.h1
   anchor: hhs.78.p48
   at: 8
@@ -623,26 +441,6 @@ annotations:
   era: 光和
   era_year: 2
   reasoning: 原文「光和二年」直接出现年号；解析為 AD 179
-- anchor: hhs.78.p51
-  at: 34
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕奏靈帝「陛下即位之初」即靈帝建寧初，對應 linghan。
-  id: hhs.78.p51.h2
-- anchor: hhs.78.p51
-  at: 47
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 蔡邕奏「皇太后念在撫育，權時攝政」即竇太后竇妙臨朝，未列 roster。
-  id: hhs.78.p51.h7
 - id: hhs.78.p51.h1
   anchor: hhs.78.p51
   at: 75
@@ -651,56 +449,6 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: hhs.78.p51
-  at: 131
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「迫脅陛下」即奏靈帝，對應 linghan。
-  id: hhs.78.p51.h3
-- anchor: hhs.78.p51
-  at: 354
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「神祇啟悟陛下」即奏靈帝，對應 linghan。
-  id: hhs.78.p51.h4
-- anchor: hhs.78.p51
-  at: 391
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「誠怪陛下複忍孽臣」即奏靈帝，對應 linghan。
-  id: hhs.78.p51.h5
-- anchor: hhs.78.p51
-  at: 497
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 「誠皇后所不復赦」承前指桓思竇皇后竇妙在天之靈，未列 roster。
-  id: hhs.78.p51.h8
-- anchor: hhs.78.p51
-  at: 505
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「願陛下留漏刻之聽」即奏靈帝，對應 linghan。
-  id: hhs.78.p51.h6
 - id: hhs.78.p52.t1
   anchor: hhs.78.p52
   at: 12
@@ -721,46 +469,6 @@ annotations:
   person_id: linghan
   text: 靈帝
   via: alias
-- anchor: hhs.78.p54
-  at: 118
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕續奏「陛下不悟」即奏靈帝，對應 linghan。
-  id: hhs.78.p54.h1
-- anchor: hhs.78.p54
-  at: 181
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下或其瑣才」即奏靈帝，對應 linghan。
-  id: hhs.78.p54.h2
-- anchor: hhs.78.p54
-  at: 260
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「實願陛下損改既謬」即奏靈帝，對應 linghan。
-  id: hhs.78.p54.h3
-- anchor: hhs.78.p56
-  at: 17
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 「陛下龍飛即位，雖從藩國」即靈帝由解瀆亭侯入繼，對應 linghan。
-  id: hhs.78.p56.h1
 - id: hhs.78.p57.h1
   anchor: hhs.78.p57
   at: 6
@@ -769,26 +477,6 @@ annotations:
   person_id: caiyong
   text: 蔡邕
   via: primary
-- anchor: hhs.78.p57
-  at: 56
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕論段熲「陛下不密其言」即奏靈帝，對應 linghan。
-  id: hhs.78.p57.h3
-- anchor: hhs.78.p57
-  at: 88
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下回受誹謗」即奏靈帝，對應 linghan。
-  id: hhs.78.p57.h4
 - id: hhs.78.p57.h2
   anchor: hhs.78.p57
   at: 155
@@ -797,46 +485,6 @@ annotations:
   person_id: duanjiong
   text: 段熲
   via: primary
-- anchor: hhs.78.p57
-  at: 188
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「陛下既已式序」即奏靈帝，對應 linghan。
-  id: hhs.78.p57.h5
-- anchor: hhs.78.p60
-  at: 14
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕奏「歸之陛下」即奏靈帝，對應 linghan。
-  id: hhs.78.p60.h1
-- anchor: hhs.78.p60
-  at: 19
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「歸之陛下」即奏靈帝，對應 linghan。
-  id: hhs.78.p60.h2
-- anchor: hhs.78.p62
-  at: 46
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同段「願陛下詳思臣言」即奏靈帝，對應 linghan。
-  id: hhs.78.p62.h1
 - id: hhs.78.p63.t1
   anchor: hhs.78.p63
   at: 0
@@ -929,13 +577,3 @@ annotations:
   era: 中平
   era_year: 6
   reasoning: 承前文年號「中平」推得，「六年」 = 中平6年 = AD 189
-- anchor: hhs.78.p73
-  at: 97
-  length: 2
-  type: person
-  person_id: liubian
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 靈帝崩後張讓等劫天子辭曰「惟陛下自愛」即少帝劉辯，對應 liubian。
-  id: hhs.78.p73.h1

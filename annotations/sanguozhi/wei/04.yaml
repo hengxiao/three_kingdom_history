@@ -45,16 +45,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 原文「景初三年正月」直接出现年号；解析為 AD 239
-- anchor: wei.4.p1
-  at: 63
-  length: 2
-  type: person
-  person_id: caofang
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 景初三年明帝病篤立齊王芳為皇太子，太子即指曹芳本人。
-  id: wei.4.p1.h3
 - id: wei.4.p1.h2
   anchor: wei.4.p1
   at: 88
@@ -489,6 +479,14 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 正始4年 (AD 243)，月份「夏四月」
+- id: wei.4.p9.h1
+  anchor: wei.4.p9
+  at: 27
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 甄氏
+  via: alias
 - id: wei.4.p9.t3
   anchor: wei.4.p9
   at: 33
@@ -517,7 +515,7 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 正始4年 (AD 243)，月份「秋七月」
-- id: wei.4.p9.h1
+- id: wei.4.p9.h2
   anchor: wei.4.p9
   at: 54
   length: 2
@@ -525,7 +523,7 @@ annotations:
   person_id: caozhen
   text: 曹真
   via: primary
-- id: wei.4.p9.h2
+- id: wei.4.p9.h3
   anchor: wei.4.p9
   at: 57
   length: 2
@@ -533,7 +531,7 @@ annotations:
   person_id: caoxiu
   text: 曹休
   via: primary
-- id: wei.4.p9.h3
+- id: wei.4.p9.h4
   anchor: wei.4.p9
   at: 65
   length: 3
@@ -541,7 +539,7 @@ annotations:
   person_id: xiahoushang
   text: 夏侯尚
   via: primary
-- id: wei.4.p9.h4
+- id: wei.4.p9.h5
   anchor: wei.4.p9
   at: 71
   length: 2
@@ -549,7 +547,7 @@ annotations:
   person_id: huanjie
   text: 桓階
   via: primary
-- id: wei.4.p9.h5
+- id: wei.4.p9.h6
   anchor: wei.4.p9
   at: 76
   length: 2
@@ -557,7 +555,7 @@ annotations:
   person_id: chenqun
   text: 陳羣
   via: alias
-- id: wei.4.p9.h6
+- id: wei.4.p9.h7
   anchor: wei.4.p9
   at: 81
   length: 2
@@ -565,7 +563,7 @@ annotations:
   person_id: zhongyao
   text: 鍾繇
   via: primary
-- id: wei.4.p9.h7
+- id: wei.4.p9.h8
   anchor: wei.4.p9
   at: 88
   length: 2
@@ -573,7 +571,7 @@ annotations:
   person_id: zhanghe
   text: 張郃
   via: primary
-- id: wei.4.p9.h8
+- id: wei.4.p9.h9
   anchor: wei.4.p9
   at: 94
   length: 2
@@ -581,7 +579,7 @@ annotations:
   person_id: xuhuang
   text: 徐晃
   via: primary
-- id: wei.4.p9.h9
+- id: wei.4.p9.h10
   anchor: wei.4.p9
   at: 100
   length: 2
@@ -589,7 +587,7 @@ annotations:
   person_id: zhangliao
   text: 張遼
   via: primary
-- id: wei.4.p9.h10
+- id: wei.4.p9.h11
   anchor: wei.4.p9
   at: 106
   length: 2
@@ -597,7 +595,7 @@ annotations:
   person_id: yuejin
   text: 樂進
   via: primary
-- id: wei.4.p9.h11
+- id: wei.4.p9.h12
   anchor: wei.4.p9
   at: 111
   length: 2
@@ -605,7 +603,7 @@ annotations:
   person_id: huaxin
   text: 華歆
   via: primary
-- id: wei.4.p9.h12
+- id: wei.4.p9.h13
   anchor: wei.4.p9
   at: 116
   length: 2
@@ -613,7 +611,7 @@ annotations:
   person_id: wanglang
   text: 王朗
   via: primary
-- id: wei.4.p9.h13
+- id: wei.4.p9.h14
   anchor: wei.4.p9
   at: 123
   length: 2
@@ -621,7 +619,7 @@ annotations:
   person_id: caohong
   text: 曹洪
   via: primary
-- id: wei.4.p9.h14
+- id: wei.4.p9.h15
   anchor: wei.4.p9
   at: 130
   length: 3
@@ -629,7 +627,7 @@ annotations:
   person_id: xiahouyuan
   text: 夏侯淵
   via: primary
-- id: wei.4.p9.h15
+- id: wei.4.p9.h16
   anchor: wei.4.p9
   at: 140
   length: 2
@@ -637,7 +635,7 @@ annotations:
   person_id: wenpin
   text: 文聘
   via: primary
-- id: wei.4.p9.h16
+- id: wei.4.p9.h17
   anchor: wei.4.p9
   at: 146
   length: 2
@@ -645,7 +643,7 @@ annotations:
   person_id: zangba
   text: 臧霸
   via: primary
-- id: wei.4.p9.h17
+- id: wei.4.p9.h18
   anchor: wei.4.p9
   at: 153
   length: 2
@@ -653,7 +651,7 @@ annotations:
   person_id: lidian
   text: 李典
   via: primary
-- id: wei.4.p9.h18
+- id: wei.4.p9.h19
   anchor: wei.4.p9
   at: 160
   length: 2
@@ -661,7 +659,7 @@ annotations:
   person_id: pangde
   text: 龐德
   via: primary
-- id: wei.4.p9.h19
+- id: wei.4.p9.h20
   anchor: wei.4.p9
   at: 167
   length: 2
@@ -669,7 +667,7 @@ annotations:
   person_id: dianwei
   text: 典韋
   via: primary
-- id: wei.4.p9.h20
+- id: wei.4.p9.h21
   anchor: wei.4.p9
   at: 170
   length: 2
@@ -1077,16 +1075,6 @@ annotations:
   month_chinese: 冬十二月
   month_ordinal: 12
   reasoning: 年承前文 正始8年 (AD 247)，月份「冬十二月」
-- anchor: wei.4.p15
-  at: 335
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 孔晏乂諫疏對齊王曹芳所稱「陛下」。
-  id: wei.4.p15.h1
 - id: wei.4.p16.t1
   anchor: wei.4.p16
   at: 0
@@ -1461,6 +1449,14 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 嘉平3年 (AD 251)，月份「秋七月」
+- id: wei.4.p20.h4
+  anchor: wei.4.p20
+  at: 136
+  length: 2
+  type: person
+  person_id: zhenhuanghou
+  text: 甄氏
+  via: alias
 - id: wei.4.p20.t8
   anchor: wei.4.p20
   at: 207
@@ -1475,7 +1471,7 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 嘉平3年 (AD 251)，月份「十一月」
-- id: wei.4.p20.h4
+- id: wei.4.p20.h5
   anchor: wei.4.p20
   at: 221
   length: 2
@@ -1525,16 +1521,6 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 嘉平4年 (AD 252)，月份「二月」
-- anchor: wei.4.p21
-  at: 27
-  length: 2
-  type: person
-  person_id: houzhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「立皇后張氏」— 嘉平四年齊王曹芳立張皇后；roster 無，置 null。
-  id: wei.4.p21.h4
 - id: wei.4.p21.t3
   anchor: wei.4.p21
   at: 35
@@ -1753,16 +1739,6 @@ annotations:
   person_id: zhugeke
   text: 諸葛恪
   via: primary
-- anchor: wei.4.p26
-  at: 9
-  length: 2
-  type: person
-  person_id: houzhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「皇后父光祿大夫張緝」— 即廢張皇后之父；roster 無張皇后，置 null。
-  id: wei.4.p26.h3
 - id: wei.4.p26.h1
   anchor: wei.4.p26
   at: 28
@@ -1785,16 +1761,6 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 嘉平6年 (AD 254)，月份「三月」
-- anchor: wei.4.p26
-  at: 58
-  length: 2
-  type: person
-  person_id: houzhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「廢皇后張氏」— 即廢張皇后；roster 無，置 null。
-  id: wei.4.p26.h4
 - id: wei.4.p26.t2
   anchor: wei.4.p26
   at: 63
@@ -1921,12 +1887,12 @@ annotations:
   text: 十月
   kind: relative
   resolution: bare_month
-  year_ad: 254
-  era: 嘉平
-  era_year: 6
+  year_ad: 244
+  era: 正始
+  era_year: 5
   month_chinese: 十月
   month_ordinal: 10
-  reasoning: 年承前文 嘉平6年 (AD 254)，月份「十月」
+  reasoning: 年承前文 正始5年 (AD 244)，月份「十月」
 - id: wei.4.p28.a1
   anchor: wei.4.p28
   at: 218
@@ -2035,16 +2001,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 正元2年 (AD 255)，月份「三月」
-- anchor: wei.4.p31
-  at: 43
+- id: wei.4.p31.h3
+  anchor: wei.4.p31
+  at: 45
   length: 2
   type: person
   person_id: bianhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「立皇后卞氏」— 正元二年高貴鄉公立卞皇后；roster 無。
-  id: wei.4.p31.h5
+  text: 卞氏
+  via: alias
 - id: wei.4.p31.t2
   anchor: wei.4.p31
   at: 51
@@ -2059,7 +2023,7 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 正元2年 (AD 255)，月份「夏四月」
-- id: wei.4.p31.h3
+- id: wei.4.p31.h4
   anchor: wei.4.p31
   at: 75
   length: 2
@@ -2081,7 +2045,7 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 正元2年 (AD 255)，月份「秋七月」
-- id: wei.4.p31.h4
+- id: wei.4.p31.h5
   anchor: wei.4.p31
   at: 105
   length: 3
@@ -2399,13 +2363,21 @@ annotations:
   via: primary
 - id: wei.4.p46.h3
   anchor: wei.4.p46
+  at: 75
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: wei.4.p46.h4
+  anchor: wei.4.p46
   at: 81
   length: 2
   type: person
   person_id: caorui
   text: 烈祖
   via: chapter_alias
-- id: wei.4.p46.h4
+- id: wei.4.p46.h5
   anchor: wei.4.p46
   at: 83
   length: 3
@@ -2413,7 +2385,7 @@ annotations:
   person_id: caorui
   text: 明皇帝
   via: chapter_alias
-- id: wei.4.p46.h5
+- id: wei.4.p46.h6
   anchor: wei.4.p46
   at: 136
   length: 3
@@ -2763,6 +2735,14 @@ annotations:
   text: 《漢晉春秋》曰：丁卯，葬高貴鄉公于洛陽西北三十里瀍澗之濵。下車數乘，不設旌旐，百姓相聚而觀之，曰：「是前日所殺天子也。」或掩靣而泣，悲不自勝。臣松之以為若但下車數乘，不設旌旐，何以為王禮葬乎？斯蓋惡之過言，所謂不如是之甚者。
 - id: wei.4.p60.h1
   anchor: wei.4.p60
+  at: 12
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
+- id: wei.4.p60.h2
+  anchor: wei.4.p60
   at: 23
   length: 2
   type: person
@@ -2831,12 +2811,12 @@ annotations:
   text: 六月
   kind: relative
   resolution: bare_month
-  year_ad: 260
+  year_ad: 258
   era: 甘露
-  era_year: 5
+  era_year: 3
   month_chinese: 六月
   month_ordinal: 6
-  reasoning: 年承前文 甘露5年 (AD 260)，月份「六月」
+  reasoning: 年承前文 甘露3年 (AD 258)，月份「六月」
 - id: wei.4.p65.t1
   anchor: wei.4.p65
   at: 0
@@ -2860,6 +2840,14 @@ annotations:
   text: 漢獻帝
   via: primary
 - id: wei.4.p65.h2
+  anchor: wei.4.p65
+  at: 109
+  length: 3
+  type: person
+  person_id: muhuanghou_shu
+  text: 穆皇后
+  via: primary
+- id: wei.4.p65.h3
   anchor: wei.4.p65
   at: 136
   length: 2
@@ -2895,16 +2883,6 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 景元元年 (AD 260)，月份「十一月」
-- anchor: wei.4.p66
-  at: 114
-  length: 2
-  type: person
-  person_id: caohuan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 有司奏議對魏元帝曹奐稱「陛下」（追尊燕王宇本生事）。
-  id: wei.4.p66.h1
 - id: wei.4.p67.t1
   anchor: wei.4.p67
   at: 0
@@ -3135,16 +3113,14 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 景元4年 (AD 263)，月份「冬十月」
-- anchor: wei.4.p72
-  at: 34
+- id: wei.4.p72.h2
+  anchor: wei.4.p72
+  at: 36
   length: 2
   type: person
   person_id: bianhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「立皇后卞氏」— 景元三年陳留王曹奐立卞皇后；roster 無。
-  id: wei.4.p72.h2
+  text: 卞氏
+  via: alias
 - id: wei.4.p72.t3
   anchor: wei.4.p72
   at: 39
@@ -3355,6 +3331,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「八月」
+- id: wei.4.p75.h1
+  anchor: wei.4.p75
+  at: 43
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
 - id: wei.4.p76.h1
   anchor: wei.4.p76
   at: 10
@@ -3377,6 +3361,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「九月」
+- id: wei.4.p77.h1
+  anchor: wei.4.p77
+  at: 25
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
 - id: wei.4.p78.h1
   anchor: wei.4.p78
   at: 19

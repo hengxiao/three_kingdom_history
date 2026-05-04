@@ -229,16 +229,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.13.p4
-  at: 181
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 鍾繇太和中上疏「陛下遠追二祖遺意」，太和為明帝年號，陛下即曹叡。
-  id: wei.13.p4.h4
 - id: wei.13.p4.h3
   anchor: wei.13.p4
   at: 517
@@ -591,36 +581,6 @@ annotations:
   person_id: caozhen
   text: 曹真
   via: primary
-- anchor: wei.13.p12
-  at: 44
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 華歆太和中上疏，陛下即明帝曹叡。
-  id: wei.13.p12.h2
-- anchor: wei.13.p12
-  at: 112
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「臣誠願陛下先留心於治道」續指曹叡。
-  id: wei.13.p12.h3
-- anchor: wei.13.p12
-  at: 250
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「唯陛下裁察」續指曹叡。
-  id: wei.13.p12.h4
 - id: wei.13.p13.t1
   anchor: wei.13.p13
   at: 0
@@ -893,36 +853,6 @@ annotations:
   person_id: caorui
   text: 明帝
   via: chapter_alias
-- anchor: wei.13.p20
-  at: 29
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「文昭皇后陵」即明帝生母甄皇后（追諡文昭），roster未列甄皇后。
-  id: wei.13.p20.h5
-- anchor: wei.13.p20
-  at: 55
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 明帝即位後王朗上疏「陛下即位已來」即曹叡。
-  id: wei.13.p20.h3
-- anchor: wei.13.p20
-  at: 105
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「願陛下重留日昃之聽」續指曹叡。
-  id: wei.13.p20.h4
 - id: wei.13.p20.a1
   anchor: wei.13.p20
   at: 166
@@ -937,16 +867,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: wei.13.p21
-  at: 103
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 明帝失皇子，朗上疏勸廣後宮，「陛下既德祚兼彼二聖」陛下即曹叡。
-  id: wei.13.p21.h2
 - id: wei.13.p21.a1
   anchor: wei.13.p21
   at: 431
@@ -999,10 +919,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 263
-  era: 景元
+  year_ad: 230
+  era: 太和
   era_year: 4
-  reasoning: 承前文年號「景元」推得，「四年」 = 景元4年 = AD 263
+  reasoning: 承前文年號「太和」推得，「四年」 = 太和4年 = AD 230
 - id: wei.13.p22.h1
   anchor: wei.13.p22
   at: 51
@@ -1073,36 +993,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: wei.13.p24
-  at: 232
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 王肅景初中疏諫宮室之興，陛下即明帝曹叡。
-  id: wei.13.p24.h3
-- anchor: wei.13.p24
-  at: 554
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「凡陛下臨時之所行刑」續指曹叡。
-  id: wei.13.p24.h4
-- anchor: wei.13.p24
-  at: 588
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「故願陛下下之於吏」續指曹叡。
-  id: wei.13.p24.h5
 - id: wei.13.p24.h2
   anchor: wei.13.p24
   at: 682
@@ -1191,10 +1081,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 263
-  era: 景元
-  era_year: 4
-  reasoning: 「是歲」 = 当前年 景元4年 (AD 263)
+  year_ad: 254
+  era: 嘉平
+  era_year: 6
+  reasoning: 「是歲」 = 当前年 嘉平6年 (AD 254)
 - id: wei.13.p27.t3
   anchor: wei.13.p27
   at: 89
@@ -1203,10 +1093,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 264
-  era: 景元
-  era_year: 5
-  reasoning: 「明年」 = 当前年 景元4年 (AD 263) 之次年 = AD 264
+  year_ad: 255
+  reasoning: 「明年」 = 当前年 嘉平6年 (AD 254) 之次年 = AD 255（跨年號邊界，新年號未明）
 - id: wei.13.p27.h1
   anchor: wei.13.p27
   at: 97
@@ -1278,7 +1166,7 @@ annotations:
   year_ad: 263
   era: 景元
   era_year: 4
-  reasoning: 原文「景元四年」直接出现年号；解析為 AD 263（回溯前事，不推進章節時間軸）
+  reasoning: 原文「景元四年」直接出现年号；解析為 AD 263
 - id: wei.13.p27.a1
   anchor: wei.13.p27
   at: 345

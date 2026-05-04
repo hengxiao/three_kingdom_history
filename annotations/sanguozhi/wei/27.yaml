@@ -331,16 +331,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.27.p11
-  at: 40
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「文帝在東宮，昶爲太子文學」— 文帝在東宮即曹丕為魏太子，王昶任太子文學，太子即指曹丕。
-  id: wei.27.p11.h5
 - id: wei.27.p11.h3
   anchor: wei.27.p11
   at: 50
@@ -521,16 +511,6 @@ annotations:
   person_id: caorui
   text: 明帝
   via: chapter_alias
-- anchor: wei.27.p21
-  at: 123
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 王昶上疏勸諫的對象，依本傳脈絡為齊王曹芳（正始年間）。
-  id: wei.27.p21.h2
 - id: wei.27.p22.h1
   anchor: wei.27.p22
   at: 50

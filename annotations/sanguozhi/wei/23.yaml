@@ -297,16 +297,6 @@ annotations:
   person_id: liubiao
   text: 表
   via: given_name_carry
-- anchor: wei.23.p9
-  at: 195
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.93
-  reasoning: 初平年間王匡討董卓事中常林語「今主上幼沖，賊臣虎據」，主上即受董卓挾持之少年漢獻帝劉協。
-  id: wei.23.p9.h6
 - id: wei.23.p9.h5
   anchor: wei.23.p9
   at: 360
@@ -453,26 +443,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.23.p13
-  at: 87
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 太祖征漢中、魏諷反鄴（建安二十四年），楊俊「牋辭太子」太子即留守鄴之曹丕。
-  id: wei.23.p13.h5
-- anchor: wei.23.p13
-  at: 90
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太子不悅」續指曹丕。
-  id: wei.23.p13.h6
 - id: wei.23.p13.h3
   anchor: wei.23.p13
   at: 121
@@ -775,16 +745,6 @@ annotations:
   person_id: xiahoushang
   text: 夏侯尚
   via: primary
-- anchor: wei.23.p18
-  at: 295
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「夏侯尚暱於太子，情好至密」太祖時夏侯尚親密之太子即曹丕。
-  id: wei.23.p18.h11
 - id: wei.23.p18.h9
   anchor: wei.23.p18
   at: 317

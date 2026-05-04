@@ -202,18 +202,7 @@
     {
       "id": "hhs.58.p11",
       "text": "後羌寇武都，鄧太后以詡有將帥之略，遷武都太守，引見嘉德殿，厚加賞賜。",
-      "annotations": [
-        {
-          "id": "hhs.58.p11.h1",
-          "type": "person",
-          "at": 7,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dengsui",
-          "via": "llm",
-          "reasoning": "「鄧太后以詡有將帥之略」即和熹鄧太后（鄧綏）任虞詡為武都太守，未列 roster。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.58.p12",
@@ -362,16 +351,6 @@
           "text": "歐刀，刑人之刀也。"
         },
         {
-          "id": "hhs.58.p17.h2",
-          "type": "person",
-          "at": 187,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "孫程等諫順帝救虞詡，「陛下始與臣等造事之時」即孫程立順帝事，對應 shunhan。"
-        },
-        {
           "id": "hhs.58.p17.a3",
           "type": "lixian",
           "at": 198,
@@ -388,16 +367,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.58.p17.h3",
-          "type": "person",
-          "at": 231,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段孫程奏順帝救虞詡，對應 shunhan。"
-        },
-        {
           "id": "hhs.58.p17.a4",
           "type": "lixian",
           "at": 271,
@@ -410,16 +379,6 @@
           "at": 329,
           "length": 0,
           "text": "埤蒼云：「箱，序也。」字或作「廂」。"
-        },
-        {
-          "id": "hhs.58.p17.h4",
-          "type": "person",
-          "at": 333,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段孫程「陛下急收防」即奏順帝，對應 shunhan。"
         }
       ]
     },
@@ -459,26 +418,6 @@
           "at": 16,
           "length": 0,
           "text": "寧陽，縣，屬東平國，故城在今兗州龔丘縣南也。"
-        },
-        {
-          "id": "hhs.58.p20.h1",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "寧陽主簿上書順帝訴冤，「陛下」即順帝，對應 shunhan。"
-        },
-        {
-          "id": "hhs.58.p20.h2",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "同段「陛下為臣父」延續即順帝，對應 shunhan。"
         }
       ]
     },
@@ -568,16 +507,6 @@
           "text": "皇甫嵩傳曰：「連結郡國，自青、徐、幽、冀、荊、楊、兗、豫八州之人，莫不畢應。」此云「六州」，蓋初起時也。"
         },
         {
-          "id": "hhs.58.p26.h2",
-          "type": "person",
-          "at": 151,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蓋勳奏靈帝論黃巾，「陛下仁德寬容」末段「靈帝猶識燮言」明點靈帝，對應 linghan。"
-        },
-        {
           "id": "hhs.58.p26.a3",
           "type": "lixian",
           "at": 196,
@@ -613,31 +542,11 @@
           "text": "白起與應侯有隙，構之秦昭王，免起為士伍，遷之陰密。行出咸陽西門十里，至杜郵，使賜劍自裁。見史記。案杜郵，今咸陽城是其地。酈元注水經雲渭水北有杜郵亭也。"
         },
         {
-          "id": "hhs.58.p26.h3",
-          "type": "person",
-          "at": 278,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下宜思虞舜四罪之舉」即奏靈帝，對應 linghan。"
-        },
-        {
           "id": "hhs.58.p26.a8",
           "type": "lixian",
           "at": 298,
           "length": 0,
           "text": "殛音紀力反。殛亦誅也。"
-        },
-        {
-          "id": "hhs.58.p26.h4",
-          "type": "person",
-          "at": 346,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下少用其言」即奏靈帝，對應 linghan。"
         },
         {
           "id": "hhs.58.p26.a9",
@@ -699,16 +608,6 @@
           "at": 20,
           "length": 0,
           "text": "前書，武帝分武威、酒泉，置張掖、敦煌，謂之四郡。劉歆等議曰：「孝武帝北攘匈奴，降昆邪十萬之觿，置五屬國，起朔方，以奪其肥饒之地。東伐朝鮮，起玄菟、樂浪，以斷匈奴之左臂。西伐大宛，并*[三十]*六國，結烏孫，起敦煌、酒泉、張掖，以*(高)**[鬲]*婼羌，裂匈奴之右臂。」婼音而遮反。"
-        },
-        {
-          "id": "hhs.58.p29.h1",
-          "type": "person",
-          "at": 39,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "「陛下臥不安寢」承蓋勳駁崔烈棄涼州議，靈帝時事，對應 linghan。"
         },
         {
           "id": "hhs.58.p29.a3",
@@ -1182,14 +1081,13 @@
           "via": "alias"
         },
         {
-          "id": "hhs.58.p50.h10",
+          "id": "hhs.58.p50.h3",
           "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太后",
+          "at": 11,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「董卓廢少帝，殺何太后」直點何氏，對應 hetaihou。"
+          "via": "alias"
         },
         {
           "id": "hhs.58.p50.a1",
@@ -1199,7 +1097,7 @@
           "text": "續漢書曰：「是時，漢陽叛人王國，觿十餘萬，攻陳倉，三輔震動。勳領郡兵五千人，自請滿萬人，因表用處士扶風*[士]*孫瑞為鷹鷂都尉，桂陽魏傑為破敵都尉，京兆杜楷為威虜都尉，弘農楊儒為鳥擊都尉，長陵第五鑈為清寇都尉。凡五都尉，皆素有名，悉領屬勳。每有密事，靈帝手詔問之。」"
         },
         {
-          "id": "hhs.58.p50.h3",
+          "id": "hhs.58.p50.h4",
           "type": "person",
           "at": 63,
           "length": 1,
@@ -1208,7 +1106,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.58.p50.h4",
+          "id": "hhs.58.p50.h5",
           "type": "person",
           "at": 81,
           "length": 3,
@@ -1217,7 +1115,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.58.p50.h5",
+          "id": "hhs.58.p50.h6",
           "type": "person",
           "at": 101,
           "length": 1,
@@ -1226,7 +1124,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.58.p50.h6",
+          "id": "hhs.58.p50.h7",
           "type": "person",
           "at": 135,
           "length": 1,
@@ -1235,7 +1133,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.58.p50.h7",
+          "id": "hhs.58.p50.h8",
           "type": "person",
           "at": 151,
           "length": 1,
@@ -1244,7 +1142,7 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.58.p50.h8",
+          "id": "hhs.58.p50.h9",
           "type": "person",
           "at": 155,
           "length": 2,
@@ -1253,7 +1151,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.58.p50.h9",
+          "id": "hhs.58.p50.h10",
           "type": "person",
           "at": 186,
           "length": 1,
@@ -1827,6 +1725,15 @@
           "at": 31,
           "length": 0,
           "text": "股肱猶手足也。言北邊有倉卒之急，股肱之臣將告歸自救耳。"
+        },
+        {
+          "id": "hhs.58.p66.h1",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },

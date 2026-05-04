@@ -1009,16 +1009,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.9.p13.h5",
-          "type": "person",
-          "at": 8,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "「女配太子登」— 文中明點「登」，即周瑜女嫁孫登。"
-        },
-        {
           "id": "wu.9.p13.h2",
           "type": "person",
           "at": 24,
@@ -1139,16 +1129,6 @@
           "text": "瑜",
           "person_id": "zhouyu",
           "via": "given_name"
-        },
-        {
-          "id": "wu.9.p14.h8",
-          "type": "person",
-          "at": 281,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "赤烏二年諸葛瑾、步騭聯名上疏為周胤鳴冤，對孫權「竊惟陛下欽明稽古」。"
         }
       ]
     },
@@ -1463,6 +1443,15 @@
         {
           "id": "wu.9.p18.h11",
           "type": "person",
+          "at": 155,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wu.9.p18.h12",
+          "type": "person",
           "at": 261,
           "length": 1,
           "text": "肅",
@@ -1470,7 +1459,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.9.p18.h12",
+          "id": "wu.9.p18.h13",
           "type": "person",
           "at": 266,
           "length": 1,
@@ -1479,7 +1468,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wu.9.p18.h13",
+          "id": "wu.9.p18.h14",
           "type": "person",
           "at": 269,
           "length": 1,

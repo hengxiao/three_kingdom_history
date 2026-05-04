@@ -2,7 +2,7 @@ chapter: zztj.61
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷061
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 0d55f82b87fa99f211f4e054643885e4ec2c4edd786f48fa6cbf90040dc2b787
 annotations:
 - id: zztj.61.p4.t1
@@ -45,16 +45,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 興平元年 (AD 194)，月份「二月」
-- anchor: zztj.61.p7
-  at: 56
-  length: 2
+- id: zztj.61.p7.h1
+  anchor: zztj.61.p7
+  at: 54
+  length: 4
   type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定
-  id: zztj.61.p7.h1
+  person_id: wangrong
+  text: 靈懷皇后
+  via: primary
 - id: zztj.61.p8.h1
   anchor: zztj.61.p8
   at: 0
@@ -1071,13 +1069,21 @@ annotations:
   via: primary
 - id: zztj.61.p34.h2
   anchor: zztj.61.p34
+  at: 7
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 吳氏
+  via: alias
+- id: zztj.61.p34.h3
+  anchor: zztj.61.p34
   at: 24
   length: 1
   type: person
   person_id: sunjian
   text: 堅
   via: given_name
-- id: zztj.61.p34.h3
+- id: zztj.61.p34.h4
   anchor: zztj.61.p34
   at: 49
   length: 2
@@ -1085,7 +1091,7 @@ annotations:
   person_id: zhouyu
   text: 周瑜
   via: primary
-- id: zztj.61.p34.h4
+- id: zztj.61.p34.h5
   anchor: zztj.61.p34
   at: 89
   length: 1
@@ -1093,7 +1099,7 @@ annotations:
   person_id: zhouyu
   text: 瑜
   via: given_name
-- id: zztj.61.p34.h5
+- id: zztj.61.p34.h6
   anchor: zztj.61.p34
   at: 110
   length: 1
@@ -1401,26 +1407,14 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 興平2年 (AD 195)，月份「四月」
-- anchor: zztj.61.p45
-  at: 24
+- id: zztj.61.p45.h1
+  anchor: zztj.61.p45
+  at: 21
   length: 2
   type: person
   person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定
-  id: zztj.61.p45.h1
-- anchor: zztj.61.p47
-  at: 107
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 興平年間(194-195)獻帝在位
-  id: zztj.61.p47.h1
+  text: 伏氏
+  via: alias
 - id: zztj.61.p48.h1
   anchor: zztj.61.p48
   at: 14
@@ -1429,16 +1423,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: zztj.61.p48
-  at: 28
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 興平年間(194-195)獻帝在位
-  id: zztj.61.p48.h2
 - id: zztj.61.p49.h1
   anchor: zztj.61.p49
   at: 116
@@ -1513,15 +1497,15 @@ annotations:
   via: primary
 - id: zztj.61.p51.h9
   anchor: zztj.61.p51
-  at: 218
-  length: 1
+  at: 67
+  length: 2
   type: person
-  person_id: lvbu
-  text: 布
-  via: given_name
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: zztj.61.p51.h10
   anchor: zztj.61.p51
-  at: 224
+  at: 218
   length: 1
   type: person
   person_id: lvbu
@@ -1529,13 +1513,21 @@ annotations:
   via: given_name
 - id: zztj.61.p51.h11
   anchor: zztj.61.p51
+  at: 224
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name
+- id: zztj.61.p51.h12
+  anchor: zztj.61.p51
   at: 235
   length: 2
   type: person
   person_id: yuanshu
   text: 袁術
   via: primary
-- id: zztj.61.p51.h12
+- id: zztj.61.p51.h13
   anchor: zztj.61.p51
   at: 246
   length: 1
@@ -1543,7 +1535,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h13
+- id: zztj.61.p51.h14
   anchor: zztj.61.p51
   at: 272
   length: 1
@@ -1551,7 +1543,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h14
+- id: zztj.61.p51.h15
   anchor: zztj.61.p51
   at: 335
   length: 2
@@ -1559,7 +1551,7 @@ annotations:
   person_id: taoqian
   text: 陶謙
   via: primary
-- id: zztj.61.p51.h15
+- id: zztj.61.p51.h16
   anchor: zztj.61.p51
   at: 513
   length: 1
@@ -1567,7 +1559,7 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name
-- id: zztj.61.p51.h16
+- id: zztj.61.p51.h17
   anchor: zztj.61.p51
   at: 517
   length: 1
@@ -1575,7 +1567,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h17
+- id: zztj.61.p51.h18
   anchor: zztj.61.p51
   at: 532
   length: 1
@@ -1583,7 +1575,7 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name
-- id: zztj.61.p51.h18
+- id: zztj.61.p51.h19
   anchor: zztj.61.p51
   at: 564
   length: 1
@@ -1591,7 +1583,7 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name
-- id: zztj.61.p51.h19
+- id: zztj.61.p51.h20
   anchor: zztj.61.p51
   at: 576
   length: 1
@@ -1599,7 +1591,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h20
+- id: zztj.61.p51.h21
   anchor: zztj.61.p51
   at: 621
   length: 1
@@ -1607,7 +1599,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h21
+- id: zztj.61.p51.h22
   anchor: zztj.61.p51
   at: 625
   length: 1
@@ -1615,7 +1607,7 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name
-- id: zztj.61.p51.h22
+- id: zztj.61.p51.h23
   anchor: zztj.61.p51
   at: 638
   length: 1
@@ -1623,7 +1615,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name
-- id: zztj.61.p51.h23
+- id: zztj.61.p51.h24
   anchor: zztj.61.p51
   at: 641
   length: 2
@@ -1631,7 +1623,7 @@ annotations:
   person_id: liubei
   text: 劉備
   via: primary
-- id: zztj.61.p51.h24
+- id: zztj.61.p51.h25
   anchor: zztj.61.p51
   at: 644
   length: 2
@@ -1639,7 +1631,7 @@ annotations:
   person_id: zhangmiao
   text: 張邈
   via: primary
-- id: zztj.61.p51.h25
+- id: zztj.61.p51.h26
   anchor: zztj.61.p51
   at: 647
   length: 1
@@ -1855,36 +1847,6 @@ annotations:
   person_id: jiaxu
   text: 賈詡
   via: primary
-- anchor: zztj.61.p62
-  at: 168
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 興平年間(194-195)獻帝在位
-  id: zztj.61.p62.h2
-- anchor: zztj.61.p63
-  at: 95
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定
-  id: zztj.61.p63.h2
-- anchor: zztj.61.p63
-  at: 214
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 興平年間皇后未明，可能指他國國主夫人或伏皇后，難以確定
-  id: zztj.61.p63.h3
 - id: zztj.61.p63.h1
   anchor: zztj.61.p63
   at: 264

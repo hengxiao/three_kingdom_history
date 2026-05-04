@@ -50,16 +50,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.2.p1.h5",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "本紀首句「文皇帝諱丕……武帝太子也」太子即曹丕本人。"
-        },
-        {
           "id": "wei.2.p1.t1",
           "type": "temporal",
           "at": 16,
@@ -106,16 +96,6 @@
           "reasoning": "承前文年號「建安」推得，「二十二年」 = 建安22年 = AD 217"
         },
         {
-          "id": "wei.2.p1.h6",
-          "type": "person",
-          "at": 51,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「二十二年，立為魏太子」即立曹丕為魏太子。"
-        },
-        {
           "id": "wei.2.p1.a2",
           "type": "pei",
           "at": 54,
@@ -137,26 +117,6 @@
           "at": 67,
           "length": 0,
           "text": "袁宏《漢紀》載漢帝詔曰：「魏太子丕：昔皇天授乃顯考以翼我皇家，遂攘除羣凶，拓定九州，弘功茂績，光于宇宙，朕用垂拱負扆二十有餘載。天不憖遺一老，永保余一人，早世潛神，哀悼傷切。丕奕世宣明，宜秉文武，紹熙前緒。今使使持節御史大夫華歆奉策詔授丕丞相印綬、魏王璽紱，領冀州牧。方今外有遺虜，遐夷未賔，旗鼓猶在邊境，干戈不得韜刃，斯乃播揚洪烈，立功垂名之秋也。豈得脩諒闇之禮，究曾、閔之志哉？其敬服朕命，抑弭憂懷，旁祗厥緒，時亮庶功，以稱朕意。於戲，可不勉與！」"
-        },
-        {
-          "id": "wei.2.p1.h7",
-          "type": "person",
-          "at": 68,
-          "length": 2,
-          "text": "王后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「尊王后曰王太后」王后即曹操魏王后卞氏，roster未列卞太后。"
-        },
-        {
-          "id": "wei.2.p1.h8",
-          "type": "person",
-          "at": 72,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "同句「曰王太后」續指卞氏，roster未列。"
         },
         {
           "id": "wei.2.p1.t4",
@@ -266,12 +226,12 @@
           "text": "三月",
           "kind": "relative",
           "resolution": "bare_month",
-          "year_ad": 220,
-          "era": "延康",
-          "era_year": 1,
+          "year_ad": 176,
+          "era": "熹平",
+          "era_year": 5,
           "month_chinese": "三月",
           "month_ordinal": 3,
-          "reasoning": "年承前文 延康元年 (AD 220)，月份「三月」"
+          "reasoning": "年承前文 熹平5年 (AD 176)，月份「三月」"
         },
         {
           "id": "wei.2.p3.a1",
@@ -591,26 +551,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.2.p15.h2",
-          "type": "person",
-          "at": 87,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "黃初元年受禪「尊王太后曰皇太后」即卞氏由王太后進為皇太后，roster未列。"
-        },
-        {
-          "id": "wei.2.p15.h3",
-          "type": "person",
-          "at": 91,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "同句「曰皇太后」續指卞氏。"
-        },
-        {
           "id": "wei.2.p15.t2",
           "type": "temporal",
           "at": 231,
@@ -788,6 +728,15 @@
           "at": 71,
           "length": 0,
           "text": "《魏書》：甲辰，以京師宗廟未成，帝親祠武皇帝于建始殿，躬執饋奠，如家人之禮。"
+        },
+        {
+          "id": "wei.2.p19.h3",
+          "type": "person",
+          "at": 76,
+          "length": 2,
+          "text": "甄氏",
+          "person_id": "zhenhuanghou",
+          "via": "alias"
         }
       ]
     },
@@ -1171,16 +1120,6 @@
           "reasoning": "年承前文 黃初3年 (AD 222)，月份「九月」"
         },
         {
-          "id": "wei.2.p26.h1",
-          "type": "person",
-          "at": 31,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "黃初三年詔「群臣不得奏事太后」泛指後世太后（戒后族干政）；當代太后即卞太后，roster未列。"
-        },
-        {
           "id": "wei.2.p26.a1",
           "type": "pei",
           "at": 75,
@@ -1188,14 +1127,13 @@
           "text": "孫盛曰：夫經國營治，必憑俊喆之輔，賢達令德，必居參亂之任，故雖周室之盛，有婦人與焉。然則坤道承天，南面罔二，三從之禮，謂之至順，至於號令自天子出，奏事專行，非古義也。昔在申、呂，實匡有周。苟以天下爲心，惟德是杖，則親疏之授，至公一也，何至后族而必斥遠之哉？二漢之季世，王道陵遲，故令外戚憑寵，職爲亂階。於此，自時昏道喪，運祚將移，縱無王、呂之難，豈乏田、趙之禍乎？而後世觀其若此，深懷酸毒之戒也。至於魏文，遂發一概之詔，可謂有識之爽言，非帝者之宏議。"
         },
         {
-          "id": "wei.2.p26.h2",
+          "id": "wei.2.p26.h1",
           "type": "person",
-          "at": 79,
+          "at": 81,
           "length": 2,
-          "text": "皇后",
+          "text": "郭氏",
           "person_id": "guohuanghou",
-          "via": "llm",
-          "reasoning": "「立皇后郭氏」即文德郭皇后，roster未列。"
+          "via": "alias"
         }
       ]
     },
@@ -1251,16 +1189,16 @@
         {
           "id": "wei.2.p27.h2",
           "type": "person",
-          "at": 332,
+          "at": 304,
           "length": 2,
-          "text": "明帝",
-          "person_id": "caorui",
-          "via": "chapter_alias"
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         },
         {
           "id": "wei.2.p27.h3",
           "type": "person",
-          "at": 343,
+          "at": 332,
           "length": 2,
           "text": "明帝",
           "person_id": "caorui",
@@ -1269,7 +1207,7 @@
         {
           "id": "wei.2.p27.h4",
           "type": "person",
-          "at": 376,
+          "at": 343,
           "length": 2,
           "text": "明帝",
           "person_id": "caorui",
@@ -1278,12 +1216,11 @@
         {
           "id": "wei.2.p27.h5",
           "type": "person",
-          "at": 491,
+          "at": 376,
           "length": 2,
-          "text": "皇后",
-          "person_id": "guohuanghou",
-          "via": "llm",
-          "reasoning": "終制「其皇后及貴人以下」泛指文帝後宮諸后妃，主要指郭皇后等，roster未列。"
+          "text": "明帝",
+          "person_id": "caorui",
+          "via": "chapter_alias"
         }
       ]
     },

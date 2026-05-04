@@ -39,12 +39,20 @@
         {
           "id": "hhs.9.p1.h2",
           "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "皇后",
+          "at": 14,
+          "length": 3,
+          "text": "王美人",
+          "person_id": "wangrong",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.9.p1.h3",
+          "type": "person",
+          "at": 19,
+          "length": 3,
+          "text": "何皇后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「母王美人，爲何皇后所害」即靈帝何皇后害獻帝生母，對應 hetaihou。"
+          "via": "primary"
         }
       ]
     },
@@ -92,16 +100,6 @@
           "reasoning": "年承前文 中平6年 (AD 189)，月份「九月」"
         },
         {
-          "id": "hhs.9.p2.h6",
-          "type": "person",
-          "at": 41,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "獻帝即位後「遷皇太后於永安宮」即遷何太后，對應 hetaihou。"
-        },
-        {
           "id": "hhs.9.p2.a1",
           "type": "lixian",
           "at": 48,
@@ -116,16 +114,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "hhs.9.p2.h7",
-          "type": "person",
-          "at": 67,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「董卓殺皇太后何氏」直點何氏，對應 hetaihou。"
         },
         {
           "id": "hhs.9.p2.a2",
@@ -195,16 +183,6 @@
           "month_chinese": "冬十月",
           "month_ordinal": 10,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「冬十月」"
-        },
-        {
-          "id": "hhs.9.p3.h3",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「葬靈思皇后」即葬何氏靈思皇后，對應 hetaihou。"
         },
         {
           "id": "hhs.9.p3.a1",
@@ -1334,14 +1312,13 @@
           "reasoning": "年承前文 興平元年 (AD 194)，月份「二月」"
         },
         {
-          "id": "hhs.9.p8.h4",
+          "id": "hhs.9.p8.h1",
           "type": "person",
-          "at": 43,
-          "length": 2,
-          "text": "皇后",
+          "at": 41,
+          "length": 4,
+          "text": "靈懷皇后",
           "person_id": "wangrong",
-          "via": "llm",
-          "reasoning": "「追尊謚皇妣王氏爲靈懷皇后」即追尊獻帝生母王榮，未列 roster。"
+          "via": "primary"
         },
         {
           "id": "hhs.9.p8.t3",
@@ -1505,7 +1482,7 @@
           "reasoning": "「是歲」 = 当前年 興平元年 (AD 194)"
         },
         {
-          "id": "hhs.9.p8.h1",
+          "id": "hhs.9.p8.h2",
           "type": "person",
           "at": 448,
           "length": 2,
@@ -1514,7 +1491,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.9.p8.h2",
+          "id": "hhs.9.p8.h3",
           "type": "person",
           "at": 451,
           "length": 2,
@@ -1530,7 +1507,7 @@
           "text": "策字伯符，孫堅子。曲阿，今潤州縣。"
         },
         {
-          "id": "hhs.9.p8.h3",
+          "id": "hhs.9.p8.h4",
           "type": "person",
           "at": 463,
           "length": 2,
@@ -1619,14 +1596,13 @@
           "reasoning": "年承前文 興平2年 (AD 195)，月份「夏四月」"
         },
         {
-          "id": "hhs.9.p9.h3",
+          "id": "hhs.9.p9.h1",
           "type": "person",
-          "at": 59,
+          "at": 56,
           "length": 2,
-          "text": "皇后",
+          "text": "伏氏",
           "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "興平二年「立貴人伏氏爲皇后」即立伏壽，對應 fuhuanghou。"
+          "via": "alias"
         },
         {
           "id": "hhs.9.p9.a1",
@@ -1740,7 +1716,7 @@
           "reasoning": "年承前文 興平2年 (AD 195)，月份「十一月」"
         },
         {
-          "id": "hhs.9.p9.h1",
+          "id": "hhs.9.p9.h2",
           "type": "person",
           "at": 296,
           "length": 3,
@@ -1798,7 +1774,7 @@
           "reasoning": "「是歲」 = 当前年 興平2年 (AD 195)"
         },
         {
-          "id": "hhs.9.p9.h2",
+          "id": "hhs.9.p9.h3",
           "type": "person",
           "at": 444,
           "length": 2,
@@ -3467,12 +3443,11 @@
         {
           "id": "hhs.9.p28.h6",
           "type": "person",
-          "at": 56,
+          "at": 58,
           "length": 2,
-          "text": "皇后",
+          "text": "伏氏",
           "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "建安十九年「曹操殺皇后伏氏」直點伏氏，對應 fuhuanghou。"
+          "via": "alias"
         },
         {
           "id": "hhs.9.p28.a2",
@@ -3501,16 +3476,6 @@
           "month_chinese": "春正月",
           "month_ordinal": 1,
           "reasoning": "承前文年號「建安」推得，「二十年春正月」 = 建安20年 = AD 215"
-        },
-        {
-          "id": "hhs.9.p29.h2",
-          "type": "person",
-          "at": 15,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "caojie_huanghou",
-          "via": "llm",
-          "reasoning": "建安二十年「立貴人曹氏爲皇后」即立曹節，對應 caojie_huanghou。"
         },
         {
           "id": "hhs.9.p29.t2",

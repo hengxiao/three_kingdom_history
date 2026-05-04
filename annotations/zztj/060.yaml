@@ -2,7 +2,7 @@ chapter: zztj.60
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷060
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: ade42e77d5f2de30aac3850e8409508738d256cb20242a95dd5719ad0cae8694
 annotations:
 - id: zztj.60.p4.t1
@@ -167,16 +167,6 @@ annotations:
   person_id: liuyu
   text: 虞
   via: given_name
-- anchor: zztj.60.p6
-  at: 397
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.88
-  reasoning: 初平年間(191-193)獻帝在位，朝臣稱陛下/主上皆指獻帝
-  id: zztj.60.p6.h20
 - id: zztj.60.p6.h18
   anchor: zztj.60.p6
   at: 450
@@ -3075,16 +3065,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: zztj.60.p44
-  at: 51
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 初平年間(191-193)獻帝在位，朝臣稱陛下/主上皆指獻帝
-  id: zztj.60.p44.h6
 - id: zztj.60.p44.h3
   anchor: zztj.60.p44
   at: 58
@@ -4273,13 +4253,21 @@ annotations:
   via: given_name
 - id: zztj.60.p79.h27
   anchor: zztj.60.p79
+  at: 317
+  length: 2
+  type: person
+  person_id: sunjin
+  text: 孫瑾
+  via: primary
+- id: zztj.60.p79.h28
+  anchor: zztj.60.p79
   at: 325
   length: 1
   type: person
   person_id: gongsunzan
   text: 瓚
   via: given_name
-- id: zztj.60.p79.h28
+- id: zztj.60.p79.h29
   anchor: zztj.60.p79
   at: 330
   length: 1
@@ -4287,7 +4275,7 @@ annotations:
   person_id: liuyu
   text: 虞
   via: given_name
-- id: zztj.60.p79.h29
+- id: zztj.60.p79.h30
   anchor: zztj.60.p79
   at: 333
   length: 1
@@ -4295,7 +4283,7 @@ annotations:
   person_id: gongsunzan
   text: 瓚
   via: given_name
-- id: zztj.60.p79.h30
+- id: zztj.60.p79.h31
   anchor: zztj.60.p79
   at: 342
   length: 1
@@ -4303,7 +4291,7 @@ annotations:
   person_id: gongsunzan
   text: 瓚
   via: given_name
-- id: zztj.60.p79.h31
+- id: zztj.60.p79.h32
   anchor: zztj.60.p79
   at: 344
   length: 1
@@ -4311,7 +4299,7 @@ annotations:
   person_id: liuyu
   text: 虞
   via: given_name
-- id: zztj.60.p79.h32
+- id: zztj.60.p79.h33
   anchor: zztj.60.p79
   at: 357
   length: 1
@@ -4319,7 +4307,7 @@ annotations:
   person_id: liuyu
   text: 虞
   via: given_name
-- id: zztj.60.p79.h33
+- id: zztj.60.p79.h34
   anchor: zztj.60.p79
   at: 364
   length: 1

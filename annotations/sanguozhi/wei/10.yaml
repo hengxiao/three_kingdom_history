@@ -345,15 +345,15 @@ annotations:
   via: given_name_carry
 - id: wei.10.p3.h4
   anchor: wei.10.p3
-  at: 174
-  length: 1
+  at: 28
+  length: 2
   type: person
-  person_id: lvbu
-  text: 布
-  via: given_name_carry
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: wei.10.p3.h5
   anchor: wei.10.p3
-  at: 180
+  at: 174
   length: 1
   type: person
   person_id: lvbu
@@ -361,13 +361,21 @@ annotations:
   via: given_name_carry
 - id: wei.10.p3.h6
   anchor: wei.10.p3
+  at: 180
+  length: 1
+  type: person
+  person_id: lvbu
+  text: 布
+  via: given_name_carry
+- id: wei.10.p3.h7
+  anchor: wei.10.p3
   at: 191
   length: 2
   type: person
   person_id: yuanshu
   text: 袁術
   via: primary
-- id: wei.10.p3.h7
+- id: wei.10.p3.h8
   anchor: wei.10.p3
   at: 202
   length: 1
@@ -375,7 +383,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name_carry
-- id: wei.10.p3.h8
+- id: wei.10.p3.h9
   anchor: wei.10.p3
   at: 228
   length: 1
@@ -383,7 +391,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name_carry
-- id: wei.10.p3.h9
+- id: wei.10.p3.h10
   anchor: wei.10.p3
   at: 277
   length: 2
@@ -403,7 +411,7 @@ annotations:
   length: 0
   type: pei
   text: 《曹瞞傳》云：自京師遭董卓之亂，人民流移東出，多依彭城間。遇太祖至，坑殺男女數萬口於泗水，水爲不流。陶謙帥其衆軍武原，太祖不得進。引軍從泗南攻取慮、睢陵、夏丘諸縣，皆屠之；鷄犬亦盡，墟邑無復行人。
-- id: wei.10.p3.h10
+- id: wei.10.p3.h11
   anchor: wei.10.p3
   at: 447
   length: 2
@@ -411,7 +419,7 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- id: wei.10.p3.h11
+- id: wei.10.p3.h12
   anchor: wei.10.p3
   at: 458
   length: 1
@@ -419,7 +427,7 @@ annotations:
   person_id: lvbu
   text: 布
   via: given_name_carry
-- id: wei.10.p3.h12
+- id: wei.10.p3.h13
   anchor: wei.10.p3
   at: 467
   length: 1
@@ -479,16 +487,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.10.p4
-  at: 193
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 建安初荀彧勸太祖迎天子，「奉主上以從民望」即奉漢獻帝劉協。
-  id: wei.10.p4.h14
 - id: wei.10.p4.h6
   anchor: wei.10.p4
   at: 273
@@ -2399,16 +2397,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.10.p39
-  at: 169
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 賈詡諷喻太祖立嗣事「於是太子遂定」即定立曹丕為太子。
-  id: wei.10.p39.h9
 - id: wei.10.p39.h8
   anchor: wei.10.p39
   at: 178
@@ -2431,16 +2419,6 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：文帝得詡之對太祖，故即位首登上司。荀勗別傳曰：晉司徒闕，武帝問其人於勗。荅曰：「三公具瞻所歸，不可用非其人。昔魏文帝用賈詡爲三公，孫權笑之。」
-- anchor: wei.10.p40
-  at: 95
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 黃初時詡對「陛下應期受禪」即文帝曹丕受禪登基。
-  id: wei.10.p40.h8
 - id: wei.10.p40.h2
   anchor: wei.10.p40
   at: 139

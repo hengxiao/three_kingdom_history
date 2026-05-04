@@ -848,10 +848,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 199,
-          "era": "建安",
+          "year_ad": 193,
+          "era": "初平",
           "era_year": 4,
-          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
+          "reasoning": "承前文年號「初平」推得，「四年」 = 初平4年 = AD 193"
         },
         {
           "id": "hhs.75.p23.h21",
@@ -1029,16 +1029,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.75.p26.h4",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「董卓無道，陵虐王室，禍加太后」即董卓鴆殺何太后，對應 hetaihou。"
-        },
-        {
           "id": "hhs.75.p26.h2",
           "type": "person",
           "at": 84,
@@ -1055,16 +1045,6 @@
           "text": "劉表",
           "person_id": "liubiao",
           "via": "primary"
-        },
-        {
-          "id": "hhs.75.p26.h5",
-          "type": "person",
-          "at": 216,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "「今主上非有惡於天下，徒以幼小脅於強臣」即獻帝幼小受董卓挾制，對應 xianhan。"
         }
       ]
     },

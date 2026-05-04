@@ -229,16 +229,6 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p6.h20",
-          "type": "person",
-          "at": 397,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "初平年間(191-193)獻帝在位，朝臣稱陛下/主上皆指獻帝"
-        },
-        {
           "id": "zztj.60.p6.h18",
           "type": "person",
           "at": 450,
@@ -3720,16 +3710,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.60.p44.h6",
-          "type": "person",
-          "at": 51,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "初平年間(191-193)獻帝在位，朝臣稱陛下/主上皆指獻帝"
-        },
-        {
           "id": "zztj.60.p44.h3",
           "type": "person",
           "at": 58,
@@ -5263,6 +5243,15 @@
         {
           "id": "zztj.60.p79.h27",
           "type": "person",
+          "at": 317,
+          "length": 2,
+          "text": "孫瑾",
+          "person_id": "sunjin",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.60.p79.h28",
+          "type": "person",
           "at": 325,
           "length": 1,
           "text": "瓚",
@@ -5270,7 +5259,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h28",
+          "id": "zztj.60.p79.h29",
           "type": "person",
           "at": 330,
           "length": 1,
@@ -5279,7 +5268,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h29",
+          "id": "zztj.60.p79.h30",
           "type": "person",
           "at": 333,
           "length": 1,
@@ -5288,7 +5277,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h30",
+          "id": "zztj.60.p79.h31",
           "type": "person",
           "at": 342,
           "length": 1,
@@ -5297,7 +5286,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h31",
+          "id": "zztj.60.p79.h32",
           "type": "person",
           "at": 344,
           "length": 1,
@@ -5306,7 +5295,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h32",
+          "id": "zztj.60.p79.h33",
           "type": "person",
           "at": 357,
           "length": 1,
@@ -5315,7 +5304,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.60.p79.h33",
+          "id": "zztj.60.p79.h34",
           "type": "person",
           "at": 364,
           "length": 1,

@@ -2,7 +2,7 @@ chapter: zztj.79
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷079
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 30ac5eeef869babc588730de93e3ad48553d176bb78f2c557292318721826e62
 annotations:
 - id: zztj.79.p4.t1
@@ -73,16 +73,14 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 泰始元年 (AD 265)，月份「七月」
-- anchor: zztj.79.p8
-  at: 10
-  length: 2
+- id: zztj.79.p8.h1
+  anchor: zztj.79.p8
+  at: 9
+  length: 3
   type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p8.h1
+  person_id: zhuhuanghou
+  text: 景皇后
+  via: alias
 - id: zztj.79.p9.t1
   anchor: zztj.79.p9
   at: 0
@@ -151,26 +149,14 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始2年 (AD 266)，月份「正月」
-- anchor: zztj.79.p21
-  at: 12
-  length: 2
+- id: zztj.79.p21.h1
+  anchor: zztj.79.p21
+  at: 11
+  length: 3
   type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p21.h1
-- anchor: zztj.79.p22
-  at: 4
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p22.h1
+  person_id: zhuhuanghou
+  text: 景皇后
+  via: alias
 - id: zztj.79.p24.t1
   anchor: zztj.79.p24
   at: 0
@@ -257,36 +243,6 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 泰始2年 (AD 266)，月份「八月」
-- anchor: zztj.79.p30
-  at: 37
-  length: 2
-  type: person
-  person_id: simayan
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 西晉武帝不在花名冊
-  id: zztj.79.p30.h1
-- anchor: zztj.79.p30
-  at: 105
-  length: 2
-  type: person
-  person_id: simayan
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 西晉武帝不在花名冊
-  id: zztj.79.p30.h2
-- anchor: zztj.79.p30
-  at: 120
-  length: 2
-  type: person
-  person_id: simayan
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 西晉武帝不在花名冊
-  id: zztj.79.p30.h3
 - id: zztj.79.p34.h1
   anchor: zztj.79.p34
   at: 3
@@ -359,16 +315,14 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 泰始2年 (AD 266)，月份「十二月」
-- anchor: zztj.79.p41
-  at: 121
-  length: 2
+- id: zztj.79.p41.h1
+  anchor: zztj.79.p41
+  at: 76
+  length: 3
   type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p41.h1
+  person_id: hetaihou
+  text: 何太后
+  via: alias
 - id: zztj.79.p42.t1
   anchor: zztj.79.p42
   at: 8
@@ -395,6 +349,22 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始3年 (AD 267)，月份「正月」
+- id: zztj.79.p44.h1
+  anchor: zztj.79.p44
+  at: 112
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: zztj.79.p45.h1
+  anchor: zztj.79.p45
+  at: 24
+  length: 3
+  type: person
+  person_id: simayan
+  text: 晉武帝
+  via: alias
 - id: zztj.79.p48.t1
   anchor: zztj.79.p48
   at: 2
@@ -521,16 +491,6 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 泰始4年 (AD 268)，月份「四月」
-- anchor: zztj.79.p60
-  at: 6
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p60.h1
 - id: zztj.79.p61.t1
   anchor: zztj.79.p61
   at: 2
@@ -847,16 +807,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 泰始7年 (AD 271)，月份「正月」
-- anchor: zztj.79.p98
-  at: 54
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 晉吳皇后皆不在花名冊
-  id: zztj.79.p98.h1
 - id: zztj.79.p99.t1
   anchor: zztj.79.p99
   at: 0

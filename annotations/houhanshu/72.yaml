@@ -405,16 +405,6 @@ annotations:
   person_id: yuanshao
   text: 袁紹
   via: primary
-- anchor: hhs.72.p8
-  at: 22
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 靈帝崩何進謀誅宦官「而太后不許」即何太后不許，對應 hetaihou。
-  id: hhs.72.p8.h9
 - id: hhs.72.p8.h3
   anchor: hhs.72.p8
   at: 30
@@ -423,16 +413,6 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name_carry
-- anchor: hhs.72.p8
-  at: 38
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「以脅太后」即召董卓以脅何太后，對應 hetaihou。
-  id: hhs.72.p8.h10
 - id: hhs.72.p8.h4
   anchor: hhs.72.p8
   at: 41
@@ -549,17 +529,15 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name_carry
-- anchor: hhs.72.p9
-  at: 73
-  length: 2
+- id: hhs.72.p9.h6
+  anchor: hhs.72.p9
+  at: 72
+  length: 3
   type: person
   person_id: dongtaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「為董太后所養」即陳留王協為董太后（永樂太后）所養，對應 dongtaihou。
-  id: hhs.72.p9.h7
-- id: hhs.72.p9.h6
+  text: 董太后
+  via: primary
+- id: hhs.72.p9.h7
   anchor: hhs.72.p9
   at: 78
   length: 1
@@ -567,16 +545,6 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name_carry
-- anchor: hhs.72.p9
-  at: 82
-  length: 2
-  type: person
-  person_id: dongtaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「卓自以與太后同族」董卓自稱與董太后同族，對應 dongtaihou。
-  id: hhs.72.p9.h8
 - id: hhs.72.p10.h1
   anchor: hhs.72.p10
   at: 2
@@ -693,16 +661,6 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name_carry
-- anchor: hhs.72.p10
-  at: 305
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「遂脅太后，策廢少帝」即董卓脅何太后廢劉辯，對應 hetaihou。
-  id: hhs.72.p10.h14
 - id: hhs.72.p10.h11
   anchor: hhs.72.p10
   at: 310
@@ -727,32 +685,20 @@ annotations:
   person_id: xianhan
   text: 獻帝
   via: alias
-- anchor: hhs.72.p10
-  at: 355
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「議太后蹙迫永樂太后」即議何太后逼董太后事，主語太后即何太后，對應 hetaihou。
-  id: hhs.72.p10.h15
 - id: hhs.72.p10.a7
   anchor: hhs.72.p10
   at: 357
   length: 0
   type: lixian
   text: 靈帝何皇后。
-- anchor: hhs.72.p10
-  at: 361
-  length: 2
+- id: hhs.72.p10.h14
+  anchor: hhs.72.p10
+  at: 359
+  length: 4
   type: person
   person_id: dongtaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「永樂太后」即孝仁董皇后董氏，對應 dongtaihou。
-  id: hhs.72.p10.h16
+  text: 永樂太后
+  via: alias
 - id: hhs.72.p10.a8
   anchor: hhs.72.p10
   at: 364
@@ -2219,32 +2165,12 @@ annotations:
   length: 0
   type: lixian
   text: 音纖。
-- anchor: hhs.72.p31
-  at: 90
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 李傕劫獻帝事，「以車三乘迎天子、皇后」即伏皇后伏壽，對應 fuhuanghou。
-  id: hhs.72.p31.h2
 - id: hhs.72.p31.a4
   anchor: hhs.72.p31
   at: 304
   length: 0
   type: lixian
   text: 《獻帝紀》曰：「汜與傕將張苞、張龍謀誅傕，汜將兵夜攻傕門。候開門內汜兵，苞等燒屋，火不然。汜兵弓弩並發，矢及天子樓帷簾中。」
-- anchor: hhs.72.p32
-  at: 13
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「唯皇后、宋貴人俱」即伏皇后與宋貴人從帝，伏皇后對應 fuhuanghou。
-  id: hhs.72.p32.h1
 - id: hhs.72.p32.a1
   anchor: hhs.72.p32
   at: 33
@@ -2323,16 +2249,6 @@ annotations:
   length: 0
   type: lixian
   text: 縋音直類反。
-- anchor: hhs.72.p34
-  at: 439
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「同濟唯皇后、宋貴人」即伏皇后與宋貴人共渡河，對應 fuhuanghou。
-  id: hhs.72.p34.h4
 - id: hhs.72.p34.a5
   anchor: hhs.72.p34
   at: 446

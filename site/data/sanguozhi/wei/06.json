@@ -172,16 +172,6 @@
           "via": "primary"
         },
         {
-          "id": "wei.6.p2.h12",
-          "type": "person",
-          "at": 27,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后不從」— 即靈帝崩後何太后不從何進誅宦官之議；roster 無 hetaihou，置 null。"
-        },
-        {
           "id": "wei.6.p2.h5",
           "type": "person",
           "at": 35,
@@ -189,16 +179,6 @@
           "text": "卓",
           "person_id": "dongzhuo",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wei.6.p2.h13",
-          "type": "person",
-          "at": 102,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「欲以脅迫太后」— 何進召董卓欲脅何太后；roster 無。"
         },
         {
           "id": "wei.6.p2.h6",
@@ -349,17 +329,16 @@
           "via": "alias"
         },
         {
-          "id": "wei.6.p4.h9",
+          "id": "wei.6.p4.h3",
           "type": "person",
-          "at": 43,
-          "length": 2,
-          "text": "太后",
+          "at": 42,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「殺王及何太后」— 董卓鴆殺弘農王（劉辯）及何太后；roster 無。"
+          "via": "alias"
         },
         {
-          "id": "wei.6.p4.h3",
+          "id": "wei.6.p4.h4",
           "type": "person",
           "at": 47,
           "length": 2,
@@ -368,7 +347,7 @@
           "via": "alias"
         },
         {
-          "id": "wei.6.p4.h4",
+          "id": "wei.6.p4.h5",
           "type": "person",
           "at": 57,
           "length": 2,
@@ -384,7 +363,7 @@
           "text": "《獻帝紀》曰：卓謀廢帝，會羣臣於朝堂，議曰：「大者天地，其次君臣，所以爲治。今皇帝闇弱，不可以奉宗廟，爲天下主。欲以依伊尹、霍光故事，立陳留王，何如？」尚書盧植曰：「案尚書太甲旣立不明，伊尹放之桐宮。昌邑王立二十七日，罪過千餘，故霍光廢之。今上富於春秋，行未有失，非前事之比也。」卓怒，罷坐，欲誅植，侍中蔡邕勸之，得免。九月甲戌，卓復大會羣臣曰：「太后逼迫永樂太后，令以憂死，逆婦姑之禮，無孝順之節。天子幼質，軟弱不君。昔伊尹放太甲，霍光廢昌邑，著在典籍，僉以爲善。今太后宜如太甲，皇帝宜如昌邑。陳留王仁孝，宜即尊皇祚。」《獻帝起居注》載策曰：「孝靈皇帝不究高宗眉壽之祚，早棄臣子。皇帝承紹，海內側望，而帝天姿輕佻，威儀不恪，在喪慢惰，衰如故焉；凶德旣彰，淫穢發聞，損辱神器，忝汙宗廟。皇太后教無母儀，統政荒亂。永樂太后暴崩，衆論惑焉。三綱之道，天地之紀，而乃有闕，罪之大者。陳留王恊，聖德偉茂，規矩邈然，豐下兊上，有堯圖之表；居喪哀戚，言不及邪，岐嶷之性，有周成之懿。休聲美稱，天下所聞，宜承洪業，爲萬世統，可以承宗廟。廢皇帝爲弘農王。皇太后還政。」尚書讀冊畢，羣臣莫有言，尚書丁宮曰：「天禍漢室，喪亂弘多。昔祭仲廢忽立突，春秋大其權。今大臣量宜爲社稷計，誠合天人，請稱萬歲。」卓以太后見廢，故公卿以下不布服，會葬，素衣而已。"
         },
         {
-          "id": "wei.6.p4.h5",
+          "id": "wei.6.p4.h6",
           "type": "person",
           "at": 60,
           "length": 1,
@@ -393,7 +372,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wei.6.p4.h6",
+          "id": "wei.6.p4.h7",
           "type": "person",
           "at": 81,
           "length": 1,
@@ -402,7 +381,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wei.6.p4.h7",
+          "id": "wei.6.p4.h8",
           "type": "person",
           "at": 94,
           "length": 1,
@@ -411,7 +390,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "wei.6.p4.h8",
+          "id": "wei.6.p4.h9",
           "type": "person",
           "at": 130,
           "length": 1,
@@ -1111,16 +1090,6 @@
           "text": "《獻帝紀》曰：時尚書令士孫瑞爲亂兵所害。《三輔決錄注》曰：瑞字君榮，扶風人，世爲學門。瑞少傳家業，博達無所不通，仕歷顯位。卓旣誅，遷大司農，爲三老。每三公缺，瑞常在選中。太尉周忠、皇甫嵩，司徒淳于嘉、趙溫，司空楊彪、張喜等爲公，皆辭拜讓瑞。天子都許，追論瑞功，封子萌澹津亭侯。萌字文始，亦有才學，與王粲善。臨當就國，粲作詩以贈萌，萌有荅，在粲集中。"
         },
         {
-          "id": "wei.6.p12.h3",
-          "type": "person",
-          "at": 185,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "「唯皇后貴人從」— 興平末漢獻帝出奔，從者唯伏皇后與貴人；roster 無伏皇后。"
-        },
-        {
           "id": "wei.6.p12.a3",
           "type": "pei",
           "at": 201,
@@ -1315,16 +1284,6 @@
           "via": "alias"
         },
         {
-          "id": "wei.6.p15.h9",
-          "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后兄大將軍何進」— 即何太后；roster 無。"
-        },
-        {
           "id": "wei.6.p15.h2",
           "type": "person",
           "at": 10,
@@ -1350,16 +1309,6 @@
           "text": "《續漢書》曰：紹使客張津說進曰：「黃門、常侍秉權日久，又永樂太后與諸常侍專通財利，將軍宜整頓天下，爲海內除患。」進以爲然，遂與紹結謀。"
         },
         {
-          "id": "wei.6.p15.h10",
-          "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后不從」— 何太后；roster 無。"
-        },
-        {
           "id": "wei.6.p15.h4",
           "type": "person",
           "at": 27,
@@ -1367,16 +1316,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "wei.6.p15.h11",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「欲以脅太后」— 何太后；roster 無。"
         },
         {
           "id": "wei.6.p15.h5",
@@ -1404,16 +1343,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wei.6.p15.h12",
-          "type": "person",
-          "at": 131,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「中常侍段珪等矯太后命」— 矯何太后詔；roster 無。"
         },
         {
           "id": "wei.6.p15.a2",

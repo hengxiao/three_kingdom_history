@@ -7,6 +7,14 @@ source:
 annotations:
 - id: hhs.79.p1.h1
   anchor: hhs.79.p1
+  at: 25
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.79.p1.h2
+  anchor: hhs.79.p1
   at: 103
   length: 2
   type: person
@@ -57,16 +65,6 @@ annotations:
   era: 本初
   era_year: 1
   reasoning: 原文「本初元年」直接出现年号；解析為 AD 146
-- anchor: hhs.79.p3
-  at: 295
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 本初元年「梁太后詔」即順烈梁皇后梁妠（質帝沖帝間臨朝），未列 roster。
-  id: hhs.79.p3.h3
 - id: hhs.79.p3.t2
   anchor: hhs.79.p3
   at: 416
@@ -89,13 +87,21 @@ annotations:
   via: alias
 - id: hhs.79.p4.h1
   anchor: hhs.79.p4
+  at: 2
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.79.p4.h2
+  anchor: hhs.79.p4
   at: 32
   length: 2
   type: person
   person_id: dongzhuo
   text: 董卓
   via: primary
-- id: hhs.79.p4.h2
+- id: hhs.79.p4.h3
   anchor: hhs.79.p4
   at: 95
   length: 2
@@ -123,6 +129,14 @@ annotations:
   era: 建武
   era_year: 5
   reasoning: 原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）
+- id: hhs.79.p9.h1
+  anchor: hhs.79.p9
+  at: 21
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p10.t1
   anchor: hhs.79.p10
   at: 181
@@ -195,6 +209,14 @@ annotations:
   era: 建安
   era_year: 14
   reasoning: 承前文年號「建安」推得，「十四年」 = 建安14年 = AD 209
+- id: hhs.79.p21.h1
+  anchor: hhs.79.p21
+  at: 18
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p26.h1
   anchor: hhs.79.p26
   at: 0
@@ -223,10 +245,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 210
-  era: 建安
-  era_year: 15
-  reasoning: 「明年」 = 当前年 建安14年 (AD 209) 之次年 = AD 210
+  year_ad: 30
+  era: 建武
+  era_year: 6
+  reasoning: 「明年」 = 当前年 建武5年 (AD 29) 之次年 = AD 30
 - id: hhs.79.p27.t3
   anchor: hhs.79.p27
   at: 109
@@ -235,10 +257,10 @@ annotations:
   text: 九年
   kind: relative
   resolution: bare_year
-  year_ad: 204
-  era: 建安
+  year_ad: 33
+  era: 建武
   era_year: 9
-  reasoning: 承前文年號「建安」推得，「九年」 = 建安9年 = AD 204
+  reasoning: 承前文年號「建武」推得，「九年」 = 建武9年 = AD 33
 - id: hhs.79.p28.h1
   anchor: hhs.79.p28
   at: 102
@@ -311,76 +333,6 @@ annotations:
   era: 永平
   era_year: 5
   reasoning: 原文「永平五年」直接出现年号；解析為 AD 62（回溯前事，不推進章節時間軸）
-- anchor: hhs.79.p49
-  at: 106
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 蔡邕等奏為武帝事辯誣，靈帝時事，「陛下即位以來」即靈帝，對應 linghan。
-  id: hhs.79.p49.h1
-- anchor: hhs.79.p49
-  at: 166
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「陛下不推原大數」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h2
-- anchor: hhs.79.p49
-  at: 215
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「窺陛下心」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h3
-- anchor: hhs.79.p49
-  at: 255
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「誠為陛下深惜此大業」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h4
-- anchor: hhs.79.p49
-  at: 263
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「陛下若不自惜」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h5
-- anchor: hhs.79.p49
-  at: 302
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「今陛下乃欲」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h6
-- anchor: hhs.79.p49
-  at: 353
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 同段「擅以陛下有所方比」即奏靈帝，對應 linghan。
-  id: hhs.79.p49.h7
 - id: hhs.79.p51.t1
   anchor: hhs.79.p51
   at: 0
@@ -393,16 +345,6 @@ annotations:
   era: 元和
   era_year: 2
   reasoning: 原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）
-- anchor: hhs.79.p51
-  at: 107
-  length: 2
-  type: person
-  person_id: liuda
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 元和二年（章帝元和），「陛下親屈萬乘」即漢章帝劉炟，未列 roster。
-  id: hhs.79.p51.h1
 - id: hhs.79.p54.t1
   anchor: hhs.79.p54
   at: 20
@@ -423,16 +365,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.79.p54
-  at: 89
-  length: 2
-  type: person
-  person_id: anhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 延光元年安帝詔有道術之士，杜季彥對「陛下宜修聖德」即安帝，對應 anhan。
-  id: hhs.79.p54.h2
 - id: hhs.79.p54.t2
   anchor: hhs.79.p54
   at: 119
@@ -441,10 +373,10 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 198
-  era: 建安
+  year_ad: 124
+  era: 延光
   era_year: 3
-  reasoning: 承前文年號「建安」推得，「三年」 = 建安3年 = AD 198
+  reasoning: 承前文年號「延光」推得，「三年」 = 延光3年 = AD 124
 - id: hhs.79.p55.t1
   anchor: hhs.79.p55
   at: 39
@@ -477,10 +409,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 198
+  year_ad: 209
   era: 建安
-  era_year: 3
-  reasoning: 「是歲」 = 当前年 建安3年 (AD 198)
+  era_year: 14
+  reasoning: 「是歲」 = 当前年 建安14年 (AD 209)
 - id: hhs.79.p57.h1
   anchor: hhs.79.p57
   at: 15
@@ -489,26 +421,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.79.p57
-  at: 35
-  length: 2
-  type: person
-  person_id: yanji
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「閻太后以其專擅去職」即安思閻皇后閻姬，未列 roster。
-  id: hhs.79.p57.h2
-- anchor: hhs.79.p58
-  at: 270
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 順帝即位後楊倫奏任嘉事，「惟陛下留神省察」即順帝，對應 shunhan。
-  id: hhs.79.p58.h1
 - id: hhs.79.p59.t1
   anchor: hhs.79.p59
   at: 0
@@ -521,6 +433,14 @@ annotations:
   era: 陽嘉
   era_year: 2
   reasoning: 原文「陽嘉二年」直接出现年号；解析為 AD 133（回溯前事，不推進章節時間軸）
+- id: hhs.79.p63.h1
+  anchor: hhs.79.p63
+  at: 40
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p63.t1
   anchor: hhs.79.p63
   at: 71
@@ -541,10 +461,18 @@ annotations:
   text: 十三年
   kind: relative
   resolution: bare_year
-  year_ad: 208
-  era: 建安
+  year_ad: 37
+  era: 建武
   era_year: 13
-  reasoning: 承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208
+  reasoning: 承前文年號「建武」推得，「十三年」 = 建武13年 = AD 37
+- id: hhs.79.p64.h1
+  anchor: hhs.79.p64
+  at: 97
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p65.t1
   anchor: hhs.79.p65
   at: 42
@@ -637,6 +565,14 @@ annotations:
   era: 建武
   era_year: 4
   reasoning: 原文「建武四年」直接出现年号；解析為 AD 28（回溯前事，不推進章節時間軸）
+- id: hhs.79.p71.h1
+  anchor: hhs.79.p71
+  at: 83
+  length: 2
+  type: person
+  person_id: fuhuanghou
+  text: 伏氏
+  via: alias
 - id: hhs.79.p71.t2
   anchor: hhs.79.p71
   at: 87
@@ -657,10 +593,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 199
-  era: 建安
+  year_ad: 61
+  era: 永平
   era_year: 4
-  reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
+  reasoning: 承前文年號「永平」推得，「四年」 = 永平4年 = AD 61
 - id: hhs.79.p72.t1
   anchor: hhs.79.p72
   at: 45
@@ -797,6 +733,14 @@ annotations:
   person_id: weihong
   text: 衛宏
   via: primary
+- id: hhs.79.p89.h1
+  anchor: hhs.79.p89
+  at: 98
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p95.h1
   anchor: hhs.79.p95
   at: 0
@@ -845,6 +789,14 @@ annotations:
   person_id: liukun
   text: 劉昆
   via: primary
+- id: hhs.79.p95.h4
+  anchor: hhs.79.p95
+  at: 134
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p96.h1
   anchor: hhs.79.p96
   at: 0
@@ -885,10 +837,10 @@ annotations:
   text: 十年
   kind: relative
   resolution: bare_year
-  year_ad: 205
-  era: 建安
+  year_ad: 67
+  era: 永平
   era_year: 10
-  reasoning: 承前文年號「建安」推得，「十年」 = 建安10年 = AD 205
+  reasoning: 承前文年號「永平」推得，「十年」 = 永平10年 = AD 67
 - id: hhs.79.p99.t1
   anchor: hhs.79.p99
   at: 119
@@ -933,6 +885,14 @@ annotations:
   person_id: dinggong
   text: 丁恭
   via: primary
+- id: hhs.79.p102.h2
+  anchor: hhs.79.p102
+  at: 35
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p105.h1
   anchor: hhs.79.p105
   at: 0
@@ -1009,6 +969,14 @@ annotations:
   era: 建初
   era_year: 3
   reasoning: 原文「建初三年」直接出现年号；解析為 AD 78（回溯前事，不推進章節時間軸）
+- id: hhs.79.p109.h1
+  anchor: hhs.79.p109
+  at: 65
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.79.p110.h1
   anchor: hhs.79.p110
   at: 0
@@ -1037,10 +1005,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 199
-  era: 建安
+  year_ad: 79
+  era: 建初
   era_year: 4
-  reasoning: 承前文年號「建安」推得，「四年」 = 建安4年 = AD 199
+  reasoning: 承前文年號「建初」推得，「四年」 = 建初4年 = AD 79
 - id: hhs.79.p114.h1
   anchor: hhs.79.p114
   at: 0
@@ -1111,23 +1079,21 @@ annotations:
   via: primary
 - id: hhs.79.p121.h1
   anchor: hhs.79.p121
+  at: 33
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: hhs.79.p121.h2
+  anchor: hhs.79.p121
   at: 47
   length: 2
   type: person
   person_id: weihong
   text: 衛宏
   via: primary
-- anchor: hhs.79.p121
-  at: 67
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 孔融薦謝該奏，獻帝建安中事，「陛下聖德欽明，同符二祖」即獻帝，對應 xianhan。
-  id: hhs.79.p121.h3
-- id: hhs.79.p121.h2
+- id: hhs.79.p121.h3
   anchor: hhs.79.p121
   at: 137
   length: 2
@@ -1150,6 +1116,14 @@ annotations:
   type: person
   person_id: shunhan
   text: 順帝
+  via: alias
+- id: hhs.79.p126.h1
+  anchor: hhs.79.p126
+  at: 4
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
   via: alias
 - id: hhs.79.p127.h1
   anchor: hhs.79.p127

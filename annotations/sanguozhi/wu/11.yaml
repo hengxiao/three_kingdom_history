@@ -357,20 +357,6 @@ annotations:
   person_id: panzhang
   text: 潘璋
   via: primary
-- id: wu.11.p10.t1
-  anchor: wu.11.p10
-  at: 168
-  length: 2
-  type: temporal
-  text: 六月
-  kind: relative
-  resolution: bare_month
-  year_ad: 224
-  era: 黃武
-  era_year: 3
-  month_chinese: 六月
-  month_ordinal: 6
-  reasoning: 年承前文 黃武3年 (AD 224)，月份「六月」
 - id: wu.11.p10.h6
   anchor: wu.11.p10
   at: 182
@@ -479,16 +465,6 @@ annotations:
   person_id: lvmeng
   text: 蒙
   via: given_name_carry
-- anchor: wu.11.p12
-  at: 193
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 赤烏九年朱然臨行上疏對孫權稱「陛下」（吳大帝赤烏年間）。
-  id: wu.11.p12.h3
 - id: wu.11.p13.h1
   anchor: wu.11.p13
   at: 83
@@ -905,26 +881,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: wu.11.p22
-  at: 152
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「以據為太子右部督」— 太元元年（251）權寢疾，所立太子為孫亮。
-  id: wu.11.p22.h6
-- anchor: wu.11.p22
-  at: 158
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太子即位」— 神鳳元年（252）孫亮即位，承前句仍指孫亮。
-  id: wu.11.p22.h7
 - id: wu.11.p22.t2
   anchor: wu.11.p22
   at: 179
@@ -933,10 +889,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 271
-  era: 建衡
-  era_year: 3
-  reasoning: 「明年」 = 当前年 建衡2年 (AD 270) 之次年 = AD 271
+  year_ad: 252
+  era: 太元
+  era_year: 2
+  reasoning: 「明年」 = 当前年 太元元年 (AD 251) 之次年 = AD 252
 - id: wu.11.p22.h3
   anchor: wu.11.p22
   at: 182
@@ -1215,16 +1171,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.11.p27
-  at: 132
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 朱桓對權奏對「天授陛下聖姿」即吳大帝孫權。
-  id: wu.11.p27.h3
 - id: wu.11.p27.a2
   anchor: wu.11.p27
   at: 160
@@ -1321,10 +1267,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 271
-  era: 建衡
-  era_year: 3
-  reasoning: 「是歲」 = 当前年 建衡3年 (AD 271)
+  year_ad: 252
+  era: 建興
+  era_year: 1
+  reasoning: 「是歲」 = 当前年 建興元年 (AD 252)
 - id: wu.11.p29.a2
   anchor: wu.11.p29
   at: 296

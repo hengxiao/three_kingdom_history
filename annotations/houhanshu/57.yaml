@@ -25,16 +25,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.57.p2
-  at: 112
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 延續同段即和熹鄧太后，未列 roster。
-  id: hhs.57.p2.h2
 - id: hhs.57.p4.h1
   anchor: hhs.57.p4
   at: 56
@@ -43,16 +33,6 @@ annotations:
   person_id: yishi
   text: 翊世
   via: primary
-- anchor: hhs.57.p4
-  at: 60
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 「諫太后歸政」即諫和熹鄧太后歸政安帝，未列 roster。
-  id: hhs.57.p4.h3
 - id: hhs.57.p4.h2
   anchor: hhs.57.p4
   at: 145
@@ -69,16 +49,6 @@ annotations:
   person_id: yishi
   text: 翊世
   via: primary
-- anchor: hhs.57.p5
-  at: 32
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 延光中「共譖皇太子，廢為濟陰王」即廢劉保（後為順帝），對應 shunhan。
-  id: hhs.57.p5.h8
 - id: hhs.57.p5.h2
   anchor: hhs.57.p5
   at: 41
@@ -103,16 +73,6 @@ annotations:
   person_id: yishi
   text: 翊世
   via: primary
-- anchor: hhs.57.p5
-  at: 111
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「皓以翊世前訟太子之廢」承前段太子即劉保（順帝），對應 shunhan。
-  id: hhs.57.p5.h9
 - id: hhs.57.p5.h5
   anchor: hhs.57.p5
   at: 121
@@ -169,16 +129,6 @@ annotations:
   person_id: zhouju
   text: 周舉
   via: primary
-- anchor: hhs.57.p10
-  at: 27
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 「梁太后臨朝」即順烈梁皇后梁妠臨朝，未列 roster。
-  id: hhs.57.p10.h1
 - id: hhs.57.p14.h1
   anchor: hhs.57.p14
   at: 5
@@ -377,16 +327,6 @@ annotations:
   era: 延熹
   era_year: 8
   reasoning: 原文「延熹八年」直接出现年号；解析為 AD 165（回溯前事，不推進章節時間軸）
-- anchor: hhs.57.p85
-  at: 125
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 劉瑜上書桓帝，「陛下」指桓帝，對應 huanhan。
-  id: hhs.57.p85.h1
 - id: hhs.57.p93.t1
   anchor: hhs.57.p93
   at: 33
@@ -401,26 +341,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 光和5年 (AD 182)，月份「五月」
-- anchor: hhs.57.p95
-  at: 1
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 延續劉瑜對桓帝奏，「陛下」即桓帝，對應 huanhan。
-  id: hhs.57.p95.h1
-- anchor: hhs.57.p95
-  at: 87
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「惟陛下設置七臣」即奏桓帝，對應 huanhan。
-  id: hhs.57.p95.h2
 - id: hhs.57.p101.h1
   anchor: hhs.57.p101
   at: 26
@@ -455,26 +375,6 @@ annotations:
   era: 建寧
   era_year: 2
   reasoning: 原文「建寧二年」直接出现年号；解析為 AD 169（回溯前事，不推進章節時間軸）
-- anchor: hhs.57.p109
-  at: 108
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 謝弼建寧二年上書靈帝言災異，「陛下」指靈帝，對應 linghan。
-  id: hhs.57.p109.h1
-- anchor: hhs.57.p110
-  at: 62
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 謝弼奏靈帝事竇太后之孝，「陛下」即靈帝，對應 linghan。
-  id: hhs.57.p110.h2
 - id: hhs.57.p110.h1
   anchor: hhs.57.p110
   at: 129
@@ -483,26 +383,6 @@ annotations:
   person_id: huanhan
   text: 桓帝
   via: alias
-- anchor: hhs.57.p110
-  at: 184
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「願陛下仰慕有虞蒸蒸之化」即勸靈帝行孝，對應 linghan。
-  id: hhs.57.p110.h3
-- anchor: hhs.57.p113
-  at: 41
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 注引袁盎諫漢文帝語，「陛下」為漢文帝，非本傳當代帝。
-  id: hhs.57.p113.h1
 - id: hhs.57.p115.h1
   anchor: hhs.57.p115
   at: 24
@@ -525,16 +405,6 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: hhs.57.p117
-  at: 66
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 謝弼奏為陳蕃伸冤，「陛下」即靈帝，對應 linghan。
-  id: hhs.57.p117.h3
 - id: hhs.57.p117.h2
   anchor: hhs.57.p117
   at: 206
@@ -543,16 +413,14 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- anchor: hhs.57.p117
-  at: 257
+- id: hhs.57.p122.h1
+  anchor: hhs.57.p122
+  at: 3
   length: 2
   type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「伏惟陛下裁其誅罰」即奏靈帝，對應 linghan。
-  id: hhs.57.p117.h4
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: hhs.57.p122.t1
   anchor: hhs.57.p122
   at: 38

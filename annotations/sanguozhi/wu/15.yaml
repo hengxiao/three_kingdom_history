@@ -753,10 +753,10 @@ annotations:
   text: 四年
   kind: relative
   resolution: bare_year
-  year_ad: 241
-  era: 赤烏
+  year_ad: 235
+  era: 嘉禾
   era_year: 4
-  reasoning: 承前文年號「赤烏」推得，「四年」 = 赤烏4年 = AD 241
+  reasoning: 承前文年號「嘉禾」推得，「四年」 = 嘉禾4年 = AD 235
 - id: wu.15.p22.h3
   anchor: wu.15.p22
   at: 93
@@ -1063,16 +1063,6 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
-- anchor: wu.15.p44
-  at: 9
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「赤烏五年，從郎中補太子輔義都尉」— 赤烏五年立孫和為太子，故太子即孫和。
-  id: wu.15.p44.h1
 - id: wu.15.p44.a1
   anchor: wu.15.p44
   at: 22

@@ -43,16 +43,6 @@ annotations:
   era: 陽嘉
   era_year: 2
   reasoning: 原文「陽嘉二年」直接出现年号；解析為 AD 133
-- anchor: hhs.63.p9
-  at: 399
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 李固對策論宋阿母封爵事，順帝即位初年，「陛下」即順帝，對應 shunhan。
-  id: hhs.63.p9.h1
 - id: hhs.63.p12.h1
   anchor: hhs.63.p12
   at: 14
@@ -61,16 +51,14 @@ annotations:
   person_id: shunhan
   text: 順帝
   via: alias
-- anchor: hhs.63.p12
-  at: 17
+- id: hhs.63.p14.h1
+  anchor: hhs.63.p14
+  at: 49
   length: 2
   type: person
-  person_id: shunhan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 注「謂順帝為太子時，廢為濟陰王」直點即劉保（順帝），對應 shunhan。
-  id: hhs.63.p12.h2
+  person_id: yanji
+  text: 閻氏
+  via: alias
 - id: hhs.63.p15.h1
   anchor: hhs.63.p15
   at: 35
@@ -79,66 +67,14 @@ annotations:
   person_id: hexiu
   text: 何休
   via: primary
-- anchor: hhs.63.p22
-  at: 1
+- id: hhs.63.p17.h1
+  anchor: hhs.63.p17
+  at: 158
   length: 2
   type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 李固對策論尚書台，「陛下之有尚書」即奏順帝，對應 shunhan。
-  id: hhs.63.p22.h1
-- anchor: hhs.63.p22
-  at: 26
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「尚書亦為陛下喉舌」即奏順帝，對應 shunhan。
-  id: hhs.63.p22.h2
-- anchor: hhs.63.p22
-  at: 97
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「今與陛下共理天下者」即奏順帝，對應 shunhan。
-  id: hhs.63.p22.h3
-- anchor: hhs.63.p23
-  at: 106
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「陛下宜開石室」即奏順帝，對應 shunhan。
-  id: hhs.63.p23.h1
-- anchor: hhs.63.p23
-  at: 262
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「皇天欲令微臣覺悟陛下」即奏順帝，對應 shunhan。
-  id: hhs.63.p23.h2
-- anchor: hhs.63.p23
-  at: 265
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段「陛下宜熟察臣言」即奏順帝，對應 shunhan。
-  id: hhs.63.p23.h3
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: hhs.63.p29.h1
   anchor: hhs.63.p29
   at: 0
@@ -171,16 +107,6 @@ annotations:
   person_id: hexiu
   text: 何休
   via: primary
-- anchor: hhs.63.p48
-  at: 130
-  length: 2
-  type: person
-  person_id: shunhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 李固薦樊英黃瓊等，「陛下撥亂龍飛，初登大位」即順帝即位，對應 shunhan。
-  id: hhs.63.p48.h2
 - id: hhs.63.p48.h1
   anchor: hhs.63.p48
   at: 150
@@ -233,26 +159,6 @@ annotations:
   era: 陽嘉
   era_year: 3
   reasoning: 「明年」 = 当前年 陽嘉2年 (AD 133) 之次年 = AD 134
-- anchor: hhs.63.p57
-  at: 27
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 沖帝崩後「梁太后」即順烈梁妠，未列 roster。
-  id: hhs.63.p57.h2
-- anchor: hhs.63.p57
-  at: 179
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后從之」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p57.h3
 - id: hhs.63.p60.h1
   anchor: hhs.63.p60
   at: 29
@@ -277,26 +183,6 @@ annotations:
   person_id: chonghan
   text: 沖帝
   via: alias
-- anchor: hhs.63.p61
-  at: 173
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「時太后」即立質帝後梁太后梁妠，未列 roster。
-  id: hhs.63.p61.h3
-- anchor: hhs.63.p63
-  at: 6
-  length: 2
-  type: person
-  person_id: dengsui
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 注「鄧太后立殤帝」即和熹鄧太后，未列 roster。
-  id: hhs.63.p63.h2
 - id: hhs.63.p63.h1
   anchor: hhs.63.p63
   at: 27
@@ -305,16 +191,6 @@ annotations:
   person_id: anhan
   text: 安帝
   via: alias
-- anchor: hhs.63.p63
-  at: 37
-  length: 2
-  type: person
-  person_id: yanji
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 注「閻太后立北鄉侯」即閻姬安思皇后，未列 roster。
-  id: hhs.63.p63.h3
 - id: hhs.63.p63.t1
   anchor: hhs.63.p63
   at: 44
@@ -343,26 +219,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p65
-  at: 438
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「冀以白太后」即梁妠（質帝/桓帝立前後），未列 roster。
-  id: hhs.63.p65.h3
-- anchor: hhs.63.p65
-  at: 446
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后不聽」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p65.h4
 - id: hhs.63.p73.a1
   anchor: hhs.63.p73
   at: 5
@@ -377,36 +233,6 @@ annotations:
   person_id: marong
   text: 馬融
   via: primary
-- anchor: hhs.63.p74
-  at: 35
-  length: 2
-  type: person
-  person_id: zhihan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 李固問質帝「陛下得患所由」即質帝劉纘，對應 zhihan。
-  id: hhs.63.p74.h1
-- anchor: hhs.63.p75
-  at: 38
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「皇太后聖德當朝」即質帝崩後梁妠太后，未列 roster。
-  id: hhs.63.p75.h1
-- anchor: hhs.63.p75
-  at: 89
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「誠知太后垂心」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p75.h2
 - id: hhs.63.p76.h1
   anchor: hhs.63.p76
   at: 164
@@ -423,16 +249,6 @@ annotations:
   person_id: duqiao
   text: 杜喬
   via: primary
-- anchor: hhs.63.p78
-  at: 55
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 立桓帝前「乃說太后先策免固」即梁太后梁妠，未列 roster。
-  id: hhs.63.p78.h3
 - id: hhs.63.p78.h2
   anchor: hhs.63.p78
   at: 70
@@ -477,36 +293,6 @@ annotations:
   person_id: zhihan
   text: 質帝
   via: alias
-- anchor: hhs.63.p85
-  at: 75
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「太后明之，乃赦」即梁太后梁妠赦李固，未列 roster。
-  id: hhs.63.p85.h1
-- anchor: hhs.63.p88
-  at: 260
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「太后聞而不誅」郭亮事，梁太后梁妠，未列 roster。
-  id: hhs.63.p88.h1
-- anchor: hhs.63.p88
-  at: 288
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后憐之」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p88.h2
 - id: hhs.63.p98.h1
   anchor: hhs.63.p98
   at: 35
@@ -533,16 +319,6 @@ annotations:
   resolution: next_year
   year_ad: 142
   reasoning: 「明年」 = 当前年 永和6年 (AD 141) 之次年 = AD 142（跨年號邊界，新年號未明）
-- anchor: hhs.63.p104
-  at: 193
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 李燮姊戒語「加梁氏則連主上」桓帝既誅梁冀，主上即桓帝（且桓帝梁皇后牽連），對應 huanhan。
-  id: hhs.63.p104.h1
 - id: hhs.63.p106.h1
   anchor: hhs.63.p106
   at: 0
@@ -579,16 +355,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p112
-  at: 25
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 杜喬諫桓帝封梁冀子弟，「陛下越從藩臣，龍飛即位」即桓帝以藩王入繼，對應 huanhan。
-  id: hhs.63.p112.h1
 - id: hhs.63.p113.h1
   anchor: hhs.63.p113
   at: 24
@@ -625,16 +391,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p117
-  at: 147
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 唐衡左悺譖杜喬於桓帝，「陛下前當即位」即桓帝即位事，對應 huanhan。
-  id: hhs.63.p117.h6
 - id: hhs.63.p117.h3
   anchor: hhs.63.p117
   at: 156
@@ -651,16 +407,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p117
-  at: 211
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「梁太后素知喬忠」即順烈梁妠，未列 roster。
-  id: hhs.63.p117.h7
 - id: hhs.63.p117.h5
   anchor: hhs.63.p117
   at: 287
@@ -669,36 +415,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p123
-  at: 56
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「梁太后義而不罪」即順烈梁妠許楊匡守屍，未列 roster。
-  id: hhs.63.p123.h1
-- anchor: hhs.63.p123
-  at: 84
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太后許之」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p123.h2
-- anchor: hhs.63.p125
-  at: 184
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 論曰「太后稱制」承順桓之間即梁太后梁妠，未列 roster。
-  id: hhs.63.p125.h2
 - id: hhs.63.p125.h1
   anchor: hhs.63.p125
   at: 194
@@ -707,16 +423,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p156
-  at: 7
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 校勘記引李固別傳「太后聞而不誅」即梁太后梁妠，未列 roster。
-  id: hhs.63.p156.h2
 - id: hhs.63.p156.h1
   anchor: hhs.63.p156
   at: 30
@@ -725,16 +431,6 @@ annotations:
   person_id: ligu
   text: 李固
   via: primary
-- anchor: hhs.63.p156
-  at: 37
-  length: 2
-  type: person
-  person_id: liangna
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 同校勘記引別傳「太后聞而誅之」延續即梁太后梁妠，未列 roster。
-  id: hhs.63.p156.h3
 - id: hhs.63.p158.h1
   anchor: hhs.63.p158
   at: 7

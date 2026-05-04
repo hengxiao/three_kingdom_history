@@ -126,16 +126,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.11.p2.h6",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "「先主末年為太子舍人」之太子，先主章武末所立太子即蜀漢後主劉禪，故指劉禪。"
-        },
-        {
           "id": "shu.11.p2.h2",
           "type": "person",
           "at": 17,
@@ -170,16 +160,6 @@
           "text": "後主",
           "person_id": "liushan",
           "via": "chapter_alias"
-        },
-        {
-          "id": "shu.11.p2.h7",
-          "type": "person",
-          "at": 63,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "「後主立太子璿」明指劉禪所立之太子劉璿，惟roster未載劉璿，故置空。"
         },
         {
           "id": "shu.11.p2.t1",
@@ -767,16 +747,6 @@
           "at": 261,
           "length": 0,
           "text": "毣音忙角反，见《字林》，曰“毣，思貌也”。"
-        },
-        {
-          "id": "shu.11.p8.h4",
-          "type": "person",
-          "at": 272,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liuxuan",
-          "via": "llm",
-          "reasoning": "「太子中庶子」為官名（蜀建興時侍奉後主之太子劉璿），所指太子即劉璿，roster未錄，留空。"
         }
       ]
     },
@@ -915,26 +885,6 @@
           "text": "亮",
           "person_id": "zhugeliang",
           "via": "given_name"
-        },
-        {
-          "id": "shu.11.p10.h5",
-          "type": "person",
-          "at": 75,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "建興三年劉備已殂、亮東行省疾、洪「啟太子」，此時太子即新即位之後主劉禪。"
-        },
-        {
-          "id": "shu.11.p10.h6",
-          "type": "person",
-          "at": 142,
-          "length": 2,
-          "text": "主上",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "同段「冀主上平安」之主上指當時蜀漢君主，與前文後主劉禪同一人。"
         },
         {
           "id": "shu.11.p10.t1",

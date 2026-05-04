@@ -511,6 +511,14 @@ annotations:
   via: given_name_carry
 - id: wu.13.p7.h7
   anchor: wu.13.p7
+  at: 185
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: wu.13.p7.h8
+  anchor: wu.13.p7
   at: 254
   length: 1
   type: person
@@ -847,16 +855,6 @@ annotations:
   person_id: caocao
   text: 曹操
   via: primary
-- anchor: wu.13.p12
-  at: 61
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 陸遜對諸將言「受命主上」即吳王孫權（建安二十四年至黃武中夷陵之戰）。
-  id: wu.13.p12.h3
 - id: wu.13.p13.h1
   anchor: wu.13.p13
   at: 3
@@ -1217,16 +1215,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.13.p16
-  at: 25
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 黃龍元年陸遜輔留鎮太子，太子即孫登（黃龍元年立為皇太子）。
-  id: wu.13.p16.h8
 - id: wu.13.p16.h2
   anchor: wu.13.p16
   at: 37
@@ -1235,16 +1223,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p16
-  at: 39
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「征遜輔太子」承前句，仍指孫登。
-  id: wu.13.p16.h9
 - id: wu.13.p16.h3
   anchor: wu.13.p16
   at: 76
@@ -1309,16 +1287,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p19
-  at: 30
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸遜諫攻夷州疏對孫權「陛下憂勞聖慮」。
-  id: wu.13.p19.h2
 - id: wu.13.p19.h1
   anchor: wu.13.p19
   at: 152
@@ -1327,16 +1295,6 @@ annotations:
   person_id: sunce
   text: 桓王
   via: chapter_alias
-- anchor: wu.13.p19
-  at: 167
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下承運，拓定江表」對孫權。
-  id: wu.13.p19.h3
 - id: wu.13.p20.h1
   anchor: wu.13.p20
   at: 0
@@ -1361,26 +1319,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p21
-  at: 43
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸遜諫絕公孫淵與遼東事疏對孫權。
-  id: wu.13.p21.h2
-- anchor: wu.13.p21
-  at: 90
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫權「陛下以神武之姿」。
-  id: wu.13.p21.h3
 - id: wu.13.p21.h1
   anchor: wu.13.p21
   at: 109
@@ -1389,16 +1327,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: wu.13.p21
-  at: 222
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫權「陛下乘桴遠征」。
-  id: wu.13.p21.h4
 - id: wu.13.p22.t1
   anchor: wu.13.p22
   at: 0
@@ -1705,16 +1633,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p29
-  at: 136
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「及太子有不安之儀」— 二宮並闕事，太子即孫和。
-  id: wu.13.p29.h12
 - id: wu.13.p29.h5
   anchor: wu.13.p29
   at: 144
@@ -1723,16 +1641,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p29
-  at: 150
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子正統，宜有磐石之固」承前句指孫和。
-  id: wu.13.p29.h13
 - id: wu.13.p29.h6
   anchor: wu.13.p29
   at: 222
@@ -1741,26 +1649,6 @@ annotations:
   person_id: luxun
   text: 遜
   via: given_name_carry
-- anchor: wu.13.p29
-  at: 238
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「親附太子，枉見流徙」承前句指孫和。
-  id: wu.13.p29.h14
-- anchor: wu.13.p29
-  at: 246
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太子太傅吾粲」即孫和太傅。
-  id: wu.13.p29.h15
 - id: wu.13.p29.h7
   anchor: wu.13.p29
   at: 250
@@ -2035,16 +1923,6 @@ annotations:
   person_id: wangfan
   text: 王蕃
   via: primary
-- anchor: wu.13.p40
-  at: 223
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸抗上疏言王蕃、樓玄、李勖等被誅殛事，所對「陛下」即吳末帝孫皓。
-  id: wu.13.p40.h3
 - id: wu.13.p43.t1
   anchor: wu.13.p43
   at: 0
@@ -2069,16 +1947,6 @@ annotations:
   era: 建衡
   era_year: 3
   reasoning: 承前文年號「建衡」推得，「三年」 = 建衡3年 = AD 271
-- anchor: wu.13.p45
-  at: 363
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸抗臨終疏對孫皓「願陛下思覽臣言」。
-  id: wu.13.p45.h1
 - id: wu.13.p46.t1
   anchor: wu.13.p46
   at: 34

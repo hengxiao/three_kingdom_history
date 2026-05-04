@@ -163,16 +163,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.22.p3
-  at: 46
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「魏國初建……時太子未定，而臨菑侯植有寵」桓階陳文帝德優，所立太子即曹丕。
-  id: wei.22.p3.h11
 - id: wei.22.p3.h2
   anchor: wei.22.p3
   at: 62
@@ -391,16 +381,6 @@ annotations:
   person_id: caozhen
   text: 曹真
   via: primary
-- anchor: wei.22.p11
-  at: 73
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 明帝初莅政陳羣上疏「陛下當盛魏之隆，荷二祖之業」陛下即曹叡（承武、文二祖）。
-  id: wei.22.p11.h1
 - id: wei.22.p12.h1
   anchor: wei.22.p12
   at: 4
@@ -417,16 +397,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.22.p14
-  at: 132
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 皇女淑薨追封平原懿公主後陳羣上疏「原陛下抑割無益有損之事」即諫明帝勿親送葬，陛下為曹叡。
-  id: wei.22.p14.h1
 - id: wei.22.p16.a1
   anchor: wei.22.p16
   at: 43
@@ -441,16 +411,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.22.p16
-  at: 168
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 青龍中陳羣諫宮室之興「惟陛下慮之」上明帝，陛下即曹叡。
-  id: wei.22.p16.h2
 - id: wei.22.p18.a1
   anchor: wei.22.p18
   at: 57
@@ -635,26 +595,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.22.p30
-  at: 182
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太祖崩洛陽……以為太子即位」太子即繼位之曹丕。
-  id: wei.22.p30.h7
-- anchor: wei.22.p30
-  at: 206
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 同段「太子宜割哀即位」續指曹丕。
-  id: wei.22.p30.h8
 - id: wei.22.p30.h3
   anchor: wei.22.p30
   at: 259
@@ -663,16 +603,6 @@ annotations:
   person_id: sunce
   text: 策
   via: given_name_carry
-- anchor: wei.22.p30
-  at: 260
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 同段「策太子即位」續指曹丕。
-  id: wei.22.p30.h9
 - id: wei.22.p30.h4
   anchor: wei.22.p30
   at: 270
@@ -689,36 +619,6 @@ annotations:
   person_id: caorui
   text: 明帝
   via: chapter_alias
-- anchor: wei.22.p30
-  at: 349
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 明帝即位後陳矯跪問「陛下欲何之」即諫明帝，陛下為曹叡。
-  id: wei.22.p30.h10
-- anchor: wei.22.p30
-  at: 379
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「非陛下所宜臨也」續指曹叡。
-  id: wei.22.p30.h11
-- anchor: wei.22.p30
-  at: 399
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「陛下宜還」續指曹叡。
-  id: wei.22.p30.h12
 - id: wei.22.p30.h6
   anchor: wei.22.p30
   at: 414
@@ -995,16 +895,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: wei.22.p41
-  at: 12
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 毌丘儉上疏「陛下即位已來」於明帝時，陛下即曹叡。
-  id: wei.22.p41.h1
 - id: wei.22.p42.h1
   anchor: wei.22.p42
   at: 32
@@ -1013,16 +903,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.22.p42
-  at: 37
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「初，太祖久不立太子」立嗣事最終立曹丕，太子即曹丕。
-  id: wei.22.p42.h5
 - id: wei.22.p42.h2
   anchor: wei.22.p42
   at: 69
@@ -1127,16 +1007,6 @@ annotations:
   person_id: liushao
   text: 劉劭
   via: primary
-- anchor: wei.22.p49
-  at: 129
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 盧毓青龍二年諫明帝寬容高堂隆「陛下宜容之」陛下為曹叡。
-  id: wei.22.p49.h2
 - id: wei.22.p52.h1
   anchor: wei.22.p52
   at: 62

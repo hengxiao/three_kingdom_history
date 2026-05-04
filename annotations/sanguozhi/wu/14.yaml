@@ -45,16 +45,6 @@ annotations:
   person_id: sundeng
   text: 孫登
   via: primary
-- anchor: wu.14.p2
-  at: 47
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「立登爲太子」— 黃武元年立孫登為吳王太子。
-  id: wu.14.p2.h5
 - id: wu.14.p2.h2
   anchor: wu.14.p2
   at: 67
@@ -91,16 +81,6 @@ annotations:
   era: 黃龍
   era_year: 1
   reasoning: 原文「黃龍元年」直接出现年号；解析為 AD 229
-- anchor: wu.14.p2
-  at: 236
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「黃龍元年，權稱尊號，登爲皇太子」— 即孫登。
-  id: wu.14.p2.h6
 - id: wu.14.p2.a1
   anchor: wu.14.p2
   at: 284
@@ -121,16 +101,6 @@ annotations:
   person_id: luxun
   text: 陸遜
   via: primary
-- anchor: wu.14.p3
-  at: 226
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 孫登諫權「天戴陛下」，陛下即吳大帝孫權。
-  id: wu.14.p3.h3
 - id: wu.14.p3.h2
   anchor: wu.14.p3
   at: 292
@@ -151,62 +121,20 @@ annotations:
   era: 嘉禾
   era_year: 3
   reasoning: 原文「嘉禾三年」直接出现年号；解析為 AD 234
-- anchor: wu.14.p4
-  at: 68
-  length: 2
+- id: wu.14.p4.h1
+  anchor: wu.14.p4
+  at: 28
+  length: 3
   type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「登將拜太子」— 即孫登被立為太子。
-  id: wu.14.p4.h1
-- anchor: wu.14.p4
-  at: 83
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「欲立太子，宜先立后」承前句指孫登（亦含禮制論述）。
-  id: wu.14.p4.h2
+  person_id: bulianshi
+  text: 步夫人
+  via: alias
 - id: wu.14.p4.a1
   anchor: wu.14.p4
   at: 114
   length: 0
   type: pei
   text: 《吳書》曰：弟和有寵於權，登親敬，待之如兄，常有欲讓之心。
-- anchor: wu.14.p5
-  at: 79
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 孫登臨終上疏對父孫權「死貽陛下重慼」。
-  id: wu.14.p5.h13
-- anchor: wu.14.p5
-  at: 169
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 同疏對孫權「係命陛下」。
-  id: wu.14.p5.h14
-- anchor: wu.14.p5
-  at: 183
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 同疏對孫權「願陛下棄忘臣身」。
-  id: wu.14.p5.h15
 - id: wu.14.p5.h1
   anchor: wu.14.p5
   at: 261
@@ -223,16 +151,6 @@ annotations:
   person_id: yufan
   text: 虞翻
   via: primary
-- anchor: wu.14.p5
-  at: 399
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 同疏對孫權「此皆陛下日月所照」。
-  id: wu.14.p5.h16
 - id: wu.14.p5.h3
   anchor: wu.14.p5
   at: 540
@@ -309,16 +227,6 @@ annotations:
   era: 嘉禾
   era_year: 5
   reasoning: 承前文年號「嘉禾」推得，「五年」 = 嘉禾5年 = AD 236
-- anchor: wu.14.p5
-  at: 710
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 同疏對孫權「願陛下留意聽采」。
-  id: wu.14.p5.h17
 - id: wu.14.p5.t2
   anchor: wu.14.p5
   at: 748
@@ -343,26 +251,6 @@ annotations:
   era: 赤烏
   era_year: 4
   reasoning: 原文「赤烏四年」直接出现年号；解析為 AD 241
-- anchor: wu.14.p5
-  at: 787
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「君與太子從事」— 權對謝景言其與孫登從事。
-  id: wu.14.p5.h11
-- anchor: wu.14.p5
-  at: 818
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「謚登曰宣太子」— 即孫登諡號「宣太子」。
-  id: wu.14.p5.h12
 - id: wu.14.p5.a1
   anchor: wu.14.p5
   at: 821
@@ -407,16 +295,6 @@ annotations:
   era: 黃武
   era_year: 7
   reasoning: 原文「黃武七年」直接出现年号；解析為 AD 228（回溯前事，不推進章節時間軸）
-- anchor: wu.14.p8
-  at: 154
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 尚書僕射存上疏為建昌侯孫慮請進王號，對孫權「陛下謙光」。
-  id: wu.14.p8.h1
 - id: wu.14.p8.a1
   anchor: wu.14.p8
   at: 242
@@ -463,16 +341,6 @@ annotations:
   era: 赤烏
   era_year: 5
   reasoning: 原文「赤烏五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）
-- anchor: wu.14.p9
-  at: 56
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「赤烏五年，立爲太子」— 即立孫和為太子。
-  id: wu.14.p9.h5
 - id: wu.14.p9.h3
   anchor: wu.14.p9
   at: 64
@@ -503,16 +371,6 @@ annotations:
   person_id: weiyao
   text: 韋曜
   via: primary
-- anchor: wu.14.p11
-  at: 49
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子不在廟中」— 全公主譖太子孫和。
-  id: wu.14.p11.h3
 - id: wu.14.p11.h1
   anchor: wu.14.p11
   at: 107
@@ -575,12 +433,12 @@ annotations:
   text: 四月
   kind: relative
   resolution: bare_month
-  year_ad: 254
-  era: 五鳳
-  era_year: 1
+  year_ad: 252
+  era: 太元
+  era_year: 2
   month_chinese: 四月
   month_ordinal: 4
-  reasoning: 年承前文 五鳳元年 (AD 254)，月份「四月」
+  reasoning: 年承前文 太元2年 (AD 252)，月份「四月」
 - id: wu.14.p12.h1
   anchor: wu.14.p12
   at: 25
@@ -673,76 +531,6 @@ annotations:
   person_id: sunba
   text: 孫霸
   via: primary
-- anchor: wu.14.p14
-  at: 12
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「和爲太子」— 即孫和為太子，霸為魯王。
-  id: wu.14.p14.h2
-- anchor: wu.14.p14
-  at: 190
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 羊衜上疏二宮並絕賓客事，對孫權「謂陛下當副順遐邇」。
-  id: wu.14.p14.h3
-- anchor: wu.14.p14
-  at: 258
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫權「雖實陛下敦尚古義」。
-  id: wu.14.p14.h4
-- anchor: wu.14.p14
-  at: 402
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫權「不審陛下何以解之」。
-  id: wu.14.p14.h5
-- anchor: wu.14.p14
-  at: 447
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫權「願陛下早發優詔」。
-  id: wu.14.p14.h6
-- anchor: wu.14.p15
-  at: 20
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「圖危太子」— 全寄等附霸，所危太子即孫和。
-  id: wu.14.p15.h1
-- anchor: wu.14.p15
-  at: 28
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子以敗」承前句仍指孫和被廢。
-  id: wu.14.p15.h2
 - id: wu.14.p16.h1
   anchor: wu.14.p16
   at: 25
@@ -763,16 +551,6 @@ annotations:
   era: 太平
   era_year: 2
   reasoning: 原文「太平二年」直接出现年号；解析為 AD 257（回溯前事，不推進章節時間軸）
-- anchor: wu.14.p16
-  at: 78
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 「亮問侍中刁玄」對話，太平二年（257），刁玄稱「陛下」即吳少主孫亮。
-  id: wu.14.p16.h3
 - id: wu.14.p16.h2
   anchor: wu.14.p16
   at: 176
@@ -811,13 +589,21 @@ annotations:
   via: primary
 - id: wu.14.p17.h3
   anchor: wu.14.p17
+  at: 195
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: wu.14.p17.h4
+  anchor: wu.14.p17
   at: 254
   length: 2
   type: person
   person_id: yuanshao
   text: 袁紹
   via: primary
-- id: wu.14.p17.h4
+- id: wu.14.p17.h5
   anchor: wu.14.p17
   at: 257
   length: 2
@@ -825,7 +611,7 @@ annotations:
   person_id: liubiao
   text: 劉表
   via: primary
-- id: wu.14.p17.h5
+- id: wu.14.p17.h6
   anchor: wu.14.p17
   at: 463
   length: 1
@@ -833,7 +619,7 @@ annotations:
   person_id: liubiao
   text: 表
   via: given_name
-- id: wu.14.p17.h6
+- id: wu.14.p17.h7
   anchor: wu.14.p17
   at: 484
   length: 2

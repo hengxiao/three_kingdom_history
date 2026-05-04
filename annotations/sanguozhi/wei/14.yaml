@@ -1325,16 +1325,6 @@ annotations:
   length: 0
   type: pei
   text: 《傅子》曰：太祖與荀彧書，追傷嘉曰：「郭奉孝年不滿四十，相與周旋十一年，阻險艱難，皆共罹之。又以其通達，見世事無所凝滯，欲以後事屬之，何意卒爾失之，悲痛傷心。今表增其子滿千戶，然何益亡者，追念之感深。且奉孝乃知孤者也；天下人相知者少，又以此痛惜。奈何奈何！」又與彧書曰：「追惜奉孝，不能去心。其人見時事兵事，過絕於人。又人多畏病，南方有疫，常言『吾往南方，則不生還』。然與共論計，云當先定荊。此為不但見計之忠厚，必欲立功分，棄命定。事人心乃爾，何得使人忘之！」
-- anchor: wei.14.p22
-  at: 75
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「奕為太子文學」郭奕仕於建安二十二年立太子之後，太子即曹丕。
-  id: wei.14.p22.h4
 - id: wei.14.p22.a3
   anchor: wei.14.p22
   at: 94
@@ -2011,16 +2001,6 @@ annotations:
   person_id: liubiao
   text: 表
   via: given_name_carry
-- anchor: wei.14.p37
-  at: 125
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 黃初三年董昭諫文帝勿令曹休渡江，陛下即文帝曹丕。
-  id: wei.14.p37.h5
 - id: wei.14.p37.h4
   anchor: wei.14.p37
   at: 165
@@ -2029,16 +2009,6 @@ annotations:
   person_id: zangba
   text: 臧霸
   via: primary
-- anchor: wei.14.p37
-  at: 219
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「臣恐陛下雖有敕渡之詔」續指曹丕。
-  id: wei.14.p37.h6
 - id: wei.14.p38.h1
   anchor: wei.14.p38
   at: 10
@@ -2055,16 +2025,6 @@ annotations:
   person_id: caocao
   text: 武皇帝
   via: chapter_alias
-- anchor: wei.14.p39
-  at: 197
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 劉曄諫文帝南征事「事將危矣，惟陛下察之」即上文帝曹丕。
-  id: wei.14.p39.h2
 - id: wei.14.p40.t1
   anchor: wei.14.p40
   at: 94
@@ -2119,6 +2079,14 @@ annotations:
   length: 0
   type: pei
   text: 惪音德。
+- id: wei.14.p44.h2
+  anchor: wei.14.p44
+  at: 13
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: wei.14.p45.h1
   anchor: wei.14.p45
   at: 48
@@ -2481,16 +2449,6 @@ annotations:
   person_id: liubiao
   text: 表
   via: given_name_carry
-- anchor: wei.14.p52
-  at: 180
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 黃初元年劉曄論吳事「陛下雖齊德有虞」，陛下即剛受禪之文帝曹丕。
-  id: wei.14.p52.h12
 - id: wei.14.p52.h11
   anchor: wei.14.p52
   at: 251
@@ -2529,36 +2487,6 @@ annotations:
   person_id: sunce
   text: 策
   via: given_name_carry
-- anchor: wei.14.p54
-  at: 19
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 「先帝征伐……陛下受禪即真」陛下指剛受禪之文帝曹丕。
-  id: wei.14.p54.h1
-- anchor: wei.14.p54
-  at: 215
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「內為無禮以怒陛下」續指文帝曹丕。
-  id: wei.14.p54.h2
-- anchor: wei.14.p54
-  at: 218
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 「陛下赫然發怒」續指文帝曹丕。
-  id: wei.14.p54.h3
 - id: wei.14.p55.a1
   anchor: wei.14.p55
   at: 0
@@ -2577,26 +2505,6 @@ annotations:
   era: 太和
   era_year: 5
   reasoning: 承前文年號「太和」推得，「五年」 = 太和5年 = AD 231
-- anchor: wei.14.p55
-  at: 37
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 黃初五年廣陵問權，群臣對「陛下親征」即文帝曹丕南巡。
-  id: wei.14.p55.h2
-- anchor: wei.14.p55
-  at: 76
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 劉曄云「彼謂陛下欲以萬乘之重牽己」續指文帝曹丕。
-  id: wei.14.p55.h3
 - id: wei.14.p55.h1
   anchor: wei.14.p55
   at: 132
@@ -2629,16 +2537,6 @@ annotations:
   person_id: caopi
   text: 文皇帝
   via: chapter_alias
-- anchor: wei.14.p58
-  at: 136
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 尚書衛臻與曄議追尊先祖事「陛下孝思中發」上明帝詔（追祖議在太和初），陛下即曹叡。
-  id: wei.14.p58.h1
 - id: wei.14.p61.h1
   anchor: wei.14.p61
   at: 47
@@ -2715,10 +2613,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 233
-  era: 太和
-  era_year: 7
-  reasoning: 「明年」 = 当前年 太和6年 (AD 232) 之次年 = AD 233
+  year_ad: 209
+  era: 建安
+  era_year: 14
+  reasoning: 「明年」 = 当前年 建安13年 (AD 208) 之次年 = AD 209
 - id: wei.14.p63.h4
   anchor: wei.14.p63
   at: 143
@@ -2887,16 +2785,6 @@ annotations:
   person_id: xiahoushang
   text: 夏侯尚
   via: primary
-- anchor: wei.14.p65
-  at: 231
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 蔣濟對文帝詔示「天子無戲言……惟陛下察之」陛下即曹丕。
-  id: wei.14.p65.h4
 - id: wei.14.p66.t1
   anchor: wei.14.p66
   at: 0
@@ -2941,16 +2829,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wei.14.p69
-  at: 34
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 明帝即位後蔣濟疏論中書專任，陛下即明帝曹叡。
-  id: wei.14.p69.h2
 - id: wei.14.p69.h1
   anchor: wei.14.p69
   at: 58
@@ -2959,52 +2837,12 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wei.14.p69
-  at: 73
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下既已察之於大臣」續指曹叡。
-  id: wei.14.p69.h3
-- anchor: wei.14.p69
-  at: 314
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「臣竊亮陛下潛神默思」續指曹叡。
-  id: wei.14.p69.h4
 - id: wei.14.p70.a1
   anchor: wei.14.p70
   at: 64
   length: 0
   type: pei
   text: 司馬彪《戰略》曰：太和六年，明帝遣平州刺史田豫乘海渡，幽州刺史王雄陸道，並攻遼東。蔣濟諫曰：「凡非相吞之國，不侵叛之臣，不宜輕伐。伐之而不制，是驅使為賊。故曰『虎狼當路，不治狐狸。先除大害，小害自已』。今海表之地，累世委質，歲選計考，不乏職貢。議者先之，正使一舉便克，得其民不足益國，得其財不足為富；儻不如意，是為結怨失信也。」帝不聽，豫行竟無成而還。
-- anchor: wei.14.p72
-  at: 0
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 蔣濟疏（明帝時）「陛下方當恢崇前緒」陛下即曹叡。
-  id: wei.14.p72.h1
-- anchor: wei.14.p72
-  at: 207
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「以陛下聖明神武之略」續指曹叡。
-  id: wei.14.p72.h2
 - id: wei.14.p73.a1
   anchor: wei.14.p73
   at: 16
@@ -3039,16 +2877,6 @@ annotations:
   person_id: caoshuang
   text: 曹爽
   via: primary
-- anchor: wei.14.p78
-  at: 65
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 嘉平元年司馬懿誅曹爽（齊王曹芳在位），蔣濟疏「太傅奮獨斷之策，陛下明其忠節」陛下即曹芳。
-  id: wei.14.p78.h2
 - id: wei.14.p78.a1
   anchor: wei.14.p78
   at: 159
@@ -3063,10 +2891,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 233
+  year_ad: 232
   era: 太和
-  era_year: 7
-  reasoning: 「是歲」 = 当前年 太和7年 (AD 233)
+  era_year: 6
+  reasoning: 「是歲」 = 当前年 太和6年 (AD 232)
 - id: wei.14.p78.a2
   anchor: wei.14.p78
   at: 168
@@ -3211,16 +3039,6 @@ annotations:
   person_id: caocao
   text: 武皇帝
   via: chapter_alias
-- anchor: wei.14.p84
-  at: 189
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 劉放、孫資諫明帝勿親征諸葛亮（太和五年），陛下即明帝曹叡。
-  id: wei.14.p84.h4
 - id: wei.14.p85.a1
   anchor: wei.14.p85
   at: 52
@@ -3459,16 +3277,6 @@ annotations:
   era: 嘉平
   era_year: 3
   reasoning: 承前文年號「嘉平」推得，「三年」 = 嘉平3年 = AD 251
-- anchor: wei.14.p88
-  at: 20
-  length: 2
-  type: person
-  person_id: caorui
-  text: 主上
-  via: llm
-  confidence: 0.85
-  reasoning: 「放、資既善承順主上」評其在明帝時備受寵任、左右機要之事，主上指明帝曹叡。
-  id: wei.14.p88.h2
 - id: wei.14.p88.h1
   anchor: wei.14.p88
   at: 32

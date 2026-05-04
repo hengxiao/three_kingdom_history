@@ -20,43 +20,32 @@
     }
   ],
   "mentions_by_work": {
-    "zztj": [],
-    "sanguozhi": [
+    "zztj": [
       {
-        "chapter_id": "wu.2",
-        "chapter_title": "吳書·吳主傳",
-        "book_title": "吳書",
-        "work": "sanguozhi",
-        "anchor": "wu.2.p62",
-        "at": 9,
-        "data_url": "data/sanguozhi/wu/02.json",
-        "matched": "皇后",
-        "snippet": "太元元年夏五月，立皇后潘氏，大赦，改年。初臨海羅陽縣有神，自稱王表。周旋民間，語言飲食，與人無異，然不見其形。又有一婢，名紡績。是月，遣中書郎李祟齎…"
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p63",
+        "at": 4,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "潘夫人",
+        "snippet": "初，會稽潘夫人有寵於吳主，生少子亮，吳主愛之。全公主既與太子和有隙，欲豫自結，數稱亮美，以其夫之兄子尚女妻之。吳主以魯王霸結朋黨以害其兄，…"
       },
       {
-        "chapter_id": "wu.2",
-        "chapter_title": "吳書·吳主傳",
-        "book_title": "吳書",
-        "work": "sanguozhi",
-        "anchor": "wu.2.p63",
-        "at": 53,
-        "data_url": "data/sanguozhi/wu/02.json",
-        "matched": "皇后",
-        "snippet": "…昌。子休爲琅邪王，居虎林。二月，大赦，改元爲神鳳。皇后潘氏薨。諸將吏數詣王表請福，表亡去。夏四月，權薨，時年七十一，謚曰大皇帝。秋七月，葬蔣陵。"
-      },
-      {
-        "chapter_id": "wu.3",
-        "chapter_title": "吳書·三嗣主傳",
-        "book_title": "吳書",
-        "work": "sanguozhi",
-        "anchor": "wu.3.p3",
-        "at": 12,
-        "data_url": "data/sanguozhi/wu/03.json",
-        "matched": "皇后",
-        "snippet": "太元元年夏，亮母潘氏立爲皇后。冬，權寢疾，徵大將軍諸葛恪爲太子太傅，會稽太守滕胤爲太常，並受詔輔太子。明年四月，權薨，太子即尊號，大赦，改。是歲，於魏嘉平…"
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.75.p82",
+        "at": 3,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "潘夫人",
+        "snippet": "吳主立潘夫人為皇后，大赦，改元太元。"
       }
     ],
+    "sanguozhi": [],
     "houhanshu": []
   },
-  "n_mentions": 3
+  "n_mentions": 2
 }

@@ -12,21 +12,45 @@
   "brief": "東漢第三帝劉炟",
   "bio_chapters": [],
   "mentions_by_work": {
-    "zztj": [],
-    "sanguozhi": [],
+    "zztj": [
+      {
+        "chapter_id": "zztj.57",
+        "chapter_title": "漢紀四十九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.57.p48",
+        "at": 452,
+        "data_url": "data/zztj/zztj/57.json",
+        "matched": "章帝",
+        "snippet": "…義已弘，不可復使治民及在州郡。昔孝宣會諸儒於石渠，章帝集學士於白虎，通經釋義，其事優大，文武之道，所宜從之。若乃不能小善，雖有可觀，孔子以為致遠則泥，君子固當志其大者。又，前一切以…"
+      }
+    ],
+    "sanguozhi": [
+      {
+        "chapter_id": "shu.1",
+        "chapter_title": "蜀書·劉二牧傳",
+        "book_title": "蜀書",
+        "work": "sanguozhi",
+        "anchor": "shu.1.p1",
+        "at": 21,
+        "data_url": "data/sanguozhi/shu/01.json",
+        "matched": "章帝",
+        "snippet": "劉焉字君郎，江夏竟陵人也，漢魯恭王之後裔，章帝元和中徙封竟陵，支庶家焉。"
+      }
+    ],
     "houhanshu": [
       {
-        "chapter_id": "hhs.79",
-        "chapter_title": "儒林列传",
+        "chapter_id": "hhs.60",
+        "chapter_title": "馬融列傳",
         "book_title": "後漢書",
         "work": "houhanshu",
-        "anchor": "hhs.79.p51",
-        "at": 107,
-        "data_url": "data/houhanshu/hhs/79.json",
-        "matched": "陛下",
-        "snippet": "…有光荣乎？”對曰：“臣聞明王聖主，莫不尊师贵道。今陛下親屈萬乘，辱臨敝里，此乃崇禮先师，增辉聖德。至于光荣，非所敢承。”帝大笑曰：“非聖者子孫，焉有斯言乎！”遂拜僖郎中，賜褒成侯損…"
+        "anchor": "hhs.60.p88",
+        "at": 244,
+        "data_url": "data/houhanshu/hhs/60.json",
+        "matched": "章帝",
+        "snippet": "…義已弘，不可復使理人及仕州郡。昔孝宣會諸儒於石渠，章帝集學士於白虎，通經釋義，其事優大，文武之道，所宜從之。若乃小能小善，雖有可觀，孔子以為「致遠則泥」，君子故當志其大者。[101…"
       }
     ]
   },
-  "n_mentions": 1
+  "n_mentions": 3
 }

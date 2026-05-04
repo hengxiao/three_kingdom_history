@@ -2,9 +2,17 @@ chapter: zztj.72
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷072
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 57b185311b5f6b104a18a7b85bdb2dd65d6cca0ea8a95e143f66c6c519318759
 annotations:
+- id: zztj.72.p3.h1
+  anchor: zztj.72.p3
+  at: 2
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.72.p4.t1
   anchor: zztj.72.p4
   at: 0
@@ -421,96 +429,6 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 太和5年 (AD 231)，月份「七月」
-- anchor: zztj.72.p14
-  at: 79
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p14.h1
-- anchor: zztj.72.p14
-  at: 299
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p14.h2
-- anchor: zztj.72.p14
-  at: 396
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p14.h3
-- anchor: zztj.72.p14
-  at: 680
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p14.h4
-- anchor: zztj.72.p14
-  at: 734
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p14.h5
-- anchor: zztj.72.p15
-  at: 61
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p15.h1
-- anchor: zztj.72.p15
-  at: 289
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p15.h2
-- anchor: zztj.72.p15
-  at: 357
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p15.h3
-- anchor: zztj.72.p15
-  at: 382
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p15.h4
 - id: zztj.72.p16.t1
   anchor: zztj.72.p16
   at: 0
@@ -707,16 +625,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 太和7年 (AD 233)，月份「正月」
-- anchor: zztj.72.p25
-  at: 15
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 吳太子指孫登
-  id: zztj.72.p25.h2
 - id: zztj.72.p25.h1
   anchor: zztj.72.p25
   at: 41
@@ -747,16 +655,6 @@ annotations:
   person_id: chenqun
   text: 陳群
   via: primary
-- anchor: zztj.72.p27
-  at: 137
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p27.h3
 - id: zztj.72.p27.h2
   anchor: zztj.72.p27
   at: 323
@@ -765,26 +663,6 @@ annotations:
   person_id: yangfu
   text: 楊阜
   via: primary
-- anchor: zztj.72.p27
-  at: 334
-  length: 2
-  type: person
-  person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 太和-青龍年間皇后(毛皇后)不在花名冊
-  id: zztj.72.p27.h5
-- anchor: zztj.72.p27
-  at: 338
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p27.h4
 - id: zztj.72.p27.t1
   anchor: zztj.72.p27
   at: 375
@@ -963,166 +841,6 @@ annotations:
   person_id: liuye
   text: 劉曄
   via: primary
-- anchor: zztj.72.p38
-  at: 249
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p38.h3
-- anchor: zztj.72.p39
-  at: 21
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p39.h1
-- anchor: zztj.72.p40
-  at: 24
-  length: 2
-  type: person
-  person_id: caorui
-  text: 主上
-  via: llm
-  confidence: 0.75
-  reasoning: 魏主上指明帝
-  id: zztj.72.p40.h1
-- anchor: zztj.72.p41
-  at: 136
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h2
-- anchor: zztj.72.p41
-  at: 211
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h3
-- anchor: zztj.72.p41
-  at: 318
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h4
-- anchor: zztj.72.p41
-  at: 330
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h5
-- anchor: zztj.72.p41
-  at: 372
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h6
-- anchor: zztj.72.p41
-  at: 513
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h7
-- anchor: zztj.72.p41
-  at: 528
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h8
-- anchor: zztj.72.p41
-  at: 535
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h9
-- anchor: zztj.72.p41
-  at: 613
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h10
-- anchor: zztj.72.p41
-  at: 642
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h11
-- anchor: zztj.72.p41
-  at: 736
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h12
-- anchor: zztj.72.p41
-  at: 824
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h13
-- anchor: zztj.72.p41
-  at: 875
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h14
 - id: zztj.72.p41.h1
   anchor: zztj.72.p41
   at: 921
@@ -1131,66 +849,6 @@ annotations:
   person_id: anhan
   text: 漢安帝
   via: primary
-- anchor: zztj.72.p41
-  at: 1015
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h15
-- anchor: zztj.72.p41
-  at: 1109
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h16
-- anchor: zztj.72.p41
-  at: 1179
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p41.h17
-- anchor: zztj.72.p42
-  at: 16
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p42.h1
-- anchor: zztj.72.p42
-  at: 46
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p42.h2
-- anchor: zztj.72.p42
-  at: 66
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p42.h3
 - id: zztj.72.p43.h1
   anchor: zztj.72.p43
   at: 1
@@ -1343,26 +1001,6 @@ annotations:
   person_id: luxun
   text: 陸遜
   via: primary
-- anchor: zztj.72.p54
-  at: 7
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p54.h2
-- anchor: zztj.72.p54
-  at: 138
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p54.h3
 - id: zztj.72.p55.h1
   anchor: zztj.72.p55
   at: 4
@@ -1379,16 +1017,6 @@ annotations:
   person_id: lumao
   text: 陸瑁
   via: primary
-- anchor: zztj.72.p57
-  at: 156
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.88
-  reasoning: 太和-青龍年間魏臣上書陛下指魏明帝曹叡
-  id: zztj.72.p57.h1
 - id: zztj.72.p58.h1
   anchor: zztj.72.p58
   at: 7
@@ -1683,13 +1311,21 @@ annotations:
   via: primary
 - id: zztj.72.p72.h1
   anchor: zztj.72.p72
+  at: 21
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: zztj.72.p72.h2
+  anchor: zztj.72.p72
   at: 117
   length: 3
   type: person
   person_id: simayi
   text: 司馬懿
   via: primary
-- id: zztj.72.p72.h2
+- id: zztj.72.p72.h3
   anchor: zztj.72.p72
   at: 121
   length: 3
@@ -1697,7 +1333,7 @@ annotations:
   person_id: zhugeliang
   text: 諸葛亮
   via: primary
-- id: zztj.72.p72.h3
+- id: zztj.72.p72.h4
   anchor: zztj.72.p72
   at: 126
   length: 1
@@ -1719,7 +1355,7 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 青龍2年 (AD 234)，月份「七月」
-- id: zztj.72.p72.h4
+- id: zztj.72.p72.h5
   anchor: zztj.72.p72
   at: 198
   length: 2
@@ -1727,7 +1363,7 @@ annotations:
   person_id: manchong
   text: 滿寵
   via: primary
-- id: zztj.72.p72.h5
+- id: zztj.72.p72.h6
   anchor: zztj.72.p72
   at: 254
   length: 2
@@ -2301,16 +1937,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: zztj.72.p84
-  at: 80
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢上書時陛下指後主劉禪
-  id: zztj.72.p84.h3
 - id: zztj.72.p85.h1
   anchor: zztj.72.p85
   at: 4

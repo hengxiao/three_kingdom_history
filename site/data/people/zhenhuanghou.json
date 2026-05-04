@@ -22,50 +22,50 @@
   "mentions_by_work": {
     "zztj": [
       {
-        "chapter_id": "zztj.70",
-        "chapter_title": "魏紀二",
+        "chapter_id": "zztj.69",
+        "chapter_title": "第六十九卷 魏紀一",
         "book_title": "資治通鑑",
         "work": "zztj",
-        "anchor": "zztj.70.p58",
-        "at": 14,
-        "data_url": "data/zztj/zztj/70.json",
-        "matched": "皇后",
-        "snippet": "癸未[6]，追謚甄夫人曰文昭皇后。"
+        "anchor": "zztj.69.p38",
+        "at": 21,
+        "data_url": "data/zztj/zztj/69.json",
+        "matched": "甄氏",
+        "snippet": "太祖之入鄴也，帝為五官中郎將，見袁熙妻中山甄氏美而悅之，太祖為之聘焉，生子叡。及即皇帝位，安平郭貴嬪有寵，甄夫人留鄴不得見。失意，有怨言。郭貴嬪譖之，帝大怒。六月，丁卯，遣…"
       },
       {
-        "chapter_id": "zztj.70",
-        "chapter_title": "魏紀二",
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
         "book_title": "資治通鑑",
         "work": "zztj",
-        "anchor": "zztj.70.p74",
-        "at": 14,
-        "data_url": "data/zztj/zztj/70.json",
-        "matched": "皇后",
-        "snippet": "二月，〔辛巳〕[9]，立文昭皇后寢園於鄴。王朗往視園陵，見百姓多貧困，而帝方營修宮室，朗上疏諫曰：「昔大禹欲拯天下之大患，故先卑其宮室，儉其衣食；勾踐欲廣其御…"
+        "anchor": "zztj.74.p53",
+        "at": 8,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "甄氏",
+        "snippet": "夏，四月，立皇后甄氏，大赦。後，文昭皇后兄儼之孫也。"
       },
       {
-        "chapter_id": "zztj.71",
-        "chapter_title": "魏紀三",
+        "chapter_id": "zztj.75",
+        "chapter_title": "魏紀七",
         "book_title": "資治通鑑",
         "work": "zztj",
-        "anchor": "zztj.71.p62",
-        "at": 17,
-        "data_url": "data/zztj/zztj/71.json",
-        "matched": "皇后",
-        "snippet": "十二月，〔辛未〕[10]，改葬文昭皇后于朝陽陵。"
+        "anchor": "zztj.75.p84",
+        "at": 10,
+        "data_url": "data/zztj/zztj/75.json",
+        "matched": "甄氏",
+        "snippet": "秋，七月，壬戌，皇后甄氏殂。"
       }
     ],
     "sanguozhi": [
       {
-        "chapter_id": "wei.13",
-        "chapter_title": "魏書·鍾繇華歆王朗傳",
+        "chapter_id": "wei.2",
+        "chapter_title": "魏書·文帝紀",
         "book_title": "魏書",
         "work": "sanguozhi",
-        "anchor": "wei.13.p20",
-        "at": 29,
-        "data_url": "data/sanguozhi/wei/13.json",
-        "matched": "皇后",
-        "snippet": "…，進封蘭陵侯，增邑五百，并前千二百戶。使至鄴省文昭皇后陵，見百姓或有不足。是時方營脩宮室，朗上疏曰：「陛下即位已來，恩詔屢布，百姓萬民莫不欣欣。臣頃奉使北行，往反道路，聞衆傜役，其…"
+        "anchor": "wei.2.p19",
+        "at": 76,
+        "data_url": "data/sanguozhi/wei/02.json",
+        "matched": "甄氏",
+        "snippet": "…斬之。六月庚子，初祀五嶽四瀆，咸秩羣祀。丁卯，夫人甄氏卒。戊辰晦，日有食之，有司奏免太尉，詔曰：「災異之作，以譴元首，而歸過股肱，豈禹、湯罪己之義乎？其令百官各虔厥職，後有天地之眚…"
       },
       {
         "chapter_id": "wei.20",
@@ -73,10 +73,21 @@
         "book_title": "魏書",
         "work": "sanguozhi",
         "anchor": "wei.20.p31",
-        "at": 8,
+        "at": 6,
         "data_url": "data/sanguozhi/wei/20.json",
-        "matched": "皇后",
-        "snippet": "文皇帝九男：甄氏皇后生明帝，李貴人生贊哀王協，潘淑媛生北海悼王蕤，朱淑媛生東武陽懷王鑑，仇昭儀生東海定王霖，徐姬生元城哀王禮，蘇姬生邯鄲懷王邕，張…"
+        "matched": "甄氏",
+        "snippet": "文皇帝九男：甄氏皇后生明帝，李貴人生贊哀王協，潘淑媛生北海悼王蕤，朱淑媛生東武陽懷王鑑，仇昭儀生東海定王霖，徐姬生元城哀王禮，蘇姬生邯鄲懷王邕…"
+      },
+      {
+        "chapter_id": "wei.20",
+        "chapter_title": "魏書·武文世王公傳",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.20.p5",
+        "at": 378,
+        "data_url": "data/sanguozhi/wei/20.json",
+        "matched": "甄氏",
+        "snippet": "…祖曰：「此我之不幸，而汝曹之幸也。」言則流涕，爲聘甄氏亡女與合葬，贈騎都尉印綬，命宛侯據子琮奉沖後。二十二年，封琮爲鄧侯。"
       },
       {
         "chapter_id": "wei.3",
@@ -84,35 +95,47 @@
         "book_title": "魏書",
         "work": "sanguozhi",
         "anchor": "wei.3.p1",
-        "at": 129,
+        "at": 123,
         "data_url": "data/sanguozhi/wei/03.json",
-        "matched": "皇后",
-        "snippet": "…曰皇太后。諸臣封爵各有差。癸未，追謚母甄夫人曰文昭皇后。壬辰，立皇弟蕤爲陽平王。"
+        "matched": "甄夫人",
+        "snippet": "…皇太后，皇后曰皇太后。諸臣封爵各有差。癸未，追謚母甄夫人曰文昭皇后。壬辰，立皇弟蕤爲陽平王。"
       },
       {
-        "chapter_id": "wei.3",
-        "chapter_title": "魏書·明帝紀",
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
         "book_title": "魏書",
         "work": "sanguozhi",
-        "anchor": "wei.3.p36",
-        "at": 146,
-        "data_url": "data/sanguozhi/wei/03.json",
-        "matched": "皇后",
-        "snippet": "…城、旍陽、邔四縣，置襄陽南部都尉。己未，有司奏文昭皇后立廟京都。分襄陽郡之鄀葉縣屬義陽郡。"
+        "anchor": "wei.4.p20",
+        "at": 136,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "甄氏",
+        "snippet": "…。五月甲寅，淩自殺。六月，彪賜死。秋七月壬戌，皇后甄氏崩。辛未，以司空司馬孚為太尉。戊寅，太傅司馬宣王薨，以衞將軍司馬景王為撫軍大將軍，錄尚書事。乙未，葬懷甄后于太清陵。庚子，驃騎…"
       },
       {
-        "chapter_id": "wei.3",
-        "chapter_title": "魏書·明帝紀",
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
         "book_title": "魏書",
         "work": "sanguozhi",
-        "anchor": "wei.3.p4",
-        "at": 88,
-        "data_url": "data/sanguozhi/wei/03.json",
-        "matched": "皇后",
-        "snippet": "…昭、鹿磐討斬之。二月辛未，帝耕于藉田。辛巳，立文昭皇后寢廟於鄴。丁亥，朝日于東郊。夏四月乙亥，行五銖錢。甲申，初營宗廟。秋八月，夕月于西郊。冬十月丙寅，治兵于東郊。焉耆王遣子入侍。…"
+        "anchor": "wei.4.p9",
+        "at": 27,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "甄氏",
+        "snippet": "…春正月，帝加元服，賜羣臣各有差。夏四月乙卯，立皇后甄氏，大赦。五月朔，日有蝕之，旣。秋七月，詔祀故大司馬曹真、曹休、征南大將軍夏侯尚、太常桓階、司空陳羣、太傅鍾繇、車騎將軍張郃、左…"
       }
     ],
-    "houhanshu": []
+    "houhanshu": [
+      {
+        "chapter_id": "hhs.70",
+        "chapter_title": "鄭孔荀列傳",
+        "book_title": "後漢書",
+        "work": "houhanshu",
+        "anchor": "hhs.70.p33",
+        "at": 27,
+        "data_url": "data/houhanshu/hhs/70.json",
+        "matched": "甄氏",
+        "snippet": "…曹操攻屠鄴城，袁氏婦子多見侵略，而操子丕私納袁熙妻甄氏。融乃與操書，稱「武王伐紂，以妲己賜周公」。操不悟，後問出何經典。對曰：「以今度之，想當然耳。」後操討烏桓，又嘲之曰：「大將軍…"
+      }
+    ]
   },
-  "n_mentions": 8
+  "n_mentions": 10
 }

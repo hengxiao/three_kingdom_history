@@ -21,8 +21,20 @@
   ],
   "mentions_by_work": {
     "zztj": [],
-    "sanguozhi": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wu.2",
+        "chapter_title": "吳書·吳主傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.2.p33",
+        "at": 71,
+        "data_url": "data/sanguozhi/wu/02.json",
+        "matched": "武烈皇后",
+        "snippet": "…日大赦。改年，追尊父破虜將軍堅爲武烈皇帝，母吳氏爲武烈皇后，兄討逆將軍策爲長沙桓王。吳王太子登爲皇太子。將吏皆近爵加賞。"
+      }
+    ],
     "houhanshu": []
   },
-  "n_mentions": 0
+  "n_mentions": 1
 }

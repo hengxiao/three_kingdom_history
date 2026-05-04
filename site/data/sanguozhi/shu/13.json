@@ -106,16 +106,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.13.p2.h7",
-          "type": "person",
-          "at": 61,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "黃權諫先主東伐吳「陛下宜為後鎮」，所諫對象即先主劉備。"
-        },
-        {
           "id": "shu.13.p2.h2",
           "type": "person",
           "at": 69,
@@ -366,16 +356,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.13.p4.h14",
-          "type": "person",
-          "at": 278,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "李恢答先主自薦語末「惟陛下察之」，所對亦先主劉備（先主笑曰即指）。"
-        },
-        {
           "id": "shu.13.p4.h13",
           "type": "person",
           "at": 284,
@@ -623,10 +603,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 240,
-          "era": "延熙",
+          "year_ad": 225,
+          "era": "建興",
           "era_year": 3,
-          "reasoning": "承前文年號「延熙」推得，「三年」 = 延熙3年 = AD 240"
+          "reasoning": "承前文年號「建興」推得，「三年」 = 建興3年 = AD 225"
         },
         {
           "id": "shu.13.p11.h6",
@@ -645,10 +625,10 @@
           "text": "八年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 245,
-          "era": "延熙",
+          "year_ad": 230,
+          "era": "建興",
           "era_year": 8,
-          "reasoning": "承前文年號「延熙」推得，「八年」 = 延熙8年 = AD 245"
+          "reasoning": "承前文年號「建興」推得，「八年」 = 建興8年 = AD 230"
         },
         {
           "id": "shu.13.p11.h7",
@@ -667,10 +647,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 246,
-          "era": "延熙",
+          "year_ad": 231,
+          "era": "建興",
           "era_year": 9,
-          "reasoning": "「明年」 = 当前年 延熙8年 (AD 245) 之次年 = AD 246"
+          "reasoning": "「明年」 = 当前年 建興8年 (AD 230) 之次年 = AD 231"
         },
         {
           "id": "shu.13.p11.h8",
@@ -707,10 +687,10 @@
           "text": "十一年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 248,
-          "era": "延熙",
+          "year_ad": 233,
+          "era": "建興",
           "era_year": 11,
-          "reasoning": "承前文年號「延熙」推得，「十一年」 = 延熙11年 = AD 248"
+          "reasoning": "承前文年號「建興」推得，「十一年」 = 建興11年 = AD 233"
         },
         {
           "id": "shu.13.p11.h11",
@@ -741,7 +721,7 @@
           "year_ad": 242,
           "era": "延熙",
           "era_year": 5,
-          "reasoning": "原文「延熙五年」直接出现年号；解析為 AD 242（回溯前事，不推進章節時間軸）"
+          "reasoning": "原文「延熙五年」直接出现年号；解析為 AD 242"
         },
         {
           "id": "shu.13.p11.h13",
@@ -855,10 +835,10 @@
           "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 246,
-          "era": "延熙",
+          "year_ad": 231,
+          "era": "建興",
           "era_year": 9,
-          "reasoning": "承前文年號「延熙」推得，「九年」 = 延熙9年 = AD 246"
+          "reasoning": "承前文年號「建興」推得，「九年」 = 建興9年 = AD 231"
         },
         {
           "id": "shu.13.p12.h5",

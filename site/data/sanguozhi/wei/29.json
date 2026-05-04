@@ -648,36 +648,6 @@
           "text": "文帝",
           "person_id": "caopi",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wei.29.p31.h2",
-          "type": "person",
-          "at": 197,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "周宣對曹丕奏對，「陛下家事」中陛下即魏文帝曹丕，欲治曹植之罪。"
-        },
-        {
-          "id": "wei.29.p31.h3",
-          "type": "person",
-          "at": 207,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "周宣對曹丕「此自陛下家事，雖意欲爾而太后不聽」— 太后即武宣卞皇后（曹丕母）；roster 無卞太后，置 null。"
-        },
-        {
-          "id": "wei.29.p31.h4",
-          "type": "person",
-          "at": 233,
-          "length": 2,
-          "text": "太后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "「偪於太后，但加貶爵」承前句，仍指卞太后；roster 無，置 null。"
         }
       ]
     },

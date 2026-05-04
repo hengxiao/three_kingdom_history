@@ -29,7 +29,17 @@
     {
       "id": "zztj.71.p3",
       "text": "烈祖明皇帝上之下",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.71.p3.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.71.p4",
@@ -1015,16 +1025,6 @@
           "reasoning": "年承前文 太和2年 (AD 228)，月份「五月」"
         },
         {
-          "id": "zztj.71.p26.h14",
-          "type": "person",
-          "at": 250,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮後出師表，陛下指後主劉禪"
-        },
-        {
           "id": "zztj.71.p26.h4",
           "type": "person",
           "at": 289,
@@ -1483,16 +1483,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.71.p33.h7",
-          "type": "person",
-          "at": 115,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳黃龍元年(229)孫權立孫登為皇太子"
-        },
-        {
           "id": "zztj.71.p33.h4",
           "type": "person",
           "at": 130,
@@ -1500,26 +1490,6 @@
           "text": "諸葛恪",
           "person_id": "zhugeke",
           "via": "primary"
-        },
-        {
-          "id": "zztj.71.p33.h8",
-          "type": "person",
-          "at": 134,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳黃龍元年(229)孫權立孫登為皇太子"
-        },
-        {
-          "id": "zztj.71.p33.h9",
-          "type": "person",
-          "at": 183,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳黃龍元年(229)孫權立孫登為皇太子"
         },
         {
           "id": "zztj.71.p33.h5",
@@ -1577,36 +1547,6 @@
           "text": "張昭",
           "person_id": "zhangzhao",
           "via": "primary"
-        },
-        {
-          "id": "zztj.71.p35.h4",
-          "type": "person",
-          "at": 139,
-          "length": 2,
-          "text": "太后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "吳國國太(孫權母吳氏)，不在花名冊"
-        },
-        {
-          "id": "zztj.71.p35.h2",
-          "type": "person",
-          "at": 149,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "張昭對吳大帝孫權言陛下"
-        },
-        {
-          "id": "zztj.71.p35.h3",
-          "type": "person",
-          "at": 154,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "張昭對吳大帝孫權言陛下"
         }
       ]
     },
@@ -1643,12 +1583,11 @@
         {
           "id": "zztj.71.p38.h1",
           "type": "person",
-          "at": 21,
+          "at": 17,
           "length": 2,
-          "text": "皇后",
+          "text": "吳氏",
           "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "追尊吳氏為高皇后(孫堅之妻吳夫人)，不在花名冊"
+          "via": "alias"
         }
       ]
     },
@@ -1702,16 +1641,6 @@
           "reasoning": "年承前文 太和3年 (AD 229)，月份「九月」"
         },
         {
-          "id": "zztj.71.p40.h2",
-          "type": "person",
-          "at": 21,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登留鎮武昌"
-        },
-        {
           "id": "zztj.71.p40.h1",
           "type": "person",
           "at": 38,
@@ -1719,16 +1648,6 @@
           "text": "陸遜",
           "person_id": "luxun",
           "via": "primary"
-        },
-        {
-          "id": "zztj.71.p40.h3",
-          "type": "person",
-          "at": 41,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登留鎮武昌"
         }
       ]
     },
@@ -1770,16 +1689,6 @@
       "text": "太子與西陵都督步騭書，求見啟誨，騭於是條於時事業在荊州界者及諸僚吏行能以報之，因上疏獎勸曰：「臣聞人君不親小事，使百官有司各任其職，故舜命九賢，則無所用心，不下廟堂而天下治也。故賢人所在，折衝萬里，信國家之利器，崇替之所由也。願明太子重以經意，則天下幸甚！」",
       "annotations": [
         {
-          "id": "zztj.71.p42.h2",
-          "type": "person",
-          "at": 0,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登與步騭書"
-        },
-        {
           "id": "zztj.71.p42.h1",
           "type": "person",
           "at": 7,
@@ -1787,16 +1696,6 @@
           "text": "步騭",
           "person_id": "buzhi",
           "via": "primary"
-        },
-        {
-          "id": "zztj.71.p42.h3",
-          "type": "person",
-          "at": 115,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "吳太子孫登與步騭書"
         }
       ]
     },
@@ -2065,12 +1964,11 @@
         {
           "id": "zztj.71.p53.h1",
           "type": "person",
-          "at": 8,
+          "at": 10,
           "length": 2,
-          "text": "太后",
+          "text": "卞氏",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "魏太皇太后卞氏(武宣皇后)，不在花名冊"
+          "via": "alias"
         },
         {
           "id": "zztj.71.p53.t2",
@@ -2086,16 +1984,6 @@
           "month_chinese": "七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「七月」"
-        },
-        {
-          "id": "zztj.71.p53.h2",
-          "type": "person",
-          "at": 22,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "魏太皇太后卞氏(武宣皇后)，不在花名冊"
         }
       ]
     },
@@ -2180,16 +2068,6 @@
           "text": "華歆",
           "person_id": "huaxin",
           "via": "primary"
-        },
-        {
-          "id": "zztj.71.p57.h2",
-          "type": "person",
-          "at": 23,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "太和四年華歆上疏魏明帝"
         }
       ]
     },
@@ -2292,16 +2170,6 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 太和4年 (AD 230)，月份「十二月」"
-        },
-        {
-          "id": "zztj.71.p62.h1",
-          "type": "person",
-          "at": 17,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "改葬文昭皇后(甄氏)，不在花名冊"
         }
       ]
     },

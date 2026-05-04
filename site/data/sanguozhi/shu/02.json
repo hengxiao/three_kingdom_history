@@ -2903,16 +2903,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "shu.2.p21.h21",
-          "type": "person",
-          "at": 211,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "群臣勸進表敘「久令陛下蒙塵憂厄」追述漢獻帝劉協受董卓、曹操逼凌之事，故陛下指漢獻帝。"
-        },
-        {
           "id": "shu.2.p21.h10",
           "type": "person",
           "at": 232,
@@ -2929,36 +2919,6 @@
           "text": "曹操",
           "person_id": "caocao",
           "via": "primary"
-        },
-        {
-          "id": "shu.2.p21.h24",
-          "type": "person",
-          "at": 252,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "「皇后太子，鴆殺見害」指漢末伏皇后與弘農王（少帝太子之事），最可能伏皇后；roster未列伏皇后，留空。"
-        },
-        {
-          "id": "shu.2.p21.h22",
-          "type": "person",
-          "at": 254,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liubian",
-          "via": "llm",
-          "reasoning": "「皇后太子鴆殺見害」之太子當指被鴆殺之弘農王劉辯（少帝），roster中為liubian。"
-        },
-        {
-          "id": "shu.2.p21.h23",
-          "type": "person",
-          "at": 274,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "同表「久令陛下蒙塵憂厄」陛下仍指漢獻帝。"
         },
         {
           "id": "shu.2.p21.h12",
@@ -3085,16 +3045,6 @@
       "text": "臣以具臣之才，荷上將之任，董督三軍，奉辭於外，不得掃除寇難，靖匡王室，久使陛下聖教陵遲，六合之內，否而未泰，惟憂反側，疢如疾首。曩者董卓造為亂階，自是之後，群凶縱橫，殘剝海內。賴陛下聖德威靈，人神同應，或忠義奮討，或上天降罰，暴逆並殪，以漸冰消。惟獨曹操，久未梟除，侵擅國權，恣心極亂。臣昔與車騎將軍董承圖謀討操，機事不密，承見陷害，臣播越失據，忠義不果。遂得使操窮凶極逆，主後戮殺，皇子鴆害。雖糾合同盟，念在奮力，懦弱不武，歷年未效。常恐殞沒，孤負國恩，寤寐永嘆，夕惕若厲。今臣群寮以為在昔虞書敦敘九族，庶明勵翼，五帝損益，此道不廢。週監二代，並建諸姬，實賴晉、鄭夾輔之福。高祖龍興，尊王子弟，大啟九國，卒斬諸呂，以安大宗。今操惡直醜正，寔繁有徒，包藏禍心，篡盜已顯。既宗室微弱，帝族無位，斟酌古式，依假權宜，上臣大司馬漢中王。臣伏自三省，受國厚恩，荷任一方，陳力未效，所獲已過，不宜复忝高位以重罪謗。群寮見逼，迫臣以義。臣退惟寇賊不梟，國難未已，宗廟傾危，社稷將墜，成臣憂責碎首之負。若應權通變，以寧靖聖朝，雖赴水火，所不得辭，敢慮常宜，以防後悔。輒順眾議，拜受印璽，以崇國威。仰惟爵號，位高寵厚，俯思報效，憂深責重，驚怖累息，如臨於谷。盡力輸誠，獎厲六師，率齊群義，應天順時，撲討凶逆，以寧社稷，以報萬分，謹拜章因驛上還所假左將軍、宜城亭侯印綬。",
       "annotations": [
         {
-          "id": "shu.2.p24.h9",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "諸葛亮等再上漢中王上表「久使陛下聖教陵遲」，陛下乃漢獻帝。"
-        },
-        {
           "id": "shu.2.p24.h1",
           "type": "person",
           "at": 66,
@@ -3102,16 +3052,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "shu.2.p24.h10",
-          "type": "person",
-          "at": 89,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "同表「賴陛下聖德威靈」承上指漢獻帝。"
         },
         {
           "id": "shu.2.p24.h2",
@@ -3484,6 +3424,15 @@
         {
           "id": "shu.2.p31.h2",
           "type": "person",
+          "at": 48,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "shu.2.p31.h3",
+          "type": "person",
           "at": 63,
           "length": 2,
           "text": "曹操",
@@ -3491,7 +3440,7 @@
           "via": "primary"
         },
         {
-          "id": "shu.2.p31.h3",
+          "id": "shu.2.p31.h4",
           "type": "person",
           "at": 85,
           "length": 1,
@@ -3500,7 +3449,7 @@
           "via": "given_name"
         },
         {
-          "id": "shu.2.p31.h4",
+          "id": "shu.2.p31.h5",
           "type": "person",
           "at": 87,
           "length": 1,
@@ -3509,7 +3458,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "shu.2.p31.h5",
+          "id": "shu.2.p31.h6",
           "type": "person",
           "at": 110,
           "length": 1,
@@ -3518,7 +3467,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "shu.2.p31.h6",
+          "id": "shu.2.p31.h7",
           "type": "person",
           "at": 125,
           "length": 1,
@@ -3527,7 +3476,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "shu.2.p31.h7",
+          "id": "shu.2.p31.h8",
           "type": "person",
           "at": 181,
           "length": 1,
@@ -3536,7 +3485,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "shu.2.p31.h8",
+          "id": "shu.2.p31.h9",
           "type": "person",
           "at": 185,
           "length": 1,
@@ -3606,24 +3555,13 @@
           "reasoning": "年承前文 章武元年 (AD 221)，月份「五月」"
         },
         {
-          "id": "shu.2.p32.h10",
+          "id": "shu.2.p32.h3",
           "type": "person",
-          "at": 48,
+          "at": 50,
           "length": 2,
-          "text": "皇后",
+          "text": "吳氏",
           "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "章武元年「立皇后吳氏」即穆皇后吳氏（後主劉禪嫡母），roster未列。"
-        },
-        {
-          "id": "shu.2.p32.h9",
-          "type": "person",
-          "at": 57,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "「子禪為皇太子」明指立劉禪為皇太子。"
+          "via": "alias"
         },
         {
           "id": "shu.2.p32.t3",
@@ -3641,7 +3579,7 @@
           "reasoning": "年承前文 章武元年 (AD 221)，月份「六月」"
         },
         {
-          "id": "shu.2.p32.h3",
+          "id": "shu.2.p32.h4",
           "type": "person",
           "at": 79,
           "length": 2,
@@ -3650,7 +3588,7 @@
           "via": "primary"
         },
         {
-          "id": "shu.2.p32.h4",
+          "id": "shu.2.p32.h5",
           "type": "person",
           "at": 90,
           "length": 2,
@@ -3659,7 +3597,7 @@
           "via": "chapter_alias"
         },
         {
-          "id": "shu.2.p32.h5",
+          "id": "shu.2.p32.h6",
           "type": "person",
           "at": 93,
           "length": 2,
@@ -3668,7 +3606,7 @@
           "via": "primary"
         },
         {
-          "id": "shu.2.p32.h6",
+          "id": "shu.2.p32.h7",
           "type": "person",
           "at": 97,
           "length": 2,
@@ -3692,7 +3630,7 @@
           "reasoning": "年承前文 章武元年 (AD 221)，月份「秋七月」"
         },
         {
-          "id": "shu.2.p32.h7",
+          "id": "shu.2.p32.h8",
           "type": "person",
           "at": 115,
           "length": 2,
@@ -3701,7 +3639,7 @@
           "via": "primary"
         },
         {
-          "id": "shu.2.p32.h8",
+          "id": "shu.2.p32.h9",
           "type": "person",
           "at": 122,
           "length": 2,

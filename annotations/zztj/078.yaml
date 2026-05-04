@@ -2,7 +2,7 @@ chapter: zztj.78
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷078
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 4dde8c4bf75e87cff16b44de19f5923917626d9baef53a3668bfa9dac45f505f
 annotations:
 - id: zztj.78.p4.t1
@@ -31,16 +31,6 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 景元3年 (AD 262)，月份「八月」
-- anchor: zztj.78.p5
-  at: 30
-  length: 2
-  type: person
-  person_id: sunwan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 吳國太子(孫𩅦等)不在花名冊
-  id: zztj.78.p5.h1
 - id: zztj.78.p6.h1
   anchor: zztj.78.p6
   at: 4
@@ -385,6 +375,14 @@ annotations:
   person_id: dingfeng
   text: 丁奉
   via: primary
+- id: zztj.78.p26.h1
+  anchor: zztj.78.p26
+  at: 6
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 卞氏
+  via: alias
 - id: zztj.78.p27.h1
   anchor: zztj.78.p27
   at: 0
@@ -433,26 +431,6 @@ annotations:
   person_id: qiaozhou
   text: 譙周
   via: primary
-- anchor: zztj.78.p29
-  at: 285
-  length: 2
-  type: person
-  person_id: caohuan
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 景元年間魏陛下指元帝曹奐(260年立)
-  id: zztj.78.p29.h2
-- anchor: zztj.78.p29
-  at: 296
-  length: 2
-  type: person
-  person_id: caohuan
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 景元年間魏陛下指元帝曹奐(260年立)
-  id: zztj.78.p29.h3
 - id: zztj.78.p30.h1
   anchor: zztj.78.p30
   at: 4
@@ -469,26 +447,6 @@ annotations:
   person_id: jiangwei
   text: 姜維
   via: primary
-- anchor: zztj.78.p30
-  at: 82
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢太子劉璿不在花名冊
-  id: zztj.78.p30.h3
-- anchor: zztj.78.p30
-  at: 154
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢太子劉璿不在花名冊
-  id: zztj.78.p30.h4
 - id: zztj.78.p31.h1
   anchor: zztj.78.p31
   at: 0
@@ -545,16 +503,6 @@ annotations:
   person_id: huahe
   text: 華覈
   via: primary
-- anchor: zztj.78.p31
-  at: 193
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.82
-  reasoning: 263蜀漢亡前陛下指後主劉禪
-  id: zztj.78.p31.h8
 - id: zztj.78.p32.h1
   anchor: zztj.78.p32
   at: 60
@@ -609,6 +557,14 @@ annotations:
   person_id: zhonghui
   text: 鍾會
   via: primary
+- id: zztj.78.p38.h1
+  anchor: zztj.78.p38
+  at: 3
+  length: 2
+  type: person
+  person_id: guohuanghou
+  text: 郭氏
+  via: alias
 - id: zztj.78.p39.h1
   anchor: zztj.78.p39
   at: 0
@@ -763,16 +719,6 @@ annotations:
   person_id: liushan
   text: 劉禪
   via: primary
-- anchor: zztj.78.p47
-  at: 36
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.82
-  reasoning: 263蜀漢亡前陛下指後主劉禪
-  id: zztj.78.p47.h3
 - id: zztj.78.p48.h1
   anchor: zztj.78.p48
   at: 170
@@ -835,6 +781,14 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「二月」
+- id: zztj.78.p52.h1
+  anchor: zztj.78.p52
+  at: 4
+  length: 4
+  type: person
+  person_id: guohuanghou_mingyuan
+  text: 明元皇后
+  via: alias
 - id: zztj.78.p53.h1
   anchor: zztj.78.p53
   at: 2
@@ -1047,20 +1001,6 @@ annotations:
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「五月」
 - id: zztj.78.p62.t1
   anchor: zztj.78.p62
-  at: 5
-  length: 2
-  type: temporal
-  text: 六月
-  kind: relative
-  resolution: bare_month
-  year_ad: 264
-  era: 咸熙
-  era_year: 1
-  month_chinese: 六月
-  month_ordinal: 6
-  reasoning: 年承前文 咸熙元年 (AD 264)，月份「六月」
-- id: zztj.78.p62.t2
-  anchor: zztj.78.p62
   at: 92
   length: 2
   type: temporal
@@ -1081,6 +1021,14 @@ annotations:
   person_id: puyangxing
   text: 濮陽興
   via: primary
+- id: zztj.78.p65.h2
+  anchor: zztj.78.p65
+  at: 54
+  length: 3
+  type: person
+  person_id: zhuhuanghou
+  text: 朱皇后
+  via: primary
 - id: zztj.78.p67.t1
   anchor: zztj.78.p67
   at: 0
@@ -1095,6 +1043,14 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「八月」
+- id: zztj.78.p67.h1
+  anchor: zztj.78.p67
+  at: 10
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
 - id: zztj.78.p69.t1
   anchor: zztj.78.p69
   at: 0
@@ -1109,6 +1065,22 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「九月」
+- id: zztj.78.p69.h1
+  anchor: zztj.78.p69
+  at: 7
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
+- id: zztj.78.p71.h1
+  anchor: zztj.78.p71
+  at: 7
+  length: 3
+  type: person
+  person_id: zhuhuanghou
+  text: 景皇后
+  via: alias
 - id: zztj.78.p72.t1
   anchor: zztj.78.p72
   at: 2
@@ -1123,16 +1095,6 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「十月」
-- anchor: zztj.78.p74
-  at: 3
-  length: 2
-  type: person
-  person_id: sunwan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 吳國太子(孫𩅦等)不在花名冊
-  id: zztj.78.p74.h1
 - id: zztj.78.p75.h1
   anchor: zztj.78.p75
   at: 76

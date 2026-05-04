@@ -58,18 +58,7 @@
     {
       "id": "hhs.65.p4",
       "text": "沖質之閒，梁太后臨朝，規舉賢良方正。對策曰：",
-      "annotations": [
-        {
-          "id": "hhs.65.p4.h1",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "太后",
-          "person_id": "liangna",
-          "via": "llm",
-          "reasoning": "「沖質之閒，梁太后臨朝」即順烈梁妠臨朝，未列 roster。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p5",
@@ -224,16 +213,6 @@
           "reasoning": "原文「永康元年」直接出现年号；解析為 AD 167"
         },
         {
-          "id": "hhs.65.p16.h5",
-          "type": "person",
-          "at": 72,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "永康元年皇甫規對策論災異，桓帝末年事，「陛下八年之中」即桓帝（延熹改元已八年），對應 huanhan。"
-        },
-        {
           "id": "hhs.65.p16.h1",
           "type": "person",
           "at": 138,
@@ -268,16 +247,6 @@
           "text": "李膺",
           "person_id": "liying",
           "via": "primary"
-        },
-        {
-          "id": "hhs.65.p16.h6",
-          "type": "person",
-          "at": 265,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「伏願陛下暫留聖明」即奏桓帝，對應 huanhan。"
         }
       ]
     },
@@ -501,22 +470,21 @@
           "reasoning": "原文「建寧元年」直接出现年号；解析為 AD 168（回溯前事，不推進章節時間軸）"
         },
         {
-          "id": "hhs.65.p28.h2",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「竇太后臨朝」即桓思竇皇后竇妙臨朝，未列 roster。"
-        },
-        {
           "id": "hhs.65.p28.h1",
           "type": "person",
           "at": 25,
           "length": 2,
           "text": "陳蕃",
           "person_id": "chenfan",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.65.p28.h2",
+          "type": "person",
+          "at": 38,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         }
       ]
@@ -552,16 +520,6 @@
           "text": "陳蕃",
           "person_id": "chenfan",
           "via": "primary"
-        },
-        {
-          "id": "hhs.65.p30.h2",
-          "type": "person",
-          "at": 176,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "張奐上疏「皇太后雖居南居」即竇太后竇妙被遷南宮，未列 roster。"
         }
       ]
     },
@@ -576,6 +534,15 @@
           "length": 2,
           "text": "李膺",
           "person_id": "liying",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.65.p31.h2",
+          "type": "person",
+          "at": 31,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         },
         {
@@ -973,18 +940,7 @@
     {
       "id": "hhs.65.p56",
       "text": "時竇太后臨朝，下詔曰：「先零東羌歷載為患，熲前陳狀，欲必埽滅。涉履霜雪，兼行晨夜，身當矢石，感厲吏士。曾未浹日，凶丑奔破，[81]連屍積俘，掠獲無筭。洗雪百年之逋負，以慰忠將之亡魂。[82]功用顯著，朕甚嘉之。須東羌盡定，當並錄功勤。今且賜熲錢二十萬，以家一人為郎中。」敕中藏府調金錢彩物，增助軍費。拜熲羌將軍。",
-      "annotations": [
-        {
-          "id": "hhs.65.p56.h1",
-          "type": "person",
-          "at": 2,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「竇太后臨朝」即桓思竇妙臨朝，未列 roster。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.65.p57",
@@ -1207,16 +1163,6 @@
           "text": "張奐",
           "person_id": "zhanghuan",
           "via": "primary"
-        },
-        {
-          "id": "hhs.65.p78.h4",
-          "type": "person",
-          "at": 94,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "校勘記引「皇太后恩禮不接」即竇太后竇妙，未列 roster。"
         },
         {
           "id": "hhs.65.p78.h2",

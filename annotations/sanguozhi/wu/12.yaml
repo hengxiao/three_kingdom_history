@@ -595,16 +595,6 @@ annotations:
   person_id: zhangzhao
   text: 張昭
   via: primary
-- anchor: wu.12.p14
-  at: 173
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 張溫黃武初拜議郎，徙太子太傅；時太子為孫登（黃武元年立）。
-  id: wu.12.p14.h9
 - id: wu.12.p15.h1
   anchor: wu.12.p15
   at: 15
@@ -637,26 +627,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: wu.12.p16
-  at: 36
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 張溫使蜀，致書蜀後主劉禪稱「陛下」（黃武三年使蜀通好）。
-  id: wu.12.p16.h1
-- anchor: wu.12.p16
-  at: 131
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 同段續對劉禪稱「陛下敦祟禮義」。
-  id: wu.12.p16.h2
 - id: wu.12.p18.h1
   anchor: wu.12.p18
   at: 0
@@ -883,16 +853,6 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- anchor: wu.12.p31
-  at: 167
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸瑁諫公孫淵事疏，嘉禾元年對孫權言「陛下不忍悁悁之忿」。
-  id: wu.12.p31.h2
 - id: wu.12.p31.h1
   anchor: wu.12.p31
   at: 289
@@ -909,16 +869,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.12.p33
-  at: 199
-  length: 2
-  type: person
-  person_id: sunquan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸瑁諫疏對孫權「願陛下抑威住計」。
-  id: wu.12.p33.h1
 - id: wu.12.p34.h1
   anchor: wu.12.p34
   at: 0
@@ -1011,16 +961,6 @@ annotations:
   person_id: lvdai
   text: 呂岱
   via: primary
-- anchor: wu.12.p38
-  at: 94
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「遷太子太傅」吾粲；後文「遭二宮之變，抗言執正，明嫡庶之分」，當太子為孫和。
-  id: wu.12.p38.h4
 - id: wu.12.p38.h2
   anchor: wu.12.p38
   at: 142
@@ -1109,16 +1049,6 @@ annotations:
   era: 赤烏
   era_year: 9
   reasoning: 原文「赤烏九年」直接出现年号；解析為 AD 246
-- anchor: wu.12.p41
-  at: 20
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「遭二宮構爭，據擁護太子」— 朱據（赤烏九年）擁護太子孫和對魯王霸。
-  id: wu.12.p41.h4
 - id: wu.12.p41.a1
   anchor: wu.12.p41
   at: 38

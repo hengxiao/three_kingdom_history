@@ -13,6 +13,14 @@ annotations:
   person_id: liuyan_shu
   text: 劉焉
   via: primary
+- id: shu.1.p1.h2
+  anchor: shu.1.p1
+  at: 21
+  length: 2
+  type: person
+  person_id: liuda
+  text: 章帝
+  via: alias
 - id: shu.1.p2.a1
   anchor: shu.1.p2
   at: 22
@@ -395,6 +403,14 @@ annotations:
   person_id: liuyan_shu
   text: 劉焉
   via: primary
+- id: shu.1.p11.h2
+  anchor: shu.1.p11
+  at: 88
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 吳氏
+  via: alias
 - id: shu.1.p11.a2
   anchor: shu.1.p11
   at: 138

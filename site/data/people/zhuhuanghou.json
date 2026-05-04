@@ -20,43 +20,66 @@
     }
   ],
   "mentions_by_work": {
-    "zztj": [],
+    "zztj": [
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p65",
+        "at": 54,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "朱皇后",
+        "snippet": "…把興臂，把□以托之。癸未，吳主殂，謚曰景帝。群臣尊朱皇后為皇太后。"
+      },
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p71",
+        "at": 7,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "景皇后",
+        "snippet": "吳主貶朱太后為景皇后，追謚父和曰文皇帝，尊母何氏為太后。"
+      },
+      {
+        "chapter_id": "zztj.79",
+        "chapter_title": "巻七十九 晉紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.79.p21",
+        "at": 11,
+        "data_url": "data/zztj/zztj/79.json",
+        "matched": "景皇后",
+        "snippet": "辛丑，尊景帝夫人羊氏曰景皇后，居弘訓宮。"
+      },
+      {
+        "chapter_id": "zztj.79",
+        "chapter_title": "巻七十九 晉紀一",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.79.p8",
+        "at": 9,
+        "data_url": "data/zztj/zztj/79.json",
+        "matched": "景皇后",
+        "snippet": "秋，七月，呉主逼殺景皇后，遷景帝四子於呉；尋又殺其長者二人。"
+      }
+    ],
     "sanguozhi": [
       {
         "chapter_id": "wu.3",
         "chapter_title": "吳書·三嗣主傳",
         "book_title": "吳書",
         "work": "sanguozhi",
-        "anchor": "wu.3.p19",
-        "at": 43,
-        "data_url": "data/sanguozhi/wu/03.json",
-        "matched": "皇后",
-        "snippet": "…新言黃龍見。八月壬午，大雨震電，水泉涌溢。乙酉，立皇后朱氏。戊子，立子𩅦爲太子，大赦。冬十月，以衞將軍濮陽興爲丞相，廷尉丁密、光祿勳孟宗爲左右御史大夫。休以丞相興及左將軍張布有舊恩…"
-      },
-      {
-        "chapter_id": "wu.3",
-        "chapter_title": "吳書·三嗣主傳",
-        "book_title": "吳書",
-        "work": "sanguozhi",
-        "anchor": "wu.3.p22",
-        "at": 146,
-        "data_url": "data/sanguozhi/wu/03.json",
-        "matched": "太后",
-        "snippet": "…法度，屢言之於丞相濮陽興、左將軍張布。興、布說休妃太后朱，欲以皓爲嗣。朱曰：「我寡婦人，安知社稷之慮，苟吳國無損，宗廟有賴可矣。」於是遂迎立皓，時年二十三。改元，大赦。是歲，於魏咸…"
-      },
-      {
-        "chapter_id": "wu.3",
-        "chapter_title": "吳書·三嗣主傳",
-        "book_title": "吳書",
-        "work": "sanguozhi",
         "anchor": "wu.3.p23",
-        "at": 54,
+        "at": 57,
         "data_url": "data/sanguozhi/wu/03.json",
-        "matched": "太后",
-        "snippet": "…爲驃騎將軍，加侍中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴…"
+        "matched": "景皇后",
+        "snippet": "…將軍，加侍中，諸增位班賞，一皆如舊。九月，貶太后爲景皇后，追謚父和曰文皇帝，尊母何爲太后。十月，封休太子𩅦爲豫章王，次子汝南王，次子梁王，次子陳王，立皇后滕氏。皓旣得志，麤暴驕盈，…"
       }
     ],
     "houhanshu": []
   },
-  "n_mentions": 3
+  "n_mentions": 5
 }

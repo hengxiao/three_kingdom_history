@@ -635,13 +635,21 @@ annotations:
   via: chapter_alias
 - id: wei.18.p10.h8
   anchor: wei.18.p10
+  at: 105
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: wei.18.p10.h9
+  anchor: wei.18.p10
   at: 160
   length: 2
   type: person
   person_id: yujin
   text: 于禁
   via: primary
-- id: wei.18.p10.h9
+- id: wei.18.p10.h10
   anchor: wei.18.p10
   at: 167
   length: 3
@@ -649,7 +657,7 @@ annotations:
   person_id: xiahouyuan
   text: 夏侯淵
   via: primary
-- id: wei.18.p10.h10
+- id: wei.18.p10.h11
   anchor: wei.18.p10
   at: 236
   length: 2
@@ -657,7 +665,7 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- id: wei.18.p10.h11
+- id: wei.18.p10.h12
   anchor: wei.18.p10
   at: 254
   length: 2
@@ -665,7 +673,7 @@ annotations:
   person_id: zhangliao
   text: 張遼
   via: primary
-- id: wei.18.p10.h12
+- id: wei.18.p10.h13
   anchor: wei.18.p10
   at: 270
   length: 2
@@ -673,7 +681,7 @@ annotations:
   person_id: handang
   text: 韓當
   via: primary
-- id: wei.18.p10.h13
+- id: wei.18.p10.h14
   anchor: wei.18.p10
   at: 274
   length: 1
@@ -681,7 +689,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.18.p10.h14
+- id: wei.18.p10.h15
   anchor: wei.18.p10
   at: 312
   length: 1
@@ -689,7 +697,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.18.p10.h15
+- id: wei.18.p10.h16
   anchor: wei.18.p10
   at: 388
   length: 2
@@ -697,7 +705,7 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- id: wei.18.p10.h16
+- id: wei.18.p10.h17
   anchor: wei.18.p10
   at: 396
   length: 2
@@ -705,7 +713,7 @@ annotations:
   person_id: zhangliao
   text: 張遼
   via: primary
-- id: wei.18.p10.h17
+- id: wei.18.p10.h18
   anchor: wei.18.p10
   at: 462
   length: 2
@@ -713,7 +721,7 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- id: wei.18.p10.h18
+- id: wei.18.p10.h19
   anchor: wei.18.p10
   at: 465
   length: 2
@@ -721,7 +729,7 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- id: wei.18.p10.h19
+- id: wei.18.p10.h20
   anchor: wei.18.p10
   at: 480
   length: 1
@@ -729,7 +737,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.18.p10.h20
+- id: wei.18.p10.h21
   anchor: wei.18.p10
   at: 484
   length: 2
@@ -737,7 +745,7 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- id: wei.18.p10.h21
+- id: wei.18.p10.h22
   anchor: wei.18.p10
   at: 491
   length: 3
@@ -1901,12 +1909,12 @@ annotations:
   reasoning: 原文「黃初二年」直接出现年号；解析為 AD 221
 - id: wei.18.p31.h1
   anchor: wei.18.p31
-  at: 103
-  length: 2
+  at: 102
+  length: 3
   type: person
-  person_id: caocao
-  text: 武帝
-  via: chapter_alias
+  person_id: simayan
+  text: 晉武帝
+  via: alias
 - id: wei.18.p31.h2
   anchor: wei.18.p31
   at: 169

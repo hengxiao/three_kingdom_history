@@ -505,16 +505,6 @@ annotations:
   person_id: feiyi
   text: 費禕
   via: primary
-- anchor: shu.12.p17
-  at: 60
-  length: 2
-  type: person
-  person_id: liushan
-  text: 主上
-  via: llm
-  confidence: 0.92
-  reasoning: 孟光論赦疏稱「今主上仁賢」，所論為當朝後主劉禪。
-  id: shu.12.p17.h2
 - id: shu.12.p17.a1
   anchor: shu.12.p17
   at: 212
@@ -535,16 +525,6 @@ annotations:
   person_id: xizheng
   text: 郤正
   via: primary
-- anchor: shu.12.p18
-  at: 18
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 孟光問郤正「太子所習讀」，所指為後主時太子劉璿，roster未錄，留空。
-  id: shu.12.p18.h2
 - id: shu.12.p19.h1
   anchor: shu.12.p19
   at: 0
@@ -575,16 +555,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.12.p19
-  at: 119
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.9
-  reasoning: 「先主定益州……及立太子，以為家令」明指先主章武立太子劉禪，許慈所事即劉禪。
-  id: shu.12.p19.h7
 - id: shu.12.p19.h4
   anchor: shu.12.p19
   at: 127
@@ -631,16 +601,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.12.p20
-  at: 118
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.9
-  reasoning: 「先主定益州……及立太子，以默為僕，射以《左氏傳》授後主」，太子即所稱「後主」劉禪。
-  id: shu.12.p20.h5
 - id: shu.12.p20.h3
   anchor: shu.12.p20
   at: 134
@@ -691,36 +651,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.12.p21
-  at: 110
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「延熙元年，後主立太子」指後主立子劉璿為太子，roster未錄劉璿，留空。
-  id: shu.12.p21.h3
-- anchor: shu.12.p21
-  at: 137
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 同段「猶侍太子」續指劉璿，roster未錄。
-  id: shu.12.p21.h4
-- anchor: shu.12.p21
-  at: 140
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 同段「太子愛其多知」續指劉璿，roster未錄。
-  id: shu.12.p21.h5
 - id: shu.12.p23.h1
   anchor: shu.12.p23
   at: 0
@@ -751,16 +681,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.12.p24
-  at: 77
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「後主立太子」即立劉璿為太子，roster未錄。
-  id: shu.12.p24.h4
 - id: shu.12.p24.h3
   anchor: shu.12.p24
   at: 90
@@ -769,16 +689,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.12.p25
-  at: 435
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 周本疏轉言「今漢遭厄運……陛下天姿至孝」勸今上劉禪，主旨歸於後主，故指劉禪。
-  id: shu.12.p25.h2
 - id: shu.12.p25.h1
   anchor: shu.12.p25
   at: 630
@@ -787,16 +697,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: shu.12.p26
-  at: 9
-  length: 2
-  type: person
-  person_id: liuxuan
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「猶侍太子」承接前段譙周事後主立太子璿，太子指劉璿，roster未錄。
-  id: shu.12.p26.h1
 - id: shu.12.p30.t1
   anchor: shu.12.p30
   at: 0
@@ -825,26 +725,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.12.p32
-  at: 53
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 景耀末譙周勸降，「若陛下降魏」即勸後主劉禪降魏。
-  id: shu.12.p32.h1
-- anchor: shu.12.p32
-  at: 64
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「魏不裂土以封陛下者」續指後主劉禪。
-  id: shu.12.p32.h2
 - id: shu.12.p33.h1
   anchor: shu.12.p33
   at: 0
@@ -853,36 +733,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.12.p34
-  at: 2
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 「或說陛下以北兵深入，有欲適南之計」乃譙周諫後主劉禪。
-  id: shu.12.p34.h1
-- anchor: shu.12.p34
-  at: 259
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「今北兵至，陛下南行」續指後主劉禪。
-  id: shu.12.p34.h2
-- anchor: shu.12.p34
-  at: 279
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「願陛下早為之圖」續指後主劉禪。
-  id: shu.12.p34.h3
 - id: shu.12.p35.a1
   anchor: shu.12.p35
   at: 22

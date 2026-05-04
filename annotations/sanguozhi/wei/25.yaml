@@ -163,36 +163,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.25.p5
-  at: 62
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 辛毗諫文帝徙冀州士家事，「陛下欲徙士家」陛下即文帝曹丕。
-  id: wei.25.p5.h1
-- anchor: wei.25.p5
-  at: 116
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「陛下不以臣不肖」續指曹丕。
-  id: wei.25.p5.h2
-- anchor: wei.25.p5
-  at: 251
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「於陛下甚樂」續指曹丕。
-  id: wei.25.p5.h3
 - id: wei.25.p6.h1
   anchor: wei.25.p6
   at: 5
@@ -209,16 +179,6 @@ annotations:
   person_id: zhuran
   text: 朱然
   via: primary
-- anchor: wei.25.p6
-  at: 72
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 辛毗諫文帝大興軍征吳事「今陛下祚有海內」陛下即文帝曹丕。
-  id: wei.25.p6.h3
 - id: wei.25.p7.h1
   anchor: wei.25.p7
   at: 0
@@ -235,16 +195,6 @@ annotations:
   person_id: liufang
   text: 劉放
   via: primary
-- anchor: wei.25.p7
-  at: 95
-  length: 2
-  type: person
-  person_id: caorui
-  text: 主上
-  via: llm
-  confidence: 0.92
-  reasoning: 明帝即位後辛敞勸毗交劉、孫，毗答「主上雖未稱聰明」主上即明帝曹叡。
-  id: wei.25.p7.h4
 - id: wei.25.p7.h3
   anchor: wei.25.p7
   at: 187
@@ -253,16 +203,6 @@ annotations:
   person_id: xinpi
   text: 辛毗
   via: primary
-- anchor: wei.25.p7
-  at: 210
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 畢軌薦辛毗代王思事「陛下用思者」明帝時對放、資語，陛下即曹叡。
-  id: wei.25.p7.h5
 - id: wei.25.p8.h1
   anchor: wei.25.p8
   at: 19
@@ -279,16 +219,6 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- anchor: wei.25.p8
-  at: 98
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 明帝修殿舍時辛毗上疏「唯陛下為社稷計」陛下即明帝曹叡。
-  id: wei.25.p8.h3
 - id: wei.25.p8.a1
   anchor: wei.25.p8
   at: 262
@@ -731,16 +661,6 @@ annotations:
   person_id: caorui
   text: 明帝
   via: chapter_alias
-- anchor: wei.25.p17
-  at: 127
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 楊阜諫初治宮室「伏惟陛下奉武皇帝開拓之大業，守文皇帝克終之元緒」上明帝，陛下即曹叡。
-  id: wei.25.p17.h5
 - id: wei.25.p17.h1
   anchor: wei.25.p17
   at: 130
@@ -757,16 +677,6 @@ annotations:
   person_id: caopi
   text: 文皇帝
   via: chapter_alias
-- anchor: wei.25.p17
-  at: 204
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「惟陛下稽古世代之初」續指曹叡。
-  id: wei.25.p17.h6
 - id: wei.25.p17.h3
   anchor: wei.25.p17
   at: 251
@@ -783,36 +693,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.25.p17
-  at: 279
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「而陛下何由處斯尊哉」續指曹叡。
-  id: wei.25.p17.h7
-- anchor: wei.25.p17
-  at: 301
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「願陛下動則三思」續指曹叡。
-  id: wei.25.p17.h8
-- anchor: wei.25.p17
-  at: 385
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「惟陛下慮患無形之外」續指曹叡。
-  id: wei.25.p17.h9
 - id: wei.25.p18.h1
   anchor: wei.25.p18
   at: 10
@@ -821,16 +701,6 @@ annotations:
   person_id: caozhen
   text: 曹真
   via: primary
-- anchor: wei.25.p18
-  at: 90
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 曹真伐蜀事中楊阜諫「陛下宜深有以專精應荅」上明帝，陛下即曹叡。
-  id: wei.25.p18.h2
 - id: wei.25.p21.h1
   anchor: wei.25.p21
   at: 43
@@ -839,27 +709,15 @@ annotations:
   person_id: caopi
   text: 文皇帝
   via: chapter_alias
-- anchor: wei.25.p21
-  at: 49
-  length: 2
+- id: wei.25.p21.h2
+  anchor: wei.25.p21
+  at: 47
+  length: 4
   type: person
   person_id: bianhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「文皇帝、武宣皇后崩」武宣皇后即曹操妻卞氏（武宣為其諡），roster未列。
-  id: wei.25.p21.h4
-- anchor: wei.25.p21
-  at: 53
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 楊阜諫明帝送葬愛女疏「陛下皆不送葬」陛下即明帝曹叡。
-  id: wei.25.p21.h3
-- id: wei.25.p21.h2
+  text: 武宣皇后
+  via: chapter_alias
+- id: wei.25.p21.h3
   anchor: wei.25.p21
   at: 66
   length: 1
@@ -867,52 +725,12 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: wei.25.p22
-  at: 166
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 楊阜諫營許洛宮殿事「陛下當以堯、舜……為法則」上明帝，陛下即曹叡。
-  id: wei.25.p22.h1
-- anchor: wei.25.p22
-  at: 348
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下不以是為憂」續指曹叡。
-  id: wei.25.p22.h2
 - id: wei.25.p22.a1
   anchor: wei.25.p22
   at: 383
   length: 0
   type: pei
   text: 臣松之以爲忠至之道，以亡己爲理。是以匡救其惡，不爲身計。而阜表云「使國亡而臣可以獨存，臣又不言也」，此則發憤爲己，豈爲國哉？斯言也，豈不傷讜烈之義，爲一表之病乎！
-- anchor: wei.25.p22
-  at: 448
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「言不切至，不足以感寤陛下」續指曹叡。
-  id: wei.25.p22.h3
-- anchor: wei.25.p22
-  at: 451
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下不察臣言」續指曹叡。
-  id: wei.25.p22.h4
 - id: wei.25.p24.t1
   anchor: wei.25.p24
   at: 0
@@ -955,26 +773,6 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：太史上漢歷不及天時，因更推步弦望朔晦，爲太和歷。帝以隆學問優深，於天文又精，乃詔使隆與尚書郎楊偉、太史待詔駱祿參共推校。偉、祿是太史，隆故據舊歷更相劾奏，紛紜數歲，偉稱祿得日蝕而月晦不盡，隆不得日蝕而月晦盡，詔從太史。隆所爭雖不得，而遠近猶知其精微也。
-- anchor: wei.25.p27
-  at: 97
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 高堂隆對崇華殿災疏「故譴告陛下」上明帝，陛下即曹叡。
-  id: wei.25.p27.h1
-- anchor: wei.25.p27
-  at: 100
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下宜增崇人道」續指曹叡。
-  id: wei.25.p27.h2
 - id: wei.25.p28.h1
   anchor: wei.25.p28
   at: 8
@@ -983,26 +781,6 @@ annotations:
   person_id: caocao
   text: 武帝
   via: chapter_alias
-- anchor: wei.25.p29
-  at: 180
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同疏「以報陛下虔恭之德」上明帝，陛下即曹叡。
-  id: wei.25.p29.h1
-- anchor: wei.25.p31
-  at: 271
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 高堂隆對鵲巢陵霄闕事「而令陛下不聞至言乎」上明帝，陛下即曹叡。
-  id: wei.25.p31.h1
 - id: wei.25.p32.t1
   anchor: wei.25.p32
   at: 0
@@ -1015,26 +793,6 @@ annotations:
   era: 青龍
   era_year: 2
   reasoning: 「是歲」 = 当前年 青龍2年 (AD 234)
-- anchor: wei.25.p32
-  at: 313
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 高堂隆星孛大辰疏「皇天子愛陛下」上明帝，陛下即曹叡。
-  id: wei.25.p32.h1
-- anchor: wei.25.p32
-  at: 340
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同疏「欲必覺寤陛下」續指曹叡。
-  id: wei.25.p32.h2
 - id: wei.25.p33.t1
   anchor: wei.25.p33
   at: 340
@@ -1075,36 +833,6 @@ annotations:
   month_chinese: 夏四月
   month_ordinal: 4
   reasoning: 年承前文 景初元年 (AD 237)，月份「夏四月」
-- anchor: wei.25.p34
-  at: 115
-  length: 2
-  type: person
-  person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.9
-  reasoning: 「悼皇后崩」即明帝悼毛皇后毛氏（青龍三年廢殺），roster未列。
-  id: wei.25.p34.h1
-- anchor: wei.25.p38
-  at: 82
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 高堂隆切諫疏「陛下聞之，豈不惕然」上明帝，陛下即曹叡。
-  id: wei.25.p38.h1
-- anchor: wei.25.p38
-  at: 148
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同疏「陛下聞之，豈不勃然」續指曹叡。
-  id: wei.25.p38.h2
 - id: wei.25.p39.h1
   anchor: wei.25.p39
   at: 133
@@ -1119,36 +847,6 @@ annotations:
   length: 0
   type: pei
   text: 會音膾。
-- anchor: wei.25.p40
-  at: 208
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 高堂隆論祿賜疏「今陛下所與共坐廊廟治天下者」上明帝，陛下即曹叡。
-  id: wei.25.p40.h1
-- anchor: wei.25.p43
-  at: 68
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 高堂隆寢疾病臨終遺疏「願陛下少垂省覽」上明帝，陛下即曹叡。
-  id: wei.25.p43.h1
-- anchor: wei.25.p45
-  at: 148
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同遺疏「非獨陛下之天下也」續指曹叡。
-  id: wei.25.p45.h1
 - id: wei.25.p46.a1
   anchor: wei.25.p46
   at: 86
@@ -1193,26 +891,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.25.p49
-  at: 24
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「時文帝為太子，耽樂田獵」太子即曹丕。
-  id: wei.25.p49.h5
-- anchor: wei.25.p49
-  at: 124
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太子不悅」續指曹丕。
-  id: wei.25.p49.h6
 - id: wei.25.p49.h3
   anchor: wei.25.p49
   at: 141
@@ -1221,16 +899,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.25.p49
-  at: 149
-  length: 2
-  type: person
-  person_id: guohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「黃初中文帝將立郭貴嬪為皇后」即文德郭皇后，roster未列。
-  id: wei.25.p49.h7
 - id: wei.25.p49.a2
   anchor: wei.25.p49
   at: 159
@@ -1261,26 +929,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.25.p50
-  at: 145
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 棧潛明帝時上疏「太祖……文帝……陛下聖德，纂承洪緒」陛下即明帝曹叡。
-  id: wei.25.p50.h3
-- anchor: wei.25.p50
-  at: 567
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「願陛下留心關塞」續指曹叡。
-  id: wei.25.p50.h4
 - id: wei.25.p52.h1
   anchor: wei.25.p52
   at: 3

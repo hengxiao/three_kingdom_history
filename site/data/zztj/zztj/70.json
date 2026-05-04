@@ -249,21 +249,6 @@
           "text": "夏侯尚",
           "person_id": "xiahoushang",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p7.t1",
-          "type": "temporal",
-          "at": 196,
-          "length": 2,
-          "text": "六月",
-          "kind": "relative",
-          "resolution": "bare_month",
-          "year_ad": 223,
-          "era": "黃初",
-          "era_year": 4,
-          "month_chinese": "六月",
-          "month_ordinal": 6,
-          "reasoning": "年承前文 黃初4年 (AD 223)，月份「六月」"
         }
       ]
     },
@@ -288,16 +273,6 @@
           "text": "董昭",
           "person_id": "dongzhao",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p8.h5",
-          "type": "person",
-          "at": 239,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "黃初四年(223)魏文帝在位"
         },
         {
           "id": "zztj.70.p8.h3",
@@ -352,16 +327,6 @@
           "text": "賈詡",
           "person_id": "jiaxu",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p10.h8",
-          "type": "person",
-          "at": 46,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "黃初四年(223)魏文帝在位"
         },
         {
           "id": "zztj.70.p10.h2",
@@ -464,26 +429,6 @@
           "text": "楊洪",
           "person_id": "yanghong",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p12.h4",
-          "type": "person",
-          "at": 61,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "蜀漢章武三年(223)劉備病劉禪為太子"
-        },
-        {
-          "id": "zztj.70.p12.h5",
-          "type": "person",
-          "at": 122,
-          "length": 2,
-          "text": "主上",
-          "person_id": "liubei",
-          "via": "llm",
-          "reasoning": "蜀漢主上指劉備"
         }
       ]
     },
@@ -499,16 +444,6 @@
           "text": "亮",
           "person_id": "zhugeliang",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.70.p13.h6",
-          "type": "person",
-          "at": 10,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "劉備臨終托孤，太子指劉禪"
         },
         {
           "id": "zztj.70.p13.h2",
@@ -545,16 +480,6 @@
           "text": "亮",
           "person_id": "zhugeliang",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.70.p13.h7",
-          "type": "person",
-          "at": 99,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "劉備臨終托孤，太子指劉禪"
         },
         {
           "id": "zztj.70.p13.t1",
@@ -615,36 +540,6 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 黃初4年 (AD 223)，月份「五月」"
-        },
-        {
-          "id": "zztj.70.p15.h6",
-          "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "太子",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "太子禪即位"
-        },
-        {
-          "id": "zztj.70.p15.h8",
-          "type": "person",
-          "at": 15,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "尊吳皇后為皇太后，蜀漢吳皇后/吳太后不在花名冊"
-        },
-        {
-          "id": "zztj.70.p15.h7",
-          "type": "person",
-          "at": 19,
-          "length": 2,
-          "text": "太后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "尊吳皇后為皇太后，蜀漢吳皇后/吳太后不在花名冊"
         },
         {
           "id": "zztj.70.p15.h1",
@@ -883,16 +778,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.70.p23.h7",
-          "type": "person",
-          "at": 16,
-          "length": 2,
-          "text": "主上",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "鄧芝言今主上幼弱指後主劉禪"
-        },
-        {
           "id": "zztj.70.p23.h3",
           "type": "person",
           "at": 36,
@@ -933,16 +818,6 @@
           "text": "諸葛亮",
           "person_id": "zhugeliang",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p23.h6",
-          "type": "person",
-          "at": 281,
-          "length": 2,
-          "text": "太子",
-          "person_id": "sundeng",
-          "via": "llm",
-          "reasoning": "鄧芝對吳王言魏將求太子內侍，指吳太子孫登"
         }
       ]
     },
@@ -1193,16 +1068,6 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.70.p31.h7",
-          "type": "person",
-          "at": 66,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "黃初五年(224)魏文帝曹丕親征東吳"
-        },
-        {
           "id": "zztj.70.p31.h2",
           "type": "person",
           "at": 71,
@@ -1219,16 +1084,6 @@
           "text": "劉曄",
           "person_id": "liuye",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p31.h8",
-          "type": "person",
-          "at": 105,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "黃初五年(224)魏文帝曹丕親征東吳"
         },
         {
           "id": "zztj.70.p31.h4",
@@ -1558,16 +1413,6 @@
           "text": "顧雍",
           "person_id": "guyong",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p41.h3",
-          "type": "person",
-          "at": 484,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "sunquan",
-          "via": "llm",
-          "reasoning": "吳國臣下諫吳王孫權，陛下指孫權(時為吳王，尚未稱帝但尊稱陛下)"
         }
       ]
     },
@@ -1942,26 +1787,6 @@
       "text": "帝之為太子也，郭夫人弟有罪，魏郡西部都尉鮑勳治之；太子請，不能得，由是恨勳。及即位，勳數直諫，帝益忿之。帝伐吳還，屯陳留界。勳為治書執法，太守孫邕見出，過勳。時營壘未成，但立標埒，邕邪行，不從正道，軍營令史劉曜欲推之，勳以塹壘未成，解止不舉。帝聞之，詔曰：「勳指鹿作馬，收付廷尉。」廷尉法議，「正刑五歲」，三官駁，「依律，罰金二斤」，帝大怒曰：「勳無活分，而汝等欲縱之！收三官已下付刺奸，當令十鼠同穴！」鐘繇、華歆、陳群、辛毗、高柔、衛臻等並表勳父信有功於太祖，求請勳罪，帝不許。高柔固執不從詔命，帝怒甚，召柔詣臺，遣使者承指至廷尉誅勳。勳死，乃遣柔還寺。",
       "annotations": [
         {
-          "id": "zztj.70.p53.h6",
-          "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "\"帝之為太子也\"追述魏文帝曹丕為太子時事"
-        },
-        {
-          "id": "zztj.70.p53.h7",
-          "type": "person",
-          "at": 25,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "\"帝之為太子也\"追述魏文帝曹丕為太子時事"
-        },
-        {
           "id": "zztj.70.p53.h1",
           "type": "person",
           "at": 205,
@@ -2022,17 +1847,16 @@
           "via": "primary"
         },
         {
-          "id": "zztj.70.p54.h3",
+          "id": "zztj.70.p54.h2",
           "type": "person",
-          "at": 59,
-          "length": 2,
-          "text": "太后",
+          "at": 58,
+          "length": 3,
+          "text": "卞太后",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "魏卞太后(曹操卞夫人)，不在花名冊"
+          "via": "alias"
         },
         {
-          "id": "zztj.70.p54.h2",
+          "id": "zztj.70.p54.h3",
           "type": "person",
           "at": 90,
           "length": 2,
@@ -2047,16 +1871,6 @@
       "text": "初，郭后無子，帝使母養平原王叡；以叡母甄夫人被誅，故未建為嗣。叡事後甚謹，後亦愛之。帝與叡獵，見子母鹿，帝親射殺其母，命叡射其子。叡泣曰：「陛下已殺其母，臣不忍復殺其子。」帝即放弓矢，為之惻然。夏，五月，帝疾篤，乃立叡為太子。丙辰，召中軍大將軍曹真、鎮軍大將軍陳群、撫軍大將軍司馬懿，並受遺詔輔政。丁巳，帝殂。",
       "annotations": [
         {
-          "id": "zztj.70.p55.h5",
-          "type": "person",
-          "at": 70,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "曹叡對其父曹丕言陛下，指文帝"
-        },
-        {
           "id": "zztj.70.p55.t1",
           "type": "temporal",
           "at": 99,
@@ -2070,16 +1884,6 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 黃初7年 (AD 226)，月份「五月」"
-        },
-        {
-          "id": "zztj.70.p55.h4",
-          "type": "person",
-          "at": 110,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "黃初七年(226)曹丕立曹叡為太子"
         },
         {
           "id": "zztj.70.p55.h1",
@@ -2113,18 +1917,7 @@
     {
       "id": "zztj.70.p56",
       "text": "太子即皇帝位，尊皇太后曰太皇太后，皇后曰皇太后。",
-      "annotations": [
-        {
-          "id": "zztj.70.p56.h1",
-          "type": "person",
-          "at": 0,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "太子曹叡即位為明帝"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.70.p57",
@@ -2153,18 +1946,7 @@
     {
       "id": "zztj.70.p58",
       "text": "癸未[6]，追謚甄夫人曰文昭皇后。",
-      "annotations": [
-        {
-          "id": "zztj.70.p58.h1",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "追謚甄夫人為文昭皇后，甄氏不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.70.p59",
@@ -2476,7 +2258,17 @@
     {
       "id": "zztj.70.p70",
       "text": "烈祖明皇帝上之上",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.70.p70.h1",
+          "type": "person",
+          "at": 2,
+          "length": 3,
+          "text": "明皇帝",
+          "person_id": "liuzhuang",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.70.p71",
@@ -2546,16 +2338,6 @@
           "reasoning": "年承前文 太和元年 (AD 227)，月份「二月」"
         },
         {
-          "id": "zztj.70.p74.h2",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "zhenhuanghou",
-          "via": "llm",
-          "reasoning": "文昭皇后即甄氏，不在花名冊"
-        },
-        {
           "id": "zztj.70.p74.h1",
           "type": "person",
           "at": 21,
@@ -2602,34 +2384,13 @@
           "text": "蔣琬",
           "person_id": "jiangwan",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p75.h3",
-          "type": "person",
-          "at": 113,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
         }
       ]
     },
     {
       "id": "zztj.70.p76",
       "text": "「宮中、府中，俱為一體，陟罰臧否，不宜異同。若有作奸犯科及為忠善者，宜付有司論其刑賞，以昭陛下平明之理，不宜偏私，使內外異法也。",
-      "annotations": [
-        {
-          "id": "zztj.70.p76.h1",
-          "type": "person",
-          "at": 45,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.70.p77",
@@ -2652,34 +2413,13 @@
           "text": "董允",
           "person_id": "dongyun",
           "via": "primary"
-        },
-        {
-          "id": "zztj.70.p77.h3",
-          "type": "person",
-          "at": 35,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
         }
       ]
     },
     {
       "id": "zztj.70.p78",
       "text": "「親賢臣，遠小人，此先漢所以興隆也；親小人，遠賢臣，此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不嘆息痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉端良、死節之臣，願陛下親之，信之，則漢室之隆，可計日而待也。",
-      "annotations": [
-        {
-          "id": "zztj.70.p78.h1",
-          "type": "person",
-          "at": 83,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.70.p79",
@@ -2704,36 +2444,6 @@
           "month_chinese": "五月",
           "month_ordinal": 5,
           "reasoning": "年承前文 太和元年 (AD 227)，月份「五月」"
-        },
-        {
-          "id": "zztj.70.p80.h1",
-          "type": "person",
-          "at": 87,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
-        },
-        {
-          "id": "zztj.70.p80.h2",
-          "type": "person",
-          "at": 118,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
-        },
-        {
-          "id": "zztj.70.p80.h3",
-          "type": "person",
-          "at": 174,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liushan",
-          "via": "llm",
-          "reasoning": "諸葛亮《出師表》上後主劉禪"
         }
       ]
     },
@@ -2772,16 +2482,6 @@
           "text": "亮",
           "person_id": "zhugeliang",
           "via": "given_name"
-        },
-        {
-          "id": "zztj.70.p82.h4",
-          "type": "person",
-          "at": 222,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "太和元年孫資對魏明帝曹叡言"
         }
       ]
     },
@@ -2870,24 +2570,22 @@
           "reasoning": "年承前文 太和元年 (AD 227)，月份「十二月」"
         },
         {
-          "id": "zztj.70.p86.h2",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "maohuanghou",
-          "via": "llm",
-          "reasoning": "魏明帝立毛皇后，不在花名冊"
-        },
-        {
           "id": "zztj.70.p86.h1",
           "type": "person",
-          "at": 48,
+          "at": 11,
           "length": 2,
-          "text": "太后",
+          "text": "毛氏",
+          "person_id": "maohuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.70.p86.h2",
+          "type": "person",
+          "at": 47,
+          "length": 3,
+          "text": "卞太后",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "太皇卞太后，不在花名冊"
+          "via": "alias"
         }
       ]
     },

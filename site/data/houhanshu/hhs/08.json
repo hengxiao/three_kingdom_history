@@ -44,16 +44,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.8.p1.h2",
-          "type": "person",
-          "at": 52,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「桓帝崩，無子，皇太后與父城門校尉竇武定策禁中」即桓思竇皇后竇妙臨朝，未列 roster。"
-        },
-        {
           "id": "hhs.8.p1.a3",
           "type": "lixian",
           "at": 89,
@@ -330,6 +320,15 @@
         {
           "id": "hhs.8.p14.h1",
           "type": "person",
+          "at": 8,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.8.p14.h2",
+          "type": "person",
           "at": 15,
           "length": 2,
           "text": "陳蕃",
@@ -337,23 +336,13 @@
           "via": "primary"
         },
         {
-          "id": "hhs.8.p14.h2",
+          "id": "hhs.8.p14.h3",
           "type": "person",
           "at": 27,
           "length": 2,
           "text": "尹勳",
           "person_id": "yinxun_2",
           "via": "primary"
-        },
-        {
-          "id": "hhs.8.p14.h3",
-          "type": "person",
-          "at": 48,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "建寧元年九月「皇太后遷于南宮」即竇太后竇妙因竇武案被遷，未列 roster。"
         },
         {
           "id": "hhs.8.p14.a1",
@@ -473,16 +462,6 @@
           "month_chinese": "三月",
           "month_ordinal": 3,
           "reasoning": "年承前文 建寧2年 (AD 169)，月份「三月」"
-        },
-        {
-          "id": "hhs.8.p19.h1",
-          "type": "person",
-          "at": 14,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "「尊慎園董貴人爲孝仁皇后」即靈帝生母董氏被尊，對應 dongtaihou。"
         },
         {
           "id": "hhs.8.p19.a1",
@@ -752,6 +731,15 @@
           "era": "建寧",
           "era_year": 2,
           "reasoning": "「是歲」 = 当前年 建寧2年 (AD 169)"
+        },
+        {
+          "id": "hhs.8.p29.h1",
+          "type": "person",
+          "at": 7,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -1056,16 +1044,6 @@
       "text": "癸丑，立貴人宋氏爲皇后。",
       "annotations": [
         {
-          "id": "hhs.8.p45.h1",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "songhuanghou",
-          "via": "llm",
-          "reasoning": "「立貴人宋氏爲皇后」即靈帝立宋氏為皇后，宋皇后未列 roster。"
-        },
-        {
           "id": "hhs.8.p45.a1",
           "type": "lixian",
           "at": 12,
@@ -1165,16 +1143,6 @@
       "text": "癸巳，皇太后竇氏崩。秋七月甲寅，葬桓思皇后。",
       "annotations": [
         {
-          "id": "hhs.8.p52.h1",
-          "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「皇太后竇氏崩」即桓思竇妙崩於熹平元年，未列 roster。"
-        },
-        {
           "id": "hhs.8.p52.t1",
           "type": "temporal",
           "at": 10,
@@ -1188,16 +1156,6 @@
           "month_chinese": "秋七月",
           "month_ordinal": 7,
           "reasoning": "年承前文 熹平元年 (AD 172)，月份「秋七月」"
-        },
-        {
-          "id": "hhs.8.p52.h2",
-          "type": "person",
-          "at": 19,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「葬桓思皇后」即葬竇妙，未列 roster。"
         }
       ]
     },
@@ -2604,18 +2562,7 @@
     {
       "id": "hhs.8.p131",
       "text": "皇后宋氏廢，后父執金吾酆下獄死。",
-      "annotations": [
-        {
-          "id": "hhs.8.p131.h1",
-          "type": "person",
-          "at": 0,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "songhuanghou",
-          "via": "llm",
-          "reasoning": "「皇后宋氏廢」即靈帝宋皇后被廢於光和元年，宋皇后未列 roster。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.8.p132",
@@ -3123,16 +3070,6 @@
           "month_chinese": "十二月",
           "month_ordinal": 12,
           "reasoning": "年承前文 光和3年 (AD 180)，月份「十二月」"
-        },
-        {
-          "id": "hhs.8.p158.h1",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "光和三年「立貴人何氏爲皇后」即立何氏為皇后，後為何太后，對應 hetaihou。"
         },
         {
           "id": "hhs.8.p158.a1",
@@ -5461,36 +5398,6 @@
       "text": "丙辰，帝崩于南宮嘉德殿，年三十四。戊午，皇子辯即皇帝位，年十七。尊皇后曰皇太后，太后臨朝。大赦天下，改元爲光喜。封皇弟協爲渤海王。後將軍袁隗爲太傅，與大將軍何進參錄尚書事。上軍校尉蹇碩下獄死。五月辛巳，票騎將軍董重下獄死。六月辛亥，孝仁皇后董氏崩。",
       "annotations": [
         {
-          "id": "hhs.8.p273.h2",
-          "type": "person",
-          "at": 33,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "中平六年靈帝崩、辯即位「尊皇后曰皇太后」即尊何皇后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.8.p273.h3",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「曰皇太后」即何氏被尊太后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.8.p273.h4",
-          "type": "person",
-          "at": 40,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后臨朝」即何太后臨朝，對應 hetaihou。"
-        },
-        {
           "id": "hhs.8.p273.h1",
           "type": "person",
           "at": 78,
@@ -5542,16 +5449,6 @@
           "month_chinese": "六月",
           "month_ordinal": 6,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「六月」"
-        },
-        {
-          "id": "hhs.8.p273.h5",
-          "type": "person",
-          "at": 118,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "「孝仁皇后董氏崩」即永樂太后董氏崩，對應 dongtaihou。"
         }
       ]
     },
@@ -5592,18 +5489,7 @@
     {
       "id": "hhs.8.p276",
       "text": "庚寅，孝仁皇后歸葬河閒慎陵。",
-      "annotations": [
-        {
-          "id": "hhs.8.p276.h1",
-          "type": "person",
-          "at": 5,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "「孝仁皇后歸葬河閒慎陵」即董氏歸葬，對應 dongtaihou。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.8.p277",

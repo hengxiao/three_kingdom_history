@@ -20,9 +20,21 @@
     }
   ],
   "mentions_by_work": {
-    "zztj": [],
+    "zztj": [
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p52",
+        "at": 4,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "明元皇后",
+        "snippet": "庚申，葬明元皇后。"
+      }
+    ],
     "sanguozhi": [],
     "houhanshu": []
   },
-  "n_mentions": 0
+  "n_mentions": 1
 }

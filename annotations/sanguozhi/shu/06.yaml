@@ -1657,16 +1657,6 @@ annotations:
   era: 章武
   era_year: 2
   reasoning: 承前文年號「章武」推得，「二年」 = 章武2年 = AD 222
-- anchor: shu.6.p14
-  at: 50
-  length: 2
-  type: person
-  person_id: liubei
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 馬超章武二年臨沒上疏「深託陛下」，所託為當時蜀漢君主先主劉備。
-  id: shu.6.p14.h3
 - id: shu.6.p14.h1
   anchor: shu.6.p14
   at: 61
@@ -1757,10 +1747,10 @@ annotations:
   text: 是歲
   kind: relative
   resolution: this_year
-  year_ad: 222
-  era: 章武
-  era_year: 2
-  reasoning: 「是歲」 = 当前年 章武2年 (AD 222)
+  year_ad: 219
+  era: 建安
+  era_year: 24
+  reasoning: 「是歲」 = 当前年 建安24年 (AD 219)
 - id: shu.6.p15.h7
   anchor: shu.6.p15
   at: 176
@@ -1809,10 +1799,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 223
-  era: 章武
-  era_year: 3
-  reasoning: 「明年」 = 当前年 章武2年 (AD 222) 之次年 = AD 223
+  year_ad: 220
+  era: 建安
+  era_year: 25
+  reasoning: 「明年」 = 当前年 建安24年 (AD 219) 之次年 = AD 220
 - id: shu.6.p16.h1
   anchor: shu.6.p16
   at: 0
@@ -1901,13 +1891,21 @@ annotations:
   via: chapter_alias
 - id: shu.6.p16.h11
   anchor: shu.6.p16
+  at: 74
+  length: 3
+  type: person
+  person_id: ganhuanghou
+  text: 甘夫人
+  via: alias
+- id: shu.6.p16.h12
+  anchor: shu.6.p16
   at: 79
   length: 2
   type: person
   person_id: liushan
   text: 後主
   via: chapter_alias
-- id: shu.6.p16.h12
+- id: shu.6.p16.h13
   anchor: shu.6.p16
   at: 96
   length: 2
@@ -1915,7 +1913,7 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- id: shu.6.p16.h13
+- id: shu.6.p16.h14
   anchor: shu.6.p16
   at: 101
   length: 1

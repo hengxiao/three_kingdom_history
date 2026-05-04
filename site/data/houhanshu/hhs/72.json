@@ -514,16 +514,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.72.p8.h9",
-          "type": "person",
-          "at": 22,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "靈帝崩何進謀誅宦官「而太后不許」即何太后不許，對應 hetaihou。"
-        },
-        {
           "id": "hhs.72.p8.h3",
           "type": "person",
           "at": 30,
@@ -531,16 +521,6 @@
           "text": "卓",
           "person_id": "dongzhuo",
           "via": "given_name_carry"
-        },
-        {
-          "id": "hhs.72.p8.h10",
-          "type": "person",
-          "at": 38,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「以脅太后」即召董卓以脅何太后，對應 hetaihou。"
         },
         {
           "id": "hhs.72.p8.h4",
@@ -681,33 +661,22 @@
           "via": "given_name_carry"
         },
         {
-          "id": "hhs.72.p9.h7",
+          "id": "hhs.72.p9.h6",
           "type": "person",
-          "at": 73,
-          "length": 2,
-          "text": "太后",
+          "at": 72,
+          "length": 3,
+          "text": "董太后",
           "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "「為董太后所養」即陳留王協為董太后（永樂太后）所養，對應 dongtaihou。"
+          "via": "primary"
         },
         {
-          "id": "hhs.72.p9.h6",
+          "id": "hhs.72.p9.h7",
           "type": "person",
           "at": 78,
           "length": 1,
           "text": "卓",
           "person_id": "dongzhuo",
           "via": "given_name_carry"
-        },
-        {
-          "id": "hhs.72.p9.h8",
-          "type": "person",
-          "at": 82,
-          "length": 2,
-          "text": "太后",
-          "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "同段「卓自以與太后同族」董卓自稱與董太后同族，對應 dongtaihou。"
         }
       ]
     },
@@ -848,16 +817,6 @@
           "via": "given_name_carry"
         },
         {
-          "id": "hhs.72.p10.h14",
-          "type": "person",
-          "at": 305,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「遂脅太后，策廢少帝」即董卓脅何太后廢劉辯，對應 hetaihou。"
-        },
-        {
           "id": "hhs.72.p10.h11",
           "type": "person",
           "at": 310,
@@ -885,16 +844,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.72.p10.h15",
-          "type": "person",
-          "at": 355,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「議太后蹙迫永樂太后」即議何太后逼董太后事，主語太后即何太后，對應 hetaihou。"
-        },
-        {
           "id": "hhs.72.p10.a7",
           "type": "lixian",
           "at": 357,
@@ -902,14 +851,13 @@
           "text": "靈帝何皇后。"
         },
         {
-          "id": "hhs.72.p10.h16",
+          "id": "hhs.72.p10.h14",
           "type": "person",
-          "at": 361,
-          "length": 2,
-          "text": "太后",
+          "at": 359,
+          "length": 4,
+          "text": "永樂太后",
           "person_id": "dongtaihou",
-          "via": "llm",
-          "reasoning": "同段「永樂太后」即孝仁董皇后董氏，對應 dongtaihou。"
+          "via": "alias"
         },
         {
           "id": "hhs.72.p10.a8",
@@ -2699,16 +2647,6 @@
           "text": "音纖。"
         },
         {
-          "id": "hhs.72.p31.h2",
-          "type": "person",
-          "at": 90,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "李傕劫獻帝事，「以車三乘迎天子、皇后」即伏皇后伏壽，對應 fuhuanghou。"
-        },
-        {
           "id": "hhs.72.p31.a4",
           "type": "lixian",
           "at": 304,
@@ -2721,16 +2659,6 @@
       "id": "hhs.72.p32",
       "text": "是日，傕復移帝幸其北塢，唯皇后、宋貴人俱。傕使校尉監門，隔絕內外。尋復欲徙帝於池陽黃白城，君臣惶懼。司徒趙溫深解譬之，乃止。詔遣謁者僕射皇甫酈和傕、汜。酈先譬汜，汜即從命。又詣傕，傕不聽。曰：「郭多，盜馬虜耳，何敢欲與我同邪！必誅之。君觀我方略士眾，足辦郭多不？多又劫質公卿。所為如是，而君苟欲左右之邪！」汜一名多。酈曰：「今汜質公卿，而將軍脅主，誰輕重乎？」傕怒，呵遣酈，因令虎賁王昌追殺之。昌偽不及，酈得以免。傕乃自為大司馬。與郭汜相攻連月，死者以萬數。",
       "annotations": [
-        {
-          "id": "hhs.72.p32.h1",
-          "type": "person",
-          "at": 13,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "「唯皇后、宋貴人俱」即伏皇后與宋貴人從帝，伏皇后對應 fuhuanghou。"
-        },
         {
           "id": "hhs.72.p32.a1",
           "type": "lixian",
@@ -2833,16 +2761,6 @@
           "at": 384,
           "length": 0,
           "text": "縋音直類反。"
-        },
-        {
-          "id": "hhs.72.p34.h4",
-          "type": "person",
-          "at": 439,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "fuhuanghou",
-          "via": "llm",
-          "reasoning": "「同濟唯皇后、宋貴人」即伏皇后與宋貴人共渡河，對應 fuhuanghou。"
         },
         {
           "id": "hhs.72.p34.a5",

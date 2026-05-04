@@ -48,16 +48,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.69.p2.h2",
-          "type": "person",
-          "at": 31,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「貴人立為皇后」即桓帝立竇妙為皇后，桓思竇皇后未列 roster。"
-        },
-        {
           "id": "hhs.69.p2.t2",
           "type": "temporal",
           "at": 50,
@@ -114,26 +104,6 @@
       "text": "臣聞明主不諱譏刺之言，以探幽暗之實；忠臣不卹諫爭之患，以暢萬端之事。是以君臣並熙，名奮百世。臣幸得遭盛明之世，逢文武之化，豈敢懷祿逃罪，不竭其誠！陛下初從藩國，爰登聖祚，天下逸豫，謂當中興。自即位以來，未聞善政。梁、孫、寇、鄧雖或誅滅，而常侍黃門續為禍虐，欺罔陛下，競行譎詐，自造制度，妄爵非人，朝政日衰，姦臣日彊。伏尋西京放恣王氏，佞臣執政，終喪天下。今不慮前事之失，復循覆車之軌，臣恐二世之難，必將復及，趙高之變，不朝則夕。近者姦臣牢脩，造設黨議，遂收前司隸校尉李膺、太僕杜密、御史中丞陳翔、太尉掾范滂等逮考，連及數百人，曠年拘錄，事無效驗。臣惟膺等建忠抗節，志經王室，此誠陛下稷、党、伊、呂之佐，而虛為姦臣賊子之所誣枉，天下寒心，海內失望。惟陛下留神澄省，時見理出，以厭人鬼喁喁之心。臣聞古之明君，必須賢佐，以成政道。今臺閣近臣，尚書令陳蕃，僕射胡廣，尚書朱宇、荀緄、劉祐、魏朗、劉矩、尹勳等，皆國之貞士，朝之良佐。尚書郎張陵、媯皓、苑康、楊喬、邊韶、戴恢等，文質彬彬，明達國典。內外之職，群才並列。而陛下委任近習，專樹饕餮，外典州郡，內幹心膂。宜以次貶黜，案罪糾罰，抑奪宦官欺國之封，案其無狀誣罔之罪，信任忠良，平決臧否，使邪正毀譽，各得其所，寶愛天官，唯善是授。如此，咎徵可消，天應可待。閒者有嘉禾、芝草、黃龍之見。夫瑞生必於嘉士，福至實由善人，在德為瑞，無德為災。陛下所行，不合天意，不宜稱慶。",
       "annotations": [
         {
-          "id": "hhs.69.p4.h9",
-          "type": "person",
-          "at": 73,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "竇武奏「陛下初從藩國」即桓帝由蠡吾侯入繼，對應 huanhan。"
-        },
-        {
-          "id": "hhs.69.p4.h10",
-          "type": "person",
-          "at": 130,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「欺罔陛下」即奏桓帝，對應 huanhan。"
-        },
-        {
           "id": "hhs.69.p4.h1",
           "type": "person",
           "at": 233,
@@ -159,26 +129,6 @@
           "text": "陳翔",
           "person_id": "chenxiang",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p4.h11",
-          "type": "person",
-          "at": 289,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「此誠陛下稷契伊呂之佐」即奏桓帝，對應 huanhan。"
-        },
-        {
-          "id": "hhs.69.p4.h12",
-          "type": "person",
-          "at": 324,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「惟陛下留神澄省」即奏桓帝，對應 huanhan。"
         },
         {
           "id": "hhs.69.p4.h4",
@@ -224,26 +174,6 @@
           "text": "苑康",
           "person_id": "yuankang",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p4.h13",
-          "type": "person",
-          "at": 454,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「而陛下委任近習」即奏桓帝，對應 huanhan。"
-        },
-        {
-          "id": "hhs.69.p4.h14",
-          "type": "person",
-          "at": 588,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "huanhan",
-          "via": "llm",
-          "reasoning": "同段「陛下所行，不合天意」即奏桓帝，對應 huanhan。"
         }
       ]
     },
@@ -276,16 +206,6 @@
       "text": "其冬帝崩，無嗣。武召侍御史河閒劉儵，參問其國中王子侯之賢者，儵稱解瀆亭侯宏。武入白太后，遂徵立之，是為靈帝。拜武為大將軍，常居禁中。帝既立，論定策功，更封武為聞喜侯；子機渭陽侯，拜侍中；兄子紹鄠侯，遷步兵校尉；紹弟靖西鄉侯，為侍中，監羽林左騎。",
       "annotations": [
         {
-          "id": "hhs.69.p6.h2",
-          "type": "person",
-          "at": 41,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "桓帝崩竇武「白太后」立靈帝，即桓思竇妙臨朝定策，未列 roster。"
-        },
-        {
           "id": "hhs.69.p6.h1",
           "type": "person",
           "at": 51,
@@ -312,6 +232,15 @@
         {
           "id": "hhs.69.p7.h2",
           "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.69.p7.h3",
+          "type": "person",
           "at": 105,
           "length": 2,
           "text": "尹勳",
@@ -319,7 +248,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p7.h3",
+          "id": "hhs.69.p7.h4",
           "type": "person",
           "at": 138,
           "length": 2,
@@ -328,7 +257,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p7.h4",
+          "id": "hhs.69.p7.h5",
           "type": "person",
           "at": 148,
           "length": 2,
@@ -337,7 +266,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p7.h5",
+          "id": "hhs.69.p7.h6",
           "type": "person",
           "at": 181,
           "length": 2,
@@ -369,42 +298,11 @@
         {
           "id": "hhs.69.p8.h1",
           "type": "person",
-          "at": 86,
+          "at": 240,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「旦夕亂太后」即趙夫人等亂竇太后竇妙，未列 roster。"
-        },
-        {
-          "id": "hhs.69.p8.h2",
-          "type": "person",
-          "at": 104,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「白太后曰」即竇武奏竇太后竇妙，未列 roster。"
-        },
-        {
-          "id": "hhs.69.p8.h3",
-          "type": "person",
-          "at": 177,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「太后曰」即竇太后竇妙答竇武，未列 roster。"
-        },
-        {
-          "id": "hhs.69.p8.h4",
-          "type": "person",
-          "at": 244,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「太后冘豫未忍」延續即竇太后竇妙，未列 roster。"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         }
       ]
     },
@@ -428,16 +326,6 @@
           "reasoning": "年承前文 永康元年 (AD 167)，月份「八月」"
         },
         {
-          "id": "hhs.69.p9.h3",
-          "type": "person",
-          "at": 23,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "劉瑜上書「皇太后」即竇太后竇妙，未列 roster。"
-        },
-        {
           "id": "hhs.69.p9.h1",
           "type": "person",
           "at": 109,
@@ -453,6 +341,15 @@
           "length": 2,
           "text": "尹勳",
           "person_id": "yinxun_2",
+          "via": "primary"
+        },
+        {
+          "id": "hhs.69.p9.h3",
+          "type": "person",
+          "at": 208,
+          "length": 2,
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
           "via": "primary"
         }
       ]
@@ -471,17 +368,16 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p10.h4",
+          "id": "hhs.69.p10.h2",
           "type": "person",
-          "at": 69,
+          "at": 111,
           "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "「奏白太后廢帝」即朱瑀偽稱奏竇太后廢靈帝，竇太后竇妙未列 roster。"
+          "text": "曹節",
+          "person_id": "caojie_huanghou",
+          "via": "primary"
         },
         {
-          "id": "hhs.69.p10.h2",
+          "id": "hhs.69.p10.h3",
           "type": "person",
           "at": 196,
           "length": 2,
@@ -490,23 +386,13 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p10.h3",
+          "id": "hhs.69.p10.h4",
           "type": "person",
           "at": 343,
           "length": 2,
           "text": "張奐",
           "person_id": "zhanghuan",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p10.h5",
-          "type": "person",
-          "at": 532,
-          "length": 2,
-          "text": "太后",
-          "person_id": "doumiao",
-          "via": "llm",
-          "reasoning": "同段「遷太后於雲臺」即遷竇太后竇妙，未列 roster。"
         }
       ]
     },
@@ -625,16 +511,6 @@
           "era": "光和",
           "era_year": 2,
           "reasoning": "原文「光和二年」直接出现年号；解析為 AD 179"
-        },
-        {
-          "id": "hhs.69.p16.h3",
-          "type": "person",
-          "at": 59,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「貴人立為皇后」即光和三年立何氏為皇后，對應 hetaihou。"
         }
       ]
     },
@@ -744,22 +620,11 @@
         {
           "id": "hhs.69.p21.h1",
           "type": "person",
-          "at": 3,
-          "length": 2,
-          "text": "皇后",
+          "at": 2,
+          "length": 3,
+          "text": "何皇后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「何皇后生皇子辯」直點即何皇后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p21.h2",
-          "type": "person",
-          "at": 41,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「皇后有寵」延續即何皇后，對應 hetaihou。"
+          "via": "primary"
         }
       ]
     },
@@ -783,12 +648,11 @@
         {
           "id": "hhs.69.p22.h1",
           "type": "person",
-          "at": 103,
-          "length": 2,
-          "text": "太后",
+          "at": 102,
+          "length": 3,
+          "text": "何太后",
           "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「何太后臨朝」即靈帝崩後何氏臨朝，對應 hetaihou。"
+          "via": "alias"
         }
       ]
     },
@@ -828,18 +692,7 @@
     {
       "id": "hhs.69.p24",
       "text": "蹇碩疑不自安，與中常侍趙忠等書曰：「大將軍兄弟秉國專朝，今與天下黨人謀誅先帝左右，埽滅我曹。但以碩典禁兵，故且沈吟。今宜共閉上閤，急捕誅之。」中常侍郭勝，進同郡人也。太后及進之貴幸，勝有力焉。故勝親信何氏，遂共趙忠等議，不從碩計，而以其書示進。進乃使黃門令收碩，誅之，因領其屯兵。",
-      "annotations": [
-        {
-          "id": "hhs.69.p24.h1",
-          "type": "person",
-          "at": 83,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后及進之貴幸」何進及其妹（何太后）共同貴幸，即何太后，對應 hetaihou。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.69.p25",
@@ -864,36 +717,6 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.69.p25.h4",
-          "type": "person",
-          "at": 168,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「以其計白太后」何進白何太后誅宦官，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p25.h5",
-          "type": "person",
-          "at": 171,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后不聽」即何太后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p25.h6",
-          "type": "person",
-          "at": 226,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「進難違太后意」延續即何太后，對應 hetaihou。"
-        },
-        {
           "id": "hhs.69.p25.h3",
           "type": "person",
           "at": 238,
@@ -901,36 +724,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name"
-        },
-        {
-          "id": "hhs.69.p25.h7",
-          "type": "person",
-          "at": 264,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后母舞陽君」即何太后母（舞陽君為何太后母），對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p25.h8",
-          "type": "person",
-          "at": 288,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「數白太后」即向何太后進讒，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p25.h9",
-          "type": "person",
-          "at": 316,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后疑以為然」延續即何太后，對應 hetaihou。"
         }
       ]
     },
@@ -946,16 +739,6 @@
           "text": "紹",
           "person_id": "yuanshao",
           "via": "given_name_carry"
-        },
-        {
-          "id": "hhs.69.p26.h5",
-          "type": "person",
-          "at": 28,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「以脅太后」即召外將以脅迫何太后，對應 hetaihou。"
         },
         {
           "id": "hhs.69.p26.h2",
@@ -983,16 +766,6 @@
           "text": "橋瑁",
           "person_id": "qiaomao",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p26.h6",
-          "type": "person",
-          "at": 243,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后猶不從」延續即何太后，對應 hetaihou。"
         }
       ]
     },
@@ -1046,16 +819,6 @@
           "via": "primary"
         },
         {
-          "id": "hhs.69.p27.h9",
-          "type": "person",
-          "at": 163,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后乃恐」即何太后聞董卓兵將至而懼，對應 hetaihou。"
-        },
-        {
           "id": "hhs.69.p27.h6",
           "type": "person",
           "at": 229,
@@ -1087,48 +850,7 @@
     {
       "id": "hhs.69.p28",
       "text": "進謀積日，頗泄，中官懼而思變。張讓子婦，太后之妹也。讓向子婦叩頭曰：「老臣得罪，當與新婦俱歸私門。惟受恩累世，今當遠離宮殿，情懷戀戀，願復一入直，得暫奉望太后、陛下顏色，然後退就溝壑，死不恨矣。」子婦言於舞陽君，入白太后，乃詔諸常侍皆復入直。",
-      "annotations": [
-        {
-          "id": "hhs.69.p28.h1",
-          "type": "person",
-          "at": 20,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「太后之妹也」即張讓子婦為何太后之妹，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p28.h2",
-          "type": "person",
-          "at": 77,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「奉望太后、陛下顏色」即何太后與少帝，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p28.h4",
-          "type": "person",
-          "at": 80,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liubian",
-          "via": "llm",
-          "reasoning": "張讓子婦言「奉望太后、陛下顏色」即少帝劉辯，對應 liubian。"
-        },
-        {
-          "id": "hhs.69.p28.h3",
-          "type": "person",
-          "at": 108,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「入白太后」即舞陽君白何太后，對應 hetaihou。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.69.p29",
@@ -1148,36 +870,6 @@
           "month_chinese": "八月",
           "month_ordinal": 8,
           "reasoning": "年承前文 中平6年 (AD 189)，月份「八月」"
-        },
-        {
-          "id": "hhs.69.p29.h2",
-          "type": "person",
-          "at": 8,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「進入長樂白太后」即何進入長樂宮奏何太后誅宦官，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p29.h3",
-          "type": "person",
-          "at": 117,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「以太后詔召進」即詐稱何太后詔，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p29.h4",
-          "type": "person",
-          "at": 152,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「先帝嘗與太后不快」靈帝與何太后之事，對應 hetaihou。"
         },
         {
           "id": "hhs.69.p29.h1",
@@ -1213,26 +905,6 @@
           "via": "given_name"
         },
         {
-          "id": "hhs.69.p30.h4",
-          "type": "person",
-          "at": 77,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「入白太后」即張讓等白何太后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p30.h5",
-          "type": "person",
-          "at": 97,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「將太后、天子及陳留王」即何太后與少帝陳留王同被劫，對應 hetaihou。"
-        },
-        {
           "id": "hhs.69.p30.h3",
           "type": "person",
           "at": 123,
@@ -1240,26 +912,6 @@
           "text": "盧植",
           "person_id": "luzhi",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p30.h6",
-          "type": "person",
-          "at": 145,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「乃釋太后」即釋何太后，對應 hetaihou。"
-        },
-        {
-          "id": "hhs.69.p30.h7",
-          "type": "person",
-          "at": 148,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "同段「太后投閣得免」即何太后跳閣得脫，對應 hetaihou。"
         }
       ]
     },
@@ -1350,16 +1002,6 @@
           "text": "董卓",
           "person_id": "dongzhuo",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p33.h2",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "「董卓遂廢帝，又迫殺太后」即弒何太后，對應 hetaihou。"
         }
       ]
     },
@@ -1375,16 +1017,6 @@
           "text": "何進",
           "person_id": "hejin",
           "via": "primary"
-        },
-        {
-          "id": "hhs.69.p34.h2",
-          "type": "person",
-          "at": 22,
-          "length": 2,
-          "text": "太后",
-          "person_id": "hetaihou",
-          "via": "llm",
-          "reasoning": "論曰「太后臨朝之威」泛指竇武所倚的竇太后及何進所倚的何太后，未指明具體一人。"
         }
       ]
     },

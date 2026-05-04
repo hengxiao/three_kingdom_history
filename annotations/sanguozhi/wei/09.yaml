@@ -1209,17 +1209,15 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.9.p18
-  at: 44
-  length: 2
+- id: wei.9.p18.h2
+  anchor: wei.9.p18
+  at: 43
+  length: 3
   type: person
   person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「卞太后謂郭后曰」— 即武宣卞太后（曹丕母）；roster 無，置 null。
-  id: wei.9.p18.h6
-- id: wei.9.p18.h2
+  text: 卞太后
+  via: alias
+- id: wei.9.p18.h3
   anchor: wei.9.p18
   at: 53
   length: 2
@@ -1233,7 +1231,7 @@ annotations:
   length: 0
   type: pei
   text: 《魏略》曰：文帝收洪，時曹真在左右，請之曰：「今誅洪，洪必以真爲譖也。」帝曰：「我自治之，卿何豫也？」會卞太后責怒帝，言「梁、沛之間，非子廉無有今日」。詔乃釋之。猶尚沒入其財產。太后又以爲言，後乃還之。初，太祖爲司空時，以己率下，每歲发调，使本縣平赀。於時譙令平洪赀財與公家等，太祖曰：「我家赀那得如子廉耶！」文帝在東宫，尝從洪贷绢百匹，洪不稱意。及洪犯法，自分必死，既得原，喜，上書谢曰：「臣少不由道，过在人伦，長窃非任，遂蒙含贷。性無检度知足之分，而有豺狼無厌之質，老惛倍贪，触突國网，罪迫三千，不在赦宥，當就辜誅，棄諸市朝，猶蒙天恩，骨肉更生。臣仰视天日，愧負靈神，俯惟愆阙，惭愧怖悸，不能雉經以自裁割，谨涂颜阙門，拜章陳情。」
-- id: wei.9.p18.h3
+- id: wei.9.p18.h4
   anchor: wei.9.p18
   at: 97
   length: 2
@@ -1253,7 +1251,7 @@ annotations:
   era: 太和
   era_year: 6
   reasoning: 原文「太和六年」直接出现年号；解析為 AD 232
-- id: wei.9.p18.h4
+- id: wei.9.p18.h5
   anchor: wei.9.p18
   at: 147
   length: 2
@@ -1261,7 +1259,7 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- id: wei.9.p18.h5
+- id: wei.9.p18.h6
   anchor: wei.9.p18
   at: 161
   length: 1
@@ -1651,10 +1649,10 @@ annotations:
   text: 七年
   kind: relative
   resolution: bare_year
-  year_ad: 233
-  era: 太和
+  year_ad: 226
+  era: 黃初
   era_year: 7
-  reasoning: 承前文年號「太和」推得，「七年」 = 太和7年 = AD 233
+  reasoning: 承前文年號「黃初」推得，「七年」 = 黃初7年 = AD 226
 - id: wei.9.p21.h17
   anchor: wei.9.p21
   at: 313
@@ -1733,8 +1731,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 234
-  reasoning: 「明年」 = 当前年 太和7年 (AD 233) 之次年 = AD 234（跨年號邊界，新年號未明）
+  year_ad: 233
+  era: 太和
+  era_year: 7
+  reasoning: 「明年」 = 当前年 太和6年 (AD 232) 之次年 = AD 233
 - id: wei.9.p22.h6
   anchor: wei.9.p22
   at: 129
@@ -1753,16 +1753,30 @@ annotations:
   via: given_name_carry
 - id: wei.9.p22.t2
   anchor: wei.9.p22
+  at: 154
+  length: 2
+  type: temporal
+  text: 四年
+  kind: relative
+  resolution: bare_year
+  year_ad: 230
+  era: 太和
+  era_year: 4
+  reasoning: 承前文年號「太和」推得，「四年」 = 太和4年 = AD 230
+- id: wei.9.p22.t3
+  anchor: wei.9.p22
   at: 221
   length: 2
   type: temporal
   text: 八月
   kind: relative
   resolution: bare_month
-  year_ad: 234
+  year_ad: 230
+  era: 太和
+  era_year: 4
   month_chinese: 八月
   month_ordinal: 8
-  reasoning: 年承前文 AD 234，月份「八月」
+  reasoning: 年承前文 太和4年 (AD 230)，月份「八月」
 - id: wei.9.p23.h1
   anchor: wei.9.p23
   at: 14
@@ -1893,26 +1907,6 @@ annotations:
   length: 0
   type: pei
   text: 《世語》曰：爽兄弟先是數俱出游，桓範謂曰：「總萬機，典禁兵，不宜並出，若有閉城門，誰復內人者？」爽曰：「誰敢爾邪！」由此不復並行。至是乃盡出也。
-- anchor: wei.9.p27
-  at: 53
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 司馬懿高平陵奏曹爽事，正始十年（249）正月所對「陛下」即齊王曹芳。
-  id: wei.9.p27.h2
-- anchor: wei.9.p27
-  at: 91
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同奏疏，仍指齊王曹芳。
-  id: wei.9.p27.h3
 - id: wei.9.p27.h1
   anchor: wei.9.p27
   at: 158
@@ -1921,36 +1915,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wei.9.p27
-  at: 263
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同奏疏，仍指齊王曹芳。
-  id: wei.9.p27.h4
-- anchor: wei.9.p27
-  at: 280
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同奏疏，仍指齊王曹芳。
-  id: wei.9.p27.h5
-- anchor: wei.9.p27
-  at: 326
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同奏疏，仍指齊王曹芳。
-  id: wei.9.p27.h6
 - id: wei.9.p27.a2
   anchor: wei.9.p27
   at: 449
@@ -2145,10 +2109,10 @@ annotations:
   text: 五年
   kind: relative
   resolution: bare_year
-  year_ad: 244
-  era: 正始
+  year_ad: 224
+  era: 黃初
   era_year: 5
-  reasoning: 承前文年號「正始」推得，「五年」 = 正始5年 = AD 244
+  reasoning: 承前文年號「黃初」推得，「五年」 = 黃初5年 = AD 224
 - id: wei.9.p32.h1
   anchor: wei.9.p32
   at: 21
@@ -2191,16 +2155,6 @@ annotations:
   length: 0
   type: pei
   text: 《魏書》載詔曰：「尚自少侍從，盡誠竭節，雖云異姓，其猶骨肉，是以入爲腹心，出當爪牙。智略深敏，謀謨過人，不幸早殞，命也柰何！贈征南大將軍、昌陵侯印綬。」
-- anchor: wei.9.p33
-  at: 24
-  length: 2
-  type: person
-  person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.9
-  reasoning: 「與皇后弟毛曾並坐」— 皇后即明悼毛皇后（明帝皇后）；roster 無。
-  id: wei.9.p33.h3
 - id: wei.9.p33.h1
   anchor: wei.9.p33
   at: 43

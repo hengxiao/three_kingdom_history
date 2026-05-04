@@ -548,10 +548,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 252,
-          "era": "嘉平",
+          "year_ad": 230,
+          "era": "太和",
           "era_year": 4,
-          "reasoning": "承前文年號「嘉平」推得，「四年」 = 嘉平4年 = AD 252"
+          "reasoning": "承前文年號「太和」推得，「四年」 = 太和4年 = AD 230"
         }
       ]
     },
@@ -834,6 +834,15 @@
           "via": "chapter_alias"
         },
         {
+          "id": "wei.15.p19.h5",
+          "type": "person",
+          "at": 294,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
           "id": "wei.15.p19.a1",
           "type": "pei",
           "at": 660,
@@ -909,6 +918,15 @@
         {
           "id": "wei.15.p21.h3",
           "type": "person",
+          "at": 88,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "wei.15.p21.h4",
+          "type": "person",
           "at": 100,
           "length": 2,
           "text": "張旣",
@@ -916,7 +934,7 @@
           "via": "primary"
         },
         {
-          "id": "wei.15.p21.h4",
+          "id": "wei.15.p21.h5",
           "type": "person",
           "at": 144,
           "length": 2,
@@ -930,16 +948,6 @@
       "id": "wei.15.p22",
       "text": "緝以中書郎稍遷東莞太守。嘉平中，女為皇后，徵拜光祿大夫，位特進，封妻向為安城鄉君。緝與中書令李豐同謀，誅。語在《夏侯玄傳》。",
       "annotations": [
-        {
-          "id": "wei.15.p22.h2",
-          "type": "person",
-          "at": 18,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "houzhuhuanghou",
-          "via": "llm",
-          "reasoning": "嘉平中張緝之女為皇后，即齊王曹芳張皇后，roster未列。"
-        },
         {
           "id": "wei.15.p22.h1",
           "type": "person",
@@ -1163,16 +1171,6 @@
           "at": 325,
           "length": 0,
           "text": "《魏略》曰：時太子在鄴，鄢陵侯未到，士民颇苦劳役，又有疾疠，於是軍中骚動。羣寮恐天下有變，欲不发丧。逵建議爲不可秘，乃发哀，令内外皆入临，临讫，各安叙不得動。而青州軍擅击鼓相引去。眾人以爲宜禁止之，不從者讨之。逵以爲「方大丧在殡，嗣王未立，宜因而抚之」。乃爲作長檄，告所在给其廪食。"
-        },
-        {
-          "id": "wei.15.p28.h9",
-          "type": "person",
-          "at": 357,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「太祖崩洛陽……太子在鄴」延康元年賈逵答鄢陵侯，太子即繼位之曹丕。"
         }
       ]
     },

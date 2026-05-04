@@ -2,7 +2,7 @@ chapter: zztj.76
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷076
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 18035af9db573cb4efa0eb466063dfc80ab710fb806d43f0eac8ae4ed51de78b
 annotations:
 - id: zztj.76.p4.t1
@@ -387,16 +387,6 @@ annotations:
   person_id: zhugeke
   text: 諸葛恪
   via: primary
-- anchor: zztj.76.p24
-  at: 293
-  length: 2
-  type: person
-  person_id: caofang
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 正元元年前後齊王曹芳在位
-  id: zztj.76.p24.h3
 - id: zztj.76.p24.h2
   anchor: zztj.76.p24
   at: 411
@@ -468,6 +458,14 @@ annotations:
   type: person
   person_id: zhugeke
   text: 諸葛恪
+  via: primary
+- id: zztj.76.p28.h2
+  anchor: zztj.76.p28
+  at: 116
+  length: 2
+  type: person
+  person_id: heji
+  text: 何姬
   via: primary
 - id: zztj.76.p30.t1
   anchor: zztj.76.p30
@@ -543,36 +541,6 @@ annotations:
   person_id: xiahouxuan
   text: 夏侯玄
   via: primary
-- anchor: zztj.76.p31
-  at: 294
-  length: 2
-  type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 正元元年(254)司馬師廢曹芳立曹髦
-  id: zztj.76.p31.h7
-- anchor: zztj.76.p31
-  at: 303
-  length: 2
-  type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 正元元年(254)司馬師廢曹芳立曹髦
-  id: zztj.76.p31.h8
-- anchor: zztj.76.p31
-  at: 318
-  length: 2
-  type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 正元元年(254)司馬師廢曹芳立曹髦
-  id: zztj.76.p31.h9
 - id: zztj.76.p32.h1
   anchor: zztj.76.p32
   at: 20
@@ -725,16 +693,22 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 正元元年 (AD 254)，月份「九月」
-- anchor: zztj.76.p40
-  at: 95
-  length: 2
+- id: zztj.76.p41.h1
+  anchor: zztj.76.p41
+  at: 37
+  length: 3
   type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.78
-  reasoning: 正元元年(254)司馬師廢曹芳立曹髦
-  id: zztj.76.p40.h1
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
+- id: zztj.76.p41.h2
+  anchor: zztj.76.p41
+  at: 58
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.76.p41.t1
   anchor: zztj.76.p41
   at: 175
@@ -1075,6 +1049,14 @@ annotations:
   month_chinese: 三月
   month_ordinal: 3
   reasoning: 年承前文 正元2年 (AD 255)，月份「三月」
+- id: zztj.76.p58.h1
+  anchor: zztj.76.p58
+  at: 6
+  length: 2
+  type: person
+  person_id: bianhuanghou
+  text: 卞氏
+  via: alias
 - id: zztj.76.p59.t1
   anchor: zztj.76.p59
   at: 2

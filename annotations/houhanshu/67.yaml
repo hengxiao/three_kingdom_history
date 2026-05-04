@@ -461,13 +461,21 @@ annotations:
   text: 刊，削。不欲宣露並名，故削除之，而直捕儉等。
 - id: hhs.67.p12.h4
   anchor: hhs.67.p12
+  at: 160
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: hhs.67.p12.h5
+  anchor: hhs.67.p12
   at: 179
   length: 2
   type: person
   person_id: dumi
   text: 杜密
   via: primary
-- id: hhs.67.p12.h5
+- id: hhs.67.p12.h6
   anchor: hhs.67.p12
   at: 186
   length: 2
@@ -475,7 +483,7 @@ annotations:
   person_id: liying
   text: 李膺
   via: primary
-- id: hhs.67.p12.h6
+- id: hhs.67.p12.h7
   anchor: hhs.67.p12
   at: 200
   length: 2
@@ -483,7 +491,7 @@ annotations:
   person_id: basu
   text: 巴肅
   via: primary
-- id: hhs.67.p12.h7
+- id: hhs.67.p12.h8
   anchor: hhs.67.p12
   at: 212
   length: 2
@@ -491,7 +499,7 @@ annotations:
   person_id: weilang
   text: 魏朗
   via: primary
-- id: hhs.67.p12.h8
+- id: hhs.67.p12.h9
   anchor: hhs.67.p12
   at: 225
   length: 2
@@ -881,16 +889,6 @@ annotations:
   length: 0
   type: lixian
   text: 紀太子僕殺紀公，以其寶玉來奔，納諸宣公，公命與之邑，季文子使司寇出之境。公問其故，對曰：「孝敬忠信爲吉德，盜賊藏姦爲凶德。夫莒僕，則其孝敬，*[則]*弒君父矣，則其忠信，則竊寶玉矣，其人則盜賊也，是以去之。舜舉十六相，去四凶，有大功二十而爲天子。今行父雖未獲一吉人，去一凶矣，於舜之功，二十之一也。」見《左傳》。
-- anchor: hhs.67.p24
-  at: 142
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.9
-  reasoning: 應奉理李膺等奏，桓帝延熹九年黨錮事，「陛下既不聽察」即奏桓帝，對應 huanhan。
-  id: hhs.67.p24.h3
 - id: hhs.67.p25.a1
   anchor: hhs.67.p25
   at: 42
@@ -1374,6 +1372,14 @@ annotations:
   type: person
   person_id: chenfan
   text: 陳蕃
+  via: primary
+- id: hhs.67.p50.h3
+  anchor: hhs.67.p50
+  at: 75
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
   via: primary
 - id: hhs.67.p51.a1
   anchor: hhs.67.p51
@@ -2131,10 +2137,10 @@ annotations:
   text: 是年
   kind: relative
   resolution: this_year
-  year_ad: 185
-  era: 中平
-  era_year: 2
-  reasoning: 「是年」 = 当前年 中平2年 (AD 185)
+  year_ad: 166
+  era: 延熹
+  era_year: 9
+  reasoning: 「是年」 = 当前年 延熹9年 (AD 166)
 - id: hhs.67.p109.h1
   anchor: hhs.67.p109
   at: 22

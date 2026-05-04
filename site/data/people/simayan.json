@@ -14,19 +14,97 @@
   "mentions_by_work": {
     "zztj": [
       {
+        "chapter_id": "zztj.77",
+        "chapter_title": "魏紀九",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.77.p64",
+        "at": 126,
+        "data_url": "data/zztj/zztj/77.json",
+        "matched": "司馬炎",
+        "snippet": "…傅孚等上言，請以王禮葬高貴鄉公，太后許之。使中護軍司馬炎迎燕王宇之子常道鄉公璜於鄴，以為明帝嗣。炎，昭之子也。"
+      },
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p67",
+        "at": 10,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "司馬炎",
+        "snippet": "八月，庚寅，命中撫軍司馬炎副貳相國事。"
+      },
+      {
+        "chapter_id": "zztj.78",
+        "chapter_title": "魏紀十",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.78.p69",
+        "at": 7,
+        "data_url": "data/zztj/zztj/78.json",
+        "matched": "司馬炎",
+        "snippet": "九月，戊午，以司馬炎為撫軍大將軍。"
+      },
+      {
         "chapter_id": "zztj.79",
         "chapter_title": "巻七十九 晉紀一",
         "book_title": "資治通鑑",
         "work": "zztj",
-        "anchor": "zztj.79.p30",
-        "at": 37,
+        "anchor": "zztj.79.p45",
+        "at": 24,
         "data_url": "data/zztj/zztj/79.json",
-        "matched": "主上",
-        "snippet": "…三年之喪，雖貴遂服，禮也，而漢文除之，毀禮傷義。今主上至孝，雖奪其服，實行喪禮。若因此復先王之法，不亦善乎！」玄曰：「以日易月，已數百年，一旦復古，難行也。」祜曰：「不能使天下如禮…"
+        "matched": "晉武帝",
+        "snippet": "臣光曰：政之大本，在於刑賞，刑賞不明，政何以成！晉武帝赦山濤而褒李喜，其於刑、賞兩失之。使喜所言爲是，則濤不可赦；所言爲非，則喜不足褒。褒之使言，言而不用，怨結於下，威玩於上，將…"
       }
     ],
-    "sanguozhi": [],
+    "sanguozhi": [
+      {
+        "chapter_id": "wei.18",
+        "chapter_title": "魏書·二李臧文吕许典二庞阎传",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.18.p31",
+        "at": 102,
+        "data_url": "data/sanguozhi/wei/18.json",
+        "matched": "晉武帝",
+        "snippet": "…於西州。〈《世語》曰：就子斅，字祖文，弘毅有幹正，晉武帝世為廣漢太守。王濬在益州，受中制募兵討吳，無虎符，斅收濬從事列上，由此召斅還。帝責斅：「何不密啓而便收從事？」斅曰：「蜀漢絕…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p60",
+        "at": 12,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "司馬炎",
+        "snippet": "使使持節行中護軍中壘將軍司馬炎北迎常道鄉公璜嗣明帝後。辛卯，羣公奏太后曰：「殿下聖德光隆，寧濟六合，而猶稱令，與藩國同。請自今殿下令書，皆稱詔制，如先代故…"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p75",
+        "at": 43,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "司馬炎",
+        "snippet": "…豫諸軍掎角赴救。七月，賊皆遁退。八月庚寅，命中撫軍司馬炎副貳相國事，以同魯公拜後之義。"
+      },
+      {
+        "chapter_id": "wei.4",
+        "chapter_title": "魏書·三少帝紀",
+        "book_title": "魏書",
+        "work": "sanguozhi",
+        "anchor": "wei.4.p77",
+        "at": 25,
+        "data_url": "data/sanguozhi/wei/04.json",
+        "matched": "司馬炎",
+        "snippet": "癸卯，以衞將軍司馬望為驃騎將軍。九月戊午，以中撫軍司馬炎為撫軍大將軍。"
+      }
+    ],
     "houhanshu": []
   },
-  "n_mentions": 1
+  "n_mentions": 8
 }

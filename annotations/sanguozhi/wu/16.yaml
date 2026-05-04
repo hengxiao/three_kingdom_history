@@ -109,16 +109,6 @@ annotations:
   person_id: guyong
   text: 顧雍
   via: primary
-- anchor: wu.16.p3
-  at: 190
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子登已數言之」— 文中明點「登」，即孫登。
-  id: wu.16.p3.h5
 - id: wu.16.p3.h3
   anchor: wu.16.p3
   at: 263
@@ -217,76 +207,6 @@ annotations:
   era: 寶鼎
   era_year: 1
   reasoning: 原文「寶鼎元年」直接出现年号；解析為 AD 266
-- anchor: wu.16.p11
-  at: 23
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱諫疏所對「陛下」為孫皓（凱拜左丞相在寶鼎元年，所諫多刺皓政事）。
-  id: wu.16.p11.h1
-- anchor: wu.16.p11
-  at: 54
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下息大功」。
-  id: wu.16.p11.h2
-- anchor: wu.16.p12
-  at: 213
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下一息此輩」。
-  id: wu.16.p12.h1
-- anchor: wu.16.p13
-  at: 125
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下料出賦嫁」。
-  id: wu.16.p13.h1
-- anchor: wu.16.p14
-  at: 115
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下簡文將之臣」。
-  id: wu.16.p14.h1
-- anchor: wu.16.p14
-  at: 150
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「上助陛下」。
-  id: wu.16.p14.h2
-- anchor: wu.16.p14
-  at: 182
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「願陛下留神思臣愚言」。
-  id: wu.16.p14.h3
 - id: wu.16.p16.t1
   anchor: wu.16.p16
   at: 0
@@ -307,26 +227,6 @@ annotations:
   person_id: louxuan
   text: 樓玄
   via: primary
-- anchor: wu.16.p16
-  at: 119
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱臨終疏對孫皓「願陛下重留神思」。
-  id: wu.16.p16.h2
-- anchor: wu.16.p17
-  at: 26
-  length: 2
-  type: person
-  person_id: sunjin
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 陸凱亡後（建衡元年270前後），子陸禕入為太子中庶子；時太子為孫皓子孫瑾（建衡元年立）；roster 無孫瑾，置 null。
-  id: wu.16.p17.h3
 - id: wu.16.p17.h1
   anchor: wu.16.p17
   at: 35
@@ -379,52 +279,12 @@ annotations:
   length: 0
   type: pei
   text: 《吴录》曰：旧拜庙，选兼大将军领三千兵为卫，凯欲因此兵以图之，令选曹白用丁奉。皓偶不欲，曰：「更选。」凯令执据，虽蹔兼，然宜得其人。皓曰：「用留平。」凯令其子祎谋语平。平素与丁奉有隙，祎未及得宣凯旨，平语祎曰：「闻野猪入丁奉营，此凶徵也。」有喜色。祎乃不敢言，还，因具启凯，故辍止。
-- anchor: wu.16.p21
-  at: 3
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱二十事疏「臣竊見陛下執政以來」對孫皓。
-  id: wu.16.p21.h5
-- anchor: wu.16.p21
-  at: 31
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「是陛下不遵先帝之所致」。
-  id: wu.16.p21.h6
 - id: wu.16.p21.a1
   anchor: wu.16.p21
   at: 41
   length: 0
   type: pei
   text: 《江表传》载凯此表曰：「臣拜受明诏，心与气结。陛下何心之难悟，意不聪之甚也！」
-- anchor: wu.16.p21
-  at: 63
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下不咨之公輔」。
-  id: wu.16.p21.h7
-- anchor: wu.16.p21
-  at: 101
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「縱令陛下一身得安」。
-  id: wu.16.p21.h8
 - id: wu.16.p21.h1
   anchor: wu.16.p21
   at: 162
@@ -433,76 +293,6 @@ annotations:
   person_id: wangfan
   text: 王蕃
   via: primary
-- anchor: wu.16.p21
-  at: 189
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下忿其苦辭」（指誅王蕃）。
-  id: wu.16.p21.h9
-- anchor: wu.16.p21
-  at: 235
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「陛下反之」。
-  id: wu.16.p21.h10
-- anchor: wu.16.p21
-  at: 241
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「是陛下不遵先帝二也」。
-  id: wu.16.p21.h11
-- anchor: wu.16.p21
-  at: 314
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下愛其細介」。
-  id: wu.16.p21.h12
-- anchor: wu.16.p21
-  at: 391
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下反之」。
-  id: wu.16.p21.h13
-- anchor: wu.16.p21
-  at: 500
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「陛下臨阼以來」。
-  id: wu.16.p21.h14
-- anchor: wu.16.p21
-  at: 571
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下徵調州郡」。
-  id: wu.16.p21.h15
 - id: wu.16.p21.h2
   anchor: wu.16.p21
   at: 615
@@ -527,96 +317,6 @@ annotations:
   person_id: lusu
   text: 肅
   via: given_name_carry
-- anchor: wu.16.p21
-  at: 662
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下幸之」。
-  id: wu.16.p21.h16
-- anchor: wu.16.p22
-  at: 37
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下拘以視瞻之敬」。
-  id: wu.16.p22.h1
-- anchor: wu.16.p22
-  at: 116
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「而陛下賞以重爵」。
-  id: wu.16.p22.h2
-- anchor: wu.16.p24
-  at: 22
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱奏疏結語對孫皓「願陛下留意」。
-  id: wu.16.p24.h1
-- anchor: wu.16.p26
-  at: 67
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱別疏對孫皓「臣察陛下無思警戒之義」。
-  id: wu.16.p26.h1
-- anchor: wu.16.p26
-  at: 105
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「陛下宜克己復禮」。
-  id: wu.16.p26.h2
-- anchor: wu.16.p26
-  at: 206
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「亦不可使後人復忿陛下也」。
-  id: wu.16.p26.h3
-- anchor: wu.16.p26
-  at: 227
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「值遇陛下」。
-  id: wu.16.p26.h4
-- anchor: wu.16.p26
-  at: 278
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「原陛下九思」。
-  id: wu.16.p26.h5
 - id: wu.16.p28.h1
   anchor: wu.16.p28
   at: 161
@@ -625,26 +325,6 @@ annotations:
   person_id: sunquan
   text: 大皇帝
   via: chapter_alias
-- anchor: wu.16.p28
-  at: 417
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 陸凱諫起新宮疏對孫皓「陛下不務脩德」。
-  id: wu.16.p28.h5
-- anchor: wu.16.p28
-  at: 513
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「臣離於陛下之象也」。
-  id: wu.16.p28.h6
 - id: wu.16.p28.h2
   anchor: wu.16.p28
   at: 541
@@ -661,16 +341,6 @@ annotations:
   person_id: sunquan
   text: 大皇帝
   via: chapter_alias
-- anchor: wu.16.p28
-  at: 674
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「況陛下危恻之世」。
-  id: wu.16.p28.h7
 - id: wu.16.p28.h4
   anchor: wu.16.p28
   at: 683
@@ -679,26 +349,6 @@ annotations:
   person_id: sunquan
   text: 大皇帝
   via: chapter_alias
-- anchor: wu.16.p28
-  at: 695
-  length: 2
-  type: person
-  person_id: sunhao
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏對孫皓「原陛下留意」。
-  id: wu.16.p28.h8
-- anchor: wu.16.p29
-  at: 20
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子和聞其名」— 文中明點「和」，即孫和。
-  id: wu.16.p29.h1
 - id: wu.16.p29.a1
   anchor: wu.16.p29
   at: 71

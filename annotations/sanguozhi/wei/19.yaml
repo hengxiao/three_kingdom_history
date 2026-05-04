@@ -91,26 +91,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p3
-  at: 353
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「彰自代過鄴，太子謂彰曰」此時太子即曹丕（建安二十三、四年）。
-  id: wei.19.p3.h5
-- anchor: wei.19.p3
-  at: 388
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「如太子言」續指曹丕。
-  id: wei.19.p3.h6
 - id: wei.19.p3.h4
   anchor: wei.19.p3
   at: 397
@@ -307,6 +287,18 @@ annotations:
   era: 建安
   era_year: 16
   reasoning: 原文「建安十六年」直接出现年号；解析為 AD 211（回溯前事，不推進章節時間軸）
+- id: wei.19.p6.t2
+  anchor: wei.19.p6
+  at: 11
+  length: 3
+  type: temporal
+  text: 十九年
+  kind: relative
+  resolution: bare_year
+  year_ad: 214
+  era: 建安
+  era_year: 19
+  reasoning: 承前文年號「建安」推得，「十九年」 = 建安19年 = AD 214
 - id: wei.19.p6.h1
   anchor: wei.19.p6
   at: 21
@@ -339,16 +331,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p6
-  at: 105
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太祖狐疑，幾為太子者數矣」立嗣之爭，最終立曹丕為太子。
-  id: wei.19.p6.h6
 - id: wei.19.p6.h5
   anchor: wei.19.p6
   at: 128
@@ -389,16 +371,6 @@ annotations:
   person_id: yangxiu
   text: 楊脩
   via: primary
-- anchor: wei.19.p7
-  at: 295
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「自魏太子已下，並爭與交好」楊脩在建安末，魏太子即曹丕。
-  id: wei.19.p7.h5
 - id: wei.19.p10.h1
   anchor: wei.19.p10
   at: 97
@@ -407,36 +379,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p10
-  at: 101
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太子立，遂有天下」太祖崩後曹丕嗣立。
-  id: wei.19.p10.h9
-- anchor: wei.19.p10
-  at: 120
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「脩以所得王髦劍奉太子」太子即曹丕。
-  id: wei.19.p10.h10
-- anchor: wei.19.p10
-  at: 123
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太子常服之」續指曹丕。
-  id: wei.19.p10.h11
 - id: wei.19.p10.h2
   anchor: wei.19.p10
   at: 207
@@ -453,16 +395,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p10
-  at: 360
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 《世語》「太子患之」即丁儀等欲立植，曹丕憂之。
-  id: wei.19.p10.h12
 - id: wei.19.p10.h4
   anchor: wei.19.p10
   at: 383
@@ -471,16 +403,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p10
-  at: 391
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太子懼，告質」續指曹丕。
-  id: wei.19.p10.h13
 - id: wei.19.p10.h5
   anchor: wei.19.p10
   at: 453
@@ -513,26 +435,6 @@ annotations:
   person_id: caocao
   text: 太祖
   via: chapter_alias
-- anchor: wei.19.p10
-  at: 534
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「太祖遣太子及植各出鄴城一門」太子即曹丕。
-  id: wei.19.p10.h14
-- anchor: wei.19.p10
-  at: 558
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「太子至門」續指曹丕。
-  id: wei.19.p10.h15
 - id: wei.19.p11.h1
   anchor: wei.19.p11
   at: 5
@@ -589,16 +491,6 @@ annotations:
   era: 黃初
   era_year: 2
   reasoning: 原文「黃初二年」直接出现年号；解析為 AD 221（回溯前事，不推進章節時間軸）
-- anchor: wei.19.p13
-  at: 36
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 黃初二年「帝以太后故，貶爵安鄉侯」太后即文帝母卞太后，roster未列。
-  id: wei.19.p13.h1
 - id: wei.19.p13.a1
   anchor: wei.19.p13
   at: 46
@@ -613,10 +505,10 @@ annotations:
   text: 其年
   kind: relative
   resolution: this_year
-  year_ad: 246
-  era: 正始
-  era_year: 7
-  reasoning: 「其年」 = 当前年 正始7年 (AD 246)
+  year_ad: 221
+  era: 黃初
+  era_year: 2
+  reasoning: 「其年」 = 当前年 黃初2年 (AD 221)
 - id: wei.19.p13.t3
   anchor: wei.19.p13
   at: 54
@@ -625,10 +517,10 @@ annotations:
   text: 三年
   kind: relative
   resolution: bare_year
-  year_ad: 242
-  era: 正始
+  year_ad: 222
+  era: 黃初
   era_year: 3
-  reasoning: 承前文年號「正始」推得，「三年」 = 正始3年 = AD 242
+  reasoning: 承前文年號「黃初」推得，「三年」 = 黃初3年 = AD 222
 - id: wei.19.p14.t1
   anchor: wei.19.p14
   at: 0
@@ -691,30 +583,18 @@ annotations:
   text: 二年
   kind: relative
   resolution: bare_year
-  year_ad: 241
-  era: 正始
+  year_ad: 228
+  era: 太和
   era_year: 2
-  reasoning: 承前文年號「正始」推得，「二年」 = 正始2年 = AD 241
-- anchor: wei.19.p18
-  at: 161
+  reasoning: 承前文年號「太和」推得，「二年」 = 太和2年 = AD 228
+- id: wei.19.p18.h1
+  anchor: wei.19.p18
+  at: 459
   length: 2
   type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 曹植太和二年自試疏「正值陛下升平之際」上明帝，陛下即曹叡。
-  id: wei.19.p18.h3
-- anchor: wei.19.p18
-  at: 372
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「今陛下以聖明統世」續指曹叡。
-  id: wei.19.p18.h4
+  person_id: liuxiu
+  text: 光武
+  via: alias
 - id: wei.19.p18.a1
   anchor: wei.19.p18
   at: 516
@@ -727,7 +607,7 @@ annotations:
   length: 0
   type: pei
   text: 固
-- id: wei.19.p18.h1
+- id: wei.19.p18.h2
   anchor: wei.19.p18
   at: 699
   length: 3
@@ -735,17 +615,7 @@ annotations:
   person_id: caocao
   text: 武皇帝
   via: chapter_alias
-- anchor: wei.19.p18
-  at: 758
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「若使陛下出不世之詔」續指曹叡。
-  id: wei.19.p18.h5
-- id: wei.19.p18.h2
+- id: wei.19.p18.h3
   anchor: wei.19.p18
   at: 989
   length: 3
@@ -765,16 +635,6 @@ annotations:
   length: 0
   type: pei
   text: 臣松之案：楚莊掩絕纓之罪，事亦顯，故不書。秦穆公有赦盜馬事，趙則未聞。蓋以秦亦趙姓，故互文以避上『秦』字也。
-- anchor: wei.19.p18
-  at: 1394
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「敢陳聞於陛下者」續指曹叡。
-  id: wei.19.p18.h6
 - id: wei.19.p19.t1
   anchor: wei.19.p19
   at: 0
@@ -799,106 +659,6 @@ annotations:
   era: 正始
   era_year: 5
   reasoning: 承前文年號「正始」推得，「五年」 = 正始5年 = AD 244
-- anchor: wei.19.p20
-  at: 245
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 太和五年曹植求存問親戚疏「伏惟陛下資帝唐欽明之德」上明帝，陛下即曹叡。
-  id: wei.19.p20.h1
-- anchor: wei.19.p20
-  at: 465
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「願陛下沛然垂詔」續指曹叡。
-  id: wei.19.p20.h2
-- anchor: wei.19.p20
-  at: 562
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「及觀陛下之所拔授」續指曹叡。
-  id: wei.19.p20.h3
-- anchor: wei.19.p20
-  at: 841
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「實在陛下」續指曹叡。
-  id: wei.19.p20.h4
-- anchor: wei.19.p20
-  at: 980
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「至於欲使陛下崇光被時雍之美」續指曹叡。
-  id: wei.19.p20.h5
-- anchor: wei.19.p20
-  at: 1027
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「冀陛下儻發天聰」續指曹叡。
-  id: wei.19.p20.h6
-- anchor: wei.19.p22
-  at: 268
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 曹植審舉疏「安足為陛下言哉」上明帝，陛下即曹叡。
-  id: wei.19.p22.h2
-- anchor: wei.19.p22
-  at: 381
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下體天真之淑聖」續指曹叡。
-  id: wei.19.p22.h3
-- anchor: wei.19.p22
-  at: 546
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「臣伏惟陛下遠覽姬文二虢之援」續指曹叡。
-  id: wei.19.p22.h4
-- anchor: wei.19.p22
-  at: 667
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下可得雍容都城」續指曹叡。
-  id: wei.19.p22.h5
 - id: wei.19.p22.h1
   anchor: wei.19.p22
   at: 781
@@ -907,56 +667,6 @@ annotations:
   person_id: caocao
   text: 武皇帝
   via: chapter_alias
-- anchor: wei.19.p22
-  at: 885
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「陛下將復勞玉躬」續指曹叡。
-  id: wei.19.p22.h6
-- anchor: wei.19.p22
-  at: 1092
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「唯陛下少留意焉」續指曹叡。
-  id: wei.19.p22.h7
-- anchor: wei.19.p22
-  at: 1246
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「唯陛下察之」續指曹叡。
-  id: wei.19.p22.h8
-- anchor: wei.19.p22
-  at: 1338
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「今臣與陛下踐冰履炭」續指曹叡。
-  id: wei.19.p22.h9
-- anchor: wei.19.p22
-  at: 1363
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 同疏「豈得離陛下哉」續指曹叡。
-  id: wei.19.p22.h10
 - id: wei.19.p23.a1
   anchor: wei.19.p23
   at: 7
@@ -1037,18 +747,6 @@ annotations:
   era: 青龍
   era_year: 2
   reasoning: 原文「青龍二年」直接出现年号；解析為 AD 234（回溯前事，不推進章節時間軸）
-- id: wei.19.p27.t4
-  anchor: wei.19.p27
-  at: 50
-  length: 2
-  type: temporal
-  text: 六年
-  kind: relative
-  resolution: bare_year
-  year_ad: 245
-  era: 正始
-  era_year: 6
-  reasoning: 承前文年號「正始」推得，「六年」 = 正始6年 = AD 245
 - id: wei.19.p28.a1
   anchor: wei.19.p28
   at: 67

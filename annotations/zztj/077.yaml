@@ -2,7 +2,7 @@ chapter: zztj.77
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷077
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 1132605ebd266eafdc801c1f13679ff817bbb58df18d63b69c27d0f01ec1f877
 annotations:
 - id: zztj.77.p5.h1
@@ -627,16 +627,6 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 甘露3年 (AD 258)，月份「十月」
-- anchor: zztj.77.p43
-  at: 37
-  length: 2
-  type: person
-  person_id: sunxiu
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 永安元年(258)後吳陛下指孫休
-  id: zztj.77.p43.h2
 - id: zztj.77.p43.h1
   anchor: zztj.77.p43
   at: 56
@@ -661,16 +651,6 @@ annotations:
   person_id: sunchen
   text: 孫綝
   via: primary
-- anchor: zztj.77.p48
-  at: 47
-  length: 2
-  type: person
-  person_id: sunxiu
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 永安元年(258)後吳陛下指孫休
-  id: zztj.77.p48.h2
 - id: zztj.77.p49.h1
   anchor: zztj.77.p49
   at: 52
@@ -939,27 +919,15 @@ annotations:
   person_id: simazhao
   text: 司馬昭
   via: primary
-- anchor: zztj.77.p62
-  at: 139
-  length: 2
-  type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 甘露年間魏高貴鄉公曹髦在位
-  id: zztj.77.p62.h2
-- anchor: zztj.77.p62
-  at: 402
-  length: 2
-  type: person
-  person_id: caomao
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 甘露年間魏高貴鄉公曹髦在位
-  id: zztj.77.p62.h3
 - id: zztj.77.p64.h1
+  anchor: zztj.77.p64
+  at: 126
+  length: 3
+  type: person
+  person_id: simayan
+  text: 司馬炎
+  via: primary
+- id: zztj.77.p64.h2
   anchor: zztj.77.p64
   at: 130
   length: 3

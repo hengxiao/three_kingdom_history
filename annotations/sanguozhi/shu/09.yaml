@@ -603,16 +603,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.9.p13
-  at: 19
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.92
-  reasoning: 「先主立太子，允以選為舍人」即先主章武立太子劉禪事。
-  id: shu.9.p13.h15
 - id: shu.9.p13.h3
   anchor: shu.9.p13
   at: 33
@@ -661,16 +651,6 @@ annotations:
   person_id: dongyun
   text: 董允
   via: primary
-- anchor: shu.9.p13
-  at: 109
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.95
-  reasoning: 諸葛亮《出師表》引文「先帝簡拔以遺陛下」上於後主劉禪。
-  id: shu.9.p13.h16
 - id: shu.9.p13.h9
   anchor: shu.9.p13
   at: 176

@@ -2,7 +2,7 @@ chapter: zztj.69
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷069
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 1077d8f67ff4db3a85fdf14532f858f290ad0492de5bea317040ff9105427770
 annotations:
 - id: zztj.69.p4.t1
@@ -31,16 +31,6 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 黃初元年 (AD 220)，月份「正月」
-- anchor: zztj.69.p6
-  at: 409
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 王后
-  via: llm
-  confidence: 0.85
-  reasoning: 王后或為卞王后或蜀漢中王王后吳氏，不在花名冊
-  id: zztj.69.p6.h3
 - id: zztj.69.p6.h1
   anchor: zztj.69.p6
   at: 431
@@ -49,26 +39,6 @@ annotations:
   person_id: huaxin
   text: 華歆
   via: primary
-- anchor: zztj.69.p6
-  at: 460
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 王后
-  via: llm
-  confidence: 0.85
-  reasoning: 王后或為卞王后或蜀漢中王王后吳氏，不在花名冊
-  id: zztj.69.p6.h4
-- anchor: zztj.69.p6
-  at: 464
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p6.h2
 - id: zztj.69.p7.t1
   anchor: zztj.69.p7
   at: 0
@@ -129,16 +99,6 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初元年 (AD 220)，月份「五月」
-- anchor: zztj.69.p13
-  at: 26
-  length: 2
-  type: person
-  person_id: muhuanghou_shu
-  text: 王后
-  via: llm
-  confidence: 0.85
-  reasoning: 王后或為卞王后或蜀漢中王王后吳氏，不在花名冊
-  id: zztj.69.p13.h1
 - id: zztj.69.p16.t1
   anchor: zztj.69.p16
   at: 0
@@ -235,26 +195,6 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 黃初元年 (AD 220)，月份「十一月」
-- anchor: zztj.69.p25
-  at: 57
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p25.h1
-- anchor: zztj.69.p25
-  at: 61
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p25.h2
 - id: zztj.69.p26.h1
   anchor: zztj.69.p26
   at: 8
@@ -263,16 +203,6 @@ annotations:
   person_id: xinpi
   text: 辛毗
   via: primary
-- anchor: zztj.69.p26
-  at: 142
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p26.h4
 - id: zztj.69.p26.h2
   anchor: zztj.69.p26
   at: 150
@@ -281,16 +211,6 @@ annotations:
   person_id: chenqun
   text: 陳群
   via: primary
-- anchor: zztj.69.p26
-  at: 156
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p26.h3
 - id: zztj.69.p27.t1
   anchor: zztj.69.p27
   at: 0
@@ -305,16 +225,6 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 黃初元年 (AD 220)，月份「十二月」
-- anchor: zztj.69.p28
-  at: 45
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p28.h1
 - id: zztj.69.p29.h1
   anchor: zztj.69.p29
   at: 6
@@ -331,16 +241,6 @@ annotations:
   person_id: xiahoushang
   text: 夏侯尚
   via: primary
-- anchor: zztj.69.p29
-  at: 129
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p29.h3
 - id: zztj.69.p30.h1
   anchor: zztj.69.p30
   at: 39
@@ -349,36 +249,6 @@ annotations:
   person_id: xinpi
   text: 辛毗
   via: primary
-- anchor: zztj.69.p30
-  at: 69
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p30.h2
-- anchor: zztj.69.p30
-  at: 122
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p30.h3
-- anchor: zztj.69.p30
-  at: 269
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p30.h4
 - id: zztj.69.p32.t1
   anchor: zztj.69.p32
   at: 2
@@ -477,23 +347,21 @@ annotations:
   reasoning: 年承前文 黃初元年 (AD 220)，月份「五月」
 - id: zztj.69.p37.h1
   anchor: zztj.69.p37
+  at: 11
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 吳氏
+  via: alias
+- id: zztj.69.p37.h2
+  anchor: zztj.69.p37
   at: 27
   length: 2
   type: person
   person_id: liuzhang
   text: 劉璋
   via: primary
-- anchor: zztj.69.p37
-  at: 40
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢章武元年(221)劉備立劉禪為太子
-  id: zztj.69.p37.h3
-- id: zztj.69.p37.h2
+- id: zztj.69.p37.h3
   anchor: zztj.69.p37
   at: 48
   length: 2
@@ -501,16 +369,14 @@ annotations:
   person_id: zhangfei
   text: 張飛
   via: primary
-- anchor: zztj.69.p37
-  at: 52
+- id: zztj.69.p38.h1
+  anchor: zztj.69.p38
+  at: 21
   length: 2
   type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢章武元年(221)劉備立劉禪為太子
-  id: zztj.69.p37.h4
+  person_id: zhenhuanghou
+  text: 甄氏
+  via: alias
 - id: zztj.69.p38.t1
   anchor: zztj.69.p38
   at: 79
@@ -723,16 +589,6 @@ annotations:
   person_id: zhugejin
   text: 諸葛瑾
   via: primary
-- anchor: zztj.69.p44
-  at: 37
-  length: 2
-  type: person
-  person_id: liubei
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢章武年間劉備在位
-  id: zztj.69.p44.h8
 - id: zztj.69.p44.h4
   anchor: zztj.69.p44
   at: 40
@@ -1027,16 +883,6 @@ annotations:
   person_id: liuye
   text: 劉曄
   via: primary
-- anchor: zztj.69.p50
-  at: 47
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 魏黃初年間文帝曹丕在位，朝臣稱陛下
-  id: zztj.69.p50.h7
 - id: zztj.69.p50.h3
   anchor: zztj.69.p50
   at: 64
@@ -1053,26 +899,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- anchor: zztj.69.p50
-  at: 229
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 魏黃初年間文帝曹丕在位，朝臣稱陛下
-  id: zztj.69.p50.h8
-- anchor: zztj.69.p50
-  at: 232
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 魏黃初年間文帝曹丕在位，朝臣稱陛下
-  id: zztj.69.p50.h9
 - id: zztj.69.p50.h5
   anchor: zztj.69.p50
   at: 351
@@ -1157,16 +983,6 @@ annotations:
   person_id: lvmeng
   text: 呂蒙
   via: primary
-- anchor: zztj.69.p57
-  at: 126
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 魏黃初年間文帝曹丕在位，朝臣稱陛下
-  id: zztj.69.p57.h4
 - id: zztj.69.p57.h3
   anchor: zztj.69.p57
   at: 228
@@ -1175,16 +991,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: zztj.69.p59
-  at: 7
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.8
-  reasoning: 吳王孫權立子孫登為太子
-  id: zztj.69.p59.h5
 - id: zztj.69.p59.h1
   anchor: zztj.69.p59
   at: 20
@@ -1239,16 +1045,6 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- anchor: zztj.69.p61
-  at: 112
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.8
-  reasoning: 吳王孫權立子孫登為太子
-  id: zztj.69.p61.h2
 - id: zztj.69.p62.h1
   anchor: zztj.69.p62
   at: 41
@@ -1317,16 +1113,6 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 黃初元年 (AD 220)，月份「二月」
-- anchor: zztj.69.p70
-  at: 45
-  length: 2
-  type: person
-  person_id: liubei
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 蜀漢章武年間劉備在位
-  id: zztj.69.p70.h3
 - id: zztj.69.p70.h1
   anchor: zztj.69.p70
   at: 101
@@ -1557,16 +1343,6 @@ annotations:
   person_id: caocao
   text: 曹操
   via: primary
-- anchor: zztj.69.p81
-  at: 106
-  length: 2
-  type: person
-  person_id: liubei
-  text: 主上
-  via: llm
-  confidence: 0.8
-  reasoning: 蜀漢主上指劉備
-  id: zztj.69.p81.h8
 - id: zztj.69.p81.h5
   anchor: zztj.69.p81
   at: 161
@@ -1623,16 +1399,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: zztj.69.p82
-  at: 56
-  length: 2
-  type: person
-  person_id: liubei
-  text: 主上
-  via: llm
-  confidence: 0.8
-  reasoning: 蜀漢主上指劉備
-  id: zztj.69.p82.h14
 - id: zztj.69.p82.h5
   anchor: zztj.69.p82
   at: 79
@@ -1835,26 +1601,22 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 黃初元年 (AD 220)，月份「九月」
-- anchor: zztj.69.p86
-  at: 32
-  length: 2
+- id: zztj.69.p86.h1
+  anchor: zztj.69.p86
+  at: 77
+  length: 3
   type: person
   person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p86.h1
-- anchor: zztj.69.p86
-  at: 78
+  text: 卞太后
+  via: alias
+- id: zztj.69.p87.h1
+  anchor: zztj.69.p87
+  at: 187
   length: 2
   type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 黃初/章武初太后或為魏卞太后/蜀吳太后，均不在花名冊
-  id: zztj.69.p86.h2
+  person_id: guohuanghou
+  text: 郭氏
+  via: alias
 - id: zztj.69.p88.h1
   anchor: zztj.69.p88
   at: 5
@@ -1879,16 +1641,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: zztj.69.p88
-  at: 91
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.85
-  reasoning: 魏黃初年間文帝曹丕在位，朝臣稱陛下
-  id: zztj.69.p88.h7
 - id: zztj.69.p88.h4
   anchor: zztj.69.p88
   at: 144
@@ -2075,16 +1827,6 @@ annotations:
   person_id: dongzhao
   text: 董昭
   via: primary
-- anchor: zztj.69.p92
-  at: 89
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p92.h7
 - id: zztj.69.p92.h3
   anchor: zztj.69.p92
   at: 129
@@ -2093,16 +1835,6 @@ annotations:
   person_id: zangba
   text: 臧霸
   via: primary
-- anchor: zztj.69.p92
-  at: 182
-  length: 2
-  type: person
-  person_id: caopi
-  text: 陛下
-  via: llm
-  confidence: 0.7
-  reasoning: 黃初年間多數情況陛下指魏文帝
-  id: zztj.69.p92.h8
 - id: zztj.69.p92.h4
   anchor: zztj.69.p92
   at: 211

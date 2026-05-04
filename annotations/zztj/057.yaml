@@ -2,7 +2,7 @@ chapter: zztj.57
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷057
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: 00f5ef2d2b5214d7fa94a679a46c7d90ece86a9a07a19a5f0359296c94c9bba0
 annotations:
 - id: zztj.57.p1.t1
@@ -39,6 +39,14 @@ annotations:
   person_id: caiyong
   text: 蔡邕
   via: primary
+- id: zztj.57.p2.h2
+  anchor: zztj.57.p2
+  at: 54
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.57.p3.t1
   anchor: zztj.57.p3
   at: 0
@@ -89,67 +97,15 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 熹平元年 (AD 172)，月份「六月」
-- anchor: zztj.57.p7
-  at: 1
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h5
-- anchor: zztj.57.p7
-  at: 9
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h6
-- anchor: zztj.57.p7
-  at: 35
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h7
-- anchor: zztj.57.p7
-  at: 63
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h8
-- anchor: zztj.57.p7
-  at: 96
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h9
-- anchor: zztj.57.p7
-  at: 149
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h10
 - id: zztj.57.p7.h1
+  anchor: zztj.57.p7
+  at: 47
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p7.h2
   anchor: zztj.57.p7
   at: 155
   length: 2
@@ -157,47 +113,15 @@ annotations:
   person_id: huanhan
   text: 桓帝
   via: alias
-- anchor: zztj.57.p7
-  at: 204
+- id: zztj.57.p7.h3
+  anchor: zztj.57.p7
+  at: 465
   length: 2
   type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h11
-- anchor: zztj.57.p7
-  at: 252
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h12
-- anchor: zztj.57.p7
-  at: 313
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h13
-- anchor: zztj.57.p7
-  at: 403
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h14
-- id: zztj.57.p7.h2
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p7.h4
   anchor: zztj.57.p7
   at: 548
   length: 2
@@ -205,56 +129,6 @@ annotations:
   person_id: hehan
   text: 和帝
   via: alias
-- anchor: zztj.57.p7
-  at: 587
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h15
-- anchor: zztj.57.p7
-  at: 610
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h16
-- anchor: zztj.57.p7
-  at: 613
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 陳球議曰太后以陛下為子，指靈帝(熹平元年172)
-  id: zztj.57.p7.h3
-- anchor: zztj.57.p7
-  at: 618
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 陳球議曰太后以陛下為子，指靈帝(熹平元年172)
-  id: zztj.57.p7.h4
-- anchor: zztj.57.p7
-  at: 624
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 熹平元年竇太后(竇妙)崩，皆指竇太后，不在花名冊
-  id: zztj.57.p7.h17
 - id: zztj.57.p8.t1
   anchor: zztj.57.p8
   at: 2
@@ -269,27 +143,15 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 熹平元年 (AD 172)，月份「七月」
-- anchor: zztj.57.p8
-  at: 11
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 桓思皇后即竇妙(竇太后)，不在花名冊
-  id: zztj.57.p8.h1
-- anchor: zztj.57.p9
-  at: 22
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.85
-  reasoning: 指被幽殺之竇太后(竇妙)，不在花名冊
-  id: zztj.57.p9.h2
 - id: zztj.57.p9.h1
+  anchor: zztj.57.p9
+  at: 15
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p9.h2
   anchor: zztj.57.p9
   at: 86
   length: 2
@@ -373,6 +235,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 熹平元年 (AD 172)，月份「十一月」
+- id: zztj.57.p12.h1
+  anchor: zztj.57.p12
+  at: 17
+  length: 3
+  type: person
+  person_id: liuzhuang
+  text: 明皇帝
+  via: alias
 - id: zztj.57.p13.t1
   anchor: zztj.57.p13
   at: 0
@@ -671,16 +541,6 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 熹平4年 (AD 175)，月份「十一月」
-- anchor: zztj.57.p31
-  at: 262
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 熹平二年朝臣議論時稱在位皇帝靈帝為陛下
-  id: zztj.57.p31.h2
 - id: zztj.57.p34.t1
   anchor: zztj.57.p34
   at: 2
@@ -893,26 +753,14 @@ annotations:
   person_id: caiyong
   text: 蔡邕
   via: primary
-- anchor: zztj.57.p48
-  at: 297
+- id: zztj.57.p48.h2
+  anchor: zztj.57.p48
+  at: 452
   length: 2
   type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對策上書，靈帝為現任皇帝
-  id: zztj.57.p48.h2
-- anchor: zztj.57.p48
-  at: 620
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 桓思皇后(竇妙)祖載之時
-  id: zztj.57.p48.h3
+  person_id: liuda
+  text: 章帝
+  via: alias
 - id: zztj.57.p49.h1
   anchor: zztj.57.p49
   at: 124
@@ -1081,16 +929,6 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 光和元年 (AD 178)，月份「七月」
-- anchor: zztj.57.p59
-  at: 258
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 楊賜上封事稱在位靈帝為陛下
-  id: zztj.57.p59.h1
 - id: zztj.57.p60.h1
   anchor: zztj.57.p60
   at: 2
@@ -1099,36 +937,14 @@ annotations:
   person_id: caiyong
   text: 蔡邕
   via: primary
-- anchor: zztj.57.p60
-  at: 380
+- id: zztj.57.p60.h2
+  anchor: zztj.57.p60
+  at: 486
   length: 2
   type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕封事，所稱陛下指靈帝
-  id: zztj.57.p60.h2
-- anchor: zztj.57.p60
-  at: 621
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕封事，所稱陛下指靈帝
-  id: zztj.57.p60.h3
-- anchor: zztj.57.p60
-  at: 669
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕封事，所稱陛下指靈帝
-  id: zztj.57.p60.h4
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.57.p61.t1
   anchor: zztj.57.p61
   at: 0
@@ -1171,16 +987,14 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 光和元年 (AD 178)，月份「十月」
-- anchor: zztj.57.p65
-  at: 1
-  length: 2
+- id: zztj.57.p65.h1
+  anchor: zztj.57.p65
+  at: 0
+  length: 3
   type: person
   person_id: songhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 宋皇后被廢，不在花名冊
-  id: zztj.57.p65.h1
+  text: 宋皇后
+  via: primary
 - id: zztj.57.p67.h1
   anchor: zztj.57.p67
   at: 2
@@ -1259,16 +1073,6 @@ annotations:
   person_id: huanhan
   text: 桓帝
   via: alias
-- anchor: zztj.57.p72
-  at: 168
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 楊奇對靈帝言，陛下指靈帝
-  id: zztj.57.p72.h4
 - id: zztj.57.p72.h3
   anchor: zztj.57.p72
   at: 172
@@ -1327,6 +1131,14 @@ annotations:
   reasoning: 年承前文 光和2年 (AD 179)，月份「四月」
 - id: zztj.57.p77.h1
   anchor: zztj.57.p77
+  at: 3
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p77.h2
+  anchor: zztj.57.p77
   at: 18
   length: 2
   type: person
@@ -1335,13 +1147,37 @@ annotations:
   via: primary
 - id: zztj.57.p78.h1
   anchor: zztj.57.p78
+  at: 9
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p78.h2
+  anchor: zztj.57.p78
+  at: 70
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p78.h3
+  anchor: zztj.57.p78
   at: 80
   length: 2
   type: person
   person_id: shunhan
   text: 順帝
   via: alias
-- id: zztj.57.p78.h2
+- id: zztj.57.p78.h4
+  anchor: zztj.57.p78
+  at: 93
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p78.h5
   anchor: zztj.57.p78
   at: 267
   length: 2
@@ -1363,27 +1199,15 @@ annotations:
   month_chinese: 一月
   month_ordinal: 1
   reasoning: 年承前文 光和2年 (AD 179)，月份「一月」
-- anchor: zztj.57.p79
-  at: 30
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 審忠上書言靈帝即位之初事，陛下指靈帝
-  id: zztj.57.p79.h3
-- anchor: zztj.57.p79
-  at: 43
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 太后
-  via: llm
-  confidence: 0.7
-  reasoning: 所指為靈帝即位初臨朝之竇太后(竇妙)
-  id: zztj.57.p79.h8
 - id: zztj.57.p79.h1
+  anchor: zztj.57.p79
+  at: 2
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p79.h2
   anchor: zztj.57.p79
   at: 71
   length: 2
@@ -1391,17 +1215,7 @@ annotations:
   person_id: chenfan
   text: 陳蕃
   via: primary
-- anchor: zztj.57.p79
-  at: 127
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 審忠上書言靈帝即位之初事，陛下指靈帝
-  id: zztj.57.p79.h4
-- id: zztj.57.p79.h2
+- id: zztj.57.p79.h3
   anchor: zztj.57.p79
   at: 150
   length: 2
@@ -1409,57 +1223,15 @@ annotations:
   person_id: yinxun_2
   text: 尹勳
   via: primary
-- anchor: zztj.57.p79
-  at: 357
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 審忠上書言靈帝即位之初事，陛下指靈帝
-  id: zztj.57.p79.h5
-- anchor: zztj.57.p79
-  at: 394
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 審忠上書言靈帝即位之初事，陛下指靈帝
-  id: zztj.57.p79.h6
-- anchor: zztj.57.p79
-  at: 479
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 審忠上書言靈帝即位之初事，陛下指靈帝
-  id: zztj.57.p79.h7
-- anchor: zztj.57.p80
-  at: 98
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對靈帝上書，陛下指靈帝
-  id: zztj.57.p80.h3
-- anchor: zztj.57.p80
-  at: 185
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對靈帝上書，陛下指靈帝
-  id: zztj.57.p80.h4
 - id: zztj.57.p80.h1
+  anchor: zztj.57.p80
+  at: 61
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
+- id: zztj.57.p80.h2
   anchor: zztj.57.p80
   at: 298
   length: 2
@@ -1467,27 +1239,7 @@ annotations:
   person_id: caiyong
   text: 蔡邕
   via: primary
-- anchor: zztj.57.p80
-  at: 331
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對靈帝上書，陛下指靈帝
-  id: zztj.57.p80.h5
-- anchor: zztj.57.p80
-  at: 363
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對靈帝上書，陛下指靈帝
-  id: zztj.57.p80.h6
-- id: zztj.57.p80.h2
+- id: zztj.57.p80.h3
   anchor: zztj.57.p80
   at: 430
   length: 2
@@ -1495,16 +1247,6 @@ annotations:
   person_id: duanjiong
   text: 段熲
   via: primary
-- anchor: zztj.57.p80
-  at: 463
-  length: 2
-  type: person
-  person_id: linghan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 蔡邕對靈帝上書，陛下指靈帝
-  id: zztj.57.p80.h7
 - id: zztj.57.p82.t1
   anchor: zztj.57.p82
   at: 0
@@ -1533,6 +1275,14 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 光和2年 (AD 179)，月份「七月」
+- id: zztj.57.p85.h1
+  anchor: zztj.57.p85
+  at: 64
+  length: 2
+  type: person
+  person_id: caojie_huanghou
+  text: 曹節
+  via: primary
 - id: zztj.57.p86.t1
   anchor: zztj.57.p86
   at: 2
@@ -1615,16 +1365,6 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 光和3年 (AD 180)，月份「十二月」
-- anchor: zztj.57.p96
-  at: 13
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 皇后
-  via: llm
-  confidence: 0.85
-  reasoning: 立何皇后(靈帝皇后)，不在花名冊
-  id: zztj.57.p96.h1
 - id: zztj.57.p97.t1
   anchor: zztj.57.p97
   at: 0

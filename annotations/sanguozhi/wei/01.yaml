@@ -161,26 +161,6 @@ annotations:
   person_id: linghan
   text: 靈帝
   via: alias
-- anchor: wei.1.p5
-  at: 39
-  length: 2
-  type: person
-  person_id: liubian
-  text: 太子
-  via: llm
-  confidence: 0.98
-  reasoning: 「靈帝崩，太子即位」— 漢靈帝崩於 189 年，繼位的太子是劉辯（漢少帝）。
-  id: wei.1.p5.h17
-- anchor: wei.1.p5
-  at: 44
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.98
-  reasoning: 「太子即位，太后臨朝」— 劉辯即位後臨朝的太后是何太后（何皇后），何進之妹。
-  id: wei.1.p5.h18
 - id: wei.1.p5.h3
   anchor: wei.1.p5
   at: 52
@@ -197,16 +177,6 @@ annotations:
   person_id: yuanshao
   text: 袁紹
   via: primary
-- anchor: wei.1.p5
-  at: 62
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.98
-  reasoning: 上下文同段先前的太后即何太后；「何進與袁紹謀誅宦官，太后不聽」述其阻撓誅宦官事。
-  id: wei.1.p5.h19
 - id: wei.1.p5.h5
   anchor: wei.1.p5
   at: 70
@@ -215,16 +185,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: wei.1.p5
-  at: 76
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.98
-  reasoning: 「進乃召董卓，欲以脅太后」— 何進召董卓欲脅迫的對象正是其妹何太后。
-  id: wei.1.p5.h20
 - id: wei.1.p5.a1
   anchor: wei.1.p5
   at: 79
@@ -307,16 +267,6 @@ annotations:
   person_id: dongzhuo
   text: 卓
   via: given_name
-- anchor: wei.1.p5
-  at: 166
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「卓遂殺太后及弘農王」— 董卓鴆殺何太后與弘農王（劉辯）史實，繼承同段早先指代。
-  id: wei.1.p5.h21
 - id: wei.1.p5.h14
   anchor: wei.1.p5
   at: 169
@@ -5257,16 +5207,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 建安19年 (AD 214)，月份「十一月」
-- anchor: wei.1.p95
-  at: 5
+- id: wei.1.p95.h1
+  anchor: wei.1.p95
+  at: 7
   length: 2
   type: person
   person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.99
-  reasoning: 「漢皇后伏氏坐昔與父故屯騎校尉完書」— 直接點出伏氏，即漢獻帝伏皇后（父伏完）。
-  id: wei.1.p95.h1
+  text: 伏氏
+  via: alias
 - id: wei.1.p95.a1
   anchor: wei.1.p95
   at: 51
@@ -5301,16 +5249,6 @@ annotations:
   month_chinese: 春正月
   month_ordinal: 1
   reasoning: 承前文年號「建安」推得，「二十年春正月」 = 建安20年 = AD 215
-- anchor: wei.1.p97
-  at: 14
-  length: 2
-  type: person
-  person_id: caojie_huanghou
-  text: 皇后
-  via: llm
-  confidence: 0.97
-  reasoning: 「天子立公中女爲皇后」— 建安二十年伏皇后被廢後立曹操之女，即曹節（後漢書外戚傳）。
-  id: wei.1.p97.h1
 - id: wei.1.p98.t1
   anchor: wei.1.p98
   at: 0
@@ -5833,16 +5771,6 @@ annotations:
   month_chinese: 冬十月
   month_ordinal: 10
   reasoning: 年承前文 建安22年 (AD 217)，月份「冬十月」
-- anchor: wei.1.p107
-  at: 79
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.99
-  reasoning: 「以五官中郎將丕爲魏太子」— 文中明點丕，即曹丕被立為魏王太子。
-  id: wei.1.p107.h2
 - id: wei.1.p108.h1
   anchor: wei.1.p108
   at: 0
@@ -6139,17 +6067,15 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 建安24年 (AD 219)，月份「秋七月」
-- anchor: wei.1.p118
-  at: 10
+- id: wei.1.p118.h1
+  anchor: wei.1.p118
+  at: 7
   length: 2
   type: person
   person_id: bianhuanghou
-  text: 王后
-  via: llm
-  confidence: 0.98
-  reasoning: 「以夫人卞氏爲王后」— 即立卞氏為魏王后（卞皇后）。
-  id: wei.1.p118.h6
-- id: wei.1.p118.h1
+  text: 卞氏
+  via: alias
+- id: wei.1.p118.h2
   anchor: wei.1.p118
   at: 14
   length: 2
@@ -6157,7 +6083,7 @@ annotations:
   person_id: yujin
   text: 于禁
   via: primary
-- id: wei.1.p118.h2
+- id: wei.1.p118.h3
   anchor: wei.1.p118
   at: 17
   length: 2
@@ -6165,7 +6091,7 @@ annotations:
   person_id: caoren
   text: 曹仁
   via: primary
-- id: wei.1.p118.h3
+- id: wei.1.p118.h4
   anchor: wei.1.p118
   at: 20
   length: 2
@@ -6187,7 +6113,7 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 建安24年 (AD 219)，月份「八月」
-- id: wei.1.p118.h4
+- id: wei.1.p118.h5
   anchor: wei.1.p118
   at: 37
   length: 1
@@ -6195,7 +6121,7 @@ annotations:
   person_id: guanyu
   text: 羽
   via: given_name
-- id: wei.1.p118.h5
+- id: wei.1.p118.h6
   anchor: wei.1.p118
   at: 46
   length: 2

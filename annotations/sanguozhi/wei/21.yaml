@@ -245,26 +245,6 @@ annotations:
   person_id: hejin
   text: 何進
   via: primary
-- anchor: wei.21.p6
-  at: 15
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 陳琳諫何進「太后不聽」即漢靈帝皇后、靈思何皇后（何進妹），roster未列何太后。
-  id: wei.21.p6.h6
-- anchor: wei.21.p6
-  at: 40
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 同段「欲以劫恐太后」續指何太后。
-  id: wei.21.p6.h7
 - id: wei.21.p6.h2
   anchor: wei.21.p6
   at: 212
@@ -571,36 +551,6 @@ annotations:
   length: 0
   type: pei
   text: 閺音聞。
-- anchor: wei.21.p19
-  at: 138
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 明帝即位後衞覬上疏「陛下留意察之」陛下即明帝曹叡。
-  id: wei.21.p19.h3
-- anchor: wei.21.p19
-  at: 168
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「比陛下於堯舜」續指曹叡。
-  id: wei.21.p19.h4
-- anchor: wei.21.p19
-  at: 279
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「陛下不善留意」續指曹叡。
-  id: wei.21.p19.h5
 - id: wei.21.p19.h1
   anchor: wei.21.p19
   at: 345
@@ -609,16 +559,6 @@ annotations:
   person_id: caocao
   text: 武皇帝
   via: chapter_alias
-- anchor: wei.21.p19
-  at: 391
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「此皆陛下之所親覽也」續指曹叡。
-  id: wei.21.p19.h6
 - id: wei.21.p19.h2
   anchor: wei.21.p19
   at: 483
@@ -627,26 +567,6 @@ annotations:
   person_id: liubiao
   text: 表
   via: given_name_carry
-- anchor: wei.21.p19
-  at: 500
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「陛下通明」續指曹叡。
-  id: wei.21.p19.h7
-- anchor: wei.21.p19
-  at: 523
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 同疏「陛下無求於露而空設之」續指曹叡。
-  id: wei.21.p19.h8
 - id: wei.21.p21.a1
   anchor: wei.21.p21
   at: 48
@@ -863,16 +783,6 @@ annotations:
   person_id: xunyu
   text: 荀彧
   via: primary
-- anchor: wei.21.p29
-  at: 14
-  length: 2
-  type: person
-  person_id: caopi
-  text: 太子
-  via: llm
-  confidence: 0.9
-  reasoning: 「拜太子舍人」事在建安末，太子即魏太子曹丕。
-  id: wei.21.p29.h5
 - id: wei.21.p29.h1
   anchor: wei.21.p29
   at: 57
@@ -921,32 +831,12 @@ annotations:
   person_id: liushao
   text: 劉劭
   via: primary
-- anchor: wei.21.p31
-  at: 236
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 夏侯惠薦劉劭表「惟陛下垂優游之聽」上明帝詔書求賢之時，陛下即曹叡。
-  id: wei.21.p31.h2
 - id: wei.21.p31.a1
   anchor: wei.21.p31
   at: 271
   length: 0
   type: pei
   text: 臣松之以爲凡相稱薦，率多溢美之辭，能不違中者或寡矣。惠之稱劭云「玄虛退讓」及「明思通微」，近於過也。
-- anchor: wei.21.p32
-  at: 52
-  length: 2
-  type: person
-  person_id: caorui
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 景初中劉劭上《都官考課》疏「陛下以上聖之宏略」上明帝，陛下即曹叡。
-  id: wei.21.p32.h2
 - id: wei.21.p32.h1
   anchor: wei.21.p32
   at: 161

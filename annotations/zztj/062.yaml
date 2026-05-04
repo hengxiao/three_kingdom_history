@@ -2,7 +2,7 @@ chapter: zztj.62
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷062
-  retrieved: '2026-05-03'
+  retrieved: '2026-05-04'
   sha256: ee795e3d401e1221a6d106c48b2328834d327540dbb923c941a431dc7103305a
 annotations:
 - id: zztj.62.p4.t1
@@ -477,16 +477,6 @@ annotations:
   person_id: yuanshu
   text: 術
   via: given_name_carry
-- anchor: zztj.62.p15
-  at: 62
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.88
-  reasoning: 建安初年獻帝在位，主上指獻帝
-  id: zztj.62.p15.h7
 - id: zztj.62.p15.h3
   anchor: zztj.62.p15
   at: 91
@@ -687,16 +677,6 @@ annotations:
   person_id: xunyu
   text: 荀彧
   via: primary
-- anchor: zztj.62.p19
-  at: 127
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.88
-  reasoning: 建安初年獻帝在位，主上指獻帝
-  id: zztj.62.p19.h5
 - id: zztj.62.p19.h3
   anchor: zztj.62.p19
   at: 207

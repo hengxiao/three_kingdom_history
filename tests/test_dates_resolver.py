@@ -412,3 +412,95 @@ def test_resolve_segment_state_carries_across_many_segments():
     assert dates[0].year_ad == 202
     assert dates[0].era.name == "建安"  # still inside 建安 era
     assert dates[0].era_year == 7
+
+
+# ---------- F3: duration-month false positives ----------
+
+@pytest.mark.parametrize("text,expect_dates", [
+    # 「輒一月寒食」 — yearly mid-winter custom of one-month cold-food fasting; 一月 is duration
+    ("每冬中輒一月寒食。", 0),
+    # 「凡六月日」 — siege lasted six months; 六月 is duration with 日 suffix
+    ("魏攻圍然凡六月日，未退。", 0),
+    # 「凡九月焉」 — exile-to-return totaled nine months
+    ("自徙及歸，凡九月焉。", 0),
+    # 「可一月」 — approximately one month
+    ("其實可一月，事乃成。", 0),
+    # 「經三月」 — passed three months
+    ("經三月不出。", 0),
+    # 「歷十年」 — over ten years (caught by sentence-boundary on bare_year, but covered for safety)
+    ("歷十月乃定。", 0),
+    # Sanity: 「凡二月、五月產子」 — list of taboo months; 凡 + N月 NOT followed by duration
+    # suffix should still be treated as month references (here at sentence start)
+    ("凡二月產子。", 1),
+    # 「圍然凡六月」 — siege of six months; verb 「圍」 + particle 「然」 before 凡 = duration
+    ("魏兵圍然凡六月，未退。", 0),
+    # 「被攻凡六月」 — attacked for six months; passive 「被攻」 before 凡 = duration
+    ("羅憲被攻凡六月，救援不到。", 0),
+])
+def test_resolve_segment_duration_month_filtered(text, expect_dates):
+    # No state — these should fail purely on duration filter / sentence-boundary
+    # We pre-seed state so bare_month has a year to anchor on.
+    state = TimelineState()
+    dates, state = resolve_segment("永和四年。", book="hhs", state=state)  # set state to AD139
+    assert dates[0].year_ad == 139
+    dates, _ = resolve_segment(text, book="hhs", state=state)
+    assert len(dates) == expect_dates, f"{text!r} → {[d.surface for d in dates]}"
+
+
+# ---------- F2: same-segment absolute anchors subsequent relatives ----------
+
+def test_resolve_segment_backward_absolute_anchors_same_segment_relative():
+    """The user-flagged hhs.61.p28 case: when a backward absolute appears in the
+    same segment as 是歲, 是歲 should resolve to the LOCAL absolute, not chapter state."""
+    state = TimelineState()
+    # Set chapter state to 永和四年 (AD139) via prior segment.
+    dates, state = resolve_segment("永和四年。", book="hhs", state=state)
+    assert dates[0].year_ad == 139
+    # Now a segment that opens with a BACKWARD absolute (陽嘉三年 = AD134)
+    # followed by 是歲. Old behavior: 是歲 → 139. New behavior: 是歲 → 134.
+    text = "陽嘉三年，左雄薦舉，征拜尚書。是歲，河南、三輔大旱。"
+    dates, state2 = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert by_surface["陽嘉三年"].year_ad == 134
+    assert "回溯前事" in by_surface["陽嘉三年"].reasoning
+    assert by_surface["是歲"].year_ad == 134, "F2: 是歲 anchors on local 陽嘉三年, not stale state"
+    # Forward state for the NEXT segment must NOT be polluted by the backward absolute.
+    assert state2.year_ad == 139, "F2: forward state preserved across flashback segments"
+
+
+def test_resolve_segment_local_state_advances_only_locally():
+    """Inside a flashback regime, 明年 advances local_state but not forward state."""
+    state = TimelineState()
+    dates, state = resolve_segment("永和四年。", book="hhs", state=state)
+    assert state.year_ad == 139
+    # Backward absolute then 明年 — 明年 should be backward+1, forward state unchanged.
+    text = "陽嘉三年，事起。明年，事繼。"
+    dates, state2 = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert by_surface["陽嘉三年"].year_ad == 134
+    assert by_surface["明年"].year_ad == 135, "明年 anchors on 陽嘉三年 (backward), not on state"
+    assert state2.year_ad == 139, "forward state never sees the flashback advance"
+
+
+def test_resolve_segment_forward_absolute_clears_flashback_regime():
+    """A forward absolute mid-segment exits flashback mode and resumes normal advance."""
+    state = TimelineState()
+    dates, state = resolve_segment("永和四年。", book="hhs", state=state)
+    text = "陽嘉三年，事起。永和五年，事終。是歲，又有大旱。"
+    dates, state2 = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert by_surface["陽嘉三年"].year_ad == 134
+    assert by_surface["永和五年"].year_ad == 140
+    assert by_surface["是歲"].year_ad == 140, "是歲 after forward absolute anchors on the new forward year"
+    assert state2.year_ad == 140
+
+
+def test_resolve_segment_forward_absolute_no_flashback_unchanged():
+    """Sanity: when no flashback fires, behavior matches the pre-F2 code path."""
+    state = TimelineState()
+    dates, state = resolve_segment("陽嘉元年。", book="hhs", state=state)
+    text = "明年，事起。是歲，雨。"
+    dates, _ = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert by_surface["明年"].year_ad == 133
+    assert by_surface["是歲"].year_ad == 133

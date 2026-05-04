@@ -23,6 +23,15 @@
         {
           "id": "hhs.79.p1.h1",
           "type": "person",
+          "at": 25,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.79.p1.h2",
+          "type": "person",
           "at": 103,
           "length": 2,
           "text": "劉昆",
@@ -90,16 +99,6 @@
           "reasoning": "原文「本初元年」直接出现年号；解析為 AD 146"
         },
         {
-          "id": "hhs.79.p3.h3",
-          "type": "person",
-          "at": 295,
-          "length": 2,
-          "text": "太后",
-          "person_id": "liangna",
-          "via": "llm",
-          "reasoning": "本初元年「梁太后詔」即順烈梁皇后梁妠（質帝沖帝間臨朝），未列 roster。"
-        },
-        {
           "id": "hhs.79.p3.t2",
           "type": "temporal",
           "at": 416,
@@ -130,6 +129,15 @@
         {
           "id": "hhs.79.p4.h1",
           "type": "person",
+          "at": 2,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.79.p4.h2",
+          "type": "person",
           "at": 32,
           "length": 2,
           "text": "董卓",
@@ -137,7 +145,7 @@
           "via": "primary"
         },
         {
-          "id": "hhs.79.p4.h2",
+          "id": "hhs.79.p4.h3",
           "type": "person",
           "at": 95,
           "length": 2,
@@ -193,6 +201,15 @@
           "era": "建武",
           "era_year": 5,
           "reasoning": "原文「建武五年」直接出现年号；解析為 AD 29（回溯前事，不推進章節時間軸）"
+        },
+        {
+          "id": "hhs.79.p9.h1",
+          "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },
@@ -336,7 +353,17 @@
     {
       "id": "hhs.79.p21",
       "text": "時，詔公卿大会，群臣皆就席，憑独立。光武問其意。憑對曰：“博士说經皆不如臣，而坐居臣上，是以不得就席。”帝即召上殿，令与諸儒难说，憑多所解释。帝善之，拜爲侍中，数进見問得失。帝謂憑曰：“侍中当匡补國政，勿有隐情。”憑對曰：“陛下严。”帝曰：“朕何用严？”憑曰：“伏見前太尉西曹掾蒋遵，清亮忠孝，學通古今，陛下纳肤受之诉，遂致禁锢，世以是爲严。”帝怒曰：“汝南子欲复党乎？”憑出，自系廷尉，有詔敕出。后复引見，憑谢曰：“臣无謇谔之節，而有狂瞽之言，不能以尸伏谏，偷生苟活，诚惭聖朝。”帝即敕尚書解遵禁锢，拜憑虎贲中郎将，以侍中兼領之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p21.h1",
+          "type": "person",
+          "at": 18,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.79.p22",
@@ -398,10 +425,10 @@
           "text": "明年",
           "kind": "relative",
           "resolution": "next_year",
-          "year_ad": 210,
-          "era": "建安",
-          "era_year": 15,
-          "reasoning": "「明年」 = 当前年 建安14年 (AD 209) 之次年 = AD 210"
+          "year_ad": 30,
+          "era": "建武",
+          "era_year": 6,
+          "reasoning": "「明年」 = 当前年 建武5年 (AD 29) 之次年 = AD 30"
         },
         {
           "id": "hhs.79.p27.t3",
@@ -411,10 +438,10 @@
           "text": "九年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 204,
-          "era": "建安",
+          "year_ad": 33,
+          "era": "建武",
           "era_year": 9,
-          "reasoning": "承前文年號「建安」推得，「九年」 = 建安9年 = AD 204"
+          "reasoning": "承前文年號「建武」推得，「九年」 = 建武9年 = AD 33"
         }
       ]
     },
@@ -610,78 +637,7 @@
     {
       "id": "hhs.79.p49",
       "text": "臣之愚意，以爲凡言誹谤者，謂實无此事而虚加诬之也。至如孝武皇帝，政之美恶，显在汉史，坦如日月。是爲直说書傳實事，非虚谤也。夫帝者爲善，則天下之善咸歸焉；其不善，則天下之恶亦萃焉。斯皆有以致之，故不可以誅于人也。且陛下即位以来，政教未過，而德澤有加，天下所具也，臣等独何讥刺哉？假使所非實是，則固應悛改；倘其不当，亦宜含容，又何罪焉？陛下不推原大数，深自爲计，徒肆私忿，以快其意。臣等受戮，死即死耳，顧天下之人，必回視易虑，以此事窥陛下心。自今以后，苟見不可之事，終莫复言者矣。臣之所以不爱其死，犹敢極言者，诚爲陛下深惜此大業。陛下若不自惜，則臣何赖焉？齊桓公親揚其先君之恶，以唱管仲，然后群臣得盡其心。今陛下乃欲以十世之武帝，远諱實事，岂不与桓公异哉？臣恐有司卒然見构，衔恨蒙枉，不得自叙，使后世論者，擅以陛下有所方比，宁可复使子孫追掩之乎？谨诣阙伏待重誅。",
-      "annotations": [
-        {
-          "id": "hhs.79.p49.h1",
-          "type": "person",
-          "at": 106,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "蔡邕等奏為武帝事辯誣，靈帝時事，「陛下即位以來」即靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h2",
-          "type": "person",
-          "at": 166,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下不推原大數」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h3",
-          "type": "person",
-          "at": 215,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「窺陛下心」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h4",
-          "type": "person",
-          "at": 255,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「誠為陛下深惜此大業」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h5",
-          "type": "person",
-          "at": 263,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「陛下若不自惜」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h6",
-          "type": "person",
-          "at": 302,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「今陛下乃欲」即奏靈帝，對應 linghan。"
-        },
-        {
-          "id": "hhs.79.p49.h7",
-          "type": "person",
-          "at": 353,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "linghan",
-          "via": "llm",
-          "reasoning": "同段「擅以陛下有所方比」即奏靈帝，對應 linghan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p50",
@@ -704,16 +660,6 @@
           "era": "元和",
           "era_year": 2,
           "reasoning": "原文「元和二年」直接出现年号；解析為 AD 85（回溯前事，不推進章節時間軸）"
-        },
-        {
-          "id": "hhs.79.p51.h1",
-          "type": "person",
-          "at": 107,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "liuda",
-          "via": "llm",
-          "reasoning": "元和二年（章帝元和），「陛下親屈萬乘」即漢章帝劉炟，未列 roster。"
         }
       ]
     },
@@ -754,16 +700,6 @@
           "via": "alias"
         },
         {
-          "id": "hhs.79.p54.h2",
-          "type": "person",
-          "at": 89,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "anhan",
-          "via": "llm",
-          "reasoning": "延光元年安帝詔有道術之士，杜季彥對「陛下宜修聖德」即安帝，對應 anhan。"
-        },
-        {
           "id": "hhs.79.p54.t2",
           "type": "temporal",
           "at": 119,
@@ -771,10 +707,10 @@
           "text": "三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 198,
-          "era": "建安",
+          "year_ad": 124,
+          "era": "延光",
           "era_year": 3,
-          "reasoning": "承前文年號「建安」推得，「三年」 = 建安3年 = AD 198"
+          "reasoning": "承前文年號「延光」推得，「三年」 = 延光3年 = AD 124"
         }
       ]
     },
@@ -827,10 +763,10 @@
           "text": "是歲",
           "kind": "relative",
           "resolution": "this_year",
-          "year_ad": 198,
+          "year_ad": 209,
           "era": "建安",
-          "era_year": 3,
-          "reasoning": "「是歲」 = 当前年 建安3年 (AD 198)"
+          "era_year": 14,
+          "reasoning": "「是歲」 = 当前年 建安14年 (AD 209)"
         },
         {
           "id": "hhs.79.p57.h1",
@@ -840,34 +776,13 @@
           "text": "安帝",
           "person_id": "anhan",
           "via": "alias"
-        },
-        {
-          "id": "hhs.79.p57.h2",
-          "type": "person",
-          "at": 35,
-          "length": 2,
-          "text": "太后",
-          "person_id": "yanji",
-          "via": "llm",
-          "reasoning": "「閻太后以其專擅去職」即安思閻皇后閻姬，未列 roster。"
         }
       ]
     },
     {
       "id": "hhs.79.p58",
       "text": "顺帝即位，詔免伦刑，遂留行丧于恭陵。服阕，征拜侍中。是時，邵陵令任嘉在职贪秽，因遷武威太守，后有司奏嘉臧罪千萬，征考廷尉，其所牵染将相大臣百有余人。伦乃上書曰：“臣聞《春秋》誅恶及本，本誅則恶消；振裘持領，領正則毛理。今任嘉所坐狼藉，未受辜戮，猥以垢身，改典大郡，自非案坐舉者，无以禁絕奸萌。往者湖陆令張叠、萧令驷贤、徐州刺史劉福等，衅秽既章，咸伏其誅，而豺狼之吏至今不絕者，岂非本舉之主不加之罪乎？昔齊威之霸，殺奸臣五人，并及舉者，以弭谤讟。当断不断，《黄石》所戒。夫聖王所以听僮夫匹妇之言者，犹尘加嵩岱，雾集淮海，雖未有益，不爲損也。惟陛下留神省察。”奏御，有司以伦言切直，辞不逊顺，下之。尚書奏伦探知密事，激以求直。坐不敬，结鬼薪。詔書以伦数进忠言，特原之，免歸田里。",
-      "annotations": [
-        {
-          "id": "hhs.79.p58.h1",
-          "type": "person",
-          "at": 270,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "shunhan",
-          "via": "llm",
-          "reasoning": "順帝即位後楊倫奏任嘉事，「惟陛下留神省察」即順帝，對應 shunhan。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "hhs.79.p59",
@@ -908,6 +823,15 @@
       "text": "詡以父任為郎中，世傳《魯詩》。以信行清操知名。王莽篡位，父子稱盲，逃，不仕莽世。光武即位，大司空宋弘薦詡，徵為郎，除符離長。去官，後徵為博士。建武十一年，拜大司農。在朝以方正稱。十三年，卒官，賜錢及塚田。",
       "annotations": [
         {
+          "id": "hhs.79.p63.h1",
+          "type": "person",
+          "at": 40,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
           "id": "hhs.79.p63.t1",
           "type": "temporal",
           "at": 71,
@@ -928,17 +852,27 @@
           "text": "十三年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 208,
-          "era": "建安",
+          "year_ad": 37,
+          "era": "建武",
           "era_year": 13,
-          "reasoning": "承前文年號「建安」推得，「十三年」 = 建安13年 = AD 208"
+          "reasoning": "承前文年號「建武」推得，「十三年」 = 建武13年 = AD 37"
         }
       ]
     },
     {
       "id": "hhs.79.p64",
       "text": "包咸字子良，會稽曲阿人也。少為諸生，受業長安，師事博士右師細君，習《魯詩》、《論語》。王莽末，去歸鄉里，於東海界為赤眉賊所得，遂見拘執。十餘日，咸晨夜誦經自若，賊異而遣之。因住東海，立精舍講授。光武即位，乃歸鄉里。太守黃讜署戶曹史，欲召咸入授其子。咸曰：「禮有來學，而無往教。」讜遂遣子師之。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p64.h1",
+          "type": "person",
+          "at": 97,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.79.p65",
@@ -1080,6 +1014,15 @@
           "reasoning": "原文「建武四年」直接出现年号；解析為 AD 28（回溯前事，不推進章節時間軸）"
         },
         {
+          "id": "hhs.79.p71.h1",
+          "type": "person",
+          "at": 83,
+          "length": 2,
+          "text": "伏氏",
+          "person_id": "fuhuanghou",
+          "via": "alias"
+        },
+        {
           "id": "hhs.79.p71.t2",
           "type": "temporal",
           "at": 87,
@@ -1100,10 +1043,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 199,
-          "era": "建安",
+          "year_ad": 61,
+          "era": "永平",
           "era_year": 4,
-          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
+          "reasoning": "承前文年號「永平」推得，「四年」 = 永平4年 = AD 61"
         }
       ]
     },
@@ -1353,7 +1296,17 @@
     {
       "id": "hhs.79.p89",
       "text": "初，九江謝曼卿善《毛詩》，乃為其訓。宏從曼卿受學，因作《毛詩序》，善得《風雅》之旨，於今傳於世。後從大司空杜林更受《古文尚書》，為作《訓旨》。時濟南徐巡師事宏，後從林受學，亦以儒顯，由是古學大興。光武以為議郎。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p89.h1",
+          "type": "person",
+          "at": 98,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.79.p90",
@@ -1436,6 +1389,15 @@
           "text": "劉昆",
           "person_id": "liukun",
           "via": "primary"
+        },
+        {
+          "id": "hhs.79.p95.h4",
+          "type": "person",
+          "at": 134,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },
@@ -1486,10 +1448,10 @@
           "text": "十年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 205,
-          "era": "建安",
+          "year_ad": 67,
+          "era": "永平",
           "era_year": 10,
-          "reasoning": "承前文年號「建安」推得，「十年」 = 建安10年 = AD 205"
+          "reasoning": "承前文年號「永平」推得，「十年」 = 永平10年 = AD 67"
         }
       ]
     },
@@ -1572,6 +1534,15 @@
           "text": "丁恭",
           "person_id": "dinggong",
           "via": "primary"
+        },
+        {
+          "id": "hhs.79.p102.h2",
+          "type": "person",
+          "at": 35,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
         }
       ]
     },
@@ -1693,7 +1664,17 @@
     {
       "id": "hhs.79.p109",
       "text": "後玄去官，舉孝廉，除為郎。會《顏氏》博士缺，玄試策第一，拜為博士。居數月，諸生上言玄廉說《嚴氏》、《冥氏》，不宜專為《顏氏》博士。光武且令還署，未及遷而卒。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p109.h1",
+          "type": "person",
+          "at": 65,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.79.p110",
@@ -1740,10 +1721,10 @@
           "text": "四年",
           "kind": "relative",
           "resolution": "bare_year",
-          "year_ad": 199,
-          "era": "建安",
+          "year_ad": 79,
+          "era": "建初",
           "era_year": 4,
-          "reasoning": "承前文年號「建安」推得，「四年」 = 建安4年 = AD 199"
+          "reasoning": "承前文年號「建初」推得，「四年」 = 建初4年 = AD 79"
         }
       ]
     },
@@ -1877,6 +1858,15 @@
         {
           "id": "hhs.79.p121.h1",
           "type": "person",
+          "at": 33,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "hhs.79.p121.h2",
+          "type": "person",
           "at": 47,
           "length": 2,
           "text": "衛宏",
@@ -1885,16 +1875,6 @@
         },
         {
           "id": "hhs.79.p121.h3",
-          "type": "person",
-          "at": 67,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "孔融薦謝該奏，獻帝建安中事，「陛下聖德欽明，同符二祖」即獻帝，對應 xianhan。"
-        },
-        {
-          "id": "hhs.79.p121.h2",
           "type": "person",
           "at": 137,
           "length": 2,
@@ -1947,7 +1927,17 @@
     {
       "id": "hhs.79.p126",
       "text": "論曰：自光武中年以後，干戈稍戢，專事經學，自是其風世篤焉。其服儒衣，稱先王，遊庠序，聚橫塾者，蓋布之於邦域矣。若乃經生所處，不遠萬里之路，精廬暫建，贏糧動有千百，其耆名高義開門受徒者，編牒不下萬人，皆專相傳祖，莫或訛雜。至有分爭王庭，樹朋私裡，繁其章條，穿求崖穴，以合一家之說。故楊雄曰：「今之學者，非獨為之華藻，又從而繡其鞶帨。」夫書理無二，義歸有宗，而碩學之徒，莫之或徙，故通人鄙其固焉，又雄所謂「譊々之學，各習其師」也。且觀成名高第，終能遠至者，蓋亦寡焉，而迂滯若是矣。然所談者仁義，所傳者聖法也。故人識君臣父子之綱，家知違邪歸正之路。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "hhs.79.p126.h1",
+          "type": "person",
+          "at": 4,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "hhs.79.p127",

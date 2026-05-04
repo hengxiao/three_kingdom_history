@@ -47,6 +47,14 @@ annotations:
   length: 0
   type: lixian
   text: 徼，要也，音工堯反。前書曰，王陽好車馬，衣服鮮明，而遷徙轉移，所載不過囊橐。時人怪其奢，伏其儉，故俗傳王陽能作黃金。
+- id: hhs.64.p2.h1
+  anchor: hhs.64.p2
+  at: 136
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 吳氏
+  via: alias
 - id: hhs.64.p2.a8
   anchor: hhs.64.p2
   at: 146
@@ -489,16 +497,6 @@ annotations:
   length: 0
   type: lixian
   text: 有虛言無實行也。
-- anchor: hhs.64.p23
-  at: 220
-  length: 2
-  type: person
-  person_id: huanhan
-  text: 陛下
-  via: llm
-  confidence: 0.92
-  reasoning: 史弼上封事論桓帝弟勃海王悝事，「陛下隆於友於」即奏桓帝，對應 huanhan。
-  id: hhs.64.p23.h2
 - id: hhs.64.p23.a6
   anchor: hhs.64.p23
   at: 232
@@ -677,16 +675,6 @@ annotations:
   length: 0
   type: lixian
   text: 不大謂子孫衰替也。左傳晉卜偃曰：「畢萬之後必大。」
-- anchor: hhs.64.p29
-  at: 1
-  length: 2
-  type: person
-  person_id: doumiao
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「皇后父大將軍竇武援立靈帝」即桓思竇皇后竇妙之父竇武，未列 roster。
-  id: hhs.64.p29.h2
 - id: hhs.64.p29.h1
   anchor: hhs.64.p29
   at: 11
@@ -989,16 +977,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: hhs.64.p36
-  at: 23
-  length: 2
-  type: person
-  person_id: hetaihou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 靈帝崩何進召董卓「以懼太后」即懼何太后，對應 hetaihou。
-  id: hhs.64.p36.h11
 - id: hhs.64.p36.h3
   anchor: hhs.64.p36
   at: 28

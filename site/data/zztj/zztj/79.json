@@ -135,12 +135,11 @@
         {
           "id": "zztj.79.p8.h1",
           "type": "person",
-          "at": 10,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
+          "at": 9,
+          "length": 3,
+          "text": "景皇后",
+          "person_id": "zhuhuanghou",
+          "via": "alias"
         }
       ]
     },
@@ -289,30 +288,18 @@
         {
           "id": "zztj.79.p21.h1",
           "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
+          "at": 11,
+          "length": 3,
+          "text": "景皇后",
+          "person_id": "zhuhuanghou",
+          "via": "alias"
         }
       ]
     },
     {
       "id": "zztj.79.p22",
       "text": "丙午，立皇后弘農楊氏。后，魏通事郎文宗之女也。",
-      "annotations": [
-        {
-          "id": "zztj.79.p22.h1",
-          "type": "person",
-          "at": 4,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.79.p23",
@@ -451,38 +438,7 @@
     {
       "id": "zztj.79.p30",
       "text": "中軍將軍羊祜謂傅玄曰：「三年之喪，雖貴遂服，禮也，而漢文除之，毀禮傷義。今主上至孝，雖奪其服，實行喪禮。若因此復先王之法，不亦善乎！」玄曰：「以日易月，已數百年，一旦復古，難行也。」祜曰：「不能使天下如禮，且使主上遂服，不猶愈乎！」玄曰：「主上不除而天下除之，此爲但有父子，無復君臣也。」乃止。",
-      "annotations": [
-        {
-          "id": "zztj.79.p30.h1",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "主上",
-          "person_id": "simayan",
-          "via": "llm",
-          "reasoning": "西晉武帝不在花名冊"
-        },
-        {
-          "id": "zztj.79.p30.h2",
-          "type": "person",
-          "at": 105,
-          "length": 2,
-          "text": "主上",
-          "person_id": "simayan",
-          "via": "llm",
-          "reasoning": "西晉武帝不在花名冊"
-        },
-        {
-          "id": "zztj.79.p30.h3",
-          "type": "person",
-          "at": 120,
-          "length": 2,
-          "text": "主上",
-          "person_id": "simayan",
-          "via": "llm",
-          "reasoning": "西晉武帝不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.79.p31",
@@ -623,12 +579,11 @@
         {
           "id": "zztj.79.p41.h1",
           "type": "person",
-          "at": 121,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
+          "at": 76,
+          "length": 3,
+          "text": "何太后",
+          "person_id": "hetaihou",
+          "via": "alias"
         }
       ]
     },
@@ -675,12 +630,32 @@
     {
       "id": "zztj.79.p44",
       "text": "司隸校尉上黨李喜劾奏故立進令劉友、前尚書山濤、中山王睦、尚書僕射武陔各佔官稻田，請免濤、睦等官，陔已亡，請貶其諡。詔曰：「友侵剝百姓以謬惑朝士，其考竟以懲邪佞。濤等不貳其過，皆勿有所問。喜亢志在公，當官而行，可謂邦之司直矣。光武有云：『貴戚且斂手以避二鮑。』其申敕群寮，各愼所詞，寬宥之恩，不可數遇也！」睦，宣帝之弟子也。",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.79.p44.h1",
+          "type": "person",
+          "at": 112,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.79.p45",
       "text": "臣光曰：政之大本，在於刑賞，刑賞不明，政何以成！晉武帝赦山濤而褒李喜，其於刑、賞兩失之。使喜所言爲是，則濤不可赦；所言爲非，則喜不足褒。褒之使言，言而不用，怨結於下，威玩於上，將安用之！且四臣同罪，劉友伏誅而濤等不問，避貴施賤，可謂政乎！創業之初，而政本不立，將以垂統後世，不亦難乎！",
-      "annotations": []
+      "annotations": [
+        {
+          "id": "zztj.79.p45.h1",
+          "type": "person",
+          "at": 24,
+          "length": 3,
+          "text": "晉武帝",
+          "person_id": "simayan",
+          "via": "alias"
+        }
+      ]
     },
     {
       "id": "zztj.79.p46",
@@ -899,18 +874,7 @@
     {
       "id": "zztj.79.p60",
       "text": "已亥，葬文明皇后。有司又奏：「旣虞，除衰服。」詔曰：「受終身之愛而無數年之報，情所不忍也。」有司固請，詔曰：「患在不能篤孝，勿以毀傷爲憂。前代禮典，質文不同，何必限以近制，使達喪闕然乎！」群臣請不已，乃許之。然猶素冠疎食以終三年，如文帝之喪。",
-      "annotations": [
-        {
-          "id": "zztj.79.p60.h1",
-          "type": "person",
-          "at": 6,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.79.p61",
@@ -1463,18 +1427,7 @@
     {
       "id": "zztj.79.p98",
       "text": "呉人刁玄詐增讖文云：「黃旗紫蓋，見於東南，終有天下者，荊、揚之君。」呉主信之。是月晦，大舉兵出華里，載太后、皇后及後宮數千人，從牛渚西上。東觀令華譖等固諫，不聽。行遇大雪，道塗陷壞，兵士被甲持仗，百人共引一車，寒凍殆死，皆曰：「若遇敵，便當倒戈。」呉主聞之，乃還。帝遣義陽王望統中軍二萬、騎三千屯壽春以備之，聞呉師退，乃罷。",
-      "annotations": [
-        {
-          "id": "zztj.79.p98.h1",
-          "type": "person",
-          "at": 54,
-          "length": 2,
-          "text": "皇后",
-          "person_id": "muhuanghou_shu",
-          "via": "llm",
-          "reasoning": "晉吳皇后皆不在花名冊"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.79.p99",

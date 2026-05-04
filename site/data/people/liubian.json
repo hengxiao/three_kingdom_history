@@ -83,26 +83,15 @@
     ],
     "sanguozhi": [
       {
-        "chapter_id": "shu.2",
-        "chapter_title": "蜀書·先主傳",
-        "book_title": "蜀書",
-        "work": "sanguozhi",
-        "anchor": "shu.2.p21",
-        "at": 254,
-        "data_url": "data/sanguozhi/shu/02.json",
-        "matched": "太子",
-        "snippet": "…之艱。董卓首難，盪覆京畿，曹操階禍，竊執天衡；皇后太子，鴆殺見害，剝亂天下，殘毀民物。久令陛下蒙塵憂厄，幽處虛邑。人神無主，遏絕王命，厭昧皇極，欲盜神器。左將軍領司隸校尉豫、荊、益…"
-      },
-      {
         "chapter_id": "wei.1",
         "chapter_title": "魏書·武帝紀",
         "book_title": "魏書",
         "work": "sanguozhi",
         "anchor": "wei.1.p5",
-        "at": 39,
+        "at": 93,
         "data_url": "data/sanguozhi/wei/01.json",
         "matched": "弘農王",
-        "snippet": "…，衆十餘萬，天下騷動。徵太祖爲典軍校尉。會靈帝崩，太子即位，太后臨朝。大將軍何進與袁紹謀誅宦官，太后不聽。進乃召董卓，欲以脅太后，卓未至而進見殺。卓到，廢帝爲弘農王而立獻帝，京都大…"
+        "snippet": "…乃召董卓，欲以脅太后，卓未至而進見殺。卓到，廢帝爲弘農王而立獻帝，京都大亂。卓表太祖爲驍騎校尉，欲與計事。太祖乃變易姓名，間行東歸。出關，過中牟，爲亭長所疑，執詣縣，邑中或竊識之，…"
       },
       {
         "chapter_id": "wei.20",
@@ -239,17 +228,6 @@
         "snippet": "及帝崩，董卓廢少帝，殺何太后，勳與書曰：「昔伊尹、霍光權以立功，猶可寒心，足下小丑，何以終此？賀者在門，吊者在廬，可不慎哉！」卓得書，意甚憚之。…"
       },
       {
-        "chapter_id": "hhs.69",
-        "chapter_title": "竇何列傳",
-        "book_title": "後漢書",
-        "work": "houhanshu",
-        "anchor": "hhs.69.p28",
-        "at": 80,
-        "data_url": "data/houhanshu/hhs/69.json",
-        "matched": "陛下",
-        "snippet": "…今當遠離宮殿，情懷戀戀，願復一入直，得暫奉望太后、陛下顏色，然後退就溝壑，死不恨矣。」子婦言於舞陽君，入白太后，乃詔諸常侍皆復入直。"
-      },
-      {
         "chapter_id": "hhs.72",
         "chapter_title": "董卓列傳",
         "book_title": "後漢書",
@@ -292,17 +270,6 @@
         "data_url": "data/houhanshu/hhs/72.json",
         "matched": "少帝",
         "snippet": "卓遠見火起，引兵急進，未明到城西，聞少帝在北芒，因往奉迎。帝見卓將兵卒至，恐怖涕泣。卓與言，不能辭對；與陳留王語，遂及禍亂之事。卓以王為賢，且為董太后所養，卓自以與太…"
-      },
-      {
-        "chapter_id": "hhs.78",
-        "chapter_title": "宦者列传",
-        "book_title": "後漢書",
-        "work": "houhanshu",
-        "anchor": "hhs.78.p73",
-        "at": 97,
-        "data_url": "data/houhanshu/hhs/78.json",
-        "matched": "陛下",
-        "snippet": "…河上。追急，让等悲哭辞曰：“臣等殄灭，天下乱矣。惟陛下自爱！”皆投河而死。"
       },
       {
         "chapter_id": "hhs.8",
@@ -350,5 +317,5 @@
       }
     ]
   },
-  "n_mentions": 30
+  "n_mentions": 27
 }

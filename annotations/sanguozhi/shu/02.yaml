@@ -2457,16 +2457,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: shu.2.p21
-  at: 211
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 群臣勸進表敘「久令陛下蒙塵憂厄」追述漢獻帝劉協受董卓、曹操逼凌之事，故陛下指漢獻帝。
-  id: shu.2.p21.h21
 - id: shu.2.p21.h10
   anchor: shu.2.p21
   at: 232
@@ -2483,36 +2473,6 @@ annotations:
   person_id: caocao
   text: 曹操
   via: primary
-- anchor: shu.2.p21
-  at: 252
-  length: 2
-  type: person
-  person_id: fuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 「皇后太子，鴆殺見害」指漢末伏皇后與弘農王（少帝太子之事），最可能伏皇后；roster未列伏皇后，留空。
-  id: shu.2.p21.h24
-- anchor: shu.2.p21
-  at: 254
-  length: 2
-  type: person
-  person_id: liubian
-  text: 太子
-  via: llm
-  confidence: 0.7
-  reasoning: 「皇后太子鴆殺見害」之太子當指被鴆殺之弘農王劉辯（少帝），roster中為liubian。
-  id: shu.2.p21.h22
-- anchor: shu.2.p21
-  at: 274
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同表「久令陛下蒙塵憂厄」陛下仍指漢獻帝。
-  id: shu.2.p21.h23
 - id: shu.2.p21.h12
   anchor: shu.2.p21
   at: 326
@@ -2607,16 +2567,6 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- anchor: shu.2.p24
-  at: 37
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 諸葛亮等再上漢中王上表「久使陛下聖教陵遲」，陛下乃漢獻帝。
-  id: shu.2.p24.h9
 - id: shu.2.p24.h1
   anchor: shu.2.p24
   at: 66
@@ -2625,16 +2575,6 @@ annotations:
   person_id: dongzhuo
   text: 董卓
   via: primary
-- anchor: shu.2.p24
-  at: 89
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 陛下
-  via: llm
-  confidence: 0.93
-  reasoning: 同表「賴陛下聖德威靈」承上指漢獻帝。
-  id: shu.2.p24.h10
 - id: shu.2.p24.h2
   anchor: shu.2.p24
   at: 125
@@ -2927,13 +2867,21 @@ annotations:
   via: given_name_carry
 - id: shu.2.p31.h2
   anchor: shu.2.p31
+  at: 48
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: shu.2.p31.h3
+  anchor: shu.2.p31
   at: 63
   length: 2
   type: person
   person_id: caocao
   text: 曹操
   via: primary
-- id: shu.2.p31.h3
+- id: shu.2.p31.h4
   anchor: shu.2.p31
   at: 85
   length: 1
@@ -2941,7 +2889,7 @@ annotations:
   person_id: caocao
   text: 操
   via: given_name
-- id: shu.2.p31.h4
+- id: shu.2.p31.h5
   anchor: shu.2.p31
   at: 87
   length: 1
@@ -2949,7 +2897,7 @@ annotations:
   person_id: caopi
   text: 丕
   via: given_name_carry
-- id: shu.2.p31.h5
+- id: shu.2.p31.h6
   anchor: shu.2.p31
   at: 110
   length: 1
@@ -2957,7 +2905,7 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- id: shu.2.p31.h6
+- id: shu.2.p31.h7
   anchor: shu.2.p31
   at: 125
   length: 1
@@ -2965,7 +2913,7 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- id: shu.2.p31.h7
+- id: shu.2.p31.h8
   anchor: shu.2.p31
   at: 181
   length: 1
@@ -2973,7 +2921,7 @@ annotations:
   person_id: liubei
   text: 備
   via: given_name_carry
-- id: shu.2.p31.h8
+- id: shu.2.p31.h9
   anchor: shu.2.p31
   at: 185
   length: 1
@@ -3031,26 +2979,14 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 章武元年 (AD 221)，月份「五月」
-- anchor: shu.2.p32
-  at: 48
+- id: shu.2.p32.h3
+  anchor: shu.2.p32
+  at: 50
   length: 2
   type: person
   person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.7
-  reasoning: 章武元年「立皇后吳氏」即穆皇后吳氏（後主劉禪嫡母），roster未列。
-  id: shu.2.p32.h10
-- anchor: shu.2.p32
-  at: 57
-  length: 2
-  type: person
-  person_id: liushan
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「子禪為皇太子」明指立劉禪為皇太子。
-  id: shu.2.p32.h9
+  text: 吳氏
+  via: alias
 - id: shu.2.p32.t3
   anchor: shu.2.p32
   at: 60
@@ -3065,7 +3001,7 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 章武元年 (AD 221)，月份「六月」
-- id: shu.2.p32.h3
+- id: shu.2.p32.h4
   anchor: shu.2.p32
   at: 79
   length: 2
@@ -3073,7 +3009,7 @@ annotations:
   person_id: zhangfei
   text: 張飛
   via: primary
-- id: shu.2.p32.h4
+- id: shu.2.p32.h5
   anchor: shu.2.p32
   at: 90
   length: 2
@@ -3081,7 +3017,7 @@ annotations:
   person_id: liubei
   text: 先主
   via: chapter_alias
-- id: shu.2.p32.h5
+- id: shu.2.p32.h6
   anchor: shu.2.p32
   at: 93
   length: 2
@@ -3089,7 +3025,7 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- id: shu.2.p32.h6
+- id: shu.2.p32.h7
   anchor: shu.2.p32
   at: 97
   length: 2
@@ -3111,7 +3047,7 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 章武元年 (AD 221)，月份「秋七月」
-- id: shu.2.p32.h7
+- id: shu.2.p32.h8
   anchor: shu.2.p32
   at: 115
   length: 2
@@ -3119,7 +3055,7 @@ annotations:
   person_id: sunquan
   text: 孫權
   via: primary
-- id: shu.2.p32.h8
+- id: shu.2.p32.h9
   anchor: shu.2.p32
   at: 122
   length: 2

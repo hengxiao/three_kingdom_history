@@ -341,18 +341,7 @@
     {
       "id": "zztj.68.p8",
       "text": "魏以五官中郎將丕為太子。",
-      "annotations": [
-        {
-          "id": "zztj.68.p8.h1",
-          "type": "person",
-          "at": 9,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "zztj.68.p9",
@@ -361,6 +350,24 @@
         {
           "id": "zztj.68.p9.h1",
           "type": "person",
+          "at": 21,
+          "length": 2,
+          "text": "卞氏",
+          "person_id": "bianhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.68.p9.h2",
+          "type": "person",
+          "at": 64,
+          "length": 2,
+          "text": "卞氏",
+          "person_id": "bianhuanghou",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.68.p9.h3",
+          "type": "person",
           "at": 160,
           "length": 2,
           "text": "崔琰",
@@ -368,7 +375,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p9.h2",
+          "id": "zztj.68.p9.h4",
           "type": "person",
           "at": 214,
           "length": 2,
@@ -377,7 +384,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p9.h3",
+          "id": "zztj.68.p9.h5",
           "type": "person",
           "at": 221,
           "length": 2,
@@ -386,7 +393,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p9.h4",
+          "id": "zztj.68.p9.h6",
           "type": "person",
           "at": 248,
           "length": 2,
@@ -395,53 +402,13 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p9.h5",
+          "id": "zztj.68.p9.h7",
           "type": "person",
           "at": 280,
           "length": 2,
           "text": "賈詡",
           "person_id": "jiaxu",
           "via": "primary"
-        },
-        {
-          "id": "zztj.68.p9.h6",
-          "type": "person",
-          "at": 537,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
-        },
-        {
-          "id": "zztj.68.p9.h7",
-          "type": "person",
-          "at": 554,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
-        },
-        {
-          "id": "zztj.68.p9.h8",
-          "type": "person",
-          "at": 646,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
-        },
-        {
-          "id": "zztj.68.p9.h9",
-          "type": "person",
-          "at": 681,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
         }
       ]
     },
@@ -1729,16 +1696,6 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p30.h16",
-          "type": "person",
-          "at": 69,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
-        },
-        {
           "id": "zztj.68.p30.h2",
           "type": "person",
           "at": 79,
@@ -1882,12 +1839,11 @@
         {
           "id": "zztj.68.p31.h2",
           "type": "person",
-          "at": 10,
+          "at": 7,
           "length": 2,
-          "text": "王后",
+          "text": "卞氏",
           "person_id": "bianhuanghou",
-          "via": "llm",
-          "reasoning": "魏王王后即卞氏，不在花名冊"
+          "via": "alias"
         }
       ]
     },
@@ -2200,16 +2156,6 @@
           "month_chinese": "九月",
           "month_ordinal": 9,
           "reasoning": "年承前文 建安24年 (AD 219)，月份「九月」"
-        },
-        {
-          "id": "zztj.68.p33.h1",
-          "type": "person",
-          "at": 94,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "建安二十二年(217)曹操立曹丕為魏太子，\"太子\"指曹丕"
         }
       ]
     },
@@ -4587,6 +4533,15 @@
         {
           "id": "zztj.68.p49.h1",
           "type": "person",
+          "at": 63,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.68.p49.h2",
+          "type": "person",
           "at": 80,
           "length": 1,
           "text": "紹",
@@ -4594,7 +4549,7 @@
           "via": "given_name"
         },
         {
-          "id": "zztj.68.p49.h2",
+          "id": "zztj.68.p49.h3",
           "type": "person",
           "at": 280,
           "length": 1,
@@ -4603,7 +4558,7 @@
           "via": "given_name_carry"
         },
         {
-          "id": "zztj.68.p49.h3",
+          "id": "zztj.68.p49.h4",
           "type": "person",
           "at": 336,
           "length": 2,
@@ -4612,7 +4567,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h4",
+          "id": "zztj.68.p49.h5",
           "type": "person",
           "at": 339,
           "length": 2,
@@ -4621,7 +4576,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h5",
+          "id": "zztj.68.p49.h6",
           "type": "person",
           "at": 342,
           "length": 2,
@@ -4630,7 +4585,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h6",
+          "id": "zztj.68.p49.h7",
           "type": "person",
           "at": 345,
           "length": 2,
@@ -4639,7 +4594,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h7",
+          "id": "zztj.68.p49.h8",
           "type": "person",
           "at": 369,
           "length": 2,
@@ -4648,7 +4603,16 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h8",
+          "id": "zztj.68.p49.h9",
+          "type": "person",
+          "at": 446,
+          "length": 2,
+          "text": "光武",
+          "person_id": "liuxiu",
+          "via": "alias"
+        },
+        {
+          "id": "zztj.68.p49.h10",
           "type": "person",
           "at": 535,
           "length": 2,
@@ -4657,7 +4621,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h9",
+          "id": "zztj.68.p49.h11",
           "type": "person",
           "at": 540,
           "length": 2,
@@ -4666,7 +4630,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.68.p49.h10",
+          "id": "zztj.68.p49.h12",
           "type": "person",
           "at": 545,
           "length": 2,

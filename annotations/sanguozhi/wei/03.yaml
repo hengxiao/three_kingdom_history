@@ -29,16 +29,6 @@ annotations:
   person_id: caopi
   text: 文帝
   via: chapter_alias
-- anchor: wei.3.p1
-  at: 12
-  length: 2
-  type: person
-  person_id: caorui
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「明皇帝諱叡，字元仲，文帝太子也」— 此處述明帝為曹丕之太子，即曹叡本人。
-  id: wei.3.p1.h5
 - id: wei.3.p1.h4
   anchor: wei.3.p1
   at: 18
@@ -85,72 +75,20 @@ annotations:
   month_chinese: 夏五月
   month_ordinal: 5
   reasoning: 承前文年號「黃初」推得，「七年夏五月」 = 黃初7年 = AD 226
-- anchor: wei.3.p1
-  at: 78
-  length: 2
-  type: person
-  person_id: caorui
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「乃立爲皇太子」— 黃初七年五月曹丕病篤立曹叡為皇太子。
-  id: wei.3.p1.h6
-- anchor: wei.3.p1
-  at: 94
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 「尊皇太后曰太皇太后」— 即尊曹丕母卞皇太后為太皇太后；卞太后未在 roster，置 null。
-  id: wei.3.p1.h7
-- anchor: wei.3.p1
-  at: 99
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 「太皇太后」即卞氏被進尊之新銜；roster 無，置 null。
-  id: wei.3.p1.h8
-- anchor: wei.3.p1
-  at: 102
-  length: 2
-  type: person
-  person_id: guohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.9
-  reasoning: 「皇后曰皇太后」— 皇后即文帝郭皇后（文德郭皇后）；roster 無，置 null。
-  id: wei.3.p1.h10
-- anchor: wei.3.p1
-  at: 106
-  length: 2
-  type: person
-  person_id: guohuanghou
-  text: 太后
-  via: llm
-  confidence: 0.9
-  reasoning: 「皇后曰皇太后」— 即尊文德郭皇后為皇太后；roster 無郭太后，置 null。
-  id: wei.3.p1.h9
 - id: wei.3.p1.a3
   anchor: wei.3.p1
   at: 117
   length: 0
   type: pei
   text: 《世語》曰：帝與朝士素不接，即位之後，羣下想聞風采。居數日，獨見侍中劉曄，語盡日。衆人側聽，曄旣出，問「何如」？曄曰：「秦始皇、漢孝武之儔，才具微不及耳。」
-- anchor: wei.3.p1
-  at: 129
-  length: 2
+- id: wei.3.p1.h5
+  anchor: wei.3.p1
+  at: 123
+  length: 3
   type: person
   person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「追謚母甄夫人曰文昭皇后」— 即明帝生母甄氏；roster 無甄皇后，置 null。
-  id: wei.3.p1.h11
+  text: 甄夫人
+  via: chapter_alias
 - id: wei.3.p2.t1
   anchor: wei.3.p2
   at: 0
@@ -333,16 +271,6 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太和元年 (AD 227)，月份「二月」
-- anchor: wei.3.p4
-  at: 88
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「立文昭皇后寢廟於鄴」— 文昭皇后即甄氏；roster 無，置 null。
-  id: wei.3.p4.h3
 - id: wei.3.p4.t3
   anchor: wei.3.p4
   at: 104
@@ -399,16 +327,14 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 太和元年 (AD 227)，月份「十一月」
-- anchor: wei.3.p4
-  at: 158
+- id: wei.3.p4.h3
+  anchor: wei.3.p4
+  at: 160
   length: 2
   type: person
   person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「立皇后毛氏」— 太和元年立明帝毛皇后（明悼毛皇后）；roster 無，置 null。
-  id: wei.3.p4.h4
+  text: 毛氏
+  via: alias
 - id: wei.3.p4.t7
   anchor: wei.3.p4
   at: 185
@@ -703,16 +629,14 @@ annotations:
   person_id: caopi
   text: 高祖
   via: chapter_alias
-- anchor: wei.3.p7
-  at: 44
+- id: wei.3.p7.h2
+  anchor: wei.3.p7
+  at: 40
   length: 2
   type: person
   person_id: muhuanghou_shu
-  text: 皇后
-  via: llm
-  confidence: 0.9
-  reasoning: 「夫人吳氏曰高皇后」— 追尊高祖大長秋夫人吳氏（曹騰夫人）為高皇后；roster 無，置 null。
-  id: wei.3.p7.h2
+  text: 吳氏
+  via: alias
 - id: wei.3.p8.t1
   anchor: wei.3.p8
   at: 0
@@ -865,16 +789,6 @@ annotations:
   month_chinese: 六月
   month_ordinal: 6
   reasoning: 年承前文 太和4年 (AD 230)，月份「六月」
-- anchor: wei.3.p12
-  at: 183
-  length: 2
-  type: person
-  person_id: bianhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.95
-  reasoning: 「太皇太后崩」— 太和四年六月卞太后崩；roster 無，置 null。
-  id: wei.3.p12.h5
 - id: wei.3.p12.t4
   anchor: wei.3.p12
   at: 195
@@ -1559,13 +1473,21 @@ annotations:
   via: primary
 - id: wei.3.p23.h4
   anchor: wei.3.p23
+  at: 75
+  length: 2
+  type: person
+  person_id: liuxiu
+  text: 光武
+  via: alias
+- id: wei.3.p23.h5
+  anchor: wei.3.p23
   at: 126
   length: 1
   type: person
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.3.p23.h5
+- id: wei.3.p23.h6
   anchor: wei.3.p23
   at: 153
   length: 1
@@ -1587,7 +1509,7 @@ annotations:
   month_chinese: 秋七月
   month_ordinal: 7
   reasoning: 年承前文 青龍2年 (AD 234)，月份「秋七月」
-- id: wei.3.p23.h6
+- id: wei.3.p23.h7
   anchor: wei.3.p23
   at: 172
   length: 1
@@ -1595,7 +1517,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.3.p23.h7
+- id: wei.3.p23.h8
   anchor: wei.3.p23
   at: 195
   length: 1
@@ -1603,7 +1525,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.3.p23.h8
+- id: wei.3.p23.h9
   anchor: wei.3.p23
   at: 215
   length: 3
@@ -1611,7 +1533,7 @@ annotations:
   person_id: zhugeliang
   text: 諸葛亮
   via: primary
-- id: wei.3.p23.h9
+- id: wei.3.p23.h10
   anchor: wei.3.p23
   at: 235
   length: 1
@@ -1619,7 +1541,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wei.3.p23.h10
+- id: wei.3.p23.h11
   anchor: wei.3.p23
   at: 238
   length: 1
@@ -2167,16 +2089,14 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 景初元年 (AD 237)，月份「九月」
-- anchor: wei.3.p36
-  at: 58
+- id: wei.3.p36.h1
+  anchor: wei.3.p36
+  at: 60
   length: 2
   type: person
   person_id: maohuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「皇后毛氏卒」— 景初元年明悼毛皇后卒；roster 無，置 null。
-  id: wei.3.p36.h1
+  text: 毛氏
+  via: alias
 - id: wei.3.p36.t2
   anchor: wei.3.p36
   at: 64
@@ -2217,16 +2137,6 @@ annotations:
   length: 0
   type: pei
   text: 邔音其己反
-- anchor: wei.3.p36
-  at: 146
-  length: 2
-  type: person
-  person_id: zhenhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.95
-  reasoning: 「文昭皇后立廟京都」— 文昭皇后即甄氏；roster 無，置 null。
-  id: wei.3.p36.h2
 - id: wei.3.p36.a3
   anchor: wei.3.p36
   at: 166

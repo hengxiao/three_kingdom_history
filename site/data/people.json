@@ -9,7 +9,7 @@
       "birth_ad": 155,
       "death_ad": 220,
       "n_bio_chapters": 1,
-      "n_mentions": 755
+      "n_mentions": 752
     },
     {
       "id": "sunquan",
@@ -19,7 +19,7 @@
       "birth_ad": 182,
       "death_ad": 252,
       "n_bio_chapters": 1,
-      "n_mentions": 441
+      "n_mentions": 419
     },
     {
       "id": "liubei",
@@ -29,7 +29,7 @@
       "birth_ad": 161,
       "death_ad": 223,
       "n_bio_chapters": 1,
-      "n_mentions": 421
+      "n_mentions": 417
     },
     {
       "id": "yuanshao",
@@ -62,16 +62,6 @@
       "n_mentions": 226
     },
     {
-      "id": "caopi",
-      "primary_name": "曹丕",
-      "courtesy_name": "子桓",
-      "brief": "魏文帝，曹魏首位皇帝，220 年代漢稱帝",
-      "birth_ad": 187,
-      "death_ad": 226,
-      "n_bio_chapters": 1,
-      "n_mentions": 216
-    },
-    {
       "id": "liubiao",
       "primary_name": "劉表",
       "courtesy_name": "景升",
@@ -82,14 +72,14 @@
       "n_mentions": 198
     },
     {
-      "id": "caorui",
-      "primary_name": "曹叡",
-      "courtesy_name": "元仲",
-      "brief": "魏明帝，曹丕長子",
-      "birth_ad": 204,
-      "death_ad": 239,
+      "id": "caopi",
+      "primary_name": "曹丕",
+      "courtesy_name": "子桓",
+      "brief": "魏文帝，曹魏首位皇帝，220 年代漢稱帝",
+      "birth_ad": 187,
+      "death_ad": 226,
       "n_bio_chapters": 1,
-      "n_mentions": 171
+      "n_mentions": 178
     },
     {
       "id": "yuanshu",
@@ -132,24 +122,14 @@
       "n_mentions": 118
     },
     {
-      "id": "linghan",
-      "primary_name": "漢靈帝",
-      "courtesy_name": null,
-      "brief": "東漢第十二帝劉宏，黃巾之亂與十常侍亂政期",
-      "birth_ad": 156,
-      "death_ad": 189,
+      "id": "caorui",
+      "primary_name": "曹叡",
+      "courtesy_name": "元仲",
+      "brief": "魏明帝，曹丕長子",
+      "birth_ad": 204,
+      "death_ad": 239,
       "n_bio_chapters": 1,
-      "n_mentions": 111
-    },
-    {
-      "id": "huanhan",
-      "primary_name": "漢桓帝",
-      "courtesy_name": null,
-      "brief": "東漢第十一帝劉志，靈帝前任，黨錮之禍始",
-      "birth_ad": 132,
-      "death_ad": 168,
-      "n_bio_chapters": 0,
-      "n_mentions": 88
+      "n_mentions": 100
     },
     {
       "id": "luxun",
@@ -162,16 +142,6 @@
       "n_mentions": 88
     },
     {
-      "id": "liushan",
-      "primary_name": "劉禪",
-      "courtesy_name": "公嗣",
-      "brief": "蜀漢後主，劉備子",
-      "birth_ad": 207,
-      "death_ad": 271,
-      "n_bio_chapters": 1,
-      "n_mentions": 86
-    },
-    {
       "id": "jiangwei",
       "primary_name": "姜維",
       "courtesy_name": "伯約",
@@ -182,6 +152,26 @@
       "n_mentions": 85
     },
     {
+      "id": "linghan",
+      "primary_name": "漢靈帝",
+      "courtesy_name": null,
+      "brief": "東漢第十二帝劉宏，黃巾之亂與十常侍亂政期",
+      "birth_ad": 156,
+      "death_ad": 189,
+      "n_bio_chapters": 1,
+      "n_mentions": 77
+    },
+    {
+      "id": "huanhan",
+      "primary_name": "漢桓帝",
+      "courtesy_name": null,
+      "brief": "東漢第十一帝劉志，靈帝前任，黨錮之禍始",
+      "birth_ad": 132,
+      "death_ad": 168,
+      "n_bio_chapters": 0,
+      "n_mentions": 70
+    },
+    {
       "id": "gongsunzan",
       "primary_name": "公孫瓚",
       "courtesy_name": "伯珪",
@@ -190,16 +180,6 @@
       "death_ad": 199,
       "n_bio_chapters": 1,
       "n_mentions": 67
-    },
-    {
-      "id": "xianhan",
-      "primary_name": "漢獻帝",
-      "courtesy_name": null,
-      "brief": "東漢末帝劉協，先後受董卓、曹操挾持",
-      "birth_ad": 181,
-      "death_ad": 234,
-      "n_bio_chapters": 1,
-      "n_mentions": 65
     },
     {
       "id": "liuzhang",
@@ -220,6 +200,26 @@
       "death_ad": 251,
       "n_bio_chapters": 0,
       "n_mentions": 60
+    },
+    {
+      "id": "liuxiu",
+      "primary_name": "漢光武帝",
+      "courtesy_name": "文叔",
+      "brief": "東漢開國皇帝",
+      "birth_ad": -5,
+      "death_ad": 57,
+      "n_bio_chapters": 0,
+      "n_mentions": 59
+    },
+    {
+      "id": "liushan",
+      "primary_name": "劉禪",
+      "courtesy_name": "公嗣",
+      "brief": "蜀漢後主，劉備子",
+      "birth_ad": 207,
+      "death_ad": 271,
+      "n_bio_chapters": 1,
+      "n_mentions": 58
     },
     {
       "id": "zhugeke",
@@ -312,16 +312,6 @@
       "n_mentions": 48
     },
     {
-      "id": "hetaihou",
-      "primary_name": "何皇后",
-      "courtesy_name": null,
-      "brief": "漢靈帝皇后，劉辯之母，何進之妹，董卓所鴆",
-      "birth_ad": null,
-      "death_ad": 189,
-      "n_bio_chapters": 1,
-      "n_mentions": 48
-    },
-    {
       "id": "caoshuang",
       "primary_name": "曹爽",
       "courtesy_name": "昭伯",
@@ -329,16 +319,6 @@
       "birth_ad": null,
       "death_ad": 249,
       "n_bio_chapters": 1,
-      "n_mentions": 47
-    },
-    {
-      "id": "shunhan",
-      "primary_name": "漢順帝",
-      "courtesy_name": null,
-      "brief": "東漢第七帝劉保",
-      "birth_ad": 115,
-      "death_ad": 144,
-      "n_bio_chapters": 0,
       "n_mentions": 47
     },
     {
@@ -378,6 +358,16 @@
       "brief": "曹魏征西將軍，戰死定軍山",
       "birth_ad": null,
       "death_ad": 219,
+      "n_bio_chapters": 1,
+      "n_mentions": 45
+    },
+    {
+      "id": "xianhan",
+      "primary_name": "漢獻帝",
+      "courtesy_name": null,
+      "brief": "東漢末帝劉協，先後受董卓、曹操挾持",
+      "birth_ad": 181,
+      "death_ad": 234,
       "n_bio_chapters": 1,
       "n_mentions": 45
     },
@@ -482,6 +472,16 @@
       "n_mentions": 37
     },
     {
+      "id": "caojie_huanghou",
+      "primary_name": "曹節",
+      "courtesy_name": null,
+      "brief": "漢獻帝皇后，曹操之女，伏皇后被廢後立",
+      "birth_ad": null,
+      "death_ad": 260,
+      "n_bio_chapters": 1,
+      "n_mentions": 36
+    },
+    {
       "id": "wangyun",
       "primary_name": "王允",
       "courtesy_name": "子師",
@@ -508,16 +508,6 @@
       "brief": "曹魏大將軍，曹操族子",
       "birth_ad": null,
       "death_ad": 231,
-      "n_bio_chapters": 1,
-      "n_mentions": 34
-    },
-    {
-      "id": "sundeng",
-      "primary_name": "孫登",
-      "courtesy_name": "子高",
-      "brief": "",
-      "birth_ad": null,
-      "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 34
     },
@@ -550,16 +540,6 @@
       "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 34
-    },
-    {
-      "id": "simayu",
-      "primary_name": "司馬遹",
-      "courtesy_name": "熙祖",
-      "brief": "司馬衷太子，被賈南風所害",
-      "birth_ad": 278,
-      "death_ad": 300,
-      "n_bio_chapters": 0,
-      "n_mentions": 33
     },
     {
       "id": "chenqun",
@@ -642,16 +622,6 @@
       "n_mentions": 31
     },
     {
-      "id": "doumiao",
-      "primary_name": "桓思竇皇后",
-      "courtesy_name": null,
-      "brief": "漢桓帝後皇后，靈帝臨朝",
-      "birth_ad": null,
-      "death_ad": 172,
-      "n_bio_chapters": 1,
-      "n_mentions": 30
-    },
-    {
       "id": "guanqiujian",
       "primary_name": "毌丘儉",
       "courtesy_name": "仲恭",
@@ -659,16 +629,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 30
-    },
-    {
-      "id": "liubian",
-      "primary_name": "劉辯",
-      "courtesy_name": null,
-      "brief": "漢少帝，靈帝長子，被董卓廢為弘農王後鴆殺",
-      "birth_ad": 176,
-      "death_ad": 190,
-      "n_bio_chapters": 0,
       "n_mentions": 30
     },
     {
@@ -680,16 +640,6 @@
       "death_ad": 227,
       "n_bio_chapters": 1,
       "n_mentions": 30
-    },
-    {
-      "id": "sunhe",
-      "primary_name": "孫和",
-      "courtesy_name": "子孝",
-      "brief": "",
-      "birth_ad": null,
-      "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 29
     },
     {
       "id": "xunyou",
@@ -709,6 +659,16 @@
       "birth_ad": 147,
       "death_ad": 223,
       "n_bio_chapters": 1,
+      "n_mentions": 28
+    },
+    {
+      "id": "shunhan",
+      "primary_name": "漢順帝",
+      "courtesy_name": null,
+      "brief": "東漢第七帝劉保",
+      "birth_ad": 115,
+      "death_ad": 144,
+      "n_bio_chapters": 0,
       "n_mentions": 28
     },
     {
@@ -772,6 +732,16 @@
       "n_mentions": 27
     },
     {
+      "id": "liubian",
+      "primary_name": "劉辯",
+      "courtesy_name": null,
+      "brief": "漢少帝，靈帝長子，被董卓廢為弘農王後鴆殺",
+      "birth_ad": 176,
+      "death_ad": 190,
+      "n_bio_chapters": 0,
+      "n_mentions": 27
+    },
+    {
       "id": "sunjun",
       "primary_name": "孫峻",
       "courtesy_name": "子遠",
@@ -822,26 +792,6 @@
       "n_mentions": 25
     },
     {
-      "id": "sunhao",
-      "primary_name": "孫晧",
-      "courtesy_name": "元宗",
-      "brief": "吳末帝，亡國降晉",
-      "birth_ad": 242,
-      "death_ad": 284,
-      "n_bio_chapters": 1,
-      "n_mentions": 25
-    },
-    {
-      "id": "bianhuanghou",
-      "primary_name": "卞皇后",
-      "courtesy_name": null,
-      "brief": "曹操繼室，曹丕、曹植之母，魏武宣皇后",
-      "birth_ad": 159,
-      "death_ad": 230,
-      "n_bio_chapters": 1,
-      "n_mentions": 23
-    },
-    {
       "id": "caohong",
       "primary_name": "曹洪",
       "courtesy_name": "子廉",
@@ -882,16 +832,6 @@
       "n_mentions": 22
     },
     {
-      "id": "sunxiu",
-      "primary_name": "孫休",
-      "courtesy_name": "子烈",
-      "brief": "吳景帝，孫權六子",
-      "birth_ad": 235,
-      "death_ad": 264,
-      "n_bio_chapters": 1,
-      "n_mentions": 22
-    },
-    {
       "id": "wangchang",
       "primary_name": "王昶",
       "courtesy_name": "文舒",
@@ -910,6 +850,16 @@
       "death_ad": 229,
       "n_bio_chapters": 1,
       "n_mentions": 22
+    },
+    {
+      "id": "liuzhuang",
+      "primary_name": "漢明帝",
+      "courtesy_name": null,
+      "brief": "東漢第二帝劉莊",
+      "birth_ad": 28,
+      "death_ad": 75,
+      "n_bio_chapters": 0,
+      "n_mentions": 21
     },
     {
       "id": "liyan",
@@ -1012,16 +962,6 @@
       "n_mentions": 19
     },
     {
-      "id": "sunliang",
-      "primary_name": "孫亮",
-      "courtesy_name": "子明",
-      "brief": "吳廢帝，孫權少子",
-      "birth_ad": 243,
-      "death_ad": 260,
-      "n_bio_chapters": 1,
-      "n_mentions": 19
-    },
-    {
       "id": "xiahoushang",
       "primary_name": "夏侯尚",
       "courtesy_name": "伯仁",
@@ -1052,6 +992,16 @@
       "n_mentions": 18
     },
     {
+      "id": "sunxiu",
+      "primary_name": "孫休",
+      "courtesy_name": "子烈",
+      "brief": "吳景帝，孫權六子",
+      "birth_ad": 235,
+      "death_ad": 264,
+      "n_bio_chapters": 1,
+      "n_mentions": 18
+    },
+    {
       "id": "xinpi",
       "primary_name": "辛毗",
       "courtesy_name": "佐治",
@@ -1060,16 +1010,6 @@
       "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 18
-    },
-    {
-      "id": "liangna",
-      "primary_name": "順烈梁皇后",
-      "courtesy_name": null,
-      "brief": "漢順帝皇后，沖質桓三朝太后",
-      "birth_ad": 116,
-      "death_ad": 150,
-      "n_bio_chapters": 1,
-      "n_mentions": 17
     },
     {
       "id": "tengyin",
@@ -1112,22 +1052,22 @@
       "n_mentions": 17
     },
     {
+      "id": "bianhuanghou",
+      "primary_name": "卞皇后",
+      "courtesy_name": null,
+      "brief": "曹操繼室，曹丕、曹植之母，魏武宣皇后",
+      "birth_ad": 159,
+      "death_ad": 230,
+      "n_bio_chapters": 1,
+      "n_mentions": 16
+    },
+    {
       "id": "ganning",
       "primary_name": "甘寧",
       "courtesy_name": "興霸",
       "brief": "東吳西陵太守、折衝將軍",
       "birth_ad": null,
       "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 16
-    },
-    {
-      "id": "muhuanghou_shu",
-      "primary_name": "穆皇后",
-      "courtesy_name": null,
-      "brief": "劉備皇后吳氏，劉禪繼母，後尊太后",
-      "birth_ad": null,
-      "death_ad": 245,
       "n_bio_chapters": 1,
       "n_mentions": 16
     },
@@ -1220,26 +1160,6 @@
       "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 14
-    },
-    {
-      "id": "caofang",
-      "primary_name": "曹芳",
-      "courtesy_name": "蘭卿",
-      "brief": "魏齊王，曹叡養子，被司馬師廢",
-      "birth_ad": 232,
-      "death_ad": 274,
-      "n_bio_chapters": 1,
-      "n_mentions": 13
-    },
-    {
-      "id": "dengsui",
-      "primary_name": "鄧綏",
-      "courtesy_name": null,
-      "brief": "漢和帝皇后，安帝臨朝攝政十六年",
-      "birth_ad": 81,
-      "death_ad": 121,
-      "n_bio_chapters": 1,
-      "n_mentions": 13
     },
     {
       "id": "dengzhi",
@@ -1342,13 +1262,13 @@
       "n_mentions": 12
     },
     {
-      "id": "liuxuan",
-      "primary_name": "劉璿",
-      "courtesy_name": "文衡",
-      "brief": "蜀漢後主長子，太子，鍾會亂中遇害",
-      "birth_ad": 224,
-      "death_ad": 264,
-      "n_bio_chapters": 0,
+      "id": "muhuanghou_shu",
+      "primary_name": "穆皇后",
+      "courtesy_name": null,
+      "brief": "劉備皇后吳氏，劉禪繼母，後尊太后",
+      "birth_ad": null,
+      "death_ad": 245,
+      "n_bio_chapters": 1,
       "n_mentions": 12
     },
     {
@@ -1360,16 +1280,6 @@
       "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 12
-    },
-    {
-      "id": "fuhuanghou",
-      "primary_name": "伏皇后",
-      "courtesy_name": null,
-      "brief": "漢獻帝皇后，父伏完，因與父書怨曹操事被廢黜死",
-      "birth_ad": null,
-      "death_ad": 214,
-      "n_bio_chapters": 1,
-      "n_mentions": 11
     },
     {
       "id": "guyong",
@@ -1398,6 +1308,16 @@
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 11
+    },
+    {
+      "id": "sunliang",
+      "primary_name": "孫亮",
+      "courtesy_name": "子明",
+      "brief": "吳廢帝，孫權少子",
+      "birth_ad": 243,
+      "death_ad": 260,
       "n_bio_chapters": 1,
       "n_mentions": 11
     },
@@ -1472,6 +1392,16 @@
       "n_mentions": 10
     },
     {
+      "id": "hetaihou",
+      "primary_name": "何皇后",
+      "courtesy_name": null,
+      "brief": "漢靈帝皇后，劉辯之母，何進之妹，董卓所鴆",
+      "birth_ad": null,
+      "death_ad": 189,
+      "n_bio_chapters": 1,
+      "n_mentions": 10
+    },
+    {
       "id": "huangzhong",
       "primary_name": "黃忠",
       "courtesy_name": "漢升",
@@ -1498,6 +1428,16 @@
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 10
+    },
+    {
+      "id": "zhenhuanghou",
+      "primary_name": "甄皇后",
+      "courtesy_name": null,
+      "brief": "曹丕妻，曹叡生母，被曹丕賜死，文昭甄皇后",
+      "birth_ad": 183,
+      "death_ad": 221,
       "n_bio_chapters": 1,
       "n_mentions": 10
     },
@@ -1612,16 +1552,6 @@
       "n_mentions": 9
     },
     {
-      "id": "zhihan",
-      "primary_name": "漢質帝",
-      "courtesy_name": null,
-      "brief": "東漢第九帝劉纘，被梁冀鴆殺",
-      "birth_ad": 138,
-      "death_ad": 146,
-      "n_bio_chapters": 0,
-      "n_mentions": 9
-    },
-    {
       "id": "dumi",
       "primary_name": "杜密",
       "courtesy_name": "周甫",
@@ -1652,6 +1582,16 @@
       "n_mentions": 8
     },
     {
+      "id": "simayan",
+      "primary_name": "司馬炎",
+      "courtesy_name": "安世",
+      "brief": "西晉開國皇帝，司馬昭子",
+      "birth_ad": 236,
+      "death_ad": 290,
+      "n_bio_chapters": 0,
+      "n_mentions": 8
+    },
+    {
       "id": "wangping",
       "primary_name": "王平",
       "courtesy_name": "子均",
@@ -1659,16 +1599,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 8
-    },
-    {
-      "id": "yangyan",
-      "primary_name": "武元楊皇后",
-      "courtesy_name": "瓊芝",
-      "brief": "司馬炎前皇后",
-      "birth_ad": 238,
-      "death_ad": 274,
-      "n_bio_chapters": 0,
       "n_mentions": 8
     },
     {
@@ -1692,13 +1622,13 @@
       "n_mentions": 8
     },
     {
-      "id": "zhenhuanghou",
-      "primary_name": "甄皇后",
+      "id": "zhihan",
+      "primary_name": "漢質帝",
       "courtesy_name": null,
-      "brief": "曹丕妻，曹叡生母，被曹丕賜死，文昭甄皇后",
-      "birth_ad": 183,
-      "death_ad": 221,
-      "n_bio_chapters": 1,
+      "brief": "東漢第九帝劉纘，被梁冀鴆殺",
+      "birth_ad": 138,
+      "death_ad": 146,
+      "n_bio_chapters": 0,
       "n_mentions": 8
     },
     {
@@ -1932,6 +1862,16 @@
       "n_mentions": 6
     },
     {
+      "id": "fuhuanghou",
+      "primary_name": "伏皇后",
+      "courtesy_name": null,
+      "brief": "漢獻帝皇后，父伏完，因與父書怨曹操事被廢黜死",
+      "birth_ad": null,
+      "death_ad": 214,
+      "n_bio_chapters": 1,
+      "n_mentions": 6
+    },
+    {
       "id": "hexiu",
       "primary_name": "何休",
       "courtesy_name": "邵公",
@@ -1992,16 +1932,6 @@
       "n_mentions": 6
     },
     {
-      "id": "maohuanghou",
-      "primary_name": "明悼毛皇后",
-      "courtesy_name": null,
-      "brief": "魏明帝毛皇后，被賜死",
-      "birth_ad": null,
-      "death_ad": 237,
-      "n_bio_chapters": 1,
-      "n_mentions": 6
-    },
-    {
       "id": "mizhu",
       "primary_name": "麋竺",
       "courtesy_name": "子仲",
@@ -2018,6 +1948,16 @@
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 6
+    },
+    {
+      "id": "wangrong",
+      "primary_name": "靈懷皇后",
+      "courtesy_name": null,
+      "brief": "漢靈帝美人，獻帝生母，何皇后所鴆",
+      "birth_ad": null,
+      "death_ad": 181,
       "n_bio_chapters": 1,
       "n_mentions": 6
     },
@@ -2132,16 +2072,6 @@
       "n_mentions": 5
     },
     {
-      "id": "sunjin",
-      "primary_name": "孫瑾",
-      "courtesy_name": null,
-      "brief": "孫皓太子",
-      "birth_ad": null,
-      "death_ad": 280,
-      "n_bio_chapters": 0,
-      "n_mentions": 5
-    },
-    {
       "id": "wangguan",
       "primary_name": "王觀",
       "courtesy_name": "偉臺",
@@ -2178,16 +2108,6 @@
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 5
-    },
-    {
-      "id": "yanji",
-      "primary_name": "安思閻皇后",
-      "courtesy_name": null,
-      "brief": "漢安帝皇后，順帝即位前臨朝",
-      "birth_ad": null,
-      "death_ad": 126,
       "n_bio_chapters": 1,
       "n_mentions": 5
     },
@@ -2232,22 +2152,22 @@
       "n_mentions": 5
     },
     {
+      "id": "zhuhuanghou",
+      "primary_name": "朱皇后",
+      "courtesy_name": null,
+      "brief": "孫休皇后，朱據女",
+      "birth_ad": null,
+      "death_ad": 265,
+      "n_bio_chapters": 1,
+      "n_mentions": 5
+    },
+    {
       "id": "bingyuan",
       "primary_name": "邴原",
       "courtesy_name": "根矩",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 4
-    },
-    {
-      "id": "caomao",
-      "primary_name": "曹髦",
-      "courtesy_name": "彥士",
-      "brief": "魏高貴鄉公，被司馬昭弒於洛陽",
-      "birth_ad": 241,
-      "death_ad": 260,
       "n_bio_chapters": 1,
       "n_mentions": 4
     },
@@ -2286,16 +2206,6 @@
       "primary_name": "賀邵",
       "courtesy_name": "興伯",
       "brief": "",
-      "birth_ad": null,
-      "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 4
-    },
-    {
-      "id": "houzhuhuanghou",
-      "primary_name": "後主張皇后",
-      "courtesy_name": null,
-      "brief": "劉禪後皇后，敬哀皇后之妹",
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
@@ -2372,22 +2282,12 @@
       "n_mentions": 4
     },
     {
-      "id": "simazhong",
-      "primary_name": "司馬衷",
-      "courtesy_name": "正度",
-      "brief": "西晉第二帝",
-      "birth_ad": 259,
-      "death_ad": 307,
-      "n_bio_chapters": 0,
-      "n_mentions": 4
-    },
-    {
-      "id": "songhuanghou",
-      "primary_name": "宋皇后",
-      "courtesy_name": null,
-      "brief": "漢靈帝前皇后，被王甫等構陷廢黜",
+      "id": "sunhe",
+      "primary_name": "孫和",
+      "courtesy_name": "子孝",
+      "brief": "",
       "birth_ad": null,
-      "death_ad": 178,
+      "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 4
     },
@@ -2399,16 +2299,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 4
-    },
-    {
-      "id": "sunwan",
-      "primary_name": "孫𩅦",
-      "courtesy_name": null,
-      "brief": "孫休長子，孫休立為太子",
-      "birth_ad": null,
-      "death_ad": 264,
-      "n_bio_chapters": 0,
       "n_mentions": 4
     },
     {
@@ -2462,12 +2352,12 @@
       "n_mentions": 3
     },
     {
-      "id": "caohuan",
-      "primary_name": "曹奐",
-      "courtesy_name": "景明",
-      "brief": "魏元帝，禪位於司馬炎",
-      "birth_ad": 246,
-      "death_ad": 302,
+      "id": "bulianshi",
+      "primary_name": "步練師",
+      "courtesy_name": null,
+      "brief": "孫權寵妃，追諡皇后",
+      "birth_ad": null,
+      "death_ad": 238,
       "n_bio_chapters": 1,
       "n_mentions": 3
     },
@@ -2509,16 +2399,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 3
-    },
-    {
-      "id": "gonghuailianggui",
-      "primary_name": "恭懷梁皇后",
-      "courtesy_name": null,
-      "brief": "漢章帝貴人，和帝生母",
-      "birth_ad": 62,
-      "death_ad": 83,
-      "n_bio_chapters": 0,
       "n_mentions": 3
     },
     {
@@ -2572,6 +2452,16 @@
       "n_mentions": 3
     },
     {
+      "id": "liuda",
+      "primary_name": "漢章帝",
+      "courtesy_name": null,
+      "brief": "東漢第三帝劉炟",
+      "birth_ad": 57,
+      "death_ad": 88,
+      "n_bio_chapters": 0,
+      "n_mentions": 3
+    },
+    {
       "id": "liufu",
       "primary_name": "劉馥",
       "courtesy_name": "元穎",
@@ -2612,22 +2502,22 @@
       "n_mentions": 3
     },
     {
+      "id": "maohuanghou",
+      "primary_name": "明悼毛皇后",
+      "courtesy_name": null,
+      "brief": "魏明帝毛皇后，被賜死",
+      "birth_ad": null,
+      "death_ad": 237,
+      "n_bio_chapters": 1,
+      "n_mentions": 3
+    },
+    {
       "id": "mengguang",
       "primary_name": "孟光",
       "courtesy_name": "孝裕",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 3
-    },
-    {
-      "id": "panhuanghou",
-      "primary_name": "潘皇后",
-      "courtesy_name": null,
-      "brief": "孫權後立皇后，孫亮生母",
-      "birth_ad": null,
-      "death_ad": 252,
       "n_bio_chapters": 1,
       "n_mentions": 3
     },
@@ -2782,22 +2672,12 @@
       "n_mentions": 3
     },
     {
-      "id": "zhuhuanghou",
-      "primary_name": "朱皇后",
-      "courtesy_name": null,
-      "brief": "孫休皇后，朱據女",
-      "birth_ad": null,
-      "death_ad": 265,
-      "n_bio_chapters": 1,
-      "n_mentions": 3
-    },
-    {
-      "id": "caojie_huanghou",
-      "primary_name": "曹節",
-      "courtesy_name": null,
-      "brief": "漢獻帝皇后，曹操之女，伏皇后被廢後立",
-      "birth_ad": null,
-      "death_ad": 260,
+      "id": "caofang",
+      "primary_name": "曹芳",
+      "courtesy_name": "蘭卿",
+      "brief": "魏齊王，曹叡養子，被司馬師廢",
+      "birth_ad": 232,
+      "death_ad": 274,
       "n_bio_chapters": 1,
       "n_mentions": 2
     },
@@ -2882,26 +2762,6 @@
       "n_mentions": 2
     },
     {
-      "id": "jianafeng",
-      "primary_name": "賈南風",
-      "courtesy_name": null,
-      "brief": "司馬衷皇后，八王之亂導火索",
-      "birth_ad": 257,
-      "death_ad": 300,
-      "n_bio_chapters": 0,
-      "n_mentions": 2
-    },
-    {
-      "id": "jingaihuanghou",
-      "primary_name": "敬哀張皇后",
-      "courtesy_name": null,
-      "brief": "劉禪前皇后，張飛女",
-      "birth_ad": null,
-      "death_ad": 237,
-      "n_bio_chapters": 1,
-      "n_mentions": 2
-    },
-    {
       "id": "liuru",
       "primary_name": "劉儒",
       "courtesy_name": "叔林",
@@ -2929,16 +2789,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 2
-    },
-    {
-      "id": "liuxiu",
-      "primary_name": "漢光武帝",
-      "courtesy_name": "文叔",
-      "brief": "東漢開國皇帝",
-      "birth_ad": -5,
-      "death_ad": 57,
-      "n_bio_chapters": 0,
       "n_mentions": 2
     },
     {
@@ -2992,22 +2842,22 @@
       "n_mentions": 2
     },
     {
+      "id": "panhuanghou",
+      "primary_name": "潘皇后",
+      "courtesy_name": null,
+      "brief": "孫權後立皇后，孫亮生母",
+      "birth_ad": null,
+      "death_ad": 252,
+      "n_bio_chapters": 1,
+      "n_mentions": 2
+    },
+    {
       "id": "sunjiao",
       "primary_name": "孫皎",
       "courtesy_name": "叔朗",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 2
-    },
-    {
-      "id": "wangrong",
-      "primary_name": "靈懷皇后",
-      "courtesy_name": null,
-      "brief": "漢靈帝美人，獻帝生母，何皇后所鴆",
-      "birth_ad": null,
-      "death_ad": 181,
       "n_bio_chapters": 1,
       "n_mentions": 2
     },
@@ -3112,16 +2962,6 @@
       "n_mentions": 2
     },
     {
-      "id": "zhangdedouhh",
-      "primary_name": "章德竇皇后",
-      "courtesy_name": null,
-      "brief": "漢章帝皇后，和帝攝政",
-      "birth_ad": null,
-      "death_ad": 97,
-      "n_bio_chapters": 1,
-      "n_mentions": 2
-    },
-    {
       "id": "zongyu",
       "primary_name": "宗預",
       "courtesy_name": "德艷",
@@ -3152,16 +2992,6 @@
       "n_mentions": 1
     },
     {
-      "id": "bulianshi",
-      "primary_name": "步練師",
-      "courtesy_name": null,
-      "brief": "孫權寵妃，追諡皇后",
-      "birth_ad": null,
-      "death_ad": 238,
-      "n_bio_chapters": 1,
-      "n_mentions": 1
-    },
-    {
       "id": "caiyan",
       "primary_name": "蔡衍",
       "courtesy_name": "孟喜",
@@ -3172,12 +3002,32 @@
       "n_mentions": 1
     },
     {
+      "id": "caomao",
+      "primary_name": "曹髦",
+      "courtesy_name": "彥士",
+      "brief": "魏高貴鄉公，被司馬昭弒於洛陽",
+      "birth_ad": 241,
+      "death_ad": 260,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
       "id": "chenwu",
       "primary_name": "陳武",
       "courtesy_name": "子烈",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "dengsui",
+      "primary_name": "鄧綏",
+      "courtesy_name": null,
+      "brief": "漢和帝皇后，安帝臨朝攝政十六年",
+      "birth_ad": 81,
+      "death_ad": 121,
       "n_bio_chapters": 1,
       "n_mentions": 1
     },
@@ -3202,12 +3052,52 @@
       "n_mentions": 1
     },
     {
+      "id": "ganhuanghou",
+      "primary_name": "甘皇后",
+      "courtesy_name": null,
+      "brief": "劉備妾室，劉禪生母，追諡昭烈皇后",
+      "birth_ad": null,
+      "death_ad": 209,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "gonghuailianggui",
+      "primary_name": "恭懷梁皇后",
+      "courtesy_name": null,
+      "brief": "漢章帝貴人，和帝生母",
+      "birth_ad": 62,
+      "death_ad": 83,
+      "n_bio_chapters": 0,
+      "n_mentions": 1
+    },
+    {
+      "id": "guohuanghou_mingyuan",
+      "primary_name": "明元郭皇后",
+      "courtesy_name": null,
+      "brief": "魏明帝後立皇后，齊王芳-元帝三朝太后",
+      "birth_ad": null,
+      "death_ad": 264,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
       "id": "guotai",
       "primary_name": "郭太",
       "courtesy_name": "林宗",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "heji",
+      "primary_name": "何姬",
+      "courtesy_name": null,
+      "brief": "孫和妃，孫皓生母，吳大懿皇后",
+      "birth_ad": null,
+      "death_ad": 287,
       "n_bio_chapters": 1,
       "n_mentions": 1
     },
@@ -3242,16 +3132,6 @@
       "n_mentions": 1
     },
     {
-      "id": "liangnvying",
-      "primary_name": "懿獻梁皇后",
-      "courtesy_name": null,
-      "brief": "漢桓帝前皇后，梁冀之妹",
-      "birth_ad": null,
-      "death_ad": 159,
-      "n_bio_chapters": 1,
-      "n_mentions": 1
-    },
-    {
       "id": "liaoli",
       "primary_name": "廖立",
       "courtesy_name": "公淵",
@@ -3259,16 +3139,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 1
-    },
-    {
-      "id": "liuda",
-      "primary_name": "漢章帝",
-      "courtesy_name": null,
-      "brief": "東漢第三帝劉炟",
-      "birth_ad": 57,
-      "death_ad": 88,
-      "n_bio_chapters": 0,
       "n_mentions": 1
     },
     {
@@ -3322,16 +3192,6 @@
       "n_mentions": 1
     },
     {
-      "id": "quanhuanghou",
-      "primary_name": "全皇后",
-      "courtesy_name": null,
-      "brief": "孫亮皇后，全琮孫女",
-      "birth_ad": null,
-      "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 1
-    },
-    {
       "id": "shibi",
       "primary_name": "史弼",
       "courtesy_name": "公謙",
@@ -3342,13 +3202,23 @@
       "n_mentions": 1
     },
     {
-      "id": "simayan",
-      "primary_name": "司馬炎",
-      "courtesy_name": "安世",
-      "brief": "西晉開國皇帝，司馬昭子",
-      "birth_ad": 236,
-      "death_ad": 290,
-      "n_bio_chapters": 0,
+      "id": "songhuanghou",
+      "primary_name": "宋皇后",
+      "courtesy_name": null,
+      "brief": "漢靈帝前皇后，被王甫等構陷廢黜",
+      "birth_ad": null,
+      "death_ad": 178,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "sundeng",
+      "primary_name": "孫登",
+      "courtesy_name": "子高",
+      "brief": "",
+      "birth_ad": null,
+      "death_ad": null,
+      "n_bio_chapters": 1,
       "n_mentions": 1
     },
     {
@@ -3359,6 +3229,16 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "sunjin",
+      "primary_name": "孫瑾",
+      "courtesy_name": null,
+      "brief": "孫皓太子",
+      "birth_ad": null,
+      "death_ad": 280,
+      "n_bio_chapters": 0,
       "n_mentions": 1
     },
     {
@@ -3392,16 +3272,6 @@
       "n_mentions": 1
     },
     {
-      "id": "tenghuanghou",
-      "primary_name": "滕皇后",
-      "courtesy_name": null,
-      "brief": "孫皓皇后，滕胤族姪女",
-      "birth_ad": null,
-      "death_ad": null,
-      "n_bio_chapters": 1,
-      "n_mentions": 1
-    },
-    {
       "id": "wanghong",
       "primary_name": "王宏",
       "courtesy_name": "長文",
@@ -3422,12 +3292,32 @@
       "n_mentions": 1
     },
     {
+      "id": "wulietaihou",
+      "primary_name": "武烈皇后",
+      "courtesy_name": null,
+      "brief": "孫堅妻，孫權生母",
+      "birth_ad": null,
+      "death_ad": 207,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
       "id": "xuci",
       "primary_name": "許慈",
       "courtesy_name": "仁篤",
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 1
+    },
+    {
+      "id": "yanji",
+      "primary_name": "安思閻皇后",
+      "courtesy_name": null,
+      "brief": "漢安帝皇后，順帝即位前臨朝",
+      "birth_ad": null,
+      "death_ad": 126,
       "n_bio_chapters": 1,
       "n_mentions": 1
     },
@@ -3502,6 +3392,16 @@
       "n_mentions": 0
     },
     {
+      "id": "caohuan",
+      "primary_name": "曹奐",
+      "courtesy_name": "景明",
+      "brief": "魏元帝，禪位於司馬炎",
+      "birth_ad": 246,
+      "death_ad": 302,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
       "id": "chengbing",
       "primary_name": "程秉",
       "courtesy_name": "德樞",
@@ -3542,6 +3442,16 @@
       "n_mentions": 0
     },
     {
+      "id": "doumiao",
+      "primary_name": "桓思竇皇后",
+      "courtesy_name": null,
+      "brief": "漢桓帝後皇后，靈帝臨朝",
+      "birth_ad": null,
+      "death_ad": 172,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
       "id": "dufu",
       "primary_name": "杜撫",
       "courtesy_name": "叔和",
@@ -3562,26 +3472,6 @@
       "n_mentions": 0
     },
     {
-      "id": "ganhuanghou",
-      "primary_name": "甘皇后",
-      "courtesy_name": null,
-      "brief": "劉備妾室，劉禪生母，追諡昭烈皇后",
-      "birth_ad": null,
-      "death_ad": 209,
-      "n_bio_chapters": 1,
-      "n_mentions": 0
-    },
-    {
-      "id": "guohuanghou_mingyuan",
-      "primary_name": "明元郭皇后",
-      "courtesy_name": null,
-      "brief": "魏明帝後立皇后，齊王芳-元帝三朝太后",
-      "birth_ad": null,
-      "death_ad": 264,
-      "n_bio_chapters": 1,
-      "n_mentions": 0
-    },
-    {
       "id": "hanshao",
       "primary_name": "韓韶",
       "courtesy_name": "仲黃",
@@ -3592,12 +3482,12 @@
       "n_mentions": 0
     },
     {
-      "id": "heji",
-      "primary_name": "何姬",
+      "id": "houzhuhuanghou",
+      "primary_name": "後主張皇后",
       "courtesy_name": null,
-      "brief": "孫和妃，孫皓生母，吳大懿皇后",
+      "brief": "劉禪後皇后，敬哀皇后之妹",
       "birth_ad": null,
-      "death_ad": 287,
+      "death_ad": null,
       "n_bio_chapters": 1,
       "n_mentions": 0
     },
@@ -3622,6 +3512,16 @@
       "n_mentions": 0
     },
     {
+      "id": "jianafeng",
+      "primary_name": "賈南風",
+      "courtesy_name": null,
+      "brief": "司馬衷皇后，八王之亂導火索",
+      "birth_ad": 257,
+      "death_ad": 300,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
       "id": "jiashu",
       "primary_name": "賈淑",
       "courtesy_name": "子厚",
@@ -3632,12 +3532,42 @@
       "n_mentions": 0
     },
     {
+      "id": "jingaihuanghou",
+      "primary_name": "敬哀張皇后",
+      "courtesy_name": null,
+      "brief": "劉禪前皇后，張飛女",
+      "birth_ad": null,
+      "death_ad": 237,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
       "id": "jinghuaiwang",
       "primary_name": "敬懷王皇后",
       "courtesy_name": null,
       "brief": "孫權妃，孫休母",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
+      "id": "liangna",
+      "primary_name": "順烈梁皇后",
+      "courtesy_name": null,
+      "brief": "漢順帝皇后，沖質桓三朝太后",
+      "birth_ad": 116,
+      "death_ad": 150,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
+      "id": "liangnvying",
+      "primary_name": "懿獻梁皇后",
+      "courtesy_name": null,
+      "brief": "漢桓帝前皇后，梁冀之妹",
+      "birth_ad": null,
+      "death_ad": 159,
       "n_bio_chapters": 1,
       "n_mentions": 0
     },
@@ -3662,6 +3592,16 @@
       "n_mentions": 0
     },
     {
+      "id": "liuxuan",
+      "primary_name": "劉璿",
+      "courtesy_name": "文衡",
+      "brief": "蜀漢後主長子，太子，鍾會亂中遇害",
+      "birth_ad": 224,
+      "death_ad": 264,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
       "id": "liuyan",
       "primary_name": "劉琰",
       "courtesy_name": "威碩",
@@ -3669,16 +3609,6 @@
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
-      "n_mentions": 0
-    },
-    {
-      "id": "liuzhuang",
-      "primary_name": "漢明帝",
-      "courtesy_name": null,
-      "brief": "東漢第二帝劉莊",
-      "birth_ad": 28,
-      "death_ad": 75,
-      "n_bio_chapters": 0,
       "n_mentions": 0
     },
     {
@@ -3712,6 +3642,36 @@
       "n_mentions": 0
     },
     {
+      "id": "quanhuanghou",
+      "primary_name": "全皇后",
+      "courtesy_name": null,
+      "brief": "孫亮皇后，全琮孫女",
+      "birth_ad": null,
+      "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
+      "id": "simayu",
+      "primary_name": "司馬遹",
+      "courtesy_name": "熙祖",
+      "brief": "司馬衷太子，被賈南風所害",
+      "birth_ad": 278,
+      "death_ad": 300,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
+      "id": "simazhong",
+      "primary_name": "司馬衷",
+      "courtesy_name": "正度",
+      "brief": "西晉第二帝",
+      "birth_ad": 259,
+      "death_ad": 307,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
       "id": "sunba",
       "primary_name": "孫霸",
       "courtesy_name": "子威",
@@ -3732,10 +3692,40 @@
       "n_mentions": 0
     },
     {
+      "id": "sunhao",
+      "primary_name": "孫晧",
+      "courtesy_name": "元宗",
+      "brief": "吳末帝，亡國降晉",
+      "birth_ad": 242,
+      "death_ad": 284,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
       "id": "sunkuang",
       "primary_name": "孫匡",
       "courtesy_name": "季佐",
       "brief": "",
+      "birth_ad": null,
+      "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
+      "id": "sunwan",
+      "primary_name": "孫𩅦",
+      "courtesy_name": null,
+      "brief": "孫休長子，孫休立為太子",
+      "birth_ad": null,
+      "death_ad": 264,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
+      "id": "tenghuanghou",
+      "primary_name": "滕皇后",
+      "courtesy_name": null,
+      "brief": "孫皓皇后，滕胤族姪女",
       "birth_ad": null,
       "death_ad": null,
       "n_bio_chapters": 1,
@@ -3792,16 +3782,6 @@
       "n_mentions": 0
     },
     {
-      "id": "wulietaihou",
-      "primary_name": "武烈皇后",
-      "courtesy_name": null,
-      "brief": "孫堅妻，孫權生母",
-      "birth_ad": null,
-      "death_ad": 207,
-      "n_bio_chapters": 1,
-      "n_mentions": 0
-    },
-    {
       "id": "xiegai",
       "primary_name": "謝該",
       "courtesy_name": "文儀",
@@ -3822,6 +3802,16 @@
       "n_mentions": 0
     },
     {
+      "id": "yangyan",
+      "primary_name": "武元楊皇后",
+      "courtesy_name": "瓊芝",
+      "brief": "司馬炎前皇后",
+      "birth_ad": 238,
+      "death_ad": 274,
+      "n_bio_chapters": 0,
+      "n_mentions": 0
+    },
+    {
       "id": "yangzhi_jin",
       "primary_name": "武悼楊皇后",
       "courtesy_name": "季蘭",
@@ -3838,6 +3828,16 @@
       "brief": "",
       "birth_ad": null,
       "death_ad": null,
+      "n_bio_chapters": 1,
+      "n_mentions": 0
+    },
+    {
+      "id": "zhangdedouhh",
+      "primary_name": "章德竇皇后",
+      "courtesy_name": null,
+      "brief": "漢章帝皇后，和帝攝政",
+      "birth_ad": null,
+      "death_ad": 97,
       "n_bio_chapters": 1,
       "n_mentions": 0
     },

@@ -5,6 +5,30 @@ source:
   retrieved: '2026-05-03'
   sha256: 2ddbe1892e1576a8df170fd79e8d2f8958fb7b1774d7e7119e78b486e4619444
 annotations:
+- id: wu.5.p1.h1
+  anchor: wu.5.p1
+  at: 9
+  length: 3
+  type: person
+  person_id: bulianshi
+  text: 步夫人
+  via: alias
+- id: wu.5.p1.h2
+  anchor: wu.5.p1
+  at: 18
+  length: 3
+  type: person
+  person_id: panhuanghou
+  text: 潘夫人
+  via: alias
+- id: wu.5.p1.h3
+  anchor: wu.5.p1
+  at: 27
+  length: 2
+  type: person
+  person_id: heji
+  text: 何姬
+  via: primary
 - id: wu.5.p2.h1
   anchor: wu.5.p2
   at: 7
@@ -23,13 +47,21 @@ annotations:
   via: primary
 - id: wu.5.p2.h3
   anchor: wu.5.p2
+  at: 42
+  length: 2
+  type: person
+  person_id: muhuanghou_shu
+  text: 吳氏
+  via: alias
+- id: wu.5.p2.h4
+  anchor: wu.5.p2
   at: 47
   length: 1
   type: person
   person_id: sunjian
   text: 堅
   via: given_name
-- id: wu.5.p2.h4
+- id: wu.5.p2.h5
   anchor: wu.5.p2
   at: 55
   length: 1
@@ -411,16 +443,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.5.p8
-  at: 66
-  length: 2
-  type: person
-  person_id: sundeng
-  text: 太子
-  via: llm
-  confidence: 0.95
-  reasoning: 「登爲太子」— 即孫登立為太子，徐夫人傳。
-  id: wu.5.p8.h4
 - id: wu.5.p8.h3
   anchor: wu.5.p8
   at: 78
@@ -439,13 +461,21 @@ annotations:
   via: chapter_alias
 - id: wu.5.p9.h2
   anchor: wu.5.p9
+  at: 3
+  length: 3
+  type: person
+  person_id: bulianshi
+  text: 步夫人
+  via: alias
+- id: wu.5.p9.h3
+  anchor: wu.5.p9
   at: 35
   length: 2
   type: person
   person_id: sunce
   text: 孫策
   via: primary
-- id: wu.5.p9.h3
+- id: wu.5.p9.h4
   anchor: wu.5.p9
   at: 51
   length: 1
@@ -453,7 +483,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wu.5.p9.h4
+- id: wu.5.p9.h5
   anchor: wu.5.p9
   at: 73
   length: 2
@@ -461,7 +491,7 @@ annotations:
   person_id: zhouyu
   text: 周瑜
   via: primary
-- id: wu.5.p9.h5
+- id: wu.5.p9.h6
   anchor: wu.5.p9
   at: 80
   length: 2
@@ -491,16 +521,6 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.5.p10
-  at: 51
-  length: 2
-  type: person
-  person_id: bulianshi
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「宮內皆稱皇后」— 步夫人事，雖未授名號宮內稱皇后；roster 無步皇后。
-  id: wu.5.p10.h5
 - id: wu.5.p10.h3
   anchor: wu.5.p10
   at: 68
@@ -529,16 +549,6 @@ annotations:
   era: 赤烏
   era_year: 1
   reasoning: 原文「赤烏元年」直接出现年号；解析為 AD 238
-- anchor: wu.5.p11
-  at: 16
-  length: 2
-  type: person
-  person_id: bulianshi
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 策命「嗚呼皇后」— 即追授步夫人為皇后；roster 無。
-  id: wu.5.p11.h2
 - id: wu.5.p11.h1
   anchor: wu.5.p11
   at: 173
@@ -561,16 +571,6 @@ annotations:
   length: 0
   type: pei
   text: 《吳書》曰：夫人父名盧九。
-- anchor: wu.5.p12
-  at: 44
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「和立為太子」— 文中明點「和」，即孫和。
-  id: wu.5.p12.h5
 - id: wu.5.p12.h2
   anchor: wu.5.p12
   at: 47
@@ -603,16 +603,6 @@ annotations:
   person_id: sunquan
   text: 吳主
   via: chapter_alias
-- anchor: wu.5.p13
-  at: 32
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「及和為太子」— 文中明點「和」，即孫和。
-  id: wu.5.p13.h2
 - id: wu.5.p14.h1
   anchor: wu.5.p14
   at: 0
@@ -622,6 +612,14 @@ annotations:
   text: 吳主
   via: chapter_alias
 - id: wu.5.p14.h2
+  anchor: wu.5.p14
+  at: 3
+  length: 3
+  type: person
+  person_id: panhuanghou
+  text: 潘夫人
+  via: alias
+- id: wu.5.p14.h3
   anchor: wu.5.p14
   at: 31
   length: 1
@@ -641,17 +639,7 @@ annotations:
   era: 赤烏
   era_year: 13
   reasoning: 原文「赤烏十三年」直接出现年号；解析為 AD 250
-- anchor: wu.5.p14
-  at: 79
-  length: 2
-  type: person
-  person_id: sunliang
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「亮立為太子」— 文中明點「亮」，即孫亮。
-  id: wu.5.p14.h7
-- id: wu.5.p14.h3
+- id: wu.5.p14.h4
   anchor: wu.5.p14
   at: 90
   length: 1
@@ -671,23 +659,13 @@ annotations:
   era: 赤烏
   era_year: 14
   reasoning: 「明年」 = 当前年 赤烏13年 (AD 250) 之次年 = AD 251
-- anchor: wu.5.p14
-  at: 102
-  length: 2
-  type: person
-  person_id: panhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「立夫人為皇后」— 即潘皇后；roster 無。
-  id: wu.5.p14.h8
 - id: wu.5.p14.a1
   anchor: wu.5.p14
   at: 125
   length: 0
   type: pei
   text: 《吳錄》曰：袁夫人者，袁術女也，有節行而無子。權數以諸姬子與養之，輒不育。及步夫人薨，權欲立之。夫人自以無子，固辭不受。
-- id: wu.5.p14.h4
+- id: wu.5.p14.h5
   anchor: wu.5.p14
   at: 125
   length: 1
@@ -695,7 +673,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wu.5.p14.h5
+- id: wu.5.p14.h6
   anchor: wu.5.p14
   at: 184
   length: 1
@@ -703,7 +681,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wu.5.p14.h6
+- id: wu.5.p14.h7
   anchor: wu.5.p14
   at: 193
   length: 2
@@ -721,13 +699,21 @@ annotations:
   via: primary
 - id: wu.5.p15.h2
   anchor: wu.5.p15
+  at: 30
+  length: 3
+  type: person
+  person_id: panhuanghou
+  text: 潘夫人
+  via: alias
+- id: wu.5.p15.h3
+  anchor: wu.5.p15
   at: 43
   length: 2
   type: person
   person_id: sunhe
   text: 孫和
   via: primary
-- id: wu.5.p15.h3
+- id: wu.5.p15.h4
   anchor: wu.5.p15
   at: 51
   length: 1
@@ -735,17 +721,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name_carry
-- anchor: wu.5.p15
-  at: 70
-  length: 2
-  type: person
-  person_id: quanhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「夫人立為皇后」— 即孫亮全皇后；roster 無。
-  id: wu.5.p15.h7
-- id: wu.5.p15.h4
+- id: wu.5.p15.h5
   anchor: wu.5.p15
   at: 87
   length: 2
@@ -753,7 +729,7 @@ annotations:
   person_id: tengyin
   text: 滕胤
   via: primary
-- id: wu.5.p15.h5
+- id: wu.5.p15.h6
   anchor: wu.5.p15
   at: 151
   length: 3
@@ -761,7 +737,7 @@ annotations:
   person_id: zhugedan
   text: 諸葛誕
   via: primary
-- id: wu.5.p15.h6
+- id: wu.5.p15.h7
   anchor: wu.5.p15
   at: 195
   length: 2
@@ -813,26 +789,6 @@ annotations:
   person_id: sunhe
   text: 孫和
   via: primary
-- anchor: wu.5.p16
-  at: 75
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「初，孫和為太子時」— 文中明點「孫和」。
-  id: wu.5.p16.h8
-- anchor: wu.5.p16
-  at: 89
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「欲廢太子」承前句指孫和。
-  id: wu.5.p16.h9
 - id: wu.5.p16.h5
   anchor: wu.5.p16
   at: 165
@@ -861,26 +817,6 @@ annotations:
   era: 永安
   era_year: 5
   reasoning: 原文「永安五年」直接出现年号；解析為 AD 262
-- anchor: wu.5.p16
-  at: 239
-  length: 2
-  type: person
-  person_id: zhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「立夫人為皇后」— 即孫休朱皇后；roster 無。
-  id: wu.5.p16.h11
-- anchor: wu.5.p16
-  at: 252
-  length: 2
-  type: person
-  person_id: zhuhuanghou
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 「群臣尊夫人為皇太后」— 即孫休朱皇后進尊為皇太后；roster 無。
-  id: wu.5.p16.h10
 - id: wu.5.p16.h7
   anchor: wu.5.p16
   at: 255
@@ -889,16 +825,14 @@ annotations:
   person_id: sunhao_2
   text: 孫皓
   via: primary
-- anchor: wu.5.p16
-  at: 265
-  length: 2
+- id: wu.5.p16.h8
+  anchor: wu.5.p16
+  at: 264
+  length: 3
   type: person
   person_id: zhuhuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「貶為景皇后」— 朱氏被貶為景皇后；roster 無。
-  id: wu.5.p16.h12
+  text: 景皇后
+  via: alias
 - id: wu.5.p16.t2
   anchor: wu.5.p16
   at: 273
@@ -929,13 +863,21 @@ annotations:
   via: primary
 - id: wu.5.p17.h2
   anchor: wu.5.p17
+  at: 2
+  length: 2
+  type: person
+  person_id: heji
+  text: 何姬
+  via: primary
+- id: wu.5.p17.h3
+  anchor: wu.5.p17
   at: 19
   length: 2
   type: person
   person_id: sunquan
   text: 孫權
   via: primary
-- id: wu.5.p17.h3
+- id: wu.5.p17.h4
   anchor: wu.5.p17
   at: 34
   length: 1
@@ -943,7 +885,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- id: wu.5.p17.h4
+- id: wu.5.p17.h5
   anchor: wu.5.p17
   at: 54
   length: 1
@@ -951,17 +893,7 @@ annotations:
   person_id: sunquan
   text: 權
   via: given_name
-- anchor: wu.5.p17
-  at: 67
-  length: 2
-  type: person
-  person_id: sunhe
-  text: 太子
-  via: llm
-  confidence: 0.97
-  reasoning: 「太子和既廢」— 文中明點「和」，即孫和。
-  id: wu.5.p17.h7
-- id: wu.5.p17.h5
+- id: wu.5.p17.h6
   anchor: wu.5.p17
   at: 83
   length: 2
@@ -969,7 +901,7 @@ annotations:
   person_id: sunliang
   text: 孫亮
   via: primary
-- id: wu.5.p17.h6
+- id: wu.5.p17.h7
   anchor: wu.5.p17
   at: 88
   length: 2
@@ -977,32 +909,28 @@ annotations:
   person_id: sunjun
   text: 孫峻
   via: primary
+- id: wu.5.p17.h8
+  anchor: wu.5.p17
+  at: 130
+  length: 2
+  type: person
+  person_id: heji
+  text: 何姬
+  via: primary
 - id: wu.5.p17.a1
   anchor: wu.5.p17
   at: 167
   length: 0
   type: pei
   text: 《吳錄》曰：皓初尊和為昭獻皇帝，俄改曰文皇帝。
-- anchor: wu.5.p17
-  at: 172
+- id: wu.5.p17.h9
+  anchor: wu.5.p17
+  at: 167
   length: 2
   type: person
   person_id: heji
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「何姬為昭獻皇后」— 即孫皓母追尊；roster 無。
-  id: wu.5.p17.h9
-- anchor: wu.5.p17
-  at: 186
-  length: 2
-  type: person
-  person_id: heji
-  text: 太后
-  via: llm
-  confidence: 0.92
-  reasoning: 「進為皇太后」— 即孫皓母何姬進為皇太后；roster 無。
-  id: wu.5.p17.h8
+  text: 何姬
+  via: primary
 - id: wu.5.p17.a2
   anchor: wu.5.p17
   at: 268
@@ -1025,16 +953,6 @@ annotations:
   person_id: sunxiu
   text: 孫休
   via: primary
-- anchor: wu.5.p18
-  at: 69
-  length: 2
-  type: person
-  person_id: tenghuanghou
-  text: 皇后
-  via: llm
-  confidence: 0.92
-  reasoning: 「立為皇后」— 即孫皓滕皇后；roster 無。
-  id: wu.5.p18.h3
 - id: wu.5.p18.a1
   anchor: wu.5.p18
   at: 212

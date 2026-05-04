@@ -210,16 +210,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.22.p3.h11",
-          "type": "person",
-          "at": 46,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「魏國初建……時太子未定，而臨菑侯植有寵」桓階陳文帝德優，所立太子即曹丕。"
-        },
-        {
           "id": "wei.22.p3.h2",
           "type": "person",
           "at": 62,
@@ -510,18 +500,7 @@
     {
       "id": "wei.22.p11",
       "text": "诗称‘仪刑文王，万邦作孚’；又曰‘刑于寡妻，至于兄弟，以御于家邦’。道自近始，而化洽於天下。自丧乱已来，干戈未戢，百姓不识王教之本，惧其陵迟巳甚。陛下当盛魏之隆，荷二祖之业，天下想望至治，唯有以崇德布化，惠恤黎庶，则兆民幸甚。夫臣下雷同，是非相蔽，国之大患也。若不和睦则有雠党，有雠党则毁誉无端，毁誉无端则真伪失实，不可不深防备，有以绝其源流。",
-      "annotations": [
-        {
-          "id": "wei.22.p11.h1",
-          "type": "person",
-          "at": 73,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "明帝初莅政陳羣上疏「陛下當盛魏之隆，荷二祖之業」陛下即曹叡（承武、文二祖）。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.22.p12",
@@ -555,18 +534,7 @@
     {
       "id": "wei.22.p14",
       "text": "长短有命，存亡有分。故圣人制礼，或抑或致，以求厥中。防墓有不脩之俭，嬴、博有不归之魂。夫大人动合天地，垂之无穷，又大德不逾闲，动为师表故也。八岁下殇，礼所不备，况未期月，而以成人礼送之，加为制服，举朝素衣，朝夕哭临，自古已来，未有此比。而乃复自往视陵，亲临祖载。原陛下抑割无益有损之事，但悉听群臣送葬，乞车驾不行，此万国之至望也。闻车驾欲幸摩陂，实到许昌，二宫上下，皆悉俱东，举朝大小，莫不惊怪。或言欲以避衰，或言欲於便处移殿舍，或不知何故。臣以为吉凶有命，祸福由人，移徙求安，则亦无益。若必当移避，缮治金墉城西宫，及孟津别宫，皆可权时分止。可无举宫暴露野次，废损盛节蚕农之要。又贼地闻之，以为大衰。加所烦费，不可计量。且（由）吉士贤人，当盛衰，处安危，秉道信命，非徙其家以宁，乡邑从其风化，无恐惧之心。况乃帝王万国之主，静则天下安，动则天下扰；行止动静，岂可轻脱哉？",
-      "annotations": [
-        {
-          "id": "wei.22.p14.h1",
-          "type": "person",
-          "at": 132,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "皇女淑薨追封平原懿公主後陳羣上疏「原陛下抑割無益有損之事」即諫明帝勿親送葬，陛下為曹叡。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.22.p15",
@@ -592,16 +560,6 @@
           "text": "太祖",
           "person_id": "caocao",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wei.22.p16.h2",
-          "type": "person",
-          "at": 168,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "青龍中陳羣諫宮室之興「惟陛下慮之」上明帝，陛下即曹叡。"
         }
       ]
     },
@@ -892,26 +850,6 @@
           "via": "chapter_alias"
         },
         {
-          "id": "wei.22.p30.h7",
-          "type": "person",
-          "at": 182,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「太祖崩洛陽……以為太子即位」太子即繼位之曹丕。"
-        },
-        {
-          "id": "wei.22.p30.h8",
-          "type": "person",
-          "at": 206,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "同段「太子宜割哀即位」續指曹丕。"
-        },
-        {
           "id": "wei.22.p30.h3",
           "type": "person",
           "at": 259,
@@ -919,16 +857,6 @@
           "text": "策",
           "person_id": "sunce",
           "via": "given_name_carry"
-        },
-        {
-          "id": "wei.22.p30.h9",
-          "type": "person",
-          "at": 260,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "同段「策太子即位」續指曹丕。"
         },
         {
           "id": "wei.22.p30.h4",
@@ -947,36 +875,6 @@
           "text": "明帝",
           "person_id": "caorui",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wei.22.p30.h10",
-          "type": "person",
-          "at": 349,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "明帝即位後陳矯跪問「陛下欲何之」即諫明帝，陛下為曹叡。"
-        },
-        {
-          "id": "wei.22.p30.h11",
-          "type": "person",
-          "at": 379,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同段「非陛下所宜臨也」續指曹叡。"
-        },
-        {
-          "id": "wei.22.p30.h12",
-          "type": "person",
-          "at": 399,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "同段「陛下宜還」續指曹叡。"
         },
         {
           "id": "wei.22.p30.h6",
@@ -1353,18 +1251,7 @@
     {
       "id": "wei.22.p41",
       "text": "幽州刺史毌丘俭上疏曰：「陛下即位已來，未有可書。吴、蜀恃险，未可卒平，聊可以此方无用之士克定辽东。」臻曰：「俭所陳皆戰國细术，非王者之事也。吴频岁称兵，寇乱边境，而犹案甲养士，未果寻致討者，诚以百姓疲劳故也。且渊生長海表，相承三世，外抚戎夷，内脩戰射，而俭欲以偏軍長驱，朝至夕卷，知其妄矣。」俭行軍遂不利。",
-      "annotations": [
-        {
-          "id": "wei.22.p41.h1",
-          "type": "person",
-          "at": 12,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "毌丘儉上疏「陛下即位已來」於明帝時，陛下即曹叡。"
-        }
-      ]
+      "annotations": []
     },
     {
       "id": "wei.22.p42",
@@ -1378,16 +1265,6 @@
           "text": "太祖",
           "person_id": "caocao",
           "via": "chapter_alias"
-        },
-        {
-          "id": "wei.22.p42.h5",
-          "type": "person",
-          "at": 37,
-          "length": 2,
-          "text": "太子",
-          "person_id": "caopi",
-          "via": "llm",
-          "reasoning": "「初，太祖久不立太子」立嗣事最終立曹丕，太子即曹丕。"
         },
         {
           "id": "wei.22.p42.h2",
@@ -1546,16 +1423,6 @@
           "text": "劉劭",
           "person_id": "liushao",
           "via": "primary"
-        },
-        {
-          "id": "wei.22.p49.h2",
-          "type": "person",
-          "at": 129,
-          "length": 2,
-          "text": "陛下",
-          "person_id": "caorui",
-          "via": "llm",
-          "reasoning": "盧毓青龍二年諫明帝寬容高堂隆「陛下宜容之」陛下為曹叡。"
         }
       ]
     },

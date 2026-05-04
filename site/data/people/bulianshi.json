@@ -21,21 +21,44 @@
     }
   ],
   "mentions_by_work": {
-    "zztj": [],
+    "zztj": [
+      {
+        "chapter_id": "zztj.74",
+        "chapter_title": "魏紀六",
+        "book_title": "資治通鑑",
+        "work": "zztj",
+        "anchor": "zztj.74.p14",
+        "at": 1,
+        "data_url": "data/zztj/zztj/74.json",
+        "matched": "步夫人",
+        "snippet": "吳步夫人卒。初，吳主為討虜將軍，在吳，娶吳郡徐氏。太子登所生庶賤，吳主令徐氏母養之。徐氏妒，故無寵。及吳主西徙，徐氏留處吳。而臨淮步…"
+      }
+    ],
     "sanguozhi": [
+      {
+        "chapter_id": "wu.14",
+        "chapter_title": "吳書·吳主五子傳",
+        "book_title": "吳書",
+        "work": "sanguozhi",
+        "anchor": "wu.14.p4",
+        "at": 28,
+        "data_url": "data/sanguozhi/wu/14.json",
+        "matched": "步夫人",
+        "snippet": "…所生庶賤，徐夫人少有母養之恩，後徐氏以妬廢處吳，而步夫人最寵。步氏有賜，登不敢辭，拜受而已。徐氏使至，所賜衣服，必沐浴服之。登將拜太子，辭曰：「本立而道生，欲立太子，宜先立后。」權…"
+      },
       {
         "chapter_id": "wu.2",
         "chapter_title": "吳書·吳主傳",
         "book_title": "吳書",
         "work": "sanguozhi",
         "anchor": "wu.2.p48",
-        "at": 156,
+        "at": 149,
         "data_url": "data/sanguozhi/wu/02.json",
-        "matched": "皇后",
-        "snippet": "…爲近事旣嘉，親見又明也。」於是改年。步夫人卒，追贈皇后。初，權信任校事呂壹，壹性苛慘，用法深刻。太子登數諫，權不納，大臣由是莫敢言。後壹姦罪發露伏誅，權引咎責躬，乃使中書郎袁禮告謝…"
+        "matched": "步夫人",
+        "snippet": "…載述最詳者，以爲近事旣嘉，親見又明也。」於是改年。步夫人卒，追贈皇后。初，權信任校事呂壹，壹性苛慘，用法深刻。太子登數諫，權不納，大臣由是莫敢言。後壹姦罪發露伏誅，權引咎責躬，乃使…"
       }
     ],
     "houhanshu": []
   },
-  "n_mentions": 1
+  "n_mentions": 3
 }

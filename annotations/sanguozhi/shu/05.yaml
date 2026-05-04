@@ -157,16 +157,6 @@ annotations:
   person_id: zhugeliang
   text: 亮
   via: given_name
-- anchor: shu.5.p2
-  at: 110
-  length: 2
-  type: person
-  person_id: xianhan
-  text: 主上
-  via: llm
-  confidence: 0.95
-  reasoning: 建安十二年隆中對劉備自言「漢室傾頹，姦臣竊命，主上蒙塵」，主上指當時受曹操挾制之漢獻帝。
-  id: shu.5.p2.h27
 - id: shu.5.p2.h9
   anchor: shu.5.p2
   at: 132
@@ -993,26 +983,6 @@ annotations:
   era: 建興
   era_year: 5
   reasoning: 承前文年號「建興」推得，「五年」 = 建興5年 = AD 227
-- anchor: shu.5.p9
-  at: 65
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》上書後主，「欲報之於陛下也」陛下即後主劉禪。
-  id: shu.5.p9.h3
-- anchor: shu.5.p9
-  at: 152
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「以昭陛下平明之理」續指後主劉禪。
-  id: shu.5.p9.h4
 - id: shu.5.p9.h1
   anchor: shu.5.p9
   at: 180
@@ -1029,26 +999,6 @@ annotations:
   person_id: dongyun
   text: 董允
   via: primary
-- anchor: shu.5.p9
-  at: 205
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「先帝簡拔以遺陛下」續指後主劉禪。
-  id: shu.5.p9.h5
-- anchor: shu.5.p9
-  at: 392
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「願陛下親之信之」續指後主劉禪。
-  id: shu.5.p9.h6
 - id: shu.5.p10.a1
   anchor: shu.5.p10
   at: 100
@@ -1075,36 +1025,6 @@ annotations:
   length: 0
   type: pei
   text: 漢書地理志曰：瀘惟水出牂牁郡句町县。
-- anchor: shu.5.p10
-  at: 203
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「報先帝而忠陛下之職分」陛下即劉禪。
-  id: shu.5.p10.h1
-- anchor: shu.5.p11
-  at: 24
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「願陛下託臣以討賊興復之效」陛下即劉禪。
-  id: shu.5.p11.h2
-- anchor: shu.5.p11
-  at: 78
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.98
-  reasoning: 《出師表》「陛下亦宜自謀」陛下即劉禪。
-  id: shu.5.p11.h3
 - id: shu.5.p11.h1
   anchor: shu.5.p11
   at: 117
@@ -1501,16 +1421,6 @@ annotations:
   person_id: liushan
   text: 後主
   via: chapter_alias
-- anchor: shu.5.p19
-  at: 86
-  length: 2
-  type: person
-  person_id: liushan
-  text: 陛下
-  via: llm
-  confidence: 0.97
-  reasoning: 亮自述家事表「以負陛下」上於後主劉禪。
-  id: shu.5.p19.h4
 - id: shu.5.p20.h1
   anchor: shu.5.p20
   at: 0
@@ -1927,8 +1837,10 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 264
-  reasoning: 「明年」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）
+  year_ad: 235
+  era: 建興
+  era_year: 13
+  reasoning: 「明年」 = 当前年 建興12年 (AD 234) 之次年 = AD 235
 - id: shu.5.p38.h2
   anchor: shu.5.p38
   at: 103
@@ -1949,6 +1861,18 @@ annotations:
   era: 景耀
   era_year: 4
   reasoning: 原文「景耀四年」直接出现年号；解析為 AD 261（回溯前事，不推進章節時間軸）
+- id: shu.5.p38.t4
+  anchor: shu.5.p38
+  at: 187
+  length: 2
+  type: temporal
+  text: 六年
+  kind: relative
+  resolution: bare_year
+  year_ad: 263
+  era: 景耀
+  era_year: 6
+  reasoning: 承前文年號「景耀」推得，「六年」 = 景耀6年 = AD 263
 - id: shu.5.p38.h3
   anchor: shu.5.p38
   at: 196
@@ -2053,8 +1977,8 @@ annotations:
   text: 明年
   kind: relative
   resolution: next_year
-  year_ad: 265
-  reasoning: 「明年」 = 当前年 AD 264 之次年 = AD 265（跨年號邊界，新年號未明）
+  year_ad: 264
+  reasoning: 「明年」 = 当前年 景耀6年 (AD 263) 之次年 = AD 264（跨年號邊界，新年號未明）
 - id: shu.5.p39.a3
   anchor: shu.5.p39
   at: 235

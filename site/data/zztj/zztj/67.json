@@ -1432,6 +1432,15 @@
         {
           "id": "zztj.67.p19.h6",
           "type": "person",
+          "at": 161,
+          "length": 3,
+          "text": "伏皇后",
+          "person_id": "fuhuanghou",
+          "via": "primary"
+        },
+        {
+          "id": "zztj.67.p19.h7",
+          "type": "person",
           "at": 176,
           "length": 2,
           "text": "曹操",
@@ -1439,7 +1448,7 @@
           "via": "primary"
         },
         {
-          "id": "zztj.67.p19.h7",
+          "id": "zztj.67.p19.h8",
           "type": "person",
           "at": 200,
           "length": 1,
@@ -1463,7 +1472,7 @@
           "reasoning": "年承前文 建安19年 (AD 214)，月份「十一月」"
         },
         {
-          "id": "zztj.67.p19.h8",
+          "id": "zztj.67.p19.h9",
           "type": "person",
           "at": 228,
           "length": 2,
@@ -2329,16 +2338,6 @@
           "text": "肅",
           "person_id": "lusu",
           "via": "given_name_carry"
-        },
-        {
-          "id": "zztj.67.p29.h15",
-          "type": "person",
-          "at": 98,
-          "length": 2,
-          "text": "主上",
-          "person_id": "xianhan",
-          "via": "llm",
-          "reasoning": "建安十九-二十一年(214-216)獻帝在位，主上指獻帝"
         },
         {
           "id": "zztj.67.p29.h5",
