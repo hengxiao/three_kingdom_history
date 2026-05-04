@@ -927,8 +927,28 @@ function scrollToAnchorOrTop(anchorId) {
   window.scrollTo(0, 0);
 }
 
+// Track the last-rendered page so anchor-only hash changes (clicking a TOC
+// link inside the current page) just scroll instead of re-fetching+re-rendering
+// the chapter, which would lose scroll position and flash the page blank.
+let currentRoute = null;
+
+function sameRouteIgnoringAnchor(a, b) {
+  if (!a || !b || a.route !== b.route) return false;
+  if (a.route === "chapter") return a.book === b.book && a.juan === b.juan;
+  if (a.route === "timeline_year") return a.year === b.year;
+  if (a.route === "person") return a.id === b.id;
+  // Index-style routes have no params, so same route name is enough.
+  return true;
+}
+
 async function route() {
   const r = parseHash();
+  // Anchor-only navigation within the same page: skip re-render.
+  if (sameRouteIgnoringAnchor(currentRoute, r)) {
+    scrollToAnchorOrTop(r.seg || r.anchor);
+    return;
+  }
+  currentRoute = r;
   if (r.route === "chapter") {
     await renderChapter(r.book, r.juan);
     bindScrollSpy("#content .segment");
