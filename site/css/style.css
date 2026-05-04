@@ -152,6 +152,30 @@ footer {
 }
 .parse-warnings ul { margin: 4px 0 0 18px; padding: 0; }
 
+/* Sticky header overlaps anything we scroll to; reserve enough margin so the
+   target's top lands BELOW the header. Same applies to every anchored landing
+   target across the site (chapter index, timeline, people pages). 110px covers
+   the two-row header at desktop widths; narrow override compensates for the
+   wrapped header below. */
+.segment,
+.work-section,
+.timeline-decade,
+.timeline-chapter,
+.people-letter-group,
+.person-section {
+  scroll-margin-top: 110px;
+}
+@media (max-width: 720px) {
+  .segment,
+  .work-section,
+  .timeline-decade,
+  .timeline-chapter,
+  .people-letter-group,
+  .person-section {
+    scroll-margin-top: 150px;
+  }
+}
+
 .segment {
   margin: 0 0 18px;
   position: relative;
