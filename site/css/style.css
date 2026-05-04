@@ -681,6 +681,45 @@ body.hide-temporal .notes:has(.note-temporal):not(:has(.note-commentary)) { disp
   color: var(--link);
   text-decoration: none;
 }
+#chapter-toc .toc-list a.active {
+  background: var(--pei-bg);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Rich-label TOCs (timeline/people/person/index pages) — grid layout doesn't
+   work for variable-length labels; use a vertical list instead. */
+#chapter-toc .toc-list.toc-list--rich {
+  display: block;
+  list-style: none;
+}
+#chapter-toc .toc-list.toc-list--rich > li {
+  margin: 0 0 4px;
+}
+#chapter-toc .toc-list.toc-list--rich a {
+  display: block;
+  text-align: left;
+  padding: 5px 8px;
+  font-size: 13px;
+  color: var(--fg);
+  line-height: 1.4;
+}
+#chapter-toc .toc-list.toc-list--rich .toc-label {
+  display: block;
+  font-weight: 500;
+}
+#chapter-toc .toc-list.toc-list--rich .toc-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+#chapter-toc .toc-list.toc-list--rich a.active {
+  background: var(--pei-bg);
+  color: var(--accent);
+  border-color: var(--accent);
+}
 
 .toc-toggle {
   display: none;             /* hidden on desktop; shown via media query */

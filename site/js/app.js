@@ -139,8 +139,15 @@ async function renderIndex() {
       if (!byWork.has(wid)) byWork.set(wid, { work_id: wid, work_title: book.work_title || wid, books: [] });
       byWork.get(wid).books.push(book);
     }
-    const html = [...byWork.values()].map(work => `
-      <section class="work-section">
+    const works = [...byWork.values()];
+    const tocItems = works.map(w => ({
+      id: `work-${w.work_id}`,
+      href: `#/chapters#work-${w.work_id}`,
+      label: w.work_title,
+      sub: `${w.books.reduce((n,b) => n + b.chapters.length, 0)} 卷`,
+    }));
+    const sections = works.map(work => `
+      <section class="work-section" id="work-${escapeAttr(work.work_id)}">
         <h2 class="work-title">${escapeHTML(work.work_title)}</h2>
         ${work.books.map(book => {
           const items = book.chapters.map(ch => `
@@ -150,15 +157,22 @@ async function renderIndex() {
                 <span class="chapter-meta">${ch.n_segments} 段 · 注 ${ch.n_pei} · 時間 ${ch.n_temporal}</span>
               </a>
             </li>`).join("");
-          // For multi-book works (sanguozhi), title each book; for single-book (hhs), skip the
-          // redundant book heading.
           const heading = work.books.length > 1
             ? `<h3 class="book-title">${escapeHTML(book.title)}（共 ${book.chapters.length} 卷）</h3>`
             : "";
           return `<div class="book-section">${heading}<ul class="chapter-list">${items}</ul></div>`;
         }).join("")}
       </section>`).join("");
-    main.innerHTML = html || `<div class="error">目錄為空。請先生成數據。</div>`;
+    if (!sections) {
+      main.innerHTML = `<div class="error">目錄為空。請先生成數據。</div>`;
+      return;
+    }
+    main.innerHTML = `
+      <button class="toc-toggle" type="button" aria-controls="chapter-toc" aria-expanded="false">☰ 史書</button>
+      <div class="chapter-layout">
+        ${renderSidebarTOC("史書", tocItems)}
+        <div class="chapter-main">${sections}</div>
+      </div>`;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -196,11 +210,13 @@ function bookTitleFromId(id) {
 function renderChapterTOC(ch) {
   // Sidebar listing every segment so the reader can jump within a long chapter.
   // Each segment ID is `<book>.<juan>.p<N>[<suffix>]` — show just the trailing
-  // p-tag fragment as a compact label (1, 2, 3a, ...).
-  const items = ch.segments.map((s, i) => {
+  // p-tag fragment as a compact label (1, 2, 3a, ...). Link format mirrors the
+  // seg-id anchor inside the body: `#/chapter/<book>/<juan>#<seg-id>` so it
+  // routes correctly through parseHash.
+  const items = ch.segments.map((s) => {
     const tail = s.id.split(".").slice(-1)[0]; // "p17", "p17a", ...
     const label = tail.replace(/^p/, "");
-    return `<li><a href="#${s.id}">${escapeHTML(label)}</a></li>`;
+    return `<li><a href="#/chapter/${ch.book}/${ch.juan}#${s.id}" data-seg="${escapeAttr(s.id)}">${escapeHTML(label)}</a></li>`;
   }).join("");
   return `
     <aside id="chapter-toc" aria-label="章節目錄">
@@ -208,6 +224,103 @@ function renderChapterTOC(ch) {
         <h3>段落 (${ch.segments.length})</h3>
       </div>
       <ol class="toc-list">${items}</ol>
+    </aside>`;
+}
+
+// One IntersectionObserver active at a time across all pages with a sidebar TOC.
+// Disconnect when navigating to a new page so observers don't accumulate.
+let currentScrollSpyIO = null;
+
+function bindScrollSpy(itemsSelector) {
+  if (currentScrollSpyIO) {
+    currentScrollSpyIO.disconnect();
+    currentScrollSpyIO = null;
+  }
+  const segs = document.querySelectorAll(itemsSelector);
+  if (!segs.length) return;
+  const tocLinks = new Map();
+  document.querySelectorAll("#chapter-toc a[data-seg]").forEach(a => {
+    tocLinks.set(a.dataset.seg, a);
+  });
+  if (!tocLinks.size) return;
+
+  // Highlight the segment whose top is closest to (and not below) the
+  // viewport's middle band. Maintain it in `state.activeId` and update only
+  // on transitions to keep DOM writes minimal.
+  const visibleRatios = new Map();
+  let activeId = null;
+
+  const updateActive = () => {
+    let bestId = null;
+    let bestRatio = 0;
+    for (const [id, ratio] of visibleRatios) {
+      if (ratio > bestRatio) { bestRatio = ratio; bestId = id; }
+    }
+    if (!bestId) {
+      // Nothing intersecting — fall back to the topmost segment above viewport bottom.
+      let topId = null, topY = -Infinity;
+      for (const seg of segs) {
+        const r = seg.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.top > topY) {
+          topY = r.top;
+          topId = seg.id;
+        }
+      }
+      bestId = topId;
+    }
+    if (bestId === activeId) return;
+    if (activeId) {
+      const prev = tocLinks.get(activeId);
+      if (prev) prev.classList.remove("active");
+    }
+    activeId = bestId;
+    if (activeId) {
+      const cur = tocLinks.get(activeId);
+      if (cur) {
+        cur.classList.add("active");
+        // Keep the active link in view INSIDE the sidebar without scrolling
+        // the page. Manual scrollTop is safer than scrollIntoView, which on
+        // narrow layouts (where the sidebar is inline) would jump the page.
+        const aside = document.getElementById("chapter-toc");
+        if (aside && aside.scrollHeight > aside.clientHeight + 4) {
+          const aRect = aside.getBoundingClientRect();
+          const cRect = cur.getBoundingClientRect();
+          if (cRect.top < aRect.top || cRect.bottom > aRect.bottom) {
+            aside.scrollTop = cur.offsetTop - aside.clientHeight / 2;
+          }
+        }
+      }
+    }
+  };
+
+  currentScrollSpyIO = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) visibleRatios.set(e.target.id, e.intersectionRatio);
+      else visibleRatios.delete(e.target.id);
+    }
+    updateActive();
+  }, {
+    rootMargin: "-15% 0px -55% 0px",
+    threshold: [0, 0.25, 0.5, 0.75, 1],
+  });
+  for (const seg of segs) currentScrollSpyIO.observe(seg);
+  updateActive();
+}
+
+// Generic sidebar TOC builder. `items` is a list of {id, label, sub} where
+// `id` matches the DOM element's id attribute on the page. Output mirrors
+// the chapter TOC so existing CSS + hamburger work unchanged.
+function renderSidebarTOC(title, items) {
+  if (!items || !items.length) return "";
+  const lis = items.map(it => `
+    <li><a href="${escapeAttr(it.href)}" data-seg="${escapeAttr(it.id)}">
+      <span class="toc-label">${escapeHTML(it.label)}</span>
+      ${it.sub ? `<span class="toc-sub">${escapeHTML(it.sub)}</span>` : ""}
+    </a></li>`).join("");
+  return `
+    <aside id="chapter-toc" aria-label="${escapeAttr(title)}">
+      <div class="toc-head"><h3>${escapeHTML(title)} (${items.length})</h3></div>
+      <ol class="toc-list toc-list--rich">${lis}</ol>
     </aside>`;
 }
 
@@ -391,30 +504,54 @@ async function loadTimeline() {
 }
 
 async function renderTimelineIndex() {
-  setBreadcrumbs([{ label: "目錄", href: "#/" }, { label: "時間軸", href: "#/timeline" }]);
+  setBreadcrumbs([{ label: "首頁", href: "#/" }, { label: "時間軸", href: "#/timeline" }]);
   const main = $("#content");
   main.innerHTML = "載入時間軸中…";
   try {
     const tl = await loadTimeline();
-    const html = `
-      <div class="chapter-header">
-        <h2>時間軸</h2>
-        <div class="chapter-sub">${tl.years.length} 個年份 ·
-          ${tl.years.reduce((s,y) => s + y.n_events, 0)} 個時間錨點，跨三國志與後漢書</div>
-      </div>
-      <div class="timeline-years">${
-        tl.years.map(y => `
-          <a class="timeline-year-card" href="#/timeline/${y.year_ad}">
-            <div class="year-ad">公元 ${y.year_ad} 年</div>
-            <div class="year-labels">${
-              y.labels.length
-                ? y.labels.map(l => escapeHTML(l.label)).join("、")
-                : '<span class="muted">（無年號標籤）</span>'
-            }</div>
-            <div class="year-count">${y.n_events} 條</div>
-          </a>`).join("")
-      }</div>`;
-    main.innerHTML = html;
+    // Group years by decade so the sidebar TOC is navigable for ~210 years.
+    const byDecade = new Map();
+    for (const y of tl.years) {
+      const dec = Math.floor(y.year_ad / 10) * 10;
+      if (!byDecade.has(dec)) byDecade.set(dec, []);
+      byDecade.get(dec).push(y);
+    }
+    const decades = [...byDecade.entries()].sort((a, b) => a[0] - b[0]);
+    const tocItems = decades.map(([dec, ys]) => ({
+      id: `decade-${dec}`,
+      href: `#/timeline#decade-${dec}`,
+      label: `${dec}–${dec + 9}`,
+      sub: `${ys.length} 年 · ${ys.reduce((n, y) => n + y.n_events, 0)} 條`,
+    }));
+    const decadeSections = decades.map(([dec, ys]) => `
+      <section class="timeline-decade" id="decade-${dec}">
+        <h3 class="timeline-decade-head">${dec}–${dec + 9} 年代</h3>
+        <div class="timeline-years">${
+          ys.map(y => `
+            <a class="timeline-year-card" href="#/timeline/${y.year_ad}">
+              <div class="year-ad">公元 ${y.year_ad} 年</div>
+              <div class="year-labels">${
+                y.labels.length
+                  ? y.labels.map(l => escapeHTML(l.label)).join("、")
+                  : '<span class="muted">（無年號標籤）</span>'
+              }</div>
+              <div class="year-count">${y.n_events} 條</div>
+            </a>`).join("")
+        }</div>
+      </section>`).join("");
+    main.innerHTML = `
+      <button class="toc-toggle" type="button" aria-controls="chapter-toc" aria-expanded="false">☰ 年代</button>
+      <div class="chapter-layout">
+        ${renderSidebarTOC("年代", tocItems)}
+        <div class="chapter-main">
+          <div class="chapter-header">
+            <h2>時間軸</h2>
+            <div class="chapter-sub">${tl.years.length} 個年份 ·
+              ${tl.years.reduce((s,y) => s + y.n_events, 0)} 個時間錨點，跨三國志、後漢書、資治通鑑</div>
+          </div>
+          ${decadeSections}
+        </div>
+      </div>`;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -422,7 +559,7 @@ async function renderTimelineIndex() {
 
 async function renderTimelineYear(year) {
   setBreadcrumbs([
-    { label: "目錄", href: "#/" },
+    { label: "首頁", href: "#/" },
     { label: "時間軸", href: "#/timeline" },
     { label: `公元 ${year} 年`, href: `#/timeline/${year}` },
   ]);
@@ -444,8 +581,16 @@ async function renderTimelineYear(year) {
     const labelStr = y.labels.length
       ? y.labels.map(l => escapeHTML(l.label)).join("、")
       : "（無年號標籤）";
+    const tocItems = [...byChapter.values()].map(g => ({
+      id: `tlchap-${g.meta.chapter_id.replace(/\./g, "-")}`,
+      href: `#/timeline/${year}#tlchap-${g.meta.chapter_id.replace(/\./g, "-")}`,
+      label: `${g.meta.book_title}·${g.meta.chapter_title}`.length > 20
+        ? g.meta.chapter_title
+        : `${g.meta.book_title}·${g.meta.chapter_title}`,
+      sub: `${g.events.length} 條`,
+    }));
     const groupsHTML = [...byChapter.values()].map(g => `
-      <section class="timeline-chapter">
+      <section class="timeline-chapter" id="tlchap-${escapeAttr(g.meta.chapter_id.replace(/\./g, "-"))}">
         <h3>
           <a class="chapter-link" href="#/chapter/${chapterIdToRoute(g.meta.chapter_id)}">${escapeHTML(g.meta.book_title)} · ${escapeHTML(g.meta.chapter_title)}</a>
           <span class="muted">(${escapeHTML(g.meta.chapter_id)})</span>
@@ -464,13 +609,19 @@ async function renderTimelineYear(year) {
         }</ul>
       </section>`).join("");
     main.innerHTML = `
-      <div class="chapter-header">
-        <h2>公元 ${year} 年 <span class="muted">${labelStr}</span></h2>
-        <div class="chapter-sub">${y.n_events} 條 · 涉及 ${byChapter.size} 個章節</div>
-      </div>
-      ${renderYearNav(tl, year)}
-      ${groupsHTML}
-      ${renderYearNav(tl, year)}`;
+      <button class="toc-toggle" type="button" aria-controls="chapter-toc" aria-expanded="false">☰ 章節</button>
+      <div class="chapter-layout">
+        ${renderSidebarTOC("章節", tocItems)}
+        <div class="chapter-main">
+          <div class="chapter-header">
+            <h2>公元 ${year} 年 <span class="muted">${labelStr}</span></h2>
+            <div class="chapter-sub">${y.n_events} 條 · 涉及 ${byChapter.size} 個章節</div>
+          </div>
+          ${renderYearNav(tl, year)}
+          ${groupsHTML}
+          ${renderYearNav(tl, year)}
+        </div>
+      </div>`;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -509,29 +660,61 @@ function dateRange(p) {
 }
 
 async function renderPeopleIndex() {
-  setBreadcrumbs([{ label: "目錄", href: "#/" }, { label: "人物志", href: "#/people" }]);
+  setBreadcrumbs([{ label: "首頁", href: "#/" }, { label: "人物志", href: "#/people" }]);
   const main = $("#content");
   main.innerHTML = "載入人物志中…";
   try {
     const idx = await loadPeopleIndex();
-    const html = `
-      <div class="chapter-header">
-        <h2>人物志</h2>
-        <div class="chapter-sub">${idx.people.length} 人，按提及次數排序</div>
-      </div>
-      <ul class="people-list">${
-        idx.people.map(p => `
-          <li class="person-row">
-            <a href="#/people/${escapeAttr(p.id)}">
-              <span class="person-name">${escapeHTML(p.primary_name)}</span>
-              ${p.courtesy_name ? `<span class="person-courtesy">字${escapeHTML(p.courtesy_name)}</span>` : ""}
-              <span class="person-dates">${dateRange(p)}</span>
-              <span class="person-brief">${escapeHTML(p.brief || "")}</span>
-              <span class="person-counts">本傳 ${p.n_bio_chapters} · 提及 ${p.n_mentions}</span>
-            </a>
-          </li>`).join("")
-      }</ul>`;
-    main.innerHTML = html;
+    // The default sort is by mention count desc. Group into bands so the
+    // sidebar TOC stays usable across 388+ persons. Bands: ≥100, 50-99, 20-49,
+    // 10-19, 5-9, 1-4, 0.
+    const bands = [
+      { id: "band-100", label: "100+ 提及", test: n => n >= 100 },
+      { id: "band-50", label: "50–99 提及", test: n => n >= 50 && n < 100 },
+      { id: "band-20", label: "20–49 提及", test: n => n >= 20 && n < 50 },
+      { id: "band-10", label: "10–19 提及", test: n => n >= 10 && n < 20 },
+      { id: "band-5", label: "5–9 提及",   test: n => n >= 5 && n < 10 },
+      { id: "band-1", label: "1–4 提及",    test: n => n >= 1 && n < 5 },
+      { id: "band-0", label: "尚無錨定提及", test: n => n === 0 },
+    ];
+    const grouped = bands.map(b => ({
+      ...b,
+      people: idx.people.filter(p => b.test(p.n_mentions)),
+    })).filter(b => b.people.length);
+    const tocItems = grouped.map(b => ({
+      id: b.id,
+      href: `#/people#${b.id}`,
+      label: b.label,
+      sub: `${b.people.length} 人`,
+    }));
+    const sectionsHTML = grouped.map(b => `
+      <section class="people-letter-group" id="${escapeAttr(b.id)}">
+        <h3 class="people-band-head">${escapeHTML(b.label)} <span class="muted">(${b.people.length})</span></h3>
+        <ul class="people-list">${
+          b.people.map(p => `
+            <li class="person-row">
+              <a href="#/people/${escapeAttr(p.id)}">
+                <span class="person-name">${escapeHTML(p.primary_name)}</span>
+                ${p.courtesy_name ? `<span class="person-courtesy">字${escapeHTML(p.courtesy_name)}</span>` : ""}
+                <span class="person-dates">${dateRange(p)}</span>
+                <span class="person-brief">${escapeHTML(p.brief || "")}</span>
+                <span class="person-counts">本傳 ${p.n_bio_chapters} · 提及 ${p.n_mentions}</span>
+              </a>
+            </li>`).join("")
+        }</ul>
+      </section>`).join("");
+    main.innerHTML = `
+      <button class="toc-toggle" type="button" aria-controls="chapter-toc" aria-expanded="false">☰ 分組</button>
+      <div class="chapter-layout">
+        ${renderSidebarTOC("分組", tocItems)}
+        <div class="chapter-main">
+          <div class="chapter-header">
+            <h2>人物志</h2>
+            <div class="chapter-sub">${idx.people.length} 人，按提及次數分組</div>
+          </div>
+          ${sectionsHTML}
+        </div>
+      </div>`;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
   }
@@ -539,7 +722,7 @@ async function renderPeopleIndex() {
 
 async function renderPersonPage(id) {
   setBreadcrumbs([
-    { label: "目錄", href: "#/" },
+    { label: "首頁", href: "#/" },
     { label: "人物志", href: "#/people" },
     { label: id, href: `#/people/${id}` },
   ]);
@@ -551,33 +734,38 @@ async function renderPersonPage(id) {
       getNameIndex(),
     ]);
     setBreadcrumbs([
-      { label: "目錄", href: "#/" },
+      { label: "首頁", href: "#/" },
       { label: "人物志", href: "#/people" },
       { label: p.primary_name, href: `#/people/${id}` },
     ]);
 
-    const bioHTML = p.bio_chapters.length ? `
-      <section class="person-section">
-        <h3>本傳</h3>
-        <ul class="bio-chapter-list">${
-          p.bio_chapters.map(b => `
-            <li><a href="#/chapter/${chapterIdToRoute(b.chapter_id)}">${escapeHTML(b.book_title)} · ${escapeHTML(b.title)} <span class="muted">(${escapeHTML(b.chapter_id)})</span></a></li>
-          `).join("")
-        }</ul>
-      </section>` : `
-      <section class="person-section">
-        <h3>本傳</h3>
-        <p class="muted">三国志 / 后汉书 中無單獨本傳，仅見於他人傳中相關段落。</p>
-      </section>`;
+    const sections = [];
+    sections.push({
+      id: "person-bio",
+      label: "本傳",
+      sub: p.bio_chapters.length ? `${p.bio_chapters.length} 卷` : "—",
+      html: p.bio_chapters.length ? `
+        <section class="person-section" id="person-bio">
+          <h3>本傳</h3>
+          <ul class="bio-chapter-list">${
+            p.bio_chapters.map(b => `
+              <li><a href="#/chapter/${chapterIdToRoute(b.chapter_id)}">${escapeHTML(b.book_title)} · ${escapeHTML(b.title)} <span class="muted">(${escapeHTML(b.chapter_id)})</span></a></li>
+            `).join("")
+          }</ul>
+        </section>` : `
+        <section class="person-section" id="person-bio">
+          <h3>本傳</h3>
+          <p class="muted">三國志 / 後漢書 中無單獨本傳，僅見於他人傳中相關段落。</p>
+        </section>`,
+    });
 
-    const workSections = [
-      ["zztj", "資治通鑑提及"],
-      ["sanguozhi", "三國志他卷提及"],
-      ["houhanshu", "後漢書他卷提及"],
-    ].map(([wid, label]) => {
+    [
+      ["zztj", "資治通鑑提及", "person-zztj"],
+      ["sanguozhi", "三國志他卷提及", "person-sanguozhi"],
+      ["houhanshu", "後漢書他卷提及", "person-houhanshu"],
+    ].forEach(([wid, label, sectionId]) => {
       const items = p.mentions_by_work[wid] || [];
-      if (!items.length) return "";
-      // Group by chapter
+      if (!items.length) return;
       const byChapter = new Map();
       for (const m of items) {
         if (!byChapter.has(m.chapter_id)) byChapter.set(m.chapter_id, { meta: m, items: [] });
@@ -599,27 +787,44 @@ async function renderPersonPage(id) {
               </li>`).join("")
           }</ul>
         </div>`).join("");
-      return `
-        <section class="person-section">
-          <h3>${label} <span class="muted">(${items.length} 處)</span></h3>
-          ${groups}
-        </section>`;
-    }).filter(Boolean).join("");
+      sections.push({
+        id: sectionId,
+        label,
+        sub: `${items.length} 處`,
+        html: `
+          <section class="person-section" id="${sectionId}">
+            <h3>${label} <span class="muted">(${items.length} 處)</span></h3>
+            ${groups}
+          </section>`,
+      });
+    });
+
+    const tocItems = sections.map(s => ({
+      id: s.id,
+      href: `#/people/${id}#${s.id}`,
+      label: s.label,
+      sub: s.sub,
+    }));
 
     const aliasesStr = p.aliases.length ? p.aliases.join("、") : "無";
     const otherNamesStr = p.other_names && p.other_names.length ? `<div class="person-other-names">其他名號（待上下文判別后計入）：${escapeHTML(p.other_names.join("、"))}</div>` : "";
 
     main.innerHTML = `
-      <div class="chapter-header">
-        <h2>${escapeHTML(p.primary_name)}${p.courtesy_name ? ` <span class="muted">字${escapeHTML(p.courtesy_name)}</span>` : ""}</h2>
-        <div class="chapter-sub">
-          ${escapeHTML(dateRange(p))} · ${escapeHTML(p.brief || "")}
+      <button class="toc-toggle" type="button" aria-controls="chapter-toc" aria-expanded="false">☰ 分節</button>
+      <div class="chapter-layout">
+        ${renderSidebarTOC("分節", tocItems)}
+        <div class="chapter-main">
+          <div class="chapter-header">
+            <h2>${escapeHTML(p.primary_name)}${p.courtesy_name ? ` <span class="muted">字${escapeHTML(p.courtesy_name)}</span>` : ""}</h2>
+            <div class="chapter-sub">
+              ${escapeHTML(dateRange(p))} · ${escapeHTML(p.brief || "")}
+            </div>
+            <div class="person-aliases">搜索別名：${escapeHTML(aliasesStr)}</div>
+            ${otherNamesStr}
+          </div>
+          ${sections.map(s => s.html).join("")}
         </div>
-        <div class="person-aliases">搜索別名：${escapeHTML(aliasesStr)}</div>
-        ${otherNamesStr}
       </div>
-      ${bioHTML}
-      ${workSections || `<section class="person-section"><h3>提及</h3><p class="muted">未在他卷中找到提及。</p></section>`}
     `;
   } catch (err) {
     main.innerHTML = `<div class="error">載入失敗：${escapeHTML(err.message)}</div>`;
@@ -695,45 +900,62 @@ function parseHash() {
   const h = location.hash || "#/";
   let m = h.match(/^#\/chapter\/([a-z]+)\/(\d+)(?:#(.+))?$/);
   if (m) return { route: "chapter", book: m[1], juan: parseInt(m[2], 10), seg: m[3] || null };
-  m = h.match(/^#\/timeline\/(\d+)$/);
-  if (m) return { route: "timeline_year", year: parseInt(m[1], 10) };
-  if (h === "#/timeline" || h.startsWith("#/timeline/")) return { route: "timeline_index" };
-  m = h.match(/^#\/people\/([a-z0-9_-]+)$/i);
-  if (m) return { route: "person", id: m[1] };
-  if (h === "#/people" || h.startsWith("#/people/")) return { route: "people_index" };
-  if (h === "#/chapters" || h.startsWith("#/chapters/")) return { route: "chapter_index" };
+  m = h.match(/^#\/timeline\/(\d+)(?:#(.+))?$/);
+  if (m) return { route: "timeline_year", year: parseInt(m[1], 10), anchor: m[2] || null };
+  m = h.match(/^#\/timeline(?:#(.+))?$/);
+  if (m) return { route: "timeline_index", anchor: m[1] || null };
+  m = h.match(/^#\/people\/([a-z0-9_-]+)(?:#(.+))?$/i);
+  if (m) return { route: "person", id: m[1], anchor: m[2] || null };
+  m = h.match(/^#\/people(?:#(.+))?$/);
+  if (m) return { route: "people_index", anchor: m[1] || null };
+  m = h.match(/^#\/chapters(?:#(.+))?$/);
+  if (m) return { route: "chapter_index", anchor: m[1] || null };
   if (h === "#/" || h === "" || h === "#") return { route: "home" };
   return { route: "home" };
+}
+
+// Manually scroll to an element id within the page after a route render —
+// browsers don't auto-scroll for double-hash URLs like #/people#alpha-曹.
+function scrollToAnchorOrTop(anchorId) {
+  if (anchorId) {
+    const el = document.getElementById(anchorId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+  }
+  window.scrollTo(0, 0);
 }
 
 async function route() {
   const r = parseHash();
   if (r.route === "chapter") {
     await renderChapter(r.book, r.juan);
-    if (r.seg) {
-      const el = document.getElementById(r.seg);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else {
-      window.scrollTo(0, 0);
-    }
+    bindScrollSpy("#content .segment");
+    scrollToAnchorOrTop(r.seg);
   } else if (r.route === "timeline_year") {
     await renderTimelineYear(r.year);
-    window.scrollTo(0, 0);
+    bindScrollSpy("#content .timeline-chapter");
+    scrollToAnchorOrTop(r.anchor);
   } else if (r.route === "timeline_index") {
     await renderTimelineIndex();
-    window.scrollTo(0, 0);
+    bindScrollSpy("#content .timeline-decade");
+    scrollToAnchorOrTop(r.anchor);
   } else if (r.route === "person") {
     await renderPersonPage(r.id);
-    window.scrollTo(0, 0);
+    bindScrollSpy("#content .person-section");
+    scrollToAnchorOrTop(r.anchor);
   } else if (r.route === "home") {
     await renderHome();
     window.scrollTo(0, 0);
   } else if (r.route === "chapter_index") {
     await renderIndex();
-    window.scrollTo(0, 0);
+    bindScrollSpy("#content .work-section");
+    scrollToAnchorOrTop(r.anchor);
   } else if (r.route === "people_index") {
     await renderPeopleIndex();
-    window.scrollTo(0, 0);
+    bindScrollSpy("#content .people-letter-group");
+    scrollToAnchorOrTop(r.anchor);
   } else {
     await renderHome();
     window.scrollTo(0, 0);
