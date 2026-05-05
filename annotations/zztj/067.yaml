@@ -2,7 +2,7 @@ chapter: zztj.67
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷067
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: d05ecb5d697cd0f49def171edffe595911deafe6baaebe62ffa4a17796312cb8
 annotations:
 - id: zztj.67.p3.t1
@@ -1103,6 +1103,7 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 建安19年 (AD 214)，月份「十月」
+  confidence: 0.5
 - id: zztj.67.p18.h1
   anchor: zztj.67.p18
   at: 38
@@ -2897,6 +2898,7 @@ annotations:
   month_chinese: 七月
   month_ordinal: 7
   reasoning: 年承前文 建安21年 (AD 216)，月份「七月」
+  confidence: 0.5
 - id: zztj.67.p48.h1
   anchor: zztj.67.p48
   at: 59

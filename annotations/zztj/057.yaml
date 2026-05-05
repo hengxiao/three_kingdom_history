@@ -2,7 +2,7 @@ chapter: zztj.57
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷057
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 00f5ef2d2b5214d7fa94a679a46c7d90ece86a9a07a19a5f0359296c94c9bba0
 annotations:
 - id: zztj.57.p1.t1
@@ -221,6 +221,7 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 熹平元年 (AD 172)，月份「十月」
+  confidence: 0.5
 - id: zztj.57.p12.t1
   anchor: zztj.57.p12
   at: 0
@@ -541,6 +542,7 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 熹平4年 (AD 175)，月份「十一月」
+  confidence: 0.5
 - id: zztj.57.p34.t1
   anchor: zztj.57.p34
   at: 2

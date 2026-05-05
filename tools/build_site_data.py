@@ -142,6 +142,8 @@ def _strip_annotation_for_site(a: dict) -> dict:
             out["month_ordinal"] = a["month_ordinal"]
         if a.get("reasoning"):
             out["reasoning"] = a["reasoning"]
+        if a.get("confidence") is not None:
+            out["confidence"] = a["confidence"]
     elif a["type"] == "person":
         out["person_id"] = a["person_id"]
         out["via"] = a.get("via", "primary")

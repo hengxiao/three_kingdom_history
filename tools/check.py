@@ -238,6 +238,11 @@ def validate_annotation_file(path: Path, *, repo_root: Path) -> list[str]:
                 )
             if kind == "absolute" and "era" not in a:
                 errs.append(f"absolute temporal annotation {ann_id!r} missing field: 'era'")
+            confidence = a.get("confidence")
+            if confidence is not None and (
+                not isinstance(confidence, (int, float)) or not (0.0 <= confidence <= 1.0)
+            ):
+                errs.append(f"temporal annotation {ann_id!r} confidence={confidence!r} must be in [0, 1]")
     return errs
 
 

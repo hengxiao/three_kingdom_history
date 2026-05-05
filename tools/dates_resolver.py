@@ -220,6 +220,12 @@ class DateMatch:
     month_chinese: Optional[str] = None
     month_ordinal: Optional[int] = None
     reasoning: Optional[str] = None  # short prose explaining how this ref was resolved (用於 review)
+    confidence: Optional[float] = None
+    """Resolver's confidence in [0, 1]. None = high (default). 0.5 marks
+    relative refs anchored on stale chapter state inside a 倒敘 segment
+    (「初，…」 / 「先是…」 / 「昔…」) — without cross-chapter context we
+    can't pin down which year the flashback opens at, so the AD year is
+    a best-guess inheritance from prior narrative and may be wrong."""
 
 
 @dataclass
@@ -430,6 +436,25 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
     local_state = state.copy()
     local_in_flashback = False
 
+    # F1 partial: detect 倒敘 segment prefixes. Inside such segments, relative
+    # refs that have no LOCAL absolute to anchor on are inheriting the chapter's
+    # ongoing-narrative state — which is the wrong reference frame for a
+    # flashback. We can't resolve them without cross-chapter biography data
+    # (TODO: integrate with 人物志 / 地區志). For now, mark them as low confidence
+    # so downstream rendering can fade or annotate them.
+    flashback_prefix = (
+        text.startswith("初，") or text.startswith("初．")
+        or text.startswith("先是，") or text.startswith("先是。")
+        or text.startswith("昔，") or text.startswith("往者，")
+    )
+
+    def _confidence_for_relative() -> Optional[float]:
+        """0.5 when the relative is anchoring on chapter state inside a 倒敘
+        segment that has no local absolute yet. None (= high) otherwise."""
+        if flashback_prefix and not local_in_flashback:
+            return 0.5
+        return None
+
     out: list[DateMatch] = []
     for at, _, kind, info in candidates:
         if kind == "absolute":
@@ -472,6 +497,7 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 month_chinese=info.get("month_chinese"),
                 month_ordinal=info.get("month_ordinal"),
                 reasoning=reasoning,
+                confidence=_confidence_for_relative(),
             ))
             local_state = TimelineState(era=local_state.era, era_year=year_int, year_ad=year_ad)
             if not local_in_flashback:
@@ -486,6 +512,7 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 kind="relative", resolution="this_year",
                 year_ad=local_state.year_ad, era=local_state.era, era_year=local_state.era_year,
                 reasoning=reasoning,
+                confidence=_confidence_for_relative(),
             ))
 
         elif kind == "next_year":
@@ -509,6 +536,7 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 month_chinese=info.get("month_chinese"),
                 month_ordinal=info.get("month_ordinal"),
                 reasoning=reasoning,
+                confidence=_confidence_for_relative(),
             ))
             local_state = TimelineState(era=new_era, era_year=new_era_year, year_ad=new_year_ad)
             if not local_in_flashback:
@@ -533,6 +561,7 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 kind="relative", resolution="prev_year",
                 year_ad=new_year_ad, era=new_era, era_year=new_era_year,
                 reasoning=reasoning,
+                confidence=_confidence_for_relative(),
             ))
             # 去年 doesn't update either state — it's a backward narrative reference.
 
@@ -549,6 +578,7 @@ def resolve_segment(text: str, *, book: str, state: Optional[TimelineState] = No
                 month_chinese=info["month_chinese"],
                 month_ordinal=info["month_ordinal"],
                 reasoning=reasoning,
+                confidence=_confidence_for_relative(),
             ))
 
     return out, state

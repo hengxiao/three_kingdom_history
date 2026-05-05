@@ -4793,7 +4793,8 @@
           "era_year": 11,
           "month_chinese": "春正月",
           "month_ordinal": 1,
-          "reasoning": "承前文年號「建安」推得，「十一年春正月」 = 建安11年 = AD 206"
+          "reasoning": "承前文年號「建安」推得，「十一年春正月」 = 建安11年 = AD 206",
+          "confidence": 0.5
         },
         {
           "id": "wei.1.p67.t2",
@@ -4808,7 +4809,8 @@
           "era_year": 11,
           "month_chinese": "三月",
           "month_ordinal": 3,
-          "reasoning": "年承前文 建安11年 (AD 206)，月份「三月」"
+          "reasoning": "年承前文 建安11年 (AD 206)，月份「三月」",
+          "confidence": 0.5
         }
       ]
     },
@@ -6349,7 +6351,8 @@
           "era_year": 19,
           "month_chinese": "冬十月",
           "month_ordinal": 10,
-          "reasoning": "年承前文 建安19年 (AD 214)，月份「冬十月」"
+          "reasoning": "年承前文 建安19年 (AD 214)，月份「冬十月」",
+          "confidence": 0.5
         }
       ]
     },

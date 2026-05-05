@@ -2,7 +2,7 @@ chapter: zztj.66
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷066
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 263f0a082283f82c501a13588a8f847824c67e271e39750f8b073db4e3d27e04
 annotations:
 - id: zztj.66.p4.t1
@@ -2975,6 +2975,7 @@ annotations:
   month_chinese: 正月
   month_ordinal: 1
   reasoning: 年承前文 建安18年 (AD 213)，月份「正月」
+  confidence: 0.5
 - id: zztj.66.p60.t2
   anchor: zztj.66.p60
   at: 137
@@ -2989,6 +2990,7 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 建安18年 (AD 213)，月份「八月」
+  confidence: 0.5
 - id: zztj.66.p60.h9
   anchor: zztj.66.p60
   at: 152

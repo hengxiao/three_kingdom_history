@@ -2,7 +2,7 @@ chapter: zztj.75
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷075
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 2a7f8fe063660b7547386341e5067cf2d49679d6ac4d2cb06a552014d3c8fe17
 annotations:
 - id: zztj.75.p4.t1
@@ -1621,6 +1621,7 @@ annotations:
   month_chinese: 十月
   month_ordinal: 10
   reasoning: 年承前文 嘉平4年 (AD 252)，月份「十月」
+  confidence: 0.5
 - id: zztj.75.p104.h1
   anchor: zztj.75.p104
   at: 4

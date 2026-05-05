@@ -2,7 +2,7 @@ chapter: zztj.68
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷068
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 8abd37dbce7c90b199e0cd9a0173fbdb67f69e64b8de496d2a77f6b400f0a856
 annotations:
 - id: zztj.68.p4.t1
@@ -1753,6 +1753,7 @@ annotations:
   month_chinese: 九月
   month_ordinal: 9
   reasoning: 年承前文 建安24年 (AD 219)，月份「九月」
+  confidence: 0.5
 - id: zztj.68.p34.h1
   anchor: zztj.68.p34
   at: 49

@@ -2,7 +2,7 @@ chapter: zztj.70
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷070
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 5ddb6b7263e6231c6029d43e25d69caa90fa7748360de0aeba4a6a11670cfb01
 annotations:
 - id: zztj.70.p3.t1
@@ -1399,6 +1399,7 @@ annotations:
   month_chinese: 五月
   month_ordinal: 5
   reasoning: 年承前文 黃初7年 (AD 226)，月份「五月」
+  confidence: 0.5
 - id: zztj.70.p55.h1
   anchor: zztj.70.p55
   at: 122
@@ -1823,6 +1824,7 @@ annotations:
   month_chinese: 四月
   month_ordinal: 4
   reasoning: 年承前文 太和元年 (AD 227)，月份「四月」
+  confidence: 0.5
 - id: zztj.70.p85.t1
   anchor: zztj.70.p85
   at: 0
@@ -1973,6 +1975,7 @@ annotations:
   month_chinese: 一月
   month_ordinal: 1
   reasoning: 年承前文 太和元年 (AD 227)，月份「一月」
+  confidence: 0.5
 - id: zztj.70.p89.h9
   anchor: zztj.70.p89
   at: 291

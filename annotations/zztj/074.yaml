@@ -2,7 +2,7 @@ chapter: zztj.74
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷074
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 070cb428e0efbc93f747ad2cfeefbbfc8cc059e2596d52615bd9fd26d7f45a4c
 annotations:
 - id: zztj.74.p4.h1
@@ -773,6 +773,7 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 景初3年 (AD 239)，月份「二月」
+  confidence: 0.5
 - id: zztj.74.p26.h3
   anchor: zztj.74.p26
   at: 163

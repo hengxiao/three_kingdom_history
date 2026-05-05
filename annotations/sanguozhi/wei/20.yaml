@@ -939,6 +939,7 @@ annotations:
   era: 正元
   era_year: 3
   reasoning: 承前文年號「正元」推得，「三年」 = 正元3年 = AD 256
+  confidence: 0.5
 - id: wei.20.p11.t2
   anchor: wei.20.p11
   at: 474
@@ -951,6 +952,7 @@ annotations:
   era: 正元
   era_year: 3
   reasoning: 「其年」 = 当前年 正元3年 (AD 256)
+  confidence: 0.5
 - id: wei.20.p12.t1
   anchor: wei.20.p12
   at: 6

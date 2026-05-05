@@ -504,3 +504,40 @@ def test_resolve_segment_forward_absolute_no_flashback_unchanged():
     by_surface = {d.surface: d for d in dates}
     assert by_surface["明年"].year_ad == 133
     assert by_surface["是歲"].year_ad == 133
+
+
+# ---------- F1 (partial): low-confidence flag for 倒敘 segments without local anchor ----------
+
+def test_resolve_segment_flashback_relative_marked_low_confidence():
+    """「初，…明年…」 — no local absolute inside the flashback → 明年 inherits
+    chapter state, but is flagged confidence=0.5 so downstream renderers can fade it."""
+    state = TimelineState()
+    dates, state = resolve_segment("陽嘉元年，事起。", book="hhs", state=state)
+    text = "初，雄薦周舉為尚書，舉既稱職。明年坐法免。"
+    dates, _ = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert "明年" in by_surface
+    m = by_surface["明年"]
+    assert m.year_ad == 133  # inherited from state — best guess, not authoritative
+    assert m.confidence == 0.5, "倒敘 段內無局部錨點 → confidence 應降為 0.5"
+
+
+def test_resolve_segment_flashback_with_local_absolute_keeps_high_confidence():
+    """「初，…陽嘉二年…明年…」 — flashback OPENS but a local absolute is present;
+    relative anchors on local, full confidence."""
+    state = TimelineState()
+    dates, state = resolve_segment("永和五年。", book="hhs", state=state)
+    text = "初，陽嘉二年，雄為尚書。明年遷司隸。"
+    dates, _ = resolve_segment(text, book="hhs", state=state)
+    by_surface = {d.surface: d for d in dates}
+    assert by_surface["陽嘉二年"].year_ad == 133
+    assert by_surface["明年"].year_ad == 134
+    assert by_surface["明年"].confidence is None, "局部錨點存在 → 高置信度"
+
+
+def test_resolve_segment_non_flashback_no_low_confidence_flag():
+    """Regular (non-倒敘) narrative never gets confidence flag."""
+    state = TimelineState()
+    dates, state = resolve_segment("陽嘉元年。", book="hhs", state=state)
+    dates, _ = resolve_segment("明年，事繼。", book="hhs", state=state)
+    assert dates[0].confidence is None

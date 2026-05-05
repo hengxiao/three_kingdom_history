@@ -2,7 +2,7 @@ chapter: zztj.82
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷082
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 41a66aaa380eac83e5d073e40aecf937932ed133205c02092da537bbf1cbb533
 annotations:
 - id: zztj.82.p5.t1
@@ -201,6 +201,7 @@ annotations:
   month_chinese: 二月
   month_ordinal: 2
   reasoning: 年承前文 太康10年 (AD 289)，月份「二月」
+  confidence: 0.5
 - id: zztj.82.p40.h1
   anchor: zztj.82.p40
   at: 331
@@ -493,6 +494,7 @@ annotations:
   month_chinese: 十二月
   month_ordinal: 12
   reasoning: 年承前文 太康10年 (AD 289)，月份「十二月」
+  confidence: 0.5
 - id: zztj.82.p87.t1
   anchor: zztj.82.p87
   at: 0

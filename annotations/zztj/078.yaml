@@ -2,7 +2,7 @@ chapter: zztj.78
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷078
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 4dde8c4bf75e87cff16b44de19f5923917626d9baef53a3668bfa9dac45f505f
 annotations:
 - id: zztj.78.p4.t1
@@ -1117,6 +1117,7 @@ annotations:
   month_chinese: 十一月
   month_ordinal: 11
   reasoning: 年承前文 咸熙元年 (AD 264)，月份「十一月」
+  confidence: 0.5
 - id: zztj.78.p76.t1
   anchor: zztj.78.p76
   at: 0

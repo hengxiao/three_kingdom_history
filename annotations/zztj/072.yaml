@@ -2,7 +2,7 @@ chapter: zztj.72
 source:
   id: wikisource
   url: https://zh.wikisource.org/wiki/資治通鑑/卷072
-  retrieved: '2026-05-04'
+  retrieved: '2026-05-05'
   sha256: 57b185311b5f6b104a18a7b85bdb2dd65d6cca0ea8a95e143f66c6c519318759
 annotations:
 - id: zztj.72.p3.h1
@@ -1039,6 +1039,7 @@ annotations:
   month_chinese: 八月
   month_ordinal: 8
   reasoning: 年承前文 青龍元年 (AD 233)，月份「八月」
+  confidence: 0.5
 - id: zztj.72.p60.t1
   anchor: zztj.72.p60
   at: 0

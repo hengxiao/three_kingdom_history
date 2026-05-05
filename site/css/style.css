@@ -239,6 +239,32 @@ footer {
   border-style: dashed;
 }
 
+/* Low-confidence relative refs (倒敘段內無段內絕對錨點) — fade further so the
+   reader knows the AD is a best-effort inheritance, not a confirmed match. */
+.temporal--low-confidence {
+  opacity: 0.55;
+  border-bottom-style: dotted;
+}
+.temporal-ad--low-confidence {
+  opacity: 0.55;
+  border-style: dotted;
+  font-style: italic;
+}
+.note-temporal--low-conf {
+  opacity: 0.85;
+}
+.note-low-conf {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  font-size: 11px;
+  color: var(--warn);
+  background: #fff3e8;
+  border: 1px solid var(--warn);
+  border-radius: 3px;
+  cursor: help;
+}
+
 /* 裴注 inline marker in 正文 — small superscript jumping to the notes block.
    No inner <a>, so we can sit inside surrounding person-link / temporal-link. */
 .pei-ref {

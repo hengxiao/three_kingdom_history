@@ -430,14 +430,19 @@ function renderSegmentText(seg, personById) {
     }
     if (ev.kind === "temp_open") {
       const isRel = ev.ann.kind === "relative";
-      const cls = isRel ? "temporal temporal--relative" : "temporal";
+      const lowConf = typeof ev.ann.confidence === "number" && ev.ann.confidence < 0.7;
+      let cls = isRel ? "temporal temporal--relative" : "temporal";
+      if (lowConf) cls += " temporal--low-confidence";
       const tooltip = escapeAttr(temporalTitle(ev.ann) + " — 點擊跳到時間軸");
       const href = ev.ann.year_ad != null ? `#/timeline/${ev.ann.year_ad}` : "";
       out += `<a class="temporal-link" href="${href}" title="${tooltip}"><span class="${cls}" data-resolution="${escapeAttr(ev.ann.resolution || "absolute")}">`;
     } else if (ev.kind === "temp_close") {
       const isRel = ev.ann.kind === "relative";
-      const adCls = isRel ? "temporal-ad temporal-ad--relative" : "temporal-ad";
-      out += `</span><span class="${adCls}">${formatAD(ev.ann)}</span></a>`;
+      const lowConf = typeof ev.ann.confidence === "number" && ev.ann.confidence < 0.7;
+      let adCls = isRel ? "temporal-ad temporal-ad--relative" : "temporal-ad";
+      if (lowConf) adCls += " temporal-ad--low-confidence";
+      const adText = formatAD(ev.ann) + (lowConf ? "?" : "");
+      out += `</span><span class="${adCls}">${adText}</span></a>`;
     } else if (ev.kind === "person_open") {
       const tip = personById ? personTooltip(personById, ev.span.id, ev.span.reasoning) : "";
       const titleAttr = tip ? ` title="${escapeAttr(tip)}"` : "";
@@ -468,14 +473,22 @@ function renderSegmentText(seg, personById) {
         <span class="note-marker">[${i + 1}]</span>
         <span class="note-text">${escapeHTML(a.text)}</span>
       </li>`).join("");
-    const tempItems = relativeTemporals.map((a, i) => `
-      <li class="note-item note-temporal">
+    const tempItems = relativeTemporals.map((a, i) => {
+      const lowConf = typeof a.confidence === "number" && a.confidence < 0.7;
+      const lowConfBadge = lowConf
+        ? '<span class="note-low-conf" title="本段為倒敘，無段內絕對年號可定錨；AD 為估計值">⚠ 置信度低</span>'
+        : "";
+      const adSuffix = lowConf ? "?" : "";
+      return `
+      <li class="note-item note-temporal${lowConf ? " note-temporal--low-conf" : ""}">
         <span class="note-marker">時${i + 1}</span>
         <span class="note-text">
-          「${escapeHTML(a.text)}」 = 公元 ${a.year_ad} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}
+          「${escapeHTML(a.text)}」 = 公元 ${a.year_ad}${adSuffix} 年${a.month_ordinal ? `（農曆 ${a.month_ordinal} 月）` : ""}
+          ${lowConfBadge}
           ${a.reasoning ? `<span class="note-reasoning">推理：${escapeHTML(a.reasoning)}</span>` : ""}
         </span>
-      </li>`).join("");
+      </li>`;
+    }).join("");
     notesHTML = `<ul class="notes">${peiItems}${tempItems}</ul>`;
   }
 
@@ -487,7 +500,11 @@ function temporalTitle(a) {
   const eraStr = a.era ? `${a.era}${a.era_year === 1 ? "元" : a.era_year}年${month}` : a.text;
   const tail = a.kind === "relative" ? `（相對：${a.resolution || ""}）` : "";
   const head = `${eraStr} = 公元 ${a.year_ad} 年 ${tail}`.trim();
-  return a.reasoning ? `${head}\n推理：${a.reasoning}` : head;
+  const lowConf = typeof a.confidence === "number" && a.confidence < 0.7;
+  const confNote = lowConf
+    ? "\n⚠ 置信度低：本段為「初/先是」開頭的倒敘，無段內絕對年號可定錨；此處 AD 沿用前文敘事年，可能不準確。"
+    : "";
+  return (a.reasoning ? `${head}\n推理：${a.reasoning}` : head) + confNote;
 }
 
 function formatAD(a) {
